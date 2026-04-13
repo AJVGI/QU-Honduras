@@ -140,6 +140,11 @@ function generateMockAgents(): Agent[] {
 export const IS_REAL_DATA = realData !== null;
 export const DATA_TIMESTAMP = realData?.scored_at || null;
 
+// All raw chats (flat, across all agents)
+export const ALL_CHATS: ChatScore[] = realData
+  ? realData.agents.flatMap((a: Agent) => a.chats)
+  : generateMockAgents().flatMap(a => a.chats);
+
 export const AGENTS: Agent[] = realData ? realData.agents : generateMockAgents();
 
 export function getAgent(agentId: string): Agent | undefined {
@@ -154,15 +159,63 @@ export function getChat(chatId: string): { chat: ChatScore; agent: Agent } | und
   return undefined;
 }
 
-export function getTeamStats() {
-  const allChats = AGENTS.flatMap(a => a.chats);
+// ─── Date Filtering ───────────────────────────────────────────────────────────
+
+export interface DateRange {
+  from?: Date;
+  to?: Date;
+  day?: string; // 'YYYY-MM-DD'
+}
+
+export function filterChatsByDate(chats: ChatScore[], range: DateRange): ChatScore[] {
+  if (!range.from && !range.to && !range.day) return chats;
+
+  return chats.filter(c => {
+    const d = new Date(c.timestamp);
+    if (range.day) {
+      const chatDay = d.toISOString().slice(0, 10);
+      return chatDay === range.day;
+    }
+    if (range.from && d < range.from) return false;
+    if (range.to && d > range.to) return false;
+    return true;
+  });
+}
+
+export function getAgentsByDateRange(range: DateRange): Agent[] {
+  if (!range.from && !range.to && !range.day) return AGENTS;
+
+  return AGENTS.map(agent => {
+    const filteredChats = filterChatsByDate(agent.chats, range);
+    if (filteredChats.length === 0) return null;
+    const scores = filteredChats.map(c => c.total_score);
+    const avg_score = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
+    const grade = avg_score >= 90 ? 'A' : avg_score >= 80 ? 'B' : avg_score >= 70 ? 'C' : avg_score >= 60 ? 'D' : 'F';
+    return { ...agent, chats: filteredChats, avg_score, grade } as Agent;
+  }).filter(Boolean) as Agent[];
+}
+
+// Get all unique days that have chat data
+export function getAvailableDays(): string[] {
+  const days = new Set<string>();
+  ALL_CHATS.forEach(c => {
+    days.add(new Date(c.timestamp).toISOString().slice(0, 10));
+  });
+  return Array.from(days).sort().reverse();
+}
+
+// ─── Stats ────────────────────────────────────────────────────────────────────
+
+export function getTeamStats(chatsOverride?: ChatScore[], agentsOverride?: Agent[]) {
+  const allChats = chatsOverride || AGENTS.flatMap(a => a.chats);
+  const agents = agentsOverride || AGENTS;
   const totalChats = allChats.length;
   if (totalChats === 0) return null;
 
   const avgScore = Math.round(allChats.reduce((s, c) => s + c.total_score, 0) / totalChats);
   const autoFails = allChats.filter(c => c.auto_fail.triggered).length;
   const autoFailRate = Math.round((autoFails / totalChats) * 100);
-  const topPerformer = [...AGENTS].sort((a, b) => b.avg_score - a.avg_score)[0];
+  const topPerformer = [...agents].sort((a, b) => b.avg_score - a.avg_score)[0];
 
   const gradeCounts: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, F: 0 };
   allChats.forEach(c => { gradeCounts[c.grade]++; });
