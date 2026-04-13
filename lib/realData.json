@@ -1,0 +1,266 @@
+{
+  "scored_at": "2026-04-13T22:56:57.978Z",
+  "total_chats": 1,
+  "total_agents": 1,
+  "agents": [
+    {
+      "id": "5806",
+      "name": "Oscar Zelaya",
+      "chats": [
+        {
+          "chat_id": "2043812289437855744",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-13T22:03:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "max": 10,
+              "notes": "No proper greeting with customer name or welcome to Jackpot Daily. Agent jumped straight to a hold message without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 2,
+              "max": 20,
+              "notes": "Agent failed to identify or clarify the customer's issue. The customer's form submission had 'Ucha' as the subject which is unclear, but agent never asked for clarification."
+            },
+            "resolution": {
+              "score": 0,
+              "max": 30,
+              "notes": "No resolution provided. Chat appears incomplete with agent only sending hold messages and no actual assistance delivered."
+            },
+            "communication": {
+              "score": 5,
+              "max": 20,
+              "notes": "Polite tone but repetitive messaging. Same hold message sent twice without any progress update or actual engagement with the customer's needs."
+            },
+            "compliance": {
+              "score": 7,
+              "max": 10,
+              "notes": "No compliance violations observed, but also no opportunity to demonstrate proper compliance handling."
+            },
+            "closing": {
+              "score": 0,
+              "max": 10,
+              "notes": "No closing statement provided. Chat appears abandoned without resolution or proper sign-off."
+            }
+          },
+          "auto_fail": {
+            "triggered": true,
+            "reason": "Chat abandoned without resolution - customer received no actual assistance or follow-up after two identical hold messages."
+          },
+          "total_score": 17,
+          "grade": "F",
+          "summary": "This chat represents a significant service failure. The agent sent identical hold messages twice without ever addressing the customer's inquiry, asking clarifying questions, or providing any resolution. The customer's form submission was unclear but the agent made no attempt to understand their needs.",
+          "strengths": [
+            "Polite and professional tone in hold message",
+            "Showed willingness to assist by indicating they would look into the matter"
+          ],
+          "weaknesses": [
+            "Repeated identical message without progress",
+            "No greeting or personalization",
+            "Failed to ask clarifying questions about unclear inquiry",
+            "No resolution or follow-up provided",
+            "Chat appears abandoned"
+          ],
+          "coaching_tip": "Always greet the customer by name, acknowledge their specific inquiry, and if the request is unclear (like 'Ucha' as a subject), immediately ask a clarifying question before placing them on hold. Never send the same hold message twice without an update.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "message_analysis": [
+            {
+              "msg_id": "MSG-01",
+              "speaker": "AGENT",
+              "text": "Please allow me one moment to look into this for you!",
+              "rating": "needs_improvement",
+              "positives": [
+                "Polite tone",
+                "Shows willingness to help"
+              ],
+              "issues": [
+                "No greeting or welcome to Jackpot Daily",
+                "Did not address customer by name (Ucha)",
+                "No acknowledgment of the customer's inquiry",
+                "Placed customer on hold without understanding their issue first"
+              ],
+              "suggestion": "Hi Ucha! Welcome to Jackpot Daily support, my name is Oscar. I see you've reached out to us - could you please share more details about how I can assist you today?",
+              "tags": [
+                "greeting",
+                "discovery"
+              ]
+            },
+            {
+              "msg_id": "MSG-02",
+              "speaker": "CUSTOMER",
+              "text": "<div style=\"display: flex; flex-direction: column; gap: 4px;\"><p style=\"margin:0; padding:0; margin:0",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": []
+            },
+            {
+              "msg_id": "MSG-03",
+              "speaker": "AGENT",
+              "text": "Please allow me one moment to look into this for you!",
+              "rating": "poor",
+              "positives": [],
+              "issues": [
+                "Exact duplicate of MSG-01 with no progress update",
+                "Still no acknowledgment of customer's submission",
+                "No clarifying questions asked despite unclear subject line",
+                "Customer likely confused by repeated identical message",
+                "No explanation of what agent is looking into"
+              ],
+              "suggestion": "Thank you for providing your information, Ucha! I want to make sure I assist you properly - could you please tell me more about what you need help with today? Are you experiencing an issue with your account, have questions about our games, or is there something else I can help you with?",
+              "tags": [
+                "discovery",
+                "tone",
+                "resolution"
+              ]
+            },
+            {
+              "msg_id": "MSG-04",
+              "speaker": "CUSTOMER",
+              "text": "<div style=\"display: flex; flex-direction: column; gap: 4px;\"><p style=\"margin:0; padding:0; margin:0",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": []
+            }
+          ],
+          "scored_with": "anthropic/claude-opus-4-5",
+          "scored_at": "2026-04-13T22:56:52.977Z"
+        }
+      ],
+      "avg_score": 17,
+      "grade": "F",
+      "trend": 0
+    }
+  ],
+  "chats": [
+    {
+      "chat_id": "2043812289437855744",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-13T22:03:39.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "max": 10,
+          "notes": "No proper greeting with customer name or welcome to Jackpot Daily. Agent jumped straight to a hold message without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 2,
+          "max": 20,
+          "notes": "Agent failed to identify or clarify the customer's issue. The customer's form submission had 'Ucha' as the subject which is unclear, but agent never asked for clarification."
+        },
+        "resolution": {
+          "score": 0,
+          "max": 30,
+          "notes": "No resolution provided. Chat appears incomplete with agent only sending hold messages and no actual assistance delivered."
+        },
+        "communication": {
+          "score": 5,
+          "max": 20,
+          "notes": "Polite tone but repetitive messaging. Same hold message sent twice without any progress update or actual engagement with the customer's needs."
+        },
+        "compliance": {
+          "score": 7,
+          "max": 10,
+          "notes": "No compliance violations observed, but also no opportunity to demonstrate proper compliance handling."
+        },
+        "closing": {
+          "score": 0,
+          "max": 10,
+          "notes": "No closing statement provided. Chat appears abandoned without resolution or proper sign-off."
+        }
+      },
+      "auto_fail": {
+        "triggered": true,
+        "reason": "Chat abandoned without resolution - customer received no actual assistance or follow-up after two identical hold messages."
+      },
+      "total_score": 17,
+      "grade": "F",
+      "summary": "This chat represents a significant service failure. The agent sent identical hold messages twice without ever addressing the customer's inquiry, asking clarifying questions, or providing any resolution. The customer's form submission was unclear but the agent made no attempt to understand their needs.",
+      "strengths": [
+        "Polite and professional tone in hold message",
+        "Showed willingness to assist by indicating they would look into the matter"
+      ],
+      "weaknesses": [
+        "Repeated identical message without progress",
+        "No greeting or personalization",
+        "Failed to ask clarifying questions about unclear inquiry",
+        "No resolution or follow-up provided",
+        "Chat appears abandoned"
+      ],
+      "coaching_tip": "Always greet the customer by name, acknowledge their specific inquiry, and if the request is unclear (like 'Ucha' as a subject), immediately ask a clarifying question before placing them on hold. Never send the same hold message twice without an update.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "message_analysis": [
+        {
+          "msg_id": "MSG-01",
+          "speaker": "AGENT",
+          "text": "Please allow me one moment to look into this for you!",
+          "rating": "needs_improvement",
+          "positives": [
+            "Polite tone",
+            "Shows willingness to help"
+          ],
+          "issues": [
+            "No greeting or welcome to Jackpot Daily",
+            "Did not address customer by name (Ucha)",
+            "No acknowledgment of the customer's inquiry",
+            "Placed customer on hold without understanding their issue first"
+          ],
+          "suggestion": "Hi Ucha! Welcome to Jackpot Daily support, my name is Oscar. I see you've reached out to us - could you please share more details about how I can assist you today?",
+          "tags": [
+            "greeting",
+            "discovery"
+          ]
+        },
+        {
+          "msg_id": "MSG-02",
+          "speaker": "CUSTOMER",
+          "text": "<div style=\"display: flex; flex-direction: column; gap: 4px;\"><p style=\"margin:0; padding:0; margin:0",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": []
+        },
+        {
+          "msg_id": "MSG-03",
+          "speaker": "AGENT",
+          "text": "Please allow me one moment to look into this for you!",
+          "rating": "poor",
+          "positives": [],
+          "issues": [
+            "Exact duplicate of MSG-01 with no progress update",
+            "Still no acknowledgment of customer's submission",
+            "No clarifying questions asked despite unclear subject line",
+            "Customer likely confused by repeated identical message",
+            "No explanation of what agent is looking into"
+          ],
+          "suggestion": "Thank you for providing your information, Ucha! I want to make sure I assist you properly - could you please tell me more about what you need help with today? Are you experiencing an issue with your account, have questions about our games, or is there something else I can help you with?",
+          "tags": [
+            "discovery",
+            "tone",
+            "resolution"
+          ]
+        },
+        {
+          "msg_id": "MSG-04",
+          "speaker": "CUSTOMER",
+          "text": "<div style=\"display: flex; flex-direction: column; gap: 4px;\"><p style=\"margin:0; padding:0; margin:0",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": []
+        }
+      ],
+      "scored_with": "anthropic/claude-opus-4-5",
+      "scored_at": "2026-04-13T22:56:52.977Z"
+    }
+  ]
+}
