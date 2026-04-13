@@ -13,12 +13,8 @@ import { StatCard } from '@/components/StatCard';
 import { GradeBadge } from '@/components/GradeBadge';
 
 const CATEGORY_LABELS: Record<string, string> = {
-  greeting: 'Greeting',
-  issue_discovery: 'Issue Discovery',
-  resolution: 'Resolution',
-  communication: 'Communication',
-  compliance: 'Compliance',
-  closing: 'Closing',
+  greeting: 'Greeting', issue_discovery: 'Issue Discovery', resolution: 'Resolution',
+  communication: 'Communication', compliance: 'Compliance', closing: 'Closing',
 };
 
 type SortKey = 'avg_score' | 'grade' | 'chats' | 'trend';
@@ -29,16 +25,20 @@ export default function TeamOverview() {
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const stats = useMemo(() => getTeamStats()!, []);
 
-  const gradeOrder: Record<Grade, number> = { A: 5, B: 4, C: 3, D: 2, F: 1 };
+  const gradeDonut = Object.entries(stats.gradeCounts).map(([grade, count]) => ({
+    name: `Grade ${grade}`, value: count, color: gradeColor(grade as Grade),
+  }));
 
-  const filtered = useMemo(() => {
-    let list = AGENTS.filter(a =>
-      a.name.toLowerCase().includes(search.toLowerCase())
-    );
+  const catBar = stats.catAvgPct.map(c => ({
+    name: CATEGORY_LABELS[c.category] || c.category, score: c.avg,
+  }));
+
+  const filteredAgents = useMemo(() => {
+    let list = AGENTS.filter(a => a.name.toLowerCase().includes(search.toLowerCase()));
     list = [...list].sort((a, b) => {
       let av: number, bv: number;
       if (sortKey === 'avg_score') { av = a.avg_score; bv = b.avg_score; }
-      else if (sortKey === 'grade') { av = gradeOrder[a.grade]; bv = gradeOrder[b.grade]; }
+      else if (sortKey === 'grade') { const o = ['A','B','C','D','F']; av = o.indexOf(a.grade); bv = o.indexOf(b.grade); }
       else if (sortKey === 'chats') { av = a.chats.length; bv = b.chats.length; }
       else { av = a.trend; bv = b.trend; }
       return sortDir === 'desc' ? bv - av : av - bv;
@@ -46,33 +46,33 @@ export default function TeamOverview() {
     return list;
   }, [search, sortKey, sortDir]);
 
-  function toggleSort(key: SortKey) {
+  const toggleSort = (key: SortKey) => {
     if (sortKey === key) setSortDir(d => d === 'desc' ? 'asc' : 'desc');
     else { setSortKey(key); setSortDir('desc'); }
-  }
+  };
 
-  const gradeDonut = Object.entries(stats.gradeCounts).map(([grade, count]) => ({
-    name: `Grade ${grade}`, value: count, color: gradeColor(grade as Grade),
-  }));
+  // Recent activity — last 10 scored chats across all agents
+  const recentActivity = useMemo(() => {
+    const allChats = AGENTS.flatMap(a => a.chats.map(c => ({ ...c, agent: a })));
+    return allChats
+      .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())
+      .slice(0, 10);
+  }, []);
 
-  const catBar = stats.catAvgPct.map(c => ({
-    name: CATEGORY_LABELS[c.category] || c.category,
-    score: c.avg,
-  }));
-
-  const trendLine = stats.weeklyTrend.map(w => ({
-    week: w.week,
-    avg: w.avg,
-  }));
+  const SortTh = ({ k, label }: { k: SortKey; label: string }) => (
+    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider cursor-pointer hover:text-white select-none"
+      onClick={() => toggleSort(k)}>
+      {label} {sortKey === k ? (sortDir === 'desc' ? '↓' : '↑') : ''}
+    </th>
+  );
 
   return (
     <div className="space-y-6">
+      {/* Header */}
       <div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <h1 className="text-2xl font-black text-white">Team Overview</h1>
-          {IS_REAL_DATA && (
-            <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 font-semibold">● LIVE DATA</span>
-          )}
+          {IS_REAL_DATA && <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 font-semibold">● LIVE DATA</span>}
         </div>
         <p className="text-slate-400 text-sm mt-1">
           Honduras Agents — JackpotDaily Casino QA
@@ -84,145 +84,144 @@ export default function TeamOverview() {
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard label="Team Avg Score" value={stats.avgScore} sub="out of 100" color={gradeColor('B')} icon="📈" />
         <StatCard label="Chats Scored" value={stats.totalChats.toLocaleString()} sub="last 30 days" icon="💬" />
-        <StatCard label="Auto-Fail Rate" value={`${stats.autoFailRate}%`} sub="of all chats" color={stats.autoFailRate > 5 ? '#ef4444' : '#22c55e'} icon="⚠️" />
-        <StatCard label="Top Performer" value={stats.topPerformer.name.split(' ')[0]} sub={`Avg ${stats.topPerformer.avg_score}/100`} color="#22c55e" icon="🏆" />
+        <StatCard label="Auto-Fail Rate" value={`${stats.autoFailRate}%`} sub="of all chats" color="#ef4444" icon="⚠️" />
+        <StatCard label="Top Performer" value={stats.topPerformer.name.split(' ')[0]} sub={`Avg ${stats.topPerformer.avg_score}/100`} color={gradeColor('A')} icon="🏆" />
       </div>
 
-      {/* Charts Row */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        {/* Grade Distribution */}
+      {/* Charts */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Grade Donut */}
         <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
           <h2 className="text-sm font-semibold text-slate-300 mb-4">Grade Distribution</h2>
-          <ResponsiveContainer width="100%" height={200}>
+          <ResponsiveContainer width="100%" height={180}>
             <PieChart>
-              <Pie data={gradeDonut} cx="50%" cy="50%" innerRadius={50} outerRadius={80} dataKey="value" paddingAngle={2}>
-                {gradeDonut.map((entry, i) => (
-                  <Cell key={i} fill={entry.color} />
-                ))}
+              <Pie data={gradeDonut} cx="50%" cy="50%" innerRadius={50} outerRadius={80} paddingAngle={2} dataKey="value">
+                {gradeDonut.map((entry, i) => <Cell key={i} fill={entry.color} />)}
               </Pie>
-              <Tooltip
-                contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 8 }}
-                labelStyle={{ color: '#f8fafc' }}
-              />
+              <Tooltip contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0' }} />
             </PieChart>
           </ResponsiveContainer>
-          <div className="flex flex-wrap gap-2 justify-center mt-2">
+          <div className="flex flex-wrap gap-2 mt-2 justify-center">
             {gradeDonut.map(g => (
               <div key={g.name} className="flex items-center gap-1 text-xs text-slate-400">
-                <div className="w-2 h-2 rounded-full" style={{ background: g.color }} />
+                <span className="w-2 h-2 rounded-full" style={{ background: g.color }} />
                 {g.name}: {g.value}
               </div>
             ))}
           </div>
         </div>
 
-        {/* Weakest Category */}
+        {/* Category Averages */}
         <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
           <h2 className="text-sm font-semibold text-slate-300 mb-4">Category Averages (%)</h2>
-          <ResponsiveContainer width="100%" height={200}>
-            <BarChart data={catBar} layout="vertical" margin={{ left: 0, right: 10 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#334155" horizontal={false} />
+          <ResponsiveContainer width="100%" height={180}>
+            <BarChart data={catBar} layout="vertical" margin={{ left: 8, right: 16 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
               <XAxis type="number" domain={[0, 100]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
               <YAxis type="category" dataKey="name" tick={{ fill: '#94a3b8', fontSize: 10 }} width={90} />
-              <Tooltip
-                contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 8 }}
-                formatter={(v: number) => [`${v}%`, 'Avg Score']}
-              />
-              <Bar dataKey="score" radius={[0, 4, 4, 0]}>
-                {catBar.map((entry, i) => (
-                  <Cell key={i} fill={entry.score >= 80 ? '#22c55e' : entry.score >= 70 ? '#f59e0b' : '#ef4444'} />
-                ))}
-              </Bar>
+              <Tooltip contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0' }} />
+              <Bar dataKey="score" fill="#3b82f6" radius={[0, 3, 3, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
 
-        {/* Week over Week */}
+        {/* Weekly Trend */}
         <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
           <h2 className="text-sm font-semibold text-slate-300 mb-4">Weekly Score Trend</h2>
-          <ResponsiveContainer width="100%" height={200}>
-            <LineChart data={trendLine}>
+          <ResponsiveContainer width="100%" height={180}>
+            <LineChart data={stats.weeklyTrend}>
               <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-              <XAxis dataKey="week" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-              <YAxis domain={[60, 100]} tick={{ fill: '#94a3b8', fontSize: 11 }} />
-              <Tooltip
-                contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 8 }}
-                formatter={(v: number) => [v, 'Avg Score']}
-              />
-              <Line type="monotone" dataKey="avg" stroke="#3b82f6" strokeWidth={2} dot={{ fill: '#3b82f6', r: 4 }} connectNulls />
+              <XAxis dataKey="week" tick={{ fill: '#94a3b8', fontSize: 10 }} />
+              <YAxis domain={[0, 100]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
+              <Tooltip contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0' }} />
+              <Line type="monotone" dataKey="avg" stroke="#3b82f6" strokeWidth={2} dot={{ fill: '#3b82f6', r: 3 }} connectNulls />
             </LineChart>
           </ResponsiveContainer>
         </div>
       </div>
 
-      {/* Leaderboard */}
+      {/* Agent Leaderboard */}
       <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
         <div className="p-5 border-b border-slate-700/50 flex flex-col sm:flex-row sm:items-center gap-3">
           <h2 className="text-sm font-semibold text-slate-300 flex-1">Agent Leaderboard</h2>
           <input
-            type="text"
+            value={search} onChange={e => setSearch(e.target.value)}
             placeholder="Search agent..."
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-            className="bg-slate-700/50 border border-slate-600 rounded-lg px-3 py-1.5 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500 w-full sm:w-48"
+            className="px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-600 text-slate-300 text-sm placeholder-slate-500 focus:outline-none focus:border-blue-500 w-full sm:w-48"
           />
         </div>
         <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-slate-700/50">
-                {[
-                  { key: null, label: '#' },
-                  { key: null, label: 'Agent' },
-                  { key: 'avg_score', label: 'Avg Score' },
-                  { key: 'grade', label: 'Grade' },
-                  { key: 'chats', label: 'Chats' },
-                  { key: 'trend', label: 'WoW Trend' },
-                ].map(({ key, label }) => (
-                  <th
-                    key={label}
-                    className={`text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider ${key ? 'cursor-pointer hover:text-white' : ''}`}
-                    onClick={() => key && toggleSort(key as SortKey)}
-                  >
-                    {label} {key && sortKey === key ? (sortDir === 'desc' ? '↓' : '↑') : ''}
-                  </th>
-                ))}
+          <table className="w-full">
+            <thead className="bg-slate-800/50">
+              <tr>
+                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">#</th>
+                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Agent</th>
+                <SortTh k="avg_score" label="Avg Score" />
+                <SortTh k="grade" label="Grade" />
+                <SortTh k="chats" label="Chats" />
+                <SortTh k="trend" label="WoW Trend" />
               </tr>
             </thead>
-            <tbody>
-              {filtered.map((agent, i) => (
-                <tr
-                  key={agent.id}
-                  className="border-b border-slate-700/30 hover:bg-slate-700/30 transition-colors"
-                >
-                  <td className="px-4 py-3 text-slate-500 font-mono text-xs">{i + 1}</td>
-                  <td className="px-4 py-3">
-                    <Link href={`/agent/${agent.id}`} className="text-white font-medium hover:text-blue-400 transition-colors">
+            <tbody className="divide-y divide-slate-700/30">
+              {filteredAgents.map((agent, i) => (
+                <tr key={agent.id} className="hover:bg-slate-800/40 transition-colors cursor-pointer group">
+                  <td className="py-3 px-4 text-slate-500 text-sm">{i + 1}</td>
+                  <td className="py-3 px-4">
+                    <Link href={`/agent/${agent.id}`} className="font-semibold text-white group-hover:text-blue-400 transition-colors">
                       {agent.name}
                     </Link>
                   </td>
-                  <td className="px-4 py-3">
+                  <td className="py-3 px-4">
                     <div className="flex items-center gap-2">
-                      <div className="flex-1 h-1.5 bg-slate-700 rounded-full max-w-[80px]">
-                        <div
-                          className="h-1.5 rounded-full"
-                          style={{ width: `${agent.avg_score}%`, background: gradeColor(agent.grade) }}
-                        />
+                      <div className="w-24 h-1.5 bg-slate-700 rounded-full">
+                        <div className="h-1.5 rounded-full" style={{ width: `${agent.avg_score}%`, background: gradeColor(agent.grade) }} />
                       </div>
-                      <span className="font-mono font-bold text-white">{agent.avg_score}</span>
+                      <span className="font-mono font-bold text-sm" style={{ color: gradeColor(agent.grade) }}>{agent.avg_score}</span>
                     </div>
                   </td>
-                  <td className="px-4 py-3"><GradeBadge grade={agent.grade} /></td>
-                  <td className="px-4 py-3 text-slate-300">{agent.chats.length}</td>
-                  <td className="px-4 py-3">
-                    <span className={`font-mono text-sm font-semibold ${agent.trend >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-                      {agent.trend >= 0 ? '↑' : '↓'} {Math.abs(agent.trend)}
+                  <td className="py-3 px-4"><GradeBadge grade={agent.grade} /></td>
+                  <td className="py-3 px-4 text-slate-300 text-sm">{agent.chats.length}</td>
+                  <td className="py-3 px-4">
+                    <span className={`text-sm font-semibold ${agent.trend > 0 ? 'text-green-400' : agent.trend < 0 ? 'text-red-400' : 'text-slate-400'}`}>
+                      {agent.trend > 0 ? '↑' : agent.trend < 0 ? '↓' : '→'} {Math.abs(agent.trend)}
                     </span>
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
+          {filteredAgents.length === 0 && (
+            <div className="text-center py-12 text-slate-400">No agents found matching &quot;{search}&quot;</div>
+          )}
+        </div>
+      </div>
+
+      {/* Recent Activity */}
+      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
+        <div className="p-5 border-b border-slate-700/50">
+          <h2 className="text-sm font-semibold text-slate-300">Recent Activity</h2>
+          <p className="text-xs text-slate-500 mt-1">Last 10 scored chats across all agents</p>
+        </div>
+        <div className="divide-y divide-slate-700/30">
+          {recentActivity.map((chat, i) => (
+            <div key={i} className="flex items-center gap-4 px-5 py-3 hover:bg-slate-800/30 transition-colors">
+              <GradeBadge grade={chat.grade} />
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <Link href={`/agent/${chat.agent.id}`} className="text-sm font-semibold text-white hover:text-blue-400 transition-colors">
+                    {chat.agent_name}
+                  </Link>
+                  {chat.auto_fail.triggered && <span className="text-xs text-red-400">🚨 Auto-fail</span>}
+                  {chat.website && <span className="text-xs text-slate-500">{chat.website}</span>}
+                </div>
+                <div className="text-xs text-slate-500">{new Date(chat.timestamp).toLocaleString()}</div>
+              </div>
+              <div className="text-right">
+                <div className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</div>
+                <Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300">View →</Link>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
