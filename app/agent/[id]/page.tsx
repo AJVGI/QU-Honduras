@@ -7,7 +7,7 @@ import {
   ResponsiveContainer, Tooltip,
   LineChart, Line, XAxis, YAxis, CartesianGrid,
 } from 'recharts';
-import { getAgent } from '@/lib/mockData';
+import { getAgent } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatDate, formatShortDate } from '@/lib/utils';
 import { CATEGORY_LABELS, CATEGORY_MAX } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';

@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { getChat } from '@/lib/mockData';
+import { getChat } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatDate } from '@/lib/utils';
 import { CATEGORY_LABELS, CATEGORY_MAX } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';

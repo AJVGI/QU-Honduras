@@ -1,0 +1,819 @@
+{
+  "scored_at": "2026-04-13T22:17:05.746Z",
+  "total_chats": 9,
+  "total_agents": 4,
+  "agents": [
+    {
+      "id": "5807",
+      "name": "Oskar Abaunza",
+      "chats": [
+        {
+          "chat_id": "2043810867182923776",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-13T22:04:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Friendly tone but no customer name used; generic greeting."
+            },
+            "issue_discovery": {
+              "score": 5,
+              "notes": "Agent acknowledged issue but did not ask clarifying questions or confirm details."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No solution offered; no follow‑up steps provided."
+            },
+            "communication": {
+              "score": 6,
+              "notes": "Clear language, concise, but repetitive and lacks empathy."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No disclosures or unauthorized promises; compliance met."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Repeated opening greeting; no offer for further help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 29,
+          "grade": "F",
+          "summary": "The agent was friendly but failed to personalize the greeting, did not adequately investigate the issue, and offered no resolution. Compliance was maintained, but overall service quality was low.",
+          "coaching_tip": "Ask specific questions to confirm the issue and provide a clear next step or solution.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "model_used": "openai/gpt-oss-20b:free"
+        },
+        {
+          "chat_id": "2043807722440585216",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-13T21:57:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 2,
+              "notes": "Agent did not greet the customer at the start; the opening message was a closing remark instead."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent did not ask clarifying questions or confirm the issue; simply provided generic KYC instructions."
+            },
+            "resolution": {
+              "score": 25,
+              "notes": "Agent supplied correct, step‑by‑step instructions for identity verification, which addresses the customer’s request."
+            },
+            "communication": {
+              "score": 18,
+              "notes": "Language was clear, concise, and friendly; no jargon or confusing terms."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "All disclosures were followed, no unauthorized promises or data leaks."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Agent closed politely, offered good luck, but did not explicitly ask if further help was needed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "The agent provided accurate KYC instructions but missed early greeting and issue confirmation. Communication was clear and compliant, with a courteous closing.",
+          "coaching_tip": "Start each chat with a friendly greeting that includes the customer’s name and a brief acknowledgment of their issue.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "model_used": "openai/gpt-oss-20b:free"
+        },
+        {
+          "chat_id": "2043805999386947584",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-13T21:56:55.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Friendly but generic, did not use customer name."
+            },
+            "issue_discovery": {
+              "score": 12,
+              "notes": "Agent identified KYC issue but did not probe for error details or ask clarifying questions."
+            },
+            "resolution": {
+              "score": 15,
+              "notes": "Provided generic troubleshooting steps; no confirmation of success or alternative solutions."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, concise, empathetic tone with no jargon."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No unauthorized promises or data disclosure."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Repeated closing remarks but no explicit offer for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "The agent was friendly and clear but lacked depth in issue discovery and resolution. The conversation stayed compliant and professional, though the closing could be more supportive.",
+          "coaching_tip": "Ask follow‑up questions to confirm the exact error message and offer a direct link to the verification portal to expedite the process.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "model_used": "openai/gpt-oss-20b:free"
+        }
+      ],
+      "avg_score": 54,
+      "grade": "F",
+      "trend": 0
+    },
+    {
+      "id": "5806",
+      "name": "Oscar Zelaya",
+      "chats": [
+        {
+          "chat_id": "2043812289437855744",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-13T22:03:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No greeting, no use of customer's name, no friendly tone."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent did not ask any questions or confirm the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No solution or information provided."
+            },
+            "communication": {
+              "score": 5,
+              "notes": "Message is polite but overly brief; lacks clarity about next steps."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No disclosures violated, no unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing statement or offer for further help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 15,
+          "grade": "F",
+          "summary": "The agent only repeated a generic hold message without greeting, discovery, or resolution. Communication was polite but insufficient.",
+          "coaching_tip": "Start with a personalized greeting, ask clarifying questions, and outline the next steps before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "model_used": "openai/gpt-oss-120b:free"
+        },
+        {
+          "chat_id": "2043805379774427136",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-13T21:56:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Friendly greeting, used customer name, positive tone."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Asked clarifying questions but did not fully probe root cause."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution provided; only generic wait times and email escalation."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear language, concise, but repetitive and lacking empathy."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "Followed disclosure guidelines, no unauthorized promises."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Thanked customer but did not offer further assistance or confirm next steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "The agent greeted warmly and asked clarifying questions but failed to resolve the issue, offering only generic wait times and an email escalation. Communication was clear but repetitive, and the closing was brief without a strong offer for further help.",
+          "coaching_tip": "Focus on actively resolving the issue during the chat instead of deferring to email; provide a clear next step and confirm resolution before ending the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 60,
+          "model_used": "openai/gpt-oss-20b:free"
+        },
+        {
+          "chat_id": "2043808845183889408",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-13T21:52:37.000Z",
+          "categories": {
+            "greeting": {
+              "score": 10,
+              "notes": "Friendly greeting, used customer’s username."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent identified the issue but did not ask clarifying questions."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided correct information about bonus eligibility and steps."
+            },
+            "communication": {
+              "score": 18,
+              "notes": "Clear, concise, empathetic language with no jargon."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No unauthorized promises or data disclosures."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Closed politely, offered further help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "The agent greeted warmly, explained the bonus process clearly, and closed politely. The conversation could improve by asking follow‑up questions to confirm the customer’s status.",
+          "coaching_tip": "Ask a clarifying question to confirm the customer has completed verification before concluding the issue.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "model_used": "openai/gpt-oss-20b:free"
+        }
+      ],
+      "avg_score": 48,
+      "grade": "F",
+      "trend": 0
+    },
+    {
+      "id": "5552",
+      "name": "Eliezer Mejia",
+      "chats": [
+        {
+          "chat_id": "2043810053450199040",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-13T21:56:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Generic welcome, no use of customer's name, minimal friendliness."
+            },
+            "issue_discovery": {
+              "score": 5,
+              "notes": "Did not ask clarifying questions or confirm the specific problem; relied on assumed issue."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Provided general instructions about the welcome bonus but did not verify if it resolved the user's concern."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear language but repetitive and includes unnecessary HTML snippet; lacks conciseness."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No unauthorized promises or data disclosure; adhered to standard disclosures."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No proper closing statement or offer for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 42,
+          "grade": "F",
+          "summary": "The agent gave a generic welcome and explained the bonus process but failed to personalize the interaction or confirm the issue was resolved. Closing was abrupt with no final offer of help.",
+          "coaching_tip": "Ask a specific question to confirm the customer's exact problem and end the chat with a clear, friendly closing offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "model_used": "openai/gpt-oss-120b:free"
+        },
+        {
+          "chat_id": "2043807710537150464",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-13T21:52:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 2,
+              "notes": "Agent greeted but did not use customer name or show friendly tone; repeated generic message."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent asked for screenshot but did not confirm understanding of location restriction issue; minimal probing."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No solution provided; no follow‑up steps offered."
+            },
+            "communication": {
+              "score": 6,
+              "notes": "Language is clear but repetitive; some unnecessary repetition and lack of concise structure."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No disclosures or unauthorized promises; compliance met."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "Closing message was generic and repeated; no offer for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 24,
+          "grade": "F",
+          "summary": "The agent provided minimal assistance, with repeated generic messages and no resolution. The conversation lacked personalization and clear next steps.",
+          "coaching_tip": "Start the chat by greeting the customer by name, confirm the issue in your own words, and provide a clear, actionable solution or next step.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "model_used": "openai/gpt-oss-20b:free"
+        }
+      ],
+      "avg_score": 33,
+      "grade": "F",
+      "trend": 0
+    },
+    {
+      "id": "5840",
+      "name": "Ludovicode Flores",
+      "chats": [
+        {
+          "chat_id": "2043807975571025920",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-13T21:50:28.000Z",
+          "categories": {
+            "greeting": {
+              "score": 2,
+              "notes": "Agent greeted but did not use customer name or friendly tone; generic."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent acknowledged issue but did not ask clarifying questions or confirm details."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No solution provided; case escalated but no resolution offered."
+            },
+            "communication": {
+              "score": 6,
+              "notes": "Language clear and concise, but lacks empathy and personalization."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No disclosures or unauthorized promises observed."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Agent offered further help but did not properly close with professional sign-off."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 26,
+          "grade": "F",
+          "summary": "The agent provided a generic greeting and brief updates but failed to address the customer’s issue or offer a resolution. Communication was clear but lacked personalization and empathy.",
+          "coaching_tip": "Begin each chat by greeting the customer by name, ask specific questions to fully understand the issue, and provide a clear, actionable solution before closing.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "model_used": "openai/gpt-oss-20b:free"
+        }
+      ],
+      "avg_score": 26,
+      "grade": "F",
+      "trend": 0
+    }
+  ],
+  "chats": [
+    {
+      "chat_id": "2043810867182923776",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-13T22:04:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Friendly tone but no customer name used; generic greeting."
+        },
+        "issue_discovery": {
+          "score": 5,
+          "notes": "Agent acknowledged issue but did not ask clarifying questions or confirm details."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No solution offered; no follow‑up steps provided."
+        },
+        "communication": {
+          "score": 6,
+          "notes": "Clear language, concise, but repetitive and lacks empathy."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No disclosures or unauthorized promises; compliance met."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Repeated opening greeting; no offer for further help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 29,
+      "grade": "F",
+      "summary": "The agent was friendly but failed to personalize the greeting, did not adequately investigate the issue, and offered no resolution. Compliance was maintained, but overall service quality was low.",
+      "coaching_tip": "Ask specific questions to confirm the issue and provide a clear next step or solution.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "model_used": "openai/gpt-oss-20b:free"
+    },
+    {
+      "chat_id": "2043812289437855744",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-13T22:03:39.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "No greeting, no use of customer's name, no friendly tone."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent did not ask any questions or confirm the issue."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No solution or information provided."
+        },
+        "communication": {
+          "score": 5,
+          "notes": "Message is polite but overly brief; lacks clarity about next steps."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No disclosures violated, no unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing statement or offer for further help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 15,
+      "grade": "F",
+      "summary": "The agent only repeated a generic hold message without greeting, discovery, or resolution. Communication was polite but insufficient.",
+      "coaching_tip": "Start with a personalized greeting, ask clarifying questions, and outline the next steps before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 4,
+      "model_used": "openai/gpt-oss-120b:free"
+    },
+    {
+      "chat_id": "2043807722440585216",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-13T21:57:01.000Z",
+      "categories": {
+        "greeting": {
+          "score": 2,
+          "notes": "Agent did not greet the customer at the start; the opening message was a closing remark instead."
+        },
+        "issue_discovery": {
+          "score": 4,
+          "notes": "Agent did not ask clarifying questions or confirm the issue; simply provided generic KYC instructions."
+        },
+        "resolution": {
+          "score": 25,
+          "notes": "Agent supplied correct, step‑by‑step instructions for identity verification, which addresses the customer’s request."
+        },
+        "communication": {
+          "score": 18,
+          "notes": "Language was clear, concise, and friendly; no jargon or confusing terms."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "All disclosures were followed, no unauthorized promises or data leaks."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Agent closed politely, offered good luck, but did not explicitly ask if further help was needed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "The agent provided accurate KYC instructions but missed early greeting and issue confirmation. Communication was clear and compliant, with a courteous closing.",
+      "coaching_tip": "Start each chat with a friendly greeting that includes the customer’s name and a brief acknowledgment of their issue.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "model_used": "openai/gpt-oss-20b:free"
+    },
+    {
+      "chat_id": "2043805999386947584",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-13T21:56:55.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Friendly but generic, did not use customer name."
+        },
+        "issue_discovery": {
+          "score": 12,
+          "notes": "Agent identified KYC issue but did not probe for error details or ask clarifying questions."
+        },
+        "resolution": {
+          "score": 15,
+          "notes": "Provided generic troubleshooting steps; no confirmation of success or alternative solutions."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, concise, empathetic tone with no jargon."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No unauthorized promises or data disclosure."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Repeated closing remarks but no explicit offer for further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 66,
+      "grade": "D",
+      "summary": "The agent was friendly and clear but lacked depth in issue discovery and resolution. The conversation stayed compliant and professional, though the closing could be more supportive.",
+      "coaching_tip": "Ask follow‑up questions to confirm the exact error message and offer a direct link to the verification portal to expedite the process.",
+      "website": "Jackpot Daily",
+      "message_count": 28,
+      "model_used": "openai/gpt-oss-20b:free"
+    },
+    {
+      "chat_id": "2043810053450199040",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-13T21:56:25.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Generic welcome, no use of customer's name, minimal friendliness."
+        },
+        "issue_discovery": {
+          "score": 5,
+          "notes": "Did not ask clarifying questions or confirm the specific problem; relied on assumed issue."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Provided general instructions about the welcome bonus but did not verify if it resolved the user's concern."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear language but repetitive and includes unnecessary HTML snippet; lacks conciseness."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "No unauthorized promises or data disclosure; adhered to standard disclosures."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No proper closing statement or offer for further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 42,
+      "grade": "F",
+      "summary": "The agent gave a generic welcome and explained the bonus process but failed to personalize the interaction or confirm the issue was resolved. Closing was abrupt with no final offer of help.",
+      "coaching_tip": "Ask a specific question to confirm the customer's exact problem and end the chat with a clear, friendly closing offering further assistance.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "model_used": "openai/gpt-oss-120b:free"
+    },
+    {
+      "chat_id": "2043805379774427136",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-13T21:56:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Friendly greeting, used customer name, positive tone."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Asked clarifying questions but did not fully probe root cause."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution provided; only generic wait times and email escalation."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear language, concise, but repetitive and lacking empathy."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "Followed disclosure guidelines, no unauthorized promises."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Thanked customer but did not offer further assistance or confirm next steps."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 48,
+      "grade": "F",
+      "summary": "The agent greeted warmly and asked clarifying questions but failed to resolve the issue, offering only generic wait times and an email escalation. Communication was clear but repetitive, and the closing was brief without a strong offer for further help.",
+      "coaching_tip": "Focus on actively resolving the issue during the chat instead of deferring to email; provide a clear next step and confirm resolution before ending the conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 60,
+      "model_used": "openai/gpt-oss-20b:free"
+    },
+    {
+      "chat_id": "2043808845183889408",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-13T21:52:37.000Z",
+      "categories": {
+        "greeting": {
+          "score": 10,
+          "notes": "Friendly greeting, used customer’s username."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent identified the issue but did not ask clarifying questions."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided correct information about bonus eligibility and steps."
+        },
+        "communication": {
+          "score": 18,
+          "notes": "Clear, concise, empathetic language with no jargon."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No unauthorized promises or data disclosures."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Closed politely, offered further help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 81,
+      "grade": "B",
+      "summary": "The agent greeted warmly, explained the bonus process clearly, and closed politely. The conversation could improve by asking follow‑up questions to confirm the customer’s status.",
+      "coaching_tip": "Ask a clarifying question to confirm the customer has completed verification before concluding the issue.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "model_used": "openai/gpt-oss-20b:free"
+    },
+    {
+      "chat_id": "2043807710537150464",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-13T21:52:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 2,
+          "notes": "Agent greeted but did not use customer name or show friendly tone; repeated generic message."
+        },
+        "issue_discovery": {
+          "score": 4,
+          "notes": "Agent asked for screenshot but did not confirm understanding of location restriction issue; minimal probing."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No solution provided; no follow‑up steps offered."
+        },
+        "communication": {
+          "score": 6,
+          "notes": "Language is clear but repetitive; some unnecessary repetition and lack of concise structure."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No disclosures or unauthorized promises; compliance met."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "Closing message was generic and repeated; no offer for further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 24,
+      "grade": "F",
+      "summary": "The agent provided minimal assistance, with repeated generic messages and no resolution. The conversation lacked personalization and clear next steps.",
+      "coaching_tip": "Start the chat by greeting the customer by name, confirm the issue in your own words, and provide a clear, actionable solution or next step.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "model_used": "openai/gpt-oss-20b:free"
+    },
+    {
+      "chat_id": "2043807975571025920",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-13T21:50:28.000Z",
+      "categories": {
+        "greeting": {
+          "score": 2,
+          "notes": "Agent greeted but did not use customer name or friendly tone; generic."
+        },
+        "issue_discovery": {
+          "score": 4,
+          "notes": "Agent acknowledged issue but did not ask clarifying questions or confirm details."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No solution provided; case escalated but no resolution offered."
+        },
+        "communication": {
+          "score": 6,
+          "notes": "Language clear and concise, but lacks empathy and personalization."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No disclosures or unauthorized promises observed."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Agent offered further help but did not properly close with professional sign-off."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 26,
+      "grade": "F",
+      "summary": "The agent provided a generic greeting and brief updates but failed to address the customer’s issue or offer a resolution. Communication was clear but lacked personalization and empathy.",
+      "coaching_tip": "Begin each chat by greeting the customer by name, ask specific questions to fully understand the issue, and provide a clear, actionable solution before closing.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "model_used": "openai/gpt-oss-20b:free"
+    }
+  ]
+}

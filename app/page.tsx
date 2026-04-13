@@ -6,7 +6,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid,
   LineChart, Line, Legend,
 } from 'recharts';
-import { AGENTS, getTeamStats } from '@/lib/mockData';
+import { AGENTS, getTeamStats, IS_REAL_DATA, DATA_TIMESTAMP } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatShortDate } from '@/lib/utils';
 import { Grade } from '@/lib/types';
 import { StatCard } from '@/components/StatCard';
@@ -68,8 +68,16 @@ export default function TeamOverview() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-black text-white">Team Overview</h1>
-        <p className="text-slate-400 text-sm mt-1">Honduras Agents — JackpotDaily Casino QA</p>
+        <div className="flex items-center gap-3">
+          <h1 className="text-2xl font-black text-white">Team Overview</h1>
+          {IS_REAL_DATA && (
+            <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 font-semibold">● LIVE DATA</span>
+          )}
+        </div>
+        <p className="text-slate-400 text-sm mt-1">
+          Honduras Agents — JackpotDaily Casino QA
+          {DATA_TIMESTAMP && <span className="ml-2">· Scored {new Date(DATA_TIMESTAMP).toLocaleDateString()}</span>}
+        </p>
       </div>
 
       {/* Stat Cards */}
