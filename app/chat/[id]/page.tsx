@@ -189,13 +189,13 @@ export default function ChatDetail() {
       </div>
 
       {/* Strengths & Weaknesses (Opus only) */}
-      {(chat.strengths?.length || chat.weaknesses?.length) && (
+      {((chat.strengths?.length ?? 0) > 0 || (chat.weaknesses?.length ?? 0) > 0) && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {chat.strengths?.length > 0 && (
+          {(chat.strengths?.length ?? 0) > 0 && (
             <div className="bg-green-900/10 border border-green-500/20 rounded-xl p-5">
               <h2 className="text-sm font-semibold text-green-400 mb-3">💪 Strengths</h2>
               <ul className="space-y-1.5">
-                {chat.strengths.map((s, i) => (
+                {(chat.strengths ?? []).map((s, i) => (
                   <li key={i} className="flex gap-2 text-sm text-slate-300">
                     <span className="text-green-400 mt-0.5">✓</span>{s}
                   </li>
@@ -203,11 +203,11 @@ export default function ChatDetail() {
               </ul>
             </div>
           )}
-          {chat.weaknesses?.length > 0 && (
+          {(chat.weaknesses?.length ?? 0) > 0 && (
             <div className="bg-red-900/10 border border-red-500/20 rounded-xl p-5">
               <h2 className="text-sm font-semibold text-red-400 mb-3">🎯 Areas to Improve</h2>
               <ul className="space-y-1.5">
-                {chat.weaknesses.map((w, i) => (
+                {(chat.weaknesses ?? []).map((w, i) => (
                   <li key={i} className="flex gap-2 text-sm text-slate-300">
                     <span className="text-red-400 mt-0.5">✗</span>{w}
                   </li>
