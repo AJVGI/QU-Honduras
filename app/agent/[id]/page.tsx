@@ -11,6 +11,7 @@ import { getAgent } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatDate, formatShortDate } from '@/lib/utils';
 import { CATEGORY_LABELS, CATEGORY_MAX } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';
+import { FlagLink, ChatJumpLink } from '@/components/FlagLink';
 
 type Tab = 'overview' | 'chats' | 'byday' | 'training';
 
@@ -217,9 +218,16 @@ export default function AgentDetail() {
                     <div key={i} className="bg-red-900/10 border border-red-500/20 rounded-lg px-3 py-2">
                       <div className="flex items-center justify-between mb-1">
                         <span className="text-xs text-slate-400">{formatDate(chat.timestamp)}</span>
-                        <Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300">View →</Link>
+                        <ChatJumpLink chatId={chat.chat_id} label="View chat →" />
                       </div>
-                      <p className="text-xs text-red-300">{chat.auto_fail.reason || 'Auto-fail triggered'}</p>
+                      <div className="flex items-center gap-2 mt-1">
+                        <FlagLink
+                          chatId={chat.chat_id}
+                          type="auto_fail"
+                          reason={chat.auto_fail.reason || 'Auto-fail triggered'}
+                          showLabel
+                        />
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -248,7 +256,7 @@ export default function AgentDetail() {
               <table className="w-full">
                 <thead className="bg-slate-800/50">
                   <tr>
-                    {['Date', 'Chat ID', 'Score', 'Grade', 'Website', 'Auto-Fail', ''].map(h => (
+                    {['Date', 'Chat ID', 'Score', 'Grade', 'Website', 'Flags', ''].map(h => (
                       <th key={h} className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">{h}</th>
                     ))}
                   </tr>
@@ -261,8 +269,20 @@ export default function AgentDetail() {
                       <td className="py-3 px-4 font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</td>
                       <td className="py-3 px-4"><GradeBadge grade={chat.grade} /></td>
                       <td className="py-3 px-4 text-xs text-slate-400">{chat.website || '—'}</td>
-                      <td className="py-3 px-4">{chat.auto_fail.triggered ? <span className="text-xs text-red-400">🚨 Yes</span> : <span className="text-xs text-slate-500">—</span>}</td>
-                      <td className="py-3 px-4"><Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300 font-medium">View →</Link></td>
+                      <td className="py-3 px-4">
+                        <div className="flex gap-1 flex-wrap">
+                          {chat.auto_fail.triggered && (
+                            <FlagLink chatId={chat.chat_id} type="auto_fail" reason={chat.auto_fail.reason || undefined} />
+                          )}
+                          {!chat.auto_fail.triggered && chat.grade === 'F' && (
+                            <FlagLink chatId={chat.chat_id} type="poor" reason="Low score" />
+                          )}
+                          {!chat.auto_fail.triggered && (chat.grade === 'D') && (
+                            <FlagLink chatId={chat.chat_id} type="needs_improvement" reason="Needs improvement" />
+                          )}
+                        </div>
+                      </td>
+                      <td className="py-3 px-4"><ChatJumpLink chatId={chat.chat_id} label="View →" /></td>
                     </tr>
                   ))}
                 </tbody>
@@ -313,9 +333,11 @@ export default function AgentDetail() {
                         <span className="text-xs text-slate-500 font-mono">{new Date(chat.timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
                         <GradeBadge grade={chat.grade} />
                         <span className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</span>
-                        {chat.auto_fail.triggered && <span className="text-xs text-red-400">🚨</span>}
+                        {chat.auto_fail.triggered && (
+                          <FlagLink chatId={chat.chat_id} type="auto_fail" reason={chat.auto_fail.reason || 'Auto-fail'} />
+                        )}
                         <span className="flex-1 text-xs text-slate-500 truncate">{chat.summary?.substring(0, 80) || '—'}</span>
-                        <Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300 flex-shrink-0">View →</Link>
+                        <ChatJumpLink chatId={chat.chat_id} label="View →" />
                       </div>
                     ))}
                   </div>

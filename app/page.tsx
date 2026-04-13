@@ -14,6 +14,8 @@ import { gradeColor, gradeBg, formatShortDate } from '@/lib/utils';
 import { Grade } from '@/lib/types';
 import { StatCard } from '@/components/StatCard';
 import { GradeBadge } from '@/components/GradeBadge';
+import { AgentLink } from '@/components/AgentLink';
+import { FlagLink, ChatJumpLink } from '@/components/FlagLink';
 
 const CATEGORY_LABELS: Record<string, string> = {
   greeting: 'Greeting', issue_discovery: 'Issue Discovery', resolution: 'Resolution',
@@ -285,9 +287,7 @@ export default function TeamOverview() {
                     <tr key={agent.id} className="hover:bg-slate-800/40 transition-colors cursor-pointer group">
                       <td className="py-3 px-4 text-slate-500 text-sm">{i + 1}</td>
                       <td className="py-3 px-4">
-                        <Link href={`/agent/${agent.id}`} className="font-semibold text-white group-hover:text-blue-400 transition-colors">
-                          {agent.name}
-                        </Link>
+                        <AgentLink agentId={agent.id} agentName={agent.name} className="group-hover:text-blue-400" />
                       </td>
                       <td className="py-3 px-4">
                         <div className="flex items-center gap-2">
@@ -331,22 +331,25 @@ export default function TeamOverview() {
                 <div key={i} className="flex items-center gap-4 px-5 py-3 hover:bg-slate-800/30 transition-colors">
                   <GradeBadge grade={chat.grade} />
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 flex-wrap">
                       {chat.agent ? (
-                        <Link href={`/agent/${chat.agent.id}`} className="text-sm font-semibold text-white hover:text-blue-400 transition-colors">
-                          {chat.agent_name}
-                        </Link>
+                        <AgentLink agentId={chat.agent.id} agentName={chat.agent_name} />
                       ) : (
                         <span className="text-sm font-semibold text-white">{chat.agent_name}</span>
                       )}
-                      {chat.auto_fail.triggered && <span className="text-xs text-red-400">🚨 Auto-fail</span>}
+                      {chat.auto_fail.triggered && (
+                        <FlagLink chatId={chat.chat_id} type="auto_fail" reason={chat.auto_fail.reason || 'Auto-fail'} showLabel />
+                      )}
+                      {!chat.auto_fail.triggered && chat.grade === 'F' && (
+                        <FlagLink chatId={chat.chat_id} type="poor" reason="Low score" />
+                      )}
                       {chat.website && <span className="text-xs text-slate-500">{chat.website}</span>}
                     </div>
                     <div className="text-xs text-slate-500">{new Date(chat.timestamp).toLocaleString()}</div>
                   </div>
                   <div className="text-right">
                     <div className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</div>
-                    <Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300">View →</Link>
+                    <ChatJumpLink chatId={chat.chat_id} />
                   </div>
                 </div>
               ))}

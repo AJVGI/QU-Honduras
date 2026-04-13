@@ -1,10 +1,13 @@
 'use client';
+import { useEffect } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { getChat } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatDate } from '@/lib/utils';
 import { CATEGORY_LABELS, CATEGORY_MAX, MessageAnalysis, MessageRating } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';
+import { AgentLink } from '@/components/AgentLink';
+import { FlagLink } from '@/components/FlagLink';
 
 const RATING_CONFIG: Record<MessageRating, { label: string; color: string; bg: string; icon: string }> = {
   excellent:         { label: 'Excellent',         color: 'text-green-400',  bg: 'bg-green-500/10 border-green-500/30',  icon: '✅' },
@@ -28,14 +31,26 @@ const TAG_COLORS: Record<string, string> = {
 function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
   const isAgent = msg.speaker === 'AGENT';
   const cfg = RATING_CONFIG[msg.rating] || RATING_CONFIG.na;
+  // Anchor id derived from msg_id e.g. 'MSG-03' → 'msg-msg-03'
+  const anchorId = `msg-${msg.msg_id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
   return (
-    <div className={`border rounded-xl overflow-hidden ${isAgent ? '' : 'opacity-70'}`}>
+    <div
+      id={anchorId}
+      className={`border rounded-xl overflow-hidden scroll-mt-24 ${isAgent ? '' : 'opacity-70'}`}
+    >
       {/* Message Header */}
       <div className={`flex items-center justify-between px-4 py-3 border-b ${cfg.bg} border-current`}
            style={{ borderColor: undefined }}>
         <div className="flex items-center gap-3">
-          <span className="text-xs font-mono text-slate-500">{msg.msg_id}</span>
+          {/* Anchor link — click to copy/navigate to this exact message */}
+          <a
+            href={`#${anchorId}`}
+            className="text-xs font-mono text-slate-500 hover:text-blue-400 transition-colors"
+            title="Link to this message"
+          >
+            #{msg.msg_id}
+          </a>
           <span className={`text-xs font-bold ${isAgent ? 'text-white' : 'text-slate-400'}`}>
             {isAgent ? '🎧 AGENT' : '👤 CUSTOMER'}
           </span>
@@ -103,6 +118,14 @@ export default function ChatDetail() {
   const { id } = useParams<{ id: string }>();
   const result = getChat(decodeURIComponent(id));
 
+  // Scroll to anchor hash on mount (for deep-linked flags)
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.hash) {
+      const el = document.querySelector(window.location.hash);
+      if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
+    }
+  }, []);
+
   if (!result) {
     return (
       <div className="flex items-center justify-center h-64">
@@ -149,11 +172,12 @@ export default function ChatDetail() {
                 </span>
               )}
             </div>
-            <p className="text-slate-400 text-sm">
-              Agent: <Link href={`/agent/${agent.id}`} className="text-blue-400 hover:text-blue-300">{chat.agent_name}</Link>
-              {chat.website && <span> · {chat.website}</span>}
-              {' · '}{formatDate(chat.timestamp)}
-              {chat.message_count && <span> · {chat.message_count} messages</span>}
+            <p className="text-slate-400 text-sm flex items-center gap-2 flex-wrap">
+              <span>Agent:</span>
+              <AgentLink agentId={agent.id} agentName={chat.agent_name} grade={agent.grade} showGrade />
+              {chat.website && <span>· {chat.website}</span>}
+              <span>·</span><span>{formatDate(chat.timestamp)}</span>
+              {chat.message_count && <span>· {chat.message_count} messages</span>}
             </p>
           </div>
           <div className="text-center">
