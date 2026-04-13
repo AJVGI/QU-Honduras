@@ -1,4 +1,16 @@
 export type Grade = 'A' | 'B' | 'C' | 'D' | 'F';
+export type MessageRating = 'excellent' | 'good' | 'needs_improvement' | 'poor' | 'na';
+
+export interface MessageAnalysis {
+  msg_id: string;
+  speaker: 'AGENT' | 'CUSTOMER';
+  text: string;
+  rating: MessageRating;
+  positives: string[];
+  issues: string[];
+  suggestion: string | null;
+  tags: string[];
+}
 
 export interface CategoryScore {
   score: number;
@@ -22,7 +34,14 @@ export interface ChatScore {
   total_score: number;
   grade: Grade;
   summary: string;
+  strengths?: string[];
+  weaknesses?: string[];
   coaching_tip: string;
+  message_analysis?: MessageAnalysis[];
+  scored_with?: string;
+  scored_at?: string;
+  website?: string;
+  message_count?: number;
 }
 
 export interface Agent {

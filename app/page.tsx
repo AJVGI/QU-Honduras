@@ -27,7 +27,7 @@ export default function TeamOverview() {
   const [search, setSearch] = useState('');
   const [sortKey, setSortKey] = useState<SortKey>('avg_score');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
-  const stats = useMemo(() => getTeamStats(), []);
+  const stats = useMemo(() => getTeamStats()!, []);
 
   const gradeOrder: Record<Grade, number> = { A: 5, B: 4, C: 3, D: 2, F: 1 };
 

@@ -3,8 +3,101 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { getChat } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatDate } from '@/lib/utils';
-import { CATEGORY_LABELS, CATEGORY_MAX } from '@/lib/types';
+import { CATEGORY_LABELS, CATEGORY_MAX, MessageAnalysis, MessageRating } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';
+
+const RATING_CONFIG: Record<MessageRating, { label: string; color: string; bg: string; icon: string }> = {
+  excellent:         { label: 'Excellent',         color: 'text-green-400',  bg: 'bg-green-500/10 border-green-500/30',  icon: '✅' },
+  good:              { label: 'Good',              color: 'text-blue-400',   bg: 'bg-blue-500/10 border-blue-500/30',    icon: '👍' },
+  needs_improvement: { label: 'Needs Work',        color: 'text-amber-400',  bg: 'bg-amber-500/10 border-amber-500/30',  icon: '⚠️' },
+  poor:              { label: 'Poor',              color: 'text-red-400',    bg: 'bg-red-500/10 border-red-500/30',      icon: '❌' },
+  na:                { label: 'Customer',          color: 'text-slate-400',  bg: 'bg-slate-700/30 border-slate-600/30',  icon: '💬' },
+};
+
+const TAG_COLORS: Record<string, string> = {
+  greeting:    'bg-purple-500/20 text-purple-300',
+  empathy:     'bg-pink-500/20 text-pink-300',
+  jargon:      'bg-red-500/20 text-red-300',
+  policy:      'bg-orange-500/20 text-orange-300',
+  closing:     'bg-indigo-500/20 text-indigo-300',
+  resolution:  'bg-green-500/20 text-green-300',
+  discovery:   'bg-cyan-500/20 text-cyan-300',
+  tone:        'bg-yellow-500/20 text-yellow-300',
+};
+
+function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
+  const isAgent = msg.speaker === 'AGENT';
+  const cfg = RATING_CONFIG[msg.rating] || RATING_CONFIG.na;
+
+  return (
+    <div className={`border rounded-xl overflow-hidden ${isAgent ? '' : 'opacity-70'}`}>
+      {/* Message Header */}
+      <div className={`flex items-center justify-between px-4 py-3 border-b ${cfg.bg} border-current`}
+           style={{ borderColor: undefined }}>
+        <div className="flex items-center gap-3">
+          <span className="text-xs font-mono text-slate-500">{msg.msg_id}</span>
+          <span className={`text-xs font-bold ${isAgent ? 'text-white' : 'text-slate-400'}`}>
+            {isAgent ? '🎧 AGENT' : '👤 CUSTOMER'}
+          </span>
+          {isAgent && (
+            <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${cfg.bg} ${cfg.color}`}>
+              {cfg.icon} {cfg.label}
+            </span>
+          )}
+        </div>
+        {/* Tags */}
+        <div className="flex gap-1 flex-wrap justify-end">
+          {(msg.tags || []).slice(0, 4).map(tag => (
+            <span key={tag} className={`text-xs px-1.5 py-0.5 rounded ${TAG_COLORS[tag] || 'bg-slate-600/50 text-slate-300'}`}>
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Message Text */}
+      <div className="px-4 py-3 bg-[#1e293b]">
+        <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{msg.text}</p>
+      </div>
+
+      {/* Analysis (agent messages only) */}
+      {isAgent && (msg.positives?.length > 0 || msg.issues?.length > 0 || msg.suggestion) && (
+        <div className="px-4 py-3 bg-slate-800/50 border-t border-slate-700/30 space-y-2">
+          {msg.positives?.length > 0 && (
+            <div>
+              <div className="text-xs font-semibold text-green-400 mb-1">✓ What worked</div>
+              <ul className="space-y-0.5">
+                {msg.positives.map((p, i) => (
+                  <li key={i} className="text-xs text-slate-300 flex gap-2">
+                    <span className="text-green-500 mt-0.5">•</span>{p}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {msg.issues?.length > 0 && (
+            <div>
+              <div className="text-xs font-semibold text-red-400 mb-1">✗ Issues found</div>
+              <ul className="space-y-0.5">
+                {msg.issues.map((issue, i) => (
+                  <li key={i} className="text-xs text-slate-300 flex gap-2">
+                    <span className="text-red-500 mt-0.5">•</span>{issue}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {msg.suggestion && (
+            <div className="bg-blue-900/20 border border-blue-500/20 rounded-lg px-3 py-2">
+              <div className="text-xs font-semibold text-blue-400 mb-1">💡 Suggested improvement</div>
+              <p className="text-xs text-slate-300 leading-relaxed italic">"{msg.suggestion}"</p>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function ChatDetail() {
   const { id } = useParams<{ id: string }>();
@@ -20,6 +113,13 @@ export default function ChatDetail() {
 
   const { chat, agent } = result;
   const categories = Object.keys(CATEGORY_LABELS);
+  const hasMessageAnalysis = chat.message_analysis && chat.message_analysis.length > 0;
+
+  const agentMessages = chat.message_analysis?.filter(m => m.speaker === 'AGENT') || [];
+  const ratingCounts = agentMessages.reduce((acc, m) => {
+    acc[m.rating] = (acc[m.rating] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
 
   return (
     <div className="space-y-6 max-w-4xl">
@@ -36,17 +136,24 @@ export default function ChatDetail() {
         <div className="flex flex-col sm:flex-row sm:items-start gap-4">
           <div className="flex-1">
             <div className="flex items-center gap-3 flex-wrap mb-1">
-              <h1 className="text-xl font-black text-white font-mono">{chat.chat_id}</h1>
+              <h1 className="text-xl font-black text-white font-mono text-sm">{chat.chat_id.substring(0, 20)}…</h1>
               <GradeBadge grade={chat.grade} size="lg" />
               {chat.auto_fail.triggered && (
                 <span className="bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold px-2 py-0.5 rounded-md">
-                  AUTO-FAIL
+                  🚨 AUTO-FAIL
+                </span>
+              )}
+              {hasMessageAnalysis && (
+                <span className="bg-purple-500/20 text-purple-400 border border-purple-500/30 text-xs px-2 py-0.5 rounded-md">
+                  🔬 Deep Analysis
                 </span>
               )}
             </div>
             <p className="text-slate-400 text-sm">
               Agent: <Link href={`/agent/${agent.id}`} className="text-blue-400 hover:text-blue-300">{chat.agent_name}</Link>
+              {chat.website && <span> · {chat.website}</span>}
               {' · '}{formatDate(chat.timestamp)}
+              {chat.message_count && <span> · {chat.message_count} messages</span>}
             </p>
           </div>
           <div className="text-center">
@@ -65,22 +172,71 @@ export default function ChatDetail() {
           <div>
             <div className="font-bold text-red-400">Auto-Fail Condition Triggered</div>
             <div className="text-red-300/80 text-sm mt-1">{chat.auto_fail.reason}</div>
-            <div className="text-red-400/60 text-xs mt-1">Score overridden to 0. Immediate review required.</div>
           </div>
         </div>
       )}
 
-      {/* Summary + Coaching Tip */}
+      {/* Summary + Coaching */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
           <h2 className="text-sm font-semibold text-slate-300 mb-2">📋 QA Summary</h2>
           <p className="text-slate-300 text-sm leading-relaxed">{chat.summary}</p>
         </div>
         <div className="bg-blue-900/20 border border-blue-500/30 rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-blue-400 mb-2">💡 Coaching Tip</h2>
+          <h2 className="text-sm font-semibold text-blue-400 mb-2">💡 Top Coaching Tip</h2>
           <p className="text-slate-300 text-sm leading-relaxed">{chat.coaching_tip}</p>
         </div>
       </div>
+
+      {/* Strengths & Weaknesses (Opus only) */}
+      {(chat.strengths?.length || chat.weaknesses?.length) && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {chat.strengths?.length > 0 && (
+            <div className="bg-green-900/10 border border-green-500/20 rounded-xl p-5">
+              <h2 className="text-sm font-semibold text-green-400 mb-3">💪 Strengths</h2>
+              <ul className="space-y-1.5">
+                {chat.strengths.map((s, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-slate-300">
+                    <span className="text-green-400 mt-0.5">✓</span>{s}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {chat.weaknesses?.length > 0 && (
+            <div className="bg-red-900/10 border border-red-500/20 rounded-xl p-5">
+              <h2 className="text-sm font-semibold text-red-400 mb-3">🎯 Areas to Improve</h2>
+              <ul className="space-y-1.5">
+                {chat.weaknesses.map((w, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-slate-300">
+                    <span className="text-red-400 mt-0.5">✗</span>{w}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Message Rating Summary (Opus only) */}
+      {hasMessageAnalysis && (
+        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+          <h2 className="text-sm font-semibold text-slate-300 mb-4">Message Rating Breakdown</h2>
+          <div className="flex gap-3 flex-wrap">
+            {(['excellent','good','needs_improvement','poor'] as MessageRating[]).map(r => {
+              const count = ratingCounts[r] || 0;
+              const cfg = RATING_CONFIG[r];
+              return (
+                <div key={r} className={`flex items-center gap-2 px-3 py-2 rounded-lg border ${cfg.bg}`}>
+                  <span>{cfg.icon}</span>
+                  <span className={`text-xs font-semibold ${cfg.color}`}>{cfg.label}</span>
+                  <span className={`text-sm font-black ${cfg.color}`}>{count}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Category Scorecard */}
       <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
@@ -93,7 +249,6 @@ export default function ChatDetail() {
             const max = CATEGORY_MAX[k];
             const pct = Math.round((cat.score / max) * 100);
             const barColor = pct >= 80 ? '#22c55e' : pct >= 70 ? '#3b82f6' : pct >= 60 ? '#f59e0b' : '#ef4444';
-
             return (
               <div key={k} className="p-5">
                 <div className="flex items-center justify-between mb-2">
@@ -106,33 +261,21 @@ export default function ChatDetail() {
                   </div>
                 </div>
                 <div className="w-full h-2 bg-slate-700 rounded-full mb-2">
-                  <div
-                    className="h-2 rounded-full transition-all"
-                    style={{
-                      width: `${chat.auto_fail.triggered ? 0 : pct}%`,
-                      background: barColor,
-                    }}
-                  />
+                  <div className="h-2 rounded-full transition-all"
+                    style={{ width: `${chat.auto_fail.triggered ? 0 : pct}%`, background: barColor }} />
                 </div>
                 <div className="text-xs text-slate-400">{cat.notes}</div>
               </div>
             );
           })}
         </div>
-
-        {/* Total Row */}
         <div className="p-5 bg-slate-800/50 border-t border-slate-700/50">
           <div className="flex items-center justify-between">
             <div className="font-bold text-white">Total Score</div>
             <div className="flex items-center gap-3">
               <div className="w-48 h-3 bg-slate-700 rounded-full">
-                <div
-                  className="h-3 rounded-full"
-                  style={{
-                    width: `${chat.total_score}%`,
-                    background: gradeColor(chat.grade),
-                  }}
-                />
+                <div className="h-3 rounded-full"
+                  style={{ width: `${chat.total_score}%`, background: gradeColor(chat.grade) }} />
               </div>
               <span className="font-mono font-black text-2xl" style={{ color: gradeColor(chat.grade) }}>
                 {chat.total_score}
@@ -144,12 +287,36 @@ export default function ChatDetail() {
         </div>
       </div>
 
-      {/* Transcript Placeholder */}
-      <div className="bg-slate-800/30 border border-slate-700/30 rounded-xl p-5 text-center">
-        <div className="text-slate-500 text-sm">
-          📄 <span className="font-medium">Transcript viewer</span> — connect your chat platform to view the original transcript for {chat.chat_id}
+      {/* Per-Message Breakdown */}
+      {hasMessageAnalysis ? (
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <h2 className="text-lg font-bold text-white">🔬 Per-Message Training Breakdown</h2>
+            <span className="text-xs text-purple-400 bg-purple-500/10 border border-purple-500/20 px-2 py-1 rounded">
+              Powered by Claude Opus
+            </span>
+          </div>
+          <p className="text-slate-400 text-sm">
+            Every message annotated with what worked, what didn't, and exactly how to improve it.
+          </p>
+          <div className="space-y-3">
+            {chat.message_analysis!.map((msg, i) => (
+              <MessageCard key={i} msg={msg} index={i} />
+            ))}
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="bg-slate-800/30 border border-slate-700/30 rounded-xl p-6 text-center space-y-2">
+          <div className="text-2xl">🔬</div>
+          <div className="text-white font-semibold">Per-Message Analysis Not Yet Available</div>
+          <div className="text-slate-400 text-sm">
+            Run the Opus scorer to unlock full per-message training breakdown for this chat.
+          </div>
+          <div className="font-mono text-xs text-slate-500 bg-slate-900/50 rounded px-4 py-2 mt-2 inline-block">
+            node qa-scorer/scorer-opus.js --conv {chat.chat_id}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
