@@ -16,6 +16,7 @@ import { StatCard } from '@/components/StatCard';
 import { GradeBadge } from '@/components/GradeBadge';
 import { AgentLink } from '@/components/AgentLink';
 import { FlagLink, ChatJumpLink } from '@/components/FlagLink';
+import { NotificationBell } from '@/components/NotificationBell';
 
 const CATEGORY_LABELS: Record<string, string> = {
   greeting: 'Greeting', issue_discovery: 'Issue Discovery', resolution: 'Resolution',
@@ -113,6 +114,7 @@ export default function TeamOverview() {
         <div className="flex-1">
           <div className="flex items-center gap-3 flex-wrap">
             <h1 className="text-2xl font-black text-white">Team Overview</h1>
+            <NotificationBell />
             {IS_REAL_DATA && (
               <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 font-semibold">
                 ● LIVE DATA
