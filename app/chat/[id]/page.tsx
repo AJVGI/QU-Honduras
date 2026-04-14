@@ -47,7 +47,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
             <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
           </div>
           <div className="bg-emerald-900/20 border border-emerald-500/20 rounded-xl rounded-tl-sm px-4 py-3">
-            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{msg.text}</p>
+            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{cleanText(msg.text)}</p>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
 
         <div className={`border rounded-xl rounded-tl-sm overflow-hidden ${cfg.bg}`}>
           <div className="px-4 py-3">
-            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{msg.text}</p>
+            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{cleanText(msg.text)}</p>
           </div>
 
           {(msg.positives?.length > 0 || msg.issues?.length > 0 || msg.suggestion) && (
@@ -116,6 +116,15 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
       </div>
     </div>
   );
+}
+
+// Strip HTML from message text (WellyTalk pre-chat forms send HTML)
+function cleanText(raw: string): string {
+  if (!raw || !raw.includes('<')) return raw;
+  return raw
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ').trim();
 }
 
 export default function ChatDetail() {
@@ -339,7 +348,7 @@ export default function ChatDetail() {
                     <div className={`text-xs font-bold mb-1 ${isAgent ? 'text-blue-400' : 'text-emerald-400'}`}>
                       {isAgent ? '🎧' : '👤'} {speaker}
                     </div>
-                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{text}</p>
+                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{cleanText(text)}</p>
                   </div>
                 </div>
               );
