@@ -376,15 +376,13 @@ export default function ChatDetail() {
           </div>
         </div>
       ) : (
-        <div className="bg-slate-800/30 border border-slate-700/30 rounded-xl p-6 text-center space-y-2">
-          <div className="text-2xl">🔬</div>
-          <div className="text-white font-semibold">Per-Message Analysis Not Yet Available</div>
+        <div className="bg-blue-900/10 border border-blue-500/20 rounded-xl p-6 text-center space-y-2">
+          <div className="text-2xl">⏳</div>
+          <div className="text-white font-semibold">Per-Message Breakdown Pending</div>
           <div className="text-slate-400 text-sm">
-            Run the Opus scorer to unlock full per-message training breakdown for this chat.
+            This chat is in the scoring queue. Full per-message breakdown will appear automatically once processed.
           </div>
-          <div className="font-mono text-xs text-slate-500 bg-slate-900/50 rounded px-4 py-2 mt-2 inline-block">
-            node qa-scorer/scorer-opus.js --conv {chat.chat_id}
-          </div>
+          <div className="text-xs text-blue-400 mt-1">Deep scoring runs automatically in batches — check back shortly.</div>
         </div>
       )}
     </div>
