@@ -42,6 +42,7 @@ export interface ChatScore {
   scored_at?: string;
   website?: string;
   message_count?: number;
+  raw_transcript?: string; // full customer+agent conversation text
 }
 
 export interface Agent {

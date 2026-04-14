@@ -311,6 +311,40 @@ export default function ChatDetail() {
         </div>
       </div>
 
+      {/* Full Conversation Transcript (raw) */}
+      {chat.raw_transcript && (
+        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
+          <div className="p-5 border-b border-slate-700/50 flex items-center justify-between">
+            <div>
+              <h2 className="text-sm font-semibold text-slate-300">💬 Full Conversation</h2>
+              <p className="text-xs text-slate-500 mt-0.5">Complete customer + agent transcript</p>
+            </div>
+          </div>
+          <div className="divide-y divide-slate-700/20">
+            {chat.raw_transcript.split('\n').filter(Boolean).map((line, i) => {
+              const isAgent = line.includes(`] ${chat.agent_name}:`);
+              const isCustomer = !isAgent;
+              // Parse timestamp and content
+              const tsMatch = line.match(/^\[([\d:]+)\] (.+?): (.+)$/);
+              const ts = tsMatch?.[1] || '';
+              const speaker = tsMatch?.[2] || '';
+              const text = tsMatch?.[3] || line;
+              return (
+                <div key={i} className={`flex gap-3 px-5 py-3 ${isAgent ? 'bg-slate-800/20' : ''}`}>
+                  <div className="w-16 flex-shrink-0 text-xs text-slate-600 font-mono pt-0.5">{ts}</div>
+                  <div className="flex-1 min-w-0">
+                    <div className={`text-xs font-bold mb-1 ${isAgent ? 'text-blue-400' : 'text-emerald-400'}`}>
+                      {isAgent ? '🎧' : '👤'} {speaker}
+                    </div>
+                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{text}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Per-Message Breakdown */}
       {hasMessageAnalysis ? (
         <div className="space-y-4">
@@ -321,7 +355,7 @@ export default function ChatDetail() {
             </span>
           </div>
           <p className="text-slate-400 text-sm">
-            Every message annotated with what worked, what didn't, and exactly how to improve it.
+            Every message annotated with what worked, what didn&apos;t, and exactly how to improve it.
           </p>
           <div className="space-y-3">
             {chat.message_analysis!.map((msg, i) => (
