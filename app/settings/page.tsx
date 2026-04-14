@@ -51,14 +51,14 @@ export default function Settings() {
       <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5 space-y-3">
         <h2 className="text-sm font-semibold text-slate-300">Manual Controls</h2>
         <div className="text-xs text-slate-400 font-mono space-y-1.5 bg-slate-900/50 rounded-lg p-3">
-          <div># Score last 7 days (50 chats)</div>
-          <div className="text-green-400">node qa-scorer/scorer.js --days 7 --limit 50</div>
-          <div className="mt-2"># Deep Opus analysis (training)</div>
-          <div className="text-green-400">node qa-scorer/scorer-opus.js --days 7 --limit 10</div>
+          <div># Deep score next 100 chats (Sonnet)</div>
+          <div className="text-green-400">node qa-scorer/deep-scorer.js --batch 100</div>
+          <div className="mt-2"># Deep score specific agent</div>
+          <div className="text-green-400">node qa-scorer/deep-scorer.js --agent &quot;Oscar Zelaya&quot;</div>
+          <div className="mt-2"># Opus deep dive (on-demand training session)</div>
+          <div className="text-green-400">node qa-scorer/opus-agent-batch.js --agent &quot;Oskar Abaunza&quot;</div>
           <div className="mt-2"># Realtime watcher (one run)</div>
           <div className="text-green-400">node qa-scorer/realtime-watcher.js</div>
-          <div className="mt-2"># Score specific agent</div>
-          <div className="text-green-400">node qa-scorer/scorer.js --days 30 --agent &quot;Oscar&quot;</div>
         </div>
       </div>
     </div>

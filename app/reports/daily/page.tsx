@@ -1,9 +1,10 @@
 'use client';
-import Link from 'next/link';
 import { useMemo } from 'react';
 import { AGENTS } from '@/lib/dataLoader';
 import { gradeColor } from '@/lib/utils';
 import { GradeBadge } from '@/components/GradeBadge';
+import { AgentLink } from '@/components/AgentLink';
+import { FlagLink, ChatJumpLink } from '@/components/FlagLink';
 
 export default function DailyReport() {
   const todayChats = useMemo(() => {
@@ -75,13 +76,17 @@ export default function DailyReport() {
                   <tr key={i} className="hover:bg-slate-800/30 transition-colors">
                     <td className="py-3 px-4 text-sm text-slate-400 font-mono">{new Date(chat.timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</td>
                     <td className="py-3 px-4">
-                      <Link href={`/agent/${chat.agent.id}`} className="text-sm font-semibold text-white hover:text-blue-400">{chat.agent_name}</Link>
+                      <AgentLink agentId={chat.agent.id} agentName={chat.agent_name} />
                     </td>
                     <td className="py-3 px-4 font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</td>
                     <td className="py-3 px-4"><GradeBadge grade={chat.grade} /></td>
                     <td className="py-3 px-4 text-xs text-slate-400">{chat.website || '—'}</td>
-                    <td className="py-3 px-4">{chat.auto_fail.triggered ? <span className="text-xs text-red-400">🚨 Yes</span> : <span className="text-xs text-slate-500">—</span>}</td>
-                    <td className="py-3 px-4"><Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300">View →</Link></td>
+                    <td className="py-3 px-4">
+                      {chat.auto_fail.triggered
+                        ? <FlagLink chatId={chat.chat_id} type="auto_fail" reason={chat.auto_fail.reason || 'Auto-fail'} showLabel />
+                        : <span className="text-xs text-slate-500">—</span>}
+                    </td>
+                    <td className="py-3 px-4"><ChatJumpLink chatId={chat.chat_id} /></td>
                   </tr>
                 ))}
               </tbody>
