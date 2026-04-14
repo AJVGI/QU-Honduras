@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-14T00:24:01.689Z",
-  "total_chats": 405,
+  "scored_at": "2026-04-14T00:25:57.548Z",
+  "total_chats": 415,
   "total_agents": 23,
   "agents": [
     {
@@ -3095,6 +3095,138 @@
           "message_count": 13,
           "model_used": "anthropic/claude-sonnet-4-5",
           "scored_at": "2026-04-14T00:24:01.687Z"
+        },
+        {
+          "chat_id": "2043517473021849600",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-13T02:50:48.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though slightly delayed in the chat flow."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the VIP matching/transfer request and took appropriate time to review account and policy."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided clear, comprehensive explanation of VIP leveling system and definitively answered that transfers are not available."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional throughout with well-structured explanation of XP earning methods and tier benefits."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; correctly stated limitations without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and provided warm, encouraging closing remarks about earning their business."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 79,
+          "grade": "C",
+          "summary": "Agent handled a VIP matching inquiry professionally, providing a thorough explanation of the loyalty program mechanics and clearly stating that transfers are not available. Communication was clear and customer-friendly with appropriate empathy for the customer's desire to skip levels.",
+          "coaching_tip": "Consider acknowledging the customer's frustration about leveling up before explaining the policy to show more empathy and soften the 'no' response.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:24:35.323Z"
+        },
+        {
+          "chat_id": "2043519770292482048",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-13T02:46:16.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Professional greeting with agent name and clear offer to assist."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent asked clarifying question about error and requested screenshot to understand the issue better."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided clear explanation of temporary system issue and assured automatic credit once resolved, which is appropriate for a known technical problem."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and reassuring communication with appropriate detail about the issue and next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained system issue without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and customer confirmed satisfaction, though closing could have been slightly more polished."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 76,
+          "grade": "C",
+          "summary": "Agent handled a bonus claim issue professionally by diagnosing the problem, explaining a known system issue, and providing reassurance about automatic resolution. Communication was clear and empathetic throughout the interaction.",
+          "coaching_tip": "After customer confirms no further questions, add a brief closing statement like 'Thank you for contacting us, have a great day!' to provide a more polished end to the interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:24:46.429Z"
+        },
+        {
+          "chat_id": "2043515055013982208",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-13T02:32:37.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm greeting with agent name and personalized with customer name Brian."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Understood the cashout inquiry well and proactively provided comprehensive redemption options without needing clarification."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Fully answered the PayPal question, provided all available cashout methods with timelines, and addressed the Card Network issue when customer asked about Skrill."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, friendly, and well-structured responses with helpful formatting and appropriate enthusiasm."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate information about redemption methods and requirements."
+            },
+            "closing": {
+              "score": 9,
+              "notes": "Checked for additional needs and provided warm, encouraging closing with good luck wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 82,
+          "grade": "B",
+          "summary": "Andrea provided a solid support experience with clear communication about cashout options and proactively addressed the customer's needs. The agent was friendly, informative, and handled the inquiry efficiently from greeting to closing.",
+          "coaching_tip": "When mentioning Skrill as an option, immediately clarify setup requirements or provide a brief note that it needs to be configured in advance to avoid confusion when customers ask how to add it.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:25:46.038Z"
         }
       ],
       "avg_score": 68,
@@ -8878,9 +9010,185 @@
           "message_count": 8,
           "model_used": "anthropic/claude-sonnet-4-5",
           "scored_at": "2026-04-14T00:23:38.852Z"
+        },
+        {
+          "chat_id": "2043520235587022848",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-13T02:56:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting present; agent jumped directly into responses without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged two issues (KYC verification and phone number) but asked no clarifying questions to understand specifics."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided helpful guidance for both KYC resubmission and phone number formatting, though resolution depends on customer action."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and structured information provided, though somewhat template-heavy and lacking personalization."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained verification processes and system requirements."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and provided friendly closing with good luck wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided adequate technical guidance for KYC and phone verification issues but completely omitted an opening greeting. The responses were informative and compliant but lacked personalization and proactive clarification of the customer's specific situation.",
+          "coaching_tip": "Always start with a proper greeting using the customer's name before diving into issue resolution—it sets a professional tone and builds rapport.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:24:23.627Z"
+        },
+        {
+          "chat_id": "2043517405228740608",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-13T02:42:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting present but came after initial response due to timestamp ordering."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the missing bonus issue and reviewed prior interactions to confirm ongoing problem."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear explanation of bonus system, troubleshooting steps, then escalated appropriately when issue persisted, explaining temporary system issue."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured responses with appropriate acknowledgment of customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately did not promise specific compensation or timeline."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and provided friendly closing with good luck message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent handled a recurring bonus issue competently by first providing standard troubleshooting, then appropriately escalating when customer confirmed prior attempts. Communication was clear and empathetic throughout with proper acknowledgment of the ongoing technical issue.",
+          "coaching_tip": "When a customer immediately states they've already tried troubleshooting and contacted support before, acknowledge that first before repeating standard steps to avoid frustrating them further.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:24:56.954Z"
+        },
+        {
+          "chat_id": "2043514930833223680",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-13T02:33:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at start of chat; agent's first message appears at end due to timestamp order."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent asked for moment to investigate but never clarified the specific verification error before escalating."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Escalated to email support which may be appropriate, but offered no troubleshooting or immediate assistance for system busy error."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional but repetitive; failed to acknowledge customer frustration and repeated escalation instructions verbatim despite pushback."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated within scope but could have shown more effort first."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with well-wishes, though customer expressed dissatisfaction with the interaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent escalated a verification system error to email support without attempting any troubleshooting or explanation. Customer became frustrated with perceived lack of help and repetitive escalation instructions.",
+          "coaching_tip": "Before escalating technical issues, acknowledge the customer's frustration, attempt basic troubleshooting or explain why chat cannot resolve it, and personalize responses rather than repeating the same escalation script.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:25:33.823Z"
+        },
+        {
+          "chat_id": "2043511865560363008",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-13T02:19:12.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with clear request for information, though somewhat generic."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent requested images and investigated, but could have asked more clarifying questions about the specific bonus issue earlier."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided clear explanation of the technical issue and set expectations that bonus would be auto-credited without customer action needed."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and empathetic communication with good use of reassurance, though initial golden egg response seemed slightly off-topic."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained technical issue without making unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Agent asked if anything else was needed but customer never responded, and no formal closing occurred after check-in message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent handled a bonus credit issue professionally by explaining a known technical problem and reassuring the customer it would be auto-resolved. The interaction was incomplete as the customer stopped responding after the explanation, preventing proper closure.",
+          "coaching_tip": "When a customer mentions unopened bonuses early in the chat, immediately acknowledge that specific concern rather than providing generic golden egg information first.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:25:57.545Z"
         }
       ],
-      "avg_score": 58,
+      "avg_score": 59,
       "grade": "F",
       "trend": 7
     },
@@ -15418,6 +15726,138 @@
           "message_count": 4,
           "model_used": "anthropic/claude-sonnet-4-5",
           "scored_at": "2026-04-14T00:23:12.878Z"
+        },
+        {
+          "chat_id": "2043520497278038016",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-13T02:57:04.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No proper greeting at start; agent's first message was actually the closing line due to timestamp reversal."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the Golden Egg issue and asked one clarifying question about location, showing adequate discovery."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive explanation of Golden Egg mechanics, troubleshooting steps, and offered to investigate further if needed."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with bullet points and step-by-step instructions, professional throughout."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained promotional terms and limitations without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help twice and provided friendly closing message with well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent provided thorough information about the Golden Egg promotion with clear troubleshooting steps and offered to investigate further. Communication was professional and well-organized, though the greeting was absent at the actual start of the conversation.",
+          "coaching_tip": "Always open the chat with a proper personalized greeting before diving into the issue, even when customer information auto-populates.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:24:13.054Z"
+        },
+        {
+          "chat_id": "2043517743785144320",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-13T02:41:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting present; agent jumped directly into canned response without acknowledging customer."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent asked for a moment to investigate but completely misunderstood the issue, responding about bonuses when customer clarified it was about winnings/withdrawal."
+            },
+            "resolution": {
+              "score": 5,
+              "notes": "Agent provided irrelevant information about bonus credits and redemption methods instead of addressing the actual withdrawal status concern, leaving issue unresolved."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Responses were clear and professional in tone, though content was misaligned with customer's actual concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected; standard information provided."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing from agent; customer ended conversation themselves expressing frustration and doubt about legitimacy."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 35,
+          "grade": "F",
+          "summary": "Agent failed to properly identify the customer's issue about processed withdrawal status, instead providing irrelevant canned responses about bonuses and redemption methods. Customer left frustrated without resolution, questioning the casino's legitimacy.",
+          "coaching_tip": "Always read customer clarifications carefully before responding—when customer explicitly states 'my winnings, not my bonus,' stop and reassess rather than continuing with pre-written bonus responses.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:25:09.481Z"
+        },
+        {
+          "chat_id": "2043516358649229312",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-13T02:39:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with enthusiasm, though came at the end due to chat system ordering."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked for email confirmation and acknowledged the issue, but didn't probe deeper into why balances were zero."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided detailed daily login info but didn't investigate why customer received nothing despite logging in, leaving core issue unresolved."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-formatted explanation of rewards system, but didn't directly address the customer's concern about zero balances."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately requested account verification before proceeding."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Friendly closing with well-wishes, though came before issue was fully resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided thorough information about the daily login rewards system and requested proper account verification. However, the agent failed to investigate why the customer's balances remained at zero after logging in, leaving the core technical issue unresolved.",
+          "coaching_tip": "When a customer reports they followed instructions but didn't receive expected rewards, escalate to technical review or check account logs rather than just re-explaining the process.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "model_used": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-14T00:25:21.613Z"
         }
       ],
       "avg_score": 55,
@@ -35851,6 +36291,446 @@
       "message_count": 13,
       "model_used": "anthropic/claude-sonnet-4-5",
       "scored_at": "2026-04-14T00:24:01.687Z"
+    },
+    {
+      "chat_id": "2043520497278038016",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-13T02:57:04.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No proper greeting at start; agent's first message was actually the closing line due to timestamp reversal."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the Golden Egg issue and asked one clarifying question about location, showing adequate discovery."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive explanation of Golden Egg mechanics, troubleshooting steps, and offered to investigate further if needed."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured responses with bullet points and step-by-step instructions, professional throughout."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained promotional terms and limitations without unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help twice and provided friendly closing message with well-wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 70,
+      "grade": "C",
+      "summary": "Agent provided thorough information about the Golden Egg promotion with clear troubleshooting steps and offered to investigate further. Communication was professional and well-organized, though the greeting was absent at the actual start of the conversation.",
+      "coaching_tip": "Always open the chat with a proper personalized greeting before diving into the issue, even when customer information auto-populates.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:24:13.054Z"
+    },
+    {
+      "chat_id": "2043520235587022848",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-13T02:56:21.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting present; agent jumped directly into responses without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent acknowledged two issues (KYC verification and phone number) but asked no clarifying questions to understand specifics."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided helpful guidance for both KYC resubmission and phone number formatting, though resolution depends on customer action."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and structured information provided, though somewhat template-heavy and lacking personalization."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained verification processes and system requirements."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance and provided friendly closing with good luck wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent provided adequate technical guidance for KYC and phone verification issues but completely omitted an opening greeting. The responses were informative and compliant but lacked personalization and proactive clarification of the customer's specific situation.",
+      "coaching_tip": "Always start with a proper greeting using the customer's name before diving into issue resolution—it sets a professional tone and builds rapport.",
+      "website": "Jackpot Daily",
+      "message_count": 7,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:24:23.627Z"
+    },
+    {
+      "chat_id": "2043517473021849600",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-13T02:50:48.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name and offer to assist, though slightly delayed in the chat flow."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the VIP matching/transfer request and took appropriate time to review account and policy."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided clear, comprehensive explanation of VIP leveling system and definitively answered that transfers are not available."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear and professional throughout with well-structured explanation of XP earning methods and tier benefits."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; correctly stated limitations without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance and provided warm, encouraging closing remarks about earning their business."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 79,
+      "grade": "C",
+      "summary": "Agent handled a VIP matching inquiry professionally, providing a thorough explanation of the loyalty program mechanics and clearly stating that transfers are not available. Communication was clear and customer-friendly with appropriate empathy for the customer's desire to skip levels.",
+      "coaching_tip": "Consider acknowledging the customer's frustration about leveling up before explaining the policy to show more empathy and soften the 'no' response.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:24:35.323Z"
+    },
+    {
+      "chat_id": "2043519770292482048",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-13T02:46:16.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Professional greeting with agent name and clear offer to assist."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent asked clarifying question about error and requested screenshot to understand the issue better."
+        },
+        "resolution": {
+          "score": 22,
+          "notes": "Provided clear explanation of temporary system issue and assured automatic credit once resolved, which is appropriate for a known technical problem."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and reassuring communication with appropriate detail about the issue and next steps."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained system issue without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance and customer confirmed satisfaction, though closing could have been slightly more polished."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 76,
+      "grade": "C",
+      "summary": "Agent handled a bonus claim issue professionally by diagnosing the problem, explaining a known system issue, and providing reassurance about automatic resolution. Communication was clear and empathetic throughout the interaction.",
+      "coaching_tip": "After customer confirms no further questions, add a brief closing statement like 'Thank you for contacting us, have a great day!' to provide a more polished end to the interaction.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:24:46.429Z"
+    },
+    {
+      "chat_id": "2043517405228740608",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-13T02:42:36.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting present but came after initial response due to timestamp ordering."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the missing bonus issue and reviewed prior interactions to confirm ongoing problem."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear explanation of bonus system, troubleshooting steps, then escalated appropriately when issue persisted, explaining temporary system issue."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and well-structured responses with appropriate acknowledgment of customer frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately did not promise specific compensation or timeline."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance and provided friendly closing with good luck message."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 75,
+      "grade": "C",
+      "summary": "Agent handled a recurring bonus issue competently by first providing standard troubleshooting, then appropriately escalating when customer confirmed prior attempts. Communication was clear and empathetic throughout with proper acknowledgment of the ongoing technical issue.",
+      "coaching_tip": "When a customer immediately states they've already tried troubleshooting and contacted support before, acknowledge that first before repeating standard steps to avoid frustrating them further.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:24:56.954Z"
+    },
+    {
+      "chat_id": "2043517743785144320",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-13T02:41:01.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting present; agent jumped directly into canned response without acknowledging customer."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent asked for a moment to investigate but completely misunderstood the issue, responding about bonuses when customer clarified it was about winnings/withdrawal."
+        },
+        "resolution": {
+          "score": 5,
+          "notes": "Agent provided irrelevant information about bonus credits and redemption methods instead of addressing the actual withdrawal status concern, leaving issue unresolved."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Responses were clear and professional in tone, though content was misaligned with customer's actual concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected; standard information provided."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing from agent; customer ended conversation themselves expressing frustration and doubt about legitimacy."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 35,
+      "grade": "F",
+      "summary": "Agent failed to properly identify the customer's issue about processed withdrawal status, instead providing irrelevant canned responses about bonuses and redemption methods. Customer left frustrated without resolution, questioning the casino's legitimacy.",
+      "coaching_tip": "Always read customer clarifications carefully before responding—when customer explicitly states 'my winnings, not my bonus,' stop and reassess rather than continuing with pre-written bonus responses.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:25:09.481Z"
+    },
+    {
+      "chat_id": "2043516358649229312",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-13T02:39:14.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with enthusiasm, though came at the end due to chat system ordering."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked for email confirmation and acknowledged the issue, but didn't probe deeper into why balances were zero."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided detailed daily login info but didn't investigate why customer received nothing despite logging in, leaving core issue unresolved."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and well-formatted explanation of rewards system, but didn't directly address the customer's concern about zero balances."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately requested account verification before proceeding."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Friendly closing with well-wishes, though came before issue was fully resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent provided thorough information about the daily login rewards system and requested proper account verification. However, the agent failed to investigate why the customer's balances remained at zero after logging in, leaving the core technical issue unresolved.",
+      "coaching_tip": "When a customer reports they followed instructions but didn't receive expected rewards, escalate to technical review or check account logs rather than just re-explaining the process.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:25:21.613Z"
+    },
+    {
+      "chat_id": "2043514930833223680",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-13T02:33:57.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at start of chat; agent's first message appears at end due to timestamp order."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent asked for moment to investigate but never clarified the specific verification error before escalating."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Escalated to email support which may be appropriate, but offered no troubleshooting or immediate assistance for system busy error."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Professional but repetitive; failed to acknowledge customer frustration and repeated escalation instructions verbatim despite pushback."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated within scope but could have shown more effort first."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Polite closing with well-wishes, though customer expressed dissatisfaction with the interaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent escalated a verification system error to email support without attempting any troubleshooting or explanation. Customer became frustrated with perceived lack of help and repetitive escalation instructions.",
+      "coaching_tip": "Before escalating technical issues, acknowledge the customer's frustration, attempt basic troubleshooting or explain why chat cannot resolve it, and personalize responses rather than repeating the same escalation script.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:25:33.823Z"
+    },
+    {
+      "chat_id": "2043515055013982208",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-13T02:32:37.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm greeting with agent name and personalized with customer name Brian."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Understood the cashout inquiry well and proactively provided comprehensive redemption options without needing clarification."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Fully answered the PayPal question, provided all available cashout methods with timelines, and addressed the Card Network issue when customer asked about Skrill."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, friendly, and well-structured responses with helpful formatting and appropriate enthusiasm."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided accurate information about redemption methods and requirements."
+        },
+        "closing": {
+          "score": 9,
+          "notes": "Checked for additional needs and provided warm, encouraging closing with good luck wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 82,
+      "grade": "B",
+      "summary": "Andrea provided a solid support experience with clear communication about cashout options and proactively addressed the customer's needs. The agent was friendly, informative, and handled the inquiry efficiently from greeting to closing.",
+      "coaching_tip": "When mentioning Skrill as an option, immediately clarify setup requirements or provide a brief note that it needs to be configured in advance to avoid confusion when customers ask how to add it.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:25:46.038Z"
+    },
+    {
+      "chat_id": "2043511865560363008",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-13T02:19:12.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with clear request for information, though somewhat generic."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent requested images and investigated, but could have asked more clarifying questions about the specific bonus issue earlier."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided clear explanation of the technical issue and set expectations that bonus would be auto-credited without customer action needed."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear and empathetic communication with good use of reassurance, though initial golden egg response seemed slightly off-topic."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained technical issue without making unauthorized promises."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Agent asked if anything else was needed but customer never responded, and no formal closing occurred after check-in message."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 68,
+      "grade": "D",
+      "summary": "Agent handled a bonus credit issue professionally by explaining a known technical problem and reassuring the customer it would be auto-resolved. The interaction was incomplete as the customer stopped responding after the explanation, preventing proper closure.",
+      "coaching_tip": "When a customer mentions unopened bonuses early in the chat, immediately acknowledge that specific concern rather than providing generic golden egg information first.",
+      "website": "Jackpot Daily",
+      "message_count": 7,
+      "model_used": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-14T00:25:57.545Z"
     }
   ]
 }
