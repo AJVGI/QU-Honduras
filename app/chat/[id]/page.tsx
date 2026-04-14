@@ -35,7 +35,6 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
   const anchorId = `msg-${msg.msg_id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
   if (isCustomer) {
-    // Customer messages — clean bubble style, clearly the other side
     return (
       <div id={anchorId} className="flex gap-3 scroll-mt-24">
         <div className="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center flex-shrink-0 mt-1">
@@ -44,6 +43,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1">
             <span className="text-xs font-bold text-emerald-400">CUSTOMER</span>
+            {msg.timestamp && <span className="text-xs font-mono text-slate-500">{msg.timestamp}</span>}
             <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
           </div>
           <div className="bg-emerald-900/20 border border-emerald-500/20 rounded-xl rounded-tl-sm px-4 py-3">
@@ -63,6 +63,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
       <div className="flex-1">
         <div className="flex items-center gap-2 mb-1 flex-wrap">
           <span className="text-xs font-bold text-blue-400">AGENT</span>
+          {msg.timestamp && <span className="text-xs font-mono text-slate-500">{msg.timestamp}</span>}
           <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
           <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${cfg.bg} ${cfg.color}`}>
             {cfg.icon} {cfg.label}

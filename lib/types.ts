@@ -10,6 +10,8 @@ export interface MessageAnalysis {
   issues: string[];
   suggestion: string | null;
   tags: string[];
+  timestamp?: string | null;     // HH:MM:SS
+  timestamp_iso?: string | null; // full ISO
 }
 
 export interface CategoryScore {
