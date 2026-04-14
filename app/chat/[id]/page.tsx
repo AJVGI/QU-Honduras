@@ -30,86 +30,89 @@ const TAG_COLORS: Record<string, string> = {
 
 function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
   const isAgent = msg.speaker === 'AGENT';
+  const isCustomer = msg.speaker === 'CUSTOMER';
   const cfg = RATING_CONFIG[msg.rating] || RATING_CONFIG.na;
-  // Anchor id derived from msg_id e.g. 'MSG-03' → 'msg-msg-03'
   const anchorId = `msg-${msg.msg_id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
+  if (isCustomer) {
+    // Customer messages — clean bubble style, clearly the other side
+    return (
+      <div id={anchorId} className="flex gap-3 scroll-mt-24">
+        <div className="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center flex-shrink-0 mt-1">
+          <span className="text-xs">👤</span>
+        </div>
+        <div className="flex-1">
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-xs font-bold text-emerald-400">CUSTOMER</span>
+            <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
+          </div>
+          <div className="bg-emerald-900/20 border border-emerald-500/20 rounded-xl rounded-tl-sm px-4 py-3">
+            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{msg.text}</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Agent message — full analysis card
   return (
-    <div
-      id={anchorId}
-      className={`border rounded-xl overflow-hidden scroll-mt-24 ${isAgent ? '' : 'opacity-70'}`}
-    >
-      {/* Message Header */}
-      <div className={`flex items-center justify-between px-4 py-3 border-b ${cfg.bg} border-current`}
-           style={{ borderColor: undefined }}>
-        <div className="flex items-center gap-3">
-          {/* Anchor link — click to copy/navigate to this exact message */}
-          <a
-            href={`#${anchorId}`}
-            className="text-xs font-mono text-slate-500 hover:text-blue-400 transition-colors"
-            title="Link to this message"
-          >
-            #{msg.msg_id}
-          </a>
-          <span className={`text-xs font-bold ${isAgent ? 'text-white' : 'text-slate-400'}`}>
-            {isAgent ? '🎧 AGENT' : '👤 CUSTOMER'}
+    <div id={anchorId} className="flex gap-3 scroll-mt-24">
+      <div className="w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center flex-shrink-0 mt-1">
+        <span className="text-xs">🎧</span>
+      </div>
+      <div className="flex-1">
+        <div className="flex items-center gap-2 mb-1 flex-wrap">
+          <span className="text-xs font-bold text-blue-400">AGENT</span>
+          <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
+          <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${cfg.bg} ${cfg.color}`}>
+            {cfg.icon} {cfg.label}
           </span>
-          {isAgent && (
-            <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${cfg.bg} ${cfg.color}`}>
-              {cfg.icon} {cfg.label}
-            </span>
-          )}
+          <div className="flex gap-1 flex-wrap">
+            {(msg.tags || []).slice(0, 4).map(tag => (
+              <span key={tag} className={`text-xs px-1.5 py-0.5 rounded ${TAG_COLORS[tag] || 'bg-slate-600/50 text-slate-300'}`}>
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
-        {/* Tags */}
-        <div className="flex gap-1 flex-wrap justify-end">
-          {(msg.tags || []).slice(0, 4).map(tag => (
-            <span key={tag} className={`text-xs px-1.5 py-0.5 rounded ${TAG_COLORS[tag] || 'bg-slate-600/50 text-slate-300'}`}>
-              {tag}
-            </span>
-          ))}
+
+        <div className={`border rounded-xl rounded-tl-sm overflow-hidden ${cfg.bg}`}>
+          <div className="px-4 py-3">
+            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{msg.text}</p>
+          </div>
+
+          {(msg.positives?.length > 0 || msg.issues?.length > 0 || msg.suggestion) && (
+            <div className="px-4 py-3 bg-slate-900/40 border-t border-slate-700/30 space-y-2">
+              {msg.positives?.length > 0 && (
+                <div>
+                  <div className="text-xs font-semibold text-green-400 mb-1">✓ What worked</div>
+                  {msg.positives.map((p, i) => (
+                    <div key={i} className="text-xs text-slate-300 flex gap-2">
+                      <span className="text-green-500 mt-0.5 flex-shrink-0">•</span>{p}
+                    </div>
+                  ))}
+                </div>
+              )}
+              {msg.issues?.length > 0 && (
+                <div>
+                  <div className="text-xs font-semibold text-red-400 mb-1">✗ Issues</div>
+                  {msg.issues.map((issue, i) => (
+                    <div key={i} className="text-xs text-slate-300 flex gap-2">
+                      <span className="text-red-500 mt-0.5 flex-shrink-0">•</span>{issue}
+                    </div>
+                  ))}
+                </div>
+              )}
+              {msg.suggestion && (
+                <div className="bg-blue-900/20 border border-blue-500/20 rounded-lg px-3 py-2">
+                  <div className="text-xs font-semibold text-blue-400 mb-1">💡 Better response</div>
+                  <p className="text-xs text-slate-300 leading-relaxed italic">&ldquo;{msg.suggestion}&rdquo;</p>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
-
-      {/* Message Text */}
-      <div className="px-4 py-3 bg-[#1e293b]">
-        <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{msg.text}</p>
-      </div>
-
-      {/* Analysis (agent messages only) */}
-      {isAgent && (msg.positives?.length > 0 || msg.issues?.length > 0 || msg.suggestion) && (
-        <div className="px-4 py-3 bg-slate-800/50 border-t border-slate-700/30 space-y-2">
-          {msg.positives?.length > 0 && (
-            <div>
-              <div className="text-xs font-semibold text-green-400 mb-1">✓ What worked</div>
-              <ul className="space-y-0.5">
-                {msg.positives.map((p, i) => (
-                  <li key={i} className="text-xs text-slate-300 flex gap-2">
-                    <span className="text-green-500 mt-0.5">•</span>{p}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {msg.issues?.length > 0 && (
-            <div>
-              <div className="text-xs font-semibold text-red-400 mb-1">✗ Issues found</div>
-              <ul className="space-y-0.5">
-                {msg.issues.map((issue, i) => (
-                  <li key={i} className="text-xs text-slate-300 flex gap-2">
-                    <span className="text-red-500 mt-0.5">•</span>{issue}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {msg.suggestion && (
-            <div className="bg-blue-900/20 border border-blue-500/20 rounded-lg px-3 py-2">
-              <div className="text-xs font-semibold text-blue-400 mb-1">💡 Suggested improvement</div>
-              <p className="text-xs text-slate-300 leading-relaxed italic">"{msg.suggestion}"</p>
-            </div>
-          )}
-        </div>
-      )}
     </div>
   );
 }

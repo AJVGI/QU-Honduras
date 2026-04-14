@@ -4,6 +4,8 @@ import { useMemo } from 'react';
 import { AGENTS } from '@/lib/dataLoader';
 import { gradeColor, formatDate } from '@/lib/utils';
 import { GradeBadge } from '@/components/GradeBadge';
+import { AgentLink } from '@/components/AgentLink';
+import { FlagLink, ChatJumpLink } from '@/components/FlagLink';
 
 export default function AutoFailsReport() {
   const grouped = useMemo(() => {
@@ -41,10 +43,7 @@ export default function AutoFailsReport() {
                   <div className="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center text-red-400 font-black text-sm">
                     {fails.length}
                   </div>
-                  <Link href={`/agent/${agent.id}`} className="font-bold text-white hover:text-blue-400 transition-colors">
-                    {agent.name}
-                  </Link>
-                  <GradeBadge grade={agent.grade} />
+                  <AgentLink agentId={agent.id} agentName={agent.name} grade={agent.grade} showGrade />
                 </div>
                 <span className="text-xs text-red-400 font-semibold">{fails.length} auto-fail{fails.length !== 1 ? 's' : ''}</span>
               </div>
@@ -60,9 +59,7 @@ export default function AutoFailsReport() {
                       <p className="text-sm text-red-300">{chat.auto_fail.reason || 'Auto-fail condition triggered'}</p>
                       {chat.summary && <p className="text-xs text-slate-500 mt-1 truncate">{chat.summary}</p>}
                     </div>
-                    <Link href={`/chat/${chat.chat_id}`} className="text-xs text-blue-400 hover:text-blue-300 flex-shrink-0 font-medium">
-                      View Chat →
-                    </Link>
+                    <ChatJumpLink chatId={chat.chat_id} label="View Chat →" />
                   </div>
                 ))}
               </div>
