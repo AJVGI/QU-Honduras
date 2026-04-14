@@ -327,15 +327,14 @@ export default function ChatDetail() {
           <div className="divide-y divide-slate-700/20">
             {chat.raw_transcript.split('\n').filter(Boolean).map((line, i) => {
               const isAgent = line.includes(`] ${chat.agent_name}:`);
-              const isCustomer = !isAgent;
-              // Parse timestamp and content
-              const tsMatch = line.match(/^\[([\d:]+)\] (.+?): (.+)$/);
+              // Match both 24hr [HH:MM:SS] and 12hr [HH:MM:SS AM/PM] formats
+              const tsMatch = line.match(/^\[([\d:]+ ?(?:AM|PM)?)\] ([^:]+): (.+)/);
               const ts = tsMatch?.[1] || '';
               const speaker = tsMatch?.[2] || '';
               const text = tsMatch?.[3] || line;
               return (
                 <div key={i} className={`flex gap-3 px-5 py-3 ${isAgent ? 'bg-slate-800/20' : ''}`}>
-                  <div className="w-16 flex-shrink-0 text-xs text-slate-600 font-mono pt-0.5">{ts}</div>
+                  <div className="w-24 flex-shrink-0 text-xs text-slate-500 font-mono pt-0.5">{ts}</div>
                   <div className="flex-1 min-w-0">
                     <div className={`text-xs font-bold mb-1 ${isAgent ? 'text-blue-400' : 'text-emerald-400'}`}>
                       {isAgent ? '🎧' : '👤'} {speaker}
