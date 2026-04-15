@@ -38,7 +38,7 @@ export default function AutoFailsReport() {
         <div className="space-y-6">
           {grouped.map(({ agent, fails }) => (
             <div key={agent.id} className="bg-[#1e293b] border border-red-500/30 rounded-xl overflow-hidden">
-              <div className="flex items-center justify-between px-5 py-4 bg-red-900/10 border-b border-red-500/20">
+              <div className="flex items-center justify-between gap-2 flex-wrap px-5 py-4 bg-red-900/10 border-b border-red-500/20">
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center text-red-400 font-black text-sm">
                     {fails.length}

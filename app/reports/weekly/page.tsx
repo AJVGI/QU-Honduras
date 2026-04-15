@@ -47,7 +47,31 @@ export default function WeeklyReport() {
       </div>
 
       <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-        <div className="overflow-x-auto">
+        {/* Mobile card list */}
+        <div className="block md:hidden divide-y divide-slate-700/30">
+          {report.map(({ agent, thisWeek, thisAvg, prevAvg, change, autoFails }) => (
+            <div key={agent.id} className="px-4 py-3 flex items-center gap-3">
+              <div className="flex-1 min-w-0">
+                <Link href={`/agent/${agent.id}`} className="text-sm font-semibold text-white hover:text-blue-400 truncate block">{agent.name}</Link>
+                <div className="flex items-center gap-2 mt-1 flex-wrap">
+                  {change !== null ? (
+                    <span className={`text-xs font-bold ${change > 0 ? 'text-green-400' : change < 0 ? 'text-red-400' : 'text-slate-400'}`}>
+                      {change > 0 ? '↑' : change < 0 ? '↓' : '→'}{Math.abs(change)} WoW
+                    </span>
+                  ) : null}
+                  <span className="text-xs text-slate-400">{thisWeek} chats</span>
+                  {autoFails > 0 && <span className="text-xs text-red-400">🚨 {autoFails}</span>}
+                </div>
+              </div>
+              <div className="text-right flex-shrink-0">
+                <div className="font-mono font-bold text-sm" style={{ color: thisAvg ? gradeColor(thisAvg >= 90 ? 'A' : thisAvg >= 80 ? 'B' : thisAvg >= 70 ? 'C' : thisAvg >= 60 ? 'D' : 'F') : '#64748b' }}>{thisAvg ?? '—'}</div>
+                <GradeBadge grade={agent.grade} />
+              </div>
+            </div>
+          ))}
+        </div>
+        {/* Desktop table */}
+        <div className="hidden md:block overflow-x-auto">
           <table className="w-full">
             <thead className="bg-slate-800/50">
               <tr>

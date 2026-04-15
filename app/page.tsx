@@ -272,7 +272,31 @@ export default function TeamOverview() {
                 className="px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-600 text-slate-300 text-sm placeholder-slate-500 focus:outline-none focus:border-blue-500 w-full sm:w-48"
               />
             </div>
-            <div className="overflow-x-auto">
+            {/* Mobile card list */}
+            <div className="block md:hidden divide-y divide-slate-700/30">
+              {agentTable.map((agent, i) => (
+                <div key={agent.id} className="px-4 py-3 flex items-center gap-3 hover:bg-slate-800/40">
+                  <span className="text-slate-500 text-sm w-6 flex-shrink-0">{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <AgentLink agentId={agent.id} agentName={agent.name} className="group-hover:text-blue-400" />
+                    <div className="flex items-center gap-2 mt-1">
+                      <div className="w-20 h-1.5 bg-slate-700 rounded-full">
+                        <div className="h-1.5 rounded-full" style={{ width: `${agent.avg_score}%`, background: gradeColor(agent.grade) }} />
+                      </div>
+                      <span className="font-mono text-xs font-bold" style={{ color: gradeColor(agent.grade) }}>{agent.avg_score}</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 flex-shrink-0">
+                    <GradeBadge grade={agent.grade} />
+                    <span className={`text-xs font-semibold ${agent.trend > 0 ? 'text-green-400' : agent.trend < 0 ? 'text-red-400' : 'text-slate-400'}`}>
+                      {agent.trend > 0 ? '↑' : agent.trend < 0 ? '↓' : '→'}{Math.abs(agent.trend)}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {/* Desktop table */}
+            <div className="hidden md:block overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-slate-800/50">
                   <tr>

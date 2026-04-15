@@ -136,7 +136,7 @@ export default function AgentDetail() {
             </div>
             <p className="text-slate-400 text-sm">JackpotDaily · Honduras Support Team</p>
           </div>
-          <div className="grid grid-cols-4 gap-4 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center mt-2 sm:mt-0">
             {[
               { label: 'Avg Score', value: agent.avg_score, color: gradeColor(agent.grade) },
               { label: 'Total Chats', value: agent.chats.length, color: undefined },
@@ -252,7 +252,25 @@ export default function AgentDetail() {
           </div>
 
           <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-            <div className="overflow-x-auto">
+            {/* Mobile card list */}
+            <div className="block md:hidden divide-y divide-slate-700/30">
+              {pageChats.map((chat, i) => (
+                <div key={i} className="px-4 py-3 space-y-1">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <GradeBadge grade={chat.grade} />
+                      <span className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</span>
+                      {chat.auto_fail.triggered && <FlagLink chatId={chat.chat_id} type="auto_fail" reason={chat.auto_fail.reason || undefined} />}
+                      {!chat.auto_fail.triggered && chat.grade === 'F' && <FlagLink chatId={chat.chat_id} type="poor" reason="Low score" />}
+                    </div>
+                    <ChatJumpLink chatId={chat.chat_id} label="View →" />
+                  </div>
+                  <div className="text-xs text-slate-400">{formatDate(chat.timestamp)}{chat.website ? ` · ${chat.website}` : ''}</div>
+                </div>
+              ))}
+            </div>
+            {/* Desktop table */}
+            <div className="hidden md:block overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-slate-800/50">
                   <tr>

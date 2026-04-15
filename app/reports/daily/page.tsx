@@ -62,7 +62,28 @@ export default function DailyReport() {
         </div>
       ) : (
         <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-          <div className="overflow-x-auto">
+          {/* Mobile card list */}
+          <div className="block md:hidden divide-y divide-slate-700/30">
+            {todayChats.map((chat, i) => (
+              <div key={i} className="px-4 py-3">
+                <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center gap-2">
+                    <GradeBadge grade={chat.grade} />
+                    <span className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</span>
+                    <span className="text-xs text-slate-400 font-mono">{new Date(chat.timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
+                  </div>
+                  <ChatJumpLink chatId={chat.chat_id} />
+                </div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <AgentLink agentId={chat.agent.id} agentName={chat.agent_name} />
+                  {chat.website && <span className="text-xs text-slate-500">{chat.website}</span>}
+                  {chat.auto_fail.triggered && <FlagLink chatId={chat.chat_id} type="auto_fail" reason={chat.auto_fail.reason || 'Auto-fail'} showLabel />}
+                </div>
+              </div>
+            ))}
+          </div>
+          {/* Desktop table */}
+          <div className="hidden md:block overflow-x-auto">
             <table className="w-full">
               <thead className="bg-slate-800/50">
                 <tr>

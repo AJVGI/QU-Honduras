@@ -307,10 +307,10 @@ export default function ChatDetail() {
           })}
         </div>
         <div className="p-5 bg-slate-800/50 border-t border-slate-700/50">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="font-bold text-white">Total Score</div>
-            <div className="flex items-center gap-3">
-              <div className="w-48 h-3 bg-slate-700 rounded-full">
+            <div className="flex items-center gap-2 flex-wrap">
+              <div className="w-32 sm:w-48 h-3 bg-slate-700 rounded-full">
                 <div className="h-3 rounded-full"
                   style={{ width: `${chat.total_score}%`, background: gradeColor(chat.grade) }} />
               </div>
