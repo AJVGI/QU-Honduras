@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createHash } from 'crypto';
 
-const PASSWORD_HASH = process.env.AUTH_PASSWORD_HASH || '';
+const ADMIN_HASH = process.env.AUTH_ADMIN_HASH || '';
+const USER_HASH = process.env.AUTH_USER_HASH || '';
 const COOKIE_SECRET = process.env.AUTH_COOKIE_SECRET || '';
 const COOKIE_NAME = process.env.AUTH_COOKIE_NAME || 'jd_qa_auth';
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 7; // 7 days
@@ -16,7 +17,6 @@ async function hmacSign(data: string, secret: string): Promise<string> {
 }
 
 export async function POST(request: NextRequest) {
-  // Rate limiting: simple in-memory (resets on cold start, good enough for demo)
   const body = await request.json().catch(() => ({}));
   const { password } = body as { password?: string };
 
@@ -24,22 +24,23 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Password required' }, { status: 400 });
   }
 
-  // Hash the submitted password and compare
   const submitted = createHash('sha256').update(password).digest('hex');
-  const valid = submitted === PASSWORD_HASH;
 
-  if (!valid) {
-    // Artificial delay to slow brute force
+  let role: 'admin' | 'user' | null = null;
+  if (submitted === ADMIN_HASH) role = 'admin';
+  else if (submitted === USER_HASH) role = 'user';
+
+  if (!role) {
     await new Promise(r => setTimeout(r, 800));
     return NextResponse.json({ error: 'Invalid password' }, { status: 401 });
   }
 
-  // Build signed token: payload.hmac
-  const payload = `auth:${Date.now()}`;
+  // Build signed token: role:timestamp.hmac
+  const payload = `${role}:${Date.now()}`;
   const sig = await hmacSign(payload, COOKIE_SECRET);
   const token = `${payload}.${sig}`;
 
-  const response = NextResponse.json({ ok: true });
+  const response = NextResponse.json({ ok: true, role });
   response.cookies.set(COOKIE_NAME, token, {
     httpOnly: true,
     secure: true,

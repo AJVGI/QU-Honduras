@@ -6,6 +6,8 @@ import { usePathname, useRouter } from 'next/navigation';
 import { AGENTS, IS_REAL_DATA } from '@/lib/dataLoader';
 import { gradeColor } from '@/lib/utils';
 import { Grade } from '@/lib/types';
+import { DevToolsGuard } from '@/components/DevToolsGuard';
+import { useRole } from '@/lib/useRole';
 
 const GRADE_DOT: Record<Grade, string> = {
   A: 'bg-green-400', B: 'bg-blue-400', C: 'bg-amber-400', D: 'bg-orange-400', F: 'bg-red-400',
@@ -29,6 +31,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const router = useRouter();
   const close = () => setOpen(false);
   const pathname = usePathname();
+  const role = useRole();
+  const isAdmin = role === 'admin';
 
   // Don't render sidebar on login page
   const isLoginPage = pathname === '/login';
@@ -79,22 +83,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <NavLink href="/reports/daily" icon="📅" label="Daily Report" onClick={close} />
             <NavLink href="/reports/weekly" icon="📈" label="Weekly Report" onClick={close} />
             <NavLink href="/reports/autofails" icon="🚨" label="Auto-Fails" onClick={close} />
-            <NavLink href="/reports/export" icon="⬇️" label="Export Data" onClick={close} />
+            {isAdmin && <NavLink href="/reports/export" icon="⬇️" label="Export Data" onClick={close} />}
           </div>
         </div>
 
-        {/* Settings */}
-        <div>
-          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">System</div>
-          <div className="space-y-0.5">
-            <NavLink href="/settings" icon="⚙️" label="Settings & Info" onClick={close} />
+        {/* Settings — admin only */}
+        {isAdmin && (
+          <div>
+            <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">System</div>
+            <div className="space-y-0.5">
+              <NavLink href="/settings" icon="⚙️" label="Settings & Info" onClick={close} />
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       {/* Footer */}
       <div className="px-4 py-3 border-t border-slate-700/50 space-y-2">
-        <div className="text-xs text-slate-500">Powered by Claude AI · {IS_REAL_DATA ? '🟢 Live' : '🟡 Mock'}</div>
+        <div className="text-xs text-slate-500 flex items-center gap-1">
+          {isAdmin ? '🔑 Admin' : '👤 Viewer'} · {IS_REAL_DATA ? '🟢 Live' : '🟡 Mock'}
+        </div>
         <button
           onClick={handleLogout}
           className="w-full flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-500 hover:bg-slate-800 hover:text-red-400 text-xs transition-colors"
@@ -126,6 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className="min-h-screen bg-[#0f172a] text-slate-100">
+        <DevToolsGuard />
         <div className="flex min-h-screen">
           {/* Mobile overlay */}
           {open && <div className="fixed inset-0 bg-black/60 z-20 lg:hidden" onClick={close} />}
