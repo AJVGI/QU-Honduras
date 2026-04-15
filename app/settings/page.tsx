@@ -24,8 +24,8 @@ export default function Settings() {
         <p className="text-slate-400 text-sm mt-1">System status, data source, and configuration.</p>
       </div>
 
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-        <div className="px-5 py-4 border-b border-slate-700/50">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
+        <div className="px-5 py-4 border-b border-[#7B2D8B]/20">
           <h2 className="text-sm font-semibold text-slate-300">System Status</h2>
         </div>
         <div className="divide-y divide-slate-700/30">
@@ -38,7 +38,7 @@ export default function Settings() {
         </div>
       </div>
 
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5 space-y-3">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5 space-y-3">
         <h2 className="text-sm font-semibold text-slate-300">Scoring Pipeline</h2>
         <div className="text-xs text-slate-400 space-y-2">
           <p>• <strong className="text-slate-300">Realtime Watcher</strong> — polls WellyTalk every 5 min, scores new closed chats automatically</p>
@@ -48,7 +48,7 @@ export default function Settings() {
         </div>
       </div>
 
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5 space-y-3">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5 space-y-3">
         <h2 className="text-sm font-semibold text-slate-300">Manual Controls</h2>
         <div className="text-xs text-slate-400 font-mono space-y-1.5 bg-slate-900/50 rounded-lg p-3">
           <div># Deep score next 100 chats (Sonnet)</div>

@@ -11,7 +11,7 @@ import { FlagLink } from '@/components/FlagLink';
 
 const RATING_CONFIG: Record<MessageRating, { label: string; color: string; bg: string; icon: string }> = {
   excellent:         { label: 'Excellent',         color: 'text-green-400',  bg: 'bg-green-500/10 border-green-500/30',  icon: '✅' },
-  good:              { label: 'Good',              color: 'text-blue-400',   bg: 'bg-blue-500/10 border-blue-500/30',    icon: '👍' },
+  good:              { label: 'Good',              color: 'text-[#E91E8C]',   bg: 'bg-blue-500/10 border-blue-500/30',    icon: '👍' },
   needs_improvement: { label: 'Needs Work',        color: 'text-amber-400',  bg: 'bg-amber-500/10 border-amber-500/30',  icon: '⚠️' },
   poor:              { label: 'Poor',              color: 'text-red-400',    bg: 'bg-red-500/10 border-red-500/30',      icon: '❌' },
   na:                { label: 'Customer',          color: 'text-slate-400',  bg: 'bg-slate-700/30 border-slate-600/30',  icon: '💬' },
@@ -62,7 +62,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
       </div>
       <div className="flex-1">
         <div className="flex items-center gap-2 mb-1 flex-wrap">
-          <span className="text-xs font-bold text-blue-400">AGENT</span>
+          <span className="text-xs font-bold text-[#E91E8C]">AGENT</span>
           {msg.timestamp && <span className="text-xs font-mono text-slate-500">{msg.timestamp}</span>}
           <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
           <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${cfg.bg} ${cfg.color}`}>
@@ -83,7 +83,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
           </div>
 
           {(msg.positives?.length > 0 || msg.issues?.length > 0 || msg.suggestion) && (
-            <div className="px-4 py-3 bg-slate-900/40 border-t border-slate-700/30 space-y-2">
+            <div className="px-4 py-3 bg-[#0D0D1A]/50 border-t border-[#7B2D8B]/15 space-y-2">
               {msg.positives?.length > 0 && (
                 <div>
                   <div className="text-xs font-semibold text-green-400 mb-1">✓ What worked</div>
@@ -106,7 +106,7 @@ function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
               )}
               {msg.suggestion && (
                 <div className="bg-blue-900/20 border border-blue-500/20 rounded-lg px-3 py-2">
-                  <div className="text-xs font-semibold text-blue-400 mb-1">💡 Better response</div>
+                  <div className="text-xs font-semibold text-[#E91E8C] mb-1">💡 Better response</div>
                   <p className="text-xs text-slate-300 leading-relaxed italic">&ldquo;{msg.suggestion}&rdquo;</p>
                 </div>
               )}
@@ -168,7 +168,7 @@ export default function ChatDetail() {
       </Link>
 
       {/* Header */}
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-6">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-6">
         <div className="flex flex-col sm:flex-row sm:items-start gap-4">
           <div className="flex-1">
             <div className="flex items-center gap-3 flex-wrap mb-1">
@@ -215,12 +215,12 @@ export default function ChatDetail() {
 
       {/* Summary + Coaching */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
           <h2 className="text-sm font-semibold text-slate-300 mb-2">📋 QA Summary</h2>
           <p className="text-slate-300 text-sm leading-relaxed">{chat.summary}</p>
         </div>
         <div className="bg-blue-900/20 border border-blue-500/30 rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-blue-400 mb-2">💡 Top Coaching Tip</h2>
+          <h2 className="text-sm font-semibold text-[#E91E8C] mb-2">💡 Top Coaching Tip</h2>
           <p className="text-slate-300 text-sm leading-relaxed">{chat.coaching_tip}</p>
         </div>
       </div>
@@ -257,7 +257,7 @@ export default function ChatDetail() {
 
       {/* Message Rating Summary (Opus only) */}
       {hasMessageAnalysis && (
-        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
           <h2 className="text-sm font-semibold text-slate-300 mb-4">Message Rating Breakdown</h2>
           <div className="flex gap-3 flex-wrap">
             {(['excellent','good','needs_improvement','poor'] as MessageRating[]).map(r => {
@@ -276,8 +276,8 @@ export default function ChatDetail() {
       )}
 
       {/* Category Scorecard */}
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-        <div className="p-5 border-b border-slate-700/50">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
+        <div className="p-5 border-b border-[#7B2D8B]/20">
           <h2 className="text-sm font-semibold text-slate-300">Category Scorecard</h2>
         </div>
         <div className="divide-y divide-slate-700/30">
@@ -306,7 +306,7 @@ export default function ChatDetail() {
             );
           })}
         </div>
-        <div className="p-5 bg-slate-800/50 border-t border-slate-700/50">
+        <div className="p-5 bg-[#2D1B4E]/30 border-t border-[#7B2D8B]/20">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="font-bold text-white">Total Score</div>
             <div className="flex items-center gap-2 flex-wrap">
@@ -326,8 +326,8 @@ export default function ChatDetail() {
 
       {/* Full Conversation Transcript (raw) */}
       {chat.raw_transcript && (
-        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-          <div className="p-5 border-b border-slate-700/50 flex items-center justify-between">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
+          <div className="p-5 border-b border-[#7B2D8B]/20 flex items-center justify-between">
             <div>
               <h2 className="text-sm font-semibold text-slate-300">💬 Full Conversation</h2>
               <p className="text-xs text-slate-500 mt-0.5">Complete customer + agent transcript</p>
@@ -342,10 +342,10 @@ export default function ChatDetail() {
               const speaker = tsMatch?.[2] || '';
               const text = tsMatch?.[3] || line;
               return (
-                <div key={i} className={`flex gap-3 px-5 py-3 ${isAgent ? 'bg-slate-800/20' : ''}`}>
+                <div key={i} className={`flex gap-3 px-5 py-3 ${isAgent ? 'bg-[#2D1B4E]/10' : ''}`}>
                   <div className="w-24 flex-shrink-0 text-xs text-slate-500 font-mono pt-0.5">{ts}</div>
                   <div className="flex-1 min-w-0">
-                    <div className={`text-xs font-bold mb-1 ${isAgent ? 'text-blue-400' : 'text-emerald-400'}`}>
+                    <div className={`text-xs font-bold mb-1 ${isAgent ? 'text-[#E91E8C]' : 'text-emerald-400'}`}>
                       {isAgent ? '🎧' : '👤'} {speaker}
                     </div>
                     <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{cleanText(text)}</p>
@@ -382,7 +382,7 @@ export default function ChatDetail() {
           <div className="text-slate-400 text-sm">
             This chat is in the scoring queue. Full per-message breakdown will appear automatically once processed.
           </div>
-          <div className="text-xs text-blue-400 mt-1">Deep scoring runs automatically in batches — check back shortly.</div>
+          <div className="text-xs text-[#E91E8C] mt-1">Deep scoring runs automatically in batches — check back shortly.</div>
         </div>
       )}
     </div>

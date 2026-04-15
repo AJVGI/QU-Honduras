@@ -36,23 +36,23 @@ export default function WeeklyReport() {
       </div>
 
       <div className="grid grid-cols-2 gap-4">
-        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-4 text-center">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 text-center">
           <div className="text-2xl font-black text-white">{totalThisWeek}</div>
           <div className="text-xs text-slate-400 mt-1">Chats This Week</div>
         </div>
-        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-4 text-center">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 text-center">
           <div className="text-2xl font-black" style={{ color: gradeColor(avgThisWeek >= 90 ? 'A' : avgThisWeek >= 80 ? 'B' : avgThisWeek >= 70 ? 'C' : avgThisWeek >= 60 ? 'D' : 'F') }}>{avgThisWeek || '—'}</div>
           <div className="text-xs text-slate-400 mt-1">Team Avg This Week</div>
         </div>
       </div>
 
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
         {/* Mobile card list */}
         <div className="block md:hidden divide-y divide-slate-700/30">
           {report.map(({ agent, thisWeek, thisAvg, prevAvg, change, autoFails }) => (
             <div key={agent.id} className="px-4 py-3 flex items-center gap-3">
               <div className="flex-1 min-w-0">
-                <Link href={`/agent/${agent.id}`} className="text-sm font-semibold text-white hover:text-blue-400 truncate block">{agent.name}</Link>
+                <Link href={`/agent/${agent.id}`} className="text-sm font-semibold text-white hover:text-[#E91E8C] truncate block">{agent.name}</Link>
                 <div className="flex items-center gap-2 mt-1 flex-wrap">
                   {change !== null ? (
                     <span className={`text-xs font-bold ${change > 0 ? 'text-green-400' : change < 0 ? 'text-red-400' : 'text-slate-400'}`}>
@@ -73,7 +73,7 @@ export default function WeeklyReport() {
         {/* Desktop table */}
         <div className="hidden md:block overflow-x-auto">
           <table className="w-full">
-            <thead className="bg-slate-800/50">
+            <thead className="bg-[#2D1B4E]/30">
               <tr>
                 {['Agent', 'This Week Avg', 'Last Week Avg', 'Change', 'Grade', 'Chats', 'Auto-Fails'].map(h => (
                   <th key={h} className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">{h}</th>
@@ -82,9 +82,9 @@ export default function WeeklyReport() {
             </thead>
             <tbody className="divide-y divide-slate-700/30">
               {report.map(({ agent, thisWeek, thisAvg, prevAvg, change, autoFails }) => (
-                <tr key={agent.id} className="hover:bg-slate-800/30 transition-colors">
+                <tr key={agent.id} className="hover:bg-[#2D1B4E]/15 transition-colors">
                   <td className="py-3 px-4">
-                    <Link href={`/agent/${agent.id}`} className="text-sm font-semibold text-white hover:text-blue-400">{agent.name}</Link>
+                    <Link href={`/agent/${agent.id}`} className="text-sm font-semibold text-white hover:text-[#E91E8C]">{agent.name}</Link>
                   </td>
                   <td className="py-3 px-4 font-mono font-bold text-sm" style={{ color: thisAvg ? gradeColor(thisAvg >= 90 ? 'A' : thisAvg >= 80 ? 'B' : thisAvg >= 70 ? 'C' : thisAvg >= 60 ? 'D' : 'F') : '#64748b' }}>
                     {thisAvg ?? '—'}

@@ -12,14 +12,21 @@ export function StatCard({
   icon?: string;
 }) {
   return (
-    <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+    <div
+      className="rounded-xl p-5 transition-all hover:scale-[1.02]"
+      style={{
+        backgroundColor: '#1A1A2E',
+        border: '1px solid rgba(123, 45, 139, 0.3)',
+        boxShadow: color ? `0 0 20px ${color}15` : 'none',
+      }}
+    >
       <div className="flex items-start justify-between">
         <div>
-          <div className="text-xs text-slate-400 uppercase tracking-wider mb-1">{label}</div>
-          <div className="text-3xl font-black" style={{ color: color || '#f8fafc' }}>{value}</div>
-          {sub && <div className="text-xs text-slate-500 mt-1">{sub}</div>}
+          <div className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: '#7B2D8B' }}>{label}</div>
+          <div className="text-3xl font-black font-display" style={{ color: color || '#f8fafc' }}>{value}</div>
+          {sub && <div className="text-xs mt-1" style={{ color: '#4a4a6a' }}>{sub}</div>}
         </div>
-        {icon && <div className="text-2xl opacity-60">{icon}</div>}
+        {icon && <div className="text-2xl opacity-70">{icon}</div>}
       </div>
     </div>
   );

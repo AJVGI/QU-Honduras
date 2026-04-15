@@ -1,22 +1,23 @@
 import { Grade } from './types';
 
+// JackpotDaily brand-aligned grade colors
 export function gradeColor(grade: Grade): string {
   switch (grade) {
-    case 'A': return '#22c55e';
-    case 'B': return '#3b82f6';
-    case 'C': return '#f59e0b';
-    case 'D': return '#f97316';
-    case 'F': return '#ef4444';
+    case 'A': return '#00C882'; // Winner Green
+    case 'B': return '#E91E8C'; // Hot Pink
+    case 'C': return '#FFD600'; // Gold Yellow
+    case 'D': return '#f97316'; // Orange
+    case 'F': return '#FF4444'; // Alert Red
   }
 }
 
 export function gradeBg(grade: Grade): string {
   switch (grade) {
-    case 'A': return 'bg-green-500/20 text-green-400 border border-green-500/30';
-    case 'B': return 'bg-blue-500/20 text-blue-400 border border-blue-500/30';
-    case 'C': return 'bg-amber-500/20 text-amber-400 border border-amber-500/30';
+    case 'A': return 'bg-[#00C882]/20 text-[#00C882] border border-[#00C882]/40';
+    case 'B': return 'bg-[#E91E8C]/20 text-[#E91E8C] border border-[#E91E8C]/40';
+    case 'C': return 'bg-[#FFD600]/20 text-[#FFD600] border border-[#FFD600]/40';
     case 'D': return 'bg-orange-500/20 text-orange-400 border border-orange-500/30';
-    case 'F': return 'bg-red-500/20 text-red-400 border border-red-500/30';
+    case 'F': return 'bg-[#FF4444]/20 text-[#FF4444] border border-[#FF4444]/40';
   }
 }
 

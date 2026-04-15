@@ -38,15 +38,15 @@ export default function DailyReport() {
       {/* Summary */}
       {todayChats.length > 0 && (
         <div className="grid grid-cols-3 gap-4">
-          <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-4 text-center">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 text-center">
             <div className="text-2xl font-black text-white">{todayChats.length}</div>
             <div className="text-xs text-slate-400 mt-1">Chats Scored</div>
           </div>
-          <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-4 text-center">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 text-center">
             <div className="text-2xl font-black" style={{ color: gradeColor(avgScore >= 90 ? 'A' : avgScore >= 80 ? 'B' : avgScore >= 70 ? 'C' : avgScore >= 60 ? 'D' : 'F') }}>{avgScore}</div>
             <div className="text-xs text-slate-400 mt-1">Avg Score</div>
           </div>
-          <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-4 text-center">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 text-center">
             <div className={`text-2xl font-black ${autoFails > 0 ? 'text-red-400' : 'text-green-400'}`}>{autoFails}</div>
             <div className="text-xs text-slate-400 mt-1">Auto-Fails</div>
           </div>
@@ -61,7 +61,7 @@ export default function DailyReport() {
           <div className="text-slate-400 text-sm mt-2">The realtime watcher scores new chats every 5 minutes.</div>
         </div>
       ) : (
-        <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
           {/* Mobile card list */}
           <div className="block md:hidden divide-y divide-slate-700/30">
             {todayChats.map((chat, i) => (
@@ -85,7 +85,7 @@ export default function DailyReport() {
           {/* Desktop table */}
           <div className="hidden md:block overflow-x-auto">
             <table className="w-full">
-              <thead className="bg-slate-800/50">
+              <thead className="bg-[#2D1B4E]/30">
                 <tr>
                   {['Time', 'Agent', 'Score', 'Grade', 'Website', 'Auto-Fail', ''].map(h => (
                     <th key={h} className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">{h}</th>
@@ -94,7 +94,7 @@ export default function DailyReport() {
               </thead>
               <tbody className="divide-y divide-slate-700/30">
                 {todayChats.map((chat, i) => (
-                  <tr key={i} className="hover:bg-slate-800/30 transition-colors">
+                  <tr key={i} className="hover:bg-[#2D1B4E]/15 transition-colors">
                     <td className="py-3 px-4 text-sm text-slate-400 font-mono">{new Date(chat.timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</td>
                     <td className="py-3 px-4">
                       <AgentLink agentId={chat.agent.id} agentName={chat.agent_name} />

@@ -46,7 +46,7 @@ export default function ExportPage() {
         <p className="text-slate-400 text-sm mt-1">Download QA scores for analysis in Excel, Google Sheets, or your BI tool.</p>
       </div>
 
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-6 space-y-5">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-6 space-y-5">
         <div className="flex items-center justify-between">
           <div>
             <div className="font-semibold text-white">Full Chat History CSV</div>
@@ -58,7 +58,7 @@ export default function ExportPage() {
           </button>
         </div>
 
-        <div className="border-t border-slate-700/50 pt-4">
+        <div className="border-t border-[#7B2D8B]/20 pt-4">
           <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Columns included</div>
           <div className="flex flex-wrap gap-2">
             {['chat_id','agent_name','timestamp','total_score','grade','auto_fail','website','greeting','issue_discovery','resolution','communication','compliance','closing','summary','coaching_tip'].map(col => (
@@ -68,7 +68,7 @@ export default function ExportPage() {
         </div>
       </div>
 
-      <div className="bg-slate-800/30 border border-slate-700/30 rounded-xl p-5 text-sm text-slate-400 space-y-2">
+      <div className="bg-[#2D1B4E]/15 border border-[#7B2D8B]/15 rounded-xl p-5 text-sm text-slate-400 space-y-2">
         <div className="font-semibold text-slate-300">Coming soon</div>
         <ul className="space-y-1 text-xs">
           <li>• Per-agent CSV exports</li>

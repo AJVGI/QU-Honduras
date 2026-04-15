@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&family=Montserrat:wght@700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #0f172a;
-  color: #f8fafc;
+:root {
+  --jd-pink:   #E91E8C;
+  --jd-rose:   #C2185B;
+  --jd-gold:   #FFD600;
+  --jd-purple: #2D1B4E;
+  --jd-promo:  #7B2D8B;
+  --jd-green:  #00C882;
+  --jd-red:    #FF4444;
+  --jd-navy:   #1A1A2E;
+  --jd-dark:   #0D0D1A;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+body {
+  background-color: var(--jd-dark);
+  color: #f8fafc;
+  font-family: 'Outfit', sans-serif;
 }
-::-webkit-scrollbar-track {
-  background: #1e293b;
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--jd-navy); }
+::-webkit-scrollbar-thumb { background: #7B2D8B; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #E91E8C; }
+
+/* Brand gradient utility */
+.jd-gradient {
+  background: linear-gradient(135deg, #E91E8C 0%, #7B2D8B 50%, #2D1B4E 100%);
 }
-::-webkit-scrollbar-thumb {
-  background: #475569;
-  border-radius: 3px;
+
+.jd-gradient-gold {
+  background: linear-gradient(135deg, #FFD600 0%, #E91E8C 100%);
 }
+
+/* Glow effects for key metrics */
+.glow-pink { box-shadow: 0 0 20px rgba(233, 30, 140, 0.25); }
+.glow-gold  { box-shadow: 0 0 20px rgba(255, 214, 0, 0.20); }
+.glow-green { box-shadow: 0 0 20px rgba(0, 200, 130, 0.20); }

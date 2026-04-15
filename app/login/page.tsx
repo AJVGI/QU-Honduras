@@ -19,14 +19,12 @@ function LoginForm() {
     e.preventDefault();
     setError('');
     setLoading(true);
-
     try {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ password }),
       });
-
       if (res.ok) {
         const from = searchParams.get('from') || '/';
         router.replace(from);
@@ -44,22 +42,46 @@ function LoginForm() {
   }
 
   return (
-    <div className="min-h-screen bg-[#0f172a] flex items-center justify-center px-4">
-      <div className="w-full max-w-sm">
+    <div
+      className="min-h-screen flex items-center justify-center px-4"
+      style={{ backgroundColor: '#0D0D1A' }}
+    >
+      {/* Background glow */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, #E91E8C 0%, transparent 70%)' }} />
+        <div className="absolute bottom-1/4 left-1/3 w-64 h-64 rounded-full opacity-8"
+          style={{ background: 'radial-gradient(circle, #7B2D8B 0%, transparent 70%)' }} />
+      </div>
+
+      <div className="w-full max-w-sm relative z-10">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center text-black font-black text-2xl mb-4 shadow-lg shadow-orange-500/20">
+          <div
+            className="w-20 h-20 rounded-2xl flex items-center justify-center text-white font-black text-3xl mb-4 font-display"
+            style={{
+              background: 'linear-gradient(135deg, #E91E8C 0%, #7B2D8B 50%, #2D1B4E 100%)',
+              boxShadow: '0 0 40px rgba(233, 30, 140, 0.4), 0 8px 32px rgba(0,0,0,0.5)',
+            }}
+          >
             JD
           </div>
-          <h1 className="text-2xl font-black text-white">JackpotDaily</h1>
-          <p className="text-slate-400 text-sm mt-1">QA Dashboard — Restricted Access</p>
+          <h1 className="text-3xl font-black text-white font-display tracking-wide">JackpotDaily</h1>
+          <p className="mt-1 text-sm" style={{ color: '#7B2D8B' }}>QA Dashboard — Restricted Access</p>
         </div>
 
         {/* Card */}
-        <div className="bg-[#0a111f] border border-slate-700/50 rounded-2xl p-8 shadow-2xl">
+        <div
+          className="rounded-2xl p-8 shadow-2xl"
+          style={{
+            backgroundColor: '#1A1A2E',
+            border: '1px solid rgba(233, 30, 140, 0.2)',
+            boxShadow: '0 0 60px rgba(233, 30, 140, 0.08), 0 24px 48px rgba(0,0,0,0.6)',
+          }}
+        >
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-slate-300 mb-2">
+              <label htmlFor="password" className="block text-sm font-semibold text-slate-300 mb-2">
                 Access Password
               </label>
               <input
@@ -71,21 +93,34 @@ function LoginForm() {
                 placeholder="Enter password"
                 autoComplete="current-password"
                 required
-                className="w-full px-4 py-3 bg-slate-800 border border-slate-600 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                className="w-full px-4 py-3 rounded-xl text-white placeholder-slate-500 focus:outline-none transition-all"
+                style={{
+                  backgroundColor: '#0D0D1A',
+                  border: '1px solid rgba(123, 45, 139, 0.4)',
+                  outline: 'none',
+                }}
+                onFocus={e => { e.target.style.border = '1px solid #E91E8C'; e.target.style.boxShadow = '0 0 0 3px rgba(233,30,140,0.15)'; }}
+                onBlur={e => { e.target.style.border = '1px solid rgba(123,45,139,0.4)'; e.target.style.boxShadow = 'none'; }}
               />
             </div>
 
             {error && (
-              <div className="flex items-center gap-2 px-4 py-3 bg-red-500/10 border border-red-500/30 rounded-xl text-red-400 text-sm">
-                <span>⚠️</span>
-                <span>{error}</span>
+              <div
+                className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm"
+                style={{ backgroundColor: 'rgba(255,68,68,0.1)', border: '1px solid rgba(255,68,68,0.3)', color: '#FF4444' }}
+              >
+                <span>⚠️</span><span>{error}</span>
               </div>
             )}
 
             <button
               type="submit"
               disabled={loading || !password}
-              className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold rounded-xl transition-all duration-150 flex items-center justify-center gap-2"
+              className="w-full py-3 px-4 text-white font-bold rounded-xl transition-all duration-150 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed font-display tracking-wide"
+              style={{
+                background: loading || !password ? '#2D1B4E' : 'linear-gradient(135deg, #E91E8C 0%, #7B2D8B 100%)',
+                boxShadow: loading || !password ? 'none' : '0 0 20px rgba(233,30,140,0.3)',
+              }}
             >
               {loading ? (
                 <>
@@ -95,14 +130,12 @@ function LoginForm() {
                   </svg>
                   Verifying...
                 </>
-              ) : (
-                'Sign In'
-              )}
+              ) : 'Sign In'}
             </button>
           </form>
         </div>
 
-        <p className="text-center text-xs text-slate-600 mt-6">
+        <p className="text-center text-xs mt-6" style={{ color: '#2D1B4E' }}>
           Internal use only · JackpotDaily Operations
         </p>
       </div>

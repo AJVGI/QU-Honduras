@@ -31,7 +31,7 @@ export default function AgentDetail() {
       <div className="flex items-center justify-center h-64 flex-col gap-3">
         <div className="text-4xl">🔍</div>
         <div className="text-slate-400">Agent not found.</div>
-        <Link href="/" className="text-blue-400 hover:text-blue-300 text-sm">← Back to Team Overview</Link>
+        <Link href="/" className="text-[#E91E8C] hover:text-blue-300 text-sm">← Back to Team Overview</Link>
       </div>
     );
   }
@@ -124,7 +124,7 @@ export default function AgentDetail() {
       <Link href="/" className="inline-flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors">← Team Overview</Link>
 
       {/* Agent Header */}
-      <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-6">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-6">
         <div className="flex flex-col sm:flex-row sm:items-center gap-5">
           <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white font-black text-xl flex-shrink-0">
             {initials}
@@ -153,11 +153,11 @@ export default function AgentDetail() {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 bg-slate-800/50 p-1 rounded-xl border border-slate-700/50 overflow-x-auto">
+      <div className="flex gap-1 bg-[#2D1B4E]/30 p-1 rounded-xl border border-[#7B2D8B]/20 overflow-x-auto">
         {tabs.map(t => (
           <button key={t.key} onClick={() => setTab(t.key)}
             className={`flex-1 min-w-max flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-              tab === t.key ? 'bg-[#1e293b] text-white shadow' : 'text-slate-400 hover:text-white'
+              tab === t.key ? 'bg-[#1A1A2E] text-white shadow' : 'text-slate-400 hover:text-white'
             }`}>
             <span>{t.icon}</span>{t.label}
           </button>
@@ -169,27 +169,27 @@ export default function AgentDetail() {
         <div className="space-y-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Radar */}
-            <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
               <h3 className="text-sm font-semibold text-slate-300 mb-4">Category Performance</h3>
               <ResponsiveContainer width="100%" height={220}>
                 <RadarChart data={radarData}>
-                  <PolarGrid stroke="#334155" />
+                  <PolarGrid stroke="#2D1B4E" />
                   <PolarAngleAxis dataKey="category" tick={{ fill: '#94a3b8', fontSize: 10 }} />
-                  <Radar dataKey="score" stroke="#3b82f6" fill="#3b82f6" fillOpacity={0.2} />
-                  <Tooltip contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }} />
+                  <Radar dataKey="score" stroke="#E91E8C" fill="#E91E8C" fillOpacity={0.2} />
+                  <Tooltip contentStyle={{ background: '#1A1A2E', border: '1px solid #7B2D8B', borderRadius: '8px' }} />
                 </RadarChart>
               </ResponsiveContainer>
             </div>
             {/* Timeline */}
-            <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
               <h3 className="text-sm font-semibold text-slate-300 mb-4">Score Timeline (Last 30)</h3>
               <ResponsiveContainer width="100%" height={220}>
                 <LineChart data={timeline}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2D1B4E" />
                   <XAxis dataKey="date" tick={{ fill: '#94a3b8', fontSize: 9 }} />
                   <YAxis domain={[0, 100]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
-                  <Tooltip contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0' }} />
-                  <Line type="monotone" dataKey="score" stroke="#3b82f6" strokeWidth={2} dot={{ r: 3, fill: '#3b82f6' }} />
+                  <Tooltip contentStyle={{ background: '#1A1A2E', border: '1px solid #7B2D8B', borderRadius: '8px', color: '#e2e8f0' }} />
+                  <Line type="monotone" dataKey="score" stroke="#E91E8C" strokeWidth={2} dot={{ r: 3, fill: '#E91E8C' }} />
                 </LineChart>
               </ResponsiveContainer>
             </div>
@@ -197,8 +197,8 @@ export default function AgentDetail() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Coaching Tips */}
-            <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
-              <h3 className="text-sm font-semibold text-blue-400 mb-4">💡 Top Coaching Tips</h3>
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+              <h3 className="text-sm font-semibold text-[#E91E8C] mb-4">💡 Top Coaching Tips</h3>
               {tips.length > 0 ? (
                 <div className="space-y-3">
                   {tips.map((tip, i) => (
@@ -210,7 +210,7 @@ export default function AgentDetail() {
               ) : <p className="text-slate-500 text-sm">No coaching tips yet.</p>}
             </div>
             {/* Auto-Fail Log */}
-            <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
               <h3 className="text-sm font-semibold text-red-400 mb-4">🚨 Auto-Fail Log ({autoFails.length})</h3>
               {autoFails.length > 0 ? (
                 <div className="space-y-2">
@@ -244,14 +244,14 @@ export default function AgentDetail() {
             {['all', ...GRADES].map(g => (
               <button key={g} onClick={() => { setGradeFilter(g); setChatPage(0); }}
                 className={`px-3 py-1 rounded-lg text-sm font-medium transition-colors ${
-                  gradeFilter === g ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                  gradeFilter === g ? 'bg-[#E91E8C] text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                 }`}>
                 {g === 'all' ? 'All Grades' : `Grade ${g}`}
               </button>
             ))}
           </div>
 
-          <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
             {/* Mobile card list */}
             <div className="block md:hidden divide-y divide-slate-700/30">
               {pageChats.map((chat, i) => (
@@ -272,7 +272,7 @@ export default function AgentDetail() {
             {/* Desktop table */}
             <div className="hidden md:block overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-slate-800/50">
+                <thead className="bg-[#2D1B4E]/30">
                   <tr>
                     {['Date', 'Chat ID', 'Score', 'Grade', 'Website', 'Flags', ''].map(h => (
                       <th key={h} className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">{h}</th>
@@ -281,7 +281,7 @@ export default function AgentDetail() {
                 </thead>
                 <tbody className="divide-y divide-slate-700/30">
                   {pageChats.map((chat, i) => (
-                    <tr key={i} className="hover:bg-slate-800/30 transition-colors">
+                    <tr key={i} className="hover:bg-[#2D1B4E]/15 transition-colors">
                       <td className="py-3 px-4 text-sm text-slate-400">{formatDate(chat.timestamp)}</td>
                       <td className="py-3 px-4 font-mono text-xs text-slate-400">{chat.chat_id.substring(0, 16)}…</td>
                       <td className="py-3 px-4 font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</td>
@@ -310,7 +310,7 @@ export default function AgentDetail() {
               <div className="text-center py-12 text-slate-400">😔 No chats found for this filter.</div>
             )}
             {totalPages > 1 && (
-              <div className="flex items-center justify-between px-5 py-3 border-t border-slate-700/50">
+              <div className="flex items-center justify-between px-5 py-3 border-t border-[#7B2D8B]/20">
                 <span className="text-xs text-slate-400">Page {chatPage+1} of {totalPages} · {filteredChats.length} chats</span>
                 <div className="flex gap-2">
                   <button disabled={chatPage === 0} onClick={() => setChatPage(p => p-1)}
@@ -332,8 +332,8 @@ export default function AgentDetail() {
             const dayAvg = Math.round(chats.reduce((s, c) => s + c.total_score, 0) / chats.length);
             const expanded = expandedDays.has(day);
             return (
-              <div key={day} className="bg-[#1e293b] border border-slate-700/50 rounded-xl overflow-hidden">
-                <button className="w-full flex items-center justify-between px-5 py-4 hover:bg-slate-800/30 transition-colors"
+              <div key={day} className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
+                <button className="w-full flex items-center justify-between px-5 py-4 hover:bg-[#2D1B4E]/15 transition-colors"
                   onClick={() => toggleDay(day)}>
                   <div className="flex items-center gap-4">
                     <span className="font-semibold text-white">{new Date(day + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' })}</span>
@@ -345,9 +345,9 @@ export default function AgentDetail() {
                   <span className="text-slate-400">{expanded ? '▲' : '▼'}</span>
                 </button>
                 {expanded && (
-                  <div className="border-t border-slate-700/30 divide-y divide-slate-700/20">
+                  <div className="border-t border-[#7B2D8B]/15 divide-y divide-slate-700/20">
                     {chats.map((chat, i) => (
-                      <div key={i} className="flex items-center gap-4 px-5 py-3 hover:bg-slate-800/20">
+                      <div key={i} className="flex items-center gap-4 px-5 py-3 hover:bg-[#2D1B4E]/10">
                         <span className="text-xs text-slate-500 font-mono">{new Date(chat.timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
                         <GradeBadge grade={chat.grade} />
                         <span className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>{chat.total_score}</span>
@@ -370,7 +370,7 @@ export default function AgentDetail() {
       {tab === 'training' && (
         <div className="space-y-6">
           {/* Category Weakness Ranking */}
-          <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
             <h3 className="text-sm font-semibold text-slate-300 mb-4">📉 Category Performance Ranking (weakest first)</h3>
             <div className="space-y-3">
               {trainingInsights.catScores.map(cat => (
@@ -389,7 +389,7 @@ export default function AgentDetail() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Top Issues */}
-            <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
               <h3 className="text-sm font-semibold text-red-400 mb-4">🔴 Most Common Issues</h3>
               {trainingInsights.topIssues.length > 0 ? (
                 <div className="space-y-2">
@@ -404,13 +404,13 @@ export default function AgentDetail() {
             </div>
 
             {/* Coaching Focus */}
-            <div className="bg-[#1e293b] border border-slate-700/50 rounded-xl p-5">
-              <h3 className="text-sm font-semibold text-blue-400 mb-4">💡 Recurring Coaching Needs</h3>
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+              <h3 className="text-sm font-semibold text-[#E91E8C] mb-4">💡 Recurring Coaching Needs</h3>
               {trainingInsights.topTips.length > 0 ? (
                 <div className="space-y-3">
                   {trainingInsights.topTips.map(([tip, count], i) => (
                     <div key={i} className="bg-blue-900/10 border border-blue-500/20 rounded-lg px-3 py-2">
-                      <div className="text-xs text-blue-400 mb-1">×{count} occurrences</div>
+                      <div className="text-xs text-[#E91E8C] mb-1">×{count} occurrences</div>
                       <p className="text-xs text-slate-300">{tip}</p>
                     </div>
                   ))}
