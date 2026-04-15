@@ -1,8 +1,8 @@
 'use client';
 import './globals.css';
 import Link from 'next/link';
-import { useState } from 'react';
-import { usePathname } from 'next/navigation';
+import { useState, useCallback } from 'react';
+import { usePathname, useRouter } from 'next/navigation';
 import { AGENTS, IS_REAL_DATA } from '@/lib/dataLoader';
 import { gradeColor } from '@/lib/utils';
 import { Grade } from '@/lib/types';
@@ -26,7 +26,17 @@ function NavLink({ href, icon, label, onClick }: { href: string; icon: string; l
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
   const close = () => setOpen(false);
+  const pathname = usePathname();
+
+  // Don't render sidebar on login page
+  const isLoginPage = pathname === '/login';
+
+  const handleLogout = useCallback(async () => {
+    await fetch('/api/auth/logout', { method: 'POST' });
+    router.replace('/login');
+  }, [router]);
 
   const Sidebar = () => (
     <aside className="flex flex-col h-full w-64 bg-[#0a111f] border-r border-slate-700/50">
@@ -83,11 +93,31 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </div>
 
       {/* Footer */}
-      <div className="px-4 py-3 border-t border-slate-700/50">
+      <div className="px-4 py-3 border-t border-slate-700/50 space-y-2">
         <div className="text-xs text-slate-500">Powered by Claude AI · {IS_REAL_DATA ? '🟢 Live' : '🟡 Mock'}</div>
+        <button
+          onClick={handleLogout}
+          className="w-full flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-500 hover:bg-slate-800 hover:text-red-400 text-xs transition-colors"
+        >
+          <span>🔓</span> Sign Out
+        </button>
       </div>
     </aside>
   );
+
+  if (isLoginPage) {
+    return (
+      <html lang="en">
+        <head>
+          <title>JackpotDaily QA — Sign In</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </head>
+        <body className="min-h-screen bg-[#0f172a] text-slate-100">
+          {children}
+        </body>
+      </html>
+    );
+  }
 
   return (
     <html lang="en">
