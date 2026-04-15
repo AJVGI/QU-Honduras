@@ -333,26 +333,39 @@ export default function ChatDetail() {
               <p className="text-xs text-slate-500 mt-0.5">Complete customer + agent transcript</p>
             </div>
           </div>
-          <div className="divide-y divide-slate-700/20">
-            {chat.raw_transcript.split('\n').filter(Boolean).map((line, i) => {
-              const isAgent = line.includes(`] ${chat.agent_name}:`);
-              // Match both 24hr [HH:MM:SS] and 12hr [HH:MM:SS AM/PM] formats
-              const tsMatch = line.match(/^\[([\d:]+ ?(?:AM|PM)?)\] ([^:]+): (.+)/);
-              const ts = tsMatch?.[1] || '';
-              const speaker = tsMatch?.[2] || '';
-              const text = tsMatch?.[3] || line;
-              return (
-                <div key={i} className={`flex gap-3 px-5 py-3 ${isAgent ? 'bg-[#2D1B4E]/10' : ''}`}>
-                  <div className="w-24 flex-shrink-0 text-xs text-slate-500 font-mono pt-0.5">{ts}</div>
+          <div className="divide-y divide-[#7B2D8B]/10">
+            {(() => {
+              // Group lines into messages — continuation lines (no timestamp header) are appended to the previous message
+              type TxLine = { ts: string; speaker: string; text: string; isAgent: boolean };
+              const messages: TxLine[] = [];
+              for (const rawLine of chat.raw_transcript.split('\n')) {
+                const line = rawLine.trimEnd();
+                if (!line) continue;
+                const tsMatch = line.match(/^\[([\d:]+ ?(?:AM|PM)?)\] ([^:]+): (.+)/);
+                if (tsMatch) {
+                  messages.push({
+                    ts: tsMatch[1],
+                    speaker: tsMatch[2],
+                    text: tsMatch[3],
+                    isAgent: line.includes(`] ${chat.agent_name}:`),
+                  });
+                } else if (messages.length > 0) {
+                  // Continuation of previous message — append
+                  messages[messages.length - 1].text += '\n' + line;
+                }
+              }
+              return messages.map((msg, i) => (
+                <div key={i} className={`flex gap-3 px-5 py-3 ${msg.isAgent ? 'bg-[#2D1B4E]/10' : ''}`}>
+                  <div className="w-12 sm:w-24 flex-shrink-0 text-xs text-slate-500 font-mono pt-0.5 truncate">{msg.ts}</div>
                   <div className="flex-1 min-w-0">
-                    <div className={`text-xs font-bold mb-1 ${isAgent ? 'text-[#E91E8C]' : 'text-emerald-400'}`}>
-                      {isAgent ? '🎧' : '👤'} {speaker}
+                    <div className={`text-xs font-bold mb-1 ${msg.isAgent ? 'text-[#E91E8C]' : 'text-emerald-400'}`}>
+                      {msg.isAgent ? '🎧' : '👤'} {msg.speaker}
                     </div>
-                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{cleanText(text)}</p>
+                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{cleanText(msg.text)}</p>
                   </div>
                 </div>
-              );
-            })}
+              ));
+            })()}
           </div>
         </div>
       )}
