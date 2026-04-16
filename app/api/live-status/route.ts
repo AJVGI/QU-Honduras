@@ -32,20 +32,20 @@ async function wt(url: string, opts: { method?: string; headers?: Record<string,
 }
 
 async function login(): Promise<TokenCache> {
-  const d = await wt(`${AUTH_BASE}/backend/account/v1/account/login`, {
+  const d = await wt(`${AUTH_BASE}/backend/auth/v1/user/sign-in`, {
     method: 'POST',
     body: { account: process.env.WELLYTALK_USER || 'xtractadmin01', password: process.env.WELLYTALK_PASS || 'Wellytalk2026!' },
-  }) as { code: number; data: { ac_token: string; rf_token: string; ac_exp: number } };
+  }) as { code: number; data: { ac_token: string; rf_token: string; exp_time: number } };
   if (d.code !== 0) throw new Error(`Login failed: code ${d.code}`);
-  return { ac_token: d.data.ac_token, rf_token: d.data.rf_token, exp: Date.now() + (d.data.ac_exp - 60) * 1000 };
+  return { ac_token: d.data.ac_token, rf_token: d.data.rf_token, exp: Date.now() + 3300 * 1000 };
 }
 
 async function refreshToken(rf: string): Promise<TokenCache> {
-  const d = await wt(`${AUTH_BASE}/backend/account/v1/account/refresh-token`, {
+  const d = await wt(`${AUTH_BASE}/backend/auth/v1/user/refresh-token`, {
     method: 'POST', body: { rf_token: rf },
-  }) as { code: number; data: { ac_token: string; rf_token: string; ac_exp: number } };
+  }) as { code: number; data: { ac_token: string; rf_token: string } };
   if (d.code !== 0) throw new Error(`Refresh failed: code ${d.code}`);
-  return { ac_token: d.data.ac_token, rf_token: d.data.rf_token, exp: Date.now() + (d.data.ac_exp - 60) * 1000 };
+  return { ac_token: d.data.ac_token, rf_token: d.data.rf_token, exp: Date.now() + 3300 * 1000 };
 }
 
 async function getToken(): Promise<string> {
