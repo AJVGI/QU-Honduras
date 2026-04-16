@@ -131,7 +131,14 @@ function generateMockAgents(): Agent[] {
     const avg_score = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
     const grade = scoreToGrade(avg_score);
     const trend = randomBetween(-8, 12);
-    return { id: agentId, name, chats, avg_score, grade, trend };
+    // Compute lastActive
+    const lastActive = chats.length > 0
+      ? chats.reduce((latest, chat) => {
+          const chatTime = new Date(chat.timestamp).getTime();
+          return chatTime > new Date(latest).getTime() ? chat.timestamp : latest;
+        }, chats[0].timestamp)
+      : undefined;
+    return { id: agentId, name, chats, avg_score, grade, trend, lastActive };
   });
 }
 
@@ -145,7 +152,18 @@ export const ALL_CHATS: ChatScore[] = realData
   ? realData.agents.flatMap((a: Agent) => a.chats)
   : generateMockAgents().flatMap(a => a.chats);
 
-export const AGENTS: Agent[] = realData ? realData.agents : generateMockAgents();
+export const AGENTS: Agent[] = realData 
+  ? realData.agents.map(agent => {
+      // Compute lastActive for real data
+      const lastActive = agent.chats.length > 0
+        ? agent.chats.reduce((latest, chat) => {
+            const chatTime = new Date(chat.timestamp).getTime();
+            return chatTime > new Date(latest).getTime() ? chat.timestamp : latest;
+          }, agent.chats[0].timestamp)
+        : undefined;
+      return { ...agent, lastActive };
+    })
+  : generateMockAgents();
 
 export function getAgent(agentId: string): Agent | undefined {
   return AGENTS.find(a => a.id === agentId);
@@ -191,7 +209,7 @@ export function getAgentsByDateRange(range: DateRange): Agent[] {
     const scores = filteredChats.map(c => c.total_score);
     const avg_score = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
     const grade = avg_score >= 90 ? 'A' : avg_score >= 80 ? 'B' : avg_score >= 70 ? 'C' : avg_score >= 60 ? 'D' : 'F';
-    return { ...agent, chats: filteredChats, avg_score, grade } as Agent;
+    return { ...agent, chats: filteredChats, avg_score, grade, lastActive: agent.lastActive } as Agent;
   }).filter(Boolean) as Agent[];
 }
 
@@ -202,6 +220,94 @@ export function getAvailableDays(): string[] {
     days.add(new Date(c.timestamp).toISOString().slice(0, 10));
   });
   return Array.from(days).sort().reverse();
+}
+
+// ─── Chat Response Metrics ────────────────────────────────────────────────────
+
+export interface ChatResponseMetrics {
+  totalMessages: number;
+  agentMessages: number;
+  customerMessages: number;
+  responseRate: number;
+  avgResponseGapMinutes: number | null;
+  maxSilenceMinutes: number | null;
+  customerUnresponded: number;
+  fallbackToMessageCount: boolean;
+}
+
+export function getChatResponseMetrics(chat: ChatScore): ChatResponseMetrics {
+  // Check if message_analysis exists and has data
+  if (!chat.message_analysis || chat.message_analysis.length === 0) {
+    // Fallback to message_count
+    const totalMessages = chat.message_count || 0;
+    return {
+      totalMessages,
+      agentMessages: Math.floor(totalMessages / 2),
+      customerMessages: Math.floor(totalMessages / 2),
+      responseRate: 50,
+      avgResponseGapMinutes: null,
+      maxSilenceMinutes: null,
+      customerUnresponded: 0,
+      fallbackToMessageCount: true,
+    };
+  }
+
+  const messages = chat.message_analysis;
+  const totalMessages = messages.length;
+  const agentMessages = messages.filter(m => m.speaker === 'AGENT').length;
+  const customerMessages = messages.filter(m => m.speaker === 'CUSTOMER').length;
+
+  // Calculate response rate
+  let respondedCount = 0;
+  let customerUnresponded = 0;
+  const gaps: number[] = [];
+
+  for (let i = 0; i < messages.length; i++) {
+    if (messages[i].speaker === 'CUSTOMER') {
+      // Check if there's an AGENT response after this customer message
+      let responded = false;
+      let gapMinutes: number | null = null;
+
+      for (let j = i + 1; j < messages.length; j++) {
+        if (messages[j].speaker === 'AGENT') {
+          responded = true;
+          // Calculate gap if timestamps available
+          const custTime = messages[i].timestamp_iso;
+          const agTime = messages[j].timestamp_iso;
+          if (custTime && agTime) {
+            const customerTime = new Date(custTime).getTime();
+            const agentTime = new Date(agTime).getTime();
+            gapMinutes = (agentTime - customerTime) / (1000 * 60);
+            if (gapMinutes > 0) gaps.push(gapMinutes);
+          }
+          break;
+        }
+      }
+
+      if (responded) {
+        respondedCount++;
+      } else {
+        customerUnresponded++;
+      }
+    }
+  }
+
+  const responseRate = customerMessages > 0 ? (respondedCount / customerMessages) * 100 : 0;
+  const avgResponseGapMinutes = gaps.length > 0
+    ? gaps.reduce((sum, gap) => sum + gap, 0) / gaps.length
+    : null;
+  const maxSilenceMinutes = gaps.length > 0 ? Math.max(...gaps) : null;
+
+  return {
+    totalMessages,
+    agentMessages,
+    customerMessages,
+    responseRate,
+    avgResponseGapMinutes,
+    maxSilenceMinutes,
+    customerUnresponded,
+    fallbackToMessageCount: false,
+  };
 }
 
 // ─── Stats ────────────────────────────────────────────────────────────────────

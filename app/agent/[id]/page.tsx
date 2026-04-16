@@ -7,13 +7,13 @@ import {
   ResponsiveContainer, Tooltip,
   LineChart, Line, XAxis, YAxis, CartesianGrid,
 } from 'recharts';
-import { getAgent } from '@/lib/dataLoader';
+import { getAgent, getChatResponseMetrics } from '@/lib/dataLoader';
 import { gradeColor, gradeBg, formatDate, formatShortDate } from '@/lib/utils';
 import { CATEGORY_LABELS, CATEGORY_MAX } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';
 import { FlagLink, ChatJumpLink } from '@/components/FlagLink';
 
-type Tab = 'overview' | 'chats' | 'byday' | 'training';
+type Tab = 'overview' | 'chats' | 'byday' | 'training' | 'activity';
 
 const GRADES = ['A', 'B', 'C', 'D', 'F'];
 const PER_PAGE = 20;
@@ -117,6 +117,7 @@ export default function AgentDetail() {
     { key: 'chats', label: `All Chats (${agent.chats.length})`, icon: '💬' },
     { key: 'byday', label: 'By Day', icon: '📅' },
     { key: 'training', label: 'Training', icon: '🎓' },
+    { key: 'activity', label: 'Activity', icon: '⚡' },
   ];
 
   return (
@@ -365,6 +366,173 @@ export default function AgentDetail() {
           })}
         </div>
       )}
+
+      {/* ── ACTIVITY TAB ── */}
+      {tab === 'activity' && (() => {
+        // Daily Heatmap — last 30 days
+        const last30Days = Array.from({ length: 30 }, (_, i) => {
+          const d = new Date();
+          d.setDate(d.getDate() - i);
+          return d.toISOString().slice(0, 10);
+        });
+        const chatsByDay = last30Days.map(day => {
+          const count = agent.chats.filter(c => c.timestamp.startsWith(day)).length;
+          return { day, count };
+        });
+        const maxChats = Math.max(...chatsByDay.map(d => d.count), 1);
+
+        // Response stats
+        const allMetrics = agent.chats.map(c => getChatResponseMetrics(c));
+        const avgResponseRate = allMetrics.length > 0
+          ? allMetrics.reduce((s, m) => s + m.responseRate, 0) / allMetrics.length
+          : 0;
+        const worstGap = Math.max(...allMetrics.map(m => m.maxSilenceMinutes || 0));
+        const pctWithUnresponded = allMetrics.length > 0
+          ? (allMetrics.filter(m => m.customerUnresponded > 0).length / allMetrics.length) * 100
+          : 0;
+
+        // Hours Active — last 14 days
+        const last14Days = Array.from({ length: 14 }, (_, i) => {
+          const d = new Date();
+          d.setDate(d.getDate() - i);
+          return d.toISOString().slice(0, 10);
+        }).reverse();
+        const hoursActiveData = last14Days.map(day => {
+          const dayChats = agent.chats.filter(c => c.timestamp.startsWith(day));
+          const hours = new Set(dayChats.map(c => new Date(c.timestamp).getHours()));
+          return { date: new Date(day).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }), hours: hours.size };
+        });
+
+        // Downtime gaps
+        const chatsSorted = [...agent.chats].sort((a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime());
+        const chatsByDayMap: Record<string, typeof chatsSorted> = {};
+        chatsSorted.forEach(c => {
+          const day = c.timestamp.slice(0, 10);
+          if (!chatsByDayMap[day]) chatsByDayMap[day] = [];
+          chatsByDayMap[day].push(c);
+        });
+        const downtimeGaps: Array<{ day: string; start: string; end: string; duration: number; flag: boolean }> = [];
+        Object.entries(chatsByDayMap).forEach(([day, chats]) => {
+          for (let i = 0; i < chats.length - 1; i++) {
+            const gap = (new Date(chats[i + 1].timestamp).getTime() - new Date(chats[i].timestamp).getTime()) / (1000 * 60);
+            if (gap > 120) {
+              downtimeGaps.push({
+                day,
+                start: new Date(chats[i].timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }),
+                end: new Date(chats[i + 1].timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }),
+                duration: Math.round(gap),
+                flag: gap > 240,
+              });
+            }
+          }
+        });
+
+        return (
+          <div className="space-y-6">
+            {/* Daily Heatmap */}
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+              <h3 className="text-sm font-semibold text-slate-300 mb-4">📊 Daily Activity Heatmap (Last 30 Days)</h3>
+              <div className="space-y-2">
+                {chatsByDay.map(({ day, count }) => {
+                  const intensity = count / maxChats;
+                  return (
+                    <div key={day} className="flex items-center gap-3">
+                      <span className="text-xs text-slate-400 w-24 flex-shrink-0">
+                        {new Date(day + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                      </span>
+                      <div className="flex-1 h-6 bg-slate-800 rounded overflow-hidden">
+                        <div
+                          className="h-full transition-all"
+                          style={{
+                            width: `${(count / maxChats) * 100}%`,
+                            backgroundColor: `rgba(233, 30, 140, ${intensity * 0.7 + 0.3})`,
+                          }}
+                        />
+                      </div>
+                      <span className="text-xs text-slate-300 w-8 text-right font-mono">{count}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Response Stats */}
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+              <h3 className="text-sm font-semibold text-slate-300 mb-4">💬 Response Statistics</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="bg-[#0D0D1A] border border-[#7B2D8B]/20 rounded-lg p-4">
+                  <div className="text-2xl font-black text-green-400">{avgResponseRate.toFixed(1)}%</div>
+                  <div className="text-xs text-slate-400 mt-1">Avg Response Rate</div>
+                </div>
+                <div className="bg-[#0D0D1A] border border-[#7B2D8B]/20 rounded-lg p-4">
+                  <div className="text-2xl font-black text-orange-400">{worstGap.toFixed(0)}m</div>
+                  <div className="text-xs text-slate-400 mt-1">Longest Silence Gap</div>
+                </div>
+                <div className="bg-[#0D0D1A] border border-[#7B2D8B]/20 rounded-lg p-4">
+                  <div className="text-2xl font-black text-red-400">{pctWithUnresponded.toFixed(0)}%</div>
+                  <div className="text-xs text-slate-400 mt-1">Chats w/ Unresponded Msgs</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Hours Active Chart */}
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+              <h3 className="text-sm font-semibold text-slate-300 mb-4">⏰ Hours Active Per Day (Last 14 Days)</h3>
+              <ResponsiveContainer width="100%" height={200}>
+                <LineChart data={hoursActiveData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2D1B4E" />
+                  <XAxis dataKey="date" tick={{ fill: '#94a3b8', fontSize: 10 }} />
+                  <YAxis domain={[0, 24]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
+                  <Tooltip
+                    contentStyle={{
+                      background: '#1A1A2E',
+                      border: '1px solid #7B2D8B',
+                      borderRadius: '8px',
+                      color: '#e2e8f0',
+                    }}
+                  />
+                  <Line type="monotone" dataKey="hours" stroke="#E91E8C" strokeWidth={2} dot={{ r: 3, fill: '#E91E8C' }} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+
+            {/* Downtime Gaps */}
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+              <h3 className="text-sm font-semibold text-slate-300 mb-4">🕐 Downtime Gaps (&gt;120 minutes)</h3>
+              {downtimeGaps.length > 0 ? (
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead className="bg-[#2D1B4E]/30">
+                      <tr>
+                        <th className="text-left py-2 px-3 text-xs font-semibold text-slate-400">Date</th>
+                        <th className="text-left py-2 px-3 text-xs font-semibold text-slate-400">Gap Start</th>
+                        <th className="text-left py-2 px-3 text-xs font-semibold text-slate-400">Gap End</th>
+                        <th className="text-left py-2 px-3 text-xs font-semibold text-slate-400">Duration</th>
+                        <th className="text-left py-2 px-3 text-xs font-semibold text-slate-400">Flag</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-700/30">
+                      {downtimeGaps.map((gap, i) => (
+                        <tr key={i} className="hover:bg-[#2D1B4E]/15">
+                          <td className="py-2 px-3 text-sm text-slate-300">
+                            {new Date(gap.day + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                          </td>
+                          <td className="py-2 px-3 text-sm text-slate-300">{gap.start}</td>
+                          <td className="py-2 px-3 text-sm text-slate-300">{gap.end}</td>
+                          <td className="py-2 px-3 text-sm text-slate-300">{gap.duration}m</td>
+                          <td className="py-2 px-3 text-lg">{gap.flag ? '⚠️' : ''}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ) : (
+                <p className="text-slate-500 text-sm">✅ No significant downtime gaps detected.</p>
+              )}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* ── TRAINING TAB ── */}
       {tab === 'training' && (

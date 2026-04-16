@@ -78,6 +78,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </div>
 
+        {/* Operations */}
+        <div>
+          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">Operations</div>
+          <div className="space-y-0.5">
+            <NavLink href="/all-chats" icon="💬" label="All Chats" onClick={close} />
+            <NavLink href="/supervisor" icon="🖥️" label="Operations" onClick={close} />
+          </div>
+        </div>
+
         {/* Reports */}
         <div>
           <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">Reports</div>

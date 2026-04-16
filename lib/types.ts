@@ -54,6 +54,7 @@ export interface Agent {
   avg_score: number;
   grade: Grade;
   trend: number;
+  lastActive?: string;
 }
 
 export const CATEGORY_MAX: Record<string, number> = {
