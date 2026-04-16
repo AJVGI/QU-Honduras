@@ -9,6 +9,9 @@
  * Returns: { agents, summary, openChats, pulledAt }
  */
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
 import { NextResponse } from 'next/server';
 import https from 'https';
 
