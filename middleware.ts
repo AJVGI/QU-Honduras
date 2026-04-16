@@ -4,7 +4,7 @@ const COOKIE_NAME = process.env.AUTH_COOKIE_NAME || 'jd_qa_auth';
 const COOKIE_SECRET = process.env.AUTH_COOKIE_SECRET || '';
 
 // Public paths — no auth required
-const PUBLIC_PATHS = ['/login', '/api/auth/login', '/api/auth/logout'];
+const PUBLIC_PATHS = ['/login', '/api/auth/login', '/api/auth/logout', '/api/live-status'];
 
 // Admin-only paths — user role gets 403
 const ADMIN_ONLY_PATHS = ['/settings', '/reports/export'];
