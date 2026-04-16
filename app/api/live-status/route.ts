@@ -129,7 +129,7 @@ export async function GET() {
 
     const rows = Object.values(agents).map(a => {
       const { status, label } = statusOf(a.lastSeenMs);
-      return { ...a, status, statusLabel: label, lastSeenAgo: relTime(a.lastSeenMs) };
+      return { ...a, chatsToday: a.chatsInWindow, status, statusLabel: label, lastSeenAgo: relTime(a.lastSeenMs) };
     }).sort((a, b) => b.lastSeenMs - a.lastSeenMs);
 
     const activeCount = rows.filter(a => a.status === 'active').length;

@@ -228,7 +228,7 @@ export interface ChatResponseMetrics {
   totalMessages: number;
   agentMessages: number;
   customerMessages: number;
-  responseRate: number;
+  responseRate: number | null;
   avgResponseGapMinutes: number | null;
   maxSilenceMinutes: number | null;
   customerUnresponded: number;
@@ -244,7 +244,7 @@ export function getChatResponseMetrics(chat: ChatScore): ChatResponseMetrics {
       totalMessages,
       agentMessages: Math.floor(totalMessages / 2),
       customerMessages: Math.floor(totalMessages / 2),
-      responseRate: 50,
+      responseRate: null,
       avgResponseGapMinutes: null,
       maxSilenceMinutes: null,
       customerUnresponded: 0,

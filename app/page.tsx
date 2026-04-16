@@ -26,8 +26,7 @@ const CATEGORY_LABELS: Record<string, string> = {
 // ─── Live Status Types ────────────────────────────────────────────────────────
 interface LiveAgentRow {
   id: string; name: string; status: 'active' | 'idle' | 'offline'; statusLabel: string;
-  chatsToday: number; openChats: number; lastSeenMs: number; lastSeenAgo: string;
-  chatsInWindow: number;
+  chatsToday: number; chatsInWindow: number; openChats: number; lastSeenMs: number; lastSeenAgo: string;
 }
 interface LiveStatus {
   ok: boolean;
@@ -128,16 +127,17 @@ export default function TeamOverview() {
     const map: Record<string, { avgRespRate: number; silentChats: number; autoFails: number; lastChatMs: number }> = {};
     for (const agent of dateFilteredAgents) {
       let totalRr = 0; let silent = 0; let fails = 0; let lastMs = 0;
+      let rrCount = 0;
       for (const chat of agent.chats) {
         const m = getChatResponseMetrics(chat);
-        totalRr += m.responseRate;
+        if (m.responseRate !== null) { totalRr += m.responseRate; rrCount++; }
         if (m.customerUnresponded > 0) silent++;
         if (chat.auto_fail.triggered) fails++;
         const ts = new Date(chat.timestamp).getTime();
         if (ts > lastMs) lastMs = ts;
       }
       map[agent.id] = {
-        avgRespRate: agent.chats.length ? Math.round(totalRr / agent.chats.length) : 0,
+        avgRespRate: rrCount > 0 ? Math.round(totalRr / rrCount) : -1,
         silentChats: silent,
         autoFails: fails,
         lastChatMs: lastMs,
@@ -471,9 +471,10 @@ export default function TeamOverview() {
                           </td>
                         )}
                         <td className="py-3 px-3">
-                          <span className={`text-sm font-bold ${m.avgRespRate >= 80 ? 'text-green-400' : m.avgRespRate >= 50 ? 'text-amber-400' : 'text-red-400'}`}>
-                            {m.avgRespRate}%
-                          </span>
+                          {m.avgRespRate < 0
+                            ? <span className="text-slate-600 text-sm">—</span>
+                            : <span className={`text-sm font-bold ${m.avgRespRate >= 80 ? 'text-green-400' : m.avgRespRate >= 50 ? 'text-amber-400' : 'text-red-400'}`}>{m.avgRespRate}%</span>
+                          }
                         </td>
                         <td className="py-3 px-3">
                           <span className={`text-sm font-bold ${m.autoFails > 0 ? 'text-red-400' : 'text-slate-500'}`}>
