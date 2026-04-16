@@ -9,11 +9,9 @@
  * Returns: { agents, summary, openChats, pulledAt }
  */
 
-export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 import { NextResponse } from 'next/server';
-import https from 'https';
 
 const API_BASE = 'https://api.stacktech.org';
 const AUTH_BASE = 'https://auth.stacktech.org';
@@ -25,52 +23,36 @@ interface TokenCache {
   exp: number;
 }
 
-// In-memory token cache (survives across requests in same process)
+// In-memory token cache (survives across requests in same serverless instance)
 let tokenCache: TokenCache | null = null;
 
-function httpRequest(url: string, options: {
+async function apiRequest(url: string, options: {
   method?: string;
   headers?: Record<string, string>;
   body?: unknown;
-} = {}): Promise<{ status: number; data: unknown }> {
-  return new Promise((resolve, reject) => {
-    const urlObj = new URL(url);
-    const req = https.request({
-      hostname: urlObj.hostname,
-      path: urlObj.pathname + urlObj.search,
-      method: options.method || 'GET',
-      headers: {
-        'content-type': 'application/json',
-        'origin': 'https://cs.wellytalk.com',
-        'user-agent': 'Mozilla/5.0 (compatible; CLAJ/1.0)',
-        ...options.headers,
-      },
-    }, (res) => {
-      let body = '';
-      res.on('data', (chunk) => body += chunk);
-      res.on('end', () => {
-        try {
-          resolve({ status: res.statusCode || 0, data: JSON.parse(body) });
-        } catch {
-          resolve({ status: res.statusCode || 0, data: body });
-        }
-      });
-    });
-    req.on('error', reject);
-    if (options.body) req.write(JSON.stringify(options.body));
-    req.end();
+} = {}): Promise<unknown> {
+  const res = await fetch(url, {
+    method: options.method || 'GET',
+    headers: {
+      'content-type': 'application/json',
+      'origin': 'https://cs.wellytalk.com',
+      'user-agent': 'Mozilla/5.0 (compatible; CLAJ/1.0)',
+      ...options.headers,
+    },
+    body: options.body ? JSON.stringify(options.body) : undefined,
+    cache: 'no-store',
   });
+  return res.json();
 }
 
 async function login(): Promise<TokenCache> {
-  const resp = await httpRequest(`${AUTH_BASE}/backend/account/v1/account/login`, {
+  const d = await apiRequest(`${AUTH_BASE}/backend/account/v1/account/login`, {
     method: 'POST',
     body: {
       account: process.env.WELLYTALK_USER || 'xtractadmin01',
       password: process.env.WELLYTALK_PASS || 'Wellytalk2026!',
     },
-  });
-  const d = resp.data as { code: number; data: { ac_token: string; rf_token: string; ac_exp: number } };
+  }) as { code: number; data: { ac_token: string; rf_token: string; ac_exp: number } };
   if (d.code !== 0) throw new Error(`Login failed: ${JSON.stringify(d)}`);
   return {
     ac_token: d.data.ac_token,
@@ -80,11 +62,10 @@ async function login(): Promise<TokenCache> {
 }
 
 async function refreshToken(rfToken: string): Promise<TokenCache> {
-  const resp = await httpRequest(`${AUTH_BASE}/backend/account/v1/account/refresh-token`, {
+  const d = await apiRequest(`${AUTH_BASE}/backend/account/v1/account/refresh-token`, {
     method: 'POST',
     body: { rf_token: rfToken },
-  });
-  const d = resp.data as { code: number; data: { ac_token: string; rf_token: string; ac_exp: number } };
+  }) as { code: number; data: { ac_token: string; rf_token: string; ac_exp: number } };
   if (d.code !== 0) throw new Error(`Refresh failed: ${JSON.stringify(d)}`);
   return {
     ac_token: d.data.ac_token,
@@ -170,14 +151,13 @@ export async function GET() {
     let pages = 0;
     while (pages < 20) {
       const url = `${API_BASE}/backend/cs-agent/v1/conversation/chat-records?limit=100&is_personal=false&filter_mode=1&search_type=1&time_updated=${cursor}&from_date=${todayStartEpochSec}`;
-      const resp = await httpRequest(url, {
+      const d = await apiRequest(url, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'x-company-id': COMPANY_ID,
           'x-timezone': 'America/New_York',
         },
-      });
-      const d = resp.data as { code: number; data: { list: WellyChat[]; total: number } };
+      }) as { code: number; data: { list: WellyChat[]; total: number } };
       if (d.code !== 0) break;
       const list = d.data?.list || [];
       if (list.length === 0) break;
@@ -188,7 +168,7 @@ export async function GET() {
     }
 
     // Also fetch currently OPEN chats
-    const openResp = await httpRequest(
+    const openData = await apiRequest(
       `${API_BASE}/backend/cs-agent/v1/conversation/chat-records?limit=100&is_personal=false&filter_mode=1&search_type=1&time_updated=0&status=OPEN`,
       {
         headers: {
@@ -197,8 +177,7 @@ export async function GET() {
           'x-timezone': 'America/New_York',
         },
       }
-    );
-    const openData = openResp.data as { code: number; data: { list: WellyChat[] } };
+    ) as { code: number; data: { list: WellyChat[] } };
     const openChats = openData.code === 0 ? (openData.data?.list || []) : [];
 
     // Build agent map from today's chats
