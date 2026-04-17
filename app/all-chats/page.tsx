@@ -6,13 +6,15 @@ import { GradeBadge } from '@/components/GradeBadge';
 import { gradeColor } from '@/lib/utils';
 import { Grade } from '@/lib/types';
 
-const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F', 'N/A'];
+const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F'];
 const PER_PAGE = 50;
 
 export default function AllChatsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedAgent, setSelectedAgent] = useState('all');
   const [gradeFilter, setGradeFilter] = useState<'all' | Grade>('all');
+  const [showUnscored, setShowUnscored] = useState(false);
+  const [unscoredPage, setUnscoredPage] = useState(0);
   const [dateFrom, setDateFrom] = useState('');
   const [dateTo, setDateTo] = useState('');
   const [silentOnly, setSilentOnly] = useState(false);
@@ -28,9 +30,16 @@ export default function AllChatsPage() {
     }));
   }, []);
 
-  // Filter and sort
+  // Split scored vs unscored
+  const { scoredChats, unscoredChats } = useMemo(() => {
+    const scored = chatsWithMetrics.filter(c => !c.unscored);
+    const unscored = chatsWithMetrics.filter(c => c.unscored);
+    return { scoredChats: scored, unscoredChats: unscored };
+  }, [chatsWithMetrics]);
+
+  // Filter and sort scored chats only
   const filteredChats = useMemo(() => {
-    let result = chatsWithMetrics;
+    let result = scoredChats;
 
     // Search by agent name
     if (searchTerm) {
@@ -97,8 +106,8 @@ export default function AllChatsPage() {
       : 0;
     const silentChats = filteredChats.filter(c => c.metrics.customerUnresponded > 0).length;
     const autoFails = filteredChats.filter(c => c.auto_fail.triggered).length;
-    return { total, avgResponseRate, silentChats, autoFails };
-  }, [filteredChats]);
+    return { total, avgResponseRate, silentChats, autoFails, unscored: unscoredChats.length };
+  }, [filteredChats, unscoredChats]);
 
   // Pagination
   const totalPages = Math.ceil(filteredChats.length / PER_PAGE);
@@ -250,12 +259,13 @@ export default function AllChatsPage() {
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
         {[
-          { label: 'Total Chats', value: stats.total, color: '#fff' },
+          { label: 'Scored Chats', value: stats.total, color: '#fff' },
           { label: 'Avg Response Rate', value: `${stats.avgResponseRate.toFixed(1)}%`, color: '#00C882' },
           { label: 'Silent Chats', value: stats.silentChats, color: '#FF4444' },
           { label: 'Auto-Fails', value: stats.autoFails, color: '#f97316' },
+          { label: 'Unscored', value: stats.unscored, color: '#6b7280' },
         ].map(stat => (
           <div key={stat.label} className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
             <div className="text-2xl font-black" style={{ color: stat.color }}>{stat.value}</div>
@@ -378,6 +388,8 @@ export default function AllChatsPage() {
           <div className="text-center py-12 text-slate-400">😔 No chats match your filters.</div>
         )}
 
+        {/* Unscored note in table when N/A filter active */}
+
         {/* Pagination */}
         {totalPages > 1 && (
           <div className="flex items-center justify-between px-5 py-3 border-t border-[#7B2D8B]/20">
@@ -403,6 +415,79 @@ export default function AllChatsPage() {
           </div>
         )}
       </div>
+    </div>
+
+      {/* ── Unscored Chats Section ───────────────────────────── */}
+      {unscoredChats.length > 0 && (
+        <div className="bg-[#1A1A2E] border border-slate-600/30 rounded-xl overflow-hidden">
+          <button
+            onClick={() => setShowUnscored(v => !v)}
+            className="w-full flex items-center justify-between px-5 py-4 hover:bg-[#2D1B4E]/20 transition-colors"
+          >
+            <div className="flex items-center gap-3">
+              <span className="text-slate-400 text-sm font-semibold uppercase tracking-wider">⬜ Unscored Chats</span>
+              <span className="bg-slate-600/40 text-slate-400 text-xs font-bold px-2 py-0.5 rounded-full">
+                {unscoredChats.length}
+              </span>
+              <span className="text-slate-500 text-xs">Too short to grade or pending review</span>
+            </div>
+            <span className="text-slate-400 text-lg">{showUnscored ? '▲' : '▼'}</span>
+          </button>
+
+          {showUnscored && (
+            <>
+              <div className="overflow-x-auto border-t border-slate-700/30">
+                <table className="w-full">
+                  <thead className="bg-slate-800/30">
+                    <tr>
+                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Date</th>
+                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Agent</th>
+                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Reason</th>
+                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Chat ID</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-700/20">
+                    {unscoredChats
+                      .slice(unscoredPage * PER_PAGE, (unscoredPage + 1) * PER_PAGE)
+                      .map((chat, i) => (
+                        <tr key={i} className="hover:bg-slate-800/20 transition-colors opacity-60">
+                          <td className="py-2.5 px-4 text-sm text-slate-400">{formatDateTime(chat.timestamp)}</td>
+                          <td className="py-2.5 px-4 text-sm">
+                            <Link href={`/agent/${chat.agent_id}`} className="text-slate-400 hover:text-white">
+                              {chat.agent_name}
+                            </Link>
+                          </td>
+                          <td className="py-2.5 px-4 text-xs text-slate-500 italic">{chat.summary}</td>
+                          <td className="py-2.5 px-4 text-xs text-slate-500 font-mono">{chat.chat_id.slice(-8)}</td>
+                        </tr>
+                      ))
+                    }
+                  </tbody>
+                </table>
+              </div>
+              {unscoredChats.length > PER_PAGE && (
+                <div className="flex items-center justify-between px-5 py-3 border-t border-slate-700/20">
+                  <span className="text-xs text-slate-500">
+                    Page {unscoredPage + 1} of {Math.ceil(unscoredChats.length / PER_PAGE)} · {unscoredChats.length} unscored
+                  </span>
+                  <div className="flex gap-2">
+                    <button
+                      disabled={unscoredPage === 0}
+                      onClick={() => setUnscoredPage(p => p - 1)}
+                      className="px-3 py-1 rounded bg-slate-700 text-slate-400 text-sm disabled:opacity-40 hover:bg-slate-600"
+                    >‹ Prev</button>
+                    <button
+                      disabled={unscoredPage >= Math.ceil(unscoredChats.length / PER_PAGE) - 1}
+                      onClick={() => setUnscoredPage(p => p + 1)}
+                      className="px-3 py-1 rounded bg-slate-700 text-slate-400 text-sm disabled:opacity-40 hover:bg-slate-600"
+                    >Next ›</button>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      )}
     </div>
   );
 }
