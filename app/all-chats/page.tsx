@@ -6,7 +6,7 @@ import { GradeBadge } from '@/components/GradeBadge';
 import { gradeColor } from '@/lib/utils';
 import { Grade } from '@/lib/types';
 
-const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F'];
+const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F', 'N/A'];
 const PER_PAGE = 50;
 
 export default function AllChatsPage() {

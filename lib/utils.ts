@@ -8,6 +8,8 @@ export function gradeColor(grade: Grade): string {
     case 'C': return '#FFD600'; // Gold Yellow
     case 'D': return '#f97316'; // Orange
     case 'F': return '#FF4444'; // Alert Red
+    case 'N/A': return '#6b7280'; // Gray
+    default: return '#6b7280';
   }
 }
 
@@ -18,6 +20,8 @@ export function gradeBg(grade: Grade): string {
     case 'C': return 'bg-[#FFD600]/20 text-[#FFD600] border border-[#FFD600]/40';
     case 'D': return 'bg-orange-500/20 text-orange-400 border border-orange-500/30';
     case 'F': return 'bg-[#FF4444]/20 text-[#FF4444] border border-[#FF4444]/40';
+    case 'N/A': return 'bg-gray-500/20 text-gray-400 border border-gray-500/30';
+    default: return 'bg-gray-500/20 text-gray-400 border border-gray-500/30';
   }
 }
 

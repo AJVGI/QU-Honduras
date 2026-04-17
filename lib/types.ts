@@ -1,4 +1,4 @@
-export type Grade = 'A' | 'B' | 'C' | 'D' | 'F';
+export type Grade = 'A' | 'B' | 'C' | 'D' | 'F' | 'N/A';
 export type MessageRating = 'excellent' | 'good' | 'needs_improvement' | 'poor' | 'na';
 
 export interface MessageAnalysis {
@@ -31,14 +31,15 @@ export interface ChatScore {
     communication: CategoryScore;
     compliance: CategoryScore;
     closing: CategoryScore;
-  };
+  } | null;
   auto_fail: { triggered: boolean; reason: string | null };
-  total_score: number;
+  total_score: number | null;
   grade: Grade;
   summary: string;
   strengths?: string[];
   weaknesses?: string[];
-  coaching_tip: string;
+  coaching_tip: string | null;
+  unscored?: boolean;
   message_analysis?: MessageAnalysis[];
   scored_with?: string;
   scored_at?: string;
