@@ -10,7 +10,7 @@ import { DevToolsGuard } from '@/components/DevToolsGuard';
 import { useRole } from '@/lib/useRole';
 
 const GRADE_DOT: Record<Grade, string> = {
-  A: 'bg-green-400', B: 'bg-blue-400', C: 'bg-amber-400', D: 'bg-orange-400', F: 'bg-red-400',
+  A: 'bg-green-400', B: 'bg-blue-400', C: 'bg-amber-400', D: 'bg-orange-400', F: 'bg-red-400', 'N/A': 'bg-slate-500',
 };
 
 function NavLink({ href, icon, label, onClick }: { href: string; icon: string; label: string; onClick?: () => void }) {

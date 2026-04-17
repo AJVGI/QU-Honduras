@@ -41,14 +41,17 @@ export default function AgentDetail() {
     [...agent.chats].sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()),
   [agent.chats]);
 
-  // Radar data
+  // Radar data — only use scored chats (categories != null)
+  const scoredAgentChats = agent.chats.filter(c => c.categories !== null);
   const radarData = Object.keys(CATEGORY_LABELS).map(k => {
-    const avg = agent.chats.reduce((s, c) => s + c.categories[k as keyof typeof c.categories].score, 0) / agent.chats.length;
+    const avg = scoredAgentChats.length > 0
+      ? scoredAgentChats.reduce((s, c) => s + (c.categories![k as keyof typeof c.categories] as {score:number}).score, 0) / scoredAgentChats.length
+      : 0;
     return { category: CATEGORY_LABELS[k].replace(' & ', '\n& '), score: Math.round((avg / CATEGORY_MAX[k]) * 100) };
   });
 
-  // Score timeline
-  const timeline = [...agent.chats]
+  // Score timeline — only scored chats
+  const timeline = [...scoredAgentChats]
     .sort((a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime())
     .slice(-30).map(c => ({ date: formatShortDate(c.timestamp), score: c.total_score }));
 
@@ -101,9 +104,12 @@ export default function AgentDetail() {
     const topIssues = Object.entries(issueMap).sort(([,a],[,b]) => b-a).slice(0, 10);
     const topTips = Object.entries(tipMap).sort(([,a],[,b]) => b-a).slice(0, 5);
 
-    // Category weakness — which category is lowest %
+    // Category weakness — which category is lowest % (scored chats only)
+    const scoredForCat = agent.chats.filter(c => c.categories !== null);
     const catScores = Object.keys(CATEGORY_LABELS).map(k => {
-      const avg = agent.chats.reduce((s, c) => s + c.categories[k as keyof typeof c.categories].score, 0) / agent.chats.length;
+      const avg = scoredForCat.length > 0
+        ? scoredForCat.reduce((s, c) => s + (c.categories![k as keyof typeof c.categories] as {score:number}).score, 0) / scoredForCat.length
+        : 0;
       return { key: k, label: CATEGORY_LABELS[k], pct: Math.round((avg / CATEGORY_MAX[k]) * 100) };
     }).sort((a, b) => a.pct - b.pct);
 
@@ -330,7 +336,7 @@ export default function AgentDetail() {
         <div className="space-y-3">
           {byDay.length === 0 && <div className="text-center py-12 text-slate-400">📭 No chats yet.</div>}
           {byDay.map(([day, chats]) => {
-            const dayAvg = Math.round(chats.reduce((s, c) => s + c.total_score, 0) / chats.length);
+            const dayAvg = Math.round(chats.reduce((s, c) => s + (c.total_score ?? 0), 0) / chats.length);
             const expanded = expandedDays.has(day);
             return (
               <div key={day} className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
@@ -384,7 +390,7 @@ export default function AgentDetail() {
         // Response stats
         const allMetrics = agent.chats.map(c => getChatResponseMetrics(c));
         const avgResponseRate = allMetrics.length > 0
-          ? allMetrics.reduce((s, m) => s + m.responseRate, 0) / allMetrics.length
+          ? allMetrics.reduce((s, m) => s + (m.responseRate ?? 0), 0) / allMetrics.length
           : 0;
         const worstGap = Math.max(...allMetrics.map(m => m.maxSilenceMinutes || 0));
         const pctWithUnresponded = allMetrics.length > 0

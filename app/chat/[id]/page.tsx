@@ -281,8 +281,11 @@ export default function ChatDetail() {
           <h2 className="text-sm font-semibold text-slate-300">Category Scorecard</h2>
         </div>
         <div className="divide-y divide-slate-700/30">
-          {categories.map(k => {
-            const cat = chat.categories[k as keyof typeof chat.categories];
+          {!chat.categories && (
+            <div className="p-5 text-slate-400 text-sm italic">This chat was too short to score — no category breakdown available.</div>
+          )}
+          {chat.categories && categories.map(k => {
+            const cat = chat.categories![k as keyof typeof chat.categories];
             const max = CATEGORY_MAX[k];
             const pct = Math.round((cat.score / max) * 100);
             const barColor = pct >= 80 ? '#22c55e' : pct >= 70 ? '#3b82f6' : pct >= 60 ? '#f59e0b' : '#ef4444';

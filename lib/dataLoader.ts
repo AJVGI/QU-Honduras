@@ -127,8 +127,8 @@ function generateMockAgents(): Agent[] {
     const chatCount = randomBetween(10, 30);
     const chats: ChatScore[] = Array.from({ length: chatCount }, (_, ci) =>
       generateChatScore(name, agentId, idx * 100 + ci));
-    const scores = chats.map(c => c.total_score);
-    const avg_score = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
+    const scores: number[] = chats.filter(c => c.total_score !== null).map(c => c.total_score as number);
+    const avg_score = Math.round(scores.reduce((s, v) => s + (v ?? 0), 0) / scores.length);
     const grade = scoreToGrade(avg_score);
     const trend = randomBetween(-8, 12);
     // Compute lastActive
@@ -206,8 +206,8 @@ export function getAgentsByDateRange(range: DateRange): Agent[] {
   return AGENTS.map(agent => {
     const filteredChats = filterChatsByDate(agent.chats, range);
     if (filteredChats.length === 0) return null;
-    const scores = filteredChats.map(c => c.total_score);
-    const avg_score = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
+    const scores: number[] = filteredChats.filter(c => c.total_score !== null).map(c => c.total_score as number);
+    const avg_score = Math.round(scores.reduce((s, v) => s + (v ?? 0), 0) / scores.length);
     const grade = avg_score >= 90 ? 'A' : avg_score >= 80 ? 'B' : avg_score >= 70 ? 'C' : avg_score >= 60 ? 'D' : 'F';
     return { ...agent, chats: filteredChats, avg_score, grade, lastActive: agent.lastActive } as Agent;
   }).filter(Boolean) as Agent[];
@@ -318,7 +318,7 @@ export function getTeamStats(chatsOverride?: ChatScore[], agentsOverride?: Agent
   const totalChats = allChats.length;
   if (totalChats === 0) return null;
 
-  const avgScore = Math.round(allChats.reduce((s, c) => s + c.total_score, 0) / totalChats);
+  const avgScore = Math.round(allChats.reduce((s, c) => s + (c.total_score ?? 0), 0) / totalChats);
   const autoFails = allChats.filter(c => c.auto_fail.triggered).length;
   const autoFailRate = Math.round((autoFails / totalChats) * 100);
   const topPerformer = [...agents].sort((a, b) => b.avg_score - a.avg_score)[0];
@@ -335,8 +335,9 @@ export function getTeamStats(chatsOverride?: ChatScore[], agentsOverride?: Agent
     communication: 20, compliance: 10, closing: 10,
   };
   allChats.forEach(c => {
+    if (!c.categories) return;
     Object.keys(catTotals).forEach(k => {
-      catTotals[k] += c.categories[k as keyof typeof c.categories].score;
+      catTotals[k] += (c.categories![k as keyof typeof c.categories] as {score:number}).score;
     });
   });
   const catAvgPct = Object.keys(catTotals).map(k => ({
@@ -355,7 +356,7 @@ export function getTeamStats(chatsOverride?: ChatScore[], agentsOverride?: Agent
       return d >= weekStart && d < weekEnd;
     });
     const wAvg = weekChats.length
-      ? Math.round(weekChats.reduce((s, c) => s + c.total_score, 0) / weekChats.length)
+      ? Math.round(weekChats.reduce((s, c) => s + (c.total_score ?? 0), 0) / weekChats.length)
       : null;
     return { week: `W${5 - wi}`, avg: wAvg };
   }).reverse();

@@ -81,11 +81,11 @@ export default function AllChatsPage() {
         aVal = new Date(a.timestamp).getTime();
         bVal = new Date(b.timestamp).getTime();
       } else if (sortField === 'score') {
-        aVal = a.total_score;
-        bVal = b.total_score;
+        aVal = a.total_score ?? 0;
+        bVal = b.total_score ?? 0;
       } else if (sortField === 'responseRate') {
-        aVal = a.metrics.responseRate;
-        bVal = b.metrics.responseRate;
+        aVal = a.metrics.responseRate ?? 0;
+        bVal = b.metrics.responseRate ?? 0;
       }
 
       if (sortOrder === 'asc') {
@@ -102,7 +102,7 @@ export default function AllChatsPage() {
   const stats = useMemo(() => {
     const total = filteredChats.length;
     const avgResponseRate = total > 0
-      ? filteredChats.reduce((sum, c) => sum + c.metrics.responseRate, 0) / total
+      ? filteredChats.reduce((sum, c) => sum + (c.metrics.responseRate ?? 0), 0) / total
       : 0;
     const silentChats = filteredChats.filter(c => c.metrics.customerUnresponded > 0).length;
     const autoFails = filteredChats.filter(c => c.auto_fail.triggered).length;
@@ -145,7 +145,7 @@ export default function AllChatsPage() {
       c.total_score,
       c.metrics.totalMessages,
       c.metrics.agentMessages,
-      c.metrics.responseRate.toFixed(1),
+      (c.metrics.responseRate ?? 0).toFixed(1),
       c.metrics.customerUnresponded > 0 ? 'Yes' : 'No',
       c.auto_fail.triggered ? 'Yes' : 'No',
       c.chat_id,
@@ -310,7 +310,7 @@ export default function AllChatsPage() {
             </thead>
             <tbody className="divide-y divide-slate-700/30">
               {pageChats.map((chat, i) => {
-                const responseRateColor = chat.metrics.responseRate >= 80 ? 'text-green-400' : chat.metrics.responseRate >= 50 ? 'text-amber-400' : 'text-red-400';
+                const responseRateColor = (chat.metrics.responseRate ?? 0) >= 80 ? 'text-green-400' : (chat.metrics.responseRate ?? 0) >= 50 ? 'text-amber-400' : 'text-red-400';
                 return (
                   <tr key={i} className="hover:bg-[#2D1B4E]/15 transition-colors">
                     <td className="py-3 px-4 text-sm text-slate-300">{formatDateTime(chat.timestamp)}</td>
@@ -326,7 +326,7 @@ export default function AllChatsPage() {
                     <td className="py-3 px-4 text-sm text-slate-300">{chat.metrics.totalMessages}</td>
                     <td className="py-3 px-4 text-sm text-slate-300">{chat.metrics.agentMessages}</td>
                     <td className={`py-3 px-4 text-sm font-medium ${responseRateColor}`}>
-                      {chat.metrics.responseRate.toFixed(0)}%
+                      {(chat.metrics.responseRate ?? 0).toFixed(0)}%
                     </td>
                     <td className="py-3 px-4 text-lg">
                       {chat.metrics.customerUnresponded > 0 ? '🔴' : '✅'}
@@ -352,7 +352,7 @@ export default function AllChatsPage() {
         {/* Mobile cards */}
         <div className="block md:hidden divide-y divide-slate-700/30">
           {pageChats.map((chat, i) => {
-            const responseRateColor = chat.metrics.responseRate >= 80 ? 'text-green-400' : chat.metrics.responseRate >= 50 ? 'text-amber-400' : 'text-red-400';
+            const responseRateColor = (chat.metrics.responseRate ?? 0) >= 80 ? 'text-green-400' : (chat.metrics.responseRate ?? 0) >= 50 ? 'text-amber-400' : 'text-red-400';
             return (
               <div key={i} className="p-4 space-y-2">
                 <div className="flex items-center justify-between">
@@ -377,7 +377,7 @@ export default function AllChatsPage() {
                 </Link>
                 <div className="flex items-center gap-3 text-xs text-slate-400">
                   <span>Msgs: {chat.metrics.totalMessages}</span>
-                  <span className={responseRateColor}>Rate: {chat.metrics.responseRate.toFixed(0)}%</span>
+                  <span className={responseRateColor}>Rate: {(chat.metrics.responseRate ?? 0).toFixed(0)}%</span>
                 </div>
               </div>
             );
@@ -415,7 +415,6 @@ export default function AllChatsPage() {
           </div>
         )}
       </div>
-    </div>
 
       {/* ── Unscored Chats Section ───────────────────────────── */}
       {unscoredChats.length > 0 && (

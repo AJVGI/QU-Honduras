@@ -15,8 +15,8 @@ export default function WeeklyReport() {
     return AGENTS.map(agent => {
       const thisWeek = agent.chats.filter(c => new Date(c.timestamp) >= weekStart);
       const prevWeek = agent.chats.filter(c => new Date(c.timestamp) >= prevWeekStart && new Date(c.timestamp) < weekStart);
-      const thisAvg = thisWeek.length ? Math.round(thisWeek.reduce((s, c) => s + c.total_score, 0) / thisWeek.length) : null;
-      const prevAvg = prevWeek.length ? Math.round(prevWeek.reduce((s, c) => s + c.total_score, 0) / prevWeek.length) : null;
+      const thisAvg = thisWeek.length ? Math.round(thisWeek.reduce((s, c) => s + (c.total_score ?? 0), 0) / thisWeek.length) : null;
+      const prevAvg = prevWeek.length ? Math.round(prevWeek.reduce((s, c) => s + (c.total_score ?? 0), 0) / prevWeek.length) : null;
       const change = thisAvg !== null && prevAvg !== null ? thisAvg - prevAvg : null;
       const autoFails = thisWeek.filter(c => c.auto_fail.triggered).length;
       return { agent, thisWeek: thisWeek.length, thisAvg, prevAvg, change, autoFails };

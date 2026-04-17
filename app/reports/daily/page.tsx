@@ -22,7 +22,7 @@ export default function DailyReport() {
 
   const latestDay = todayChats.length > 0 ? todayChats[0].timestamp.substring(0, 10) : null;
   const avgScore = todayChats.length > 0
-    ? Math.round(todayChats.reduce((s, c) => s + c.total_score, 0) / todayChats.length)
+    ? Math.round(todayChats.reduce((s, c) => s + (c.total_score ?? 0), 0) / todayChats.length)
     : 0;
   const autoFails = todayChats.filter(c => c.auto_fail.triggered).length;
 

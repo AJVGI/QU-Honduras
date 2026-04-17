@@ -15,14 +15,14 @@ export default function ExportPage() {
         auto_fail: c.auto_fail.triggered ? 'YES' : 'NO',
         auto_fail_reason: c.auto_fail.reason || '',
         website: c.website || '',
-        greeting: c.categories.greeting.score,
-        issue_discovery: c.categories.issue_discovery.score,
-        resolution: c.categories.resolution.score,
-        communication: c.categories.communication.score,
-        compliance: c.categories.compliance.score,
-        closing: c.categories.closing.score,
-        summary: c.summary.replace(/,/g, ';'),
-        coaching_tip: c.coaching_tip.replace(/,/g, ';'),
+        greeting: c.categories?.greeting?.score ?? '',
+        issue_discovery: c.categories?.issue_discovery?.score ?? '',
+        resolution: c.categories?.resolution?.score ?? '',
+        communication: c.categories?.communication?.score ?? '',
+        compliance: c.categories?.compliance?.score ?? '',
+        closing: c.categories?.closing?.score ?? '',
+        summary: (c.summary || '').replace(/,/g, ';'),
+        coaching_tip: (c.coaching_tip || '').replace(/,/g, ';'),
       }))
     );
 

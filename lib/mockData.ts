@@ -132,7 +132,7 @@ function generateChat(agentId: string, agentName: string, chatIndex: number, isA
 
 function calcAvg(chats: ChatScore[]): number {
   if (!chats.length) return 0;
-  return Math.round(chats.reduce((sum, c) => sum + c.total_score, 0) / chats.length);
+  return Math.round(chats.reduce((sum, c) => sum + (c.total_score ?? 0), 0) / chats.length);
 }
 
 // Skill tiers: top performers, mid, struggling
@@ -153,7 +153,7 @@ export const AGENTS: Agent[] = agentNames.map((name, i) => {
     const raw = generateChat(id, name, j);
     // Adjust scores toward agent's skill level
     const bias = (skillTiers[i] - 75) / 100;
-    const adjTotal = Math.min(100, Math.max(0, Math.round(raw.total_score + raw.total_score * bias)));
+    const adjTotal = Math.min(100, Math.max(0, Math.round((raw.total_score ?? 0) + (raw.total_score ?? 0) * bias)));
     const adjGrade = scoreToGrade(adjTotal);
     chats.push({ ...raw, total_score: adjTotal, grade: adjGrade });
   }
@@ -193,7 +193,7 @@ export function getChat(chatId: string): { chat: ChatScore; agent: Agent } | und
 export function getTeamStats() {
   const allChats = AGENTS.flatMap(a => a.chats);
   const totalChats = allChats.length;
-  const avgScore = Math.round(allChats.reduce((s, c) => s + c.total_score, 0) / totalChats);
+  const avgScore = Math.round(allChats.reduce((s, c) => s + (c.total_score ?? 0), 0) / totalChats);
   const autoFails = allChats.filter(c => c.auto_fail.triggered).length;
   const autoFailRate = Math.round((autoFails / totalChats) * 100);
   const topPerformer = [...AGENTS].sort((a, b) => b.avg_score - a.avg_score)[0];
@@ -210,8 +210,9 @@ export function getTeamStats() {
     communication: 20, compliance: 10, closing: 10,
   };
   allChats.forEach(c => {
+    if (!c.categories) return;
     Object.keys(catTotals).forEach(k => {
-      catTotals[k] += c.categories[k as keyof typeof c.categories].score;
+      catTotals[k] += (c.categories![k as keyof typeof c.categories] as {score:number}).score;
     });
   });
   const catAvgPct = Object.keys(catTotals).map(k => ({
@@ -231,7 +232,7 @@ export function getTeamStats() {
       return d >= weekStart && d < weekEnd;
     });
     const wAvg = weekChats.length
-      ? Math.round(weekChats.reduce((s, c) => s + c.total_score, 0) / weekChats.length)
+      ? Math.round(weekChats.reduce((s, c) => s + (c.total_score ?? 0), 0) / weekChats.length)
       : null;
     return {
       week: `W${5 - wi}`,
