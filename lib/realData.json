@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T15:34:53.618Z",
-  "total_chats": 237,
+  "scored_at": "2026-04-23T15:39:43.993Z",
+  "total_chats": 238,
   "total_agents": 24,
   "agents": [
     {
@@ -2632,114 +2632,6 @@
       "trend": 2
     },
     {
-      "id": "5801",
-      "name": "Andrea Rodriguez",
-      "chats": [
-        {
-          "chat_id": "2047323403726925824",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-23T14:47:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
-          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:49:53.803Z"
-        }
-      ],
-      "avg_score": 59,
-      "grade": "F",
-      "trend": 0
-    },
-    {
-      "id": "5802",
-      "name": "Dustin Euceda",
-      "chats": [
-        {
-          "chat_id": "2047322702481813504",
-          "agent_name": "Dustin Euceda",
-          "agent_id": "5802",
-          "timestamp": "2026-04-23T14:39:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
-            },
-            "resolution": {
-              "score": 18,
-              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
-          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:39:44.173Z"
-        }
-      ],
-      "avg_score": 59,
-      "grade": "F",
-      "trend": 0
-    },
-    {
       "id": "5551",
       "name": "Andrea Hernandez",
       "chats": [
@@ -3192,11 +3084,164 @@
           "raw_transcript": "[03:30:07 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[03:30:07 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[03:30:24 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:30:24 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:32:09 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[03:32:09 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T15:34:53.117Z"
+        },
+        {
+          "chat_id": "2047338135624708096",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T15:37:22.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though there's a name mismatch (Andrea vs Emily) which is confusing."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent provided common solutions and asked for error message details, though could have probed more before offering generic troubleshooting."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided reasonable troubleshooting steps but closed chat after only 3 minutes without allowing sufficient time for customer response."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and friendly tone with good formatting, but the Andrea/Emily name inconsistency creates confusion."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided appropriate alternative contact method when closing."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered alternative contact method but closed prematurely after only 3 minutes of customer silence."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "Agent provided helpful troubleshooting steps and communicated clearly, but closed the chat after only 3 minutes of customer inactivity, which may be too quick. The name mismatch between the system name and greeting also created unnecessary confusion.",
+          "coaching_tip": "Wait at least 5-7 minutes before closing a chat due to customer inactivity, especially when you've just asked for information that may take time to gather.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[03:33:43 PM] Customer: Full Name: Yomaira Beatriz Padron Email Address: yomairapadron59@gmail.com Subject / How can we help you?: Hello my name is Yomaira Beatriz Padron I’m concerning because I registered with you guys , but I’m been having issues to login it and it keep saying to conctact you guys , please can I have some help .\n[03:33:43 PM] Customer: Full Name: Yomaira Beatriz Padron Email Address: yomairapadron59@gmail.com Subject / How can we help you?: Hello my name is Yomaira Beatriz Padron I’m concerning because I registered with you guys , but I’m been having issues to login it and it keep saying to conctact you guys , please can I have some help .\n[03:33:51 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:33:51 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:34:00 PM] Customer: I already did everything that you recommended, still the issue\n[03:34:00 PM] Customer: I already did everything that you recommended, still the issue\n[03:34:54 PM] Andrea Hernandez: Hey Yomaira!\n\nThanks for reaching out — let’s get this sorted for you!\n\nA couple of the most common reasons for this are:\n\nEmail already in use — try resetting your password at www.jackpotdaily.com\n → Login → “Forgot Password?”\nRegion restrictions — the platform may not be available in your current location\n\nAlso, please double-check that your email and password are entered correctly.\n\nIf that doesn’t fix it, let me know what error message you’re seeing and I’ll help you from there!\n[03:34:54 PM] Andrea Hernandez: Hey Yomaira!\n\nThanks for reaching out — let’s get this sorted for you!\n\nA couple of the most common reasons for this are:\n\nEmail already in use — try resetting your password at www.jackpotdaily.com\n → Login → “Forgot Password?”\nRegion restrictions — the platform may not be available in your current location\n\nAlso, please double-check that your email and password are entered correctly.\n\nIf that doesn’t fix it, let me know what error message you’re seeing and I’ll help you from there!\n[03:35:34 PM] Andrea Hernandez: I’m going to look into this for you now. In the meantime, could you please confirm:\n\nThe exact error message you’re seeing\nThe email you used to register (just to double-check on our end)\n[03:35:34 PM] Andrea Hernandez: I’m going to look into this for you now. In the meantime, could you please confirm:\n\nThe exact error message you’re seeing\nThe email you used to register (just to double-check on our end)\n[03:36:57 PM] Andrea Hernandez: Are you still here?\n[03:36:57 PM] Andrea Hernandez: Are you still here?\n[03:37:19 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[03:37:19 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:39:43.493Z"
         }
       ],
-      "avg_score": 58,
+      "avg_score": 59,
       "grade": "F",
-      "trend": -19
+      "trend": -13
+    },
+    {
+      "id": "5801",
+      "name": "Andrea Rodriguez",
+      "chats": [
+        {
+          "chat_id": "2047323403726925824",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-23T14:47:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
+          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:49:53.803Z"
+        }
+      ],
+      "avg_score": 59,
+      "grade": "F",
+      "trend": 0
+    },
+    {
+      "id": "5802",
+      "name": "Dustin Euceda",
+      "chats": [
+        {
+          "chat_id": "2047322702481813504",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T14:39:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
+            },
+            "resolution": {
+              "score": 18,
+              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
+          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:39:44.173Z"
+        }
+      ],
+      "avg_score": 59,
+      "grade": "F",
+      "trend": 0
     },
     {
       "id": "5845",
@@ -21550,6 +21595,51 @@
       "raw_transcript": "[03:30:07 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[03:30:07 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[03:30:24 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:30:24 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:32:09 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[03:32:09 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T15:34:53.117Z"
+    },
+    {
+      "chat_id": "2047338135624708096",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T15:37:22.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though there's a name mismatch (Andrea vs Emily) which is confusing."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent provided common solutions and asked for error message details, though could have probed more before offering generic troubleshooting."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided reasonable troubleshooting steps but closed chat after only 3 minutes without allowing sufficient time for customer response."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and friendly tone with good formatting, but the Andrea/Emily name inconsistency creates confusion."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided appropriate alternative contact method when closing."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered alternative contact method but closed prematurely after only 3 minutes of customer silence."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 66,
+      "grade": "D",
+      "summary": "Agent provided helpful troubleshooting steps and communicated clearly, but closed the chat after only 3 minutes of customer inactivity, which may be too quick. The name mismatch between the system name and greeting also created unnecessary confusion.",
+      "coaching_tip": "Wait at least 5-7 minutes before closing a chat due to customer inactivity, especially when you've just asked for information that may take time to gather.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[03:33:43 PM] Customer: Full Name: Yomaira Beatriz Padron Email Address: yomairapadron59@gmail.com Subject / How can we help you?: Hello my name is Yomaira Beatriz Padron I’m concerning because I registered with you guys , but I’m been having issues to login it and it keep saying to conctact you guys , please can I have some help .\n[03:33:43 PM] Customer: Full Name: Yomaira Beatriz Padron Email Address: yomairapadron59@gmail.com Subject / How can we help you?: Hello my name is Yomaira Beatriz Padron I’m concerning because I registered with you guys , but I’m been having issues to login it and it keep saying to conctact you guys , please can I have some help .\n[03:33:51 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:33:51 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:34:00 PM] Customer: I already did everything that you recommended, still the issue\n[03:34:00 PM] Customer: I already did everything that you recommended, still the issue\n[03:34:54 PM] Andrea Hernandez: Hey Yomaira!\n\nThanks for reaching out — let’s get this sorted for you!\n\nA couple of the most common reasons for this are:\n\nEmail already in use — try resetting your password at www.jackpotdaily.com\n → Login → “Forgot Password?”\nRegion restrictions — the platform may not be available in your current location\n\nAlso, please double-check that your email and password are entered correctly.\n\nIf that doesn’t fix it, let me know what error message you’re seeing and I’ll help you from there!\n[03:34:54 PM] Andrea Hernandez: Hey Yomaira!\n\nThanks for reaching out — let’s get this sorted for you!\n\nA couple of the most common reasons for this are:\n\nEmail already in use — try resetting your password at www.jackpotdaily.com\n → Login → “Forgot Password?”\nRegion restrictions — the platform may not be available in your current location\n\nAlso, please double-check that your email and password are entered correctly.\n\nIf that doesn’t fix it, let me know what error message you’re seeing and I’ll help you from there!\n[03:35:34 PM] Andrea Hernandez: I’m going to look into this for you now. In the meantime, could you please confirm:\n\nThe exact error message you’re seeing\nThe email you used to register (just to double-check on our end)\n[03:35:34 PM] Andrea Hernandez: I’m going to look into this for you now. In the meantime, could you please confirm:\n\nThe exact error message you’re seeing\nThe email you used to register (just to double-check on our end)\n[03:36:57 PM] Andrea Hernandez: Are you still here?\n[03:36:57 PM] Andrea Hernandez: Are you still here?\n[03:37:19 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[03:37:19 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T15:39:43.493Z"
     }
   ]
 }
