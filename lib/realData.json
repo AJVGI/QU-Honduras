@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T15:09:57.291Z",
-  "total_chats": 232,
+  "scored_at": "2026-04-23T15:30:00.148Z",
+  "total_chats": 235,
   "total_agents": 24,
   "agents": [
     {
@@ -1896,11 +1896,425 @@
           "raw_transcript": "[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T14:34:41.797Z"
+        },
+        {
+          "chat_id": "2047334998486069248",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T15:27:54.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting with no personalization and agent name mismatch (says Emily, system shows Andrea)."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked for error message and screenshot, understood the core issue about redeemable balance."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided accurate explanation of playthrough requirements and troubleshooting steps for stuck balance."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional with good structure, though initial explanation came before reviewing screenshot."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, correctly explained wagering requirements without unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Asked about additional questions but never formally closed the chat after customer's final thanks."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent provided accurate information about playthrough requirements and offered helpful troubleshooting steps. However, the greeting had a name mismatch issue and the chat lacked a proper closing after the customer's final message.",
+          "coaching_tip": "Always provide a proper closing statement after the customer indicates they're satisfied, thanking them and confirming no further assistance is needed.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[03:21:15 PM] t7555694719: Full Name: t7555694719 Email Address: dmw9219@yahoo.com Subject / How can we help you?: Why can’t I redeem my winnings\n[03:21:15 PM] t7555694719: Full Name: t7555694719 Email Address: dmw9219@yahoo.com Subject / How can we help you?: Why can’t I redeem my winnings\n[03:21:29 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:21:29 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:22:01 PM] t7555694719: Thank you. I have 100 in coins but it says I have zero redeemable ones\n[03:22:01 PM] t7555694719: Thank you. I have 100 in coins but it says I have zero redeemable ones\n[03:22:04 PM] Andrea Hernandez: Does it show any error message ?\n[03:22:04 PM] Andrea Hernandez: Does it show any error message ?\n[03:22:19 PM] t7555694719: It just says insufficient balance\n[03:22:19 PM] t7555694719: It just says insufficient balance\n[03:23:13 PM] Andrea Hernandez: Can you please send me a screenshot\n[03:23:13 PM] Andrea Hernandez: Can you please send me a screenshot\n[03:24:55 PM] Andrea Hernandez: If you have 100 SC in your balance but 0 redeemable, it means the coins haven’t completed the required 1x playthrough yet.\n\nBefore SC can be redeemed, they need to be wagered at least once in gameplay. Once you do that, your balance will move into redeemable SC, and you’ll be able to submit your redemption.\n[03:24:55 PM] Andrea Hernandez: If you have 100 SC in your balance but 0 redeemable, it means the coins haven’t completed the required 1x playthrough yet.\n\nBefore SC can be redeemed, they need to be wagered at least once in gameplay. Once you do that, your balance will move into redeemable SC, and you’ll be able to submit your redemption.\n[03:25:18 PM] t7555694719: Ok\n[03:25:18 PM] t7555694719: Ok\n[03:25:28 PM] Andrea Hernandez: Any additional questions?\n[03:25:28 PM] Andrea Hernandez: Any additional questions?\n[03:25:36 PM] t7555694719: IMG_1355.png\n[03:25:36 PM] t7555694719: IMG_1356.png\n[03:25:36 PM] t7555694719: IMG_1355.png\n[03:25:36 PM] t7555694719: IMG_1356.png\n[03:25:49 PM] t7555694719: Yes. Why are zero redeemable? Most of them have been played through\n[03:25:49 PM] t7555694719: Yes. Why are zero redeemable? Most of them have been played through\n[03:26:15 PM] Andrea Hernandez: Let me take a look for you\n[03:26:15 PM] Andrea Hernandez: Let me take a look for you\n[03:27:02 PM] t7555694719: Thank you\n[03:27:02 PM] t7555694719: Thank you\n[03:27:06 PM] Andrea Hernandez: Great question — I understand why that feels confusing.\n\nEven if most of your SC has been played, the system requires the full balance to complete the 1x playthrough before anything becomes redeemable. Until the entire amount has been wagered at least once, it will still show as 0 redeemable SC.\n\nAlso, if any part of your balance is still tied up in an active game session, it won’t reflect as redeemable yet. You can try:\n\nGoing back to your last game\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable balance should update.\n[03:27:06 PM] Andrea Hernandez: Great question — I understand why that feels confusing.\n\nEven if most of your SC has been played, the system requires the full balance to complete the 1x playthrough before anything becomes redeemable. Until the entire amount has been wagered at least once, it will still show as 0 redeemable SC.\n\nAlso, if any part of your balance is still tied up in an active game session, it won’t reflect as redeemable yet. You can try:\n\nGoing back to your last game\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable balance should update.\n[03:27:51 PM] t7555694719: Ok thanks\n[03:27:51 PM] t7555694719: Ok thanks",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:29:42.719Z"
+        }
+      ],
+      "avg_score": 62,
+      "grade": "D",
+      "trend": -10
+    },
+    {
+      "id": "5554",
+      "name": "Diana Lopez",
+      "chats": [
+        {
+          "chat_id": "2045110392341495808",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-17T12:18:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Minimal greeting with just 'hi' - no personalization, professionalism, or warmth."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the verification issue but asked no clarifying questions and relied only on customer-provided information."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Eventually escalated appropriately but only after initially deflecting to email support despite customer already having contacted them multiple times."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple vague holding statements without substantive updates, and failed to acknowledge customer's frustration until the very end."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made; proper escalation procedure followed."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided appropriate apology and set expectations for follow-up, though customer ended the chat themselves first."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent eventually escalated a technical verification issue but provided poor initial service by directing an already-frustrated customer back to email support they had already contacted. Communication lacked empathy and substance during the long wait times, though the final escalation was handled appropriately.",
+          "coaching_tip": "When a customer states they've already tried a solution or contacted support multiple times, acknowledge this immediately and escalate directly rather than suggesting the same channel again.",
+          "website": "Jackpot Daily",
+          "message_count": 25,
+          "raw_transcript": "[12:01:28 PM] t8989184278: Full Name: t8989184278 Email Address: Larry30153@gmail.com Subject / How can we help you?: Day 2 now and I am still unable to verify my account on this platform. Verification link keeps giving me and error, but I can buy Gold Coins packages.\n[12:01:53 PM] t8989184278: unable to verify\n[12:01:56 PM] Diana Lopez: hi\n[12:02:30 PM] Diana Lopez: Bear with me for just a moment while I take a look at your account!\n[12:02:41 PM] t8989184278: IMG_2618.png\n[12:02:41 PM] t8989184278: ScreenRecording_04-17-2026 07-47-10_1.mp4\n[12:02:42 PM] t8989184278: IMG_2622.jpg\n[12:03:14 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:03:26 PM] t8989184278: This solution that was emailed didn't work either\n[12:03:26 PM] t8989184278: IMG_2644.png\n[12:04:08 PM] Diana Lopez: Can you check the email please\n[12:04:39 PM] t8989184278: For a new one\n[12:05:12 PM] Diana Lopez: yes\n[12:05:25 PM] t8989184278: No new emails in my inbox\n[12:05:35 PM] Diana Lopez: let me check please\n[12:06:31 PM] t8989184278: ok\n[12:07:50 PM] Diana Lopez: still checking\n[12:08:20 PM] t8989184278: 10/4\n[12:09:22 PM] Diana Lopez: Thank you\n[12:10:28 PM] Diana Lopez: Please create a support ticket via email so we can properly escalate your case. \nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:13:07 PM] t8989184278: Ma'am I have sent several emails to them I feel as though I am getting the runaround now. This is frustrating and tiresome I spent my earn money and I would to verify my account\n[12:13:51 PM] t8989184278: hard earn money I feel like this platform now is a scam !!!\n[12:14:46 PM] Diana Lopez: I am so sorry thank you so much for your patience.\n\nI want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nWe really appreciate you bearing with us while we get this sorted out. Please feel free to reach back out to us here or at support@jackpotdaily.com and we will be happy to check on the progress for you!\n[12:15:52 PM] t8989184278: Have a great day\n[12:16:33 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:52:45.200Z"
+        },
+        {
+          "chat_id": "2047286327048450048",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T12:14:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting was minimal ('Hello!') with no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the address mismatch issue and provided relevant solution without asking clarifying questions."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided correct procedure for address verification but didn't address customer's request for promo code or retention concern."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear instructions given but ignored customer's frustration and request for compensation while waiting."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Correctly did not promise unauthorized promo code and followed proper verification procedures."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Abrupt 'Anything else?' without proper closure after customer expressed intent to leave."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided technically correct information about the address verification process but failed to address the customer's frustration and retention risk. The interaction lacked empathy and proper closing when the customer indicated they might leave for a competitor.",
+          "coaching_tip": "When a customer expresses frustration and mentions leaving, acknowledge their concern empathetically and consider escalating retention issues to a supervisor rather than ending abruptly.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[12:07:51 PM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[12:07:51 PM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[12:08:39 PM] Diana Lopez: Hello!\n[12:08:39 PM] Diana Lopez: Hello!\n[12:08:59 PM] t2967770497: Wow this is too hard I’ll go one where else thank you unless you can provid m with a promo code or something to play son for sc while I wait until his issue gets resolved..\n[12:08:59 PM] t2967770497: Wow this is too hard I’ll go one where else thank you unless you can provid m with a promo code or something to play son for sc while I wait until his issue gets resolved..\n[12:09:21 PM] Diana Lopez: Hi this is a common issue. Here's what you need to do:\n\nYou cannot edit your address directly after it's been entered. To fix the mismatch between your ID and the address on file, you will need to provide a valid proof of address document (utility bill, bank statement, or government letter dated within the last 90 days) that shows your current address.\n[12:09:21 PM] Diana Lopez: Hi this is a common issue. Here's what you need to do:\n\nYou cannot edit your address directly after it's been entered. To fix the mismatch between your ID and the address on file, you will need to provide a valid proof of address document (utility bill, bank statement, or government letter dated within the last 90 days) that shows your current address.\n[12:11:55 PM] Diana Lopez: Anything else?\n[12:11:55 PM] Diana Lopez: Anything else?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:15:53.542Z"
+        },
+        {
+          "chat_id": "2047295564044771328",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T12:52:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic question but didn't ask which payment method was used or check redemption status."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided accurate timeframe information for both payment methods, though didn't verify customer's specific method or redemption status."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional information provided, though initial response was too brief before elaborating."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard timeframes without unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing statement, no offer for further assistance, chat ended abruptly after providing information."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided accurate payment timeframe information but delivered minimal service overall. The interaction lacked personalization, proactive account checking, and any proper closing.",
+          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and wishing the customer well, rather than leaving the chat hanging after providing information.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[12:44:34 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: How long will it take my redemption to hit my account?\n[12:44:34 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: How long will it take my redemption to hit my account?\n[12:44:51 PM] Diana Lopez: Hello!\n[12:44:51 PM] Diana Lopez: Hello!\n[12:45:04 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[12:45:04 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[12:46:21 PM] t4431329314: How long till my money hits my account\n[12:46:21 PM] t4431329314: How long till my money hits my account\n[12:46:57 PM] Diana Lopez: The average transfer time depends on the method you selected. Here is the general breakdown:\n\nDebit Card: Usually the fastest option. Funds often arrive within 1–3 business days after approval.\n\nACH (Bank Transfer): Typically takes 3–5 business days, but can sometimes take up to 10 business days depending on your bank's processing speed.\n[12:46:57 PM] Diana Lopez: The average transfer time depends on the method you selected. Here is the general breakdown:\n\nDebit Card: Usually the fastest option. Funds often arrive within 1–3 business days after approval.\n\nACH (Bank Transfer): Typically takes 3–5 business days, but can sometimes take up to 10 business days depending on your bank's processing speed.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:53:40.523Z"
+        },
+        {
+          "chat_id": "2047311673471365120",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T13:53:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Simple 'Hello' greeting, professional but minimal warmth and no personalization."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the account creation request and proactively addressed potential duplicate account concern."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided clear instructions on how to create account and included important compliance information about one account per person."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with concise instructions, though could have confirmed customer's specific situation first."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly communicated the one-account-per-person policy, adhering to responsible gaming compliance."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Friendly closing with offer for further assistance, though customer never confirmed resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 74,
+          "grade": "C",
+          "summary": "Agent provided accurate account creation instructions and proactively communicated the one-account policy. The interaction was efficient and compliant, though the agent could have asked clarifying questions before assuming the customer needed basic signup instructions.",
+          "coaching_tip": "Before providing instructions, ask if the customer is having trouble finding the signup button or if they're encountering a specific error to ensure you're addressing their actual need.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[01:48:34 PM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Create a new account\n[01:48:34 PM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Create a new account\n[01:49:10 PM] Diana Lopez: Hello!\n[01:49:10 PM] Diana Lopez: Hello!\n[01:49:48 PM] Diana Lopez: Hi — you can create a new account by visiting www.jackpotdaily.com and clicking 'Sign Up' in the top right corner. Each person is allowed only one account. If you already have an account, you cannot create a second one.\n[01:49:48 PM] Diana Lopez: Hi — you can create a new account by visiting www.jackpotdaily.com and clicking 'Sign Up' in the top right corner. Each person is allowed only one account. If you already have an account, you cannot create a second one.\n[01:51:37 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[01:51:37 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:54:20.923Z"
+        },
+        {
+          "chat_id": "2047313709576953856",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T14:05:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with just 'Hi!' - lacks warmth, personalization, and professionalism."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the issue but failed to ask clarifying questions about redemption details or timeline specifics."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic policy explanation but didn't address customer's core concern that request hasn't been reviewed yet; no escalation offered."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Started empathetic but final response was confusing and dismissive, failing to address customer's specific pushback."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but provided vague timeframes without confirming actual status or next steps."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever - conversation ended abruptly mid-issue without resolution or offering further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent provided standard policy information but failed to address the customer's specific concern that their redemption hasn't been reviewed after 5 days. The interaction ended abruptly without resolution, escalation, or proper closing, leaving the frustrated customer without answers.",
+          "coaching_tip": "When a customer pushes back with specific information contradicting your explanation, acknowledge their concern directly and either escalate to a supervisor or provide concrete next steps rather than repeating generic timeframes.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[01:56:40 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[01:56:40 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[01:56:56 PM] Diana Lopez: Hi!\n[01:56:56 PM] Diana Lopez: Hi!\n[01:57:33 PM] Diana Lopez: I understand your frustration. Waiting 5 days for an update is not the experience we want for you.\n\nI've checked on your redemption request. Our team is reviewing it and you will receive an update as soon as possible.\n\nThank you for your patience.\n[01:57:33 PM] Diana Lopez: I understand your frustration. Waiting 5 days for an update is not the experience we want for you.\n\nI've checked on your redemption request. Our team is reviewing it and you will receive an update as soon as possible.\n\nThank you for your patience.\n[01:58:13 PM] t6955935479: That’s what they keep telling me, but I am not getting any communication as to WHY it is taking so long\n[01:58:13 PM] t6955935479: That’s what they keep telling me, but I am not getting any communication as to WHY it is taking so long\n[01:58:28 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[01:58:28 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[02:00:53 PM] t6955935479: Ok\n[02:00:53 PM] t6955935479: Ok\n[02:01:36 PM] Diana Lopez: I understand the confusion. Let me explain how the redemption process works.\n\nRedemptions are not processed on weekends or holidays. Our team reviews and approves requests only on business days (Monday through Friday).\n\nOnce approved, ACH bank transfers can take 3 to 10 business days to appear in your account, depending on your bank's processing time. Some banks process faster than others.\n\nIf you've been waiting 5 days, that may include a weekend where no processing occurred. Your redemption is still in queue and will be completed as soon as possible.\n[02:01:36 PM] Diana Lopez: I understand the confusion. Let me explain how the redemption process works.\n\nRedemptions are not processed on weekends or holidays. Our team reviews and approves requests only on business days (Monday through Friday).\n\nOnce approved, ACH bank transfers can take 3 to 10 business days to appear in your account, depending on your bank's processing time. Some banks process faster than others.\n\nIf you've been waiting 5 days, that may include a weekend where no processing occurred. Your redemption is still in queue and will be completed as soon as possible.\n[02:02:12 PM] t6955935479: No, they are telling me it hasn’t even been reviewed\n[02:02:12 PM] t6955935479: No, they are telling me it hasn’t even been reviewed\n[02:03:38 PM] Diana Lopez: I understand we are still on the time frame\n[02:03:38 PM] Diana Lopez: I understand we are still on the time frame",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:06:01.341Z"
+        },
+        {
+          "chat_id": "2047315937538650112",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T14:20:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Greeting was minimal ('hello!') with no personalization or acknowledgment of customer's frustration."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent initially misunderstood the issue, focusing on post-approval timelines when customer was concerned about pre-approval delays."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent eventually escalated to the finance team which was appropriate, though took too long to reach this solution."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Communication was professional but repetitive with scripted responses that didn't initially address the customer's actual concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made; stayed within appropriate boundaries."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided standard closing with offer of further assistance and set expectations for follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent eventually resolved the issue by escalating to finance but spent too much time providing irrelevant post-approval timeline information when the customer clearly stated their concern was about pre-approval delays. The greeting was minimal and the agent was slow to pivot from scripted responses to actually listening to the customer's specific concern.",
+          "coaching_tip": "Listen more carefully to distinguish between pre-approval and post-approval concerns; the customer stated three times they were waiting for approval review before you addressed that specific issue.",
+          "website": "Jackpot Daily",
+          "message_count": 44,
+          "raw_transcript": "[02:05:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[02:05:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[02:05:55 PM] t6955935479: I was told the approval window is 24-48 hours\n[02:05:55 PM] t6955935479: I was told the approval window is 24-48 hours\n[02:05:56 PM] Diana Lopez: hello!\n[02:05:56 PM] Diana Lopez: hello!\n[02:06:13 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:06:13 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:06:33 PM] t6955935479: No, they are telling me that it hasn’t even been looked at for approval\n[02:06:33 PM] t6955935479: No, they are telling me that it hasn’t even been looked at for approval\n[02:06:47 PM] t6955935479: It is still in the queue\n[02:06:47 PM] t6955935479: It is still in the queue\n[02:07:40 PM] Diana Lopez: here are the estimated times for each redemption method after approval:\n\n*- Debit Card: 1-3 business days*\n*- ACH (Bank Transfer): 3-10 business days (depends on your bank)*\n[02:07:40 PM] Diana Lopez: here are the estimated times for each redemption method after approval:\n\n*- Debit Card: 1-3 business days*\n*- ACH (Bank Transfer): 3-10 business days (depends on your bank)*\n[02:07:57 PM] t6955935479: Yes, I understand that. What I’m concerned about is the length of time it is taking to get an approval\n[02:07:57 PM] Diana Lopez: Redemptions are not processed on weekends or holidays. Reviews are done in the order received.\n[02:07:57 PM] t6955935479: Yes, I understand that. What I’m concerned about is the length of time it is taking to get an approval\n[02:07:57 PM] Diana Lopez: Redemptions are not processed on weekends or holidays. Reviews are done in the order received.\n[02:08:37 PM] Diana Lopez: I understand your concern. Waiting for approval is the most frustrating part, especially when you don't know why it's taking longer than expected.\n[02:08:37 PM] Diana Lopez: I understand your concern. Waiting for approval is the most frustrating part, especially when you don't know why it's taking longer than expected.\n[02:09:58 PM] t6955935479: Could you provide the reason why it is taking so long? I know that the platform just opened so if redemptions are reviewed in the order they were received, I can’t imagine that there are a numerous amount being that the site just launched\n[02:09:58 PM] t6955935479: Could you provide the reason why it is taking so long? I know that the platform just opened so if redemptions are reviewed in the order they were received, I can’t imagine that there are a numerous amount being that the site just launched\n[02:10:16 PM] t6955935479: I am not trying to be rude or hard to get along with. I just would like an answer.\n[02:10:16 PM] t6955935479: I am not trying to be rude or hard to get along with. I just would like an answer.\n[02:10:59 PM] Diana Lopez: That's a fair question, and you're right to ask.\n\nEven with a newer platform, each redemption request must be manually reviewed to verify KYC, playthrough requirements, and bank details. This process takes time, and delays can happen if any information needs additional review.\n[02:10:59 PM] Diana Lopez: That's a fair question, and you're right to ask.\n\nEven with a newer platform, each redemption request must be manually reviewed to verify KYC, playthrough requirements, and bank details. This process takes time, and delays can happen if any information needs additional review.\n[02:12:15 PM] t6955935479: OK, but they haven’t even reached out to me for anything. I have met all the requirements. I am verified. I met the play through requirements and my bank details are correct.\n[02:12:15 PM] t6955935479: OK, but they haven’t even reached out to me for anything. I have met all the requirements. I am verified. I met the play through requirements and my bank details are correct.\n[02:12:24 PM] Diana Lopez: I don't think you're being rude at all. You've been very patient and reasonable, and you deserve a clear answer.\n\nI don't have more information to share. I am sorry.\n[02:12:24 PM] Diana Lopez: I don't think you're being rude at all. You've been very patient and reasonable, and you deserve a clear answer.\n\nI don't have more information to share. I am sorry.\n[02:13:19 PM] t6955935479: Is there a way you can ask?\n[02:13:19 PM] t6955935479: Is there a way you can ask?\n[02:13:55 PM] Diana Lopez: Yes, I can. I've already flagged your ticket and noted the delay. Our team is aware of your case and will provide an update as soon as possible.\n[02:13:55 PM] Diana Lopez: Yes, I can. I've already flagged your ticket and noted the delay. Our team is aware of your case and will provide an update as soon as possible.\n[02:14:16 PM] t6955935479: Ok, so when should I hear something?\n[02:14:16 PM] t6955935479: Ok, so when should I hear something?\n[02:14:46 PM] Diana Lopez: I understand you want a timeframe. I can't provide an exact time, but our team will provide an update as soon as possible.\n[02:14:46 PM] Diana Lopez: I understand you want a timeframe. I can't provide an exact time, but our team will provide an update as soon as possible.\n[02:15:39 PM] t6955935479: I have been reaching out every day since Monday and other agents have escalated or flagged my request, but there has still not been any communication which is why I’m starting to lose confidence\n[02:15:39 PM] t6955935479: I have been reaching out every day since Monday and other agents have escalated or flagged my request, but there has still not been any communication which is why I’m starting to lose confidence\n[02:16:29 PM] Diana Lopez: I hear you. You've been reaching out every day, been told the same thing each time, and still have no real answer. I would be losing confidence too.\n\nI don't have access to see why your redemption hasn't been reviewed yet. I understand that's not the answer you want, but it's the truth.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible\n[02:16:29 PM] Diana Lopez: I hear you. You've been reaching out every day, been told the same thing each time, and still have no real answer. I would be losing confidence too.\n\nI don't have access to see why your redemption hasn't been reviewed yet. I understand that's not the answer you want, but it's the truth.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible\n[02:18:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!\n[02:18:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:21:49.709Z"
+        },
+        {
+          "chat_id": "2047325166618062848",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T14:53:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with just 'Hi!' without using customer name or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the redemption delay concern and gathered relevant context through the conversation."
+            },
+            "resolution": {
+              "score": 17,
+              "notes": "Agent escalated to supervisor and was honest about limitations, but couldn't provide concrete resolution or timeline after a week-long delay."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and empathetic communication, acknowledged frustration honestly, though initial response gave conflicting timeframes (3-5 vs 3-10 days)."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately escalated without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated mid-sentence with no closing provided in visible portion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent handled a frustrated customer with empathy and honesty about system limitations, appropriately escalating a week-old pending redemption to supervisor level. Communication was professional though the greeting was minimal and the transcript cuts off before proper closing.",
+          "coaching_tip": "When first responding to redemption inquiries, ask clarifying questions about when the request was submitted before providing generic timeframes to avoid giving conflicting information.",
+          "website": "Jackpot Daily",
+          "message_count": 44,
+          "raw_transcript": "[02:42:11 PM] t3684216609: Full Name: t3684216609 Email Address: casinofanatic78@gmail.com Subject / How can we help you?: I'm looking for information on my redemption status?\n[02:42:11 PM] t3684216609: Full Name: t3684216609 Email Address: casinofanatic78@gmail.com Subject / How can we help you?: I'm looking for information on my redemption status?\n[02:42:28 PM] Diana Lopez: Hi!\n[02:42:28 PM] Diana Lopez: Hi!\n[02:42:39 PM] t3684216609: Hello\n[02:42:39 PM] t3684216609: Hello\n[02:42:51 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:42:51 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:43:44 PM] t3684216609: So if my ACH redemption is at pending still at 5 business days, should I be concerned\n[02:43:44 PM] t3684216609: So if my ACH redemption is at pending still at 5 business days, should I be concerned\n[02:44:56 PM] Diana Lopez: ACH transfers typically take 3 to 10 business days to appear in your bank account, depending on your bank's processing time.\n\nIf your redemption is still pending review and hasn't been approved yet, that timeframe does not start until approval happens. Our team will provide an update as soon as possible.\n[02:44:56 PM] Diana Lopez: ACH transfers typically take 3 to 10 business days to appear in your bank account, depending on your bank's processing time.\n\nIf your redemption is still pending review and hasn't been approved yet, that timeframe does not start until approval happens. Our team will provide an update as soon as possible.\n[02:45:20 PM] t3684216609: So I've been waiting a week and it's still not even approved?\n[02:45:20 PM] t3684216609: So I've been waiting a week and it's still not even approved?\n[02:45:46 PM] t3684216609: I didn't have a debit card option either\n[02:45:46 PM] t3684216609: I didn't have a debit card option either\n[02:46:12 PM] Diana Lopez: I understand that waiting a week without approval is frustrating.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible.\n[02:46:12 PM] Diana Lopez: I understand that waiting a week without approval is frustrating.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible.\n[02:46:49 PM] t3684216609: I was referred by a large referrer who indicared redemption times were very fast.  This seems to be the opposite of that\n[02:46:49 PM] t3684216609: I was referred by a large referrer who indicared redemption times were very fast.  This seems to be the opposite of that\n[02:47:22 PM] t3684216609: I don't feel I have unrealistic expectations, like some players, but a week and not being approved is quite unusual\n[02:47:22 PM] t3684216609: I don't feel I have unrealistic expectations, like some players, but a week and not being approved is quite unusual\n[02:47:50 PM] Diana Lopez: You're right. Being told your ticket has been 'noted' over and over without any real update is frustrating, and I apologize for that.\n\nI don't have access to see why your redemption hasn't been approved after a full week. I understand that's not the answer you want, but I want to be honest with you.\n\nWhat I can do is make sure your case is brought to a supervisor's attention directly.\n[02:47:50 PM] Diana Lopez: You're right. Being told your ticket has been 'noted' over and over without any real update is frustrating, and I apologize for that.\n\nI don't have access to see why your redemption hasn't been approved after a full week. I understand that's not the answer you want, but I want to be honest with you.\n\nWhat I can do is make sure your case is brought to a supervisor's attention directly.\n[02:48:03 PM] t3684216609: In the end, I'm not spending another penny until this is processed so I guess it saves me money\n[02:48:03 PM] t3684216609: In the end, I'm not spending another penny until this is processed so I guess it saves me money\n[02:48:41 PM] Diana Lopez: I completely understand. I wouldn't want to spend more either if I were in your situation. You've been patient long enough, and I don't blame you for feeling this way.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible.\n[02:48:41 PM] Diana Lopez: I completely understand. I wouldn't want to spend more either if I were in your situation. You've been patient long enough, and I don't blame you for feeling this way.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible.\n[02:49:44 PM] t3684216609: Ultimately, I spend thousands of dollars every month on sites and gave this one a try, I'm still way down even with this redemption so it's not a great customer feeling having to wait and be ghosted on the process. I do appreciate your understanding\n[02:49:44 PM] t3684216609: Ultimately, I spend thousands of dollars every month on sites and gave this one a try, I'm still way down even with this redemption so it's not a great customer feeling having to wait and be ghosted on the process. I do appreciate your understanding\n[02:50:32 PM] Diana Lopez: Thank you for being so honest, and I truly appreciate you giving our platform a try. You're exactly the kind of player we want to keep, and I'm genuinely sorry we've let you down here.\n\nWaiting a week without any real update is not the experience you deserve, especially when you're still down overall. I understand why you're frustrated, and I don't blame you.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible. Thank you again for your patience and for being so reasonable throughout this.\n[02:50:32 PM] Diana Lopez: Thank you for being so honest, and I truly appreciate you giving our platform a try. You're exactly the kind of player we want to keep, and I'm genuinely sorry we've let you down here.\n\nWaiting a week without any real update is not the experience you deserve, especially when you're still down overall. I understand why you're frustrated, and I don't blame you.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible. Thank you again for your patience and for being so reasonable throughout this.\n[02:51:01 PM] t3684216609: I have no choice but to wait, unfortunately.  Have a good day\n[02:51:01 PM] t3684216609: I have no choice but to wait, unfortunately.  Have a good day\n[02:51:18 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:51:18 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:51:36 PM] t3684216609: Ok, I hope soon\n[02:51:36 PM] t3684216609: Ok, I hope soon\n[02:52:05 PM] t3684216609: At this point, I haven't shared the experience with my affiliate referral because she usually refers good sites\n[02:52:05 PM] t3684216609: At this point, I haven't shared the experience with my affiliate referral because she usually refers good sites\n[02:52:26 PM] t3684216609: Have a good day\n[02:52:26 PM] t3684216609: Have a good day\n[02:52:35 PM] Diana Lopez: I understand completely. You're someone who shares good sites with your referrals, and you want to be confident in what you recommend. Right now, we haven't given you that confidence, and I'm sorry for that\n[02:52:35 PM] Diana Lopez: I understand completely. You're someone who shares good sites with your referrals, and you want to be confident in what you recommend. Right now, we haven't given you that confidence, and I'm sorry for that",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:54:42.585Z"
+        },
+        {
+          "chat_id": "2047335211494371328",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T15:27:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Greeting was minimal ('hi') with no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent immediately understood the referral bonus question and provided detailed breakdown without needing clarification."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided accurate, complete information about the $70 spend requirement and qualification criteria."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional throughout, showed empathy when customer expressed frustration about leaving."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No policy violations, provided accurate program terms without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Acknowledged customer's decision respectfully and said goodbye, though could have been slightly warmer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent provided accurate and detailed information about referral requirements immediately. Handled customer frustration professionally with appropriate empathy when they decided to leave.",
+          "coaching_tip": "Open with a warmer, more personalized greeting that includes the customer's name to establish better rapport from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[03:22:06 PM] t9230448707: Full Name: t9230448707 Email Address: joslynevans02@gmail.com Subject / How can we help you?: How much does a referral have to spend for me to get the bonus\n[03:22:06 PM] t9230448707: Full Name: t9230448707 Email Address: joslynevans02@gmail.com Subject / How can we help you?: How much does a referral have to spend for me to get the bonus\n[03:22:27 PM] Diana Lopez: hi\n[03:22:27 PM] Diana Lopez: hi\n[03:23:04 PM] Diana Lopez: Here’s the specific breakdown of how the $70 requirement fits into the process:\n\nRegistration & KYC: The friend must sign up using your link and complete identity verification.\n\nSpend Requirement: The friend’s cumulative purchases must meet or exceed the $70 threshold.\n\nTrigger: Once all steps are completed, the bonus is triggered automatically.\n\nIf the purchases total less than $70 or KYC is not completed, the referral will not be counted as qualified for that bonus tier.\n[03:23:04 PM] Diana Lopez: Here’s the specific breakdown of how the $70 requirement fits into the process:\n\nRegistration & KYC: The friend must sign up using your link and complete identity verification.\n\nSpend Requirement: The friend’s cumulative purchases must meet or exceed the $70 threshold.\n\nTrigger: Once all steps are completed, the bonus is triggered automatically.\n\nIf the purchases total less than $70 or KYC is not completed, the referral will not be counted as qualified for that bonus tier.\n[03:23:20 PM] t9230448707: 70 for 50 is insane I won’t be using this site anymore thanks\n[03:23:20 PM] t9230448707: 70 for 50 is insane I won’t be using this site anymore thanks\n[03:24:28 PM] Diana Lopez: I understand your frustration. You feel the $70 requirement for 50 SC (or similar bonus) isn't fair, and you're entitled to that opinion.\n\nI'm sorry to see you go, but I respect your decision. If you change your mind, you know where to find us. Take care.\n[03:24:28 PM] Diana Lopez: I understand your frustration. You feel the $70 requirement for 50 SC (or similar bonus) isn't fair, and you're entitled to that opinion.\n\nI'm sorry to see you go, but I respect your decision. If you change your mind, you know where to find us. Take care.\n[03:24:54 PM] t9230448707: Nah I’ll be deleting my account\n[03:24:54 PM] t9230448707: Nah I’ll be deleting my account\n[03:25:36 PM] Diana Lopez: Thank you for giving us a try, and I'm sorry it didn't work out. Take care\n[03:25:36 PM] Diana Lopez: Thank you for giving us a try, and I'm sorry it didn't work out. Take care",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:29:50.497Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": -18
+      "trend": 6
     },
     {
       "id": "5808",
@@ -2583,330 +2997,6 @@
         }
       ],
       "avg_score": 61,
-      "grade": "D",
-      "trend": 2
-    },
-    {
-      "id": "5554",
-      "name": "Diana Lopez",
-      "chats": [
-        {
-          "chat_id": "2045110392341495808",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-17T12:18:18.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "Minimal greeting with just 'hi' - no personalization, professionalism, or warmth."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the verification issue but asked no clarifying questions and relied only on customer-provided information."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Eventually escalated appropriately but only after initially deflecting to email support despite customer already having contacted them multiple times."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Multiple vague holding statements without substantive updates, and failed to acknowledge customer's frustration until the very end."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made; proper escalation procedure followed."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided appropriate apology and set expectations for follow-up, though customer ended the chat themselves first."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent eventually escalated a technical verification issue but provided poor initial service by directing an already-frustrated customer back to email support they had already contacted. Communication lacked empathy and substance during the long wait times, though the final escalation was handled appropriately.",
-          "coaching_tip": "When a customer states they've already tried a solution or contacted support multiple times, acknowledge this immediately and escalate directly rather than suggesting the same channel again.",
-          "website": "Jackpot Daily",
-          "message_count": 25,
-          "raw_transcript": "[12:01:28 PM] t8989184278: Full Name: t8989184278 Email Address: Larry30153@gmail.com Subject / How can we help you?: Day 2 now and I am still unable to verify my account on this platform. Verification link keeps giving me and error, but I can buy Gold Coins packages.\n[12:01:53 PM] t8989184278: unable to verify\n[12:01:56 PM] Diana Lopez: hi\n[12:02:30 PM] Diana Lopez: Bear with me for just a moment while I take a look at your account!\n[12:02:41 PM] t8989184278: IMG_2618.png\n[12:02:41 PM] t8989184278: ScreenRecording_04-17-2026 07-47-10_1.mp4\n[12:02:42 PM] t8989184278: IMG_2622.jpg\n[12:03:14 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:03:26 PM] t8989184278: This solution that was emailed didn't work either\n[12:03:26 PM] t8989184278: IMG_2644.png\n[12:04:08 PM] Diana Lopez: Can you check the email please\n[12:04:39 PM] t8989184278: For a new one\n[12:05:12 PM] Diana Lopez: yes\n[12:05:25 PM] t8989184278: No new emails in my inbox\n[12:05:35 PM] Diana Lopez: let me check please\n[12:06:31 PM] t8989184278: ok\n[12:07:50 PM] Diana Lopez: still checking\n[12:08:20 PM] t8989184278: 10/4\n[12:09:22 PM] Diana Lopez: Thank you\n[12:10:28 PM] Diana Lopez: Please create a support ticket via email so we can properly escalate your case. \nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:13:07 PM] t8989184278: Ma'am I have sent several emails to them I feel as though I am getting the runaround now. This is frustrating and tiresome I spent my earn money and I would to verify my account\n[12:13:51 PM] t8989184278: hard earn money I feel like this platform now is a scam !!!\n[12:14:46 PM] Diana Lopez: I am so sorry thank you so much for your patience.\n\nI want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nWe really appreciate you bearing with us while we get this sorted out. Please feel free to reach back out to us here or at support@jackpotdaily.com and we will be happy to check on the progress for you!\n[12:15:52 PM] t8989184278: Have a great day\n[12:16:33 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:52:45.200Z"
-        },
-        {
-          "chat_id": "2047286327048450048",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-23T12:14:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Greeting was minimal ('Hello!') with no personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the address mismatch issue and provided relevant solution without asking clarifying questions."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided correct procedure for address verification but didn't address customer's request for promo code or retention concern."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Clear instructions given but ignored customer's frustration and request for compensation while waiting."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Correctly did not promise unauthorized promo code and followed proper verification procedures."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Abrupt 'Anything else?' without proper closure after customer expressed intent to leave."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent provided technically correct information about the address verification process but failed to address the customer's frustration and retention risk. The interaction lacked empathy and proper closing when the customer indicated they might leave for a competitor.",
-          "coaching_tip": "When a customer expresses frustration and mentions leaving, acknowledge their concern empathetically and consider escalating retention issues to a supervisor rather than ending abruptly.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[12:07:51 PM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[12:07:51 PM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[12:08:39 PM] Diana Lopez: Hello!\n[12:08:39 PM] Diana Lopez: Hello!\n[12:08:59 PM] t2967770497: Wow this is too hard I’ll go one where else thank you unless you can provid m with a promo code or something to play son for sc while I wait until his issue gets resolved..\n[12:08:59 PM] t2967770497: Wow this is too hard I’ll go one where else thank you unless you can provid m with a promo code or something to play son for sc while I wait until his issue gets resolved..\n[12:09:21 PM] Diana Lopez: Hi this is a common issue. Here's what you need to do:\n\nYou cannot edit your address directly after it's been entered. To fix the mismatch between your ID and the address on file, you will need to provide a valid proof of address document (utility bill, bank statement, or government letter dated within the last 90 days) that shows your current address.\n[12:09:21 PM] Diana Lopez: Hi this is a common issue. Here's what you need to do:\n\nYou cannot edit your address directly after it's been entered. To fix the mismatch between your ID and the address on file, you will need to provide a valid proof of address document (utility bill, bank statement, or government letter dated within the last 90 days) that shows your current address.\n[12:11:55 PM] Diana Lopez: Anything else?\n[12:11:55 PM] Diana Lopez: Anything else?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:15:53.542Z"
-        },
-        {
-          "chat_id": "2047295564044771328",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-23T12:52:01.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the basic question but didn't ask which payment method was used or check redemption status."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Provided accurate timeframe information for both payment methods, though didn't verify customer's specific method or redemption status."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional information provided, though initial response was too brief before elaborating."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided standard timeframes without unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing statement, no offer for further assistance, chat ended abruptly after providing information."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent provided accurate payment timeframe information but delivered minimal service overall. The interaction lacked personalization, proactive account checking, and any proper closing.",
-          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and wishing the customer well, rather than leaving the chat hanging after providing information.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[12:44:34 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: How long will it take my redemption to hit my account?\n[12:44:34 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: How long will it take my redemption to hit my account?\n[12:44:51 PM] Diana Lopez: Hello!\n[12:44:51 PM] Diana Lopez: Hello!\n[12:45:04 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[12:45:04 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[12:46:21 PM] t4431329314: How long till my money hits my account\n[12:46:21 PM] t4431329314: How long till my money hits my account\n[12:46:57 PM] Diana Lopez: The average transfer time depends on the method you selected. Here is the general breakdown:\n\nDebit Card: Usually the fastest option. Funds often arrive within 1–3 business days after approval.\n\nACH (Bank Transfer): Typically takes 3–5 business days, but can sometimes take up to 10 business days depending on your bank's processing speed.\n[12:46:57 PM] Diana Lopez: The average transfer time depends on the method you selected. Here is the general breakdown:\n\nDebit Card: Usually the fastest option. Funds often arrive within 1–3 business days after approval.\n\nACH (Bank Transfer): Typically takes 3–5 business days, but can sometimes take up to 10 business days depending on your bank's processing speed.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:53:40.523Z"
-        },
-        {
-          "chat_id": "2047311673471365120",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-23T13:53:36.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Simple 'Hello' greeting, professional but minimal warmth and no personalization."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Understood the account creation request and proactively addressed potential duplicate account concern."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided clear instructions on how to create account and included important compliance information about one account per person."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional with concise instructions, though could have confirmed customer's specific situation first."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly communicated the one-account-per-person policy, adhering to responsible gaming compliance."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Friendly closing with offer for further assistance, though customer never confirmed resolution."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 74,
-          "grade": "C",
-          "summary": "Agent provided accurate account creation instructions and proactively communicated the one-account policy. The interaction was efficient and compliant, though the agent could have asked clarifying questions before assuming the customer needed basic signup instructions.",
-          "coaching_tip": "Before providing instructions, ask if the customer is having trouble finding the signup button or if they're encountering a specific error to ensure you're addressing their actual need.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[01:48:34 PM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Create a new account\n[01:48:34 PM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Create a new account\n[01:49:10 PM] Diana Lopez: Hello!\n[01:49:10 PM] Diana Lopez: Hello!\n[01:49:48 PM] Diana Lopez: Hi — you can create a new account by visiting www.jackpotdaily.com and clicking 'Sign Up' in the top right corner. Each person is allowed only one account. If you already have an account, you cannot create a second one.\n[01:49:48 PM] Diana Lopez: Hi — you can create a new account by visiting www.jackpotdaily.com and clicking 'Sign Up' in the top right corner. Each person is allowed only one account. If you already have an account, you cannot create a second one.\n[01:51:37 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[01:51:37 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:54:20.923Z"
-        },
-        {
-          "chat_id": "2047313709576953856",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-23T14:05:11.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with just 'Hi!' - lacks warmth, personalization, and professionalism."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent acknowledged the issue but failed to ask clarifying questions about redemption details or timeline specifics."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided generic policy explanation but didn't address customer's core concern that request hasn't been reviewed yet; no escalation offered."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Started empathetic but final response was confusing and dismissive, failing to address customer's specific pushback."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but provided vague timeframes without confirming actual status or next steps."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing whatsoever - conversation ended abruptly mid-issue without resolution or offering further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 49,
-          "grade": "F",
-          "summary": "Agent provided standard policy information but failed to address the customer's specific concern that their redemption hasn't been reviewed after 5 days. The interaction ended abruptly without resolution, escalation, or proper closing, leaving the frustrated customer without answers.",
-          "coaching_tip": "When a customer pushes back with specific information contradicting your explanation, acknowledge their concern directly and either escalate to a supervisor or provide concrete next steps rather than repeating generic timeframes.",
-          "website": "Jackpot Daily",
-          "message_count": 18,
-          "raw_transcript": "[01:56:40 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[01:56:40 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[01:56:56 PM] Diana Lopez: Hi!\n[01:56:56 PM] Diana Lopez: Hi!\n[01:57:33 PM] Diana Lopez: I understand your frustration. Waiting 5 days for an update is not the experience we want for you.\n\nI've checked on your redemption request. Our team is reviewing it and you will receive an update as soon as possible.\n\nThank you for your patience.\n[01:57:33 PM] Diana Lopez: I understand your frustration. Waiting 5 days for an update is not the experience we want for you.\n\nI've checked on your redemption request. Our team is reviewing it and you will receive an update as soon as possible.\n\nThank you for your patience.\n[01:58:13 PM] t6955935479: That’s what they keep telling me, but I am not getting any communication as to WHY it is taking so long\n[01:58:13 PM] t6955935479: That’s what they keep telling me, but I am not getting any communication as to WHY it is taking so long\n[01:58:28 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[01:58:28 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[02:00:53 PM] t6955935479: Ok\n[02:00:53 PM] t6955935479: Ok\n[02:01:36 PM] Diana Lopez: I understand the confusion. Let me explain how the redemption process works.\n\nRedemptions are not processed on weekends or holidays. Our team reviews and approves requests only on business days (Monday through Friday).\n\nOnce approved, ACH bank transfers can take 3 to 10 business days to appear in your account, depending on your bank's processing time. Some banks process faster than others.\n\nIf you've been waiting 5 days, that may include a weekend where no processing occurred. Your redemption is still in queue and will be completed as soon as possible.\n[02:01:36 PM] Diana Lopez: I understand the confusion. Let me explain how the redemption process works.\n\nRedemptions are not processed on weekends or holidays. Our team reviews and approves requests only on business days (Monday through Friday).\n\nOnce approved, ACH bank transfers can take 3 to 10 business days to appear in your account, depending on your bank's processing time. Some banks process faster than others.\n\nIf you've been waiting 5 days, that may include a weekend where no processing occurred. Your redemption is still in queue and will be completed as soon as possible.\n[02:02:12 PM] t6955935479: No, they are telling me it hasn’t even been reviewed\n[02:02:12 PM] t6955935479: No, they are telling me it hasn’t even been reviewed\n[02:03:38 PM] Diana Lopez: I understand we are still on the time frame\n[02:03:38 PM] Diana Lopez: I understand we are still on the time frame",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:06:01.341Z"
-        },
-        {
-          "chat_id": "2047315937538650112",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-23T14:20:17.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "Greeting was minimal ('hello!') with no personalization or acknowledgment of customer's frustration."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent initially misunderstood the issue, focusing on post-approval timelines when customer was concerned about pre-approval delays."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Agent eventually escalated to the finance team which was appropriate, though took too long to reach this solution."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Communication was professional but repetitive with scripted responses that didn't initially address the customer's actual concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made; stayed within appropriate boundaries."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided standard closing with offer of further assistance and set expectations for follow-up."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 62,
-          "grade": "D",
-          "summary": "Agent eventually resolved the issue by escalating to finance but spent too much time providing irrelevant post-approval timeline information when the customer clearly stated their concern was about pre-approval delays. The greeting was minimal and the agent was slow to pivot from scripted responses to actually listening to the customer's specific concern.",
-          "coaching_tip": "Listen more carefully to distinguish between pre-approval and post-approval concerns; the customer stated three times they were waiting for approval review before you addressed that specific issue.",
-          "website": "Jackpot Daily",
-          "message_count": 44,
-          "raw_transcript": "[02:05:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[02:05:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been waiting 5 days for an answer on my redemption. I am losing confidence in the platform\n[02:05:55 PM] t6955935479: I was told the approval window is 24-48 hours\n[02:05:55 PM] t6955935479: I was told the approval window is 24-48 hours\n[02:05:56 PM] Diana Lopez: hello!\n[02:05:56 PM] Diana Lopez: hello!\n[02:06:13 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:06:13 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:06:33 PM] t6955935479: No, they are telling me that it hasn’t even been looked at for approval\n[02:06:33 PM] t6955935479: No, they are telling me that it hasn’t even been looked at for approval\n[02:06:47 PM] t6955935479: It is still in the queue\n[02:06:47 PM] t6955935479: It is still in the queue\n[02:07:40 PM] Diana Lopez: here are the estimated times for each redemption method after approval:\n\n*- Debit Card: 1-3 business days*\n*- ACH (Bank Transfer): 3-10 business days (depends on your bank)*\n[02:07:40 PM] Diana Lopez: here are the estimated times for each redemption method after approval:\n\n*- Debit Card: 1-3 business days*\n*- ACH (Bank Transfer): 3-10 business days (depends on your bank)*\n[02:07:57 PM] t6955935479: Yes, I understand that. What I’m concerned about is the length of time it is taking to get an approval\n[02:07:57 PM] Diana Lopez: Redemptions are not processed on weekends or holidays. Reviews are done in the order received.\n[02:07:57 PM] t6955935479: Yes, I understand that. What I’m concerned about is the length of time it is taking to get an approval\n[02:07:57 PM] Diana Lopez: Redemptions are not processed on weekends or holidays. Reviews are done in the order received.\n[02:08:37 PM] Diana Lopez: I understand your concern. Waiting for approval is the most frustrating part, especially when you don't know why it's taking longer than expected.\n[02:08:37 PM] Diana Lopez: I understand your concern. Waiting for approval is the most frustrating part, especially when you don't know why it's taking longer than expected.\n[02:09:58 PM] t6955935479: Could you provide the reason why it is taking so long? I know that the platform just opened so if redemptions are reviewed in the order they were received, I can’t imagine that there are a numerous amount being that the site just launched\n[02:09:58 PM] t6955935479: Could you provide the reason why it is taking so long? I know that the platform just opened so if redemptions are reviewed in the order they were received, I can’t imagine that there are a numerous amount being that the site just launched\n[02:10:16 PM] t6955935479: I am not trying to be rude or hard to get along with. I just would like an answer.\n[02:10:16 PM] t6955935479: I am not trying to be rude or hard to get along with. I just would like an answer.\n[02:10:59 PM] Diana Lopez: That's a fair question, and you're right to ask.\n\nEven with a newer platform, each redemption request must be manually reviewed to verify KYC, playthrough requirements, and bank details. This process takes time, and delays can happen if any information needs additional review.\n[02:10:59 PM] Diana Lopez: That's a fair question, and you're right to ask.\n\nEven with a newer platform, each redemption request must be manually reviewed to verify KYC, playthrough requirements, and bank details. This process takes time, and delays can happen if any information needs additional review.\n[02:12:15 PM] t6955935479: OK, but they haven’t even reached out to me for anything. I have met all the requirements. I am verified. I met the play through requirements and my bank details are correct.\n[02:12:15 PM] t6955935479: OK, but they haven’t even reached out to me for anything. I have met all the requirements. I am verified. I met the play through requirements and my bank details are correct.\n[02:12:24 PM] Diana Lopez: I don't think you're being rude at all. You've been very patient and reasonable, and you deserve a clear answer.\n\nI don't have more information to share. I am sorry.\n[02:12:24 PM] Diana Lopez: I don't think you're being rude at all. You've been very patient and reasonable, and you deserve a clear answer.\n\nI don't have more information to share. I am sorry.\n[02:13:19 PM] t6955935479: Is there a way you can ask?\n[02:13:19 PM] t6955935479: Is there a way you can ask?\n[02:13:55 PM] Diana Lopez: Yes, I can. I've already flagged your ticket and noted the delay. Our team is aware of your case and will provide an update as soon as possible.\n[02:13:55 PM] Diana Lopez: Yes, I can. I've already flagged your ticket and noted the delay. Our team is aware of your case and will provide an update as soon as possible.\n[02:14:16 PM] t6955935479: Ok, so when should I hear something?\n[02:14:16 PM] t6955935479: Ok, so when should I hear something?\n[02:14:46 PM] Diana Lopez: I understand you want a timeframe. I can't provide an exact time, but our team will provide an update as soon as possible.\n[02:14:46 PM] Diana Lopez: I understand you want a timeframe. I can't provide an exact time, but our team will provide an update as soon as possible.\n[02:15:39 PM] t6955935479: I have been reaching out every day since Monday and other agents have escalated or flagged my request, but there has still not been any communication which is why I’m starting to lose confidence\n[02:15:39 PM] t6955935479: I have been reaching out every day since Monday and other agents have escalated or flagged my request, but there has still not been any communication which is why I’m starting to lose confidence\n[02:16:29 PM] Diana Lopez: I hear you. You've been reaching out every day, been told the same thing each time, and still have no real answer. I would be losing confidence too.\n\nI don't have access to see why your redemption hasn't been reviewed yet. I understand that's not the answer you want, but it's the truth.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible\n[02:16:29 PM] Diana Lopez: I hear you. You've been reaching out every day, been told the same thing each time, and still have no real answer. I would be losing confidence too.\n\nI don't have access to see why your redemption hasn't been reviewed yet. I understand that's not the answer you want, but it's the truth.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible\n[02:18:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!\n[02:18:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:21:49.709Z"
-        },
-        {
-          "chat_id": "2047325166618062848",
-          "agent_name": "Diana Lopez",
-          "agent_id": "5554",
-          "timestamp": "2026-04-23T14:53:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with just 'Hi!' without using customer name or warmth."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the redemption delay concern and gathered relevant context through the conversation."
-            },
-            "resolution": {
-              "score": 17,
-              "notes": "Agent escalated to supervisor and was honest about limitations, but couldn't provide concrete resolution or timeline after a week-long delay."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear and empathetic communication, acknowledged frustration honestly, though initial response gave conflicting timeframes (3-5 vs 3-10 days)."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, appropriately escalated without making unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript appears truncated mid-sentence with no closing provided in visible portion."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent handled a frustrated customer with empathy and honesty about system limitations, appropriately escalating a week-old pending redemption to supervisor level. Communication was professional though the greeting was minimal and the transcript cuts off before proper closing.",
-          "coaching_tip": "When first responding to redemption inquiries, ask clarifying questions about when the request was submitted before providing generic timeframes to avoid giving conflicting information.",
-          "website": "Jackpot Daily",
-          "message_count": 44,
-          "raw_transcript": "[02:42:11 PM] t3684216609: Full Name: t3684216609 Email Address: casinofanatic78@gmail.com Subject / How can we help you?: I'm looking for information on my redemption status?\n[02:42:11 PM] t3684216609: Full Name: t3684216609 Email Address: casinofanatic78@gmail.com Subject / How can we help you?: I'm looking for information on my redemption status?\n[02:42:28 PM] Diana Lopez: Hi!\n[02:42:28 PM] Diana Lopez: Hi!\n[02:42:39 PM] t3684216609: Hello\n[02:42:39 PM] t3684216609: Hello\n[02:42:51 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:42:51 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:43:44 PM] t3684216609: So if my ACH redemption is at pending still at 5 business days, should I be concerned\n[02:43:44 PM] t3684216609: So if my ACH redemption is at pending still at 5 business days, should I be concerned\n[02:44:56 PM] Diana Lopez: ACH transfers typically take 3 to 10 business days to appear in your bank account, depending on your bank's processing time.\n\nIf your redemption is still pending review and hasn't been approved yet, that timeframe does not start until approval happens. Our team will provide an update as soon as possible.\n[02:44:56 PM] Diana Lopez: ACH transfers typically take 3 to 10 business days to appear in your bank account, depending on your bank's processing time.\n\nIf your redemption is still pending review and hasn't been approved yet, that timeframe does not start until approval happens. Our team will provide an update as soon as possible.\n[02:45:20 PM] t3684216609: So I've been waiting a week and it's still not even approved?\n[02:45:20 PM] t3684216609: So I've been waiting a week and it's still not even approved?\n[02:45:46 PM] t3684216609: I didn't have a debit card option either\n[02:45:46 PM] t3684216609: I didn't have a debit card option either\n[02:46:12 PM] Diana Lopez: I understand that waiting a week without approval is frustrating.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible.\n[02:46:12 PM] Diana Lopez: I understand that waiting a week without approval is frustrating.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible.\n[02:46:49 PM] t3684216609: I was referred by a large referrer who indicared redemption times were very fast.  This seems to be the opposite of that\n[02:46:49 PM] t3684216609: I was referred by a large referrer who indicared redemption times were very fast.  This seems to be the opposite of that\n[02:47:22 PM] t3684216609: I don't feel I have unrealistic expectations, like some players, but a week and not being approved is quite unusual\n[02:47:22 PM] t3684216609: I don't feel I have unrealistic expectations, like some players, but a week and not being approved is quite unusual\n[02:47:50 PM] Diana Lopez: You're right. Being told your ticket has been 'noted' over and over without any real update is frustrating, and I apologize for that.\n\nI don't have access to see why your redemption hasn't been approved after a full week. I understand that's not the answer you want, but I want to be honest with you.\n\nWhat I can do is make sure your case is brought to a supervisor's attention directly.\n[02:47:50 PM] Diana Lopez: You're right. Being told your ticket has been 'noted' over and over without any real update is frustrating, and I apologize for that.\n\nI don't have access to see why your redemption hasn't been approved after a full week. I understand that's not the answer you want, but I want to be honest with you.\n\nWhat I can do is make sure your case is brought to a supervisor's attention directly.\n[02:48:03 PM] t3684216609: In the end, I'm not spending another penny until this is processed so I guess it saves me money\n[02:48:03 PM] t3684216609: In the end, I'm not spending another penny until this is processed so I guess it saves me money\n[02:48:41 PM] Diana Lopez: I completely understand. I wouldn't want to spend more either if I were in your situation. You've been patient long enough, and I don't blame you for feeling this way.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible.\n[02:48:41 PM] Diana Lopez: I completely understand. I wouldn't want to spend more either if I were in your situation. You've been patient long enough, and I don't blame you for feeling this way.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible.\n[02:49:44 PM] t3684216609: Ultimately, I spend thousands of dollars every month on sites and gave this one a try, I'm still way down even with this redemption so it's not a great customer feeling having to wait and be ghosted on the process. I do appreciate your understanding\n[02:49:44 PM] t3684216609: Ultimately, I spend thousands of dollars every month on sites and gave this one a try, I'm still way down even with this redemption so it's not a great customer feeling having to wait and be ghosted on the process. I do appreciate your understanding\n[02:50:32 PM] Diana Lopez: Thank you for being so honest, and I truly appreciate you giving our platform a try. You're exactly the kind of player we want to keep, and I'm genuinely sorry we've let you down here.\n\nWaiting a week without any real update is not the experience you deserve, especially when you're still down overall. I understand why you're frustrated, and I don't blame you.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible. Thank you again for your patience and for being so reasonable throughout this.\n[02:50:32 PM] Diana Lopez: Thank you for being so honest, and I truly appreciate you giving our platform a try. You're exactly the kind of player we want to keep, and I'm genuinely sorry we've let you down here.\n\nWaiting a week without any real update is not the experience you deserve, especially when you're still down overall. I understand why you're frustrated, and I don't blame you.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible. Thank you again for your patience and for being so reasonable throughout this.\n[02:51:01 PM] t3684216609: I have no choice but to wait, unfortunately.  Have a good day\n[02:51:01 PM] t3684216609: I have no choice but to wait, unfortunately.  Have a good day\n[02:51:18 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:51:18 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:51:36 PM] t3684216609: Ok, I hope soon\n[02:51:36 PM] t3684216609: Ok, I hope soon\n[02:52:05 PM] t3684216609: At this point, I haven't shared the experience with my affiliate referral because she usually refers good sites\n[02:52:05 PM] t3684216609: At this point, I haven't shared the experience with my affiliate referral because she usually refers good sites\n[02:52:26 PM] t3684216609: Have a good day\n[02:52:26 PM] t3684216609: Have a good day\n[02:52:35 PM] Diana Lopez: I understand completely. You're someone who shares good sites with your referrals, and you want to be confident in what you recommend. Right now, we haven't given you that confidence, and I'm sorry for that\n[02:52:35 PM] Diana Lopez: I understand completely. You're someone who shares good sites with your referrals, and you want to be confident in what you recommend. Right now, we haven't given you that confidence, and I'm sorry for that",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:54:42.585Z"
-        }
-      ],
-      "avg_score": 60,
       "grade": "D",
       "trend": 2
     },
@@ -4801,330 +4891,6 @@
       "trend": -1
     },
     {
-      "id": "5844",
-      "name": "Angie Pereira",
-      "chats": [
-        {
-          "chat_id": "2045115402492932096",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-17T12:28:10.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional but minimal greeting, no personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask clarifying questions about the phone number error or acknowledge the screenshot provided."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "Provided generic KYC instructions but failed to address the specific phone number error the customer reported."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Clear instructions provided but did not acknowledge the customer's specific problem or screenshot."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided standard verification process information."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing provided, transcript ends abruptly with agent's instructions and no follow-up."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 43,
-          "grade": "F",
-          "summary": "Agent provided standard KYC verification instructions but completely ignored the customer's specific issue about a phone number error code. The response was generic and did not address the actual problem or acknowledge the screenshot evidence provided.",
-          "coaching_tip": "Always acknowledge the specific issue reported and review any screenshots provided before sending templated responses; address the phone number error directly or escalate to technical support.",
-          "website": "Jackpot Daily",
-          "message_count": 7,
-          "raw_transcript": "[12:21:23 PM] t8296271869: Full Name: t8296271869 Email Address: crystaljunkmail500@gmail.com Subject / How can we help you?: I'm a new customer and it's saying to I need to give information so I clicked the verify button and put in my address and stuff and then an error code about my phone number popped up. It's the number I registered and got the verification code for and everything when signing up so I dont understand. It won't let me do the smash the egg game\n[12:21:39 PM] t8296271869: Screenshot_20260417_071907_Chrome.jpg\n[12:23:21 PM] Angie Pereira: Hi. I will be assisting you with today with this issue\n[12:24:07 PM] t8296271869: Hi okay\n[12:25:25 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:25:40 PM] t8296271869: Ok\n[12:27:16 PM] Angie Pereira: KYC (identity verification) is needed before you\ncan make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:52:19.831Z"
-        },
-        {
-          "chat_id": "2047285349188415488",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T12:20:33.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent failed to clarify what verification steps customer had already completed before providing generic instructions."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided verification instructions but didn't address the actual complaint about missing signup bonus or confirm account status."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Sent lengthy generic instructions that confused the customer rather than addressing their specific concern about the missing bonus."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, maintained professionalism despite customer hostility."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Attempted closing before issue was resolved and customer clearly indicated confusion and dissatisfaction."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 52,
-          "grade": "F",
-          "summary": "Agent remained professional with an agitated customer but failed to diagnose the actual issue before providing generic KYC instructions. The customer's specific question about missing signup bonus after email/phone verification was never directly addressed, leading to increased frustration.",
-          "coaching_tip": "Ask clarifying questions first: 'Have you already verified your email and phone? Let me check your account status' before sending lengthy instructions that may not apply.",
-          "website": "Jackpot Daily",
-          "message_count": 34,
-          "raw_transcript": "[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:31 PM] t3759369481: What?????\n[12:14:31 PM] t3759369481: What?????\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:22:11.421Z"
-        },
-        {
-          "chat_id": "2047291301602045952",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T12:36:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer name."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Asked clarifying questions about state and what was happening, eventually understood the geo-restriction error."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided cache-clearing instructions that don't address the actual geo-restriction issue the customer reported."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional but the solution provided doesn't match the problem described by the customer."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, though didn't address potential geo-restriction compliance issue properly."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing statement, further help offer, or goodbye after providing the instructions."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent was polite and asked appropriate clarifying questions but provided a generic cache-clearing solution that doesn't address the customer's geo-restriction error message. The interaction ended abruptly without proper closing or confirmation the issue was resolved.",
-          "coaching_tip": "When a customer reports a geo-restriction message, investigate whether they're in a restricted state rather than defaulting to cache-clearing instructions, and always close the chat properly.",
-          "website": "Jackpot Daily",
-          "message_count": 24,
-          "raw_transcript": "[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:26 PM] t5773071534: Thank you\n[12:30:26 PM] t5773071534: Thank you\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:09 PM] t5773071534: Ok\n[12:31:09 PM] t5773071534: Ok\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:59 PM] t5773071534: Georgia\n[12:31:59 PM] t5773071534: Georgia\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:38:13.092Z"
-        },
-        {
-          "chat_id": "2047298035699724288",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T13:01:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the ACH timing question without needing clarification, though no probing questions were asked."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided accurate ACH timeframe (up to 10 business days) plus relevant redemption policies that address the question."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-formatted bullet points made information easy to digest and professional throughout."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided standard timeframes without unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Friendly closing with well-wishes, though could have explicitly offered further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 75,
-          "grade": "C",
-          "summary": "Agent handled a straightforward ACH timing inquiry competently by providing accurate processing timeframes and relevant redemption policies. Communication was clear and professional with good formatting, though the interaction lacked personalization and proactive engagement.",
-          "coaching_tip": "Use the customer's name in the greeting and explicitly ask if they have any other questions before closing to create a more personalized and complete interaction.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:02:34.504Z"
-        },
-        {
-          "chat_id": "2047310208398467072",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T13:56:23.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting with willingness to help, though no personalization with customer name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the redemption rejection issue but failed to ask clarifying questions or investigate the specific rejection reasons before providing generic advice."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent provided generic troubleshooting without addressing the core problem that customer cannot edit saved information, offering cache clearing instead of account-level solution or escalation."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and professional tone but failed to directly answer customer's question about where to modify information, leading to customer frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises, stayed within appropriate support boundaries."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Premature closing attempt before issue was resolved, then provided technical steps without confirming resolution or proper follow-up."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 56,
-          "grade": "F",
-          "summary": "Agent provided friendly service but failed to effectively resolve the customer's issue. The customer clearly stated they cannot edit saved billing information, but the agent only offered generic cache-clearing steps instead of providing account editing instructions or escalating to someone who could update the locked fields.",
-          "coaching_tip": "When a customer explicitly states they cannot access or edit information, acknowledge that specific barrier and either provide the exact navigation path to edit account details or escalate to a team member with account modification permissions rather than offering generic troubleshooting.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:43:44 PM] t9952292788: Hello\n[01:43:44 PM] t9952292788: Hello\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:57:24.803Z"
-        },
-        {
-          "chat_id": "2047323885404991488",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T14:47:57.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic greeting with no personalization, missing customer name, and no acknowledgment of the customer's frustration."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent did not ask any clarifying questions or acknowledge the specific complaint about receiving wrong upload links repeatedly."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Escalated the issue but provided no specifics, timeline, or acknowledgment that wrong documents were being sent repeatedly."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Professional tone but failed to acknowledge customer's frustration expressed in initial message and showed impatience with multiple follow-ups."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No major violations but made vague promises about resolution without confirming case details or providing ticket reference."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Proper closing with alternative contact method provided, though somewhat abrupt after customer never responded."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent provided a generic response and escalated the issue without acknowledging the customer's specific complaint about repeatedly receiving wrong document upload links. The agent showed impatience by asking multiple times if customer was still present despite customer never having responded after their initial frustrated message.",
-          "coaching_tip": "Always acknowledge the specific issue and customer's emotional state in your first substantive response, especially when they express frustration like 'Smh' - empathy before escalation builds trust.",
-          "website": "Jackpot Daily",
-          "message_count": 16,
-          "raw_transcript": "[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:36 PM] t5003516845: ???\n[02:40:36 PM] t5003516845: ???\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:46:19 PM] t5003516845: Are you still here?\n[02:46:19 PM] t5003516845: Are you still here?\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:49:43.698Z"
-        },
-        {
-          "chat_id": "2047327120773656576",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T15:09:05.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent did not ask clarifying questions or confirm understanding of the POA vs driver's license confusion."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent escalated but did not clarify what would happen next or address the specific link issue customer raised."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Responses were polite but somewhat generic and did not directly address customer's repeated concern about wrong upload link."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated to specialist team."
-            },
-            "closing": {
-              "score": 6,
-              "notes": "Offered closing and well-wishes but closed while customer's core concern remained unaddressed."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent was polite and escalated the case but failed to adequately acknowledge or address the customer's specific frustration about receiving the wrong upload link repeatedly. The customer left without clear understanding of how the POA issue would be resolved differently.",
-          "coaching_tip": "When a customer repeatedly states the same concern, explicitly acknowledge that specific issue and explain what different action will be taken to prevent the same problem from recurring.",
-          "website": "Jackpot Daily",
-          "message_count": 28,
-          "raw_transcript": "[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T15:09:42.005Z"
-        }
-      ],
-      "avg_score": 56,
-      "grade": "F",
-      "trend": 13
-    },
-    {
       "id": "5805",
       "name": "Marlon Cibrian",
       "chats": [
@@ -6716,6 +6482,375 @@
       "avg_score": 55,
       "grade": "F",
       "trend": -11
+    },
+    {
+      "id": "5844",
+      "name": "Angie Pereira",
+      "chats": [
+        {
+          "chat_id": "2045115402492932096",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-17T12:28:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional but minimal greeting, no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask clarifying questions about the phone number error or acknowledge the screenshot provided."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Provided generic KYC instructions but failed to address the specific phone number error the customer reported."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Clear instructions provided but did not acknowledge the customer's specific problem or screenshot."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard verification process information."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided, transcript ends abruptly with agent's instructions and no follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 43,
+          "grade": "F",
+          "summary": "Agent provided standard KYC verification instructions but completely ignored the customer's specific issue about a phone number error code. The response was generic and did not address the actual problem or acknowledge the screenshot evidence provided.",
+          "coaching_tip": "Always acknowledge the specific issue reported and review any screenshots provided before sending templated responses; address the phone number error directly or escalate to technical support.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "raw_transcript": "[12:21:23 PM] t8296271869: Full Name: t8296271869 Email Address: crystaljunkmail500@gmail.com Subject / How can we help you?: I'm a new customer and it's saying to I need to give information so I clicked the verify button and put in my address and stuff and then an error code about my phone number popped up. It's the number I registered and got the verification code for and everything when signing up so I dont understand. It won't let me do the smash the egg game\n[12:21:39 PM] t8296271869: Screenshot_20260417_071907_Chrome.jpg\n[12:23:21 PM] Angie Pereira: Hi. I will be assisting you with today with this issue\n[12:24:07 PM] t8296271869: Hi okay\n[12:25:25 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:25:40 PM] t8296271869: Ok\n[12:27:16 PM] Angie Pereira: KYC (identity verification) is needed before you\ncan make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:52:19.831Z"
+        },
+        {
+          "chat_id": "2047285349188415488",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T12:20:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent failed to clarify what verification steps customer had already completed before providing generic instructions."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided verification instructions but didn't address the actual complaint about missing signup bonus or confirm account status."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Sent lengthy generic instructions that confused the customer rather than addressing their specific concern about the missing bonus."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, maintained professionalism despite customer hostility."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Attempted closing before issue was resolved and customer clearly indicated confusion and dissatisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent remained professional with an agitated customer but failed to diagnose the actual issue before providing generic KYC instructions. The customer's specific question about missing signup bonus after email/phone verification was never directly addressed, leading to increased frustration.",
+          "coaching_tip": "Ask clarifying questions first: 'Have you already verified your email and phone? Let me check your account status' before sending lengthy instructions that may not apply.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:31 PM] t3759369481: What?????\n[12:14:31 PM] t3759369481: What?????\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:22:11.421Z"
+        },
+        {
+          "chat_id": "2047291301602045952",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T12:36:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked clarifying questions about state and what was happening, eventually understood the geo-restriction error."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided cache-clearing instructions that don't address the actual geo-restriction issue the customer reported."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional but the solution provided doesn't match the problem described by the customer."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, though didn't address potential geo-restriction compliance issue properly."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, further help offer, or goodbye after providing the instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent was polite and asked appropriate clarifying questions but provided a generic cache-clearing solution that doesn't address the customer's geo-restriction error message. The interaction ended abruptly without proper closing or confirmation the issue was resolved.",
+          "coaching_tip": "When a customer reports a geo-restriction message, investigate whether they're in a restricted state rather than defaulting to cache-clearing instructions, and always close the chat properly.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:26 PM] t5773071534: Thank you\n[12:30:26 PM] t5773071534: Thank you\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:09 PM] t5773071534: Ok\n[12:31:09 PM] t5773071534: Ok\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:59 PM] t5773071534: Georgia\n[12:31:59 PM] t5773071534: Georgia\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:38:13.092Z"
+        },
+        {
+          "chat_id": "2047298035699724288",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T13:01:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the ACH timing question without needing clarification, though no probing questions were asked."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided accurate ACH timeframe (up to 10 business days) plus relevant redemption policies that address the question."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-formatted bullet points made information easy to digest and professional throughout."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard timeframes without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Friendly closing with well-wishes, though could have explicitly offered further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent handled a straightforward ACH timing inquiry competently by providing accurate processing timeframes and relevant redemption policies. Communication was clear and professional with good formatting, though the interaction lacked personalization and proactive engagement.",
+          "coaching_tip": "Use the customer's name in the greeting and explicitly ask if they have any other questions before closing to create a more personalized and complete interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:02:34.504Z"
+        },
+        {
+          "chat_id": "2047310208398467072",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T13:56:23.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting with willingness to help, though no personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the redemption rejection issue but failed to ask clarifying questions or investigate the specific rejection reasons before providing generic advice."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided generic troubleshooting without addressing the core problem that customer cannot edit saved information, offering cache clearing instead of account-level solution or escalation."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional tone but failed to directly answer customer's question about where to modify information, leading to customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Premature closing attempt before issue was resolved, then provided technical steps without confirming resolution or proper follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided friendly service but failed to effectively resolve the customer's issue. The customer clearly stated they cannot edit saved billing information, but the agent only offered generic cache-clearing steps instead of providing account editing instructions or escalating to someone who could update the locked fields.",
+          "coaching_tip": "When a customer explicitly states they cannot access or edit information, acknowledge that specific barrier and either provide the exact navigation path to edit account details or escalate to a team member with account modification permissions rather than offering generic troubleshooting.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:43:44 PM] t9952292788: Hello\n[01:43:44 PM] t9952292788: Hello\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:57:24.803Z"
+        },
+        {
+          "chat_id": "2047323885404991488",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T14:47:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting with no personalization, missing customer name, and no acknowledgment of the customer's frustration."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions or acknowledge the specific complaint about receiving wrong upload links repeatedly."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Escalated the issue but provided no specifics, timeline, or acknowledgment that wrong documents were being sent repeatedly."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional tone but failed to acknowledge customer's frustration expressed in initial message and showed impatience with multiple follow-ups."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations but made vague promises about resolution without confirming case details or providing ticket reference."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Proper closing with alternative contact method provided, though somewhat abrupt after customer never responded."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided a generic response and escalated the issue without acknowledging the customer's specific complaint about repeatedly receiving wrong document upload links. The agent showed impatience by asking multiple times if customer was still present despite customer never having responded after their initial frustrated message.",
+          "coaching_tip": "Always acknowledge the specific issue and customer's emotional state in your first substantive response, especially when they express frustration like 'Smh' - empathy before escalation builds trust.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:36 PM] t5003516845: ???\n[02:40:36 PM] t5003516845: ???\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:46:19 PM] t5003516845: Are you still here?\n[02:46:19 PM] t5003516845: Are you still here?\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:49:43.698Z"
+        },
+        {
+          "chat_id": "2047327120773656576",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T15:09:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions or confirm understanding of the POA vs driver's license confusion."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent escalated but did not clarify what would happen next or address the specific link issue customer raised."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Responses were polite but somewhat generic and did not directly address customer's repeated concern about wrong upload link."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated to specialist team."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered closing and well-wishes but closed while customer's core concern remained unaddressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent was polite and escalated the case but failed to adequately acknowledge or address the customer's specific frustration about receiving the wrong upload link repeatedly. The customer left without clear understanding of how the POA issue would be resolved differently.",
+          "coaching_tip": "When a customer repeatedly states the same concern, explicitly acknowledge that specific issue and explain what different action will be taken to prevent the same problem from recurring.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:09:42.005Z"
+        },
+        {
+          "chat_id": "2047334531652218880",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T15:26:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent failed to ask clarifying questions about the missing referral reward and did not investigate further after customer reported the issue."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent acknowledged they would review but never returned with findings or resolution before customer ended chat."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and detailed explanation of referral program, but failed to follow through after saying they would review the issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; provided accurate program information."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided by agent; customer said thanks and chat ended without agent response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent provided comprehensive referral program details but failed to complete the investigation when customer reported missing rewards. The chat ended without resolution or proper closing after agent said they would review the information.",
+          "coaching_tip": "When you tell a customer you'll review their account, always return with specific findings and next steps rather than leaving them waiting without follow-up.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[03:19:24 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[03:19:24 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[03:19:52 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:19:52 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:20:00 PM] t9878504969: I hat do we get for referring someone?\n[03:20:00 PM] t9878504969: I hat do we get for referring someone?\n[03:21:21 PM] Angie Pereira: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes first purchase = 58 SC + 5,600 GC credited\nto you instantly!\n\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\n- 5 referrals: 38 SC\n- 10 referrals: 68 SC\n- 25 referrals: 188 SC\n- 50 referrals: 488 SC\n- 100 referrals: 1,088 SC\n\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the more friends, the better!\n[03:21:21 PM] Angie Pereira: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes first purchase = 58 SC + 5,600 GC credited\nto you instantly!\n\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\n- 5 referrals: 38 SC\n- 10 referrals: 68 SC\n- 25 referrals: 188 SC\n- 50 referrals: 488 SC\n- 100 referrals: 1,088 SC\n\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the more friends, the better!\n[03:22:27 PM] t9878504969: I referred some one but I don’t see my reward\n[03:22:27 PM] t9878504969: I referred some one but I don’t see my reward\n[03:23:22 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:22 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:54 PM] t9878504969: Ok\n[03:23:54 PM] t9878504969: Ok\n[03:26:07 PM] t9878504969: Ok thanks\n[03:26:07 PM] t9878504969: Ok thanks",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:29:59.646Z"
+        }
+      ],
+      "avg_score": 55,
+      "grade": "F",
+      "trend": 7
     },
     {
       "id": "5552",
@@ -21100,6 +21235,141 @@
       "raw_transcript": "[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:34 PM] Customer: try different browser right?\n[03:03:34 PM] Customer: try different browser right?\n[03:03:38 PM] Customer: sure\n[03:03:38 PM] Customer: sure\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:50 PM] Customer: current browser firefox current version\n[03:04:50 PM] Customer: current browser firefox current version",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T15:09:56.790Z"
+    },
+    {
+      "chat_id": "2047334998486069248",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T15:27:54.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic greeting with no personalization and agent name mismatch (says Emily, system shows Andrea)."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Asked for error message and screenshot, understood the core issue about redeemable balance."
+        },
+        "resolution": {
+          "score": 22,
+          "notes": "Provided accurate explanation of playthrough requirements and troubleshooting steps for stuck balance."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear and professional with good structure, though initial explanation came before reviewing screenshot."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, correctly explained wagering requirements without unauthorized promises."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Asked about additional questions but never formally closed the chat after customer's final thanks."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 69,
+      "grade": "D",
+      "summary": "Agent provided accurate information about playthrough requirements and offered helpful troubleshooting steps. However, the greeting had a name mismatch issue and the chat lacked a proper closing after the customer's final message.",
+      "coaching_tip": "Always provide a proper closing statement after the customer indicates they're satisfied, thanking them and confirming no further assistance is needed.",
+      "website": "Jackpot Daily",
+      "message_count": 32,
+      "raw_transcript": "[03:21:15 PM] t7555694719: Full Name: t7555694719 Email Address: dmw9219@yahoo.com Subject / How can we help you?: Why can’t I redeem my winnings\n[03:21:15 PM] t7555694719: Full Name: t7555694719 Email Address: dmw9219@yahoo.com Subject / How can we help you?: Why can’t I redeem my winnings\n[03:21:29 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:21:29 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:22:01 PM] t7555694719: Thank you. I have 100 in coins but it says I have zero redeemable ones\n[03:22:01 PM] t7555694719: Thank you. I have 100 in coins but it says I have zero redeemable ones\n[03:22:04 PM] Andrea Hernandez: Does it show any error message ?\n[03:22:04 PM] Andrea Hernandez: Does it show any error message ?\n[03:22:19 PM] t7555694719: It just says insufficient balance\n[03:22:19 PM] t7555694719: It just says insufficient balance\n[03:23:13 PM] Andrea Hernandez: Can you please send me a screenshot\n[03:23:13 PM] Andrea Hernandez: Can you please send me a screenshot\n[03:24:55 PM] Andrea Hernandez: If you have 100 SC in your balance but 0 redeemable, it means the coins haven’t completed the required 1x playthrough yet.\n\nBefore SC can be redeemed, they need to be wagered at least once in gameplay. Once you do that, your balance will move into redeemable SC, and you’ll be able to submit your redemption.\n[03:24:55 PM] Andrea Hernandez: If you have 100 SC in your balance but 0 redeemable, it means the coins haven’t completed the required 1x playthrough yet.\n\nBefore SC can be redeemed, they need to be wagered at least once in gameplay. Once you do that, your balance will move into redeemable SC, and you’ll be able to submit your redemption.\n[03:25:18 PM] t7555694719: Ok\n[03:25:18 PM] t7555694719: Ok\n[03:25:28 PM] Andrea Hernandez: Any additional questions?\n[03:25:28 PM] Andrea Hernandez: Any additional questions?\n[03:25:36 PM] t7555694719: IMG_1355.png\n[03:25:36 PM] t7555694719: IMG_1356.png\n[03:25:36 PM] t7555694719: IMG_1355.png\n[03:25:36 PM] t7555694719: IMG_1356.png\n[03:25:49 PM] t7555694719: Yes. Why are zero redeemable? Most of them have been played through\n[03:25:49 PM] t7555694719: Yes. Why are zero redeemable? Most of them have been played through\n[03:26:15 PM] Andrea Hernandez: Let me take a look for you\n[03:26:15 PM] Andrea Hernandez: Let me take a look for you\n[03:27:02 PM] t7555694719: Thank you\n[03:27:02 PM] t7555694719: Thank you\n[03:27:06 PM] Andrea Hernandez: Great question — I understand why that feels confusing.\n\nEven if most of your SC has been played, the system requires the full balance to complete the 1x playthrough before anything becomes redeemable. Until the entire amount has been wagered at least once, it will still show as 0 redeemable SC.\n\nAlso, if any part of your balance is still tied up in an active game session, it won’t reflect as redeemable yet. You can try:\n\nGoing back to your last game\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable balance should update.\n[03:27:06 PM] Andrea Hernandez: Great question — I understand why that feels confusing.\n\nEven if most of your SC has been played, the system requires the full balance to complete the 1x playthrough before anything becomes redeemable. Until the entire amount has been wagered at least once, it will still show as 0 redeemable SC.\n\nAlso, if any part of your balance is still tied up in an active game session, it won’t reflect as redeemable yet. You can try:\n\nGoing back to your last game\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable balance should update.\n[03:27:51 PM] t7555694719: Ok thanks\n[03:27:51 PM] t7555694719: Ok thanks",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T15:29:42.719Z"
+    },
+    {
+      "chat_id": "2047335211494371328",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T15:27:26.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Greeting was minimal ('hi') with no personalization or warmth."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent immediately understood the referral bonus question and provided detailed breakdown without needing clarification."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided accurate, complete information about the $70 spend requirement and qualification criteria."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear and professional throughout, showed empathy when customer expressed frustration about leaving."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "No policy violations, provided accurate program terms without unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Acknowledged customer's decision respectfully and said goodbye, though could have been slightly warmer."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 72,
+      "grade": "C",
+      "summary": "Agent provided accurate and detailed information about referral requirements immediately. Handled customer frustration professionally with appropriate empathy when they decided to leave.",
+      "coaching_tip": "Open with a warmer, more personalized greeting that includes the customer's name to establish better rapport from the start.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[03:22:06 PM] t9230448707: Full Name: t9230448707 Email Address: joslynevans02@gmail.com Subject / How can we help you?: How much does a referral have to spend for me to get the bonus\n[03:22:06 PM] t9230448707: Full Name: t9230448707 Email Address: joslynevans02@gmail.com Subject / How can we help you?: How much does a referral have to spend for me to get the bonus\n[03:22:27 PM] Diana Lopez: hi\n[03:22:27 PM] Diana Lopez: hi\n[03:23:04 PM] Diana Lopez: Here’s the specific breakdown of how the $70 requirement fits into the process:\n\nRegistration & KYC: The friend must sign up using your link and complete identity verification.\n\nSpend Requirement: The friend’s cumulative purchases must meet or exceed the $70 threshold.\n\nTrigger: Once all steps are completed, the bonus is triggered automatically.\n\nIf the purchases total less than $70 or KYC is not completed, the referral will not be counted as qualified for that bonus tier.\n[03:23:04 PM] Diana Lopez: Here’s the specific breakdown of how the $70 requirement fits into the process:\n\nRegistration & KYC: The friend must sign up using your link and complete identity verification.\n\nSpend Requirement: The friend’s cumulative purchases must meet or exceed the $70 threshold.\n\nTrigger: Once all steps are completed, the bonus is triggered automatically.\n\nIf the purchases total less than $70 or KYC is not completed, the referral will not be counted as qualified for that bonus tier.\n[03:23:20 PM] t9230448707: 70 for 50 is insane I won’t be using this site anymore thanks\n[03:23:20 PM] t9230448707: 70 for 50 is insane I won’t be using this site anymore thanks\n[03:24:28 PM] Diana Lopez: I understand your frustration. You feel the $70 requirement for 50 SC (or similar bonus) isn't fair, and you're entitled to that opinion.\n\nI'm sorry to see you go, but I respect your decision. If you change your mind, you know where to find us. Take care.\n[03:24:28 PM] Diana Lopez: I understand your frustration. You feel the $70 requirement for 50 SC (or similar bonus) isn't fair, and you're entitled to that opinion.\n\nI'm sorry to see you go, but I respect your decision. If you change your mind, you know where to find us. Take care.\n[03:24:54 PM] t9230448707: Nah I’ll be deleting my account\n[03:24:54 PM] t9230448707: Nah I’ll be deleting my account\n[03:25:36 PM] Diana Lopez: Thank you for giving us a try, and I'm sorry it didn't work out. Take care\n[03:25:36 PM] Diana Lopez: Thank you for giving us a try, and I'm sorry it didn't work out. Take care",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T15:29:50.497Z"
+    },
+    {
+      "chat_id": "2047334531652218880",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-23T15:26:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent failed to ask clarifying questions about the missing referral reward and did not investigate further after customer reported the issue."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "Agent acknowledged they would review but never returned with findings or resolution before customer ended chat."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and detailed explanation of referral program, but failed to follow through after saying they would review the issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected; provided accurate program information."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided by agent; customer said thanks and chat ended without agent response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 48,
+      "grade": "F",
+      "summary": "Agent provided comprehensive referral program details but failed to complete the investigation when customer reported missing rewards. The chat ended without resolution or proper closing after agent said they would review the information.",
+      "coaching_tip": "When you tell a customer you'll review their account, always return with specific findings and next steps rather than leaving them waiting without follow-up.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[03:19:24 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[03:19:24 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[03:19:52 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:19:52 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:20:00 PM] t9878504969: I hat do we get for referring someone?\n[03:20:00 PM] t9878504969: I hat do we get for referring someone?\n[03:21:21 PM] Angie Pereira: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes first purchase = 58 SC + 5,600 GC credited\nto you instantly!\n\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\n- 5 referrals: 38 SC\n- 10 referrals: 68 SC\n- 25 referrals: 188 SC\n- 50 referrals: 488 SC\n- 100 referrals: 1,088 SC\n\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the more friends, the better!\n[03:21:21 PM] Angie Pereira: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes first purchase = 58 SC + 5,600 GC credited\nto you instantly!\n\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\n- 5 referrals: 38 SC\n- 10 referrals: 68 SC\n- 25 referrals: 188 SC\n- 50 referrals: 488 SC\n- 100 referrals: 1,088 SC\n\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the more friends, the better!\n[03:22:27 PM] t9878504969: I referred some one but I don’t see my reward\n[03:22:27 PM] t9878504969: I referred some one but I don’t see my reward\n[03:23:22 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:22 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:54 PM] t9878504969: Ok\n[03:23:54 PM] t9878504969: Ok\n[03:26:07 PM] t9878504969: Ok thanks\n[03:26:07 PM] t9878504969: Ok thanks",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T15:29:59.646Z"
     }
   ]
 }
