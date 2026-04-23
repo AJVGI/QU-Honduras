@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T20:24:58.532Z",
-  "total_chats": 315,
+  "scored_at": "2026-04-23T20:34:55.338Z",
+  "total_chats": 317,
   "total_agents": 25,
   "agents": [
     {
@@ -1253,150 +1253,6 @@
       "avg_score": 64,
       "grade": "D",
       "trend": -5
-    },
-    {
-      "id": "5806",
-      "name": "Oscar Zelaya",
-      "chats": [
-        {
-          "chat_id": "2043881559383437312",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:43:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Initial response lacked a proper greeting, only asked for a moment to investigate."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Provided common causes but didn't ask clarifying questions about what specific error Jonathan was experiencing."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Offered generic troubleshooting options without confirming the actual issue or waiting for customer response before moving to close."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and organized information but moved too quickly to closing without allowing customer to respond to troubleshooting suggestions."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately mentioned account limitations and regional restrictions."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Prematurely asked about other issues only 95 seconds after providing troubleshooting steps, without waiting for customer feedback."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 54,
-          "grade": "F",
-          "summary": "Agent provided relevant troubleshooting information but rushed through the interaction without proper discovery or allowing time for customer response. The premature closing attempt before confirming whether the suggestions helped was the most significant issue.",
-          "coaching_tip": "Wait for customer acknowledgment and feedback after providing troubleshooting steps before moving to close the conversation.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[02:38:31 AM] Customer: Full Name: Jonathan Silva Email Address: jonjon915.JS@gmail.com Subject / How can we help you?: Y cantbi sign in\n[02:38:44 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:39:05 AM] Customer: Ok\n[02:40:40 AM] Oscar Zelaya: Hey Jonathan  ! Let's figure this out together!\n● Common causes:\n○ Email already in use: each player can only have\none account. Try resetting password at\nwww.jackpotdaily.com → Login → “Forgot\nPassword?”.\n○ Region restriction: Jackpot Daily may not be\navailable in your area yet.\n● Do either of these sound like the issue? Let me know and\nI’ll help further.\n[02:42:15 AM] Oscar Zelaya: Is there anything else I can help you with today?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:19:02.225Z"
-        },
-        {
-          "chat_id": "2043874838732697600",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:20:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No initial greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the geolocation issue and asked clarifying question about browser/device, though could have probed earlier about specific error messages."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive troubleshooting steps for location issues and followed up with browser-specific solutions when customer clarified Chrome mobile usage."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured responses with bullet points and friendly tone, though slightly repetitive with the 'anything else' question."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately handled geolocation restrictions and provided standard troubleshooting without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Friendly closing with customer name and well-wishes, though came after asking twice if anything else was needed without clear confirmation issue was resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 70,
-          "grade": "C",
-          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with appropriate follow-up questions and browser-specific guidance. Main weakness was lack of proper initial greeting and premature closing attempts before confirming resolution.",
-          "coaching_tip": "Always open with a proper greeting before diving into troubleshooting, and confirm the issue is resolved before offering to close the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[02:11:49 AM] Customer: Full Name: James manes Email Address: jamesmanes870@gmail.com Subject / How can we help you?: My location is on and I am sharing\n[02:12:06 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:13:44 AM] Customer: What can I not get in\n[02:13:58 AM] Oscar Zelaya: Hey James  That's a strange one if you're in\nan eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device\nsettings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:15:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:15:55 AM] Customer: Chrome on my mobile\n[02:16:35 AM] Oscar Zelaya: Thanks for confirming.\nSince you're using Chrome on your mobile device, could you please try clearing your browser’s cache and cookies, then close and reopen the browser before trying again?\nYou can also try opening the site in incognito mode to see if that helps.\nIf the issue still persists, please let me know and I’ll take a closer look for you.\n[02:18:44 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:20:20 AM] Oscar Zelaya: Thanks for chatting with us James  ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:21:56.420Z"
-        },
-        {
-          "chat_id": "2043873276811636736",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:18:38.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all, agent jumped straight to 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the discrepancy issue and requested screenshots to investigate further, showing good diagnostic approach."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent provided detailed bonus structure but ultimately escalated via email rather than resolving the promotional discrepancy directly, which is acceptable but not ideal."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional with well-formatted bonus information, though multiple 'allow me one moment' messages felt repetitive."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated when unable to resolve and didn't make unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing with customer name, though slightly rushed after no response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent handled the promotional discrepancy issue professionally by providing detailed bonus information and requesting screenshots, but ultimately escalated to email support rather than resolving directly. The interaction lacked an initial greeting and felt somewhat mechanical with repetitive holding messages.",
-          "coaching_tip": "Always open with a proper greeting before diving into the issue, and try to vary your holding language instead of repeating 'Please allow me one moment' three times consecutively.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[02:05:37 AM] t8070873927: Full Name: t8070873927 Email Address: janelle_emert@yahoo.com Subject / How can we help you?: I just created my account. When I login it says I can get a welcome bonus of $30 sc for $9.99. But when I go to purchase it, it only gives me th option for $20 sc?\n[02:05:52 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:07:39 AM] Oscar Zelaya: Hey janelle_emert ! Your first three purchases all\ncome with bonus packs — here’s the breakdown:\n1st Purchase (New User Offer):\n● $10: 4,000 GC | 600 XP | 22 SC\n● $50: 20,000 GC | 3,000 XP | 80 SC\n● $100: 40,000 GC | 6,000 XP | 140 SC\n2nd Purchase Pack:\n● $10: 4,000 GC | 500 XP | 20 SC\n● $50: 20,000 GC | 2,500 XP | 70 SC\n● $100: 40,000 GC | 5,000 XP | 130 SC\n3rd Purchase Pack:\n● $10: 4,000 GC | 400 XP | 18 SC\n● $50: 20,000 GC | 2,000 XP | 65 SC\n● $100: 40,000 GC | 4,000 XP | 120 SC\n[02:09:07 AM] Oscar Zelaya: If you’re not seeing additional options, could you please share a screenshot so I can take a closer look?\n[02:09:33 AM] t8070873927: IMG_2457.jpg\n[02:10:02 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:10:12 AM] t8070873927: IMG_2458.jpg\n[02:10:35 AM] t8070873927: I haven’t made a first purchase yet\n[02:12:10 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:15:06 AM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[02:16:46 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:18:30 AM] Oscar Zelaya: Thanks for chatting with us janelle_emer ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:22:07.830Z"
-        }
-      ],
-      "avg_score": 63,
-      "grade": "D",
-      "trend": 0
     },
     {
       "id": "5551",
@@ -2841,11 +2697,200 @@
           "raw_transcript": "[08:01:13 PM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: did i reach silver?\n[08:01:13 PM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: did i reach silver?\n[08:01:24 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:01:24 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:02:22 PM] t9595345601: k\n[08:02:22 PM] t9595345601: k\n[08:02:34 PM] Andrea Hernandez: Let me review your account\n[08:02:34 PM] Andrea Hernandez: Let me review your account\n[08:04:18 PM] Andrea Hernandez: You’re still showing as Bronze, it just means you haven’t reached the requirements for Silver yet.\n\nProgression is based on your activity on the platform (like gameplay and purchases), so once you meet the threshold, your tier will update automatically 👍\n\nKeep playing and it should update as soon as you qualify!\n[08:04:18 PM] Andrea Hernandez: You’re still showing as Bronze, it just means you haven’t reached the requirements for Silver yet.\n\nProgression is based on your activity on the platform (like gameplay and purchases), so once you meet the threshold, your tier will update automatically 👍\n\nKeep playing and it should update as soon as you qualify!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T20:09:52.164Z"
+        },
+        {
+          "chat_id": "2047411441651986432",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T20:30:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though did not use customer's name or add warmth."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Quickly identified the issue and requested screenshot for verification, which was the right approach."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Properly explained the approval status, ACH processing times, and addressed customer's follow-up concern about bank processing clearly."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, professional, empathetic responses with good use of formatting and emojis to maintain friendly tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate information about processing times without unauthorized promises."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help but did not provide a proper goodbye or closing statement after customer declined."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent handled the inquiry competently by verifying the approval status, explaining ACH processing times clearly, and addressing the customer's concern about bank processing. Communication was professional and empathetic throughout.",
+          "coaching_tip": "Add a brief closing statement like 'Thank you for contacting us' or 'Have a great day' after the customer declines further assistance to provide a more polished end to the interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[08:25:01 PM] t0049025054: Full Name: t0049025054 Email Address: lilmeme2812@gmail.com Subject / How can we help you?: I recieved a approved email but nothing in my account\n[08:25:01 PM] t0049025054: Full Name: t0049025054 Email Address: lilmeme2812@gmail.com Subject / How can we help you?: I recieved a approved email but nothing in my account\n[08:25:14 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:25:14 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:26:02 PM] Andrea Hernandez: Can you send me a screenshot of the email you received\n[08:26:02 PM] Andrea Hernandez: Can you send me a screenshot of the email you received\n[08:26:30 PM] t0049025054: IMG_3080.png\n[08:26:30 PM] t0049025054: IMG_3080.png\n[08:28:07 PM] t0049025054: Ok\n[08:28:07 PM] t0049025054: Ok\n[08:28:11 PM] Andrea Hernandez: Thanks for sharing the screenshot — I can confirm that your redemption was successfully approved on our end 🎉\n\nAt this point, the funds have already been sent to your bank, and we just need to wait for their processing.\n\nPlease keep in mind:\n\nACH transfers can take up to 10 business days\nProcessing time depends on your bank\n\nEverything looks good from our side 👍\n[08:28:11 PM] Andrea Hernandez: Thanks for sharing the screenshot — I can confirm that your redemption was successfully approved on our end 🎉\n\nAt this point, the funds have already been sent to your bank, and we just need to wait for their processing.\n\nPlease keep in mind:\n\nACH transfers can take up to 10 business days\nProcessing time depends on your bank\n\nEverything looks good from our side 👍\n[08:28:58 PM] t0049025054: My bank don’t hold funds once it’s sent to them they sent to my account\n[08:28:58 PM] t0049025054: My bank don’t hold funds once it’s sent to them they sent to my account\n[08:29:31 PM] Andrea Hernandez: I understand what you’re saying — and you’re right that many banks post funds quickly once they receive them 👍\n\nHowever, with ACH transfers, there’s still a processing time before the funds actually reach your bank. Even if your bank releases funds immediately, the transfer can still take a few business days to be delivered to them.\n\nSince your redemption is already marked as successful on our end, it means it has been sent out and is currently in that processing stage.\n[08:29:31 PM] Andrea Hernandez: I understand what you’re saying — and you’re right that many banks post funds quickly once they receive them 👍\n\nHowever, with ACH transfers, there’s still a processing time before the funds actually reach your bank. Even if your bank releases funds immediately, the transfer can still take a few business days to be delivered to them.\n\nSince your redemption is already marked as successful on our end, it means it has been sent out and is currently in that processing stage.\n[08:30:02 PM] t0049025054: Ok\n[08:30:02 PM] t0049025054: Ok\n[08:30:23 PM] Andrea Hernandez: Is there anything else I can help you with?\n[08:30:23 PM] Andrea Hernandez: Is there anything else I can help you with?\n[08:30:30 PM] t0049025054: No\n[08:30:30 PM] t0049025054: No",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T20:34:43.522Z"
         }
       ],
-      "avg_score": 62,
+      "avg_score": 63,
       "grade": "D",
-      "trend": -3
+      "trend": 5
+    },
+    {
+      "id": "5806",
+      "name": "Oscar Zelaya",
+      "chats": [
+        {
+          "chat_id": "2043881559383437312",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:43:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Initial response lacked a proper greeting, only asked for a moment to investigate."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Provided common causes but didn't ask clarifying questions about what specific error Jonathan was experiencing."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Offered generic troubleshooting options without confirming the actual issue or waiting for customer response before moving to close."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and organized information but moved too quickly to closing without allowing customer to respond to troubleshooting suggestions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned account limitations and regional restrictions."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Prematurely asked about other issues only 95 seconds after providing troubleshooting steps, without waiting for customer feedback."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided relevant troubleshooting information but rushed through the interaction without proper discovery or allowing time for customer response. The premature closing attempt before confirming whether the suggestions helped was the most significant issue.",
+          "coaching_tip": "Wait for customer acknowledgment and feedback after providing troubleshooting steps before moving to close the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[02:38:31 AM] Customer: Full Name: Jonathan Silva Email Address: jonjon915.JS@gmail.com Subject / How can we help you?: Y cantbi sign in\n[02:38:44 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:39:05 AM] Customer: Ok\n[02:40:40 AM] Oscar Zelaya: Hey Jonathan  ! Let's figure this out together!\n● Common causes:\n○ Email already in use: each player can only have\none account. Try resetting password at\nwww.jackpotdaily.com → Login → “Forgot\nPassword?”.\n○ Region restriction: Jackpot Daily may not be\navailable in your area yet.\n● Do either of these sound like the issue? Let me know and\nI’ll help further.\n[02:42:15 AM] Oscar Zelaya: Is there anything else I can help you with today?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:19:02.225Z"
+        },
+        {
+          "chat_id": "2043874838732697600",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:20:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the geolocation issue and asked clarifying question about browser/device, though could have probed earlier about specific error messages."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps for location issues and followed up with browser-specific solutions when customer clarified Chrome mobile usage."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with bullet points and friendly tone, though slightly repetitive with the 'anything else' question."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately handled geolocation restrictions and provided standard troubleshooting without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Friendly closing with customer name and well-wishes, though came after asking twice if anything else was needed without clear confirmation issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with appropriate follow-up questions and browser-specific guidance. Main weakness was lack of proper initial greeting and premature closing attempts before confirming resolution.",
+          "coaching_tip": "Always open with a proper greeting before diving into troubleshooting, and confirm the issue is resolved before offering to close the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[02:11:49 AM] Customer: Full Name: James manes Email Address: jamesmanes870@gmail.com Subject / How can we help you?: My location is on and I am sharing\n[02:12:06 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:13:44 AM] Customer: What can I not get in\n[02:13:58 AM] Oscar Zelaya: Hey James  That's a strange one if you're in\nan eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device\nsettings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:15:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:15:55 AM] Customer: Chrome on my mobile\n[02:16:35 AM] Oscar Zelaya: Thanks for confirming.\nSince you're using Chrome on your mobile device, could you please try clearing your browser’s cache and cookies, then close and reopen the browser before trying again?\nYou can also try opening the site in incognito mode to see if that helps.\nIf the issue still persists, please let me know and I’ll take a closer look for you.\n[02:18:44 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:20:20 AM] Oscar Zelaya: Thanks for chatting with us James  ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:21:56.420Z"
+        },
+        {
+          "chat_id": "2043873276811636736",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:18:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all, agent jumped straight to 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the discrepancy issue and requested screenshots to investigate further, showing good diagnostic approach."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided detailed bonus structure but ultimately escalated via email rather than resolving the promotional discrepancy directly, which is acceptable but not ideal."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with well-formatted bonus information, though multiple 'allow me one moment' messages felt repetitive."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated when unable to resolve and didn't make unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing with customer name, though slightly rushed after no response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled the promotional discrepancy issue professionally by providing detailed bonus information and requesting screenshots, but ultimately escalated to email support rather than resolving directly. The interaction lacked an initial greeting and felt somewhat mechanical with repetitive holding messages.",
+          "coaching_tip": "Always open with a proper greeting before diving into the issue, and try to vary your holding language instead of repeating 'Please allow me one moment' three times consecutively.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[02:05:37 AM] t8070873927: Full Name: t8070873927 Email Address: janelle_emert@yahoo.com Subject / How can we help you?: I just created my account. When I login it says I can get a welcome bonus of $30 sc for $9.99. But when I go to purchase it, it only gives me th option for $20 sc?\n[02:05:52 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:07:39 AM] Oscar Zelaya: Hey janelle_emert ! Your first three purchases all\ncome with bonus packs — here’s the breakdown:\n1st Purchase (New User Offer):\n● $10: 4,000 GC | 600 XP | 22 SC\n● $50: 20,000 GC | 3,000 XP | 80 SC\n● $100: 40,000 GC | 6,000 XP | 140 SC\n2nd Purchase Pack:\n● $10: 4,000 GC | 500 XP | 20 SC\n● $50: 20,000 GC | 2,500 XP | 70 SC\n● $100: 40,000 GC | 5,000 XP | 130 SC\n3rd Purchase Pack:\n● $10: 4,000 GC | 400 XP | 18 SC\n● $50: 20,000 GC | 2,000 XP | 65 SC\n● $100: 40,000 GC | 4,000 XP | 120 SC\n[02:09:07 AM] Oscar Zelaya: If you’re not seeing additional options, could you please share a screenshot so I can take a closer look?\n[02:09:33 AM] t8070873927: IMG_2457.jpg\n[02:10:02 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:10:12 AM] t8070873927: IMG_2458.jpg\n[02:10:35 AM] t8070873927: I haven’t made a first purchase yet\n[02:12:10 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:15:06 AM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[02:16:46 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:18:30 AM] Oscar Zelaya: Thanks for chatting with us janelle_emer ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:22:07.830Z"
+        }
+      ],
+      "avg_score": 63,
+      "grade": "D",
+      "trend": 0
     },
     {
       "id": "5554",
@@ -4110,11 +4155,56 @@
           "raw_transcript": "[08:15:03 PM] t3720290796: Full Name: t3720290796 Email Address: cwteufel@gmail.com Subject / How can we help you?: Why do I not qualify for receiving the daily login rewards? I spent $9.99 on the welcome pack and it's telling me that I have to spend another $9.99? I am fully verified I was just talking to Jennifer but the chat closed itself for something I didn't start daily logging in because I didn't see any SC when I logged in the after purchasing the welcome package I'm still not able to get daily sleeps coins and I haven't heard anything from anyone so what's going on\n[08:15:03 PM] t3720290796: Full Name: t3720290796 Email Address: cwteufel@gmail.com Subject / How can we help you?: Why do I not qualify for receiving the daily login rewards? I spent $9.99 on the welcome pack and it's telling me that I have to spend another $9.99? I am fully verified I was just talking to Jennifer but the chat closed itself for something I didn't start daily logging in because I didn't see any SC when I logged in the after purchasing the welcome package I'm still not able to get daily sleeps coins and I haven't heard anything from anyone so what's going on\n[08:15:20 PM] Diana Lopez: Hello!\n[08:15:20 PM] Diana Lopez: Hello!\n[08:16:36 PM] Diana Lopez: I understand your frustration. You purchased the welcome pack, you're fully verified, and you still can't claim your daily login rewards. That's not right, and I'm sorry for the confusion.\n\nBased on our training guide, the Daily Login Reward is free and does not require any purchase. If you're being asked to spend another $9.99, you are looking at the Consecutive Purchase Streak screen, not the Daily Login Reward.\n\nThe Daily Login Reward is found by clicking the treasure chest icon on your main lobby screen. That one does not ask for a purchase.\n[08:16:36 PM] Diana Lopez: I understand your frustration. You purchased the welcome pack, you're fully verified, and you still can't claim your daily login rewards. That's not right, and I'm sorry for the confusion.\n\nBased on our training guide, the Daily Login Reward is free and does not require any purchase. If you're being asked to spend another $9.99, you are looking at the Consecutive Purchase Streak screen, not the Daily Login Reward.\n\nThe Daily Login Reward is found by clicking the treasure chest icon on your main lobby screen. That one does not ask for a purchase.\n[08:20:11 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[08:20:11 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T20:24:50.711Z"
+        },
+        {
+          "chat_id": "2047411233908109312",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T20:30:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the issue well and asked clarifying questions to gather necessary information including exact error and full name."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent provided troubleshooting steps, explained the error clearly, and committed to escalation with customer's name for further investigation."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic acknowledgment of frustration, professional tone with structured steps, though slightly verbose."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriate handling of account issue without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript truncated at 'Thank you' with no visible closing or offer of further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent demonstrated solid technical understanding and empathy, providing clear troubleshooting steps and committing to escalation. The greeting was minimal and the closing is incomplete due to transcript truncation.",
+          "coaching_tip": "Personalize your greeting by using the customer's name from the initial message to create immediate rapport and show attentiveness.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[08:24:11 PM] Customer: Full Name: Nathan Robinson Email Address: nathanrobinson091715@gmail.com Subject / How can we help you?: I can't sign up because it keeps saying withdrawal name already exists and support ain't emailed me back in bout a week\n[08:24:11 PM] Customer: Full Name: Nathan Robinson Email Address: nathanrobinson091715@gmail.com Subject / How can we help you?: I can't sign up because it keeps saying withdrawal name already exists and support ain't emailed me back in bout a week\n[08:24:34 PM] Diana Lopez: Hello!\n[08:24:34 PM] Diana Lopez: Hello!\n[08:25:01 PM] Customer: Hello I was told to emailed support for my issue but they never emailed me back\n[08:25:01 PM] Customer: Hello I was told to emailed support for my issue but they never emailed me back\n[08:25:04 PM] Customer: Email\n[08:25:04 PM] Customer: Email\n[08:25:06 PM] Diana Lopez: I understand your frustration. You've been trying to sign up for a week, you keep getting an error that your name already exists, and support hasn't responded. That's not okay.\n\nPlease try these steps:\n\n1. Make sure you are not already registered with that email address. Try clicking 'Forgot Password' to see if an account exists.\n2. If you have never registered before, the error may mean someone else already used a similar name or your information was previously registered under a different email.\n3. Try signing up with a different email address.\n\nIf none of these work, please reply with the exact error message you're seeing and the email address you're trying to use. I will make sure our team looks into this for you.\n\nThank you for your patience.\n[08:25:06 PM] Diana Lopez: I understand your frustration. You've been trying to sign up for a week, you keep getting an error that your name already exists, and support hasn't responded. That's not okay.\n\nPlease try these steps:\n\n1. Make sure you are not already registered with that email address. Try clicking 'Forgot Password' to see if an account exists.\n2. If you have never registered before, the error may mean someone else already used a similar name or your information was previously registered under a different email.\n3. Try signing up with a different email address.\n\nIf none of these work, please reply with the exact error message you're seeing and the email address you're trying to use. I will make sure our team looks into this for you.\n\nThank you for your patience.\n[08:25:42 PM] Customer: Yes I even tried a different device and it still say the same thing\n[08:25:42 PM] Customer: Yes I even tried a different device and it still say the same thing\n[08:26:32 PM] Diana Lopez: thank you for trying a different device. Since the same error appears on multiple devices, the issue is with your account information, not your device or browser.\n\nThe error 'withdrawal name already exists' means your full name is already registered in our system under a different email address. This can happen if you or someone else previously created an account using your name.\n\nPlease reply with the full name you are trying to register with. I will make sure our team looks into this and helps you resolve it as soon as possible.\n\nThank you for your patience.\n[08:26:32 PM] Diana Lopez: thank you for trying a different device. Since the same error appears on multiple devices, the issue is with your account information, not your device or browser.\n\nThe error 'withdrawal name already exists' means your full name is already registered in our system under a different email address. This can happen if you or someone else previously created an account using your name.\n\nPlease reply with the full name you are trying to register with. I will make sure our team looks into this and helps you resolve it as soon as possible.\n\nThank you for your patience.\n[08:27:23 PM] Customer: I never had an account before\n[08:27:23 PM] Customer: I never had an account before\n[08:27:35 PM] Customer: Nathan Robinson\n[08:27:35 PM] Customer: Nathan Robinson\n[08:28:15 PM] Diana Lopez: Thank you, Nathan. I've noted your name. I will make sure our team looks into why 'Nathan Robinson' is showing as already existing in our system.\n\nOur team will provide an update as soon as possible. Thank you for your patience.\n[08:28:15 PM] Diana Lopez: Thank you, Nathan. I've noted your name. I will make sure our team looks into why 'Nathan Robinson' is showing as already existing in our system.\n\nOur team will provide an update as soon as possible. Thank you for your patience.\n[08:28:33 PM] Customer: Do you need the email\n[08:28:33 PM] Customer: Do you need the email\n[08:28:38 PM] Customer: So you can reach out\n[08:28:38 PM] Customer: So you can reach out\n[08:28:55 PM] Diana Lopez: You provide me this one nathanrobinson091715@gmail.com\n[08:28:55 PM] Diana Lopez: You provide me this one nathanrobinson091715@gmail.com\n[08:29:04 PM] Customer: Ok yes\n[08:29:04 PM] Customer: Ok yes\n[08:29:34 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[08:29:34 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T20:34:54.837Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": 2
+      "trend": 9
     },
     {
       "id": "5808",
@@ -28579,6 +28669,96 @@
       "raw_transcript": "[08:10:22 PM] t1449902324: Full Name: t1449902324 Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[08:10:22 PM] t1449902324: Full Name: t1449902324 Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[08:10:41 PM] t1449902324: Yeah my redemption was for 600$... AND 10 DAYS BEFORE I GET MY MONEY???\n[08:10:41 PM] t1449902324: Yeah my redemption was for 600$... AND 10 DAYS BEFORE I GET MY MONEY???",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T20:24:58.031Z"
+    },
+    {
+      "chat_id": "2047411441651986432",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T20:30:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though did not use customer's name or add warmth."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Quickly identified the issue and requested screenshot for verification, which was the right approach."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Properly explained the approval status, ACH processing times, and addressed customer's follow-up concern about bank processing clearly."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, professional, empathetic responses with good use of formatting and emojis to maintain friendly tone."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided accurate information about processing times without unauthorized promises."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help but did not provide a proper goodbye or closing statement after customer declined."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 78,
+      "grade": "C",
+      "summary": "Agent handled the inquiry competently by verifying the approval status, explaining ACH processing times clearly, and addressing the customer's concern about bank processing. Communication was professional and empathetic throughout.",
+      "coaching_tip": "Add a brief closing statement like 'Thank you for contacting us' or 'Have a great day' after the customer declines further assistance to provide a more polished end to the interaction.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[08:25:01 PM] t0049025054: Full Name: t0049025054 Email Address: lilmeme2812@gmail.com Subject / How can we help you?: I recieved a approved email but nothing in my account\n[08:25:01 PM] t0049025054: Full Name: t0049025054 Email Address: lilmeme2812@gmail.com Subject / How can we help you?: I recieved a approved email but nothing in my account\n[08:25:14 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:25:14 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:26:02 PM] Andrea Hernandez: Can you send me a screenshot of the email you received\n[08:26:02 PM] Andrea Hernandez: Can you send me a screenshot of the email you received\n[08:26:30 PM] t0049025054: IMG_3080.png\n[08:26:30 PM] t0049025054: IMG_3080.png\n[08:28:07 PM] t0049025054: Ok\n[08:28:07 PM] t0049025054: Ok\n[08:28:11 PM] Andrea Hernandez: Thanks for sharing the screenshot — I can confirm that your redemption was successfully approved on our end 🎉\n\nAt this point, the funds have already been sent to your bank, and we just need to wait for their processing.\n\nPlease keep in mind:\n\nACH transfers can take up to 10 business days\nProcessing time depends on your bank\n\nEverything looks good from our side 👍\n[08:28:11 PM] Andrea Hernandez: Thanks for sharing the screenshot — I can confirm that your redemption was successfully approved on our end 🎉\n\nAt this point, the funds have already been sent to your bank, and we just need to wait for their processing.\n\nPlease keep in mind:\n\nACH transfers can take up to 10 business days\nProcessing time depends on your bank\n\nEverything looks good from our side 👍\n[08:28:58 PM] t0049025054: My bank don’t hold funds once it’s sent to them they sent to my account\n[08:28:58 PM] t0049025054: My bank don’t hold funds once it’s sent to them they sent to my account\n[08:29:31 PM] Andrea Hernandez: I understand what you’re saying — and you’re right that many banks post funds quickly once they receive them 👍\n\nHowever, with ACH transfers, there’s still a processing time before the funds actually reach your bank. Even if your bank releases funds immediately, the transfer can still take a few business days to be delivered to them.\n\nSince your redemption is already marked as successful on our end, it means it has been sent out and is currently in that processing stage.\n[08:29:31 PM] Andrea Hernandez: I understand what you’re saying — and you’re right that many banks post funds quickly once they receive them 👍\n\nHowever, with ACH transfers, there’s still a processing time before the funds actually reach your bank. Even if your bank releases funds immediately, the transfer can still take a few business days to be delivered to them.\n\nSince your redemption is already marked as successful on our end, it means it has been sent out and is currently in that processing stage.\n[08:30:02 PM] t0049025054: Ok\n[08:30:02 PM] t0049025054: Ok\n[08:30:23 PM] Andrea Hernandez: Is there anything else I can help you with?\n[08:30:23 PM] Andrea Hernandez: Is there anything else I can help you with?\n[08:30:30 PM] t0049025054: No\n[08:30:30 PM] t0049025054: No",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T20:34:43.522Z"
+    },
+    {
+      "chat_id": "2047411233908109312",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T20:30:21.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the issue well and asked clarifying questions to gather necessary information including exact error and full name."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent provided troubleshooting steps, explained the error clearly, and committed to escalation with customer's name for further investigation."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic acknowledgment of frustration, professional tone with structured steps, though slightly verbose."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriate handling of account issue without making unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript truncated at 'Thank you' with no visible closing or offer of further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent demonstrated solid technical understanding and empathy, providing clear troubleshooting steps and committing to escalation. The greeting was minimal and the closing is incomplete due to transcript truncation.",
+      "coaching_tip": "Personalize your greeting by using the customer's name from the initial message to create immediate rapport and show attentiveness.",
+      "website": "Jackpot Daily",
+      "message_count": 30,
+      "raw_transcript": "[08:24:11 PM] Customer: Full Name: Nathan Robinson Email Address: nathanrobinson091715@gmail.com Subject / How can we help you?: I can't sign up because it keeps saying withdrawal name already exists and support ain't emailed me back in bout a week\n[08:24:11 PM] Customer: Full Name: Nathan Robinson Email Address: nathanrobinson091715@gmail.com Subject / How can we help you?: I can't sign up because it keeps saying withdrawal name already exists and support ain't emailed me back in bout a week\n[08:24:34 PM] Diana Lopez: Hello!\n[08:24:34 PM] Diana Lopez: Hello!\n[08:25:01 PM] Customer: Hello I was told to emailed support for my issue but they never emailed me back\n[08:25:01 PM] Customer: Hello I was told to emailed support for my issue but they never emailed me back\n[08:25:04 PM] Customer: Email\n[08:25:04 PM] Customer: Email\n[08:25:06 PM] Diana Lopez: I understand your frustration. You've been trying to sign up for a week, you keep getting an error that your name already exists, and support hasn't responded. That's not okay.\n\nPlease try these steps:\n\n1. Make sure you are not already registered with that email address. Try clicking 'Forgot Password' to see if an account exists.\n2. If you have never registered before, the error may mean someone else already used a similar name or your information was previously registered under a different email.\n3. Try signing up with a different email address.\n\nIf none of these work, please reply with the exact error message you're seeing and the email address you're trying to use. I will make sure our team looks into this for you.\n\nThank you for your patience.\n[08:25:06 PM] Diana Lopez: I understand your frustration. You've been trying to sign up for a week, you keep getting an error that your name already exists, and support hasn't responded. That's not okay.\n\nPlease try these steps:\n\n1. Make sure you are not already registered with that email address. Try clicking 'Forgot Password' to see if an account exists.\n2. If you have never registered before, the error may mean someone else already used a similar name or your information was previously registered under a different email.\n3. Try signing up with a different email address.\n\nIf none of these work, please reply with the exact error message you're seeing and the email address you're trying to use. I will make sure our team looks into this for you.\n\nThank you for your patience.\n[08:25:42 PM] Customer: Yes I even tried a different device and it still say the same thing\n[08:25:42 PM] Customer: Yes I even tried a different device and it still say the same thing\n[08:26:32 PM] Diana Lopez: thank you for trying a different device. Since the same error appears on multiple devices, the issue is with your account information, not your device or browser.\n\nThe error 'withdrawal name already exists' means your full name is already registered in our system under a different email address. This can happen if you or someone else previously created an account using your name.\n\nPlease reply with the full name you are trying to register with. I will make sure our team looks into this and helps you resolve it as soon as possible.\n\nThank you for your patience.\n[08:26:32 PM] Diana Lopez: thank you for trying a different device. Since the same error appears on multiple devices, the issue is with your account information, not your device or browser.\n\nThe error 'withdrawal name already exists' means your full name is already registered in our system under a different email address. This can happen if you or someone else previously created an account using your name.\n\nPlease reply with the full name you are trying to register with. I will make sure our team looks into this and helps you resolve it as soon as possible.\n\nThank you for your patience.\n[08:27:23 PM] Customer: I never had an account before\n[08:27:23 PM] Customer: I never had an account before\n[08:27:35 PM] Customer: Nathan Robinson\n[08:27:35 PM] Customer: Nathan Robinson\n[08:28:15 PM] Diana Lopez: Thank you, Nathan. I've noted your name. I will make sure our team looks into why 'Nathan Robinson' is showing as already existing in our system.\n\nOur team will provide an update as soon as possible. Thank you for your patience.\n[08:28:15 PM] Diana Lopez: Thank you, Nathan. I've noted your name. I will make sure our team looks into why 'Nathan Robinson' is showing as already existing in our system.\n\nOur team will provide an update as soon as possible. Thank you for your patience.\n[08:28:33 PM] Customer: Do you need the email\n[08:28:33 PM] Customer: Do you need the email\n[08:28:38 PM] Customer: So you can reach out\n[08:28:38 PM] Customer: So you can reach out\n[08:28:55 PM] Diana Lopez: You provide me this one nathanrobinson091715@gmail.com\n[08:28:55 PM] Diana Lopez: You provide me this one nathanrobinson091715@gmail.com\n[08:29:04 PM] Customer: Ok yes\n[08:29:04 PM] Customer: Ok yes\n[08:29:34 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[08:29:34 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T20:34:54.837Z"
     }
   ]
 }
