@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T18:14:44.745Z",
-  "total_chats": 281,
+  "scored_at": "2026-04-23T18:20:01.967Z",
+  "total_chats": 284,
   "total_agents": 24,
   "agents": [
     {
@@ -2481,11 +2481,101 @@
           "raw_transcript": "[05:46:11 PM] t1710439339: Full Name: t1710439339 Email Address: Shondralyons712@gmail.com Subject / How can we help you?: Why hasn't my money hit my account yet. It's says it takes up to 10 business days. April 16th is when I redeem my winnings\n[05:46:11 PM] t1710439339: Full Name: t1710439339 Email Address: Shondralyons712@gmail.com Subject / How can we help you?: Why hasn't my money hit my account yet. It's says it takes up to 10 business days. April 16th is when I redeem my winnings\n[05:46:32 PM] Diana Lopez: Hello!\n[05:46:32 PM] Diana Lopez: Hello!\n[05:46:48 PM] t1710439339: Hey\n[05:46:48 PM] t1710439339: Hey\n[05:47:25 PM] Diana Lopez: If you redeemed on April 16th and the stated timeframe is up to 10 business days, you haven't yet exceeded the maximum processing time.\n\nBusiness days typically exclude weekends and holidays. Since April 16th, there have been about 5 business days so far (depending on weekends and any observed holidays), which is still within the 10-day window.\n\nThe best course of action is to verify the exact status by checking your redemption history in your account portal. You're likely still within the normal processing window, and the funds should arrive before the 10th business day.\n\nKeep an eye on your bank account, and if it still hasn't arrived after the full 10 business days have passed, reaching back out would be the appropriate next step.\n[05:47:25 PM] Diana Lopez: If you redeemed on April 16th and the stated timeframe is up to 10 business days, you haven't yet exceeded the maximum processing time.\n\nBusiness days typically exclude weekends and holidays. Since April 16th, there have been about 5 business days so far (depending on weekends and any observed holidays), which is still within the 10-day window.\n\nThe best course of action is to verify the exact status by checking your redemption history in your account portal. You're likely still within the normal processing window, and the funds should arrive before the 10th business day.\n\nKeep an eye on your bank account, and if it still hasn't arrived after the full 10 business days have passed, reaching back out would be the appropriate next step.\n[05:48:35 PM] t1710439339: Okay thank you\n[05:48:35 PM] t1710439339: Okay thank you\n[05:48:53 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[05:48:53 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[05:49:47 PM] t1710439339: Yes how can I check it in my portal account where can I go to\n[05:49:47 PM] t1710439339: Yes how can I check it in my portal account where can I go to\n[05:50:11 PM] Diana Lopez: You can usually find the status of your redemption in the \"Transaction History\" or \"Redemption History\" section of your account.\n\nHere’s how to navigate there:\n\nLog in to your account on the website.\n\nClick on your Profile Icon, \"My Account,\" or navigate to the Wallet/Balance section.\n\nLook for a tab or link labeled \"Transaction History\" or \"Redemption History\".\n\nOnce there, filter by the date you requested the payout to see the current status (e.g., \"Pending,\" \"Processing,\" or \"Completed\").\n\nIf you are looking for a specific transaction from April 16th, you can often sort the list by date to locate it quickly. The status indicator will tell you if the funds are still being reviewed by the team or if they have been sent to your bank.\n[05:50:11 PM] Diana Lopez: You can usually find the status of your redemption in the \"Transaction History\" or \"Redemption History\" section of your account.\n\nHere’s how to navigate there:\n\nLog in to your account on the website.\n\nClick on your Profile Icon, \"My Account,\" or navigate to the Wallet/Balance section.\n\nLook for a tab or link labeled \"Transaction History\" or \"Redemption History\".\n\nOnce there, filter by the date you requested the payout to see the current status (e.g., \"Pending,\" \"Processing,\" or \"Completed\").\n\nIf you are looking for a specific transaction from April 16th, you can often sort the list by date to locate it quickly. The status indicator will tell you if the funds are still being reviewed by the team or if they have been sent to your bank.\n[05:52:22 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[05:52:22 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T17:54:41.528Z"
+        },
+        {
+          "chat_id": "2047375534882910208",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T18:17:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hello' without personalization or warmth, minimal effort given customer's frustrated state."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent eventually understood the POA vs ID confusion but took time to clarify the verification sequence after customer expressed frustration."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent explained the verification process clearly and offered to escalate if ID was already approved, providing a logical path forward."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Professional and empathetic acknowledgment of frustration, though explanation could have come sooner to prevent escalation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed verification policy correctly and made no unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help but closed somewhat prematurely without confirming customer understood or had no further questions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent handled a frustrated customer's verification confusion adequately by explaining the ID-before-POA process and offering escalation if needed. The interaction could have been smoother with earlier clarification and confirmation before closing.",
+          "coaching_tip": "When a customer is clearly frustrated about repeated issues, proactively explain the full process in your first substantive response rather than waiting for frustration to escalate further.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[06:02:20 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:02:20 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:02:45 PM] Diana Lopez: Hello!\n[06:02:45 PM] Diana Lopez: Hello!\n[06:02:59 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[06:02:59 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[06:05:15 PM] Diana Lopez: I sent you an email right, now with the request can you check please\n[06:05:15 PM] Diana Lopez: I sent you an email right, now with the request can you check please\n[06:07:43 PM] t5003516845: This (SOCURE) so called link you all keep sending me is a link only for identifying my face and identity card.  You all should be a shame of having someone to go through this when we paying money to play on you all site!!!!\n[06:07:43 PM] t5003516845: This (SOCURE) so called link you all keep sending me is a link only for identifying my face and identity card.  You all should be a shame of having someone to go through this when we paying money to play on you all site!!!!\n[06:09:34 PM] Diana Lopez: I hear your frustration, and you're right to be upset. You've been sent a link for identity verification.\nThank you for your patience, and I'm sorry for the trouble\n[06:09:34 PM] Diana Lopez: I hear your frustration, and you're right to be upset. You've been sent a link for identity verification.\nThank you for your patience, and I'm sorry for the trouble\n[06:11:38 PM] t5003516845: I’m waiting. I have sent numerous of emails to support and they still keep sending me the same link for drivers license.\n[06:11:38 PM] t5003516845: I’m waiting. I have sent numerous of emails to support and they still keep sending me the same link for drivers license.\n[06:12:56 PM] Diana Lopez: Thank you for your patience. Before we can request your Proof of Address, your government-issued ID must first be verified. That is the standard order of the verification process.\n\nOnce your ID is verified, the system will then allow you to upload your Proof of Address.\n\nIf you've already submitted your ID and it was approved, please let me know and I will make sure our team looks into why you haven't received the POA link yet.\n\nThank you for your understanding\n[06:12:56 PM] Diana Lopez: Thank you for your patience. Before we can request your Proof of Address, your government-issued ID must first be verified. That is the standard order of the verification process.\n\nOnce your ID is verified, the system will then allow you to upload your Proof of Address.\n\nIf you've already submitted your ID and it was approved, please let me know and I will make sure our team looks into why you haven't received the POA link yet.\n\nThank you for your understanding\n[06:15:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[06:15:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:19:52.875Z"
+        },
+        {
+          "chat_id": "2047378442908803072",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T18:15:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting delivered, though basic and duplicated due to system issue."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the Golden Egg issue but could have asked more clarifying questions about what customer sees on screen."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided reasonable troubleshooting steps but chat ended without confirming if solution worked or offering escalation."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and friendly with appropriate emoji use, though responses were somewhat repetitive between messages."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made throughout the interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as chat appears to have ended without agent farewell or further assistance offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided friendly service and appropriate troubleshooting steps for the Golden Egg issue after verification. However, the interaction ended abruptly without confirmation of resolution or a proper closing.",
+          "coaching_tip": "Always follow up after providing troubleshooting steps to confirm whether the solution worked, and if the customer stops responding, provide a closing statement offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[06:13:53 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Verification complete where's my golden egg\n[06:13:53 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Verification complete where's my golden egg\n[06:14:14 PM] Diana Lopez: Hello!\n[06:14:14 PM] Diana Lopez: Hello!\n[06:14:26 PM] Customer: Hello\n[06:14:26 PM] Customer: Hello\n[06:14:44 PM] Diana Lopez: Congrats on getting your verification completed! 🎉\n\nThe Golden Egg reward should become available shortly after verification, but in some cases there can be a small delay while the system updates.\n\nCould you please try refreshing the page or logging out and back in? Then check the promotions or home section to see if the Golden Egg appears.\n[06:14:44 PM] Diana Lopez: Congrats on getting your verification completed! 🎉\n\nThe Golden Egg reward should become available shortly after verification, but in some cases there can be a small delay while the system updates.\n\nCould you please try refreshing the page or logging out and back in? Then check the promotions or home section to see if the Golden Egg appears.\n[06:15:00 PM] Customer: My account has been verified and I can't pick a golden egg\n[06:15:00 PM] Customer: My account has been verified and I can't pick a golden egg\n[06:15:32 PM] Diana Lopez: Thanks for confirming your account is verified! 😊\n\nIf you’re unable to pick the Golden Egg, it’s usually due to a short delay after verification or the feature not fully refreshing on your account yet. Could you please try logging out, clearing your cache, and logging back in, then try again from the home or promotions section?\n[06:15:32 PM] Diana Lopez: Thanks for confirming your account is verified! 😊\n\nIf you’re unable to pick the Golden Egg, it’s usually due to a short delay after verification or the feature not fully refreshing on your account yet. Could you please try logging out, clearing your cache, and logging back in, then try again from the home or promotions section?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:20:01.466Z"
         }
       ],
       "avg_score": 63,
       "grade": "D",
-      "trend": -7
+      "trend": 1
     },
     {
       "id": "5806",
@@ -8916,11 +9006,56 @@
           "raw_transcript": "[06:00:20 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: Redemption returned from my bank to you.\n[06:00:20 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: Redemption returned from my bank to you.\n[06:01:27 PM] t3381098751: My bank returned my redemption of $125 to you guys and I wanted to make sure it is credited to my account. I would also like to re-withdrawal the balance because it was a mistake on my end. I sent it to the wrong account\n[06:01:27 PM] t3381098751: My bank returned my redemption of $125 to you guys and I wanted to make sure it is credited to my account. I would also like to re-withdrawal the balance because it was a mistake on my end. I sent it to the wrong account\n[06:02:28 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[06:02:28 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[06:03:27 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[06:03:27 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[06:04:37 PM] t3381098751: No problem. Is it possible for me to send the money to a different persons account?\n[06:04:37 PM] t3381098751: No problem. Is it possible for me to send the money to a different persons account?\n[06:05:31 PM] Angie Pereira: Reviewing on your account I can see at this moment the $125 have been already approved and are pending for payment\n[06:05:31 PM] Angie Pereira: Reviewing on your account I can see at this moment the $125 have been already approved and are pending for payment\n[06:05:52 PM] Angie Pereira: Requeste date and time 2026-04-23 14:30:49\n[06:06:04 PM] Angie Pereira: Request date and time 2026-04-23 14:30:49\n[06:06:04 PM] Angie Pereira: Request date and time 2026-04-23 14:30:49\n[06:06:33 PM] t3381098751: My bank has sent it back to you guys.\n[06:06:33 PM] t3381098751: IMG_1900.jpeg\n[06:06:33 PM] t3381098751: My bank has sent it back to you guys.\n[06:06:33 PM] t3381098751: IMG_1900.jpeg\n[06:06:56 PM] t3381098751: Did you guys receive back?\n[06:06:56 PM] t3381098751: Did you guys receive back?\n[06:07:29 PM] Angie Pereira: It is on the account right now pending for payment\n[06:07:29 PM] Angie Pereira: It is on the account right now pending for payment\n[06:08:06 PM] t3381098751: Ok so will it be credited back to my casino account shortly so I could re-withdraw it?\n[06:08:06 PM] t3381098751: Ok so will it be credited back to my casino account shortly so I could re-withdraw it?\n[06:09:38 PM] Angie Pereira: Give me a moment to review this information.\n[06:09:38 PM] Angie Pereira: Give me a moment to review this information.\n[06:09:45 PM] t3381098751: Ok\n[06:09:45 PM] t3381098751: Ok\n[06:11:06 PM] t3381098751: Ok ☺️\n[06:11:06 PM] t3381098751: Ok ☺️\n[06:11:23 PM] Angie Pereira: Please allow some time for the updates to be reflected on your account, the transaction is pending as of today\n[06:11:23 PM] Angie Pereira: Please allow some time for the updates to be reflected on your account, the transaction is pending as of today\n[06:12:07 PM] t3381098751: Ok I have one more question. Is ACH payments the only way you guys send money because I wanted to know if you have debit card processing too.\n[06:12:07 PM] t3381098751: Ok I have one more question. Is ACH payments the only way you guys send money because I wanted to know if you have debit card processing too.\n[06:12:37 PM] Angie Pereira: At this moment yes we are just working with ACH transfers\n[06:12:37 PM] Angie Pereira: At this moment yes we are just working with ACH transfers\n[06:13:13 PM] t3381098751: Ok is it possible to send my withdrawal to my wife’s account or does it have to be in my name?\n[06:13:13 PM] t3381098751: Ok is it possible to send my withdrawal to my wife’s account or does it have to be in my name?\n[06:13:45 PM] Angie Pereira: It has to be your information\n[06:13:45 PM] Angie Pereira: It has to be your information\n[06:13:53 PM] t3381098751: Ok I do appreciate you .\n[06:13:53 PM] t3381098751: Ok I do appreciate you .",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T18:14:44.243Z"
+        },
+        {
+          "chat_id": "2047378129533890560",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T18:18:55.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent asked what was going on and offered assistance, but customer never responded with an actual issue."
+            },
+            "resolution": {
+              "score": 15,
+              "notes": "No resolution possible as customer submitted only question marks and never clarified their need despite agent's prompts."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and friendly communication, though agent could have been more proactive in suggesting common issues or next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed; agent remained professional throughout."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with well-wishes, appropriate given the lack of customer engagement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided appropriate service but customer never articulated an actual issue beyond submitting question marks. Agent made reasonable attempts to engage and offer help before closing professionally.",
+          "coaching_tip": "When customers submit unclear requests, proactively offer common support options or ask specific yes/no questions to help them articulate their needs.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[06:12:39 PM] Customer: Full Name: Julie larranaga Email Address: jdlarranaga@gmail.com Subject / How can we help you?: ?\n[06:12:39 PM] Customer: Full Name: Julie larranaga Email Address: jdlarranaga@gmail.com Subject / How can we help you?: ?\n[06:14:41 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[06:14:41 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[06:16:24 PM] Angie Pereira: Let me know if anything you need assistance with — always happy to help!\n[06:16:24 PM] Angie Pereira: Let me know if anything you need assistance with — always happy to help!\n[06:18:52 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[06:18:52 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:19:43.075Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 4
+      "trend": 5
     },
     {
       "id": "5552",
@@ -25510,6 +25645,141 @@
       "raw_transcript": "[06:00:20 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: Redemption returned from my bank to you.\n[06:00:20 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: Redemption returned from my bank to you.\n[06:01:27 PM] t3381098751: My bank returned my redemption of $125 to you guys and I wanted to make sure it is credited to my account. I would also like to re-withdrawal the balance because it was a mistake on my end. I sent it to the wrong account\n[06:01:27 PM] t3381098751: My bank returned my redemption of $125 to you guys and I wanted to make sure it is credited to my account. I would also like to re-withdrawal the balance because it was a mistake on my end. I sent it to the wrong account\n[06:02:28 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[06:02:28 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[06:03:27 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[06:03:27 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[06:04:37 PM] t3381098751: No problem. Is it possible for me to send the money to a different persons account?\n[06:04:37 PM] t3381098751: No problem. Is it possible for me to send the money to a different persons account?\n[06:05:31 PM] Angie Pereira: Reviewing on your account I can see at this moment the $125 have been already approved and are pending for payment\n[06:05:31 PM] Angie Pereira: Reviewing on your account I can see at this moment the $125 have been already approved and are pending for payment\n[06:05:52 PM] Angie Pereira: Requeste date and time 2026-04-23 14:30:49\n[06:06:04 PM] Angie Pereira: Request date and time 2026-04-23 14:30:49\n[06:06:04 PM] Angie Pereira: Request date and time 2026-04-23 14:30:49\n[06:06:33 PM] t3381098751: My bank has sent it back to you guys.\n[06:06:33 PM] t3381098751: IMG_1900.jpeg\n[06:06:33 PM] t3381098751: My bank has sent it back to you guys.\n[06:06:33 PM] t3381098751: IMG_1900.jpeg\n[06:06:56 PM] t3381098751: Did you guys receive back?\n[06:06:56 PM] t3381098751: Did you guys receive back?\n[06:07:29 PM] Angie Pereira: It is on the account right now pending for payment\n[06:07:29 PM] Angie Pereira: It is on the account right now pending for payment\n[06:08:06 PM] t3381098751: Ok so will it be credited back to my casino account shortly so I could re-withdraw it?\n[06:08:06 PM] t3381098751: Ok so will it be credited back to my casino account shortly so I could re-withdraw it?\n[06:09:38 PM] Angie Pereira: Give me a moment to review this information.\n[06:09:38 PM] Angie Pereira: Give me a moment to review this information.\n[06:09:45 PM] t3381098751: Ok\n[06:09:45 PM] t3381098751: Ok\n[06:11:06 PM] t3381098751: Ok ☺️\n[06:11:06 PM] t3381098751: Ok ☺️\n[06:11:23 PM] Angie Pereira: Please allow some time for the updates to be reflected on your account, the transaction is pending as of today\n[06:11:23 PM] Angie Pereira: Please allow some time for the updates to be reflected on your account, the transaction is pending as of today\n[06:12:07 PM] t3381098751: Ok I have one more question. Is ACH payments the only way you guys send money because I wanted to know if you have debit card processing too.\n[06:12:07 PM] t3381098751: Ok I have one more question. Is ACH payments the only way you guys send money because I wanted to know if you have debit card processing too.\n[06:12:37 PM] Angie Pereira: At this moment yes we are just working with ACH transfers\n[06:12:37 PM] Angie Pereira: At this moment yes we are just working with ACH transfers\n[06:13:13 PM] t3381098751: Ok is it possible to send my withdrawal to my wife’s account or does it have to be in my name?\n[06:13:13 PM] t3381098751: Ok is it possible to send my withdrawal to my wife’s account or does it have to be in my name?\n[06:13:45 PM] Angie Pereira: It has to be your information\n[06:13:45 PM] Angie Pereira: It has to be your information\n[06:13:53 PM] t3381098751: Ok I do appreciate you .\n[06:13:53 PM] t3381098751: Ok I do appreciate you .",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T18:14:44.243Z"
+    },
+    {
+      "chat_id": "2047378129533890560",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-23T18:18:55.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent asked what was going on and offered assistance, but customer never responded with an actual issue."
+        },
+        "resolution": {
+          "score": 15,
+          "notes": "No resolution possible as customer submitted only question marks and never clarified their need despite agent's prompts."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and friendly communication, though agent could have been more proactive in suggesting common issues or next steps."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed; agent remained professional throughout."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Polite closing with well-wishes, appropriate given the lack of customer engagement."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided appropriate service but customer never articulated an actual issue beyond submitting question marks. Agent made reasonable attempts to engage and offer help before closing professionally.",
+      "coaching_tip": "When customers submit unclear requests, proactively offer common support options or ask specific yes/no questions to help them articulate their needs.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[06:12:39 PM] Customer: Full Name: Julie larranaga Email Address: jdlarranaga@gmail.com Subject / How can we help you?: ?\n[06:12:39 PM] Customer: Full Name: Julie larranaga Email Address: jdlarranaga@gmail.com Subject / How can we help you?: ?\n[06:14:41 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[06:14:41 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[06:16:24 PM] Angie Pereira: Let me know if anything you need assistance with — always happy to help!\n[06:16:24 PM] Angie Pereira: Let me know if anything you need assistance with — always happy to help!\n[06:18:52 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[06:18:52 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T18:19:43.075Z"
+    },
+    {
+      "chat_id": "2047375534882910208",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T18:17:25.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Hello' without personalization or warmth, minimal effort given customer's frustrated state."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent eventually understood the POA vs ID confusion but took time to clarify the verification sequence after customer expressed frustration."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent explained the verification process clearly and offered to escalate if ID was already approved, providing a logical path forward."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Professional and empathetic acknowledgment of frustration, though explanation could have come sooner to prevent escalation."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed verification policy correctly and made no unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help but closed somewhat prematurely without confirming customer understood or had no further questions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent handled a frustrated customer's verification confusion adequately by explaining the ID-before-POA process and offering escalation if needed. The interaction could have been smoother with earlier clarification and confirmation before closing.",
+      "coaching_tip": "When a customer is clearly frustrated about repeated issues, proactively explain the full process in your first substantive response rather than waiting for frustration to escalate further.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[06:02:20 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:02:20 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:02:45 PM] Diana Lopez: Hello!\n[06:02:45 PM] Diana Lopez: Hello!\n[06:02:59 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[06:02:59 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[06:05:15 PM] Diana Lopez: I sent you an email right, now with the request can you check please\n[06:05:15 PM] Diana Lopez: I sent you an email right, now with the request can you check please\n[06:07:43 PM] t5003516845: This (SOCURE) so called link you all keep sending me is a link only for identifying my face and identity card.  You all should be a shame of having someone to go through this when we paying money to play on you all site!!!!\n[06:07:43 PM] t5003516845: This (SOCURE) so called link you all keep sending me is a link only for identifying my face and identity card.  You all should be a shame of having someone to go through this when we paying money to play on you all site!!!!\n[06:09:34 PM] Diana Lopez: I hear your frustration, and you're right to be upset. You've been sent a link for identity verification.\nThank you for your patience, and I'm sorry for the trouble\n[06:09:34 PM] Diana Lopez: I hear your frustration, and you're right to be upset. You've been sent a link for identity verification.\nThank you for your patience, and I'm sorry for the trouble\n[06:11:38 PM] t5003516845: I’m waiting. I have sent numerous of emails to support and they still keep sending me the same link for drivers license.\n[06:11:38 PM] t5003516845: I’m waiting. I have sent numerous of emails to support and they still keep sending me the same link for drivers license.\n[06:12:56 PM] Diana Lopez: Thank you for your patience. Before we can request your Proof of Address, your government-issued ID must first be verified. That is the standard order of the verification process.\n\nOnce your ID is verified, the system will then allow you to upload your Proof of Address.\n\nIf you've already submitted your ID and it was approved, please let me know and I will make sure our team looks into why you haven't received the POA link yet.\n\nThank you for your understanding\n[06:12:56 PM] Diana Lopez: Thank you for your patience. Before we can request your Proof of Address, your government-issued ID must first be verified. That is the standard order of the verification process.\n\nOnce your ID is verified, the system will then allow you to upload your Proof of Address.\n\nIf you've already submitted your ID and it was approved, please let me know and I will make sure our team looks into why you haven't received the POA link yet.\n\nThank you for your understanding\n[06:15:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[06:15:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T18:19:52.875Z"
+    },
+    {
+      "chat_id": "2047378442908803072",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T18:15:34.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting delivered, though basic and duplicated due to system issue."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the Golden Egg issue but could have asked more clarifying questions about what customer sees on screen."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided reasonable troubleshooting steps but chat ended without confirming if solution worked or offering escalation."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and friendly with appropriate emoji use, though responses were somewhat repetitive between messages."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made throughout the interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as chat appears to have ended without agent farewell or further assistance offer."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent provided friendly service and appropriate troubleshooting steps for the Golden Egg issue after verification. However, the interaction ended abruptly without confirmation of resolution or a proper closing.",
+      "coaching_tip": "Always follow up after providing troubleshooting steps to confirm whether the solution worked, and if the customer stops responding, provide a closing statement offering further assistance.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[06:13:53 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Verification complete where's my golden egg\n[06:13:53 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Verification complete where's my golden egg\n[06:14:14 PM] Diana Lopez: Hello!\n[06:14:14 PM] Diana Lopez: Hello!\n[06:14:26 PM] Customer: Hello\n[06:14:26 PM] Customer: Hello\n[06:14:44 PM] Diana Lopez: Congrats on getting your verification completed! 🎉\n\nThe Golden Egg reward should become available shortly after verification, but in some cases there can be a small delay while the system updates.\n\nCould you please try refreshing the page or logging out and back in? Then check the promotions or home section to see if the Golden Egg appears.\n[06:14:44 PM] Diana Lopez: Congrats on getting your verification completed! 🎉\n\nThe Golden Egg reward should become available shortly after verification, but in some cases there can be a small delay while the system updates.\n\nCould you please try refreshing the page or logging out and back in? Then check the promotions or home section to see if the Golden Egg appears.\n[06:15:00 PM] Customer: My account has been verified and I can't pick a golden egg\n[06:15:00 PM] Customer: My account has been verified and I can't pick a golden egg\n[06:15:32 PM] Diana Lopez: Thanks for confirming your account is verified! 😊\n\nIf you’re unable to pick the Golden Egg, it’s usually due to a short delay after verification or the feature not fully refreshing on your account yet. Could you please try logging out, clearing your cache, and logging back in, then try again from the home or promotions section?\n[06:15:32 PM] Diana Lopez: Thanks for confirming your account is verified! 😊\n\nIf you’re unable to pick the Golden Egg, it’s usually due to a short delay after verification or the feature not fully refreshing on your account yet. Could you please try logging out, clearing your cache, and logging back in, then try again from the home or promotions section?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T18:20:01.466Z"
     }
   ]
 }
