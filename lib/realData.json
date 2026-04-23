@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T21:34:43.948Z",
-  "total_chats": 328,
+  "scored_at": "2026-04-23T21:44:42.705Z",
+  "total_chats": 329,
   "total_agents": 25,
   "agents": [
     {
@@ -6162,11 +6162,56 @@
           "raw_transcript": "[09:26:58 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account\n[09:26:58 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account\n[09:27:12 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:27:12 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:28:22 PM] Customer: I don't remember my password to get in my account right now\n[09:28:22 PM] Customer: I don't remember my password to get in my account right now\n[09:28:23 PM] Jonathan Fuentes: I can see you are having issues login in to your account. Can I please have more information about that?\n[09:28:23 PM] Jonathan Fuentes: I can see you are having issues login in to your account. Can I please have more information about that?\n[09:28:51 PM] Customer: ok what do u need\n[09:28:51 PM] Customer: ok what do u need\n[09:29:08 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[09:29:08 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[09:29:22 PM] Customer: lorigreen044@gmail.com\n[09:29:22 PM] Customer: lorigreen044@gmail.com\n[09:30:27 PM] Jonathan Fuentes: Can you please try to reset your password by following these steps:\n\nGo to the login page at www.jackpotdaily.com\nClick on “Forgot Password?”\nEnter your registered email address\nFollow the instructions sent to your email to create a new password\n\nIf you don’t receive the email, make sure to check your spam/junk folder.\n\nLet me know if you run into any issues and I’ll help you\n[09:30:27 PM] Jonathan Fuentes: Can you please try to reset your password by following these steps:\n\nGo to the login page at www.jackpotdaily.com\nClick on “Forgot Password?”\nEnter your registered email address\nFollow the instructions sent to your email to create a new password\n\nIf you don’t receive the email, make sure to check your spam/junk folder.\n\nLet me know if you run into any issues and I’ll help you\n[09:31:08 PM] Customer: ok\n[09:31:08 PM] Customer: ok\n[09:31:33 PM] Jonathan Fuentes: Let me know if this helps.\n[09:31:33 PM] Jonathan Fuentes: Let me know if this helps.\n[09:33:45 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:33:45 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T21:34:43.448Z"
+        },
+        {
+          "chat_id": "2047429715525677056",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-23T21:43:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the issue clearly and provided comprehensive explanation of how the Golden Egg promotion works."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided detailed instructions on where to find the egg, how it works, and troubleshooting steps, though no confirmation customer's issue was resolved."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured explanation with bullet points, though could have been more conversational and checked back for confirmation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; accurately described promotion terms including one-time offer and expiration window."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed prematurely without waiting for customer confirmation that the issue was resolved or that troubleshooting steps worked."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent provided thorough and accurate information about the Golden Egg promotion with clear troubleshooting steps. However, the interaction lacked a proper greeting and closed too quickly without confirming the customer's issue was actually resolved.",
+          "coaching_tip": "Always wait for customer confirmation that their issue is resolved before closing the chat, especially when you've provided troubleshooting steps that require action on their end.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[09:37:38 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[09:37:38 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[09:37:50 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:37:50 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:38:18 PM] t1151212334: Hey sorry to bother you again  but still no golden egg? Should I be concerned? Or is there an issue?\n[09:38:18 PM] t1151212334: Hey sorry to bother you again  but still no golden egg? Should I be concerned? Or is there an issue?\n[09:39:57 PM] Jonathan Fuentes: Great question — I’ll walk you through it \n\nThe Golden Egg is part of the welcome offer and works like this:\n\nIt unlocks after you register your account and complete KYC verification\nOnce available, you should be able to find it in your Promotions/Rewards section\nFrom there, you can click it and “smash” it to reveal a random reward (up to 100 SC)\n\nA few important things to keep in mind:\n\nIt’s a one-time offer for new accounts only\nThe reward is random\nIt expires if not used within the allowed 24 hour window\n\nIf you don’t see it:\n\nTry logging out, wait about 2 minutes, and log back in (this can help it appear)\n[09:39:57 PM] Jonathan Fuentes: Great question — I’ll walk you through it \n\nThe Golden Egg is part of the welcome offer and works like this:\n\nIt unlocks after you register your account and complete KYC verification\nOnce available, you should be able to find it in your Promotions/Rewards section\nFrom there, you can click it and “smash” it to reveal a random reward (up to 100 SC)\n\nA few important things to keep in mind:\n\nIt’s a one-time offer for new accounts only\nThe reward is random\nIt expires if not used within the allowed 24 hour window\n\nIf you don’t see it:\n\nTry logging out, wait about 2 minutes, and log back in (this can help it appear)\n[09:42:27 PM] Jonathan Fuentes: Let me know if this helps! I'm still here if you need any help.\n[09:42:27 PM] Jonathan Fuentes: Let me know if this helps! I'm still here if you need any help.\n[09:43:12 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:43:12 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:44:42.203Z"
         }
       ],
-      "avg_score": 59,
-      "grade": "F",
-      "trend": -5
+      "avg_score": 60,
+      "grade": "D",
+      "trend": -1
     },
     {
       "id": "5669",
@@ -29749,6 +29794,51 @@
       "raw_transcript": "[09:26:58 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account\n[09:26:58 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account\n[09:27:12 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:27:12 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:28:22 PM] Customer: I don't remember my password to get in my account right now\n[09:28:22 PM] Customer: I don't remember my password to get in my account right now\n[09:28:23 PM] Jonathan Fuentes: I can see you are having issues login in to your account. Can I please have more information about that?\n[09:28:23 PM] Jonathan Fuentes: I can see you are having issues login in to your account. Can I please have more information about that?\n[09:28:51 PM] Customer: ok what do u need\n[09:28:51 PM] Customer: ok what do u need\n[09:29:08 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[09:29:08 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[09:29:22 PM] Customer: lorigreen044@gmail.com\n[09:29:22 PM] Customer: lorigreen044@gmail.com\n[09:30:27 PM] Jonathan Fuentes: Can you please try to reset your password by following these steps:\n\nGo to the login page at www.jackpotdaily.com\nClick on “Forgot Password?”\nEnter your registered email address\nFollow the instructions sent to your email to create a new password\n\nIf you don’t receive the email, make sure to check your spam/junk folder.\n\nLet me know if you run into any issues and I’ll help you\n[09:30:27 PM] Jonathan Fuentes: Can you please try to reset your password by following these steps:\n\nGo to the login page at www.jackpotdaily.com\nClick on “Forgot Password?”\nEnter your registered email address\nFollow the instructions sent to your email to create a new password\n\nIf you don’t receive the email, make sure to check your spam/junk folder.\n\nLet me know if you run into any issues and I’ll help you\n[09:31:08 PM] Customer: ok\n[09:31:08 PM] Customer: ok\n[09:31:33 PM] Jonathan Fuentes: Let me know if this helps.\n[09:31:33 PM] Jonathan Fuentes: Let me know if this helps.\n[09:33:45 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:33:45 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T21:34:43.448Z"
+    },
+    {
+      "chat_id": "2047429715525677056",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-23T21:43:14.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the issue clearly and provided comprehensive explanation of how the Golden Egg promotion works."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided detailed instructions on where to find the egg, how it works, and troubleshooting steps, though no confirmation customer's issue was resolved."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured explanation with bullet points, though could have been more conversational and checked back for confirmation."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; accurately described promotion terms including one-time offer and expiration window."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closed prematurely without waiting for customer confirmation that the issue was resolved or that troubleshooting steps worked."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 69,
+      "grade": "D",
+      "summary": "Agent provided thorough and accurate information about the Golden Egg promotion with clear troubleshooting steps. However, the interaction lacked a proper greeting and closed too quickly without confirming the customer's issue was actually resolved.",
+      "coaching_tip": "Always wait for customer confirmation that their issue is resolved before closing the chat, especially when you've provided troubleshooting steps that require action on their end.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[09:37:38 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[09:37:38 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[09:37:50 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:37:50 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:38:18 PM] t1151212334: Hey sorry to bother you again  but still no golden egg? Should I be concerned? Or is there an issue?\n[09:38:18 PM] t1151212334: Hey sorry to bother you again  but still no golden egg? Should I be concerned? Or is there an issue?\n[09:39:57 PM] Jonathan Fuentes: Great question — I’ll walk you through it \n\nThe Golden Egg is part of the welcome offer and works like this:\n\nIt unlocks after you register your account and complete KYC verification\nOnce available, you should be able to find it in your Promotions/Rewards section\nFrom there, you can click it and “smash” it to reveal a random reward (up to 100 SC)\n\nA few important things to keep in mind:\n\nIt’s a one-time offer for new accounts only\nThe reward is random\nIt expires if not used within the allowed 24 hour window\n\nIf you don’t see it:\n\nTry logging out, wait about 2 minutes, and log back in (this can help it appear)\n[09:39:57 PM] Jonathan Fuentes: Great question — I’ll walk you through it \n\nThe Golden Egg is part of the welcome offer and works like this:\n\nIt unlocks after you register your account and complete KYC verification\nOnce available, you should be able to find it in your Promotions/Rewards section\nFrom there, you can click it and “smash” it to reveal a random reward (up to 100 SC)\n\nA few important things to keep in mind:\n\nIt’s a one-time offer for new accounts only\nThe reward is random\nIt expires if not used within the allowed 24 hour window\n\nIf you don’t see it:\n\nTry logging out, wait about 2 minutes, and log back in (this can help it appear)\n[09:42:27 PM] Jonathan Fuentes: Let me know if this helps! I'm still here if you need any help.\n[09:42:27 PM] Jonathan Fuentes: Let me know if this helps! I'm still here if you need any help.\n[09:43:12 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:43:12 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T21:44:42.203Z"
     }
   ]
 }
