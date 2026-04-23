@@ -1,7 +1,7 @@
 {
-  "scored_at": "2026-04-23T14:39:44.674Z",
-  "total_chats": 227,
-  "total_agents": 23,
+  "scored_at": "2026-04-23T14:49:54.303Z",
+  "total_chats": 229,
+  "total_agents": 24,
   "agents": [
     {
       "id": "5846",
@@ -2821,6 +2821,60 @@
       "trend": 3
     },
     {
+      "id": "5801",
+      "name": "Andrea Rodriguez",
+      "chats": [
+        {
+          "chat_id": "2047323403726925824",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-23T14:47:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
+          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:49:53.803Z"
+        }
+      ],
+      "avg_score": 59,
+      "grade": "F",
+      "trend": 0
+    },
+    {
       "id": "5802",
       "name": "Dustin Euceda",
       "chats": [
@@ -3557,240 +3611,6 @@
       "avg_score": 58,
       "grade": "F",
       "trend": -1
-    },
-    {
-      "id": "5844",
-      "name": "Angie Pereira",
-      "chats": [
-        {
-          "chat_id": "2045115402492932096",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-17T12:28:10.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional but minimal greeting, no personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask clarifying questions about the phone number error or acknowledge the screenshot provided."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "Provided generic KYC instructions but failed to address the specific phone number error the customer reported."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Clear instructions provided but did not acknowledge the customer's specific problem or screenshot."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided standard verification process information."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing provided, transcript ends abruptly with agent's instructions and no follow-up."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 43,
-          "grade": "F",
-          "summary": "Agent provided standard KYC verification instructions but completely ignored the customer's specific issue about a phone number error code. The response was generic and did not address the actual problem or acknowledge the screenshot evidence provided.",
-          "coaching_tip": "Always acknowledge the specific issue reported and review any screenshots provided before sending templated responses; address the phone number error directly or escalate to technical support.",
-          "website": "Jackpot Daily",
-          "message_count": 7,
-          "raw_transcript": "[12:21:23 PM] t8296271869: Full Name: t8296271869 Email Address: crystaljunkmail500@gmail.com Subject / How can we help you?: I'm a new customer and it's saying to I need to give information so I clicked the verify button and put in my address and stuff and then an error code about my phone number popped up. It's the number I registered and got the verification code for and everything when signing up so I dont understand. It won't let me do the smash the egg game\n[12:21:39 PM] t8296271869: Screenshot_20260417_071907_Chrome.jpg\n[12:23:21 PM] Angie Pereira: Hi. I will be assisting you with today with this issue\n[12:24:07 PM] t8296271869: Hi okay\n[12:25:25 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:25:40 PM] t8296271869: Ok\n[12:27:16 PM] Angie Pereira: KYC (identity verification) is needed before you\ncan make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:52:19.831Z"
-        },
-        {
-          "chat_id": "2047285349188415488",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T12:20:33.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent failed to clarify what verification steps customer had already completed before providing generic instructions."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided verification instructions but didn't address the actual complaint about missing signup bonus or confirm account status."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Sent lengthy generic instructions that confused the customer rather than addressing their specific concern about the missing bonus."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, maintained professionalism despite customer hostility."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Attempted closing before issue was resolved and customer clearly indicated confusion and dissatisfaction."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 52,
-          "grade": "F",
-          "summary": "Agent remained professional with an agitated customer but failed to diagnose the actual issue before providing generic KYC instructions. The customer's specific question about missing signup bonus after email/phone verification was never directly addressed, leading to increased frustration.",
-          "coaching_tip": "Ask clarifying questions first: 'Have you already verified your email and phone? Let me check your account status' before sending lengthy instructions that may not apply.",
-          "website": "Jackpot Daily",
-          "message_count": 34,
-          "raw_transcript": "[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:31 PM] t3759369481: What?????\n[12:14:31 PM] t3759369481: What?????\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:22:11.421Z"
-        },
-        {
-          "chat_id": "2047291301602045952",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T12:36:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer name."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Asked clarifying questions about state and what was happening, eventually understood the geo-restriction error."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided cache-clearing instructions that don't address the actual geo-restriction issue the customer reported."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional but the solution provided doesn't match the problem described by the customer."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, though didn't address potential geo-restriction compliance issue properly."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing statement, further help offer, or goodbye after providing the instructions."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent was polite and asked appropriate clarifying questions but provided a generic cache-clearing solution that doesn't address the customer's geo-restriction error message. The interaction ended abruptly without proper closing or confirmation the issue was resolved.",
-          "coaching_tip": "When a customer reports a geo-restriction message, investigate whether they're in a restricted state rather than defaulting to cache-clearing instructions, and always close the chat properly.",
-          "website": "Jackpot Daily",
-          "message_count": 24,
-          "raw_transcript": "[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:26 PM] t5773071534: Thank you\n[12:30:26 PM] t5773071534: Thank you\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:09 PM] t5773071534: Ok\n[12:31:09 PM] t5773071534: Ok\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:59 PM] t5773071534: Georgia\n[12:31:59 PM] t5773071534: Georgia\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:38:13.092Z"
-        },
-        {
-          "chat_id": "2047298035699724288",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T13:01:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the ACH timing question without needing clarification, though no probing questions were asked."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided accurate ACH timeframe (up to 10 business days) plus relevant redemption policies that address the question."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-formatted bullet points made information easy to digest and professional throughout."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided standard timeframes without unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Friendly closing with well-wishes, though could have explicitly offered further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 75,
-          "grade": "C",
-          "summary": "Agent handled a straightforward ACH timing inquiry competently by providing accurate processing timeframes and relevant redemption policies. Communication was clear and professional with good formatting, though the interaction lacked personalization and proactive engagement.",
-          "coaching_tip": "Use the customer's name in the greeting and explicitly ask if they have any other questions before closing to create a more personalized and complete interaction.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:02:34.504Z"
-        },
-        {
-          "chat_id": "2047310208398467072",
-          "agent_name": "Angie Pereira",
-          "agent_id": "5844",
-          "timestamp": "2026-04-23T13:56:23.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting with willingness to help, though no personalization with customer name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the redemption rejection issue but failed to ask clarifying questions or investigate the specific rejection reasons before providing generic advice."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent provided generic troubleshooting without addressing the core problem that customer cannot edit saved information, offering cache clearing instead of account-level solution or escalation."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and professional tone but failed to directly answer customer's question about where to modify information, leading to customer frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises, stayed within appropriate support boundaries."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Premature closing attempt before issue was resolved, then provided technical steps without confirming resolution or proper follow-up."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 56,
-          "grade": "F",
-          "summary": "Agent provided friendly service but failed to effectively resolve the customer's issue. The customer clearly stated they cannot edit saved billing information, but the agent only offered generic cache-clearing steps instead of providing account editing instructions or escalating to someone who could update the locked fields.",
-          "coaching_tip": "When a customer explicitly states they cannot access or edit information, acknowledge that specific barrier and either provide the exact navigation path to edit account details or escalate to a team member with account modification permissions rather than offering generic troubleshooting.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:43:44 PM] t9952292788: Hello\n[01:43:44 PM] t9952292788: Hello\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:57:24.803Z"
-        }
-      ],
-      "avg_score": 57,
-      "grade": "F",
-      "trend": 0
     },
     {
       "id": "5669",
@@ -4889,6 +4709,285 @@
       "avg_score": 56,
       "grade": "F",
       "trend": -1
+    },
+    {
+      "id": "5844",
+      "name": "Angie Pereira",
+      "chats": [
+        {
+          "chat_id": "2045115402492932096",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-17T12:28:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional but minimal greeting, no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask clarifying questions about the phone number error or acknowledge the screenshot provided."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Provided generic KYC instructions but failed to address the specific phone number error the customer reported."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Clear instructions provided but did not acknowledge the customer's specific problem or screenshot."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard verification process information."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided, transcript ends abruptly with agent's instructions and no follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 43,
+          "grade": "F",
+          "summary": "Agent provided standard KYC verification instructions but completely ignored the customer's specific issue about a phone number error code. The response was generic and did not address the actual problem or acknowledge the screenshot evidence provided.",
+          "coaching_tip": "Always acknowledge the specific issue reported and review any screenshots provided before sending templated responses; address the phone number error directly or escalate to technical support.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "raw_transcript": "[12:21:23 PM] t8296271869: Full Name: t8296271869 Email Address: crystaljunkmail500@gmail.com Subject / How can we help you?: I'm a new customer and it's saying to I need to give information so I clicked the verify button and put in my address and stuff and then an error code about my phone number popped up. It's the number I registered and got the verification code for and everything when signing up so I dont understand. It won't let me do the smash the egg game\n[12:21:39 PM] t8296271869: Screenshot_20260417_071907_Chrome.jpg\n[12:23:21 PM] Angie Pereira: Hi. I will be assisting you with today with this issue\n[12:24:07 PM] t8296271869: Hi okay\n[12:25:25 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:25:40 PM] t8296271869: Ok\n[12:27:16 PM] Angie Pereira: KYC (identity verification) is needed before you\ncan make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:52:19.831Z"
+        },
+        {
+          "chat_id": "2047285349188415488",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T12:20:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent failed to clarify what verification steps customer had already completed before providing generic instructions."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided verification instructions but didn't address the actual complaint about missing signup bonus or confirm account status."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Sent lengthy generic instructions that confused the customer rather than addressing their specific concern about the missing bonus."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, maintained professionalism despite customer hostility."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Attempted closing before issue was resolved and customer clearly indicated confusion and dissatisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent remained professional with an agitated customer but failed to diagnose the actual issue before providing generic KYC instructions. The customer's specific question about missing signup bonus after email/phone verification was never directly addressed, leading to increased frustration.",
+          "coaching_tip": "Ask clarifying questions first: 'Have you already verified your email and phone? Let me check your account status' before sending lengthy instructions that may not apply.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:03:58 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:46 PM] t3759369481: Like REALLY????! HOW LONG DOES IT TAKE YOU TO VERIFY AN ACCOUNT!!??????? THIS IS A JOKE!!!!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:04:56 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:05:26 PM] t3759369481: LIKE REALLY WTF!??!?\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:18 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:06:40 PM] t3759369481: LMAO!!! You All say the same dumb responses!!!\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:13 PM] Angie Pereira: Give me a moment to review this information.\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:08:31 PM] t3759369481: ROTFLMAO\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:11:24 PM] Angie Pereira: Before you will have to KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I\npromise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\n\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[12:14:31 PM] t3759369481: What?????\n[12:14:31 PM] t3759369481: What?????\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:14:51 PM] t3759369481: What are you talking about!??!??\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:15:36 PM] t3759369481: Wow!!!??? This is fucking RIDICULOUS!!!!!\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:04 PM] Angie Pereira: You will have to continue the verification process. Upload a selfie and a valid government-issued ID\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:16:38 PM] t3759369481: WHATEVER!!!!!! FUCK YOU!!!! YOUR A DUMB RETARDED ASS CUNT!!!!!!! I'VE ALREADY DONE THAT!!!!! FUCK THIS JANKY ASS WANNA BE CASINO!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:17:09 PM] t3759369481: FUCK YOU!!!!! CUM GUZZLING GUTTER WHORE!!!!!!!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!\n[12:20:05 PM] Angie Pereira: I'm really sorry we couldn't fully resolve this today — let us  know if anything else comes up. Have a great day!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:22:11.421Z"
+        },
+        {
+          "chat_id": "2047291301602045952",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T12:36:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked clarifying questions about state and what was happening, eventually understood the geo-restriction error."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided cache-clearing instructions that don't address the actual geo-restriction issue the customer reported."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional but the solution provided doesn't match the problem described by the customer."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, though didn't address potential geo-restriction compliance issue properly."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, further help offer, or goodbye after providing the instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent was polite and asked appropriate clarifying questions but provided a generic cache-clearing solution that doesn't address the customer's geo-restriction error message. The interaction ended abruptly without proper closing or confirmation the issue was resolved.",
+          "coaching_tip": "When a customer reports a geo-restriction message, investigate whether they're in a restricted state rather than defaulting to cache-clearing instructions, and always close the chat properly.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:27:37 PM] t5773071534: Full Name: t5773071534 Email Address: mousetechnology75@gmail.com Subject / How can we help you?: Location verification\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:29:58 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:19 PM] t5773071534: Locatganknu\n[12:30:26 PM] t5773071534: Thank you\n[12:30:26 PM] t5773071534: Thank you\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:31:09 PM] t5773071534: Ok\n[12:31:09 PM] t5773071534: Ok\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:45 PM] Angie Pereira: What state are you located?\n[12:31:59 PM] t5773071534: Georgia\n[12:31:59 PM] t5773071534: Georgia\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:00 PM] Angie Pereira: Alright. Is the location not working or what is going on?\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:33:42 PM] t5773071534: Recieved a message saying can't play sweepstakes in my region\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:13 PM] t5773071534: Ok. Thank you\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\n[12:35:41 PM] Angie Pereira: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:38:13.092Z"
+        },
+        {
+          "chat_id": "2047298035699724288",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T13:01:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the ACH timing question without needing clarification, though no probing questions were asked."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided accurate ACH timeframe (up to 10 business days) plus relevant redemption policies that address the question."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-formatted bullet points made information easy to digest and professional throughout."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard timeframes without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Friendly closing with well-wishes, though could have explicitly offered further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent handled a straightforward ACH timing inquiry competently by providing accurate processing timeframes and relevant redemption policies. Communication was clear and professional with good formatting, though the interaction lacked personalization and proactive engagement.",
+          "coaching_tip": "Use the customer's name in the greeting and explicitly ask if they have any other questions before closing to create a more personalized and complete interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:23 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long do ACH payments take after being approved\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:54:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:55:24 PM] t3381098751: No problem I just had a small question\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:56:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[12:57:15 PM] Angie Pereira: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n-ACH Bank Transfer — up to 10 business days total\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:01:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:02:34.504Z"
+        },
+        {
+          "chat_id": "2047310208398467072",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T13:56:23.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting with willingness to help, though no personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the redemption rejection issue but failed to ask clarifying questions or investigate the specific rejection reasons before providing generic advice."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided generic troubleshooting without addressing the core problem that customer cannot edit saved information, offering cache clearing instead of account-level solution or escalation."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional tone but failed to directly answer customer's question about where to modify information, leading to customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Premature closing attempt before issue was resolved, then provided technical steps without confirming resolution or proper follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided friendly service but failed to effectively resolve the customer's issue. The customer clearly stated they cannot edit saved billing information, but the agent only offered generic cache-clearing steps instead of providing account editing instructions or escalating to someone who could update the locked fields.",
+          "coaching_tip": "When a customer explicitly states they cannot access or edit information, acknowledge that specific barrier and either provide the exact navigation path to edit account details or escalate to a team member with account modification permissions rather than offering generic troubleshooting.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:42:45 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:43:44 PM] t9952292788: Hello\n[01:43:44 PM] t9952292788: Hello\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:44:46 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:45:35 PM] t9952292788: My redeem request has been rejected 3 times.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:46:42 PM] Angie Pereira: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:47:28 PM] t9952292788: Where can I modify that information?\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:48:58 PM] Angie Pereira: Please try submitting your redemption again, with the updated information .\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:32 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:50:48 PM] t9952292788: I haven't been able to update anything because the information is already saved and I can't change it.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:53:05 PM] Angie Pereira: You could try a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again.\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[01:55:03 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:57:24.803Z"
+        },
+        {
+          "chat_id": "2047323885404991488",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T14:47:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting with no personalization, missing customer name, and no acknowledgment of the customer's frustration."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions or acknowledge the specific complaint about receiving wrong upload links repeatedly."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Escalated the issue but provided no specifics, timeline, or acknowledgment that wrong documents were being sent repeatedly."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional tone but failed to acknowledge customer's frustration expressed in initial message and showed impatience with multiple follow-ups."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations but made vague promises about resolution without confirming case details or providing ticket reference."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Proper closing with alternative contact method provided, though somewhat abrupt after customer never responded."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided a generic response and escalated the issue without acknowledging the customer's specific complaint about repeatedly receiving wrong document upload links. The agent showed impatience by asking multiple times if customer was still present despite customer never having responded after their initial frustrated message.",
+          "coaching_tip": "Always acknowledge the specific issue and customer's emotional state in your first substantive response, especially when they express frustration like 'Smh' - empathy before escalation builds trust.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:36 PM] t5003516845: ???\n[02:40:36 PM] t5003516845: ???\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:46:19 PM] t5003516845: Are you still here?\n[02:46:19 PM] t5003516845: Are you still here?\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:49:43.698Z"
+        }
+      ],
+      "avg_score": 56,
+      "grade": "F",
+      "trend": 15
     },
     {
       "id": "5805",
@@ -20641,6 +20740,96 @@
       "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T14:39:44.173Z"
+    },
+    {
+      "chat_id": "2047323885404991488",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-23T14:47:57.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic greeting with no personalization, missing customer name, and no acknowledgment of the customer's frustration."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask any clarifying questions or acknowledge the specific complaint about receiving wrong upload links repeatedly."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Escalated the issue but provided no specifics, timeline, or acknowledgment that wrong documents were being sent repeatedly."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Professional tone but failed to acknowledge customer's frustration expressed in initial message and showed impatience with multiple follow-ups."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No major violations but made vague promises about resolution without confirming case details or providing ticket reference."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Proper closing with alternative contact method provided, though somewhat abrupt after customer never responded."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent provided a generic response and escalated the issue without acknowledging the customer's specific complaint about repeatedly receiving wrong document upload links. The agent showed impatience by asking multiple times if customer was still present despite customer never having responded after their initial frustrated message.",
+      "coaching_tip": "Always acknowledge the specific issue and customer's emotional state in your first substantive response, especially when they express frustration like 'Smh' - empathy before escalation builds trust.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:36 PM] t5003516845: ???\n[02:40:36 PM] t5003516845: ???\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:46:19 PM] t5003516845: Are you still here?\n[02:46:19 PM] t5003516845: Are you still here?\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T14:49:43.698Z"
+    },
+    {
+      "chat_id": "2047323403726925824",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-23T14:47:09.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
+      "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T14:49:53.803Z"
     }
   ]
 }
