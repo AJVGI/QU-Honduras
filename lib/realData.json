@@ -1,8 +1,152 @@
 {
-  "scored_at": "2026-04-23T16:59:42.996Z",
-  "total_chats": 261,
+  "scored_at": "2026-04-23T17:14:54.851Z",
+  "total_chats": 263,
   "total_agents": 24,
   "agents": [
+    {
+      "id": "5802",
+      "name": "Dustin Euceda",
+      "chats": [
+        {
+          "chat_id": "2047322702481813504",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T14:39:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
+            },
+            "resolution": {
+              "score": 18,
+              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
+          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:39:44.173Z"
+        },
+        {
+          "chat_id": "2047355265319116800",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T16:54:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment and wait time expectation, though slightly generic."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent effectively requested screenshots and asked clarifying questions to understand the redeemable balance issue."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Successfully resolved by explaining playthrough requirements; customer confirmed they redeemed their SC."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and helpful despite multiple typos (errir, ypu, redeemable misspelled, Aweson); information was accurate and understandable."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about redemption requirements and limits."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Warm congratulations and proper closing with well-wishes for future gameplay."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 77,
+          "grade": "C",
+          "summary": "Agent successfully resolved a redemption issue by diagnosing that the customer needed to understand playthrough requirements versus redeemable balance. The customer was able to redeem their SC after the explanation, indicating effective problem-solving despite some typos throughout the chat.",
+          "coaching_tip": "Proofread messages before sending to reduce typos (errir, ypu, Aweson) which can diminish professionalism even when the content is accurate and helpful.",
+          "website": "Jackpot Daily",
+          "message_count": 36,
+          "raw_transcript": "[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:46 PM] t2893005134: Ok thanks\n[04:42:46 PM] t2893005134: Ok thanks\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:59:42.496Z"
+        },
+        {
+          "chat_id": "2047361439760740352",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T17:10:00.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm greeting with customer name and clear expectation setting about wait time."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Customer question was clear and agent understood it immediately, providing comprehensive answer without needing clarification."
+            },
+            "resolution": {
+              "score": 25,
+              "notes": "Thoroughly answered the specific question about $70 spend requirement and proactively provided complete referral program details with offer to check account."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, well-structured response with formatting that made complex information easy to understand and engaging tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Provided accurate program information without making unauthorized promises or violating policies."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Friendly closing with well-wishes, though could have explicitly asked if customer had additional questions before closing."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "Agent provided a comprehensive and well-structured answer to the referral bonus question, clearly explaining the $70 purchase requirement and all program tiers. The response was professional, informative, and went beyond the basic question to provide full context.",
+          "coaching_tip": "Before closing, explicitly confirm the customer's question was fully answered and ask if they need anything else, especially after providing detailed information they may want to discuss further.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:06:20 PM] t2636964873: Full Name: t2636964873 Email Address: kaalynamor@gmail.com Subject / How can we help you?: How much does my referral have to spend for me to get the bonus ?\n[05:06:20 PM] t2636964873: Full Name: t2636964873 Email Address: kaalynamor@gmail.com Subject / How can we help you?: How much does my referral have to spend for me to get the bonus ?\n[05:06:42 PM] t2636964873: How much does my referral have to spend in order for me to get the bonus ?\n[05:06:42 PM] t2636964873: How much does my referral have to spend in order for me to get the bonus ?\n[05:06:55 PM] Dustin Euceda: Hey LAKAYLYN  thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:06:55 PM] Dustin Euceda: Hey LAKAYLYN  thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:07:46 PM] Dustin Euceda: Here’s how it works — there are 3 types of rewards, and they all stack:\n\n1. Instant Referral Reward:\nWhen your friend registers, completes KYC, and makes $70+ in total purchases, you get:\n➡️ 58 SC + 5,800 GC instantly\n\n2. Lifetime Gameplay Rebate:\nYou earn a percentage of your friend’s gameplay forever:\n\nSlots & Fishing: 0.28%\nPoker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\nThe more friends you refer, the bigger the bonuses:\n\n5 referrals: 58 SC\n10 referrals: 108 SC\n25 referrals: 288 SC\n50 referrals: 688 SC\n100 referrals: 1,888 SC\n\nYou can find your personal referral link in the “Invite Friends” section of your account.\n\nMore friends = more rewards 💰\n\nIf you want, I can also check your current referrals or earnings — just let me know!\n[05:07:46 PM] Dustin Euceda: Here’s how it works — there are 3 types of rewards, and they all stack:\n\n1. Instant Referral Reward:\nWhen your friend registers, completes KYC, and makes $70+ in total purchases, you get:\n➡️ 58 SC + 5,800 GC instantly\n\n2. Lifetime Gameplay Rebate:\nYou earn a percentage of your friend’s gameplay forever:\n\nSlots & Fishing: 0.28%\nPoker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\nThe more friends you refer, the bigger the bonuses:\n\n5 referrals: 58 SC\n10 referrals: 108 SC\n25 referrals: 288 SC\n50 referrals: 688 SC\n100 referrals: 1,888 SC\n\nYou can find your personal referral link in the “Invite Friends” section of your account.\n\nMore friends = more rewards 💰\n\nIf you want, I can also check your current referrals or earnings — just let me know!\n[05:09:55 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[05:09:55 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:14:54.350Z"
+        }
+      ],
+      "avg_score": 72,
+      "grade": "C",
+      "trend": 0
+    },
     {
       "id": "5846",
       "name": "Karen Perez",
@@ -234,105 +378,6 @@
         }
       ],
       "avg_score": 69,
-      "grade": "D",
-      "trend": 0
-    },
-    {
-      "id": "5802",
-      "name": "Dustin Euceda",
-      "chats": [
-        {
-          "chat_id": "2047322702481813504",
-          "agent_name": "Dustin Euceda",
-          "agent_id": "5802",
-          "timestamp": "2026-04-23T14:39:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
-            },
-            "resolution": {
-              "score": 18,
-              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
-          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:39:44.173Z"
-        },
-        {
-          "chat_id": "2047355265319116800",
-          "agent_name": "Dustin Euceda",
-          "agent_id": "5802",
-          "timestamp": "2026-04-23T16:54:59.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with acknowledgment and wait time expectation, though slightly generic."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent effectively requested screenshots and asked clarifying questions to understand the redeemable balance issue."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Successfully resolved by explaining playthrough requirements; customer confirmed they redeemed their SC."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and helpful despite multiple typos (errir, ypu, redeemable misspelled, Aweson); information was accurate and understandable."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided accurate information about redemption requirements and limits."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Warm congratulations and proper closing with well-wishes for future gameplay."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 77,
-          "grade": "C",
-          "summary": "Agent successfully resolved a redemption issue by diagnosing that the customer needed to understand playthrough requirements versus redeemable balance. The customer was able to redeem their SC after the explanation, indicating effective problem-solving despite some typos throughout the chat.",
-          "coaching_tip": "Proofread messages before sending to reduce typos (errir, ypu, Aweson) which can diminish professionalism even when the content is accurate and helpful.",
-          "website": "Jackpot Daily",
-          "message_count": 36,
-          "raw_transcript": "[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:46 PM] t2893005134: Ok thanks\n[04:42:46 PM] t2893005134: Ok thanks\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T16:59:42.496Z"
-        }
-      ],
-      "avg_score": 68,
       "grade": "D",
       "trend": 0
     },
@@ -3219,11 +3264,56 @@
           "raw_transcript": "[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it’s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it���s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:45:03 PM] t4733890612: Ok thanks have a good day\n[04:45:03 PM] t4733890612: Ok thanks have a good day",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T16:49:52.979Z"
+        },
+        {
+          "chat_id": "2047360584361226240",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T17:10:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with agent name, but no personalization or warmth given the customer's evident frustration."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the POA upload link issue but didn't ask clarifying questions about previous attempts or timeline."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent acknowledged escalation but provided no concrete solution, timeline, or alternative method to upload POA, leaving frustrated customer without immediate help."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Professional and empathetic tone when addressing scam concerns, but repetitive messaging and directing to email when customer was already in chat was unhelpful."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately reassured customer about legitimacy without making unauthorized promises."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed chat after only 4 minutes of silence while customer was clearly upset and may have been composing a response or waiting for actual help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent handled a frustrated customer professionally but failed to provide actionable resolution beyond directing them to email support. The premature chat closure after minimal wait time and lack of concrete next steps left the customer's urgent POA upload issue unresolved.",
+          "coaching_tip": "When a customer is highly frustrated and mentions lawyers, extend wait time before closing and escalate to a supervisor who can provide immediate alternative solutions rather than redirecting to email.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[05:02:56 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA. I still haven’t received the right link to upload my address.\n[05:02:56 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA. I still haven’t received the right link to upload my address.\n[05:03:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:03:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:24 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you — I’m here if you need anything in the meantime! 👍\n[05:04:24 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you — I’m here if you need anything in the meantime! 👍\n[05:05:24 PM] t5003516845: How hard is it to get a form so I can load my 95 Beckham Circle Jackson Alabama 36545 address.   Is this a SCAM‼️‼️‼️\n[05:05:24 PM] t5003516845: How hard is it to get a form so I can load my 95 Beckham Circle Jackson Alabama 36545 address.   Is this a SCAM‼️‼️‼️\n[05:05:40 PM] t5003516845: About to reach out to my lawyer‼️‼️‼️\n[05:05:40 PM] t5003516845: About to reach out to my lawyer‼️‼️‼️\n[05:06:38 PM] Andrea Hernandez: I completely understand your frustration — I’m really sorry this has been such a difficult experience.\n\nPlease rest assured, this is not a scam. The issue you’re experiencing is related to the verification process, and we’re actively working to get this resolved for you.\n\nAt the moment, your case has already been escalated, and we’re working on sending you the correct Proof of Address (POA) upload link.\n[05:06:38 PM] Andrea Hernandez: I completely understand your frustration — I’m really sorry this has been such a difficult experience.\n\nPlease rest assured, this is not a scam. The issue you’re experiencing is related to the verification process, and we’re actively working to get this resolved for you.\n\nAt the moment, your case has already been escalated, and we’re working on sending you the correct Proof of Address (POA) upload link.\n[05:08:35 PM] Andrea Hernandez: Please give us a little more time — your case has already been escalated, and we’re actively working to get this resolved for you.\n[05:08:35 PM] Andrea Hernandez: Please give us a little more time — your case has already been escalated, and we’re actively working to get this resolved for you.\n[05:09:59 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:09:59 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:14:44.587Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 8
+      "trend": 4
     },
     {
       "id": "5808",
@@ -23710,6 +23800,96 @@
       "raw_transcript": "[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:46 PM] t2893005134: Ok thanks\n[04:42:46 PM] t2893005134: Ok thanks\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T16:59:42.496Z"
+    },
+    {
+      "chat_id": "2047360584361226240",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T17:10:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting with agent name, but no personalization or warmth given the customer's evident frustration."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the POA upload link issue but didn't ask clarifying questions about previous attempts or timeline."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent acknowledged escalation but provided no concrete solution, timeline, or alternative method to upload POA, leaving frustrated customer without immediate help."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Professional and empathetic tone when addressing scam concerns, but repetitive messaging and directing to email when customer was already in chat was unhelpful."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately reassured customer about legitimacy without making unauthorized promises."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closed chat after only 4 minutes of silence while customer was clearly upset and may have been composing a response or waiting for actual help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 58,
+      "grade": "F",
+      "summary": "Agent handled a frustrated customer professionally but failed to provide actionable resolution beyond directing them to email support. The premature chat closure after minimal wait time and lack of concrete next steps left the customer's urgent POA upload issue unresolved.",
+      "coaching_tip": "When a customer is highly frustrated and mentions lawyers, extend wait time before closing and escalate to a supervisor who can provide immediate alternative solutions rather than redirecting to email.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[05:02:56 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA. I still haven’t received the right link to upload my address.\n[05:02:56 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA. I still haven’t received the right link to upload my address.\n[05:03:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:03:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:24 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you — I’m here if you need anything in the meantime! 👍\n[05:04:24 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you — I’m here if you need anything in the meantime! 👍\n[05:05:24 PM] t5003516845: How hard is it to get a form so I can load my 95 Beckham Circle Jackson Alabama 36545 address.   Is this a SCAM‼️‼️‼️\n[05:05:24 PM] t5003516845: How hard is it to get a form so I can load my 95 Beckham Circle Jackson Alabama 36545 address.   Is this a SCAM‼️‼️‼️\n[05:05:40 PM] t5003516845: About to reach out to my lawyer‼️‼️‼️\n[05:05:40 PM] t5003516845: About to reach out to my lawyer‼️‼️‼️\n[05:06:38 PM] Andrea Hernandez: I completely understand your frustration — I’m really sorry this has been such a difficult experience.\n\nPlease rest assured, this is not a scam. The issue you’re experiencing is related to the verification process, and we’re actively working to get this resolved for you.\n\nAt the moment, your case has already been escalated, and we’re working on sending you the correct Proof of Address (POA) upload link.\n[05:06:38 PM] Andrea Hernandez: I completely understand your frustration — I’m really sorry this has been such a difficult experience.\n\nPlease rest assured, this is not a scam. The issue you’re experiencing is related to the verification process, and we’re actively working to get this resolved for you.\n\nAt the moment, your case has already been escalated, and we’re working on sending you the correct Proof of Address (POA) upload link.\n[05:08:35 PM] Andrea Hernandez: Please give us a little more time — your case has already been escalated, and we’re actively working to get this resolved for you.\n[05:08:35 PM] Andrea Hernandez: Please give us a little more time — your case has already been escalated, and we’re actively working to get this resolved for you.\n[05:09:59 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:09:59 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:14:44.587Z"
+    },
+    {
+      "chat_id": "2047361439760740352",
+      "agent_name": "Dustin Euceda",
+      "agent_id": "5802",
+      "timestamp": "2026-04-23T17:10:00.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm greeting with customer name and clear expectation setting about wait time."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Customer question was clear and agent understood it immediately, providing comprehensive answer without needing clarification."
+        },
+        "resolution": {
+          "score": 25,
+          "notes": "Thoroughly answered the specific question about $70 spend requirement and proactively provided complete referral program details with offer to check account."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, well-structured response with formatting that made complex information easy to understand and engaging tone."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Provided accurate program information without making unauthorized promises or violating policies."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Friendly closing with well-wishes, though could have explicitly asked if customer had additional questions before closing."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 81,
+      "grade": "B",
+      "summary": "Agent provided a comprehensive and well-structured answer to the referral bonus question, clearly explaining the $70 purchase requirement and all program tiers. The response was professional, informative, and went beyond the basic question to provide full context.",
+      "coaching_tip": "Before closing, explicitly confirm the customer's question was fully answered and ask if they need anything else, especially after providing detailed information they may want to discuss further.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[05:06:20 PM] t2636964873: Full Name: t2636964873 Email Address: kaalynamor@gmail.com Subject / How can we help you?: How much does my referral have to spend for me to get the bonus ?\n[05:06:20 PM] t2636964873: Full Name: t2636964873 Email Address: kaalynamor@gmail.com Subject / How can we help you?: How much does my referral have to spend for me to get the bonus ?\n[05:06:42 PM] t2636964873: How much does my referral have to spend in order for me to get the bonus ?\n[05:06:42 PM] t2636964873: How much does my referral have to spend in order for me to get the bonus ?\n[05:06:55 PM] Dustin Euceda: Hey LAKAYLYN  thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:06:55 PM] Dustin Euceda: Hey LAKAYLYN  thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:07:46 PM] Dustin Euceda: Here’s how it works — there are 3 types of rewards, and they all stack:\n\n1. Instant Referral Reward:\nWhen your friend registers, completes KYC, and makes $70+ in total purchases, you get:\n➡️ 58 SC + 5,800 GC instantly\n\n2. Lifetime Gameplay Rebate:\nYou earn a percentage of your friend’s gameplay forever:\n\nSlots & Fishing: 0.28%\nPoker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\nThe more friends you refer, the bigger the bonuses:\n\n5 referrals: 58 SC\n10 referrals: 108 SC\n25 referrals: 288 SC\n50 referrals: 688 SC\n100 referrals: 1,888 SC\n\nYou can find your personal referral link in the “Invite Friends” section of your account.\n\nMore friends = more rewards 💰\n\nIf you want, I can also check your current referrals or earnings — just let me know!\n[05:07:46 PM] Dustin Euceda: Here’s how it works — there are 3 types of rewards, and they all stack:\n\n1. Instant Referral Reward:\nWhen your friend registers, completes KYC, and makes $70+ in total purchases, you get:\n➡️ 58 SC + 5,800 GC instantly\n\n2. Lifetime Gameplay Rebate:\nYou earn a percentage of your friend’s gameplay forever:\n\nSlots & Fishing: 0.28%\nPoker, Live Casino & Sports: 0.18%\n\n3. Milestone Rewards:\nThe more friends you refer, the bigger the bonuses:\n\n5 referrals: 58 SC\n10 referrals: 108 SC\n25 referrals: 288 SC\n50 referrals: 688 SC\n100 referrals: 1,888 SC\n\nYou can find your personal referral link in the “Invite Friends” section of your account.\n\nMore friends = more rewards 💰\n\nIf you want, I can also check your current referrals or earnings — just let me know!\n[05:09:55 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[05:09:55 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:14:54.350Z"
     }
   ]
 }
