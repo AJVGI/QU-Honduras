@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T16:29:43.127Z",
-  "total_chats": 257,
+  "scored_at": "2026-04-23T16:44:42.034Z",
+  "total_chats": 258,
   "total_agents": 24,
   "agents": [
     {
@@ -2218,690 +2218,6 @@
       "trend": 0
     },
     {
-      "id": "5808",
-      "name": "Daniel Ayestas",
-      "chats": [
-        {
-          "chat_id": "2044573477285228544",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-16T00:33:36.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly to 'allow me one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent quickly identified the likely cause (formatting issue) and provided a targeted solution without unnecessary back-and-forth."
-            },
-            "resolution": {
-              "score": 26,
-              "notes": "Issue resolved efficiently with accurate troubleshooting advice that worked on first attempt."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, concise, and professional throughout with appropriate empathy and helpful tone."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises; handled within proper guidelines."
-            },
-            "closing": {
-              "score": 9,
-              "notes": "Polished closing with confirmation of resolution, offer for further help, and friendly sign-off."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 80,
-          "grade": "B",
-          "summary": "Agent provided efficient and accurate troubleshooting that resolved the redemption issue on first attempt. Only weakness was the absence of an initial greeting before diving into the issue.",
-          "coaching_tip": "Always open with a brief greeting (e.g., 'Hi Cindy, thanks for reaching out!') before addressing the issue to create a warmer customer experience.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[12:27:58 AM] t1032931643: Full Name: t1032931643 Email Address: cindy.cruz0523@icloud.com Subject / How can we help you?: I can’t redeem it states my name is wrong?\n[12:28:06 AM] t1032931643: Thanks\n[12:28:19 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:28:29 AM] t1032931643: Thank you!\n[12:28:49 AM] Daniel Ayestas: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\n\nSometimes formatting can affect how the system processes the information.\n[12:28:59 AM] t1032931643: Oh got it\n[12:29:48 AM] t1032931643: Give me one moment I’m trying now thansk\n[12:30:33 AM] t1032931643: It worked thank you!!\n[12:30:54 AM] Daniel Ayestas: Glad we got that sorted! Is there anything else I can help you with today?\n[12:31:12 AM] t1032931643: No that’s it thanks\n[12:32:36 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:56:58.488Z"
-        },
-        {
-          "chat_id": "2044570468622888960",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-16T00:26:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all; agent jumped directly into acknowledgment without any welcome or personalization."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent acknowledged the issue but asked no clarifying questions about why the change was needed or what error messages appeared."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Redirected to email escalation which may be appropriate, but no attempt to troubleshoot or explain why chat couldn't handle this address change."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional instructions provided, but lacked empathy for the customer's inconvenience with the redirect."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing, though customer never confirmed they were satisfied with the redirect solution."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 61,
-          "grade": "D",
-          "summary": "Agent handled a technical address change issue by redirecting to email escalation without attempting any troubleshooting or explanation. Communication was professional but lacked warmth, personalization, and proactive problem-solving.",
-          "coaching_tip": "Before escalating technical issues, attempt basic troubleshooting or ask clarifying questions to show effort and potentially resolve simpler cases in chat.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[12:16:00 AM] t0016498261: Full Name: t0016498261 Email Address: dlcobbins@gmail.com Subject / How can we help you?: Its not allowing me to change the state of my address from Arkansas to Kansas\n[12:16:40 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:18:22 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:22:57 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:26:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:57:42.979Z"
-        },
-        {
-          "chat_id": "2044569317571653632",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-16T00:17:58.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped directly into 'allow me one moment' without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Asked one relevant clarifying question about error messages and requested a screenshot, but abandoned discovery before receiving any response."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "No resolution attempted; agent closed the chat after only 4 minutes without waiting for customer response or providing any troubleshooting steps."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Messages were clear and professional but agent failed to allow adequate time for customer responses between messages."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, but prematurely closing an unresolved issue shows poor service standards."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Offered further help but closed immediately without waiting for response, making the offer meaningless."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 48,
-          "grade": "F",
-          "summary": "Agent asked an appropriate diagnostic question but closed the chat after only 4 minutes without waiting for the customer's response or providing any troubleshooting assistance. The issue was completely unresolved and the customer was given insufficient time to reply.",
-          "coaching_tip": "Wait at least 3-5 minutes after asking a question before offering to close the chat, especially when the customer's issue remains completely unresolved.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[12:11:26 AM] t6879679078: Full Name: t6879679078 Email Address: nanacarrr1985@gmail.comn Subject / How can we help you?: Im trying to purchase some coins n its not opening the page for me to make the purchase\n[12:11:43 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:13:07 AM] Daniel Ayestas: Thank you for reaching out. Could you please let me know if you’re seeing any error message when this happens?\n\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[12:15:48 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:17:54 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:58:43.169Z"
-        },
-        {
-          "chat_id": "2044567174105575424",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-16T00:11:28.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the basic issue but failed to ask clarifying questions about device, browser, or whether the field was grayed out versus unresponsive."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided only one basic troubleshooting step (capitals) without verifying if it worked, addressing the ID question, or offering escalation for a technical issue."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Communication was clear and professional but lacked empathy for the customer's frustration and didn't acknowledge all parts of their question."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises detected."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closed prematurely without confirming the issue was resolved and ignored the customer's ID verification question entirely."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 53,
-          "grade": "F",
-          "summary": "Agent provided minimal troubleshooting with only one suggestion and closed the chat prematurely without confirming resolution or addressing the customer's question about ID verification. The interaction lacked proper greeting, thorough issue discovery, and follow-through.",
-          "coaching_tip": "Always confirm that your suggested solution worked before moving to close the chat, and ensure you address all parts of the customer's question, including the ID verification inquiry.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[12:02:55 AM] Customer: Full Name: t2542846500 Email Address: zmgcwall83@gmail.com Subject / How can we help you?: I am trying to redeem and when I try to type my full name in it will not let me type my full name in it does not light up everything else I can type in but my actual full name and do I need to send my ID a picture of my ID somewhere\n[12:03:20 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:03:22 AM] Customer: It still will not let me add my full name at the top\n[12:04:18 AM] Customer: It wont even light up nor the key board pop up to try to type\n[12:06:17 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[12:06:57 AM] Daniel Ayestas: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\n\nSometimes formatting can affect how the system processes the information.\n[12:08:52 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:11:17 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:01:08.624Z"
-        },
-        {
-          "chat_id": "2044565125947240448",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-16T00:11:22.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent struggled to identify the actual issue (name mismatch on redemption) and provided irrelevant solutions about golden eggs and KYC sync."
-            },
-            "resolution": {
-              "score": 17,
-              "notes": "Eventually escalated properly via email ticket, which was appropriate, but wasted time with incorrect troubleshooting first."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Professional tone but confusing flow with irrelevant golden egg information and multiple 'give me a moment' repetitions without clear progress updates."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated to email support when unable to resolve via chat."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Closed with 'glad we got that sorted' when issue wasn't actually sorted, just escalated; somewhat misleading but offered further help."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent eventually escalated the issue appropriately but struggled significantly with issue discovery, providing irrelevant troubleshooting about golden eggs when the customer clearly stated their name was wrong on redemption. The lack of any greeting and confusing communication with off-topic solutions detracted from an otherwise compliant interaction.",
-          "coaching_tip": "Listen carefully to the customer's actual problem statement before providing solutions—the customer clarified twice it was about name mismatch on redemption, not KYC or golden eggs.",
-          "website": "Jackpot Daily",
-          "message_count": 17,
-          "raw_transcript": "[11:54:46 PM] t6919257960: Full Name: t6919257960 Email Address: bwirtjers99@gmail.com Subject / How can we help you?: Can't claim smash bonus says I need to complete kyc but I did already so I click it and says error already verified\n[11:55:12 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:55:15 PM] t6919257960: Sorry my problem is that it says my full name is wrong but idk how to fix it\n[11:57:00 PM] t6919257960: Ok\n[11:57:09 PM] Daniel Ayestas: Give me a moment to review this information.\n[11:57:35 PM] t6919257960: Ok. I don't know what it's entered as because it only says b*************....\n[11:57:43 PM] t6919257960: And no way to change it\n[11:58:56 PM] Daniel Ayestas: Give me a moment to review this information.\n[11:58:59 PM] t6919257960: Ok\n[12:02:22 AM] Daniel Ayestas: Still here ! Thanks so much for your patience!\n[12:04:43 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[12:05:34 AM] Daniel Ayestas: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\n\nSometimes formatting can affect how the system processes the information.\n[12:07:08 AM] t6919257960: No my problem is actually it says my name is wrong on the redemption thing\n[12:07:30 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:08:02 AM] t6919257960: Ok\n[12:08:45 AM] Daniel Ayestas: Glad we got that sorted! Is there anything else I can help you with today?\n[12:11:09 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:01:21.287Z"
-        },
-        {
-          "chat_id": "2044565145257816064",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-16T00:10:52.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent inferred the issue was about a missing golden egg after KYC but never explicitly confirmed what 'Kyx warning' meant or asked clarifying questions."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Provided a reasonable troubleshooting step and clear escalation path with specific email instructions, though resolution wasn't confirmed with customer."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional instructions provided, though the long wait times and lack of confirmation from customer suggests possible communication gap."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed to official support email for manual intervention without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided a friendly closing, though customer never confirmed issue was addressed before agent closed."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 63,
-          "grade": "D",
-          "summary": "Agent provided a reasonable solution with clear escalation steps but failed to greet the customer or confirm understanding of the actual issue before responding. The lack of customer response suggests the agent may have misunderstood the 'Kyx warning' concern or closed prematurely.",
-          "coaching_tip": "Always start with a proper greeting and ask clarifying questions to confirm the exact issue before providing solutions, especially when customer messages are unclear or abbreviated.",
-          "website": "Jackpot Daily",
-          "message_count": 7,
-          "raw_transcript": "[11:54:51 PM] t7314330085: Full Name: t7314330085 Email Address: summerbeair66@gmail.com Subject / How can we help you?: Kyx warning\n[11:55:13 PM] t7314330085: Screenshot_2026-04-15-19-54-18-87_40deb401b9ffe8e1df2f1cc5ba480b12.jpg\n[11:55:19 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:02:13 AM] Daniel Ayestas: Still here ! Thanks so much for your patience!\n[12:05:56 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[12:08:12 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:10:48 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:01:32.188Z"
-        },
-        {
-          "chat_id": "2044248118702469120",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T02:59:24.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped straight into 'allow me one moment' without acknowledging the customer by name or welcoming them."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask any clarifying questions about the purchase amount, loss amount, or timing to determine if customer qualifies for assistance."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent provided policy information about Second Chance Bonus but never addressed whether customer qualifies or offered any actual help for their specific situation."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Information was clear and well-formatted, but agent didn't acknowledge customer's frustration or personalize the response to their situation."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; agent correctly explained existing bonus structure without making unauthorized promises."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing at all; conversation appears incomplete with agent offering further questions but not confirming if issue was resolved or saying goodbye."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent provided policy information about the Second Chance Bonus but failed to investigate the customer's specific situation or determine eligibility. The interaction lacked personalization, proper greeting, and closure, making it feel like a template response rather than genuine support.",
-          "coaching_tip": "Before providing policy information, ask specific questions about purchase amounts and losses to determine if the customer qualifies for help, then provide a personalized response addressing their exact situation.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[02:55:06 AM] Customer: Full Name: Brandon Nicholson Email Address: brandon.nicholson911@gmail.com Subject / How can we help you?: Bad luck on recent purchase\n[02:55:35 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:55:46 AM] Customer: Hey Daniel how are you I recently bought two packs and lost it all instantly is there anything you can do to help me out\n[02:56:41 AM] Daniel Ayestas: Allow me one moment to look into this for you!\n[02:58:53 AM] Daniel Ayestas: The Second Chance Bonus (SC Rescue Bonus) is there to soften tough days!\n\nHow it works: if you meet both a minimum purchase amount AND a minimum net SC loss on the same day, you get a % back — credited the next day.\n\nBonus tiers (based on net SC loss):\n- 100 SC: 5% back\n- 300 SC: 6% back\n- 2,000 SC: 8% back\n- 10,000 SC: 10% back\n- 30,000 SC: 15% back\n- 100,000 SC: 20% back\n- 300,000 SC: 25% back\n- 1,000,000 SC: 30% back (max!)\n\nKey things to remember:\n- You need BOTH the purchase AND loss thresholds met on the same day\n- Bonus is credited the next day, not the same day\n- Only SC losses count — GC losses don’t qualify\n\nQuestions? I’m right here!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:02:48.204Z"
-        },
-        {
-          "chat_id": "2044240378856255488",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T02:45:39.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No personalized greeting; first message was a generic 'one moment' statement without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent asked clarifying questions about redemption method and error message but never addressed the failed purchase issue and closed chat before receiving the screenshot."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "Provided general redemption information but failed to wait for the screenshot, abandoned the core issue, and left both problems unresolved."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Professional and clear but closed prematurely while customer was actively gathering requested information."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No violations but closing while customer was complying with agent's request shows poor protocol adherence."
-            },
-            "closing": {
-              "score": 2,
-              "notes": "Closed chat while customer was retrieving the requested screenshot, completely abandoning the active support session."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 45,
-          "grade": "F",
-          "summary": "Agent provided general redemption guidance and asked appropriate clarifying questions but critically failed by closing the chat while the customer was actively retrieving the requested screenshot. The failed purchase issue was also never addressed.",
-          "coaching_tip": "Never close a chat while waiting for customer-provided information you specifically requested; wait at least 5-10 minutes after the customer's last active response before offering to close.",
-          "website": "Jackpot Daily",
-          "message_count": 17,
-          "raw_transcript": "[02:24:21 AM] t6852392113: Full Name: t6852392113 Email Address: summer8318@yahoo.com Subject / How can we help you?: I’m trying to redeem but it says insufficient balance\n[02:24:43 AM] Daniel Ayestas: /Please allow me one moment to look into this for you!\n[02:25:49 AM] t6852392113: Also I tried to purchase the first time bonus $30sc for  9.99  and it didn’t go through on Apple Pay and I was only able to purchase the second purchase $20 for 9.99\n[02:26:59 AM] Daniel Ayestas: Thanks for reaching out.\n\nJust to clarify so I can guide you properly — are you trying to redeem using ACH (bank transfer) or Card Network (debit card)?\n\nLet me know which option you're using, and I’ll provide the right steps and support for you.\n[02:27:27 AM] t6852392113: It only let me choose ACH no option for debit card\n[02:28:13 AM] t6852392113: It only let me select ACH\n[02:29:14 AM] Daniel Ayestas: Please be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this issue as soon as possible.\nIn the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nYou'll need at least 100 Sweepstakes Coins that have been played through\nIf you have any questions during the process, I'm right here to help!\n[02:29:58 AM] t6852392113: I’ve played through more than 100 but it won’t let me redeem\n[02:30:12 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:34:34 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[02:34:40 AM] t6852392113: No problem\n[02:37:27 AM] Daniel Ayestas: Could you please let me know what error message you’re seeing when you try to redeem?\n\nIf possible, it would also be really helpful if you could share a screenshot of the issue. That way, I can take a closer look and assist you more accurately.\n[02:37:52 AM] t6852392113: Will I be able to minimize our chat to get it?\n[02:38:09 AM] Daniel Ayestas: Of course!\n[02:38:17 AM] t6852392113: One sec\n[02:42:47 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:45:35 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:03:44.682Z"
-        },
-        {
-          "chat_id": "2044233144089276416",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T02:05:31.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly into acknowledgment without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the verification status question and provided relevant information without needing clarification."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Provided comprehensive step-by-step verification instructions with helpful details about requirements and timeline."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, well-structured instructions with friendly tone and reassurance, though slightly lengthy."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed proper procedures, explained third-party verification partner, and set appropriate expectations."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Offered additional help and provided friendly closing with well-wishes for gameplay."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 76,
-          "grade": "C",
-          "summary": "Agent provided thorough and helpful verification instructions with good detail and a friendly tone. Only weakness was the absence of an initial greeting before diving into the issue.",
-          "coaching_tip": "Always open with a proper greeting that welcomes the customer by name before acknowledging their request.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[01:55:36 AM] t1152154177: Full Name: t1152154177 Email Address: jonescallie1968@gmail.com Subject / How can we help you?: When will I get verified?\n[01:57:43 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:59:04 AM] Daniel Ayestas: KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted verification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags!\n[02:03:12 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:05:28 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:04:24.996Z"
-        },
-        {
-          "chat_id": "2044237934625599488",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T02:23:41.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly into acknowledging the request without any welcome or introduction."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Agent confirmed the redemption submission status and identified the pending state, showing adequate understanding of the issue."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Agent appropriately escalated via email ticket with clear instructions including subject line formatting, which is proper protocol for redemption cancellations."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, professional communication with appropriate acknowledgments and detailed escalation instructions."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed proper escalation protocol without making unauthorized promises about the cancellation outcome."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance appropriately, though customer closed the chat themselves before agent could provide formal goodbye."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 70,
-          "grade": "C",
-          "summary": "Agent handled the redemption cancellation inquiry competently by confirming the status and properly escalating through the email ticket system with clear instructions. The interaction was professional and followed protocol, though it lacked an opening greeting.",
-          "coaching_tip": "Always open chats with a warm greeting and introduction before addressing the customer's issue to establish rapport and professionalism from the start.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[02:14:38 AM] t1022572948: Full Name: t1022572948 Email Address: lmlmlmxo@yahoo.com Subject / How can we help you?: I am wondering if there is an option to cancel my redemption? I’m still thinking about it but if If like to cancel it, is this an option?\n[02:14:56 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:15:58 AM] Daniel Ayestas: Just to confirm, have you already submitted your redemption request?\n\nIf so, you can view and manage it directly from your account. In some cases, if the redemption is still pending, you may also have the option to cancel it from there.\n[02:17:44 AM] t1022572948: it says pending but doesn’t allow an option to cancel\n[02:18:53 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:19:01 AM] t1022572948: thank you so much\n[02:19:51 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:22:59 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:23:36 AM] t1022572948: alright, i just sent an email. thank you for your assistance",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:05:16.964Z"
-        },
-        {
-          "chat_id": "2044233204877324288",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T02:06:44.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'one moment' without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent eventually asked a clarifying question about submission status but took over 10 minutes to do so."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided guidance on self-service option and properly escalated via email ticket, though could have checked system directly."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear instructions provided but excessive wait updates without progress created unnecessary friction."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated without making unauthorized promises."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing whatsoever; agent provided instructions and then ended chat without goodbye or further assistance offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent handled the escalation appropriately but failed basic service fundamentals with no greeting or closing. Multiple delay messages over 10+ minutes without substantive progress hurt the customer experience.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name and close every interaction by thanking them and offering further assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[01:55:50 AM] t4724759998: Full Name: t4724759998 Email Address: L7ordeal@gmail.com Subject / How can we help you?: Can I cancel a redemption\n[01:57:53 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:00:36 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[02:04:00 AM] Daniel Ayestas: We are almost there\n[02:04:06 AM] Daniel Ayestas: Thanks for your patience\n[02:04:06 AM] t4724759998: OkY\n[02:06:08 AM] Daniel Ayestas: Just to confirm, have you already submitted your redemption request?\n\nIf so, you can view and manage it directly from your account. In some cases, if the redemption is still pending, you may also have the option to cancel it from there.\n[02:06:26 AM] t4724759998: Yes\n[02:06:59 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:05:54.511Z"
-        },
-        {
-          "chat_id": "2044228527783194624",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T01:46:38.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly into acknowledgment of the issue without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the KYC/verification issue with Smash and Win feature and provided relevant troubleshooting steps."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided clear troubleshooting steps (logout/login) and proper escalation path via email with specific subject line for manual resolution."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional communication with appropriate updates during wait time, though could have been more empathetic about the frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated to official support channel without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided friendly closing, though slightly abrupt given no customer response to final offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 69,
-          "grade": "D",
-          "summary": "Agent handled the KYC verification issue competently by providing troubleshooting steps and proper escalation path. Missing a proper greeting and could have shown more empathy for customer frustration with the verification loop.",
-          "coaching_tip": "Always open with a warm greeting using the customer's name when available before diving into the issue resolution.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[01:37:15 AM] t2383404985: Full Name: t2383404985 Email Address: Joesephwehner6@gmail.com Subject / How can we help you?: It keeps telling to to set up identity verification when I click the smash and win, but when I click on it, it says kyc verified\n[01:37:29 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:41:29 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[01:42:07 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. \nThe egg should appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and logging back in? Sometimes this triggers the sync. If it is still not there after that, please email support@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and our team will apply it manually.\n[01:44:20 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[01:46:29 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:09:20.537Z"
-        },
-        {
-          "chat_id": "2044224560567775232",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T01:32:13.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the customer wanted to know about game availability and eventually picked up on the request for similar game recommendations."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "Agent failed to provide the game recommendations they twice offered, then inappropriately escalated a simple question to email support instead of helping."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Professional tone but repeated canned responses verbatim and failed to deliver on promises made during the chat."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but the escalation to email for a basic game recommendation question seems unnecessary and possibly against support efficiency standards."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Abruptly ended with an escalation instruction instead of properly closing the conversation or confirming customer satisfaction."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 50,
-          "grade": "F",
-          "summary": "Agent understood the issue and maintained professional communication but failed to deliver on their offer to recommend similar games twice, instead escalating unnecessarily to email support. The lack of greeting and abrupt ending with an escalation rather than actual help significantly impacted the customer experience.",
-          "coaching_tip": "When you offer to help with something specific like game recommendations, follow through immediately rather than escalating—if you need game info, have resources ready or consult them before making the offer.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[01:21:29 AM] t8202064181: Full Name: t8202064181 Email Address: annamarie.mesic@gmail.com Subject / How can we help you?: Just wondering when Clucking Hell will be available to play? That’s one of the main reasons why I signed up for this site.\n[01:21:47 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:24:02 AM] Daniel Ayestas: At the moment, we don’t have a confirmed release date for when Clucking Hell will be available on the platform. Our game library is always being updated, though, so there’s a chance it could be added in the future. In the meantime, we’ve got a wide range of other games you can explore — I’d be happy to recommend a few similar ones if you’d like!\n\nLet me know if there’s anything else I can help with\n[01:26:23 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[01:27:20 AM] t8202064181: So when will it be available to play?\n[01:27:41 AM] t8202064181: Or what other games do you have like clucking hell?\n[01:28:15 AM] Daniel Ayestas: At the moment, we don’t have a confirmed release date for when Clucking Hell will be available on the platform. Our game library is always being updated, though, so there’s a chance it could be added in the future. In the meantime, we’ve got a wide range of other games you can explore — I’d be happy to recommend a few similar ones if you’d like!\n[01:28:51 AM] t8202064181: yes please and just read that after I sent the message\n[01:29:30 AM] t8202064181: what games do you have that is like clucking hell?\n[01:29:48 AM] Daniel Ayestas: Give me a moment to review this information.\n[01:31:54 AM] t8202064181: okay, thank you!\n[01:32:00 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:10:22.808Z"
-        },
-        {
-          "chat_id": "2044222732643381248",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-15T01:17:03.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly into acknowledgment without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the golden egg claim issue but didn't ask clarifying questions about KYC status or previous troubleshooting attempts."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided a reasonable troubleshooting step and clear escalation path with specific instructions, though resolution wasn't immediate."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional with good structure, though could have been more empathetic given the customer's frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed to official support channel for manual intervention without making unauthorized promises."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing whatsoever; agent provided information but didn't ask if there were other questions or say goodbye."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent provided helpful troubleshooting steps and escalation path for the golden egg issue but lacked proper greeting and closing. Communication was functional but missed opportunities for warmth and follow-up confirmation.",
-          "coaching_tip": "Always open with a greeting and close by asking if the customer needs further assistance before ending the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 3,
-          "raw_transcript": "[01:14:13 AM] t0707115883: Full Name: t0707115883 Email Address: apeanutd95@gmail.com Subject / How can we help you?: I can't claim golden egg\n[01:14:40 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:15:24 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. \nThe egg should appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and logging back in? Sometimes this triggers the sync. If it is still not there after that, please email support@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and our team will apply it manually.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:11:50.904Z"
-        },
-        {
-          "chat_id": "2044201144472612864",
-          "agent_name": "Daniel Ayestas",
-          "agent_id": "5808",
-          "timestamp": "2026-04-14T23:58:15.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly into acknowledging the request without any welcome or personalized introduction."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent assumed the issue without asking clarifying questions about whether KYC was completed or what specific problem the customer was experiencing."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided comprehensive information about the Golden Egg bonus process but didn't confirm whether customer's specific issue was resolved or investigate their account status."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured explanation with numbered steps and helpful notes, though could have been more personalized to the customer's actual situation."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Properly explained terms and conditions of the bonus offer without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided a friendly closing, though customer never confirmed their issue was resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 63,
-          "grade": "D",
-          "summary": "Agent provided thorough information about the registration bonus process but failed to investigate the customer's specific account situation or confirm KYC status. The response was informative but generic, lacking personalization and proper issue discovery.",
-          "coaching_tip": "Before providing general information, ask clarifying questions to understand the customer's specific situation—have they completed KYC, can they see their account status, what error messages appear—then tailor your response accordingly.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[11:48:26 PM] t5962389448: Full Name: t5962389448 Email Address: josiebrow2992@gmail.com Subject / How can we help you?: Why can't I receive my registration bonus?\n[11:48:45 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:51:55 PM] Daniel Ayestas: Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\n\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 5 days after being issued, so grab it soon!\n\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[11:54:54 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[11:58:12 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:18:14.836Z"
-        }
-      ],
-      "avg_score": 61,
-      "grade": "D",
-      "trend": 2
-    },
-    {
       "id": "5551",
       "name": "Andrea Hernandez",
       "chats": [
@@ -3714,11 +3030,740 @@
           "raw_transcript": "[04:17:24 PM] t8190554435: Full Name: t8190554435 Email Address: kierstinnoahcole@gmail.com Subject / How can we help you?: Bonus not applied to my account\n[04:17:24 PM] t8190554435: Full Name: t8190554435 Email Address: kierstinnoahcole@gmail.com Subject / How can we help you?: Bonus not applied to my account\n[04:17:39 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:17:39 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:18:53 PM] Andrea Hernandez: Are you still there?\n[04:18:53 PM] Andrea Hernandez: Are you still there?\n[04:19:43 PM] Andrea Hernandez: Can you please explain a little more about the issue your experiencing\n[04:19:43 PM] Andrea Hernandez: Can you please explain a little more about the issue your experiencing\n[04:21:37 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:21:37 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T16:24:42.862Z"
+        },
+        {
+          "chat_id": "2047353768132943872",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T16:40:04.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though didn't use customer's name Jennifer."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Requested screenshot for clarification and correctly identified the popup blocker issue from the customer's description."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided comprehensive troubleshooting steps covering multiple solutions without waiting for screenshot, enabling quick self-service resolution."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured response with bullet points and multiple actionable solutions presented professionally."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided appropriate technical support within scope, and offered proper follow-up channel."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closure with alternative contact method provided after reasonable wait time for customer response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent Emily provided solid technical support with clear, comprehensive troubleshooting steps for a popup blocker issue. The interaction was professional and efficient, though could have been enhanced by using the customer's name and waiting for screenshot before providing full solution.",
+          "coaching_tip": "Personalize the greeting by using the customer's name (Jennifer) to create a warmer connection and build rapport from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:44:41.533Z"
         }
       ],
-      "avg_score": 60,
+      "avg_score": 61,
       "grade": "D",
-      "trend": 15
+      "trend": 14
+    },
+    {
+      "id": "5808",
+      "name": "Daniel Ayestas",
+      "chats": [
+        {
+          "chat_id": "2044573477285228544",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-16T00:33:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly to 'allow me one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent quickly identified the likely cause (formatting issue) and provided a targeted solution without unnecessary back-and-forth."
+            },
+            "resolution": {
+              "score": 26,
+              "notes": "Issue resolved efficiently with accurate troubleshooting advice that worked on first attempt."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, concise, and professional throughout with appropriate empathy and helpful tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises; handled within proper guidelines."
+            },
+            "closing": {
+              "score": 9,
+              "notes": "Polished closing with confirmation of resolution, offer for further help, and friendly sign-off."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 80,
+          "grade": "B",
+          "summary": "Agent provided efficient and accurate troubleshooting that resolved the redemption issue on first attempt. Only weakness was the absence of an initial greeting before diving into the issue.",
+          "coaching_tip": "Always open with a brief greeting (e.g., 'Hi Cindy, thanks for reaching out!') before addressing the issue to create a warmer customer experience.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[12:27:58 AM] t1032931643: Full Name: t1032931643 Email Address: cindy.cruz0523@icloud.com Subject / How can we help you?: I can’t redeem it states my name is wrong?\n[12:28:06 AM] t1032931643: Thanks\n[12:28:19 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:28:29 AM] t1032931643: Thank you!\n[12:28:49 AM] Daniel Ayestas: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\n\nSometimes formatting can affect how the system processes the information.\n[12:28:59 AM] t1032931643: Oh got it\n[12:29:48 AM] t1032931643: Give me one moment I’m trying now thansk\n[12:30:33 AM] t1032931643: It worked thank you!!\n[12:30:54 AM] Daniel Ayestas: Glad we got that sorted! Is there anything else I can help you with today?\n[12:31:12 AM] t1032931643: No that’s it thanks\n[12:32:36 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:56:58.488Z"
+        },
+        {
+          "chat_id": "2044570468622888960",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-16T00:26:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all; agent jumped directly into acknowledgment without any welcome or personalization."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the issue but asked no clarifying questions about why the change was needed or what error messages appeared."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Redirected to email escalation which may be appropriate, but no attempt to troubleshoot or explain why chat couldn't handle this address change."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional instructions provided, but lacked empathy for the customer's inconvenience with the redirect."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing, though customer never confirmed they were satisfied with the redirect solution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent handled a technical address change issue by redirecting to email escalation without attempting any troubleshooting or explanation. Communication was professional but lacked warmth, personalization, and proactive problem-solving.",
+          "coaching_tip": "Before escalating technical issues, attempt basic troubleshooting or ask clarifying questions to show effort and potentially resolve simpler cases in chat.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[12:16:00 AM] t0016498261: Full Name: t0016498261 Email Address: dlcobbins@gmail.com Subject / How can we help you?: Its not allowing me to change the state of my address from Arkansas to Kansas\n[12:16:40 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:18:22 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:22:57 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:26:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:57:42.979Z"
+        },
+        {
+          "chat_id": "2044569317571653632",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-16T00:17:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into 'allow me one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked one relevant clarifying question about error messages and requested a screenshot, but abandoned discovery before receiving any response."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution attempted; agent closed the chat after only 4 minutes without waiting for customer response or providing any troubleshooting steps."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Messages were clear and professional but agent failed to allow adequate time for customer responses between messages."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but prematurely closing an unresolved issue shows poor service standards."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but closed immediately without waiting for response, making the offer meaningless."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent asked an appropriate diagnostic question but closed the chat after only 4 minutes without waiting for the customer's response or providing any troubleshooting assistance. The issue was completely unresolved and the customer was given insufficient time to reply.",
+          "coaching_tip": "Wait at least 3-5 minutes after asking a question before offering to close the chat, especially when the customer's issue remains completely unresolved.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[12:11:26 AM] t6879679078: Full Name: t6879679078 Email Address: nanacarrr1985@gmail.comn Subject / How can we help you?: Im trying to purchase some coins n its not opening the page for me to make the purchase\n[12:11:43 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:13:07 AM] Daniel Ayestas: Thank you for reaching out. Could you please let me know if you’re seeing any error message when this happens?\n\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[12:15:48 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:17:54 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:58:43.169Z"
+        },
+        {
+          "chat_id": "2044567174105575424",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-16T00:11:28.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic issue but failed to ask clarifying questions about device, browser, or whether the field was grayed out versus unresponsive."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided only one basic troubleshooting step (capitals) without verifying if it worked, addressing the ID question, or offering escalation for a technical issue."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Communication was clear and professional but lacked empathy for the customer's frustration and didn't acknowledge all parts of their question."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed prematurely without confirming the issue was resolved and ignored the customer's ID verification question entirely."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent provided minimal troubleshooting with only one suggestion and closed the chat prematurely without confirming resolution or addressing the customer's question about ID verification. The interaction lacked proper greeting, thorough issue discovery, and follow-through.",
+          "coaching_tip": "Always confirm that your suggested solution worked before moving to close the chat, and ensure you address all parts of the customer's question, including the ID verification inquiry.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[12:02:55 AM] Customer: Full Name: t2542846500 Email Address: zmgcwall83@gmail.com Subject / How can we help you?: I am trying to redeem and when I try to type my full name in it will not let me type my full name in it does not light up everything else I can type in but my actual full name and do I need to send my ID a picture of my ID somewhere\n[12:03:20 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:03:22 AM] Customer: It still will not let me add my full name at the top\n[12:04:18 AM] Customer: It wont even light up nor the key board pop up to try to type\n[12:06:17 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[12:06:57 AM] Daniel Ayestas: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\n\nSometimes formatting can affect how the system processes the information.\n[12:08:52 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:11:17 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:01:08.624Z"
+        },
+        {
+          "chat_id": "2044565125947240448",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-16T00:11:22.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent struggled to identify the actual issue (name mismatch on redemption) and provided irrelevant solutions about golden eggs and KYC sync."
+            },
+            "resolution": {
+              "score": 17,
+              "notes": "Eventually escalated properly via email ticket, which was appropriate, but wasted time with incorrect troubleshooting first."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional tone but confusing flow with irrelevant golden egg information and multiple 'give me a moment' repetitions without clear progress updates."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated to email support when unable to resolve via chat."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed with 'glad we got that sorted' when issue wasn't actually sorted, just escalated; somewhat misleading but offered further help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent eventually escalated the issue appropriately but struggled significantly with issue discovery, providing irrelevant troubleshooting about golden eggs when the customer clearly stated their name was wrong on redemption. The lack of any greeting and confusing communication with off-topic solutions detracted from an otherwise compliant interaction.",
+          "coaching_tip": "Listen carefully to the customer's actual problem statement before providing solutions—the customer clarified twice it was about name mismatch on redemption, not KYC or golden eggs.",
+          "website": "Jackpot Daily",
+          "message_count": 17,
+          "raw_transcript": "[11:54:46 PM] t6919257960: Full Name: t6919257960 Email Address: bwirtjers99@gmail.com Subject / How can we help you?: Can't claim smash bonus says I need to complete kyc but I did already so I click it and says error already verified\n[11:55:12 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:55:15 PM] t6919257960: Sorry my problem is that it says my full name is wrong but idk how to fix it\n[11:57:00 PM] t6919257960: Ok\n[11:57:09 PM] Daniel Ayestas: Give me a moment to review this information.\n[11:57:35 PM] t6919257960: Ok. I don't know what it's entered as because it only says b*************....\n[11:57:43 PM] t6919257960: And no way to change it\n[11:58:56 PM] Daniel Ayestas: Give me a moment to review this information.\n[11:58:59 PM] t6919257960: Ok\n[12:02:22 AM] Daniel Ayestas: Still here ! Thanks so much for your patience!\n[12:04:43 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[12:05:34 AM] Daniel Ayestas: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\n\nSometimes formatting can affect how the system processes the information.\n[12:07:08 AM] t6919257960: No my problem is actually it says my name is wrong on the redemption thing\n[12:07:30 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:08:02 AM] t6919257960: Ok\n[12:08:45 AM] Daniel Ayestas: Glad we got that sorted! Is there anything else I can help you with today?\n[12:11:09 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:01:21.287Z"
+        },
+        {
+          "chat_id": "2044565145257816064",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-16T00:10:52.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent inferred the issue was about a missing golden egg after KYC but never explicitly confirmed what 'Kyx warning' meant or asked clarifying questions."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided a reasonable troubleshooting step and clear escalation path with specific email instructions, though resolution wasn't confirmed with customer."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional instructions provided, though the long wait times and lack of confirmation from customer suggests possible communication gap."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to official support email for manual intervention without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though customer never confirmed issue was addressed before agent closed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided a reasonable solution with clear escalation steps but failed to greet the customer or confirm understanding of the actual issue before responding. The lack of customer response suggests the agent may have misunderstood the 'Kyx warning' concern or closed prematurely.",
+          "coaching_tip": "Always start with a proper greeting and ask clarifying questions to confirm the exact issue before providing solutions, especially when customer messages are unclear or abbreviated.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "raw_transcript": "[11:54:51 PM] t7314330085: Full Name: t7314330085 Email Address: summerbeair66@gmail.com Subject / How can we help you?: Kyx warning\n[11:55:13 PM] t7314330085: Screenshot_2026-04-15-19-54-18-87_40deb401b9ffe8e1df2f1cc5ba480b12.jpg\n[11:55:19 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:02:13 AM] Daniel Ayestas: Still here ! Thanks so much for your patience!\n[12:05:56 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[12:08:12 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:10:48 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:01:32.188Z"
+        },
+        {
+          "chat_id": "2044248118702469120",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T02:59:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped straight into 'allow me one moment' without acknowledging the customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about the purchase amount, loss amount, or timing to determine if customer qualifies for assistance."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided policy information about Second Chance Bonus but never addressed whether customer qualifies or offered any actual help for their specific situation."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Information was clear and well-formatted, but agent didn't acknowledge customer's frustration or personalize the response to their situation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent correctly explained existing bonus structure without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing at all; conversation appears incomplete with agent offering further questions but not confirming if issue was resolved or saying goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided policy information about the Second Chance Bonus but failed to investigate the customer's specific situation or determine eligibility. The interaction lacked personalization, proper greeting, and closure, making it feel like a template response rather than genuine support.",
+          "coaching_tip": "Before providing policy information, ask specific questions about purchase amounts and losses to determine if the customer qualifies for help, then provide a personalized response addressing their exact situation.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[02:55:06 AM] Customer: Full Name: Brandon Nicholson Email Address: brandon.nicholson911@gmail.com Subject / How can we help you?: Bad luck on recent purchase\n[02:55:35 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:55:46 AM] Customer: Hey Daniel how are you I recently bought two packs and lost it all instantly is there anything you can do to help me out\n[02:56:41 AM] Daniel Ayestas: Allow me one moment to look into this for you!\n[02:58:53 AM] Daniel Ayestas: The Second Chance Bonus (SC Rescue Bonus) is there to soften tough days!\n\nHow it works: if you meet both a minimum purchase amount AND a minimum net SC loss on the same day, you get a % back — credited the next day.\n\nBonus tiers (based on net SC loss):\n- 100 SC: 5% back\n- 300 SC: 6% back\n- 2,000 SC: 8% back\n- 10,000 SC: 10% back\n- 30,000 SC: 15% back\n- 100,000 SC: 20% back\n- 300,000 SC: 25% back\n- 1,000,000 SC: 30% back (max!)\n\nKey things to remember:\n- You need BOTH the purchase AND loss thresholds met on the same day\n- Bonus is credited the next day, not the same day\n- Only SC losses count — GC losses don’t qualify\n\nQuestions? I’m right here!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:02:48.204Z"
+        },
+        {
+          "chat_id": "2044240378856255488",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T02:45:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No personalized greeting; first message was a generic 'one moment' statement without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent asked clarifying questions about redemption method and error message but never addressed the failed purchase issue and closed chat before receiving the screenshot."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Provided general redemption information but failed to wait for the screenshot, abandoned the core issue, and left both problems unresolved."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional and clear but closed prematurely while customer was actively gathering requested information."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations but closing while customer was complying with agent's request shows poor protocol adherence."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "Closed chat while customer was retrieving the requested screenshot, completely abandoning the active support session."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 45,
+          "grade": "F",
+          "summary": "Agent provided general redemption guidance and asked appropriate clarifying questions but critically failed by closing the chat while the customer was actively retrieving the requested screenshot. The failed purchase issue was also never addressed.",
+          "coaching_tip": "Never close a chat while waiting for customer-provided information you specifically requested; wait at least 5-10 minutes after the customer's last active response before offering to close.",
+          "website": "Jackpot Daily",
+          "message_count": 17,
+          "raw_transcript": "[02:24:21 AM] t6852392113: Full Name: t6852392113 Email Address: summer8318@yahoo.com Subject / How can we help you?: I’m trying to redeem but it says insufficient balance\n[02:24:43 AM] Daniel Ayestas: /Please allow me one moment to look into this for you!\n[02:25:49 AM] t6852392113: Also I tried to purchase the first time bonus $30sc for  9.99  and it didn’t go through on Apple Pay and I was only able to purchase the second purchase $20 for 9.99\n[02:26:59 AM] Daniel Ayestas: Thanks for reaching out.\n\nJust to clarify so I can guide you properly — are you trying to redeem using ACH (bank transfer) or Card Network (debit card)?\n\nLet me know which option you're using, and I’ll provide the right steps and support for you.\n[02:27:27 AM] t6852392113: It only let me choose ACH no option for debit card\n[02:28:13 AM] t6852392113: It only let me select ACH\n[02:29:14 AM] Daniel Ayestas: Please be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this issue as soon as possible.\nIn the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nYou'll need at least 100 Sweepstakes Coins that have been played through\nIf you have any questions during the process, I'm right here to help!\n[02:29:58 AM] t6852392113: I’ve played through more than 100 but it won’t let me redeem\n[02:30:12 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:34:34 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[02:34:40 AM] t6852392113: No problem\n[02:37:27 AM] Daniel Ayestas: Could you please let me know what error message you’re seeing when you try to redeem?\n\nIf possible, it would also be really helpful if you could share a screenshot of the issue. That way, I can take a closer look and assist you more accurately.\n[02:37:52 AM] t6852392113: Will I be able to minimize our chat to get it?\n[02:38:09 AM] Daniel Ayestas: Of course!\n[02:38:17 AM] t6852392113: One sec\n[02:42:47 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:45:35 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:03:44.682Z"
+        },
+        {
+          "chat_id": "2044233144089276416",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T02:05:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly into acknowledgment without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the verification status question and provided relevant information without needing clarification."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided comprehensive step-by-step verification instructions with helpful details about requirements and timeline."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, well-structured instructions with friendly tone and reassurance, though slightly lengthy."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper procedures, explained third-party verification partner, and set appropriate expectations."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered additional help and provided friendly closing with well-wishes for gameplay."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 76,
+          "grade": "C",
+          "summary": "Agent provided thorough and helpful verification instructions with good detail and a friendly tone. Only weakness was the absence of an initial greeting before diving into the issue.",
+          "coaching_tip": "Always open with a proper greeting that welcomes the customer by name before acknowledging their request.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[01:55:36 AM] t1152154177: Full Name: t1152154177 Email Address: jonescallie1968@gmail.com Subject / How can we help you?: When will I get verified?\n[01:57:43 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:59:04 AM] Daniel Ayestas: KYC (identity verification) is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted verification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags!\n[02:03:12 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:05:28 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:04:24.996Z"
+        },
+        {
+          "chat_id": "2044237934625599488",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T02:23:41.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly into acknowledging the request without any welcome or introduction."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent confirmed the redemption submission status and identified the pending state, showing adequate understanding of the issue."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent appropriately escalated via email ticket with clear instructions including subject line formatting, which is proper protocol for redemption cancellations."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, professional communication with appropriate acknowledgments and detailed escalation instructions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper escalation protocol without making unauthorized promises about the cancellation outcome."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance appropriately, though customer closed the chat themselves before agent could provide formal goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent handled the redemption cancellation inquiry competently by confirming the status and properly escalating through the email ticket system with clear instructions. The interaction was professional and followed protocol, though it lacked an opening greeting.",
+          "coaching_tip": "Always open chats with a warm greeting and introduction before addressing the customer's issue to establish rapport and professionalism from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[02:14:38 AM] t1022572948: Full Name: t1022572948 Email Address: lmlmlmxo@yahoo.com Subject / How can we help you?: I am wondering if there is an option to cancel my redemption? I’m still thinking about it but if If like to cancel it, is this an option?\n[02:14:56 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:15:58 AM] Daniel Ayestas: Just to confirm, have you already submitted your redemption request?\n\nIf so, you can view and manage it directly from your account. In some cases, if the redemption is still pending, you may also have the option to cancel it from there.\n[02:17:44 AM] t1022572948: it says pending but doesn’t allow an option to cancel\n[02:18:53 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:19:01 AM] t1022572948: thank you so much\n[02:19:51 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:22:59 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:23:36 AM] t1022572948: alright, i just sent an email. thank you for your assistance",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:05:16.964Z"
+        },
+        {
+          "chat_id": "2044233204877324288",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T02:06:44.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent eventually asked a clarifying question about submission status but took over 10 minutes to do so."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided guidance on self-service option and properly escalated via email ticket, though could have checked system directly."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear instructions provided but excessive wait updates without progress created unnecessary friction."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing whatsoever; agent provided instructions and then ended chat without goodbye or further assistance offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent handled the escalation appropriately but failed basic service fundamentals with no greeting or closing. Multiple delay messages over 10+ minutes without substantive progress hurt the customer experience.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name and close every interaction by thanking them and offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[01:55:50 AM] t4724759998: Full Name: t4724759998 Email Address: L7ordeal@gmail.com Subject / How can we help you?: Can I cancel a redemption\n[01:57:53 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:00:36 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[02:04:00 AM] Daniel Ayestas: We are almost there\n[02:04:06 AM] Daniel Ayestas: Thanks for your patience\n[02:04:06 AM] t4724759998: OkY\n[02:06:08 AM] Daniel Ayestas: Just to confirm, have you already submitted your redemption request?\n\nIf so, you can view and manage it directly from your account. In some cases, if the redemption is still pending, you may also have the option to cancel it from there.\n[02:06:26 AM] t4724759998: Yes\n[02:06:59 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:05:54.511Z"
+        },
+        {
+          "chat_id": "2044228527783194624",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T01:46:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly into acknowledgment of the issue without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the KYC/verification issue with Smash and Win feature and provided relevant troubleshooting steps."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear troubleshooting steps (logout/login) and proper escalation path via email with specific subject line for manual resolution."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional communication with appropriate updates during wait time, though could have been more empathetic about the frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated to official support channel without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing, though slightly abrupt given no customer response to final offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent handled the KYC verification issue competently by providing troubleshooting steps and proper escalation path. Missing a proper greeting and could have shown more empathy for customer frustration with the verification loop.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name when available before diving into the issue resolution.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[01:37:15 AM] t2383404985: Full Name: t2383404985 Email Address: Joesephwehner6@gmail.com Subject / How can we help you?: It keeps telling to to set up identity verification when I click the smash and win, but when I click on it, it says kyc verified\n[01:37:29 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:41:29 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[01:42:07 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. \nThe egg should appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and logging back in? Sometimes this triggers the sync. If it is still not there after that, please email support@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and our team will apply it manually.\n[01:44:20 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[01:46:29 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:09:20.537Z"
+        },
+        {
+          "chat_id": "2044224560567775232",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T01:32:13.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the customer wanted to know about game availability and eventually picked up on the request for similar game recommendations."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent failed to provide the game recommendations they twice offered, then inappropriately escalated a simple question to email support instead of helping."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional tone but repeated canned responses verbatim and failed to deliver on promises made during the chat."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but the escalation to email for a basic game recommendation question seems unnecessary and possibly against support efficiency standards."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Abruptly ended with an escalation instruction instead of properly closing the conversation or confirming customer satisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 50,
+          "grade": "F",
+          "summary": "Agent understood the issue and maintained professional communication but failed to deliver on their offer to recommend similar games twice, instead escalating unnecessarily to email support. The lack of greeting and abrupt ending with an escalation rather than actual help significantly impacted the customer experience.",
+          "coaching_tip": "When you offer to help with something specific like game recommendations, follow through immediately rather than escalating—if you need game info, have resources ready or consult them before making the offer.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[01:21:29 AM] t8202064181: Full Name: t8202064181 Email Address: annamarie.mesic@gmail.com Subject / How can we help you?: Just wondering when Clucking Hell will be available to play? That’s one of the main reasons why I signed up for this site.\n[01:21:47 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:24:02 AM] Daniel Ayestas: At the moment, we don’t have a confirmed release date for when Clucking Hell will be available on the platform. Our game library is always being updated, though, so there’s a chance it could be added in the future. In the meantime, we’ve got a wide range of other games you can explore — I’d be happy to recommend a few similar ones if you’d like!\n\nLet me know if there’s anything else I can help with\n[01:26:23 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[01:27:20 AM] t8202064181: So when will it be available to play?\n[01:27:41 AM] t8202064181: Or what other games do you have like clucking hell?\n[01:28:15 AM] Daniel Ayestas: At the moment, we don’t have a confirmed release date for when Clucking Hell will be available on the platform. Our game library is always being updated, though, so there’s a chance it could be added in the future. In the meantime, we’ve got a wide range of other games you can explore — I’d be happy to recommend a few similar ones if you’d like!\n[01:28:51 AM] t8202064181: yes please and just read that after I sent the message\n[01:29:30 AM] t8202064181: what games do you have that is like clucking hell?\n[01:29:48 AM] Daniel Ayestas: Give me a moment to review this information.\n[01:31:54 AM] t8202064181: okay, thank you!\n[01:32:00 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:10:22.808Z"
+        },
+        {
+          "chat_id": "2044222732643381248",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-15T01:17:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly into acknowledgment without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the golden egg claim issue but didn't ask clarifying questions about KYC status or previous troubleshooting attempts."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided a reasonable troubleshooting step and clear escalation path with specific instructions, though resolution wasn't immediate."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with good structure, though could have been more empathetic given the customer's frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to official support channel for manual intervention without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing whatsoever; agent provided information but didn't ask if there were other questions or say goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided helpful troubleshooting steps and escalation path for the golden egg issue but lacked proper greeting and closing. Communication was functional but missed opportunities for warmth and follow-up confirmation.",
+          "coaching_tip": "Always open with a greeting and close by asking if the customer needs further assistance before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 3,
+          "raw_transcript": "[01:14:13 AM] t0707115883: Full Name: t0707115883 Email Address: apeanutd95@gmail.com Subject / How can we help you?: I can't claim golden egg\n[01:14:40 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[01:15:24 AM] Daniel Ayestas: I am sorry to hear that - let me look into this for you. \nThe egg should appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and logging back in? Sometimes this triggers the sync. If it is still not there after that, please email support@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and our team will apply it manually.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:11:50.904Z"
+        },
+        {
+          "chat_id": "2044201144472612864",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-14T23:58:15.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly into acknowledging the request without any welcome or personalized introduction."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent assumed the issue without asking clarifying questions about whether KYC was completed or what specific problem the customer was experiencing."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided comprehensive information about the Golden Egg bonus process but didn't confirm whether customer's specific issue was resolved or investigate their account status."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured explanation with numbered steps and helpful notes, though could have been more personalized to the customer's actual situation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Properly explained terms and conditions of the bonus offer without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided a friendly closing, though customer never confirmed their issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided thorough information about the registration bonus process but failed to investigate the customer's specific account situation or confirm KYC status. The response was informative but generic, lacking personalization and proper issue discovery.",
+          "coaching_tip": "Before providing general information, ask clarifying questions to understand the customer's specific situation—have they completed KYC, can they see their account status, what error messages appear—then tailor your response accordingly.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[11:48:26 PM] t5962389448: Full Name: t5962389448 Email Address: josiebrow2992@gmail.com Subject / How can we help you?: Why can't I receive my registration bonus?\n[11:48:45 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:51:55 PM] Daniel Ayestas: Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\n\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 5 days after being issued, so grab it soon!\n\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[11:54:54 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[11:58:12 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:18:14.836Z"
+        }
+      ],
+      "avg_score": 61,
+      "grade": "D",
+      "trend": 2
     },
     {
       "id": "5801",
@@ -23350,6 +23395,51 @@
       "raw_transcript": "[04:12:46 PM] Customer: Full Name: Jim Landgraf Email Address: jimlandgraf64@gmail.com Subject / How can we help you?: I am trying to redeem 392 from my account. The button won't allow me to do so. I was approved/verified this am to do so.\n[04:12:46 PM] Customer: Full Name: Jim Landgraf Email Address: jimlandgraf64@gmail.com Subject / How can we help you?: I am trying to redeem 392 from my account. The button won't allow me to do so. I was approved/verified this am to do so.\n[04:14:05 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:14:05 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:15:51 PM] Angie Pereira: Sometime the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n• Character Limit: Keep this information within the 50-character limit.\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n[04:15:51 PM] Angie Pereira: Sometime the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n• Character Limit: Keep this information within the 50-character limit.\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n[04:17:27 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:17:27 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:17:45 PM] Customer: i did all of this and still it is not working.\n[04:17:45 PM] Customer: i did all of this and still it is not working.\n[04:19:47 PM] Angie Pereira: Are you able to send a screenshot of the error your showing\n[04:19:47 PM] Angie Pereira: Are you able to send a screenshot of the error your showing\n[04:21:06 PM] Customer: never mind...... this is a waste of my time.  This should not be that difficult. You just lost me as a customer\n[04:21:06 PM] Customer: never mind...... this is a waste of my time.  This should not be that difficult. You just lost me as a customer\n[04:22:21 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today, if you need anything else let us know\n[04:22:21 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today, if you need anything else let us know\n[04:24:29 PM] Angie Pereira: Thanks for chatting with us. Have a great day!\n[04:24:29 PM] Angie Pereira: Thanks for chatting with us. Have a great day!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T16:29:42.625Z"
+    },
+    {
+      "chat_id": "2047353768132943872",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T16:40:04.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though didn't use customer's name Jennifer."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Requested screenshot for clarification and correctly identified the popup blocker issue from the customer's description."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided comprehensive troubleshooting steps covering multiple solutions without waiting for screenshot, enabling quick self-service resolution."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured response with bullet points and multiple actionable solutions presented professionally."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided appropriate technical support within scope, and offered proper follow-up channel."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closure with alternative contact method provided after reasonable wait time for customer response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 78,
+      "grade": "C",
+      "summary": "Agent Emily provided solid technical support with clear, comprehensive troubleshooting steps for a popup blocker issue. The interaction was professional and efficient, though could have been enhanced by using the customer's name and waiting for screenshot before providing full solution.",
+      "coaching_tip": "Personalize the greeting by using the customer's name (Jennifer) to create a warmer connection and build rapport from the start.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:44:41.533Z"
     }
   ]
 }
