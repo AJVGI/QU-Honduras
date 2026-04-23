@@ -1,7 +1,7 @@
 {
-  "scored_at": "2026-04-23T14:34:42.299Z",
-  "total_chats": 226,
-  "total_agents": 22,
+  "scored_at": "2026-04-23T14:39:44.674Z",
+  "total_chats": 227,
+  "total_agents": 23,
   "agents": [
     {
       "id": "5846",
@@ -2819,6 +2819,60 @@
       "avg_score": 60,
       "grade": "D",
       "trend": 3
+    },
+    {
+      "id": "5802",
+      "name": "Dustin Euceda",
+      "chats": [
+        {
+          "chat_id": "2047322702481813504",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T14:39:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
+            },
+            "resolution": {
+              "score": 18,
+              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
+          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:39:44.173Z"
+        }
+      ],
+      "avg_score": 59,
+      "grade": "F",
+      "trend": 0
     },
     {
       "id": "5845",
@@ -20542,6 +20596,51 @@
       "raw_transcript": "[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T14:34:41.797Z"
+    },
+    {
+      "chat_id": "2047322702481813504",
+      "agent_name": "Dustin Euceda",
+      "agent_id": "5802",
+      "timestamp": "2026-04-23T14:39:14.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
+        },
+        "resolution": {
+          "score": 18,
+          "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
+      "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T14:39:44.173Z"
     }
   ]
 }
