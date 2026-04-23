@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T14:54:43.086Z",
-  "total_chats": 230,
+  "scored_at": "2026-04-23T15:09:57.291Z",
+  "total_chats": 232,
   "total_agents": 24,
   "agents": [
     {
@@ -238,6 +238,105 @@
       "trend": 0
     },
     {
+      "id": "5664",
+      "name": "David Berlioz",
+      "chats": [
+        {
+          "chat_id": "2047258440497459200",
+          "agent_name": "David Berlioz",
+          "agent_id": "5664",
+          "timestamp": "2026-04-23T10:21:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting, only asked for a moment to investigate without acknowledging the customer first."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent requested time to investigate but customer escalated before any discovery could occur."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution attempted due to customer's abusive language and refusal of help before agent could respond."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Agent remained professional and clear despite extreme provocation from customer."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly terminated conversation due to abusive language while offering future assistance channels."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional termination with clear explanation and alternative contact methods provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent handled an extremely abusive customer professionally by attempting to help initially, then appropriately terminating the conversation when disrespectful language continued. The customer refused assistance and escalated to profanity before the agent could address the bonus issue.",
+          "coaching_tip": "Include a brief greeting acknowledging the customer by name before requesting time to investigate, even in tense situations.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:26:17.675Z"
+        },
+        {
+          "chat_id": "2047256938017501184",
+          "agent_name": "David Berlioz",
+          "agent_id": "5664",
+          "timestamp": "2026-04-23T10:39:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at start; first message was just a hold statement, greeting came much later with the instructions."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Understood both the signup question and follow-up location question well, addressed each appropriately."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided clear step-by-step signup instructions and explained location services accurately with helpful guidance."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, friendly, and well-structured responses with good use of numbered steps and encouraging tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned verification requirements and provided accurate information."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with alternative contact method provided and invitation for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent provided accurate and helpful information for both signup and location services questions with clear instructions. Main weakness was the lack of initial greeting and extended response times between messages.",
+          "coaching_tip": "Start every chat with a proper greeting that acknowledges the customer by name before asking them to wait, rather than leading with a hold message.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:12:12 AM] Customer: ok...look\n[10:12:12 AM] Customer: ok...look\n[10:14:49 AM] Customer: thank you\n[10:14:49 AM] Customer: thank you\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:41:14.854Z"
+        }
+      ],
+      "avg_score": 67,
+      "grade": "D",
+      "trend": 0
+    },
+    {
       "id": "5670",
       "name": "Marcos Avila",
       "chats": [
@@ -420,108 +519,54 @@
           "raw_transcript": "[01:59:14 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:59:14 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:59:50 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:59:50 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[02:02:22 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[02:02:22 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[02:07:42 PM] Marcos Avila: Let’s get that link to you right away so you can finish up.\n\nAs a reminder, our system uses Socure to keep your data safe. Please use the secure link below to upload your Proof of Address (POA):\n\nhttps://verify.socure.com/#/dv/9518e0c3-7f3d-4655-ada1-8c131268f311\n\nTo make sure it gets approved quickly, your document needs to:\n\nBe issued within the last 90 days\n\nShow your full name and current residential address\n\nBe one of these: utility bill, bank statement, or government-issued letter\n\nNot be a PO Box address\n\nBe a clear full-page photo or scan — no screenshots\n\nOnce you've uploaded it, our team will review it and get back to you as soon as possible. Your ticket will stay as Pending while we wait for those documents to come through.\n[02:07:42 PM] Marcos Avila: Let’s get that link to you right away so you can finish up.\n\nAs a reminder, our system uses Socure to keep your data safe. Please use the secure link below to upload your Proof of Address (POA):\n\nhttps://verify.socure.com/#/dv/9518e0c3-7f3d-4655-ada1-8c131268f311\n\nTo make sure it gets approved quickly, your document needs to:\n\nBe issued within the last 90 days\n\nShow your full name and current residential address\n\nBe one of these: utility bill, bank statement, or government-issued letter\n\nNot be a PO Box address\n\nBe a clear full-page photo or scan — no screenshots\n\nOnce you've uploaded it, our team will review it and get back to you as soon as possible. Your ticket will stay as Pending while we wait for those documents to come through.\n[02:10:09 PM] t5003516845: My address is 95 Beckham circle Jackson Alabama 36545 that’s on file. Here is my bank statement which is the same as on file.\n[02:10:09 PM] t5003516845: IMG_9139.jpeg\n[02:10:09 PM] t5003516845: My address is 95 Beckham circle Jackson Alabama 36545 that’s on file. Here is my bank statement which is the same as on file.\n[02:10:09 PM] t5003516845: IMG_9139.jpeg\n[02:11:25 PM] Marcos Avila: You need to use the link and upload the information to continue with the verification; these are not done through the chat.\n[02:11:25 PM] Marcos Avila: You need to use the link and upload the information to continue with the verification; these are not done through the chat.\n[02:13:55 PM] t5003516845: IMG_9144.png\n[02:13:55 PM] t5003516845: IMG_9144.png\n[02:13:56 PM] t5003516845: This what I keep getting. Thats for drivers license upload. Smh\n[02:13:56 PM] t5003516845: This what I keep getting. Thats for drivers license upload. Smh\n[02:14:43 PM] t5003516845: Lord Jesus\n[02:14:43 PM] t5003516845: Lord Jesus\n[02:15:31 PM] Marcos Avila: You need to proceed by pressing the consent button.\n[02:15:31 PM] Marcos Avila: You need to proceed by pressing the consent button.\n[02:16:31 PM] t5003516845: I did. It keeps telling me to upload a drivers license that I have did 100 times. Lord\n[02:16:31 PM] t5003516845: I did. It keeps telling me to upload a drivers license that I have did 100 times. Lord\n[02:18:06 PM] Marcos Avila: Give me a moment to review this information.\n[02:18:06 PM] Marcos Avila: Give me a moment to review this information.\n[02:18:24 PM] Marcos Avila: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:18:24 PM] Marcos Avila: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:21:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[02:21:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[02:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[02:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
           "model_used": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T14:23:25.952Z"
-        }
-      ],
-      "avg_score": 68,
-      "grade": "D",
-      "trend": 0
-    },
-    {
-      "id": "5664",
-      "name": "David Berlioz",
-      "chats": [
-        {
-          "chat_id": "2047258440497459200",
-          "agent_name": "David Berlioz",
-          "agent_id": "5664",
-          "timestamp": "2026-04-23T10:21:33.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting, only asked for a moment to investigate without acknowledging the customer first."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent requested time to investigate but customer escalated before any discovery could occur."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "No resolution attempted due to customer's abusive language and refusal of help before agent could respond."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Agent remained professional and clear despite extreme provocation from customer."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly terminated conversation due to abusive language while offering future assistance channels."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional termination with clear explanation and alternative contact methods provided."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent handled an extremely abusive customer professionally by attempting to help initially, then appropriately terminating the conversation when disrespectful language continued. The customer refused assistance and escalated to profanity before the agent could address the bonus issue.",
-          "coaching_tip": "Include a brief greeting acknowledging the customer by name before requesting time to investigate, even in tense situations.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:26:17.675Z"
         },
         {
-          "chat_id": "2047256938017501184",
-          "agent_name": "David Berlioz",
-          "agent_id": "5664",
-          "timestamp": "2026-04-23T10:39:35.000Z",
+          "chat_id": "2047330232257421312",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T15:05:33.000Z",
           "categories": {
             "greeting": {
-              "score": 5,
-              "notes": "No greeting at start; first message was just a hold statement, greeting came much later with the instructions."
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into reviewing without acknowledging the customer."
             },
             "issue_discovery": {
-              "score": 16,
-              "notes": "Understood both the signup question and follow-up location question well, addressed each appropriately."
+              "score": 11,
+              "notes": "Agent understood the technical error but didn't ask clarifying questions about what the customer was trying to do or confirm browser details before the customer volunteered them."
             },
             "resolution": {
-              "score": 24,
-              "notes": "Provided clear step-by-step signup instructions and explained location services accurately with helpful guidance."
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps that directly address the sessionStorage error, though no follow-up to confirm if steps worked."
             },
             "communication": {
-              "score": 17,
-              "notes": "Clear, friendly, and well-structured responses with good use of numbered steps and encouraging tone."
+              "score": 15,
+              "notes": "Clear and well-structured technical instructions, but no empathy or personalization and didn't acknowledge customer's initial question about trying a different browser."
             },
             "compliance": {
               "score": 8,
-              "notes": "No policy violations; appropriately mentioned verification requirements and provided accurate information."
+              "notes": "No policy violations or unauthorized promises; stayed within appropriate support boundaries."
             },
             "closing": {
-              "score": 8,
-              "notes": "Professional closing with alternative contact method provided and invitation for further assistance."
+              "score": 0,
+              "notes": "No closing at all; transcript ends abruptly after customer provides browser info with no agent response."
             }
           },
           "auto_fail": {
             "triggered": false,
             "reason": null
           },
-          "total_score": 78,
-          "grade": "C",
-          "summary": "Agent provided accurate and helpful information for both signup and location services questions with clear instructions. Main weakness was the lack of initial greeting and extended response times between messages.",
-          "coaching_tip": "Start every chat with a proper greeting that acknowledges the customer by name before asking them to wait, rather than leading with a hold message.",
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided solid technical troubleshooting steps for a sessionStorage error but failed basic service fundamentals including greeting and closing. The interaction felt robotic with no acknowledgment of the customer's questions or follow-up after delivering the solution steps.",
+          "coaching_tip": "Always open with a greeting using the customer's name and close every interaction by confirming next steps or asking if there's anything else needed, even if waiting for customer response.",
           "website": "Jackpot Daily",
-          "message_count": 18,
-          "raw_transcript": "[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:12:12 AM] Customer: ok...look\n[10:12:12 AM] Customer: ok...look\n[10:14:49 AM] Customer: thank you\n[10:14:49 AM] Customer: thank you\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:41:14.854Z"
+          "message_count": 14,
+          "raw_transcript": "[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:34 PM] Customer: try different browser right?\n[03:03:34 PM] Customer: try different browser right?\n[03:03:38 PM] Customer: sure\n[03:03:38 PM] Customer: sure\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:50 PM] Customer: current browser firefox current version\n[03:04:50 PM] Customer: current browser firefox current version",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:09:56.790Z"
         }
       ],
-      "avg_score": 67,
+      "avg_score": 66,
       "grade": "D",
       "trend": 0
     },
@@ -5028,11 +5073,56 @@
           "raw_transcript": "[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:37:06 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:38:37 PM] t5003516845: Hi, this is Emily ill be assisting you today\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:28 PM] t5003516845: Are you still here with me?\n[02:40:36 PM] t5003516845: ???\n[02:40:36 PM] t5003516845: ???\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:41:45 PM] t5003516845: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:43:30 PM] t5003516845: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience — I’m here if you need anything in the meantime! 👍\n[02:46:19 PM] t5003516845: Are you still here?\n[02:46:19 PM] t5003516845: Are you still here?\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:47:46 PM] t5003516845: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T14:49:43.698Z"
+        },
+        {
+          "chat_id": "2047327120773656576",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T15:09:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions or confirm understanding of the POA vs driver's license confusion."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent escalated but did not clarify what would happen next or address the specific link issue customer raised."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Responses were polite but somewhat generic and did not directly address customer's repeated concern about wrong upload link."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated to specialist team."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered closing and well-wishes but closed while customer's core concern remained unaddressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent was polite and escalated the case but failed to adequately acknowledge or address the customer's specific frustration about receiving the wrong upload link repeatedly. The customer left without clear understanding of how the POA issue would be resolved differently.",
+          "coaching_tip": "When a customer repeatedly states the same concern, explicitly acknowledge that specific issue and explain what different action will be taken to prevent the same problem from recurring.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:09:42.005Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": 15
+      "trend": 13
     },
     {
       "id": "5805",
@@ -20920,6 +21010,96 @@
       "raw_transcript": "[02:42:11 PM] t3684216609: Full Name: t3684216609 Email Address: casinofanatic78@gmail.com Subject / How can we help you?: I'm looking for information on my redemption status?\n[02:42:11 PM] t3684216609: Full Name: t3684216609 Email Address: casinofanatic78@gmail.com Subject / How can we help you?: I'm looking for information on my redemption status?\n[02:42:28 PM] Diana Lopez: Hi!\n[02:42:28 PM] Diana Lopez: Hi!\n[02:42:39 PM] t3684216609: Hello\n[02:42:39 PM] t3684216609: Hello\n[02:42:51 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:42:51 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[02:43:44 PM] t3684216609: So if my ACH redemption is at pending still at 5 business days, should I be concerned\n[02:43:44 PM] t3684216609: So if my ACH redemption is at pending still at 5 business days, should I be concerned\n[02:44:56 PM] Diana Lopez: ACH transfers typically take 3 to 10 business days to appear in your bank account, depending on your bank's processing time.\n\nIf your redemption is still pending review and hasn't been approved yet, that timeframe does not start until approval happens. Our team will provide an update as soon as possible.\n[02:44:56 PM] Diana Lopez: ACH transfers typically take 3 to 10 business days to appear in your bank account, depending on your bank's processing time.\n\nIf your redemption is still pending review and hasn't been approved yet, that timeframe does not start until approval happens. Our team will provide an update as soon as possible.\n[02:45:20 PM] t3684216609: So I've been waiting a week and it's still not even approved?\n[02:45:20 PM] t3684216609: So I've been waiting a week and it's still not even approved?\n[02:45:46 PM] t3684216609: I didn't have a debit card option either\n[02:45:46 PM] t3684216609: I didn't have a debit card option either\n[02:46:12 PM] Diana Lopez: I understand that waiting a week without approval is frustrating.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible.\n[02:46:12 PM] Diana Lopez: I understand that waiting a week without approval is frustrating.\n\nYour ticket has been noted again. Our team will provide an update as soon as possible.\n[02:46:49 PM] t3684216609: I was referred by a large referrer who indicared redemption times were very fast.  This seems to be the opposite of that\n[02:46:49 PM] t3684216609: I was referred by a large referrer who indicared redemption times were very fast.  This seems to be the opposite of that\n[02:47:22 PM] t3684216609: I don't feel I have unrealistic expectations, like some players, but a week and not being approved is quite unusual\n[02:47:22 PM] t3684216609: I don't feel I have unrealistic expectations, like some players, but a week and not being approved is quite unusual\n[02:47:50 PM] Diana Lopez: You're right. Being told your ticket has been 'noted' over and over without any real update is frustrating, and I apologize for that.\n\nI don't have access to see why your redemption hasn't been approved after a full week. I understand that's not the answer you want, but I want to be honest with you.\n\nWhat I can do is make sure your case is brought to a supervisor's attention directly.\n[02:47:50 PM] Diana Lopez: You're right. Being told your ticket has been 'noted' over and over without any real update is frustrating, and I apologize for that.\n\nI don't have access to see why your redemption hasn't been approved after a full week. I understand that's not the answer you want, but I want to be honest with you.\n\nWhat I can do is make sure your case is brought to a supervisor's attention directly.\n[02:48:03 PM] t3684216609: In the end, I'm not spending another penny until this is processed so I guess it saves me money\n[02:48:03 PM] t3684216609: In the end, I'm not spending another penny until this is processed so I guess it saves me money\n[02:48:41 PM] Diana Lopez: I completely understand. I wouldn't want to spend more either if I were in your situation. You've been patient long enough, and I don't blame you for feeling this way.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible.\n[02:48:41 PM] Diana Lopez: I completely understand. I wouldn't want to spend more either if I were in your situation. You've been patient long enough, and I don't blame you for feeling this way.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible.\n[02:49:44 PM] t3684216609: Ultimately, I spend thousands of dollars every month on sites and gave this one a try, I'm still way down even with this redemption so it's not a great customer feeling having to wait and be ghosted on the process. I do appreciate your understanding\n[02:49:44 PM] t3684216609: Ultimately, I spend thousands of dollars every month on sites and gave this one a try, I'm still way down even with this redemption so it's not a great customer feeling having to wait and be ghosted on the process. I do appreciate your understanding\n[02:50:32 PM] Diana Lopez: Thank you for being so honest, and I truly appreciate you giving our platform a try. You're exactly the kind of player we want to keep, and I'm genuinely sorry we've let you down here.\n\nWaiting a week without any real update is not the experience you deserve, especially when you're still down overall. I understand why you're frustrated, and I don't blame you.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible. Thank you again for your patience and for being so reasonable throughout this.\n[02:50:32 PM] Diana Lopez: Thank you for being so honest, and I truly appreciate you giving our platform a try. You're exactly the kind of player we want to keep, and I'm genuinely sorry we've let you down here.\n\nWaiting a week without any real update is not the experience you deserve, especially when you're still down overall. I understand why you're frustrated, and I don't blame you.\n\nI've made sure your case has been brought to a supervisor's attention. Our team will provide an update as soon as possible. Thank you again for your patience and for being so reasonable throughout this.\n[02:51:01 PM] t3684216609: I have no choice but to wait, unfortunately.  Have a good day\n[02:51:01 PM] t3684216609: I have no choice but to wait, unfortunately.  Have a good day\n[02:51:18 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:51:18 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:51:36 PM] t3684216609: Ok, I hope soon\n[02:51:36 PM] t3684216609: Ok, I hope soon\n[02:52:05 PM] t3684216609: At this point, I haven't shared the experience with my affiliate referral because she usually refers good sites\n[02:52:05 PM] t3684216609: At this point, I haven't shared the experience with my affiliate referral because she usually refers good sites\n[02:52:26 PM] t3684216609: Have a good day\n[02:52:26 PM] t3684216609: Have a good day\n[02:52:35 PM] Diana Lopez: I understand completely. You're someone who shares good sites with your referrals, and you want to be confident in what you recommend. Right now, we haven't given you that confidence, and I'm sorry for that\n[02:52:35 PM] Diana Lopez: I understand completely. You're someone who shares good sites with your referrals, and you want to be confident in what you recommend. Right now, we haven't given you that confidence, and I'm sorry for that",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T14:54:42.585Z"
+    },
+    {
+      "chat_id": "2047327120773656576",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-23T15:09:05.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not ask clarifying questions or confirm understanding of the POA vs driver's license confusion."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent escalated but did not clarify what would happen next or address the specific link issue customer raised."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Responses were polite but somewhat generic and did not directly address customer's repeated concern about wrong upload link."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated to specialist team."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered closing and well-wishes but closed while customer's core concern remained unaddressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent was polite and escalated the case but failed to adequately acknowledge or address the customer's specific frustration about receiving the wrong upload link repeatedly. The customer left without clear understanding of how the POA issue would be resolved differently.",
+      "coaching_tip": "When a customer repeatedly states the same concern, explicitly acknowledge that specific issue and explain what different action will be taken to prevent the same problem from recurring.",
+      "website": "Jackpot Daily",
+      "message_count": 28,
+      "raw_transcript": "[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:49:57 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:04 PM] t5003516845: IMG_9139.jpeg\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:05 PM] t5003516845: Why is yall giving me a hard time about my address. Here you go again. Same as on file\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:51:59 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:52:28 PM] t5003516845: They keep sending me a link to upload my drivers license. SMH. I did that 100 times.\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:53:10 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:54:23 PM] Angie Pereira: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:17 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:57:45 PM] t5003516845: What do you mean. I need to verify my account.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[02:58:41 PM] Angie Pereira: Once this is resolved, we’ll notify you via email with an update.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case).\n\nThanks so much for your patience.\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:01:49 PM] t5003516845: I already received a link. It’s only a drivers license upload link. You all haven’t sent me nothing for my address or POA\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:03:14 PM] t5003516845: Ok ok ok\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:04:23 PM] Angie Pereira: Our specialist team will follow up via email very soon! Sorry for the inconvinience this might be causing\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[03:09:00 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T15:09:42.005Z"
+    },
+    {
+      "chat_id": "2047330232257421312",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-23T15:05:33.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into reviewing without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the technical error but didn't ask clarifying questions about what the customer was trying to do or confirm browser details before the customer volunteered them."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive troubleshooting steps that directly address the sessionStorage error, though no follow-up to confirm if steps worked."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and well-structured technical instructions, but no empathy or personalization and didn't acknowledge customer's initial question about trying a different browser."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises; stayed within appropriate support boundaries."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing at all; transcript ends abruptly after customer provides browser info with no agent response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 57,
+      "grade": "F",
+      "summary": "Agent provided solid technical troubleshooting steps for a sessionStorage error but failed basic service fundamentals including greeting and closing. The interaction felt robotic with no acknowledgment of the customer's questions or follow-up after delivering the solution steps.",
+      "coaching_tip": "Always open with a greeting using the customer's name and close every interaction by confirming next steps or asking if there's anything else needed, even if waiting for customer response.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:34 PM] Customer: try different browser right?\n[03:03:34 PM] Customer: try different browser right?\n[03:03:38 PM] Customer: sure\n[03:03:38 PM] Customer: sure\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:50 PM] Customer: current browser firefox current version\n[03:04:50 PM] Customer: current browser firefox current version",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T15:09:56.790Z"
     }
   ]
 }
