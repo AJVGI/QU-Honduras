@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T17:44:51.987Z",
-  "total_chats": 270,
+  "scored_at": "2026-04-23T17:50:17.969Z",
+  "total_chats": 275,
   "total_agents": 24,
   "agents": [
     {
@@ -231,11 +231,56 @@
           "raw_transcript": "[05:34:40 PM] t8445651746: Full Name: t8445651746 Email Address: scherellewells@icloud.com Subject / How can we help you?: Where can I find my transaction history. I don’t see wallet in the menu on the left\n[05:34:40 PM] t8445651746: Full Name: t8445651746 Email Address: scherellewells@icloud.com Subject / How can we help you?: Where can I find my transaction history. I don’t see wallet in the menu on the left\n[05:37:12 PM] Dustin Euceda: Hey Amber! Thanks so much for using our platform — and I’m really sorry for the inconvenience you’ve experienced.\n\nYou should be able to view your transaction history by going to your account settings and checking the Account Information section.\n\nFrom my side, I’ve reviewed your account and I can see your transaction history. Your most recent activity is a redemption of 380 that was made today.\n\nIf you have any questions about it or need help with anything else, I’m right here for you! 😊\n[05:37:12 PM] Dustin Euceda: Hey Amber! Thanks so much for using our platform — and I’m really sorry for the inconvenience you’ve experienced.\n\nYou should be able to view your transaction history by going to your account settings and checking the Account Information section.\n\nFrom my side, I’ve reviewed your account and I can see your transaction history. Your most recent activity is a redemption of 380 that was made today.\n\nIf you have any questions about it or need help with anything else, I’m right here for you! 😊\n[05:39:51 PM] Dustin Euceda: are youystill there?\n[05:39:51 PM] Dustin Euceda: are youystill there?\n[05:41:08 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[05:41:08 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T17:44:42.374Z"
+        },
+        {
+          "chat_id": "2047370405777600512",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T17:47:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm greeting with customer name, appreciation expressed, and emoji added personal touch."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the issue from customer's message and checked ticket status, though no additional clarifying questions were asked."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent checked escalation status, followed up with team, and set clear expectations for email notification—appropriate handling of escalated issue."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic, and professional with good acknowledgment of frustration and apology for delay."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No unauthorized promises made, appropriately managed expectations about escalated ticket process."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and thanked customer for patience, though customer ended chat quickly."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent handled the escalated bonus issue professionally with empathy and appropriate follow-up action. Communication was warm and clear with realistic expectations set about the escalation process.",
+          "coaching_tip": "Consider asking if the customer has any questions about the escalation process or timeline to ensure complete understanding before closing.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[05:41:57 PM] t8190554435: Full Name: t8190554435 Email Address: kierstinnoahcole@gmail.com Subject / How can we help you?: Bonus not applied to my account\n[05:41:57 PM] t8190554435: Full Name: t8190554435 Email Address: kierstinnoahcole@gmail.com Subject / How can we help you?: Bonus not applied to my account\n[05:43:14 PM] t8190554435: I was told about a week ago my claim would be escalated to the correct department when I first deposited I only received my deposit and not the bonus I was suppose to have when I made my first deposit on April 9th Thank you\n[05:43:14 PM] t8190554435: I was told about a week ago my claim would be escalated to the correct department when I first deposited I only received my deposit and not the bonus I was suppose to have when I made my first deposit on April 9th Thank you\n[05:43:50 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:43:50 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:43:56 PM] t8190554435: Okay\n[05:43:56 PM] t8190554435: Okay\n[05:47:00 PM] t8190554435: Okay\n[05:47:00 PM] t8190554435: Okay\n[05:47:16 PM] Dustin Euceda: Hey JOHNATHON! Thank you so much for using our platform — we truly appreciate having you as a valued player 💙\n\nI’m really sorry for the issues you’ve been experiencing with your bonuses. I completely understand how frustrating that can be.\n\nI’ve just checked the status of your escalated ticket. I sincerely apologize for the delay — there aren’t any updates just yet. However, I’ve just followed up with our team to request more information and an update specifically on your case.\n\nAs soon as there’s any news, you’ll be notified via your email and your account.\n\nThanks so much for your patience — I’m here if you need anything else in the meantime!\n[05:47:16 PM] Dustin Euceda: Hey JOHNATHON! Thank you so much for using our platform — we truly appreciate having you as a valued player 💙\n\nI’m really sorry for the issues you’ve been experiencing with your bonuses. I completely understand how frustrating that can be.\n\nI’ve just checked the status of your escalated ticket. I sincerely apologize for the delay — there aren’t any updates just yet. However, I’ve just followed up with our team to request more information and an update specifically on your case.\n\nAs soon as there’s any news, you’ll be notified via your email and your account.\n\nThanks so much for your patience — I’m here if you need anything else in the meantime!\n[05:47:28 PM] t8190554435: Ok ty\n[05:47:28 PM] t8190554435: Ok ty",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:50:01.327Z"
         }
       ],
-      "avg_score": 70,
+      "avg_score": 71,
       "grade": "C",
-      "trend": 0
+      "trend": 14
     },
     {
       "id": "5846",
@@ -798,11 +843,56 @@
           "raw_transcript": "[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:34 PM] Customer: try different browser right?\n[03:03:34 PM] Customer: try different browser right?\n[03:03:38 PM] Customer: sure\n[03:03:38 PM] Customer: sure\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:50 PM] Customer: current browser firefox current version\n[03:04:50 PM] Customer: current browser firefox current version",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T15:09:56.790Z"
+        },
+        {
+          "chat_id": "2047371297369190400",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T17:48:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the AMOE code question and provided relevant information, though customer needed clarification on location."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided correct step-by-step instructions and clarified when customer asked for more specific guidance on where to find the code."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with detailed instructions, though initial response was lengthy and customer still needed clarification."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed policy correctly by explaining AMOE process, KYC requirements, and code limitations without violations."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing provided; conversation ended abruptly after repeating instructions with no offer of further help or goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided accurate and detailed AMOE code instructions but failed to greet the customer at the start and did not close the conversation properly. The resolution was effective, though the initial lengthy response required follow-up clarification.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name when available, and close every interaction by confirming satisfaction and offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:49:41.927Z"
         }
       ],
-      "avg_score": 66,
+      "avg_score": 65,
       "grade": "D",
-      "trend": 0
+      "trend": -20
     },
     {
       "id": "5801",
@@ -2859,11 +2949,101 @@
           "raw_transcript": "[05:28:36 PM] t8445651746: Full Name: t8445651746 Email Address: scherellewells@icloud.com Subject / How can we help you?: Where can I find my transaction history\n[05:28:36 PM] t8445651746: Full Name: t8445651746 Email Address: scherellewells@icloud.com Subject / How can we help you?: Where can I find my transaction history\n[05:28:53 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:28:53 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:29:03 PM] t8445651746: Hi\n[05:29:03 PM] t8445651746: Hi\n[05:29:40 PM] Andrea Hernandez: You can find your transaction history by following these steps:\n\nLog in to your account\nOpen the menu (top left corner)\nGo to “Wallet” or “Transactions”\nThere you’ll be able to see all your purchases, gameplay, and redemptions\n[05:29:40 PM] Andrea Hernandez: You can find your transaction history by following these steps:\n\nLog in to your account\nOpen the menu (top left corner)\nGo to “Wallet” or “Transactions”\nThere you’ll be able to see all your purchases, gameplay, and redemptions\n[05:29:51 PM] t8445651746: Ok thank you!!\n[05:29:51 PM] t8445651746: Ok thank you!!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T17:35:01.234Z"
+        },
+        {
+          "chat_id": "2047370641836650496",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T17:46:44.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting present but generic and didn't use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked when redemption was submitted but didn't clarify the customer's concern about review status difference between redemptions."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard timeframe information but didn't address the specific concern about why this redemption wasn't reviewed instantly like the previous one."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with good formatting, but didn't acknowledge the customer's comparison to their previous faster experience."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and provided accurate general timeframe information."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Appropriate timeout close with alternative contact method provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided standard redemption timeframe information but missed the customer's key concern about inconsistent review times between their current and previous redemption. The response was professional but didn't fully address why the experience differed this time.",
+          "coaching_tip": "When customers compare current experience to previous interactions, acknowledge the difference and explain why processing times may vary rather than just providing standard timeframes.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[05:42:53 PM] Customer: Full Name: Gonzalez Yecenia Email Address: yecegonza172@gmail.com Subject / How can we help you?: I made a redemption,how long is going to take for me to get it?\n[05:42:53 PM] Customer: Full Name: Gonzalez Yecenia Email Address: yecegonza172@gmail.com Subject / How can we help you?: I made a redemption,how long is going to take for me to get it?\n[05:43:06 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:43:06 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:43:33 PM] Customer: The other one i did you guys reveiwed it instantly\n[05:43:33 PM] Customer: The other one i did you guys reveiwed it instantly\n[05:43:41 PM] Andrea Hernandez: When did you submitted your redemption request?\n[05:43:41 PM] Andrea Hernandez: When did you submitted your redemption request?\n[05:43:51 PM] Customer: But this one hasnt been reviewed\n[05:43:51 PM] Customer: But this one hasnt been reviewed\n[05:44:06 PM] Customer: Last night\n[05:44:06 PM] Customer: Last night\n[05:44:13 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\nACH Bank Transfer: up to 10 business days total\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[05:44:13 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\nACH Bank Transfer: up to 10 business days total\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[05:46:42 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:46:42 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:50:09.735Z"
+        },
+        {
+          "chat_id": "2047369823109083136",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T17:46:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though brief and lacked personalization with customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the location error issue and appropriately requested a screenshot for troubleshooting."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Issue was not resolved; agent requested screenshot but customer didn't return, so no actual troubleshooting occurred."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout, with appropriate check-ins during customer silence."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; handled appropriately within guidelines."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with alternative contact method provided when customer became unresponsive."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled the interaction professionally by requesting a screenshot to diagnose the location error issue, but the customer became unresponsive before troubleshooting could proceed. The agent appropriately checked in multiple times and closed with proper instructions for follow-up.",
+          "coaching_tip": "Consider using the customer's name (Danny) in the greeting to create a more personalized connection from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[05:39:38 PM] Customer: Full Name: Danny Springer Email Address: 67bats@gmail.com Subject / How can we help you?: Says enable location every time I try to log in and my location is on\n[05:39:38 PM] Customer: Full Name: Danny Springer Email Address: 67bats@gmail.com Subject / How can we help you?: Says enable location every time I try to log in and my location is on\n[05:39:55 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:39:55 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:40:04 PM] Customer: Thank you\n[05:40:04 PM] Customer: Thank you\n[05:40:09 PM] Andrea Hernandez: Can you please send me a screenshot\n[05:40:09 PM] Andrea Hernandez: Can you please send me a screenshot\n[05:40:30 PM] Customer: Let me try to get back to it\n[05:40:30 PM] Customer: Let me try to get back to it\n[05:40:48 PM] Andrea Hernandez: Thank you\n[05:40:48 PM] Andrea Hernandez: Thank you\n[05:42:41 PM] Andrea Hernandez: Still here!\n[05:42:41 PM] Andrea Hernandez: Still here!\n[05:44:58 PM] Andrea Hernandez: Are you still here?\n[05:44:58 PM] Andrea Hernandez: Are you still here?\n[05:46:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:46:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:50:17.468Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": 0
+      "trend": -2
     },
     {
       "id": "5554",
@@ -3678,11 +3858,56 @@
           "raw_transcript": "[05:34:17 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why have only 1 of my 11 referrals given me rewards? 3 of them have made purchases.\n[05:34:17 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why have only 1 of my 11 referrals given me rewards? 3 of them have made purchases.\n[05:34:42 PM] Diana Lopez: Hello!\\\n[05:34:42 PM] Diana Lopez: Hello!\\\n[05:34:49 PM] t5122722497: Hello\n[05:34:49 PM] t5122722497: Hello\n[05:35:24 PM] Diana Lopez: I understand your frustration. You have 11 referrals, 3 of them have made purchases, but only 1 has given you a reward. That's not what you expected, and I get why you're concerned.\n\n*I've looked into this issue. Based on recent reports from other players, the referral system appears to have been having technical problems around April 9-11, where qualified referrals weren't triggering rewards properly . Some players reported showing signups and purchases in their stats but showing '0 qualified' .*\n\nTo qualify for the referral bonus, each friend must complete all three steps:\n• Register using your referral link or code\n• Complete KYC verification\n• Make cumulative purchases totaling at least $70\n[05:35:24 PM] Diana Lopez: I understand your frustration. You have 11 referrals, 3 of them have made purchases, but only 1 has given you a reward. That's not what you expected, and I get why you're concerned.\n\n*I've looked into this issue. Based on recent reports from other players, the referral system appears to have been having technical problems around April 9-11, where qualified referrals weren't triggering rewards properly . Some players reported showing signups and purchases in their stats but showing '0 qualified' .*\n\nTo qualify for the referral bonus, each friend must complete all three steps:\n• Register using your referral link or code\n• Complete KYC verification\n• Make cumulative purchases totaling at least $70\n[05:36:51 PM] t5122722497: When I referred the users that was not the case, it stated kyc, use my link, and make a $10 purchase. Not 70$. When the referrals were made it was only $10. That should be honored since that is when I made the referral.\n[05:36:51 PM] t5122722497: When I referred the users that was not the case, it stated kyc, use my link, and make a $10 purchase. Not 70$. When the referrals were made it was only $10. That should be honored since that is when I made the referral.\n[05:37:04 PM] t5122722497: If it would have been 70$ I would not have referred.\n[05:37:04 PM] t5122722497: If it would have been 70$ I would not have referred.\n[05:37:50 PM] t5122722497: In fact the one referral I made that does show as qualified, only made 2 purchases and they did not total $70.\n[05:37:50 PM] t5122722497: In fact the one referral I made that does show as qualified, only made 2 purchases and they did not total $70.\n[05:38:38 PM] Diana Lopez: thank you for pointing that out. That's very helpful information.\n\nIf one of your referrals qualified for the reward without reaching $70 in purchases, that confirms the requirement at the time you made your referrals was indeed lower than $70 — likely the $10 requirement you mentioned.\n[05:38:38 PM] Diana Lopez: thank you for pointing that out. That's very helpful information.\n\nIf one of your referrals qualified for the reward without reaching $70 in purchases, that confirms the requirement at the time you made your referrals was indeed lower than $70 — likely the $10 requirement you mentioned.\n[05:39:09 PM] Diana Lopez: I understand this is frustrating, and you're right to expect consistency.\n[05:39:09 PM] Diana Lopez: I understand this is frustrating, and you're right to expect consistency.\n[05:39:31 PM] t5122722497: Yes, but the other referrals were also in that time period, made the 10$ deposit and I was not credited for them.\n[05:39:31 PM] t5122722497: Yes, but the other referrals were also in that time period, made the 10$ deposit and I was not credited for them.\n[05:40:00 PM] Diana Lopez: o confirm what you are seeing, the current terms require that your referred friend completes KYC verification and makes cumulative purchases totaling at least $70 for you to qualify for that specific referral bonus.\n\nIt's also worth noting that other sections of the referral program, such as the lifetime gameplay rebate or milestone rewards, often have different requirements—some may only require a first purchase, for example, without the cumulative total.\n\nTo be sure, you could:\n\nCheck the \"Invite Friends\" section inside your account dashboard, where the latest requirements are usually displayed.\n\nLook at a recent referral email or link you've shared, which often lists the current terms.\n\nCompare with your qualified referral's activity to see if the $70 threshold was met in their case.\n\nIf you have a referral that qualified recently, checking their total purchase amount would be the fastest way to confirm the current rule directly.\n[05:40:00 PM] Diana Lopez: o confirm what you are seeing, the current terms require that your referred friend completes KYC verification and makes cumulative purchases totaling at least $70 for you to qualify for that specific referral bonus.\n\nIt's also worth noting that other sections of the referral program, such as the lifetime gameplay rebate or milestone rewards, often have different requirements—some may only require a first purchase, for example, without the cumulative total.\n\nTo be sure, you could:\n\nCheck the \"Invite Friends\" section inside your account dashboard, where the latest requirements are usually displayed.\n\nLook at a recent referral email or link you've shared, which often lists the current terms.\n\nCompare with your qualified referral's activity to see if the $70 threshold was met in their case.\n\nIf you have a referral that qualified recently, checking their total purchase amount would be the fastest way to confirm the current rule directly.\n[05:41:20 PM] t5122722497: There is no where that says $70 nowhere. I just checked. This is disingenuous and will turn future players away. I hope you will correct and honor my referrals made before the change\n[05:41:20 PM] t5122722497: There is no where that says $70 nowhere. I just checked. This is disingenuous and will turn future players away. I hope you will correct and honor my referrals made before the change\n[05:42:36 PM] Diana Lopez: Thank you for checking and for being so direct. You're right — if the $70 requirement isn't stated anywhere clearly, that's a problem, and I understand why you feel misled.\n\nI've noted your feedback and your concern about referrals made before any change. Our team will review your case and provide an update as soon as possible.\n\nThank you for your patience.\n[05:42:36 PM] Diana Lopez: Thank you for checking and for being so direct. You're right — if the $70 requirement isn't stated anywhere clearly, that's a problem, and I understand why you feel misled.\n\nI've noted your feedback and your concern about referrals made before any change. Our team will review your case and provide an update as soon as possible.\n\nThank you for your patience.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T17:44:51.486Z"
+        },
+        {
+          "chat_id": "2047369874444853248",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T17:48:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the discrepancy between advertised 10 SC and received 0.10 SC but didn't investigate the specific promotion claim."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent explained variable promotions but failed to verify the Facebook ad claim or escalate the significant discrepancy between 10 SC advertised and 0.10 SC received."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and empathetic tone with emojis, but responses became repetitive and didn't directly address the customer's core complaint about false advertising."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately explained terms without unauthorized promises."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Standard offer for further help but no acknowledgment of customer's dissatisfaction or follow-up plan."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided general information about sign-up bonuses but failed to investigate the customer's specific claim about a 10 SC Facebook promotion versus the 0.10 SC received. The response was polite but didn't adequately resolve the discrepancy or escalate what could be a false advertising issue.",
+          "coaching_tip": "When customers reference specific promotional amounts from ads or social media, verify the promotion details in your system or escalate to ensure advertised offers match what customers receive.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[05:39:51 PM] t5401811699: Full Name: t5401811699 Email Address: justtine200@gmail.com Subject / How can we help you?: Sign up bonus no deposit?\n[05:39:51 PM] t5401811699: Full Name: t5401811699 Email Address: justtine200@gmail.com Subject / How can we help you?: Sign up bonus no deposit?\n[05:40:16 PM] Diana Lopez: Hello!\n[05:40:16 PM] Diana Lopez: Hello!\n[05:40:32 PM] t5401811699: Hi\n[05:40:32 PM] t5401811699: Hi\n[05:40:47 PM] Diana Lopez: Great question! 😊 Yes, we do offer a small sign-up bonus with no deposit required. When you create your account, you’ll receive free Gold Coins and a small amount of Sweeps Coins, which you can use to play right away.\n\nKeep in mind that Sweeps Coins need to be played through before they become redeemable. You can also earn additional free coins through daily check-ins and promotions.\n\nLet me know if you need help finding your bonus!\n[05:40:47 PM] Diana Lopez: Great question! 😊 Yes, we do offer a small sign-up bonus with no deposit required. When you create your account, you’ll receive free Gold Coins and a small amount of Sweeps Coins, which you can use to play right away.\n\nKeep in mind that Sweeps Coins need to be played through before they become redeemable. You can also earn additional free coins through daily check-ins and promotions.\n\nLet me know if you need help finding your bonus!\n[05:41:09 PM] t5401811699: 10 cents?\n[05:41:09 PM] t5401811699: 10 cents?\n[05:41:20 PM] t5401811699: That's not a bonus\n[05:41:20 PM] t5401811699: That's not a bonus\n[05:41:32 PM] t5401811699: It says 10sc on fb\n[05:41:32 PM] t5401811699: It says 10sc on fb\n[05:41:42 PM] Diana Lopez: I understand why it might feel that way 😅 The sign-up bonus is actually a small amount of Sweeps Coins (usually around 1–2 SC, which is about $1–$2). It’s meant to let you try the platform for free, and you can build up more through daily bonuses and promotions.\n[05:41:42 PM] Diana Lopez: I understand why it might feel that way 😅 The sign-up bonus is actually a small amount of Sweeps Coins (usually around 1–2 SC, which is about $1–$2). It’s meant to let you try the platform for free, and you can build up more through daily bonuses and promotions.\n[05:42:31 PM] t5401811699: Well that's what I'm asking\n[05:42:31 PM] t5401811699: Well that's what I'm asking\n[05:42:40 PM] t5401811699: It only gave me ..10\n[05:42:40 PM] t5401811699: It only gave me ..10\n[05:43:30 PM] Diana Lopez: I understand, that can definitely feel a bit low 😕\n\nThe amount you receive can vary depending on the promotion available at the time of sign-up. In some cases, accounts may start with a smaller amount of Sweeps Coins, such as 0.10 SC, especially if it’s part of a limited or introductory offer.\n\nYou’ll still be able to collect additional free Sweeps Coins through daily check-ins, promotions, and referrals, which can help build up your balance over time.\n[05:43:30 PM] Diana Lopez: I understand, that can definitely feel a bit low 😕\n\nThe amount you receive can vary depending on the promotion available at the time of sign-up. In some cases, accounts may start with a smaller amount of Sweeps Coins, such as 0.10 SC, especially if it’s part of a limited or introductory offer.\n\nYou’ll still be able to collect additional free Sweeps Coins through daily check-ins, promotions, and referrals, which can help build up your balance over time.\n[05:45:26 PM] Diana Lopez: Is there anything else I can help you with today?\n[05:45:26 PM] Diana Lopez: Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:49:51.524Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -3
+      "trend": -1
     },
     {
       "id": "5808",
@@ -24520,6 +24745,231 @@
       "raw_transcript": "[05:34:17 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why have only 1 of my 11 referrals given me rewards? 3 of them have made purchases.\n[05:34:17 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why have only 1 of my 11 referrals given me rewards? 3 of them have made purchases.\n[05:34:42 PM] Diana Lopez: Hello!\\\n[05:34:42 PM] Diana Lopez: Hello!\\\n[05:34:49 PM] t5122722497: Hello\n[05:34:49 PM] t5122722497: Hello\n[05:35:24 PM] Diana Lopez: I understand your frustration. You have 11 referrals, 3 of them have made purchases, but only 1 has given you a reward. That's not what you expected, and I get why you're concerned.\n\n*I've looked into this issue. Based on recent reports from other players, the referral system appears to have been having technical problems around April 9-11, where qualified referrals weren't triggering rewards properly . Some players reported showing signups and purchases in their stats but showing '0 qualified' .*\n\nTo qualify for the referral bonus, each friend must complete all three steps:\n• Register using your referral link or code\n• Complete KYC verification\n• Make cumulative purchases totaling at least $70\n[05:35:24 PM] Diana Lopez: I understand your frustration. You have 11 referrals, 3 of them have made purchases, but only 1 has given you a reward. That's not what you expected, and I get why you're concerned.\n\n*I've looked into this issue. Based on recent reports from other players, the referral system appears to have been having technical problems around April 9-11, where qualified referrals weren't triggering rewards properly . Some players reported showing signups and purchases in their stats but showing '0 qualified' .*\n\nTo qualify for the referral bonus, each friend must complete all three steps:\n• Register using your referral link or code\n• Complete KYC verification\n• Make cumulative purchases totaling at least $70\n[05:36:51 PM] t5122722497: When I referred the users that was not the case, it stated kyc, use my link, and make a $10 purchase. Not 70$. When the referrals were made it was only $10. That should be honored since that is when I made the referral.\n[05:36:51 PM] t5122722497: When I referred the users that was not the case, it stated kyc, use my link, and make a $10 purchase. Not 70$. When the referrals were made it was only $10. That should be honored since that is when I made the referral.\n[05:37:04 PM] t5122722497: If it would have been 70$ I would not have referred.\n[05:37:04 PM] t5122722497: If it would have been 70$ I would not have referred.\n[05:37:50 PM] t5122722497: In fact the one referral I made that does show as qualified, only made 2 purchases and they did not total $70.\n[05:37:50 PM] t5122722497: In fact the one referral I made that does show as qualified, only made 2 purchases and they did not total $70.\n[05:38:38 PM] Diana Lopez: thank you for pointing that out. That's very helpful information.\n\nIf one of your referrals qualified for the reward without reaching $70 in purchases, that confirms the requirement at the time you made your referrals was indeed lower than $70 — likely the $10 requirement you mentioned.\n[05:38:38 PM] Diana Lopez: thank you for pointing that out. That's very helpful information.\n\nIf one of your referrals qualified for the reward without reaching $70 in purchases, that confirms the requirement at the time you made your referrals was indeed lower than $70 — likely the $10 requirement you mentioned.\n[05:39:09 PM] Diana Lopez: I understand this is frustrating, and you're right to expect consistency.\n[05:39:09 PM] Diana Lopez: I understand this is frustrating, and you're right to expect consistency.\n[05:39:31 PM] t5122722497: Yes, but the other referrals were also in that time period, made the 10$ deposit and I was not credited for them.\n[05:39:31 PM] t5122722497: Yes, but the other referrals were also in that time period, made the 10$ deposit and I was not credited for them.\n[05:40:00 PM] Diana Lopez: o confirm what you are seeing, the current terms require that your referred friend completes KYC verification and makes cumulative purchases totaling at least $70 for you to qualify for that specific referral bonus.\n\nIt's also worth noting that other sections of the referral program, such as the lifetime gameplay rebate or milestone rewards, often have different requirements—some may only require a first purchase, for example, without the cumulative total.\n\nTo be sure, you could:\n\nCheck the \"Invite Friends\" section inside your account dashboard, where the latest requirements are usually displayed.\n\nLook at a recent referral email or link you've shared, which often lists the current terms.\n\nCompare with your qualified referral's activity to see if the $70 threshold was met in their case.\n\nIf you have a referral that qualified recently, checking their total purchase amount would be the fastest way to confirm the current rule directly.\n[05:40:00 PM] Diana Lopez: o confirm what you are seeing, the current terms require that your referred friend completes KYC verification and makes cumulative purchases totaling at least $70 for you to qualify for that specific referral bonus.\n\nIt's also worth noting that other sections of the referral program, such as the lifetime gameplay rebate or milestone rewards, often have different requirements—some may only require a first purchase, for example, without the cumulative total.\n\nTo be sure, you could:\n\nCheck the \"Invite Friends\" section inside your account dashboard, where the latest requirements are usually displayed.\n\nLook at a recent referral email or link you've shared, which often lists the current terms.\n\nCompare with your qualified referral's activity to see if the $70 threshold was met in their case.\n\nIf you have a referral that qualified recently, checking their total purchase amount would be the fastest way to confirm the current rule directly.\n[05:41:20 PM] t5122722497: There is no where that says $70 nowhere. I just checked. This is disingenuous and will turn future players away. I hope you will correct and honor my referrals made before the change\n[05:41:20 PM] t5122722497: There is no where that says $70 nowhere. I just checked. This is disingenuous and will turn future players away. I hope you will correct and honor my referrals made before the change\n[05:42:36 PM] Diana Lopez: Thank you for checking and for being so direct. You're right — if the $70 requirement isn't stated anywhere clearly, that's a problem, and I understand why you feel misled.\n\nI've noted your feedback and your concern about referrals made before any change. Our team will review your case and provide an update as soon as possible.\n\nThank you for your patience.\n[05:42:36 PM] Diana Lopez: Thank you for checking and for being so direct. You're right — if the $70 requirement isn't stated anywhere clearly, that's a problem, and I understand why you feel misled.\n\nI've noted your feedback and your concern about referrals made before any change. Our team will review your case and provide an update as soon as possible.\n\nThank you for your patience.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T17:44:51.486Z"
+    },
+    {
+      "chat_id": "2047371297369190400",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-23T17:48:59.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the AMOE code question and provided relevant information, though customer needed clarification on location."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided correct step-by-step instructions and clarified when customer asked for more specific guidance on where to find the code."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional with detailed instructions, though initial response was lengthy and customer still needed clarification."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed policy correctly by explaining AMOE process, KYC requirements, and code limitations without violations."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing provided; conversation ended abruptly after repeating instructions with no offer of further help or goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent provided accurate and detailed AMOE code instructions but failed to greet the customer at the start and did not close the conversation properly. The resolution was effective, though the initial lengthy response required follow-up clarification.",
+      "coaching_tip": "Always open with a warm greeting using the customer's name when available, and close every interaction by confirming satisfaction and offering further assistance.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:49:41.927Z"
+    },
+    {
+      "chat_id": "2047369874444853248",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T17:48:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the discrepancy between advertised 10 SC and received 0.10 SC but didn't investigate the specific promotion claim."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent explained variable promotions but failed to verify the Facebook ad claim or escalate the significant discrepancy between 10 SC advertised and 0.10 SC received."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and empathetic tone with emojis, but responses became repetitive and didn't directly address the customer's core complaint about false advertising."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately explained terms without unauthorized promises."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Standard offer for further help but no acknowledgment of customer's dissatisfaction or follow-up plan."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided general information about sign-up bonuses but failed to investigate the customer's specific claim about a 10 SC Facebook promotion versus the 0.10 SC received. The response was polite but didn't adequately resolve the discrepancy or escalate what could be a false advertising issue.",
+      "coaching_tip": "When customers reference specific promotional amounts from ads or social media, verify the promotion details in your system or escalate to ensure advertised offers match what customers receive.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[05:39:51 PM] t5401811699: Full Name: t5401811699 Email Address: justtine200@gmail.com Subject / How can we help you?: Sign up bonus no deposit?\n[05:39:51 PM] t5401811699: Full Name: t5401811699 Email Address: justtine200@gmail.com Subject / How can we help you?: Sign up bonus no deposit?\n[05:40:16 PM] Diana Lopez: Hello!\n[05:40:16 PM] Diana Lopez: Hello!\n[05:40:32 PM] t5401811699: Hi\n[05:40:32 PM] t5401811699: Hi\n[05:40:47 PM] Diana Lopez: Great question! 😊 Yes, we do offer a small sign-up bonus with no deposit required. When you create your account, you’ll receive free Gold Coins and a small amount of Sweeps Coins, which you can use to play right away.\n\nKeep in mind that Sweeps Coins need to be played through before they become redeemable. You can also earn additional free coins through daily check-ins and promotions.\n\nLet me know if you need help finding your bonus!\n[05:40:47 PM] Diana Lopez: Great question! 😊 Yes, we do offer a small sign-up bonus with no deposit required. When you create your account, you’ll receive free Gold Coins and a small amount of Sweeps Coins, which you can use to play right away.\n\nKeep in mind that Sweeps Coins need to be played through before they become redeemable. You can also earn additional free coins through daily check-ins and promotions.\n\nLet me know if you need help finding your bonus!\n[05:41:09 PM] t5401811699: 10 cents?\n[05:41:09 PM] t5401811699: 10 cents?\n[05:41:20 PM] t5401811699: That's not a bonus\n[05:41:20 PM] t5401811699: That's not a bonus\n[05:41:32 PM] t5401811699: It says 10sc on fb\n[05:41:32 PM] t5401811699: It says 10sc on fb\n[05:41:42 PM] Diana Lopez: I understand why it might feel that way 😅 The sign-up bonus is actually a small amount of Sweeps Coins (usually around 1–2 SC, which is about $1–$2). It’s meant to let you try the platform for free, and you can build up more through daily bonuses and promotions.\n[05:41:42 PM] Diana Lopez: I understand why it might feel that way 😅 The sign-up bonus is actually a small amount of Sweeps Coins (usually around 1–2 SC, which is about $1–$2). It’s meant to let you try the platform for free, and you can build up more through daily bonuses and promotions.\n[05:42:31 PM] t5401811699: Well that's what I'm asking\n[05:42:31 PM] t5401811699: Well that's what I'm asking\n[05:42:40 PM] t5401811699: It only gave me ..10\n[05:42:40 PM] t5401811699: It only gave me ..10\n[05:43:30 PM] Diana Lopez: I understand, that can definitely feel a bit low 😕\n\nThe amount you receive can vary depending on the promotion available at the time of sign-up. In some cases, accounts may start with a smaller amount of Sweeps Coins, such as 0.10 SC, especially if it’s part of a limited or introductory offer.\n\nYou’ll still be able to collect additional free Sweeps Coins through daily check-ins, promotions, and referrals, which can help build up your balance over time.\n[05:43:30 PM] Diana Lopez: I understand, that can definitely feel a bit low 😕\n\nThe amount you receive can vary depending on the promotion available at the time of sign-up. In some cases, accounts may start with a smaller amount of Sweeps Coins, such as 0.10 SC, especially if it’s part of a limited or introductory offer.\n\nYou’ll still be able to collect additional free Sweeps Coins through daily check-ins, promotions, and referrals, which can help build up your balance over time.\n[05:45:26 PM] Diana Lopez: Is there anything else I can help you with today?\n[05:45:26 PM] Diana Lopez: Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:49:51.524Z"
+    },
+    {
+      "chat_id": "2047370405777600512",
+      "agent_name": "Dustin Euceda",
+      "agent_id": "5802",
+      "timestamp": "2026-04-23T17:47:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm greeting with customer name, appreciation expressed, and emoji added personal touch."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the issue from customer's message and checked ticket status, though no additional clarifying questions were asked."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent checked escalation status, followed up with team, and set clear expectations for email notification—appropriate handling of escalated issue."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, empathetic, and professional with good acknowledgment of frustration and apology for delay."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "No unauthorized promises made, appropriately managed expectations about escalated ticket process."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance and thanked customer for patience, though customer ended chat quickly."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 75,
+      "grade": "C",
+      "summary": "Agent handled the escalated bonus issue professionally with empathy and appropriate follow-up action. Communication was warm and clear with realistic expectations set about the escalation process.",
+      "coaching_tip": "Consider asking if the customer has any questions about the escalation process or timeline to ensure complete understanding before closing.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[05:41:57 PM] t8190554435: Full Name: t8190554435 Email Address: kierstinnoahcole@gmail.com Subject / How can we help you?: Bonus not applied to my account\n[05:41:57 PM] t8190554435: Full Name: t8190554435 Email Address: kierstinnoahcole@gmail.com Subject / How can we help you?: Bonus not applied to my account\n[05:43:14 PM] t8190554435: I was told about a week ago my claim would be escalated to the correct department when I first deposited I only received my deposit and not the bonus I was suppose to have when I made my first deposit on April 9th Thank you\n[05:43:14 PM] t8190554435: I was told about a week ago my claim would be escalated to the correct department when I first deposited I only received my deposit and not the bonus I was suppose to have when I made my first deposit on April 9th Thank you\n[05:43:50 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:43:50 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[05:43:56 PM] t8190554435: Okay\n[05:43:56 PM] t8190554435: Okay\n[05:47:00 PM] t8190554435: Okay\n[05:47:00 PM] t8190554435: Okay\n[05:47:16 PM] Dustin Euceda: Hey JOHNATHON! Thank you so much for using our platform — we truly appreciate having you as a valued player 💙\n\nI’m really sorry for the issues you’ve been experiencing with your bonuses. I completely understand how frustrating that can be.\n\nI’ve just checked the status of your escalated ticket. I sincerely apologize for the delay — there aren’t any updates just yet. However, I’ve just followed up with our team to request more information and an update specifically on your case.\n\nAs soon as there’s any news, you’ll be notified via your email and your account.\n\nThanks so much for your patience — I’m here if you need anything else in the meantime!\n[05:47:16 PM] Dustin Euceda: Hey JOHNATHON! Thank you so much for using our platform — we truly appreciate having you as a valued player 💙\n\nI’m really sorry for the issues you’ve been experiencing with your bonuses. I completely understand how frustrating that can be.\n\nI’ve just checked the status of your escalated ticket. I sincerely apologize for the delay — there aren’t any updates just yet. However, I’ve just followed up with our team to request more information and an update specifically on your case.\n\nAs soon as there’s any news, you’ll be notified via your email and your account.\n\nThanks so much for your patience — I’m here if you need anything else in the meantime!\n[05:47:28 PM] t8190554435: Ok ty\n[05:47:28 PM] t8190554435: Ok ty",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:50:01.327Z"
+    },
+    {
+      "chat_id": "2047370641836650496",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T17:46:44.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting present but generic and didn't use customer's name."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Asked when redemption was submitted but didn't clarify the customer's concern about review status difference between redemptions."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard timeframe information but didn't address the specific concern about why this redemption wasn't reviewed instantly like the previous one."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional with good formatting, but didn't acknowledge the customer's comparison to their previous faster experience."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations and provided accurate general timeframe information."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Appropriate timeout close with alternative contact method provided."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided standard redemption timeframe information but missed the customer's key concern about inconsistent review times between their current and previous redemption. The response was professional but didn't fully address why the experience differed this time.",
+      "coaching_tip": "When customers compare current experience to previous interactions, acknowledge the difference and explain why processing times may vary rather than just providing standard timeframes.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[05:42:53 PM] Customer: Full Name: Gonzalez Yecenia Email Address: yecegonza172@gmail.com Subject / How can we help you?: I made a redemption,how long is going to take for me to get it?\n[05:42:53 PM] Customer: Full Name: Gonzalez Yecenia Email Address: yecegonza172@gmail.com Subject / How can we help you?: I made a redemption,how long is going to take for me to get it?\n[05:43:06 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:43:06 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:43:33 PM] Customer: The other one i did you guys reveiwed it instantly\n[05:43:33 PM] Customer: The other one i did you guys reveiwed it instantly\n[05:43:41 PM] Andrea Hernandez: When did you submitted your redemption request?\n[05:43:41 PM] Andrea Hernandez: When did you submitted your redemption request?\n[05:43:51 PM] Customer: But this one hasnt been reviewed\n[05:43:51 PM] Customer: But this one hasnt been reviewed\n[05:44:06 PM] Customer: Last night\n[05:44:06 PM] Customer: Last night\n[05:44:13 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\nACH Bank Transfer: up to 10 business days total\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[05:44:13 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\nACH Bank Transfer: up to 10 business days total\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[05:46:42 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:46:42 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:50:09.735Z"
+    },
+    {
+      "chat_id": "2047369823109083136",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T17:46:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though brief and lacked personalization with customer's name."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the location error issue and appropriately requested a screenshot for troubleshooting."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Issue was not resolved; agent requested screenshot but customer didn't return, so no actual troubleshooting occurred."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional throughout, with appropriate check-ins during customer silence."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; handled appropriately within guidelines."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Professional closing with alternative contact method provided when customer became unresponsive."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent handled the interaction professionally by requesting a screenshot to diagnose the location error issue, but the customer became unresponsive before troubleshooting could proceed. The agent appropriately checked in multiple times and closed with proper instructions for follow-up.",
+      "coaching_tip": "Consider using the customer's name (Danny) in the greeting to create a more personalized connection from the start.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[05:39:38 PM] Customer: Full Name: Danny Springer Email Address: 67bats@gmail.com Subject / How can we help you?: Says enable location every time I try to log in and my location is on\n[05:39:38 PM] Customer: Full Name: Danny Springer Email Address: 67bats@gmail.com Subject / How can we help you?: Says enable location every time I try to log in and my location is on\n[05:39:55 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:39:55 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:40:04 PM] Customer: Thank you\n[05:40:04 PM] Customer: Thank you\n[05:40:09 PM] Andrea Hernandez: Can you please send me a screenshot\n[05:40:09 PM] Andrea Hernandez: Can you please send me a screenshot\n[05:40:30 PM] Customer: Let me try to get back to it\n[05:40:30 PM] Customer: Let me try to get back to it\n[05:40:48 PM] Andrea Hernandez: Thank you\n[05:40:48 PM] Andrea Hernandez: Thank you\n[05:42:41 PM] Andrea Hernandez: Still here!\n[05:42:41 PM] Andrea Hernandez: Still here!\n[05:44:58 PM] Andrea Hernandez: Are you still here?\n[05:44:58 PM] Andrea Hernandez: Are you still here?\n[05:46:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:46:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:50:17.468Z"
     }
   ]
 }
