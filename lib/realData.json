@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T17:19:42.845Z",
-  "total_chats": 264,
+  "scored_at": "2026-04-23T17:29:43.391Z",
+  "total_chats": 265,
   "total_agents": 24,
   "agents": [
     {
@@ -1392,11 +1392,56 @@
           "raw_transcript": "[04:17:54 PM] t7555694719: Full Name: t7555694719 Email Address: dmw9219@yahoo.com Subject / How can we help you?: Please permanently block my account. Email address is dmw9219@yahoo.com. Gambling problem. Please don’t wait for further confirmation\n[04:17:54 PM] t7555694719: Full Name: t7555694719 Email Address: dmw9219@yahoo.com Subject / How can we help you?: Please permanently block my account. Email address is dmw9219@yahoo.com. Gambling problem. Please don’t wait for further confirmation\n[04:18:17 PM] Diana Lopez: Understood\n[04:18:17 PM] Diana Lopez: Understood\n[04:20:47 PM] Diana Lopez: As requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[04:20:47 PM] Diana Lopez: As requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T16:24:51.163Z"
+        },
+        {
+          "chat_id": "2047366715515121664",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T17:29:16.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Simple 'Hello' greeting, professional but minimal personalization."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Quickly understood the deletion request and asked appropriate confirmation questions about balance and consequences."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Processed the account deletion after proper confirmation, but no closing offer for further assistance or farewell."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear, structured communication with bullet points explaining consequences, professional throughout."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly confirmed understanding of irreversible action and forfeiture of funds before processing."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, farewell, or offer of further assistance after processing the deletion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent handled the account deletion request efficiently with proper confirmations and clear communication about consequences. However, the interaction ended abruptly without any closing statement or farewell after processing the deletion.",
+          "coaching_tip": "Always include a proper closing statement even for account deletions, such as 'We're sorry to see you go' and 'If you need anything else, feel free to reach out' before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:27:17 PM] t6076976710: Full Name: t6076976710 Email Address: sarahmichellebrown325@gmail.com Subject / How can we help you?: Delete accpunt\n[05:27:17 PM] t6076976710: Full Name: t6076976710 Email Address: sarahmichellebrown325@gmail.com Subject / How can we help you?: Delete accpunt\n[05:27:35 PM] Diana Lopez: Hello!\n[05:27:35 PM] Diana Lopez: Hello!\n[05:28:01 PM] t6076976710: Hi i want to delete my account\n[05:28:01 PM] t6076976710: Hi i want to delete my account\n[05:28:04 PM] Diana Lopez: I understand you want to delete your account. I can help with that.\n\nPlease confirm the following:\n\n• You have withdrawn any remaining balance\n• You understand that once deleted, your account cannot be recovered\n• You understand that any unused SC or GC will be forfeited\n\nOnce you confirm, I will process your account deletion request.\n\nPlease reply confirming you wish to proceed.\n[05:28:04 PM] Diana Lopez: I understand you want to delete your account. I can help with that.\n\nPlease confirm the following:\n\n• You have withdrawn any remaining balance\n• You understand that once deleted, your account cannot be recovered\n• You understand that any unused SC or GC will be forfeited\n\nOnce you confirm, I will process your account deletion request.\n\nPlease reply confirming you wish to proceed.\n[05:28:30 PM] t6076976710: I confirm\n[05:28:30 PM] t6076976710: I confirm\n[05:29:05 PM] Diana Lopez: Thank you for confirming. I have processed your account deletion request. Your account has been closed and any remaining balance has been forfeited.\n[05:29:05 PM] Diana Lopez: Thank you for confirming. I have processed your account deletion request. Your account has been closed and any remaining balance has been forfeited.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:29:42.889Z"
         }
       ],
       "avg_score": 64,
       "grade": "D",
-      "trend": 3
+      "trend": 6
     },
     {
       "id": "5801",
@@ -23980,6 +24025,51 @@
       "raw_transcript": "[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:23 PM] t9620154908: Hello amanda\n[05:07:23 PM] t9620154908: Hello amanda\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T17:19:42.343Z"
+    },
+    {
+      "chat_id": "2047366715515121664",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T17:29:16.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Simple 'Hello' greeting, professional but minimal personalization."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Quickly understood the deletion request and asked appropriate confirmation questions about balance and consequences."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Processed the account deletion after proper confirmation, but no closing offer for further assistance or farewell."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear, structured communication with bullet points explaining consequences, professional throughout."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly confirmed understanding of irreversible action and forfeiture of funds before processing."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, farewell, or offer of further assistance after processing the deletion."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 69,
+      "grade": "D",
+      "summary": "Agent handled the account deletion request efficiently with proper confirmations and clear communication about consequences. However, the interaction ended abruptly without any closing statement or farewell after processing the deletion.",
+      "coaching_tip": "Always include a proper closing statement even for account deletions, such as 'We're sorry to see you go' and 'If you need anything else, feel free to reach out' before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[05:27:17 PM] t6076976710: Full Name: t6076976710 Email Address: sarahmichellebrown325@gmail.com Subject / How can we help you?: Delete accpunt\n[05:27:17 PM] t6076976710: Full Name: t6076976710 Email Address: sarahmichellebrown325@gmail.com Subject / How can we help you?: Delete accpunt\n[05:27:35 PM] Diana Lopez: Hello!\n[05:27:35 PM] Diana Lopez: Hello!\n[05:28:01 PM] t6076976710: Hi i want to delete my account\n[05:28:01 PM] t6076976710: Hi i want to delete my account\n[05:28:04 PM] Diana Lopez: I understand you want to delete your account. I can help with that.\n\nPlease confirm the following:\n\n• You have withdrawn any remaining balance\n• You understand that once deleted, your account cannot be recovered\n• You understand that any unused SC or GC will be forfeited\n\nOnce you confirm, I will process your account deletion request.\n\nPlease reply confirming you wish to proceed.\n[05:28:04 PM] Diana Lopez: I understand you want to delete your account. I can help with that.\n\nPlease confirm the following:\n\n• You have withdrawn any remaining balance\n• You understand that once deleted, your account cannot be recovered\n• You understand that any unused SC or GC will be forfeited\n\nOnce you confirm, I will process your account deletion request.\n\nPlease reply confirming you wish to proceed.\n[05:28:30 PM] t6076976710: I confirm\n[05:28:30 PM] t6076976710: I confirm\n[05:29:05 PM] Diana Lopez: Thank you for confirming. I have processed your account deletion request. Your account has been closed and any remaining balance has been forfeited.\n[05:29:05 PM] Diana Lopez: Thank you for confirming. I have processed your account deletion request. Your account has been closed and any remaining balance has been forfeited.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T17:29:42.889Z"
     }
   ]
 }
