@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T22:59:43.995Z",
-  "total_chats": 339,
+  "scored_at": "2026-04-23T23:04:41.768Z",
+  "total_chats": 340,
   "total_agents": 25,
   "agents": [
     {
@@ -7620,11 +7620,56 @@
           "raw_transcript": "[09:36:14 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account I am trying but it won't let me do it\n[09:36:14 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account I am trying but it won't let me do it\n[09:36:32 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:36:32 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:37:56 PM] Oskar Abaunza: Thanks for reaching out!\n\nJust give me a moment while I take a look at your account — I’ll check this for you right away\n[09:37:56 PM] Oskar Abaunza: Thanks for reaching out!\n\nJust give me a moment while I take a look at your account — I’ll check this for you right away\n[09:40:54 PM] Oskar Abaunza: st a quick question — have you already created an account?\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:24 PM] Oskar Abaunza: Just a quick question — have you already created an account?\n\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:24 PM] Oskar Abaunza: Just a quick question — have you already created an account?\n\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:55 PM] Customer: lori.green588@gmail.com\n[09:42:55 PM] Customer: lori.green588@gmail.com\n[09:44:23 PM] Oskar Abaunza: Thanks so much for sharing your email!\n[09:44:23 PM] Oskar Abaunza: Thanks so much for sharing your email!\n[09:47:14 PM] Oskar Abaunza: Just to check — when you try to log in, do you see the “Forgot Password?�� option?\n\nIf possible, could you please send me a screenshot of what you're seeing on your end? That’ll help me take a closer look and guide you properly.\n[09:47:14 PM] Oskar Abaunza: Just to check — when you try to log in, do you see the “Forgot Password?” option?\n\nIf possible, could you please send me a screenshot of what you're seeing on your end? That’ll help me take a closer look and guide you properly.\n[09:47:53 PM] Customer: ok hold on\n[09:47:53 PM] Customer: ok hold on\n[09:49:14 PM] Oskar Abaunza: No rush at all — feel free to take your time. I’ll be right here when you’re ready.\n[09:49:14 PM] Oskar Abaunza: No rush at all — feel free to take your time. I’ll be right here when you’re ready.\n[09:52:51 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:52:51 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:57:03 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:57:03 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T21:59:44.677Z"
+        },
+        {
+          "chat_id": "2047446328103235584",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-23T23:03:32.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent immediately asked for a moment to investigate without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent eventually clarified the payment method but took too long to understand the customer's concern about approved but unreceived funds."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided accurate information about ACH processing times and explained the timeframe, though could have checked specific transaction status."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Professional and clear but sent generic information before addressing the specific concern, causing customer to repeat themselves."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard processing timeframes and appropriate information about redemption methods."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though customer never confirmed satisfaction before agent closed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent provided accurate information about ACH processing times and resolved the concern appropriately, but failed to greet the customer and initially responded with generic information instead of addressing the specific issue. The customer had to repeat their concern before the agent properly engaged with the actual problem.",
+          "coaching_tip": "Always start with a proper greeting using the customer's name, and read the customer's initial message carefully before responding with generic information—address their specific concern first.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[10:43:39 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: My redemption\n[10:43:39 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: My redemption\n[10:43:51 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[10:43:51 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[10:44:14 PM] t4431329314: It says it was successful but it still hasn’t hit ny bank account\n[10:44:14 PM] t4431329314: It says it was successful but it still hasn’t hit ny bank account\n[10:45:14 PM] Oskar Abaunza: Give me a moment to review this information.\n[10:45:14 PM] Oskar Abaunza: Give me a moment to review this information.\n[10:46:15 PM] Oskar Abaunza: In the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nSounds like you're ready to cash out!\nYou'll need at least 100 Sweepstakes Coins that have been played through\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this inconvenient as soon as possible.\nIf you have any questions during the process, I'm right here to help!\n[10:46:15 PM] Oskar Abaunza: In the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nSounds like you're ready to cash out!\nYou'll need at least 100 Sweepstakes Coins that have been played through\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this inconvenient as soon as possible.\nIf you have any questions during the process, I'm right here to help!\n[10:50:01 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[10:50:01 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[10:54:49 PM] t4431329314: Yes my 100 redemption was approved and I got a Message saying it successfully processed but I have NOT received the money in my account.\n[10:54:49 PM] t4431329314: Yes my 100 redemption was approved and I got a Message saying it successfully processed but I have NOT received the money in my account.\n[10:55:56 PM] Oskar Abaunza: Just to confirm — were you trying to redeem using ACH bank transfer?\n[10:55:56 PM] Oskar Abaunza: Just to confirm — were you trying to redeem using ACH bank transfer?\n[10:56:25 PM] t4431329314: Yes.\n[10:56:25 PM] t4431329314: Yes.\n[10:57:58 PM] Oskar Abaunza: Just a quick heads up — ACH bank transfer redemptions can take up to 10 business days to be fully processed.\n\nIf your request is still within that timeframe, everything should be on track — we just ask for a bit more patience while it completes.\n[10:57:58 PM] Oskar Abaunza: Just a quick heads up — ACH bank transfer redemptions can take up to 10 business days to be fully processed.\n\nIf your request is still within that timeframe, everything should be on track — we just ask for a bit more patience while it completes.\n[11:00:34 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[11:00:34 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[11:03:19 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:03:19 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:04:41.266Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": -8
+      "trend": -6
     },
     {
       "id": "5670",
@@ -30739,6 +30784,51 @@
       "raw_transcript": "[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:58 PM] t9878504969: Ok\n[10:43:58 PM] t9878504969: Ok\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:32 PM] t9878504969: Ok\n[10:46:32 PM] t9878504969: Ok\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:23 PM] t9878504969: Ok\n[10:52:23 PM] t9878504969: Ok\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n��� Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:47 PM] t9878504969: Ok\n[10:58:47 PM] t9878504969: Ok",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T22:59:43.493Z"
+    },
+    {
+      "chat_id": "2047446328103235584",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-23T23:03:32.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent immediately asked for a moment to investigate without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent eventually clarified the payment method but took too long to understand the customer's concern about approved but unreceived funds."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided accurate information about ACH processing times and explained the timeframe, though could have checked specific transaction status."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Professional and clear but sent generic information before addressing the specific concern, causing customer to repeat themselves."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided standard processing timeframes and appropriate information about redemption methods."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided a friendly closing, though customer never confirmed satisfaction before agent closed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 65,
+      "grade": "D",
+      "summary": "Agent provided accurate information about ACH processing times and resolved the concern appropriately, but failed to greet the customer and initially responded with generic information instead of addressing the specific issue. The customer had to repeat their concern before the agent properly engaged with the actual problem.",
+      "coaching_tip": "Always start with a proper greeting using the customer's name, and read the customer's initial message carefully before responding with generic information—address their specific concern first.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[10:43:39 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: My redemption\n[10:43:39 PM] t4431329314: Full Name: t4431329314 Email Address: chante.sexton@gmail.com Subject / How can we help you?: My redemption\n[10:43:51 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[10:43:51 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[10:44:14 PM] t4431329314: It says it was successful but it still hasn’t hit ny bank account\n[10:44:14 PM] t4431329314: It says it was successful but it still hasn’t hit ny bank account\n[10:45:14 PM] Oskar Abaunza: Give me a moment to review this information.\n[10:45:14 PM] Oskar Abaunza: Give me a moment to review this information.\n[10:46:15 PM] Oskar Abaunza: In the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nSounds like you're ready to cash out!\nYou'll need at least 100 Sweepstakes Coins that have been played through\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this inconvenient as soon as possible.\nIf you have any questions during the process, I'm right here to help!\n[10:46:15 PM] Oskar Abaunza: In the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nSounds like you're ready to cash out!\nYou'll need at least 100 Sweepstakes Coins that have been played through\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this inconvenient as soon as possible.\nIf you have any questions during the process, I'm right here to help!\n[10:50:01 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[10:50:01 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[10:54:49 PM] t4431329314: Yes my 100 redemption was approved and I got a Message saying it successfully processed but I have NOT received the money in my account.\n[10:54:49 PM] t4431329314: Yes my 100 redemption was approved and I got a Message saying it successfully processed but I have NOT received the money in my account.\n[10:55:56 PM] Oskar Abaunza: Just to confirm — were you trying to redeem using ACH bank transfer?\n[10:55:56 PM] Oskar Abaunza: Just to confirm — were you trying to redeem using ACH bank transfer?\n[10:56:25 PM] t4431329314: Yes.\n[10:56:25 PM] t4431329314: Yes.\n[10:57:58 PM] Oskar Abaunza: Just a quick heads up — ACH bank transfer redemptions can take up to 10 business days to be fully processed.\n\nIf your request is still within that timeframe, everything should be on track — we just ask for a bit more patience while it completes.\n[10:57:58 PM] Oskar Abaunza: Just a quick heads up — ACH bank transfer redemptions can take up to 10 business days to be fully processed.\n\nIf your request is still within that timeframe, everything should be on track — we just ask for a bit more patience while it completes.\n[11:00:34 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[11:00:34 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[11:03:19 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:03:19 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T23:04:41.266Z"
     }
   ]
 }
