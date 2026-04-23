@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T16:49:53.480Z",
-  "total_chats": 260,
+  "scored_at": "2026-04-23T16:59:42.996Z",
+  "total_chats": 261,
   "total_agents": 24,
   "agents": [
     {
@@ -234,6 +234,105 @@
         }
       ],
       "avg_score": 69,
+      "grade": "D",
+      "trend": 0
+    },
+    {
+      "id": "5802",
+      "name": "Dustin Euceda",
+      "chats": [
+        {
+          "chat_id": "2047322702481813504",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T14:39:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
+            },
+            "resolution": {
+              "score": 18,
+              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
+          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:39:44.173Z"
+        },
+        {
+          "chat_id": "2047355265319116800",
+          "agent_name": "Dustin Euceda",
+          "agent_id": "5802",
+          "timestamp": "2026-04-23T16:54:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment and wait time expectation, though slightly generic."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent effectively requested screenshots and asked clarifying questions to understand the redeemable balance issue."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Successfully resolved by explaining playthrough requirements; customer confirmed they redeemed their SC."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and helpful despite multiple typos (errir, ypu, redeemable misspelled, Aweson); information was accurate and understandable."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about redemption requirements and limits."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Warm congratulations and proper closing with well-wishes for future gameplay."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 77,
+          "grade": "C",
+          "summary": "Agent successfully resolved a redemption issue by diagnosing that the customer needed to understand playthrough requirements versus redeemable balance. The customer was able to redeem their SC after the explanation, indicating effective problem-solving despite some typos throughout the chat.",
+          "coaching_tip": "Proofread messages before sending to reduce typos (errir, ypu, Aweson) which can diminish professionalism even when the content is accurate and helpful.",
+          "website": "Jackpot Daily",
+          "message_count": 36,
+          "raw_transcript": "[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:46 PM] t2893005134: Ok thanks\n[04:42:46 PM] t2893005134: Ok thanks\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:59:42.496Z"
+        }
+      ],
+      "avg_score": 68,
       "grade": "D",
       "trend": 0
     },
@@ -3858,60 +3957,6 @@
           "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T14:49:53.803Z"
-        }
-      ],
-      "avg_score": 59,
-      "grade": "F",
-      "trend": 0
-    },
-    {
-      "id": "5802",
-      "name": "Dustin Euceda",
-      "chats": [
-        {
-          "chat_id": "2047322702481813504",
-          "agent_name": "Dustin Euceda",
-          "agent_id": "5802",
-          "timestamp": "2026-04-23T14:39:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with acknowledgment and wait time expectation, though could have used customer name initially."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent was reviewing the account to understand the missing balance issue, but customer resolved it themselves before agent could complete investigation."
-            },
-            "resolution": {
-              "score": 18,
-              "notes": "Issue self-resolved by customer; agent was actively investigating but the major concern is the agent completely misunderstood the issue as 'losing money gambling' rather than missing funds."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Agent misinterpreted a missing balance complaint as gambling losses, which shows poor comprehension of the customer's actual concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, though the misunderstanding could have led to compliance issues if conversation had continued."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided appropriate closing with well-wishes, though brief given the circumstances."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent completely misunderstood the customer's issue about missing $579 from their balance as a complaint about losing money while gambling. Fortunately the customer found their funds independently before this miscommunication caused further problems.",
-          "coaching_tip": "Always read customer inquiries carefully - 'missing balance' is a technical/account issue requiring investigation, not a gambling loss requiring sympathy about bad luck.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:32:24 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: Can you please tell me the name of the game I have to finish playing out so that my balance will show back up because I am missing $579\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:33:21 PM] t5839188793: I have been missing since yesterday and need to know where my money is\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:35:20 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:52 PM] Dustin Euceda: Hi Kabrea,\n\nI’m sorry to hear that you’ve been losing money while playing. We hope things turn around soon and that you start seeing some wins.\n\nI just wanted to let you know that I’m still reviewing your account, and I’ll keep you updated as soon as I have more information.\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:37:58 PM] t5839188793: I found it sorry for the inconvenience\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:38:15 PM] Dustin Euceda: You Got it?\nSounds good!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:39:08 PM] Dustin Euceda: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:39:44.173Z"
         }
       ],
       "avg_score": 59,
@@ -23620,6 +23665,51 @@
       "raw_transcript": "[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it’s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it���s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:45:03 PM] t4733890612: Ok thanks have a good day\n[04:45:03 PM] t4733890612: Ok thanks have a good day",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T16:49:52.979Z"
+    },
+    {
+      "chat_id": "2047355265319116800",
+      "agent_name": "Dustin Euceda",
+      "agent_id": "5802",
+      "timestamp": "2026-04-23T16:54:59.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with acknowledgment and wait time expectation, though slightly generic."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent effectively requested screenshots and asked clarifying questions to understand the redeemable balance issue."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Successfully resolved by explaining playthrough requirements; customer confirmed they redeemed their SC."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and helpful despite multiple typos (errir, ypu, redeemable misspelled, Aweson); information was accurate and understandable."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate information about redemption requirements and limits."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Warm congratulations and proper closing with well-wishes for future gameplay."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 77,
+      "grade": "C",
+      "summary": "Agent successfully resolved a redemption issue by diagnosing that the customer needed to understand playthrough requirements versus redeemable balance. The customer was able to redeem their SC after the explanation, indicating effective problem-solving despite some typos throughout the chat.",
+      "coaching_tip": "Proofread messages before sending to reduce typos (errir, ypu, Aweson) which can diminish professionalism even when the content is accurate and helpful.",
+      "website": "Jackpot Daily",
+      "message_count": 36,
+      "raw_transcript": "[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:41:47 PM] t2893005134: Full Name: t2893005134 Email Address: 607bushey@gmail.com Subject / How can we help you?: Why can't I redeem\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:40 PM] Dustin Euceda: Hey thanks for contacting us!\nI`ll be with you shortly, please allow me 2-3 minutes\n[04:42:46 PM] t2893005134: Ok thanks\n[04:42:46 PM] t2893005134: Ok thanks\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:44:15 PM] Dustin Euceda: Hello DONNELL \n\nCould you plase send a screenshot with the errir you are getting?\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:45:13 PM] t2893005134: Yes\n[04:45:13 PM] t2893005134: Screenshot_20260423_114438_Chrome.jpg\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:37 PM] Dustin Euceda: Thanks!\n\nNow, could ypu please verify or double check how many redeedemable SC you have?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:46:51 PM] Dustin Euceda: Can you please show me?\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:09 PM] Dustin Euceda: redeemable*\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:47:37 PM] t2893005134: My account says 200.98\n[04:47:37 PM] t2893005134: Screenshot_20260423_114708_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:48:55 PM] t2893005134: How come none of it is redeemable\n[04:48:55 PM] t2893005134: Screenshot_20260423_114758_Chrome.jpg\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:50:54 PM] Dustin Euceda: Here’s how to redeem your winnings:\n\nLog in to your account\nClick the menu at the top left\nSelect \"Redeem\"\nEnter the amount you want to cash out\nConfirm your request\n\nA couple of things to keep in mind:\n\nYou need at least 100 Sweepstakes Coins (SC)\nSC must be played through at least 1x before redeeming\nMax redemption is $1,000 per day\nOnly one redemption can be pending at a time\n\nOnce submitted, processing times depend on the method you choose (Debit Card is usually the fastest 🚀)\n\nIf anything doesn’t show up or you get stuck, just let me know — I’ve got you!\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:52:51 PM] Dustin Euceda: As you can see in the image you sent, it read ( your Balance 200) that`s the balance you have available to  play through\n\nonce that balance is played through, the profit after playing through will become in redeemable SC\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:17 PM] t2893005134: Thanks you I have redeemed my sc\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:53:51 PM] Dustin Euceda: Aweson!\n\nCongratulations!!!!!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:54:22 PM] Dustin Euceda: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:59:42.496Z"
     }
   ]
 }
