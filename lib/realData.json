@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T19:15:04.707Z",
-  "total_chats": 297,
+  "scored_at": "2026-04-23T19:25:02.671Z",
+  "total_chats": 300,
   "total_agents": 24,
   "agents": [
     {
@@ -2616,11 +2616,101 @@
           "raw_transcript": "[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:58 PM] t9759236939: Hi!\n[07:04:58 PM] t9759236939: Hi!\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T19:15:04.207Z"
+        },
+        {
+          "chat_id": "2047395088082235392",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T19:22:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though did not use customer's name or personalize further."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the sign-up bonus inquiry and asked clarifying question to confirm the issue."
+            },
+            "resolution": {
+              "score": 23,
+              "notes": "Provided clear, accurate information about verification requirements and troubleshooting steps for the bonus."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured response with bullet points and emoji, making information easy to follow."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard bonus information without unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, no check if issue was resolved, and no offer for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent provided accurate and helpful information about sign-up bonus requirements with clear formatting. However, the interaction ended abruptly without confirming resolution or offering further assistance.",
+          "coaching_tip": "Always close the conversation by asking if the customer needs anything else and confirming their issue is resolved before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[07:20:02 PM] t9352425020: Full Name: t9352425020 Email Address: lilsly503@gmail.com Subject / How can we help you?: Sign up sc\n[07:20:02 PM] t9352425020: Full Name: t9352425020 Email Address: lilsly503@gmail.com Subject / How can we help you?: Sign up sc\n[07:20:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:20:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:20:30 PM] t9352425020: Ok\n[07:20:30 PM] t9352425020: Ok\n[07:20:53 PM] Andrea Hernandez: Hi, how can I help you today?\n[07:20:53 PM] Andrea Hernandez: Hi, how can I help you today?\n[07:21:26 PM] t9352425020: I just signed up and waiting for my free sign up bonus\n[07:21:26 PM] t9352425020: I just signed up and waiting for my free sign up bonus\n[07:21:54 PM] Andrea Hernandez: Welcome! 🎉\n\nYour sign-up bonus is automatically credited once you’ve completed:\n\nEmail verification\nPhone number verification\n\nOnce those are done, you should receive:\n\n2 SC\n100,000 GC\n\nIf you’ve already completed both steps and don’t see the bonus, try logging out and back in or refreshing your account 👍\n[07:21:54 PM] Andrea Hernandez: Welcome! 🎉\n\nYour sign-up bonus is automatically credited once you’ve completed:\n\nEmail verification\nPhone number verification\n\nOnce those are done, you should receive:\n\n2 SC\n100,000 GC\n\nIf you’ve already completed both steps and don’t see the bonus, try logging out and back in or refreshing your account 👍",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:24:41.585Z"
+        },
+        {
+          "chat_id": "2047390521856143360",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T19:20:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with agent name, but no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked clarifying question but failed to fully understand the customer's actual problem (rejected vs under review confusion)."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic troubleshooting advice but didn't address the core issue that customer cannot edit their information and needs agent assistance."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear formatting but failed to listen to customer's specific concern about inability to edit details themselves."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard timeframe information appropriately."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Chat appears truncated with incomplete message, no proper closing provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided standard redemption troubleshooting but missed the critical point that the customer cannot access their account to edit information and needs direct assistance. The chat ended abruptly without resolution or proper closing.",
+          "coaching_tip": "When a customer explicitly states they cannot perform a requested action, stop providing instructions and instead offer to escalate or directly assist with the account modification they need.",
+          "website": "Jackpot Daily",
+          "message_count": 52,
+          "raw_transcript": "[07:01:53 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: Hola\n[07:01:53 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: Hola\n[07:02:09 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:02:09 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:02:58 PM] t9952292788: They still haven't solved my problem with redeeming my card.\n[07:02:58 PM] t9952292788: They still haven't solved my problem with redeeming my card.\n[07:03:39 PM] t9952292788: Is there a problem with my card or bank details?\n[07:03:39 PM] t9952292788: Is there a problem with my card or bank details?\n[07:04:10 PM] Andrea Hernandez: Are you trying to make a purchase or to redeem?\n[07:04:10 PM] Andrea Hernandez: Are you trying to make a purchase or to redeem?\n[07:04:50 PM] t9952292788: I've done everything you told me and my redeem still hasn't been approved\n[07:04:50 PM] t9952292788: I've done everything you told me and my redeem still hasn't been approved\n[07:06:12 PM] t9952292788: Yes, I've tried to redeem it 4 times and it's been rejected.\n[07:06:12 PM] t9952292788: Yes, I've tried to redeem it 4 times and it's been rejected.\n[07:06:15 PM] Andrea Hernandez: I understand how frustrating that is — thanks for your patience.\n\nI can see that your redemption is still under review, and at this stage we just need to allow the system and verification team to complete the approval process.\n\nPlease keep in mind:\n\nThe review process can take 24–72 hours\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’ve already completed all the requested steps, then everything is in progress — no further action is needed from your side right now 👍\n[07:06:15 PM] Andrea Hernandez: I understand how frustrating that is — thanks for your patience.\n\nI can see that your redemption is still under review, and at this stage we just need to allow the system and verification team to complete the approval process.\n\nPlease keep in mind:\n\nThe review process can take 24–72 hours\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’ve already completed all the requested steps, then everything is in progress — no further action is needed from your side right now 👍\n[07:08:07 PM] t9952292788: It's not under review; I received an email indicating that it was rejected.\n[07:08:07 PM] t9952292788: It's not under review; I received an email indicating that it was rejected.\n[07:08:23 PM] Andrea Hernandez: Please make sure the address your writing is correct\n[07:08:23 PM] Andrea Hernandez: Please make sure the address your writing is correct\n[07:09:32 PM] Andrea Hernandez: The most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n[07:09:32 PM] Andrea Hernandez: The most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n[07:10:07 PM] Andrea Hernandez: Are you still here?\n[07:10:07 PM] Andrea Hernandez: Are you still here?\n[07:10:17 PM] t9952292788: Where can I modify my information? I don't have access to edit my details. Can you delete my bank details and add them again? You're telling me to do something I can't do. I can't modify my information.\n[07:10:17 PM] t9952292788: Where can I modify my information? I don't have access to edit my details. Can you delete my bank details and add them again? You're telling me to do something I can't do. I can't modify my information.\n[07:11:29 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[07:11:29 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[07:11:37 PM] t9952292788: Ok\n[07:11:37 PM] t9952292788: Ok\n[07:13:49 PM] Andrea Hernandez: Still here !\n[07:13:49 PM] Andrea Hernandez: Still here !\n[07:14:02 PM] t9952292788: Yes\n[07:14:02 PM] t9952292788: Yes\n[07:17:21 PM] Andrea Hernandez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[07:17:21 PM] Andrea Hernandez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[07:18:07 PM] Andrea Hernandez: Please add screenshots\n[07:18:07 PM] Andrea Hernandez: Please add screenshots\n[07:18:36 PM] t9952292788: Ok. Thanks you\n[07:18:36 PM] t9952292788: Ok. Thanks you\n[07:18:49 PM] Andrea Hernandez: Everything relevant with your case be very specific in the email\n[07:18:49 PM] Andrea Hernandez: Everything relevant with your case be very specific in the email\n[07:19:00 PM] t9952292788: Ok\n[07:19:00 PM] t9952292788: Ok\n[07:19:27 PM] Andrea Hernandez: Once you submitt all the info we will get in touch with you as soon as possible\n[07:19:27 PM] Andrea Hernandez: Once you submitt all the info we will get in touch with you as soon as possible\n[07:19:50 PM] Andrea Hernandez: Do you have any additional question?\n[07:19:50 PM] Andrea Hernandez: Do you have any additional question?\n[07:20:05 PM] t9952292788: No. Thanks a lot\n[07:20:05 PM] t9952292788: No. Thanks a lot\n[07:20:17 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[07:20:17 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:25:02.169Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -2
+      "trend": -1
     },
     {
       "id": "5554",
@@ -4344,11 +4434,56 @@
           "raw_transcript": "[06:36:23 PM] t4282407394: Full Name: t4282407394 Email Address: angel.murguia.2016@gmail.com Subject / How can we help you?: Redeemtion\n[06:36:23 PM] t4282407394: Full Name: t4282407394 Email Address: angel.murguia.2016@gmail.com Subject / How can we help you?: Redeemtion\n[06:36:33 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:33 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:38:17 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the  menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:38:17 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the  menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:38:23 PM] Marcos Avila: Debit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n[06:38:23 PM] Marcos Avila: Debit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n[06:42:25 PM] t4282407394: Yesterday i put $50 on my account, i been  playing a lot, right now i have $100 and it says i dont have enough money on the wallet\n[06:42:25 PM] t4282407394: Yesterday i put $50 on my account, i been  playing a lot, right now i have $100 and it says i dont have enough money on the wallet\n[06:43:45 PM] t4282407394: I already redeem once, this is gonna be my 2nd redeem\n[06:43:45 PM] t4282407394: I already redeem once, this is gonna be my 2nd redeem\n[06:43:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:43:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:46:56 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:49:40 PM] t4282407394: For some reason the message you send me dissapear, can you resend it please, last message i can see is that you were gonna look at it\n[06:49:40 PM] t4282407394: For some reason the message you send me dissapear, can you resend it please, last message i can see is that you were gonna look at it\n[06:50:20 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:20 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:26 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:50:26 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:51:10 PM] t4282407394: Alright\n[06:51:10 PM] t4282407394: Alright\n[06:52:39 PM] Marcos Avila: Please note that our system allows for only one pending redemption at a time. Additionally, a minimum balance of 100 played-through Sweepstakes Coins is required to proceed with a request.\n[06:52:39 PM] Marcos Avila: Please note that our system allows for only one pending redemption at a time. Additionally, a minimum balance of 100 played-through Sweepstakes Coins is required to proceed with a request.\n[06:53:37 PM] t4282407394: I dont pending redeemtions plus, i have $100 that i would like to redeem\n[06:53:37 PM] t4282407394: I dont pending redeemtions plus, i have $100 that i would like to redeem\n[06:53:45 PM] t4282407394: Have*\n[06:53:45 PM] t4282407394: Have*\n[06:54:37 PM] Marcos Avila: Could you please tell me which redemption option you are trying to use?\n[06:54:37 PM] Marcos Avila: Could you please tell me which redemption option you are trying to use?\n[06:55:59 PM] t4282407394: Ach is the only option i have available, right now i have $100.09 i tried to redeem $100 and it says i dont have enought funds on the wallet, shows as 0\n[06:55:59 PM] t4282407394: Ach is the only option i have available, right now i have $100.09 i tried to redeem $100 and it says i dont have enought funds on the wallet, shows as 0\n[06:57:57 PM] Marcos Avila: Could you please share an screenshoot of the error messagge?\n[06:57:57 PM] Marcos Avila: Could you please share an screenshoot of the error messagge?\n[06:58:15 PM] t4282407394: Screenshot_20260423_123556_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123542_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123556_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123542_Chrome.jpg\n[06:59:23 PM] t4282407394: Here they are, i put $50 yesterday, and i been playing a lot, so i know i already went through those $50\n[06:59:23 PM] t4282407394: Here they are, i put $50 yesterday, and i been playing a lot, so i know i already went through those $50\n[07:00:32 PM] Marcos Avila: Give me a moment to review this information.\n[07:00:32 PM] Marcos Avila: Give me a moment to review this information.\n[07:00:47 PM] t4282407394: Alright\n[07:00:47 PM] t4282407394: Alright\n[07:07:16 PM] t4282407394: Thanks for sharing the screenshot — that helps a lot!\n\nI can see you have $100.09 SC, but $0 redeemable SC, which means your balance hasn’t fully completed the 1x playthrough requirement yet.\n\nBefore you can redeem, the entire amount needs to be wagered at least once. Right now, part of your balance is still pending playthrough.\n\nAlso, sometimes funds can remain stuck in a game session. Please try:\n\nGoing back to the last game you played\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable SC will update, and you’ll be able to redeem 👍\n[07:07:16 PM] t4282407394: Thanks for sharing the screenshot — that helps a lot!\n\nI can see you have $100.09 SC, but $0 redeemable SC, which means your balance hasn’t fully completed the 1x playthrough requirement yet.\n\nBefore you can redeem, the entire amount needs to be wagered at least once. Right now, part of your balance is still pending playthrough.\n\nAlso, sometimes funds can remain stuck in a game session. Please try:\n\nGoing back to the last game you played\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable SC will update, and you’ll be able to redeem 👍\n[07:09:53 PM] t4282407394: Are yiu still there?\n[07:09:53 PM] t4282407394: Are yiu still there?\n[07:11:13 PM] t4282407394: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:11:13 PM] t4282407394: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T19:14:54.745Z"
+        },
+        {
+          "chat_id": "2047392158238683137",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T19:20:54.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent immediately asked for time to investigate without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic question but never clarified why customer couldn't see the egg or troubleshot the actual problem."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided general instructions but failed to address customer's stated inability to find the egg or offer further troubleshooting when issue persisted."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and enthusiastic explanation of the feature, but missed the customer's follow-up concern about not being able to locate it."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately described the promotion without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing, but closed prematurely when customer indicated the issue wasn't actually resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided standard information about the Golden Egg feature but failed to troubleshoot when the customer explicitly stated they still couldn't find it. The interaction ended prematurely without resolving the customer's actual problem.",
+          "coaching_tip": "When a customer indicates the issue isn't resolved (\"I just cant seem to find the egg\"), don't close the chat—offer specific troubleshooting steps like checking browser/device, clearing cache, or escalating to technical support.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[07:08:23 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[07:08:23 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[07:08:44 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[07:08:44 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[07:08:52 PM] t1151212334: Thank you\n[07:08:52 PM] t1151212334: Thank you\n[07:10:09 PM] t1151212334: No worries\n[07:10:09 PM] t1151212334: No worries\n[07:11:12 PM] Marcos Avila: Give me a moment to review this information.\n[07:11:12 PM] Marcos Avila: Give me a moment to review this information.\n[07:11:21 PM] t1151212334: Sure\n[07:11:21 PM] t1151212334: Sure\n[07:14:01 PM] Marcos Avila: Your Golden Egg is waiting — exciting stuff!\n\nSince you’ve already completed your KYC verification and made a purchase, the egg should be ready for you. To find it, keep an eye out for a notification or a specific pop-up when you log in to your account dashboard at www.jackpotdaily.com.\n\nHere is a quick reminder of how it works:\n\nEnsure your KYC verification is fully approved.\n\nThe Golden Egg should unlock automatically on your screen or within your rewards section.\n\nSmash it to reveal your random SC reward — you could get up to 100 SC!\n[07:14:01 PM] Marcos Avila: Your Golden Egg is waiting — exciting stuff!\n\nSince you’ve already completed your KYC verification and made a purchase, the egg should be ready for you. To find it, keep an eye out for a notification or a specific pop-up when you log in to your account dashboard at www.jackpotdaily.com.\n\nHere is a quick reminder of how it works:\n\nEnsure your KYC verification is fully approved.\n\nThe Golden Egg should unlock automatically on your screen or within your rewards section.\n\nSmash it to reveal your random SC reward — you could get up to 100 SC!\n[07:15:01 PM] t1151212334: Thank you\n[07:15:01 PM] t1151212334: Thank you\n[07:16:20 PM] Marcos Avila: Is there anything else I can help you with today?\n[07:16:20 PM] Marcos Avila: Is there anything else I can help you with today?\n[07:17:26 PM] t1151212334: No I dont think so? I just cant seem to find the egg and I dont want it to expire or something? Thanks for your help!\n[07:17:26 PM] t1151212334: No I dont think so? I just cant seem to find the egg and I dont want it to expire or something? Thanks for your help!\n[07:20:45 PM] Marcos Avila: Thanks for chatting with us! Let us know if anything else comes up — always happy to help!\n[07:20:45 PM] Marcos Avila: Thanks for chatting with us! Let us know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:24:51.788Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -3
+      "trend": -6
     },
     {
       "id": "5802",
@@ -26950,6 +27085,141 @@
       "raw_transcript": "[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:58 PM] t9759236939: Hi!\n[07:04:58 PM] t9759236939: Hi!\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T19:15:04.207Z"
+    },
+    {
+      "chat_id": "2047395088082235392",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T19:22:05.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though did not use customer's name or personalize further."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the sign-up bonus inquiry and asked clarifying question to confirm the issue."
+        },
+        "resolution": {
+          "score": 23,
+          "notes": "Provided clear, accurate information about verification requirements and troubleshooting steps for the bonus."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured response with bullet points and emoji, making information easy to follow."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided standard bonus information without unauthorized promises."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, no check if issue was resolved, and no offer for further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 71,
+      "grade": "C",
+      "summary": "Agent provided accurate and helpful information about sign-up bonus requirements with clear formatting. However, the interaction ended abruptly without confirming resolution or offering further assistance.",
+      "coaching_tip": "Always close the conversation by asking if the customer needs anything else and confirming their issue is resolved before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[07:20:02 PM] t9352425020: Full Name: t9352425020 Email Address: lilsly503@gmail.com Subject / How can we help you?: Sign up sc\n[07:20:02 PM] t9352425020: Full Name: t9352425020 Email Address: lilsly503@gmail.com Subject / How can we help you?: Sign up sc\n[07:20:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:20:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:20:30 PM] t9352425020: Ok\n[07:20:30 PM] t9352425020: Ok\n[07:20:53 PM] Andrea Hernandez: Hi, how can I help you today?\n[07:20:53 PM] Andrea Hernandez: Hi, how can I help you today?\n[07:21:26 PM] t9352425020: I just signed up and waiting for my free sign up bonus\n[07:21:26 PM] t9352425020: I just signed up and waiting for my free sign up bonus\n[07:21:54 PM] Andrea Hernandez: Welcome! 🎉\n\nYour sign-up bonus is automatically credited once you’ve completed:\n\nEmail verification\nPhone number verification\n\nOnce those are done, you should receive:\n\n2 SC\n100,000 GC\n\nIf you’ve already completed both steps and don’t see the bonus, try logging out and back in or refreshing your account 👍\n[07:21:54 PM] Andrea Hernandez: Welcome! 🎉\n\nYour sign-up bonus is automatically credited once you’ve completed:\n\nEmail verification\nPhone number verification\n\nOnce those are done, you should receive:\n\n2 SC\n100,000 GC\n\nIf you’ve already completed both steps and don’t see the bonus, try logging out and back in or refreshing your account 👍",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:24:41.585Z"
+    },
+    {
+      "chat_id": "2047392158238683137",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-23T19:20:54.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent immediately asked for time to investigate without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic question but never clarified why customer couldn't see the egg or troubleshot the actual problem."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided general instructions but failed to address customer's stated inability to find the egg or offer further troubleshooting when issue persisted."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and enthusiastic explanation of the feature, but missed the customer's follow-up concern about not being able to locate it."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately described the promotion without unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided friendly closing, but closed prematurely when customer indicated the issue wasn't actually resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided standard information about the Golden Egg feature but failed to troubleshoot when the customer explicitly stated they still couldn't find it. The interaction ended prematurely without resolving the customer's actual problem.",
+      "coaching_tip": "When a customer indicates the issue isn't resolved (\"I just cant seem to find the egg\"), don't close the chat—offer specific troubleshooting steps like checking browser/device, clearing cache, or escalating to technical support.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[07:08:23 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[07:08:23 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[07:08:44 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[07:08:44 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[07:08:52 PM] t1151212334: Thank you\n[07:08:52 PM] t1151212334: Thank you\n[07:10:09 PM] t1151212334: No worries\n[07:10:09 PM] t1151212334: No worries\n[07:11:12 PM] Marcos Avila: Give me a moment to review this information.\n[07:11:12 PM] Marcos Avila: Give me a moment to review this information.\n[07:11:21 PM] t1151212334: Sure\n[07:11:21 PM] t1151212334: Sure\n[07:14:01 PM] Marcos Avila: Your Golden Egg is waiting — exciting stuff!\n\nSince you’ve already completed your KYC verification and made a purchase, the egg should be ready for you. To find it, keep an eye out for a notification or a specific pop-up when you log in to your account dashboard at www.jackpotdaily.com.\n\nHere is a quick reminder of how it works:\n\nEnsure your KYC verification is fully approved.\n\nThe Golden Egg should unlock automatically on your screen or within your rewards section.\n\nSmash it to reveal your random SC reward — you could get up to 100 SC!\n[07:14:01 PM] Marcos Avila: Your Golden Egg is waiting — exciting stuff!\n\nSince you’ve already completed your KYC verification and made a purchase, the egg should be ready for you. To find it, keep an eye out for a notification or a specific pop-up when you log in to your account dashboard at www.jackpotdaily.com.\n\nHere is a quick reminder of how it works:\n\nEnsure your KYC verification is fully approved.\n\nThe Golden Egg should unlock automatically on your screen or within your rewards section.\n\nSmash it to reveal your random SC reward — you could get up to 100 SC!\n[07:15:01 PM] t1151212334: Thank you\n[07:15:01 PM] t1151212334: Thank you\n[07:16:20 PM] Marcos Avila: Is there anything else I can help you with today?\n[07:16:20 PM] Marcos Avila: Is there anything else I can help you with today?\n[07:17:26 PM] t1151212334: No I dont think so? I just cant seem to find the egg and I dont want it to expire or something? Thanks for your help!\n[07:17:26 PM] t1151212334: No I dont think so? I just cant seem to find the egg and I dont want it to expire or something? Thanks for your help!\n[07:20:45 PM] Marcos Avila: Thanks for chatting with us! Let us know if anything else comes up — always happy to help!\n[07:20:45 PM] Marcos Avila: Thanks for chatting with us! Let us know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:24:51.788Z"
+    },
+    {
+      "chat_id": "2047390521856143360",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T19:20:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting with agent name, but no personalization or warmth."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Asked clarifying question but failed to fully understand the customer's actual problem (rejected vs under review confusion)."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided generic troubleshooting advice but didn't address the core issue that customer cannot edit their information and needs agent assistance."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear formatting but failed to listen to customer's specific concern about inability to edit details themselves."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided standard timeframe information appropriately."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Chat appears truncated with incomplete message, no proper closing provided."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent provided standard redemption troubleshooting but missed the critical point that the customer cannot access their account to edit information and needs direct assistance. The chat ended abruptly without resolution or proper closing.",
+      "coaching_tip": "When a customer explicitly states they cannot perform a requested action, stop providing instructions and instead offer to escalate or directly assist with the account modification they need.",
+      "website": "Jackpot Daily",
+      "message_count": 52,
+      "raw_transcript": "[07:01:53 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: Hola\n[07:01:53 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: Hola\n[07:02:09 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:02:09 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:02:58 PM] t9952292788: They still haven't solved my problem with redeeming my card.\n[07:02:58 PM] t9952292788: They still haven't solved my problem with redeeming my card.\n[07:03:39 PM] t9952292788: Is there a problem with my card or bank details?\n[07:03:39 PM] t9952292788: Is there a problem with my card or bank details?\n[07:04:10 PM] Andrea Hernandez: Are you trying to make a purchase or to redeem?\n[07:04:10 PM] Andrea Hernandez: Are you trying to make a purchase or to redeem?\n[07:04:50 PM] t9952292788: I've done everything you told me and my redeem still hasn't been approved\n[07:04:50 PM] t9952292788: I've done everything you told me and my redeem still hasn't been approved\n[07:06:12 PM] t9952292788: Yes, I've tried to redeem it 4 times and it's been rejected.\n[07:06:12 PM] t9952292788: Yes, I've tried to redeem it 4 times and it's been rejected.\n[07:06:15 PM] Andrea Hernandez: I understand how frustrating that is — thanks for your patience.\n\nI can see that your redemption is still under review, and at this stage we just need to allow the system and verification team to complete the approval process.\n\nPlease keep in mind:\n\nThe review process can take 24–72 hours\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’ve already completed all the requested steps, then everything is in progress — no further action is needed from your side right now 👍\n[07:06:15 PM] Andrea Hernandez: I understand how frustrating that is — thanks for your patience.\n\nI can see that your redemption is still under review, and at this stage we just need to allow the system and verification team to complete the approval process.\n\nPlease keep in mind:\n\nThe review process can take 24–72 hours\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’ve already completed all the requested steps, then everything is in progress — no further action is needed from your side right now 👍\n[07:08:07 PM] t9952292788: It's not under review; I received an email indicating that it was rejected.\n[07:08:07 PM] t9952292788: It's not under review; I received an email indicating that it was rejected.\n[07:08:23 PM] Andrea Hernandez: Please make sure the address your writing is correct\n[07:08:23 PM] Andrea Hernandez: Please make sure the address your writing is correct\n[07:09:32 PM] Andrea Hernandez: The most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n[07:09:32 PM] Andrea Hernandez: The most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\n-It includes only your street name and house/apartment number\n-It stays within the 50-character limit\n-Any additional details (city, state, zip, etc.) are entered in their correct fields\n[07:10:07 PM] Andrea Hernandez: Are you still here?\n[07:10:07 PM] Andrea Hernandez: Are you still here?\n[07:10:17 PM] t9952292788: Where can I modify my information? I don't have access to edit my details. Can you delete my bank details and add them again? You're telling me to do something I can't do. I can't modify my information.\n[07:10:17 PM] t9952292788: Where can I modify my information? I don't have access to edit my details. Can you delete my bank details and add them again? You're telling me to do something I can't do. I can't modify my information.\n[07:11:29 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[07:11:29 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[07:11:37 PM] t9952292788: Ok\n[07:11:37 PM] t9952292788: Ok\n[07:13:49 PM] Andrea Hernandez: Still here !\n[07:13:49 PM] Andrea Hernandez: Still here !\n[07:14:02 PM] t9952292788: Yes\n[07:14:02 PM] t9952292788: Yes\n[07:17:21 PM] Andrea Hernandez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[07:17:21 PM] Andrea Hernandez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[07:18:07 PM] Andrea Hernandez: Please add screenshots\n[07:18:07 PM] Andrea Hernandez: Please add screenshots\n[07:18:36 PM] t9952292788: Ok. Thanks you\n[07:18:36 PM] t9952292788: Ok. Thanks you\n[07:18:49 PM] Andrea Hernandez: Everything relevant with your case be very specific in the email\n[07:18:49 PM] Andrea Hernandez: Everything relevant with your case be very specific in the email\n[07:19:00 PM] t9952292788: Ok\n[07:19:00 PM] t9952292788: Ok\n[07:19:27 PM] Andrea Hernandez: Once you submitt all the info we will get in touch with you as soon as possible\n[07:19:27 PM] Andrea Hernandez: Once you submitt all the info we will get in touch with you as soon as possible\n[07:19:50 PM] Andrea Hernandez: Do you have any additional question?\n[07:19:50 PM] Andrea Hernandez: Do you have any additional question?\n[07:20:05 PM] t9952292788: No. Thanks a lot\n[07:20:05 PM] t9952292788: No. Thanks a lot\n[07:20:17 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[07:20:17 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:25:02.169Z"
     }
   ]
 }
