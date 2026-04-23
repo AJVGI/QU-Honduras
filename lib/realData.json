@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T19:09:43.954Z",
-  "total_chats": 294,
+  "scored_at": "2026-04-23T19:15:04.707Z",
+  "total_chats": 297,
   "total_agents": 24,
   "agents": [
     {
@@ -335,465 +335,6 @@
       "avg_score": 67,
       "grade": "D",
       "trend": 0
-    },
-    {
-      "id": "5670",
-      "name": "Marcos Avila",
-      "chats": [
-        {
-          "chat_id": "2047293958916501504",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T12:41:22.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent jumped directly to 'Please allow me one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent clearly understood the question about free joining bonuses and provided comprehensive information without needing clarification."
-            },
-            "resolution": {
-              "score": 26,
-              "notes": "Excellent detailed explanation of all available free bonuses with clear steps and proactive offer to help with verification."
-            },
-            "communication": {
-              "score": 18,
-              "notes": "Very clear, well-structured response with numbered sections and friendly tone that made complex information easy to understand."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly explained promotional terms including expiration details and verification requirements without making unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Ended with helpful follow-up question offering further assistance, though didn't wait for confirmation before closing."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 82,
-          "grade": "B",
-          "summary": "Agent provided comprehensive and well-organized information about all available free bonuses for new members. The response was thorough and helpful, though it lacked an initial greeting.",
-          "coaching_tip": "Always open with a warm greeting using the customer's name before diving into the issue to establish rapport and professionalism.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[12:38:11 PM] Customer: Full Name: Richard Allen Boyer Email Address: boyerrichard327@gmail.com Subject / How can we help you?: wonderring is there any free things that you give out for joining\n[12:38:11 PM] Customer: Full Name: Richard Allen Boyer Email Address: boyerrichard327@gmail.com Subject / How can we help you?: wonderring is there any free things that you give out for joining\n[12:38:27 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:38:27 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:38:41 PM] Customer: ok\n[12:38:41 PM] Customer: ok\n[12:39:50 PM] Marcos Avila: Welcome aboard — there are actually a few different free things you get just for joining and verifying your account!\n\nHere is the breakdown of what you can grab right now without spending a cent:\n\n1. The Welcome Bonus\nOnce you complete these two quick steps, the rewards hit your account automatically:\n\nVerify your email address\n\nVerify your phone number\n\nYour Reward: 2 Sweepstakes Coins (SC) + 100,000 Gold Coins (GC).\n\n2. The Golden Egg\nAfter you finish your KYC verification (identity check), a Golden Egg will appear on your account.\n\nWhat to do: Smash the egg to reveal a random SC reward.\n\nThe Prize: You can win up to 100 SC for free!\n\nNote: This expires 24 hours after it's issued, so make sure to smash it quickly.\n\n3. Daily Login Rewards\nEven after the welcome gifts, we give you free coins every single day just for logging in.\n\nDay 1: 1 SC + 200 GC\n\nDay 7: The Jackpot (7 SC + 2,000 GC)\n\nTo claim these, just log in, click the treasure chest icon, and complete the daily task.\n\nAre you having any trouble getting your email or phone verified? I'm happy to help you get those sorted so you can grab your coins!\n[12:39:50 PM] Marcos Avila: Welcome aboard — there are actually a few different free things you get just for joining and verifying your account!\n\nHere is the breakdown of what you can grab right now without spending a cent:\n\n1. The Welcome Bonus\nOnce you complete these two quick steps, the rewards hit your account automatically:\n\nVerify your email address\n\nVerify your phone number\n\nYour Reward: 2 Sweepstakes Coins (SC) + 100,000 Gold Coins (GC).\n\n2. The Golden Egg\nAfter you finish your KYC verification (identity check), a Golden Egg will appear on your account.\n\nWhat to do: Smash the egg to reveal a random SC reward.\n\nThe Prize: You can win up to 100 SC for free!\n\nNote: This expires 24 hours after it's issued, so make sure to smash it quickly.\n\n3. Daily Login Rewards\nEven after the welcome gifts, we give you free coins every single day just for logging in.\n\nDay 1: 1 SC + 200 GC\n\nDay 7: The Jackpot (7 SC + 2,000 GC)\n\nTo claim these, just log in, click the treasure chest icon, and complete the daily task.\n\nAre you having any trouble getting your email or phone verified? I'm happy to help you get those sorted so you can grab your coins!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:42:15.374Z"
-        },
-        {
-          "chat_id": "2047294994724466688",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T13:02:00.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped directly into asking for information without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent asked clarifying questions about emails and investigated the system, though took time to understand the customer's actual login issue."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided troubleshooting steps for the Facebook error but didn't fully address the customer's confusion about having two accounts versus one."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Professional and clear language, but lacked empathy and could have better explained the single-account situation earlier."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately verified account information before providing details."
-            },
-            "closing": {
-              "score": 2,
-              "notes": "No closing whatsoever; conversation ended abruptly after providing troubleshooting steps with no follow-up or goodbye."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 56,
-          "grade": "F",
-          "summary": "Agent investigated the account issue and provided technical troubleshooting steps but failed to greet the customer at the start and provided no closing. Communication was functional but lacked warmth and could have been more reassuring about the single-account status.",
-          "coaching_tip": "Always open with a greeting that acknowledges the customer by name, and close every interaction by confirming resolution and offering further assistance before ending the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 30,
-          "raw_transcript": "[12:42:18 PM] Customer: Full Name: Kevin Douangmychit Email Address: douangmychitkevin@gmail.com Subject / How can we help you?: why do I have two accounts? sign in with Google and Facebook? I should only have one account\n[12:42:18 PM] Customer: Full Name: Kevin Douangmychit Email Address: douangmychitkevin@gmail.com Subject / How can we help you?: why do I have two accounts? sign in with Google and Facebook? I should only have one account\n[12:42:41 PM] Customer: Delete the Facebook sign up\n[12:42:41 PM] Customer: Delete the Facebook sign up\n[12:43:24 PM] Marcos Avila: Please share the emails for both accounts so we can verify in the system if there are two accounts.\n[12:43:24 PM] Marcos Avila: Please share the emails for both accounts so we can verify in the system if there are two accounts.\n[12:44:07 PM] Customer: Douangmychitkevin@gmail.com\n[12:44:07 PM] Customer: Douangmychitkevin@gmail.com\n[12:45:00 PM] Customer: I sign up with Google first and somehow Facebook got aign.up\n[12:45:00 PM] Customer: I sign up with Google first and somehow Facebook got aign.up\n[12:45:46 PM] Marcos Avila: Is the email address for Facebook and Google the same?\n[12:45:46 PM] Marcos Avila: Is the email address for Facebook and Google the same?\n[12:46:01 PM] Customer: Yes\n[12:46:01 PM] Customer: Yes\n[12:47:14 PM] Marcos Avila: There is only one account created, dear player, this was created using the Facebook login.\n[12:47:14 PM] Marcos Avila: There is only one account created, dear player, this was created using the Facebook login.\n[12:51:45 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:51:45 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:52:40 PM] Customer: Ok\n[12:52:40 PM] Customer: Ok\n[12:53:57 PM] Customer: Screenshot_20260423_075344_Samsung Browser.jpg\n[12:53:57 PM] Customer: Screenshot_20260423_075344_Samsung Browser.jpg\n[12:54:33 PM] Customer: This what it show me wen I try to complete my sign up with Facebook\n[12:54:33 PM] Customer: This what it show me wen I try to complete my sign up with Facebook\n[12:55:19 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:55:19 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:57:05 PM] Marcos Avila: The system indicates that you registered through Facebook and your account is already created and even verified.\n[12:57:05 PM] Marcos Avila: The system indicates that you registered through Facebook and your account is already created and even verified.\n[12:57:36 PM] Marcos Avila: Regarding that Facebook error, it’s often a quick fix! Try these steps:\n\nLog out of Facebook on your browser or app, then try the sign-up again.\n\nClear your cache and cookies (if you're on a browser).\n\nCheck your connection — sometimes a quick switch from Wi-Fi to mobile data (or vice versa) clears the error.\n[12:57:36 PM] Marcos Avila: Regarding that Facebook error, it’s often a quick fix! Try these steps:\n\nLog out of Facebook on your browser or app, then try the sign-up again.\n\nClear your cache and cookies (if you're on a browser).\n\nCheck your connection — sometimes a quick switch from Wi-Fi to mobile data (or vice versa) clears the error.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:03:58.638Z"
-        },
-        {
-          "chat_id": "2047312527420760064",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T13:55:01.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting provided; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the redemption timing question well and customer provided clear context about the delay."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Provided accurate timeframe information that directly answered the customer's concern and resolved their question."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear and professional responses with specific timeframes, though could have been slightly more empathetic about the wait."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided standard processing timeframes without unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Offered further assistance and closed appropriately when customer declined."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 76,
-          "grade": "C",
-          "summary": "Agent provided accurate redemption processing timeframes that satisfied the customer's question about their pending withdrawal. The interaction was efficient and professional, though it lacked a proper greeting at the start.",
-          "coaching_tip": "Always open with a proper greeting before diving into the issue, even when a customer submits a form—a simple 'Hello! Thank you for contacting Jackpot Daily' sets a more welcoming tone.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[01:51:58 PM] t3070215126: Full Name: t3070215126 Email Address: westonw7@gmail.com Subject / How can we help you?: redemption time\n[01:51:58 PM] t3070215126: Full Name: t3070215126 Email Address: westonw7@gmail.com Subject / How can we help you?: redemption time\n[01:52:17 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:52:17 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:52:23 PM] t3070215126: how long do you guys take to approve a redemption? does it take longer for over 1000?\n[01:52:23 PM] t3070215126: how long do you guys take to approve a redemption? does it take longer for over 1000?\n[01:52:48 PM] t3070215126: my first one of 200 was next day but this one of 1050 has been a couple days and its still pending\n[01:52:48 PM] t3070215126: my first one of 200 was next day but this one of 1050 has been a couple days and its still pending\n[01:53:18 PM] Marcos Avila: That is a great question.\n\nGenerally, we aim to review and approve redemptions within 1 to 3 business days. Once approved, the time it takes to reach you depends on the method you chose.\n[01:53:18 PM] Marcos Avila: That is a great question.\n\nGenerally, we aim to review and approve redemptions within 1 to 3 business days. Once approved, the time it takes to reach you depends on the method you chose.\n[01:53:48 PM] Marcos Avila: 1–3 business days for Debit Cards and Skrill, or up to 10 business days for ACH.\n[01:53:48 PM] Marcos Avila: 1–3 business days for Debit Cards and Skrill, or up to 10 business days for ACH.\n[01:54:13 PM] t3070215126: alright, its only been 2 days so makes sense. hopefully soon\n[01:54:13 PM] t3070215126: alright, its only been 2 days so makes sense. hopefully soon\n[01:54:15 PM] t3070215126: ty\n[01:54:15 PM] t3070215126: ty\n[01:54:47 PM] Marcos Avila: Glad we got that sorted! Is there anything else I can help you with today?\n[01:54:47 PM] Marcos Avila: Glad we got that sorted! Is there anything else I can help you with today?\n[01:54:57 PM] t3070215126: all good ty\n[01:54:57 PM] t3070215126: all good ty",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:55:49.741Z"
-        },
-        {
-          "chat_id": "2047314357131354112",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T14:22:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent eventually understood the issue after customer provided screenshot, but took too long and initially missed that customer was receiving wrong upload prompt."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Agent ultimately resolved by escalating to backend team to generate correct link, which was appropriate action for technical issue."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Communication was functional but lacked empathy for customer's clear frustration; instructions were clear but tone was somewhat mechanical."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; correctly refused to accept documents via chat and followed proper verification procedures."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Closing was abrupt with just 'You're welcome' after customer thanked them; no offer of further assistance or proper farewell."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent eventually resolved a technical issue where the customer was receiving the wrong document upload link, but the interaction lacked warmth and empathy throughout. The agent missed opportunities to acknowledge the customer's frustration and took several exchanges to fully understand the problem despite clear explanation.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name, and when customers express frustration, acknowledge their feelings before proceeding with troubleshooting steps.",
-          "website": "Jackpot Daily",
-          "message_count": 32,
-          "raw_transcript": "[01:59:14 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:59:14 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:59:50 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:59:50 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[02:02:22 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[02:02:22 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[02:07:42 PM] Marcos Avila: Let’s get that link to you right away so you can finish up.\n\nAs a reminder, our system uses Socure to keep your data safe. Please use the secure link below to upload your Proof of Address (POA):\n\nhttps://verify.socure.com/#/dv/9518e0c3-7f3d-4655-ada1-8c131268f311\n\nTo make sure it gets approved quickly, your document needs to:\n\nBe issued within the last 90 days\n\nShow your full name and current residential address\n\nBe one of these: utility bill, bank statement, or government-issued letter\n\nNot be a PO Box address\n\nBe a clear full-page photo or scan — no screenshots\n\nOnce you've uploaded it, our team will review it and get back to you as soon as possible. Your ticket will stay as Pending while we wait for those documents to come through.\n[02:07:42 PM] Marcos Avila: Let’s get that link to you right away so you can finish up.\n\nAs a reminder, our system uses Socure to keep your data safe. Please use the secure link below to upload your Proof of Address (POA):\n\nhttps://verify.socure.com/#/dv/9518e0c3-7f3d-4655-ada1-8c131268f311\n\nTo make sure it gets approved quickly, your document needs to:\n\nBe issued within the last 90 days\n\nShow your full name and current residential address\n\nBe one of these: utility bill, bank statement, or government-issued letter\n\nNot be a PO Box address\n\nBe a clear full-page photo or scan — no screenshots\n\nOnce you've uploaded it, our team will review it and get back to you as soon as possible. Your ticket will stay as Pending while we wait for those documents to come through.\n[02:10:09 PM] t5003516845: My address is 95 Beckham circle Jackson Alabama 36545 that’s on file. Here is my bank statement which is the same as on file.\n[02:10:09 PM] t5003516845: IMG_9139.jpeg\n[02:10:09 PM] t5003516845: My address is 95 Beckham circle Jackson Alabama 36545 that’s on file. Here is my bank statement which is the same as on file.\n[02:10:09 PM] t5003516845: IMG_9139.jpeg\n[02:11:25 PM] Marcos Avila: You need to use the link and upload the information to continue with the verification; these are not done through the chat.\n[02:11:25 PM] Marcos Avila: You need to use the link and upload the information to continue with the verification; these are not done through the chat.\n[02:13:55 PM] t5003516845: IMG_9144.png\n[02:13:55 PM] t5003516845: IMG_9144.png\n[02:13:56 PM] t5003516845: This what I keep getting. Thats for drivers license upload. Smh\n[02:13:56 PM] t5003516845: This what I keep getting. Thats for drivers license upload. Smh\n[02:14:43 PM] t5003516845: Lord Jesus\n[02:14:43 PM] t5003516845: Lord Jesus\n[02:15:31 PM] Marcos Avila: You need to proceed by pressing the consent button.\n[02:15:31 PM] Marcos Avila: You need to proceed by pressing the consent button.\n[02:16:31 PM] t5003516845: I did. It keeps telling me to upload a drivers license that I have did 100 times. Lord\n[02:16:31 PM] t5003516845: I did. It keeps telling me to upload a drivers license that I have did 100 times. Lord\n[02:18:06 PM] Marcos Avila: Give me a moment to review this information.\n[02:18:06 PM] Marcos Avila: Give me a moment to review this information.\n[02:18:24 PM] Marcos Avila: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:18:24 PM] Marcos Avila: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:21:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[02:21:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[02:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[02:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:23:25.952Z"
-        },
-        {
-          "chat_id": "2047330232257421312",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T15:05:33.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped directly into reviewing without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the technical error but didn't ask clarifying questions about what the customer was trying to do or confirm browser details before the customer volunteered them."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive troubleshooting steps that directly address the sessionStorage error, though no follow-up to confirm if steps worked."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and well-structured technical instructions, but no empathy or personalization and didn't acknowledge customer's initial question about trying a different browser."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises; stayed within appropriate support boundaries."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing at all; transcript ends abruptly after customer provides browser info with no agent response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent provided solid technical troubleshooting steps for a sessionStorage error but failed basic service fundamentals including greeting and closing. The interaction felt robotic with no acknowledgment of the customer's questions or follow-up after delivering the solution steps.",
-          "coaching_tip": "Always open with a greeting using the customer's name and close every interaction by confirming next steps or asking if there's anything else needed, even if waiting for customer response.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:34 PM] Customer: try different browser right?\n[03:03:34 PM] Customer: try different browser right?\n[03:03:38 PM] Customer: sure\n[03:03:38 PM] Customer: sure\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:50 PM] Customer: current browser firefox current version\n[03:04:50 PM] Customer: current browser firefox current version",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T15:09:56.790Z"
-        },
-        {
-          "chat_id": "2047371297369190400",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T17:48:59.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the AMOE code question and provided relevant information, though customer needed clarification on location."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided correct step-by-step instructions and clarified when customer asked for more specific guidance on where to find the code."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional with detailed instructions, though initial response was lengthy and customer still needed clarification."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed policy correctly by explaining AMOE process, KYC requirements, and code limitations without violations."
-            },
-            "closing": {
-              "score": 2,
-              "notes": "No closing provided; conversation ended abruptly after repeating instructions with no offer of further help or goodbye."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 63,
-          "grade": "D",
-          "summary": "Agent provided accurate and detailed AMOE code instructions but failed to greet the customer at the start and did not close the conversation properly. The resolution was effective, though the initial lengthy response required follow-up clarification.",
-          "coaching_tip": "Always open with a warm greeting using the customer's name when available, and close every interaction by confirming satisfaction and offering further assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T17:49:41.927Z"
-        },
-        {
-          "chat_id": "2047372218127396864",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T18:04:31.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without acknowledging customer by name or welcoming them."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Asked a clarifying question about error messages and gathered information about card ownership and funds, showing good diagnostic approach."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided comprehensive troubleshooting steps covering common payment decline scenarios with actionable solutions, though issue wasn't definitively resolved."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and well-structured responses with bullet points and explanations, though somewhat lengthy for the customer's brief communication style."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Appropriately mentioned policy about cards needing to be in player's own name and provided standard troubleshooting without unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing whatsoever; transcript ends mid-response with the agent's message truncated and no follow-up or resolution confirmation."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent provided thorough troubleshooting guidance for payment issues with good empathy and structure, but completely failed to greet the customer properly and provided no closing. The communication was professional but the lack of basic greeting and closing protocols significantly impacted the overall quality.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name before diving into troubleshooting, and ensure you close the conversation by confirming next steps and offering further assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:51:24 PM] Customer: Not excepted\n[05:51:24 PM] Customer: Not excepted\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T18:04:45.205Z"
-        },
-        {
-          "chat_id": "2047378247135469568",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T18:22:44.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent never asked what specific problem the customer was experiencing with depositing, just provided generic instructions."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided standard deposit instructions but didn't diagnose the actual issue the customer was facing or confirm if it helped."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Instructions were clear and well-formatted, but lacked personalization and didn't address the specific problem."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected; followed standard procedures for inactivity timeout."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Appropriate inactivity warning and auto-close message with offer for further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 56,
-          "grade": "F",
-          "summary": "Agent provided generic deposit instructions without investigating what specific issue the customer was experiencing. Lacked proper greeting and failed to engage in meaningful troubleshooting before the customer went silent.",
-          "coaching_tip": "Always start with a proper greeting using the customer's name, then ask clarifying questions about what specifically isn't working before providing generic instructions.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[06:13:07 PM] t3094684064: Full Name: t3094684064 Email Address: staylor000@yahoo.com Subject / How can we help you?: Trying to deposit\n[06:13:07 PM] t3094684064: Full Name: t3094684064 Email Address: staylor000@yahoo.com Subject / How can we help you?: Trying to deposit\n[06:13:20 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:13:20 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:13:45 PM] t3094684064: Stephen Taylor is my full name\n[06:13:45 PM] t3094684064: Stephen Taylor is my full name\n[06:14:33 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:14:33 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:16:17 PM] Marcos Avila: Topping up is super easy — here's how:\n\nHead to www.jackpotdaily.com and log in\n\nHit the red \"Buy\" button at the top right\n\nPick the package that works for you\n\nComplete your purchase and you're off!\n\nWe accept: Credit/Debit Card, Google Pay, Apple Pay, and Skrill.\n[06:16:17 PM] Marcos Avila: Topping up is super easy — here's how:\n\nHead to www.jackpotdaily.com and log in\n\nHit the red \"Buy\" button at the top right\n\nPick the package that works for you\n\nComplete your purchase and you're off!\n\nWe accept: Credit/Debit Card, Google Pay, Apple Pay, and Skrill.\n[06:20:19 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:20:19 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:22:31 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:22:31 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T18:24:52.097Z"
-        },
-        {
-          "chat_id": "2047377877554372608",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T18:22:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at start; agent jumped directly to 'allow me one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the issue about missing winnings and checked the account, though no specific clarifying questions were asked about timing or payment method."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided comprehensive explanation of payment timelines and self-service instructions, though didn't confirm specific details of customer's redemption."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured response with congratulatory tone and helpful detail, though somewhat template-heavy."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately explained processing times without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Used standard timeout closure with offer for further assistance, though customer never confirmed resolution."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 72,
-          "grade": "C",
-          "summary": "Agent provided thorough explanation of redemption timelines and payment methods but missed opening greeting and didn't confirm customer's specific payment method or redemption date. Communication was clear and professional with good educational content.",
-          "coaching_tip": "Always open with a proper greeting before diving into account research, and proactively confirm specific details like the customer's payment method and redemption date rather than providing only general information.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[06:11:39 PM] Customer: Full Name: Derek Gobeli Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[06:11:39 PM] Customer: Full Name: Derek Gobeli Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[06:11:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:11:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:12:31 PM] Customer: Ok thank you\n[06:12:31 PM] Customer: Ok thank you\n[06:14:05 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:14:05 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:15:32 PM] Marcos Avila: Hey Derek Gobeli! Woohoo, congrats on the winnings!\n\nIf you’ve received the email saying your redemption was successful, it means the request has been approved and processed on our end. The time it takes to actually land in your account depends on the payment method you selected:\n\nDebit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n\nA couple of things to keep in mind:\n\nWe don't process redemptions on weekends, so if your approval came through late Friday, the clock usually starts on Monday.\n\nIf you used a Debit Card, some banks may take an extra day to post the funds to your statement.\n\nTo see the exact status and method used, you can always check your history:\n\nLog in at www.jackpotdaily.com\n\nClick the Transaction tab in the left-hand sidebar\n\nSwitch to the Redemption tab\n[06:15:32 PM] Marcos Avila: Hey Derek Gobeli! Woohoo, congrats on the winnings!\n\nIf you’ve received the email saying your redemption was successful, it means the request has been approved and processed on our end. The time it takes to actually land in your account depends on the payment method you selected:\n\nDebit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n\nA couple of things to keep in mind:\n\nWe don't process redemptions on weekends, so if your approval came through late Friday, the clock usually starts on Monday.\n\nIf you used a Debit Card, some banks may take an extra day to post the funds to your statement.\n\nTo see the exact status and method used, you can always check your history:\n\nLog in at www.jackpotdaily.com\n\nClick the Transaction tab in the left-hand sidebar\n\nSwitch to the Redemption tab\n[06:19:34 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:19:34 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T18:25:04.109Z"
-        },
-        {
-          "chat_id": "2047384085830873088",
-          "agent_name": "Marcos Avila",
-          "agent_id": "5670",
-          "timestamp": "2026-04-23T19:06:18.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Friendly and welcoming greeting with offer to help, though slightly delayed after initial hold message."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the Golden Egg issue and reviewed account details, though could have asked more clarifying questions earlier."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided clear explanation of the promotion timeline but then escalated when customer questioned the 48hr timeframe, leaving issue unresolved in chat."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Professional and clear with good patience updates, though the final message was somewhat confusing with mixed messaging about escalation and pulling up information."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected, explained promotion terms appropriately and escalated when needed."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Chat appears to end abruptly with no proper closing, farewell, or confirmation that customer's concern was addressed."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 63,
-          "grade": "D",
-          "summary": "Agent provided a competent response with clear explanation of the Golden Egg promotion timeline and appropriate escalation. However, the interaction lacked a proper closing and left ambiguity about whether the 24hr vs 48hr discrepancy was resolved.",
-          "coaching_tip": "Always provide a clear closing statement and ensure customer questions are fully addressed before ending the chat, especially when there's a discrepancy about promotion terms.",
-          "website": "Jackpot Daily",
-          "message_count": 30,
-          "raw_transcript": "[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:54 PM] Customer: Okay thank you\n[06:40:54 PM] Customer: Okay thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:44:01 PM] Customer: Okay\n[06:44:01 PM] Customer: Okay\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T19:09:43.454Z"
-        }
-      ],
-      "avg_score": 65,
-      "grade": "D",
-      "trend": -2
     },
     {
       "id": "5801",
@@ -3030,11 +2571,56 @@
           "raw_transcript": "[05:57:05 PM] t3765502663: Full Name: t3765502663 Email Address: jenise1020@gmail.com Subject / How can we help you?: My redemption says successful but I did not receive it\n[05:57:05 PM] t3765502663: Full Name: t3765502663 Email Address: jenise1020@gmail.com Subject / How can we help you?: My redemption says successful but I did not receive it\n[05:57:23 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:57:23 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:57:33 PM] t3765502663: Thank you\n[05:57:33 PM] t3765502663: Thank you\n[05:58:16 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nIf you’re still within that timeframe, everything is progressing normally 👍\n[05:58:16 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nIf you’re still within that timeframe, everything is progressing normally 👍\n[05:58:50 PM] t3765502663: Okay thank you for the clarification\n[05:58:50 PM] t3765502663: Okay thank you for the clarification\n[05:58:58 PM] Andrea Hernandez: its always a pleasure\n[05:58:58 PM] Andrea Hernandez: its always a pleasure\n[05:59:10 PM] Andrea Hernandez: Do you have additional questions?\n[05:59:10 PM] Andrea Hernandez: Do you have additional questions?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T17:59:43.595Z"
+        },
+        {
+          "chat_id": "2047391059582693376",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T19:09:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though slightly informal with 'ill' instead of 'I'll'."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions about which specific bonuses or verify referral completion status before providing generic information."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard policy information but didn't investigate the specific account issues or verify referral status; offered generic troubleshooting without personalization."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and organized response with good formatting, but lacked personalization and didn't address all three concerns with equal depth."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately did not promise unauthorized bonuses and provided correct contact information."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Appropriate timeout closure with alternative contact method offered, though could have been more patient given multiple issues raised."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided a competent but generic response to multiple bonus-related concerns without investigating the specific account or asking clarifying questions. The interaction was professional and compliant but lacked the personalized troubleshooting needed for complex multi-issue inquiries.",
+          "coaching_tip": "Before providing policy information, ask clarifying questions to understand specific details like referral completion status and which exact bonuses are missing, then investigate the account to provide personalized solutions.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:58 PM] t9759236939: Hi!\n[07:04:58 PM] t9759236939: Hi!\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:15:04.207Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": 1
+      "trend": -2
     },
     {
       "id": "5554",
@@ -4209,11 +3795,560 @@
           "raw_transcript": "[06:46:34 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:46:34 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:46:52 PM] Diana Lopez: Hello\n[06:46:52 PM] Diana Lopez: Hello\n[06:47:15 PM] t5003516845: In don’t see that option too upload address\n[06:47:15 PM] t5003516845: In don’t see that option too upload address\n[06:48:32 PM] Diana Lopez: if you don't see the option to upload your Proof of Address in your account, that means your account is not yet at that stage of verification.\n\nThe verification process is:\n*1. Upload government-issued ID first*\n2. Once ID is verified, the option to upload Proof of Address will appear\n\nIf you've already uploaded your ID and it was approved, the POA option should show up. If it's not showing up, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience\n[06:48:32 PM] Diana Lopez: if you don't see the option to upload your Proof of Address in your account, that means your account is not yet at that stage of verification.\n\nThe verification process is:\n*1. Upload government-issued ID first*\n2. Once ID is verified, the option to upload Proof of Address will appear\n\nIf you've already uploaded your ID and it was approved, the POA option should show up. If it's not showing up, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience\n[06:51:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[06:51:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T18:54:56.704Z"
+        },
+        {
+          "chat_id": "2047388961071738880",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T19:12:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment of the issue, though could have been warmer with customer name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the issue and adapted well when customer corrected the $70 vs $30 discrepancy, requesting screenshot for verification."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Properly escalated to Compliance team after gathering necessary information, though resolution took considerable time."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout, provided multiple wait updates, though premature closing attempt at 06:59:55 was awkward."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately escalated to specialist team without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Apologized for inability to resolve immediately and confirmed escalation with follow-up promise, though message was truncated."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent handled the referral bonus discrepancy professionally, corrected initial misinformation about the $70 requirement, and properly escalated to Compliance. The premature closing attempt before receiving the screenshot was a notable misstep, but overall communication and issue handling were competent.",
+          "coaching_tip": "Avoid closing the conversation prematurely—wait until you've received all requested information from the customer before offering a farewell message.",
+          "website": "Jackpot Daily",
+          "message_count": 38,
+          "raw_transcript": "[06:55:41 PM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Referral bonus not showing\n[06:55:41 PM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Referral bonus not showing\n[06:56:19 PM] Diana Lopez: Hi — I understand your referral bonus is not showing.\n\nFor the referral bonus to be credited, your friend must complete all three steps:\n1. Register using your referral link or code\n2. Complete KYC verification\n*3. Make cumulative purchases totaling at least $70*\n\nIf your friend completed all steps and the bonus still isn't showing, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience.\n[06:56:19 PM] Diana Lopez: Hi — I understand your referral bonus is not showing.\n\nFor the referral bonus to be credited, your friend must complete all three steps:\n1. Register using your referral link or code\n2. Complete KYC verification\n*3. Make cumulative purchases totaling at least $70*\n\nIf your friend completed all steps and the bonus still isn't showing, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience.\n[06:57:09 PM] t1399485029: The promo says they only have to spend $30 not $70\n[06:57:09 PM] t1399485029: The promo says they only have to spend $30 not $70\n[06:57:39 PM] Diana Lopez: thank you for pointing that out. If the promotion you referred under clearly stated $30 and not $70, then that is the requirement that should apply to your referral.\n\nPlease share a screenshot of the promotion terms you saw, or let me know when you made the referral so our team can review which offer was active at that time.\n[06:57:39 PM] Diana Lopez: thank you for pointing that out. If the promotion you referred under clearly stated $30 and not $70, then that is the requirement that should apply to your referral.\n\nPlease share a screenshot of the promotion terms you saw, or let me know when you made the referral so our team can review which offer was active at that time.\n[06:59:55 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[06:59:55 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[07:00:13 PM] t1399485029: IMG_1186.png\n[07:00:13 PM] t1399485029: IMG_1186.png\n[07:00:44 PM] t1399485029: I made the referral today\n[07:00:44 PM] t1399485029: I made the referral today\n[07:01:38 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[07:01:38 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[07:01:48 PM] t1399485029: Ok thanks\n[07:01:48 PM] t1399485029: Ok thanks\n[07:03:04 PM] t1399485029: Ok\n[07:03:04 PM] t1399485029: Ok\n[07:04:11 PM] Diana Lopez: Still checking sorry!\n[07:04:11 PM] Diana Lopez: Still checking sorry!\n[07:04:16 PM] t1399485029: Ok\n[07:04:16 PM] t1399485029: Ok\n[07:06:21 PM] Diana Lopez: Bear with me for just a moment while I take a look at your account!\n[07:06:21 PM] Diana Lopez: Bear with me for just a moment while I take a look at your account!\n[07:06:34 PM] t1399485029: Ok\n[07:06:34 PM] t1399485029: Ok\n[07:08:22 PM] Diana Lopez: Just looping in the right team member for you — it won't be long!\n[07:08:22 PM] Diana Lopez: Just looping in the right team member for you — it won't be long!\n[07:08:31 PM] t1399485029: Ok\n[07:08:31 PM] t1399485029: Ok\n[07:10:24 PM] Diana Lopez: This is something our Compliance team needs to handle. I'm escalating this right now and you'll hear back shortly.\n[07:10:24 PM] Diana Lopez: This is something our Compliance team needs to handle. I'm escalating this right now and you'll hear back shortly.\n[07:10:33 PM] t1399485029: Ok\n[07:10:33 PM] t1399485029: Ok\n[07:10:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!\n[07:10:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:14:45.021Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -2
+      "trend": -7
+    },
+    {
+      "id": "5670",
+      "name": "Marcos Avila",
+      "chats": [
+        {
+          "chat_id": "2047293958916501504",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T12:41:22.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly to 'Please allow me one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent clearly understood the question about free joining bonuses and provided comprehensive information without needing clarification."
+            },
+            "resolution": {
+              "score": 26,
+              "notes": "Excellent detailed explanation of all available free bonuses with clear steps and proactive offer to help with verification."
+            },
+            "communication": {
+              "score": 18,
+              "notes": "Very clear, well-structured response with numbered sections and friendly tone that made complex information easy to understand."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly explained promotional terms including expiration details and verification requirements without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Ended with helpful follow-up question offering further assistance, though didn't wait for confirmation before closing."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 82,
+          "grade": "B",
+          "summary": "Agent provided comprehensive and well-organized information about all available free bonuses for new members. The response was thorough and helpful, though it lacked an initial greeting.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name before diving into the issue to establish rapport and professionalism.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[12:38:11 PM] Customer: Full Name: Richard Allen Boyer Email Address: boyerrichard327@gmail.com Subject / How can we help you?: wonderring is there any free things that you give out for joining\n[12:38:11 PM] Customer: Full Name: Richard Allen Boyer Email Address: boyerrichard327@gmail.com Subject / How can we help you?: wonderring is there any free things that you give out for joining\n[12:38:27 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:38:27 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:38:41 PM] Customer: ok\n[12:38:41 PM] Customer: ok\n[12:39:50 PM] Marcos Avila: Welcome aboard — there are actually a few different free things you get just for joining and verifying your account!\n\nHere is the breakdown of what you can grab right now without spending a cent:\n\n1. The Welcome Bonus\nOnce you complete these two quick steps, the rewards hit your account automatically:\n\nVerify your email address\n\nVerify your phone number\n\nYour Reward: 2 Sweepstakes Coins (SC) + 100,000 Gold Coins (GC).\n\n2. The Golden Egg\nAfter you finish your KYC verification (identity check), a Golden Egg will appear on your account.\n\nWhat to do: Smash the egg to reveal a random SC reward.\n\nThe Prize: You can win up to 100 SC for free!\n\nNote: This expires 24 hours after it's issued, so make sure to smash it quickly.\n\n3. Daily Login Rewards\nEven after the welcome gifts, we give you free coins every single day just for logging in.\n\nDay 1: 1 SC + 200 GC\n\nDay 7: The Jackpot (7 SC + 2,000 GC)\n\nTo claim these, just log in, click the treasure chest icon, and complete the daily task.\n\nAre you having any trouble getting your email or phone verified? I'm happy to help you get those sorted so you can grab your coins!\n[12:39:50 PM] Marcos Avila: Welcome aboard — there are actually a few different free things you get just for joining and verifying your account!\n\nHere is the breakdown of what you can grab right now without spending a cent:\n\n1. The Welcome Bonus\nOnce you complete these two quick steps, the rewards hit your account automatically:\n\nVerify your email address\n\nVerify your phone number\n\nYour Reward: 2 Sweepstakes Coins (SC) + 100,000 Gold Coins (GC).\n\n2. The Golden Egg\nAfter you finish your KYC verification (identity check), a Golden Egg will appear on your account.\n\nWhat to do: Smash the egg to reveal a random SC reward.\n\nThe Prize: You can win up to 100 SC for free!\n\nNote: This expires 24 hours after it's issued, so make sure to smash it quickly.\n\n3. Daily Login Rewards\nEven after the welcome gifts, we give you free coins every single day just for logging in.\n\nDay 1: 1 SC + 200 GC\n\nDay 7: The Jackpot (7 SC + 2,000 GC)\n\nTo claim these, just log in, click the treasure chest icon, and complete the daily task.\n\nAre you having any trouble getting your email or phone verified? I'm happy to help you get those sorted so you can grab your coins!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:42:15.374Z"
+        },
+        {
+          "chat_id": "2047294994724466688",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T13:02:00.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into asking for information without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions about emails and investigated the system, though took time to understand the customer's actual login issue."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided troubleshooting steps for the Facebook error but didn't fully address the customer's confusion about having two accounts versus one."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and clear language, but lacked empathy and could have better explained the single-account situation earlier."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately verified account information before providing details."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing whatsoever; conversation ended abruptly after providing troubleshooting steps with no follow-up or goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent investigated the account issue and provided technical troubleshooting steps but failed to greet the customer at the start and provided no closing. Communication was functional but lacked warmth and could have been more reassuring about the single-account status.",
+          "coaching_tip": "Always open with a greeting that acknowledges the customer by name, and close every interaction by confirming resolution and offering further assistance before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[12:42:18 PM] Customer: Full Name: Kevin Douangmychit Email Address: douangmychitkevin@gmail.com Subject / How can we help you?: why do I have two accounts? sign in with Google and Facebook? I should only have one account\n[12:42:18 PM] Customer: Full Name: Kevin Douangmychit Email Address: douangmychitkevin@gmail.com Subject / How can we help you?: why do I have two accounts? sign in with Google and Facebook? I should only have one account\n[12:42:41 PM] Customer: Delete the Facebook sign up\n[12:42:41 PM] Customer: Delete the Facebook sign up\n[12:43:24 PM] Marcos Avila: Please share the emails for both accounts so we can verify in the system if there are two accounts.\n[12:43:24 PM] Marcos Avila: Please share the emails for both accounts so we can verify in the system if there are two accounts.\n[12:44:07 PM] Customer: Douangmychitkevin@gmail.com\n[12:44:07 PM] Customer: Douangmychitkevin@gmail.com\n[12:45:00 PM] Customer: I sign up with Google first and somehow Facebook got aign.up\n[12:45:00 PM] Customer: I sign up with Google first and somehow Facebook got aign.up\n[12:45:46 PM] Marcos Avila: Is the email address for Facebook and Google the same?\n[12:45:46 PM] Marcos Avila: Is the email address for Facebook and Google the same?\n[12:46:01 PM] Customer: Yes\n[12:46:01 PM] Customer: Yes\n[12:47:14 PM] Marcos Avila: There is only one account created, dear player, this was created using the Facebook login.\n[12:47:14 PM] Marcos Avila: There is only one account created, dear player, this was created using the Facebook login.\n[12:51:45 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:51:45 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:52:40 PM] Customer: Ok\n[12:52:40 PM] Customer: Ok\n[12:53:57 PM] Customer: Screenshot_20260423_075344_Samsung Browser.jpg\n[12:53:57 PM] Customer: Screenshot_20260423_075344_Samsung Browser.jpg\n[12:54:33 PM] Customer: This what it show me wen I try to complete my sign up with Facebook\n[12:54:33 PM] Customer: This what it show me wen I try to complete my sign up with Facebook\n[12:55:19 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:55:19 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[12:57:05 PM] Marcos Avila: The system indicates that you registered through Facebook and your account is already created and even verified.\n[12:57:05 PM] Marcos Avila: The system indicates that you registered through Facebook and your account is already created and even verified.\n[12:57:36 PM] Marcos Avila: Regarding that Facebook error, it’s often a quick fix! Try these steps:\n\nLog out of Facebook on your browser or app, then try the sign-up again.\n\nClear your cache and cookies (if you're on a browser).\n\nCheck your connection — sometimes a quick switch from Wi-Fi to mobile data (or vice versa) clears the error.\n[12:57:36 PM] Marcos Avila: Regarding that Facebook error, it’s often a quick fix! Try these steps:\n\nLog out of Facebook on your browser or app, then try the sign-up again.\n\nClear your cache and cookies (if you're on a browser).\n\nCheck your connection — sometimes a quick switch from Wi-Fi to mobile data (or vice versa) clears the error.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:03:58.638Z"
+        },
+        {
+          "chat_id": "2047312527420760064",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T13:55:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the redemption timing question well and customer provided clear context about the delay."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided accurate timeframe information that directly answered the customer's concern and resolved their question."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional responses with specific timeframes, though could have been slightly more empathetic about the wait."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard processing timeframes without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and closed appropriately when customer declined."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 76,
+          "grade": "C",
+          "summary": "Agent provided accurate redemption processing timeframes that satisfied the customer's question about their pending withdrawal. The interaction was efficient and professional, though it lacked a proper greeting at the start.",
+          "coaching_tip": "Always open with a proper greeting before diving into the issue, even when a customer submits a form—a simple 'Hello! Thank you for contacting Jackpot Daily' sets a more welcoming tone.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[01:51:58 PM] t3070215126: Full Name: t3070215126 Email Address: westonw7@gmail.com Subject / How can we help you?: redemption time\n[01:51:58 PM] t3070215126: Full Name: t3070215126 Email Address: westonw7@gmail.com Subject / How can we help you?: redemption time\n[01:52:17 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:52:17 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:52:23 PM] t3070215126: how long do you guys take to approve a redemption? does it take longer for over 1000?\n[01:52:23 PM] t3070215126: how long do you guys take to approve a redemption? does it take longer for over 1000?\n[01:52:48 PM] t3070215126: my first one of 200 was next day but this one of 1050 has been a couple days and its still pending\n[01:52:48 PM] t3070215126: my first one of 200 was next day but this one of 1050 has been a couple days and its still pending\n[01:53:18 PM] Marcos Avila: That is a great question.\n\nGenerally, we aim to review and approve redemptions within 1 to 3 business days. Once approved, the time it takes to reach you depends on the method you chose.\n[01:53:18 PM] Marcos Avila: That is a great question.\n\nGenerally, we aim to review and approve redemptions within 1 to 3 business days. Once approved, the time it takes to reach you depends on the method you chose.\n[01:53:48 PM] Marcos Avila: 1–3 business days for Debit Cards and Skrill, or up to 10 business days for ACH.\n[01:53:48 PM] Marcos Avila: 1–3 business days for Debit Cards and Skrill, or up to 10 business days for ACH.\n[01:54:13 PM] t3070215126: alright, its only been 2 days so makes sense. hopefully soon\n[01:54:13 PM] t3070215126: alright, its only been 2 days so makes sense. hopefully soon\n[01:54:15 PM] t3070215126: ty\n[01:54:15 PM] t3070215126: ty\n[01:54:47 PM] Marcos Avila: Glad we got that sorted! Is there anything else I can help you with today?\n[01:54:47 PM] Marcos Avila: Glad we got that sorted! Is there anything else I can help you with today?\n[01:54:57 PM] t3070215126: all good ty\n[01:54:57 PM] t3070215126: all good ty",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:55:49.741Z"
+        },
+        {
+          "chat_id": "2047314357131354112",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T14:22:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent eventually understood the issue after customer provided screenshot, but took too long and initially missed that customer was receiving wrong upload prompt."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent ultimately resolved by escalating to backend team to generate correct link, which was appropriate action for technical issue."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Communication was functional but lacked empathy for customer's clear frustration; instructions were clear but tone was somewhat mechanical."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; correctly refused to accept documents via chat and followed proper verification procedures."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closing was abrupt with just 'You're welcome' after customer thanked them; no offer of further assistance or proper farewell."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent eventually resolved a technical issue where the customer was receiving the wrong document upload link, but the interaction lacked warmth and empathy throughout. The agent missed opportunities to acknowledge the customer's frustration and took several exchanges to fully understand the problem despite clear explanation.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, and when customers express frustration, acknowledge their feelings before proceeding with troubleshooting steps.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[01:59:14 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:59:14 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:59:50 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[01:59:50 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[02:02:22 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[02:02:22 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[02:07:42 PM] Marcos Avila: Let’s get that link to you right away so you can finish up.\n\nAs a reminder, our system uses Socure to keep your data safe. Please use the secure link below to upload your Proof of Address (POA):\n\nhttps://verify.socure.com/#/dv/9518e0c3-7f3d-4655-ada1-8c131268f311\n\nTo make sure it gets approved quickly, your document needs to:\n\nBe issued within the last 90 days\n\nShow your full name and current residential address\n\nBe one of these: utility bill, bank statement, or government-issued letter\n\nNot be a PO Box address\n\nBe a clear full-page photo or scan — no screenshots\n\nOnce you've uploaded it, our team will review it and get back to you as soon as possible. Your ticket will stay as Pending while we wait for those documents to come through.\n[02:07:42 PM] Marcos Avila: Let’s get that link to you right away so you can finish up.\n\nAs a reminder, our system uses Socure to keep your data safe. Please use the secure link below to upload your Proof of Address (POA):\n\nhttps://verify.socure.com/#/dv/9518e0c3-7f3d-4655-ada1-8c131268f311\n\nTo make sure it gets approved quickly, your document needs to:\n\nBe issued within the last 90 days\n\nShow your full name and current residential address\n\nBe one of these: utility bill, bank statement, or government-issued letter\n\nNot be a PO Box address\n\nBe a clear full-page photo or scan — no screenshots\n\nOnce you've uploaded it, our team will review it and get back to you as soon as possible. Your ticket will stay as Pending while we wait for those documents to come through.\n[02:10:09 PM] t5003516845: My address is 95 Beckham circle Jackson Alabama 36545 that’s on file. Here is my bank statement which is the same as on file.\n[02:10:09 PM] t5003516845: IMG_9139.jpeg\n[02:10:09 PM] t5003516845: My address is 95 Beckham circle Jackson Alabama 36545 that’s on file. Here is my bank statement which is the same as on file.\n[02:10:09 PM] t5003516845: IMG_9139.jpeg\n[02:11:25 PM] Marcos Avila: You need to use the link and upload the information to continue with the verification; these are not done through the chat.\n[02:11:25 PM] Marcos Avila: You need to use the link and upload the information to continue with the verification; these are not done through the chat.\n[02:13:55 PM] t5003516845: IMG_9144.png\n[02:13:55 PM] t5003516845: IMG_9144.png\n[02:13:56 PM] t5003516845: This what I keep getting. Thats for drivers license upload. Smh\n[02:13:56 PM] t5003516845: This what I keep getting. Thats for drivers license upload. Smh\n[02:14:43 PM] t5003516845: Lord Jesus\n[02:14:43 PM] t5003516845: Lord Jesus\n[02:15:31 PM] Marcos Avila: You need to proceed by pressing the consent button.\n[02:15:31 PM] Marcos Avila: You need to proceed by pressing the consent button.\n[02:16:31 PM] t5003516845: I did. It keeps telling me to upload a drivers license that I have did 100 times. Lord\n[02:16:31 PM] t5003516845: I did. It keeps telling me to upload a drivers license that I have did 100 times. Lord\n[02:18:06 PM] Marcos Avila: Give me a moment to review this information.\n[02:18:06 PM] Marcos Avila: Give me a moment to review this information.\n[02:18:24 PM] Marcos Avila: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:18:24 PM] Marcos Avila: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:21:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[02:21:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[02:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[02:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:23:25.952Z"
+        },
+        {
+          "chat_id": "2047330232257421312",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T15:05:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into reviewing without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the technical error but didn't ask clarifying questions about what the customer was trying to do or confirm browser details before the customer volunteered them."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps that directly address the sessionStorage error, though no follow-up to confirm if steps worked."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-structured technical instructions, but no empathy or personalization and didn't acknowledge customer's initial question about trying a different browser."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises; stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing at all; transcript ends abruptly after customer provides browser info with no agent response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided solid technical troubleshooting steps for a sessionStorage error but failed basic service fundamentals including greeting and closing. The interaction felt robotic with no acknowledgment of the customer's questions or follow-up after delivering the solution steps.",
+          "coaching_tip": "Always open with a greeting using the customer's name and close every interaction by confirming next steps or asking if there's anything else needed, even if waiting for customer response.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:19 PM] Customer: Full Name: brian Email Address: 4briantraci@gmail.com Subject / How can we help you?: Unable to process request due to missing initial state. This may happen if browser sessionStorage is inaccessible or accidentally cleared. Some specific scenarios are - 1) Using IDP-Initiated SAML SSO. 2) Using signInWithRedirect in a storage-partitioned browser environment.??\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:02:34 PM] Customer: have u ever seen this b4\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:29 PM] Marcos Avila: Give me a moment to review this information.\n[03:03:34 PM] Customer: try different browser right?\n[03:03:34 PM] Customer: try different browser right?\n[03:03:38 PM] Customer: sure\n[03:03:38 PM] Customer: sure\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:48 PM] Marcos Avila: That error usually happens when your browser can't keep track of the \"state\" or session info needed to log you in. No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. Here’s how:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All time” + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (≡) → Settings → Privacy & Security → Clear Data\n\nSafari (Mac): Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try Incognito/Private Mode:\nSometimes browser extensions or storage partitions interfere with the login. Open a new Incognito or Private window and try logging in at www.jackpotdaily.com again.\n\nStep 4 — Check Third-Party Cookies:\nSince the error mentions \"storage-partitioned environments,\" make sure your browser isn't blocking all third-party cookies, as this can stop Facebook or Google logins from \"talking\" to our site correctly.\n[03:04:50 PM] Customer: current browser firefox current version\n[03:04:50 PM] Customer: current browser firefox current version",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T15:09:56.790Z"
+        },
+        {
+          "chat_id": "2047371297369190400",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T17:48:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the AMOE code question and provided relevant information, though customer needed clarification on location."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided correct step-by-step instructions and clarified when customer asked for more specific guidance on where to find the code."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with detailed instructions, though initial response was lengthy and customer still needed clarification."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed policy correctly by explaining AMOE process, KYC requirements, and code limitations without violations."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing provided; conversation ended abruptly after repeating instructions with no offer of further help or goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided accurate and detailed AMOE code instructions but failed to greet the customer at the start and did not close the conversation properly. The resolution was effective, though the initial lengthy response required follow-up clarification.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name when available, and close every interaction by confirming satisfaction and offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:49:41.927Z"
+        },
+        {
+          "chat_id": "2047372218127396864",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T18:04:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without acknowledging customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked a clarifying question about error messages and gathered information about card ownership and funds, showing good diagnostic approach."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided comprehensive troubleshooting steps covering common payment decline scenarios with actionable solutions, though issue wasn't definitively resolved."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured responses with bullet points and explanations, though somewhat lengthy for the customer's brief communication style."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Appropriately mentioned policy about cards needing to be in player's own name and provided standard troubleshooting without unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever; transcript ends mid-response with the agent's message truncated and no follow-up or resolution confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided thorough troubleshooting guidance for payment issues with good empathy and structure, but completely failed to greet the customer properly and provided no closing. The communication was professional but the lack of basic greeting and closing protocols significantly impacted the overall quality.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name before diving into troubleshooting, and ensure you close the conversation by confirming next steps and offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:51:24 PM] Customer: Not excepted\n[05:51:24 PM] Customer: Not excepted\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:04:45.205Z"
+        },
+        {
+          "chat_id": "2047378247135469568",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T18:22:44.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent never asked what specific problem the customer was experiencing with depositing, just provided generic instructions."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided standard deposit instructions but didn't diagnose the actual issue the customer was facing or confirm if it helped."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Instructions were clear and well-formatted, but lacked personalization and didn't address the specific problem."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; followed standard procedures for inactivity timeout."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Appropriate inactivity warning and auto-close message with offer for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided generic deposit instructions without investigating what specific issue the customer was experiencing. Lacked proper greeting and failed to engage in meaningful troubleshooting before the customer went silent.",
+          "coaching_tip": "Always start with a proper greeting using the customer's name, then ask clarifying questions about what specifically isn't working before providing generic instructions.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[06:13:07 PM] t3094684064: Full Name: t3094684064 Email Address: staylor000@yahoo.com Subject / How can we help you?: Trying to deposit\n[06:13:07 PM] t3094684064: Full Name: t3094684064 Email Address: staylor000@yahoo.com Subject / How can we help you?: Trying to deposit\n[06:13:20 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:13:20 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:13:45 PM] t3094684064: Stephen Taylor is my full name\n[06:13:45 PM] t3094684064: Stephen Taylor is my full name\n[06:14:33 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:14:33 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:16:17 PM] Marcos Avila: Topping up is super easy — here's how:\n\nHead to www.jackpotdaily.com and log in\n\nHit the red \"Buy\" button at the top right\n\nPick the package that works for you\n\nComplete your purchase and you're off!\n\nWe accept: Credit/Debit Card, Google Pay, Apple Pay, and Skrill.\n[06:16:17 PM] Marcos Avila: Topping up is super easy — here's how:\n\nHead to www.jackpotdaily.com and log in\n\nHit the red \"Buy\" button at the top right\n\nPick the package that works for you\n\nComplete your purchase and you're off!\n\nWe accept: Credit/Debit Card, Google Pay, Apple Pay, and Skrill.\n[06:20:19 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:20:19 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:22:31 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:22:31 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:24:52.097Z"
+        },
+        {
+          "chat_id": "2047377877554372608",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T18:22:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at start; agent jumped directly to 'allow me one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the issue about missing winnings and checked the account, though no specific clarifying questions were asked about timing or payment method."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided comprehensive explanation of payment timelines and self-service instructions, though didn't confirm specific details of customer's redemption."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured response with congratulatory tone and helpful detail, though somewhat template-heavy."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained processing times without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Used standard timeout closure with offer for further assistance, though customer never confirmed resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent provided thorough explanation of redemption timelines and payment methods but missed opening greeting and didn't confirm customer's specific payment method or redemption date. Communication was clear and professional with good educational content.",
+          "coaching_tip": "Always open with a proper greeting before diving into account research, and proactively confirm specific details like the customer's payment method and redemption date rather than providing only general information.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[06:11:39 PM] Customer: Full Name: Derek Gobeli Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[06:11:39 PM] Customer: Full Name: Derek Gobeli Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[06:11:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:11:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:12:31 PM] Customer: Ok thank you\n[06:12:31 PM] Customer: Ok thank you\n[06:14:05 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:14:05 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:15:32 PM] Marcos Avila: Hey Derek Gobeli! Woohoo, congrats on the winnings!\n\nIf you’ve received the email saying your redemption was successful, it means the request has been approved and processed on our end. The time it takes to actually land in your account depends on the payment method you selected:\n\nDebit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n\nA couple of things to keep in mind:\n\nWe don't process redemptions on weekends, so if your approval came through late Friday, the clock usually starts on Monday.\n\nIf you used a Debit Card, some banks may take an extra day to post the funds to your statement.\n\nTo see the exact status and method used, you can always check your history:\n\nLog in at www.jackpotdaily.com\n\nClick the Transaction tab in the left-hand sidebar\n\nSwitch to the Redemption tab\n[06:15:32 PM] Marcos Avila: Hey Derek Gobeli! Woohoo, congrats on the winnings!\n\nIf you’ve received the email saying your redemption was successful, it means the request has been approved and processed on our end. The time it takes to actually land in your account depends on the payment method you selected:\n\nDebit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n\nA couple of things to keep in mind:\n\nWe don't process redemptions on weekends, so if your approval came through late Friday, the clock usually starts on Monday.\n\nIf you used a Debit Card, some banks may take an extra day to post the funds to your statement.\n\nTo see the exact status and method used, you can always check your history:\n\nLog in at www.jackpotdaily.com\n\nClick the Transaction tab in the left-hand sidebar\n\nSwitch to the Redemption tab\n[06:19:34 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:19:34 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:25:04.109Z"
+        },
+        {
+          "chat_id": "2047384085830873088",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T19:06:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly and welcoming greeting with offer to help, though slightly delayed after initial hold message."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the Golden Egg issue and reviewed account details, though could have asked more clarifying questions earlier."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided clear explanation of the promotion timeline but then escalated when customer questioned the 48hr timeframe, leaving issue unresolved in chat."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Professional and clear with good patience updates, though the final message was somewhat confusing with mixed messaging about escalation and pulling up information."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, explained promotion terms appropriately and escalated when needed."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Chat appears to end abruptly with no proper closing, farewell, or confirmation that customer's concern was addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided a competent response with clear explanation of the Golden Egg promotion timeline and appropriate escalation. However, the interaction lacked a proper closing and left ambiguity about whether the 24hr vs 48hr discrepancy was resolved.",
+          "coaching_tip": "Always provide a clear closing statement and ensure customer questions are fully addressed before ending the chat, especially when there's a discrepancy about promotion terms.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:54 PM] Customer: Okay thank you\n[06:40:54 PM] Customer: Okay thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:44:01 PM] Customer: Okay\n[06:44:01 PM] Customer: Okay\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:09:43.454Z"
+        },
+        {
+          "chat_id": "2047384103288139776",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T19:11:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent failed to ask clarifying questions initially and provided generic redemption instructions before understanding the customer's actual issue about insufficient wallet balance."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent provided irrelevant information about Golden Egg expiration that doesn't address the customer's wallet balance issue, then appeared to restart the investigation without resolving the problem."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Communication was confusing with duplicate messages, irrelevant responses about Golden Egg, and the customer had to report messages disappearing."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations detected, though the incomplete final message and lack of resolution raises concerns about proper procedure."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided; transcript ends mid-sentence with the issue unresolved and customer still waiting."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 40,
+          "grade": "F",
+          "summary": "Agent provided generic redemption instructions without first understanding the customer's specific issue about wallet balance showing insufficient funds despite having $100. The response about Golden Egg expiration was completely irrelevant to the customer's problem, and the chat ended without resolution or proper closing.",
+          "coaching_tip": "Always clarify the customer's specific issue before providing instructions—ask targeted questions about error messages and account details rather than assuming what help is needed.",
+          "website": "Jackpot Daily",
+          "message_count": 51,
+          "raw_transcript": "[06:36:23 PM] t4282407394: Full Name: t4282407394 Email Address: angel.murguia.2016@gmail.com Subject / How can we help you?: Redeemtion\n[06:36:23 PM] t4282407394: Full Name: t4282407394 Email Address: angel.murguia.2016@gmail.com Subject / How can we help you?: Redeemtion\n[06:36:33 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:33 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:38:17 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the  menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:38:17 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the  menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:38:23 PM] Marcos Avila: Debit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n[06:38:23 PM] Marcos Avila: Debit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n[06:42:25 PM] t4282407394: Yesterday i put $50 on my account, i been  playing a lot, right now i have $100 and it says i dont have enough money on the wallet\n[06:42:25 PM] t4282407394: Yesterday i put $50 on my account, i been  playing a lot, right now i have $100 and it says i dont have enough money on the wallet\n[06:43:45 PM] t4282407394: I already redeem once, this is gonna be my 2nd redeem\n[06:43:45 PM] t4282407394: I already redeem once, this is gonna be my 2nd redeem\n[06:43:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:43:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:46:56 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:49:40 PM] t4282407394: For some reason the message you send me dissapear, can you resend it please, last message i can see is that you were gonna look at it\n[06:49:40 PM] t4282407394: For some reason the message you send me dissapear, can you resend it please, last message i can see is that you were gonna look at it\n[06:50:20 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:20 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:26 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:50:26 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:51:10 PM] t4282407394: Alright\n[06:51:10 PM] t4282407394: Alright\n[06:52:39 PM] Marcos Avila: Please note that our system allows for only one pending redemption at a time. Additionally, a minimum balance of 100 played-through Sweepstakes Coins is required to proceed with a request.\n[06:52:39 PM] Marcos Avila: Please note that our system allows for only one pending redemption at a time. Additionally, a minimum balance of 100 played-through Sweepstakes Coins is required to proceed with a request.\n[06:53:37 PM] t4282407394: I dont pending redeemtions plus, i have $100 that i would like to redeem\n[06:53:37 PM] t4282407394: I dont pending redeemtions plus, i have $100 that i would like to redeem\n[06:53:45 PM] t4282407394: Have*\n[06:53:45 PM] t4282407394: Have*\n[06:54:37 PM] Marcos Avila: Could you please tell me which redemption option you are trying to use?\n[06:54:37 PM] Marcos Avila: Could you please tell me which redemption option you are trying to use?\n[06:55:59 PM] t4282407394: Ach is the only option i have available, right now i have $100.09 i tried to redeem $100 and it says i dont have enought funds on the wallet, shows as 0\n[06:55:59 PM] t4282407394: Ach is the only option i have available, right now i have $100.09 i tried to redeem $100 and it says i dont have enought funds on the wallet, shows as 0\n[06:57:57 PM] Marcos Avila: Could you please share an screenshoot of the error messagge?\n[06:57:57 PM] Marcos Avila: Could you please share an screenshoot of the error messagge?\n[06:58:15 PM] t4282407394: Screenshot_20260423_123556_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123542_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123556_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123542_Chrome.jpg\n[06:59:23 PM] t4282407394: Here they are, i put $50 yesterday, and i been playing a lot, so i know i already went through those $50\n[06:59:23 PM] t4282407394: Here they are, i put $50 yesterday, and i been playing a lot, so i know i already went through those $50\n[07:00:32 PM] Marcos Avila: Give me a moment to review this information.\n[07:00:32 PM] Marcos Avila: Give me a moment to review this information.\n[07:00:47 PM] t4282407394: Alright\n[07:00:47 PM] t4282407394: Alright\n[07:07:16 PM] t4282407394: Thanks for sharing the screenshot — that helps a lot!\n\nI can see you have $100.09 SC, but $0 redeemable SC, which means your balance hasn’t fully completed the 1x playthrough requirement yet.\n\nBefore you can redeem, the entire amount needs to be wagered at least once. Right now, part of your balance is still pending playthrough.\n\nAlso, sometimes funds can remain stuck in a game session. Please try:\n\nGoing back to the last game you played\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable SC will update, and you’ll be able to redeem 👍\n[07:07:16 PM] t4282407394: Thanks for sharing the screenshot — that helps a lot!\n\nI can see you have $100.09 SC, but $0 redeemable SC, which means your balance hasn’t fully completed the 1x playthrough requirement yet.\n\nBefore you can redeem, the entire amount needs to be wagered at least once. Right now, part of your balance is still pending playthrough.\n\nAlso, sometimes funds can remain stuck in a game session. Please try:\n\nGoing back to the last game you played\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable SC will update, and you’ll be able to redeem 👍\n[07:09:53 PM] t4282407394: Are yiu still there?\n[07:09:53 PM] t4282407394: Are yiu still there?\n[07:11:13 PM] t4282407394: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:11:13 PM] t4282407394: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:14:54.745Z"
+        }
+      ],
+      "avg_score": 62,
+      "grade": "D",
+      "trend": -3
     },
     {
       "id": "5802",
@@ -26680,6 +26815,141 @@
       "raw_transcript": "[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:54 PM] Customer: Okay thank you\n[06:40:54 PM] Customer: Okay thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:44:01 PM] Customer: Okay\n[06:44:01 PM] Customer: Okay\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T19:09:43.454Z"
+    },
+    {
+      "chat_id": "2047388961071738880",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T19:12:35.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with acknowledgment of the issue, though could have been warmer with customer name."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the issue and adapted well when customer corrected the $70 vs $30 discrepancy, requesting screenshot for verification."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Properly escalated to Compliance team after gathering necessary information, though resolution took considerable time."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional throughout, provided multiple wait updates, though premature closing attempt at 06:59:55 was awkward."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately escalated to specialist team without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Apologized for inability to resolve immediately and confirmed escalation with follow-up promise, though message was truncated."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 72,
+      "grade": "C",
+      "summary": "Agent handled the referral bonus discrepancy professionally, corrected initial misinformation about the $70 requirement, and properly escalated to Compliance. The premature closing attempt before receiving the screenshot was a notable misstep, but overall communication and issue handling were competent.",
+      "coaching_tip": "Avoid closing the conversation prematurely—wait until you've received all requested information from the customer before offering a farewell message.",
+      "website": "Jackpot Daily",
+      "message_count": 38,
+      "raw_transcript": "[06:55:41 PM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Referral bonus not showing\n[06:55:41 PM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Referral bonus not showing\n[06:56:19 PM] Diana Lopez: Hi — I understand your referral bonus is not showing.\n\nFor the referral bonus to be credited, your friend must complete all three steps:\n1. Register using your referral link or code\n2. Complete KYC verification\n*3. Make cumulative purchases totaling at least $70*\n\nIf your friend completed all steps and the bonus still isn't showing, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience.\n[06:56:19 PM] Diana Lopez: Hi — I understand your referral bonus is not showing.\n\nFor the referral bonus to be credited, your friend must complete all three steps:\n1. Register using your referral link or code\n2. Complete KYC verification\n*3. Make cumulative purchases totaling at least $70*\n\nIf your friend completed all steps and the bonus still isn't showing, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience.\n[06:57:09 PM] t1399485029: The promo says they only have to spend $30 not $70\n[06:57:09 PM] t1399485029: The promo says they only have to spend $30 not $70\n[06:57:39 PM] Diana Lopez: thank you for pointing that out. If the promotion you referred under clearly stated $30 and not $70, then that is the requirement that should apply to your referral.\n\nPlease share a screenshot of the promotion terms you saw, or let me know when you made the referral so our team can review which offer was active at that time.\n[06:57:39 PM] Diana Lopez: thank you for pointing that out. If the promotion you referred under clearly stated $30 and not $70, then that is the requirement that should apply to your referral.\n\nPlease share a screenshot of the promotion terms you saw, or let me know when you made the referral so our team can review which offer was active at that time.\n[06:59:55 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[06:59:55 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[07:00:13 PM] t1399485029: IMG_1186.png\n[07:00:13 PM] t1399485029: IMG_1186.png\n[07:00:44 PM] t1399485029: I made the referral today\n[07:00:44 PM] t1399485029: I made the referral today\n[07:01:38 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[07:01:38 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[07:01:48 PM] t1399485029: Ok thanks\n[07:01:48 PM] t1399485029: Ok thanks\n[07:03:04 PM] t1399485029: Ok\n[07:03:04 PM] t1399485029: Ok\n[07:04:11 PM] Diana Lopez: Still checking sorry!\n[07:04:11 PM] Diana Lopez: Still checking sorry!\n[07:04:16 PM] t1399485029: Ok\n[07:04:16 PM] t1399485029: Ok\n[07:06:21 PM] Diana Lopez: Bear with me for just a moment while I take a look at your account!\n[07:06:21 PM] Diana Lopez: Bear with me for just a moment while I take a look at your account!\n[07:06:34 PM] t1399485029: Ok\n[07:06:34 PM] t1399485029: Ok\n[07:08:22 PM] Diana Lopez: Just looping in the right team member for you — it won't be long!\n[07:08:22 PM] Diana Lopez: Just looping in the right team member for you — it won't be long!\n[07:08:31 PM] t1399485029: Ok\n[07:08:31 PM] t1399485029: Ok\n[07:10:24 PM] Diana Lopez: This is something our Compliance team needs to handle. I'm escalating this right now and you'll hear back shortly.\n[07:10:24 PM] Diana Lopez: This is something our Compliance team needs to handle. I'm escalating this right now and you'll hear back shortly.\n[07:10:33 PM] t1399485029: Ok\n[07:10:33 PM] t1399485029: Ok\n[07:10:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!\n[07:10:53 PM] Diana Lopez: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:14:45.021Z"
+    },
+    {
+      "chat_id": "2047384103288139776",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-23T19:11:17.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent failed to ask clarifying questions initially and provided generic redemption instructions before understanding the customer's actual issue about insufficient wallet balance."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Agent provided irrelevant information about Golden Egg expiration that doesn't address the customer's wallet balance issue, then appeared to restart the investigation without resolving the problem."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Communication was confusing with duplicate messages, irrelevant responses about Golden Egg, and the customer had to report messages disappearing."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No major violations detected, though the incomplete final message and lack of resolution raises concerns about proper procedure."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided; transcript ends mid-sentence with the issue unresolved and customer still waiting."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 40,
+      "grade": "F",
+      "summary": "Agent provided generic redemption instructions without first understanding the customer's specific issue about wallet balance showing insufficient funds despite having $100. The response about Golden Egg expiration was completely irrelevant to the customer's problem, and the chat ended without resolution or proper closing.",
+      "coaching_tip": "Always clarify the customer's specific issue before providing instructions—ask targeted questions about error messages and account details rather than assuming what help is needed.",
+      "website": "Jackpot Daily",
+      "message_count": 51,
+      "raw_transcript": "[06:36:23 PM] t4282407394: Full Name: t4282407394 Email Address: angel.murguia.2016@gmail.com Subject / How can we help you?: Redeemtion\n[06:36:23 PM] t4282407394: Full Name: t4282407394 Email Address: angel.murguia.2016@gmail.com Subject / How can we help you?: Redeemtion\n[06:36:33 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:33 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:38:17 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the  menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:38:17 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the  menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:38:23 PM] Marcos Avila: Debit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n[06:38:23 PM] Marcos Avila: Debit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n[06:42:25 PM] t4282407394: Yesterday i put $50 on my account, i been  playing a lot, right now i have $100 and it says i dont have enough money on the wallet\n[06:42:25 PM] t4282407394: Yesterday i put $50 on my account, i been  playing a lot, right now i have $100 and it says i dont have enough money on the wallet\n[06:43:45 PM] t4282407394: I already redeem once, this is gonna be my 2nd redeem\n[06:43:45 PM] t4282407394: I already redeem once, this is gonna be my 2nd redeem\n[06:43:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:43:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:46:56 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:49:40 PM] t4282407394: For some reason the message you send me dissapear, can you resend it please, last message i can see is that you were gonna look at it\n[06:49:40 PM] t4282407394: For some reason the message you send me dissapear, can you resend it please, last message i can see is that you were gonna look at it\n[06:50:20 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:20 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:26 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:50:26 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:51:10 PM] t4282407394: Alright\n[06:51:10 PM] t4282407394: Alright\n[06:52:39 PM] Marcos Avila: Please note that our system allows for only one pending redemption at a time. Additionally, a minimum balance of 100 played-through Sweepstakes Coins is required to proceed with a request.\n[06:52:39 PM] Marcos Avila: Please note that our system allows for only one pending redemption at a time. Additionally, a minimum balance of 100 played-through Sweepstakes Coins is required to proceed with a request.\n[06:53:37 PM] t4282407394: I dont pending redeemtions plus, i have $100 that i would like to redeem\n[06:53:37 PM] t4282407394: I dont pending redeemtions plus, i have $100 that i would like to redeem\n[06:53:45 PM] t4282407394: Have*\n[06:53:45 PM] t4282407394: Have*\n[06:54:37 PM] Marcos Avila: Could you please tell me which redemption option you are trying to use?\n[06:54:37 PM] Marcos Avila: Could you please tell me which redemption option you are trying to use?\n[06:55:59 PM] t4282407394: Ach is the only option i have available, right now i have $100.09 i tried to redeem $100 and it says i dont have enought funds on the wallet, shows as 0\n[06:55:59 PM] t4282407394: Ach is the only option i have available, right now i have $100.09 i tried to redeem $100 and it says i dont have enought funds on the wallet, shows as 0\n[06:57:57 PM] Marcos Avila: Could you please share an screenshoot of the error messagge?\n[06:57:57 PM] Marcos Avila: Could you please share an screenshoot of the error messagge?\n[06:58:15 PM] t4282407394: Screenshot_20260423_123556_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123542_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123556_Chrome.jpg\n[06:58:15 PM] t4282407394: Screenshot_20260423_123542_Chrome.jpg\n[06:59:23 PM] t4282407394: Here they are, i put $50 yesterday, and i been playing a lot, so i know i already went through those $50\n[06:59:23 PM] t4282407394: Here they are, i put $50 yesterday, and i been playing a lot, so i know i already went through those $50\n[07:00:32 PM] Marcos Avila: Give me a moment to review this information.\n[07:00:32 PM] Marcos Avila: Give me a moment to review this information.\n[07:00:47 PM] t4282407394: Alright\n[07:00:47 PM] t4282407394: Alright\n[07:07:16 PM] t4282407394: Thanks for sharing the screenshot — that helps a lot!\n\nI can see you have $100.09 SC, but $0 redeemable SC, which means your balance hasn’t fully completed the 1x playthrough requirement yet.\n\nBefore you can redeem, the entire amount needs to be wagered at least once. Right now, part of your balance is still pending playthrough.\n\nAlso, sometimes funds can remain stuck in a game session. Please try:\n\nGoing back to the last game you played\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable SC will update, and you’ll be able to redeem 👍\n[07:07:16 PM] t4282407394: Thanks for sharing the screenshot — that helps a lot!\n\nI can see you have $100.09 SC, but $0 redeemable SC, which means your balance hasn’t fully completed the 1x playthrough requirement yet.\n\nBefore you can redeem, the entire amount needs to be wagered at least once. Right now, part of your balance is still pending playthrough.\n\nAlso, sometimes funds can remain stuck in a game session. Please try:\n\nGoing back to the last game you played\nLetting it fully load\nExiting the game normally to return the balance\n\nOnce everything is fully played through and settled, your redeemable SC will update, and you’ll be able to redeem 👍\n[07:09:53 PM] t4282407394: Are yiu still there?\n[07:09:53 PM] t4282407394: Are yiu still there?\n[07:11:13 PM] t4282407394: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:11:13 PM] t4282407394: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:14:54.745Z"
+    },
+    {
+      "chat_id": "2047391059582693376",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T19:09:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though slightly informal with 'ill' instead of 'I'll'."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not ask clarifying questions about which specific bonuses or verify referral completion status before providing generic information."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard policy information but didn't investigate the specific account issues or verify referral status; offered generic troubleshooting without personalization."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and organized response with good formatting, but lacked personalization and didn't address all three concerns with equal depth."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately did not promise unauthorized bonuses and provided correct contact information."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Appropriate timeout closure with alternative contact method offered, though could have been more patient given multiple issues raised."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent provided a competent but generic response to multiple bonus-related concerns without investigating the specific account or asking clarifying questions. The interaction was professional and compliant but lacked the personalized troubleshooting needed for complex multi-issue inquiries.",
+      "coaching_tip": "Before providing policy information, ask clarifying questions to understand specific details like referral completion status and which exact bonuses are missing, then investigate the account to provide personalized solutions.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:01 PM] t9759236939: Full Name: t9759236939 Email Address: bluegreen42077@gmail.com Subject / How can we help you?: I invited someone, they signed up.. never got anything for it. Also I believe I was supposed to get something on Sunday and I didn't. Also why can't I get my daily bonus?? I have even cashed out. What's going on?\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:20 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:04:58 PM] t9759236939: Hi!\n[07:04:58 PM] t9759236939: Hi!\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:05:10 PM] Andrea Hernandez: Thanks for reaching out — I’m happy to help clear this up!\n\nReferral Bonus:\nFor the reward to be triggered, your friend needs to complete all of the following:\n\nRegister their account\nComplete KYC verification\nMake cumulative purchases of at least $70\n\nOnce all steps are completed, the reward is added automatically.\n\nMissing Bonus (Sunday / Daily Bonus):\nIf you didn’t receive a bonus, it could be due to eligibility requirements or a temporary issue. I recommend:\n\nLogging out and back in\nMaking sure you’re accessing the platform daily without interruptions\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:08:49 PM] Andrea Hernandez: Are you still there?\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:09:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:15:04.207Z"
     }
   ]
 }
