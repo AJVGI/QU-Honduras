@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T23:24:38.310Z",
-  "total_chats": 343,
+  "scored_at": "2026-04-23T23:40:06.192Z",
+  "total_chats": 346,
   "total_agents": 25,
   "agents": [
     {
@@ -6288,11 +6288,56 @@
           "raw_transcript": "[11:18:23 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: How long does redemptions take after submitting\n[11:18:23 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: How long does redemptions take after submitting\n[11:18:34 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:18:34 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:18:49 PM] t3954923554: Ty\n[11:18:49 PM] t3954923554: Ty\n[11:19:51 PM] Jonathan Fuentes: I��d be happy to explain\n\nACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[11:19:51 PM] Jonathan Fuentes: I’d be happy to explain\n\nACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[11:21:38 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:21:38 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:22:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:22:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T23:24:37.809Z"
+        },
+        {
+          "chat_id": "2047458026079432704",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-23T23:37:16.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent went directly to 'allow me one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the dual concern (redemption timing and referral bonus) and acknowledged the additional context provided by customer."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear information on both redemption processing times and referral bonus requirements, addressing both aspects of the inquiry."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured response with bullet points that made information easy to digest and professional throughout."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate standard processing information without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and provided a friendly, casino-appropriate closing with good luck wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent provided accurate and comprehensive information about both redemption processing and referral bonus requirements. The main weakness was the absence of an initial greeting before diving into the investigation.",
+          "coaching_tip": "Always open with a proper greeting that welcomes the customer by name before moving to 'one moment please' statements.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[11:30:08 PM] t0699057230: Full Name: t0699057230 Email Address: arevaknox402@gmail.com Subject / How can we help you?: When I will get my redemption 125.00\n[11:30:08 PM] t0699057230: Full Name: t0699057230 Email Address: arevaknox402@gmail.com Subject / How can we help you?: When I will get my redemption 125.00\n[11:30:33 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:30:33 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:31:13 PM] t0699057230: I referred friends i suppose to get $50.00 she got my link & start playing\n[11:31:13 PM] t0699057230: I referred friends i suppose to get $50.00 she got my link & start playing\n[11:32:29 PM] Jonathan Fuentes: Thank you for sharing that. Give me a moment to review this information.\n[11:32:29 PM] Jonathan Fuentes: Thank you for sharing that. Give me a moment to review this information.\n[11:34:29 PM] Jonathan Fuentes: I’d be happy to clarify \n\nAt the moment, redemptions are processed via ACH (Automated Clearing House), which sends funds directly to your bank account.\n\nHere’s what to expect:\n\nProcessing time can take up to 10 business days\nWeekends and holidays are not included in processing time\nThe request will show as pending while it’s being reviewed\n\nRegarding the referral bonus, it is automatically credited once all requirements are completed:\n\nYour friend must register an account\nComplete KYC verification\nReach $70 in cumulative purchases\n\nOnce all steps are met, the reward is added automatically — no extra action needed\n[11:34:29 PM] Jonathan Fuentes: I’d be happy to clarify \n\nAt the moment, redemptions are processed via ACH (Automated Clearing House), which sends funds directly to your bank account.\n\nHere’s what to expect:\n\nProcessing time can take up to 10 business days\nWeekends and holidays are not included in processing time\nThe request will show as pending while it’s being reviewed\n\nRegarding the referral bonus, it is automatically credited once all requirements are completed:\n\nYour friend must register an account\nComplete KYC verification\nReach $70 in cumulative purchases\n\nOnce all steps are met, the reward is added automatically — no extra action needed\n[11:36:01 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:36:01 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:36:38 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:36:38 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:39:43.522Z"
         }
       ],
       "avg_score": 60,
       "grade": "D",
-      "trend": 1
+      "trend": -1
     },
     {
       "id": "5806",
@@ -6612,11 +6657,56 @@
           "raw_transcript": "[10:38:40 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:38:40 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:39:00 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:39:00 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:39:30 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:39:30 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:39:54 PM] Customer: I’m getting a verification code to Raheimm51@gmail.com\n[10:39:54 PM] Customer: I’m getting a verification code to Raheimm51@gmail.com\n[10:40:06 PM] Customer: Phone number is 9192577387\n[10:40:06 PM] Customer: Phone number is 9192577387\n[10:40:18 PM] Customer: Raheim Moore is the full name on the account\n[10:40:18 PM] Customer: Raheim Moore is the full name on the account\n[10:40:32 PM] Customer: I have like 35.00 on the account\n[10:40:32 PM] Customer: I have like 35.00 on the account\n[10:40:38 PM] Oscar Zelaya: Got it — that helps a lot \nIf you’re receiving the verification code at Raheimm51@gmail.com\n, that means your account is most likely registered with that email.\nPlease go ahead and:\nCheck that inbox (and spam/junk folder) for the code\nEnter the code exactly as received to complete your login\nIf you don’t have access to that email, let me know right away — I can help you with the next steps to recover your account\n[10:40:38 PM] Oscar Zelaya: Got it — that helps a lot \nIf you’re receiving the verification code at Raheimm51@gmail.com\n, that means your account is most likely registered with that email.\nPlease go ahead and:\nCheck that inbox (and spam/junk folder) for the code\nEnter the code exactly as received to complete your login\nIf you don’t have access to that email, let me know right away — I can help you with the next steps to recover your account\n[10:41:00 PM] Customer: When I try to complete it fails\n[10:41:00 PM] Customer: When I try to complete it fails\n[10:42:11 PM] Oscar Zelaya: Could you please share a screenshot about that process.\n[10:42:11 PM] Oscar Zelaya: Could you please share a screenshot about that process.\n[10:43:46 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:43:46 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:45:05 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:45:05 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T22:49:44.547Z"
+        },
+        {
+          "chat_id": "2047458581988864000",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-23T23:36:15.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting; agent jumped straight to 'one moment' then provided username in response without proper salutation."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent made assumptions about balance/bonus issues without asking clarifying questions about what 'can't play' actually meant."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic troubleshooting steps that may not address the actual issue since the root cause was never identified."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and well-structured instructions, but failed to engage with customer to understand their specific problem."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations, but closed chat without confirming customer issue was resolved or even acknowledged."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help and provided friendly closing, but did so prematurely without customer confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent provided detailed technical troubleshooting steps but failed to diagnose the actual problem by not asking what specifically prevented the customer from playing. The interaction felt scripted and one-sided, with the agent closing without confirming the issue was understood or resolved.",
+          "coaching_tip": "Always ask clarifying questions before providing solutions—'Why can't I play' could mean account restrictions, technical errors, payment issues, or game access problems, each requiring different responses.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:32:20 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:32:20 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:32:39 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[11:32:39 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[11:33:44 PM] Oscar Zelaya: Hi bercierbilly2 ,\nThank you for reaching out! If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:33:44 PM] Oscar Zelaya: Hi bercierbilly2 ,\nThank you for reaching out! If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:34:45 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[11:34:45 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[11:36:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:36:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:39:56.141Z"
         }
       ],
       "avg_score": 58,
       "grade": "F",
-      "trend": -12
+      "trend": -8
     },
     {
       "id": "5669",
@@ -10932,11 +11022,56 @@
           "raw_transcript": "[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:58 PM] t9878504969: Ok\n[10:43:58 PM] t9878504969: Ok\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:32 PM] t9878504969: Ok\n[10:46:32 PM] t9878504969: Ok\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:23 PM] t9878504969: Ok\n[10:52:23 PM] t9878504969: Ok\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n��� Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:47 PM] t9878504969: Ok\n[10:58:47 PM] t9878504969: Ok",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T22:59:43.493Z"
+        },
+        {
+          "chat_id": "2047455670449827840",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-23T23:35:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after initial delay and did not use customer's name, only generic introduction."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent eventually understood the issue but initially focused on verification status instead of the missing signup bonus."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent failed to resolve or properly escalate within the chat, instead deflecting customer to email after significant delay."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Agent was repetitive, slow to respond, and did not acknowledge customer's growing frustration effectively."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to handle the bonus inquiry with appropriate authority or information."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No proper closing after customer expressed frustration and requested account deletion; conversation ended abruptly."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 46,
+          "grade": "F",
+          "summary": "Agent misunderstood the core issue initially, focusing on verification status when customer clearly asked about missing signup bonus. After multiple delays and customer frustration, agent deflected to email escalation without attempting resolution or showing empathy for the problem.",
+          "coaching_tip": "Read the initial inquiry carefully and address the actual question first—customer asked about signup bonus, not verification status, which wasted time and increased frustration.",
+          "website": "Jackpot Daily",
+          "message_count": 50,
+          "raw_transcript": "[11:20:46 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[11:20:46 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[11:21:00 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[11:21:00 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[11:21:24 PM] t3759369481: I'm verified!!!???? And I NEVER RECEIVED ANYTHING!????\n[11:21:24 PM] t3759369481: I'm verified!!!???? And I NEVER RECEIVED ANYTHING!????\n[11:21:35 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[11:21:35 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[11:21:41 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[11:21:41 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[11:22:24 PM] Ana Erazo: We can confirm that your account has already been verified.\n[11:22:24 PM] Ana Erazo: We can confirm that your account has already been verified.\n[11:23:29 PM] Ana Erazo: Are you still there?\n[11:23:29 PM] Ana Erazo: Are you still there?\n[11:23:44 PM] t3759369481: Yep\n[11:23:44 PM] t3759369481: Yep\n[11:24:07 PM] Ana Erazo: It appears that your account is already verified.\n[11:24:07 PM] Ana Erazo: It appears that your account is already verified.\n[11:24:20 PM] Ana Erazo: Is there anything else I can help you with today?\n[11:24:20 PM] Ana Erazo: Is there anything else I can help you with today?\n[11:24:40 PM] t3759369481: I KNOW!!!! STILL NEVER RECEIVED MY SIGN UP BONUS!?????\n[11:24:40 PM] t3759369481: I KNOW!!!! STILL NEVER RECEIVED MY SIGN UP BONUS!?????\n[11:24:52 PM] t3759369481: DO YOU PEOPLE READ ANYTHING!???\n[11:24:52 PM] t3759369481: DO YOU PEOPLE READ ANYTHING!???\n[11:25:12 PM] t3759369481: Screenshot_20260423-182500.png\n[11:25:12 PM] t3759369481: Screenshot_20260423-182500.png\n[11:25:40 PM] Ana Erazo: Give me a moment to review this information.\n[11:25:40 PM] Ana Erazo: Give me a moment to review this information.\n[11:25:55 PM] t3759369481: Doesn't my ticket ask where my signup bonus is???? Not if I'm verified or not!???\n[11:25:55 PM] t3759369481: Doesn't my ticket ask where my signup bonus is???? Not if I'm verified or not!???\n[11:27:51 PM] Ana Erazo: One sec  — Just pulling that information up for you!\n[11:27:51 PM] Ana Erazo: One sec  — Just pulling that information up for you!\n[11:28:54 PM] t3759369481: Yep\n[11:28:54 PM] t3759369481: Yep\n[11:30:37 PM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:30:37 PM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:31:16 PM] t3759369481: Wow!! So much for a signup bonus!!\n[11:31:16 PM] t3759369481: Wow!! So much for a signup bonus!!\n[11:31:25 PM] t3759369481: Just delete my account!!!!\n[11:31:25 PM] t3759369481: Just delete my account!!!!\n[11:32:07 PM] Ana Erazo: We sincerely apologize, but to better assist you, we will need to escalate your case to the appropriate team.\n[11:32:07 PM] Ana Erazo: We sincerely apologize, but to better assist you, we will need to escalate your case to the appropriate team.\n[11:32:34 PM] t3759369481: In this case we are going to proceed with the deletion of your account, please keep in mind is a permanent deletion,  you will not be able to create a new account with us.\n[11:32:34 PM] t3759369481: In this case we are going to proceed with the deletion of your account, please keep in mind is a permanent deletion,  you will not be able to create a new account with us.\n[11:33:39 PM] t3759369481: Idc fuck you and this dumb ass place\n[11:33:39 PM] t3759369481: Idc fuck you and this dumb ass place\n[11:35:15 PM] Ana Erazo: As requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[11:35:15 PM] Ana Erazo: As requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[11:35:36 PM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[11:35:36 PM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:40:05.690Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 17
+      "trend": 14
     },
     {
       "id": "5842",
@@ -31099,6 +31234,141 @@
       "raw_transcript": "[11:18:23 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: How long does redemptions take after submitting\n[11:18:23 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: How long does redemptions take after submitting\n[11:18:34 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:18:34 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:18:49 PM] t3954923554: Ty\n[11:18:49 PM] t3954923554: Ty\n[11:19:51 PM] Jonathan Fuentes: I��d be happy to explain\n\nACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[11:19:51 PM] Jonathan Fuentes: I’d be happy to explain\n\nACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[11:21:38 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:21:38 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:22:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:22:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T23:24:37.809Z"
+    },
+    {
+      "chat_id": "2047458026079432704",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-23T23:37:16.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No greeting present; agent went directly to 'allow me one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the dual concern (redemption timing and referral bonus) and acknowledged the additional context provided by customer."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear information on both redemption processing times and referral bonus requirements, addressing both aspects of the inquiry."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured response with bullet points that made information easy to digest and professional throughout."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate standard processing information without unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance and provided a friendly, casino-appropriate closing with good luck wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 71,
+      "grade": "C",
+      "summary": "Agent provided accurate and comprehensive information about both redemption processing and referral bonus requirements. The main weakness was the absence of an initial greeting before diving into the investigation.",
+      "coaching_tip": "Always open with a proper greeting that welcomes the customer by name before moving to 'one moment please' statements.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[11:30:08 PM] t0699057230: Full Name: t0699057230 Email Address: arevaknox402@gmail.com Subject / How can we help you?: When I will get my redemption 125.00\n[11:30:08 PM] t0699057230: Full Name: t0699057230 Email Address: arevaknox402@gmail.com Subject / How can we help you?: When I will get my redemption 125.00\n[11:30:33 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:30:33 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:31:13 PM] t0699057230: I referred friends i suppose to get $50.00 she got my link & start playing\n[11:31:13 PM] t0699057230: I referred friends i suppose to get $50.00 she got my link & start playing\n[11:32:29 PM] Jonathan Fuentes: Thank you for sharing that. Give me a moment to review this information.\n[11:32:29 PM] Jonathan Fuentes: Thank you for sharing that. Give me a moment to review this information.\n[11:34:29 PM] Jonathan Fuentes: I’d be happy to clarify \n\nAt the moment, redemptions are processed via ACH (Automated Clearing House), which sends funds directly to your bank account.\n\nHere’s what to expect:\n\nProcessing time can take up to 10 business days\nWeekends and holidays are not included in processing time\nThe request will show as pending while it’s being reviewed\n\nRegarding the referral bonus, it is automatically credited once all requirements are completed:\n\nYour friend must register an account\nComplete KYC verification\nReach $70 in cumulative purchases\n\nOnce all steps are met, the reward is added automatically — no extra action needed\n[11:34:29 PM] Jonathan Fuentes: I’d be happy to clarify \n\nAt the moment, redemptions are processed via ACH (Automated Clearing House), which sends funds directly to your bank account.\n\nHere’s what to expect:\n\nProcessing time can take up to 10 business days\nWeekends and holidays are not included in processing time\nThe request will show as pending while it’s being reviewed\n\nRegarding the referral bonus, it is automatically credited once all requirements are completed:\n\nYour friend must register an account\nComplete KYC verification\nReach $70 in cumulative purchases\n\nOnce all steps are met, the reward is added automatically — no extra action needed\n[11:36:01 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:36:01 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:36:38 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:36:38 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T23:39:43.522Z"
+    },
+    {
+      "chat_id": "2047458581988864000",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-23T23:36:15.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No initial greeting; agent jumped straight to 'one moment' then provided username in response without proper salutation."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent made assumptions about balance/bonus issues without asking clarifying questions about what 'can't play' actually meant."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided generic troubleshooting steps that may not address the actual issue since the root cause was never identified."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and well-structured instructions, but failed to engage with customer to understand their specific problem."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No violations, but closed chat without confirming customer issue was resolved or even acknowledged."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help and provided friendly closing, but did so prematurely without customer confirmation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 53,
+      "grade": "F",
+      "summary": "Agent provided detailed technical troubleshooting steps but failed to diagnose the actual problem by not asking what specifically prevented the customer from playing. The interaction felt scripted and one-sided, with the agent closing without confirming the issue was understood or resolved.",
+      "coaching_tip": "Always ask clarifying questions before providing solutions—'Why can't I play' could mean account restrictions, technical errors, payment issues, or game access problems, each requiring different responses.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[11:32:20 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:32:20 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:32:39 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[11:32:39 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[11:33:44 PM] Oscar Zelaya: Hi bercierbilly2 ,\nThank you for reaching out! If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:33:44 PM] Oscar Zelaya: Hi bercierbilly2 ,\nThank you for reaching out! If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:34:45 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[11:34:45 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[11:36:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:36:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T23:39:56.141Z"
+    },
+    {
+      "chat_id": "2047455670449827840",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-23T23:35:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Greeting came after initial delay and did not use customer's name, only generic introduction."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent eventually understood the issue but initially focused on verification status instead of the missing signup bonus."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent failed to resolve or properly escalate within the chat, instead deflecting customer to email after significant delay."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Agent was repetitive, slow to respond, and did not acknowledge customer's growing frustration effectively."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but failed to handle the bonus inquiry with appropriate authority or information."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "No proper closing after customer expressed frustration and requested account deletion; conversation ended abruptly."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 46,
+      "grade": "F",
+      "summary": "Agent misunderstood the core issue initially, focusing on verification status when customer clearly asked about missing signup bonus. After multiple delays and customer frustration, agent deflected to email escalation without attempting resolution or showing empathy for the problem.",
+      "coaching_tip": "Read the initial inquiry carefully and address the actual question first—customer asked about signup bonus, not verification status, which wasted time and increased frustration.",
+      "website": "Jackpot Daily",
+      "message_count": 50,
+      "raw_transcript": "[11:20:46 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[11:20:46 PM] t3759369481: Full Name: t3759369481 Email Address: dmk4623@gmail.com Subject / How can we help you?: So there's no sign up bonus??? I never received my 2 sc for verifying my email and phone number???\n[11:21:00 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[11:21:00 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[11:21:24 PM] t3759369481: I'm verified!!!???? And I NEVER RECEIVED ANYTHING!????\n[11:21:24 PM] t3759369481: I'm verified!!!???? And I NEVER RECEIVED ANYTHING!????\n[11:21:35 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[11:21:35 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[11:21:41 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[11:21:41 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[11:22:24 PM] Ana Erazo: We can confirm that your account has already been verified.\n[11:22:24 PM] Ana Erazo: We can confirm that your account has already been verified.\n[11:23:29 PM] Ana Erazo: Are you still there?\n[11:23:29 PM] Ana Erazo: Are you still there?\n[11:23:44 PM] t3759369481: Yep\n[11:23:44 PM] t3759369481: Yep\n[11:24:07 PM] Ana Erazo: It appears that your account is already verified.\n[11:24:07 PM] Ana Erazo: It appears that your account is already verified.\n[11:24:20 PM] Ana Erazo: Is there anything else I can help you with today?\n[11:24:20 PM] Ana Erazo: Is there anything else I can help you with today?\n[11:24:40 PM] t3759369481: I KNOW!!!! STILL NEVER RECEIVED MY SIGN UP BONUS!?????\n[11:24:40 PM] t3759369481: I KNOW!!!! STILL NEVER RECEIVED MY SIGN UP BONUS!?????\n[11:24:52 PM] t3759369481: DO YOU PEOPLE READ ANYTHING!???\n[11:24:52 PM] t3759369481: DO YOU PEOPLE READ ANYTHING!???\n[11:25:12 PM] t3759369481: Screenshot_20260423-182500.png\n[11:25:12 PM] t3759369481: Screenshot_20260423-182500.png\n[11:25:40 PM] Ana Erazo: Give me a moment to review this information.\n[11:25:40 PM] Ana Erazo: Give me a moment to review this information.\n[11:25:55 PM] t3759369481: Doesn't my ticket ask where my signup bonus is???? Not if I'm verified or not!???\n[11:25:55 PM] t3759369481: Doesn't my ticket ask where my signup bonus is???? Not if I'm verified or not!???\n[11:27:51 PM] Ana Erazo: One sec  — Just pulling that information up for you!\n[11:27:51 PM] Ana Erazo: One sec  — Just pulling that information up for you!\n[11:28:54 PM] t3759369481: Yep\n[11:28:54 PM] t3759369481: Yep\n[11:30:37 PM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:30:37 PM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:31:16 PM] t3759369481: Wow!! So much for a signup bonus!!\n[11:31:16 PM] t3759369481: Wow!! So much for a signup bonus!!\n[11:31:25 PM] t3759369481: Just delete my account!!!!\n[11:31:25 PM] t3759369481: Just delete my account!!!!\n[11:32:07 PM] Ana Erazo: We sincerely apologize, but to better assist you, we will need to escalate your case to the appropriate team.\n[11:32:07 PM] Ana Erazo: We sincerely apologize, but to better assist you, we will need to escalate your case to the appropriate team.\n[11:32:34 PM] t3759369481: In this case we are going to proceed with the deletion of your account, please keep in mind is a permanent deletion,  you will not be able to create a new account with us.\n[11:32:34 PM] t3759369481: In this case we are going to proceed with the deletion of your account, please keep in mind is a permanent deletion,  you will not be able to create a new account with us.\n[11:33:39 PM] t3759369481: Idc fuck you and this dumb ass place\n[11:33:39 PM] t3759369481: Idc fuck you and this dumb ass place\n[11:35:15 PM] Ana Erazo: As requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[11:35:15 PM] Ana Erazo: As requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[11:35:36 PM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[11:35:36 PM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T23:40:05.690Z"
     }
   ]
 }
