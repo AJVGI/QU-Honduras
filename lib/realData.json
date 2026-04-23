@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T22:34:43.628Z",
-  "total_chats": 336,
+  "scored_at": "2026-04-23T22:39:41.451Z",
+  "total_chats": 337,
   "total_agents": 25,
   "agents": [
     {
@@ -5478,11 +5478,56 @@
           "raw_transcript": "[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T22:34:43.126Z"
+        },
+        {
+          "chat_id": "2047443433718902784",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-23T22:37:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions about login method and requested additional information, showing good understanding of the account access issue."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided troubleshooting steps but closed chat prematurely without waiting for customer response or confirming the issue was resolved."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and friendly tone with helpful instructions, though the rushed closing undermined the overall helpfulness."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately asked for account verification information without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Extremely premature closing; asked if anything else needed only 16 seconds after providing troubleshooting steps, then closed without customer confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided helpful troubleshooting steps and asked appropriate clarifying questions but failed critically by closing the chat within 2 minutes of providing instructions without waiting for customer response or resolution confirmation. The lack of any greeting and the rushed, premature closure significantly undermined an otherwise competent support interaction.",
+          "coaching_tip": "Always wait for customer acknowledgment after providing troubleshooting steps before offering to close the chat; give customers adequate time to try solutions or respond, especially for account access issues.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[10:32:08 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:32:08 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:32:38 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:32:38 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:33:35 PM] Oscar Zelaya: Could you please send me a screenshot of what you’re seeing on your end? That’ll help me take a closer look and resolve this for you as quickly as possible\n[10:33:35 PM] Oscar Zelaya: Could you please send me a screenshot of what you’re seeing on your end? That’ll help me take a closer look and resolve this for you as quickly as possible\n[10:35:39 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:35:39 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:35:51 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:35:51 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:37:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:37:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T22:39:40.950Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 0
+      "trend": -7
     },
     {
       "id": "5845",
@@ -30469,6 +30514,51 @@
       "raw_transcript": "[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T22:34:43.126Z"
+    },
+    {
+      "chat_id": "2047443433718902784",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-23T22:37:17.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions about login method and requested additional information, showing good understanding of the account access issue."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided troubleshooting steps but closed chat prematurely without waiting for customer response or confirming the issue was resolved."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and friendly tone with helpful instructions, though the rushed closing undermined the overall helpfulness."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately asked for account verification information without making unauthorized promises."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Extremely premature closing; asked if anything else needed only 16 seconds after providing troubleshooting steps, then closed without customer confirmation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent provided helpful troubleshooting steps and asked appropriate clarifying questions but failed critically by closing the chat within 2 minutes of providing instructions without waiting for customer response or resolution confirmation. The lack of any greeting and the rushed, premature closure significantly undermined an otherwise competent support interaction.",
+      "coaching_tip": "Always wait for customer acknowledgment after providing troubleshooting steps before offering to close the chat; give customers adequate time to try solutions or respond, especially for account access issues.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[10:32:08 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:32:08 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:32:38 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:32:38 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:33:35 PM] Oscar Zelaya: Could you please send me a screenshot of what you’re seeing on your end? That’ll help me take a closer look and resolve this for you as quickly as possible\n[10:33:35 PM] Oscar Zelaya: Could you please send me a screenshot of what you’re seeing on your end? That’ll help me take a closer look and resolve this for you as quickly as possible\n[10:35:39 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:35:39 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:35:51 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:35:51 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:37:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:37:11 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T22:39:40.950Z"
     }
   ]
 }
