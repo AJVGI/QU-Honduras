@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T22:14:44.755Z",
-  "total_chats": 335,
+  "scored_at": "2026-04-23T22:34:43.628Z",
+  "total_chats": 336,
   "total_agents": 25,
   "agents": [
     {
@@ -4198,195 +4198,6 @@
       "trend": 12
     },
     {
-      "id": "5806",
-      "name": "Oscar Zelaya",
-      "chats": [
-        {
-          "chat_id": "2043881559383437312",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:43:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Initial response lacked a proper greeting, only asked for a moment to investigate."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Provided common causes but didn't ask clarifying questions about what specific error Jonathan was experiencing."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Offered generic troubleshooting options without confirming the actual issue or waiting for customer response before moving to close."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and organized information but moved too quickly to closing without allowing customer to respond to troubleshooting suggestions."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately mentioned account limitations and regional restrictions."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Prematurely asked about other issues only 95 seconds after providing troubleshooting steps, without waiting for customer feedback."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 54,
-          "grade": "F",
-          "summary": "Agent provided relevant troubleshooting information but rushed through the interaction without proper discovery or allowing time for customer response. The premature closing attempt before confirming whether the suggestions helped was the most significant issue.",
-          "coaching_tip": "Wait for customer acknowledgment and feedback after providing troubleshooting steps before moving to close the conversation.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[02:38:31 AM] Customer: Full Name: Jonathan Silva Email Address: jonjon915.JS@gmail.com Subject / How can we help you?: Y cantbi sign in\n[02:38:44 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:39:05 AM] Customer: Ok\n[02:40:40 AM] Oscar Zelaya: Hey Jonathan  ! Let's figure this out together!\n● Common causes:\n○ Email already in use: each player can only have\none account. Try resetting password at\nwww.jackpotdaily.com → Login → “Forgot\nPassword?”.\n○ Region restriction: Jackpot Daily may not be\navailable in your area yet.\n● Do either of these sound like the issue? Let me know and\nI’ll help further.\n[02:42:15 AM] Oscar Zelaya: Is there anything else I can help you with today?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:19:02.225Z"
-        },
-        {
-          "chat_id": "2043874838732697600",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:20:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No initial greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the geolocation issue and asked clarifying question about browser/device, though could have probed earlier about specific error messages."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive troubleshooting steps for location issues and followed up with browser-specific solutions when customer clarified Chrome mobile usage."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured responses with bullet points and friendly tone, though slightly repetitive with the 'anything else' question."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately handled geolocation restrictions and provided standard troubleshooting without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Friendly closing with customer name and well-wishes, though came after asking twice if anything else was needed without clear confirmation issue was resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 70,
-          "grade": "C",
-          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with appropriate follow-up questions and browser-specific guidance. Main weakness was lack of proper initial greeting and premature closing attempts before confirming resolution.",
-          "coaching_tip": "Always open with a proper greeting before diving into troubleshooting, and confirm the issue is resolved before offering to close the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[02:11:49 AM] Customer: Full Name: James manes Email Address: jamesmanes870@gmail.com Subject / How can we help you?: My location is on and I am sharing\n[02:12:06 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:13:44 AM] Customer: What can I not get in\n[02:13:58 AM] Oscar Zelaya: Hey James  That's a strange one if you're in\nan eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device\nsettings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:15:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:15:55 AM] Customer: Chrome on my mobile\n[02:16:35 AM] Oscar Zelaya: Thanks for confirming.\nSince you're using Chrome on your mobile device, could you please try clearing your browser’s cache and cookies, then close and reopen the browser before trying again?\nYou can also try opening the site in incognito mode to see if that helps.\nIf the issue still persists, please let me know and I’ll take a closer look for you.\n[02:18:44 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:20:20 AM] Oscar Zelaya: Thanks for chatting with us James  ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:21:56.420Z"
-        },
-        {
-          "chat_id": "2043873276811636736",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:18:38.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all, agent jumped straight to 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the discrepancy issue and requested screenshots to investigate further, showing good diagnostic approach."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent provided detailed bonus structure but ultimately escalated via email rather than resolving the promotional discrepancy directly, which is acceptable but not ideal."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional with well-formatted bonus information, though multiple 'allow me one moment' messages felt repetitive."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated when unable to resolve and didn't make unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing with customer name, though slightly rushed after no response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent handled the promotional discrepancy issue professionally by providing detailed bonus information and requesting screenshots, but ultimately escalated to email support rather than resolving directly. The interaction lacked an initial greeting and felt somewhat mechanical with repetitive holding messages.",
-          "coaching_tip": "Always open with a proper greeting before diving into the issue, and try to vary your holding language instead of repeating 'Please allow me one moment' three times consecutively.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[02:05:37 AM] t8070873927: Full Name: t8070873927 Email Address: janelle_emert@yahoo.com Subject / How can we help you?: I just created my account. When I login it says I can get a welcome bonus of $30 sc for $9.99. But when I go to purchase it, it only gives me th option for $20 sc?\n[02:05:52 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:07:39 AM] Oscar Zelaya: Hey janelle_emert ! Your first three purchases all\ncome with bonus packs — here’s the breakdown:\n1st Purchase (New User Offer):\n● $10: 4,000 GC | 600 XP | 22 SC\n● $50: 20,000 GC | 3,000 XP | 80 SC\n● $100: 40,000 GC | 6,000 XP | 140 SC\n2nd Purchase Pack:\n● $10: 4,000 GC | 500 XP | 20 SC\n● $50: 20,000 GC | 2,500 XP | 70 SC\n● $100: 40,000 GC | 5,000 XP | 130 SC\n3rd Purchase Pack:\n● $10: 4,000 GC | 400 XP | 18 SC\n● $50: 20,000 GC | 2,000 XP | 65 SC\n● $100: 40,000 GC | 4,000 XP | 120 SC\n[02:09:07 AM] Oscar Zelaya: If you’re not seeing additional options, could you please share a screenshot so I can take a closer look?\n[02:09:33 AM] t8070873927: IMG_2457.jpg\n[02:10:02 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:10:12 AM] t8070873927: IMG_2458.jpg\n[02:10:35 AM] t8070873927: I haven’t made a first purchase yet\n[02:12:10 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:15:06 AM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[02:16:46 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:18:30 AM] Oscar Zelaya: Thanks for chatting with us janelle_emer ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:22:07.830Z"
-        },
-        {
-          "chat_id": "2047420953428062208",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-23T21:24:41.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Greeting came late (after multiple customer messages) and used email address instead of proper name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent failed to clearly understand the customer's POA verification frustration and didn't ask clarifying questions about what documents were already submitted."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent deflected to email escalation without attempting to resolve the document upload issue or explaining why previous submissions failed."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Professional tone but contradictory messaging (first said escalate via email, then offered to resend link, then back to email escalation)."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but the inconsistent approach suggests unclear protocol adherence."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Chat appears to have been cut off mid-message with no proper closing or confirmation customer was satisfied."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent provided inconsistent guidance, first directing customer to email escalation, then offering to resend a secure link, then reverting back to email escalation without clear explanation. The customer's core frustration about repeated POA verification issues was not adequately addressed or investigated.",
-          "coaching_tip": "When a customer mentions getting 'the run around,' acknowledge their frustration directly, investigate their submission history before responding, and provide one clear path forward rather than switching between solutions.",
-          "website": "Jackpot Daily",
-          "message_count": 32,
-          "raw_transcript": "[09:02:49 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Poa\n[09:02:49 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Poa\n[09:03:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:03:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:04:33 PM] t5003516845: Do I need to upload a copy of my old Alabama drivers license with the same address as on my profile because you all keep giving me the run around about POA verification.\n[09:04:33 PM] t5003516845: 20220909_133904.jpg\n[09:04:33 PM] t5003516845: Do I need to upload a copy of my old Alabama drivers license with the same address as on my profile because you all keep giving me the run around about POA verification.\n[09:04:33 PM] t5003516845: 20220909_133904.jpg\n[09:04:54 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:04:54 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:06:14 PM] Oscar Zelaya: Hi tamyiah4 , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:06:14 PM] Oscar Zelaya: Hi tamyiah4 , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:06:24 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[09:06:24 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[09:07:47 PM] t5003516845: Still waiting\n[09:07:47 PM] t5003516845: Still waiting\n[09:08:56 PM] Oscar Zelaya: It looks like you haven’t received the secure link to upload your documents yet.\n[09:08:56 PM] Oscar Zelaya: It looks like you haven’t received the secure link to upload your documents yet.\n[09:09:07 PM] Oscar Zelaya: Please check your inbox (and spam/junk folder just in case), and I’ll make sure the link is sent again.\n[09:09:07 PM] Oscar Zelaya: Please check your inbox (and spam/junk folder just in case), and I’ll make sure the link is sent again.\n[09:10:15 PM] Oscar Zelaya: Please let me know once you’ve received the link or if you need any further help — I’m here for you\n[09:10:15 PM] Oscar Zelaya: Please let me know once you’ve received the link or if you need any further help — I’m here for you\n[09:10:18 PM] t5003516845: I have. No email period\n[09:10:18 PM] t5003516845: I have. No email period\n[09:10:38 PM] t5003516845: I haven’t received anything\n[09:10:38 PM] t5003516845: I haven’t received anything\n[09:11:00 PM] Oscar Zelaya: Thank you for clarifying — please allow me a moment while I take a closer look \nI’ll be right back with an update, I appreciate your patience!\n[09:11:00 PM] Oscar Zelaya: Thank you for clarifying — please allow me a moment while I take a closer look \nI’ll be right back with an update, I appreciate your patience!\n[09:14:36 PM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:14:36 PM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:24:38 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[09:24:38 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T21:29:53.906Z"
-        }
-      ],
-      "avg_score": 61,
-      "grade": "D",
-      "trend": 0
-    },
-    {
       "id": "5808",
       "name": "Daniel Ayestas",
       "chats": [
@@ -5438,6 +5249,240 @@
       "avg_score": 60,
       "grade": "D",
       "trend": -20
+    },
+    {
+      "id": "5806",
+      "name": "Oscar Zelaya",
+      "chats": [
+        {
+          "chat_id": "2043881559383437312",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:43:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Initial response lacked a proper greeting, only asked for a moment to investigate."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Provided common causes but didn't ask clarifying questions about what specific error Jonathan was experiencing."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Offered generic troubleshooting options without confirming the actual issue or waiting for customer response before moving to close."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and organized information but moved too quickly to closing without allowing customer to respond to troubleshooting suggestions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned account limitations and regional restrictions."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Prematurely asked about other issues only 95 seconds after providing troubleshooting steps, without waiting for customer feedback."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided relevant troubleshooting information but rushed through the interaction without proper discovery or allowing time for customer response. The premature closing attempt before confirming whether the suggestions helped was the most significant issue.",
+          "coaching_tip": "Wait for customer acknowledgment and feedback after providing troubleshooting steps before moving to close the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[02:38:31 AM] Customer: Full Name: Jonathan Silva Email Address: jonjon915.JS@gmail.com Subject / How can we help you?: Y cantbi sign in\n[02:38:44 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:39:05 AM] Customer: Ok\n[02:40:40 AM] Oscar Zelaya: Hey Jonathan  ! Let's figure this out together!\n● Common causes:\n○ Email already in use: each player can only have\none account. Try resetting password at\nwww.jackpotdaily.com → Login → “Forgot\nPassword?”.\n○ Region restriction: Jackpot Daily may not be\navailable in your area yet.\n● Do either of these sound like the issue? Let me know and\nI’ll help further.\n[02:42:15 AM] Oscar Zelaya: Is there anything else I can help you with today?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:19:02.225Z"
+        },
+        {
+          "chat_id": "2043874838732697600",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:20:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the geolocation issue and asked clarifying question about browser/device, though could have probed earlier about specific error messages."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps for location issues and followed up with browser-specific solutions when customer clarified Chrome mobile usage."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with bullet points and friendly tone, though slightly repetitive with the 'anything else' question."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately handled geolocation restrictions and provided standard troubleshooting without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Friendly closing with customer name and well-wishes, though came after asking twice if anything else was needed without clear confirmation issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with appropriate follow-up questions and browser-specific guidance. Main weakness was lack of proper initial greeting and premature closing attempts before confirming resolution.",
+          "coaching_tip": "Always open with a proper greeting before diving into troubleshooting, and confirm the issue is resolved before offering to close the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[02:11:49 AM] Customer: Full Name: James manes Email Address: jamesmanes870@gmail.com Subject / How can we help you?: My location is on and I am sharing\n[02:12:06 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:13:44 AM] Customer: What can I not get in\n[02:13:58 AM] Oscar Zelaya: Hey James  That's a strange one if you're in\nan eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device\nsettings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:15:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:15:55 AM] Customer: Chrome on my mobile\n[02:16:35 AM] Oscar Zelaya: Thanks for confirming.\nSince you're using Chrome on your mobile device, could you please try clearing your browser’s cache and cookies, then close and reopen the browser before trying again?\nYou can also try opening the site in incognito mode to see if that helps.\nIf the issue still persists, please let me know and I’ll take a closer look for you.\n[02:18:44 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:20:20 AM] Oscar Zelaya: Thanks for chatting with us James  ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:21:56.420Z"
+        },
+        {
+          "chat_id": "2043873276811636736",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:18:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all, agent jumped straight to 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the discrepancy issue and requested screenshots to investigate further, showing good diagnostic approach."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided detailed bonus structure but ultimately escalated via email rather than resolving the promotional discrepancy directly, which is acceptable but not ideal."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with well-formatted bonus information, though multiple 'allow me one moment' messages felt repetitive."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated when unable to resolve and didn't make unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing with customer name, though slightly rushed after no response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled the promotional discrepancy issue professionally by providing detailed bonus information and requesting screenshots, but ultimately escalated to email support rather than resolving directly. The interaction lacked an initial greeting and felt somewhat mechanical with repetitive holding messages.",
+          "coaching_tip": "Always open with a proper greeting before diving into the issue, and try to vary your holding language instead of repeating 'Please allow me one moment' three times consecutively.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[02:05:37 AM] t8070873927: Full Name: t8070873927 Email Address: janelle_emert@yahoo.com Subject / How can we help you?: I just created my account. When I login it says I can get a welcome bonus of $30 sc for $9.99. But when I go to purchase it, it only gives me th option for $20 sc?\n[02:05:52 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:07:39 AM] Oscar Zelaya: Hey janelle_emert ! Your first three purchases all\ncome with bonus packs — here’s the breakdown:\n1st Purchase (New User Offer):\n● $10: 4,000 GC | 600 XP | 22 SC\n● $50: 20,000 GC | 3,000 XP | 80 SC\n● $100: 40,000 GC | 6,000 XP | 140 SC\n2nd Purchase Pack:\n● $10: 4,000 GC | 500 XP | 20 SC\n● $50: 20,000 GC | 2,500 XP | 70 SC\n● $100: 40,000 GC | 5,000 XP | 130 SC\n3rd Purchase Pack:\n● $10: 4,000 GC | 400 XP | 18 SC\n● $50: 20,000 GC | 2,000 XP | 65 SC\n● $100: 40,000 GC | 4,000 XP | 120 SC\n[02:09:07 AM] Oscar Zelaya: If you’re not seeing additional options, could you please share a screenshot so I can take a closer look?\n[02:09:33 AM] t8070873927: IMG_2457.jpg\n[02:10:02 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:10:12 AM] t8070873927: IMG_2458.jpg\n[02:10:35 AM] t8070873927: I haven’t made a first purchase yet\n[02:12:10 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:15:06 AM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[02:16:46 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:18:30 AM] Oscar Zelaya: Thanks for chatting with us janelle_emer ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:22:07.830Z"
+        },
+        {
+          "chat_id": "2047420953428062208",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-23T21:24:41.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came late (after multiple customer messages) and used email address instead of proper name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent failed to clearly understand the customer's POA verification frustration and didn't ask clarifying questions about what documents were already submitted."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent deflected to email escalation without attempting to resolve the document upload issue or explaining why previous submissions failed."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional tone but contradictory messaging (first said escalate via email, then offered to resend link, then back to email escalation)."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but the inconsistent approach suggests unclear protocol adherence."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Chat appears to have been cut off mid-message with no proper closing or confirmation customer was satisfied."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided inconsistent guidance, first directing customer to email escalation, then offering to resend a secure link, then reverting back to email escalation without clear explanation. The customer's core frustration about repeated POA verification issues was not adequately addressed or investigated.",
+          "coaching_tip": "When a customer mentions getting 'the run around,' acknowledge their frustration directly, investigate their submission history before responding, and provide one clear path forward rather than switching between solutions.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[09:02:49 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Poa\n[09:02:49 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Poa\n[09:03:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:03:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:04:33 PM] t5003516845: Do I need to upload a copy of my old Alabama drivers license with the same address as on my profile because you all keep giving me the run around about POA verification.\n[09:04:33 PM] t5003516845: 20220909_133904.jpg\n[09:04:33 PM] t5003516845: Do I need to upload a copy of my old Alabama drivers license with the same address as on my profile because you all keep giving me the run around about POA verification.\n[09:04:33 PM] t5003516845: 20220909_133904.jpg\n[09:04:54 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:04:54 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:06:14 PM] Oscar Zelaya: Hi tamyiah4 , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:06:14 PM] Oscar Zelaya: Hi tamyiah4 , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:06:24 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[09:06:24 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[09:07:47 PM] t5003516845: Still waiting\n[09:07:47 PM] t5003516845: Still waiting\n[09:08:56 PM] Oscar Zelaya: It looks like you haven’t received the secure link to upload your documents yet.\n[09:08:56 PM] Oscar Zelaya: It looks like you haven’t received the secure link to upload your documents yet.\n[09:09:07 PM] Oscar Zelaya: Please check your inbox (and spam/junk folder just in case), and I’ll make sure the link is sent again.\n[09:09:07 PM] Oscar Zelaya: Please check your inbox (and spam/junk folder just in case), and I’ll make sure the link is sent again.\n[09:10:15 PM] Oscar Zelaya: Please let me know once you’ve received the link or if you need any further help — I’m here for you\n[09:10:15 PM] Oscar Zelaya: Please let me know once you’ve received the link or if you need any further help — I’m here for you\n[09:10:18 PM] t5003516845: I have. No email period\n[09:10:18 PM] t5003516845: I have. No email period\n[09:10:38 PM] t5003516845: I haven’t received anything\n[09:10:38 PM] t5003516845: I haven’t received anything\n[09:11:00 PM] Oscar Zelaya: Thank you for clarifying — please allow me a moment while I take a closer look \nI’ll be right back with an update, I appreciate your patience!\n[09:11:00 PM] Oscar Zelaya: Thank you for clarifying — please allow me a moment while I take a closer look \nI’ll be right back with an update, I appreciate your patience!\n[09:14:36 PM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:14:36 PM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:24:38 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[09:24:38 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:29:53.906Z"
+        },
+        {
+          "chat_id": "2047441416917184512",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-23T22:29:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after multiple hold messages and contained a typo in the customer's name (tamyiah4i instead of tamyiah4)."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about what POA link means or investigate why the customer has been waiting four days."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent redirected to email without attempting to resolve or provide the POA link directly, adding friction for an already frustrated customer waiting four days."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple duplicate messages suggest system issues, and the response lacks empathy for a customer who has been waiting four days."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but the escalation process seems to add unnecessary steps rather than resolving the issue."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help and closed politely, but the cheerful tone feels tone-deaf given the unresolved frustration."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent failed to investigate what POA link the customer needed or why they've been waiting four days, instead immediately deflecting to email support. The response lacked empathy and problem-solving for a clearly frustrated customer with an outstanding request.",
+          "coaching_tip": "Before escalating to email, attempt to understand the specific issue and check if you can provide the POA link directly or explain the delay—don't add friction for already-waiting customers.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T22:34:43.126Z"
+        }
+      ],
+      "avg_score": 59,
+      "grade": "F",
+      "trend": 0
     },
     {
       "id": "5845",
@@ -30379,6 +30424,51 @@
       "raw_transcript": "[09:53:06 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: How do I redeem it's not allowing me to redeem\n[09:53:06 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: How do I redeem it's not allowing me to redeem\n[09:53:15 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:53:15 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:53:48 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:53:48 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:57:04 PM] t5839188793: Hello\n[09:57:04 PM] t5839188793: Hello\n[09:57:15 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[09:57:15 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:00:06 PM] Ana Erazo: Hey!  Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n1. Head to www.jackpotdaily.com and log in\n2. Click the  menu at the top left\n3. Select \"Redeem\"\n4. Enter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[10:00:06 PM] Ana Erazo: Hey!  Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n1. Head to www.jackpotdaily.com and log in\n2. Click the  menu at the top left\n3. Select \"Redeem\"\n4. Enter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[10:00:58 PM] Ana Erazo: Currently, ACH is the only available method, and it can take up to 10 business days for the funds to be processed.\n[10:00:58 PM] Ana Erazo: Currently, ACH is the only available method, and it can take up to 10 business days for the funds to be processed.\n[10:01:47 PM] Ana Erazo: Are you still there?\n[10:01:47 PM] Ana Erazo: Are you still there?\n[10:02:51 PM] t5839188793: Yes\n[10:02:51 PM] t5839188793: Yes\n[10:03:02 PM] t5839188793: I'm here\n[10:03:02 PM] t5839188793: I'm here\n[10:03:25 PM] t5839188793: It says my account is verified\n[10:03:25 PM] t5839188793: It says my account is verified\n[10:04:50 PM] Ana Erazo: Yes, we can confirm that your account is verified.\n[10:04:50 PM] Ana Erazo: Yes, we can confirm that your account is verified.\n[10:07:01 PM] t5839188793: Its not letting me redeem my money still\n[10:07:01 PM] t5839188793: Its not letting me redeem my money still\n[10:07:26 PM] Ana Erazo: It looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n* Billing Address Line: Please use this field only for the street name and house or apartment number.\n* Character Limit: Keep this information within the 50-character limit.\n* Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you!.\n[10:07:26 PM] Ana Erazo: It looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n* Billing Address Line: Please use this field only for the street name and house or apartment number.\n* Character Limit: Keep this information within the 50-character limit.\n* Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you!.\n[10:08:49 PM] Ana Erazo: Is there anything else I can help you with today?\n[10:08:49 PM] Ana Erazo: Is there anything else I can help you with today?\n[10:09:53 PM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:09:53 PM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T22:14:44.253Z"
+    },
+    {
+      "chat_id": "2047441416917184512",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-23T22:29:46.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Greeting came after multiple hold messages and contained a typo in the customer's name (tamyiah4i instead of tamyiah4)."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions about what POA link means or investigate why the customer has been waiting four days."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent redirected to email without attempting to resolve or provide the POA link directly, adding friction for an already frustrated customer waiting four days."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Multiple duplicate messages suggest system issues, and the response lacks empathy for a customer who has been waiting four days."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but the escalation process seems to add unnecessary steps rather than resolving the issue."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help and closed politely, but the cheerful tone feels tone-deaf given the unresolved frustration."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 52,
+      "grade": "F",
+      "summary": "Agent failed to investigate what POA link the customer needed or why they've been waiting four days, instead immediately deflecting to email support. The response lacked empathy and problem-solving for a clearly frustrated customer with an outstanding request.",
+      "coaching_tip": "Before escalating to email, attempt to understand the specific issue and check if you can provide the POA link directly or explain the delay—don't add friction for already-waiting customers.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:08 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:24:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:26:19 PM] Oscar Zelaya: Please allow me a moment while I review your request — I’ll be right back with an update. Thank you for your patience!\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:27:49 PM] Oscar Zelaya: Hi tamyiah4i , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:28:02 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:29:42 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T22:34:43.126Z"
     }
   ]
 }
