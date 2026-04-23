@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T21:14:46.117Z",
-  "total_chats": 324,
+  "scored_at": "2026-04-23T21:24:43.926Z",
+  "total_chats": 325,
   "total_agents": 25,
   "agents": [
     {
@@ -9130,6 +9130,1005 @@
       "trend": -3
     },
     {
+      "id": "5836",
+      "name": "Ana Erazo",
+      "chats": [
+        {
+          "chat_id": "2047112067029970944",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-23T00:57:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped straight into 'bear with me' without acknowledging the customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent asked for clarification initially but then provided an irrelevant solution about balance refresh, showing poor understanding of the KYC verification error."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent eventually escalated but only after providing wrong solution first, and only directed to email after customer had already waited over a week on a ticket."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple vague delay messages, provided irrelevant canned response about balance refresh when issue was clearly about KYC verification error with screenshot provided."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations; appropriately did not promise account deletion without proper review, directed to proper escalation channel."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Transcript cuts off mid-sentence with 'I will proceed with' - appears incomplete with no proper closing or confirmation of next steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent failed to properly understand the KYC verification issue despite clear explanation and screenshot, providing an irrelevant canned response about balance refresh. The escalation came too late and only after customer frustration, with poor communication throughout including an incomplete closing.",
+          "coaching_tip": "Read customer messages and screenshots carefully before responding with canned answers - the customer clearly stated a KYC verification error with visual proof, not a balance display issue.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[12:35:24 AM] t6071895142: Full Name: t6071895142 Email Address: deisera09@gmail.com Subject / How can we help you?: Verification\n[12:35:35 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:36:36 AM] Ana Erazo: Could you please be more specific about the issue you’re experiencing with your account?\n[12:37:27 AM] t6071895142: I am receiving a error every time I make an attempt to complete my verification process\n[12:37:53 AM] Ana Erazo: Give me a moment to review this information.\n[12:39:51 AM] Ana Erazo: Give me a moment to review this information.\n[12:40:06 AM] t6071895142: Ok\n[12:40:27 AM] t6071895142: https://www.jackpotdaily.com/login?affiliateCode=great1&fbclid=IwdGRleARWQ-9leHRuA2FlbQEwAGFkaWQBqzg7p5tTGHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR69VJ1zkf-lgypgRin9XXSq4exhIC87X85vquUJFhFIJJPrcx2OBPEH1edbEw_aem_9eooaQwlw4qvyM_0y9hikg&utm_medium=paid&utm_campaign=120251377660480456&fbPixelId=2344050659397831&utm_source=fb\n[12:41:25 AM] t6071895142: IMG_2940.png\n[12:41:51 AM] Ana Erazo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:42:07 AM] t6071895142: No problem\n[12:43:38 AM] Ana Erazo: Still here!\n[12:44:54 AM] t6071895142: Ok\n[12:45:41 AM] Ana Erazo: If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[12:46:50 AM] t6071895142: No, that’s not the issue that I’m having. I am unable to verify my identity, in order to redeem these bonuses. Every time I try to complete my KYC, it is giving me an error. I sent you a picture of the error that I’m receiving.\n[12:47:07 AM] t6071895142: I have cleared my CACHE in my browser and used an alternative browser, in which I’m still receiving this error\n[12:47:16 AM] Ana Erazo: One sec\n[12:49:29 AM] Ana Erazo: Kindly try again within the next 24 hours. If you continue to experience the same issue, we will proceed with escalating your case for further investigation.\n[12:50:22 AM] t6071895142: I did try again within the next 24 hours. That is why I’m reaching back out to customer service.\n[12:50:58 AM] Ana Erazo: Ok at this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible. (\n[12:51:09 AM] t6071895142: IMG_3009.jpeg\n[12:51:34 AM] t6071895142: Could you guys go ahead and delete my account so that I am able to reopen a new one.\n[12:52:04 AM] t6071895142: Could you guys go ahead and delete my account so that I am able to reopen a new one. I have not used any bonuses or made any purchases. At this point I feel like the only alternative or solution is to delete my account.\n[12:52:23 AM] Ana Erazo: Kindly submit a support ticket so we can further review your account.\n[12:53:30 AM] t6071895142: I have already submitted a support ticket and it’s been over a week\n[12:54:19 AM] Ana Erazo: Thank you for your patience. I will proceed with escalating your case, as we’re currently unable to delete the account to create a new one.\n[12:55:04 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:57:06 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:47:18.901Z"
+        },
+        {
+          "chat_id": "2047110000849285120",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-23T00:30:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Greeting was present and professional but came after the initial 'bear with me' message, slightly delayed and basic."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent never asked about or acknowledged the verification issue the customer raised."
+            },
+            "resolution": {
+              "score": 2,
+              "notes": "No resolution attempted; agent closed chat without addressing the verification subject at all."
+            },
+            "communication": {
+              "score": 8,
+              "notes": "Messages were clear and professional but completely missed the customer's actual need."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but failed to provide required support for verification inquiry."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed prematurely with generic game-related message instead of addressing issue or offering further help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 31,
+          "grade": "F",
+          "summary": "Agent greeted the customer professionally but completely failed to address the stated verification issue. The chat was closed with a generic gaming message without any attempt to help with the customer's actual concern.",
+          "coaching_tip": "Always acknowledge and address the customer's stated issue before closing the chat; verification requests require specific action, not generic closing statements.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[12:27:12 AM] t6071895142: Full Name: t6071895142 Email Address: deisera09@gmail.com Subject / How can we help you?: Verification\n[12:27:23 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:28:29 AM] Ana Erazo: Hi! My name is Ana  I will be assisting you.\n[12:30:05 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:48:18.562Z"
+        },
+        {
+          "chat_id": "2047105861230047232",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-23T00:16:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, jumped directly into account review without acknowledging the customer or introducing herself."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent never attempted to understand or clarify the Second Chance promotion issue before terminating the chat."
+            },
+            "resolution": {
+              "score": 2,
+              "notes": "No resolution attempted; agent terminated chat without addressing the customer's concern about the promotion or attempting de-escalation."
+            },
+            "communication": {
+              "score": 8,
+              "notes": "Clear and professional boundary-setting when terminating due to profanity, though could have warned before ending conversation."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Appropriately enforced respectful communication policy and terminated abusive chat per protocol."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided alternative contact methods and kept door open for future respectful contact."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 33,
+          "grade": "F",
+          "summary": "Agent appropriately terminated an abusive chat per policy but made no attempt to de-escalate, understand the issue, or provide any information before ending the conversation. While the termination was justified given the profanity, the agent missed opportunities to acknowledge frustration and attempt to help before reaching that point.",
+          "coaching_tip": "Before terminating for profanity, issue one clear warning acknowledging the customer's frustration and requesting respectful language to allow you to help resolve their concern.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[12:10:45 AM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: Oh now I'm really freaking mad I just looked at your second chance bullshit so that I was building money there it's all a facade you guys are some big fucking motherfuckers I'm getting a lawyer I am super pissed you scam artist oh I can only get it everyday except tomorrow every fucking day it says that and yet I don't get it and I have to meet today's regardless I met him yesterday that gave it for that you motherfuckers that's it I'm doing some shit about your fucking bullshit Casino\n[12:10:55 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:11:32 AM] t1315504932: Oh I've been waiting till today and I am so red you're fuckers I spent hundreds upon hundreds you have no idea how I feel right now\n[12:11:52 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[12:12:23 AM] t1315504932: I spend hundreds upon hundred and I have absolutely nothing to show but Absol utely nothing and can second chance if you don't give it to me\n[12:12:48 AM] t1315504932: If I don't get the second chance money that's it I'm going to explode and there's going to be problems\n[12:13:39 AM] t1315504932: Yep I can see them they're building up thinking I'm going to get it but I can see now that I probably won't because it's just another one in your scams\n[12:14:11 AM] t1315504932: I absolutely never had this bad of a start with any casino but yours and I would never refer this to see no not to single stall if anything else wore them against it\n[12:14:50 AM] t1315504932: For 2 days I spend hundreds and I don't qualify for the second chance you got to be fucking kidding me\n[12:15:13 AM] t1315504932: And furthermore it's only 20 something dollars out of all the fucking money that I spent you guys are so fucking stingy and greasy\n[12:15:30 AM] Ana Erazo: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[12:15:50 AM] t1315504932: Yeah I'll sit back quietly while you respectfully take all my money yeah that's so much respect from the casinos and isn't it and then I'm getting scammed on the second chance thing as well",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:48:49.528Z"
+        },
+        {
+          "chat_id": "2047087986868580352",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-22T23:17:16.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after initial delay and lacked warmth; did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask clarifying questions about the balance discrepancy or what the customer expected to see versus what was displayed."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic troubleshooting steps without investigating the actual account issue or acknowledging the screenshot provided by the customer."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Instructions were clear and well-formatted, but agent failed to acknowledge the customer's screenshot or show personalized engagement with their specific concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed customer to email support for further investigation."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help but closed prematurely without confirming if the customer tried the steps or if the issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided standard troubleshooting steps but failed to investigate the specific balance issue or acknowledge the customer's screenshot. The response was generic and lacked personalized problem-solving for the customer's concern about missing funds.",
+          "coaching_tip": "Always acknowledge attachments customers send and investigate account-specific issues before defaulting to generic troubleshooting steps, especially when funds discrepancies are reported.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "raw_transcript": "[10:59:43 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: My balance is not popping up correctly where is my funds.\n[10:59:53 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[11:00:17 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[11:00:30 PM] t5839188793: Screenshot_20260422-185920_Chrome.jpg\n[11:02:14 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[11:04:41 PM] Ana Erazo: Hi, Thank you for reaching out! If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:06:31 PM] Ana Erazo: ç Is there anything else I can help you with today?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:51:05.563Z"
+        },
+        {
+          "chat_id": "2044574279885697024",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-16T00:38:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after initial delay and lacked warmth or personalization given customer's frustrated state."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions about which support request or what the original issue was about."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided only a generic status update without checking specifics, offering timeline, or escalating the week-old unanswered request."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Response was templated and impersonal, failing to acknowledge customer's frustration or provide meaningful information."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to provide adequate follow-up on a legitimate service delay complaint."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed abruptly with generic casino messaging inappropriate for an unresolved support complaint."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent provided minimal assistance to a frustrated customer waiting over a week for support response, offering only generic reassurance without investigating specifics or providing timeline. The interaction lacked empathy, proper discovery, and meaningful resolution for a legitimate service failure complaint.",
+          "coaching_tip": "When customers report delayed responses, look up their specific ticket, acknowledge the wait time with empathy, provide a concrete timeline or escalation, and ensure they have a reference number for follow-up.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[12:31:09 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Still no email from support over a week later?!\n[12:31:21 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:32:07 AM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[12:34:26 AM] Ana Erazo: Our team is actively working to address each request as quickly as possible.\nWe kindly ask for your patience and understanding while we continue working on your case. Thank you for your cooperation.\n[12:36:32 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:38:02 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:56:17.746Z"
+        },
+        {
+          "chat_id": "2044572044745863168",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-16T00:29:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after initial delay and lacked warmth; did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 6,
+              "notes": "Agent failed to probe what 'further assistance' meant or investigate the account issue that prompted the contact message."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution attempted; agent simply repeated generic offer to help without investigating the system message that directed customer to contact support."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Agent repeated the same phrase twice without acknowledging customer's explanation about being directed to contact support."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations but also no meaningful engagement with the customer's stated reason for contact."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed prematurely after only 7 minutes without resolving why the system directed customer to contact support."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 41,
+          "grade": "F",
+          "summary": "Agent failed to investigate the customer's issue despite being told twice that a system message directed them to contact support. The interaction consisted mostly of generic responses without any meaningful troubleshooting or account review.",
+          "coaching_tip": "When a customer mentions being directed by the system to contact support, immediately check their account for flags, verification issues, or withdrawal problems rather than asking generic 'how can I help' questions.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[12:22:16 AM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: It said for further assistance to contact yall\n[12:22:29 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:23:16 AM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[12:23:21 AM] Customer: Ok\n[12:24:35 AM] Ana Erazo: Please let me know how I can be of help.\n[12:26:02 AM] Customer: It told me to contact yall for sorter assistance\n[12:26:59 AM] Ana Erazo: Please let me know how I can be of help.\n[12:28:08 AM] Ana Erazo: Hi, I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:29:32 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:56:38.943Z"
+        },
+        {
+          "chat_id": "2044571344086806528",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-16T00:28:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Greeting was present and professional but came after initial delay and account check."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the welcome bonus question and proactively provided comprehensive information including follow-up clarification on KYC."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Thoroughly explained the Golden Egg welcome bonus process and answered the KYC follow-up question with clear, accurate information."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear and well-structured responses with good use of formatting, though slightly template-heavy in delivery."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No policy violations, accurately described bonus terms and verification requirements without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with well-wishes after appropriate wait time and check-in attempt."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "Agent provided comprehensive information about the welcome bonus and KYC verification process with clear explanations. Communication was professional and thorough, successfully addressing both the initial question and follow-up inquiry.",
+          "coaching_tip": "Consider introducing yourself and greeting the customer before the account review statement to create a warmer initial connection.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[12:19:29 AM] t7231912385: Full Name: t7231912385 Email Address: rockenconnie201102@gmail.com Subject / How can we help you?: What about the welcome bouns\n[12:19:44 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:19:55 AM] t7231912385: Ok\n[12:20:19 AM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[12:20:40 AM] t7231912385: Ok thanks\n[12:20:53 AM] Ana Erazo: Hey! Your Golden Egg is waiting —\nexciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n● The reward amount is random (can’t be predicted or\nchanged!)\n● It’s a one‑time welcome offer — new accounts only\n● It expires 5 days after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[12:22:03 AM] t7231912385: Ok what is the kyc\n[12:23:56 AM] Ana Erazo: KYC (Know Your Customer) is a verification process used to confirm your identity.\n\nAs part of this process, you may be asked to provide certain documents, such as a valid ID, proof of address, or other relevant information. This helps ensure the security of your account and prevents fraud.\n\nOnce the verification is completed, you will be able to fully access all account features without restrictions.\n[12:25:10 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:26:52 AM] Ana Erazo: Hi, I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:27:55 AM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:57:08.705Z"
+        },
+        {
+          "chat_id": "2044232061471731712",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T02:04:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into acknowledging the request without any welcome or professional opening."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the issue but asked no clarifying questions about the password reset loop or attempted any troubleshooting steps."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided a valid escalation path with clear instructions, but no attempt at first-line troubleshooting for a common password reset issue."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional instructions for escalation, but lacked empathy for the customer's frustration with the locked account warning."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated a technical issue beyond chat scope."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though slightly generic for the context of an unresolved issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent handled escalation appropriately with clear instructions but missed the opportunity to attempt basic troubleshooting or gather more details about the password reset failure. The lack of a proper greeting and minimal issue discovery reduced the overall quality of support.",
+          "coaching_tip": "Always open with a professional greeting using the customer's name, and attempt at least one troubleshooting step (like clearing cache or trying a different browser) before escalating technical issues.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[01:51:18 AM] Customer: Full Name: Bruce goodwin Email Address: woodt5464@gmail.com Subject / How can we help you?: I forgot what password i used and it wont let me change password.\n[01:53:37 AM] Customer: It sends me the verification code and I get to the part to put new password and confirm password  I out password in and it says go back to forget password my account will be locked if too many failed attempts\n[01:57:46 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[02:01:02 AM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:02:11 AM] Ana Erazo: Is there anything else I can help you with today?\n[02:03:57 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:06:06.957Z"
+        },
+        {
+          "chat_id": "2044231634562887680",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T02:01:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into account review without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the welcome bonus issue but never asked clarifying questions about what the customer was seeing or experiencing."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided a troubleshooting step and clear escalation path with specific instructions, though resolution was delayed by excessive hold messages."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple repetitive hold messages created confusion, and the final response introduced 'golden egg' terminology not mentioned by customer, but instructions were ultimately clear."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and appropriately directed to official support channel for manual intervention."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing whatsoever, chat ended abruptly while customer was attempting the troubleshooting step."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided a workable solution with troubleshooting steps and escalation path but delivered poor customer experience through lack of greeting, repetitive hold messages, and no closing. Communication was confusing with terminology mismatch and the interaction felt disjointed.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, avoid sending the same hold message multiple times, and ensure you close the conversation by confirming next steps before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[01:49:36 AM] t0493407772: Full Name: t0493407772 Email Address: chrisjordan3394@gmail.com Subject / How can we help you?: I verified my account but it won’t let me claim my welcome bonus\n[01:50:15 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:50:30 AM] t0493407772: Thank you\n[01:52:06 AM] t0493407772: Ok no problem\n[01:54:18 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:54:25 AM] t0493407772: Ok\n[01:56:28 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:56:42 AM] t0493407772: Oh k\n[01:59:46 AM] Ana Erazo: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[02:01:07 AM] t0493407772: Ok let me try",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:06:22.688Z"
+        },
+        {
+          "chat_id": "2044231523506106368",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T01:51:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with name and offer to assist, but no personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Customer clearly stated KYC verification issue twice, but agent didn't ask any clarifying questions about error messages or what specifically isn't working."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted - agent greeted but never responded to the actual problem statement."
+            },
+            "communication": {
+              "score": 5,
+              "notes": "Initial greeting was clear but agent went silent after customer explained the issue, providing no follow-up."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the limited interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as conversation appears incomplete or abandoned."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 28,
+          "grade": "F",
+          "summary": "Agent provided an adequate greeting but failed to engage with the customer's KYC verification issue. The transcript ends with no troubleshooting, resolution attempt, or response after the customer clearly stated their problem.",
+          "coaching_tip": "Always acknowledge the customer's issue immediately and ask specific clarifying questions like what error message they see or at which step the verification fails.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[01:49:09 AM] t3804407202: Full Name: t3804407202 Email Address: marcoytuarte0310@gmail.com Subject / How can we help you?: Won’t let me kyc verify\n[01:50:02 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[01:50:20 AM] t3804407202: Ok\n[01:50:36 AM] t3804407202: It won’t let me verify my account",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:07:42.166Z"
+        },
+        {
+          "chat_id": "2044229020811620352",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T01:48:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Professional greeting with agent name and clear offer to assist."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the golden egg issue and investigated the account without needing additional clarification."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided troubleshooting steps and clear escalation path via email with specific instructions, though resolution wasn't immediate."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic communication with appropriate status updates during investigation time."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to official support channel for manual intervention."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing, though customer didn't confirm resolution before close."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent handled the golden egg technical issue competently by providing troubleshooting steps and escalation instructions. Communication was professional and empathetic throughout, though the issue required escalation rather than immediate resolution.",
+          "coaching_tip": "Wait for customer confirmation that they understand the next steps or have no further questions before closing, especially when providing multi-step troubleshooting instructions.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[01:39:13 AM] t9047494602: Full Name: t9047494602 Email Address: zacharysullins48@gmail.com Subject / How can we help you?: Bonus\n[01:40:10 AM] Ana Erazo: Hi! My name is Ana  I will be assisting you today.\n[01:41:00 AM] t9047494602: I cant smash the golden egg it keeps bringing me to the complete task to claim prompt\n[01:41:38 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:41:51 AM] t9047494602: Okay\n[01:43:11 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:43:42 AM] t9047494602: Okay thank you kindly\n[01:44:33 AM] Ana Erazo: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[01:46:01 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:48:37 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:09:10.330Z"
+        },
+        {
+          "chat_id": "2044226917204013056",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T01:39:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into account review without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the redemption status inquiry but didn't address the customer's frustration about conflicting information from previous agents."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided accurate processing timeframe information but didn't acknowledge the discrepancy in previous communications or explain why the bank shows nothing pending."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional but repetitive and somewhat robotic; failed to acknowledge customer's valid concern about bank showing no pending deposit."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard processing timeframes without unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed abruptly while customer concern remained unaddressed; generic closing felt dismissive given the context."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided accurate processing information but failed to address the customer's main frustration about receiving conflicting information from different agents. The interaction felt scripted and dismissive, particularly the premature closing while the customer still had legitimate concerns about their bank showing no pending transaction.",
+          "coaching_tip": "When customers express frustration about conflicting information from previous agents, acknowledge this specifically and apologize for the confusion before providing the correct information.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[01:30:51 AM] t6898385578: Full Name: t6898385578 Email Address: jeremy.swisher16@gmail.com Subject / How can we help you?: So now today someone says redemption in process Yesterday someone says already sent Like no one there has a clue What’s going on guys\n[01:31:10 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:31:27 AM] t6898385578: Ok\n[01:32:29 AM] Ana Erazo: We have reviewed your account and confirmed that the redemption was made today via ACH. The estimated time for this amount to be credited to your bank is up to 10 business days.\n\nIt’s important to clarify that this does not mean it will necessarily take the full 10 days, but rather that the crediting can occur at any point within that timeframe. For now, this is the available option to process your redemption, and we truly appreciate your patience and understanding while the process is completed.\n[01:34:52 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:34:55 AM] t6898385578: My bank credits my account as soon as they get it   Why would it take 10 days ????\n[01:35:06 AM] t6898385578: And they said they have nothing\n[01:37:03 AM] Ana Erazo: Please note that this is a standard processing. This means the funds can be credited at any time within those 10 business days, not necessarily sooner or exactly on the 10th day.\n\nAt this moment, this is the only available processing timeframe for ACH redemptions. We kindly ask for your patience while the transaction is completed, and we appreciate your understanding.\n[01:37:26 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:38:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:09:51.418Z"
+        },
+        {
+          "chat_id": "2044223553615474688",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T01:24:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Professional greeting with agent name and offer to assist."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the concern about missing redemption and proactively checked account status."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Confirmed redemption was processed, provided clear timeline expectations, and explained ACH processing timeframe thoroughly."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic explanation with appropriate detail about processing times and reassurance."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly set expectations about processing timeframe without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing, though customer didn't respond to the offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "Ana provided competent support by confirming the redemption was processed and clearly explaining the ACH timeline of up to 10 business days. The interaction was professional, reassuring, and addressed the customer's concern for peace of mind effectively.",
+          "coaching_tip": "When customer asks to 'show where it's been processed,' consider providing more specific details like transaction ID or exact date/time to enhance transparency and confidence.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[01:17:29 AM] t1417870264: Full Name: t1417870264 Email Address: brittslater5@gmail.com Subject / How can we help you?: Hi it says my redemption was redeemed successfully but it is not showing in my bank at all ?\n[01:17:36 AM] t1417870264: Agent\n[01:18:16 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[01:18:26 AM] t1417870264: Ok thank you\n[01:18:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:18:47 AM] t1417870264: Can you show on your side where it’s been processed please for peace of mind\n[01:18:50 AM] t1417870264: Ok thanks\n[01:21:07 AM] Ana Erazo: We have reviewed your account and confirmed that the redemption was made today via ACH. The estimated time for this amount to be credited to your bank is up to 10 business days.\n\nIt’s important to clarify that this does not mean it will necessarily take the full 10 days, but rather that the crediting can occur at any point within that timeframe. For now, this is the available option to process your redemption, and we truly appreciate your patience and understanding while the process is completed.\n[01:22:09 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:24:30 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:10:55.461Z"
+        },
+        {
+          "chat_id": "2044222984566435840",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T01:16:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent only provided a closing statement after customer indicated no help needed."
+            },
+            "issue_discovery": {
+              "score": 12,
+              "notes": "No discovery needed as customer proactively stated issue was resolved before agent responded."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Issue was already resolved; agent appropriately acknowledged the resolved status without unnecessary intervention."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Friendly and appropriate tone for acknowledging a resolved issue, though brief."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance issues; appropriate response with no unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Warm closing with well-wishes appropriate for a casino environment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Customer contacted support to confirm their issue was already resolved and required no assistance. Agent appropriately acknowledged with a friendly closing message.",
+          "coaching_tip": "When a customer indicates their issue is resolved, consider briefly acknowledging what was fixed or asking if anything else is needed before closing.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[01:15:14 AM] Customer: Full Name: Callie jones Email Address: jonescallie1968@gmail.com Subject / How can we help you?: Thank you everything is good now I don’t need any more help. Thank you for leaving it on there. I can be able to get back on the game thank you.\n[01:16:12 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:12:00.240Z"
+        },
+        {
+          "chat_id": "2044218218872401920",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T01:12:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "Greeting came 6 minutes into chat after multiple delay messages, lacked warmth and personalization."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent failed to ask clarifying questions about verification status or missing funds, only offered generic escalation without understanding the specific issue."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent repeatedly directed customer to email support despite customer stating they already did this, showing no investigation or alternative solution."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Repetitive canned responses that ignored customer's frustration and claim of already having emailed support, poor active listening."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to acknowledge the sensitive nature of missing funds or verification issues appropriately."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed with generic game enjoyment message despite unresolved account access and missing money issue, tone-deaf to situation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent provided poor service by repeatedly giving the same escalation instruction without acknowledging the customer already followed that process or investigating the account issue. The handling lacked empathy for a frustrated customer concerned about missing funds and account access.",
+          "coaching_tip": "When a customer states they've already completed the requested action, acknowledge this and either verify in the system or provide a different solution rather than repeating the same instruction.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[12:56:17 AM] Customer: Full Name: Callie jones Email Address: jonescallie1968@gmail.com Subject / How can we help you?: No, everything was Every thing was good would y’all please go in and verify me so I can get my money y’all had me on there and now it’s not I’m not on there anymore. I’ve been I sent my bill and I sent my license in. I sent everything in. Could you please put my money back on there ain’t nobody texting me. Nothing do I need to get a lawyer?\n[12:57:24 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:00:11 AM] Ana Erazo: Give me a moment to review this information.\n[01:02:04 AM] Ana Erazo: Hi , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[01:03:53 AM] Customer: I did all that y’all just go back and look at it. Could you please I did all that I put my email Jones Callie 1968@gmail.com. I went out onto the Google. I had $200 on there. Y’all came back and took it off now I can’t get back online. What is really going on?\n[01:03:53 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:05:02 AM] Ana Erazo: Give me a moment to review this information.\n[01:07:21 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:07:44 AM] Ana Erazo: To move forward with your request, please email our support team at support@jackpotdaily.com\n with a brief explanation of the issue along with any screenshots that may help.\n\nBe sure to include the word “ESCALATE” in the subject line so your case can be handled with priority.\n\nAfter we receive your email, our team will take a look and get back to you as soon as they can.\n[01:08:34 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:11:09 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:12:23.708Z"
+        },
+        {
+          "chat_id": "2044212036954845184",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T00:56:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though could have used customer's name for personalization."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the issue but didn't ask clarifying questions about the purchase timing or account status before providing generic responses."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Failed to address the core issue—customer paid but cannot access account due to technical issue, yet agent only cited refund policy without helping resolve access or processing refund."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear language but lacked empathy for frustrated repeat customer and didn't address their specific situation of being locked out with money paid."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Correctly cited refund policy and didn't make unauthorized promises, though could have escalated appropriately."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed prematurely while customer was clearly unsatisfied and waiting for resolution, then sent confusing delayed message after closing."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent acknowledged a technical issue preventing login but failed to provide meaningful resolution for a frustrated customer who paid money and cannot access their account. The premature closing without addressing the refund request or escalating the urgent issue was particularly poor service.",
+          "coaching_tip": "When a customer has a payment issue combined with technical problems, escalate immediately to a supervisor or billing team rather than citing policy—this customer needed account access restored or a refund processed, not just an acknowledgment of the problem.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[12:31:43 AM] Customer: Full Name: Lois L Johnson Email Address: Loisnvince0314@gmail.com Subject / How can we help you?: No, I don’t know how many times I had to contact you guys, but I’ve tried to sign up as a new customer on your site and basically I got screwed after I put in my phone number and then everything was done and settled. Went to go purchase the welcome package for $10 and got 30 cc and then the screen went dead and when I went to go back to go log on it won’t let me back on so either give me my refund that ends in 3607 or fix my account because I’m a little mad and I’ve been trying ever since the sixth now it’s been four days and nothing has resolved whatsoever and wrote out a ticket. I’ve contacted this like three times now and nothing itself so I want something done and please don’t tell me to write out a ticket again because I’m not going to. I want something done now because I’ve already done a ticket and nothing gets resolved.\n[12:31:58 AM] Customer: Live agent, please\n[12:32:36 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[12:33:27 AM] Customer: I’ve been contacting you guys like I’m lost count. I don’t know I sent in tickets. Nothing is getting accomplished. I signed up on the sixth through Facebook. I put in my phone number and everything and then I got disconnected and I even purchased the welcome package for $10 and I got 30 and it’s still on my account and I can’t log back onto my account because I got disconnected.\n[12:34:20 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[12:34:26 AM] Customer: They said if it keeps up to contact you guys again while this is probably like the fifth or sixth time I think maybe more I’m gonna send you and show you what I get when I try to log back on\n[12:34:59 AM] Customer: IMG_0507.png\n[12:34:59 AM] Customer: IMG_0506.png\n[12:34:59 AM] Customer: IMG_0505.png\n[12:35:53 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[12:39:51 AM] Ana Erazo: Hi! We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of a technical issue that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\nWarm regards.\n[12:40:49 AM] Customer: Well, I’m a new customer and I want my refund back onto my card please then\n[12:42:24 AM] Ana Erazo: Hey! Of course - here's how our\nrefund policy works:\n● Unused Gold Coin packages refundable within 48 hours of\npurchase (if not played).\n● After 48 hours, purchases are non-refundable.\n● Mistaken wagers are not eligible for refunds.\n● Billing discrepancies must be flagged within 30 days of\npurchase.\n[12:43:25 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:45:38 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:56:48 AM] Ana Erazo: Please allow me one moment to look into this for you!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:14:02.470Z"
+        },
+        {
+          "chat_id": "2044208345237516288",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-15T00:37:23.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with name and offer to assist, though could be warmer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the redemption status question but failed to clarify which payment method was used or provide specific timeline."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided general redemption information but never answered the specific question about timeline after 'in progress' status."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple generic 'give me a moment' delays and failed to directly answer customer's repeated question about required timeframe."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard redemption information appropriately."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent provided general redemption information but failed to answer the customer's core question about the specific timeline for their 'in progress' redemption. Multiple delays and generic responses left the customer without the concrete timeframe they explicitly requested twice.",
+          "coaching_tip": "When a customer asks a specific question like 'what is the required time,' provide the exact timeframe based on their payment method rather than generic processing statements.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[12:17:03 AM] t1284058634: Full Name: t1284058634 Email Address: shanikqua88@gmail.com Subject / How can we help you?: Checking on my redemption\n[12:17:51 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[12:17:58 AM] t1284058634: Hello ana\n[12:19:39 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:21:05 AM] Ana Erazo: Give me a moment to review this information.\n[12:21:20 AM] t1284058634: Ok\n[12:22:33 AM] Ana Erazo: Hey! Congrats - sounds like you're\nready to cash out! Here's what we've got:\n● Debit Card: fastest, 1–3 business days.\n● ACH Bank Transfer: up to 10 business days.\nNotes:\n● No weekend processing.\n● Only one pending redemption at a time.\n● Minimum 100 SC required, with 1x playthrough.\n[12:22:52 AM] t1284058634: It’s in progress status what is after that?\n[12:24:19 AM] t1284058634: Hello Ana?\n[12:24:25 AM] t1284058634: Are you there\n[12:24:38 AM] Ana Erazo: Give me a moment to review this information.\n[12:26:31 AM] Ana Erazo: Please allow the required time for the amount to be reflected in your account.\nIf after that timeframe the credit is still not visible, kindly share a screenshot so we can escalate the case and provide immediate follow-up.\n[12:27:15 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:27:30 AM] t1284058634: Ok\n[12:27:46 AM] t1284058634: What is the required time?\n[12:27:55 AM] t1284058634: So I will know when to reach out\n[12:30:04 AM] Ana Erazo: Give me a moment to review this information.\n[12:30:08 AM] t1284058634: Ok\n[12:33:31 AM] Ana Erazo: Please note that your payment is currently being processed. You will be notified as soon as the amount has been successfully credited to your account.\n\nWe appreciate your patience\n[12:34:59 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:36:36 AM] t1284058634: Ok\n[12:36:40 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:16:57.023Z"
+        },
+        {
+          "chat_id": "2043871659030835200",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-14T02:12:32.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into hold statements without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about what 'golden egg' meant or verify what the customer was expecting versus what was credited."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent confirmed bonus was credited but didn't address the 'golden egg' terminology or verify if this matched customer expectations, leaving potential confusion."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional but minimal communication; no empathy, no explanation of what was reviewed or why the credited bonus should satisfy the request."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; agent reviewed account and provided factual information about credited bonus."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance appropriately but closing felt abrupt given the lack of confirmation that the issue was actually resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided factual account information but failed to greet the customer or clarify the discrepancy between 'golden egg' terminology and the Welcome Bonus credited. The interaction lacked warmth and thorough issue discovery to ensure customer satisfaction.",
+          "coaching_tip": "Always open with a greeting and clarify promotional terminology with customers to ensure what was credited matches their expectations before closing the issue.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[01:59:11 AM] t7971902418: Full Name: t7971902418 Email Address: richarddenton112277@gmail.com Subject / How can we help you?: I need my golden egg I've already kyc registered my account\n[02:02:22 AM] t7971902418: Please allow me one moment to look into this for you!\n[02:02:37 AM] t7971902418: Give me a moment to review this information.\n[02:08:13 AM] t7971902418: After reviewing your account, we confirm that the Welcome Bonus has already been credited and is available. 2 SC\n[02:09:35 AM] t7971902418: Is there anything else I can help you with today?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:23:12.459Z"
+        },
+        {
+          "chat_id": "2043869929828347904",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-14T02:07:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with name and offer to assist, though slightly incomplete sentence."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent acknowledged the issue and is investigating, but didn't ask clarifying questions before diving into account review."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "Chat transcript ends before any resolution was provided or attempted."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear and professional but repetitive hold messages without providing updates or timeframes."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the limited interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as transcript ends mid-investigation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 35,
+          "grade": "F",
+          "summary": "Agent provided a professional greeting and began investigating the missing winnings issue, but the transcript ends before resolution. Multiple hold messages were sent without substantive updates or a conclusion to the interaction.",
+          "coaching_tip": "Provide estimated timeframes when asking customers to wait, and avoid sending multiple similar hold messages without updates on what you're finding.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[01:52:19 AM] t7852901496: Full Name: t7852901496 Email Address: julieweaver070@gmail.com Subject / How can we help you?: My 70$ winnings disappeared\n[01:53:37 AM] Ana Erazo: Hi! My name is Ana I will be assisting you with.\n[01:54:25 AM] t7852901496: All mu winning disappeared why\n[01:54:47 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:57:28 AM] Ana Erazo: Give me a moment to review this information.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:23:43.494Z"
+        },
+        {
+          "chat_id": "2043866367090061312",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-14T01:49:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with name but incomplete sentence and no customer name used."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the cashback inquiry and provided relevant information without needing clarification."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided comprehensive cashback tier information and explained how the system works, addressing the customer's question fully."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured explanation with good formatting and friendly tone throughout."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about existing cashback program without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help, checked if customer was present, and provided friendly closing with well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent provided accurate and comprehensive cashback information in response to customer's inquiry after losing money quickly. Communication was clear and professional, though the greeting was slightly incomplete.",
+          "coaching_tip": "Complete your greeting sentence fully ('I will be assisting you with your inquiry today') to maintain professionalism from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[01:38:09 AM] t0782988998: Full Name: t0782988998 Email Address: mickspianohub@gmail.com Subject / How can we help you?: Is there cashback or something I just lost my 30$ so quick\n[01:39:22 AM] Ana Erazo: Hi! My name is Ana I will be assisting you with.\n[01:42:18 AM] Ana Erazo: Hey! Great news — you earn SC cashback automatically just by playing!\n\nHere are the tiers (Slots & Fishing / Live Games):\n- 1 SC+ wagered: 0.60% / 0.20%\n- 1,000 SC+ wagered: 0.80% / 0.30%\n- 10,000 SC+ wagered: 1.00% / 0.40%\n- 100,000 SC+ wagered: 2.00% / 0.60%\n\nCashback lands automatically before 10 PM PT the next day — no claim needed! Quick note: only SC gameplay counts. GC gameplay doesn’t qualify.\nAny questions? Happy to help!\n[01:47:26 AM] Ana Erazo: Hi are you still with us?\n[01:49:27 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:24:15.423Z"
+        },
+        {
+          "chat_id": "2043861835198541824",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-14T01:31:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 9,
+              "notes": "Warm, personalized greeting using customer's name with enthusiastic tone."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent didn't clarify what 'log me in' meant or address the initial question about free games directly before providing information."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided relevant information about free play options but never actually helped customer log in as requested or confirmed if issue was resolved."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear explanation of coin types but didn't directly address the login request or connect it to the free games question."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; accurately described welcome bonus and coin system without unauthorized promises."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed after brief inactivity without confirming resolution or offering additional help if needed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided a friendly greeting and useful information about free play options, but failed to address the customer's specific request to be logged in. The interaction ended prematurely without confirming the issue was resolved or understanding what help the customer actually needed.",
+          "coaching_tip": "When a customer makes a specific request like 'log me in,' ask clarifying questions to understand what they need help with before providing general information, and always confirm resolution before closing.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[01:20:09 AM] Customer: Full Name: Leon Wells Email Address: leonwells707@gmail.com Subject / How can we help you?: Can I play free games on there.\n[01:20:45 AM] Ana Erazo: Hey Leon! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[01:25:38 AM] Customer: Log me in.  Please\n[01:26:04 AM] Ana Erazo: When you create your account and verify your email and phone number, you automatically receive a Welcome Bonus of 2 Sweepstakes Coins (SC) and 100,000 Gold Coins (GC) — no purchase required.\n\nHere’s the difference between the two:\n\nGold Coins (GC):\nUsed for social gameplay only and have no monetary value. They are mainly used for fun gameplay on the platform.\n\nSweepstakes Coins (SC):\nUsed for promotional sweepstakes games and can be redeemed for real cash prizes after winning and meeting the playthrough requirement.\n\nSo you don’t need to deposit any money to start playing — you can use the GC and SC from the welcome bonus and daily rewards.\n[01:29:12 AM] Ana Erazo: Are you still with us ?\n[01:31:52 AM] Ana Erazo: Thanks for chatting with us Leon! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:25:11.343Z"
+        },
+        {
+          "chat_id": "2047423147804028928",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-23T21:21:13.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after asking customer to wait and was basic without acknowledging the customer by name or showing warmth."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the reversed payment issue after customer clarification but didn't proactively ask clarifying questions about the previous conversation or verify details."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided a wait-and-see resolution with escalation path but didn't verify the reversed payment status or provide specific timeline based on previous agent's promise."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Communication was clear and professional but lacked empathy for the customer's frustration about waiting and needing funds quickly."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent appropriately deferred to standard timelines and escalation procedures without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, farewell, or offer of further assistance; conversation ended abruptly after customer's acknowledgment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent handled a reversed payment inquiry with adequate professionalism but missed opportunities to show empathy and provide a proper closing. The resolution was acceptable but could have been more thorough by investigating the previous agent's statement about seeing the funds.",
+          "coaching_tip": "Always close conversations professionally with a farewell and offer of further assistance, even when the customer seems satisfied with waiting.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[09:11:32 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long little until my $125 sc is deposited? I been waiting for a couple hours now\n[09:11:32 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long little until my $125 sc is deposited? I been waiting for a couple hours now\n[09:12:05 PM] t3381098751: Ok\n[09:12:05 PM] t3381098751: Ok\n[09:12:57 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:12:57 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:13:17 PM] t3381098751: Could someone expedite it for me so I can withdraw it and have it tomorrow\n[09:13:17 PM] t3381098751: Could someone expedite it for me so I can withdraw it and have it tomorrow\n[09:14:30 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:14:30 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:14:38 PM] t3381098751: Ok thank you\n[09:14:38 PM] t3381098751: Ok thank you\n[09:16:03 PM] t3381098751: Ok\n[09:16:03 PM] t3381098751: Ok\n[09:16:11 PM] Ana Erazo: From our side, the payment has already been sent. Please allow up to 10 business days for it to arrive in your account.\n[09:16:11 PM] Ana Erazo: From our side, the payment has already been sent. Please allow up to 10 business days for it to arrive in your account.\n[09:17:19 PM] t3381098751: My payment has been reversed and sent back to you from my bank. In my last conversation with your representative he said that he can see it on my account with you guys and to wait a couple hours to see it credited back on my SC balance\n[09:17:19 PM] t3381098751: My payment has been reversed and sent back to you from my bank. In my last conversation with your representative he said that he can see it on my account with you guys and to wait a couple hours to see it credited back on my SC balance\n[09:17:29 PM] t3381098751: A\n[09:17:29 PM] t3381098751: IMG_1900.jpeg\n[09:17:29 PM] t3381098751: A\n[09:17:29 PM] t3381098751: IMG_1900.jpeg\n[09:19:09 PM] Ana Erazo: In that case, we kindly ask that you continue to wait, as the funds are not yet reflected in your account.\n[09:19:09 PM] Ana Erazo: In that case, we kindly ask that you continue to wait, as the funds are not yet reflected in your account.\n[09:20:12 PM] Ana Erazo: If the funds are still not reflected within 24 hours, please feel free to reach out to us again so we can escalate your case for further review.\n[09:20:12 PM] Ana Erazo: If the funds are still not reflected within 24 hours, please feel free to reach out to us again so we can escalate your case for further review.\n[09:21:11 PM] t3381098751: Ok will do\n[09:21:11 PM] t3381098751: Ok will do",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:24:43.425Z"
+        }
+      ],
+      "avg_score": 55,
+      "grade": "F",
+      "trend": -11
+    },
+    {
       "id": "5842",
       "name": "Raul Figueroa",
       "chats": [
@@ -11675,960 +12674,6 @@
       "avg_score": 54,
       "grade": "F",
       "trend": -7
-    },
-    {
-      "id": "5836",
-      "name": "Ana Erazo",
-      "chats": [
-        {
-          "chat_id": "2047112067029970944",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-23T00:57:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped straight into 'bear with me' without acknowledging the customer by name or welcoming them."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent asked for clarification initially but then provided an irrelevant solution about balance refresh, showing poor understanding of the KYC verification error."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent eventually escalated but only after providing wrong solution first, and only directed to email after customer had already waited over a week on a ticket."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Multiple vague delay messages, provided irrelevant canned response about balance refresh when issue was clearly about KYC verification error with screenshot provided."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No major violations; appropriately did not promise account deletion without proper review, directed to proper escalation channel."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Transcript cuts off mid-sentence with 'I will proceed with' - appears incomplete with no proper closing or confirmation of next steps."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent failed to properly understand the KYC verification issue despite clear explanation and screenshot, providing an irrelevant canned response about balance refresh. The escalation came too late and only after customer frustration, with poor communication throughout including an incomplete closing.",
-          "coaching_tip": "Read customer messages and screenshots carefully before responding with canned answers - the customer clearly stated a KYC verification error with visual proof, not a balance display issue.",
-          "website": "Jackpot Daily",
-          "message_count": 28,
-          "raw_transcript": "[12:35:24 AM] t6071895142: Full Name: t6071895142 Email Address: deisera09@gmail.com Subject / How can we help you?: Verification\n[12:35:35 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:36:36 AM] Ana Erazo: Could you please be more specific about the issue you’re experiencing with your account?\n[12:37:27 AM] t6071895142: I am receiving a error every time I make an attempt to complete my verification process\n[12:37:53 AM] Ana Erazo: Give me a moment to review this information.\n[12:39:51 AM] Ana Erazo: Give me a moment to review this information.\n[12:40:06 AM] t6071895142: Ok\n[12:40:27 AM] t6071895142: https://www.jackpotdaily.com/login?affiliateCode=great1&fbclid=IwdGRleARWQ-9leHRuA2FlbQEwAGFkaWQBqzg7p5tTGHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR69VJ1zkf-lgypgRin9XXSq4exhIC87X85vquUJFhFIJJPrcx2OBPEH1edbEw_aem_9eooaQwlw4qvyM_0y9hikg&utm_medium=paid&utm_campaign=120251377660480456&fbPixelId=2344050659397831&utm_source=fb\n[12:41:25 AM] t6071895142: IMG_2940.png\n[12:41:51 AM] Ana Erazo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:42:07 AM] t6071895142: No problem\n[12:43:38 AM] Ana Erazo: Still here!\n[12:44:54 AM] t6071895142: Ok\n[12:45:41 AM] Ana Erazo: If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[12:46:50 AM] t6071895142: No, that’s not the issue that I’m having. I am unable to verify my identity, in order to redeem these bonuses. Every time I try to complete my KYC, it is giving me an error. I sent you a picture of the error that I’m receiving.\n[12:47:07 AM] t6071895142: I have cleared my CACHE in my browser and used an alternative browser, in which I’m still receiving this error\n[12:47:16 AM] Ana Erazo: One sec\n[12:49:29 AM] Ana Erazo: Kindly try again within the next 24 hours. If you continue to experience the same issue, we will proceed with escalating your case for further investigation.\n[12:50:22 AM] t6071895142: I did try again within the next 24 hours. That is why I’m reaching back out to customer service.\n[12:50:58 AM] Ana Erazo: Ok at this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible. (\n[12:51:09 AM] t6071895142: IMG_3009.jpeg\n[12:51:34 AM] t6071895142: Could you guys go ahead and delete my account so that I am able to reopen a new one.\n[12:52:04 AM] t6071895142: Could you guys go ahead and delete my account so that I am able to reopen a new one. I have not used any bonuses or made any purchases. At this point I feel like the only alternative or solution is to delete my account.\n[12:52:23 AM] Ana Erazo: Kindly submit a support ticket so we can further review your account.\n[12:53:30 AM] t6071895142: I have already submitted a support ticket and it’s been over a week\n[12:54:19 AM] Ana Erazo: Thank you for your patience. I will proceed with escalating your case, as we’re currently unable to delete the account to create a new one.\n[12:55:04 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:57:06 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:47:18.901Z"
-        },
-        {
-          "chat_id": "2047110000849285120",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-23T00:30:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Greeting was present and professional but came after the initial 'bear with me' message, slightly delayed and basic."
-            },
-            "issue_discovery": {
-              "score": 4,
-              "notes": "Agent never asked about or acknowledged the verification issue the customer raised."
-            },
-            "resolution": {
-              "score": 2,
-              "notes": "No resolution attempted; agent closed chat without addressing the verification subject at all."
-            },
-            "communication": {
-              "score": 8,
-              "notes": "Messages were clear and professional but completely missed the customer's actual need."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, but failed to provide required support for verification inquiry."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closed prematurely with generic game-related message instead of addressing issue or offering further help."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 31,
-          "grade": "F",
-          "summary": "Agent greeted the customer professionally but completely failed to address the stated verification issue. The chat was closed with a generic gaming message without any attempt to help with the customer's actual concern.",
-          "coaching_tip": "Always acknowledge and address the customer's stated issue before closing the chat; verification requests require specific action, not generic closing statements.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[12:27:12 AM] t6071895142: Full Name: t6071895142 Email Address: deisera09@gmail.com Subject / How can we help you?: Verification\n[12:27:23 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:28:29 AM] Ana Erazo: Hi! My name is Ana  I will be assisting you.\n[12:30:05 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:48:18.562Z"
-        },
-        {
-          "chat_id": "2047105861230047232",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-23T00:16:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all, jumped directly into account review without acknowledging the customer or introducing herself."
-            },
-            "issue_discovery": {
-              "score": 4,
-              "notes": "Agent never attempted to understand or clarify the Second Chance promotion issue before terminating the chat."
-            },
-            "resolution": {
-              "score": 2,
-              "notes": "No resolution attempted; agent terminated chat without addressing the customer's concern about the promotion or attempting de-escalation."
-            },
-            "communication": {
-              "score": 8,
-              "notes": "Clear and professional boundary-setting when terminating due to profanity, though could have warned before ending conversation."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Appropriately enforced respectful communication policy and terminated abusive chat per protocol."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided alternative contact methods and kept door open for future respectful contact."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 33,
-          "grade": "F",
-          "summary": "Agent appropriately terminated an abusive chat per policy but made no attempt to de-escalate, understand the issue, or provide any information before ending the conversation. While the termination was justified given the profanity, the agent missed opportunities to acknowledge frustration and attempt to help before reaching that point.",
-          "coaching_tip": "Before terminating for profanity, issue one clear warning acknowledging the customer's frustration and requesting respectful language to allow you to help resolve their concern.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[12:10:45 AM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: Oh now I'm really freaking mad I just looked at your second chance bullshit so that I was building money there it's all a facade you guys are some big fucking motherfuckers I'm getting a lawyer I am super pissed you scam artist oh I can only get it everyday except tomorrow every fucking day it says that and yet I don't get it and I have to meet today's regardless I met him yesterday that gave it for that you motherfuckers that's it I'm doing some shit about your fucking bullshit Casino\n[12:10:55 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:11:32 AM] t1315504932: Oh I've been waiting till today and I am so red you're fuckers I spent hundreds upon hundreds you have no idea how I feel right now\n[12:11:52 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[12:12:23 AM] t1315504932: I spend hundreds upon hundred and I have absolutely nothing to show but Absol utely nothing and can second chance if you don't give it to me\n[12:12:48 AM] t1315504932: If I don't get the second chance money that's it I'm going to explode and there's going to be problems\n[12:13:39 AM] t1315504932: Yep I can see them they're building up thinking I'm going to get it but I can see now that I probably won't because it's just another one in your scams\n[12:14:11 AM] t1315504932: I absolutely never had this bad of a start with any casino but yours and I would never refer this to see no not to single stall if anything else wore them against it\n[12:14:50 AM] t1315504932: For 2 days I spend hundreds and I don't qualify for the second chance you got to be fucking kidding me\n[12:15:13 AM] t1315504932: And furthermore it's only 20 something dollars out of all the fucking money that I spent you guys are so fucking stingy and greasy\n[12:15:30 AM] Ana Erazo: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[12:15:50 AM] t1315504932: Yeah I'll sit back quietly while you respectfully take all my money yeah that's so much respect from the casinos and isn't it and then I'm getting scammed on the second chance thing as well",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:48:49.528Z"
-        },
-        {
-          "chat_id": "2047087986868580352",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-22T23:17:16.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Greeting came after initial delay and lacked warmth; did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask clarifying questions about the balance discrepancy or what the customer expected to see versus what was displayed."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided generic troubleshooting steps without investigating the actual account issue or acknowledging the screenshot provided by the customer."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Instructions were clear and well-formatted, but agent failed to acknowledge the customer's screenshot or show personalized engagement with their specific concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed customer to email support for further investigation."
-            },
-            "closing": {
-              "score": 6,
-              "notes": "Offered further help but closed prematurely without confirming if the customer tried the steps or if the issue was resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent provided standard troubleshooting steps but failed to investigate the specific balance issue or acknowledge the customer's screenshot. The response was generic and lacked personalized problem-solving for the customer's concern about missing funds.",
-          "coaching_tip": "Always acknowledge attachments customers send and investigate account-specific issues before defaulting to generic troubleshooting steps, especially when funds discrepancies are reported.",
-          "website": "Jackpot Daily",
-          "message_count": 7,
-          "raw_transcript": "[10:59:43 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: My balance is not popping up correctly where is my funds.\n[10:59:53 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[11:00:17 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[11:00:30 PM] t5839188793: Screenshot_20260422-185920_Chrome.jpg\n[11:02:14 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[11:04:41 PM] Ana Erazo: Hi, Thank you for reaching out! If you're noticing that your balance hasn't updated or a recent bonus isn't appearing, a quick refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:06:31 PM] Ana Erazo: ç Is there anything else I can help you with today?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:51:05.563Z"
-        },
-        {
-          "chat_id": "2044574279885697024",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-16T00:38:06.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Greeting came after initial delay and lacked warmth or personalization given customer's frustrated state."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent did not ask any clarifying questions about which support request or what the original issue was about."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided only a generic status update without checking specifics, offering timeline, or escalating the week-old unanswered request."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Response was templated and impersonal, failing to acknowledge customer's frustration or provide meaningful information."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but failed to provide adequate follow-up on a legitimate service delay complaint."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Closed abruptly with generic casino messaging inappropriate for an unresolved support complaint."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 48,
-          "grade": "F",
-          "summary": "Agent provided minimal assistance to a frustrated customer waiting over a week for support response, offering only generic reassurance without investigating specifics or providing timeline. The interaction lacked empathy, proper discovery, and meaningful resolution for a legitimate service failure complaint.",
-          "coaching_tip": "When customers report delayed responses, look up their specific ticket, acknowledge the wait time with empathy, provide a concrete timeline or escalation, and ensure they have a reference number for follow-up.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[12:31:09 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Still no email from support over a week later?!\n[12:31:21 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:32:07 AM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[12:34:26 AM] Ana Erazo: Our team is actively working to address each request as quickly as possible.\nWe kindly ask for your patience and understanding while we continue working on your case. Thank you for your cooperation.\n[12:36:32 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:38:02 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:56:17.746Z"
-        },
-        {
-          "chat_id": "2044572044745863168",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-16T00:29:34.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Greeting came after initial delay and lacked warmth; did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 6,
-              "notes": "Agent failed to probe what 'further assistance' meant or investigate the account issue that prompted the contact message."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "No resolution attempted; agent simply repeated generic offer to help without investigating the system message that directed customer to contact support."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Agent repeated the same phrase twice without acknowledging customer's explanation about being directed to contact support."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No compliance violations but also no meaningful engagement with the customer's stated reason for contact."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Closed prematurely after only 7 minutes without resolving why the system directed customer to contact support."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 41,
-          "grade": "F",
-          "summary": "Agent failed to investigate the customer's issue despite being told twice that a system message directed them to contact support. The interaction consisted mostly of generic responses without any meaningful troubleshooting or account review.",
-          "coaching_tip": "When a customer mentions being directed by the system to contact support, immediately check their account for flags, verification issues, or withdrawal problems rather than asking generic 'how can I help' questions.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[12:22:16 AM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: It said for further assistance to contact yall\n[12:22:29 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:23:16 AM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[12:23:21 AM] Customer: Ok\n[12:24:35 AM] Ana Erazo: Please let me know how I can be of help.\n[12:26:02 AM] Customer: It told me to contact yall for sorter assistance\n[12:26:59 AM] Ana Erazo: Please let me know how I can be of help.\n[12:28:08 AM] Ana Erazo: Hi, I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:29:32 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:56:38.943Z"
-        },
-        {
-          "chat_id": "2044571344086806528",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-16T00:28:18.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Greeting was present and professional but came after initial delay and account check."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the welcome bonus question and proactively provided comprehensive information including follow-up clarification on KYC."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Thoroughly explained the Golden Egg welcome bonus process and answered the KYC follow-up question with clear, accurate information."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear and well-structured responses with good use of formatting, though slightly template-heavy in delivery."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "No policy violations, accurately described bonus terms and verification requirements without unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closing with well-wishes after appropriate wait time and check-in attempt."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 81,
-          "grade": "B",
-          "summary": "Agent provided comprehensive information about the welcome bonus and KYC verification process with clear explanations. Communication was professional and thorough, successfully addressing both the initial question and follow-up inquiry.",
-          "coaching_tip": "Consider introducing yourself and greeting the customer before the account review statement to create a warmer initial connection.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[12:19:29 AM] t7231912385: Full Name: t7231912385 Email Address: rockenconnie201102@gmail.com Subject / How can we help you?: What about the welcome bouns\n[12:19:44 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:19:55 AM] t7231912385: Ok\n[12:20:19 AM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[12:20:40 AM] t7231912385: Ok thanks\n[12:20:53 AM] Ana Erazo: Hey! Your Golden Egg is waiting —\nexciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n● The reward amount is random (can’t be predicted or\nchanged!)\n● It’s a one‑time welcome offer — new accounts only\n● It expires 5 days after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[12:22:03 AM] t7231912385: Ok what is the kyc\n[12:23:56 AM] Ana Erazo: KYC (Know Your Customer) is a verification process used to confirm your identity.\n\nAs part of this process, you may be asked to provide certain documents, such as a valid ID, proof of address, or other relevant information. This helps ensure the security of your account and prevents fraud.\n\nOnce the verification is completed, you will be able to fully access all account features without restrictions.\n[12:25:10 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:26:52 AM] Ana Erazo: Hi, I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[12:27:55 AM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:57:08.705Z"
-        },
-        {
-          "chat_id": "2044232061471731712",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T02:04:01.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting provided; agent jumped directly into acknowledging the request without any welcome or professional opening."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent acknowledged the issue but asked no clarifying questions about the password reset loop or attempted any troubleshooting steps."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided a valid escalation path with clear instructions, but no attempt at first-line troubleshooting for a common password reset issue."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional instructions for escalation, but lacked empathy for the customer's frustration with the locked account warning."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated a technical issue beyond chat scope."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided a friendly closing, though slightly generic for the context of an unresolved issue."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent handled escalation appropriately with clear instructions but missed the opportunity to attempt basic troubleshooting or gather more details about the password reset failure. The lack of a proper greeting and minimal issue discovery reduced the overall quality of support.",
-          "coaching_tip": "Always open with a professional greeting using the customer's name, and attempt at least one troubleshooting step (like clearing cache or trying a different browser) before escalating technical issues.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[01:51:18 AM] Customer: Full Name: Bruce goodwin Email Address: woodt5464@gmail.com Subject / How can we help you?: I forgot what password i used and it wont let me change password.\n[01:53:37 AM] Customer: It sends me the verification code and I get to the part to put new password and confirm password  I out password in and it says go back to forget password my account will be locked if too many failed attempts\n[01:57:46 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[02:01:02 AM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:02:11 AM] Ana Erazo: Is there anything else I can help you with today?\n[02:03:57 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:06:06.957Z"
-        },
-        {
-          "chat_id": "2044231634562887680",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T02:01:34.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped directly into account review without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the welcome bonus issue but never asked clarifying questions about what the customer was seeing or experiencing."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Provided a troubleshooting step and clear escalation path with specific instructions, though resolution was delayed by excessive hold messages."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Multiple repetitive hold messages created confusion, and the final response introduced 'golden egg' terminology not mentioned by customer, but instructions were ultimately clear."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and appropriately directed to official support channel for manual intervention."
-            },
-            "closing": {
-              "score": 2,
-              "notes": "No closing whatsoever, chat ended abruptly while customer was attempting the troubleshooting step."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent provided a workable solution with troubleshooting steps and escalation path but delivered poor customer experience through lack of greeting, repetitive hold messages, and no closing. Communication was confusing with terminology mismatch and the interaction felt disjointed.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name, avoid sending the same hold message multiple times, and ensure you close the conversation by confirming next steps before ending the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[01:49:36 AM] t0493407772: Full Name: t0493407772 Email Address: chrisjordan3394@gmail.com Subject / How can we help you?: I verified my account but it won’t let me claim my welcome bonus\n[01:50:15 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:50:30 AM] t0493407772: Thank you\n[01:52:06 AM] t0493407772: Ok no problem\n[01:54:18 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:54:25 AM] t0493407772: Ok\n[01:56:28 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:56:42 AM] t0493407772: Oh k\n[01:59:46 AM] Ana Erazo: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[02:01:07 AM] t0493407772: Ok let me try",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:06:22.688Z"
-        },
-        {
-          "chat_id": "2044231523506106368",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T01:51:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with name and offer to assist, but no personalization with customer name."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Customer clearly stated KYC verification issue twice, but agent didn't ask any clarifying questions about error messages or what specifically isn't working."
-            },
-            "resolution": {
-              "score": 0,
-              "notes": "No resolution attempted - agent greeted but never responded to the actual problem statement."
-            },
-            "communication": {
-              "score": 5,
-              "notes": "Initial greeting was clear but agent went silent after customer explained the issue, providing no follow-up."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No compliance violations observed in the limited interaction."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing provided as conversation appears incomplete or abandoned."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 28,
-          "grade": "F",
-          "summary": "Agent provided an adequate greeting but failed to engage with the customer's KYC verification issue. The transcript ends with no troubleshooting, resolution attempt, or response after the customer clearly stated their problem.",
-          "coaching_tip": "Always acknowledge the customer's issue immediately and ask specific clarifying questions like what error message they see or at which step the verification fails.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[01:49:09 AM] t3804407202: Full Name: t3804407202 Email Address: marcoytuarte0310@gmail.com Subject / How can we help you?: Won’t let me kyc verify\n[01:50:02 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[01:50:20 AM] t3804407202: Ok\n[01:50:36 AM] t3804407202: It won’t let me verify my account",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:07:42.166Z"
-        },
-        {
-          "chat_id": "2044229020811620352",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T01:48:39.000Z",
-          "categories": {
-            "greeting": {
-              "score": 8,
-              "notes": "Professional greeting with agent name and clear offer to assist."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the golden egg issue and investigated the account without needing additional clarification."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided troubleshooting steps and clear escalation path via email with specific instructions, though resolution wasn't immediate."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic communication with appropriate status updates during investigation time."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed to official support channel for manual intervention."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided friendly closing, though customer didn't confirm resolution before close."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 75,
-          "grade": "C",
-          "summary": "Agent handled the golden egg technical issue competently by providing troubleshooting steps and escalation instructions. Communication was professional and empathetic throughout, though the issue required escalation rather than immediate resolution.",
-          "coaching_tip": "Wait for customer confirmation that they understand the next steps or have no further questions before closing, especially when providing multi-step troubleshooting instructions.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[01:39:13 AM] t9047494602: Full Name: t9047494602 Email Address: zacharysullins48@gmail.com Subject / How can we help you?: Bonus\n[01:40:10 AM] Ana Erazo: Hi! My name is Ana  I will be assisting you today.\n[01:41:00 AM] t9047494602: I cant smash the golden egg it keeps bringing me to the complete task to claim prompt\n[01:41:38 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:41:51 AM] t9047494602: Okay\n[01:43:11 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:43:42 AM] t9047494602: Okay thank you kindly\n[01:44:33 AM] Ana Erazo: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[01:46:01 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:48:37 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:09:10.330Z"
-        },
-        {
-          "chat_id": "2044226917204013056",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T01:39:31.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into account review without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the redemption status inquiry but didn't address the customer's frustration about conflicting information from previous agents."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided accurate processing timeframe information but didn't acknowledge the discrepancy in previous communications or explain why the bank shows nothing pending."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Professional but repetitive and somewhat robotic; failed to acknowledge customer's valid concern about bank showing no pending deposit."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided standard processing timeframes without unauthorized promises."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closed abruptly while customer concern remained unaddressed; generic closing felt dismissive given the context."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent provided accurate processing information but failed to address the customer's main frustration about receiving conflicting information from different agents. The interaction felt scripted and dismissive, particularly the premature closing while the customer still had legitimate concerns about their bank showing no pending transaction.",
-          "coaching_tip": "When customers express frustration about conflicting information from previous agents, acknowledge this specifically and apologize for the confusion before providing the correct information.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[01:30:51 AM] t6898385578: Full Name: t6898385578 Email Address: jeremy.swisher16@gmail.com Subject / How can we help you?: So now today someone says redemption in process Yesterday someone says already sent Like no one there has a clue What’s going on guys\n[01:31:10 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:31:27 AM] t6898385578: Ok\n[01:32:29 AM] Ana Erazo: We have reviewed your account and confirmed that the redemption was made today via ACH. The estimated time for this amount to be credited to your bank is up to 10 business days.\n\nIt’s important to clarify that this does not mean it will necessarily take the full 10 days, but rather that the crediting can occur at any point within that timeframe. For now, this is the available option to process your redemption, and we truly appreciate your patience and understanding while the process is completed.\n[01:34:52 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:34:55 AM] t6898385578: My bank credits my account as soon as they get it   Why would it take 10 days ????\n[01:35:06 AM] t6898385578: And they said they have nothing\n[01:37:03 AM] Ana Erazo: Please note that this is a standard processing. This means the funds can be credited at any time within those 10 business days, not necessarily sooner or exactly on the 10th day.\n\nAt this moment, this is the only available processing timeframe for ACH redemptions. We kindly ask for your patience while the transaction is completed, and we appreciate your understanding.\n[01:37:26 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:38:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:09:51.418Z"
-        },
-        {
-          "chat_id": "2044223553615474688",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T01:24:34.000Z",
-          "categories": {
-            "greeting": {
-              "score": 8,
-              "notes": "Professional greeting with agent name and offer to assist."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the concern about missing redemption and proactively checked account status."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Confirmed redemption was processed, provided clear timeline expectations, and explained ACH processing timeframe thoroughly."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, empathetic explanation with appropriate detail about processing times and reassurance."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly set expectations about processing timeframe without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided friendly closing, though customer didn't respond to the offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 81,
-          "grade": "B",
-          "summary": "Ana provided competent support by confirming the redemption was processed and clearly explaining the ACH timeline of up to 10 business days. The interaction was professional, reassuring, and addressed the customer's concern for peace of mind effectively.",
-          "coaching_tip": "When customer asks to 'show where it's been processed,' consider providing more specific details like transaction ID or exact date/time to enhance transparency and confidence.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[01:17:29 AM] t1417870264: Full Name: t1417870264 Email Address: brittslater5@gmail.com Subject / How can we help you?: Hi it says my redemption was redeemed successfully but it is not showing in my bank at all ?\n[01:17:36 AM] t1417870264: Agent\n[01:18:16 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[01:18:26 AM] t1417870264: Ok thank you\n[01:18:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:18:47 AM] t1417870264: Can you show on your side where it’s been processed please for peace of mind\n[01:18:50 AM] t1417870264: Ok thanks\n[01:21:07 AM] Ana Erazo: We have reviewed your account and confirmed that the redemption was made today via ACH. The estimated time for this amount to be credited to your bank is up to 10 business days.\n\nIt’s important to clarify that this does not mean it will necessarily take the full 10 days, but rather that the crediting can occur at any point within that timeframe. For now, this is the available option to process your redemption, and we truly appreciate your patience and understanding while the process is completed.\n[01:22:09 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:24:30 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:10:55.461Z"
-        },
-        {
-          "chat_id": "2044222984566435840",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T01:16:25.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting present; agent only provided a closing statement after customer indicated no help needed."
-            },
-            "issue_discovery": {
-              "score": 12,
-              "notes": "No discovery needed as customer proactively stated issue was resolved before agent responded."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Issue was already resolved; agent appropriately acknowledged the resolved status without unnecessary intervention."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Friendly and appropriate tone for acknowledging a resolved issue, though brief."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No compliance issues; appropriate response with no unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Warm closing with well-wishes appropriate for a casino environment."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 68,
-          "grade": "D",
-          "summary": "Customer contacted support to confirm their issue was already resolved and required no assistance. Agent appropriately acknowledged with a friendly closing message.",
-          "coaching_tip": "When a customer indicates their issue is resolved, consider briefly acknowledging what was fixed or asking if anything else is needed before closing.",
-          "website": "Jackpot Daily",
-          "message_count": 2,
-          "raw_transcript": "[01:15:14 AM] Customer: Full Name: Callie jones Email Address: jonescallie1968@gmail.com Subject / How can we help you?: Thank you everything is good now I don’t need any more help. Thank you for leaving it on there. I can be able to get back on the game thank you.\n[01:16:12 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:12:00.240Z"
-        },
-        {
-          "chat_id": "2044218218872401920",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T01:12:34.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "Greeting came 6 minutes into chat after multiple delay messages, lacked warmth and personalization."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent failed to ask clarifying questions about verification status or missing funds, only offered generic escalation without understanding the specific issue."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent repeatedly directed customer to email support despite customer stating they already did this, showing no investigation or alternative solution."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Repetitive canned responses that ignored customer's frustration and claim of already having emailed support, poor active listening."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but failed to acknowledge the sensitive nature of missing funds or verification issues appropriately."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Closed with generic game enjoyment message despite unresolved account access and missing money issue, tone-deaf to situation."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 44,
-          "grade": "F",
-          "summary": "Agent provided poor service by repeatedly giving the same escalation instruction without acknowledging the customer already followed that process or investigating the account issue. The handling lacked empathy for a frustrated customer concerned about missing funds and account access.",
-          "coaching_tip": "When a customer states they've already completed the requested action, acknowledge this and either verify in the system or provide a different solution rather than repeating the same instruction.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[12:56:17 AM] Customer: Full Name: Callie jones Email Address: jonescallie1968@gmail.com Subject / How can we help you?: No, everything was Every thing was good would y’all please go in and verify me so I can get my money y’all had me on there and now it’s not I’m not on there anymore. I’ve been I sent my bill and I sent my license in. I sent everything in. Could you please put my money back on there ain’t nobody texting me. Nothing do I need to get a lawyer?\n[12:57:24 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:00:11 AM] Ana Erazo: Give me a moment to review this information.\n[01:02:04 AM] Ana Erazo: Hi , thanks for reaching out.\nAt this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[01:03:53 AM] Customer: I did all that y’all just go back and look at it. Could you please I did all that I put my email Jones Callie 1968@gmail.com. I went out onto the Google. I had $200 on there. Y’all came back and took it off now I can’t get back online. What is really going on?\n[01:03:53 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:05:02 AM] Ana Erazo: Give me a moment to review this information.\n[01:07:21 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:07:44 AM] Ana Erazo: To move forward with your request, please email our support team at support@jackpotdaily.com\n with a brief explanation of the issue along with any screenshots that may help.\n\nBe sure to include the word “ESCALATE” in the subject line so your case can be handled with priority.\n\nAfter we receive your email, our team will take a look and get back to you as soon as they can.\n[01:08:34 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:11:09 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:12:23.708Z"
-        },
-        {
-          "chat_id": "2044212036954845184",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T00:56:17.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though could have used customer's name for personalization."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent acknowledged the issue but didn't ask clarifying questions about the purchase timing or account status before providing generic responses."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Failed to address the core issue—customer paid but cannot access account due to technical issue, yet agent only cited refund policy without helping resolve access or processing refund."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Clear language but lacked empathy for frustrated repeat customer and didn't address their specific situation of being locked out with money paid."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Correctly cited refund policy and didn't make unauthorized promises, though could have escalated appropriately."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closed prematurely while customer was clearly unsatisfied and waiting for resolution, then sent confusing delayed message after closing."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent acknowledged a technical issue preventing login but failed to provide meaningful resolution for a frustrated customer who paid money and cannot access their account. The premature closing without addressing the refund request or escalating the urgent issue was particularly poor service.",
-          "coaching_tip": "When a customer has a payment issue combined with technical problems, escalate immediately to a supervisor or billing team rather than citing policy—this customer needed account access restored or a refund processed, not just an acknowledgment of the problem.",
-          "website": "Jackpot Daily",
-          "message_count": 16,
-          "raw_transcript": "[12:31:43 AM] Customer: Full Name: Lois L Johnson Email Address: Loisnvince0314@gmail.com Subject / How can we help you?: No, I don’t know how many times I had to contact you guys, but I’ve tried to sign up as a new customer on your site and basically I got screwed after I put in my phone number and then everything was done and settled. Went to go purchase the welcome package for $10 and got 30 cc and then the screen went dead and when I went to go back to go log on it won’t let me back on so either give me my refund that ends in 3607 or fix my account because I’m a little mad and I’ve been trying ever since the sixth now it’s been four days and nothing has resolved whatsoever and wrote out a ticket. I’ve contacted this like three times now and nothing itself so I want something done and please don’t tell me to write out a ticket again because I’m not going to. I want something done now because I’ve already done a ticket and nothing gets resolved.\n[12:31:58 AM] Customer: Live agent, please\n[12:32:36 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[12:33:27 AM] Customer: I’ve been contacting you guys like I’m lost count. I don’t know I sent in tickets. Nothing is getting accomplished. I signed up on the sixth through Facebook. I put in my phone number and everything and then I got disconnected and I even purchased the welcome package for $10 and I got 30 and it’s still on my account and I can’t log back onto my account because I got disconnected.\n[12:34:20 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[12:34:26 AM] Customer: They said if it keeps up to contact you guys again while this is probably like the fifth or sixth time I think maybe more I’m gonna send you and show you what I get when I try to log back on\n[12:34:59 AM] Customer: IMG_0507.png\n[12:34:59 AM] Customer: IMG_0506.png\n[12:34:59 AM] Customer: IMG_0505.png\n[12:35:53 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[12:39:51 AM] Ana Erazo: Hi! We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of a technical issue that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\nWarm regards.\n[12:40:49 AM] Customer: Well, I’m a new customer and I want my refund back onto my card please then\n[12:42:24 AM] Ana Erazo: Hey! Of course - here's how our\nrefund policy works:\n● Unused Gold Coin packages refundable within 48 hours of\npurchase (if not played).\n● After 48 hours, purchases are non-refundable.\n● Mistaken wagers are not eligible for refunds.\n● Billing discrepancies must be flagged within 30 days of\npurchase.\n[12:43:25 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:45:38 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:56:48 AM] Ana Erazo: Please allow me one moment to look into this for you!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:14:02.470Z"
-        },
-        {
-          "chat_id": "2044208345237516288",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-15T00:37:23.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with name and offer to assist, though could be warmer."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the redemption status question but failed to clarify which payment method was used or provide specific timeline."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided general redemption information but never answered the specific question about timeline after 'in progress' status."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Multiple generic 'give me a moment' delays and failed to directly answer customer's repeated question about required timeframe."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided standard redemption information appropriately."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing message."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent provided general redemption information but failed to answer the customer's core question about the specific timeline for their 'in progress' redemption. Multiple delays and generic responses left the customer without the concrete timeframe they explicitly requested twice.",
-          "coaching_tip": "When a customer asks a specific question like 'what is the required time,' provide the exact timeframe based on their payment method rather than generic processing statements.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[12:17:03 AM] t1284058634: Full Name: t1284058634 Email Address: shanikqua88@gmail.com Subject / How can we help you?: Checking on my redemption\n[12:17:51 AM] Ana Erazo: Hi! My name is Ana I will be assisting you today.\n[12:17:58 AM] t1284058634: Hello ana\n[12:19:39 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[12:21:05 AM] Ana Erazo: Give me a moment to review this information.\n[12:21:20 AM] t1284058634: Ok\n[12:22:33 AM] Ana Erazo: Hey! Congrats - sounds like you're\nready to cash out! Here's what we've got:\n● Debit Card: fastest, 1–3 business days.\n● ACH Bank Transfer: up to 10 business days.\nNotes:\n● No weekend processing.\n● Only one pending redemption at a time.\n● Minimum 100 SC required, with 1x playthrough.\n[12:22:52 AM] t1284058634: It’s in progress status what is after that?\n[12:24:19 AM] t1284058634: Hello Ana?\n[12:24:25 AM] t1284058634: Are you there\n[12:24:38 AM] Ana Erazo: Give me a moment to review this information.\n[12:26:31 AM] Ana Erazo: Please allow the required time for the amount to be reflected in your account.\nIf after that timeframe the credit is still not visible, kindly share a screenshot so we can escalate the case and provide immediate follow-up.\n[12:27:15 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:27:30 AM] t1284058634: Ok\n[12:27:46 AM] t1284058634: What is the required time?\n[12:27:55 AM] t1284058634: So I will know when to reach out\n[12:30:04 AM] Ana Erazo: Give me a moment to review this information.\n[12:30:08 AM] t1284058634: Ok\n[12:33:31 AM] Ana Erazo: Please note that your payment is currently being processed. You will be notified as soon as the amount has been successfully credited to your account.\n\nWe appreciate your patience\n[12:34:59 AM] Ana Erazo: Is there anything else I can help you with today?\n[12:36:36 AM] t1284058634: Ok\n[12:36:40 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:16:57.023Z"
-        },
-        {
-          "chat_id": "2043871659030835200",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-14T02:12:32.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into hold statements without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask any clarifying questions about what 'golden egg' meant or verify what the customer was expecting versus what was credited."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent confirmed bonus was credited but didn't address the 'golden egg' terminology or verify if this matched customer expectations, leaving potential confusion."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Professional but minimal communication; no empathy, no explanation of what was reviewed or why the credited bonus should satisfy the request."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected; agent reviewed account and provided factual information about credited bonus."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance appropriately but closing felt abrupt given the lack of confirmation that the issue was actually resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent provided factual account information but failed to greet the customer or clarify the discrepancy between 'golden egg' terminology and the Welcome Bonus credited. The interaction lacked warmth and thorough issue discovery to ensure customer satisfaction.",
-          "coaching_tip": "Always open with a greeting and clarify promotional terminology with customers to ensure what was credited matches their expectations before closing the issue.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[01:59:11 AM] t7971902418: Full Name: t7971902418 Email Address: richarddenton112277@gmail.com Subject / How can we help you?: I need my golden egg I've already kyc registered my account\n[02:02:22 AM] t7971902418: Please allow me one moment to look into this for you!\n[02:02:37 AM] t7971902418: Give me a moment to review this information.\n[02:08:13 AM] t7971902418: After reviewing your account, we confirm that the Welcome Bonus has already been credited and is available. 2 SC\n[02:09:35 AM] t7971902418: Is there anything else I can help you with today?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:23:12.459Z"
-        },
-        {
-          "chat_id": "2043869929828347904",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-14T02:07:39.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with name and offer to assist, though slightly incomplete sentence."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent acknowledged the issue and is investigating, but didn't ask clarifying questions before diving into account review."
-            },
-            "resolution": {
-              "score": 0,
-              "notes": "Chat transcript ends before any resolution was provided or attempted."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Clear and professional but repetitive hold messages without providing updates or timeframes."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No compliance violations observed in the limited interaction."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing provided as transcript ends mid-investigation."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 35,
-          "grade": "F",
-          "summary": "Agent provided a professional greeting and began investigating the missing winnings issue, but the transcript ends before resolution. Multiple hold messages were sent without substantive updates or a conclusion to the interaction.",
-          "coaching_tip": "Provide estimated timeframes when asking customers to wait, and avoid sending multiple similar hold messages without updates on what you're finding.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[01:52:19 AM] t7852901496: Full Name: t7852901496 Email Address: julieweaver070@gmail.com Subject / How can we help you?: My 70$ winnings disappeared\n[01:53:37 AM] Ana Erazo: Hi! My name is Ana I will be assisting you with.\n[01:54:25 AM] t7852901496: All mu winning disappeared why\n[01:54:47 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:57:28 AM] Ana Erazo: Give me a moment to review this information.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:23:43.494Z"
-        },
-        {
-          "chat_id": "2043866367090061312",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-14T01:49:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional greeting with name but incomplete sentence and no customer name used."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the cashback inquiry and provided relevant information without needing clarification."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided comprehensive cashback tier information and explained how the system works, addressing the customer's question fully."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured explanation with good formatting and friendly tone throughout."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided accurate information about existing cashback program without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help, checked if customer was present, and provided friendly closing with well-wishes."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 73,
-          "grade": "C",
-          "summary": "Agent provided accurate and comprehensive cashback information in response to customer's inquiry after losing money quickly. Communication was clear and professional, though the greeting was slightly incomplete.",
-          "coaching_tip": "Complete your greeting sentence fully ('I will be assisting you with your inquiry today') to maintain professionalism from the start.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[01:38:09 AM] t0782988998: Full Name: t0782988998 Email Address: mickspianohub@gmail.com Subject / How can we help you?: Is there cashback or something I just lost my 30$ so quick\n[01:39:22 AM] Ana Erazo: Hi! My name is Ana I will be assisting you with.\n[01:42:18 AM] Ana Erazo: Hey! Great news — you earn SC cashback automatically just by playing!\n\nHere are the tiers (Slots & Fishing / Live Games):\n- 1 SC+ wagered: 0.60% / 0.20%\n- 1,000 SC+ wagered: 0.80% / 0.30%\n- 10,000 SC+ wagered: 1.00% / 0.40%\n- 100,000 SC+ wagered: 2.00% / 0.60%\n\nCashback lands automatically before 10 PM PT the next day — no claim needed! Quick note: only SC gameplay counts. GC gameplay doesn’t qualify.\nAny questions? Happy to help!\n[01:47:26 AM] Ana Erazo: Hi are you still with us?\n[01:49:27 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:24:15.423Z"
-        },
-        {
-          "chat_id": "2043861835198541824",
-          "agent_name": "Ana Erazo",
-          "agent_id": "5836",
-          "timestamp": "2026-04-14T01:31:57.000Z",
-          "categories": {
-            "greeting": {
-              "score": 9,
-              "notes": "Warm, personalized greeting using customer's name with enthusiastic tone."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent didn't clarify what 'log me in' meant or address the initial question about free games directly before providing information."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided relevant information about free play options but never actually helped customer log in as requested or confirmed if issue was resolved."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear explanation of coin types but didn't directly address the login request or connect it to the free games question."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; accurately described welcome bonus and coin system without unauthorized promises."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Closed after brief inactivity without confirming resolution or offering additional help if needed."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent provided a friendly greeting and useful information about free play options, but failed to address the customer's specific request to be logged in. The interaction ended prematurely without confirming the issue was resolved or understanding what help the customer actually needed.",
-          "coaching_tip": "When a customer makes a specific request like 'log me in,' ask clarifying questions to understand what they need help with before providing general information, and always confirm resolution before closing.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[01:20:09 AM] Customer: Full Name: Leon Wells Email Address: leonwells707@gmail.com Subject / How can we help you?: Can I play free games on there.\n[01:20:45 AM] Ana Erazo: Hey Leon! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[01:25:38 AM] Customer: Log me in.  Please\n[01:26:04 AM] Ana Erazo: When you create your account and verify your email and phone number, you automatically receive a Welcome Bonus of 2 Sweepstakes Coins (SC) and 100,000 Gold Coins (GC) — no purchase required.\n\nHere’s the difference between the two:\n\nGold Coins (GC):\nUsed for social gameplay only and have no monetary value. They are mainly used for fun gameplay on the platform.\n\nSweepstakes Coins (SC):\nUsed for promotional sweepstakes games and can be redeemed for real cash prizes after winning and meeting the playthrough requirement.\n\nSo you don’t need to deposit any money to start playing — you can use the GC and SC from the welcome bonus and daily rewards.\n[01:29:12 AM] Ana Erazo: Are you still with us ?\n[01:31:52 AM] Ana Erazo: Thanks for chatting with us Leon! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:25:11.343Z"
-        }
-      ],
-      "avg_score": 54,
-      "grade": "F",
-      "trend": -9
     },
     {
       "id": "5840",
@@ -29389,6 +29434,51 @@
       "raw_transcript": "[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T21:14:45.616Z"
+    },
+    {
+      "chat_id": "2047423147804028928",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-23T21:21:13.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Greeting came after asking customer to wait and was basic without acknowledging the customer by name or showing warmth."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the reversed payment issue after customer clarification but didn't proactively ask clarifying questions about the previous conversation or verify details."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent provided a wait-and-see resolution with escalation path but didn't verify the reversed payment status or provide specific timeline based on previous agent's promise."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Communication was clear and professional but lacked empathy for the customer's frustration about waiting and needing funds quickly."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent appropriately deferred to standard timelines and escalation procedures without making unauthorized promises."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, farewell, or offer of further assistance; conversation ended abruptly after customer's acknowledgment."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent handled a reversed payment inquiry with adequate professionalism but missed opportunities to show empathy and provide a proper closing. The resolution was acceptable but could have been more thorough by investigating the previous agent's statement about seeing the funds.",
+      "coaching_tip": "Always close conversations professionally with a farewell and offer of further assistance, even when the customer seems satisfied with waiting.",
+      "website": "Jackpot Daily",
+      "message_count": 28,
+      "raw_transcript": "[09:11:32 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long little until my $125 sc is deposited? I been waiting for a couple hours now\n[09:11:32 PM] t3381098751: Full Name: t3381098751 Email Address: plamar828@gmail.com Subject / How can we help you?: How long little until my $125 sc is deposited? I been waiting for a couple hours now\n[09:12:05 PM] t3381098751: Ok\n[09:12:05 PM] t3381098751: Ok\n[09:12:57 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:12:57 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:13:17 PM] t3381098751: Could someone expedite it for me so I can withdraw it and have it tomorrow\n[09:13:17 PM] t3381098751: Could someone expedite it for me so I can withdraw it and have it tomorrow\n[09:14:30 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:14:30 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:14:38 PM] t3381098751: Ok thank you\n[09:14:38 PM] t3381098751: Ok thank you\n[09:16:03 PM] t3381098751: Ok\n[09:16:03 PM] t3381098751: Ok\n[09:16:11 PM] Ana Erazo: From our side, the payment has already been sent. Please allow up to 10 business days for it to arrive in your account.\n[09:16:11 PM] Ana Erazo: From our side, the payment has already been sent. Please allow up to 10 business days for it to arrive in your account.\n[09:17:19 PM] t3381098751: My payment has been reversed and sent back to you from my bank. In my last conversation with your representative he said that he can see it on my account with you guys and to wait a couple hours to see it credited back on my SC balance\n[09:17:19 PM] t3381098751: My payment has been reversed and sent back to you from my bank. In my last conversation with your representative he said that he can see it on my account with you guys and to wait a couple hours to see it credited back on my SC balance\n[09:17:29 PM] t3381098751: A\n[09:17:29 PM] t3381098751: IMG_1900.jpeg\n[09:17:29 PM] t3381098751: A\n[09:17:29 PM] t3381098751: IMG_1900.jpeg\n[09:19:09 PM] Ana Erazo: In that case, we kindly ask that you continue to wait, as the funds are not yet reflected in your account.\n[09:19:09 PM] Ana Erazo: In that case, we kindly ask that you continue to wait, as the funds are not yet reflected in your account.\n[09:20:12 PM] Ana Erazo: If the funds are still not reflected within 24 hours, please feel free to reach out to us again so we can escalate your case for further review.\n[09:20:12 PM] Ana Erazo: If the funds are still not reflected within 24 hours, please feel free to reach out to us again so we can escalate your case for further review.\n[09:21:11 PM] t3381098751: Ok will do\n[09:21:11 PM] t3381098751: Ok will do",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T21:24:43.425Z"
     }
   ]
 }
