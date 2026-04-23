@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T21:54:43.697Z",
-  "total_chats": 330,
+  "scored_at": "2026-04-23T21:59:56.414Z",
+  "total_chats": 332,
   "total_agents": 25,
   "agents": [
     {
@@ -6207,11 +6207,56 @@
           "raw_transcript": "[09:37:38 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[09:37:38 PM] t1151212334: Full Name: t1151212334 Email Address: wutchagot@gmail.com Subject / How can we help you?: Hello, where or how do I find this golden egg to Crack? Ive already made a 1st deposit and verified my account?\n[09:37:50 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:37:50 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:38:18 PM] t1151212334: Hey sorry to bother you again  but still no golden egg? Should I be concerned? Or is there an issue?\n[09:38:18 PM] t1151212334: Hey sorry to bother you again  but still no golden egg? Should I be concerned? Or is there an issue?\n[09:39:57 PM] Jonathan Fuentes: Great question — I’ll walk you through it \n\nThe Golden Egg is part of the welcome offer and works like this:\n\nIt unlocks after you register your account and complete KYC verification\nOnce available, you should be able to find it in your Promotions/Rewards section\nFrom there, you can click it and “smash” it to reveal a random reward (up to 100 SC)\n\nA few important things to keep in mind:\n\nIt’s a one-time offer for new accounts only\nThe reward is random\nIt expires if not used within the allowed 24 hour window\n\nIf you don’t see it:\n\nTry logging out, wait about 2 minutes, and log back in (this can help it appear)\n[09:39:57 PM] Jonathan Fuentes: Great question — I’ll walk you through it \n\nThe Golden Egg is part of the welcome offer and works like this:\n\nIt unlocks after you register your account and complete KYC verification\nOnce available, you should be able to find it in your Promotions/Rewards section\nFrom there, you can click it and “smash” it to reveal a random reward (up to 100 SC)\n\nA few important things to keep in mind:\n\nIt’s a one-time offer for new accounts only\nThe reward is random\nIt expires if not used within the allowed 24 hour window\n\nIf you don’t see it:\n\nTry logging out, wait about 2 minutes, and log back in (this can help it appear)\n[09:42:27 PM] Jonathan Fuentes: Let me know if this helps! I'm still here if you need any help.\n[09:42:27 PM] Jonathan Fuentes: Let me know if this helps! I'm still here if you need any help.\n[09:43:12 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:43:12 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T21:44:42.203Z"
+        },
+        {
+          "chat_id": "2047433923142397952",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-23T21:56:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, jumped directly to 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked which game was problematic but didn't probe further into technical details or attempt to de-escalate the frustrated customer."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution attempted; agent didn't address RTP concerns, explain game mechanics, or respond to the bonus demand before chat ended."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Failed to acknowledge customer frustration, didn't respond to hostile language professionally, and went silent after customer's final message."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "Didn't make unauthorized promises, but also failed to address the lawsuit threat or explain RTP/RNG policies appropriately."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever; chat appears to have been abandoned with customer's demands unaddressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 39,
+          "grade": "F",
+          "summary": "Agent provided minimal engagement with an upset customer, asking only one clarifying question before going silent when faced with hostility and bonus demands. Critical failures include no greeting, no empathy, no explanation of RTP/RNG mechanics, and complete abandonment without closing.",
+          "coaching_tip": "When customers are frustrated about losses, acknowledge their feelings first, then calmly explain that games use certified RNG and RTP is calculated over millions of spins, not individual sessions—never go silent when faced with escalation.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[09:54:21 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: broken games\n[09:54:21 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: broken games\n[09:54:36 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:54:36 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:54:59 PM] t8628659172: your games are broken clearly. i’ve spun over 300 on 1 single game and yall clowns don’t let it win at all\n[09:54:59 PM] Jonathan Fuentes: What games are you currently having issues?\n[09:54:59 PM] t8628659172: your games are broken clearly. i’ve spun over 300 on 1 single game and yall clowns don’t let it win at all\n[09:54:59 PM] Jonathan Fuentes: What games are you currently having issues?\n[09:55:20 PM] t8628659172: you are the lowest of the lowest sites out there. just plain suck\n[09:55:20 PM] t8628659172: you are the lowest of the lowest sites out there. just plain suck\n[09:56:04 PM] t8628659172: sweet jar combo has stolen over 300 and won’t do anything. clear violation of RTP. bonus now or lawsuit\n[09:56:04 PM] t8628659172: sweet jar combo has stolen over 300 and won’t do anything. clear violation of RTP. bonus now or lawsuit",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:59:55.913Z"
         }
       ],
-      "avg_score": 60,
-      "grade": "D",
-      "trend": -1
+      "avg_score": 58,
+      "grade": "F",
+      "trend": -2
     },
     {
       "id": "5669",
@@ -7305,11 +7350,56 @@
           "raw_transcript": "[02:02:24 AM] Customer: Full Name: Ariel Alexander Email Address: nobodyknowsss92@gmail.com Subject / How can we help you?: Im located in Alabama why can't I login\n[02:02:43 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:02:57 AM] Customer: Thanks\n[02:06:10 AM] Oskar Abaunza: Hey There! That's a strange one if you're in an eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device settings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:10:21 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "model_used": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T10:23:34.595Z"
+        },
+        {
+          "chat_id": "2047429365062217728",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-23T21:57:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment, though slightly delayed and didn't use customer's name initially."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent identified the account lookup issue and asked clarifying questions about email and login screen, but didn't fully resolve the discovery phase before closing."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent failed to resolve the issue, closing the chat while waiting for a screenshot the customer agreed to provide."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and professional throughout with good reassurance messages."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made during the interaction."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Prematurely closed while customer was preparing requested screenshot, abandoning an active troubleshooting session."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent communicated professionally and asked appropriate clarifying questions but critically failed by closing the chat prematurely while the customer was preparing a requested screenshot. This resulted in an unresolved login issue and poor customer experience.",
+          "coaching_tip": "Never close a chat while waiting for customer-provided information you specifically requested—wait at least 5-7 minutes after the customer's last active response before offering to close.",
+          "website": "Jackpot Daily",
+          "message_count": 23,
+          "raw_transcript": "[09:36:14 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account I am trying but it won't let me do it\n[09:36:14 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account I am trying but it won't let me do it\n[09:36:32 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:36:32 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:37:56 PM] Oskar Abaunza: Thanks for reaching out!\n\nJust give me a moment while I take a look at your account — I’ll check this for you right away\n[09:37:56 PM] Oskar Abaunza: Thanks for reaching out!\n\nJust give me a moment while I take a look at your account — I’ll check this for you right away\n[09:40:54 PM] Oskar Abaunza: st a quick question — have you already created an account?\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:24 PM] Oskar Abaunza: Just a quick question — have you already created an account?\n\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:24 PM] Oskar Abaunza: Just a quick question — have you already created an account?\n\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:55 PM] Customer: lori.green588@gmail.com\n[09:42:55 PM] Customer: lori.green588@gmail.com\n[09:44:23 PM] Oskar Abaunza: Thanks so much for sharing your email!\n[09:44:23 PM] Oskar Abaunza: Thanks so much for sharing your email!\n[09:47:14 PM] Oskar Abaunza: Just to check — when you try to log in, do you see the “Forgot Password?�� option?\n\nIf possible, could you please send me a screenshot of what you're seeing on your end? That’ll help me take a closer look and guide you properly.\n[09:47:14 PM] Oskar Abaunza: Just to check — when you try to log in, do you see the “Forgot Password?” option?\n\nIf possible, could you please send me a screenshot of what you're seeing on your end? That’ll help me take a closer look and guide you properly.\n[09:47:53 PM] Customer: ok hold on\n[09:47:53 PM] Customer: ok hold on\n[09:49:14 PM] Oskar Abaunza: No rush at all — feel free to take your time. I’ll be right here when you’re ready.\n[09:49:14 PM] Oskar Abaunza: No rush at all — feel free to take your time. I’ll be right here when you’re ready.\n[09:52:51 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:52:51 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:57:03 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:57:03 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:59:44.677Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": -1
+      "trend": -8
     },
     {
       "id": "5670",
@@ -29929,6 +30019,96 @@
       "raw_transcript": "[09:33:39 PM] t9435975297: Full Name: t9435975297 Email Address: Yosmelmarquez9@gmail.com Subject / How can we help you?: Hello I am trying to withdraw since the 14th and I can not tell me that I must verify my bank account but the microdeposits do not arrive sincerely I need help but nobody solves my problem\n[09:33:39 PM] t9435975297: Full Name: t9435975297 Email Address: Yosmelmarquez9@gmail.com Subject / How can we help you?: Hello I am trying to withdraw since the 14th and I can not tell me that I must verify my bank account but the microdeposits do not arrive sincerely I need help but nobody solves my problem\n[09:33:48 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:33:48 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:33:54 PM] t9435975297: Ok\n[09:33:54 PM] t9435975297: Ok\n[09:34:59 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:34:59 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:35:07 PM] t9435975297: Ok\n[09:35:07 PM] t9435975297: Ok\n[09:35:09 PM] t9435975297: Please\n[09:35:09 PM] t9435975297: Please\n[09:37:01 PM] Ana Erazo: Kindly enter only your street address in the bank details section, without including the city or ZIP code. Also, please ensure that all your account information is correct.\n[09:37:01 PM] Ana Erazo: Kindly enter only your street address in the bank details section, without including the city or ZIP code. Also, please ensure that all your account information is correct.\n[09:37:47 PM] Ana Erazo: As we can see that your account is already verified.\n[09:37:47 PM] Ana Erazo: As we can see that your account is already verified.\n[09:38:00 PM] Ana Erazo: Are you still there?\n[09:38:00 PM] Ana Erazo: Are you still there?\n[09:38:21 PM] t9435975297: Yes\n[09:38:21 PM] t9435975297: Yes\n[09:38:58 PM] t9435975297: But I already agree my bank accounts and now I do not let me edit it or add them again.\n[09:38:58 PM] t9435975297: But I already agree my bank accounts and now I do not let me edit it or add them again.\n[09:40:10 PM] Ana Erazo: Kindly try again within the next 24 hours. If it still doesn’t work, please reach out to us again so we can escalate your case for further review.\n[09:40:10 PM] Ana Erazo: Kindly try again within the next 24 hours. If it still doesn’t work, please reach out to us again so we can escalate your case for further review.\n[09:41:58 PM] t9435975297: But they always tell me the same thing and you never solve my problem waiting 24 hours N9 will solve that I have bank accounts already put in place and that they cannot be deleted or added again.\n[09:41:58 PM] t9435975297: But they always tell me the same thing and you never solve my problem waiting 24 hours N9 will solve that I have bank accounts already put in place and that they cannot be deleted or added again.\n[09:42:43 PM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:42:43 PM] Ana Erazo: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[09:43:17 PM] t9435975297: I already did that too and they do not answer my email.\n[09:43:17 PM] t9435975297: I already did that too and they do not answer my email.\n[09:45:11 PM] t9435975297: Hi\n[09:45:11 PM] t9435975297: Hi\n[09:45:19 PM] t9435975297: Are you there\n[09:45:19 PM] t9435975297: Are you there\n[09:45:21 PM] Ana Erazo: I’ve looked into your recent redemption request and I’m happy to help you get this sorted.\n\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n* Billing Address Line: Please use this field only for the street name and house or apartment number.\n* Character Limit: Keep this information within the 50-character limit.\n* Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you!.\n[09:45:21 PM] Ana Erazo: I’ve looked into your recent redemption request and I’m happy to help you get this sorted.\n\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n* Billing Address Line: Please use this field only for the street name and house or apartment number.\n* Character Limit: Keep this information within the 50-character limit.\n* Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you!.\n[09:47:36 PM] t9435975297: Ok but how am I going to add the bank account if I get a mistake\n[09:47:36 PM] t9435975297: Ok but how am I going to add the bank account if I get a mistake\n[09:48:23 PM] t9435975297: It seems to me that I have already added the bank account.\n[09:48:23 PM] t9435975297: It seems to me that I have already added the bank account.\n[09:49:18 PM] Ana Erazo: Kindly try again within the next 24 hours.\n[09:49:18 PM] Ana Erazo: Kindly try again within the next 24 hours.\n[09:49:36 PM] t9435975297: But I have not tried today.\n[09:49:36 PM] t9435975297: But I have not tried today.\n[09:50:06 PM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[09:50:06 PM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T21:54:43.196Z"
+    },
+    {
+      "chat_id": "2047429365062217728",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-23T21:57:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with acknowledgment, though slightly delayed and didn't use customer's name initially."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent identified the account lookup issue and asked clarifying questions about email and login screen, but didn't fully resolve the discovery phase before closing."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "Agent failed to resolve the issue, closing the chat while waiting for a screenshot the customer agreed to provide."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and professional throughout with good reassurance messages."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made during the interaction."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Prematurely closed while customer was preparing requested screenshot, abandoning an active troubleshooting session."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 57,
+      "grade": "F",
+      "summary": "Agent communicated professionally and asked appropriate clarifying questions but critically failed by closing the chat prematurely while the customer was preparing a requested screenshot. This resulted in an unresolved login issue and poor customer experience.",
+      "coaching_tip": "Never close a chat while waiting for customer-provided information you specifically requested—wait at least 5-7 minutes after the customer's last active response before offering to close.",
+      "website": "Jackpot Daily",
+      "message_count": 23,
+      "raw_transcript": "[09:36:14 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account I am trying but it won't let me do it\n[09:36:14 PM] Customer: Full Name: lori green Email Address: lorigreen044@gmail.com Subject / How can we help you?: I need help logging in my account I am trying but it won't let me do it\n[09:36:32 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:36:32 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:37:56 PM] Oskar Abaunza: Thanks for reaching out!\n\nJust give me a moment while I take a look at your account — I’ll check this for you right away\n[09:37:56 PM] Oskar Abaunza: Thanks for reaching out!\n\nJust give me a moment while I take a look at your account — I’ll check this for you right away\n[09:40:54 PM] Oskar Abaunza: st a quick question — have you already created an account?\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:24 PM] Oskar Abaunza: Just a quick question — have you already created an account?\n\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:24 PM] Oskar Abaunza: Just a quick question — have you already created an account?\n\nI tried accessing it with the email provided, but I wasn’t able to find it. Could you please confirm if that’s the correct email, or share the email associated with your account so I can check it for you?\n[09:42:55 PM] Customer: lori.green588@gmail.com\n[09:42:55 PM] Customer: lori.green588@gmail.com\n[09:44:23 PM] Oskar Abaunza: Thanks so much for sharing your email!\n[09:44:23 PM] Oskar Abaunza: Thanks so much for sharing your email!\n[09:47:14 PM] Oskar Abaunza: Just to check — when you try to log in, do you see the “Forgot Password?�� option?\n\nIf possible, could you please send me a screenshot of what you're seeing on your end? That’ll help me take a closer look and guide you properly.\n[09:47:14 PM] Oskar Abaunza: Just to check — when you try to log in, do you see the “Forgot Password?” option?\n\nIf possible, could you please send me a screenshot of what you're seeing on your end? That’ll help me take a closer look and guide you properly.\n[09:47:53 PM] Customer: ok hold on\n[09:47:53 PM] Customer: ok hold on\n[09:49:14 PM] Oskar Abaunza: No rush at all — feel free to take your time. I’ll be right here when you’re ready.\n[09:49:14 PM] Oskar Abaunza: No rush at all — feel free to take your time. I’ll be right here when you’re ready.\n[09:52:51 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:52:51 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:57:03 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:57:03 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T21:59:44.677Z"
+    },
+    {
+      "chat_id": "2047433923142397952",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-23T21:56:40.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, jumped directly to 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Asked which game was problematic but didn't probe further into technical details or attempt to de-escalate the frustrated customer."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No resolution attempted; agent didn't address RTP concerns, explain game mechanics, or respond to the bonus demand before chat ended."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Failed to acknowledge customer frustration, didn't respond to hostile language professionally, and went silent after customer's final message."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "Didn't make unauthorized promises, but also failed to address the lawsuit threat or explain RTP/RNG policies appropriately."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing whatsoever; chat appears to have been abandoned with customer's demands unaddressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 39,
+      "grade": "F",
+      "summary": "Agent provided minimal engagement with an upset customer, asking only one clarifying question before going silent when faced with hostility and bonus demands. Critical failures include no greeting, no empathy, no explanation of RTP/RNG mechanics, and complete abandonment without closing.",
+      "coaching_tip": "When customers are frustrated about losses, acknowledge their feelings first, then calmly explain that games use certified RNG and RTP is calculated over millions of spins, not individual sessions—never go silent when faced with escalation.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[09:54:21 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: broken games\n[09:54:21 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: broken games\n[09:54:36 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:54:36 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:54:59 PM] t8628659172: your games are broken clearly. i’ve spun over 300 on 1 single game and yall clowns don’t let it win at all\n[09:54:59 PM] Jonathan Fuentes: What games are you currently having issues?\n[09:54:59 PM] t8628659172: your games are broken clearly. i’ve spun over 300 on 1 single game and yall clowns don’t let it win at all\n[09:54:59 PM] Jonathan Fuentes: What games are you currently having issues?\n[09:55:20 PM] t8628659172: you are the lowest of the lowest sites out there. just plain suck\n[09:55:20 PM] t8628659172: you are the lowest of the lowest sites out there. just plain suck\n[09:56:04 PM] t8628659172: sweet jar combo has stolen over 300 and won’t do anything. clear violation of RTP. bonus now or lawsuit\n[09:56:04 PM] t8628659172: sweet jar combo has stolen over 300 and won’t do anything. clear violation of RTP. bonus now or lawsuit",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T21:59:55.913Z"
     }
   ]
 }
