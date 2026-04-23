@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T14:25:49.161Z",
-  "total_chats": 225,
+  "scored_at": "2026-04-23T14:34:42.299Z",
+  "total_chats": 226,
   "total_agents": 22,
   "agents": [
     {
@@ -524,330 +524,6 @@
       "avg_score": 67,
       "grade": "D",
       "trend": 0
-    },
-    {
-      "id": "5551",
-      "name": "Andrea Hernandez",
-      "chats": [
-        {
-          "chat_id": "2047292646346240000",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T12:39:38.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though slightly generic and didn't use customer's actual name."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Quickly understood the redemption timeline question and proactively addressed the follow-up about cancellation."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Provided accurate timeline information and clearly explained the no-cancellation policy with helpful context."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, friendly, and well-structured responses with appropriate use of emojis and formatting."
-            },
-            "compliance": {
-              "score": 6,
-              "notes": "Failed to render personalization token correctly, showing {{ticket.requester.first_name}} instead of actual name."
-            },
-            "closing": {
-              "score": 9,
-              "notes": "Excellent closing with confirmation check, reasonable wait time, and clear alternative contact method provided."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 78,
-          "grade": "C",
-          "summary": "Agent Emily provided accurate and helpful information about redemption timelines and policies in a friendly, professional manner. The interaction was efficient and well-handled, with only a minor technical issue displaying a merge field token instead of the customer's name.",
-          "coaching_tip": "Verify that personalization tokens are rendering correctly before sending messages, or use generic greetings if the system isn't populating customer names properly.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[12:32:58 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: i made a redemption,how long it will take to get to my bank account?\n[12:32:58 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: i made a redemption,how long it will take to get to my bank account?\n[12:33:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:33:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:34:29 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\n\n\nACH Bank Transfer: up to 10 business days total\n\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n[12:34:29 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\n\n\nACH Bank Transfer: up to 10 business days total\n\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n[12:35:30 PM] t0408502473: Is there any way i can cancel the one i have and make another one with the money i have now so all comes together?\n[12:35:30 PM] t0408502473: Is there any way i can cancel the one i have and make another one with the money i have now so all comes together?\n[12:36:09 PM] Andrea Hernandez: Hey {{ticket.requester.first_name}}! 😊\n\nGreat question!\n\nOnce a redemption has been submitted, it **can’t be canceled or modified** while it’s in progress.\n\nAlso, only **one redemption can be pending at a time**, so you’ll need to wait for the current one to be completed before submitting another.\n\nAs soon as it’s processed, you’ll be able to submit a new redemption right away.\n[12:36:09 PM] Andrea Hernandez: Hey {{ticket.requester.first_name}}! 😊\n\nGreat question!\n\nOnce a redemption has been submitted, it **can’t be canceled or modified** while it’s in progress.\n\nAlso, only **one redemption can be pending at a time**, so you’ll need to wait for the current one to be completed before submitting another.\n\nAs soon as it’s processed, you’ll be able to submit a new redemption right away.\n[12:36:51 PM] t0408502473: Alright\n[12:36:51 PM] t0408502473: Alright\n[12:36:56 PM] t0408502473: Thank you\n[12:36:56 PM] t0408502473: Thank you\n[12:37:07 PM] Andrea Hernandez: Its always a pleasure\n[12:37:07 PM] Andrea Hernandez: Its always a pleasure\n[12:37:20 PM] Andrea Hernandez: Do you have any additional questions?\n[12:37:20 PM] Andrea Hernandez: Do you have any additional questions?\n[12:39:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[12:39:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:40:52.196Z"
-        },
-        {
-          "chat_id": "2047295867718512640",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T12:49:56.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Basic professional greeting present but no personalization or warmth beyond standard introduction."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the permanent deletion request and asked appropriate clarifying question about reason, though customer declined to answer."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Successfully processed permanent account closure with clear warnings about consequences including balance forfeiture and irreversibility."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear and empathetic communication with appropriate warnings, though slightly repetitive with duplicate messages appearing in transcript."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly handled self-exclusion request with required warnings about permanence and balance forfeiture, supporting responsible gaming."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closing with well-wishes and invitation for feedback, appropriate for account closure situation."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 77,
-          "grade": "C",
-          "summary": "Agent competently handled a permanent account closure request with appropriate warnings and empathetic communication despite customer's terse responses. The resolution was executed properly with all necessary compliance steps followed.",
-          "coaching_tip": "When a customer repeatedly demands immediate action without explanation, acknowledge their urgency more directly before attempting retention language to avoid appearing dismissive of their request.",
-          "website": "Jackpot Daily",
-          "message_count": 24,
-          "raw_transcript": "[12:45:46 PM] t4254620993: Full Name: t4254620993 Email Address: gaara1114@gmail.com Subject / How can we help you?: Delete my account permanently\n[12:45:46 PM] t4254620993: Full Name: t4254620993 Email Address: gaara1114@gmail.com Subject / How can we help you?: Delete my account permanently\n[12:46:01 PM] t4254620993: Permanent exclusion\n[12:46:01 PM] t4254620993: Permanent exclusion\n[12:46:02 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:46:02 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:46:09 PM] t4254620993: Delete. My. Account\n[12:46:09 PM] t4254620993: Delete. My. Account\n[12:47:00 PM] t4254620993: Delete my account\n[12:47:00 PM] t4254620993: Delete my account\n[12:47:22 PM] Andrea Hernandez: May we know why you want to close your account?\n[12:47:22 PM] Andrea Hernandez: May we know why you want to close your account?\n[12:47:33 PM] t4254620993: No\n[12:47:33 PM] t4254620993: No\n[12:47:39 PM] Andrea Hernandez: We’re really sorry to see you go — we’re honestly sad that you’re thinking about closing your account 💔\n\nIf there’s anything that hasn’t been working well or anything we can do to improve your experience, please let me know — I’d love the chance to help turn things around for you.\n[12:47:39 PM] Andrea Hernandez: We’re really sorry to see you go — we’re honestly sad that you’re thinking about closing your account 💔\n\nIf there’s anything that hasn’t been working well or anything we can do to improve your experience, please let me know — I’d love the chance to help turn things around for you.\n[12:48:11 PM] t4254620993: Just delete my account permanently\n[12:48:11 PM] t4254620993: Just delete my account permanently\n[12:48:31 PM] Andrea Hernandez: As requested, your account can be permanently closed. Please note:\n\nYou won’t be able to access gameplay or reopen the account once it’s closed\nAny remaining balance will be forfeited\n[12:48:31 PM] Andrea Hernandez: As requested, your account can be permanently closed. Please note:\n\nYou won’t be able to access gameplay or reopen the account once it’s closed\nAny remaining balance will be forfeited\n[12:48:44 PM] t4254620993: Delete it\n[12:48:44 PM] t4254620993: Delete it\n[12:49:07 PM] Andrea Hernandez: we’re really sad to see you go 💔\n\nAs requested, your account has been permanently closed.\n\nJust so you know:\n\nYou won’t be able to access gameplay or reopen the account going forward\nThis is in place to support the safety and wellbeing of all our players\n\nIf there’s anything we could’ve done better, we’d genuinely love to hear it. We wish you all the very best!\n[12:49:07 PM] Andrea Hernandez: we’re really sad to see you go 💔\n\nAs requested, your account has been permanently closed.\n\nJust so you know:\n\nYou won’t be able to access gameplay or reopen the account going forward\nThis is in place to support the safety and wellbeing of all our players\n\nIf there’s anything we could’ve done better, we’d genuinely love to hear it. We wish you all the very best!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:51:02.991Z"
-        },
-        {
-          "chat_id": "2047298291437084672",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T12:59:53.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name provided, though brief and lacked personalization with customer name."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Customer only wrote 'Me gusta' (I like it) which provides no actionable issue; agent appropriately checked for engagement before closing."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent handled an unresponsive customer appropriately by waiting, checking in, and providing alternative contact method before closing."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional communication with appropriate wait time and follow-up before closing the chat."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; agent followed proper procedure for handling unresponsive customers."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Polite closing with alternative contact information provided for future assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 61,
-          "grade": "D",
-          "summary": "Agent handled an unclear customer inquiry professionally by greeting, waiting for response, checking engagement, and closing appropriately with alternative contact options. The customer's message 'Me gusta' provided no actionable issue and they did not respond further.",
-          "coaching_tip": "Consider asking a clarifying question immediately after greeting when the initial customer message is unclear or non-specific, rather than waiting silently for two minutes.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[12:55:24 PM] Customer: Full Name: Midiala Otaño Email Address: midialaotano7@gmail.com Subject / How can we help you?: Me gusta\n[12:55:24 PM] Customer: Full Name: Midiala Otaño Email Address: midialaotano7@gmail.com Subject / How can we help you?: Me gusta\n[12:55:38 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:55:38 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:57:38 PM] Andrea Hernandez: Are you still here?\n[12:57:38 PM] Andrea Hernandez: Are you still here?\n[12:59:48 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[12:59:48 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:01:11.256Z"
-        },
-        {
-          "chat_id": "2047301168337874944",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T13:11:17.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though brief and contained a minor typo (ill vs I'll)."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent acknowledged the issue and requested time to review, but didn't ask clarifying questions before customer went silent."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "No resolution attempted as customer became unresponsive after only 3 minutes; agent had no opportunity to resolve."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional communication, though could have been more proactive before customer silence."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately provided email contact for follow-up."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided alternative contact method and offered further help, though closing was due to customer non-response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 54,
-          "grade": "F",
-          "summary": "Agent provided professional service but customer became unresponsive after initial contact and before any resolution could be attempted. The agent appropriately closed the chat after waiting and provided alternative contact information.",
-          "coaching_tip": "Wait slightly longer than 4 minutes total before closing due to non-response, and consider sending one more engagement attempt or asking a direct question about the proof of address issue before the final close message.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[01:06:50 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address\n[01:06:50 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address\n[01:07:03 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:07:03 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:09:00 PM] Andrea Hernandez: Give me a moment to review your info\n[01:09:00 PM] Andrea Hernandez: Give me a moment to review your info\n[01:10:19 PM] Andrea Hernandez: Are you still here?\n[01:10:19 PM] Andrea Hernandez: Are you still here?\n[01:11:11 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[01:11:11 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:12:50.191Z"
-        },
-        {
-          "chat_id": "2047304360496820224",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T13:31:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though slightly generic and no customer name used."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Agent asked clarifying questions about redemption method and requested screenshot to investigate the issue."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided specific actionable solution addressing billing address formatting after investigating, which is a common ACH rejection reason."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional throughout with structured information, though some repetition due to system duplication."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made, stayed within appropriate support boundaries."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No proper closing provided; chat ended abruptly after customer said 'Ok' with no goodbye or offer of further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 68,
-          "grade": "D",
-          "summary": "Agent competently diagnosed the redemption rejection issue and provided specific, actionable guidance on fixing the billing address format for ACH redemptions. However, the interaction lacked a proper closing with no goodbye or offer to help further if the solution didn't work.",
-          "coaching_tip": "Always close the chat professionally even when the customer seems satisfied—confirm they can reach back out if the solution doesn't work and thank them before ending.",
-          "website": "Jackpot Daily",
-          "message_count": 34,
-          "raw_transcript": "[01:19:31 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:19:31 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:19:45 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:19:45 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:20:28 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common reasons are:\n\nAccount not fully verified\nMismatch in personal or banking details\nNot meeting the 1x playthrough requirement on your SC\nIncorrect or unsupported payment method\n\nYou should also have received an email explaining the specific reason for the denial.\n[01:20:28 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common reasons are:\n\nAccount not fully verified\nMismatch in personal or banking details\nNot meeting the 1x playthrough requirement on your SC\nIncorrect or unsupported payment method\n\nYou should also have received an email explaining the specific reason for the denial.\n[01:20:46 PM] Andrea Hernandez: Can you please send me a screenshot\n[01:20:46 PM] Andrea Hernandez: Can you please send me a screenshot\n[01:22:05 PM] t9952292788: Ok one moment\n[01:22:05 PM] t9952292788: Ok one moment\n[01:22:19 PM] Andrea Hernandez: Thank you\n[01:22:19 PM] Andrea Hernandez: Thank you\n[01:22:35 PM] t9952292788: IMG_2789.png\n[01:22:35 PM] t9952292788: IMG_2789.png\n[01:23:03 PM] Andrea Hernandez: What redemption method Are you trying to use?\n[01:23:03 PM] Andrea Hernandez: What redemption method Are you trying to use?\n[01:23:16 PM] t9952292788: ACH\n[01:23:16 PM] t9952292788: ACH\n[01:23:56 PM] Andrea Hernandez: Thank you very much for your information\n[01:23:56 PM] Andrea Hernandez: Thank you very much for your information\n[01:24:13 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:24:13 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:25:06 PM] t9952292788: I don't have any other redemption method. Only that one.\n[01:25:06 PM] t9952292788: I don't have any other redemption method. Only that one.\n[01:25:35 PM] Andrea Hernandez: Yes, at the moment this is the method available\n[01:25:35 PM] Andrea Hernandez: Yes, at the moment this is the method available\n[01:25:44 PM] Andrea Hernandez: Give me a moment\n[01:25:44 PM] Andrea Hernandez: Give me a moment\n[01:29:33 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\nIt includes only your street name and house/apartment number\nIt stays within the 50-character limit\nAny additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:29:33 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\nIt includes only your street name and house/apartment number\nIt stays within the 50-character limit\nAny additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:30:29 PM] Andrea Hernandez: Lets please try this steps and try doing the redemption\n[01:30:29 PM] Andrea Hernandez: Lets please try this steps and try doing the redemption\n[01:30:50 PM] t9952292788: Ok\n[01:30:50 PM] t9952292788: Ok",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:31:49.687Z"
-        },
-        {
-          "chat_id": "2047309532956139520",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T13:48:24.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic greeting with no personalization and agent name mismatch (Andrea/Emily)."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the core issue about wrong upload link being sent but didn't clarify document requirements."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Agent promised to send correct link but never confirmed it was sent or provided timeline, leaving customer waiting."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Showed empathy initially but failed to provide updates during delay, leading to customer frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No major violations but didn't address customer's concern about conflicting information from previous agent."
-            },
-            "closing": {
-              "score": 6,
-              "notes": "Provided alternative contact method but closed prematurely while issue remained unresolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent acknowledged the customer's frustration about receiving wrong upload links but failed to actually resolve the issue or confirm the correct link was sent. The chat was closed prematurely after only 3 minutes of silence while the customer was still waiting for the promised solution.",
-          "coaching_tip": "Always confirm action completion before asking if customer is still present—either send the link and confirm it or provide a specific timeline if escalation is needed.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[01:40:04 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:40:04 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:40:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:40:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:40:49 PM] t5003516845: That’s what you all keep sending to my email which only gives me an option to upload my drivers license.\n[01:40:49 PM] t5003516845: IMG_9143.png\n[01:40:49 PM] t5003516845: That’s what you all keep sending to my email which only gives me an option to upload my drivers license.\n[01:40:49 PM] t5003516845: IMG_9143.png\n[01:41:37 PM] t5003516845: The other assistant told me that my drivers do not have to match my profile address as long as my bank statement matches.  You all keep giving me the run around.\n[01:41:37 PM] t5003516845: The other assistant told me that my drivers do not have to match my profile address as long as my bank statement matches.  You all keep giving me the run around.\n[01:41:52 PM] Andrea Hernandez: I’m really sorry about the confusion there — I can see how that would be frustrating.\n\nWe’ll send you a new secure link specifically for your Proof of Address (POA) so you can upload the correct document.\n[01:41:52 PM] Andrea Hernandez: I’m really sorry about the confusion there — I can see how that would be frustrating.\n\nWe’ll send you a new secure link specifically for your Proof of Address (POA) so you can upload the correct document.\n[01:42:44 PM] t5003516845: Still waiting\n[01:42:44 PM] t5003516845: Still waiting\n[01:43:35 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:43:35 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:45:50 PM] Andrea Hernandez: Are you still here with me?\n[01:45:50 PM] Andrea Hernandez: Are you still here with me?\n[01:48:18 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[01:48:18 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T13:50:00.158Z"
-        },
-        {
-          "chat_id": "2047315274410799104",
-          "agent_name": "Andrea Hernandez",
-          "agent_id": "5551",
-          "timestamp": "2026-04-23T14:22:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional greeting present but agent name mismatch (Andrea vs Emily) creates confusion."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Asked relevant clarifying questions about withdrawal date and account digits, gathered necessary information."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided status update but contradicted customer's bank statement that nothing is pending, didn't fully resolve the discrepancy or offer concrete next steps."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional with good patience updates, but incomplete final message suggests technical issue or premature ending."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected, appropriately handled account verification questions."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing provided, transcript cuts off mid-sentence during active conversation about account verification."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 54,
-          "grade": "F",
-          "summary": "Agent handled the withdrawal inquiry professionally with appropriate clarifying questions and patience updates during review time. However, the resolution was incomplete as it didn't address the contradiction between the agent's claim that funds are pending at the bank and the customer's statement that their bank sees nothing, and the transcript ends abruptly without proper closure.",
-          "coaching_tip": "When customer reports their bank sees no pending transaction but your system shows it was sent, escalate to payments team or provide specific tracking information rather than simply restating that it was sent successfully.",
-          "website": "Jackpot Daily",
-          "message_count": 64,
-          "raw_transcript": "[02:02:53 PM] t3602717326: Full Name: t3602717326 Email Address: aniyaburns898@gmail.com Subject / How can we help you?: Hello, it has been now 10 business days and I still have not received my redemption of $100. I've contacted my bank and they said to contact you guys because they don't see anything from you guys that's came or that's pending . I need something to be done about this today!!!\n[02:02:53 PM] t3602717326: Full Name: t3602717326 Email Address: aniyaburns898@gmail.com Subject / How can we help you?: Hello, it has been now 10 business days and I still have not received my redemption of $100. I've contacted my bank and they said to contact you guys because they don't see anything from you guys that's came or that's pending . I need something to be done about this today!!!\n[02:03:05 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:03:05 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:03:11 PM] t3602717326: Hi Emily\n[02:03:11 PM] t3602717326: Hi Emily\n[02:04:22 PM] Andrea Hernandez: Hi, its a pleasure to assist you\n[02:04:22 PM] Andrea Hernandez: Hi, its a pleasure to assist you\n[02:04:32 PM] Andrea Hernandez: Let me review your case\n[02:04:32 PM] Andrea Hernandez: Let me review your case\n[02:04:39 PM] t3602717326: Ok thanks\n[02:04:39 PM] t3602717326: Ok thanks\n[02:04:42 PM] Andrea Hernandez: Give me a moment to review this information.\n[02:04:42 PM] Andrea Hernandez: Give me a moment to review this information.\n[02:04:51 PM] t3602717326: Ok\n[02:04:51 PM] t3602717326: Ok\n[02:05:59 PM] Andrea Hernandez: When did you submit your withdrawal?\n[02:05:59 PM] Andrea Hernandez: When did you submit your withdrawal?\n[02:07:14 PM] Andrea Hernandez: Whats the last 4 digits of the account\n[02:07:14 PM] Andrea Hernandez: Whats the last 4 digits of the account\n[02:08:36 PM] Andrea Hernandez: Are still here?\n[02:08:36 PM] Andrea Hernandez: Are still here?\n[02:08:41 PM] t3602717326: 2028\n[02:08:41 PM] t3602717326: 2028\n[02:08:50 PM] t3602717326: Is the last four digits\n[02:08:50 PM] t3602717326: Is the last four digits\n[02:09:05 PM] t3602717326: And sometime between April 8th-10th\n[02:09:05 PM] t3602717326: And sometime between April 8th-10th\n[02:09:25 PM] Andrea Hernandez: Thank you\n[02:09:25 PM] Andrea Hernandez: Thank you\n[02:10:07 PM] t3602717326: IMG_0003.png\n[02:10:07 PM] t3602717326: IMG_0003.png\n[02:10:27 PM] Andrea Hernandez: Thank you , let me review\n[02:10:27 PM] Andrea Hernandez: Thank you , let me review\n[02:10:36 PM] t3602717326: Okay thank you\n[02:10:36 PM] t3602717326: Okay thank you\n[02:12:30 PM] Andrea Hernandez: Still here ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:12:30 PM] Andrea Hernandez: Still here ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:12:45 PM] t3602717326: Ok no problem\n[02:12:45 PM] t3602717326: Ok no problem\n[02:16:32 PM] Andrea Hernandez: Still, here\n[02:16:32 PM] Andrea Hernandez: Still, here\n[02:16:39 PM] Andrea Hernandez: sorry for the delay\n[02:16:39 PM] Andrea Hernandez: sorry for the delay\n[02:17:22 PM] Andrea Hernandez: your redemption has been successfully completed on our end 🎉\n\nIt has already been approved and sent to your bank, and is now pending their final approval. At this stage, everything looks good from our side.\n\nNow we just need to wait for your bank to process and release the funds.\n[02:17:22 PM] Andrea Hernandez: your redemption has been successfully completed on our end 🎉\n\nIt has already been approved and sent to your bank, and is now pending their final approval. At this stage, everything looks good from our side.\n\nNow we just need to wait for your bank to process and release the funds.\n[02:18:37 PM] t3602717326: Is my routing and account number correct? Can you check that for me?\n[02:18:37 PM] t3602717326: Is my routing and account number correct? Can you check that for me?\n[02:19:32 PM] Andrea Hernandez: I’ve checked your details, and I can confirm that the last 4 digits you provided match the ones on your account 👍\n\nEverything looks correct on our end.\n[02:19:32 PM] Andrea Hernandez: I’ve checked your details, and I can confirm that the last 4 digits you provided match the ones on your account 👍\n\nEverything looks correct on our end.\n[02:20:06 PM] t3602717326: Can I give you the whole thing to make sure I didn't put anything in wrong\n[02:20:06 PM] t3602717326: Can I give you the whole thing to make sure I didn't put anything in wrong\n[02:20:44 PM] Andrea Hernandez: I totally understand wanting to double-check, but for security reasons, please don’t share your full banking details here.\n\nWhat we can do is safely verify parts of the information — like the last 4 digits (which we’ve already confirmed match 👍).\n[02:20:44 PM] Andrea Hernandez: I totally understand wanting to double-check, but for security reasons, please don’t share your full banking details here.\n\nWhat we can do is safely verify parts of the information — like the last 4 digits (which we’ve already confirmed match 👍).\n[02:21:05 PM] t3602717326: Okay thank you\n[02:21:05 PM] t3602717326: Okay thank you\n[02:21:17 PM] Andrea Hernandez: Its always a pleasure\n[02:21:17 PM] Andrea Hernandez: Its always a pleasure\n[02:21:28 PM] Andrea Hernandez: Do you have any additional questions?\n[02:21:28 PM] Andrea Hernandez: Do you have any additional questions?\n[02:21:39 PM] t3602717326: No thanks\n[02:21:39 PM] t3602717326: No thanks\n[02:22:03 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[02:22:03 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:23:41.538Z"
-        }
-      ],
-      "avg_score": 64,
-      "grade": "D",
-      "trend": -19
     },
     {
       "id": "5847",
@@ -1811,6 +1487,375 @@
       "avg_score": 63,
       "grade": "D",
       "trend": 0
+    },
+    {
+      "id": "5551",
+      "name": "Andrea Hernandez",
+      "chats": [
+        {
+          "chat_id": "2047292646346240000",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T12:39:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though slightly generic and didn't use customer's actual name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Quickly understood the redemption timeline question and proactively addressed the follow-up about cancellation."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided accurate timeline information and clearly explained the no-cancellation policy with helpful context."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, friendly, and well-structured responses with appropriate use of emojis and formatting."
+            },
+            "compliance": {
+              "score": 6,
+              "notes": "Failed to render personalization token correctly, showing {{ticket.requester.first_name}} instead of actual name."
+            },
+            "closing": {
+              "score": 9,
+              "notes": "Excellent closing with confirmation check, reasonable wait time, and clear alternative contact method provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent Emily provided accurate and helpful information about redemption timelines and policies in a friendly, professional manner. The interaction was efficient and well-handled, with only a minor technical issue displaying a merge field token instead of the customer's name.",
+          "coaching_tip": "Verify that personalization tokens are rendering correctly before sending messages, or use generic greetings if the system isn't populating customer names properly.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[12:32:58 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: i made a redemption,how long it will take to get to my bank account?\n[12:32:58 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: i made a redemption,how long it will take to get to my bank account?\n[12:33:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:33:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:34:29 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\n\n\nACH Bank Transfer: up to 10 business days total\n\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n[12:34:29 PM] Andrea Hernandez: Congrats on your redemption! 🎉\n\nHere’s what to expect:\n\n\nACH Bank Transfer: up to 10 business days total\n\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n[12:35:30 PM] t0408502473: Is there any way i can cancel the one i have and make another one with the money i have now so all comes together?\n[12:35:30 PM] t0408502473: Is there any way i can cancel the one i have and make another one with the money i have now so all comes together?\n[12:36:09 PM] Andrea Hernandez: Hey {{ticket.requester.first_name}}! 😊\n\nGreat question!\n\nOnce a redemption has been submitted, it **can’t be canceled or modified** while it’s in progress.\n\nAlso, only **one redemption can be pending at a time**, so you’ll need to wait for the current one to be completed before submitting another.\n\nAs soon as it’s processed, you’ll be able to submit a new redemption right away.\n[12:36:09 PM] Andrea Hernandez: Hey {{ticket.requester.first_name}}! 😊\n\nGreat question!\n\nOnce a redemption has been submitted, it **can’t be canceled or modified** while it’s in progress.\n\nAlso, only **one redemption can be pending at a time**, so you’ll need to wait for the current one to be completed before submitting another.\n\nAs soon as it’s processed, you’ll be able to submit a new redemption right away.\n[12:36:51 PM] t0408502473: Alright\n[12:36:51 PM] t0408502473: Alright\n[12:36:56 PM] t0408502473: Thank you\n[12:36:56 PM] t0408502473: Thank you\n[12:37:07 PM] Andrea Hernandez: Its always a pleasure\n[12:37:07 PM] Andrea Hernandez: Its always a pleasure\n[12:37:20 PM] Andrea Hernandez: Do you have any additional questions?\n[12:37:20 PM] Andrea Hernandez: Do you have any additional questions?\n[12:39:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[12:39:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:40:52.196Z"
+        },
+        {
+          "chat_id": "2047295867718512640",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T12:49:56.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Basic professional greeting present but no personalization or warmth beyond standard introduction."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the permanent deletion request and asked appropriate clarifying question about reason, though customer declined to answer."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Successfully processed permanent account closure with clear warnings about consequences including balance forfeiture and irreversibility."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and empathetic communication with appropriate warnings, though slightly repetitive with duplicate messages appearing in transcript."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly handled self-exclusion request with required warnings about permanence and balance forfeiture, supporting responsible gaming."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with well-wishes and invitation for feedback, appropriate for account closure situation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 77,
+          "grade": "C",
+          "summary": "Agent competently handled a permanent account closure request with appropriate warnings and empathetic communication despite customer's terse responses. The resolution was executed properly with all necessary compliance steps followed.",
+          "coaching_tip": "When a customer repeatedly demands immediate action without explanation, acknowledge their urgency more directly before attempting retention language to avoid appearing dismissive of their request.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[12:45:46 PM] t4254620993: Full Name: t4254620993 Email Address: gaara1114@gmail.com Subject / How can we help you?: Delete my account permanently\n[12:45:46 PM] t4254620993: Full Name: t4254620993 Email Address: gaara1114@gmail.com Subject / How can we help you?: Delete my account permanently\n[12:46:01 PM] t4254620993: Permanent exclusion\n[12:46:01 PM] t4254620993: Permanent exclusion\n[12:46:02 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:46:02 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:46:09 PM] t4254620993: Delete. My. Account\n[12:46:09 PM] t4254620993: Delete. My. Account\n[12:47:00 PM] t4254620993: Delete my account\n[12:47:00 PM] t4254620993: Delete my account\n[12:47:22 PM] Andrea Hernandez: May we know why you want to close your account?\n[12:47:22 PM] Andrea Hernandez: May we know why you want to close your account?\n[12:47:33 PM] t4254620993: No\n[12:47:33 PM] t4254620993: No\n[12:47:39 PM] Andrea Hernandez: We’re really sorry to see you go — we’re honestly sad that you’re thinking about closing your account 💔\n\nIf there’s anything that hasn’t been working well or anything we can do to improve your experience, please let me know — I’d love the chance to help turn things around for you.\n[12:47:39 PM] Andrea Hernandez: We’re really sorry to see you go — we’re honestly sad that you’re thinking about closing your account 💔\n\nIf there’s anything that hasn’t been working well or anything we can do to improve your experience, please let me know — I’d love the chance to help turn things around for you.\n[12:48:11 PM] t4254620993: Just delete my account permanently\n[12:48:11 PM] t4254620993: Just delete my account permanently\n[12:48:31 PM] Andrea Hernandez: As requested, your account can be permanently closed. Please note:\n\nYou won’t be able to access gameplay or reopen the account once it’s closed\nAny remaining balance will be forfeited\n[12:48:31 PM] Andrea Hernandez: As requested, your account can be permanently closed. Please note:\n\nYou won’t be able to access gameplay or reopen the account once it’s closed\nAny remaining balance will be forfeited\n[12:48:44 PM] t4254620993: Delete it\n[12:48:44 PM] t4254620993: Delete it\n[12:49:07 PM] Andrea Hernandez: we’re really sad to see you go 💔\n\nAs requested, your account has been permanently closed.\n\nJust so you know:\n\nYou won’t be able to access gameplay or reopen the account going forward\nThis is in place to support the safety and wellbeing of all our players\n\nIf there’s anything we could’ve done better, we’d genuinely love to hear it. We wish you all the very best!\n[12:49:07 PM] Andrea Hernandez: we’re really sad to see you go 💔\n\nAs requested, your account has been permanently closed.\n\nJust so you know:\n\nYou won’t be able to access gameplay or reopen the account going forward\nThis is in place to support the safety and wellbeing of all our players\n\nIf there’s anything we could’ve done better, we’d genuinely love to hear it. We wish you all the very best!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:51:02.991Z"
+        },
+        {
+          "chat_id": "2047298291437084672",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T12:59:53.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name provided, though brief and lacked personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Customer only wrote 'Me gusta' (I like it) which provides no actionable issue; agent appropriately checked for engagement before closing."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent handled an unresponsive customer appropriately by waiting, checking in, and providing alternative contact method before closing."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication with appropriate wait time and follow-up before closing the chat."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent followed proper procedure for handling unresponsive customers."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closing with alternative contact information provided for future assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent handled an unclear customer inquiry professionally by greeting, waiting for response, checking engagement, and closing appropriately with alternative contact options. The customer's message 'Me gusta' provided no actionable issue and they did not respond further.",
+          "coaching_tip": "Consider asking a clarifying question immediately after greeting when the initial customer message is unclear or non-specific, rather than waiting silently for two minutes.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[12:55:24 PM] Customer: Full Name: Midiala Otaño Email Address: midialaotano7@gmail.com Subject / How can we help you?: Me gusta\n[12:55:24 PM] Customer: Full Name: Midiala Otaño Email Address: midialaotano7@gmail.com Subject / How can we help you?: Me gusta\n[12:55:38 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:55:38 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[12:57:38 PM] Andrea Hernandez: Are you still here?\n[12:57:38 PM] Andrea Hernandez: Are you still here?\n[12:59:48 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[12:59:48 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:01:11.256Z"
+        },
+        {
+          "chat_id": "2047301168337874944",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T13:11:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though brief and contained a minor typo (ill vs I'll)."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent acknowledged the issue and requested time to review, but didn't ask clarifying questions before customer went silent."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution attempted as customer became unresponsive after only 3 minutes; agent had no opportunity to resolve."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication, though could have been more proactive before customer silence."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately provided email contact for follow-up."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided alternative contact method and offered further help, though closing was due to customer non-response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided professional service but customer became unresponsive after initial contact and before any resolution could be attempted. The agent appropriately closed the chat after waiting and provided alternative contact information.",
+          "coaching_tip": "Wait slightly longer than 4 minutes total before closing due to non-response, and consider sending one more engagement attempt or asking a direct question about the proof of address issue before the final close message.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[01:06:50 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address\n[01:06:50 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address\n[01:07:03 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:07:03 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:09:00 PM] Andrea Hernandez: Give me a moment to review your info\n[01:09:00 PM] Andrea Hernandez: Give me a moment to review your info\n[01:10:19 PM] Andrea Hernandez: Are you still here?\n[01:10:19 PM] Andrea Hernandez: Are you still here?\n[01:11:11 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[01:11:11 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:12:50.191Z"
+        },
+        {
+          "chat_id": "2047304360496820224",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T13:31:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though slightly generic and no customer name used."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent asked clarifying questions about redemption method and requested screenshot to investigate the issue."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided specific actionable solution addressing billing address formatting after investigating, which is a common ACH rejection reason."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout with structured information, though some repetition due to system duplication."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made, stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No proper closing provided; chat ended abruptly after customer said 'Ok' with no goodbye or offer of further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent competently diagnosed the redemption rejection issue and provided specific, actionable guidance on fixing the billing address format for ACH redemptions. However, the interaction lacked a proper closing with no goodbye or offer to help further if the solution didn't work.",
+          "coaching_tip": "Always close the chat professionally even when the customer seems satisfied—confirm they can reach back out if the solution doesn't work and thank them before ending.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[01:19:31 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:19:31 PM] t9952292788: Full Name: t9952292788 Email Address: rbhr21@gmail.com Subject / How can we help you?: My redeem request has been rejected 3 times. What's the problem?\n[01:19:45 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:19:45 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:20:28 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common reasons are:\n\nAccount not fully verified\nMismatch in personal or banking details\nNot meeting the 1x playthrough requirement on your SC\nIncorrect or unsupported payment method\n\nYou should also have received an email explaining the specific reason for the denial.\n[01:20:28 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common reasons are:\n\nAccount not fully verified\nMismatch in personal or banking details\nNot meeting the 1x playthrough requirement on your SC\nIncorrect or unsupported payment method\n\nYou should also have received an email explaining the specific reason for the denial.\n[01:20:46 PM] Andrea Hernandez: Can you please send me a screenshot\n[01:20:46 PM] Andrea Hernandez: Can you please send me a screenshot\n[01:22:05 PM] t9952292788: Ok one moment\n[01:22:05 PM] t9952292788: Ok one moment\n[01:22:19 PM] Andrea Hernandez: Thank you\n[01:22:19 PM] Andrea Hernandez: Thank you\n[01:22:35 PM] t9952292788: IMG_2789.png\n[01:22:35 PM] t9952292788: IMG_2789.png\n[01:23:03 PM] Andrea Hernandez: What redemption method Are you trying to use?\n[01:23:03 PM] Andrea Hernandez: What redemption method Are you trying to use?\n[01:23:16 PM] t9952292788: ACH\n[01:23:16 PM] t9952292788: ACH\n[01:23:56 PM] Andrea Hernandez: Thank you very much for your information\n[01:23:56 PM] Andrea Hernandez: Thank you very much for your information\n[01:24:13 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:24:13 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:25:06 PM] t9952292788: I don't have any other redemption method. Only that one.\n[01:25:06 PM] t9952292788: I don't have any other redemption method. Only that one.\n[01:25:35 PM] Andrea Hernandez: Yes, at the moment this is the method available\n[01:25:35 PM] Andrea Hernandez: Yes, at the moment this is the method available\n[01:25:44 PM] Andrea Hernandez: Give me a moment\n[01:25:44 PM] Andrea Hernandez: Give me a moment\n[01:29:33 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\nIt includes only your street name and house/apartment number\nIt stays within the 50-character limit\nAny additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:29:33 PM] Andrea Hernandez: Sorry to hear your redemption has been rejected — let’s get this sorted!\n\nThe most common issue we’re seeing right now is how the Billing Address Line is filled out. Please make sure:\n\nIt includes only your street name and house/apartment number\nIt stays within the 50-character limit\nAny additional details (city, state, zip, etc.) are entered in their correct fields\n\nOnce that’s updated, please try submitting your redemption again.\n[01:30:29 PM] Andrea Hernandez: Lets please try this steps and try doing the redemption\n[01:30:29 PM] Andrea Hernandez: Lets please try this steps and try doing the redemption\n[01:30:50 PM] t9952292788: Ok\n[01:30:50 PM] t9952292788: Ok",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:31:49.687Z"
+        },
+        {
+          "chat_id": "2047309532956139520",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T13:48:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting with no personalization and agent name mismatch (Andrea/Emily)."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the core issue about wrong upload link being sent but didn't clarify document requirements."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent promised to send correct link but never confirmed it was sent or provided timeline, leaving customer waiting."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Showed empathy initially but failed to provide updates during delay, leading to customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations but didn't address customer's concern about conflicting information from previous agent."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Provided alternative contact method but closed prematurely while issue remained unresolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent acknowledged the customer's frustration about receiving wrong upload links but failed to actually resolve the issue or confirm the correct link was sent. The chat was closed prematurely after only 3 minutes of silence while the customer was still waiting for the promised solution.",
+          "coaching_tip": "Always confirm action completion before asking if customer is still present—either send the link and confirm it or provide a specific timeline if escalation is needed.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[01:40:04 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:40:04 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[01:40:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:40:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[01:40:49 PM] t5003516845: That’s what you all keep sending to my email which only gives me an option to upload my drivers license.\n[01:40:49 PM] t5003516845: IMG_9143.png\n[01:40:49 PM] t5003516845: That’s what you all keep sending to my email which only gives me an option to upload my drivers license.\n[01:40:49 PM] t5003516845: IMG_9143.png\n[01:41:37 PM] t5003516845: The other assistant told me that my drivers do not have to match my profile address as long as my bank statement matches.  You all keep giving me the run around.\n[01:41:37 PM] t5003516845: The other assistant told me that my drivers do not have to match my profile address as long as my bank statement matches.  You all keep giving me the run around.\n[01:41:52 PM] Andrea Hernandez: I’m really sorry about the confusion there — I can see how that would be frustrating.\n\nWe’ll send you a new secure link specifically for your Proof of Address (POA) so you can upload the correct document.\n[01:41:52 PM] Andrea Hernandez: I’m really sorry about the confusion there — I can see how that would be frustrating.\n\nWe’ll send you a new secure link specifically for your Proof of Address (POA) so you can upload the correct document.\n[01:42:44 PM] t5003516845: Still waiting\n[01:42:44 PM] t5003516845: Still waiting\n[01:43:35 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:43:35 PM] Andrea Hernandez: Please allow me one moment to look into this for you!\n[01:45:50 PM] Andrea Hernandez: Are you still here with me?\n[01:45:50 PM] Andrea Hernandez: Are you still here with me?\n[01:48:18 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[01:48:18 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T13:50:00.158Z"
+        },
+        {
+          "chat_id": "2047315274410799104",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T14:22:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting present but agent name mismatch (Andrea vs Emily) creates confusion."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked relevant clarifying questions about withdrawal date and account digits, gathered necessary information."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided status update but contradicted customer's bank statement that nothing is pending, didn't fully resolve the discrepancy or offer concrete next steps."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with good patience updates, but incomplete final message suggests technical issue or premature ending."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, appropriately handled account verification questions."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided, transcript cuts off mid-sentence during active conversation about account verification."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent handled the withdrawal inquiry professionally with appropriate clarifying questions and patience updates during review time. However, the resolution was incomplete as it didn't address the contradiction between the agent's claim that funds are pending at the bank and the customer's statement that their bank sees nothing, and the transcript ends abruptly without proper closure.",
+          "coaching_tip": "When customer reports their bank sees no pending transaction but your system shows it was sent, escalate to payments team or provide specific tracking information rather than simply restating that it was sent successfully.",
+          "website": "Jackpot Daily",
+          "message_count": 64,
+          "raw_transcript": "[02:02:53 PM] t3602717326: Full Name: t3602717326 Email Address: aniyaburns898@gmail.com Subject / How can we help you?: Hello, it has been now 10 business days and I still have not received my redemption of $100. I've contacted my bank and they said to contact you guys because they don't see anything from you guys that's came or that's pending . I need something to be done about this today!!!\n[02:02:53 PM] t3602717326: Full Name: t3602717326 Email Address: aniyaburns898@gmail.com Subject / How can we help you?: Hello, it has been now 10 business days and I still have not received my redemption of $100. I've contacted my bank and they said to contact you guys because they don't see anything from you guys that's came or that's pending . I need something to be done about this today!!!\n[02:03:05 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:03:05 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:03:11 PM] t3602717326: Hi Emily\n[02:03:11 PM] t3602717326: Hi Emily\n[02:04:22 PM] Andrea Hernandez: Hi, its a pleasure to assist you\n[02:04:22 PM] Andrea Hernandez: Hi, its a pleasure to assist you\n[02:04:32 PM] Andrea Hernandez: Let me review your case\n[02:04:32 PM] Andrea Hernandez: Let me review your case\n[02:04:39 PM] t3602717326: Ok thanks\n[02:04:39 PM] t3602717326: Ok thanks\n[02:04:42 PM] Andrea Hernandez: Give me a moment to review this information.\n[02:04:42 PM] Andrea Hernandez: Give me a moment to review this information.\n[02:04:51 PM] t3602717326: Ok\n[02:04:51 PM] t3602717326: Ok\n[02:05:59 PM] Andrea Hernandez: When did you submit your withdrawal?\n[02:05:59 PM] Andrea Hernandez: When did you submit your withdrawal?\n[02:07:14 PM] Andrea Hernandez: Whats the last 4 digits of the account\n[02:07:14 PM] Andrea Hernandez: Whats the last 4 digits of the account\n[02:08:36 PM] Andrea Hernandez: Are still here?\n[02:08:36 PM] Andrea Hernandez: Are still here?\n[02:08:41 PM] t3602717326: 2028\n[02:08:41 PM] t3602717326: 2028\n[02:08:50 PM] t3602717326: Is the last four digits\n[02:08:50 PM] t3602717326: Is the last four digits\n[02:09:05 PM] t3602717326: And sometime between April 8th-10th\n[02:09:05 PM] t3602717326: And sometime between April 8th-10th\n[02:09:25 PM] Andrea Hernandez: Thank you\n[02:09:25 PM] Andrea Hernandez: Thank you\n[02:10:07 PM] t3602717326: IMG_0003.png\n[02:10:07 PM] t3602717326: IMG_0003.png\n[02:10:27 PM] Andrea Hernandez: Thank you , let me review\n[02:10:27 PM] Andrea Hernandez: Thank you , let me review\n[02:10:36 PM] t3602717326: Okay thank you\n[02:10:36 PM] t3602717326: Okay thank you\n[02:12:30 PM] Andrea Hernandez: Still here ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:12:30 PM] Andrea Hernandez: Still here ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:12:45 PM] t3602717326: Ok no problem\n[02:12:45 PM] t3602717326: Ok no problem\n[02:16:32 PM] Andrea Hernandez: Still, here\n[02:16:32 PM] Andrea Hernandez: Still, here\n[02:16:39 PM] Andrea Hernandez: sorry for the delay\n[02:16:39 PM] Andrea Hernandez: sorry for the delay\n[02:17:22 PM] Andrea Hernandez: your redemption has been successfully completed on our end 🎉\n\nIt has already been approved and sent to your bank, and is now pending their final approval. At this stage, everything looks good from our side.\n\nNow we just need to wait for your bank to process and release the funds.\n[02:17:22 PM] Andrea Hernandez: your redemption has been successfully completed on our end 🎉\n\nIt has already been approved and sent to your bank, and is now pending their final approval. At this stage, everything looks good from our side.\n\nNow we just need to wait for your bank to process and release the funds.\n[02:18:37 PM] t3602717326: Is my routing and account number correct? Can you check that for me?\n[02:18:37 PM] t3602717326: Is my routing and account number correct? Can you check that for me?\n[02:19:32 PM] Andrea Hernandez: I’ve checked your details, and I can confirm that the last 4 digits you provided match the ones on your account 👍\n\nEverything looks correct on our end.\n[02:19:32 PM] Andrea Hernandez: I’ve checked your details, and I can confirm that the last 4 digits you provided match the ones on your account 👍\n\nEverything looks correct on our end.\n[02:20:06 PM] t3602717326: Can I give you the whole thing to make sure I didn't put anything in wrong\n[02:20:06 PM] t3602717326: Can I give you the whole thing to make sure I didn't put anything in wrong\n[02:20:44 PM] Andrea Hernandez: I totally understand wanting to double-check, but for security reasons, please don’t share your full banking details here.\n\nWhat we can do is safely verify parts of the information — like the last 4 digits (which we’ve already confirmed match 👍).\n[02:20:44 PM] Andrea Hernandez: I totally understand wanting to double-check, but for security reasons, please don’t share your full banking details here.\n\nWhat we can do is safely verify parts of the information — like the last 4 digits (which we’ve already confirmed match 👍).\n[02:21:05 PM] t3602717326: Okay thank you\n[02:21:05 PM] t3602717326: Okay thank you\n[02:21:17 PM] Andrea Hernandez: Its always a pleasure\n[02:21:17 PM] Andrea Hernandez: Its always a pleasure\n[02:21:28 PM] Andrea Hernandez: Do you have any additional questions?\n[02:21:28 PM] Andrea Hernandez: Do you have any additional questions?\n[02:21:39 PM] t3602717326: No thanks\n[02:21:39 PM] t3602717326: No thanks\n[02:22:03 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[02:22:03 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:23:41.538Z"
+        },
+        {
+          "chat_id": "2047321016623263744",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T14:33:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting present but generic, no personalization or warmth beyond basic introduction."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent acknowledged reviewing the case but never clarified the specific issue or asked follow-up questions about the proof of address problem."
+            },
+            "resolution": {
+              "score": 5,
+              "notes": "No resolution provided; agent closed chat while still reviewing and before customer could respond to update message."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Clear professional language with appropriate status update, though premature closure undermined effectiveness."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, followed standard procedures for chat closure."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed prematurely after only 3 minutes of review time while customer was waiting, though closing message itself was polite."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 41,
+          "grade": "F",
+          "summary": "Agent greeted professionally and acknowledged the proof of address upload issue but closed the chat after only 3 minutes of review time without providing any solution or waiting adequately for customer response. The customer had just provided additional information and was clearly engaged, making the premature closure inappropriate.",
+          "coaching_tip": "Wait at least 5-7 minutes of customer inactivity before closing a chat, especially when you've just sent a status update and the customer was actively engaged moments before.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:34:41.797Z"
+        }
+      ],
+      "avg_score": 61,
+      "grade": "D",
+      "trend": -18
     },
     {
       "id": "5808",
@@ -20452,6 +20497,51 @@
       "raw_transcript": "[02:02:53 PM] t3602717326: Full Name: t3602717326 Email Address: aniyaburns898@gmail.com Subject / How can we help you?: Hello, it has been now 10 business days and I still have not received my redemption of $100. I've contacted my bank and they said to contact you guys because they don't see anything from you guys that's came or that's pending . I need something to be done about this today!!!\n[02:02:53 PM] t3602717326: Full Name: t3602717326 Email Address: aniyaburns898@gmail.com Subject / How can we help you?: Hello, it has been now 10 business days and I still have not received my redemption of $100. I've contacted my bank and they said to contact you guys because they don't see anything from you guys that's came or that's pending . I need something to be done about this today!!!\n[02:03:05 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:03:05 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:03:11 PM] t3602717326: Hi Emily\n[02:03:11 PM] t3602717326: Hi Emily\n[02:04:22 PM] Andrea Hernandez: Hi, its a pleasure to assist you\n[02:04:22 PM] Andrea Hernandez: Hi, its a pleasure to assist you\n[02:04:32 PM] Andrea Hernandez: Let me review your case\n[02:04:32 PM] Andrea Hernandez: Let me review your case\n[02:04:39 PM] t3602717326: Ok thanks\n[02:04:39 PM] t3602717326: Ok thanks\n[02:04:42 PM] Andrea Hernandez: Give me a moment to review this information.\n[02:04:42 PM] Andrea Hernandez: Give me a moment to review this information.\n[02:04:51 PM] t3602717326: Ok\n[02:04:51 PM] t3602717326: Ok\n[02:05:59 PM] Andrea Hernandez: When did you submit your withdrawal?\n[02:05:59 PM] Andrea Hernandez: When did you submit your withdrawal?\n[02:07:14 PM] Andrea Hernandez: Whats the last 4 digits of the account\n[02:07:14 PM] Andrea Hernandez: Whats the last 4 digits of the account\n[02:08:36 PM] Andrea Hernandez: Are still here?\n[02:08:36 PM] Andrea Hernandez: Are still here?\n[02:08:41 PM] t3602717326: 2028\n[02:08:41 PM] t3602717326: 2028\n[02:08:50 PM] t3602717326: Is the last four digits\n[02:08:50 PM] t3602717326: Is the last four digits\n[02:09:05 PM] t3602717326: And sometime between April 8th-10th\n[02:09:05 PM] t3602717326: And sometime between April 8th-10th\n[02:09:25 PM] Andrea Hernandez: Thank you\n[02:09:25 PM] Andrea Hernandez: Thank you\n[02:10:07 PM] t3602717326: IMG_0003.png\n[02:10:07 PM] t3602717326: IMG_0003.png\n[02:10:27 PM] Andrea Hernandez: Thank you , let me review\n[02:10:27 PM] Andrea Hernandez: Thank you , let me review\n[02:10:36 PM] t3602717326: Okay thank you\n[02:10:36 PM] t3602717326: Okay thank you\n[02:12:30 PM] Andrea Hernandez: Still here ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:12:30 PM] Andrea Hernandez: Still here ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:12:45 PM] t3602717326: Ok no problem\n[02:12:45 PM] t3602717326: Ok no problem\n[02:16:32 PM] Andrea Hernandez: Still, here\n[02:16:32 PM] Andrea Hernandez: Still, here\n[02:16:39 PM] Andrea Hernandez: sorry for the delay\n[02:16:39 PM] Andrea Hernandez: sorry for the delay\n[02:17:22 PM] Andrea Hernandez: your redemption has been successfully completed on our end 🎉\n\nIt has already been approved and sent to your bank, and is now pending their final approval. At this stage, everything looks good from our side.\n\nNow we just need to wait for your bank to process and release the funds.\n[02:17:22 PM] Andrea Hernandez: your redemption has been successfully completed on our end 🎉\n\nIt has already been approved and sent to your bank, and is now pending their final approval. At this stage, everything looks good from our side.\n\nNow we just need to wait for your bank to process and release the funds.\n[02:18:37 PM] t3602717326: Is my routing and account number correct? Can you check that for me?\n[02:18:37 PM] t3602717326: Is my routing and account number correct? Can you check that for me?\n[02:19:32 PM] Andrea Hernandez: I’ve checked your details, and I can confirm that the last 4 digits you provided match the ones on your account 👍\n\nEverything looks correct on our end.\n[02:19:32 PM] Andrea Hernandez: I’ve checked your details, and I can confirm that the last 4 digits you provided match the ones on your account 👍\n\nEverything looks correct on our end.\n[02:20:06 PM] t3602717326: Can I give you the whole thing to make sure I didn't put anything in wrong\n[02:20:06 PM] t3602717326: Can I give you the whole thing to make sure I didn't put anything in wrong\n[02:20:44 PM] Andrea Hernandez: I totally understand wanting to double-check, but for security reasons, please don’t share your full banking details here.\n\nWhat we can do is safely verify parts of the information — like the last 4 digits (which we’ve already confirmed match 👍).\n[02:20:44 PM] Andrea Hernandez: I totally understand wanting to double-check, but for security reasons, please don’t share your full banking details here.\n\nWhat we can do is safely verify parts of the information — like the last 4 digits (which we’ve already confirmed match 👍).\n[02:21:05 PM] t3602717326: Okay thank you\n[02:21:05 PM] t3602717326: Okay thank you\n[02:21:17 PM] Andrea Hernandez: Its always a pleasure\n[02:21:17 PM] Andrea Hernandez: Its always a pleasure\n[02:21:28 PM] Andrea Hernandez: Do you have any additional questions?\n[02:21:28 PM] Andrea Hernandez: Do you have any additional questions?\n[02:21:39 PM] t3602717326: No thanks\n[02:21:39 PM] t3602717326: No thanks\n[02:22:03 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[02:22:03 PM] Andrea Hernandez: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
       "model_used": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T14:23:41.538Z"
+    },
+    {
+      "chat_id": "2047321016623263744",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T14:33:59.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting present but generic, no personalization or warmth beyond basic introduction."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent acknowledged reviewing the case but never clarified the specific issue or asked follow-up questions about the proof of address problem."
+        },
+        "resolution": {
+          "score": 5,
+          "notes": "No resolution provided; agent closed chat while still reviewing and before customer could respond to update message."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Clear professional language with appropriate status update, though premature closure undermined effectiveness."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, followed standard procedures for chat closure."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed prematurely after only 3 minutes of review time while customer was waiting, though closing message itself was polite."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 41,
+      "grade": "F",
+      "summary": "Agent greeted professionally and acknowledged the proof of address upload issue but closed the chat after only 3 minutes of review time without providing any solution or waiting adequately for customer response. The customer had just provided additional information and was clearly engaged, making the premature closure inappropriate.",
+      "coaching_tip": "Wait at least 5-7 minutes of customer inactivity before closing a chat, especially when you've just sent a status update and the customer was actively engaged moments before.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:42 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still waiting to upload my proof of address. You all keep sending me a doc to upload my drivers license not my proof of address. Smh\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:25:50 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:11 PM] t5003516845: My profile address is 95 Beckham circle Jackson Alabama 36545.  It’s not letting me upload my address. You all keep sending me a link for my drivers license\n[02:28:11 PM] t5003516845: IMG_9139.jpeg\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:28:20 PM] Andrea Hernandez: I am reviewing your case\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:30:00 PM] Andrea Hernandez: Still here ≤player Name! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[02:33:56 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T14:34:41.797Z"
     }
   ]
 }
