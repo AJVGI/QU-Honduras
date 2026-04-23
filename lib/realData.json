@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T22:04:43.988Z",
-  "total_chats": 333,
+  "scored_at": "2026-04-23T22:09:44.030Z",
+  "total_chats": 334,
   "total_agents": 25,
   "agents": [
     {
@@ -6297,11 +6297,56 @@
           "raw_transcript": "[09:54:21 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: broken games\n[09:54:21 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: broken games\n[09:54:36 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:54:36 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[09:54:59 PM] t8628659172: your games are broken clearly. i’ve spun over 300 on 1 single game and yall clowns don’t let it win at all\n[09:54:59 PM] Jonathan Fuentes: What games are you currently having issues?\n[09:54:59 PM] t8628659172: your games are broken clearly. i’ve spun over 300 on 1 single game and yall clowns don’t let it win at all\n[09:54:59 PM] Jonathan Fuentes: What games are you currently having issues?\n[09:55:20 PM] t8628659172: you are the lowest of the lowest sites out there. just plain suck\n[09:55:20 PM] t8628659172: you are the lowest of the lowest sites out there. just plain suck\n[09:56:04 PM] t8628659172: sweet jar combo has stolen over 300 and won’t do anything. clear violation of RTP. bonus now or lawsuit\n[09:56:04 PM] t8628659172: sweet jar combo has stolen over 300 and won’t do anything. clear violation of RTP. bonus now or lawsuit",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T21:59:55.913Z"
+        },
+        {
+          "chat_id": "2047435422061391872",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-23T22:06:32.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into action without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent understood the issue and asked a relevant clarifying question about formatting, then discovered escalation was needed."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Properly escalated with clear instructions on how to submit a ticket, including all necessary details and prioritization keyword."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, professional communication with helpful formatting examples and structured escalation instructions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated issue beyond their authority without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Apologized for not fully resolving and set expectations for follow-up, though didn't explicitly offer further help or say goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent handled the phone number issue competently by first troubleshooting formatting, then properly escalating with detailed instructions when system limitations were discovered. The main weakness was the complete absence of an opening greeting.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name when possible before diving into troubleshooting to establish rapport and professionalism.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[10:00:18 PM] t6467260399: Full Name: t6467260399 Email Address: tracy.simon.2013@gmail.com Subject / How can we help you?: It says my telephone number is incorrect and it is not\n[10:00:18 PM] t6467260399: Full Name: t6467260399 Email Address: tracy.simon.2013@gmail.com Subject / How can we help you?: It says my telephone number is incorrect and it is not\n[10:00:27 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:00:27 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:02:20 PM] t6467260399: Thanks\n[10:02:20 PM] t6467260399: Thanks\n[10:02:27 PM] Jonathan Fuentes: Are you adding the plus sign and the number one at the beginning  when typing it? If you are, try ereasing them and let me know if that works.\n[10:02:27 PM] Jonathan Fuentes: Are you adding the plus sign and the number one at the beginning  when typing it? If you are, try ereasing them and let me know if that works.\n[10:02:39 PM] Jonathan Fuentes: For example:\n\n✔️ Correct: 5551234567\n❌ Incorrect: +15551234567 or 15551234567\n[10:02:39 PM] Jonathan Fuentes: For example:\n\n✔️ Correct: 5551234567\n❌ Incorrect: +15551234567 or 15551234567\n[10:02:46 PM] t6467260399: It won't let me modify it it says to contact you guys\n[10:02:46 PM] t6467260399: It won't let me modify it it says to contact you guys\n[10:03:11 PM] Jonathan Fuentes: Give me a moment to review this information.\n[10:03:11 PM] Jonathan Fuentes: Give me a moment to review this information.\n[10:04:40 PM] Jonathan Fuentes: I understand \n\nSince the system isn’t allowing you to modify your phone number directly, this will need to be handled by our designated team.\n\nPlease go ahead and create a support ticket by sending an email to support@jackpotdaily.com\n including:\n\nYour account email\nThe correct phone number you’d like to use\nA brief explanation of the issue\n\nMake sure to include “ESCALATE” in the subject line so it can be prioritized.\n\nOnce submitted, the team will review your request and assist you with updating it.\n[10:04:40 PM] Jonathan Fuentes: I understand \n\nSince the system isn’t allowing you to modify your phone number directly, this will need to be handled by our designated team.\n\nPlease go ahead and create a support ticket by sending an email to support@jackpotdaily.com\n including:\n\nYour account email\nThe correct phone number you’d like to use\nA brief explanation of the issue\n\nMake sure to include “ESCALATE” in the subject line so it can be prioritized.\n\nOnce submitted, the team will review your request and assist you with updating it.\n[10:06:29 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[10:06:29 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T22:09:43.529Z"
         }
       ],
-      "avg_score": 58,
+      "avg_score": 59,
       "grade": "F",
-      "trend": -2
+      "trend": 0
     },
     {
       "id": "5669",
@@ -30199,6 +30244,51 @@
       "raw_transcript": "[09:42:16 PM] Customer: Full Name: Julia Fisher Email Address: flossie1901@gmail.com Subject / How can we help you?: Hi, I'm trying to login. I just created this password and it says I'm wrong. I tried to do another one and it says it's wrong and I haven't even set it yet. I'm lost.\n[09:42:16 PM] Customer: Full Name: Julia Fisher Email Address: flossie1901@gmail.com Subject / How can we help you?: Hi, I'm trying to login. I just created this password and it says I'm wrong. I tried to do another one and it says it's wrong and I haven't even set it yet. I'm lost.\n[09:42:26 PM] Customer: Thank you\n[09:42:26 PM] Customer: Thank you\n[09:42:29 PM] Cairo Osorto: Thanks for contacting.\n[09:42:29 PM] Cairo Osorto: Thanks for contacting.\n[09:42:46 PM] Customer: Hi, how are you\n[09:42:46 PM] Customer: Hi, how are you\n[09:43:50 PM] Cairo Osorto: I'm doing very well :) What about you? Sorry to hear about your situation trying to access your account. No worries, I'll do my best to try and help you out.\n[09:43:50 PM] Cairo Osorto: I'm doing very well :) What about you? Sorry to hear about your situation trying to access your account. No worries, I'll do my best to try and help you out.\n[09:44:29 PM] Customer: Thank you. I'm well. Just trying to figure this out. I'm not tech savvy but I'm not crazy either. Lol\n[09:44:29 PM] Customer: Thank you. I'm well. Just trying to figure this out. I'm not tech savvy but I'm not crazy either. Lol\n[09:45:20 PM] Cairo Osorto: No worries! Apps and programs can be a little tough to navigate sometimes but I'm here to help you out :) May I know which email you used for registration?\n[09:45:20 PM] Cairo Osorto: No worries! Apps and programs can be a little tough to navigate sometimes but I'm here to help you out :) May I know which email you used for registration?\n[09:45:35 PM] Customer: flossie1901@gmail.com\n[09:45:35 PM] Customer: flossie1901@gmail.com\n[09:46:10 PM] Cairo Osorto: Understood, thanks. May I please have the phone number you used for registration also?\n[09:46:10 PM] Cairo Osorto: Understood, thanks. May I please have the phone number you used for registration also?\n[09:46:23 PM] Customer: 2282439196\n[09:46:23 PM] Customer: 2282439196\n[09:46:36 PM] Cairo Osorto: Thanks, please remain online.\n[09:46:36 PM] Cairo Osorto: Thanks, please remain online.\n[09:46:42 PM] Customer: Ok\n[09:46:42 PM] Customer: Ok\n[09:47:07 PM] Cairo Osorto: Thanks.\n[09:47:07 PM] Cairo Osorto: Thanks.\n[09:47:24 PM] Customer: No problem\n[09:47:24 PM] Customer: No problem\n[09:47:44 PM] Cairo Osorto: Great.\n[09:47:44 PM] Cairo Osorto: Great.\n[09:49:58 PM] Cairo Osorto: Apologies - can you please double-check that the info you shared is correct? I'm not finding any accounts with neither your phone or email.\n[09:49:58 PM] Cairo Osorto: Apologies - can you please double-check that the info you shared is correct? I'm not finding any accounts with neither your phone or email.\n[09:50:31 PM] Customer: Wait. Really?  Ok. One minute. I'll be back\n[09:50:31 PM] Customer: Wait. Really?  Ok. One minute. I'll be back\n[09:51:12 PM] Cairo Osorto: Please, thank you!\n[09:51:12 PM] Cairo Osorto: Please, thank you!\n[09:57:00 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[09:57:00 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[09:59:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:59:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T22:04:43.486Z"
+    },
+    {
+      "chat_id": "2047435422061391872",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-23T22:06:32.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly into action without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent understood the issue and asked a relevant clarifying question about formatting, then discovered escalation was needed."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Properly escalated with clear instructions on how to submit a ticket, including all necessary details and prioritization keyword."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, professional communication with helpful formatting examples and structured escalation instructions."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated issue beyond their authority without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Apologized for not fully resolving and set expectations for follow-up, though didn't explicitly offer further help or say goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 70,
+      "grade": "C",
+      "summary": "Agent handled the phone number issue competently by first troubleshooting formatting, then properly escalating with detailed instructions when system limitations were discovered. The main weakness was the complete absence of an opening greeting.",
+      "coaching_tip": "Always open with a warm greeting using the customer's name when possible before diving into troubleshooting to establish rapport and professionalism.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[10:00:18 PM] t6467260399: Full Name: t6467260399 Email Address: tracy.simon.2013@gmail.com Subject / How can we help you?: It says my telephone number is incorrect and it is not\n[10:00:18 PM] t6467260399: Full Name: t6467260399 Email Address: tracy.simon.2013@gmail.com Subject / How can we help you?: It says my telephone number is incorrect and it is not\n[10:00:27 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:00:27 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:02:20 PM] t6467260399: Thanks\n[10:02:20 PM] t6467260399: Thanks\n[10:02:27 PM] Jonathan Fuentes: Are you adding the plus sign and the number one at the beginning  when typing it? If you are, try ereasing them and let me know if that works.\n[10:02:27 PM] Jonathan Fuentes: Are you adding the plus sign and the number one at the beginning  when typing it? If you are, try ereasing them and let me know if that works.\n[10:02:39 PM] Jonathan Fuentes: For example:\n\n✔️ Correct: 5551234567\n❌ Incorrect: +15551234567 or 15551234567\n[10:02:39 PM] Jonathan Fuentes: For example:\n\n✔️ Correct: 5551234567\n❌ Incorrect: +15551234567 or 15551234567\n[10:02:46 PM] t6467260399: It won't let me modify it it says to contact you guys\n[10:02:46 PM] t6467260399: It won't let me modify it it says to contact you guys\n[10:03:11 PM] Jonathan Fuentes: Give me a moment to review this information.\n[10:03:11 PM] Jonathan Fuentes: Give me a moment to review this information.\n[10:04:40 PM] Jonathan Fuentes: I understand \n\nSince the system isn’t allowing you to modify your phone number directly, this will need to be handled by our designated team.\n\nPlease go ahead and create a support ticket by sending an email to support@jackpotdaily.com\n including:\n\nYour account email\nThe correct phone number you’d like to use\nA brief explanation of the issue\n\nMake sure to include “ESCALATE” in the subject line so it can be prioritized.\n\nOnce submitted, the team will review your request and assist you with updating it.\n[10:04:40 PM] Jonathan Fuentes: I understand \n\nSince the system isn’t allowing you to modify your phone number directly, this will need to be handled by our designated team.\n\nPlease go ahead and create a support ticket by sending an email to support@jackpotdaily.com\n including:\n\nYour account email\nThe correct phone number you’d like to use\nA brief explanation of the issue\n\nMake sure to include “ESCALATE” in the subject line so it can be prioritized.\n\nOnce submitted, the team will review your request and assist you with updating it.\n[10:06:29 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[10:06:29 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T22:09:43.529Z"
     }
   ]
 }
