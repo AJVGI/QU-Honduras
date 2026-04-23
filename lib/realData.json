@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T21:04:55.087Z",
-  "total_chats": 323,
+  "scored_at": "2026-04-23T21:14:46.117Z",
+  "total_chats": 324,
   "total_agents": 25,
   "agents": [
     {
@@ -1248,11 +1248,56 @@
           "raw_transcript": "[11:35:07 PM] t1022572948: Full Name: t1022572948 Email Address: lmlmlmxo@yahoo.com Subject / How can we help you?: hi, everywhere i have read people have stated they have gotten their ach redemption same day or within 24 hours. wondering why mine is still yet to be approved?\n[11:35:35 PM] Cairo Osorto: Hello! I'll be more than happy to help you today. Please remain online.\n[11:37:16 PM] t1022572948: thank you kindly\n[11:37:39 PM] Cairo Osorto: My pleasure! I'm here to help.\n[11:40:50 PM] Cairo Osorto: I'm still here, I appreciate your patience.\n[11:41:12 PM] t1022572948: no problem, thank you\n[11:42:21 PM] Cairo Osorto: Thank you for your inquiry. Please note that ACH bank transfers may take up to 10 business days to be fully processed and reflected in your account. We appreciate your patience, and if you have any further questions or need assistance in the meantime, feel free to reach out.\n[11:43:26 PM] t1022572948: it seems as if others are being prioritized\n[11:44:27 PM] t1022572948: i’ve talked to many people 2 people who suggested your site because of the fast ach and it seems to not be the case. i’m just a little disappointed with that\n[11:44:58 PM] Cairo Osorto: I see, just a moment please.\n[11:47:08 PM] t1022572948: sure. two people spoke highly of you to my fiancé so he signed up and then referred me. so i’m just not seeing the same results others are seeing. and redemption time is a huge thing for me. it’s the deciding factor of if im going to continue spending money on a site or not\n[11:47:37 PM] Cairo Osorto: One moment please.\n[11:47:51 PM] t1022572948: sure no problem thank you\n[11:49:58 PM] Cairo Osorto: Thanks for your patience.\n[11:50:08 PM] t1022572948: of course\n[11:51:22 PM] Cairo Osorto: Hi there — I completely understand how important it is for you to redeem your funds right away, and I’m really sorry for the frustration this delay may be causing.\n\nI do want to let you know that ACH bank transfers can take up to 10 business days to fully process. While many transfers complete sooner, this timeframe depends on banking networks and processing times that are unfortunately outside of our control.\n\nI know that waiting isn’t ideal, especially when you’re eager to access your funds. Please rest assured that your transfer is in progress, and we’re here to support you every step of the way. If there’s anything we can check or clarify for you in the meantime, don’t hesitate to reach out.\n\nThank you so much for your patience and understanding — we truly appreciate it.\n[11:52:15 PM] t1022572948: well i understand it is in process on your end and has to still be approved by your site\n[11:52:24 PM] t1022572948: it’s not my bank we are waiting on\n[11:55:04 PM] Cairo Osorto: I understand.\n[11:57:34 PM] t1022572948: so can your site approve my redemption request? it’s been over 24 hours\n[11:58:37 PM] t1022572948: which is quite unusual for a redemption approval\n[11:59:31 PM] Cairo Osorto: Bear with me, I'm trying to see if there's anything at all that can be done to expedite this.\n[12:03:23 AM] Cairo Osorto: Apologies but ACH bank transfers can vary in processing time depending on your bank. In some cases, the funds may arrive almost immediately, while in others it can take up to 2 business days, thats why our timeframe is up to 10 business days to be fully completed.\n\nIf you’re still within that timeframe, everything is likely processing as expected. If it goes beyond that, just let me know and I’ll be happy to take a closer look for you.\n[12:07:12 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:09:50 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "model_used": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T10:18:38.078Z"
+        },
+        {
+          "chat_id": "2047421598604292096",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T21:14:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the missing golden egg issue and acknowledged the verification completion without needing further clarification."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided a reasonable troubleshooting step (logout/login) and clear escalation path with specific email instructions if issue persists."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with empathy ('I am sorry to hear that'), instructions were specific and easy to follow."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to official support channel for manual resolution without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Checked for additional needs and provided a warm, casino-appropriate closing with good luck wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent competently handled a missing promotional item inquiry with appropriate troubleshooting and escalation guidance. Communication was clear and professional, though the greeting was minimal and lacked personalization.",
+          "coaching_tip": "Enhance your greeting by using the customer's name or email and adding warmth, such as 'Hi there! Thanks for reaching out to Jackpot Daily support.'",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:14:45.616Z"
         }
       ],
       "avg_score": 64,
       "grade": "D",
-      "trend": -5
+      "trend": -1
     },
     {
       "id": "5551",
@@ -29299,6 +29344,51 @@
       "raw_transcript": "[08:48:37 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Hello I am needing to upload additional documents and I am just wondering why this is necessary. Also what documents are accepted?\n[08:48:37 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Hello I am needing to upload additional documents and I am just wondering why this is necessary. Also what documents are accepted?\n[08:49:00 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:49:00 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:50:59 PM] t9404135794: Ty\n[08:50:59 PM] t9404135794: Ty\n[08:51:59 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[08:51:59 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[08:59:26 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:59:26 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[09:00:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[09:00:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T21:04:54.586Z"
+    },
+    {
+      "chat_id": "2047421598604292096",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-23T21:14:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the missing golden egg issue and acknowledged the verification completion without needing further clarification."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided a reasonable troubleshooting step (logout/login) and clear escalation path with specific email instructions if issue persists."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional with empathy ('I am sorry to hear that'), instructions were specific and easy to follow."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately directed to official support channel for manual resolution without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Checked for additional needs and provided a warm, casino-appropriate closing with good luck wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 70,
+      "grade": "C",
+      "summary": "Agent competently handled a missing promotional item inquiry with appropriate troubleshooting and escalation guidance. Communication was clear and professional, though the greeting was minimal and lacked personalization.",
+      "coaching_tip": "Enhance your greeting by using the customer's name or email and adding warmth, such as 'Hi there! Thanks for reaching out to Jackpot Daily support.'",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T21:14:45.616Z"
     }
   ]
 }
