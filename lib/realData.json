@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T22:49:45.048Z",
-  "total_chats": 338,
+  "scored_at": "2026-04-23T22:59:43.995Z",
+  "total_chats": 339,
   "total_agents": 25,
   "agents": [
     {
@@ -10707,11 +10707,56 @@
           "raw_transcript": "[09:53:06 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: How do I redeem it's not allowing me to redeem\n[09:53:06 PM] t5839188793: Full Name: t5839188793 Email Address: sixcash74@gmail.com Subject / How can we help you?: How do I redeem it's not allowing me to redeem\n[09:53:15 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:53:15 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[09:53:48 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:53:48 PM] Ana Erazo: Hi! My name is Ana I will be assisting you.\n[09:57:04 PM] t5839188793: Hello\n[09:57:04 PM] t5839188793: Hello\n[09:57:15 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[09:57:15 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:00:06 PM] Ana Erazo: Hey!  Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n1. Head to www.jackpotdaily.com and log in\n2. Click the  menu at the top left\n3. Select \"Redeem\"\n4. Enter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[10:00:06 PM] Ana Erazo: Hey!  Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n1. Head to www.jackpotdaily.com and log in\n2. Click the  menu at the top left\n3. Select \"Redeem\"\n4. Enter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[10:00:58 PM] Ana Erazo: Currently, ACH is the only available method, and it can take up to 10 business days for the funds to be processed.\n[10:00:58 PM] Ana Erazo: Currently, ACH is the only available method, and it can take up to 10 business days for the funds to be processed.\n[10:01:47 PM] Ana Erazo: Are you still there?\n[10:01:47 PM] Ana Erazo: Are you still there?\n[10:02:51 PM] t5839188793: Yes\n[10:02:51 PM] t5839188793: Yes\n[10:03:02 PM] t5839188793: I'm here\n[10:03:02 PM] t5839188793: I'm here\n[10:03:25 PM] t5839188793: It says my account is verified\n[10:03:25 PM] t5839188793: It says my account is verified\n[10:04:50 PM] Ana Erazo: Yes, we can confirm that your account is verified.\n[10:04:50 PM] Ana Erazo: Yes, we can confirm that your account is verified.\n[10:07:01 PM] t5839188793: Its not letting me redeem my money still\n[10:07:01 PM] t5839188793: Its not letting me redeem my money still\n[10:07:26 PM] Ana Erazo: It looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n* Billing Address Line: Please use this field only for the street name and house or apartment number.\n* Character Limit: Keep this information within the 50-character limit.\n* Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you!.\n[10:07:26 PM] Ana Erazo: It looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n* Billing Address Line: Please use this field only for the street name and house or apartment number.\n* Character Limit: Keep this information within the 50-character limit.\n* Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you!.\n[10:08:49 PM] Ana Erazo: Is there anything else I can help you with today?\n[10:08:49 PM] Ana Erazo: Is there anything else I can help you with today?\n[10:09:53 PM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:09:53 PM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T22:14:44.253Z"
+        },
+        {
+          "chat_id": "2047446344028434432",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-23T22:58:51.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting came after initial delay and lacked warmth; did not use customer name until much later."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked appropriate clarifying question and understood the referral reward issue clearly."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive referral requirements and addressed customer's confusion about the $30 vs $70 threshold."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with good status updates during delays, though could have been more empathetic about the confusion."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed policy correctly and provided accurate program requirements without unauthorized promises."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing statement, farewell, or offer of further assistance after customer's final acknowledgment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided accurate and detailed information about referral requirements and handled the customer's confusion professionally. However, the interaction lacked a proper closing, leaving the conversation unfinished.",
+          "coaching_tip": "Always close the conversation with a farewell and offer of further assistance, even when the customer seems satisfied with a simple 'Ok'.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:58 PM] t9878504969: Ok\n[10:43:58 PM] t9878504969: Ok\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:32 PM] t9878504969: Ok\n[10:46:32 PM] t9878504969: Ok\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:23 PM] t9878504969: Ok\n[10:52:23 PM] t9878504969: Ok\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n��� Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:47 PM] t9878504969: Ok\n[10:58:47 PM] t9878504969: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T22:59:43.493Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 0
+      "trend": 17
     },
     {
       "id": "5842",
@@ -30649,6 +30694,51 @@
       "raw_transcript": "[10:38:40 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:38:40 PM] Customer: Full Name: Raheim Moore Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:39:00 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:39:00 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:39:30 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:39:30 PM] Oscar Zelaya: Hey Raheimm51\nI’ve got you — let’s get you back into your account \nJust to confirm, are you trying to log in using that phone number? Normally, accounts are linked to an email address, so it might be tied to one you used during registration.\nA couple quick things to try:\nGo to the login page and use “Forgot Password?” with any email you may have used\nCheck your inbox (and spam) for any Jackpot Daily emails to identify the account\nIf you’re still stuck, I can help track it down — could you share:\nAny email addresses you might’ve used\nYour full name on the account\nWe’ll get you back in, don’t worry\n[10:39:54 PM] Customer: I’m getting a verification code to Raheimm51@gmail.com\n[10:39:54 PM] Customer: I’m getting a verification code to Raheimm51@gmail.com\n[10:40:06 PM] Customer: Phone number is 9192577387\n[10:40:06 PM] Customer: Phone number is 9192577387\n[10:40:18 PM] Customer: Raheim Moore is the full name on the account\n[10:40:18 PM] Customer: Raheim Moore is the full name on the account\n[10:40:32 PM] Customer: I have like 35.00 on the account\n[10:40:32 PM] Customer: I have like 35.00 on the account\n[10:40:38 PM] Oscar Zelaya: Got it — that helps a lot \nIf you’re receiving the verification code at Raheimm51@gmail.com\n, that means your account is most likely registered with that email.\nPlease go ahead and:\nCheck that inbox (and spam/junk folder) for the code\nEnter the code exactly as received to complete your login\nIf you don’t have access to that email, let me know right away — I can help you with the next steps to recover your account\n[10:40:38 PM] Oscar Zelaya: Got it — that helps a lot \nIf you’re receiving the verification code at Raheimm51@gmail.com\n, that means your account is most likely registered with that email.\nPlease go ahead and:\nCheck that inbox (and spam/junk folder) for the code\nEnter the code exactly as received to complete your login\nIf you don’t have access to that email, let me know right away — I can help you with the next steps to recover your account\n[10:41:00 PM] Customer: When I try to complete it fails\n[10:41:00 PM] Customer: When I try to complete it fails\n[10:42:11 PM] Oscar Zelaya: Could you please share a screenshot about that process.\n[10:42:11 PM] Oscar Zelaya: Could you please share a screenshot about that process.\n[10:43:46 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:43:46 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:45:05 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:45:05 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T22:49:44.547Z"
+    },
+    {
+      "chat_id": "2047446344028434432",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-23T22:58:51.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Greeting came after initial delay and lacked warmth; did not use customer name until much later."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Asked appropriate clarifying question and understood the referral reward issue clearly."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive referral requirements and addressed customer's confusion about the $30 vs $70 threshold."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional with good status updates during delays, though could have been more empathetic about the confusion."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed policy correctly and provided accurate program requirements without unauthorized promises."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing statement, farewell, or offer of further assistance after customer's final acknowledgment."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent provided accurate and detailed information about referral requirements and handled the customer's confusion professionally. However, the interaction lacked a proper closing, leaving the conversation unfinished.",
+      "coaching_tip": "Always close the conversation with a farewell and offer of further assistance, even when the customer seems satisfied with a simple 'Ok'.",
+      "website": "Jackpot Daily",
+      "message_count": 34,
+      "raw_transcript": "[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:42 PM] t9878504969: Full Name: t9878504969 Email Address: hunterdemetrius2023@gmail.com Subject / How can we help you?: Referral\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:52 PM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[10:43:58 PM] t9878504969: Ok\n[10:43:58 PM] t9878504969: Ok\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:08 PM] Ana Erazo: Hi ! My name is Ana I will be assisting you.\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:40 PM] t9878504969: Hi and ok\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:45:46 PM] Ana Erazo: Could you please provide more details about the issue you are experiencing so we can better assist you?\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:15 PM] t9878504969: I referred someone but I didn’t get a reward\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:23 PM] Ana Erazo: Please allow me one moment to look into this for you!\n[10:46:32 PM] t9878504969: Ok\n[10:46:32 PM] t9878504969: Ok\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:48:53 PM] Ana Erazo: Still here DEMETRIUS ! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:49:04 PM] t9878504969: Yes I’m here\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:16 PM] Ana Erazo: Give me a moment to review this information.\n[10:52:23 PM] t9878504969: Ok\n[10:52:23 PM] t9878504969: Ok\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:56:18 PM] Ana Erazo: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n��� Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:57:40 PM] t9878504969: I seen somewhere else it said  purchases up to $30\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:36 PM] Ana Erazo: I understand. At this time, your referral will need to make a $70 purchase to qualify.\n[10:58:47 PM] t9878504969: Ok\n[10:58:47 PM] t9878504969: Ok",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T22:59:43.493Z"
     }
   ]
 }
