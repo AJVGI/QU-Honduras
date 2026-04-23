@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T16:44:42.034Z",
-  "total_chats": 258,
+  "scored_at": "2026-04-23T16:49:53.480Z",
+  "total_chats": 260,
   "total_agents": 24,
   "agents": [
     {
@@ -3075,11 +3075,56 @@
           "raw_transcript": "[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T16:44:41.533Z"
+        },
+        {
+          "chat_id": "2047355102834290688",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T16:45:08.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting provided but no personalization or warmth beyond basic introduction."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying question and customer explained the withdrawal timing concern clearly."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided accurate timeframe information for ACH withdrawals and explained business day calculation, addressing the customer's question."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and informative response with proper formatting, though could have been slightly more empathetic given customer's wait concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard withdrawal timeframe information appropriately."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Agent provided no closing statement or offer for further assistance when customer said goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "Agent provided accurate withdrawal timeframe information that addressed the customer's concern about their week-old withdrawal. However, the agent failed to provide any closing statement when the customer ended the conversation.",
+          "coaching_tip": "Always acknowledge when a customer says goodbye and offer further assistance before they leave, even if they seem satisfied with the answer provided.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it’s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it���s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:45:03 PM] t4733890612: Ok thanks have a good day\n[04:45:03 PM] t4733890612: Ok thanks have a good day",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:49:52.979Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 14
+      "trend": 8
     },
     {
       "id": "5808",
@@ -9789,11 +9834,56 @@
           "raw_transcript": "[04:12:46 PM] Customer: Full Name: Jim Landgraf Email Address: jimlandgraf64@gmail.com Subject / How can we help you?: I am trying to redeem 392 from my account. The button won't allow me to do so. I was approved/verified this am to do so.\n[04:12:46 PM] Customer: Full Name: Jim Landgraf Email Address: jimlandgraf64@gmail.com Subject / How can we help you?: I am trying to redeem 392 from my account. The button won't allow me to do so. I was approved/verified this am to do so.\n[04:14:05 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:14:05 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:15:51 PM] Angie Pereira: Sometime the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n• Character Limit: Keep this information within the 50-character limit.\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n[04:15:51 PM] Angie Pereira: Sometime the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n• Character Limit: Keep this information within the 50-character limit.\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n[04:17:27 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:17:27 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:17:45 PM] Customer: i did all of this and still it is not working.\n[04:17:45 PM] Customer: i did all of this and still it is not working.\n[04:19:47 PM] Angie Pereira: Are you able to send a screenshot of the error your showing\n[04:19:47 PM] Angie Pereira: Are you able to send a screenshot of the error your showing\n[04:21:06 PM] Customer: never mind...... this is a waste of my time.  This should not be that difficult. You just lost me as a customer\n[04:21:06 PM] Customer: never mind...... this is a waste of my time.  This should not be that difficult. You just lost me as a customer\n[04:22:21 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today, if you need anything else let us know\n[04:22:21 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today, if you need anything else let us know\n[04:24:29 PM] Angie Pereira: Thanks for chatting with us. Have a great day!\n[04:24:29 PM] Angie Pereira: Thanks for chatting with us. Have a great day!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T16:29:42.625Z"
+        },
+        {
+          "chat_id": "2047355492010602496",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-23T16:49:29.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not acknowledge the screenshot or ask clarifying questions about the popup error before providing generic troubleshooting."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard cache-clearing steps but did not specifically address the popup blocker issue mentioned or confirm if solution worked."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-formatted instructions, but lacked acknowledgment of customer's specific statement that popup blocker was already off."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help but closed before confirming the issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided standard technical troubleshooting steps but failed to acknowledge the customer's uploaded screenshot or their statement that popup blocker was already disabled. The agent closed without confirming whether the solution worked, leaving the resolution incomplete.",
+          "coaching_tip": "Always acknowledge specific details customers provide (like screenshots or troubleshooting already attempted) and follow up to confirm the issue is resolved before closing the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[04:42:42 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:42:42 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:43:39 PM] Customer: IMG_0526.png\n[04:43:39 PM] Customer: IMG_0526.png\n[04:43:59 PM] Customer: My pop up block is off\n[04:43:59 PM] Customer: My pop up block is off\n[04:44:33 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:44:33 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:46:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again\n[04:46:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again\n[04:47:50 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:47:50 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:49:44.709Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": 9
+      "trend": 13
     },
     {
       "id": "5840",
@@ -23440,6 +23530,96 @@
       "raw_transcript": "[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:35:51 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:36:25 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:02 PM] Andrea Hernandez: Can you please send me a screenshot of the message you are receiving\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:37:20 PM] Andrea Hernandez: That message usually means your browser is blocking pop-ups, which are needed for the login to work.\n\nHere’s how to fix it:\n\nEnable pop-ups for the site in your browser settings\nMake sure you’re not using an ad blocker that might block pop-ups\nTry using a different browser (like Chrome or Safari)\nYou can also try logging in using incognito/private mode\n\nOnce pop-ups are allowed, you should be able to log in without any issues\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:38:56 PM] Andrea Hernandez: Are you there?\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:40:02 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T16:44:41.533Z"
+    },
+    {
+      "chat_id": "2047355492010602496",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-23T16:49:29.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, but did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not acknowledge the screenshot or ask clarifying questions about the popup error before providing generic troubleshooting."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard cache-clearing steps but did not specifically address the popup blocker issue mentioned or confirm if solution worked."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and well-formatted instructions, but lacked acknowledgment of customer's specific statement that popup blocker was already off."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help but closed before confirming the issue was resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent provided standard technical troubleshooting steps but failed to acknowledge the customer's uploaded screenshot or their statement that popup blocker was already disabled. The agent closed without confirming whether the solution worked, leaving the resolution incomplete.",
+      "coaching_tip": "Always acknowledge specific details customers provide (like screenshots or troubleshooting already attempted) and follow up to confirm the issue is resolved before closing the conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[04:42:42 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:42:42 PM] Customer: Full Name: Jennifer Grenier Email Address: jennifergrenier7970@gmail.com Subject / How can we help you?: Why can’t i log in? It says popup not allowed\n[04:43:39 PM] Customer: IMG_0526.png\n[04:43:39 PM] Customer: IMG_0526.png\n[04:43:59 PM] Customer: My pop up block is off\n[04:43:59 PM] Customer: My pop up block is off\n[04:44:33 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:44:33 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:46:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again\n[04:46:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again\n[04:47:50 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:47:50 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:49:44.709Z"
+    },
+    {
+      "chat_id": "2047355102834290688",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T16:45:08.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting provided but no personalization or warmth beyond basic introduction."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying question and customer explained the withdrawal timing concern clearly."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided accurate timeframe information for ACH withdrawals and explained business day calculation, addressing the customer's question."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and informative response with proper formatting, though could have been slightly more empathetic given customer's wait concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided standard withdrawal timeframe information appropriately."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Agent provided no closing statement or offer for further assistance when customer said goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 66,
+      "grade": "D",
+      "summary": "Agent provided accurate withdrawal timeframe information that addressed the customer's concern about their week-old withdrawal. However, the agent failed to provide any closing statement when the customer ended the conversation.",
+      "coaching_tip": "Always acknowledge when a customer says goodbye and offer further assistance before they leave, even if they seem satisfied with the answer provided.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:09 PM] t4733890612: Full Name: t4733890612 Email Address: owenayala146@gmail.com Subject / How can we help you?: Withdrawal\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:16 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:41:47 PM] Andrea Hernandez: Are you experiencing any issue?\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:42:17 PM] t4733890612: Hey I made a withdrawal about a week ago and I still haven’t got and I was wondering how long it usually takes\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it’s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:44:14 PM] Andrea Hernandez: Withdrawals can take different amounts of time depending on the method used:\n\nACH (bank transfer): up to 10 business days\n\nAlso keep in mind:\n\nWeekends don’t count as business days\nProcessing starts after the redemption is approved\n\nIf it���s been about a week, you may still be within the normal timeframe — especially for ACH\n[04:45:03 PM] t4733890612: Ok thanks have a good day\n[04:45:03 PM] t4733890612: Ok thanks have a good day",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:49:52.979Z"
     }
   ]
 }
