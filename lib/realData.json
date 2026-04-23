@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T23:45:39.880Z",
-  "total_chats": 354,
+  "scored_at": "2026-04-23T23:49:40.124Z",
+  "total_chats": 355,
   "total_agents": 25,
   "agents": [
     {
@@ -6468,11 +6468,56 @@
           "raw_transcript": "[11:37:46 PM] t9697315471: Full Name: t9697315471 Email Address: ac1806070@gmail.com Subject / How can we help you?: Hola\n[11:37:46 PM] t9697315471: Full Name: t9697315471 Email Address: ac1806070@gmail.com Subject / How can we help you?: Hola\n[11:37:59 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:37:59 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:38:35 PM] Jonathan Fuentes: Hola! ¿Que tal? ¿Como le puedo asistir hoy?\n[11:38:35 PM] Jonathan Fuentes: Hola! ¿Que tal? ¿Como le puedo asistir hoy?\n[11:40:26 PM] Jonathan Fuentes: Ha sido un placer atenderle hoy. ¡Estamos a la orde y buena suerte!\n[11:40:26 PM] Jonathan Fuentes: Ha sido un placer atenderle hoy. ¡Estamos a la orde y buena suerte!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T23:45:29.201Z"
+        },
+        {
+          "chat_id": "2047460393735254016",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-23T23:47:13.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped straight to 'allow me one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the basic question and followed up when customer clarified they still couldn't access the bonus after purchase."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided general information about daily bonuses but didn't investigate the specific account issue or escalate when troubleshooting didn't resolve it."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and structured explanations with formatting, though could have been more proactive in investigating the actual problem."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; stayed within appropriate boundaries for support guidance."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though moved to close before confirming the issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided clear general information about daily bonuses but failed to investigate why the customer specifically couldn't collect their bonus after making a purchase. The agent closed the chat with basic troubleshooting suggestions without confirming resolution or offering to escalate the unresolved issue.",
+          "coaching_tip": "When a customer reports they still can't access something after following requirements, investigate their specific account or escalate rather than offering generic troubleshooting and closing the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[11:39:32 PM] t3763369327: Full Name: t3763369327 Email Address: dowlandam@gmail.com Subject / How can we help you?: Hello I am wondering why I can’t collect my daily bonus. Do I have to purchase something everyday to be able to collect it?\n[11:39:32 PM] t3763369327: Full Name: t3763369327 Email Address: dowlandam@gmail.com Subject / How can we help you?: Hello I am wondering why I can’t collect my daily bonus. Do I have to purchase something everyday to be able to collect it?\n[11:39:52 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:39:52 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:41:41 PM] Jonathan Fuentes: Give me a moment to review this information.\n[11:41:41 PM] Jonathan Fuentes: Give me a moment to review this information.\n[11:42:44 PM] Jonathan Fuentes: Great question and I’m happy to clarify \n\nThere are two types of daily rewards on the platform:\n\n1. Free Daily Rewards\n\nJust log in each day\nComplete the daily task shown\nNo purchase required\n\n2. Purchase-Based Daily Rewards\n\nSome rewards require a minimum purchase (usually $10) to unlock\nThese may include additional bonuses or higher-value rewards\nInstructions will appear on your screen if a purchase is needed\n\nSo yes — you can receive free daily rewards, but there are also extra rewards available if you choose to make a purchase.\n\nIf you’re not seeing yours or not sure which one applies, let me know and I’ll help you check\n[11:42:44 PM] Jonathan Fuentes: Great question and I’m happy to clarify \n\nThere are two types of daily rewards on the platform:\n\n1. Free Daily Rewards\n\nJust log in each day\nComplete the daily task shown\nNo purchase required\n\n2. Purchase-Based Daily Rewards\n\nSome rewards require a minimum purchase (usually $10) to unlock\nThese may include additional bonuses or higher-value rewards\nInstructions will appear on your screen if a purchase is needed\n\nSo yes — you can receive free daily rewards, but there are also extra rewards available if you choose to make a purchase.\n\nIf you’re not seeing yours or not sure which one applies, let me know and I’ll help you check\n[11:43:28 PM] t3763369327: I bought yesterday and I still wasn’t able to receive it and I’m not sure where the daily bonus is\n[11:43:28 PM] t3763369327: I bought yesterday and I still wasn’t able to receive it and I’m not sure where the daily bonus is\n[11:44:43 PM] Jonathan Fuentes: Thanks for letting me know — I understand how that can be confusing 👍\n\nThe daily bonus can usually be found in the platform under the rewards/promotions section (often shown with a chest or daily reward icon).\n\nSince you already made a purchase yesterday, you should be eligible if the requirement applies to your account. I recommend:\n\nLogging out and back in to refresh your account\nChecking the daily reward section again\n[11:44:43 PM] Jonathan Fuentes: Thanks for letting me know — I understand how that can be confusing 👍\n\nThe daily bonus can usually be found in the platform under the rewards/promotions section (often shown with a chest or daily reward icon).\n\nSince you already made a purchase yesterday, you should be eligible if the requirement applies to your account. I recommend:\n\nLogging out and back in to refresh your account\nChecking the daily reward section again\n[11:46:19 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:46:19 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:47:11 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:47:11 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:49:39.624Z"
         }
       ],
       "avg_score": 60,
       "grade": "D",
-      "trend": 6
+      "trend": 4
     },
     {
       "id": "5669",
@@ -32089,6 +32134,51 @@
       "raw_transcript": "[11:25:18 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[11:25:18 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Need POA LINK. BEEN WAITING FOR FOUR DAYS\n[11:26:08 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:26:08 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:26:48 PM] t5003516845: I already sent a email to support@jackpotdaily.com 1000 times and also added escalate to the subject. Still no reply. My lawyer will be contacting you all head office.\n[11:26:48 PM] t5003516845: I already sent a email to support@jackpotdaily.com 1000 times and also added escalate to the subject. Still no reply. My lawyer will be contacting you all head office.\n[11:28:13 PM] Oskar Abaunza: Give me a moment to review this information.\n[11:28:13 PM] Oskar Abaunza: Give me a moment to review this information.\n[11:29:55 PM] Oskar Abaunza: Thanks so much for your patience and understanding.\n\nAt the moment, we’re working on your case to provide you with the best possible service. You’ll be receiving an email shortly with the secure link so you can upload your document.\n\nIf you need anything in the meantime, I’m right here!\n[11:29:55 PM] Oskar Abaunza: Thanks so much for your patience and understanding.\n\nAt the moment, we’re working on your case to provide you with the best possible service. You’ll be receiving an email shortly with the secure link so you can upload your document.\n\nIf you need anything in the meantime, I’m right here!\n[11:32:40 PM] t5003516845: ?\n[11:32:40 PM] t5003516845: ?\n[11:33:55 PM] t5003516845: Waiting on email. And I hope it’s not the same identity upload which I have did that 1000 times but if need be I will just upload an Alabama id card with the same address as on file!!!!!!!\n[11:33:55 PM] t5003516845: Waiting on email. And I hope it’s not the same identity upload which I have did that 1000 times but if need be I will just upload an Alabama id card with the same address as on file!!!!!!!\n[11:35:11 PM] Oskar Abaunza: Thanks for your patience.\n\nWe’re currently working through some inconveniences. As soon as everything is resolved, we’ll send you an email with the secure link so you can proceed.\n\nReally appreciate your understanding — I’ll be here if you need anything in the meantime!\n[11:35:11 PM] Oskar Abaunza: Thanks for your patience.\n\nWe’re currently working through some inconveniences. As soon as everything is resolved, we’ll send you an email with the secure link so you can proceed.\n\nReally appreciate your understanding — I’ll be here if you need anything in the meantime!\n[11:36:14 PM] t5003516845: I’m still waiting\n[11:36:14 PM] t5003516845: I’m still waiting\n[11:36:57 PM] Oskar Abaunza: That’s completely understandable — and we sincerely apologize for the inconvenience.\nPlease rest assured that we’re actively working on resolving this as quickly as possible. We truly appreciate your patience while we get everything sorted.\n[11:36:57 PM] Oskar Abaunza: That’s completely understandable — and we sincerely apologize for the inconvenience.\nPlease rest assured that we’re actively working on resolving this as quickly as possible. We truly appreciate your patience while we get everything sorted.\n[11:38:40 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[11:38:40 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[11:39:56 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:39:56 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T23:45:39.380Z"
+    },
+    {
+      "chat_id": "2047460393735254016",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-23T23:47:13.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped straight to 'allow me one moment' without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the basic question and followed up when customer clarified they still couldn't access the bonus after purchase."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided general information about daily bonuses but didn't investigate the specific account issue or escalate when troubleshooting didn't resolve it."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and structured explanations with formatting, though could have been more proactive in investigating the actual problem."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; stayed within appropriate boundaries for support guidance."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided a friendly closing, though moved to close before confirming the issue was resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent provided clear general information about daily bonuses but failed to investigate why the customer specifically couldn't collect their bonus after making a purchase. The agent closed the chat with basic troubleshooting suggestions without confirming resolution or offering to escalate the unresolved issue.",
+      "coaching_tip": "When a customer reports they still can't access something after following requirements, investigate their specific account or escalate rather than offering generic troubleshooting and closing the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[11:39:32 PM] t3763369327: Full Name: t3763369327 Email Address: dowlandam@gmail.com Subject / How can we help you?: Hello I am wondering why I can’t collect my daily bonus. Do I have to purchase something everyday to be able to collect it?\n[11:39:32 PM] t3763369327: Full Name: t3763369327 Email Address: dowlandam@gmail.com Subject / How can we help you?: Hello I am wondering why I can’t collect my daily bonus. Do I have to purchase something everyday to be able to collect it?\n[11:39:52 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:39:52 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:41:41 PM] Jonathan Fuentes: Give me a moment to review this information.\n[11:41:41 PM] Jonathan Fuentes: Give me a moment to review this information.\n[11:42:44 PM] Jonathan Fuentes: Great question and I’m happy to clarify \n\nThere are two types of daily rewards on the platform:\n\n1. Free Daily Rewards\n\nJust log in each day\nComplete the daily task shown\nNo purchase required\n\n2. Purchase-Based Daily Rewards\n\nSome rewards require a minimum purchase (usually $10) to unlock\nThese may include additional bonuses or higher-value rewards\nInstructions will appear on your screen if a purchase is needed\n\nSo yes — you can receive free daily rewards, but there are also extra rewards available if you choose to make a purchase.\n\nIf you’re not seeing yours or not sure which one applies, let me know and I’ll help you check\n[11:42:44 PM] Jonathan Fuentes: Great question and I’m happy to clarify \n\nThere are two types of daily rewards on the platform:\n\n1. Free Daily Rewards\n\nJust log in each day\nComplete the daily task shown\nNo purchase required\n\n2. Purchase-Based Daily Rewards\n\nSome rewards require a minimum purchase (usually $10) to unlock\nThese may include additional bonuses or higher-value rewards\nInstructions will appear on your screen if a purchase is needed\n\nSo yes — you can receive free daily rewards, but there are also extra rewards available if you choose to make a purchase.\n\nIf you’re not seeing yours or not sure which one applies, let me know and I’ll help you check\n[11:43:28 PM] t3763369327: I bought yesterday and I still wasn’t able to receive it and I’m not sure where the daily bonus is\n[11:43:28 PM] t3763369327: I bought yesterday and I still wasn’t able to receive it and I’m not sure where the daily bonus is\n[11:44:43 PM] Jonathan Fuentes: Thanks for letting me know — I understand how that can be confusing 👍\n\nThe daily bonus can usually be found in the platform under the rewards/promotions section (often shown with a chest or daily reward icon).\n\nSince you already made a purchase yesterday, you should be eligible if the requirement applies to your account. I recommend:\n\nLogging out and back in to refresh your account\nChecking the daily reward section again\n[11:44:43 PM] Jonathan Fuentes: Thanks for letting me know — I understand how that can be confusing 👍\n\nThe daily bonus can usually be found in the platform under the rewards/promotions section (often shown with a chest or daily reward icon).\n\nSince you already made a purchase yesterday, you should be eligible if the requirement applies to your account. I recommend:\n\nLogging out and back in to refresh your account\nChecking the daily reward section again\n[11:46:19 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:46:19 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:47:11 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:47:11 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T23:49:39.624Z"
     }
   ]
 }
