@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T17:59:44.095Z",
-  "total_chats": 279,
+  "scored_at": "2026-04-23T18:04:45.706Z",
+  "total_chats": 280,
   "total_agents": 24,
   "agents": [
     {
@@ -609,11 +609,56 @@
           "raw_transcript": "[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:30 PM] t8920726494: Full Name: t8920726494 Email Address: yandraa.hidalgo@gmail.com Subject / How can we help you?: Where can I find codes to write AMOE request letters?\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:45:41 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:46:18 PM] Marcos Avila: To get your unique 12-digit Postal Request Code, just follow these steps:\n\nLog in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n\nA few important things to keep in mind for your request:\n\nExpiration: Each code is valid for 60 days and can only be used once.\n\nFrequency: You can generate a new code every 6 hours.\n\nVerification: Your account must be fully KYC verified to use the AMOE process.\n\nFormat: Your request must be handwritten in blue or black ink on a 4\" x 6\" postcard.\n\nOnce you have your code, be sure to include your full name, email, residential address, the date, and the specific Sweepstakes Request statement found in our Sweepstakes Rules.\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:06 PM] t8920726494: Ok where do I generate code is my question?\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code\n[05:48:40 PM] Marcos Avila: Log in at www.jackpotdaily.com\n\nGo to your Profile\n\nSelect Postal Request Code to generate your unique code",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T17:49:41.927Z"
+        },
+        {
+          "chat_id": "2047372218127396864",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T18:04:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without acknowledging customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked a clarifying question about error messages and gathered information about card ownership and funds, showing good diagnostic approach."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided comprehensive troubleshooting steps covering common payment decline scenarios with actionable solutions, though issue wasn't definitively resolved."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured responses with bullet points and explanations, though somewhat lengthy for the customer's brief communication style."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Appropriately mentioned policy about cards needing to be in player's own name and provided standard troubleshooting without unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever; transcript ends mid-response with the agent's message truncated and no follow-up or resolution confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided thorough troubleshooting guidance for payment issues with good empathy and structure, but completely failed to greet the customer properly and provided no closing. The communication was professional but the lack of basic greeting and closing protocols significantly impacted the overall quality.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name before diving into troubleshooting, and ensure you close the conversation by confirming next steps and offering further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:51:24 PM] Customer: Not excepted\n[05:51:24 PM] Customer: Not excepted\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T18:04:45.205Z"
         }
       ],
       "avg_score": 65,
       "grade": "D",
-      "trend": -20
+      "trend": -5
     },
     {
       "id": "5801",
@@ -25330,6 +25375,51 @@
       "raw_transcript": "[05:57:05 PM] t3765502663: Full Name: t3765502663 Email Address: jenise1020@gmail.com Subject / How can we help you?: My redemption says successful but I did not receive it\n[05:57:05 PM] t3765502663: Full Name: t3765502663 Email Address: jenise1020@gmail.com Subject / How can we help you?: My redemption says successful but I did not receive it\n[05:57:23 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:57:23 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:57:33 PM] t3765502663: Thank you\n[05:57:33 PM] t3765502663: Thank you\n[05:58:16 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nIf you’re still within that timeframe, everything is progressing normally 👍\n[05:58:16 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nIf you’re still within that timeframe, everything is progressing normally 👍\n[05:58:50 PM] t3765502663: Okay thank you for the clarification\n[05:58:50 PM] t3765502663: Okay thank you for the clarification\n[05:58:58 PM] Andrea Hernandez: its always a pleasure\n[05:58:58 PM] Andrea Hernandez: its always a pleasure\n[05:59:10 PM] Andrea Hernandez: Do you have additional questions?\n[05:59:10 PM] Andrea Hernandez: Do you have additional questions?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T17:59:43.595Z"
+    },
+    {
+      "chat_id": "2047372218127396864",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-23T18:04:31.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without acknowledging customer by name or welcoming them."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Asked a clarifying question about error messages and gathered information about card ownership and funds, showing good diagnostic approach."
+        },
+        "resolution": {
+          "score": 22,
+          "notes": "Provided comprehensive troubleshooting steps covering common payment decline scenarios with actionable solutions, though issue wasn't definitively resolved."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and well-structured responses with bullet points and explanations, though somewhat lengthy for the customer's brief communication style."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Appropriately mentioned policy about cards needing to be in player's own name and provided standard troubleshooting without unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing whatsoever; transcript ends mid-response with the agent's message truncated and no follow-up or resolution confirmation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent provided thorough troubleshooting guidance for payment issues with good empathy and structure, but completely failed to greet the customer properly and provided no closing. The communication was professional but the lack of basic greeting and closing protocols significantly impacted the overall quality.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name before diving into troubleshooting, and ensure you close the conversation by confirming next steps and offering further assistance.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:49:09 PM] Customer: Full Name: Cecil Johnson Email Address: mjohnson344woh@outlook.com Subject / How can we help you?: My debit card won't let me buy anything\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:01 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:50:53 PM] Marcos Avila: Is the website displaying any specific errors when trying to make a purchase?\n[05:51:24 PM] Customer: Not excepted\n[05:51:24 PM] Customer: Not excepted\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:10 PM] Customer: Something like this is out of ur ranges\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:52:11 PM] Marcos Avila: Sorry about the payment trouble — let's troubleshoot!\n\nThe usual suspects are:\n\nToo many failed attempts — this can trigger a temporary security block\n\nBank decline — some banks block online gaming transactions by default. A quick call to your bank to authorise Jackpot Daily payments usually fixes it!\n\nCard issue — double-check it's valid, has enough funds, and is registered in your name\n\nJust so you know — accounts can only be funded with cards in the player's own name.\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:53:20 PM] Customer: It's my card and it's got money in it\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:54:46 PM] Marcos Avila: I totally get how frustrating that is, especially when you know the funds are there and ready to go.\n\nSince the card is in your name and has a balance, it’s likely one of these \"behind the scenes\" issues that banks often trigger for security:\n\nBilling Address Mismatch: Double-check that the address you entered on Jackpot Daily matches your bank's records exactly. Even a small difference in the zip code or street name can cause a decline.\n\nDaily Spending Limits: Many banks have a daily limit for \"online\" or \"gaming\" transactions that is lower than your total balance.\n\nAutomatic Bank Block: Some major banks (like Bank of America, Wells Fargo, or Chase) sometimes automatically flag or block transactions to social gaming sites as a precaution. A quick 2-minute call to your bank’s fraud department to \"authorize Jackpot Daily\" usually clears this up instantly!\n\nA few quick things you can try right now:\n\nTry a different method: If you have Apple Pay or Google Pay linked to that same card, try using that—it often bypasses standard card entry errors.\n\nDouble-check the CVV and Expiry: It sounds simple, but a tiny typo here is the #1 reason for declines.\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:58:16 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:04:28 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T18:04:45.205Z"
     }
   ]
 }
