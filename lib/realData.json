@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T16:00:11.540Z",
-  "total_chats": 245,
+  "scored_at": "2026-04-23T16:05:02.730Z",
+  "total_chats": 248,
   "total_agents": 24,
   "agents": [
     {
@@ -1390,150 +1390,6 @@
       "trend": -5
     },
     {
-      "id": "5806",
-      "name": "Oscar Zelaya",
-      "chats": [
-        {
-          "chat_id": "2043881559383437312",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:43:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Initial response lacked a proper greeting, only asked for a moment to investigate."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Provided common causes but didn't ask clarifying questions about what specific error Jonathan was experiencing."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Offered generic troubleshooting options without confirming the actual issue or waiting for customer response before moving to close."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and organized information but moved too quickly to closing without allowing customer to respond to troubleshooting suggestions."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately mentioned account limitations and regional restrictions."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Prematurely asked about other issues only 95 seconds after providing troubleshooting steps, without waiting for customer feedback."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 54,
-          "grade": "F",
-          "summary": "Agent provided relevant troubleshooting information but rushed through the interaction without proper discovery or allowing time for customer response. The premature closing attempt before confirming whether the suggestions helped was the most significant issue.",
-          "coaching_tip": "Wait for customer acknowledgment and feedback after providing troubleshooting steps before moving to close the conversation.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[02:38:31 AM] Customer: Full Name: Jonathan Silva Email Address: jonjon915.JS@gmail.com Subject / How can we help you?: Y cantbi sign in\n[02:38:44 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:39:05 AM] Customer: Ok\n[02:40:40 AM] Oscar Zelaya: Hey Jonathan  ! Let's figure this out together!\n● Common causes:\n○ Email already in use: each player can only have\none account. Try resetting password at\nwww.jackpotdaily.com → Login → “Forgot\nPassword?”.\n○ Region restriction: Jackpot Daily may not be\navailable in your area yet.\n● Do either of these sound like the issue? Let me know and\nI’ll help further.\n[02:42:15 AM] Oscar Zelaya: Is there anything else I can help you with today?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:19:02.225Z"
-        },
-        {
-          "chat_id": "2043874838732697600",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:20:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No initial greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the geolocation issue and asked clarifying question about browser/device, though could have probed earlier about specific error messages."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive troubleshooting steps for location issues and followed up with browser-specific solutions when customer clarified Chrome mobile usage."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured responses with bullet points and friendly tone, though slightly repetitive with the 'anything else' question."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately handled geolocation restrictions and provided standard troubleshooting without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Friendly closing with customer name and well-wishes, though came after asking twice if anything else was needed without clear confirmation issue was resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 70,
-          "grade": "C",
-          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with appropriate follow-up questions and browser-specific guidance. Main weakness was lack of proper initial greeting and premature closing attempts before confirming resolution.",
-          "coaching_tip": "Always open with a proper greeting before diving into troubleshooting, and confirm the issue is resolved before offering to close the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[02:11:49 AM] Customer: Full Name: James manes Email Address: jamesmanes870@gmail.com Subject / How can we help you?: My location is on and I am sharing\n[02:12:06 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:13:44 AM] Customer: What can I not get in\n[02:13:58 AM] Oscar Zelaya: Hey James  That's a strange one if you're in\nan eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device\nsettings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:15:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:15:55 AM] Customer: Chrome on my mobile\n[02:16:35 AM] Oscar Zelaya: Thanks for confirming.\nSince you're using Chrome on your mobile device, could you please try clearing your browser’s cache and cookies, then close and reopen the browser before trying again?\nYou can also try opening the site in incognito mode to see if that helps.\nIf the issue still persists, please let me know and I’ll take a closer look for you.\n[02:18:44 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:20:20 AM] Oscar Zelaya: Thanks for chatting with us James  ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:21:56.420Z"
-        },
-        {
-          "chat_id": "2043873276811636736",
-          "agent_name": "Oscar Zelaya",
-          "agent_id": "5806",
-          "timestamp": "2026-04-14T02:18:38.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all, agent jumped straight to 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the discrepancy issue and requested screenshots to investigate further, showing good diagnostic approach."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent provided detailed bonus structure but ultimately escalated via email rather than resolving the promotional discrepancy directly, which is acceptable but not ideal."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional with well-formatted bonus information, though multiple 'allow me one moment' messages felt repetitive."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately escalated when unable to resolve and didn't make unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing with customer name, though slightly rushed after no response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent handled the promotional discrepancy issue professionally by providing detailed bonus information and requesting screenshots, but ultimately escalated to email support rather than resolving directly. The interaction lacked an initial greeting and felt somewhat mechanical with repetitive holding messages.",
-          "coaching_tip": "Always open with a proper greeting before diving into the issue, and try to vary your holding language instead of repeating 'Please allow me one moment' three times consecutively.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[02:05:37 AM] t8070873927: Full Name: t8070873927 Email Address: janelle_emert@yahoo.com Subject / How can we help you?: I just created my account. When I login it says I can get a welcome bonus of $30 sc for $9.99. But when I go to purchase it, it only gives me th option for $20 sc?\n[02:05:52 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:07:39 AM] Oscar Zelaya: Hey janelle_emert ! Your first three purchases all\ncome with bonus packs — here’s the breakdown:\n1st Purchase (New User Offer):\n● $10: 4,000 GC | 600 XP | 22 SC\n● $50: 20,000 GC | 3,000 XP | 80 SC\n● $100: 40,000 GC | 6,000 XP | 140 SC\n2nd Purchase Pack:\n● $10: 4,000 GC | 500 XP | 20 SC\n● $50: 20,000 GC | 2,500 XP | 70 SC\n● $100: 40,000 GC | 5,000 XP | 130 SC\n3rd Purchase Pack:\n● $10: 4,000 GC | 400 XP | 18 SC\n● $50: 20,000 GC | 2,000 XP | 65 SC\n● $100: 40,000 GC | 4,000 XP | 120 SC\n[02:09:07 AM] Oscar Zelaya: If you’re not seeing additional options, could you please share a screenshot so I can take a closer look?\n[02:09:33 AM] t8070873927: IMG_2457.jpg\n[02:10:02 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:10:12 AM] t8070873927: IMG_2458.jpg\n[02:10:35 AM] t8070873927: I haven’t made a first purchase yet\n[02:12:10 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:15:06 AM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[02:16:46 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:18:30 AM] Oscar Zelaya: Thanks for chatting with us janelle_emer ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:22:07.830Z"
-        }
-      ],
-      "avg_score": 63,
-      "grade": "D",
-      "trend": 0
-    },
-    {
       "id": "5554",
       "name": "Diana Lopez",
       "chats": [
@@ -2031,11 +1887,245 @@
           "raw_transcript": "[03:35:22 PM] Customer: Full Name: Yomaira Beatriz Padron Email Address: yomairapadron59@gmail.com Subject / How can we help you?: Hello my name is Yomaira Beatriz Padron I’m concerning because I registered with you guys , but I’m been having issues to login it and it keep saying to conctact you guys , please can I have some help .\n[03:35:22 PM] Customer: Full Name: Yomaira Beatriz Padron Email Address: yomairapadron59@gmail.com Subject / How can we help you?: Hello my name is Yomaira Beatriz Padron I’m concerning because I registered with you guys , but I’m been having issues to login it and it keep saying to conctact you guys , please can I have some help .\n[03:35:42 PM] Customer: Resetting password, did everything that you recommended , does not work for me\n[03:35:42 PM] Customer: Resetting password, did everything that you recommended , does not work for me\n[03:35:43 PM] Diana Lopez: Hello!\n[03:35:43 PM] Diana Lopez: Hello!\n[03:35:53 PM] Customer: Resetting password, did everything that you recommended , does not work for me\n[03:35:53 PM] Customer: Resetting password, did everything that you recommended , does not work for me\n[03:36:12 PM] Diana Lopez: Can you share a pic of the error you're receiving, please\n[03:36:12 PM] Diana Lopez: Can you share a pic of the error you're receiving, please\n[03:38:00 PM] Diana Lopez: Yomaira?\n[03:38:00 PM] Diana Lopez: Yomaira?\n[03:38:16 PM] Customer: Screenshot_20260423_103758_Chrome.jpg\n[03:38:16 PM] Customer: Screenshot_20260423_103758_Chrome.jpg\n[03:39:04 PM] Diana Lopez: Thank you for sending the screenshot. I see the error message clearly now.\n\nPlease try these steps:\n\n1. Clear your browser's cache and cookies completely\n2. Try logging in from a different browser or device\n3. Make sure there are no extra spaces before or after your email address when you type it\n4. Use the 'Forgot Password' option again and create a completely new password you haven't used before\n5. Try logging in through incognito or private mode\n\nIf you're still unable to log in after trying these steps, please let me know and I will make sure your issue is reviewed.\n\nThank you for your patience.\n[03:39:04 PM] Diana Lopez: Thank you for sending the screenshot. I see the error message clearly now.\n\nPlease try these steps:\n\n1. Clear your browser's cache and cookies completely\n2. Try logging in from a different browser or device\n3. Make sure there are no extra spaces before or after your email address when you type it\n4. Use the 'Forgot Password' option again and create a completely new password you haven't used before\n5. Try logging in through incognito or private mode\n\nIf you're still unable to log in after trying these steps, please let me know and I will make sure your issue is reviewed.\n\nThank you for your patience.\n[03:40:00 PM] Customer: Resetting password, did everything that you recommended , does not work for me\n[03:40:00 PM] Customer: Resetting password, did everything that you recommended , does not work for me\n[03:40:09 PM] Customer: Jennifer?\n[03:40:09 PM] Customer: Jennifer?\n[03:40:17 PM] Diana Lopez: The email provided is not showing any account. Can you make sure this is correct\n[03:40:17 PM] Diana Lopez: The email provided is not showing any account. Can you make sure this is correct\n[03:41:37 PM] Diana Lopez: Can you share your phone number, please!\n[03:41:37 PM] Diana Lopez: Can you share your phone number, please!\n[03:41:45 PM] Customer: Can you help me out to verify my email?\n[03:41:45 PM] Customer: Can you help me out to verify my email?\n[03:42:18 PM] Diana Lopez: Yes, Help me with your phone number please\n[03:42:18 PM] Diana Lopez: Yes, Help me with your phone number please\n[03:42:51 PM] Customer: 4692545848\n[03:42:51 PM] Customer: 4692545848\n[03:43:03 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[03:43:03 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[03:43:35 PM] Diana Lopez: No account found\n[03:43:35 PM] Diana Lopez: No account found\n[03:44:22 PM] Diana Lopez: When did you create the account?\n[03:44:22 PM] Diana Lopez: When did you create the account?\n[03:45:03 PM] Customer: 3 weeks\n[03:45:03 PM] Customer: 3 weeks\n[03:45:28 PM] Diana Lopez: Do you have any other email by any chance\n[03:45:28 PM] Diana Lopez: Do you have any other email by any chance\n[03:46:13 PM] Customer: No\n[03:46:13 PM] Customer: No\n[03:46:32 PM] Diana Lopez: only this yomairapadron59@gmail.com?\n[03:46:32 PM] Diana Lopez: only this yomairapadron59@gmail.com?\n[03:49:17 PM] Diana Lopez: Hello?\n[03:49:17 PM] Diana Lopez: Hello?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T15:54:52.441Z"
+        },
+        {
+          "chat_id": "2047345276539940864",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T16:03:28.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Simple 'Hello' is professional but minimal, no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent correctly understood the issue and restated it, though no clarifying questions were asked about the transaction details."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Clear explanation of policy, provided alternative action (contact bank), and set appropriate expectations about final sales."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Professional and clear with appropriate empathy, though somewhat template-like in delivery."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Followed policy correctly, made no unauthorized promises, and appropriately directed customer to bank for disputes."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No proper closing, no offer for further assistance, and no goodbye after delivering the resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent correctly identified the issue and provided accurate policy information with an appropriate alternative solution. However, the interaction lacked a proper closing and could have been more personalized.",
+          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and offering a proper farewell, even when delivering unfavorable news.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[04:02:06 PM] t2973690564: Full Name: t2973690564 Email Address: ashlyahrens18@gmail.com Subject / How can we help you?: I paid with the wrong card and need that money refunded\n[04:02:06 PM] t2973690564: Full Name: t2973690564 Email Address: ashlyahrens18@gmail.com Subject / How can we help you?: I paid with the wrong card and need that money refunded\n[04:02:34 PM] Diana Lopez: Hello!\n[04:02:34 PM] Diana Lopez: Hello!\n[04:02:53 PM] Diana Lopez: I understand you used the wrong card for your purchase and you'd like a refund.\n\nOnce a purchase is completed, we cannot refund or transfer the payment to a different card. All sales are final.\n\nIf you believe this was an unauthorized transaction, please contact your bank directly to dispute the charge. Our team will cooperate with any investigation they open.\n\nI'm sorry I couldn't provide a better outcome for you in this case\n[04:02:53 PM] Diana Lopez: I understand you used the wrong card for your purchase and you'd like a refund.\n\nOnce a purchase is completed, we cannot refund or transfer the payment to a different card. All sales are final.\n\nIf you believe this was an unauthorized transaction, please contact your bank directly to dispute the charge. Our team will cooperate with any investigation they open.\n\nI'm sorry I couldn't provide a better outcome for you in this case",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:04:41.720Z"
+        },
+        {
+          "chat_id": "2047342973355913216",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-23T16:01:27.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the document verification question and provided comprehensive list of typical requirements."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear document list, upload instructions, and clarified process when customer asked follow-up questions."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and informative but had minor grammar error in final instruction ('you will be approve')."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper verification procedures and directed customer to official upload channel, no violations."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance appropriately, though slightly premature given the passive wait situation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent provided comprehensive document verification guidance and properly directed the customer to the official upload process. Communication was functional and compliant, though the greeting lacked warmth and there was a minor grammar error.",
+          "coaching_tip": "Personalize your greeting by using the customer's name when available to create a warmer, more engaging interaction from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[03:52:57 PM] t2842746769: Full Name: t2842746769 Email Address: akosikov@gmail.com Subject / How can we help you?: It says I have to submit additional documents. What documents do you need from me?\n[03:52:57 PM] t2842746769: Full Name: t2842746769 Email Address: akosikov@gmail.com Subject / How can we help you?: It says I have to submit additional documents. What documents do you need from me?\n[03:53:11 PM] Diana Lopez: Hello!\n[03:53:11 PM] Diana Lopez: Hello!\n[03:53:34 PM] t2842746769: Hello please let me know what documents you need from me\n[03:53:34 PM] t2842746769: Hello please let me know what documents you need from me\n[03:53:43 PM] Diana Lopez: Thanks for letting me know! If the system is asking for additional documents, it usually means we just need a bit more information to fully complete your verification.\n\nTypically, you may be asked to provide one of the following:\n\n• A valid government-issued ID (driver’s license, passport, or state ID)\n• A selfie holding your ID (for identity confirmation)\n• Proof of address (such as a utility bill or bank statement dated within the last 90 days)\n• A screenshot or statement showing your payment method (if you’ve made a purchase)\n\nPlease make sure that all images are clear, show all four corners, and that your name and details match your account exactly.\n\nYou can upload these directly through the verification section on your account. Once submitted, our team will review them as quickly as possible.\n[03:53:43 PM] Diana Lopez: Thanks for letting me know! If the system is asking for additional documents, it usually means we just need a bit more information to fully complete your verification.\n\nTypically, you may be asked to provide one of the following:\n\n• A valid government-issued ID (driver’s license, passport, or state ID)\n• A selfie holding your ID (for identity confirmation)\n• Proof of address (such as a utility bill or bank statement dated within the last 90 days)\n• A screenshot or statement showing your payment method (if you’ve made a purchase)\n\nPlease make sure that all images are clear, show all four corners, and that your name and details match your account exactly.\n\nYou can upload these directly through the verification section on your account. Once submitted, our team will review them as quickly as possible.\n[03:54:57 PM] t2842746769: Can I send here?\n[03:54:57 PM] t2842746769: Can I send here?\n[03:55:36 PM] Diana Lopez: No, you will need to use the link received via email\n[03:55:36 PM] Diana Lopez: No, you will need to use the link received via email\n[03:56:28 PM] t2842746769: I have done it\n[03:56:28 PM] t2842746769: I have done it\n[03:57:47 PM] Diana Lopez: In that case just wait for the verification team review all documents and you will be approve.\n[03:57:47 PM] Diana Lopez: In that case just wait for the verification team review all documents and you will be approve.\n[03:59:29 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[03:59:29 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:05:02.229Z"
         }
       ],
-      "avg_score": 62,
+      "avg_score": 63,
       "grade": "D",
-      "trend": 4
+      "trend": 1
+    },
+    {
+      "id": "5806",
+      "name": "Oscar Zelaya",
+      "chats": [
+        {
+          "chat_id": "2043881559383437312",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:43:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Initial response lacked a proper greeting, only asked for a moment to investigate."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Provided common causes but didn't ask clarifying questions about what specific error Jonathan was experiencing."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Offered generic troubleshooting options without confirming the actual issue or waiting for customer response before moving to close."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and organized information but moved too quickly to closing without allowing customer to respond to troubleshooting suggestions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned account limitations and regional restrictions."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Prematurely asked about other issues only 95 seconds after providing troubleshooting steps, without waiting for customer feedback."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided relevant troubleshooting information but rushed through the interaction without proper discovery or allowing time for customer response. The premature closing attempt before confirming whether the suggestions helped was the most significant issue.",
+          "coaching_tip": "Wait for customer acknowledgment and feedback after providing troubleshooting steps before moving to close the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[02:38:31 AM] Customer: Full Name: Jonathan Silva Email Address: jonjon915.JS@gmail.com Subject / How can we help you?: Y cantbi sign in\n[02:38:44 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:39:05 AM] Customer: Ok\n[02:40:40 AM] Oscar Zelaya: Hey Jonathan  ! Let's figure this out together!\n● Common causes:\n○ Email already in use: each player can only have\none account. Try resetting password at\nwww.jackpotdaily.com → Login → “Forgot\nPassword?”.\n○ Region restriction: Jackpot Daily may not be\navailable in your area yet.\n● Do either of these sound like the issue? Let me know and\nI’ll help further.\n[02:42:15 AM] Oscar Zelaya: Is there anything else I can help you with today?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:19:02.225Z"
+        },
+        {
+          "chat_id": "2043874838732697600",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:20:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the geolocation issue and asked clarifying question about browser/device, though could have probed earlier about specific error messages."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps for location issues and followed up with browser-specific solutions when customer clarified Chrome mobile usage."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with bullet points and friendly tone, though slightly repetitive with the 'anything else' question."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately handled geolocation restrictions and provided standard troubleshooting without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Friendly closing with customer name and well-wishes, though came after asking twice if anything else was needed without clear confirmation issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with appropriate follow-up questions and browser-specific guidance. Main weakness was lack of proper initial greeting and premature closing attempts before confirming resolution.",
+          "coaching_tip": "Always open with a proper greeting before diving into troubleshooting, and confirm the issue is resolved before offering to close the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[02:11:49 AM] Customer: Full Name: James manes Email Address: jamesmanes870@gmail.com Subject / How can we help you?: My location is on and I am sharing\n[02:12:06 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:13:44 AM] Customer: What can I not get in\n[02:13:58 AM] Oscar Zelaya: Hey James  That's a strange one if you're in\nan eligible state - let's figure out what's going on!\n● Common causes:\n○ VPN or proxy active → disable and refresh.\n○ Location services off → enable in browser/device\nsettings.\n○ ISP routing through another state.\n● Quick fixes:\n○ Switch between Wi-Fi and mobile data.\n○ Restart router/device.\n○ Ensure VPNs/proxies are fully off.\n[02:15:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:15:55 AM] Customer: Chrome on my mobile\n[02:16:35 AM] Oscar Zelaya: Thanks for confirming.\nSince you're using Chrome on your mobile device, could you please try clearing your browser’s cache and cookies, then close and reopen the browser before trying again?\nYou can also try opening the site in incognito mode to see if that helps.\nIf the issue still persists, please let me know and I’ll take a closer look for you.\n[02:18:44 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:20:20 AM] Oscar Zelaya: Thanks for chatting with us James  ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:21:56.420Z"
+        },
+        {
+          "chat_id": "2043873276811636736",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-14T02:18:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all, agent jumped straight to 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the discrepancy issue and requested screenshots to investigate further, showing good diagnostic approach."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided detailed bonus structure but ultimately escalated via email rather than resolving the promotional discrepancy directly, which is acceptable but not ideal."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with well-formatted bonus information, though multiple 'allow me one moment' messages felt repetitive."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated when unable to resolve and didn't make unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing with customer name, though slightly rushed after no response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled the promotional discrepancy issue professionally by providing detailed bonus information and requesting screenshots, but ultimately escalated to email support rather than resolving directly. The interaction lacked an initial greeting and felt somewhat mechanical with repetitive holding messages.",
+          "coaching_tip": "Always open with a proper greeting before diving into the issue, and try to vary your holding language instead of repeating 'Please allow me one moment' three times consecutively.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[02:05:37 AM] t8070873927: Full Name: t8070873927 Email Address: janelle_emert@yahoo.com Subject / How can we help you?: I just created my account. When I login it says I can get a welcome bonus of $30 sc for $9.99. But when I go to purchase it, it only gives me th option for $20 sc?\n[02:05:52 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:07:39 AM] Oscar Zelaya: Hey janelle_emert ! Your first three purchases all\ncome with bonus packs — here’s the breakdown:\n1st Purchase (New User Offer):\n● $10: 4,000 GC | 600 XP | 22 SC\n● $50: 20,000 GC | 3,000 XP | 80 SC\n● $100: 40,000 GC | 6,000 XP | 140 SC\n2nd Purchase Pack:\n● $10: 4,000 GC | 500 XP | 20 SC\n● $50: 20,000 GC | 2,500 XP | 70 SC\n● $100: 40,000 GC | 5,000 XP | 130 SC\n3rd Purchase Pack:\n● $10: 4,000 GC | 400 XP | 18 SC\n● $50: 20,000 GC | 2,000 XP | 65 SC\n● $100: 40,000 GC | 4,000 XP | 120 SC\n[02:09:07 AM] Oscar Zelaya: If you’re not seeing additional options, could you please share a screenshot so I can take a closer look?\n[02:09:33 AM] t8070873927: IMG_2457.jpg\n[02:10:02 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:10:12 AM] t8070873927: IMG_2458.jpg\n[02:10:35 AM] t8070873927: I haven’t made a first purchase yet\n[02:12:10 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:15:06 AM] Oscar Zelaya: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[02:16:46 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:18:30 AM] Oscar Zelaya: Thanks for chatting with us janelle_emer ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:22:07.830Z"
+        }
+      ],
+      "avg_score": 63,
+      "grade": "D",
+      "trend": 0
     },
     {
       "id": "5808",
@@ -3354,11 +3444,56 @@
           "raw_transcript": "[03:44:27 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA.\n[03:44:27 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA.\n[03:44:43 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:44:43 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:45:31 PM] t5003516845: Here is my proof of address. Same as on file. You all keep emailing me a link to upload my identity not my address.  🤦🏽‍♂️\n[03:45:31 PM] t5003516845: IMG_9139.jpeg\n[03:45:31 PM] t5003516845: Here is my proof of address. Same as on file. You all keep emailing me a link to upload my identity not my address.  🤦🏽‍♂️\n[03:45:31 PM] t5003516845: IMG_9139.jpeg\n[03:45:57 PM] Andrea Hernandez: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe really appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[03:45:57 PM] Andrea Hernandez: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe really appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[03:46:14 PM] Andrea Hernandez: I completely understand the frustration — thanks for your patience with this.\n\nAt the moment, we’re not able to process documents directly through chat. However, we’ll make sure to send you the correct secure link specifically for your Proof of Address (POA) so you can upload it properly.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case) — you’ll receive the correct link shortly 📩\n\nOnce you get it, you’ll be able to upload your document safely. If anything still doesn’t look right, just let me know and I’ll make sure this gets sorted for you 👍\n[03:46:14 PM] Andrea Hernandez: I completely understand the frustration — thanks for your patience with this.\n\nAt the moment, we’re not able to process documents directly through chat. However, we’ll make sure to send you the correct secure link specifically for your Proof of Address (POA) so you can upload it properly.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case) — you’ll receive the correct link shortly 📩\n\nOnce you get it, you’ll be able to upload your document safely. If anything still doesn’t look right, just let me know and I’ll make sure this gets sorted for you 👍\n[03:46:52 PM] t5003516845: Yall keep texting me the same thing. How hard is it for you all to send the right upload file for my POA!!!!!\n[03:46:52 PM] t5003516845: Yall keep texting me the same thing. How hard is it for you all to send the right upload file for my POA!!!!!\n[03:47:48 PM] Andrea Hernandez: I completely understand your frustration — you’re right to expect the correct link, and I’m really sorry this has been happening.\n\nWe’ve already flagged this, and your case has been escalated so the correct Proof of Address upload link can be sent to you.\n\nYou’ll receive the proper link by email — please keep an eye on your inbox (and spam/junk folder just in case).\n[03:47:48 PM] Andrea Hernandez: I completely understand your frustration — you’re right to expect the correct link, and I’m really sorry this has been happening.\n\nWe’ve already flagged this, and your case has been escalated so the correct Proof of Address upload link can be sent to you.\n\nYou’ll receive the proper link by email — please keep an eye on your inbox (and spam/junk folder just in case).\n[03:50:07 PM] t5003516845: I’m still waiting.\n[03:50:07 PM] t5003516845: I’m still waiting.\n[03:52:16 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you\n[03:52:16 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you\n[03:55:14 PM] Andrea Hernandez: Anything else I can help you with?\n[03:55:14 PM] Andrea Hernandez: Anything else I can help you with?\n[03:57:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[03:57:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T16:00:11.039Z"
+        },
+        {
+          "chat_id": "2047344532793946112",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-23T16:02:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with agent name, but no personalization or warmth beyond basic introduction."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent provided standard information without asking any clarifying questions about timing, amount, or payment method to assess the specific situation."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided general timeline information but didn't verify account details, check redemption date, or offer to investigate further before closing."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and organized response with emojis, but grammatical error in follow-up message and somewhat template-driven."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and provided appropriate contact information for follow-up."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered alternative contact method and explained closure reason, though closed relatively quickly after only 3 minutes of waiting."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided standard redemption timeline information but didn't investigate the specific case or ask clarifying questions about when the redemption was initiated. The chat was closed after only 3 minutes of customer inactivity without attempting to gather details that could have led to more personalized assistance.",
+          "coaching_tip": "Before providing generic timeline information, ask when the redemption was initiated and check the account to verify status and provide specific guidance based on the actual transaction date.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[03:59:09 PM] t2097730223: Full Name: t2097730223 Email Address: glorbozorb@gmail.com Subject / How can we help you?: Redemption say succesful but haven’t recieved\n[03:59:09 PM] t2097730223: Full Name: t2097730223 Email Address: glorbozorb@gmail.com Subject / How can we help you?: Redemption say succesful but haven’t recieved\n[03:59:21 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:59:21 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:00:05 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nSo if you’re still within that timeframe, everything is progressing normally 👍\n[04:00:05 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nSo if you’re still within that timeframe, everything is progressing normally 👍\n[04:01:54 PM] Andrea Hernandez: I have not get any response from you, please let me know if you still there?\n[04:01:54 PM] Andrea Hernandez: I have not get any response from you, please let me know if you still there?\n[04:02:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:02:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T16:04:51.523Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -5
+      "trend": 12
     },
     {
       "id": "5801",
@@ -22270,6 +22405,141 @@
       "raw_transcript": "[03:44:27 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA.\n[03:44:27 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Could I please get the right upload file for my POA.\n[03:44:43 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:44:43 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:45:31 PM] t5003516845: Here is my proof of address. Same as on file. You all keep emailing me a link to upload my identity not my address.  🤦🏽‍♂️\n[03:45:31 PM] t5003516845: IMG_9139.jpeg\n[03:45:31 PM] t5003516845: Here is my proof of address. Same as on file. You all keep emailing me a link to upload my identity not my address.  🤦🏽‍♂️\n[03:45:31 PM] t5003516845: IMG_9139.jpeg\n[03:45:57 PM] Andrea Hernandez: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe really appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[03:45:57 PM] Andrea Hernandez: We’re currently working on getting this resolved for you. Your case has already been escalated to the appropriate team, and it’s actively being reviewed.\n\nWe really appreciate your patience while we sort this out, and we’ll keep you updated as soon as we have more information.\n[03:46:14 PM] Andrea Hernandez: I completely understand the frustration — thanks for your patience with this.\n\nAt the moment, we’re not able to process documents directly through chat. However, we’ll make sure to send you the correct secure link specifically for your Proof of Address (POA) so you can upload it properly.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case) — you’ll receive the correct link shortly 📩\n\nOnce you get it, you’ll be able to upload your document safely. If anything still doesn’t look right, just let me know and I’ll make sure this gets sorted for you 👍\n[03:46:14 PM] Andrea Hernandez: I completely understand the frustration — thanks for your patience with this.\n\nAt the moment, we’re not able to process documents directly through chat. However, we’ll make sure to send you the correct secure link specifically for your Proof of Address (POA) so you can upload it properly.\n\nPlease keep an eye on your inbox (and spam/junk folder just in case) — you’ll receive the correct link shortly 📩\n\nOnce you get it, you’ll be able to upload your document safely. If anything still doesn’t look right, just let me know and I’ll make sure this gets sorted for you 👍\n[03:46:52 PM] t5003516845: Yall keep texting me the same thing. How hard is it for you all to send the right upload file for my POA!!!!!\n[03:46:52 PM] t5003516845: Yall keep texting me the same thing. How hard is it for you all to send the right upload file for my POA!!!!!\n[03:47:48 PM] Andrea Hernandez: I completely understand your frustration — you’re right to expect the correct link, and I’m really sorry this has been happening.\n\nWe’ve already flagged this, and your case has been escalated so the correct Proof of Address upload link can be sent to you.\n\nYou’ll receive the proper link by email — please keep an eye on your inbox (and spam/junk folder just in case).\n[03:47:48 PM] Andrea Hernandez: I completely understand your frustration — you’re right to expect the correct link, and I’m really sorry this has been happening.\n\nWe’ve already flagged this, and your case has been escalated so the correct Proof of Address upload link can be sent to you.\n\nYou’ll receive the proper link by email — please keep an eye on your inbox (and spam/junk folder just in case).\n[03:50:07 PM] t5003516845: I’m still waiting.\n[03:50:07 PM] t5003516845: I’m still waiting.\n[03:52:16 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you\n[03:52:16 PM] Andrea Hernandez: Thanks for your patience — we’re still actively working on this from our end.\n\nAt the moment, we haven’t received an update yet, but your case is already in progress. For now, please go ahead and submit a support ticket so everything is properly tracked.\n\nYou can do that by emailing support@jackpotdaily.com\n 📩\n\nOnce we have a resolution, we’ll send you the correct verification link for your Proof of Address (POA) via email.\n\nWe really appreciate your patience while we get this sorted for you\n[03:55:14 PM] Andrea Hernandez: Anything else I can help you with?\n[03:55:14 PM] Andrea Hernandez: Anything else I can help you with?\n[03:57:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[03:57:22 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T16:00:11.039Z"
+    },
+    {
+      "chat_id": "2047345276539940864",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T16:03:28.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Simple 'Hello' is professional but minimal, no personalization or warmth."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent correctly understood the issue and restated it, though no clarifying questions were asked about the transaction details."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Clear explanation of policy, provided alternative action (contact bank), and set appropriate expectations about final sales."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Professional and clear with appropriate empathy, though somewhat template-like in delivery."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Followed policy correctly, made no unauthorized promises, and appropriately directed customer to bank for disputes."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "No proper closing, no offer for further assistance, and no goodbye after delivering the resolution."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 68,
+      "grade": "D",
+      "summary": "Agent correctly identified the issue and provided accurate policy information with an appropriate alternative solution. However, the interaction lacked a proper closing and could have been more personalized.",
+      "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and offering a proper farewell, even when delivering unfavorable news.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[04:02:06 PM] t2973690564: Full Name: t2973690564 Email Address: ashlyahrens18@gmail.com Subject / How can we help you?: I paid with the wrong card and need that money refunded\n[04:02:06 PM] t2973690564: Full Name: t2973690564 Email Address: ashlyahrens18@gmail.com Subject / How can we help you?: I paid with the wrong card and need that money refunded\n[04:02:34 PM] Diana Lopez: Hello!\n[04:02:34 PM] Diana Lopez: Hello!\n[04:02:53 PM] Diana Lopez: I understand you used the wrong card for your purchase and you'd like a refund.\n\nOnce a purchase is completed, we cannot refund or transfer the payment to a different card. All sales are final.\n\nIf you believe this was an unauthorized transaction, please contact your bank directly to dispute the charge. Our team will cooperate with any investigation they open.\n\nI'm sorry I couldn't provide a better outcome for you in this case\n[04:02:53 PM] Diana Lopez: I understand you used the wrong card for your purchase and you'd like a refund.\n\nOnce a purchase is completed, we cannot refund or transfer the payment to a different card. All sales are final.\n\nIf you believe this was an unauthorized transaction, please contact your bank directly to dispute the charge. Our team will cooperate with any investigation they open.\n\nI'm sorry I couldn't provide a better outcome for you in this case",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:04:41.720Z"
+    },
+    {
+      "chat_id": "2047344532793946112",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-23T16:02:46.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting with agent name, but no personalization or warmth beyond basic introduction."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent provided standard information without asking any clarifying questions about timing, amount, or payment method to assess the specific situation."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided general timeline information but didn't verify account details, check redemption date, or offer to investigate further before closing."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and organized response with emojis, but grammatical error in follow-up message and somewhat template-driven."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations and provided appropriate contact information for follow-up."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered alternative contact method and explained closure reason, though closed relatively quickly after only 3 minutes of waiting."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided standard redemption timeline information but didn't investigate the specific case or ask clarifying questions about when the redemption was initiated. The chat was closed after only 3 minutes of customer inactivity without attempting to gather details that could have led to more personalized assistance.",
+      "coaching_tip": "Before providing generic timeline information, ask when the redemption was initiated and check the account to verify status and provide specific guidance based on the actual transaction date.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[03:59:09 PM] t2097730223: Full Name: t2097730223 Email Address: glorbozorb@gmail.com Subject / How can we help you?: Redemption say succesful but haven’t recieved\n[03:59:09 PM] t2097730223: Full Name: t2097730223 Email Address: glorbozorb@gmail.com Subject / How can we help you?: Redemption say succesful but haven’t recieved\n[03:59:21 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[03:59:21 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:00:05 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nSo if you’re still within that timeframe, everything is progressing normally 👍\n[04:00:05 PM] Andrea Hernandez: Thanks for reaching out! If your redemption shows as successful, that means it has already been approved and sent to your bank from our end 🎉\n\nAt this point, it’s just pending your bank’s processing time. Here’s what to expect:\n\nACH transfers: can take up to 10 business days\n\nSo if you’re still within that timeframe, everything is progressing normally 👍\n[04:01:54 PM] Andrea Hernandez: I have not get any response from you, please let me know if you still there?\n[04:01:54 PM] Andrea Hernandez: I have not get any response from you, please let me know if you still there?\n[04:02:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:02:41 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:04:51.523Z"
+    },
+    {
+      "chat_id": "2047342973355913216",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-23T16:01:27.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Understood the document verification question and provided comprehensive list of typical requirements."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear document list, upload instructions, and clarified process when customer asked follow-up questions."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and informative but had minor grammar error in final instruction ('you will be approve')."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed proper verification procedures and directed customer to official upload channel, no violations."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance appropriately, though slightly premature given the passive wait situation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 68,
+      "grade": "D",
+      "summary": "Agent provided comprehensive document verification guidance and properly directed the customer to the official upload process. Communication was functional and compliant, though the greeting lacked warmth and there was a minor grammar error.",
+      "coaching_tip": "Personalize your greeting by using the customer's name when available to create a warmer, more engaging interaction from the start.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[03:52:57 PM] t2842746769: Full Name: t2842746769 Email Address: akosikov@gmail.com Subject / How can we help you?: It says I have to submit additional documents. What documents do you need from me?\n[03:52:57 PM] t2842746769: Full Name: t2842746769 Email Address: akosikov@gmail.com Subject / How can we help you?: It says I have to submit additional documents. What documents do you need from me?\n[03:53:11 PM] Diana Lopez: Hello!\n[03:53:11 PM] Diana Lopez: Hello!\n[03:53:34 PM] t2842746769: Hello please let me know what documents you need from me\n[03:53:34 PM] t2842746769: Hello please let me know what documents you need from me\n[03:53:43 PM] Diana Lopez: Thanks for letting me know! If the system is asking for additional documents, it usually means we just need a bit more information to fully complete your verification.\n\nTypically, you may be asked to provide one of the following:\n\n• A valid government-issued ID (driver’s license, passport, or state ID)\n• A selfie holding your ID (for identity confirmation)\n• Proof of address (such as a utility bill or bank statement dated within the last 90 days)\n• A screenshot or statement showing your payment method (if you’ve made a purchase)\n\nPlease make sure that all images are clear, show all four corners, and that your name and details match your account exactly.\n\nYou can upload these directly through the verification section on your account. Once submitted, our team will review them as quickly as possible.\n[03:53:43 PM] Diana Lopez: Thanks for letting me know! If the system is asking for additional documents, it usually means we just need a bit more information to fully complete your verification.\n\nTypically, you may be asked to provide one of the following:\n\n• A valid government-issued ID (driver’s license, passport, or state ID)\n• A selfie holding your ID (for identity confirmation)\n• Proof of address (such as a utility bill or bank statement dated within the last 90 days)\n• A screenshot or statement showing your payment method (if you’ve made a purchase)\n\nPlease make sure that all images are clear, show all four corners, and that your name and details match your account exactly.\n\nYou can upload these directly through the verification section on your account. Once submitted, our team will review them as quickly as possible.\n[03:54:57 PM] t2842746769: Can I send here?\n[03:54:57 PM] t2842746769: Can I send here?\n[03:55:36 PM] Diana Lopez: No, you will need to use the link received via email\n[03:55:36 PM] Diana Lopez: No, you will need to use the link received via email\n[03:56:28 PM] t2842746769: I have done it\n[03:56:28 PM] t2842746769: I have done it\n[03:57:47 PM] Diana Lopez: In that case just wait for the verification team review all documents and you will be approve.\n[03:57:47 PM] Diana Lopez: In that case just wait for the verification team review all documents and you will be approve.\n[03:59:29 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[03:59:29 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T16:05:02.229Z"
     }
   ]
 }
