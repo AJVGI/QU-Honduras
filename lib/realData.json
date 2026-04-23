@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-23T18:54:57.206Z",
-  "total_chats": 293,
+  "scored_at": "2026-04-23T19:09:43.954Z",
+  "total_chats": 294,
   "total_agents": 24,
   "agents": [
     {
@@ -744,11 +744,56 @@
           "raw_transcript": "[06:11:39 PM] Customer: Full Name: Derek Gobeli Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[06:11:39 PM] Customer: Full Name: Derek Gobeli Email Address: derek.gobeli.24@gmail.com Subject / How can we help you?: I got an email saying my redemption was successful but still haven't received my winnings. Why not?\n[06:11:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:11:59 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:12:31 PM] Customer: Ok thank you\n[06:12:31 PM] Customer: Ok thank you\n[06:14:05 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:14:05 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:15:32 PM] Marcos Avila: Hey Derek Gobeli! Woohoo, congrats on the winnings!\n\nIf you’ve received the email saying your redemption was successful, it means the request has been approved and processed on our end. The time it takes to actually land in your account depends on the payment method you selected:\n\nDebit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n\nA couple of things to keep in mind:\n\nWe don't process redemptions on weekends, so if your approval came through late Friday, the clock usually starts on Monday.\n\nIf you used a Debit Card, some banks may take an extra day to post the funds to your statement.\n\nTo see the exact status and method used, you can always check your history:\n\nLog in at www.jackpotdaily.com\n\nClick the Transaction tab in the left-hand sidebar\n\nSwitch to the Redemption tab\n[06:15:32 PM] Marcos Avila: Hey Derek Gobeli! Woohoo, congrats on the winnings!\n\nIf you’ve received the email saying your redemption was successful, it means the request has been approved and processed on our end. The time it takes to actually land in your account depends on the payment method you selected:\n\nDebit Card: This is our fastest option, but it still usually takes 1–3 business days to show up in your bank balance.\n\nSkrill: Generally takes 1–3 business days.\n\nACH Bank Transfer: This can take up to 10 business days total to fully clear through the banking system.\n\nA couple of things to keep in mind:\n\nWe don't process redemptions on weekends, so if your approval came through late Friday, the clock usually starts on Monday.\n\nIf you used a Debit Card, some banks may take an extra day to post the funds to your statement.\n\nTo see the exact status and method used, you can always check your history:\n\nLog in at www.jackpotdaily.com\n\nClick the Transaction tab in the left-hand sidebar\n\nSwitch to the Redemption tab\n[06:19:34 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:19:34 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:22:37 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T18:25:04.109Z"
+        },
+        {
+          "chat_id": "2047384085830873088",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-23T19:06:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly and welcoming greeting with offer to help, though slightly delayed after initial hold message."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the Golden Egg issue and reviewed account details, though could have asked more clarifying questions earlier."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided clear explanation of the promotion timeline but then escalated when customer questioned the 48hr timeframe, leaving issue unresolved in chat."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Professional and clear with good patience updates, though the final message was somewhat confusing with mixed messaging about escalation and pulling up information."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, explained promotion terms appropriately and escalated when needed."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Chat appears to end abruptly with no proper closing, farewell, or confirmation that customer's concern was addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided a competent response with clear explanation of the Golden Egg promotion timeline and appropriate escalation. However, the interaction lacked a proper closing and left ambiguity about whether the 24hr vs 48hr discrepancy was resolved.",
+          "coaching_tip": "Always provide a clear closing statement and ensure customer questions are fully addressed before ending the chat, especially when there's a discrepancy about promotion terms.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:54 PM] Customer: Okay thank you\n[06:40:54 PM] Customer: Okay thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:44:01 PM] Customer: Okay\n[06:44:01 PM] Customer: Okay\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T19:09:43.454Z"
         }
       ],
       "avg_score": 65,
       "grade": "D",
-      "trend": -6
+      "trend": -2
     },
     {
       "id": "5801",
@@ -26590,6 +26635,51 @@
       "raw_transcript": "[06:46:34 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:46:34 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: Still no email with the right info to upload my POA??!!!\n[06:46:52 PM] Diana Lopez: Hello\n[06:46:52 PM] Diana Lopez: Hello\n[06:47:15 PM] t5003516845: In don’t see that option too upload address\n[06:47:15 PM] t5003516845: In don’t see that option too upload address\n[06:48:32 PM] Diana Lopez: if you don't see the option to upload your Proof of Address in your account, that means your account is not yet at that stage of verification.\n\nThe verification process is:\n*1. Upload government-issued ID first*\n2. Once ID is verified, the option to upload Proof of Address will appear\n\nIf you've already uploaded your ID and it was approved, the POA option should show up. If it's not showing up, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience\n[06:48:32 PM] Diana Lopez: if you don't see the option to upload your Proof of Address in your account, that means your account is not yet at that stage of verification.\n\nThe verification process is:\n*1. Upload government-issued ID first*\n2. Once ID is verified, the option to upload Proof of Address will appear\n\nIf you've already uploaded your ID and it was approved, the POA option should show up. If it's not showing up, please let me know and I will make sure our team looks into it for you.\n\nThank you for your patience\n[06:51:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[06:51:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-23T18:54:56.704Z"
+    },
+    {
+      "chat_id": "2047384085830873088",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-23T19:06:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Friendly and welcoming greeting with offer to help, though slightly delayed after initial hold message."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the Golden Egg issue and reviewed account details, though could have asked more clarifying questions earlier."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided clear explanation of the promotion timeline but then escalated when customer questioned the 48hr timeframe, leaving issue unresolved in chat."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Professional and clear with good patience updates, though the final message was somewhat confusing with mixed messaging about escalation and pulling up information."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, explained promotion terms appropriately and escalated when needed."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Chat appears to end abruptly with no proper closing, farewell, or confirmation that customer's concern was addressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent provided a competent response with clear explanation of the Golden Egg promotion timeline and appropriate escalation. However, the interaction lacked a proper closing and left ambiguity about whether the 24hr vs 48hr discrepancy was resolved.",
+      "coaching_tip": "Always provide a clear closing statement and ensure customer questions are fully addressed before ending the chat, especially when there's a discrepancy about promotion terms.",
+      "website": "Jackpot Daily",
+      "message_count": 30,
+      "raw_transcript": "[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:19 PM] Customer: Full Name: t6211824076 Email Address: assychopper@gmail.com Subject / How can we help you?: Christina please\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:36:39 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:37:18 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:21 PM] Customer: I've registered and verified my account. I can't find this golden egg.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:38:47 PM] Marcos Avila: Give me a moment to review this information.\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:39:25 PM] Customer: Screenshot_20260423_133403_Gmail.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:02 PM] Customer: Screenshot_20260423_132029_Chrome.jpg\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:13 PM] Marcos Avila: Bear with me for just a moment while I take a look at your account!\n[06:40:54 PM] Customer: Okay thank you\n[06:40:54 PM] Customer: Okay thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:14 PM] Customer: Thank you\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:43:33 PM] Marcos Avila: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:44:01 PM] Customer: Okay\n[06:44:01 PM] Customer: Okay\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:48:20 PM] Marcos Avila: Thank you for your patience while we work through your account review.\n\nI can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 5 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf you have any questions or need guidance, please don't hesitate to contact us again — we're here to help make this as smooth as possible.\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:52:54 PM] Customer: I thought it was 48hrs\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!\n[06:56:09 PM] Marcos Avila: I want to let you know that I have officially escalated your case to our Technical Support team. They are already actively working on this situation to provide you with a resolution as quickly as possible.\nOne sec  — Just pulling that information up for you!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-23T19:09:43.454Z"
     }
   ]
 }
