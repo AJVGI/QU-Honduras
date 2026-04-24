@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T13:49:42.959Z",
-  "total_chats": 502,
+  "scored_at": "2026-04-24T13:59:51.775Z",
+  "total_chats": 504,
   "total_agents": 26,
   "agents": [
     {
@@ -4191,11 +4191,56 @@
           "raw_transcript": "[01:38:46 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:38:46 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:39:07 PM] Customer: ??\n[01:39:07 PM] Customer: ??\n[01:39:13 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[01:39:13 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[01:41:47 PM] Diana Lopez: Hi — here's where to go to verify your KYC:\n\n1. Log in to your account at www.jackpotdaily.com\n2. Click on 'Buy Gold Coins' or your balance at the top of the page\n3. Look for and click 'Get Verified' or 'Verify Account'\n*4. Follow the prompts to upload your government-issued ID and complete the verification process*\n\nAlternatively, you can go to:\n- Click on 'Profile' or your account icon\n- Select 'Verification' or 'KYC' from the menu\n- Follow the steps to upload your documents\n\nOnce your ID is verified, you will be able to upload your Proof of Address if needed.\n\nLet me know if you need further help finding the verification section.\n[01:41:47 PM] Diana Lopez: Hi — here's where to go to verify your KYC:\n\n1. Log in to your account at www.jackpotdaily.com\n2. Click on 'Buy Gold Coins' or your balance at the top of the page\n3. Look for and click 'Get Verified' or 'Verify Account'\n*4. Follow the prompts to upload your government-issued ID and complete the verification process*\n\nAlternatively, you can go to:\n- Click on 'Profile' or your account icon\n- Select 'Verification' or 'KYC' from the menu\n- Follow the steps to upload your documents\n\nOnce your ID is verified, you will be able to upload your Proof of Address if needed.\n\nLet me know if you need further help finding the verification section.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T13:49:42.458Z"
+        },
+        {
+          "chat_id": "2047673913562673152",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T13:52:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with immediate acknowledgment, though no personalized name usage."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent clearly understood and summarized the issue accurately, demonstrating good comprehension of the problem."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent acknowledged the problem, explained expected behavior, and escalated appropriately by noting the account for team review."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic communication with appropriate apology and concise explanation of next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent appropriately escalated without making unauthorized promises about specific outcomes."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Friendly closing with offer for further assistance, though slightly abrupt given no customer confirmation between messages."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Diana handled this well by acknowledging the customer's frustration, clearly explaining the expected process, and escalating the issue appropriately. The communication was empathetic and professional throughout with a proper closing offer for additional help.",
+          "coaching_tip": "Before closing, wait for customer acknowledgment or confirmation that they're satisfied with the escalation plan rather than assuming resolution from silence.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[01:47:59 PM] t3304385783: Full Name: t3304385783 Email Address: sydjohnson1233@gmail.com Subject / How can we help you?: I'm trying to get my golden egg for verification but Its not showing up, I was told to email in and I did but have not heard back and it's been days\n[01:47:59 PM] t3304385783: Full Name: t3304385783 Email Address: sydjohnson1233@gmail.com Subject / How can we help you?: I'm trying to get my golden egg for verification but Its not showing up, I was told to email in and I did but have not heard back and it's been days\n[01:48:50 PM] Diana Lopez: Hi — I understand your frustration. You completed verification, your Golden Egg hasn't shown up, you emailed support, and it's been days with no response. That's not right, and I'm sorry.\n\nThe Golden Egg should appear automatically on your main lobby screen after KYC verification is fully completed. If it's been days and you still don't see it, something is wrong.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[01:48:50 PM] Diana Lopez: Hi — I understand your frustration. You completed verification, your Golden Egg hasn't shown up, you emailed support, and it's been days with no response. That's not right, and I'm sorry.\n\nThe Golden Egg should appear automatically on your main lobby screen after KYC verification is fully completed. If it's been days and you still don't see it, something is wrong.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[01:50:51 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[01:50:51 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:59:51.274Z"
         }
       ],
       "avg_score": 63,
       "grade": "D",
-      "trend": 6
+      "trend": 3
     },
     {
       "id": "5808",
@@ -22299,11 +22344,56 @@
           "raw_transcript": "[01:32:09 PM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: How long does redemption take\n[01:32:09 PM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: How long does redemption take\n[01:32:36 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:32:36 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:34:14 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days tota\n You need to wait 24-72 hours for the request pass the first and second approval , and then  you gonna be credited depending on your method\n[01:34:14 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days tota\n You need to wait 24-72 hours for the request pass the first and second approval , and then  you gonna be credited depending on your method\n[01:35:32 PM] t3625261861: The status updated to redemption successful but nothing in my account\n[01:35:32 PM] t3625261861: The status updated to redemption successful but nothing in my account\n[01:35:54 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:35:54 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:36:56 PM] Evelyn Portillo: the request of the 23 of this month is already paid the request amount is 450\n[01:36:56 PM] Evelyn Portillo: the request of the 23 of this month is already paid the request amount is 450\n[01:39:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:39:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:42:47 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:42:47 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T13:45:03.744Z"
+        },
+        {
+          "chat_id": "2047671599656550400",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T13:53:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into asking for a moment to investigate without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent asked relevant clarifying questions about task completion and purchase status, though took considerable time to investigate."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent confirmed the task was claimed and bonus received on their end, explained possible delay, which appropriately addressed the issue."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Communication was generally clear but marred by multiple typos and grammatical errors in the final resolution message."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made, stayed within appropriate boundaries."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and provided a warm closing with good luck wishes, though slightly abrupt given the unresolved visual discrepancy."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "Agent handled the task completion inquiry adequately by investigating and confirming the bonus was credited on the backend, explaining a possible display delay. However, the interaction lacked a proper greeting and contained noticeable spelling/grammar errors that detracted from professionalism.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name when available, and proofread messages before sending to avoid typos like 'reeive' and 'propably' that undermine professionalism.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:29 PM] Customer: Thank you!\n[01:39:29 PM] Customer: Thank you!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:59:42.849Z"
         }
       ],
-      "avg_score": 44,
+      "avg_score": 47,
       "grade": "F",
-      "trend": -2
+      "trend": -8
     },
     {
       "id": "5839",
@@ -45418,6 +45508,96 @@
       "raw_transcript": "[01:38:46 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:38:46 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:39:07 PM] Customer: ??\n[01:39:07 PM] Customer: ??\n[01:39:13 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[01:39:13 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[01:41:47 PM] Diana Lopez: Hi — here's where to go to verify your KYC:\n\n1. Log in to your account at www.jackpotdaily.com\n2. Click on 'Buy Gold Coins' or your balance at the top of the page\n3. Look for and click 'Get Verified' or 'Verify Account'\n*4. Follow the prompts to upload your government-issued ID and complete the verification process*\n\nAlternatively, you can go to:\n- Click on 'Profile' or your account icon\n- Select 'Verification' or 'KYC' from the menu\n- Follow the steps to upload your documents\n\nOnce your ID is verified, you will be able to upload your Proof of Address if needed.\n\nLet me know if you need further help finding the verification section.\n[01:41:47 PM] Diana Lopez: Hi — here's where to go to verify your KYC:\n\n1. Log in to your account at www.jackpotdaily.com\n2. Click on 'Buy Gold Coins' or your balance at the top of the page\n3. Look for and click 'Get Verified' or 'Verify Account'\n*4. Follow the prompts to upload your government-issued ID and complete the verification process*\n\nAlternatively, you can go to:\n- Click on 'Profile' or your account icon\n- Select 'Verification' or 'KYC' from the menu\n- Follow the steps to upload your documents\n\nOnce your ID is verified, you will be able to upload your Proof of Address if needed.\n\nLet me know if you need further help finding the verification section.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T13:49:42.458Z"
+    },
+    {
+      "chat_id": "2047671599656550400",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T13:53:07.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped directly into asking for a moment to investigate without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent asked relevant clarifying questions about task completion and purchase status, though took considerable time to investigate."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent confirmed the task was claimed and bonus received on their end, explained possible delay, which appropriately addressed the issue."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Communication was generally clear but marred by multiple typos and grammatical errors in the final resolution message."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made, stayed within appropriate boundaries."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further help and provided a warm closing with good luck wishes, though slightly abrupt given the unresolved visual discrepancy."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 66,
+      "grade": "D",
+      "summary": "Agent handled the task completion inquiry adequately by investigating and confirming the bonus was credited on the backend, explaining a possible display delay. However, the interaction lacked a proper greeting and contained noticeable spelling/grammar errors that detracted from professionalism.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name when available, and proofread messages before sending to avoid typos like 'reeive' and 'propably' that undermine professionalism.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:29 PM] Customer: Thank you!\n[01:39:29 PM] Customer: Thank you!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T13:59:42.849Z"
+    },
+    {
+      "chat_id": "2047673913562673152",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T13:52:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with immediate acknowledgment, though no personalized name usage."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent clearly understood and summarized the issue accurately, demonstrating good comprehension of the problem."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent acknowledged the problem, explained expected behavior, and escalated appropriately by noting the account for team review."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, empathetic communication with appropriate apology and concise explanation of next steps."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent appropriately escalated without making unauthorized promises about specific outcomes."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Friendly closing with offer for further assistance, though slightly abrupt given no customer confirmation between messages."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 75,
+      "grade": "C",
+      "summary": "Diana handled this well by acknowledging the customer's frustration, clearly explaining the expected process, and escalating the issue appropriately. The communication was empathetic and professional throughout with a proper closing offer for additional help.",
+      "coaching_tip": "Before closing, wait for customer acknowledgment or confirmation that they're satisfied with the escalation plan rather than assuming resolution from silence.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[01:47:59 PM] t3304385783: Full Name: t3304385783 Email Address: sydjohnson1233@gmail.com Subject / How can we help you?: I'm trying to get my golden egg for verification but Its not showing up, I was told to email in and I did but have not heard back and it's been days\n[01:47:59 PM] t3304385783: Full Name: t3304385783 Email Address: sydjohnson1233@gmail.com Subject / How can we help you?: I'm trying to get my golden egg for verification but Its not showing up, I was told to email in and I did but have not heard back and it's been days\n[01:48:50 PM] Diana Lopez: Hi — I understand your frustration. You completed verification, your Golden Egg hasn't shown up, you emailed support, and it's been days with no response. That's not right, and I'm sorry.\n\nThe Golden Egg should appear automatically on your main lobby screen after KYC verification is fully completed. If it's been days and you still don't see it, something is wrong.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[01:48:50 PM] Diana Lopez: Hi — I understand your frustration. You completed verification, your Golden Egg hasn't shown up, you emailed support, and it's been days with no response. That's not right, and I'm sorry.\n\nThe Golden Egg should appear automatically on your main lobby screen after KYC verification is fully completed. If it's been days and you still don't see it, something is wrong.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[01:50:51 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[01:50:51 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T13:59:51.274Z"
     }
   ]
 }
