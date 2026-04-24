@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T04:04:50.177Z",
-  "total_chats": 401,
+  "scored_at": "2026-04-24T04:09:40.765Z",
+  "total_chats": 402,
   "total_agents": 25,
   "agents": [
     {
@@ -5919,11 +5919,56 @@
           "raw_transcript": "[03:45:31 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:45:31 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:45:50 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:45:50 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:46:45 AM] Jonathan Fuentes: You’re absolutely right — Utah is not a restricted state, so you should be able to access the platform and enjoy gameplay without any issues.\n\nIf you’re running into anything that’s preventing you from playing, please let us know and we’ll be happy to take a closer look and get things sorted for you.\n[03:46:45 AM] Jonathan Fuentes: You’re absolutely right — Utah is not a restricted state, so you should be able to access the platform and enjoy gameplay without any issues.\n\nIf you’re running into anything that’s preventing you from playing, please let us know and we’ll be happy to take a closer look and get things sorted for you.\n[03:48:05 AM] Customer: It won't let me sign up it won't let me sign up\n[03:48:05 AM] Customer: It won't let me sign up it won't let me sign up\n[03:48:16 AM] Jonathan Fuentes: If the system is showing otherwise, it’s usually related to how your location is being detected.\n\nThis can happen due to:\n\nA VPN or proxy being active\nLocation permissions not fully enabled in your browser\nYour network/ISP routing through a different state\n\nI recommend trying the following:\n\nMake sure any VPN or proxy is turned off\nEnable location permissions for your browser\nSwitch between Wi-Fi and mobile data\nRestart your device and try again\n\nIf it’s still not recognizing your correct location after that, let me know and I’ll help you take the next step\n[03:48:16 AM] Jonathan Fuentes: If the system is showing otherwise, it’s usually related to how your location is being detected.\n\nThis can happen due to:\n\nA VPN or proxy being active\nLocation permissions not fully enabled in your browser\nYour network/ISP routing through a different state\n\nI recommend trying the following:\n\nMake sure any VPN or proxy is turned off\nEnable location permissions for your browser\nSwitch between Wi-Fi and mobile data\nRestart your device and try again\n\nIf it’s still not recognizing your correct location after that, let me know and I’ll help you take the next step\n[03:49:55 AM] Customer: Ok\n[03:49:55 AM] Customer: Ok\n[03:50:21 AM] Jonathan Fuentes: I'm here if you need any more help.\n[03:50:21 AM] Jonathan Fuentes: I'm here if you need any more help.\n[03:53:01 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:53:01 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:54:00 AM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:54:00 AM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:54:43.945Z"
+        },
+        {
+          "chat_id": "2047525208717045760",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-24T04:05:42.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions to understand the missing coins issue and confirmed the amount, though could have been more proactive earlier."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent checked the account, confirmed balance was present, and provided troubleshooting steps, though the message appears cut off at the end."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Communication was clear and professional but somewhat mechanical; the cut-off message at the end reduces clarity."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises; handled account information appropriately."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No proper closing; the transcript ends abruptly with an incomplete troubleshooting instruction and no follow-up confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent handled the technical issue adequately by checking the account and providing troubleshooting steps, but failed to provide any greeting and left the conversation incomplete. The resolution was on track but communication lacked warmth and proper closure.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, and ensure messages are complete before sending—the troubleshooting steps were cut off mid-instruction.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[03:57:05 AM] Customer: Full Name: Jennifer Abernathy Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[03:57:05 AM] Customer: Full Name: Jennifer Abernathy Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[03:57:26 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:57:26 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:59:13 AM] Jonathan Fuentes: Can I please have more specific information about the situation?\n[03:59:13 AM] Jonathan Fuentes: Can I please have more specific information about the situation?\n[03:59:40 AM] Customer: I made a purchase my first\\nCoins and another\n[03:59:40 AM] Customer: I made a purchase my first\\nCoins and another\n[03:59:48 AM] Customer: Now it's not there , I didn't play them\n[03:59:48 AM] Customer: Now it's not there , I didn't play them\n[04:00:03 AM] Jonathan Fuentes: How many coins did you purchased?\n[04:00:03 AM] Jonathan Fuentes: How many coins did you purchased?\n[04:00:51 AM] Customer: Nine ninety nine thirty , because I was a deal\n[04:00:51 AM] Customer: Nine ninety nine thirty , because I was a deal\n[04:01:25 AM] Customer: Screenshot_20260423_230111_Chrome.jpg\n[04:01:25 AM] Customer: Screenshot_20260423_230111_Chrome.jpg\n[04:02:51 AM] Jonathan Fuentes: So you received 30 SC, am I correct?\n[04:02:51 AM] Jonathan Fuentes: So you received 30 SC, am I correct?\n[04:03:02 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:03:02 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:05:37 AM] Jonathan Fuentes: I checked your account and I can still see the 30 SC balance available 👍\n\nIf you’re not seeing it reflected on your end, please try the following:\n\nLog out of your account\nWait about 2 minutes\nLog\n\nlet me know if this works.\n[04:05:37 AM] Jonathan Fuentes: I checked your account and I can still see the 30 SC balance available 👍\n\nIf you’re not seeing it reflected on your end, please try the following:\n\nLog out of your account\nWait about 2 minutes\nLog\n\nlet me know if this works.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:09:40.264Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 8
+      "trend": 0
     },
     {
       "id": "5847",
@@ -36319,6 +36364,51 @@
       "raw_transcript": "[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T04:04:49.677Z"
+    },
+    {
+      "chat_id": "2047525208717045760",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-24T04:05:42.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions to understand the missing coins issue and confirmed the amount, though could have been more proactive earlier."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Agent checked the account, confirmed balance was present, and provided troubleshooting steps, though the message appears cut off at the end."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Communication was clear and professional but somewhat mechanical; the cut-off message at the end reduces clarity."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises; handled account information appropriately."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No proper closing; the transcript ends abruptly with an incomplete troubleshooting instruction and no follow-up confirmation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent handled the technical issue adequately by checking the account and providing troubleshooting steps, but failed to provide any greeting and left the conversation incomplete. The resolution was on track but communication lacked warmth and proper closure.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name, and ensure messages are complete before sending—the troubleshooting steps were cut off mid-instruction.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[03:57:05 AM] Customer: Full Name: Jennifer Abernathy Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[03:57:05 AM] Customer: Full Name: Jennifer Abernathy Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[03:57:26 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:57:26 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:59:13 AM] Jonathan Fuentes: Can I please have more specific information about the situation?\n[03:59:13 AM] Jonathan Fuentes: Can I please have more specific information about the situation?\n[03:59:40 AM] Customer: I made a purchase my first\\nCoins and another\n[03:59:40 AM] Customer: I made a purchase my first\\nCoins and another\n[03:59:48 AM] Customer: Now it's not there , I didn't play them\n[03:59:48 AM] Customer: Now it's not there , I didn't play them\n[04:00:03 AM] Jonathan Fuentes: How many coins did you purchased?\n[04:00:03 AM] Jonathan Fuentes: How many coins did you purchased?\n[04:00:51 AM] Customer: Nine ninety nine thirty , because I was a deal\n[04:00:51 AM] Customer: Nine ninety nine thirty , because I was a deal\n[04:01:25 AM] Customer: Screenshot_20260423_230111_Chrome.jpg\n[04:01:25 AM] Customer: Screenshot_20260423_230111_Chrome.jpg\n[04:02:51 AM] Jonathan Fuentes: So you received 30 SC, am I correct?\n[04:02:51 AM] Jonathan Fuentes: So you received 30 SC, am I correct?\n[04:03:02 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:03:02 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:05:37 AM] Jonathan Fuentes: I checked your account and I can still see the 30 SC balance available 👍\n\nIf you’re not seeing it reflected on your end, please try the following:\n\nLog out of your account\nWait about 2 minutes\nLog\n\nlet me know if this works.\n[04:05:37 AM] Jonathan Fuentes: I checked your account and I can still see the 30 SC balance available 👍\n\nIf you’re not seeing it reflected on your end, please try the following:\n\nLog out of your account\nWait about 2 minutes\nLog\n\nlet me know if this works.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:09:40.264Z"
     }
   ]
 }
