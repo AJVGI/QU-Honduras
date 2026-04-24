@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:44:40.346Z",
-  "total_chats": 393,
+  "scored_at": "2026-04-24T03:49:49.583Z",
+  "total_chats": 395,
   "total_agents": 25,
   "agents": [
     {
@@ -7143,11 +7143,56 @@
           "raw_transcript": "[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:44:39.846Z"
+        },
+        {
+          "chat_id": "2047521426822754304",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-24T03:45:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting whatsoever; agent jumped directly into the response without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic request but did not ask clarifying questions about which transaction or attempt to verify customer identity before discussing payment details."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent appropriately explained privacy limitations and provided the available information (payment processing date), which partially addressed the customer's question."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional explanation of limitations, though the lack of any personalization or empathy for the customer's concern was notable."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly followed security protocols by not disclosing sensitive banking information and maintained appropriate privacy boundaries."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and attempted to close professionally, though it came quickly after the initial response without waiting for customer acknowledgment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent handled the security and privacy aspects well by refusing to share sensitive banking details while providing available information. However, the complete absence of a greeting and minimal customer engagement significantly detracted from the overall service quality.",
+          "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name to establish rapport before addressing their concern.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[03:42:03 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:42:03 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:42:57 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:42:57 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:44:31 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:44:31 AM] Jonathan Fuentes: Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:49:49.081Z"
         }
       ],
       "avg_score": 58,
       "grade": "F",
-      "trend": 9
+      "trend": 11
     },
     {
       "id": "5669",
@@ -13182,11 +13227,56 @@
           "raw_transcript": "[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:29:42.003Z"
+        },
+        {
+          "chat_id": "2047522036824977408",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T03:48:55.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Agent said 'Hi' and gave name but no warmth, personalization, or proper greeting structure."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the customer's concern about Utah restrictions and addressed it directly without unnecessary probing."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent correctly confirmed Utah is not restricted and customer can access service, resolving the concern appropriately."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional but minimal engagement; message duplication appears to be a system issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about territorial restrictions."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Friendly closing with well-wishes for gaming, though could have explicitly offered further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent handled a straightforward territorial restriction inquiry competently, providing accurate information that Utah is not restricted. Communication was functional but lacked warmth and the greeting was minimal.",
+          "coaching_tip": "Open with a warmer, more complete greeting that acknowledges the customer by name and thanks them for contacting support before diving into account review.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[03:44:29 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:44:29 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:44:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:44:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:45:15 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:45:15 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:46:23 AM] Ana Erazo: In this case, please note that Utah is not considered a restricted state, so you should be able to access the service without issues.\n[03:46:23 AM] Ana Erazo: In this case, please note that Utah is not considered a restricted state, so you should be able to access the service without issues.\n[03:48:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:48:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:49:39.512Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 6
+      "trend": 14
     },
     {
       "id": "5842",
@@ -35599,6 +35689,96 @@
       "raw_transcript": "[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:44:39.846Z"
+    },
+    {
+      "chat_id": "2047522036824977408",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T03:48:55.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Agent said 'Hi' and gave name but no warmth, personalization, or proper greeting structure."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the customer's concern about Utah restrictions and addressed it directly without unnecessary probing."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Agent correctly confirmed Utah is not restricted and customer can access service, resolving the concern appropriately."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional but minimal engagement; message duplication appears to be a system issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate information about territorial restrictions."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Friendly closing with well-wishes for gaming, though could have explicitly offered further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 68,
+      "grade": "D",
+      "summary": "Agent handled a straightforward territorial restriction inquiry competently, providing accurate information that Utah is not restricted. Communication was functional but lacked warmth and the greeting was minimal.",
+      "coaching_tip": "Open with a warmer, more complete greeting that acknowledges the customer by name and thanks them for contacting support before diving into account review.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[03:44:29 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:44:29 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:44:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:44:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:45:15 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:45:15 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:46:23 AM] Ana Erazo: In this case, please note that Utah is not considered a restricted state, so you should be able to access the service without issues.\n[03:46:23 AM] Ana Erazo: In this case, please note that Utah is not considered a restricted state, so you should be able to access the service without issues.\n[03:48:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:48:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:49:39.512Z"
+    },
+    {
+      "chat_id": "2047521426822754304",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-24T03:45:35.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting whatsoever; agent jumped directly into the response without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic request but did not ask clarifying questions about which transaction or attempt to verify customer identity before discussing payment details."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent appropriately explained privacy limitations and provided the available information (payment processing date), which partially addressed the customer's question."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional explanation of limitations, though the lack of any personalization or empathy for the customer's concern was notable."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly followed security protocols by not disclosing sensitive banking information and maintained appropriate privacy boundaries."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance and attempted to close professionally, though it came quickly after the initial response without waiting for customer acknowledgment."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent handled the security and privacy aspects well by refusing to share sensitive banking details while providing available information. However, the complete absence of a greeting and minimal customer engagement significantly detracted from the overall service quality.",
+      "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name to establish rapport before addressing their concern.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[03:42:03 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:42:03 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:42:57 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:42:57 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:44:31 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:44:31 AM] Jonathan Fuentes: Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:49:49.081Z"
     }
   ]
 }
