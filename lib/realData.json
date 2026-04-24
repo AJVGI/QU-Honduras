@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T18:24:43.468Z",
-  "total_chats": 557,
+  "scored_at": "2026-04-24T18:29:44.603Z",
+  "total_chats": 558,
   "total_agents": 26,
   "agents": [
     {
@@ -18519,11 +18519,56 @@
           "raw_transcript": "[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T17:34:47.514Z"
+        },
+        {
+          "chat_id": "2047743108690833408",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-24T18:27:04.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped straight into 'one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent provided generic redemption instructions without first checking the customer's account or asking clarifying questions about the $100 win."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent failed to check the account as requested, gave confusing explanation about playthrough requirements, and left customer confused without resolution."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Initial instructions were clear but the final explanation about raffle coins and playthrough was confusing and contradictory, leaving customer lost."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations but provided information prematurely without verifying account status or eligibility first."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing at all; chat ends with confused customer and no follow-up, assistance offer, or resolution attempt."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 38,
+          "grade": "F",
+          "summary": "Agent provided generic redemption instructions without first investigating the customer's specific issue about $100 not showing. When customer clarified the problem and asked for account verification, agent gave a confusing explanation about playthrough requirements that left the customer more confused, with no resolution or proper closing.",
+          "coaching_tip": "Always check the customer's account first before providing generic instructions, especially when they report winnings not appearing—this requires investigation, not copy-paste responses.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[06:22:57 PM] t5216979672: Full Name: t5216979672 Email Address: Jaebub0205@gmail.com Subject / How can we help you?: I want to redeem my winnings\n[06:22:57 PM] t5216979672: Full Name: t5216979672 Email Address: Jaebub0205@gmail.com Subject / How can we help you?: I want to redeem my winnings\n[06:23:11 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:23:11 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:23:51 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:23:51 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:24:15 PM] Marcos Avila: Here's what we've got:\n\nDebit Card — fastest option, usually 1–3 business days\n\nACH Bank Transfer — up to 10 business days total\n\nSkrill — 1–3 business days\n\nJust a couple of things to keep in mind:\n\nWe don't process redemptions on weekends\n\nOnly one pending redemption at a time\n\nYou'll need at least 100 Sweepstakes Coins that have been played through\n\nIf speed matters most, go with the Debit Card! Any questions?\n[06:24:15 PM] Marcos Avila: Here's what we've got:\n\nDebit Card — fastest option, usually 1–3 business days\n\nACH Bank Transfer — up to 10 business days total\n\nSkrill — 1–3 business days\n\nJust a couple of things to keep in mind:\n\nWe don't process redemptions on weekends\n\nOnly one pending redemption at a time\n\nYou'll need at least 100 Sweepstakes Coins that have been played through\n\nIf speed matters most, go with the Debit Card! Any questions?\n[06:24:49 PM] t5216979672: I won $100 but it's not showing for me to redeem\n[06:24:49 PM] t5216979672: I won $100 but it's not showing for me to redeem\n[06:24:55 PM] t5216979672: Can you check\n[06:24:55 PM] t5216979672: Can you check\n[06:26:15 PM] Marcos Avila: You'll need at least 100 raffle coins that have been used in the game. First, you'll need to use them, and then you can redeem them if you still have at least 100 SC.\n[06:26:15 PM] Marcos Avila: You'll need at least 100 raffle coins that have been used in the game. First, you'll need to use them, and then you can redeem them if you still have at least 100 SC.\n[06:26:49 PM] t5216979672: I'm confused\n[06:26:49 PM] t5216979672: I'm confused",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T18:29:44.103Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -14
+      "trend": 4
     },
     {
       "id": "5836",
@@ -50368,6 +50413,51 @@
       "raw_transcript": "[06:17:27 PM] t1120088700: Full Name: t1120088700 Email Address: brucelawayne80@gmail.com Subject / How can we help you?: Checking to see if my verification is cleared\n[06:17:27 PM] t1120088700: Full Name: t1120088700 Email Address: brucelawayne80@gmail.com Subject / How can we help you?: Checking to see if my verification is cleared\n[06:17:43 PM] Diana Lopez: Hello!\n[06:17:43 PM] Diana Lopez: Hello!\n[06:19:06 PM] Diana Lopez: I understand you want to check if your verification has been cleared.\n\nVerification can take time to process. Please log into your account and go to the verification section (usually under Profile or KYC) to see your current status.\n\nIf your status shows 'Pending' or 'In Review,' our team is still working on it. You will receive an email notification once your verification is complete.\n\nThank you for your patience.\n[06:19:06 PM] Diana Lopez: I understand you want to check if your verification has been cleared.\n\nVerification can take time to process. Please log into your account and go to the verification section (usually under Profile or KYC) to see your current status.\n\nIf your status shows 'Pending' or 'In Review,' our team is still working on it. You will receive an email notification once your verification is complete.\n\nThank you for your patience.\n[06:21:59 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[06:21:59 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[06:23:09 PM] t1120088700: No thanks\n[06:23:09 PM] t1120088700: No thanks",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T18:24:42.967Z"
+    },
+    {
+      "chat_id": "2047743108690833408",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-24T18:27:04.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped straight into 'one moment' without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent provided generic redemption instructions without first checking the customer's account or asking clarifying questions about the $100 win."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Agent failed to check the account as requested, gave confusing explanation about playthrough requirements, and left customer confused without resolution."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Initial instructions were clear but the final explanation about raffle coins and playthrough was confusing and contradictory, leaving customer lost."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No major violations but provided information prematurely without verifying account status or eligibility first."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing at all; chat ends with confused customer and no follow-up, assistance offer, or resolution attempt."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 38,
+      "grade": "F",
+      "summary": "Agent provided generic redemption instructions without first investigating the customer's specific issue about $100 not showing. When customer clarified the problem and asked for account verification, agent gave a confusing explanation about playthrough requirements that left the customer more confused, with no resolution or proper closing.",
+      "coaching_tip": "Always check the customer's account first before providing generic instructions, especially when they report winnings not appearing—this requires investigation, not copy-paste responses.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[06:22:57 PM] t5216979672: Full Name: t5216979672 Email Address: Jaebub0205@gmail.com Subject / How can we help you?: I want to redeem my winnings\n[06:22:57 PM] t5216979672: Full Name: t5216979672 Email Address: Jaebub0205@gmail.com Subject / How can we help you?: I want to redeem my winnings\n[06:23:11 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:23:11 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:23:51 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:23:51 PM] Marcos Avila: Happy to walk you through it!\n\nFirst, make sure your account is fully verified — then:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nMax redemption is $1,000 per day, just so you know!\n\nLet me know if anything's not showing up or you hit a snag\n[06:24:15 PM] Marcos Avila: Here's what we've got:\n\nDebit Card — fastest option, usually 1–3 business days\n\nACH Bank Transfer — up to 10 business days total\n\nSkrill — 1–3 business days\n\nJust a couple of things to keep in mind:\n\nWe don't process redemptions on weekends\n\nOnly one pending redemption at a time\n\nYou'll need at least 100 Sweepstakes Coins that have been played through\n\nIf speed matters most, go with the Debit Card! Any questions?\n[06:24:15 PM] Marcos Avila: Here's what we've got:\n\nDebit Card — fastest option, usually 1–3 business days\n\nACH Bank Transfer — up to 10 business days total\n\nSkrill — 1–3 business days\n\nJust a couple of things to keep in mind:\n\nWe don't process redemptions on weekends\n\nOnly one pending redemption at a time\n\nYou'll need at least 100 Sweepstakes Coins that have been played through\n\nIf speed matters most, go with the Debit Card! Any questions?\n[06:24:49 PM] t5216979672: I won $100 but it's not showing for me to redeem\n[06:24:49 PM] t5216979672: I won $100 but it's not showing for me to redeem\n[06:24:55 PM] t5216979672: Can you check\n[06:24:55 PM] t5216979672: Can you check\n[06:26:15 PM] Marcos Avila: You'll need at least 100 raffle coins that have been used in the game. First, you'll need to use them, and then you can redeem them if you still have at least 100 SC.\n[06:26:15 PM] Marcos Avila: You'll need at least 100 raffle coins that have been used in the game. First, you'll need to use them, and then you can redeem them if you still have at least 100 SC.\n[06:26:49 PM] t5216979672: I'm confused\n[06:26:49 PM] t5216979672: I'm confused",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T18:29:44.103Z"
     }
   ]
 }
