@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T15:25:11.590Z",
-  "total_chats": 532,
+  "scored_at": "2026-04-24T15:34:45.838Z",
+  "total_chats": 533,
   "total_agents": 26,
   "agents": [
     {
@@ -11400,11 +11400,56 @@
           "raw_transcript": "[02:45:34 PM] t2627470285: Full Name: t2627470285 Email Address: deadwilert@gmail.com Subject / How can we help you?: I didn’t receive the daily bonus for today\n[02:45:34 PM] t2627470285: Full Name: t2627470285 Email Address: deadwilert@gmail.com Subject / How can we help you?: I didn’t receive the daily bonus for today\n[02:46:53 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:46:53 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:49:06 PM] Angie Pereira: That bonus only applies to purchases over $10, so in case you do a $9.99 purchase wouldn’t qualify for it.\n[02:49:06 PM] Angie Pereira: That bonus only applies to purchases over $10, so in case you do a $9.99 purchase wouldn’t qualify for it.\n[02:49:18 PM] t2627470285: Oh ok\n[02:49:18 PM] t2627470285: Oh ok\n[02:50:27 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:50:27 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:52:36 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:52:36 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T14:54:45.706Z"
+        },
+        {
+          "chat_id": "2047697055450443776",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-24T15:30:53.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name initially."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent provided generic information without asking clarifying questions about verification timing or when customer attempted to claim."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent identified the 48-hour expiration issue but failed to explore solutions or properly escalate before customer expressed frustration."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear but somewhat robotic responses that didn't acknowledge customer's specific situation until too late."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; correctly explained promotion terms and limitations."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Attempted to close professionally after customer expressed dissatisfaction, offered further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent provided accurate policy information but failed to engage with the customer's specific situation early enough, leading to frustration. The response was procedurally correct but lacked proactive problem-solving and empathy until after the customer became dissatisfied.",
+          "coaching_tip": "Ask clarifying questions earlier about verification completion date and claim attempts before providing generic policy explanations, and proactively offer escalation when a time-sensitive issue cannot be resolved.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[03:19:57 PM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[03:19:57 PM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[03:20:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:20:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:21:02 PM] t2515061554: Good morning\n[03:21:02 PM] t2515061554: Good morning\n[03:21:36 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:21:36 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:23:39 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:39 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:53 PM] t2515061554: Ok\n[03:23:53 PM] t2515061554: Ok\n[03:24:35 PM] Angie Pereira: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n\n-This reward is limited to one (1) per account.\n-Rewards are randomly distributed and cannot be exchanged.\n-Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:24:35 PM] Angie Pereira: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n\n-This reward is limited to one (1) per account.\n-Rewards are randomly distributed and cannot be exchanged.\n-Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:25:23 PM] t2515061554: I already did the verification\n[03:25:23 PM] t2515061554: I already did the verification\n[03:25:43 PM] t2515061554: This is my only account\n[03:25:43 PM] t2515061554: This is my only account\n[03:26:13 PM] Angie Pereira: You have to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:26:13 PM] Angie Pereira: You have to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:26:29 PM] t2515061554: I did not receive it\n[03:26:29 PM] t2515061554: I did not receive it\n[03:27:50 PM] t2515061554: I can see all my transactions an what I received\n[03:27:50 PM] t2515061554: I can see all my transactions an what I received\n[03:27:57 PM] Angie Pereira: Your registration was on 04-15-2026 you had 48hrs to claim it and you had to be verified first\n[03:28:39 PM] t2515061554: Yeah ok thanks for nothing good day\n[03:28:39 PM] t2515061554: Yeah ok thanks for nothing good day\n[03:29:26 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today ≤Player Name≥ — our specialist team will follow up via email very soon!\n[03:30:40 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today  — anything else you need let us know. Have a great day!\n[03:30:40 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today  — anything else you need let us know. Have a great day!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T15:34:45.338Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 1
+      "trend": 9
     },
     {
       "id": "5847",
@@ -48118,6 +48163,51 @@
       "raw_transcript": "[03:10:46 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[03:10:46 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[03:10:56 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[03:10:56 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[03:12:47 PM] Marcos Avila: Hello, it's a pleasure to assist you. Could you please provide more details about your request so we can find the right solution?\n[03:12:47 PM] Marcos Avila: Hello, it's a pleasure to assist you. Could you please provide more details about your request so we can find the right solution?\n[03:13:48 PM] t5645204337: i was just letting yall know that i submitted id and all my info into the system, i thought there was a reward for doing so?\n[03:13:48 PM] t5645204337: i was just letting yall know that i submitted id and all my info into the system, i thought there was a reward for doing so?\n[03:14:55 PM] Marcos Avila: Can you share the email address associated with your Jackpot Daily account?\n[03:14:55 PM] Marcos Avila: Can you share the email address associated with your Jackpot Daily account?\n[03:15:13 PM] t5645204337: garrettrayganese@gmail.com\n[03:15:13 PM] t5645204337: garrettrayganese@gmail.com\n[03:16:36 PM] Marcos Avila: Give me a moment to review this information.\n[03:16:36 PM] Marcos Avila: Give me a moment to review this information.\n[03:19:16 PM] Marcos Avila: You are absolutely right, there is a reward for completing that! Since you have finished your KYC (identity verification), you have unlocked the Golden Egg Welcome Offer.\n[03:19:16 PM] Marcos Avila: You are absolutely right, there is a reward for completing that! Since you have finished your KYC (identity verification), you have unlocked the Golden Egg Welcome Offer.\n[03:19:24 PM] Marcos Avila: And by checking the system, I can verify whether that promotion was granted and used\n[03:19:24 PM] Marcos Avila: And by checking the system, I can verify whether that promotion was granted and used",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T15:25:11.089Z"
+    },
+    {
+      "chat_id": "2047697055450443776",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-24T15:30:53.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name initially."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent provided generic information without asking clarifying questions about verification timing or when customer attempted to claim."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent identified the 48-hour expiration issue but failed to explore solutions or properly escalate before customer expressed frustration."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear but somewhat robotic responses that didn't acknowledge customer's specific situation until too late."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; correctly explained promotion terms and limitations."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Attempted to close professionally after customer expressed dissatisfaction, offered further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 58,
+      "grade": "F",
+      "summary": "Agent provided accurate policy information but failed to engage with the customer's specific situation early enough, leading to frustration. The response was procedurally correct but lacked proactive problem-solving and empathy until after the customer became dissatisfied.",
+      "coaching_tip": "Ask clarifying questions earlier about verification completion date and claim attempts before providing generic policy explanations, and proactively offer escalation when a time-sensitive issue cannot be resolved.",
+      "website": "Jackpot Daily",
+      "message_count": 30,
+      "raw_transcript": "[03:19:57 PM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[03:19:57 PM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[03:20:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:20:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:21:02 PM] t2515061554: Good morning\n[03:21:02 PM] t2515061554: Good morning\n[03:21:36 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:21:36 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:23:39 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:39 PM] Angie Pereira: Give me a moment to review this information.\n[03:23:53 PM] t2515061554: Ok\n[03:23:53 PM] t2515061554: Ok\n[03:24:35 PM] Angie Pereira: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n\n-This reward is limited to one (1) per account.\n-Rewards are randomly distributed and cannot be exchanged.\n-Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:24:35 PM] Angie Pereira: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n\n-This reward is limited to one (1) per account.\n-Rewards are randomly distributed and cannot be exchanged.\n-Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:25:23 PM] t2515061554: I already did the verification\n[03:25:23 PM] t2515061554: I already did the verification\n[03:25:43 PM] t2515061554: This is my only account\n[03:25:43 PM] t2515061554: This is my only account\n[03:26:13 PM] Angie Pereira: You have to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:26:13 PM] Angie Pereira: You have to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[03:26:29 PM] t2515061554: I did not receive it\n[03:26:29 PM] t2515061554: I did not receive it\n[03:27:50 PM] t2515061554: I can see all my transactions an what I received\n[03:27:50 PM] t2515061554: I can see all my transactions an what I received\n[03:27:57 PM] Angie Pereira: Your registration was on 04-15-2026 you had 48hrs to claim it and you had to be verified first\n[03:28:39 PM] t2515061554: Yeah ok thanks for nothing good day\n[03:28:39 PM] t2515061554: Yeah ok thanks for nothing good day\n[03:29:26 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today ≤Player Name≥ — our specialist team will follow up via email very soon!\n[03:30:40 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today  — anything else you need let us know. Have a great day!\n[03:30:40 PM] Angie Pereira: I'm really sorry I couldn't fully resolve this today  — anything else you need let us know. Have a great day!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T15:34:45.338Z"
     }
   ]
 }
