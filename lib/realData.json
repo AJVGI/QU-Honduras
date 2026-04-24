@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T08:09:54.145Z",
-  "total_chats": 454,
+  "scored_at": "2026-04-24T08:14:43.427Z",
+  "total_chats": 455,
   "total_agents": 25,
   "agents": [
     {
@@ -99,105 +99,6 @@
         }
       ],
       "avg_score": 67,
-      "grade": "D",
-      "trend": 0
-    },
-    {
-      "id": "5801",
-      "name": "Andrea Rodriguez",
-      "chats": [
-        {
-          "chat_id": "2047323403726925824",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-23T14:47:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
-          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:49:53.803Z"
-        },
-        {
-          "chat_id": "2047361408189640704",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-23T17:18:34.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic greeting without personalization or warmth, minimal effort."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Understood the core concern about Georgia eligibility and asked for screenshot, but could have probed more about the intermittent error."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Confirmed Georgia is available, addressed the technical issue possibility, and thoroughly answered the follow-up question about redemption options."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear and professional with good detail on redemption methods, though could have been slightly more empathetic given customer's concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided accurate information about state eligibility and redemption processes."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing statement, no offer for further assistance, and no goodbye—transcript ends abruptly after providing information."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 68,
-          "grade": "D",
-          "summary": "Agent competently addressed the customer's concern about Georgia eligibility and provided detailed redemption information. However, the interaction lacked a proper closing and the greeting was minimal.",
-          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and providing a warm goodbye—never leave the chat hanging after answering a question.",
-          "website": "Jackpot Daily",
-          "message_count": 30,
-          "raw_transcript": "[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:23 PM] t9620154908: Hello amanda\n[05:07:23 PM] t9620154908: Hello amanda\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T17:19:42.343Z"
-        }
-      ],
-      "avg_score": 64,
       "grade": "D",
       "trend": 0
     },
@@ -564,11 +465,155 @@
           "raw_transcript": "[07:26:01 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[07:26:01 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[07:27:18 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[07:27:18 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[07:28:32 AM] Karen Perez: Sorry, are you still there?\n[07:28:32 AM] Karen Perez: Sorry, are you still there?\n[07:30:21 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:30:21 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T07:35:01.009Z"
+        },
+        {
+          "chat_id": "2047587177808740352",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T08:09:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to help, though fairly standard."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the referral bonus issue and proactively explained all requirements without needing to ask clarifying questions."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive explanation of referral requirements and identified likely cause (KYC pending), though couldn't fully resolve without customer response."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic opening, well-structured bullet points made complex requirements easy to understand."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, explained requirements accurately without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closure with alternative contact method provided after reasonable wait time for response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 76,
+          "grade": "C",
+          "summary": "Agent provided a thorough, well-organized explanation of referral bonus requirements and identified the most likely cause of the delay. Communication was clear and professional throughout, with appropriate follow-up attempts before closing.",
+          "coaching_tip": "Consider asking one confirming question about the boyfriend's KYC status before providing the full explanation to make the interaction more conversational and targeted.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T08:14:42.926Z"
+        }
+      ],
+      "avg_score": 66,
+      "grade": "D",
+      "trend": -7
+    },
+    {
+      "id": "5801",
+      "name": "Andrea Rodriguez",
+      "chats": [
+        {
+          "chat_id": "2047323403726925824",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-23T14:47:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
+          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:49:53.803Z"
+        },
+        {
+          "chat_id": "2047361408189640704",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-23T17:18:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Understood the core concern about Georgia eligibility and asked for screenshot, but could have probed more about the intermittent error."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Confirmed Georgia is available, addressed the technical issue possibility, and thoroughly answered the follow-up question about redemption options."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional with good detail on redemption methods, though could have been slightly more empathetic given customer's concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate information about state eligibility and redemption processes."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing statement, no offer for further assistance, and no goodbye—transcript ends abruptly after providing information."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent competently addressed the customer's concern about Georgia eligibility and provided detailed redemption information. However, the interaction lacked a proper closing and the greeting was minimal.",
+          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and providing a warm goodbye—never leave the chat hanging after answering a question.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:23 PM] t9620154908: Hello amanda\n[05:07:23 PM] t9620154908: Hello amanda\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:19:42.343Z"
         }
       ],
       "avg_score": 64,
       "grade": "D",
-      "trend": -7
+      "trend": 0
     },
     {
       "id": "5551",
@@ -41089,6 +41134,51 @@
       "raw_transcript": "[08:01:41 AM] t1485649208: Full Name: t1485649208 Email Address: dwight.dt0717@yahoo.com Subject / How can we help you?: Is the voucher for free or I have to buy it\n[08:01:41 AM] t1485649208: Full Name: t1485649208 Email Address: dwight.dt0717@yahoo.com Subject / How can we help you?: Is the voucher for free or I have to buy it\n[08:02:02 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[08:02:02 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[08:03:22 AM] t1485649208: Hello\n[08:03:22 AM] t1485649208: Hello\n[08:04:03 AM] Guillermo Mendoza: Hi the Voucher that youre refering to what does it offer\n[08:04:03 AM] Guillermo Mendoza: Hi the Voucher that youre refering to what does it offer\n[08:04:25 AM] t1485649208: 19 dollars I guess\n[08:04:25 AM] t1485649208: 19 dollars I guess\n[08:04:49 AM] Guillermo Mendoza: can you please send me a screen shot about it\n[08:04:49 AM] Guillermo Mendoza: can you please send me a screen shot about it",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T08:09:53.643Z"
+    },
+    {
+      "chat_id": "2047587177808740352",
+      "agent_name": "Karen Perez",
+      "agent_id": "5846",
+      "timestamp": "2026-04-24T08:09:40.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name and offer to help, though fairly standard."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the referral bonus issue and proactively explained all requirements without needing to ask clarifying questions."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive explanation of referral requirements and identified likely cause (KYC pending), though couldn't fully resolve without customer response."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, empathetic opening, well-structured bullet points made complex requirements easy to understand."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, explained requirements accurately without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closure with alternative contact method provided after reasonable wait time for response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 76,
+      "grade": "C",
+      "summary": "Agent provided a thorough, well-organized explanation of referral bonus requirements and identified the most likely cause of the delay. Communication was clear and professional throughout, with appropriate follow-up attempts before closing.",
+      "coaching_tip": "Consider asking one confirming question about the boyfriend's KYC status before providing the full explanation to make the interaction more conversational and targeted.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T08:14:42.926Z"
     }
   ]
 }
