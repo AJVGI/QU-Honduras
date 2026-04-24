@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T20:49:47.761Z",
-  "total_chats": 582,
+  "scored_at": "2026-04-24T20:54:46.460Z",
+  "total_chats": 583,
   "total_agents": 26,
   "agents": [
     {
@@ -19329,11 +19329,56 @@
           "raw_transcript": "[08:29:34 PM] t7325725716: Full Name: t7325725716 Email Address: h.daniel.gonzalez94@gmail.com Subject / How can we help you?: Name on account\n[08:29:34 PM] t7325725716: Full Name: t7325725716 Email Address: h.daniel.gonzalez94@gmail.com Subject / How can we help you?: Name on account\n[08:29:58 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:29:58 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:30:26 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:30:26 PM] Marcos Avila: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:30:50 PM] t7325725716: I tried adding a card and its saying enter a vaild full name\n[08:30:50 PM] t7325725716: I tried adding a card and its saying enter a vaild full name\n[08:32:09 PM] Marcos Avila: We understand that it can be frustrating not to be able to withdraw your winnings. Could you try typing your name in all caps in the “Cardholder's Name” field to see if that allows you to proceed?\n[08:32:09 PM] t7325725716: Ok\n[08:32:09 PM] Marcos Avila: We understand that it can be frustrating not to be able to withdraw your winnings. Could you try typing your name in all caps in the “Cardholder's Name” field to see if that allows you to proceed?\n[08:32:09 PM] t7325725716: Ok\n[08:32:24 PM] t7325725716: Okay one second\n[08:32:24 PM] t7325725716: Okay one second\n[08:33:14 PM] Marcos Avila: Perfect! Let me know if anything else comes up — always happy to help!\n[08:33:14 PM] Marcos Avila: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T20:34:42.427Z"
+        },
+        {
+          "chat_id": "2047777786906898432",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-24T20:50:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided; agent jumped directly to asking for a moment without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent asked for email address which was already provided in the initial message, showing lack of attention to detail."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted; chat closed due to customer non-response before any investigation or help was provided."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional tone but failed to acknowledge information already provided and didn't demonstrate active engagement with the issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; followed timeout procedures appropriately."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Standard timeout closing message was professional and offered further assistance if needed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 37,
+          "grade": "F",
+          "summary": "Agent failed to review the customer's initial message which already contained the email address, then asked for information already provided. No resolution was achieved as the customer did not respond and chat timed out.",
+          "coaching_tip": "Always read the customer's initial message thoroughly before responding - the email address was already provided in the opening message, so asking for it again wastes time and appears inattentive.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T20:54:45.958Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": 8
+      "trend": 1
     },
     {
       "id": "5836",
@@ -52618,6 +52663,51 @@
       "raw_transcript": "[08:43:42 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[08:43:42 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[08:44:23 PM] Diana Lopez: That $10 credit is usually tied to a specific promotion or bonus offer. If the email mentioned a date or a specific timeframe (like \"credited within 24-48 hours\" or \"on [specific date]\"), that date is typically when you should see it in the account.\n\nIf the email didn't specify a date, the credit is often applied automatically before the system processes any nightly updates. It is generally recommended to refresh the account balance or check the transaction history. If it hasn't arrived by the time you plan to play, it may be worth checking the promotion's terms to see if any additional steps are required to activate the credit.\n[08:44:23 PM] Diana Lopez: That $10 credit is usually tied to a specific promotion or bonus offer. If the email mentioned a date or a specific timeframe (like \"credited within 24-48 hours\" or \"on [specific date]\"), that date is typically when you should see it in the account.\n\nIf the email didn't specify a date, the credit is often applied automatically before the system processes any nightly updates. It is generally recommended to refresh the account balance or check the transaction history. If it hasn't arrived by the time you plan to play, it may be worth checking the promotion's terms to see if any additional steps are required to activate the credit.\n[08:45:37 PM] t7409419483: Ok\n[08:45:37 PM] t7409419483: Ok\n[08:46:10 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[08:46:10 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T20:49:47.260Z"
+    },
+    {
+      "chat_id": "2047777786906898432",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-24T20:50:57.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided; agent jumped directly to asking for a moment without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent asked for email address which was already provided in the initial message, showing lack of attention to detail."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted; chat closed due to customer non-response before any investigation or help was provided."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Professional tone but failed to acknowledge information already provided and didn't demonstrate active engagement with the issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; followed timeout procedures appropriately."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Standard timeout closing message was professional and offered further assistance if needed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 37,
+      "grade": "F",
+      "summary": "Agent failed to review the customer's initial message which already contained the email address, then asked for information already provided. No resolution was achieved as the customer did not respond and chat timed out.",
+      "coaching_tip": "Always read the customer's initial message thoroughly before responding - the email address was already provided in the opening message, so asking for it again wastes time and appears inattentive.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T20:54:45.958Z"
     }
   ]
 }
