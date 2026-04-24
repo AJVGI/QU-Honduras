@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T04:50:01.770Z",
-  "total_chats": 421,
+  "scored_at": "2026-04-24T04:54:54.311Z",
+  "total_chats": 423,
   "total_agents": 25,
   "agents": [
     {
@@ -8871,11 +8871,56 @@
           "raw_transcript": "[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:40:14 AM] t7111290234: Ok\n[04:40:14 AM] t7111290234: Ok\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:50:01.270Z"
+        },
+        {
+          "chat_id": "2047537809891045376",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-24T04:53:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided; agent immediately asked for a moment to investigate without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent misunderstood the initial request, applying permanent self-exclusion when customer wanted a temporary break, requiring correction."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Eventually corrected the mistake after customer clarified, but initial action was incorrect and could have caused significant harm."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Communication was unclear initially; the self-exclusion message contradicted what customer requested, causing confusion."
+            },
+            "compliance": {
+              "score": 4,
+              "notes": "Serious compliance issue: applied permanent self-exclusion without confirming customer intent, then reversed position without clear documentation of what was actually done."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Provided a closing but the 'enjoy your games' message is inappropriate given the responsible gaming context of the conversation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent made a critical error by applying permanent self-exclusion when customer requested a temporary break, requiring correction mid-conversation. The handling of responsible gaming tools lacked proper verification and the resolution remains unclear about what action was actually taken.",
+          "coaching_tip": "Always clarify and confirm the specific type of break requested (temporary timeout vs permanent self-exclusion) before taking action, as these have very different consequences for the customer.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[04:47:09 AM] t8755546285: Full Name: t8755546285 Email Address: theodore.rozanek@live.com Subject / How can we help you?: Take a break\n[04:47:09 AM] t8755546285: Full Name: t8755546285 Email Address: theodore.rozanek@live.com Subject / How can we help you?: Take a break\n[04:47:29 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:47:29 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:49:37 AM] Oscar Zelaya: Thanks for reaching out.\nAs requested, we’ve applied a self-exclusion to your account.\nPlease keep in mind:\n• You will no longer be able to access your account for gameplay\n • The account cannot be reopened or reactivated during the self-exclusion period\n • This is a responsible gaming measure designed to support player safety and wellbeing\nWe understand this is an important decision, and we respect your request.\nIf you have any questions or need clarification about how self-exclusion works, feel free to reach out — we’re here to help.\n[04:49:37 AM] Oscar Zelaya: Thanks for reaching out.\nAs requested, we’ve applied a self-exclusion to your account.\nPlease keep in mind:\n• You will no longer be able to access your account for gameplay\n • The account cannot be reopened or reactivated during the self-exclusion period\n • This is a responsible gaming measure designed to support player safety and wellbeing\nWe understand this is an important decision, and we respect your request.\nIf you have any questions or need clarification about how self-exclusion works, feel free to reach out — we’re here to help.\n[04:49:59 AM] t8755546285: I just wanted a temporary break though\n[04:49:59 AM] t8755546285: I just wanted a temporary break though\n[04:50:00 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:50:00 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:50:11 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:50:11 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:51:51 AM] Oscar Zelaya: If you’d like to take a break, that’s absolutely fine \nJust reach out to us whenever you’re ready, and we’ll be happy to assist you in resuming your gameplay.\n[04:51:51 AM] Oscar Zelaya: If you’d like to take a break, that’s absolutely fine \nJust reach out to us whenever you’re ready, and we’ll be happy to assist you in resuming your gameplay.\n[04:52:09 AM] t8755546285: Ok thanks nathan\n[04:52:09 AM] t8755546285: Ok thanks nathan\n[04:52:26 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:52:26 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:52:31 AM] t8755546285: Nope\n[04:52:31 AM] t8755546285: Nope\n[04:53:09 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:53:09 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:54:44.382Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": 6
+      "trend": -6
     },
     {
       "id": "5670",
@@ -15180,11 +15225,56 @@
           "raw_transcript": "[04:25:44 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: How do I delete my cards on file? And how do I update my address\n[04:25:44 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: How do I delete my cards on file? And how do I update my address\n[04:25:55 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[04:25:55 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[04:27:19 AM] t5927241207: Ok\n[04:27:19 AM] t5927241207: Ok\n[04:27:48 AM] Oskar Abaunza: Give me a moment to review this information.\n[04:27:48 AM] Oskar Abaunza: Give me a moment to review this information.\n[04:28:30 AM] t5927241207: Ok\n[04:28:30 AM] t5927241207: Ok\n[04:29:59 AM] Oskar Abaunza: Hi Takeria,\n\nThank you for reaching out! Removing a saved credit card is quick and easy. Just follow these steps:\n\n1. Click the \"Buy\" button located at the top right corner of the screen.\n2. Select any coin package from the list.\n3. On the Order Summary screen, click on \"Credit/Debit Card\" to proceed to the payment screen.\n4. You will see your saved card on file — simply click the :wastebasket: Trash icon next to the card to remove it.\n\nAnd that's it — your card will be deleted from your account!\n\nIf you have any trouble or need further assistance, we're always here at support@jackpotdaily.com!\n[04:29:59 AM] Oskar Abaunza: Hi Takeria,\n\nThank you for reaching out! Removing a saved credit card is quick and easy. Just follow these steps:\n\n1. Click the \"Buy\" button located at the top right corner of the screen.\n2. Select any coin package from the list.\n3. On the Order Summary screen, click on \"Credit/Debit Card\" to proceed to the payment screen.\n4. You will see your saved card on file — simply click the :wastebasket: Trash icon next to the card to remove it.\n\nAnd that's it — your card will be deleted from your account!\n\nIf you have any trouble or need further assistance, we're always here at support@jackpotdaily.com!\n[04:31:04 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:31:04 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:35:14.102Z"
+        },
+        {
+          "chat_id": "2047533872778145792",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-24T04:49:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Used customer's name and thanked them for reaching out, professional and warm."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent addressed only card removal initially, missed the bank and address update questions until customer repeatedly asked."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided clear card removal steps but failed to address address update question and escalated bank issue without clear explanation or timeline."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear instructions for card removal but responses became vague when addressing bank issues and locked accounts."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, appropriately escalated when unable to resolve."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Generic closing that didn't acknowledge the unresolved issues or set expectations for escalation follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided good instructions for card removal but failed to address all customer questions, particularly the address update request which was completely ignored. The escalation of the bank issue lacked clarity on next steps or timeline.",
+          "coaching_tip": "Always address all customer questions in the initial inquiry—the address update request was never acknowledged or answered throughout the entire conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[04:31:31 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: How do I delete my banks on file? And how do I update my address\n[04:31:31 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: How do I delete my banks on file? And how do I update my address\n[04:32:17 AM] Oskar Abaunza: WHEN PLAYER ASK TO REMOVE CARD ON FILE \n\nHi Takeria,\n\nThank you for reaching out! Removing a saved credit card is quick and easy. Just follow these steps:\n\n1. Click the \"Buy\" button located at the top right corner of the screen.\n2. Select any coin package from the list.\n3. On the Order Summary screen, click on \"Credit/Debit Card\" to proceed to the payment screen.\n4. You will see your saved card on file — simply click the :wastebasket: Trash icon next to the card to remove it.\n\nAnd that's it — your card will be deleted from your account!\n\nIf you have any trouble or need further assistance, we're always here at support@jackpotdaily.com!\n[04:32:17 AM] Oskar Abaunza: WHEN PLAYER ASK TO REMOVE CARD ON FILE \n\nHi Takeria,\n\nThank you for reaching out! Removing a saved credit card is quick and easy. Just follow these steps:\n\n1. Click the \"Buy\" button located at the top right corner of the screen.\n2. Select any coin package from the list.\n3. On the Order Summary screen, click on \"Credit/Debit Card\" to proceed to the payment screen.\n4. You will see your saved card on file — simply click the :wastebasket: Trash icon next to the card to remove it.\n\nAnd that's it — your card will be deleted from your account!\n\nIf you have any trouble or need further assistance, we're always here at support@jackpotdaily.com!\n[04:33:09 AM] t5927241207: What about bank?\n[04:33:09 AM] t5927241207: What about bank?\n[04:33:40 AM] t5927241207: How do you remove bank\n[04:33:40 AM] t5927241207: How do you remove bank\n[04:34:03 AM] t5927241207: and how do you update your address on this casino?\n[04:34:03 AM] t5927241207: and how do you update your address on this casino?\n[04:37:09 AM] Oskar Abaunza: Please try adding a bank account that is not already linked to Jackpot Daily, please.\n[04:37:09 AM] Oskar Abaunza: Please try adding a bank account that is not already linked to Jackpot Daily, please.\n[04:38:09 AM] t5927241207: I added all of my banks, I don’t have anymore to add\n[04:38:09 AM] t5927241207: I added all of my banks, I don’t have anymore to add\n[04:40:28 AM] t5927241207: Ok. I just added a new one\n[04:40:28 AM] t5927241207: Ok. I just added a new one\n[04:41:03 AM] t5927241207: They all show up as locked. Do you know why? Also if I close my account will yall at least mail me a check?\n[04:41:03 AM] t5927241207: They all show up as locked. Do you know why? Also if I close my account will yall at least mail me a check?\n[04:42:33 AM] Oskar Abaunza: Did it not allow you to complete the redemption with the new bank account?\n[04:42:33 AM] Oskar Abaunza: Did it not allow you to complete the redemption with the new bank account?\n[04:43:29 AM] t5927241207: Nope\n[04:43:29 AM] t5927241207: Nope\n[04:44:19 AM] t5927241207: It shows up as locked so I’m assuming it’s not going to work\n[04:44:19 AM] t5927241207: It shows up as locked so I’m assuming it’s not going to work\n[04:44:56 AM] Oskar Abaunza: Please allow me to check.\n[04:44:56 AM] Oskar Abaunza: Please allow me to check.\n[04:46:13 AM] t5927241207: Ok\n[04:46:13 AM] t5927241207: Ok\n[04:49:11 AM] Oskar Abaunza: We have escalated your case, At the moment, we do not have a response yet.\n[04:49:11 AM] Oskar Abaunza: We have escalated your case, At the moment, we do not have a response yet.\n[04:49:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:49:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:54:53.810Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -8
+      "trend": -10
     },
     {
       "id": "5836",
@@ -38119,6 +38209,96 @@
       "raw_transcript": "[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:40:14 AM] t7111290234: Ok\n[04:40:14 AM] t7111290234: Ok\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T04:50:01.270Z"
+    },
+    {
+      "chat_id": "2047537809891045376",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-24T04:53:14.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided; agent immediately asked for a moment to investigate without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent misunderstood the initial request, applying permanent self-exclusion when customer wanted a temporary break, requiring correction."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Eventually corrected the mistake after customer clarified, but initial action was incorrect and could have caused significant harm."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Communication was unclear initially; the self-exclusion message contradicted what customer requested, causing confusion."
+        },
+        "compliance": {
+          "score": 4,
+          "notes": "Serious compliance issue: applied permanent self-exclusion without confirming customer intent, then reversed position without clear documentation of what was actually done."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Provided a closing but the 'enjoy your games' message is inappropriate given the responsible gaming context of the conversation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 44,
+      "grade": "F",
+      "summary": "Agent made a critical error by applying permanent self-exclusion when customer requested a temporary break, requiring correction mid-conversation. The handling of responsible gaming tools lacked proper verification and the resolution remains unclear about what action was actually taken.",
+      "coaching_tip": "Always clarify and confirm the specific type of break requested (temporary timeout vs permanent self-exclusion) before taking action, as these have very different consequences for the customer.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[04:47:09 AM] t8755546285: Full Name: t8755546285 Email Address: theodore.rozanek@live.com Subject / How can we help you?: Take a break\n[04:47:09 AM] t8755546285: Full Name: t8755546285 Email Address: theodore.rozanek@live.com Subject / How can we help you?: Take a break\n[04:47:29 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:47:29 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:49:37 AM] Oscar Zelaya: Thanks for reaching out.\nAs requested, we’ve applied a self-exclusion to your account.\nPlease keep in mind:\n• You will no longer be able to access your account for gameplay\n • The account cannot be reopened or reactivated during the self-exclusion period\n • This is a responsible gaming measure designed to support player safety and wellbeing\nWe understand this is an important decision, and we respect your request.\nIf you have any questions or need clarification about how self-exclusion works, feel free to reach out — we’re here to help.\n[04:49:37 AM] Oscar Zelaya: Thanks for reaching out.\nAs requested, we’ve applied a self-exclusion to your account.\nPlease keep in mind:\n• You will no longer be able to access your account for gameplay\n • The account cannot be reopened or reactivated during the self-exclusion period\n • This is a responsible gaming measure designed to support player safety and wellbeing\nWe understand this is an important decision, and we respect your request.\nIf you have any questions or need clarification about how self-exclusion works, feel free to reach out — we’re here to help.\n[04:49:59 AM] t8755546285: I just wanted a temporary break though\n[04:49:59 AM] t8755546285: I just wanted a temporary break though\n[04:50:00 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:50:00 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:50:11 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:50:11 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:51:51 AM] Oscar Zelaya: If you’d like to take a break, that’s absolutely fine \nJust reach out to us whenever you’re ready, and we’ll be happy to assist you in resuming your gameplay.\n[04:51:51 AM] Oscar Zelaya: If you’d like to take a break, that’s absolutely fine \nJust reach out to us whenever you’re ready, and we’ll be happy to assist you in resuming your gameplay.\n[04:52:09 AM] t8755546285: Ok thanks nathan\n[04:52:09 AM] t8755546285: Ok thanks nathan\n[04:52:26 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:52:26 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:52:31 AM] t8755546285: Nope\n[04:52:31 AM] t8755546285: Nope\n[04:53:09 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:53:09 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:54:44.382Z"
+    },
+    {
+      "chat_id": "2047533872778145792",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-24T04:49:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Used customer's name and thanked them for reaching out, professional and warm."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent addressed only card removal initially, missed the bank and address update questions until customer repeatedly asked."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided clear card removal steps but failed to address address update question and escalated bank issue without clear explanation or timeline."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear instructions for card removal but responses became vague when addressing bank issues and locked accounts."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, appropriately escalated when unable to resolve."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Generic closing that didn't acknowledge the unresolved issues or set expectations for escalation follow-up."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 57,
+      "grade": "F",
+      "summary": "Agent provided good instructions for card removal but failed to address all customer questions, particularly the address update request which was completely ignored. The escalation of the bank issue lacked clarity on next steps or timeline.",
+      "coaching_tip": "Always address all customer questions in the initial inquiry—the address update request was never acknowledged or answered throughout the entire conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 32,
+      "raw_transcript": "[04:31:31 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: How do I delete my banks on file? And how do I update my address\n[04:31:31 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: How do I delete my banks on file? And how do I update my address\n[04:32:17 AM] Oskar Abaunza: WHEN PLAYER ASK TO REMOVE CARD ON FILE \n\nHi Takeria,\n\nThank you for reaching out! Removing a saved credit card is quick and easy. Just follow these steps:\n\n1. Click the \"Buy\" button located at the top right corner of the screen.\n2. Select any coin package from the list.\n3. On the Order Summary screen, click on \"Credit/Debit Card\" to proceed to the payment screen.\n4. You will see your saved card on file — simply click the :wastebasket: Trash icon next to the card to remove it.\n\nAnd that's it — your card will be deleted from your account!\n\nIf you have any trouble or need further assistance, we're always here at support@jackpotdaily.com!\n[04:32:17 AM] Oskar Abaunza: WHEN PLAYER ASK TO REMOVE CARD ON FILE \n\nHi Takeria,\n\nThank you for reaching out! Removing a saved credit card is quick and easy. Just follow these steps:\n\n1. Click the \"Buy\" button located at the top right corner of the screen.\n2. Select any coin package from the list.\n3. On the Order Summary screen, click on \"Credit/Debit Card\" to proceed to the payment screen.\n4. You will see your saved card on file — simply click the :wastebasket: Trash icon next to the card to remove it.\n\nAnd that's it — your card will be deleted from your account!\n\nIf you have any trouble or need further assistance, we're always here at support@jackpotdaily.com!\n[04:33:09 AM] t5927241207: What about bank?\n[04:33:09 AM] t5927241207: What about bank?\n[04:33:40 AM] t5927241207: How do you remove bank\n[04:33:40 AM] t5927241207: How do you remove bank\n[04:34:03 AM] t5927241207: and how do you update your address on this casino?\n[04:34:03 AM] t5927241207: and how do you update your address on this casino?\n[04:37:09 AM] Oskar Abaunza: Please try adding a bank account that is not already linked to Jackpot Daily, please.\n[04:37:09 AM] Oskar Abaunza: Please try adding a bank account that is not already linked to Jackpot Daily, please.\n[04:38:09 AM] t5927241207: I added all of my banks, I don’t have anymore to add\n[04:38:09 AM] t5927241207: I added all of my banks, I don’t have anymore to add\n[04:40:28 AM] t5927241207: Ok. I just added a new one\n[04:40:28 AM] t5927241207: Ok. I just added a new one\n[04:41:03 AM] t5927241207: They all show up as locked. Do you know why? Also if I close my account will yall at least mail me a check?\n[04:41:03 AM] t5927241207: They all show up as locked. Do you know why? Also if I close my account will yall at least mail me a check?\n[04:42:33 AM] Oskar Abaunza: Did it not allow you to complete the redemption with the new bank account?\n[04:42:33 AM] Oskar Abaunza: Did it not allow you to complete the redemption with the new bank account?\n[04:43:29 AM] t5927241207: Nope\n[04:43:29 AM] t5927241207: Nope\n[04:44:19 AM] t5927241207: It shows up as locked so I’m assuming it’s not going to work\n[04:44:19 AM] t5927241207: It shows up as locked so I’m assuming it’s not going to work\n[04:44:56 AM] Oskar Abaunza: Please allow me to check.\n[04:44:56 AM] Oskar Abaunza: Please allow me to check.\n[04:46:13 AM] t5927241207: Ok\n[04:46:13 AM] t5927241207: Ok\n[04:49:11 AM] Oskar Abaunza: We have escalated your case, At the moment, we do not have a response yet.\n[04:49:11 AM] Oskar Abaunza: We have escalated your case, At the moment, we do not have a response yet.\n[04:49:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:49:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:54:53.810Z"
     }
   ]
 }
