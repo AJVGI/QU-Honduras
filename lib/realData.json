@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T20:34:51.655Z",
-  "total_chats": 580,
+  "scored_at": "2026-04-24T20:39:49.023Z",
+  "total_chats": 581,
   "total_agents": 26,
   "agents": [
     {
@@ -5856,6 +5856,51 @@
           "raw_transcript": "[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T19:54:45.838Z"
+        },
+        {
+          "chat_id": "2047776086410227712",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T20:36:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Basic 'Hola!' greeting without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the location activation request but asked no clarifying questions about device type or specific error encountered."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive instructions for multiple platforms covering the likely scenarios, though no follow-up to confirm resolution."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear, well-structured instructions in Spanish appropriate for the customer, but lacked empathy or conversational tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, standard technical support provided."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing whatsoever, agent simply provided instructions and disappeared without checking if help was needed or saying goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided technically accurate multi-platform location activation instructions but delivered minimal customer service elements. The interaction lacked personalization, follow-up, and any proper closing, making it feel transactional rather than supportive.",
+          "coaching_tip": "Always close the conversation by asking if the instructions worked or if the customer needs additional help, then provide a proper farewell to ensure customer satisfaction.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar ��� Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar → Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T20:39:48.522Z"
         }
       ],
       "avg_score": 61,
@@ -52438,6 +52483,51 @@
       "raw_transcript": "[08:33:13 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns\n[08:33:13 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T20:34:51.153Z"
+    },
+    {
+      "chat_id": "2047776086410227712",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T20:36:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Basic 'Hola!' greeting without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the location activation request but asked no clarifying questions about device type or specific error encountered."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive instructions for multiple platforms covering the likely scenarios, though no follow-up to confirm resolution."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear, well-structured instructions in Spanish appropriate for the customer, but lacked empathy or conversational tone."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, standard technical support provided."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing whatsoever, agent simply provided instructions and disappeared without checking if help was needed or saying goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent provided technically accurate multi-platform location activation instructions but delivered minimal customer service elements. The interaction lacked personalization, follow-up, and any proper closing, making it feel transactional rather than supportive.",
+      "coaching_tip": "Always close the conversation by asking if the instructions worked or if the customer needs additional help, then provide a proper farewell to ensure customer satisfaction.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar ��� Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar → Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T20:39:48.522Z"
     }
   ]
 }
