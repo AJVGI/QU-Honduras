@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:24:41.079Z",
-  "total_chats": 389,
+  "scored_at": "2026-04-24T03:29:42.505Z",
+  "total_chats": 390,
   "total_agents": 25,
   "agents": [
     {
@@ -13002,11 +13002,56 @@
           "raw_transcript": "[02:06:30 AM] Customer: Full Name: Oscar pena Email Address: oscarp.1306@icloud.com Subject / How can we help you?: Boy a ganar\n[02:06:30 AM] Customer: Full Name: Oscar pena Email Address: oscarp.1306@icloud.com Subject / How can we help you?: Boy a ganar\n[02:09:08 AM] Customer: Please allow me one moment to look into this for you!\n[02:09:08 AM] Customer: Please allow me one moment to look into this for you!\n[02:10:21 AM] Customer: Hola Oscar ,\n¿Podría brindarme un poco más de detalle sobre el inconveniente que está experimentando?\nCualquier información adicional—como mensajes de error, en qué paso se presenta el problema o qué aparece en su pantalla—me ayudará a identificarlo y darle una solución lo más rápido posible\n[02:10:21 AM] Customer: Hola Oscar ,\n¿Podría brindarme un poco más de detalle sobre el inconveniente que está experimentando?\nCualquier información adicional—como mensajes de error, en qué paso se presenta el problema o qué aparece en su pantalla—me ayudará a identificarlo y darle una solución lo más rápido posible\n[02:12:06 AM] Customer: ¿Hay algo más en lo que pueda ayudarle hoy?\n[02:12:06 AM] Customer: ¿Hay algo más en lo que pueda ayudarle hoy?\n[02:13:18 AM] Customer: Gracias por chatear con nosotros. ¡Esperamos que disfrutes tus juegos — mucha suerte!\n[02:13:18 AM] Customer: Gracias por chatear con nosotros. ¡Esperamos que disfrutes tus juegos — mucha suerte!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T02:14:42.752Z"
+        },
+        {
+          "chat_id": "2047515300835667968",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T03:24:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No proper greeting, just asked customer to wait, then introduced self as 'Brittany' (name mismatch with Ana Erazo)."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions about the CashApp details the customer specifically requested or verify payment method."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic response that funds were released but failed to answer customer's specific question about which CashApp account was used for payment."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Communication was unclear with name confusion, failed to address customer's specific concern, and responses felt scripted rather than personalized."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No major violations, but did not provide specific account details that customer requested which may be needed for dispute resolution."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed chat prematurely after only one check-in when customer was likely reviewing the inadequate response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 46,
+          "grade": "F",
+          "summary": "Agent provided a generic response without addressing the customer's specific request for CashApp account details and closed the chat too quickly. The name mismatch and lack of personalized assistance resulted in poor service quality.",
+          "coaching_tip": "Always address the customer's specific questions directly—in this case, provide or offer to verify the exact CashApp account the payment was sent to, rather than giving a generic 'contact your bank' response.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:29:42.003Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 0
+      "trend": 6
     },
     {
       "id": "5842",
@@ -35239,6 +35284,51 @@
       "raw_transcript": "[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:29 AM] t7409419483: Tysm\n[03:10:29 AM] t7409419483: Tysm\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:24:40.578Z"
+    },
+    {
+      "chat_id": "2047515300835667968",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T03:24:36.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No proper greeting, just asked customer to wait, then introduced self as 'Brittany' (name mismatch with Ana Erazo)."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask any clarifying questions about the CashApp details the customer specifically requested or verify payment method."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided generic response that funds were released but failed to answer customer's specific question about which CashApp account was used for payment."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Communication was unclear with name confusion, failed to address customer's specific concern, and responses felt scripted rather than personalized."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No major violations, but did not provide specific account details that customer requested which may be needed for dispute resolution."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closed chat prematurely after only one check-in when customer was likely reviewing the inadequate response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 46,
+      "grade": "F",
+      "summary": "Agent provided a generic response without addressing the customer's specific request for CashApp account details and closed the chat too quickly. The name mismatch and lack of personalized assistance resulted in poor service quality.",
+      "coaching_tip": "Always address the customer's specific questions directly—in this case, provide or offer to verify the exact CashApp account the payment was sent to, rather than giving a generic 'contact your bank' response.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:29:42.003Z"
     }
   ]
 }
