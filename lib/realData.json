@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T17:24:47.066Z",
-  "total_chats": 550,
+  "scored_at": "2026-04-24T17:34:48.016Z",
+  "total_chats": 551,
   "total_agents": 26,
   "agents": [
     {
@@ -18249,11 +18249,56 @@
           "raw_transcript": "[04:22:24 PM] t0397657329: Full Name: t0397657329 Email Address: amberedwards891@gmail.com Subject / How can we help you?: Hello, my name is Amber and I believe my account is verified. Can I please have the first time bonus the golden egg?\n[04:22:24 PM] t0397657329: Full Name: t0397657329 Email Address: amberedwards891@gmail.com Subject / How can we help you?: Hello, my name is Amber and I believe my account is verified. Can I please have the first time bonus the golden egg?\n[04:22:55 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[04:22:55 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[04:22:56 PM] t0397657329: Thank you\n[04:22:56 PM] t0397657329: Thank you\n[04:23:06 PM] t0397657329: Ok\n[04:23:06 PM] t0397657329: Ok\n[04:24:49 PM] Marcos Avila: Give me a moment to review this information.\n[04:24:49 PM] Marcos Avila: Give me a moment to review this information.\n[04:25:10 PM] t0397657329: Ok it says you’re getting $100 sc\n[04:25:10 PM] t0397657329: Ok it says you’re getting $100 sc\n[04:26:04 PM] Marcos Avila: Hey! Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n\nRegister your account\n\nComplete KYC verification\n\nYour Golden Egg unlocks automatically\n\nSmash it to reveal a random SC reward — up to 100 SC!\n\nA couple of things to note:\n\nThe reward amount is random (can’t be predicted or changed!)\n\nIt’s a one-time welcome offer — new accounts only\n\nIt expires 24 hours after being issued, so grab it soon!\n[04:26:04 PM] Marcos Avila: Hey! Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n\nRegister your account\n\nComplete KYC verification\n\nYour Golden Egg unlocks automatically\n\nSmash it to reveal a random SC reward — up to 100 SC!\n\nA couple of things to note:\n\nThe reward amount is random (can’t be predicted or changed!)\n\nIt’s a one-time welcome offer — new accounts only\n\nIt expires 24 hours after being issued, so grab it soon!\n[04:26:38 PM] t0397657329: I did I registered. My account is verified and there’s no golden egg.\n[04:26:38 PM] t0397657329: I did I registered. My account is verified and there’s no golden egg.\n[04:29:19 PM] Marcos Avila: Give me a moment to review this information.\n[04:29:19 PM] Marcos Avila: Give me a moment to review this information.\n[04:30:53 PM] t0397657329: Ok\n[04:30:53 PM] t0397657329: Ok\n[04:35:16 PM] t0397657329: Thank you very much\n[04:35:16 PM] t0397657329: Thank you very much\n[04:35:52 PM] Marcos Avila: Still working on it, just a moment please!\n[04:35:52 PM] Marcos Avila: Still working on it, just a moment please!\n[04:40:11 PM] Marcos Avila: Thank you very much for your patience, dear player. After verifying your account, we can confirm that your promotion was granted on the same day you completed your KYC verification. However, there is a 24-hour window in which to use it, so it has now expired.\n[04:40:11 PM] Marcos Avila: Thank you very much for your patience, dear player. After verifying your account, we can confirm that your promotion was granted on the same day you completed your KYC verification. However, there is a 24-hour window in which to use it, so it has now expired.\n[04:40:44 PM] Marcos Avila: It’s a one-time welcome offer — new accounts only and it expires 24 hours after being issued.\n[04:40:44 PM] Marcos Avila: It’s a one-time welcome offer — new accounts only and it expires 24 hours after being issued.\n[04:41:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[04:41:51 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[04:44:42 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[04:44:42 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T16:49:47.048Z"
+        },
+        {
+          "chat_id": "2047728180542140416",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-24T17:29:41.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly into acknowledging the request without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the geolocation issue and provided relevant troubleshooting steps without asking clarifying questions about device or browser type."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided comprehensive troubleshooting steps covering common causes and offered to dig deeper if needed, though resolution not confirmed."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, friendly tone with organized bullet points and casual language that was professional and easy to follow."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises; stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Follow-up message was a check-in rather than a proper closing; chat appears incomplete with no final resolution or goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "Agent provided solid technical troubleshooting for a geolocation issue with clear, organized steps and friendly communication. However, the interaction lacked a proper greeting and closing, and the customer never confirmed whether the issue was resolved.",
+          "coaching_tip": "Always open with a brief greeting using the customer's name before diving into troubleshooting, and ensure proper closure by confirming resolution or next steps before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:34:47.514Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -8
+      "trend": -14
     },
     {
       "id": "5836",
@@ -49738,6 +49783,51 @@
       "raw_transcript": "[05:16:35 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: I've been trying to purchase a package from y'all. You know, for SC and for some reason it, it won't let me do my KYC. Verification, and it it's, it's agitating, maybe because I don't wanna play the game with just the $2 that that I got from cracking the egg when that's not what I signed up for y'all promised y'all had promised me $20. When for just signing up, not the possibility of $20, whenever we signed up. But $20 when we signed up and all I got was $2, it just so that's a little upsetting, but I can't even get my KYC. So I can even purchase a package because it says your system is busy constantly busy, busy busy and it's been like that for over a day if I can't get this taken care of you know, within the next 1015 minutes then I'll just I'll move on to something else, okay.\n[05:16:35 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: I've been trying to purchase a package from y'all. You know, for SC and for some reason it, it won't let me do my KYC. Verification, and it it's, it's agitating, maybe because I don't wanna play the game with just the $2 that that I got from cracking the egg when that's not what I signed up for y'all promised y'all had promised me $20. When for just signing up, not the possibility of $20, whenever we signed up. But $20 when we signed up and all I got was $2, it just so that's a little upsetting, but I can't even get my KYC. So I can even purchase a package because it says your system is busy constantly busy, busy busy and it's been like that for over a day if I can't get this taken care of you know, within the next 1015 minutes then I'll just I'll move on to something else, okay.\n[05:16:48 PM] Diana Lopez: Hello!\n[05:16:48 PM] Diana Lopez: Hello!\n[05:17:19 PM] Diana Lopez: Hi there,\n\nI’m really sorry for the frustration—I completely understand how this experience feels, especially when you’re trying to get started and things aren’t working as expected.\n\nAt the moment, our KYC verification system is experiencing higher-than-usual traffic, which is why you’re seeing the “system busy” message. Our team is actively working to resolve this as quickly as possible.\n\nRegarding the sign-up reward, the Golden Egg feature provides a randomized bonus, which is why you received $2 instead of $20. I understand that can be disappointing, and I appreciate your feedback on that.\n\nFor now, I recommend trying again a bit later, as the issue should clear shortly. If it continues, we can take a closer look at your account and assist further.\n\nWe truly appreciate your patience and hope to get this resolved for you very soon.\n[05:17:19 PM] Diana Lopez: Hi there,\n\nI’m really sorry for the frustration—I completely understand how this experience feels, especially when you’re trying to get started and things aren’t working as expected.\n\nAt the moment, our KYC verification system is experiencing higher-than-usual traffic, which is why you’re seeing the “system busy” message. Our team is actively working to resolve this as quickly as possible.\n\nRegarding the sign-up reward, the Golden Egg feature provides a randomized bonus, which is why you received $2 instead of $20. I understand that can be disappointing, and I appreciate your feedback on that.\n\nFor now, I recommend trying again a bit later, as the issue should clear shortly. If it continues, we can take a closer look at your account and assist further.\n\nWe truly appreciate your patience and hope to get this resolved for you very soon.\n[05:19:34 PM] t5771772342: Okay, I can understand you know that y'all are having a high demand on. You know, on whatever it is, you know, on your system. But for me, not to be able to to get in for the like the last 2 days, almost 2 days, it's been like a day and a 1/2 2 days. You know, that's that's a little frustrating, you know, and and I've been trying to get in repeatedly over and over and over and over and over and over and over and over and over and over and over again.  Fer day and a 1/2 2 days. So what am I to do?Just wait?\n[05:19:34 PM] t5771772342: Okay, I can understand you know that y'all are having a high demand on. You know, on whatever it is, you know, on your system. But for me, not to be able to to get in for the like the last 2 days, almost 2 days, it's been like a day and a 1/2 2 days. You know, that's that's a little frustrating, you know, and and I've been trying to get in repeatedly over and over and over and over and over and over and over and over and over and over and over again.  Fer day and a 1/2 2 days. So what am I to do?Just wait?\n[05:20:24 PM] Diana Lopez: I completely understand your frustration—trying repeatedly for over a day and still seeing the same issue is definitely not the experience we want for you.\n\nAt this point, I don’t want to keep asking you to just “wait” without support. Since this has been ongoing for nearly 2 days, I’m going to escalate your case so our team can take a closer look and help get this resolved for you as soon as possible.\n\nIn the meantime, you can try again after some time, but please know this isn’t something you should have to keep retrying endlessly—we’ll work on fixing it from our side.\n\nWe truly appreciate your patience, and we’ll do our best to get you up and running very soon.\n[05:20:24 PM] Diana Lopez: I completely understand your frustration—trying repeatedly for over a day and still seeing the same issue is definitely not the experience we want for you.\n\nAt this point, I don’t want to keep asking you to just “wait” without support. Since this has been ongoing for nearly 2 days, I’m going to escalate your case so our team can take a closer look and help get this resolved for you as soon as possible.\n\nIn the meantime, you can try again after some time, but please know this isn’t something you should have to keep retrying endlessly—we’ll work on fixing it from our side.\n\nWe truly appreciate your patience, and we’ll do our best to get you up and running very soon.\n[05:22:36 PM] Diana Lopez: Glad we got that sorted Is there anything else I can help you with today?\n[05:22:36 PM] Diana Lopez: Glad we got that sorted Is there anything else I can help you with today?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T17:24:46.565Z"
+    },
+    {
+      "chat_id": "2047728180542140416",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-24T17:29:41.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No greeting present; agent jumped directly into acknowledging the request without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the geolocation issue and provided relevant troubleshooting steps without asking clarifying questions about device or browser type."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided comprehensive troubleshooting steps covering common causes and offered to dig deeper if needed, though resolution not confirmed."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, friendly tone with organized bullet points and casual language that was professional and easy to follow."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises; stayed within appropriate support boundaries."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Follow-up message was a check-in rather than a proper closing; chat appears incomplete with no final resolution or goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 66,
+      "grade": "D",
+      "summary": "Agent provided solid technical troubleshooting for a geolocation issue with clear, organized steps and friendly communication. However, the interaction lacked a proper greeting and closing, and the customer never confirmed whether the issue was resolved.",
+      "coaching_tip": "Always open with a brief greeting using the customer's name before diving into troubleshooting, and ensure proper closure by confirming resolution or next steps before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T17:34:47.514Z"
     }
   ]
 }
