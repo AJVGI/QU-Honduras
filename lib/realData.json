@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T20:59:53.044Z",
-  "total_chats": 585,
+  "scored_at": "2026-04-24T21:04:44.166Z",
+  "total_chats": 586,
   "total_agents": 26,
   "agents": [
     {
@@ -26034,11 +26034,56 @@
           "raw_transcript": "[08:33:13 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns\n[08:33:13 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T20:34:51.153Z"
+        },
+        {
+          "chat_id": "2047781312882110464",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T21:00:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the redemption delay concern and looked up the slip ID, but didn't ask clarifying questions about submission date or method."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided status update showing request is still in early approval stages, explained timelines, and gave clear instructions to check status independently."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple typos and formatting issues (secod, ust, o check, till) made the response appear unprofessional and harder to read."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about processing times and redemption requirements without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and provided a friendly closing with well-wishes, though slightly generic."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent provided helpful information about redemption status and timelines but lacked a proper greeting and delivered the response with numerous typos that undermined professionalism. The core issue was addressed adequately with actionable next steps for the customer.",
+          "coaching_tip": "Always start with a proper greeting using the customer's name when available, and proofread responses before sending to eliminate typos that damage credibility.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[08:54:45 PM] t9805129777: Full Name: t9805129777 Email Address: joed16343@gmail.com Subject / How can we help you?: Is my redemption still being processed?! It’s been well over the 24-48hr period. Here is my slip id 312205715867\n[08:54:45 PM] t9805129777: Full Name: t9805129777 Email Address: joed16343@gmail.com Subject / How can we help you?: Is my redemption still being processed?! It’s been well over the 24-48hr period. Here is my slip id 312205715867\n[08:55:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:55:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:55:51 PM] t9805129777: Okay thank you!\n[08:55:51 PM] t9805129777: Okay thank you!\n[08:58:46 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nyou redemption request status is till on new it didnt pass the first or secod approval yet , so you just need to wait t get the update on it , remember that you can check the status \no check where your redemption is at:\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\nYou'll see all your successful, pending, and cancelled requests right there!\n[08:58:46 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nyou redemption request status is till on new it didnt pass the first or secod approval yet , so you just need to wait t get the update on it , remember that you can check the status \no check where your redemption is at:\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\nYou'll see all your successful, pending, and cancelled requests right there!\n[08:59:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:59:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[09:00:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[09:00:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T21:04:43.667Z"
         }
       ],
-      "avg_score": 46,
+      "avg_score": 47,
       "grade": "F",
-      "trend": -8
+      "trend": -3
     },
     {
       "id": "5839",
@@ -52888,6 +52933,51 @@
       "raw_transcript": "[08:53:52 PM] Customer: Full Name: Joe File Email Address: joe.file.hoot@gmail.com Subject / How can we help you?: Why can’t I ever win anything\n[08:53:52 PM] Customer: Full Name: Joe File Email Address: joe.file.hoot@gmail.com Subject / How can we help you?: Why can’t I ever win anything\n[08:55:21 PM] Marcos Avila: Hey! Great question!\n\nRNG stands for Random Number Generator — it's software that produces completely random, unpredictable results every time. It's what makes sure every game outcome is fair, unbiased, and can't be manipulated.\n\nEvery player has an equal shot at winning — that's the whole point!\n\nAnything else you'd like to know?\n[08:55:21 PM] Marcos Avila: Hey! Great question!\n\nRNG stands for Random Number Generator — it's software that produces completely random, unpredictable results every time. It's what makes sure every game outcome is fair, unbiased, and can't be manipulated.\n\nEvery player has an equal shot at winning — that's the whole point!\n\nAnything else you'd like to know?\n[08:56:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:56:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T20:59:52.543Z"
+    },
+    {
+      "chat_id": "2047781312882110464",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T21:00:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the redemption delay concern and looked up the slip ID, but didn't ask clarifying questions about submission date or method."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided status update showing request is still in early approval stages, explained timelines, and gave clear instructions to check status independently."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Multiple typos and formatting issues (secod, ust, o check, till) made the response appear unprofessional and harder to read."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate information about processing times and redemption requirements without unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further help and provided a friendly closing with well-wishes, though slightly generic."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent provided helpful information about redemption status and timelines but lacked a proper greeting and delivered the response with numerous typos that undermined professionalism. The core issue was addressed adequately with actionable next steps for the customer.",
+      "coaching_tip": "Always start with a proper greeting using the customer's name when available, and proofread responses before sending to eliminate typos that damage credibility.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[08:54:45 PM] t9805129777: Full Name: t9805129777 Email Address: joed16343@gmail.com Subject / How can we help you?: Is my redemption still being processed?! It’s been well over the 24-48hr period. Here is my slip id 312205715867\n[08:54:45 PM] t9805129777: Full Name: t9805129777 Email Address: joed16343@gmail.com Subject / How can we help you?: Is my redemption still being processed?! It’s been well over the 24-48hr period. Here is my slip id 312205715867\n[08:55:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:55:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:55:51 PM] t9805129777: Okay thank you!\n[08:55:51 PM] t9805129777: Okay thank you!\n[08:58:46 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nyou redemption request status is till on new it didnt pass the first or secod approval yet , so you just need to wait t get the update on it , remember that you can check the status \no check where your redemption is at:\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\nYou'll see all your successful, pending, and cancelled requests right there!\n[08:58:46 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nyou redemption request status is till on new it didnt pass the first or secod approval yet , so you just need to wait t get the update on it , remember that you can check the status \no check where your redemption is at:\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\nYou'll see all your successful, pending, and cancelled requests right there!\n[08:59:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:59:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[09:00:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[09:00:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T21:04:43.667Z"
     }
   ]
 }
