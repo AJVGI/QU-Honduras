@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T09:14:51.807Z",
-  "total_chats": 463,
+  "scored_at": "2026-04-24T09:19:42.120Z",
+  "total_chats": 464,
   "total_agents": 25,
   "agents": [
     {
@@ -10779,11 +10779,56 @@
           "raw_transcript": "[09:07:14 AM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I was wanting to know how to get the sign up reward that I saw that got me to sign up to play? And when I signed up the reward that you select at the beginning didn't give what I selected to me?\n[09:07:14 AM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I was wanting to know how to get the sign up reward that I saw that got me to sign up to play? And when I signed up the reward that you select at the beginning didn't give what I selected to me?\n[09:08:03 AM] Raul Figueroa: Hey! I’m sorry about that — I understand how frustrating it is not to receive the reward you selected.\n\nIn most cases, signup rewards are applied after completing the required steps, like verifying your email and phone number. Sometimes there can also be a short delay before they appear.\n\nI’d recommend double-checking that your email and phone are fully verified.\n\nIf everything is completed and you still don’t see the reward, please reach out to support@jackpotdaily.com\n from your registered email so the team can review your account and help get this sorted\n[09:08:03 AM] Raul Figueroa: Hey! I’m sorry about that — I understand how frustrating it is not to receive the reward you selected.\n\nIn most cases, signup rewards are applied after completing the required steps, like verifying your email and phone number. Sometimes there can also be a short delay before they appear.\n\nI’d recommend double-checking that your email and phone are fully verified.\n\nIf everything is completed and you still don’t see the reward, please reach out to support@jackpotdaily.com\n from your registered email so the team can review your account and help get this sorted\n[09:10:50 AM] Customer: Yes everything is verified  this is the sign up bonus that got me to sign up.  How do I get it\n[09:10:50 AM] Customer: Screenshot_20260424_041958_Facebook.jpg\n[09:10:50 AM] Customer: Yes everything is verified  this is the sign up bonus that got me to sign up.  How do I get it\n[09:10:50 AM] Customer: Screenshot_20260424_041958_Facebook.jpg\n[09:12:12 AM] Raul Figueroa: Hey! I understand — thanks for confirming that everything is verified.\n\nIf the signup bonus still hasn’t appeared after completing all the steps, it may require a manual review.\n\nPlease reach out to support@jackpotdaily.com\n from your registered email and mention the specific signup bonus you saw when you joined. The team will be able to check your account and see what happened.\n\nThey’ll help get this sorted for you\n[09:12:12 AM] Raul Figueroa: Hey! I understand — thanks for confirming that everything is verified.\n\nIf the signup bonus still hasn’t appeared after completing all the steps, it may require a manual review.\n\nPlease reach out to support@jackpotdaily.com\n from your registered email and mention the specific signup bonus you saw when you joined. The team will be able to check your account and see what happened.\n\nThey’ll help get this sorted for you\n[09:13:37 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[09:13:37 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T09:14:41.712Z"
+        },
+        {
+          "chat_id": "2047605085645520896",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-24T09:19:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into troubleshooting without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the golden egg issue from context and screenshot but asked no clarifying questions about KYC status or previous troubleshooting attempts."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided reasonable troubleshooting step and clear escalation path with specific email instructions, though resolution wasn't confirmed."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional instructions provided, though the empathy statement felt slightly generic."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to official support channel for manual intervention without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closing with multiple touchpoints offering further assistance and well-wishes for gameplay."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent provided competent troubleshooting and escalation guidance for a missing golden egg issue but failed to open with any greeting. The resolution path was clear and appropriate, though no confirmation of success was obtained before closing.",
+          "coaching_tip": "Always start with a greeting that acknowledges the customer by name before diving into the issue—it sets a professional, personalized tone for the interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[09:14:29 AM] Customer: Full Name: Ryan witherspoon Email Address: lamar803200@gmail.com Subject / How can we help you?: Crack golden egg\n[09:14:29 AM] Customer: Full Name: Ryan witherspoon Email Address: lamar803200@gmail.com Subject / How can we help you?: Crack golden egg\n[09:14:52 AM] Customer: Screenshot_20260424_051340_Chrome.jpg\n[09:14:52 AM] Customer: Screenshot_20260424_051340_Chrome.jpg\n[09:15:06 AM] Raul Figueroa: am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:15:06 AM] Raul Figueroa: am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:17:12 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[09:17:12 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[09:18:58 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[09:18:58 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T09:19:41.619Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": -26
+      "trend": 0
     },
     {
       "id": "5670",
@@ -41899,6 +41944,51 @@
       "raw_transcript": "[09:08:53 AM] Customer: Full Name: Ryan witherspoon Email Address: lamar803200@gmail.com Subject / How can we help you?: Crack golden egg\n[09:08:53 AM] Customer: Full Name: Ryan witherspoon Email Address: lamar803200@gmail.com Subject / How can we help you?: Crack golden egg\n[09:09:14 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[09:09:14 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[09:10:05 AM] Customer: Yea my profile is verified it will not let me Crack golden egg\n[09:10:05 AM] Customer: Yea my profile is verified it will not let me Crack golden egg\n[09:11:27 AM] Daniel Padilla: Can you please send a screenshot?\n[09:11:27 AM] Daniel Padilla: Can you please send a screenshot?\n[09:12:00 AM] Customer: Of what profile verified\n[09:12:00 AM] Customer: Of what profile verified\n[09:12:19 AM] Daniel Padilla: Yes, please\n[09:12:19 AM] Daniel Padilla: Yes, please\n[09:12:28 AM] Customer: Okay\n[09:12:28 AM] Customer: Okay",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T09:14:51.306Z"
+    },
+    {
+      "chat_id": "2047605085645520896",
+      "agent_name": "Raul Figueroa",
+      "agent_id": "5842",
+      "timestamp": "2026-04-24T09:19:01.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into troubleshooting without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the golden egg issue from context and screenshot but asked no clarifying questions about KYC status or previous troubleshooting attempts."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided reasonable troubleshooting step and clear escalation path with specific email instructions, though resolution wasn't confirmed."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional instructions provided, though the empathy statement felt slightly generic."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately directed to official support channel for manual intervention without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closing with multiple touchpoints offering further assistance and well-wishes for gameplay."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent provided competent troubleshooting and escalation guidance for a missing golden egg issue but failed to open with any greeting. The resolution path was clear and appropriate, though no confirmation of success was obtained before closing.",
+      "coaching_tip": "Always start with a greeting that acknowledges the customer by name before diving into the issue—it sets a professional, personalized tone for the interaction.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[09:14:29 AM] Customer: Full Name: Ryan witherspoon Email Address: lamar803200@gmail.com Subject / How can we help you?: Crack golden egg\n[09:14:29 AM] Customer: Full Name: Ryan witherspoon Email Address: lamar803200@gmail.com Subject / How can we help you?: Crack golden egg\n[09:14:52 AM] Customer: Screenshot_20260424_051340_Chrome.jpg\n[09:14:52 AM] Customer: Screenshot_20260424_051340_Chrome.jpg\n[09:15:06 AM] Raul Figueroa: am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:15:06 AM] Raul Figueroa: am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:17:12 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[09:17:12 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[09:18:58 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[09:18:58 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T09:19:41.619Z"
     }
   ]
 }
