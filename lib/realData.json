@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T14:35:21.069Z",
-  "total_chats": 518,
+  "scored_at": "2026-04-24T14:39:41.201Z",
+  "total_chats": 519,
   "total_agents": 26,
   "agents": [
     {
@@ -4407,11 +4407,56 @@
           "raw_transcript": "[02:24:59 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:24:59 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:25:21 PM] Diana Lopez: Hello!\n[02:25:21 PM] Diana Lopez: Hello!\n[02:25:36 PM] Customer: I was already on another chat with somebody but somehow I lost the chat and I can't figure out how to get back to it\n[02:25:36 PM] Customer: I was already on another chat with somebody but somehow I lost the chat and I can't figure out how to get back to it\n[02:25:56 PM] Diana Lopez: thank you for letting me know you're in Charlotte, North Carolina. North Carolina is not currently on our restricted states list, so you should be able to play.\n\nPlease paste or share the error message you're seeing, and I will help you figure out what's going on.\n[02:25:56 PM] Diana Lopez: thank you for letting me know you're in Charlotte, North Carolina. North Carolina is not currently on our restricted states list, so you should be able to play.\n\nPlease paste or share the error message you're seeing, and I will help you figure out what's going on.\n[02:26:38 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:26:38 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:27:26 PM] Diana Lopez: thank you for the screenshot. I see the error message: 'Game access is temporarily unavailable.'\n\nSince you're in North Carolina, which is not a restricted state, this should not be happening.\n\nPlease try these steps:\n\n1. Log out of your account and log back in\n2. Clear your browser's cache and cookies\n3. Try a different browser or device\n4. Disable any VPN or proxy if you're using one\n\nIf you're still unable to access games after trying these steps, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[02:27:26 PM] Diana Lopez: thank you for the screenshot. I see the error message: 'Game access is temporarily unavailable.'\n\nSince you're in North Carolina, which is not a restricted state, this should not be happening.\n\nPlease try these steps:\n\n1. Log out of your account and log back in\n2. Clear your browser's cache and cookies\n3. Try a different browser or device\n4. Disable any VPN or proxy if you're using one\n\nIf you're still unable to access games after trying these steps, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[02:28:38 PM] Customer: Okay I will go try it now and see what happens thank you I'll let you know\n[02:28:38 PM] Customer: Okay I will go try it now and see what happens thank you I'll let you know\n[02:29:04 PM] Diana Lopez: You're welcome. Thank you for your patience. Let me know how it goes.\n[02:29:04 PM] Diana Lopez: You're welcome. Thank you for your patience. Let me know how it goes.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T14:35:20.568Z"
+        },
+        {
+          "chat_id": "2047685910475878400",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T14:37:55.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Simple 'Hello' greeting, professional but minimal personalization."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent clarified the purchase pack system and asked follow-up questions to understand the customer's situation."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear explanation of how purchase packs unlock, gave troubleshooting steps, and offered escalation if needed."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, structured responses with bullet points and logical flow, though slightly verbose."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriate handling of purchase-related inquiry without unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No formal closing or confirmation that issue was resolved; conversation ended abruptly after customer said they'd check."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent provided a competent explanation of the purchase pack system and offered appropriate troubleshooting steps. However, the agent failed to properly close the conversation or confirm resolution after the customer agreed to check.",
+          "coaching_tip": "Always close the conversation by confirming the customer has what they need and offering further assistance, rather than letting the chat end without acknowledgment.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[02:35:39 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: There are only 2 purchases from what I see\n[02:35:39 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: There are only 2 purchases from what I see\n[02:36:00 PM] Diana Lopez: Hello!\n[02:36:00 PM] Diana Lopez: Hello!\n[02:36:15 PM] t9768059934: I have only paid 2 times 9.99\n[02:36:15 PM] t9768059934: I have only paid 2 times 9.99\n[02:36:34 PM] t9768059934: I’m not talking to the same person\n[02:36:34 PM] t9768059934: I’m not talking to the same person\n[02:36:35 PM] Diana Lopez: Hi — if you're only seeing 2 purchase packs available, that means you have not yet completed your 1st Purchase Pack.\n\nThe offers unlock in order:\n*- 1st Purchase Pack (available immediately for new players)*\n*- 2nd Purchase Pack (unlocks after you complete the 1st)*\n*- 3rd Purchase Pack (unlocks after you complete the 2nd)*\n\nIf you've already made a purchase but don't see the next pack, it may be that your purchase did not qualify (minimum $9.99) or the bonus is still being processed.\n\nPlease let me know if you've made a purchase and how much you spent, and I will help you figure out the next step.\n[02:36:35 PM] Diana Lopez: Hi — if you're only seeing 2 purchase packs available, that means you have not yet completed your 1st Purchase Pack.\n\nThe offers unlock in order:\n*- 1st Purchase Pack (available immediately for new players)*\n*- 2nd Purchase Pack (unlocks after you complete the 1st)*\n*- 3rd Purchase Pack (unlocks after you complete the 2nd)*\n\nIf you've already made a purchase but don't see the next pack, it may be that your purchase did not qualify (minimum $9.99) or the bonus is still being processed.\n\nPlease let me know if you've made a purchase and how much you spent, and I will help you figure out the next step.\n[02:37:11 PM] t9768059934: No I haven’t I have made 2 purchases\n[02:37:11 PM] t9768059934: No I haven’t I have made 2 purchases\n[02:37:31 PM] Diana Lopez: thank you for clarifying. You've made 2 purchases but you're only seeing 2 purchase packs available. That means you have completed your 1st Purchase Pack and your 2nd Purchase Pack.\n\nThe 3rd Purchase Pack should now be available. If you don't see it, please try refreshing the page or logging out and back in.\n\nIf the 3rd pack still doesn't appear, please let me know and I will make sure our team looks into this for you.\n[02:37:31 PM] Diana Lopez: thank you for clarifying. You've made 2 purchases but you're only seeing 2 purchase packs available. That means you have completed your 1st Purchase Pack and your 2nd Purchase Pack.\n\nThe 3rd Purchase Pack should now be available. If you don't see it, please try refreshing the page or logging out and back in.\n\nIf the 3rd pack still doesn't appear, please let me know and I will make sure our team looks into this for you.\n[02:37:52 PM] t9768059934: Ok I’ll check\n[02:37:52 PM] t9768059934: Ok I’ll check",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:39:40.700Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -19
+      "trend": -14
     },
     {
       "id": "5801",
@@ -46858,6 +46903,51 @@
       "raw_transcript": "[02:24:59 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:24:59 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:25:21 PM] Diana Lopez: Hello!\n[02:25:21 PM] Diana Lopez: Hello!\n[02:25:36 PM] Customer: I was already on another chat with somebody but somehow I lost the chat and I can't figure out how to get back to it\n[02:25:36 PM] Customer: I was already on another chat with somebody but somehow I lost the chat and I can't figure out how to get back to it\n[02:25:56 PM] Diana Lopez: thank you for letting me know you're in Charlotte, North Carolina. North Carolina is not currently on our restricted states list, so you should be able to play.\n\nPlease paste or share the error message you're seeing, and I will help you figure out what's going on.\n[02:25:56 PM] Diana Lopez: thank you for letting me know you're in Charlotte, North Carolina. North Carolina is not currently on our restricted states list, so you should be able to play.\n\nPlease paste or share the error message you're seeing, and I will help you figure out what's going on.\n[02:26:38 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:26:38 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:27:26 PM] Diana Lopez: thank you for the screenshot. I see the error message: 'Game access is temporarily unavailable.'\n\nSince you're in North Carolina, which is not a restricted state, this should not be happening.\n\nPlease try these steps:\n\n1. Log out of your account and log back in\n2. Clear your browser's cache and cookies\n3. Try a different browser or device\n4. Disable any VPN or proxy if you're using one\n\nIf you're still unable to access games after trying these steps, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[02:27:26 PM] Diana Lopez: thank you for the screenshot. I see the error message: 'Game access is temporarily unavailable.'\n\nSince you're in North Carolina, which is not a restricted state, this should not be happening.\n\nPlease try these steps:\n\n1. Log out of your account and log back in\n2. Clear your browser's cache and cookies\n3. Try a different browser or device\n4. Disable any VPN or proxy if you're using one\n\nIf you're still unable to access games after trying these steps, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[02:28:38 PM] Customer: Okay I will go try it now and see what happens thank you I'll let you know\n[02:28:38 PM] Customer: Okay I will go try it now and see what happens thank you I'll let you know\n[02:29:04 PM] Diana Lopez: You're welcome. Thank you for your patience. Let me know how it goes.\n[02:29:04 PM] Diana Lopez: You're welcome. Thank you for your patience. Let me know how it goes.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T14:35:20.568Z"
+    },
+    {
+      "chat_id": "2047685910475878400",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T14:37:55.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Simple 'Hello' greeting, professional but minimal personalization."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent clarified the purchase pack system and asked follow-up questions to understand the customer's situation."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear explanation of how purchase packs unlock, gave troubleshooting steps, and offered escalation if needed."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, structured responses with bullet points and logical flow, though slightly verbose."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriate handling of purchase-related inquiry without unauthorized promises."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "No formal closing or confirmation that issue was resolved; conversation ended abruptly after customer said they'd check."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 68,
+      "grade": "D",
+      "summary": "Agent provided a competent explanation of the purchase pack system and offered appropriate troubleshooting steps. However, the agent failed to properly close the conversation or confirm resolution after the customer agreed to check.",
+      "coaching_tip": "Always close the conversation by confirming the customer has what they need and offering further assistance, rather than letting the chat end without acknowledgment.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[02:35:39 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: There are only 2 purchases from what I see\n[02:35:39 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: There are only 2 purchases from what I see\n[02:36:00 PM] Diana Lopez: Hello!\n[02:36:00 PM] Diana Lopez: Hello!\n[02:36:15 PM] t9768059934: I have only paid 2 times 9.99\n[02:36:15 PM] t9768059934: I have only paid 2 times 9.99\n[02:36:34 PM] t9768059934: I’m not talking to the same person\n[02:36:34 PM] t9768059934: I’m not talking to the same person\n[02:36:35 PM] Diana Lopez: Hi — if you're only seeing 2 purchase packs available, that means you have not yet completed your 1st Purchase Pack.\n\nThe offers unlock in order:\n*- 1st Purchase Pack (available immediately for new players)*\n*- 2nd Purchase Pack (unlocks after you complete the 1st)*\n*- 3rd Purchase Pack (unlocks after you complete the 2nd)*\n\nIf you've already made a purchase but don't see the next pack, it may be that your purchase did not qualify (minimum $9.99) or the bonus is still being processed.\n\nPlease let me know if you've made a purchase and how much you spent, and I will help you figure out the next step.\n[02:36:35 PM] Diana Lopez: Hi — if you're only seeing 2 purchase packs available, that means you have not yet completed your 1st Purchase Pack.\n\nThe offers unlock in order:\n*- 1st Purchase Pack (available immediately for new players)*\n*- 2nd Purchase Pack (unlocks after you complete the 1st)*\n*- 3rd Purchase Pack (unlocks after you complete the 2nd)*\n\nIf you've already made a purchase but don't see the next pack, it may be that your purchase did not qualify (minimum $9.99) or the bonus is still being processed.\n\nPlease let me know if you've made a purchase and how much you spent, and I will help you figure out the next step.\n[02:37:11 PM] t9768059934: No I haven’t I have made 2 purchases\n[02:37:11 PM] t9768059934: No I haven’t I have made 2 purchases\n[02:37:31 PM] Diana Lopez: thank you for clarifying. You've made 2 purchases but you're only seeing 2 purchase packs available. That means you have completed your 1st Purchase Pack and your 2nd Purchase Pack.\n\nThe 3rd Purchase Pack should now be available. If you don't see it, please try refreshing the page or logging out and back in.\n\nIf the 3rd pack still doesn't appear, please let me know and I will make sure our team looks into this for you.\n[02:37:31 PM] Diana Lopez: thank you for clarifying. You've made 2 purchases but you're only seeing 2 purchase packs available. That means you have completed your 1st Purchase Pack and your 2nd Purchase Pack.\n\nThe 3rd Purchase Pack should now be available. If you don't see it, please try refreshing the page or logging out and back in.\n\nIf the 3rd pack still doesn't appear, please let me know and I will make sure our team looks into this for you.\n[02:37:52 PM] t9768059934: Ok I’ll check\n[02:37:52 PM] t9768059934: Ok I’ll check",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T14:39:40.700Z"
     }
   ]
 }
