@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T02:54:49.119Z",
-  "total_chats": 385,
+  "scored_at": "2026-04-24T03:04:45.392Z",
+  "total_chats": 386,
   "total_agents": 25,
   "agents": [
     {
@@ -5559,11 +5559,56 @@
           "raw_transcript": "[02:21:21 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: What is the problem with me getting another upload link??????\n[02:21:21 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: What is the problem with me getting another upload link??????\n[02:21:36 AM] Cairo Osorto: Thanks for contacting.\n[02:21:36 AM] Cairo Osorto: Thanks for contacting.\n[02:21:53 AM] Customer: ??  You all keep sending me the same link and giving me the same reply.  Wth\n[02:21:53 AM] Customer: ??  You all keep sending me the same link and giving me the same reply.  Wth\n[02:22:50 AM] Customer: ??\n[02:22:50 AM] Customer: ??\n[02:23:30 AM] Customer: We understand the issue you are having at the moment, we kindly ask you to wait 24-48 hours to get a new verification link, at the moment it would not be possible for us to send you a new verification link\n[02:23:30 AM] Customer: We understand the issue you are having at the moment, we kindly ask you to wait 24-48 hours to get a new verification link, at the moment it would not be possible for us to send you a new verification link\n[02:23:31 AM] Customer: Please stop telling me about a link because I haven’t received nothing to upload my Poa\n[02:23:31 AM] Customer: Please stop telling me about a link because I haven’t received nothing to upload my Poa\n[02:25:32 AM] Customer: We are working on giving you a new verification link, at the moment, if you have any other questions or concerns, we kindly ask you to create a support email at support@jackpotdaily.com. On the meantime, please wait for the verification link on your email, best regards and thanks for chatting with us, have a great night.\n[02:25:32 AM] Customer: We are working on giving you a new verification link, at the moment, if you have any other questions or concerns, we kindly ask you to create a support email at support@jackpotdaily.com. On the meantime, please wait for the verification link on your email, best regards and thanks for chatting with us, have a great night.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T02:29:39.787Z"
+        },
+        {
+          "chat_id": "2047508615270281216",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-24T02:59:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Generic 'Thanks for contacting' without personalization or warmth, below standard greeting quality."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent asked about email ticket submission but didn't explore the actual name/redemption issue or gather details needed to help."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Customer explicitly stated they've been waiting days for email response, yet agent simply redirected them back to email without resolving or escalating."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Messages were clear but lacked empathy for customer's frustration about waiting days without response."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but failed to provide adequate support for account issue preventing redemption."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Provided a closing with well-wishes, though premature given the unresolved issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 47,
+          "grade": "F",
+          "summary": "Agent failed to address the customer's core complaint about waiting days for email support regarding a name correction issue blocking redemption. Simply redirecting to email when customer already stated email support was unresponsive shows poor problem-solving and lack of ownership.",
+          "coaching_tip": "When a customer reports they've been waiting days for email support, don't redirect them back to email—escalate internally, check ticket status, or offer alternative resolution paths to show ownership of their issue.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[02:51:09 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[02:51:09 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[02:51:25 AM] Cairo Osorto: Thanks for contacting.\n[02:51:25 AM] Cairo Osorto: Thanks for contacting.\n[02:54:26 AM] Cairo Osorto: I see that you've been in touch with us regarding this inconvenience. May I ask whether you submitted a ticket to support via email?\n[02:54:26 AM] Cairo Osorto: I see that you've been in touch with us regarding this inconvenience. May I ask whether you submitted a ticket to support via email?\n[02:56:37 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with tonight?\n[02:56:37 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with tonight?\n[02:59:24 AM] Cairo Osorto: Please try submitting an email to support@jackpotdaily.com for further assistance.\n[02:59:24 AM] Cairo Osorto: Please try submitting an email to support@jackpotdaily.com for further assistance.\n[02:59:35 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:59:35 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:04:44.890Z"
         }
       ],
-      "avg_score": 60,
-      "grade": "D",
-      "trend": -23
+      "avg_score": 59,
+      "grade": "F",
+      "trend": -25
     },
     {
       "id": "5845",
@@ -34879,6 +34924,51 @@
       "raw_transcript": "[02:42:03 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: I’m going to report jackpot daily to the BBB today. It’s going on 4 weeks and still no payment and been going back and forth for weeks now about trying to redeem. When are you going to FIX my account so I can get my money that I’ve won\n[02:42:03 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: I’m going to report jackpot daily to the BBB today. It’s going on 4 weeks and still no payment and been going back and forth for weeks now about trying to redeem. When are you going to FIX my account so I can get my money that I’ve won\n[02:42:18 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:42:18 AM] t5927241207: Sorry, I closed the chat by accident\n[02:42:18 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:42:18 AM] t5927241207: Sorry, I closed the chat by accident\n[02:42:26 AM] t5927241207: Do you still see the previous messages?\n[02:42:26 AM] t5927241207: Do you still see the previous messages?\n[02:42:52 AM] Oskar Abaunza: Please press on ‘Submit’ and then send me another screenshot, please\n[02:42:52 AM] Oskar Abaunza: Please press on ‘Submit’ and then send me another screenshot, please\n[02:43:32 AM] Oskar Abaunza: Yes, I saw it, thank you.\n[02:43:32 AM] Oskar Abaunza: Yes, I saw it, thank you.\n[02:44:57 AM] t5927241207: IMG_1431.png\n[02:44:57 AM] t5927241207: IMG_1431.png\n[02:45:23 AM] t5927241207: It keeps telling me this. I literally tried to add all 3 of my bank accounts already\n[02:45:23 AM] t5927241207: It keeps telling me this. I literally tried to add all 3 of my bank accounts already\n[02:46:11 AM] t5927241207: Is there a way to delete them all and try again? It’s also not asking me for my address\n[02:46:11 AM] t5927241207: Is there a way to delete them all and try again? It’s also not asking me for my address\n[02:46:18 AM] t5927241207: Can you update the address for me?\n[02:46:18 AM] t5927241207: Can you update the address for me?\n[02:46:33 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:46:33 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:47:01 AM] t5927241207: No\n[02:47:01 AM] t5927241207: No\n[02:47:06 AM] t5927241207: They don’t help\n[02:47:06 AM] t5927241207: They don’t help\n[02:48:03 AM] Oskar Abaunza: In this case, this is the only way for us to assist you further. You will be responded to as quickly as possible.\n[02:48:03 AM] Oskar Abaunza: In this case, this is the only way for us to assist you further. You will be responded to as quickly as possible.\n[02:48:17 AM] t5927241207: I haven’t been.\n[02:48:17 AM] t5927241207: I haven’t been.\n[02:48:45 AM] t5927241207: I’ve been messaging them since April 8th and don’t never get a reply back\n[02:48:45 AM] t5927241207: IMG_1432.jpg\n[02:48:45 AM] t5927241207: I’ve been messaging them since April 8th and don’t never get a reply back\n[02:48:45 AM] t5927241207: IMG_1432.jpg\n[02:49:19 AM] t5927241207: How do I update my address? Since that’s the issue\n[02:49:19 AM] t5927241207: How do I update my address? Since that’s the issue\n[02:50:31 AM] t5927241207: You know what. I’m going to have to contact the BBB\n[02:50:31 AM] t5927241207: You know what. I’m going to have to contact the BBB\n[02:50:41 AM] Oskar Abaunza: Please create another ticket. We will prioritize your case and respond to you as soon as possible.\n[02:50:41 AM] Oskar Abaunza: Please create another ticket. We will prioritize your case and respond to you as soon as possible.\n[02:51:35 AM] t5927241207: Tuh. Bye\n[02:51:35 AM] t5927241207: Tuh. Bye",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T02:54:48.618Z"
+    },
+    {
+      "chat_id": "2047508615270281216",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-24T02:59:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Generic 'Thanks for contacting' without personalization or warmth, below standard greeting quality."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent asked about email ticket submission but didn't explore the actual name/redemption issue or gather details needed to help."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Customer explicitly stated they've been waiting days for email response, yet agent simply redirected them back to email without resolving or escalating."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Messages were clear but lacked empathy for customer's frustration about waiting days without response."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, but failed to provide adequate support for account issue preventing redemption."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Provided a closing with well-wishes, though premature given the unresolved issue."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 47,
+      "grade": "F",
+      "summary": "Agent failed to address the customer's core complaint about waiting days for email support regarding a name correction issue blocking redemption. Simply redirecting to email when customer already stated email support was unresponsive shows poor problem-solving and lack of ownership.",
+      "coaching_tip": "When a customer reports they've been waiting days for email support, don't redirect them back to email—escalate internally, check ticket status, or offer alternative resolution paths to show ownership of their issue.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[02:51:09 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[02:51:09 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[02:51:25 AM] Cairo Osorto: Thanks for contacting.\n[02:51:25 AM] Cairo Osorto: Thanks for contacting.\n[02:54:26 AM] Cairo Osorto: I see that you've been in touch with us regarding this inconvenience. May I ask whether you submitted a ticket to support via email?\n[02:54:26 AM] Cairo Osorto: I see that you've been in touch with us regarding this inconvenience. May I ask whether you submitted a ticket to support via email?\n[02:56:37 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with tonight?\n[02:56:37 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with tonight?\n[02:59:24 AM] Cairo Osorto: Please try submitting an email to support@jackpotdaily.com for further assistance.\n[02:59:24 AM] Cairo Osorto: Please try submitting an email to support@jackpotdaily.com for further assistance.\n[02:59:35 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:59:35 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:04:44.890Z"
     }
   ]
 }
