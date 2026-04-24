@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:34:39.962Z",
-  "total_chats": 391,
+  "scored_at": "2026-04-24T03:39:43.380Z",
+  "total_chats": 392,
   "total_agents": 25,
   "agents": [
     {
@@ -9555,11 +9555,56 @@
           "raw_transcript": "[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:29 AM] t7409419483: Tysm\n[03:10:29 AM] t7409419483: Tysm\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:24:40.578Z"
+        },
+        {
+          "chat_id": "2047516526659334144",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-24T03:35:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent immediately asked for time to investigate without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent eventually understood the hyphenated name issue but only after asking an irrelevant question about ACH/card and waiting for customer to explain with a screenshot."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided a basic troubleshooting suggestion (capitals and hyphen) but didn't confirm if it worked, escalate the technical issue, or follow up before closing."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple long delays without updates, asked irrelevant question about payment method, and closed chat without confirming resolution."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed prematurely without waiting for customer confirmation that the suggestion worked or if further help was needed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 50,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer, took excessive time to understand a straightforward issue, and closed the chat prematurely without confirming the suggested solution worked. The customer was left without confirmation their blocking issue was resolved.",
+          "coaching_tip": "Always wait for customer confirmation that a solution worked before closing the chat, especially for issues that block critical functions like redemption.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[03:22:35 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[03:22:35 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[03:22:51 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:22:51 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:23:08 AM] t5930547634: Ok\n[03:23:08 AM] t5930547634: Ok\n[03:23:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[03:23:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[03:23:51 AM] t5930547634: Ok\n[03:23:51 AM] t5930547634: Ok\n[03:25:30 AM] t5930547634: Ok\n[03:25:30 AM] t5930547634: Ok\n[03:27:48 AM] Oskar Abaunza: Are you trying to redeem via ACH or card network?\n[03:27:48 AM] Oskar Abaunza: Are you trying to redeem via ACH or card network?\n[03:28:06 AM] t5930547634: No it keeps showing this\n[03:28:06 AM] t5930547634: IMG_4179.png\n[03:28:06 AM] t5930547634: No it keeps showing this\n[03:28:06 AM] t5930547634: IMG_4179.png\n[03:28:19 AM] t5930547634: My last name is hyphenated so it says invalid\n[03:28:19 AM] t5930547634: My last name is hyphenated so it says invalid\n[03:28:34 AM] t5930547634: That’s how it is on my ID\n[03:28:34 AM] t5930547634: That’s how it is on my ID\n[03:28:46 AM] t5930547634: It doesn’t let me go past this screen\n[03:28:46 AM] t5930547634: It doesn’t let me go past this screen\n[03:29:54 AM] Oskar Abaunza: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\nSometimes formatting can affect how the system processes the information. Also, please try adding your last name as hyphenated.\n[03:29:54 AM] Oskar Abaunza: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\nSometimes formatting can affect how the system processes the information. Also, please try adding your last name as hyphenated.\n[03:31:39 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:31:39 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:35:05 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:35:05 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:39:42.880Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": -12
+      "trend": -14
     },
     {
       "id": "5670",
@@ -35419,6 +35464,51 @@
       "raw_transcript": "[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:34:39.461Z"
+    },
+    {
+      "chat_id": "2047516526659334144",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-24T03:35:09.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent immediately asked for time to investigate without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent eventually understood the hyphenated name issue but only after asking an irrelevant question about ACH/card and waiting for customer to explain with a screenshot."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided a basic troubleshooting suggestion (capitals and hyphen) but didn't confirm if it worked, escalate the technical issue, or follow up before closing."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Multiple long delays without updates, asked irrelevant question about payment method, and closed chat without confirming resolution."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Closed prematurely without waiting for customer confirmation that the suggestion worked or if further help was needed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 50,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer, took excessive time to understand a straightforward issue, and closed the chat prematurely without confirming the suggested solution worked. The customer was left without confirmation their blocking issue was resolved.",
+      "coaching_tip": "Always wait for customer confirmation that a solution worked before closing the chat, especially for issues that block critical functions like redemption.",
+      "website": "Jackpot Daily",
+      "message_count": 30,
+      "raw_transcript": "[03:22:35 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[03:22:35 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[03:22:51 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:22:51 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:23:08 AM] t5930547634: Ok\n[03:23:08 AM] t5930547634: Ok\n[03:23:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[03:23:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[03:23:51 AM] t5930547634: Ok\n[03:23:51 AM] t5930547634: Ok\n[03:25:30 AM] t5930547634: Ok\n[03:25:30 AM] t5930547634: Ok\n[03:27:48 AM] Oskar Abaunza: Are you trying to redeem via ACH or card network?\n[03:27:48 AM] Oskar Abaunza: Are you trying to redeem via ACH or card network?\n[03:28:06 AM] t5930547634: No it keeps showing this\n[03:28:06 AM] t5930547634: IMG_4179.png\n[03:28:06 AM] t5930547634: No it keeps showing this\n[03:28:06 AM] t5930547634: IMG_4179.png\n[03:28:19 AM] t5930547634: My last name is hyphenated so it says invalid\n[03:28:19 AM] t5930547634: My last name is hyphenated so it says invalid\n[03:28:34 AM] t5930547634: That’s how it is on my ID\n[03:28:34 AM] t5930547634: That’s how it is on my ID\n[03:28:46 AM] t5930547634: It doesn’t let me go past this screen\n[03:28:46 AM] t5930547634: It doesn’t let me go past this screen\n[03:29:54 AM] Oskar Abaunza: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\nSometimes formatting can affect how the system processes the information. Also, please try adding your last name as hyphenated.\n[03:29:54 AM] Oskar Abaunza: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\nSometimes formatting can affect how the system processes the information. Also, please try adding your last name as hyphenated.\n[03:31:39 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:31:39 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:35:05 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:35:05 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:39:42.880Z"
     }
   ]
 }
