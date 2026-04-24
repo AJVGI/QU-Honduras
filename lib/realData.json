@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T09:44:45.257Z",
-  "total_chats": 468,
+  "scored_at": "2026-04-24T10:09:46.016Z",
+  "total_chats": 469,
   "total_agents": 25,
   "agents": [
     {
@@ -20706,11 +20706,56 @@
           "raw_transcript": "[08:20:01 AM] t4340084330: Full Name: t4340084330 Email Address: Endlesslydevoted88@gmail.com Subject / How can we help you?: I didnt get the golden.egg when I verified?!\n[08:20:01 AM] t4340084330: Full Name: t4340084330 Email Address: Endlesslydevoted88@gmail.com Subject / How can we help you?: I didnt get the golden.egg when I verified?!\n[08:20:22 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[08:20:22 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[08:20:50 AM] t4340084330: Hey i didnt get the holden egg after I verified\n[08:20:50 AM] t4340084330: Hey i didnt get the holden egg after I verified\n[08:20:56 AM] t4340084330: Golden*\n[08:20:56 AM] t4340084330: Golden*\n[08:20:57 AM] Guillermo Mendoza: youre cointacting regarding you golden egg bonuus. Let check your account and validate\n[08:20:57 AM] Guillermo Mendoza: youre cointacting regarding you golden egg bonuus. Let check your account and validate\n[08:21:06 AM] t4340084330: Ok\n[08:21:06 AM] t4340084330: Ok\n[08:23:24 AM] t4340084330: Ok\n[08:23:24 AM] t4340084330: Ok\n[08:23:48 AM] Guillermo Mendoza: I can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 2 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf either:\n\n* The ticket wasn’t claimed within the 5‑day window, or\n* The Smash & Win wasn’t played within 24 hours after verification\n\n…the Golden Egg will show as expired and can’t be reactivated.\n[08:23:48 AM] Guillermo Mendoza: I can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 2 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf either:\n\n* The ticket wasn’t claimed within the 5‑day window, or\n* The Smash & Win wasn’t played within 24 hours after verification\n\n…the Golden Egg will show as expired and can’t be reactivated.\n[08:25:00 AM] t4340084330: Dang so I missed it I wish that was detailed in bold or something that sucks\n[08:25:00 AM] t4340084330: Dang so I missed it I wish that was detailed in bold or something that sucks\n[08:26:02 AM] Guillermo Mendoza: The golden egg bonus beome available just on the first 48 Hours since account got verified\n[08:26:02 AM] Guillermo Mendoza: The golden egg bonus beome available just on the first 48 Hours since account got verified\n[08:26:45 AM] Guillermo Mendoza: We will take your feedback and sure we will escalated to make sure its clear\n[08:26:45 AM] Guillermo Mendoza: We will take your feedback and sure we will escalated to make sure its clear\n[08:27:02 AM] t4340084330: Ok\n[08:27:02 AM] t4340084330: Ok",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T08:29:54.878Z"
+        },
+        {
+          "chat_id": "2047617364681076736",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T10:04:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and warm greeting, though generic without using customer's name."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Customer asked about signing up but agent did not respond or ask clarifying questions before chat ended."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution provided - agent greeted but never responded to the customer's actual question about registration."
+            },
+            "communication": {
+              "score": 5,
+              "notes": "Agent greeted professionally but failed to respond to customer's repeated inquiries, leaving them waiting."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the limited interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided - chat appears incomplete with customer still waiting for response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 28,
+          "grade": "F",
+          "summary": "Agent provided a professional greeting but completely failed to respond to the customer's question about signing up for the game. Customer sent multiple follow-ups including 'Hello' with no agent response, resulting in an incomplete and unsuccessful interaction.",
+          "coaching_tip": "Always acknowledge and respond to customer questions promptly - after greeting, immediately address their inquiry about registration or explain any delay in responding.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[10:03:17 AM] Customer: Full Name: Terrance Lawrence Email Address: treasurelaw123@gmail.com Subject / How can we help you?: Can I sign up for this game\n[10:03:17 AM] Customer: Full Name: Terrance Lawrence Email Address: treasurelaw123@gmail.com Subject / How can we help you?: Can I sign up for this game\n[10:03:41 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:03:41 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:04:19 AM] Customer: Can I sign up for this game or yall sign me up\n[10:04:19 AM] Customer: Can I sign up for this game or yall sign me up\n[10:04:49 AM] Customer: Hello\n[10:04:49 AM] Customer: Hello",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T10:09:45.514Z"
         }
       ],
-      "avg_score": 51,
+      "avg_score": 50,
       "grade": "F",
-      "trend": 10
+      "trend": 6
     },
     {
       "id": "5838",
@@ -42349,6 +42394,51 @@
       "raw_transcript": "[09:33:51 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: You said to give you my email to possibly nudge along my redemption\n[09:33:51 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: You said to give you my email to possibly nudge along my redemption\n[09:36:06 AM] Karen Perez: Yes, thank you. Please wait for the timeframe previously given\n[09:36:06 AM] Karen Perez: Yes, thank you. Please wait for the timeframe previously given\n[09:38:42 AM] Karen Perez: Sorry, are you still there?\n[09:38:42 AM] Karen Perez: Sorry, are you still there?\n[09:40:20 AM] t1110271063: Ok\n[09:40:20 AM] t1110271063: Ok",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T09:44:44.756Z"
+    },
+    {
+      "chat_id": "2047617364681076736",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T10:04:58.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and warm greeting, though generic without using customer's name."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Customer asked about signing up but agent did not respond or ask clarifying questions before chat ended."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution provided - agent greeted but never responded to the customer's actual question about registration."
+        },
+        "communication": {
+          "score": 5,
+          "notes": "Agent greeted professionally but failed to respond to customer's repeated inquiries, leaving them waiting."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed in the limited interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided - chat appears incomplete with customer still waiting for response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 28,
+      "grade": "F",
+      "summary": "Agent provided a professional greeting but completely failed to respond to the customer's question about signing up for the game. Customer sent multiple follow-ups including 'Hello' with no agent response, resulting in an incomplete and unsuccessful interaction.",
+      "coaching_tip": "Always acknowledge and respond to customer questions promptly - after greeting, immediately address their inquiry about registration or explain any delay in responding.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[10:03:17 AM] Customer: Full Name: Terrance Lawrence Email Address: treasurelaw123@gmail.com Subject / How can we help you?: Can I sign up for this game\n[10:03:17 AM] Customer: Full Name: Terrance Lawrence Email Address: treasurelaw123@gmail.com Subject / How can we help you?: Can I sign up for this game\n[10:03:41 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:03:41 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:04:19 AM] Customer: Can I sign up for this game or yall sign me up\n[10:04:19 AM] Customer: Can I sign up for this game or yall sign me up\n[10:04:49 AM] Customer: Hello\n[10:04:49 AM] Customer: Hello",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T10:09:45.514Z"
     }
   ]
 }
