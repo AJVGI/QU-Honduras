@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T17:34:48.016Z",
-  "total_chats": 551,
+  "scored_at": "2026-04-24T17:39:42.794Z",
+  "total_chats": 552,
   "total_agents": 26,
   "agents": [
     {
@@ -1197,6 +1197,510 @@
         }
       ],
       "avg_score": 65,
+      "grade": "D",
+      "trend": 0
+    },
+    {
+      "id": "5801",
+      "name": "Andrea Rodriguez",
+      "chats": [
+        {
+          "chat_id": "2047323403726925824",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-23T14:47:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
+          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T14:49:53.803Z"
+        },
+        {
+          "chat_id": "2047361408189640704",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-23T17:18:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Understood the core concern about Georgia eligibility and asked for screenshot, but could have probed more about the intermittent error."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Confirmed Georgia is available, addressed the technical issue possibility, and thoroughly answered the follow-up question about redemption options."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional with good detail on redemption methods, though could have been slightly more empathetic given customer's concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate information about state eligibility and redemption processes."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing statement, no offer for further assistance, and no goodbye—transcript ends abruptly after providing information."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent competently addressed the customer's concern about Georgia eligibility and provided detailed redemption information. However, the interaction lacked a proper closing and the greeting was minimal.",
+          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and providing a warm goodbye—never leave the chat hanging after answering a question.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:23 PM] t9620154908: Hello amanda\n[05:07:23 PM] t9620154908: Hello amanda\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T17:19:42.343Z"
+        },
+        {
+          "chat_id": "2047674707876343808",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T14:05:56.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped straight to asking for time without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent identified verification was needed but never confirmed understanding of the signup bonus concern or explained the connection."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided partial answer about verification requirement but didn't explain how it relates to bonus or guide customer through next steps."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Very brief responses with no empathy, context, or clear instructions on what customer needs to do."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but didn't properly set expectations about bonus delivery after verification."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "Closed chat prematurely after only five minutes of customer silence without confirming issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent identified that account verification was needed but provided minimal explanation and no guidance on how to complete it or when the bonus would arrive. Chat was closed prematurely without confirming the customer's issue was resolved or that they had left.",
+          "coaching_tip": "Always provide clear next steps when asking customers to take action, and wait longer than 5 minutes before closing an unresolved chat where the customer expressed confusion.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[01:51:09 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[01:51:09 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[01:51:51 PM] t5771772342: Hi it keeps telling me that the system is busy\n[01:51:51 PM] t5771772342: Hi it keeps telling me that the system is busy\n[01:52:47 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[01:52:47 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[01:54:53 PM] Andrea Rodriguez: You need to verify your account.\n[01:54:53 PM] Andrea Rodriguez: You need to verify your account.\n[02:00:14 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:00:14 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:05:51 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:05:51 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:09:55.243Z"
+        },
+        {
+          "chat_id": "2047681002545180672",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T14:25:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though didn't use customer's name which was provided."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent understood the geo-restriction error from screenshot and provided relevant troubleshooting without asking clarifying questions."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps for the access issue but didn't confirm if solution worked before closing."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic tone with well-structured troubleshooting steps that were easy to follow."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made throughout the interaction."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed prematurely after only 2 minutes of waiting without confirming issue resolution or offering further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent provided solid technical troubleshooting for a geo-restriction error with clear, empathetic communication. However, the interaction was closed too quickly without confirming whether the customer's issue was resolved after implementing the suggested fixes.",
+          "coaching_tip": "Wait longer for customer response after providing troubleshooting steps, and always confirm resolution before closing the chat—aim for at least 5 minutes of inactivity on technical issues.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:16:09 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:16:09 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:16:34 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:16:34 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:17:03 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:17:03 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:19:18 PM] Customer: Thank you\n[02:19:18 PM] Customer: Thank you\n[02:19:58 PM] Andrea Rodriguez: That \"game access is temporarily unavailable\" message is frustrating, especially when you're in a state that's fully supported. Let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing. Even some \"privacy protection\" settings on browsers or antivirus software can act like a VPN!\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state — annoying, but it happens sometimes!\n[02:19:58 PM] Andrea Rodriguez: That \"game access is temporarily unavailable\" message is frustrating, especially when you're in a state that's fully supported. Let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing. Even some \"privacy protection\" settings on browsers or antivirus software can act like a VPN!\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state — annoying, but it happens sometimes!\n[02:23:06 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:23:06 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:25:34 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:25:34 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:29:52.112Z"
+        },
+        {
+          "chat_id": "2047683155937148928",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T14:40:55.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent asked for reason before closing account and understood the customer's frustration about verification requirements and bonus."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent clearly explained verification requirements, offered solution to complete verification for bonus, and escalated appropriately when customer didn't respond."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional communication explaining policy, though could have been more empathetic to customer's frustration about feeling 'duped'."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper verification policies and made no unauthorized promises regarding bonuses."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided closure with apology and escalation notice, though could have been more polished given the account closure request context."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent handled a frustrated customer requesting account closure professionally by explaining verification requirements and offering a path forward. The agent appropriately balanced retention efforts with respect for the customer's concerns and escalated when the customer became unresponsive.",
+          "coaching_tip": "When customers express feeling 'duped' or misled, acknowledge their frustration more explicitly with empathy before explaining policy to build rapport and reduce defensiveness.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[02:24:43 PM] t5086101290: Full Name: t5086101290 Email Address: brat100pct@gmail.com Subject / How can we help you?: Cancel account\n[02:24:43 PM] t5086101290: Full Name: t5086101290 Email Address: brat100pct@gmail.com Subject / How can we help you?: Cancel account\n[02:24:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:24:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:25:14 PM] Andrea Rodriguez: Can you give me a reason before we close the account\n[02:25:14 PM] Andrea Rodriguez: Can you give me a reason before we close the account\n[02:26:09 PM] t5086101290: Yes because I was duped into believing after giving all of my personal information, Google login information, I never received any sign in bonus and then it wants me to verify with an ID after I've already used my Google account to verify these are all things that were not in stipulations to signing in and logging on and getting a sign of bonus\n[02:26:09 PM] t5086101290: Yes because I was duped into believing after giving all of my personal information, Google login information, I never received any sign in bonus and then it wants me to verify with an ID after I've already used my Google account to verify these are all things that were not in stipulations to signing in and logging on and getting a sign of bonus\n[02:30:19 PM] t5086101290: .\n[02:30:19 PM] t5086101290: .\n[02:30:22 PM] Andrea Rodriguez: You cannot use a google account to verify your account. We need an ID or a license/passport, and as I can see in the system you declined the consent to send them, without these we cannot verify and give your bonus.\n[02:30:22 PM] Andrea Rodriguez: You cannot use a google account to verify your account. We need an ID or a license/passport, and as I can see in the system you declined the consent to send them, without these we cannot verify and give your bonus.\n[02:31:06 PM] Andrea Rodriguez: We can verify your account if you consent to send those requirements again and give you your bonus.\n[02:31:06 PM] Andrea Rodriguez: We can verify your account if you consent to send those requirements again and give you your bonus.\n[02:31:48 PM] Andrea Rodriguez: Tell me if you prefer to continue with our verification process or cancel the account.\n[02:31:48 PM] Andrea Rodriguez: Tell me if you prefer to continue with our verification process or cancel the account.\n[02:37:18 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:37:18 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:40:51 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[02:40:51 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:44:59.381Z"
+        },
+        {
+          "chat_id": "2047687791821668352",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T14:46:27.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, but did not use customer's name despite it being provided."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the core issue about card payment option not being available without needing clarification."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided accurate information that only ACH is currently available, directly addressing the customer's confusion about conflicting information."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and concise response, though could have been more empathetic given the conflicting information from another agent."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately explained current payment method limitations without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Agent provided no closing statement, follow-up offer, or acknowledgment of customer's positive farewell message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent correctly resolved the payment method confusion by clarifying that only ACH is currently available, contradicting previous agent information. However, the interaction lacked a proper closing and could have shown more empathy regarding the conflicting information the customer received.",
+          "coaching_tip": "Always acknowledge and close the conversation when a customer says goodbye, especially when they express satisfaction and future purchase intent.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[02:43:08 PM] Customer: Full Name: Mickey Allen Puckhaber Email Address: Puck3511@gmail.com Subject / How can we help you?: When i redeemed earlier today the only option was ACH but live agent said card is faster. When I go to wallet it does not give me the option. How can I add card for redeem? It only let's me add banking details\n[02:43:08 PM] Customer: Full Name: Mickey Allen Puckhaber Email Address: Puck3511@gmail.com Subject / How can we help you?: When i redeemed earlier today the only option was ACH but live agent said card is faster. When I go to wallet it does not give me the option. How can I add card for redeem? It only let's me add banking details\n[02:43:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:43:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:43:41 PM] Customer: Thanks so much\n[02:43:41 PM] Customer: Thanks so much\n[02:43:52 PM] Andrea Rodriguez: Only ACH is working at this moment, sorry for the inconvenience.\n[02:43:52 PM] Andrea Rodriguez: Only ACH is working at this moment, sorry for the inconvenience.\n[02:45:54 PM] Customer: Oh OK. No problem.  Rachel is just spoke with was saying card is faster so I just wanted to make sure I understood how to do that for next time.  Thank you so much Amanda.  Hopefully it comes soon cause I'm ready to buy mysecond package.  Enjoy your weekend! ⚘️\n[02:45:54 PM] Customer: Oh OK. No problem.  Rachel is just spoke with was saying card is faster so I just wanted to make sure I understood how to do that for next time.  Thank you so much Amanda.  Hopefully it comes soon cause I'm ready to buy mysecond package.  Enjoy your weekend! ⚘️",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:49:41.899Z"
+        },
+        {
+          "chat_id": "2047689390246637568",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T15:04:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though didn't use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent identified the account issue and requested correct email after initial lookup failed."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent found the correct account, verified it was already verified, and escalated appropriately when customer stopped responding."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout, set expectations with timeframes, checked in appropriately."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, handled account verification appropriately without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided closure with apology and set expectation for specialist follow-up via email."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent handled the verification inquiry competently by identifying the correct account after initial confusion and confirming verification status. Communication was professional with appropriate follow-ups, though customer engagement was minimal.",
+          "coaching_tip": "When confirming account verification status, ask the customer what specific issue they're experiencing or what action they're trying to take, rather than just asking them to check again.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[02:49:29 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[02:49:29 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[02:49:53 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:49:53 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:51:10 PM] Andrea Rodriguez: There is no account linked to your email.\n[02:51:10 PM] Andrea Rodriguez: There is no account linked to your email.\n[02:55:31 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:55:31 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:55:40 PM] t5645204337: k\n[02:55:40 PM] t5645204337: k\n[02:55:55 PM] t5645204337: garrettrayganese@gmail.com\n[02:55:55 PM] t5645204337: garrettrayganese@gmail.com\n[02:55:59 PM] t5645204337: or garrettoswald@yahoo.com\n[02:55:59 PM] t5645204337: or garrettoswald@yahoo.com\n[02:57:24 PM] Andrea Rodriguez: Looks like it is the first one.\n[02:57:24 PM] Andrea Rodriguez: Looks like it is the first one.\n[02:57:48 PM] Andrea Rodriguez: Allow me a moment to check everything is correct.\n[02:57:48 PM] Andrea Rodriguez: Allow me a moment to check everything is correct.\n[02:58:00 PM] Andrea Rodriguez: Maximum 5 minutes.\n[02:58:00 PM] Andrea Rodriguez: Maximum 5 minutes.\n[02:58:09 PM] t5645204337: ty\n[02:58:09 PM] t5645204337: ty\n[02:58:30 PM] Andrea Rodriguez: Looks like your account is already verified, can you check again?\n[02:58:30 PM] Andrea Rodriguez: Looks like your account is already verified, can you check again?\n[03:01:50 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[03:01:50 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[03:04:36 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[03:04:36 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T15:09:57.234Z"
+        },
+        {
+          "chat_id": "2047693458209812480",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T15:23:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with name and offer to assist, though agent name mismatch (Andrea/Amanda) is confusing."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent asked for clarification when confused but didn't fully explore the customer's concern about the previous agent's explanation or current redemption status."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided general timeline information but didn't address the specific status question or verify account details, leaving customer's main concern unresolved."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear but somewhat robotic responses; didn't acknowledge customer's frustration or adequately explain the previous agent's message about request stages."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard processing timeframes without unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Chat ended abruptly with no closing statement, summary, or offer of further assistance after customer's final message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent provided basic redemption timeline information but failed to investigate the specific status of the customer's request or adequately explain the previous agent's comments about request stages. The interaction ended abruptly without proper closure or resolution of the customer's primary concern.",
+          "coaching_tip": "Always check the customer's account to provide specific status updates rather than generic timelines, and ensure you close every chat professionally even when the conversation seems to trail off.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[03:05:39 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[03:05:39 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[03:05:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[03:05:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[03:06:13 PM] Andrea Rodriguez: Via ACH can take up to 10 days.\n[03:06:13 PM] Andrea Rodriguez: Via ACH can take up to 10 days.\n[03:06:33 PM] Andrea Rodriguez: We do not process redemptions on weekends.\n[03:06:33 PM] Andrea Rodriguez: We do not process redemptions on weekends.\n[03:06:47 PM] Andrea Rodriguez: Sorry, 10 bussiness days.\n[03:06:47 PM] Andrea Rodriguez: Sorry, 10 bussiness days.\n[03:07:19 PM] t5416824943: What was Samantha talking  about making it pass  first and second request\n[03:07:19 PM] t5416824943: What was Samantha talking  about making it pass  first and second request\n[03:08:09 PM] Andrea Rodriguez: I do not understand, can you explain further\n[03:08:09 PM] Andrea Rodriguez: I do not understand, can you explain further\n[03:09:44 PM] t5416824943: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[03:09:44 PM] t5416824943: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[03:10:00 PM] t5416824943: That's what she  sent\n[03:10:00 PM] t5416824943: That's what she  sent\n[03:10:54 PM] Andrea Rodriguez: Yes we only process one redemption at the time, you cannot have two requests.\n[03:10:54 PM] Andrea Rodriguez: Yes we only process one redemption at the time, you cannot have two requests.\n[03:11:14 PM] t5416824943: I dont\n[03:11:14 PM] t5416824943: I dont",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T15:24:46.727Z"
+        },
+        {
+          "chat_id": "2047708273951158272",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T16:11:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with name introduction, but didn't use customer's name or acknowledge their frustration."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic issue but failed to investigate why W9 wasn't sent or check ticket status despite customer's clear concern."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent provided general timeline information but didn't resolve the core issue of missing W9 or lack of communication, no escalation offered."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Repetitive 'be patient' responses came across as dismissive rather than empathetic, failed to acknowledge customer's valid concerns about missing W9."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, correctly mentioned W9 requirement and processing times, though could have been more helpful."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but closed prematurely without actually resolving the W9 issue or providing next steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided basic information about processing times but failed to address the customer's primary concern about not receiving the promised W9 form. The repetitive 'be patient' responses without investigating the issue or offering to escalate came across as dismissive and unhelpful.",
+          "coaching_tip": "When a customer reports not receiving a promised document (W9), check the account status and either resend it immediately or escalate to the appropriate team rather than defaulting to 'be patient' responses.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T16:14:44.075Z"
+        },
+        {
+          "chat_id": "2047719944451616768",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T17:04:52.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Warm and empathetic opening with 'I've got you' but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Understood the Facebook login issue and provided relevant troubleshooting steps, though could have asked more clarifying questions about exact error messages."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided appropriate troubleshooting, then properly escalated when chat-level resolution wasn't possible with clear instructions for ticket submission."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and professional throughout with good use of formatting and step-by-step guidance."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and followed proper escalation protocol without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and apologized for incomplete resolution, providing reassurance about follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Andrea handled a Facebook login issue competently by providing standard troubleshooting steps and properly escalating when the issue persisted. Communication was empathetic and professional throughout with appropriate closure.",
+          "coaching_tip": "When the customer asked 'How do I get into the original account,' clarify whether they want to try Facebook login again or switch to email/password method before giving contradictory advice about using email credentials.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:53:19 PM] Customer: How do I get into the original account\n[04:53:19 PM] Customer: How do I get into the original account\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:10:00.969Z"
+        },
+        {
+          "chat_id": "2047729004638416896",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T17:38:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, empathetic greeting that acknowledged the customer's frustration and offered immediate help."
+            },
+            "issue_discovery": {
+              "score": 18,
+              "notes": "Thorough diagnostic questions covering all common redemption blockers, then followed up appropriately when customer identified technical issue."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided comprehensive troubleshooting steps covering multiple browsers, devices, and common technical fixes appropriate for the button malfunction issue."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, well-structured responses with numbered steps and formatting, though slightly verbose in places."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper procedures, mentioned required policies like playthrough requirements and W-9 forms without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-response with no closing from agent visible."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent provided excellent diagnostic questioning and comprehensive technical troubleshooting for a redemption button issue. The interaction was professional and thorough, though the transcript appears incomplete with no visible closing.",
+          "coaching_tip": "After providing multiple troubleshooting steps, pause to let the customer try one or two at a time rather than overwhelming them with all options at once.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[05:26:54 PM] t0413680813: Full Name: t0413680813 Email Address: likiabanks44@gmail.com Subject / How can we help you?: I cannot redeem my winning can you help please\n[05:26:54 PM] t0413680813: Full Name: t0413680813 Email Address: likiabanks44@gmail.com Subject / How can we help you?: I cannot redeem my winning can you help please\n[05:27:41 PM] Andrea Rodriguez: I'm really sorry to hear you're having trouble redeeming your winnings — I know how frustrating that can be, especially when you're ready to cash out. Let me help you figure this out!\n[05:27:41 PM] Andrea Rodriguez: I'm really sorry to hear you're having trouble redeeming your winnings — I know how frustrating that can be, especially when you're ready to cash out. Let me help you figure this out!\n[05:28:58 PM] Andrea Rodriguez: Now let's figure out what's blocking your redemption. A few quick questions for you:\n\n1. How many Sweepstakes Coins (SC) are you trying to redeem?\n\nMinimum is 100 SC — just checking!\n\n2. Have you played through those SC at least once?\n\nSC need a 1x playthrough before they're eligible for redemption\n\n3. Do you already have another redemption pending?\n\nWe only allow one pending redemption at a time\n\nYou can check under Profile → Activity → Redemption tab\n\n4. Is your redemption amount $600 or more?\n\nIf yes, you'll need to complete a W-9 form before we can release payment\n\n5. What exactly happens when you try to redeem?\n\nDo you see an error message? If so, what does it say?\n\nDoes it let you start the process but then stop?\n[05:28:58 PM] Andrea Rodriguez: Now let's figure out what's blocking your redemption. A few quick questions for you:\n\n1. How many Sweepstakes Coins (SC) are you trying to redeem?\n\nMinimum is 100 SC — just checking!\n\n2. Have you played through those SC at least once?\n\nSC need a 1x playthrough before they're eligible for redemption\n\n3. Do you already have another redemption pending?\n\nWe only allow one pending redemption at a time\n\nYou can check under Profile → Activity → Redemption tab\n\n4. Is your redemption amount $600 or more?\n\nIf yes, you'll need to complete a W-9 form before we can release payment\n\n5. What exactly happens when you try to redeem?\n\nDo you see an error message? If so, what does it say?\n\nDoes it let you start the process but then stop?\n[05:31:09 PM] t0413680813: $143.00\n[05:31:09 PM] t0413680813: $143.00\n[05:32:01 PM] Andrea Rodriguez: Have the SC been played through at least once?\n[05:32:01 PM] Andrea Rodriguez: Have the SC been played through at least once?\n[05:32:18 PM] t0413680813: yes\n[05:32:18 PM] t0413680813: yes\n[05:32:50 PM] t0413680813: when I try to redeem the bottom is not working\n[05:32:50 PM] t0413680813: when I try to redeem the bottom is not working\n[05:34:02 PM] Andrea Rodriguez: That's definitely a technical issue, not a balance or verification problem. Let's get that fixed!\n\nLet's try a few quick things first:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n\nStep 2 — Clear your browser's cache and cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select \"All time\" + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (☰) → Settings → Privacy & Security → Clear Data\n\nSafari: Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋮) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try a different browser:\n\nChrome, Firefox, Safari, or Edge — sometimes one works better than others!\n\nStep 4 — Try on a different device:\n\nIf you're on desktop, try mobile — or vice versa\n\nStep 5 — Disable any VPN, proxy, or ad-blocker:\n\nThese can sometimes interfere with buttons and forms on websites\n[05:34:02 PM] Andrea Rodriguez: That's definitely a technical issue, not a balance or verification problem. Let's get that fixed!\n\nLet's try a few quick things first:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n\nStep 2 — Clear your browser's cache and cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select \"All time\" + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (☰) → Settings → Privacy & Security → Clear Data\n\nSafari: Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋮) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try a different browser:\n\nChrome, Firefox, Safari, or Edge — sometimes one works better than others!\n\nStep 4 — Try on a different device:\n\nIf you're on desktop, try mobile — or vice versa\n\nStep 5 — Disable any VPN, proxy, or ad-blocker:\n\nThese can sometimes interfere with buttons and forms on websites\n[05:34:40 PM] t0413680813: ok\n[05:34:40 PM] t0413680813: ok\n[05:35:01 PM] Andrea Rodriguez: Try those and let me know\n[05:35:01 PM] Andrea Rodriguez: Try those and let me know\n[05:36:47 PM] t0413680813: I just try it not working\n[05:36:47 PM] t0413680813: I just try it not working\n[05:37:42 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[05:37:42 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:39:42.293Z"
+        }
+      ],
+      "avg_score": 64,
       "grade": "D",
       "trend": 0
     },
@@ -2693,465 +3197,6 @@
       "avg_score": 63,
       "grade": "D",
       "trend": 5
-    },
-    {
-      "id": "5801",
-      "name": "Andrea Rodriguez",
-      "chats": [
-        {
-          "chat_id": "2047323403726925824",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-23T14:47:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all—agent jumped straight into 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent provided comprehensive common causes and asked clarifying questions about SC vs GC, then adapted when customer provided more details."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent explained possible causes but didn't definitively resolve the issue or escalate to check the actual account despite customer stating none of the standard reasons apply."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and well-structured explanations with good use of formatting, though somewhat scripted."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately explained terms and playthrough requirements without making unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript cuts off mid-sentence with no closing provided—appears incomplete."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent provided thorough educational information about common withdrawal issues and showed empathy, but failed to greet the customer initially and didn't escalate or offer to investigate the specific account when standard explanations didn't apply. The transcript appears incomplete with no proper closing.",
-          "coaching_tip": "When a customer confirms none of the standard reasons apply to their situation, transition from education mode to investigation mode—offer to review their specific account details or escalate to resolve the discrepancy rather than continuing with generic explanations.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:11 PM] t0819230919: Full Name: t0819230919 Email Address: benjip97@gmail.com Subject / How can we help you?: I am trying to withdraw but it keeps saying insufficient wallet balance which is not true?\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:35:54 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[02:36:04 PM] t0819230919: Thank you\n[02:36:04 PM] t0819230919: Thank you\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:12 PM] Andrea Rodriguez: That definitely sounds frustrating — especially when you know you have funds in your account. Let me help you figure out what's going on!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:36:31 PM] Andrea Rodriguez: Here are the most common reasons for that message, even when your balance looks correct:\n\nFirst — a quick check: Are you trying to redeem Sweepstakes Coins (SC) or Gold Coins (GC) ? Just so you know, only SC can be redeemed for prizes. GC are for social gameplay only and don't have cash value.\n\nIf you're trying to redeem SC, here's what to check:\n\nPlaythrough requirement — Your SC needs to be played through at least 1x before you can redeem it. So if you have 100 SC but haven't wagered them yet, they won't be available for withdrawal just yet.\n\nMinimum amount — You'll need at least 100 SC that have been played through to request a redemption.\n\nAlready pending redemption — We only allow one pending redemption at a time. Check if you already have a request in progress!\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:38:54 PM] t0819230919: None of those could be the issue, my redeemable balance is 100.45 SC and it's all been played through\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:39:26 PM] t0819230919: I received 30 sc from my purchase which was played through I mean\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:40:34 PM] Andrea Rodriguez: If that's the case, it sounds like the 100.45 SC might be coming from other sources — like Daily Login Rewards, cashback, bonuses, or referrals — and those can sometimes have different playthrough requirements or terms attached to them.\n\nHere's something important to check:\n\nSome promotions and bonuses require their own playthrough before they become redeemable — even if other SC in your account are already good to go. The system combines your total SC balance, but the redeemable amount only counts the SC that have met all the requirements for their specific source.\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:42:04 PM] t0819230919: How do I determine that? I can only go off what it says my redeemable balance is?\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:32 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[02:46:56 PM] t0819230919: Ok\n[02:46:56 PM] t0819230919: Ok",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T14:49:53.803Z"
-        },
-        {
-          "chat_id": "2047361408189640704",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-23T17:18:34.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic greeting without personalization or warmth, minimal effort."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Understood the core concern about Georgia eligibility and asked for screenshot, but could have probed more about the intermittent error."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Confirmed Georgia is available, addressed the technical issue possibility, and thoroughly answered the follow-up question about redemption options."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear and professional with good detail on redemption methods, though could have been slightly more empathetic given customer's concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided accurate information about state eligibility and redemption processes."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing statement, no offer for further assistance, and no goodbye—transcript ends abruptly after providing information."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 68,
-          "grade": "D",
-          "summary": "Agent competently addressed the customer's concern about Georgia eligibility and provided detailed redemption information. However, the interaction lacked a proper closing and the greeting was minimal.",
-          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and providing a warm goodbye—never leave the chat hanging after answering a question.",
-          "website": "Jackpot Daily",
-          "message_count": 30,
-          "raw_transcript": "[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:06:12 PM] t9620154908: Full Name: t9620154908 Email Address: isaiah5cash@gmail.com Subject / How can we help you?: Hello i have a question, it says that Georgia isn't available for use of Jackpot daily. but i was able to make a deposit. I am new and it concerns me just a little that if something was won, I wouldn't be able to cash out. can you confirm is the state of Ga is available or not please and thanks. Other than that, it shouldn't have taken the money.. thank you in advance, chiquata\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:05 PM] t9620154908: I have read great reviews before i decided to join, so I am not coming off as angry, but definitely want to inquire for clarity\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:14 PM] Andrea Rodriguez: Hi I will be assisting you with  this.\n[05:07:23 PM] t9620154908: Hello amanda\n[05:07:23 PM] t9620154908: Hello amanda\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:11 PM] Andrea Rodriguez: Georgia is available in JackPot Daily\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:09:50 PM] Andrea Rodriguez: Is really strange that is showing you that it is not available.\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:10:01 PM] Andrea Rodriguez: Can you share an screenshot?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:13 PM] t9620154908: I will have to catch it when it does it again.  it is in and out.  Now when it does it that way knowing that Ga is available, it could be my location signals aren't strong enough.  Ill let you know when it happens again and try to catch it.   by the way , while I have you, do you cash out instant redemptions?\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:12:22 PM] t9620154908: thank you also for the response\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:13:26 PM] Andrea Rodriguez: You are welcome and thanks for the update — and yes, please do let me know when it happens again. You're right that it could be your location signals not being strong enough, especially if Georgia is an eligible state on our end. Intermittent signal issues can definitely cause that.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:03 PM] Andrea Rodriguez: To answer your question: no, we do not offer instant redemptions. Here's what we have:\n\nDebit Card – fastest option, 1-3 business days\n\nACH Bank Transfer – up to 10 business days\n\nCrypto – up to 72 hours for approval + 1-3 hours\n\nWe also don't process redemptions on weekends, and you can only have one pending at a time.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:41 PM] Andrea Rodriguez: Only ACH is working for now.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:14:56 PM] Andrea Rodriguez: Sorry for the inconvenience.\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:16:25 PM] t9620154908: No inconvenience if you have told me upfront the process. I now know what to expect, and thank you for your response,   Have a blessed day , there will be nothing further at this moment,\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!\n[05:17:11 PM] Andrea Rodriguez: I really appreciate you saying that — thank you for your understanding. I'm glad I could help clarify the process for you.\n\nHave a blessed day as well. Whenever you need anything in the future, you know where to find us.\n\nTake care!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T17:19:42.343Z"
-        },
-        {
-          "chat_id": "2047674707876343808",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T14:05:56.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped straight to asking for time without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent identified verification was needed but never confirmed understanding of the signup bonus concern or explained the connection."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided partial answer about verification requirement but didn't explain how it relates to bonus or guide customer through next steps."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Very brief responses with no empathy, context, or clear instructions on what customer needs to do."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but didn't properly set expectations about bonus delivery after verification."
-            },
-            "closing": {
-              "score": 2,
-              "notes": "Closed chat prematurely after only five minutes of customer silence without confirming issue was resolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 44,
-          "grade": "F",
-          "summary": "Agent identified that account verification was needed but provided minimal explanation and no guidance on how to complete it or when the bonus would arrive. Chat was closed prematurely without confirming the customer's issue was resolved or that they had left.",
-          "coaching_tip": "Always provide clear next steps when asking customers to take action, and wait longer than 5 minutes before closing an unresolved chat where the customer expressed confusion.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[01:51:09 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[01:51:09 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[01:51:51 PM] t5771772342: Hi it keeps telling me that the system is busy\n[01:51:51 PM] t5771772342: Hi it keeps telling me that the system is busy\n[01:52:47 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[01:52:47 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[01:54:53 PM] Andrea Rodriguez: You need to verify your account.\n[01:54:53 PM] Andrea Rodriguez: You need to verify your account.\n[02:00:14 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:00:14 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:05:51 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:05:51 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T14:09:55.243Z"
-        },
-        {
-          "chat_id": "2047681002545180672",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T14:25:46.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though didn't use customer's name which was provided."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Agent understood the geo-restriction error from screenshot and provided relevant troubleshooting without asking clarifying questions."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive troubleshooting steps for the access issue but didn't confirm if solution worked before closing."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic tone with well-structured troubleshooting steps that were easy to follow."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made throughout the interaction."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Closed prematurely after only 2 minutes of waiting without confirming issue resolution or offering further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 71,
-          "grade": "C",
-          "summary": "Agent provided solid technical troubleshooting for a geo-restriction error with clear, empathetic communication. However, the interaction was closed too quickly without confirming whether the customer's issue was resolved after implementing the suggested fixes.",
-          "coaching_tip": "Wait longer for customer response after providing troubleshooting steps, and always confirm resolution before closing the chat—aim for at least 5 minutes of inactivity on technical issues.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[02:16:09 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:16:09 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: I live in Charlotte North Carolina and this is is what it keeps saying. I'm going to try to load it up so that I can just paste it on there for you\n[02:16:34 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:16:34 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:17:03 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:17:03 PM] Customer: Screenshot_20260424_101113_Chrome.jpg\n[02:19:18 PM] Customer: Thank you\n[02:19:18 PM] Customer: Thank you\n[02:19:58 PM] Andrea Rodriguez: That \"game access is temporarily unavailable\" message is frustrating, especially when you're in a state that's fully supported. Let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing. Even some \"privacy protection\" settings on browsers or antivirus software can act like a VPN!\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state — annoying, but it happens sometimes!\n[02:19:58 PM] Andrea Rodriguez: That \"game access is temporarily unavailable\" message is frustrating, especially when you're in a state that's fully supported. Let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing. Even some \"privacy protection\" settings on browsers or antivirus software can act like a VPN!\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state — annoying, but it happens sometimes!\n[02:23:06 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:23:06 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:25:34 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:25:34 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T14:29:52.112Z"
-        },
-        {
-          "chat_id": "2047683155937148928",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T14:40:55.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent asked for reason before closing account and understood the customer's frustration about verification requirements and bonus."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Agent clearly explained verification requirements, offered solution to complete verification for bonus, and escalated appropriately when customer didn't respond."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional communication explaining policy, though could have been more empathetic to customer's frustration about feeling 'duped'."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed proper verification policies and made no unauthorized promises regarding bonuses."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided closure with apology and escalation notice, though could have been more polished given the account closure request context."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 73,
-          "grade": "C",
-          "summary": "Agent handled a frustrated customer requesting account closure professionally by explaining verification requirements and offering a path forward. The agent appropriately balanced retention efforts with respect for the customer's concerns and escalated when the customer became unresponsive.",
-          "coaching_tip": "When customers express feeling 'duped' or misled, acknowledge their frustration more explicitly with empathy before explaining policy to build rapport and reduce defensiveness.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[02:24:43 PM] t5086101290: Full Name: t5086101290 Email Address: brat100pct@gmail.com Subject / How can we help you?: Cancel account\n[02:24:43 PM] t5086101290: Full Name: t5086101290 Email Address: brat100pct@gmail.com Subject / How can we help you?: Cancel account\n[02:24:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:24:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:25:14 PM] Andrea Rodriguez: Can you give me a reason before we close the account\n[02:25:14 PM] Andrea Rodriguez: Can you give me a reason before we close the account\n[02:26:09 PM] t5086101290: Yes because I was duped into believing after giving all of my personal information, Google login information, I never received any sign in bonus and then it wants me to verify with an ID after I've already used my Google account to verify these are all things that were not in stipulations to signing in and logging on and getting a sign of bonus\n[02:26:09 PM] t5086101290: Yes because I was duped into believing after giving all of my personal information, Google login information, I never received any sign in bonus and then it wants me to verify with an ID after I've already used my Google account to verify these are all things that were not in stipulations to signing in and logging on and getting a sign of bonus\n[02:30:19 PM] t5086101290: .\n[02:30:19 PM] t5086101290: .\n[02:30:22 PM] Andrea Rodriguez: You cannot use a google account to verify your account. We need an ID or a license/passport, and as I can see in the system you declined the consent to send them, without these we cannot verify and give your bonus.\n[02:30:22 PM] Andrea Rodriguez: You cannot use a google account to verify your account. We need an ID or a license/passport, and as I can see in the system you declined the consent to send them, without these we cannot verify and give your bonus.\n[02:31:06 PM] Andrea Rodriguez: We can verify your account if you consent to send those requirements again and give you your bonus.\n[02:31:06 PM] Andrea Rodriguez: We can verify your account if you consent to send those requirements again and give you your bonus.\n[02:31:48 PM] Andrea Rodriguez: Tell me if you prefer to continue with our verification process or cancel the account.\n[02:31:48 PM] Andrea Rodriguez: Tell me if you prefer to continue with our verification process or cancel the account.\n[02:37:18 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:37:18 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:40:51 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[02:40:51 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T14:44:59.381Z"
-        },
-        {
-          "chat_id": "2047687791821668352",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T14:46:27.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, but did not use customer's name despite it being provided."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the core issue about card payment option not being available without needing clarification."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided accurate information that only ACH is currently available, directly addressing the customer's confusion about conflicting information."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and concise response, though could have been more empathetic given the conflicting information from another agent."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, appropriately explained current payment method limitations without making unauthorized promises."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Agent provided no closing statement, follow-up offer, or acknowledgment of customer's positive farewell message."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 67,
-          "grade": "D",
-          "summary": "Agent correctly resolved the payment method confusion by clarifying that only ACH is currently available, contradicting previous agent information. However, the interaction lacked a proper closing and could have shown more empathy regarding the conflicting information the customer received.",
-          "coaching_tip": "Always acknowledge and close the conversation when a customer says goodbye, especially when they express satisfaction and future purchase intent.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[02:43:08 PM] Customer: Full Name: Mickey Allen Puckhaber Email Address: Puck3511@gmail.com Subject / How can we help you?: When i redeemed earlier today the only option was ACH but live agent said card is faster. When I go to wallet it does not give me the option. How can I add card for redeem? It only let's me add banking details\n[02:43:08 PM] Customer: Full Name: Mickey Allen Puckhaber Email Address: Puck3511@gmail.com Subject / How can we help you?: When i redeemed earlier today the only option was ACH but live agent said card is faster. When I go to wallet it does not give me the option. How can I add card for redeem? It only let's me add banking details\n[02:43:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:43:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:43:41 PM] Customer: Thanks so much\n[02:43:41 PM] Customer: Thanks so much\n[02:43:52 PM] Andrea Rodriguez: Only ACH is working at this moment, sorry for the inconvenience.\n[02:43:52 PM] Andrea Rodriguez: Only ACH is working at this moment, sorry for the inconvenience.\n[02:45:54 PM] Customer: Oh OK. No problem.  Rachel is just spoke with was saying card is faster so I just wanted to make sure I understood how to do that for next time.  Thank you so much Amanda.  Hopefully it comes soon cause I'm ready to buy mysecond package.  Enjoy your weekend! ⚘️\n[02:45:54 PM] Customer: Oh OK. No problem.  Rachel is just spoke with was saying card is faster so I just wanted to make sure I understood how to do that for next time.  Thank you so much Amanda.  Hopefully it comes soon cause I'm ready to buy mysecond package.  Enjoy your weekend! ⚘️",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T14:49:41.899Z"
-        },
-        {
-          "chat_id": "2047689390246637568",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T15:04:39.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though didn't use customer's name."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent identified the account issue and requested correct email after initial lookup failed."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Agent found the correct account, verified it was already verified, and escalated appropriately when customer stopped responding."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional throughout, set expectations with timeframes, checked in appropriately."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, handled account verification appropriately without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided closure with apology and set expectation for specialist follow-up via email."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 71,
-          "grade": "C",
-          "summary": "Agent handled the verification inquiry competently by identifying the correct account after initial confusion and confirming verification status. Communication was professional with appropriate follow-ups, though customer engagement was minimal.",
-          "coaching_tip": "When confirming account verification status, ask the customer what specific issue they're experiencing or what action they're trying to take, rather than just asking them to check again.",
-          "website": "Jackpot Daily",
-          "message_count": 28,
-          "raw_transcript": "[02:49:29 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[02:49:29 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[02:49:53 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:49:53 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[02:51:10 PM] Andrea Rodriguez: There is no account linked to your email.\n[02:51:10 PM] Andrea Rodriguez: There is no account linked to your email.\n[02:55:31 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:55:31 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:55:40 PM] t5645204337: k\n[02:55:40 PM] t5645204337: k\n[02:55:55 PM] t5645204337: garrettrayganese@gmail.com\n[02:55:55 PM] t5645204337: garrettrayganese@gmail.com\n[02:55:59 PM] t5645204337: or garrettoswald@yahoo.com\n[02:55:59 PM] t5645204337: or garrettoswald@yahoo.com\n[02:57:24 PM] Andrea Rodriguez: Looks like it is the first one.\n[02:57:24 PM] Andrea Rodriguez: Looks like it is the first one.\n[02:57:48 PM] Andrea Rodriguez: Allow me a moment to check everything is correct.\n[02:57:48 PM] Andrea Rodriguez: Allow me a moment to check everything is correct.\n[02:58:00 PM] Andrea Rodriguez: Maximum 5 minutes.\n[02:58:00 PM] Andrea Rodriguez: Maximum 5 minutes.\n[02:58:09 PM] t5645204337: ty\n[02:58:09 PM] t5645204337: ty\n[02:58:30 PM] Andrea Rodriguez: Looks like your account is already verified, can you check again?\n[02:58:30 PM] Andrea Rodriguez: Looks like your account is already verified, can you check again?\n[03:01:50 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[03:01:50 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[03:04:36 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[03:04:36 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T15:09:57.234Z"
-        },
-        {
-          "chat_id": "2047693458209812480",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T15:23:18.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with name and offer to assist, though agent name mismatch (Andrea/Amanda) is confusing."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent asked for clarification when confused but didn't fully explore the customer's concern about the previous agent's explanation or current redemption status."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided general timeline information but didn't address the specific status question or verify account details, leaving customer's main concern unresolved."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Clear but somewhat robotic responses; didn't acknowledge customer's frustration or adequately explain the previous agent's message about request stages."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; provided standard processing timeframes without unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Chat ended abruptly with no closing statement, summary, or offer of further assistance after customer's final message."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 52,
-          "grade": "F",
-          "summary": "Agent provided basic redemption timeline information but failed to investigate the specific status of the customer's request or adequately explain the previous agent's comments about request stages. The interaction ended abruptly without proper closure or resolution of the customer's primary concern.",
-          "coaching_tip": "Always check the customer's account to provide specific status updates rather than generic timelines, and ensure you close every chat professionally even when the conversation seems to trail off.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[03:05:39 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[03:05:39 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[03:05:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[03:05:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[03:06:13 PM] Andrea Rodriguez: Via ACH can take up to 10 days.\n[03:06:13 PM] Andrea Rodriguez: Via ACH can take up to 10 days.\n[03:06:33 PM] Andrea Rodriguez: We do not process redemptions on weekends.\n[03:06:33 PM] Andrea Rodriguez: We do not process redemptions on weekends.\n[03:06:47 PM] Andrea Rodriguez: Sorry, 10 bussiness days.\n[03:06:47 PM] Andrea Rodriguez: Sorry, 10 bussiness days.\n[03:07:19 PM] t5416824943: What was Samantha talking  about making it pass  first and second request\n[03:07:19 PM] t5416824943: What was Samantha talking  about making it pass  first and second request\n[03:08:09 PM] Andrea Rodriguez: I do not understand, can you explain further\n[03:08:09 PM] Andrea Rodriguez: I do not understand, can you explain further\n[03:09:44 PM] t5416824943: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[03:09:44 PM] t5416824943: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[03:10:00 PM] t5416824943: That's what she  sent\n[03:10:00 PM] t5416824943: That's what she  sent\n[03:10:54 PM] Andrea Rodriguez: Yes we only process one redemption at the time, you cannot have two requests.\n[03:10:54 PM] Andrea Rodriguez: Yes we only process one redemption at the time, you cannot have two requests.\n[03:11:14 PM] t5416824943: I dont\n[03:11:14 PM] t5416824943: I dont",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T15:24:46.727Z"
-        },
-        {
-          "chat_id": "2047708273951158272",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T16:11:31.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional greeting with name introduction, but didn't use customer's name or acknowledge their frustration."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the basic issue but failed to investigate why W9 wasn't sent or check ticket status despite customer's clear concern."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent provided general timeline information but didn't resolve the core issue of missing W9 or lack of communication, no escalation offered."
-            },
-            "communication": {
-              "score": 10,
-              "notes": "Repetitive 'be patient' responses came across as dismissive rather than empathetic, failed to acknowledge customer's valid concerns about missing W9."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, correctly mentioned W9 requirement and processing times, though could have been more helpful."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Offered further help but closed prematurely without actually resolving the W9 issue or providing next steps."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 54,
-          "grade": "F",
-          "summary": "Agent provided basic information about processing times but failed to address the customer's primary concern about not receiving the promised W9 form. The repetitive 'be patient' responses without investigating the issue or offering to escalate came across as dismissive and unhelpful.",
-          "coaching_tip": "When a customer reports not receiving a promised document (W9), check the account status and either resend it immediately or escalate to the appropriate team rather than defaulting to 'be patient' responses.",
-          "website": "Jackpot Daily",
-          "message_count": 24,
-          "raw_transcript": "[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T16:14:44.075Z"
-        },
-        {
-          "chat_id": "2047719944451616768",
-          "agent_name": "Andrea Rodriguez",
-          "agent_id": "5801",
-          "timestamp": "2026-04-24T17:04:52.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Warm and empathetic opening with 'I've got you' but did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Understood the Facebook login issue and provided relevant troubleshooting steps, though could have asked more clarifying questions about exact error messages."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Provided appropriate troubleshooting, then properly escalated when chat-level resolution wasn't possible with clear instructions for ticket submission."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and professional throughout with good use of formatting and step-by-step guidance."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and followed proper escalation protocol without making unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Offered further help and apologized for incomplete resolution, providing reassurance about follow-up."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 73,
-          "grade": "C",
-          "summary": "Andrea handled a Facebook login issue competently by providing standard troubleshooting steps and properly escalating when the issue persisted. Communication was empathetic and professional throughout with appropriate closure.",
-          "coaching_tip": "When the customer asked 'How do I get into the original account,' clarify whether they want to try Facebook login again or switch to email/password method before giving contradictory advice about using email credentials.",
-          "website": "Jackpot Daily",
-          "message_count": 16,
-          "raw_transcript": "[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:53:19 PM] Customer: How do I get into the original account\n[04:53:19 PM] Customer: How do I get into the original account\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T17:10:00.969Z"
-        }
-      ],
-      "avg_score": 63,
-      "grade": "D",
-      "trend": 0
     },
     {
       "id": "5554",
@@ -49828,6 +49873,51 @@
       "raw_transcript": "[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:37 PM] Customer: Full Name: Danielle Hendricks Email Address: scottfreeze101@gmail.com Subject / How can we help you?: It says to enable location but my location is on\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:23:57 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:25:01 PM] Marcos Avila: That is a strange one if your location is already on — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\nA VPN or proxy is active — try disabling it and refreshing\n\nLocation services are turned off — enable them in your browser or device settings\n\nYour ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\nSwitch between Wi-Fi and mobile data\n\nRestart your router and device\n\nMake sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[05:29:39 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T17:34:47.514Z"
+    },
+    {
+      "chat_id": "2047729004638416896",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-24T17:38:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, empathetic greeting that acknowledged the customer's frustration and offered immediate help."
+        },
+        "issue_discovery": {
+          "score": 18,
+          "notes": "Thorough diagnostic questions covering all common redemption blockers, then followed up appropriately when customer identified technical issue."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided comprehensive troubleshooting steps covering multiple browsers, devices, and common technical fixes appropriate for the button malfunction issue."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, well-structured responses with numbered steps and formatting, though slightly verbose in places."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed proper procedures, mentioned required policies like playthrough requirements and W-9 forms without making unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript cuts off mid-response with no closing from agent visible."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 75,
+      "grade": "C",
+      "summary": "Agent provided excellent diagnostic questioning and comprehensive technical troubleshooting for a redemption button issue. The interaction was professional and thorough, though the transcript appears incomplete with no visible closing.",
+      "coaching_tip": "After providing multiple troubleshooting steps, pause to let the customer try one or two at a time rather than overwhelming them with all options at once.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[05:26:54 PM] t0413680813: Full Name: t0413680813 Email Address: likiabanks44@gmail.com Subject / How can we help you?: I cannot redeem my winning can you help please\n[05:26:54 PM] t0413680813: Full Name: t0413680813 Email Address: likiabanks44@gmail.com Subject / How can we help you?: I cannot redeem my winning can you help please\n[05:27:41 PM] Andrea Rodriguez: I'm really sorry to hear you're having trouble redeeming your winnings — I know how frustrating that can be, especially when you're ready to cash out. Let me help you figure this out!\n[05:27:41 PM] Andrea Rodriguez: I'm really sorry to hear you're having trouble redeeming your winnings — I know how frustrating that can be, especially when you're ready to cash out. Let me help you figure this out!\n[05:28:58 PM] Andrea Rodriguez: Now let's figure out what's blocking your redemption. A few quick questions for you:\n\n1. How many Sweepstakes Coins (SC) are you trying to redeem?\n\nMinimum is 100 SC — just checking!\n\n2. Have you played through those SC at least once?\n\nSC need a 1x playthrough before they're eligible for redemption\n\n3. Do you already have another redemption pending?\n\nWe only allow one pending redemption at a time\n\nYou can check under Profile → Activity → Redemption tab\n\n4. Is your redemption amount $600 or more?\n\nIf yes, you'll need to complete a W-9 form before we can release payment\n\n5. What exactly happens when you try to redeem?\n\nDo you see an error message? If so, what does it say?\n\nDoes it let you start the process but then stop?\n[05:28:58 PM] Andrea Rodriguez: Now let's figure out what's blocking your redemption. A few quick questions for you:\n\n1. How many Sweepstakes Coins (SC) are you trying to redeem?\n\nMinimum is 100 SC — just checking!\n\n2. Have you played through those SC at least once?\n\nSC need a 1x playthrough before they're eligible for redemption\n\n3. Do you already have another redemption pending?\n\nWe only allow one pending redemption at a time\n\nYou can check under Profile → Activity → Redemption tab\n\n4. Is your redemption amount $600 or more?\n\nIf yes, you'll need to complete a W-9 form before we can release payment\n\n5. What exactly happens when you try to redeem?\n\nDo you see an error message? If so, what does it say?\n\nDoes it let you start the process but then stop?\n[05:31:09 PM] t0413680813: $143.00\n[05:31:09 PM] t0413680813: $143.00\n[05:32:01 PM] Andrea Rodriguez: Have the SC been played through at least once?\n[05:32:01 PM] Andrea Rodriguez: Have the SC been played through at least once?\n[05:32:18 PM] t0413680813: yes\n[05:32:18 PM] t0413680813: yes\n[05:32:50 PM] t0413680813: when I try to redeem the bottom is not working\n[05:32:50 PM] t0413680813: when I try to redeem the bottom is not working\n[05:34:02 PM] Andrea Rodriguez: That's definitely a technical issue, not a balance or verification problem. Let's get that fixed!\n\nLet's try a few quick things first:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n\nStep 2 — Clear your browser's cache and cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select \"All time\" + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (☰) → Settings → Privacy & Security → Clear Data\n\nSafari: Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋮) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try a different browser:\n\nChrome, Firefox, Safari, or Edge — sometimes one works better than others!\n\nStep 4 — Try on a different device:\n\nIf you're on desktop, try mobile — or vice versa\n\nStep 5 — Disable any VPN, proxy, or ad-blocker:\n\nThese can sometimes interfere with buttons and forms on websites\n[05:34:02 PM] Andrea Rodriguez: That's definitely a technical issue, not a balance or verification problem. Let's get that fixed!\n\nLet's try a few quick things first:\n\nStep 1 — Hard Refresh:\n\nWindows/Linux: Ctrl + Shift + R\n\nMac: Cmd + Shift + R\n\nStep 2 — Clear your browser's cache and cookies:\n\nChrome: Three dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select \"All time\" + check Cookies & Cached files → Clear data\n\nFirefox: Three lines (☰) → Settings → Privacy & Security → Clear Data\n\nSafari: Safari menu → Settings → Privacy → Manage Website Data → Remove All\n\nEdge: Three dots (⋮) → Settings → Privacy, Search & Services → Clear Browsing Data → All time → Clear now\n\nStep 3 — Try a different browser:\n\nChrome, Firefox, Safari, or Edge — sometimes one works better than others!\n\nStep 4 — Try on a different device:\n\nIf you're on desktop, try mobile — or vice versa\n\nStep 5 — Disable any VPN, proxy, or ad-blocker:\n\nThese can sometimes interfere with buttons and forms on websites\n[05:34:40 PM] t0413680813: ok\n[05:34:40 PM] t0413680813: ok\n[05:35:01 PM] Andrea Rodriguez: Try those and let me know\n[05:35:01 PM] Andrea Rodriguez: Try those and let me know\n[05:36:47 PM] t0413680813: I just try it not working\n[05:36:47 PM] t0413680813: I just try it not working\n[05:37:42 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[05:37:42 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T17:39:42.293Z"
     }
   ]
 }
