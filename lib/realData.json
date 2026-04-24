@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T20:54:46.460Z",
-  "total_chats": 583,
+  "scored_at": "2026-04-24T20:59:53.044Z",
+  "total_chats": 585,
   "total_agents": 26,
   "agents": [
     {
@@ -11796,11 +11796,56 @@
           "raw_transcript": "[08:22:52 PM] t7814839639: Full Name: t7814839639 Email Address: danieltecha@gmail.com Subject / How can we help you?: I want to set my purchase limit to $10 a week. Please do it\n[08:22:52 PM] t7814839639: Full Name: t7814839639 Email Address: danieltecha@gmail.com Subject / How can we help you?: I want to set my purchase limit to $10 a week. Please do it\n[08:23:07 PM] t7814839639: Please set a purchase limit to $10 a week\n[08:23:07 PM] t7814839639: Please set a purchase limit to $10 a week\n[08:23:35 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:23:35 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:23:41 PM] t7814839639: Thank you!\n[08:23:41 PM] t7814839639: Thank you!\n[08:24:17 PM] t7814839639: I am stepping away from this chat please go ahead and set the limit, I don’t need anything else thank you\n[08:24:17 PM] t7814839639: I am stepping away from this chat please go ahead and set the limit, I don’t need anything else thank you\n[08:25:06 PM] Angie Pereira: Really glad you're looking into this — here's how to set it up:\n\n1. Log in at www.jackpotdaily.com\n2. Go to your Profile → \"Responsible Play\" or the \"Limits\" tab\nYour options are:\nReality Check — get a reminder after a set amount of time\nPurchase Limit — set a daily, weekly, or monthly spending cap\nSelf-Exclusion — temporarily or permanently step away from gameplay\n[08:25:06 PM] Angie Pereira: Really glad you're looking into this — here's how to set it up:\n\n1. Log in at www.jackpotdaily.com\n2. Go to your Profile → \"Responsible Play\" or the \"Limits\" tab\nYour options are:\nReality Check — get a reminder after a set amount of time\nPurchase Limit — set a daily, weekly, or monthly spending cap\nSelf-Exclusion — temporarily or permanently step away from gameplay\n[08:27:59 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[08:27:59 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T20:29:47.706Z"
+        },
+        {
+          "chat_id": "2047778045334745088",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-24T20:58:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Asked about email address and checked spam/promotions, but didn't fully explore account lock issue or escalate when reset emails weren't arriving."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps and identified potential account lock, but didn't take action to unlock account or manually reset password when customer confirmed emails weren't arriving."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication with good empathy, though closed prematurely before fully resolving the issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed prematurely with standard offer to help while customer was still actively seeking resolution and asking questions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided standard troubleshooting but closed the chat prematurely before resolving the core issue of missing reset emails and likely account lock. The customer was still actively engaged and requesting help when the agent offered a closing statement.",
+          "coaching_tip": "When a customer confirms they've tried standard troubleshooting (checked spam, etc.) and the issue persists, escalate to backend actions like manually unlocking the account or triggering a password reset rather than repeating the same suggestions.",
+          "website": "Jackpot Daily",
+          "message_count": 42,
+          "raw_transcript": "[08:41:46 PM] Customer: Full Name: Tiffany Lynn Bush Email Address: tiffanybush534@gmail.com Subject / How can we help you?: I'm having trouble signing in I don't remember the password and every single time I go to ask to reset it I never received a email with the code to do that with can you help me with that\n[08:41:46 PM] Customer: Full Name: Tiffany Lynn Bush Email Address: tiffanybush534@gmail.com Subject / How can we help you?: I'm having trouble signing in I don't remember the password and every single time I go to ask to reset it I never received a email with the code to do that with can you help me with that\n[08:42:32 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:42:32 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:43:34 PM] Angie Pereira: Are you using the same email address that you register with the first time?\n[08:43:34 PM] Angie Pereira: Are you using the same email address that you register with the first time?\n[08:45:26 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:45:26 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:45:47 PM] Customer: Yes\n[08:45:47 PM] Customer: Yes\n[08:46:20 PM] Customer: Sorry had to restart the chat because the send button was missing\n[08:46:20 PM] Customer: Sorry had to restart the chat because the send button was missing\n[08:46:36 PM] Customer: But yes I am using the same email address\n[08:46:36 PM] Customer: But yes I am using the same email address\n[08:47:26 PM] Angie Pereira: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be\ntemporarily locked. If that's the case, just let me know and I'll sort it out!\n[08:47:26 PM] Angie Pereira: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be\ntemporarily locked. If that's the case, just let me know and I'll sort it out!\n[08:47:53 PM] Customer: I've done that except for I never received the code that you guys are supposed to send me to reset that\n[08:47:53 PM] Customer: I've done that except for I never received the code that you guys are supposed to send me to reset that\n[08:48:20 PM] Customer: And yeah it might be temporarily locked you on top of that cuz I have tried more than five times I think\n[08:48:20 PM] Customer: And yeah it might be temporarily locked you on top of that cuz I have tried more than five times I think\n[08:48:25 PM] Angie Pereira: If you've had 5 incorrect login attempts, your account may be\ntemporarily locked\n[08:48:25 PM] Angie Pereira: If you've had 5 incorrect login attempts, your account may be\ntemporarily locked\n[08:48:53 PM] Customer: But why don't I ever receive a thing to reset the password in my email like it's supposed to\n[08:48:53 PM] Customer: But why don't I ever receive a thing to reset the password in my email like it's supposed to\n[08:49:05 PM] Customer: That's why I was wondering if you could help me here to reset it\n[08:49:05 PM] Customer: That's why I was wondering if you could help me here to reset it\n[08:49:15 PM] Angie Pereira: Did you check spam ?\n[08:49:15 PM] Angie Pereira: Did you check spam ?\n[08:49:23 PM] Customer: Yes yes I did\n[08:49:23 PM] Customer: Yes yes I did\n[08:50:08 PM] Angie Pereira: Promotions tab by any chance?\n[08:50:08 PM] Angie Pereira: Promotions tab by any chance?\n[08:50:30 PM] Customer: What do you mean\n[08:50:30 PM] Customer: What do you mean\n[08:53:16 PM] Angie Pereira: Gmail has usually a tab that says promotions and you receive emails there also similar to the spam tab is usually emails you haven't agreed to receive\n[08:53:16 PM] Angie Pereira: Gmail has usually a tab that says promotions and you receive emails there also similar to the spam tab is usually emails you haven't agreed to receive\n[08:54:04 PM] Angie Pereira: Sometimes it happens that Gmail takes emails as if it is a promotions and sent them to that tab\n[08:54:04 PM] Angie Pereira: Sometimes it happens that Gmail takes emails as if it is a promotions and sent them to that tab\n[08:55:20 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:55:20 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:58:04 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[08:58:04 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T20:59:43.320Z"
         }
       ],
       "avg_score": 58,
       "grade": "F",
-      "trend": -9
+      "trend": -8
     },
     {
       "id": "5842",
@@ -19374,11 +19419,56 @@
           "raw_transcript": "[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T20:54:45.958Z"
+        },
+        {
+          "chat_id": "2047781088113553408",
+          "agent_name": "Marcos Avila",
+          "agent_id": "5670",
+          "timestamp": "2026-04-24T20:56:49.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No proper greeting, jumped straight into answer without acknowledging customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent assumed the question was about RNG without clarifying if customer was frustrated about losses, had technical issues, or wanted game recommendations."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic RNG explanation but didn't address underlying frustration or offer helpful resources like game guides or responsible gaming support."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Tone was overly casual for a frustrated customer and lacked empathy for their losing experience."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but could have included responsible gaming language given customer's frustration."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Follow-up was mechanical and customer never responded, suggesting dissatisfaction with the interaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent provided a technically correct RNG explanation but failed to properly greet the customer, explore their actual concern, or show empathy for their frustration about not winning. The response felt template-driven and missed an opportunity to address the emotional aspect of the complaint or offer practical help.",
+          "coaching_tip": "Always acknowledge customer frustration with empathy before jumping to technical explanations, and ask clarifying questions to understand if they want game strategy tips, have concerns about fairness, or need responsible gaming resources.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[08:53:52 PM] Customer: Full Name: Joe File Email Address: joe.file.hoot@gmail.com Subject / How can we help you?: Why can’t I ever win anything\n[08:53:52 PM] Customer: Full Name: Joe File Email Address: joe.file.hoot@gmail.com Subject / How can we help you?: Why can’t I ever win anything\n[08:55:21 PM] Marcos Avila: Hey! Great question!\n\nRNG stands for Random Number Generator — it's software that produces completely random, unpredictable results every time. It's what makes sure every game outcome is fair, unbiased, and can't be manipulated.\n\nEvery player has an equal shot at winning — that's the whole point!\n\nAnything else you'd like to know?\n[08:55:21 PM] Marcos Avila: Hey! Great question!\n\nRNG stands for Random Number Generator — it's software that produces completely random, unpredictable results every time. It's what makes sure every game outcome is fair, unbiased, and can't be manipulated.\n\nEvery player has an equal shot at winning — that's the whole point!\n\nAnything else you'd like to know?\n[08:56:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:56:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T20:59:52.543Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": 1
+      "trend": 4
     },
     {
       "id": "5836",
@@ -52708,6 +52798,96 @@
       "raw_transcript": "[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:40:44 PM] t7521969360: Full Name: t7521969360 Email Address: rockodharris@icloud.com Subject / How can we help you?: My last payment says successful, but I haven’t received it\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:41:15 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:44:31 PM] Marcos Avila: Could you please share the email address associated with your account?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:47:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[08:50:41 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T20:54:45.958Z"
+    },
+    {
+      "chat_id": "2047778045334745088",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-24T20:58:09.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Asked about email address and checked spam/promotions, but didn't fully explore account lock issue or escalate when reset emails weren't arriving."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps and identified potential account lock, but didn't take action to unlock account or manually reset password when customer confirmed emails weren't arriving."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional communication with good empathy, though closed prematurely before fully resolving the issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Closed prematurely with standard offer to help while customer was still actively seeking resolution and asking questions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided standard troubleshooting but closed the chat prematurely before resolving the core issue of missing reset emails and likely account lock. The customer was still actively engaged and requesting help when the agent offered a closing statement.",
+      "coaching_tip": "When a customer confirms they've tried standard troubleshooting (checked spam, etc.) and the issue persists, escalate to backend actions like manually unlocking the account or triggering a password reset rather than repeating the same suggestions.",
+      "website": "Jackpot Daily",
+      "message_count": 42,
+      "raw_transcript": "[08:41:46 PM] Customer: Full Name: Tiffany Lynn Bush Email Address: tiffanybush534@gmail.com Subject / How can we help you?: I'm having trouble signing in I don't remember the password and every single time I go to ask to reset it I never received a email with the code to do that with can you help me with that\n[08:41:46 PM] Customer: Full Name: Tiffany Lynn Bush Email Address: tiffanybush534@gmail.com Subject / How can we help you?: I'm having trouble signing in I don't remember the password and every single time I go to ask to reset it I never received a email with the code to do that with can you help me with that\n[08:42:32 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:42:32 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:43:34 PM] Angie Pereira: Are you using the same email address that you register with the first time?\n[08:43:34 PM] Angie Pereira: Are you using the same email address that you register with the first time?\n[08:45:26 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:45:26 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:45:47 PM] Customer: Yes\n[08:45:47 PM] Customer: Yes\n[08:46:20 PM] Customer: Sorry had to restart the chat because the send button was missing\n[08:46:20 PM] Customer: Sorry had to restart the chat because the send button was missing\n[08:46:36 PM] Customer: But yes I am using the same email address\n[08:46:36 PM] Customer: But yes I am using the same email address\n[08:47:26 PM] Angie Pereira: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be\ntemporarily locked. If that's the case, just let me know and I'll sort it out!\n[08:47:26 PM] Angie Pereira: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be\ntemporarily locked. If that's the case, just let me know and I'll sort it out!\n[08:47:53 PM] Customer: I've done that except for I never received the code that you guys are supposed to send me to reset that\n[08:47:53 PM] Customer: I've done that except for I never received the code that you guys are supposed to send me to reset that\n[08:48:20 PM] Customer: And yeah it might be temporarily locked you on top of that cuz I have tried more than five times I think\n[08:48:20 PM] Customer: And yeah it might be temporarily locked you on top of that cuz I have tried more than five times I think\n[08:48:25 PM] Angie Pereira: If you've had 5 incorrect login attempts, your account may be\ntemporarily locked\n[08:48:25 PM] Angie Pereira: If you've had 5 incorrect login attempts, your account may be\ntemporarily locked\n[08:48:53 PM] Customer: But why don't I ever receive a thing to reset the password in my email like it's supposed to\n[08:48:53 PM] Customer: But why don't I ever receive a thing to reset the password in my email like it's supposed to\n[08:49:05 PM] Customer: That's why I was wondering if you could help me here to reset it\n[08:49:05 PM] Customer: That's why I was wondering if you could help me here to reset it\n[08:49:15 PM] Angie Pereira: Did you check spam ?\n[08:49:15 PM] Angie Pereira: Did you check spam ?\n[08:49:23 PM] Customer: Yes yes I did\n[08:49:23 PM] Customer: Yes yes I did\n[08:50:08 PM] Angie Pereira: Promotions tab by any chance?\n[08:50:08 PM] Angie Pereira: Promotions tab by any chance?\n[08:50:30 PM] Customer: What do you mean\n[08:50:30 PM] Customer: What do you mean\n[08:53:16 PM] Angie Pereira: Gmail has usually a tab that says promotions and you receive emails there also similar to the spam tab is usually emails you haven't agreed to receive\n[08:53:16 PM] Angie Pereira: Gmail has usually a tab that says promotions and you receive emails there also similar to the spam tab is usually emails you haven't agreed to receive\n[08:54:04 PM] Angie Pereira: Sometimes it happens that Gmail takes emails as if it is a promotions and sent them to that tab\n[08:54:04 PM] Angie Pereira: Sometimes it happens that Gmail takes emails as if it is a promotions and sent them to that tab\n[08:55:20 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:55:20 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:58:04 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[08:58:04 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T20:59:43.320Z"
+    },
+    {
+      "chat_id": "2047781088113553408",
+      "agent_name": "Marcos Avila",
+      "agent_id": "5670",
+      "timestamp": "2026-04-24T20:56:49.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No proper greeting, jumped straight into answer without acknowledging customer by name or welcoming them."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent assumed the question was about RNG without clarifying if customer was frustrated about losses, had technical issues, or wanted game recommendations."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided generic RNG explanation but didn't address underlying frustration or offer helpful resources like game guides or responsible gaming support."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Tone was overly casual for a frustrated customer and lacked empathy for their losing experience."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but could have included responsible gaming language given customer's frustration."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Follow-up was mechanical and customer never responded, suggesting dissatisfaction with the interaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 53,
+      "grade": "F",
+      "summary": "Agent provided a technically correct RNG explanation but failed to properly greet the customer, explore their actual concern, or show empathy for their frustration about not winning. The response felt template-driven and missed an opportunity to address the emotional aspect of the complaint or offer practical help.",
+      "coaching_tip": "Always acknowledge customer frustration with empathy before jumping to technical explanations, and ask clarifying questions to understand if they want game strategy tips, have concerns about fairness, or need responsible gaming resources.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[08:53:52 PM] Customer: Full Name: Joe File Email Address: joe.file.hoot@gmail.com Subject / How can we help you?: Why can’t I ever win anything\n[08:53:52 PM] Customer: Full Name: Joe File Email Address: joe.file.hoot@gmail.com Subject / How can we help you?: Why can’t I ever win anything\n[08:55:21 PM] Marcos Avila: Hey! Great question!\n\nRNG stands for Random Number Generator — it's software that produces completely random, unpredictable results every time. It's what makes sure every game outcome is fair, unbiased, and can't be manipulated.\n\nEvery player has an equal shot at winning — that's the whole point!\n\nAnything else you'd like to know?\n[08:55:21 PM] Marcos Avila: Hey! Great question!\n\nRNG stands for Random Number Generator — it's software that produces completely random, unpredictable results every time. It's what makes sure every game outcome is fair, unbiased, and can't be manipulated.\n\nEvery player has an equal shot at winning — that's the whole point!\n\nAnything else you'd like to know?\n[08:56:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[08:56:33 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T20:59:52.543Z"
     }
   ]
 }
