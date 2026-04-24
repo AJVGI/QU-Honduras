@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:59:51.656Z",
-  "total_chats": 399,
+  "scored_at": "2026-04-24T04:04:50.177Z",
+  "total_chats": 401,
   "total_agents": 25,
   "agents": [
     {
@@ -7278,11 +7278,56 @@
           "raw_transcript": "[03:45:30 AM] t9960691325: Full Name: t9960691325 Email Address: ashrev.2230@gmail.com Subject / How can we help you?: The ad I watched that made me sign up here said I’d receive a free sc gift\n[03:45:30 AM] t9960691325: Full Name: t9960691325 Email Address: ashrev.2230@gmail.com Subject / How can we help you?: The ad I watched that made me sign up here said I’d receive a free sc gift\n[03:45:48 AM] Cairo Osorto: Thanks for contacting.\n[03:45:48 AM] Cairo Osorto: Thanks for contacting.\n[03:46:38 AM] Cairo Osorto: I understand that you saw an ad promising free sweepcoins. Do you happen to have a screenshot that you can share?\n[03:46:38 AM] Cairo Osorto: I understand that you saw an ad promising free sweepcoins. Do you happen to have a screenshot that you can share?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:54:51.264Z"
+        },
+        {
+          "chat_id": "2047524336159780864",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-24T04:03:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Thanks for contacting' without personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the missing welcome bonus issue and identified it as the golden egg without needing clarification."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided troubleshooting step and clear escalation path with specific email instructions, appropriate for the issue."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with good detail, though could have been slightly more empathetic given customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to proper channel for manual bonus application without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Checked if customer needed more help and provided friendly, casino-appropriate closing message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent competently handled a missing welcome bonus inquiry with appropriate troubleshooting and escalation instructions. Communication was clear and professional throughout with proper closing.",
+          "coaching_tip": "Personalize the greeting by using the customer's name or a warmer opening to build better rapport from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[03:53:37 AM] t0656830384: Full Name: t0656830384 Email Address: joclyn1986@gmail.com Subject / How can we help you?: Never got my welcome bouns\n[03:53:37 AM] t0656830384: Full Name: t0656830384 Email Address: joclyn1986@gmail.com Subject / How can we help you?: Never got my welcome bouns\n[03:53:48 AM] t0656830384: Egg never appeared\n[03:53:48 AM] t0656830384: Egg never appeared\n[03:53:49 AM] Cairo Osorto: Thanks for contacting.\n[03:53:49 AM] Cairo Osorto: Thanks for contacting.\n[03:54:24 AM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[03:54:24 AM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[03:59:26 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[03:59:26 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[04:03:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:03:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:04:40.359Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 8
+      "trend": 1
     },
     {
       "id": "5669",
@@ -13452,11 +13497,56 @@
           "raw_transcript": "[03:44:29 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:44:29 AM] Customer: Full Name: Adam Short Email Address: 21shortstreet@gmail.com Subject / How can we help you?: I'm in utah. It is not a restricted territory\n[03:44:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:44:41 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:45:15 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:45:15 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:46:23 AM] Ana Erazo: In this case, please note that Utah is not considered a restricted state, so you should be able to access the service without issues.\n[03:46:23 AM] Ana Erazo: In this case, please note that Utah is not considered a restricted state, so you should be able to access the service without issues.\n[03:48:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:48:49 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:49:39.512Z"
+        },
+        {
+          "chat_id": "2047524023004082176",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T04:00:20.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though could be slightly warmer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent asked for clarification but customer never responded with details, preventing any meaningful discovery."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution possible as customer abandoned chat before providing necessary information despite agent's attempt to gather details."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication with appropriate follow-up, though limited by customer non-response."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent followed proper procedures for handling an unresponsive customer."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closing was friendly but premature given the issue was never addressed or resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent provided professional service and attempted to gather information to help with the redemption issue, but customer stopped responding after initial question. The agent appropriately followed up once before closing the chat, though closing without resolution acknowledgment was slightly abrupt.",
+          "coaching_tip": "When a customer becomes unresponsive on an unresolved issue, acknowledge the lack of resolution in your closing message and invite them to return when ready to provide more details.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:04:49.677Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 14
+      "trend": 8
     },
     {
       "id": "5842",
@@ -36139,6 +36229,96 @@
       "raw_transcript": "[03:41:17 AM] t6735217614: Full Name: t6735217614 Email Address: jason.levi0005@gmail.com Subject / How can we help you?: Can't add account to wallet\n[03:41:17 AM] t6735217614: Full Name: t6735217614 Email Address: jason.levi0005@gmail.com Subject / How can we help you?: Can't add account to wallet\n[03:41:32 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[03:41:32 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[03:42:19 AM] t6735217614: Says full name isn't valid\n[03:42:19 AM] t6735217614: Says full name isn't valid\n[03:42:32 AM] Oscar Zelaya: Hey jason.levi0005 !\n\nGot it — let’s get this sorted \nCould you tell me a bit more about what happens when you try to add your account to the wallet? For example:\nAre you seeing any error message?\nWhich wallet are you trying to use?\nAt what step does it stop?\nIn the meantime, a few quick things to try:\nDouble-check the account details you’re entering\nMake sure your account is fully verified (KYC)\nTry a different browser or device\nIf you can, please share a screenshot of the issue — that’ll help me pinpoint it much faster\n[03:42:32 AM] Oscar Zelaya: Hey jason.levi0005 !\n\nGot it — let’s get this sorted \nCould you tell me a bit more about what happens when you try to add your account to the wallet? For example:\nAre you seeing any error message?\nWhich wallet are you trying to use?\nAt what step does it stop?\nIn the meantime, a few quick things to try:\nDouble-check the account details you’re entering\nMake sure your account is fully verified (KYC)\nTry a different browser or device\nIf you can, please share a screenshot of the issue — that’ll help me pinpoint it much faster\n[03:44:06 AM] t6735217614: How do I add screenshot\n[03:44:06 AM] t6735217614: How do I add screenshot\n[03:44:39 AM] t6735217614: I tried to get daily sign in and it want me to add a redemption account\n[03:44:39 AM] t6735217614: I tried to get daily sign in and it want me to add a redemption account\n[03:44:53 AM] t6735217614: And when I try it says full name is t valid\n[03:44:53 AM] t6735217614: And when I try it says full name is t valid\n[03:45:38 AM] Oscar Zelaya: You can upload the document using the attach icon in this chat \nJust click the attachment icon, select your file, and send it through — once I receive it, I’ll review everything and move forward with your request right away\n[03:45:38 AM] Oscar Zelaya: You can upload the document using the attach icon in this chat \nJust click the attachment icon, select your file, and send it through — once I receive it, I’ll review everything and move forward with your request right away\n[03:46:15 AM] t6735217614: Screenshot_20260423-224316_Chrome.png\n[03:46:15 AM] t6735217614: Screenshot_20260423-224316_Chrome.png\n[03:46:32 AM] t6735217614: I have another image to send\n[03:46:32 AM] t6735217614: I have another image to send\n[03:46:46 AM] Oscar Zelaya: Thank you for sharing the screenshot — please allow me a moment while I take a closer look\nI’ll be right back with an update, I appreciate your patience!\n[03:46:46 AM] Oscar Zelaya: Thank you for sharing the screenshot — please allow me a moment while I take a closer look\nI’ll be right back with an update, I appreciate your patience!\n[03:48:00 AM] Oscar Zelaya: At the moment, our team is actively working on this situation and doing everything possible to resolve it as quickly as we can. We truly appreciate your patience while we continue reviewing and addressing the situation. In the meantime, we kindly ask that you allow us some additional time to complete the process. If after 24 hours you are still unable to redeem, please don’t hesitate to contact us again so we can take another look at your account and assist you further. Thank you very much for your patience, understanding, and for reaching out to us.\n[03:48:00 AM] Oscar Zelaya: At the moment, our team is actively working on this situation and doing everything possible to resolve it as quickly as we can. We truly appreciate your patience while we continue reviewing and addressing the situation. In the meantime, we kindly ask that you allow us some additional time to complete the process. If after 24 hours you are still unable to redeem, please don’t hesitate to contact us again so we can take another look at your account and assist you further. Thank you very much for your patience, understanding, and for reaching out to us.\n[03:49:04 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:49:04 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:49:30 AM] t6735217614: U didn't even help me with this\n[03:49:30 AM] t6735217614: U didn't even help me with this\n[03:49:51 AM] t6735217614: I mean I signed up and got nothing can't even play\n[03:49:51 AM] t6735217614: I mean I signed up and got nothing can't even play\n[03:50:31 AM] Oscar Zelaya: Our team is actively working on resolving this as quickly as possible. We truly appreciate your patience and understanding in the meantime\n[03:50:31 AM] Oscar Zelaya: Our team is actively working on resolving this as quickly as possible. We truly appreciate your patience and understanding in the meantime\n[03:51:27 AM] t6735217614: That again helps me none\n[03:51:27 AM] t6735217614: That again helps me none\n[03:51:28 AM] Oscar Zelaya: refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[03:51:28 AM] Oscar Zelaya: refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[03:52:43 AM] Oscar Zelaya: Have you had a chance to try this option?\nLet me know how it went, and I’ll be happy to assist you further\n[03:52:43 AM] Oscar Zelaya: Have you had a chance to try this option?\nLet me know how it went, and I’ll be happy to assist you further\n[03:53:50 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:53:50 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:57:58 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[03:57:58 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:59:51.154Z"
+    },
+    {
+      "chat_id": "2047524336159780864",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-24T04:03:03.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Thanks for contacting' without personalization or warmth."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the missing welcome bonus issue and identified it as the golden egg without needing clarification."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided troubleshooting step and clear escalation path with specific email instructions, appropriate for the issue."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional with good detail, though could have been slightly more empathetic given customer frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately directed to proper channel for manual bonus application without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Checked if customer needed more help and provided friendly, casino-appropriate closing message."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 70,
+      "grade": "C",
+      "summary": "Agent competently handled a missing welcome bonus inquiry with appropriate troubleshooting and escalation instructions. Communication was clear and professional throughout with proper closing.",
+      "coaching_tip": "Personalize the greeting by using the customer's name or a warmer opening to build better rapport from the start.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[03:53:37 AM] t0656830384: Full Name: t0656830384 Email Address: joclyn1986@gmail.com Subject / How can we help you?: Never got my welcome bouns\n[03:53:37 AM] t0656830384: Full Name: t0656830384 Email Address: joclyn1986@gmail.com Subject / How can we help you?: Never got my welcome bouns\n[03:53:48 AM] t0656830384: Egg never appeared\n[03:53:48 AM] t0656830384: Egg never appeared\n[03:53:49 AM] Cairo Osorto: Thanks for contacting.\n[03:53:49 AM] Cairo Osorto: Thanks for contacting.\n[03:54:24 AM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[03:54:24 AM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[03:59:26 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[03:59:26 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[04:03:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:03:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:04:40.359Z"
+    },
+    {
+      "chat_id": "2047524023004082176",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T04:00:20.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though could be slightly warmer."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent asked for clarification but customer never responded with details, preventing any meaningful discovery."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No resolution possible as customer abandoned chat before providing necessary information despite agent's attempt to gather details."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional communication with appropriate follow-up, though limited by customer non-response."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent followed proper procedures for handling an unresponsive customer."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closing was friendly but premature given the issue was never addressed or resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 52,
+      "grade": "F",
+      "summary": "Agent provided professional service and attempted to gather information to help with the redemption issue, but customer stopped responding after initial question. The agent appropriately followed up once before closing the chat, though closing without resolution acknowledgment was slightly abrupt.",
+      "coaching_tip": "When a customer becomes unresponsive on an unresolved issue, acknowledge the lack of resolution in your closing message and invite them to return when ready to provide more details.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:04:49.677Z"
     }
   ]
 }
