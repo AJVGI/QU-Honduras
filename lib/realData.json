@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T14:14:43.076Z",
-  "total_chats": 507,
+  "scored_at": "2026-04-24T14:19:49.624Z",
+  "total_chats": 509,
   "total_agents": 26,
   "agents": [
     {
@@ -141,10 +141,55 @@
           "raw_transcript": "[01:03:32 PM] t6926021439: Full Name: t6926021439 Email Address: alemjen0312@gmail.com Subject / How can we help you?: It said in order to claim the welcome bonus the $9.99 $30 coins for 30 hours worth of coins for free I had to make my first qualifying purchase and then it would show up but it's not giving me that $30 for $9.99\n[01:03:32 PM] t6926021439: Full Name: t6926021439 Email Address: alemjen0312@gmail.com Subject / How can we help you?: It said in order to claim the welcome bonus the $9.99 $30 coins for 30 hours worth of coins for free I had to make my first qualifying purchase and then it would show up but it's not giving me that $30 for $9.99\n[01:04:16 PM] t6926021439: How do I get my welcome package\n[01:04:16 PM] t6926021439: How do I get my welcome package\n[01:04:34 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[01:04:34 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[01:08:28 PM] Maritza Caceres: Welcome aboard — so excited to have you here!\nYour welcome bonus is super easy to claim:\n1. Create your account\n2. Verify your email address\n3. Verify your phone number\nOnce both are done, you'll automatically get:\n2 Sweepstakes Coins\n100,000 Gold Coins\nNo extra steps — just verify and you're good to go\n[01:08:28 PM] Maritza Caceres: Welcome aboard — so excited to have you here!\nYour welcome bonus is super easy to claim:\n1. Create your account\n2. Verify your email address\n3. Verify your phone number\nOnce both are done, you'll automatically get:\n2 Sweepstakes Coins\n100,000 Gold Coins\nNo extra steps — just verify and you're good to go\n[01:09:12 PM] t6926021439: That is not the welcome package I've already done all that the welcome package is where you can get 30 coins for $9.99 that's what I'm trying to do and it said once I made my first qualifying purchase that it would happen but it's not there\n[01:09:12 PM] t6926021439: That is not the welcome package I've already done all that the welcome package is where you can get 30 coins for $9.99 that's what I'm trying to do and it said once I made my first qualifying purchase that it would happen but it's not there\n[01:10:19 PM] t6926021439: ?\n[01:10:19 PM] t6926021439: ?\n[01:11:03 PM] Maritza Caceres: Understood! Thanks for clarifying that for me\n[01:11:03 PM] Maritza Caceres: Understood! Thanks for clarifying that for me\n[01:11:28 PM] Maritza Caceres: You need to verify your account, I was checking there´s no KYC verified\n[01:11:28 PM] Maritza Caceres: You need to verify your account, I was checking there´s no KYC verified\n[01:12:41 PM] t6926021439: Ok it didn't say that so once I do that my package will be\n[01:12:41 PM] t6926021439: Ok it didn't say that so once I do that my package will be\n[01:14:16 PM] Maritza Caceres: I do apolgize for that misunderstanding. For sure yes, you need to upload your Proof of Identity and Proof of Address\n[01:14:16 PM] Maritza Caceres: I do apolgize for that misunderstanding. For sure yes, you need to upload your Proof of Identity and Proof of Address\n[01:17:50 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[01:17:50 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[01:22:17 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[01:22:17 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T13:24:46.460Z"
+        },
+        {
+          "chat_id": "2047677070803156992",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-24T14:16:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, enthusiastic greeting with clear offer to help and acknowledgment of wait time."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Asked appropriate clarifying question for screenshot but customer never responded so discovery was incomplete."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution achieved as customer abandoned chat after initial contact and clarifying question."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout with appropriate check-in after silence, but no resolution communication possible."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made during the interaction."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help but closing was somewhat premature given the unresolved issue and lack of confirmation customer left."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided good greeting and asked appropriate troubleshooting question but customer became unresponsive after initial contact. Agent handled the abandoned chat professionally with a check-in and closing, though the issue remains unresolved due to customer non-response.",
+          "coaching_tip": "When a customer doesn't respond after 10+ minutes, consider offering alternative contact methods or proactively checking account status before closing, rather than just ending with a generic farewell.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[02:00:32 PM] t1488621099: Full Name: t1488621099 Email Address: elmangobigaa@gmail.com Subject / How can we help you?: I cannot log in\n[02:00:32 PM] t1488621099: Full Name: t1488621099 Email Address: elmangobigaa@gmail.com Subject / How can we help you?: I cannot log in\n[02:01:28 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:01:28 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:03:34 PM] Maritza Caceres: Could you please provide to me a screenshot of the error?\n[02:03:34 PM] Maritza Caceres: Could you please provide to me a screenshot of the error?\n[02:06:22 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[02:06:22 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[02:16:30 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[02:16:30 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:19:49.123Z"
         }
       ],
-      "avg_score": 72,
-      "grade": "C",
+      "avg_score": 69,
+      "grade": "D",
       "trend": 0
     },
     {
@@ -4137,11 +4182,56 @@
           "raw_transcript": "[01:47:59 PM] t3304385783: Full Name: t3304385783 Email Address: sydjohnson1233@gmail.com Subject / How can we help you?: I'm trying to get my golden egg for verification but Its not showing up, I was told to email in and I did but have not heard back and it's been days\n[01:47:59 PM] t3304385783: Full Name: t3304385783 Email Address: sydjohnson1233@gmail.com Subject / How can we help you?: I'm trying to get my golden egg for verification but Its not showing up, I was told to email in and I did but have not heard back and it's been days\n[01:48:50 PM] Diana Lopez: Hi — I understand your frustration. You completed verification, your Golden Egg hasn't shown up, you emailed support, and it's been days with no response. That's not right, and I'm sorry.\n\nThe Golden Egg should appear automatically on your main lobby screen after KYC verification is fully completed. If it's been days and you still don't see it, something is wrong.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[01:48:50 PM] Diana Lopez: Hi — I understand your frustration. You completed verification, your Golden Egg hasn't shown up, you emailed support, and it's been days with no response. That's not right, and I'm sorry.\n\nThe Golden Egg should appear automatically on your main lobby screen after KYC verification is fully completed. If it's been days and you still don't see it, something is wrong.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[01:50:51 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[01:50:51 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T13:59:51.274Z"
+        },
+        {
+          "chat_id": "2047681058950180864",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T14:16:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript; customer message only."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent interaction to assess issue discovery."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted as agent never responded."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent communication present in transcript."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent interaction to evaluate compliance."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as agent never engaged."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "This transcript contains only the customer's initial inquiry with no agent response whatsoever. The agent failed to engage with the customer at all, resulting in zero service delivery.",
+          "coaching_tip": "Ensure agents acknowledge and respond to all incoming customer inquiries promptly, starting with a proper greeting.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[02:16:23 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why was my daily reward removed?\n[02:16:23 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why was my daily reward removed?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:19:38.847Z"
         }
       ],
-      "avg_score": 63,
+      "avg_score": 62,
       "grade": "D",
-      "trend": 3
+      "trend": -16
     },
     {
       "id": "5808",
@@ -45868,6 +45958,96 @@
       "raw_transcript": "[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:02:19 PM] Customer: Need help verifying my account\n[02:02:19 PM] Customer: Need help verifying my account\n[02:04:05 PM] Customer: It’s been a while\n[02:04:05 PM] Customer: It’s been a while\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:29 PM] Customer: Okay\n[02:04:29 PM] Customer: Okay\n[02:05:57 PM] Evelyn Portillo: done!\n[02:05:57 PM] Evelyn Portillo: done!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:07:36 PM] Customer: Is it done now\n[02:07:36 PM] Customer: Is it done now\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T14:14:42.574Z"
+    },
+    {
+      "chat_id": "2047681058950180864",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T14:16:36.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "No agent response present in transcript; customer message only."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "No agent interaction to assess issue discovery."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted as agent never responded."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "No agent communication present in transcript."
+        },
+        "compliance": {
+          "score": 0,
+          "notes": "No agent interaction to evaluate compliance."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as agent never engaged."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 0,
+      "grade": "F",
+      "summary": "This transcript contains only the customer's initial inquiry with no agent response whatsoever. The agent failed to engage with the customer at all, resulting in zero service delivery.",
+      "coaching_tip": "Ensure agents acknowledge and respond to all incoming customer inquiries promptly, starting with a proper greeting.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[02:16:23 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why was my daily reward removed?\n[02:16:23 PM] t5122722497: Full Name: t5122722497 Email Address: naultaj13@gmail.com Subject / How can we help you?: Why was my daily reward removed?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T14:19:38.847Z"
+    },
+    {
+      "chat_id": "2047677070803156992",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-24T14:16:33.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, enthusiastic greeting with clear offer to help and acknowledgment of wait time."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Asked appropriate clarifying question for screenshot but customer never responded so discovery was incomplete."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "No resolution achieved as customer abandoned chat after initial contact and clarifying question."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional throughout with appropriate check-in after silence, but no resolution communication possible."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made during the interaction."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help but closing was somewhat premature given the unresolved issue and lack of confirmation customer left."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided good greeting and asked appropriate troubleshooting question but customer became unresponsive after initial contact. Agent handled the abandoned chat professionally with a check-in and closing, though the issue remains unresolved due to customer non-response.",
+      "coaching_tip": "When a customer doesn't respond after 10+ minutes, consider offering alternative contact methods or proactively checking account status before closing, rather than just ending with a generic farewell.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[02:00:32 PM] t1488621099: Full Name: t1488621099 Email Address: elmangobigaa@gmail.com Subject / How can we help you?: I cannot log in\n[02:00:32 PM] t1488621099: Full Name: t1488621099 Email Address: elmangobigaa@gmail.com Subject / How can we help you?: I cannot log in\n[02:01:28 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:01:28 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:03:34 PM] Maritza Caceres: Could you please provide to me a screenshot of the error?\n[02:03:34 PM] Maritza Caceres: Could you please provide to me a screenshot of the error?\n[02:06:22 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[02:06:22 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[02:16:30 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[02:16:30 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T14:19:49.123Z"
     }
   ]
 }
