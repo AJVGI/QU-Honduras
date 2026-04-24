@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T12:54:55.109Z",
-  "total_chats": 489,
+  "scored_at": "2026-04-24T12:59:52.431Z",
+  "total_chats": 491,
   "total_agents": 26,
   "agents": [
     {
@@ -51,10 +51,55 @@
           "raw_transcript": "[12:30:48 PM] Customer: Full Name: Araceli contreras garcia Email Address: ac1806070@gmail.com Subject / How can we help you?: Hola cuanto tardan la verificación ya mande mis dos quiero empezar a jugar\n[12:30:48 PM] Customer: Full Name: Araceli contreras garcia Email Address: ac1806070@gmail.com Subject / How can we help you?: Hola cuanto tardan la verificación ya mande mis dos quiero empezar a jugar\n[12:31:07 PM] Customer: Gracias\n[12:31:07 PM] Customer: Gracias\n[12:31:52 PM] Maritza Caceres: Un momento por favor\n[12:31:52 PM] Maritza Caceres: Un momento por favor\n[12:37:28 PM] Maritza Caceres: ¡Hola!\n\nTenemos excelentes noticias: tu cuenta ha sido verificada oficialmente.\n\nTodo está listo por nuestra parte. Solo es necesario esperar un breve momento para que el sistema se sincronice y actualice su estado de forma interna. Este proceso no suele tardar mucho, pero le sugerimos revisar nuevamente en unas horas y trate de cerrar sesion y luego ingresar de nuevo.\n\n¡Mucho éxito en el Jackpot Daily! Esperamos que hoy sea tu día de suerte. 🎰✨\n[12:37:28 PM] Maritza Caceres: ¡Hola!\n\nTenemos excelentes noticias: tu cuenta ha sido verificada oficialmente.\n\nTodo está listo por nuestra parte. Solo es necesario esperar un breve momento para que el sistema se sincronice y actualice su estado de forma interna. Este proceso no suele tardar mucho, pero le sugerimos revisar nuevamente en unas horas y trate de cerrar sesion y luego ingresar de nuevo.\n\n¡Mucho éxito en el Jackpot Daily! Esperamos que hoy sea tu día de suerte. 🎰✨\n[12:41:24 PM] Maritza Caceres: No hemos recibido respuesta de usted, solo quiero saber si aun sigue ahi?\n[12:41:24 PM] Maritza Caceres: No hemos recibido respuesta de usted, solo quiero saber si aun sigue ahi?\n[12:46:36 PM] Maritza Caceres: Gracias por chatear con nosotros Araceli! Esperamos que disfrute sus juegos — Mucha suerte!\n[12:46:36 PM] Maritza Caceres: Gracias por chatear con nosotros Araceli! Esperamos que disfrute sus juegos — Mucha suerte!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T12:49:42.526Z"
+        },
+        {
+          "chat_id": "2047659355417821184",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-24T12:58:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, welcoming greeting with offer to help and acknowledgment of wait time."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the basic question about redemption timing but didn't initially clarify that redemption was already approved before providing general info."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided accurate timeframe information and confirmed approved status, though took a few exchanges to directly answer the specific question."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional with good formatting, though the 'sorry to hear that' was slightly misplaced when customer wasn't expressing a problem."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate timeframes and requirements without unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No formal closing or offer of further assistance after customer indicated they were done."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent provided accurate information about redemption timeframes and confirmed the approved status, but could have been more direct in answering the specific question initially. The interaction was professional but lacked a proper closing after the customer indicated completion.",
+          "coaching_tip": "Always provide a proper closing statement even when the customer signals they're done—a simple 'You're welcome! Feel free to reach out if you need anything else' maintains professionalism and leaves a positive final impression.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[12:50:08 PM] t8858317260: Full Name: t8858317260 Email Address: keetoncak@gmail.com Subject / How can we help you?: How long does it take to get a redemption typically? It's my first one and the first time I ever won anything. I'm fully verified.\n[12:50:08 PM] t8858317260: Full Name: t8858317260 Email Address: keetoncak@gmail.com Subject / How can we help you?: How long does it take to get a redemption typically? It's my first one and the first time I ever won anything. I'm fully verified.\n[12:50:41 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[12:50:41 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[12:51:10 PM] t8858317260: Ok. Thank you for your time and effort 🙏😌\n[12:51:10 PM] t8858317260: Ok. Thank you for your time and effort 🙏😌\n[12:51:56 PM] Maritza Caceres: Thank you🤗\n[12:51:56 PM] Maritza Caceres: Thank you🤗\n[12:54:07 PM] Maritza Caceres: Congrats — sounds like you're ready to cash out!\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:54:07 PM] Maritza Caceres: Congrats — sounds like you're ready to cash out!\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:55:29 PM] t8858317260: Well I definitely meet the requirements. I already have a redemption pending. I didn't see any options for debit card only ACH. So that's what I did.\n[12:55:29 PM] t8858317260: Well I definitely meet the requirements. I already have a redemption pending. I didn't see any options for debit card only ACH. So that's what I did.\n[12:56:15 PM] t8858317260: Will it take 10 days or does it happen sooner typically?\n[12:56:15 PM] t8858317260: Will it take 10 days or does it happen sooner typically?\n[12:57:05 PM] Maritza Caceres: I´m sorry to hear that, I just double checked and your redemption status is approved, so at this moment you just need to wait some time\n[12:57:05 PM] Maritza Caceres: I´m sorry to hear that, I just double checked and your redemption status is approved, so at this moment you just need to wait some time\n[12:57:48 PM] t8858317260: My redemption has been approved I know. So about how long does it take typically? 10 days? Or sooner?\n[12:57:48 PM] t8858317260: My redemption has been approved I know. So about how long does it take typically? 10 days? Or sooner?\n[12:57:55 PM] Maritza Caceres: Yes, typically takes less than that, but our time frame is 10 days including the time from the bank\n[12:57:55 PM] Maritza Caceres: Yes, typically takes less than that, but our time frame is 10 days including the time from the bank\n[12:58:25 PM] t8858317260: Ok. Cool. Thank you for clarifying. That's all. Thank you again for your time.\n[12:58:25 PM] t8858317260: Ok. Cool. Thank you for clarifying. That's all. Thank you again for your time.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T12:59:51.930Z"
         }
       ],
-      "avg_score": 82,
-      "grade": "B",
+      "avg_score": 77,
+      "grade": "C",
       "trend": 0
     },
     {
@@ -3876,11 +3921,56 @@
           "raw_transcript": "[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T12:54:54.607Z"
+        },
+        {
+          "chat_id": "2047659803383525376",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T12:58:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with empathy statement, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 17,
+              "notes": "Excellent understanding of the issue with clear explanation of possible causes and request for state confirmation."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps and clear escalation path, though customer response is missing so final resolution unclear."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, well-structured response with empathy, specific steps, and professional tone throughout."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly cited terms regarding restricted states and followed appropriate procedures without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Warm closing with offer of further assistance, though appears premature given no customer confirmation of resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent provided a thorough, professional response with clear troubleshooting steps and proper policy explanation for a geo-restriction issue. The closing appears premature as there's no visible customer response confirming the issue was resolved between the initial response and final message.",
+          "coaching_tip": "Wait for customer confirmation that the issue is resolved or that they have no further questions before closing the conversation with a final farewell message.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[12:51:55 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: Hey the game isn't letting me play any games. Why is that? It says it's not working in my region. Can someone please help me with this so that I can play please\n[12:51:55 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: Hey the game isn't letting me play any games. Why is that? It says it's not working in my region. Can someone please help me with this so that I can play please\n[12:52:43 PM] Diana Lopez: Hi — I understand your frustration. You want to play, but the game is telling you it's not available in your region.\n\nThis usually means that your location is not currently supported by JackpotDaily. Based on our terms, players from restricted states (California, Connecticut, Delaware, Idaho, Indiana, Louisiana, Maryland, Michigan, Montana, Nevada, New Jersey, New York, Tennessee, Washington, West Virginia) are not eligible to play.\n\nPlease confirm which state you are playing from. If you are not in a restricted state, there may be a technical issue with how your location is being detected.\n\nTry these steps:\n1. Make sure you don't have a VPN or proxy enabled\n2. Enable location services on your device and browser\n3. Try refreshing the page or logging out and back in\n\nIf you are in an eligible state and still see this message, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[12:52:43 PM] Diana Lopez: Hi — I understand your frustration. You want to play, but the game is telling you it's not available in your region.\n\nThis usually means that your location is not currently supported by JackpotDaily. Based on our terms, players from restricted states (California, Connecticut, Delaware, Idaho, Indiana, Louisiana, Maryland, Michigan, Montana, Nevada, New Jersey, New York, Tennessee, Washington, West Virginia) are not eligible to play.\n\nPlease confirm which state you are playing from. If you are not in a restricted state, there may be a technical issue with how your location is being detected.\n\nTry these steps:\n1. Make sure you don't have a VPN or proxy enabled\n2. Enable location services on your device and browser\n3. Try refreshing the page or logging out and back in\n\nIf you are in an eligible state and still see this message, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[12:56:53 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[12:56:53 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T12:59:41.656Z"
         }
       ],
-      "avg_score": 62,
+      "avg_score": 63,
       "grade": "D",
-      "trend": -2
+      "trend": -3
     },
     {
       "id": "5808",
@@ -44248,6 +44338,96 @@
       "raw_transcript": "[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T12:54:54.607Z"
+    },
+    {
+      "chat_id": "2047659803383525376",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T12:58:59.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with empathy statement, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 17,
+          "notes": "Excellent understanding of the issue with clear explanation of possible causes and request for state confirmation."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive troubleshooting steps and clear escalation path, though customer response is missing so final resolution unclear."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, well-structured response with empathy, specific steps, and professional tone throughout."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly cited terms regarding restricted states and followed appropriate procedures without unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Warm closing with offer of further assistance, though appears premature given no customer confirmation of resolution."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 78,
+      "grade": "C",
+      "summary": "Agent provided a thorough, professional response with clear troubleshooting steps and proper policy explanation for a geo-restriction issue. The closing appears premature as there's no visible customer response confirming the issue was resolved between the initial response and final message.",
+      "coaching_tip": "Wait for customer confirmation that the issue is resolved or that they have no further questions before closing the conversation with a final farewell message.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[12:51:55 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: Hey the game isn't letting me play any games. Why is that? It says it's not working in my region. Can someone please help me with this so that I can play please\n[12:51:55 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: Hey the game isn't letting me play any games. Why is that? It says it's not working in my region. Can someone please help me with this so that I can play please\n[12:52:43 PM] Diana Lopez: Hi — I understand your frustration. You want to play, but the game is telling you it's not available in your region.\n\nThis usually means that your location is not currently supported by JackpotDaily. Based on our terms, players from restricted states (California, Connecticut, Delaware, Idaho, Indiana, Louisiana, Maryland, Michigan, Montana, Nevada, New Jersey, New York, Tennessee, Washington, West Virginia) are not eligible to play.\n\nPlease confirm which state you are playing from. If you are not in a restricted state, there may be a technical issue with how your location is being detected.\n\nTry these steps:\n1. Make sure you don't have a VPN or proxy enabled\n2. Enable location services on your device and browser\n3. Try refreshing the page or logging out and back in\n\nIf you are in an eligible state and still see this message, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[12:52:43 PM] Diana Lopez: Hi — I understand your frustration. You want to play, but the game is telling you it's not available in your region.\n\nThis usually means that your location is not currently supported by JackpotDaily. Based on our terms, players from restricted states (California, Connecticut, Delaware, Idaho, Indiana, Louisiana, Maryland, Michigan, Montana, Nevada, New Jersey, New York, Tennessee, Washington, West Virginia) are not eligible to play.\n\nPlease confirm which state you are playing from. If you are not in a restricted state, there may be a technical issue with how your location is being detected.\n\nTry these steps:\n1. Make sure you don't have a VPN or proxy enabled\n2. Enable location services on your device and browser\n3. Try refreshing the page or logging out and back in\n\nIf you are in an eligible state and still see this message, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[12:56:53 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[12:56:53 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T12:59:41.656Z"
+    },
+    {
+      "chat_id": "2047659355417821184",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-24T12:58:31.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, welcoming greeting with offer to help and acknowledgment of wait time."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Understood the basic question about redemption timing but didn't initially clarify that redemption was already approved before providing general info."
+        },
+        "resolution": {
+          "score": 22,
+          "notes": "Provided accurate timeframe information and confirmed approved status, though took a few exchanges to directly answer the specific question."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear and professional with good formatting, though the 'sorry to hear that' was slightly misplaced when customer wasn't expressing a problem."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided accurate timeframes and requirements without unauthorized promises."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "No formal closing or offer of further assistance after customer indicated they were done."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 72,
+      "grade": "C",
+      "summary": "Agent provided accurate information about redemption timeframes and confirmed the approved status, but could have been more direct in answering the specific question initially. The interaction was professional but lacked a proper closing after the customer indicated completion.",
+      "coaching_tip": "Always provide a proper closing statement even when the customer signals they're done—a simple 'You're welcome! Feel free to reach out if you need anything else' maintains professionalism and leaves a positive final impression.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[12:50:08 PM] t8858317260: Full Name: t8858317260 Email Address: keetoncak@gmail.com Subject / How can we help you?: How long does it take to get a redemption typically? It's my first one and the first time I ever won anything. I'm fully verified.\n[12:50:08 PM] t8858317260: Full Name: t8858317260 Email Address: keetoncak@gmail.com Subject / How can we help you?: How long does it take to get a redemption typically? It's my first one and the first time I ever won anything. I'm fully verified.\n[12:50:41 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[12:50:41 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[12:51:10 PM] t8858317260: Ok. Thank you for your time and effort 🙏😌\n[12:51:10 PM] t8858317260: Ok. Thank you for your time and effort 🙏😌\n[12:51:56 PM] Maritza Caceres: Thank you🤗\n[12:51:56 PM] Maritza Caceres: Thank you🤗\n[12:54:07 PM] Maritza Caceres: Congrats — sounds like you're ready to cash out!\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:54:07 PM] Maritza Caceres: Congrats — sounds like you're ready to cash out!\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:55:29 PM] t8858317260: Well I definitely meet the requirements. I already have a redemption pending. I didn't see any options for debit card only ACH. So that's what I did.\n[12:55:29 PM] t8858317260: Well I definitely meet the requirements. I already have a redemption pending. I didn't see any options for debit card only ACH. So that's what I did.\n[12:56:15 PM] t8858317260: Will it take 10 days or does it happen sooner typically?\n[12:56:15 PM] t8858317260: Will it take 10 days or does it happen sooner typically?\n[12:57:05 PM] Maritza Caceres: I´m sorry to hear that, I just double checked and your redemption status is approved, so at this moment you just need to wait some time\n[12:57:05 PM] Maritza Caceres: I´m sorry to hear that, I just double checked and your redemption status is approved, so at this moment you just need to wait some time\n[12:57:48 PM] t8858317260: My redemption has been approved I know. So about how long does it take typically? 10 days? Or sooner?\n[12:57:48 PM] t8858317260: My redemption has been approved I know. So about how long does it take typically? 10 days? Or sooner?\n[12:57:55 PM] Maritza Caceres: Yes, typically takes less than that, but our time frame is 10 days including the time from the bank\n[12:57:55 PM] Maritza Caceres: Yes, typically takes less than that, but our time frame is 10 days including the time from the bank\n[12:58:25 PM] t8858317260: Ok. Cool. Thank you for clarifying. That's all. Thank you again for your time.\n[12:58:25 PM] t8858317260: Ok. Cool. Thank you for clarifying. That's all. Thank you again for your time.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T12:59:51.930Z"
     }
   ]
 }
