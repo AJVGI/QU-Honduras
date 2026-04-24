@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T20:39:49.023Z",
-  "total_chats": 581,
+  "scored_at": "2026-04-24T20:49:47.761Z",
+  "total_chats": 582,
   "total_agents": 26,
   "agents": [
     {
@@ -5901,11 +5901,56 @@
           "raw_transcript": "[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar ��� Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar → Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T20:39:48.522Z"
+        },
+        {
+          "chat_id": "2047778530111827968",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T20:48:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting whatsoever, agent jumped directly into answering the question without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic question about $10 credit but didn't ask to see the email or clarify which promotion to provide specific help."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided generic guidance about checking email and account but didn't actually look into the customer's specific promotion or provide concrete timeline."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional language but somewhat generic and impersonal, lacking warmth or personalization."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately cautious about not making unauthorized promises about the credit."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and acknowledged resolution, though the 'sorted' claim was premature given the vague answer provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided generic information about promotional credits without investigating the customer's specific situation or accessing their account details. While professional and compliant, the response lacked personalization and didn't fully resolve the customer's question about when they'd receive the $10.",
+          "coaching_tip": "Always start with a greeting, then ask to review the customer's account and the specific promotional email to provide accurate timing rather than generic possibilities.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[08:43:42 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[08:43:42 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[08:44:23 PM] Diana Lopez: That $10 credit is usually tied to a specific promotion or bonus offer. If the email mentioned a date or a specific timeframe (like \"credited within 24-48 hours\" or \"on [specific date]\"), that date is typically when you should see it in the account.\n\nIf the email didn't specify a date, the credit is often applied automatically before the system processes any nightly updates. It is generally recommended to refresh the account balance or check the transaction history. If it hasn't arrived by the time you plan to play, it may be worth checking the promotion's terms to see if any additional steps are required to activate the credit.\n[08:44:23 PM] Diana Lopez: That $10 credit is usually tied to a specific promotion or bonus offer. If the email mentioned a date or a specific timeframe (like \"credited within 24-48 hours\" or \"on [specific date]\"), that date is typically when you should see it in the account.\n\nIf the email didn't specify a date, the credit is often applied automatically before the system processes any nightly updates. It is generally recommended to refresh the account balance or check the transaction history. If it hasn't arrived by the time you plan to play, it may be worth checking the promotion's terms to see if any additional steps are required to activate the credit.\n[08:45:37 PM] t7409419483: Ok\n[08:45:37 PM] t7409419483: Ok\n[08:46:10 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[08:46:10 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T20:49:47.260Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 13
+      "trend": 16
     },
     {
       "id": "5808",
@@ -52528,6 +52573,51 @@
       "raw_transcript": "[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:33:59 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:14 PM] Diana Lopez: Hola!\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar ��� Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.\n[08:34:51 PM] Diana Lopez: Para activar tu ubicación en el dispositivo:\n\nEn iPhone/iPad:\n- Configuración → Privacidad → Ubicación → Activar → Buscar tu navegador (Safari/Chrome) → Seleccionar 'Mientras usas la app'\n\nEn Android:\n- Configuración → Ubicación → Activar → Buscar tu navegador → Seleccionar 'Permitir solo mientras usas la app'\n\nEn computadora (Chrome):\n- Haz clic en el ícono de candado junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activada, actualiza la página y vuelve a intentarlo.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T20:39:48.522Z"
+    },
+    {
+      "chat_id": "2047778530111827968",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T20:48:14.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting whatsoever, agent jumped directly into answering the question without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic question about $10 credit but didn't ask to see the email or clarify which promotion to provide specific help."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided generic guidance about checking email and account but didn't actually look into the customer's specific promotion or provide concrete timeline."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional language but somewhat generic and impersonal, lacking warmth or personalization."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately cautious about not making unauthorized promises about the credit."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance and acknowledged resolution, though the 'sorted' claim was premature given the vague answer provided."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided generic information about promotional credits without investigating the customer's specific situation or accessing their account details. While professional and compliant, the response lacked personalization and didn't fully resolve the customer's question about when they'd receive the $10.",
+      "coaching_tip": "Always start with a greeting, then ask to review the customer's account and the specific promotional email to provide accurate timing rather than generic possibilities.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[08:43:42 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[08:43:42 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[08:44:23 PM] Diana Lopez: That $10 credit is usually tied to a specific promotion or bonus offer. If the email mentioned a date or a specific timeframe (like \"credited within 24-48 hours\" or \"on [specific date]\"), that date is typically when you should see it in the account.\n\nIf the email didn't specify a date, the credit is often applied automatically before the system processes any nightly updates. It is generally recommended to refresh the account balance or check the transaction history. If it hasn't arrived by the time you plan to play, it may be worth checking the promotion's terms to see if any additional steps are required to activate the credit.\n[08:44:23 PM] Diana Lopez: That $10 credit is usually tied to a specific promotion or bonus offer. If the email mentioned a date or a specific timeframe (like \"credited within 24-48 hours\" or \"on [specific date]\"), that date is typically when you should see it in the account.\n\nIf the email didn't specify a date, the credit is often applied automatically before the system processes any nightly updates. It is generally recommended to refresh the account balance or check the transaction history. If it hasn't arrived by the time you plan to play, it may be worth checking the promotion's terms to see if any additional steps are required to activate the credit.\n[08:45:37 PM] t7409419483: Ok\n[08:45:37 PM] t7409419483: Ok\n[08:46:10 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[08:46:10 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T20:49:47.260Z"
     }
   ]
 }
