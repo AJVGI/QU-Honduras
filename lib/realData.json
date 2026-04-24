@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T11:09:45.159Z",
-  "total_chats": 475,
+  "scored_at": "2026-04-24T11:24:54.850Z",
+  "total_chats": 477,
   "total_agents": 25,
   "agents": [
     {
@@ -690,11 +690,56 @@
           "raw_transcript": "[10:51:28 AM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Free play\n[10:51:28 AM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Free play\n[10:52:09 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:52:09 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:52:54 AM] Karen Perez: I get it — always nice to have some free play.\n\nWe don’t have a way to manually add free play or SC on request, but there are a few ways you can still get some without depositing:\n\nDaily Login Rewards\nWelcome rewards (like the Golden Egg, if still available)\nReferral bonuses\nPromotions via email or social channels\nPostal Request (AMOE) — no purchase required\n\nIf you were expecting a specific reward or something that didn’t credit properly, that’s something I can definitely check for you.\n\nJust let me know and I’ll take a look.\n[10:52:54 AM] Karen Perez: I get it — always nice to have some free play.\n\nWe don’t have a way to manually add free play or SC on request, but there are a few ways you can still get some without depositing:\n\nDaily Login Rewards\nWelcome rewards (like the Golden Egg, if still available)\nReferral bonuses\nPromotions via email or social channels\nPostal Request (AMOE) — no purchase required\n\nIf you were expecting a specific reward or something that didn’t credit properly, that’s something I can definitely check for you.\n\nJust let me know and I’ll take a look.\n[10:54:10 AM] Karen Perez: Sorry, are you still there?\n[10:54:10 AM] Karen Perez: Sorry, are you still there?\n[10:55:47 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:55:47 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T10:59:40.784Z"
+        },
+        {
+          "chat_id": "2047632741616103424",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T11:21:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though slightly generic."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent understood the missing Golden Egg issue and asked clarifying questions including screenshot request and timeline."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent explained the promotion mechanics but didn't actually resolve whether customer received it or provide a remedy for the missing reward."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic communication with good explanations, though the final response pivoted to explaining rather than resolving."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made throughout the interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-response with no closing provided in the visible portion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided professional service with empathetic communication and good initial investigation into the missing Golden Egg promotion. However, the resolution shifted from checking/fixing the issue to simply explaining how the promotion works, without confirming whether the customer actually received it or offering a concrete solution.",
+          "coaching_tip": "After investigating an account issue, always circle back with specific findings about the customer's account status and a clear next step or resolution, rather than pivoting to general promotional explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 40,
+          "raw_transcript": "[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:12 AM] t2673526652: After verification\n[11:06:12 AM] t2673526652: After verification\n[11:06:49 AM] t2673526652: Kk\n[11:06:49 AM] t2673526652: Kk\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:56 AM] t2673526652: Ok\n[11:12:56 AM] t2673526652: Ok\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T11:24:54.349Z"
         }
       ],
       "avg_score": 65,
       "grade": "D",
-      "trend": 4
+      "trend": 0
     },
     {
       "id": "5801",
@@ -7323,11 +7368,56 @@
           "raw_transcript": "[10:55:12 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: My bday was Tuesday I didn’t get a bday gift\n[10:55:12 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: My bday was Tuesday I didn’t get a bday gift\n[10:55:31 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:55:31 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:55:38 AM] t2673526652: Ok\n[10:55:38 AM] t2673526652: Ok\n[10:55:55 AM] t2673526652: 4-21 was my bday\n[10:55:55 AM] t2673526652: 4-21 was my bday\n[10:56:41 AM] t2673526652: Hope something gets credited 😩\n[10:56:41 AM] t2673526652: Hope something gets credited 😩\n[11:00:37 AM] Daniel Padilla: We’ve checked your account and everything looks good on our end. However, I understand that your birthday bonus has not been applied yet.\n\nBecause of this, I will escalate your case to our team so they can manually review and apply the birthday bonus for you. You can expect an update within the next 24 hours.\n\nWe truly appreciate your patience and understanding, and we’re here if you have any other questions in the meantime.\n[11:00:37 AM] Daniel Padilla: We’ve checked your account and everything looks good on our end. However, I understand that your birthday bonus has not been applied yet.\n\nBecause of this, I will escalate your case to our team so they can manually review and apply the birthday bonus for you. You can expect an update within the next 24 hours.\n\nWe truly appreciate your patience and understanding, and we’re here if you have any other questions in the meantime.\n[11:01:42 AM] t2673526652: Will I get a email?\n[11:01:42 AM] t2673526652: Will I get a email?\n[11:01:58 AM] Daniel Padilla: Yes! a confirmation via email\n[11:01:58 AM] Daniel Padilla: Yes! a confirmation via email\n[11:02:09 AM] Daniel Padilla: Anything else i can do for you?\n[11:02:09 AM] Daniel Padilla: Anything else i can do for you?\n[11:02:20 AM] t2673526652: Sounds good\n[11:02:20 AM] t2673526652: Sounds good\n[11:02:35 AM] t2673526652: That’s it\n[11:02:35 AM] t2673526652: That’s it\n[11:02:41 AM] t2673526652: Ty\n[11:02:41 AM] t2673526652: Ty\n[11:02:42 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day\n[11:02:42 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T11:04:40.012Z"
+        },
+        {
+          "chat_id": "2047635991236132864",
+          "agent_name": "Daniel Padilla",
+          "agent_id": "5804",
+          "timestamp": "2026-04-24T11:22:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to help, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Requested screenshot to clarify the location services issue, which was appropriate given the vague initial complaint."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "No resolution achieved as customer did not respond, but agent did not offer alternative troubleshooting steps before waiting."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional but minor grammar error in follow-up message ('I have not get')."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and provided proper contact information for follow-up."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Appropriate closure given no response, offered alternative contact method and expressed willingness to help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided professional service and appropriately requested a screenshot to diagnose the location services issue. Customer did not respond, and agent closed chat appropriately after reasonable wait time.",
+          "coaching_tip": "Before asking for a screenshot, provide one or two quick troubleshooting steps the customer can try immediately, as this may resolve simple issues without requiring image uploads.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:17:18 AM] Customer: Full Name: Jeremy Boyer Email Address: jeremyboyer959@gmail.com Subject / How can we help you?: Location is on. Says enable it. What is up with that?\n[11:17:18 AM] Customer: Full Name: Jeremy Boyer Email Address: jeremyboyer959@gmail.com Subject / How can we help you?: Location is on. Says enable it. What is up with that?\n[11:17:52 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment\n[11:17:52 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment\n[11:18:40 AM] Daniel Padilla: Can you please send me a screenshot?\n[11:18:40 AM] Daniel Padilla: Can you please send me a screenshot?\n[11:21:28 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[11:21:28 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[11:22:58 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[11:22:58 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T11:24:44.953Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -7
+      "trend": -11
     },
     {
       "id": "5847",
@@ -42979,6 +43069,96 @@
       "raw_transcript": "[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T11:09:44.657Z"
+    },
+    {
+      "chat_id": "2047635991236132864",
+      "agent_name": "Daniel Padilla",
+      "agent_id": "5804",
+      "timestamp": "2026-04-24T11:22:59.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with offer to help, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Requested screenshot to clarify the location services issue, which was appropriate given the vague initial complaint."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "No resolution achieved as customer did not respond, but agent did not offer alternative troubleshooting steps before waiting."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Clear and professional but minor grammar error in follow-up message ('I have not get')."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations and provided proper contact information for follow-up."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Appropriate closure given no response, offered alternative contact method and expressed willingness to help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided professional service and appropriately requested a screenshot to diagnose the location services issue. Customer did not respond, and agent closed chat appropriately after reasonable wait time.",
+      "coaching_tip": "Before asking for a screenshot, provide one or two quick troubleshooting steps the customer can try immediately, as this may resolve simple issues without requiring image uploads.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[11:17:18 AM] Customer: Full Name: Jeremy Boyer Email Address: jeremyboyer959@gmail.com Subject / How can we help you?: Location is on. Says enable it. What is up with that?\n[11:17:18 AM] Customer: Full Name: Jeremy Boyer Email Address: jeremyboyer959@gmail.com Subject / How can we help you?: Location is on. Says enable it. What is up with that?\n[11:17:52 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment\n[11:17:52 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment\n[11:18:40 AM] Daniel Padilla: Can you please send me a screenshot?\n[11:18:40 AM] Daniel Padilla: Can you please send me a screenshot?\n[11:21:28 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[11:21:28 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[11:22:58 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[11:22:58 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T11:24:44.953Z"
+    },
+    {
+      "chat_id": "2047632741616103424",
+      "agent_name": "Karen Perez",
+      "agent_id": "5846",
+      "timestamp": "2026-04-24T11:21:07.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name and offer to assist, though slightly generic."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent understood the missing Golden Egg issue and asked clarifying questions including screenshot request and timeline."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent explained the promotion mechanics but didn't actually resolve whether customer received it or provide a remedy for the missing reward."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic communication with good explanations, though the final response pivoted to explaining rather than resolving."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made throughout the interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript cuts off mid-response with no closing provided in the visible portion."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided professional service with empathetic communication and good initial investigation into the missing Golden Egg promotion. However, the resolution shifted from checking/fixing the issue to simply explaining how the promotion works, without confirming whether the customer actually received it or offering a concrete solution.",
+      "coaching_tip": "After investigating an account issue, always circle back with specific findings about the customer's account status and a clear next step or resolution, rather than pivoting to general promotional explanations.",
+      "website": "Jackpot Daily",
+      "message_count": 40,
+      "raw_transcript": "[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:12 AM] t2673526652: After verification\n[11:06:12 AM] t2673526652: After verification\n[11:06:49 AM] t2673526652: Kk\n[11:06:49 AM] t2673526652: Kk\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:56 AM] t2673526652: Ok\n[11:12:56 AM] t2673526652: Ok\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T11:24:54.349Z"
     }
   ]
 }
