@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T11:24:54.850Z",
-  "total_chats": 477,
+  "scored_at": "2026-04-24T11:29:41.171Z",
+  "total_chats": 478,
   "total_agents": 25,
   "agents": [
     {
@@ -21111,11 +21111,56 @@
           "raw_transcript": "[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T11:09:44.657Z"
+        },
+        {
+          "chat_id": "2047633911956062208",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T11:26:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to assist, though generic and lacked personalization initially."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Confirmed the issue and obtained slip ID, asked clarifying question about redemption, understood the delay concern."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Checked status, confirmed approval, provided timeline expectations for ACH processing, and reassured customer appropriately."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Multiple typos and grammatical errors throughout (lright, uually, mor) but message was generally understandable."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard processing timeframes, no unauthorized promises made."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Thanked customer and offered closure warning, though could have been more polished and proactive about future assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent successfully resolved the redemption delay inquiry by checking status and providing clear timeline expectations. Communication was hindered by frequent spelling and grammatical errors that detracted from professionalism.",
+          "coaching_tip": "Proofread messages before sending to eliminate typos and grammatical errors, which will significantly improve professional presentation and customer confidence.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[11:09:02 AM] t3832917428: Full Name: t3832917428 Email Address: neddygasd@gmail.com Subject / How can we help you?: My redemption is taking longer than usual?!\n[11:09:02 AM] t3832917428: Full Name: t3832917428 Email Address: neddygasd@gmail.com Subject / How can we help you?: My redemption is taking longer than usual?!\n[11:09:38 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[11:09:38 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[11:09:46 AM] t3832917428: Heyy jason\n[11:09:46 AM] t3832917428: Heyy jason\n[11:10:13 AM] t3832917428: This is the redemption I’m referring too here is the slip id: 312205715311\n[11:10:13 AM] t3832917428: This is the redemption I’m referring too here is the slip id: 312205715311\n[11:10:57 AM] Guillermo Mendoza: Hi Welcome Kourtney you place a redeem correct?\n[11:10:57 AM] t3832917428: The redemption request is taking longer than the 24-48 hr period. It’s never been this slow , what is going on with my account?\n[11:10:57 AM] Guillermo Mendoza: Hi Welcome Kourtney you place a redeem correct?\n[11:10:57 AM] t3832917428: The redemption request is taking longer than the 24-48 hr period. It’s never been this slow , what is going on with my account?\n[11:11:12 AM] t3832917428: Yes correct\n[11:11:12 AM] t3832917428: Yes correct\n[11:12:39 AM] Guillermo Mendoza: Right for the one placed on the 4/22 let me check status for it\n[11:12:39 AM] Guillermo Mendoza: Right for the one placed on the 4/22 let me check status for it\n[11:12:50 AM] t3832917428: Ok thank you sir\n[11:12:50 AM] t3832917428: Ok thank you sir\n[11:16:01 AM] Guillermo Mendoza: lright i check and shows aproved should be reflected in next 10hrs coming Hours\n[11:16:01 AM] Guillermo Mendoza: lright i check and shows aproved should be reflected in next 10hrs coming Hours\n[11:16:26 AM] t3832917428: Alright!\n[11:16:26 AM] t3832917428: Alright!\n[11:16:36 AM] t3832917428: So I should be expecting it soon?\n[11:16:36 AM] t3832917428: So I should be expecting it soon?\n[11:18:47 AM] Guillermo Mendoza: Yes  you got priority But just to let you know ACH takes 2 to 10 business days in your case uually average of 3 days only\n[11:18:47 AM] Guillermo Mendoza: Yes  you got priority But just to let you know ACH takes 2 to 10 business days in your case uually average of 3 days only\n[11:21:01 AM] t3832917428: Alright okay thank you so much Jason!\n[11:21:01 AM] t3832917428: Alright okay thank you so much Jason!\n[11:21:35 AM] Guillermo Mendoza: My pleasure Kourtney thanks for reaching have a nice day\n[11:21:35 AM] Guillermo Mendoza: My pleasure Kourtney thanks for reaching have a nice day\n[11:23:59 AM] Guillermo Mendoza: if no mor questions will close chat in 3 minutes\n[11:23:59 AM] Guillermo Mendoza: if no mor questions will close chat in 3 minutes",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T11:29:40.670Z"
         }
       ],
-      "avg_score": 50,
+      "avg_score": 51,
       "grade": "F",
-      "trend": -6
+      "trend": 0
     },
     {
       "id": "5838",
@@ -43159,6 +43204,51 @@
       "raw_transcript": "[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:12 AM] t2673526652: After verification\n[11:06:12 AM] t2673526652: After verification\n[11:06:49 AM] t2673526652: Kk\n[11:06:49 AM] t2673526652: Kk\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:56 AM] t2673526652: Ok\n[11:12:56 AM] t2673526652: Ok\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T11:24:54.349Z"
+    },
+    {
+      "chat_id": "2047633911956062208",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T11:26:35.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with offer to assist, though generic and lacked personalization initially."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Confirmed the issue and obtained slip ID, asked clarifying question about redemption, understood the delay concern."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Checked status, confirmed approval, provided timeline expectations for ACH processing, and reassured customer appropriately."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Multiple typos and grammatical errors throughout (lright, uually, mor) but message was generally understandable."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided standard processing timeframes, no unauthorized promises made."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Thanked customer and offered closure warning, though could have been more polished and proactive about future assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 68,
+      "grade": "D",
+      "summary": "Agent successfully resolved the redemption delay inquiry by checking status and providing clear timeline expectations. Communication was hindered by frequent spelling and grammatical errors that detracted from professionalism.",
+      "coaching_tip": "Proofread messages before sending to eliminate typos and grammatical errors, which will significantly improve professional presentation and customer confidence.",
+      "website": "Jackpot Daily",
+      "message_count": 32,
+      "raw_transcript": "[11:09:02 AM] t3832917428: Full Name: t3832917428 Email Address: neddygasd@gmail.com Subject / How can we help you?: My redemption is taking longer than usual?!\n[11:09:02 AM] t3832917428: Full Name: t3832917428 Email Address: neddygasd@gmail.com Subject / How can we help you?: My redemption is taking longer than usual?!\n[11:09:38 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[11:09:38 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[11:09:46 AM] t3832917428: Heyy jason\n[11:09:46 AM] t3832917428: Heyy jason\n[11:10:13 AM] t3832917428: This is the redemption I’m referring too here is the slip id: 312205715311\n[11:10:13 AM] t3832917428: This is the redemption I’m referring too here is the slip id: 312205715311\n[11:10:57 AM] Guillermo Mendoza: Hi Welcome Kourtney you place a redeem correct?\n[11:10:57 AM] t3832917428: The redemption request is taking longer than the 24-48 hr period. It’s never been this slow , what is going on with my account?\n[11:10:57 AM] Guillermo Mendoza: Hi Welcome Kourtney you place a redeem correct?\n[11:10:57 AM] t3832917428: The redemption request is taking longer than the 24-48 hr period. It’s never been this slow , what is going on with my account?\n[11:11:12 AM] t3832917428: Yes correct\n[11:11:12 AM] t3832917428: Yes correct\n[11:12:39 AM] Guillermo Mendoza: Right for the one placed on the 4/22 let me check status for it\n[11:12:39 AM] Guillermo Mendoza: Right for the one placed on the 4/22 let me check status for it\n[11:12:50 AM] t3832917428: Ok thank you sir\n[11:12:50 AM] t3832917428: Ok thank you sir\n[11:16:01 AM] Guillermo Mendoza: lright i check and shows aproved should be reflected in next 10hrs coming Hours\n[11:16:01 AM] Guillermo Mendoza: lright i check and shows aproved should be reflected in next 10hrs coming Hours\n[11:16:26 AM] t3832917428: Alright!\n[11:16:26 AM] t3832917428: Alright!\n[11:16:36 AM] t3832917428: So I should be expecting it soon?\n[11:16:36 AM] t3832917428: So I should be expecting it soon?\n[11:18:47 AM] Guillermo Mendoza: Yes  you got priority But just to let you know ACH takes 2 to 10 business days in your case uually average of 3 days only\n[11:18:47 AM] Guillermo Mendoza: Yes  you got priority But just to let you know ACH takes 2 to 10 business days in your case uually average of 3 days only\n[11:21:01 AM] t3832917428: Alright okay thank you so much Jason!\n[11:21:01 AM] t3832917428: Alright okay thank you so much Jason!\n[11:21:35 AM] Guillermo Mendoza: My pleasure Kourtney thanks for reaching have a nice day\n[11:21:35 AM] Guillermo Mendoza: My pleasure Kourtney thanks for reaching have a nice day\n[11:23:59 AM] Guillermo Mendoza: if no mor questions will close chat in 3 minutes\n[11:23:59 AM] Guillermo Mendoza: if no mor questions will close chat in 3 minutes",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T11:29:40.670Z"
     }
   ]
 }
