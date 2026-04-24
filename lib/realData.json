@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T19:54:46.339Z",
-  "total_chats": 572,
+  "scored_at": "2026-04-24T20:00:04.104Z",
+  "total_chats": 575,
   "total_agents": 26,
   "agents": [
     {
@@ -1878,11 +1878,56 @@
           "raw_transcript": "[07:36:51 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[07:36:51 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[07:37:40 PM] Andrea Rodriguez: Hola mi nombre es Amanda y le estaré apoyando el dia de hoy\n[07:37:40 PM] Andrea Rodriguez: Hola mi nombre es Amanda y le estaré apoyando el dia de hoy\n[07:39:47 PM] Andrea Rodriguez: Para activar la ubicación en tu dispositivo:\n\nEn iPhone / iPad:\nAjustes → Privacidad → Servicios de Ubicación → Activar → Busca tu navegador (Safari, Chrome, etc.) → Selecciona \"Mientras se usa la app\"\n\nEn Android:\nAjustes → Ubicación → Activar → Busca tu navegador → Selecciona \"Permitir solo mientras se usa la app\"\n\nEn computadora (Chrome):\nHaz clic en el ícono del candado 🔒 junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activado, actualiza la página e inténtalo de nuevo.\n[07:39:47 PM] Andrea Rodriguez: Para activar la ubicación en tu dispositivo:\n\nEn iPhone / iPad:\nAjustes → Privacidad → Servicios de Ubicación → Activar → Busca tu navegador (Safari, Chrome, etc.) → Selecciona \"Mientras se usa la app\"\n\nEn Android:\nAjustes → Ubicación → Activar → Busca tu navegador → Selecciona \"Permitir solo mientras se usa la app\"\n\nEn computadora (Chrome):\nHaz clic en el ícono del candado 🔒 junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activado, actualiza la página e inténtalo de nuevo.\n[07:41:33 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[07:41:33 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[07:44:58 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[07:44:58 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T19:49:46.848Z"
+        },
+        {
+          "chat_id": "2047766276071010304",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T19:58:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though there's a name mismatch (Andrea/Amanda)."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the basic request but didn't ask clarifying questions about customer's specific situation or balance."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear step-by-step redemption instructions with all key requirements and limitations covered."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured response with enthusiasm and organized bullet points, though customer didn't confirm understanding."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Properly stated all redemption requirements and limitations without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, no offer for further assistance, and no confirmation that customer's question was answered."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent provided accurate and comprehensive redemption instructions with proper policy details but failed to close the conversation or verify the customer's understanding. The interaction appears incomplete as there was no follow-up or proper closing.",
+          "coaching_tip": "Always close the conversation by asking if the customer has any questions and offering further assistance before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[07:55:00 PM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: How to redeem my winnings?\n[07:55:00 PM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: How to redeem my winnings?\n[07:55:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[07:55:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[07:56:04 PM] Andrea Rodriguez: Congrats on your winnings — how exciting! 🎉 I'd be happy to walk you through the redemption process. It's quick and easy!\n\nHere's how to submit your redemption:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nA couple of important things to keep in mind:\n\nYou'll need at least 100 Sweepstakes Coins (SC) to redeem\n\nThose SC must have been played through at least 1x before they're eligible\n\nMaximum redemption is $1,000 per day\n\nWe only allow one pending redemption at a time\n[07:56:04 PM] Andrea Rodriguez: Congrats on your winnings — how exciting! 🎉 I'd be happy to walk you through the redemption process. It's quick and easy!\n\nHere's how to submit your redemption:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nA couple of important things to keep in mind:\n\nYou'll need at least 100 Sweepstakes Coins (SC) to redeem\n\nThose SC must have been played through at least 1x before they're eligible\n\nMaximum redemption is $1,000 per day\n\nWe only allow one pending redemption at a time",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T20:00:03.602Z"
         }
       ],
       "avg_score": 64,
       "grade": "D",
-      "trend": -2
+      "trend": 4
     },
     {
       "id": "5551",
@@ -11526,6 +11571,51 @@
           "raw_transcript": "[07:14:26 PM] t9600468978: Full Name: t9600468978 Email Address: kerrone843@gmail.com Subject / How can we help you?: Having trouble verifying identification\n[07:14:26 PM] t9600468978: Full Name: t9600468978 Email Address: kerrone843@gmail.com Subject / How can we help you?: Having trouble verifying identification\n[07:15:15 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:15:15 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:16:58 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:16:58 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:17:18 PM] t9600468978: Okay\n[07:17:18 PM] t9600468978: Okay\n[07:18:51 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:18:51 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:19:16 PM] t9600468978: Okay\n[07:19:16 PM] t9600468978: Okay\n[07:20:42 PM] Angie Pereira: What is the error showing on your end for the verification?\n[07:20:42 PM] Angie Pereira: What is the error showing on your end for the verification?\n[07:22:29 PM] Angie Pereira: Still there?Let me know if anything else comes up — always happy to help!\n[07:22:29 PM] Angie Pereira: Still there?Let me know if anything else comes up — always happy to help!\n[07:22:44 PM] t9600468978: It won’t let me verify\n[07:22:44 PM] t9600468978: It won’t let me verify\n[07:23:05 PM] Angie Pereira: I can see you sent docs before\n[07:23:05 PM] Angie Pereira: I can see you sent docs before\n[07:23:11 PM] Angie Pereira: What is the error now?\n[07:23:11 PM] Angie Pereira: What is the error now?\n[07:23:50 PM] t9600468978: It’s not letting me get past the redeem Option because of verification\n[07:23:50 PM] t9600468978: It’s not letting me get past the redeem Option because of verification\n[07:24:09 PM] t9600468978: IMG_0264.jpg\n[07:24:09 PM] t9600468978: IMG_0263.png\n[07:24:09 PM] t9600468978: IMG_0264.jpg\n[07:24:09 PM] t9600468978: IMG_0263.png\n[07:25:33 PM] Angie Pereira: Yes it won't allow that because you need to be KCY verified to be able to redeem, use rewards\n[07:25:33 PM] Angie Pereira: Yes it won't allow that because you need to be KCY verified to be able to redeem, use rewards\n[07:26:14 PM] t9600468978: IMG_0263.png\n[07:26:14 PM] t9600468978: IMG_0263.png\n[07:26:45 PM] t9600468978: This is what happens when I try to verify it\n[07:26:45 PM] t9600468978: This is what happens when I try to verify it\n[07:27:00 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again\n[07:27:00 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\n\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\n\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\n\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com and log in again\n[07:28:08 PM] t9600468978: I’m using my iPhone\n[07:28:08 PM] t9600468978: I’m using my iPhone",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T19:29:46.958Z"
+        },
+        {
+          "chat_id": "2047762234716499968",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-24T19:58:27.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent initially misunderstood the issue, focusing on redemption timing rather than the customer's inability to see transaction records in their account interface."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent eventually identified the correct location (transaction history tab) but took too long to understand the core issue and provided confusing interim responses about processing times."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Communication was professional but repetitive and sometimes missed the customer's actual concern, leading to frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected; provided standard processing information appropriately."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from the agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent provided a professional greeting and eventually directed the customer to the transaction history tab, but struggled to understand the core issue initially. The agent repeatedly explained processing times when the customer was simply asking where to view their transaction records in the interface.",
+          "coaching_tip": "Listen more carefully to distinguish between questions about transaction status/timing versus questions about navigating the account interface to view records.",
+          "website": "Jackpot Daily",
+          "message_count": 42,
+          "raw_transcript": "[07:38:57 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: Where can i see the status of my redemption?\n[07:38:57 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: Where can i see the status of my redemption?\n[07:39:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:39:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:39:54 PM] t0408502473: Hello\n[07:39:54 PM] t0408502473: Hello\n[07:40:44 PM] Angie Pereira: To check where your redemption is at:\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\n\nYou'll see all your successful, pending, and cancelled requests right there!\n[07:40:44 PM] Angie Pereira: To check where your redemption is at:\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\n\nYou'll see all your successful, pending, and cancelled requests right there!\n[07:43:04 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:43:04 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:44:39 PM] t0408502473: I dont see any of my redemptions there\n[07:44:39 PM] t0408502473: I dont see any of my redemptions there\n[07:45:34 PM] t0408502473: And purchases either\n[07:45:34 PM] t0408502473: And purchases either\n[07:45:51 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:45:51 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:46:54 PM] Angie Pereira: Redemptions go through ACH Bank Transfer: up to 10 business days total\n\nA couple of quick things to keep in mind:\n\n-Redemptions aren’t processed on weekends\n-Only one redemption can be pending at a time\n[07:46:54 PM] Angie Pereira: Redemptions go through ACH Bank Transfer: up to 10 business days total\n\nA couple of quick things to keep in mind:\n\n-Redemptions aren’t processed on weekends\n-Only one redemption can be pending at a time\n[07:47:08 PM] Angie Pereira: In your case has been 1 business day at this moment\n[07:47:08 PM] Angie Pereira: In your case has been 1 business day at this moment\n[07:47:15 PM] t0408502473: But i dont see any purchase i made or redemption\n[07:47:15 PM] t0408502473: But i dont see any purchase i made or redemption\n[07:47:25 PM] t0408502473: On my account\n[07:47:25 PM] t0408502473: On my account\n[07:47:43 PM] Angie Pereira: Please allow the process the estimated time for it to be reflected on your account.\n[07:47:43 PM] Angie Pereira: Please allow the process the estimated time for it to be reflected on your account.\n[07:48:07 PM] t0408502473: In my jackpot daily account i cant find any records\n[07:48:07 PM] t0408502473: In my jackpot daily account i cant find any records\n[07:49:06 PM] Angie Pereira: It was submitted on 04-23-2026, In your case has been 1 business day at this moment, please allow the system to make the neccessary updates and estimated time to pass to be reflected on your account\n[07:49:06 PM] Angie Pereira: It was submitted on 04-23-2026, In your case has been 1 business day at this moment, please allow the system to make the neccessary updates and estimated time to pass to be reflected on your account\n[07:51:09 PM] t0408502473: I want to check all purchases i made and redemptions i made in my jackpotdaily account but there is no record of any of that\n[07:51:09 PM] t0408502473: I want to check all purchases i made and redemptions i made in my jackpotdaily account but there is no record of any of that\n[07:51:45 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:51:45 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:54:16 PM] Angie Pereira: That will be on transaction history tab\n[07:54:16 PM] Angie Pereira: That will be on transaction history tab\n[07:55:32 PM] Angie Pereira: Log in at www.jackpotdaily.com.\nTap the three-line menu (top-left corner).\nSelect 'Profile' from the list.\nClick on the 'Activity' tab.\nFrom there, you can filter by 'Purchases' to see every Gold Coin package you've picked up, along with the date and the amount.\n[07:55:32 PM] Angie Pereira: Log in at www.jackpotdaily.com.\nTap the three-line menu (top-left corner).\nSelect 'Profile' from the list.\nClick on the 'Activity' tab.\nFrom there, you can filter by 'Purchases' to see every Gold Coin package you've picked up, along with the date and the amount.\n[07:55:46 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:55:46 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:58:24 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:58:24 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T19:59:55.636Z"
         }
       ],
       "avg_score": 58,
@@ -25449,11 +25539,56 @@
           "raw_transcript": "[07:24:21 PM] Customer: Full Name: t2097730223 Email Address: glorbozorb@gmail.com Subject / How can we help you?: Redemption say succesful but haven’t recieved\n[07:24:21 PM] Customer: Full Name: t2097730223 Email Address: glorbozorb@gmail.com Subject / How can we help you?: Redemption say succesful but haven’t recieved\n[07:24:42 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:24:42 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:28:31 PM] Evelyn Portillo: From our record appear it has been already pay, from our side everything looks good so probably you need to check with your bank just to make sure is not held funds\n[07:28:31 PM] Evelyn Portillo: From our record appear it has been already pay, from our side everything looks good so probably you need to check with your bank just to make sure is not held funds\n[07:28:42 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:28:42 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:29:52 PM] Customer: I haven’t received a payment\n[07:29:52 PM] Customer: I haven’t received a payment\n[07:30:42 PM] Customer: Can you tell me the account number I sent?\n[07:30:42 PM] Customer: Can you tell me the account number I sent?\n[07:30:53 PM] Customer: I know it’s correct but just to make sure\n[07:30:53 PM] Customer: I know it’s correct but just to make sure\n[07:32:22 PM] Evelyn Portillo: Do you mean the transaction id or user id ?\n[07:32:22 PM] Evelyn Portillo: Do you mean the transaction id or user id ?\n[07:33:37 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:33:37 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:35:01 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[07:35:01 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T19:39:43.416Z"
+        },
+        {
+          "chat_id": "2047765335054315520",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T19:57:19.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent looked into the account but initially misunderstood the issue as being about redemption timing rather than not receiving the W9 form itself."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent eventually understood the W9 wasn't received and advised waiting for ticket response, which is appropriate but could have offered to escalate or verify email address."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Multiple spelling and grammar errors ('proccess', 'bussiness', 'responsed'), and explanation was somewhat confusing with mixed information about timing and W9."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Correctly referenced federal law requirements for W9 and did not make unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing whatsoever, conversation ended abruptly with no offer of further assistance or goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent handled a W9 inquiry but initially misunderstood the customer's issue as being about payment timing rather than not receiving the form. Communication was hindered by multiple spelling/grammar errors and lack of proper greeting or closing.",
+          "coaching_tip": "Always start with a proper greeting using the customer's name, and verify you understand the specific issue before providing information - in this case, confirm the email address on file to troubleshoot why the W9 wasn't received.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[07:51:16 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I still have not received my W9\n[07:51:16 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I still have not received my W9\n[07:52:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:52:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:53:49 PM] Evelyn Portillo: you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.Via ACH can take 10 bussiness days and its only been 5 Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[07:53:49 PM] Evelyn Portillo: you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.Via ACH can take 10 bussiness days and its only been 5 Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[07:54:49 PM] t6955935479: I know! I haven’t received the W9\n[07:54:49 PM] t6955935479: I know! I haven’t received the W9\n[07:56:38 PM] Evelyn Portillo: In this case we have to wait because we already have a ticket on your side so you just need to be patient until you receive the email responsed for the W9\n[07:56:38 PM] Evelyn Portillo: In this case we have to wait because we already have a ticket on your side so you just need to be patient until you receive the email responsed for the W9",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T19:59:46.857Z"
         }
       ],
-      "avg_score": 47,
+      "avg_score": 48,
       "grade": "F",
-      "trend": -19
+      "trend": -29
     },
     {
       "id": "5839",
@@ -51718,6 +51853,141 @@
       "raw_transcript": "[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T19:54:45.838Z"
+    },
+    {
+      "chat_id": "2047765335054315520",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T19:57:19.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent looked into the account but initially misunderstood the issue as being about redemption timing rather than not receiving the W9 form itself."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent eventually understood the W9 wasn't received and advised waiting for ticket response, which is appropriate but could have offered to escalate or verify email address."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Multiple spelling and grammar errors ('proccess', 'bussiness', 'responsed'), and explanation was somewhat confusing with mixed information about timing and W9."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Correctly referenced federal law requirements for W9 and did not make unauthorized promises."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing whatsoever, conversation ended abruptly with no offer of further assistance or goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 52,
+      "grade": "F",
+      "summary": "Agent handled a W9 inquiry but initially misunderstood the customer's issue as being about payment timing rather than not receiving the form. Communication was hindered by multiple spelling/grammar errors and lack of proper greeting or closing.",
+      "coaching_tip": "Always start with a proper greeting using the customer's name, and verify you understand the specific issue before providing information - in this case, confirm the email address on file to troubleshoot why the W9 wasn't received.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[07:51:16 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I still have not received my W9\n[07:51:16 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I still have not received my W9\n[07:52:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:52:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:53:49 PM] Evelyn Portillo: you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.Via ACH can take 10 bussiness days and its only been 5 Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[07:53:49 PM] Evelyn Portillo: you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.Via ACH can take 10 bussiness days and its only been 5 Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[07:54:49 PM] t6955935479: I know! I haven’t received the W9\n[07:54:49 PM] t6955935479: I know! I haven’t received the W9\n[07:56:38 PM] Evelyn Portillo: In this case we have to wait because we already have a ticket on your side so you just need to be patient until you receive the email responsed for the W9\n[07:56:38 PM] Evelyn Portillo: In this case we have to wait because we already have a ticket on your side so you just need to be patient until you receive the email responsed for the W9",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T19:59:46.857Z"
+    },
+    {
+      "chat_id": "2047762234716499968",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-24T19:58:27.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent initially misunderstood the issue, focusing on redemption timing rather than the customer's inability to see transaction records in their account interface."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent eventually identified the correct location (transaction history tab) but took too long to understand the core issue and provided confusing interim responses about processing times."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Communication was professional but repetitive and sometimes missed the customer's actual concern, leading to frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected; provided standard processing information appropriately."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with no visible closing from the agent."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 52,
+      "grade": "F",
+      "summary": "Agent provided a professional greeting and eventually directed the customer to the transaction history tab, but struggled to understand the core issue initially. The agent repeatedly explained processing times when the customer was simply asking where to view their transaction records in the interface.",
+      "coaching_tip": "Listen more carefully to distinguish between questions about transaction status/timing versus questions about navigating the account interface to view records.",
+      "website": "Jackpot Daily",
+      "message_count": 42,
+      "raw_transcript": "[07:38:57 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: Where can i see the status of my redemption?\n[07:38:57 PM] t0408502473: Full Name: t0408502473 Email Address: yecegonza172@gmail.com Subject / How can we help you?: Where can i see the status of my redemption?\n[07:39:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:39:27 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:39:54 PM] t0408502473: Hello\n[07:39:54 PM] t0408502473: Hello\n[07:40:44 PM] Angie Pereira: To check where your redemption is at:\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\n\nYou'll see all your successful, pending, and cancelled requests right there!\n[07:40:44 PM] Angie Pereira: To check where your redemption is at:\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\n\nYou'll see all your successful, pending, and cancelled requests right there!\n[07:43:04 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:43:04 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:44:39 PM] t0408502473: I dont see any of my redemptions there\n[07:44:39 PM] t0408502473: I dont see any of my redemptions there\n[07:45:34 PM] t0408502473: And purchases either\n[07:45:34 PM] t0408502473: And purchases either\n[07:45:51 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:45:51 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:46:54 PM] Angie Pereira: Redemptions go through ACH Bank Transfer: up to 10 business days total\n\nA couple of quick things to keep in mind:\n\n-Redemptions aren’t processed on weekends\n-Only one redemption can be pending at a time\n[07:46:54 PM] Angie Pereira: Redemptions go through ACH Bank Transfer: up to 10 business days total\n\nA couple of quick things to keep in mind:\n\n-Redemptions aren’t processed on weekends\n-Only one redemption can be pending at a time\n[07:47:08 PM] Angie Pereira: In your case has been 1 business day at this moment\n[07:47:08 PM] Angie Pereira: In your case has been 1 business day at this moment\n[07:47:15 PM] t0408502473: But i dont see any purchase i made or redemption\n[07:47:15 PM] t0408502473: But i dont see any purchase i made or redemption\n[07:47:25 PM] t0408502473: On my account\n[07:47:25 PM] t0408502473: On my account\n[07:47:43 PM] Angie Pereira: Please allow the process the estimated time for it to be reflected on your account.\n[07:47:43 PM] Angie Pereira: Please allow the process the estimated time for it to be reflected on your account.\n[07:48:07 PM] t0408502473: In my jackpot daily account i cant find any records\n[07:48:07 PM] t0408502473: In my jackpot daily account i cant find any records\n[07:49:06 PM] Angie Pereira: It was submitted on 04-23-2026, In your case has been 1 business day at this moment, please allow the system to make the neccessary updates and estimated time to pass to be reflected on your account\n[07:49:06 PM] Angie Pereira: It was submitted on 04-23-2026, In your case has been 1 business day at this moment, please allow the system to make the neccessary updates and estimated time to pass to be reflected on your account\n[07:51:09 PM] t0408502473: I want to check all purchases i made and redemptions i made in my jackpotdaily account but there is no record of any of that\n[07:51:09 PM] t0408502473: I want to check all purchases i made and redemptions i made in my jackpotdaily account but there is no record of any of that\n[07:51:45 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:51:45 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:54:16 PM] Angie Pereira: That will be on transaction history tab\n[07:54:16 PM] Angie Pereira: That will be on transaction history tab\n[07:55:32 PM] Angie Pereira: Log in at www.jackpotdaily.com.\nTap the three-line menu (top-left corner).\nSelect 'Profile' from the list.\nClick on the 'Activity' tab.\nFrom there, you can filter by 'Purchases' to see every Gold Coin package you've picked up, along with the date and the amount.\n[07:55:32 PM] Angie Pereira: Log in at www.jackpotdaily.com.\nTap the three-line menu (top-left corner).\nSelect 'Profile' from the list.\nClick on the 'Activity' tab.\nFrom there, you can filter by 'Purchases' to see every Gold Coin package you've picked up, along with the date and the amount.\n[07:55:46 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:55:46 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:58:24 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:58:24 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T19:59:55.636Z"
+    },
+    {
+      "chat_id": "2047766276071010304",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-24T19:58:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though there's a name mismatch (Andrea/Amanda)."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the basic request but didn't ask clarifying questions about customer's specific situation or balance."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear step-by-step redemption instructions with all key requirements and limitations covered."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured response with enthusiasm and organized bullet points, though customer didn't confirm understanding."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Properly stated all redemption requirements and limitations without making unauthorized promises."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, no offer for further assistance, and no confirmation that customer's question was answered."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent provided accurate and comprehensive redemption instructions with proper policy details but failed to close the conversation or verify the customer's understanding. The interaction appears incomplete as there was no follow-up or proper closing.",
+      "coaching_tip": "Always close the conversation by asking if the customer has any questions and offering further assistance before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[07:55:00 PM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: How to redeem my winnings?\n[07:55:00 PM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: How to redeem my winnings?\n[07:55:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[07:55:30 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[07:56:04 PM] Andrea Rodriguez: Congrats on your winnings — how exciting! 🎉 I'd be happy to walk you through the redemption process. It's quick and easy!\n\nHere's how to submit your redemption:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nA couple of important things to keep in mind:\n\nYou'll need at least 100 Sweepstakes Coins (SC) to redeem\n\nThose SC must have been played through at least 1x before they're eligible\n\nMaximum redemption is $1,000 per day\n\nWe only allow one pending redemption at a time\n[07:56:04 PM] Andrea Rodriguez: Congrats on your winnings — how exciting! 🎉 I'd be happy to walk you through the redemption process. It's quick and easy!\n\nHere's how to submit your redemption:\n\nHead to www.jackpotdaily.com and log in\n\nClick the menu at the top left\n\nSelect \"Redeem\"\n\nEnter and confirm your amount\n\nA couple of important things to keep in mind:\n\nYou'll need at least 100 Sweepstakes Coins (SC) to redeem\n\nThose SC must have been played through at least 1x before they're eligible\n\nMaximum redemption is $1,000 per day\n\nWe only allow one pending redemption at a time",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T20:00:03.602Z"
     }
   ]
 }
