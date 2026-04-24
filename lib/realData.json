@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T11:04:40.514Z",
-  "total_chats": 474,
+  "scored_at": "2026-04-24T11:09:45.159Z",
+  "total_chats": 475,
   "total_agents": 25,
   "agents": [
     {
@@ -20976,11 +20976,56 @@
           "raw_transcript": "[10:43:48 AM] t5221327897: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: They told me 6 hours ago they would have my identity verification done in 2 hours and started it at noon and still ain't done and I have gave them everything they need\n[10:43:48 AM] t5221327897: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: They told me 6 hours ago they would have my identity verification done in 2 hours and started it at noon and still ain't done and I have gave them everything they need\n[10:44:06 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:44:06 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:45:19 AM] Guillermo Mendoza: Hi so you contact about verification. Correct?\n[10:45:19 AM] Guillermo Mendoza: Hi so you contact about verification. Correct?\n[10:46:01 AM] Guillermo Mendoza: let me help you out and load your account to verify statu\n[10:46:01 AM] Guillermo Mendoza: let me help you out and load your account to verify statu\n[10:46:14 AM] t5221327897: Yes I've been waiting since noon yesterday and at midnight they said they would have it done in 2 hours now it's 6am\n[10:46:14 AM] t5221327897: Yes I've been waiting since noon yesterday and at midnight they said they would have it done in 2 hours now it's 6am\n[10:47:00 AM] Guillermo Mendoza: help me providing your phone and email please\n[10:47:00 AM] Guillermo Mendoza: help me providing your phone and email please\n[10:47:23 AM] t5221327897: 5392227683 billymuncy5@gmail.com\n[10:47:23 AM] t5221327897: 5392227683 billymuncy5@gmail.com\n[10:47:48 AM] Guillermo Mendoza: thank you so much bear with me while ill check\n[10:47:48 AM] Guillermo Mendoza: thank you so much bear with me while ill check\n[10:48:52 AM] Guillermo Mendoza: Phone Unverified: Phone number not yet verified on acct. Player advised to log in — pop-up will prompt phone number entry and OTP verification to unlock welcome offer\n[10:48:52 AM] Guillermo Mendoza: Phone Unverified: Phone number not yet verified on acct. Player advised to log in — pop-up will prompt phone number entry and OTP verification to unlock welcome offer\n[10:49:27 AM] Guillermo Mendoza: did you complte signup proces or can you do it now\n[10:49:27 AM] Guillermo Mendoza: did you complte signup proces or can you do it now\n[10:49:32 AM] t5221327897: It said it was verified yesterday but ok I will try again\n[10:49:32 AM] t5221327897: It said it was verified yesterday but ok I will try again\n[10:49:45 AM] Guillermo Mendoza: ill be here\n[10:49:45 AM] Guillermo Mendoza: ill be here",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T10:54:48.686Z"
+        },
+        {
+          "chat_id": "2047629500908089344",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T11:06:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and warm greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask clarifying questions about what the customer's actual problem was with phone verification being shown as verified."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided generic verification instructions without clearly understanding if the customer's issue was that phone was already verified or needed verification, potentially mismatched response."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Some messages were unclear or contained typos ('w shows verified'), and the phone number disclosure without context was confusing."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No major violations, though disclosing phone number in chat should be done more carefully with context."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Provided timeout warning but no formal closing or confirmation that issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided a professional greeting and verification instructions, but failed to clarify what the customer's actual issue was with their phone number verification status. The response appeared to be a generic verification guide rather than addressing the specific concern stated.",
+          "coaching_tip": "Always ask clarifying questions first to understand the customer's exact issue before providing solutions—in this case, determine whether the customer is having a problem because their phone IS verified or ISN'T verified.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T11:09:44.657Z"
         }
       ],
       "avg_score": 50,
       "grade": "F",
-      "trend": -3
+      "trend": -6
     },
     {
       "id": "5838",
@@ -42889,6 +42934,51 @@
       "raw_transcript": "[10:55:12 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: My bday was Tuesday I didn’t get a bday gift\n[10:55:12 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: My bday was Tuesday I didn’t get a bday gift\n[10:55:31 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:55:31 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:55:38 AM] t2673526652: Ok\n[10:55:38 AM] t2673526652: Ok\n[10:55:55 AM] t2673526652: 4-21 was my bday\n[10:55:55 AM] t2673526652: 4-21 was my bday\n[10:56:41 AM] t2673526652: Hope something gets credited 😩\n[10:56:41 AM] t2673526652: Hope something gets credited 😩\n[11:00:37 AM] Daniel Padilla: We’ve checked your account and everything looks good on our end. However, I understand that your birthday bonus has not been applied yet.\n\nBecause of this, I will escalate your case to our team so they can manually review and apply the birthday bonus for you. You can expect an update within the next 24 hours.\n\nWe truly appreciate your patience and understanding, and we’re here if you have any other questions in the meantime.\n[11:00:37 AM] Daniel Padilla: We’ve checked your account and everything looks good on our end. However, I understand that your birthday bonus has not been applied yet.\n\nBecause of this, I will escalate your case to our team so they can manually review and apply the birthday bonus for you. You can expect an update within the next 24 hours.\n\nWe truly appreciate your patience and understanding, and we’re here if you have any other questions in the meantime.\n[11:01:42 AM] t2673526652: Will I get a email?\n[11:01:42 AM] t2673526652: Will I get a email?\n[11:01:58 AM] Daniel Padilla: Yes! a confirmation via email\n[11:01:58 AM] Daniel Padilla: Yes! a confirmation via email\n[11:02:09 AM] Daniel Padilla: Anything else i can do for you?\n[11:02:09 AM] Daniel Padilla: Anything else i can do for you?\n[11:02:20 AM] t2673526652: Sounds good\n[11:02:20 AM] t2673526652: Sounds good\n[11:02:35 AM] t2673526652: That’s it\n[11:02:35 AM] t2673526652: That’s it\n[11:02:41 AM] t2673526652: Ty\n[11:02:41 AM] t2673526652: Ty\n[11:02:42 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day\n[11:02:42 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T11:04:40.012Z"
+    },
+    {
+      "chat_id": "2047629500908089344",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T11:06:17.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and warm greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask clarifying questions about what the customer's actual problem was with phone verification being shown as verified."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent provided generic verification instructions without clearly understanding if the customer's issue was that phone was already verified or needed verification, potentially mismatched response."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Some messages were unclear or contained typos ('w shows verified'), and the phone number disclosure without context was confusing."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No major violations, though disclosing phone number in chat should be done more carefully with context."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Provided timeout warning but no formal closing or confirmation that issue was resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent provided a professional greeting and verification instructions, but failed to clarify what the customer's actual issue was with their phone number verification status. The response appeared to be a generic verification guide rather than addressing the specific concern stated.",
+      "coaching_tip": "Always ask clarifying questions first to understand the customer's exact issue before providing solutions—in this case, determine whether the customer is having a problem because their phone IS verified or ISN'T verified.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:51:30 AM] Customer: Full Name: t5221327897 Email Address: billymuncy5@gmail.com Subject / How can we help you?: It says my phone number is verified\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:56:59 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:23 AM] Guillermo Mendoza: let me check now\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:45 AM] Guillermo Mendoza: 5392227683\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:57:54 AM] Guillermo Mendoza: thats the one\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:10 AM] Guillermo Mendoza: w shows verified check inbox on email to verify that\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[10:59:26 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes\n[11:02:06 AM] Guillermo Mendoza: if no more questions chat will close in 3 minutes",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T11:09:44.657Z"
     }
   ]
 }
