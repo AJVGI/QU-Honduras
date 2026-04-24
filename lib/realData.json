@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T02:29:40.289Z",
-  "total_chats": 379,
+  "scored_at": "2026-04-24T02:39:43.147Z",
+  "total_chats": 380,
   "total_agents": 25,
   "agents": [
     {
@@ -8277,11 +8277,56 @@
           "raw_transcript": "[02:09:35 AM] t1478622588: Full Name: t1478622588 Email Address: johnbarrones@gmail.com Subject / How can we help you?: Hi im trying to do the first purchase but only the 2nd one is coming out I haven't purchased the first one, or smashed the egg after my KFC. Can you help me pls\n[02:09:35 AM] t1478622588: Full Name: t1478622588 Email Address: johnbarrones@gmail.com Subject / How can we help you?: Hi im trying to do the first purchase but only the 2nd one is coming out I haven't purchased the first one, or smashed the egg after my KFC. Can you help me pls\n[02:09:46 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:09:46 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:12:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[02:12:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[02:17:15 AM] Oskar Abaunza: “I am still reviewing your account, please kindly wait.\n[02:17:15 AM] Oskar Abaunza: “I am still reviewing your account, please kindly wait.\n[02:17:22 AM] t1478622588: Ok\n[02:17:22 AM] t1478622588: Ok\n[02:20:06 AM] Oskar Abaunza: “Due to the fact that your verification was completed recently and there is a significant time gap between your registration and verification, the Golden Egg has expired. Regarding your purchase, please allow up to 24 hours for it to be reflected in your account.”\n[02:20:06 AM] Oskar Abaunza: “Due to the fact that your verification was completed recently and there is a significant time gap between your registration and verification, the Golden Egg has expired. Regarding your purchase, please allow up to 24 hours for it to be reflected in your account.”\n[02:21:09 AM] t1478622588: Isn't the egg like the whole bonus of signing up thanks\n[02:21:09 AM] t1478622588: Isn't the egg like the whole bonus of signing up thanks\n[02:21:13 AM] t1478622588: But no thans\n[02:21:13 AM] t1478622588: But no thans\n[02:22:30 AM] Oskar Abaunza: “Yes, I understand. However, completing your verification as soon as possible is a requirement in order to be eligible for the Golden Egg.”\n[02:22:30 AM] Oskar Abaunza: “Yes, I understand. However, completing your verification as soon as possible is a requirement in order to be eligible for the Golden Egg.”",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T02:24:45.255Z"
+        },
+        {
+          "chat_id": "2047504767189299200",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-24T02:38:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting was provided; agent went directly to investigating without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent acknowledged the issue but asked no clarifying questions about signup bonus expectations or account status."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "Chat ended before any resolution, information, or follow-up was provided by the agent."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent was polite and set expectations for wait time but provided no substantive communication."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the brief interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing occurred as the transcript ends without resolution or farewell."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 33,
+          "grade": "F",
+          "summary": "The transcript is incomplete and ends immediately after the agent requests time to investigate. No resolution, substantive help, or proper closing was provided, making this impossible to fully evaluate.",
+          "coaching_tip": "Always provide a proper greeting before diving into investigation, and ensure follow-up occurs after requesting time to research an issue.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[02:35:51 AM] t1997056587: Full Name: t1997056587 Email Address: pamurray68@gmail.com Subject / How can we help you?: So u get no SC coins for signing up\n[02:35:51 AM] t1997056587: Full Name: t1997056587 Email Address: pamurray68@gmail.com Subject / How can we help you?: So u get no SC coins for signing up\n[02:36:03 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:36:03 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:36:13 AM] t1997056587: Sure np\n[02:36:13 AM] t1997056587: Sure np",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T02:39:42.646Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 8
+      "trend": 5
     },
     {
       "id": "5669",
@@ -34339,6 +34384,51 @@
       "raw_transcript": "[02:21:21 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: What is the problem with me getting another upload link??????\n[02:21:21 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: What is the problem with me getting another upload link??????\n[02:21:36 AM] Cairo Osorto: Thanks for contacting.\n[02:21:36 AM] Cairo Osorto: Thanks for contacting.\n[02:21:53 AM] Customer: ??  You all keep sending me the same link and giving me the same reply.  Wth\n[02:21:53 AM] Customer: ??  You all keep sending me the same link and giving me the same reply.  Wth\n[02:22:50 AM] Customer: ??\n[02:22:50 AM] Customer: ??\n[02:23:30 AM] Customer: We understand the issue you are having at the moment, we kindly ask you to wait 24-48 hours to get a new verification link, at the moment it would not be possible for us to send you a new verification link\n[02:23:30 AM] Customer: We understand the issue you are having at the moment, we kindly ask you to wait 24-48 hours to get a new verification link, at the moment it would not be possible for us to send you a new verification link\n[02:23:31 AM] Customer: Please stop telling me about a link because I haven’t received nothing to upload my Poa\n[02:23:31 AM] Customer: Please stop telling me about a link because I haven’t received nothing to upload my Poa\n[02:25:32 AM] Customer: We are working on giving you a new verification link, at the moment, if you have any other questions or concerns, we kindly ask you to create a support email at support@jackpotdaily.com. On the meantime, please wait for the verification link on your email, best regards and thanks for chatting with us, have a great night.\n[02:25:32 AM] Customer: We are working on giving you a new verification link, at the moment, if you have any other questions or concerns, we kindly ask you to create a support email at support@jackpotdaily.com. On the meantime, please wait for the verification link on your email, best regards and thanks for chatting with us, have a great night.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T02:29:39.787Z"
+    },
+    {
+      "chat_id": "2047504767189299200",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-24T02:38:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting was provided; agent went directly to investigating without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent acknowledged the issue but asked no clarifying questions about signup bonus expectations or account status."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "Chat ended before any resolution, information, or follow-up was provided by the agent."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Agent was polite and set expectations for wait time but provided no substantive communication."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed in the brief interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing occurred as the transcript ends without resolution or farewell."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 33,
+      "grade": "F",
+      "summary": "The transcript is incomplete and ends immediately after the agent requests time to investigate. No resolution, substantive help, or proper closing was provided, making this impossible to fully evaluate.",
+      "coaching_tip": "Always provide a proper greeting before diving into investigation, and ensure follow-up occurs after requesting time to research an issue.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[02:35:51 AM] t1997056587: Full Name: t1997056587 Email Address: pamurray68@gmail.com Subject / How can we help you?: So u get no SC coins for signing up\n[02:35:51 AM] t1997056587: Full Name: t1997056587 Email Address: pamurray68@gmail.com Subject / How can we help you?: So u get no SC coins for signing up\n[02:36:03 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:36:03 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:36:13 AM] t1997056587: Sure np\n[02:36:13 AM] t1997056587: Sure np",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T02:39:42.646Z"
     }
   ]
 }
