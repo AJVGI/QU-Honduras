@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T14:09:55.744Z",
-  "total_chats": 506,
+  "scored_at": "2026-04-24T14:14:43.076Z",
+  "total_chats": 507,
   "total_agents": 26,
   "agents": [
     {
@@ -22479,11 +22479,56 @@
           "raw_transcript": "[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:29 PM] Customer: Thank you!\n[01:39:29 PM] Customer: Thank you!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T13:59:42.849Z"
+        },
+        {
+          "chat_id": "2047677179927818240",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T14:10:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, personalized greeting using customer's name with friendly tone."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Understood basic verification request but didn't clarify what was needed or confirm completion details."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Claimed to complete verification but provided no confirmation details and left new question about purchases unanswered."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Started well but became unclear with typo 'yesod' and ended abruptly without addressing final question."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No major violations but lacked proper verification confirmation documentation."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Attempted closing but customer had unresolved follow-up question that was ignored, making closure premature."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided friendly service and claimed to resolve the verification issue quickly, but failed to provide confirmation details or explain what was done. The interaction ended prematurely with the customer's final question about purchases left completely unanswered.",
+          "coaching_tip": "Always confirm what action was taken and provide specific details when completing account changes, and never close the chat while a customer question remains unanswered.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:02:19 PM] Customer: Need help verifying my account\n[02:02:19 PM] Customer: Need help verifying my account\n[02:04:05 PM] Customer: It’s been a while\n[02:04:05 PM] Customer: It’s been a while\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:29 PM] Customer: Okay\n[02:04:29 PM] Customer: Okay\n[02:05:57 PM] Evelyn Portillo: done!\n[02:05:57 PM] Evelyn Portillo: done!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:07:36 PM] Customer: Is it done now\n[02:07:36 PM] Customer: Is it done now\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:14:42.574Z"
         }
       ],
-      "avg_score": 47,
+      "avg_score": 48,
       "grade": "F",
-      "trend": -8
+      "trend": 21
     },
     {
       "id": "5839",
@@ -45778,6 +45823,51 @@
       "raw_transcript": "[01:51:09 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[01:51:09 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[01:51:51 PM] t5771772342: Hi it keeps telling me that the system is busy\n[01:51:51 PM] t5771772342: Hi it keeps telling me that the system is busy\n[01:52:47 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[01:52:47 PM] Andrea Rodriguez: Please allow me one moment to look into this for you!\n[01:54:53 PM] Andrea Rodriguez: You need to verify your account.\n[01:54:53 PM] Andrea Rodriguez: You need to verify your account.\n[02:00:14 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:00:14 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[02:05:51 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:05:51 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T14:09:55.243Z"
+    },
+    {
+      "chat_id": "2047677179927818240",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T14:10:01.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, personalized greeting using customer's name with friendly tone."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Understood basic verification request but didn't clarify what was needed or confirm completion details."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Claimed to complete verification but provided no confirmation details and left new question about purchases unanswered."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Started well but became unclear with typo 'yesod' and ended abruptly without addressing final question."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No major violations but lacked proper verification confirmation documentation."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Attempted closing but customer had unresolved follow-up question that was ignored, making closure premature."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent provided friendly service and claimed to resolve the verification issue quickly, but failed to provide confirmation details or explain what was done. The interaction ended prematurely with the customer's final question about purchases left completely unanswered.",
+      "coaching_tip": "Always confirm what action was taken and provide specific details when completing account changes, and never close the chat while a customer question remains unanswered.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:02:19 PM] Customer: Need help verifying my account\n[02:02:19 PM] Customer: Need help verifying my account\n[02:04:05 PM] Customer: It’s been a while\n[02:04:05 PM] Customer: It’s been a while\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:29 PM] Customer: Okay\n[02:04:29 PM] Customer: Okay\n[02:05:57 PM] Evelyn Portillo: done!\n[02:05:57 PM] Evelyn Portillo: done!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:07:36 PM] Customer: Is it done now\n[02:07:36 PM] Customer: Is it done now\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T14:14:42.574Z"
     }
   ]
 }
