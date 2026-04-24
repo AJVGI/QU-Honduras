@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:29:42.505Z",
-  "total_chats": 390,
+  "scored_at": "2026-04-24T03:34:39.962Z",
+  "total_chats": 391,
   "total_agents": 25,
   "agents": [
     {
@@ -7053,11 +7053,56 @@
           "raw_transcript": "[01:47:32 AM] t1436823786: Full Name: t1436823786 Email Address: grovedakota01@gmail.com Subject / How can we help you?: \"I just escalated again for you so you will be able to get in 10 hrs or so from now\" Well it has now been almost 15.. still no egg\n[01:47:32 AM] t1436823786: Full Name: t1436823786 Email Address: grovedakota01@gmail.com Subject / How can we help you?: \"I just escalated again for you so you will be able to get in 10 hrs or so from now\" Well it has now been almost 15.. still no egg\n[01:47:43 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[01:47:43 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[01:48:35 AM] t1436823786: Thans\n[01:48:35 AM] t1436823786: Thans\n[01:48:40 AM] t1436823786: Thanks*\n[01:48:40 AM] t1436823786: Thanks*\n[01:49:06 AM] Jonathan Fuentes: Give me a moment to review this information.\n[01:49:06 AM] Jonathan Fuentes: Give me a moment to review this information.\n[01:49:28 AM] t1436823786: Yup\n[01:49:28 AM] t1436823786: Yup\n[01:50:56 AM] Jonathan Fuentes: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[01:50:56 AM] Jonathan Fuentes: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[01:52:55 AM] Jonathan Fuentes: Are you still there? \n\nI'm sorry but this process take some time to evaluate this.\n[01:52:55 AM] Jonathan Fuentes: Are you still there? \n\nI'm sorry but this process take some time to evaluate this.\n[01:55:27 AM] Jonathan Fuentes: It seems your are disconnected. We will work on review your case from our end and thank you for letting us know. Have a great rest of your night.\n[01:55:27 AM] Jonathan Fuentes: It seems your are disconnected. We will work on review your case from our end and thank you for letting us know. Have a great rest of your night.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T01:59:40.315Z"
+        },
+        {
+          "chat_id": "2047517232682332160",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-24T03:31:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hi!' without using customer name or personalization."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask clarifying questions about which CashApp account was used or verify payment details customer specifically requested."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent confirmed release but failed to provide the specific CashApp account information customer explicitly asked for twice, leaving core question unanswered."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Response was clear but dismissive, redirecting to bank without addressing the specific CashApp account question or acknowledging 16-day delay concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations but missed opportunity to properly verify customer identity before discussing payment details."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, no offer for further assistance, and no follow-up after providing minimal information."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 47,
+          "grade": "F",
+          "summary": "Agent provided a generic response confirming funds were released but completely ignored the customer's specific request to know which CashApp account received the payment. The interaction lacked proper discovery, personalization, and failed to address the customer's actual concern about a 16-day delay.",
+          "coaching_tip": "Always directly answer the customer's specific question first—in this case, provide or offer to verify the CashApp account details—before redirecting them elsewhere.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:34:39.461Z"
         }
       ],
       "avg_score": 58,
       "grade": "F",
-      "trend": 9
+      "trend": 7
     },
     {
       "id": "5669",
@@ -35329,6 +35374,51 @@
       "raw_transcript": "[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:43 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:17:53 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:18:24 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:20:32 AM] Ana Erazo: We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:21:36 AM] Ana Erazo: Are you still there?\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:22:58 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:29:42.003Z"
+    },
+    {
+      "chat_id": "2047517232682332160",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-24T03:31:03.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Hi!' without using customer name or personalization."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask clarifying questions about which CashApp account was used or verify payment details customer specifically requested."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent confirmed release but failed to provide the specific CashApp account information customer explicitly asked for twice, leaving core question unanswered."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Response was clear but dismissive, redirecting to bank without addressing the specific CashApp account question or acknowledging 16-day delay concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No violations but missed opportunity to properly verify customer identity before discussing payment details."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, no offer for further assistance, and no follow-up after providing minimal information."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 47,
+      "grade": "F",
+      "summary": "Agent provided a generic response confirming funds were released but completely ignored the customer's specific request to know which CashApp account received the payment. The interaction lacked proper discovery, personalization, and failed to address the customer's actual concern about a 16-day delay.",
+      "coaching_tip": "Always directly answer the customer's specific question first—in this case, provide or offer to verify the CashApp account details—before redirecting them elsewhere.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:34:39.461Z"
     }
   ]
 }
