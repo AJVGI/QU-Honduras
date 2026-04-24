@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T17:04:47.629Z",
-  "total_chats": 546,
+  "scored_at": "2026-04-24T17:10:01.471Z",
+  "total_chats": 549,
   "total_agents": 26,
   "agents": [
     {
@@ -3102,11 +3102,56 @@
           "raw_transcript": "[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T16:14:44.075Z"
+        },
+        {
+          "chat_id": "2047719944451616768",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T17:04:52.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Warm and empathetic opening with 'I've got you' but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Understood the Facebook login issue and provided relevant troubleshooting steps, though could have asked more clarifying questions about exact error messages."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided appropriate troubleshooting, then properly escalated when chat-level resolution wasn't possible with clear instructions for ticket submission."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and professional throughout with good use of formatting and step-by-step guidance."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and followed proper escalation protocol without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and apologized for incomplete resolution, providing reassurance about follow-up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Andrea handled a Facebook login issue competently by providing standard troubleshooting steps and properly escalating when the issue persisted. Communication was empathetic and professional throughout with appropriate closure.",
+          "coaching_tip": "When the customer asked 'How do I get into the original account,' clarify whether they want to try Facebook login again or switch to email/password method before giving contradictory advice about using email credentials.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:53:19 PM] Customer: How do I get into the original account\n[04:53:19 PM] Customer: How do I get into the original account\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:10:00.969Z"
         }
       ],
-      "avg_score": 62,
+      "avg_score": 63,
       "grade": "D",
-      "trend": 3
+      "trend": 0
     },
     {
       "id": "5554",
@@ -5316,11 +5361,56 @@
           "raw_transcript": "[04:33:27 PM] t4170879288: Full Name: t4170879288 Email Address: mineslou@yahoo.com Subject / How can we help you?: Understanding the promotion\n[04:33:27 PM] t4170879288: Full Name: t4170879288 Email Address: mineslou@yahoo.com Subject / How can we help you?: Understanding the promotion\n[04:33:48 PM] Diana Lopez: Hello!\n[04:33:48 PM] Diana Lopez: Hello!\n[04:34:36 PM] Diana Lopez: Understanding JackpotDaily Promotions\n1. Golden Egg (Welcome Offer)\n\nWhat: Free SC reward up to 100 SC\n\nHow: Register + complete KYC verification → Egg appears on main lobby → Smash it\n\nExpiry: 48 hours after it appears\n\nFree? Yes, no purchase needed\n\n2. Daily Login Reward\n\nWhat: Free SC and GC every day\n\nHow: Log in → Click treasure chest → Complete daily task\n\nRewards: Day 1 = 1 SC + 200 GC … Day 7 = 7 SC + 2,000 GC\n\nFree? Yes, no purchase needed\n\n3. Consecutive Purchase Streak\n\nWhat: Bonus for purchasing every day\n\nHow: Make one purchase per day to keep streak alive\n\nRewards: Day 7 = Lucky Wheel spin up to 7,777 SC\n\nFree? No, requires purchase\n\n4. First, Second & Third Purchase Packs\n\nWhat: Bonus SC and GC on your first three purchases\n\nHow: Offers unlock in order (1st → 2nd → 3rd)\n\nMinimum purchase: $9.99\n\nBonus: Up to 200% extra SC\n\n5. Referral Program\n\nWhat: Earn rewards when friends join and purchase\n\nHow: Friend registers with your link + completes KYC + makes qualifying purchase\n\nRewards: 58 SC + 5,800 GC per referral + lifetime rebate + milestone rewards\n\n6. Second Chance Bonus (Rescue Bonus)\n\nWhat: Get a percentage back on net SC losses\n\nHow: Meet minimum purchase AND net SC loss on same day\n\nBonus: 5% to 30% depending on loss amount\n\n7. Sunday Mystery Reward\n\nWhat: Random SC prize every Sunday\n\nHow: Make any $1+ GC purchase Monday through Saturday\n\nMax reward: Up to 77,777 SC\n\n8. Monthly Grand SC Giveaway\n\nWhat: Chance to win up to 377,777 SC\n\nHow: Make any $1+ GC purchase during the month → automatic entry\n\nWinner: 1 random winner drawn on the 1st of each month\n[04:34:36 PM] Diana Lopez: Understanding JackpotDaily Promotions\n1. Golden Egg (Welcome Offer)\n\nWhat: Free SC reward up to 100 SC\n\nHow: Register + complete KYC verification → Egg appears on main lobby → Smash it\n\nExpiry: 48 hours after it appears\n\nFree? Yes, no purchase needed\n\n2. Daily Login Reward\n\nWhat: Free SC and GC every day\n\nHow: Log in → Click treasure chest → Complete daily task\n\nRewards: Day 1 = 1 SC + 200 GC … Day 7 = 7 SC + 2,000 GC\n\nFree? Yes, no purchase needed\n\n3. Consecutive Purchase Streak\n\nWhat: Bonus for purchasing every day\n\nHow: Make one purchase per day to keep streak alive\n\nRewards: Day 7 = Lucky Wheel spin up to 7,777 SC\n\nFree? No, requires purchase\n\n4. First, Second & Third Purchase Packs\n\nWhat: Bonus SC and GC on your first three purchases\n\nHow: Offers unlock in order (1st → 2nd → 3rd)\n\nMinimum purchase: $9.99\n\nBonus: Up to 200% extra SC\n\n5. Referral Program\n\nWhat: Earn rewards when friends join and purchase\n\nHow: Friend registers with your link + completes KYC + makes qualifying purchase\n\nRewards: 58 SC + 5,800 GC per referral + lifetime rebate + milestone rewards\n\n6. Second Chance Bonus (Rescue Bonus)\n\nWhat: Get a percentage back on net SC losses\n\nHow: Meet minimum purchase AND net SC loss on same day\n\nBonus: 5% to 30% depending on loss amount\n\n7. Sunday Mystery Reward\n\nWhat: Random SC prize every Sunday\n\nHow: Make any $1+ GC purchase Monday through Saturday\n\nMax reward: Up to 77,777 SC\n\n8. Monthly Grand SC Giveaway\n\nWhat: Chance to win up to 377,777 SC\n\nHow: Make any $1+ GC purchase during the month → automatic entry\n\nWinner: 1 random winner drawn on the 1st of each month\n[04:36:58 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[04:36:58 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T16:39:49.156Z"
+        },
+        {
+          "chat_id": "2047722659932106752",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T17:06:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Thanks for reaching out' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the POA upload request but failed to probe the ongoing issue or acknowledge the multi-day frustration."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent requested link initially but then revealed a system issue, leaving customer without clear timeline or alternative solution."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional but failed to acknowledge customer's escalating frustration or provide empathetic responses to legal threat mention."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately disclosed technical issue without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided; conversation ended abruptly after customer's final complaint with no response from agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 50,
+          "grade": "F",
+          "summary": "Agent provided basic assistance but failed to adequately address a frustrated customer dealing with multi-day verification issues. The lack of empathy, proactive solutions, and any closing response left the interaction incomplete and unsatisfactory.",
+          "coaching_tip": "When customers express escalating frustration or mention legal action, acknowledge their feelings directly, apologize for the inconvenience, and provide a specific escalation path or timeline rather than generic reassurances.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:01:41 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[05:01:41 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[05:01:59 PM] Customer: Still nothing\n[05:01:59 PM] Customer: Still nothing\n[05:03:21 PM] Diana Lopez: Thanks for reaching out. I’ve requested a new secure link for you to upload your Proof of Address (POA). Please use the link once you receive it to submit a valid document showing your current residential address.\n[05:03:21 PM] Diana Lopez: Thanks for reaching out. I’ve requested a new secure link for you to upload your Proof of Address (POA). Please use the link once you receive it to submit a valid document showing your current residential address.\n[05:05:30 PM] Customer: I haven’t gotten a email yet. I been waiting since yesterday and when I do get one it’s the one to upload my identification. I want to continue to play you all games but the run around I’m getting I’m about to reach out to my Lawyers. Morgan & Morgan.\n[05:05:30 PM] Customer: I haven’t gotten a email yet. I been waiting since yesterday and when I do get one it’s the one to upload my identification. I want to continue to play you all games but the run around I’m getting I’m about to reach out to my Lawyers. Morgan & Morgan.\n[05:06:15 PM] Diana Lopez: Thanks for your patience. At the moment, the Proof of Address (POA) upload feature is experiencing a temporary issue and may not be working properly.\n\nOur team is already aware of this and actively working to resolve it as quickly as possible.\n\nWe truly appreciate your understanding, and we’ll make sure to update you as soon as it’s fixed so you can complete your verification without any issues.\n[05:06:15 PM] Diana Lopez: Thanks for your patience. At the moment, the Proof of Address (POA) upload feature is experiencing a temporary issue and may not be working properly.\n\nOur team is already aware of this and actively working to resolve it as quickly as possible.\n\nWe truly appreciate your understanding, and we’ll make sure to update you as soon as it’s fixed so you can complete your verification without any issues.\n[05:06:27 PM] Customer: You all keep saying it’s been requested which I haven’t gotten anything. Since Monday I been trying to upload my address and it’s a problem everyday.\n[05:06:27 PM] Customer: You all keep saying it’s been requested which I haven’t gotten anything. Since Monday I been trying to upload my address and it’s a problem everyday.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:09:51.651Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 0
+      "trend": -14
     },
     {
       "id": "5808",
@@ -24279,11 +24369,56 @@
           "raw_transcript": "[02:25:41 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[02:25:41 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[02:26:17 PM] t5771772342: I tried everything in the list and I still can't do anything\n[02:26:17 PM] t5771772342: I tried everything in the list and I still can't do anything\n[02:26:31 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[02:26:31 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[02:28:45 PM] Evelyn Portillo: I can definitely help clear that up for you. It sounds like there might be a small misunderstanding regarding the sign-up bonus amount. According to our current offers, the Welcome Bonus for new users is:\n2 Sweepstakes Coins (SC)\n100,000 Gold Coins (GC) \nThe reason you likely haven't seen these in your account yet is that they are credited automatically only after you complete two specific steps:\nVerify your email address\nVerify your phone number \nOnce those two things are done, the bonus should land right in your account! If you've already done both and still don't see it, just let me know and I'll be happy to investigate further.\nBy the way, did you happen to see anything about a \"Golden Egg\" when you signed up? That’s another new user offer where you can reveal a random reward of up to 100 SC after completing your KYC (identity) verification!\n[02:28:45 PM] Evelyn Portillo: I can definitely help clear that up for you. It sounds like there might be a small misunderstanding regarding the sign-up bonus amount. According to our current offers, the Welcome Bonus for new users is:\n2 Sweepstakes Coins (SC)\n100,000 Gold Coins (GC) \nThe reason you likely haven't seen these in your account yet is that they are credited automatically only after you complete two specific steps:\nVerify your email address\nVerify your phone number \nOnce those two things are done, the bonus should land right in your account! If you've already done both and still don't see it, just let me know and I'll be happy to investigate further.\nBy the way, did you happen to see anything about a \"Golden Egg\" when you signed up? That’s another new user offer where you can reveal a random reward of up to 100 SC after completing your KYC (identity) verification!\n[02:31:39 PM] Evelyn Portillo: I can see the you have the welcome bonua and sign in bonus available but you need to play it .\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\nand \nDaily Login Rewards are totally free — just log in\neach day and collect!\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🎉\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:31:39 PM] Evelyn Portillo: I can see the you have the welcome bonua and sign in bonus available but you need to play it .\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\nand \nDaily Login Rewards are totally free — just log in\neach day and collect!\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🎉\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:31:48 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:31:48 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:34:17 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[02:34:17 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T14:34:43.549Z"
+        },
+        {
+          "chat_id": "2047722998944542720",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T17:08:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without welcoming the customer or using their name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the Facebook login issue but didn't ask clarifying questions about error messages or what exactly happens when customer tries to log in."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided comprehensive troubleshooting steps covering likely causes, but didn't confirm if customer tried them or if issue was resolved before closing."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured with bullet points, though closed chat without waiting for customer confirmation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises; handled account access issue appropriately."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but closed prematurely without confirming resolution or allowing customer to respond to troubleshooting steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent provided solid troubleshooting guidance for a Facebook login issue with clear, empathetic communication. However, the interaction lacked a proper greeting and closed prematurely without confirming whether the customer successfully resolved the issue.",
+          "coaching_tip": "Always wait for customer confirmation that troubleshooting steps worked or failed before closing the chat, especially when the customer has deposited money and cannot access their account.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:09:42.216Z"
         }
       ],
-      "avg_score": 49,
+      "avg_score": 51,
       "grade": "F",
-      "trend": 21
+      "trend": 19
     },
     {
       "id": "5839",
@@ -49378,6 +49513,141 @@
       "raw_transcript": "[04:59:36 PM] Customer: Full Name: Weston Wiltfong Email Address: westonw7@gmail.com Subject / How can we help you?: redemption question\n[04:59:36 PM] Customer: Full Name: Weston Wiltfong Email Address: westonw7@gmail.com Subject / How can we help you?: redemption question\n[05:00:11 PM] Customer: hello, I have 1500 total balance. i have a question about it\n[05:00:11 PM] Customer: hello, I have 1500 total balance. i have a question about it\n[05:00:22 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[05:00:22 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[05:00:24 PM] Customer: can i redeem one transaction of 1500 or is that too much?\n[05:00:24 PM] Customer: can i redeem one transaction of 1500 or is that too much?\n[05:00:51 PM] Customer: i noticed in your terms it says there may be a 1000 sc limit (daily) but it wasnt clear\n[05:00:51 PM] Customer: i noticed in your terms it says there may be a 1000 sc limit (daily) but it wasnt clear\n[05:01:34 PM] Maritza Caceres: You can redeem up to $1,000 per day through the standard request tool. Since yours is $1,500, you can submit your first $1,000 today and the remaining $500 as soon as the first one is processed!\n[05:01:34 PM] Maritza Caceres: You can redeem up to $1,000 per day through the standard request tool. Since yours is $1,500, you can submit your first $1,000 today and the remaining $500 as soon as the first one is processed!\n[05:01:56 PM] Maritza Caceres: Yes, is better that you submit first the $1000 and then the $500\n[05:01:56 PM] Maritza Caceres: Yes, is better that you submit first the $1000 and then the $500\n[05:02:23 PM] Customer: okay thats what ill do. thank you!\n[05:02:23 PM] Customer: okay thats what ill do. thank you!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T17:04:47.127Z"
+    },
+    {
+      "chat_id": "2047722998944542720",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T17:08:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'one moment' without welcoming the customer or using their name."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the Facebook login issue but didn't ask clarifying questions about error messages or what exactly happens when customer tries to log in."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided comprehensive troubleshooting steps covering likely causes, but didn't confirm if customer tried them or if issue was resolved before closing."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and well-structured with bullet points, though closed chat without waiting for customer confirmation."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises; handled account access issue appropriately."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Offered further help but closed prematurely without confirming resolution or allowing customer to respond to troubleshooting steps."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 65,
+      "grade": "D",
+      "summary": "Agent provided solid troubleshooting guidance for a Facebook login issue with clear, empathetic communication. However, the interaction lacked a proper greeting and closed prematurely without confirming whether the customer successfully resolved the issue.",
+      "coaching_tip": "Always wait for customer confirmation that troubleshooting steps worked or failed before closing the chat, especially when the customer has deposited money and cannot access their account.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T17:09:42.216Z"
+    },
+    {
+      "chat_id": "2047722659932106752",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T17:06:57.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Thanks for reaching out' without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the POA upload request but failed to probe the ongoing issue or acknowledge the multi-day frustration."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent requested link initially but then revealed a system issue, leaving customer without clear timeline or alternative solution."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Professional but failed to acknowledge customer's escalating frustration or provide empathetic responses to legal threat mention."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately disclosed technical issue without making unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided; conversation ended abruptly after customer's final complaint with no response from agent."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 50,
+      "grade": "F",
+      "summary": "Agent provided basic assistance but failed to adequately address a frustrated customer dealing with multi-day verification issues. The lack of empathy, proactive solutions, and any closing response left the interaction incomplete and unsatisfactory.",
+      "coaching_tip": "When customers express escalating frustration or mention legal action, acknowledge their feelings directly, apologize for the inconvenience, and provide a specific escalation path or timeline rather than generic reassurances.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[05:01:41 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[05:01:41 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[05:01:59 PM] Customer: Still nothing\n[05:01:59 PM] Customer: Still nothing\n[05:03:21 PM] Diana Lopez: Thanks for reaching out. I’ve requested a new secure link for you to upload your Proof of Address (POA). Please use the link once you receive it to submit a valid document showing your current residential address.\n[05:03:21 PM] Diana Lopez: Thanks for reaching out. I’ve requested a new secure link for you to upload your Proof of Address (POA). Please use the link once you receive it to submit a valid document showing your current residential address.\n[05:05:30 PM] Customer: I haven’t gotten a email yet. I been waiting since yesterday and when I do get one it’s the one to upload my identification. I want to continue to play you all games but the run around I’m getting I’m about to reach out to my Lawyers. Morgan & Morgan.\n[05:05:30 PM] Customer: I haven’t gotten a email yet. I been waiting since yesterday and when I do get one it’s the one to upload my identification. I want to continue to play you all games but the run around I’m getting I’m about to reach out to my Lawyers. Morgan & Morgan.\n[05:06:15 PM] Diana Lopez: Thanks for your patience. At the moment, the Proof of Address (POA) upload feature is experiencing a temporary issue and may not be working properly.\n\nOur team is already aware of this and actively working to resolve it as quickly as possible.\n\nWe truly appreciate your understanding, and we’ll make sure to update you as soon as it’s fixed so you can complete your verification without any issues.\n[05:06:15 PM] Diana Lopez: Thanks for your patience. At the moment, the Proof of Address (POA) upload feature is experiencing a temporary issue and may not be working properly.\n\nOur team is already aware of this and actively working to resolve it as quickly as possible.\n\nWe truly appreciate your understanding, and we’ll make sure to update you as soon as it’s fixed so you can complete your verification without any issues.\n[05:06:27 PM] Customer: You all keep saying it’s been requested which I haven’t gotten anything. Since Monday I been trying to upload my address and it’s a problem everyday.\n[05:06:27 PM] Customer: You all keep saying it’s been requested which I haven’t gotten anything. Since Monday I been trying to upload my address and it’s a problem everyday.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T17:09:51.651Z"
+    },
+    {
+      "chat_id": "2047719944451616768",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-24T17:04:52.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Warm and empathetic opening with 'I've got you' but did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Understood the Facebook login issue and provided relevant troubleshooting steps, though could have asked more clarifying questions about exact error messages."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided appropriate troubleshooting, then properly escalated when chat-level resolution wasn't possible with clear instructions for ticket submission."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and professional throughout with good use of formatting and step-by-step guidance."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations and followed proper escalation protocol without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further help and apologized for incomplete resolution, providing reassurance about follow-up."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 73,
+      "grade": "C",
+      "summary": "Andrea handled a Facebook login issue competently by providing standard troubleshooting steps and properly escalating when the issue persisted. Communication was empathetic and professional throughout with appropriate closure.",
+      "coaching_tip": "When the customer asked 'How do I get into the original account,' clarify whether they want to try Facebook login again or switch to email/password method before giving contradictory advice about using email credentials.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:50:54 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:52:20 PM] Andrea Rodriguez: I’ve got you — that can be frustrating, but we can figure it out :  \n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[04:53:19 PM] Customer: How do I get into the original account\n[04:53:19 PM] Customer: How do I get into the original account\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:55:03 PM] Andrea Rodriguez: Using the email you originally signed up with and enter your password\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:56:11 PM] Customer: I signed in with fb now it keeps taking me to register the account\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[04:59:34 PM] Andrea Rodriguez: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:02:14 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!\n[05:03:38 PM] Andrea Rodriguez: I'm really sorry I couldn't fully resolve this today— our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T17:10:00.969Z"
     }
   ]
 }
