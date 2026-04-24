@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T02:09:42.214Z",
-  "total_chats": 376,
+  "scored_at": "2026-04-24T02:14:43.254Z",
+  "total_chats": 377,
   "total_agents": 25,
   "agents": [
     {
@@ -12417,11 +12417,56 @@
           "raw_transcript": "[01:43:29 AM] Customer: Full Name: John berrones Email Address: johnbarrones@gmail.com Subject / How can we help you?: I didnt get the sign up bonus or smash the egg after getting kyc verified\n[01:43:29 AM] Customer: Full Name: John berrones Email Address: johnbarrones@gmail.com Subject / How can we help you?: I didnt get the sign up bonus or smash the egg after getting kyc verified\n[01:43:40 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:43:40 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:43:59 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[01:43:59 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[01:45:09 AM] Customer: Hi\n[01:45:09 AM] Customer: Hi\n[01:45:37 AM] Customer: I didnt receive the egg smash and or get the sign up bonus after the kyc\n[01:45:37 AM] Customer: I didnt receive the egg smash and or get the sign up bonus after the kyc\n[01:45:41 AM] Ana Erazo: Give me a moment to review this information.\n[01:45:41 AM] Ana Erazo: Give me a moment to review this information.\n[01:51:06 AM] Ana Erazo: We apologize, but your welcome bonus has expired because the required information was submitted after the allowed time. Please note that to claim the bonus, your account must be verified within 24 hours.\n[01:51:06 AM] Ana Erazo: We apologize, but your welcome bonus has expired because the required information was submitted after the allowed time. Please note that to claim the bonus, your account must be verified within 24 hours.\n[01:51:20 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:51:20 AM] Ana Erazo: Is there anything else I can help you with today?\n[01:52:43 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[01:52:43 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T01:54:44.304Z"
+        },
+        {
+          "chat_id": "2047497380596903936",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T02:13:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Agent greeted customer by name in Spanish, appropriate and personalized."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions for more details but customer's initial message was unclear and they never responded."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution achieved as customer never clarified their issue or responded to agent's questions."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear, professional communication in Spanish matching customer's language, though customer never engaged."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, agent followed proper procedures throughout."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with well-wishes for gaming, appropriate given lack of customer engagement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided appropriate service in Spanish but customer submitted unclear initial message ('Boy a ganar' - 'I'm going to win') and never responded to clarifying questions. Agent followed proper protocol but could not resolve an issue that was never articulated.",
+          "coaching_tip": "When customers submit vague or celebratory messages, consider asking if they need assistance or if they were just sharing excitement, as this may have been an accidental contact submission rather than a support request.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[02:06:30 AM] Customer: Full Name: Oscar pena Email Address: oscarp.1306@icloud.com Subject / How can we help you?: Boy a ganar\n[02:06:30 AM] Customer: Full Name: Oscar pena Email Address: oscarp.1306@icloud.com Subject / How can we help you?: Boy a ganar\n[02:09:08 AM] Customer: Please allow me one moment to look into this for you!\n[02:09:08 AM] Customer: Please allow me one moment to look into this for you!\n[02:10:21 AM] Customer: Hola Oscar ,\n¿Podría brindarme un poco más de detalle sobre el inconveniente que está experimentando?\nCualquier información adicional—como mensajes de error, en qué paso se presenta el problema o qué aparece en su pantalla—me ayudará a identificarlo y darle una solución lo más rápido posible\n[02:10:21 AM] Customer: Hola Oscar ,\n¿Podría brindarme un poco más de detalle sobre el inconveniente que está experimentando?\nCualquier información adicional—como mensajes de error, en qué paso se presenta el problema o qué aparece en su pantalla—me ayudará a identificarlo y darle una solución lo más rápido posible\n[02:12:06 AM] Customer: ¿Hay algo más en lo que pueda ayudarle hoy?\n[02:12:06 AM] Customer: ¿Hay algo más en lo que pueda ayudarle hoy?\n[02:13:18 AM] Customer: Gracias por chatear con nosotros. ¡Esperamos que disfrutes tus juegos — mucha suerte!\n[02:13:18 AM] Customer: Gracias por chatear con nosotros. ¡Esperamos que disfrutes tus juegos — mucha suerte!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T02:14:42.752Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": -5
+      "trend": 0
     },
     {
       "id": "5842",
@@ -34069,6 +34114,51 @@
       "raw_transcript": "[02:04:03 AM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: This is ridiculous this is nothing but the old bait and switch let me win in the beginning and then you can't win it all that's exactly what's happening the old baton switch after all the money I've spent and this is the old batons what you're going to put on me now I'm really freaking mad what the fuck is with your God damn Casino greedy greedy greedy is what it is\n[02:04:03 AM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: This is ridiculous this is nothing but the old bait and switch let me win in the beginning and then you can't win it all that's exactly what's happening the old baton switch after all the money I've spent and this is the old batons what you're going to put on me now I'm really freaking mad what the fuck is with your God damn Casino greedy greedy greedy is what it is\n[02:04:25 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:04:25 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[02:04:29 AM] t1315504932: And I'm really tired of talking to robots so I want to talk to fucking robot I would have married Steve Jobs\n[02:04:29 AM] t1315504932: And I'm really tired of talking to robots so I want to talk to fucking robot I would have married Steve Jobs\n[02:05:39 AM] Oscar Zelaya: Hey mooreorless68 !\n\nCould you please provide a bit more detail about the issue you’re experiencing?\nAny additional information—such as error messages, what step you’re getting stuck on, or what you’re seeing on your screen—will help me identify the problem and get this resolved for you as quickly as possible\n[02:05:39 AM] Oscar Zelaya: Hey mooreorless68 !\n\nCould you please provide a bit more detail about the issue you’re experiencing?\nAny additional information—such as error messages, what step you’re getting stuck on, or what you’re seeing on your screen—will help me identify the problem and get this resolved for you as quickly as possible\n[02:06:24 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:06:24 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[02:07:56 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[02:07:56 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T02:09:41.713Z"
+    },
+    {
+      "chat_id": "2047497380596903936",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T02:13:31.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Agent greeted customer by name in Spanish, appropriate and personalized."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions for more details but customer's initial message was unclear and they never responded."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "No resolution achieved as customer never clarified their issue or responded to agent's questions."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear, professional communication in Spanish matching customer's language, though customer never engaged."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, agent followed proper procedures throughout."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Polite closing with well-wishes for gaming, appropriate given lack of customer engagement."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided appropriate service in Spanish but customer submitted unclear initial message ('Boy a ganar' - 'I'm going to win') and never responded to clarifying questions. Agent followed proper protocol but could not resolve an issue that was never articulated.",
+      "coaching_tip": "When customers submit vague or celebratory messages, consider asking if they need assistance or if they were just sharing excitement, as this may have been an accidental contact submission rather than a support request.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[02:06:30 AM] Customer: Full Name: Oscar pena Email Address: oscarp.1306@icloud.com Subject / How can we help you?: Boy a ganar\n[02:06:30 AM] Customer: Full Name: Oscar pena Email Address: oscarp.1306@icloud.com Subject / How can we help you?: Boy a ganar\n[02:09:08 AM] Customer: Please allow me one moment to look into this for you!\n[02:09:08 AM] Customer: Please allow me one moment to look into this for you!\n[02:10:21 AM] Customer: Hola Oscar ,\n¿Podría brindarme un poco más de detalle sobre el inconveniente que está experimentando?\nCualquier información adicional—como mensajes de error, en qué paso se presenta el problema o qué aparece en su pantalla—me ayudará a identificarlo y darle una solución lo más rápido posible\n[02:10:21 AM] Customer: Hola Oscar ,\n¿Podría brindarme un poco más de detalle sobre el inconveniente que está experimentando?\nCualquier información adicional—como mensajes de error, en qué paso se presenta el problema o qué aparece en su pantalla—me ayudará a identificarlo y darle una solución lo más rápido posible\n[02:12:06 AM] Customer: ¿Hay algo más en lo que pueda ayudarle hoy?\n[02:12:06 AM] Customer: ¿Hay algo más en lo que pueda ayudarle hoy?\n[02:13:18 AM] Customer: Gracias por chatear con nosotros. ¡Esperamos que disfrutes tus juegos — mucha suerte!\n[02:13:18 AM] Customer: Gracias por chatear con nosotros. ¡Esperamos que disfrutes tus juegos — mucha suerte!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T02:14:42.752Z"
     }
   ]
 }
