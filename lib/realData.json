@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T22:34:54.962Z",
-  "total_chats": 599,
+  "scored_at": "2026-04-24T22:39:44.148Z",
+  "total_chats": 600,
   "total_agents": 26,
   "agents": [
     {
@@ -9852,11 +9852,56 @@
           "raw_transcript": "[10:22:35 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site . I DIDNT ASK ABOUT A DEPOSIT MADW TO MY ACCOUNT DO YALL UNDERSTAND ENGLISH\n[10:22:35 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site . I DIDNT ASK ABOUT A DEPOSIT MADW TO MY ACCOUNT DO YALL UNDERSTAND ENGLISH\n[10:22:47 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:22:47 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:25:11 PM] Jonathan Fuentes: Please allow me one moment to look all this information for you!\n[10:25:11 PM] Jonathan Fuentes: Please allow me one moment to look all this information for you!\n[10:26:22 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:26:22 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:28:09 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:28:09 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T22:29:52.950Z"
+        },
+        {
+          "chat_id": "2047805989884571648",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-24T22:38:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent initially misunderstood the issue as a general inquiry about welcome bonus existence rather than a missing bonus claim."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic troubleshooting steps but never directly addressed why the verified customer didn't receive the promised automatic bonus or checked the account."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear language but confusing flow; redemption instructions seem unrelated to welcome bonus issue, and there's a typo ('gettint')."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations but made claims about automatic bonus without verifying customer's specific account situation."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever; conversation appears to end mid-resolution with customer issue unresolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer and misunderstood the core issue—customer stated account was verified but bonus wasn't received, yet agent provided generic instructions instead of investigating the account. The conversation ends abruptly without resolution or proper closing.",
+          "coaching_tip": "Always start with a proper greeting, and when a customer says they've completed required steps but didn't receive something, check their account directly rather than repeating generic instructions.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[10:32:49 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns\n[10:32:49 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns\n[10:33:05 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:33:05 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:33:12 PM] t0772235505: Ok thank u\n[10:33:12 PM] t0772235505: Ok thank u\n[10:35:10 PM] Jonathan Fuentes: Yes — we do have a welcome bonus!\n\nOnce you create your account, just make sure to verify your email and phone number. As soon as both are confirmed, your bonus will be automatically added to your account with no extra steps needed.\n\nIf you run into any issues while verifying or gettint it,  just let me know and I’ll help you out\n[10:35:10 PM] Jonathan Fuentes: Yes — we do have a welcome bonus!\n\nOnce you create your account, just make sure to verify your email and phone number. As soon as both are confirmed, your bonus will be automatically added to your account with no extra steps needed.\n\nIf you run into any issues while verifying or gettint it,  just let me know and I’ll help you out\n[10:36:12 PM] t0772235505: I haven't received a welcome bouns and my account is verified\n[10:36:12 PM] t0772235505: I haven't received a welcome bouns and my account is verified\n[10:38:09 PM] Jonathan Fuentes: Once that's everything is confirmed, simply log in at www.jackpotdaily.com\ntap the three lines in the top left corner of your screen, and select \"Redeem.\" From there, just enter and confirm your desired redemption amount and you're all set.\n[10:38:09 PM] Jonathan Fuentes: Once that's everything is confirmed, simply log in at www.jackpotdaily.com\ntap the three lines in the top left corner of your screen, and select \"Redeem.\" From there, just enter and confirm your desired redemption amount and you're all set.\n[10:38:16 PM] Jonathan Fuentes: If you’re not seeing it, try logging out, waiting a couple of minutes, and then logging back in. You can also refresh the page to make sure everything updates correctly.\n\nIf it still doesn’t show up after that, just let me know and I’ll help you look into it\n[10:38:16 PM] Jonathan Fuentes: If you’re not seeing it, try logging out, waiting a couple of minutes, and then logging back in. You can also refresh the page to make sure everything updates correctly.\n\nIf it still doesn’t show up after that, just let me know and I’ll help you look into it",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T22:39:43.646Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -11
+      "trend": -7
     },
     {
       "id": "5844",
@@ -54148,6 +54193,51 @@
       "raw_transcript": "[10:27:36 PM] t9782676811: Full Name: t9782676811 Email Address: joneskatrina753@gmail.com Subject / How can we help you?: I thought I get 2 when I sign up I didn’t get it\n[10:27:36 PM] t9782676811: Full Name: t9782676811 Email Address: joneskatrina753@gmail.com Subject / How can we help you?: I thought I get 2 when I sign up I didn’t get it\n[10:27:47 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:27:47 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:28:03 PM] Oscar Zelaya: Hey joneskatrina753 !\nCould you please provide a bit more detail about the situation you’re experiencing?\nAny additional information—such as what’s happening, any error messages, or the step where the issue occurs—will help me understand it better and get this resolved for you as quickly as possible\n[10:28:03 PM] Oscar Zelaya: Hey joneskatrina753 !\nCould you please provide a bit more detail about the situation you’re experiencing?\nAny additional information—such as what’s happening, any error messages, or the step where the issue occurs—will help me understand it better and get this resolved for you as quickly as possible\n[10:29:01 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:29:01 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:31:00 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:31:00 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T22:34:54.461Z"
+    },
+    {
+      "chat_id": "2047805989884571648",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-24T22:38:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent initially misunderstood the issue as a general inquiry about welcome bonus existence rather than a missing bonus claim."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided generic troubleshooting steps but never directly addressed why the verified customer didn't receive the promised automatic bonus or checked the account."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear language but confusing flow; redemption instructions seem unrelated to welcome bonus issue, and there's a typo ('gettint')."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No major violations but made claims about automatic bonus without verifying customer's specific account situation."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing whatsoever; conversation appears to end mid-resolution with customer issue unresolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 49,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer and misunderstood the core issue—customer stated account was verified but bonus wasn't received, yet agent provided generic instructions instead of investigating the account. The conversation ends abruptly without resolution or proper closing.",
+      "coaching_tip": "Always start with a proper greeting, and when a customer says they've completed required steps but didn't receive something, check their account directly rather than repeating generic instructions.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[10:32:49 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns\n[10:32:49 PM] t0772235505: Full Name: t0772235505 Email Address: rodneyhicks562@gmail.com Subject / How can we help you?: Is there no welcome bouns\n[10:33:05 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:33:05 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:33:12 PM] t0772235505: Ok thank u\n[10:33:12 PM] t0772235505: Ok thank u\n[10:35:10 PM] Jonathan Fuentes: Yes — we do have a welcome bonus!\n\nOnce you create your account, just make sure to verify your email and phone number. As soon as both are confirmed, your bonus will be automatically added to your account with no extra steps needed.\n\nIf you run into any issues while verifying or gettint it,  just let me know and I’ll help you out\n[10:35:10 PM] Jonathan Fuentes: Yes — we do have a welcome bonus!\n\nOnce you create your account, just make sure to verify your email and phone number. As soon as both are confirmed, your bonus will be automatically added to your account with no extra steps needed.\n\nIf you run into any issues while verifying or gettint it,  just let me know and I’ll help you out\n[10:36:12 PM] t0772235505: I haven't received a welcome bouns and my account is verified\n[10:36:12 PM] t0772235505: I haven't received a welcome bouns and my account is verified\n[10:38:09 PM] Jonathan Fuentes: Once that's everything is confirmed, simply log in at www.jackpotdaily.com\ntap the three lines in the top left corner of your screen, and select \"Redeem.\" From there, just enter and confirm your desired redemption amount and you're all set.\n[10:38:09 PM] Jonathan Fuentes: Once that's everything is confirmed, simply log in at www.jackpotdaily.com\ntap the three lines in the top left corner of your screen, and select \"Redeem.\" From there, just enter and confirm your desired redemption amount and you're all set.\n[10:38:16 PM] Jonathan Fuentes: If you’re not seeing it, try logging out, waiting a couple of minutes, and then logging back in. You can also refresh the page to make sure everything updates correctly.\n\nIf it still doesn’t show up after that, just let me know and I’ll help you look into it\n[10:38:16 PM] Jonathan Fuentes: If you’re not seeing it, try logging out, waiting a couple of minutes, and then logging back in. You can also refresh the page to make sure everything updates correctly.\n\nIf it still doesn’t show up after that, just let me know and I’ll help you look into it",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T22:39:43.646Z"
     }
   ]
 }
