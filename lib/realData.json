@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T04:09:40.765Z",
-  "total_chats": 402,
+  "scored_at": "2026-04-24T04:15:00.917Z",
+  "total_chats": 405,
   "total_agents": 25,
   "agents": [
     {
@@ -7368,110 +7368,56 @@
           "raw_transcript": "[03:53:37 AM] t0656830384: Full Name: t0656830384 Email Address: joclyn1986@gmail.com Subject / How can we help you?: Never got my welcome bouns\n[03:53:37 AM] t0656830384: Full Name: t0656830384 Email Address: joclyn1986@gmail.com Subject / How can we help you?: Never got my welcome bouns\n[03:53:48 AM] t0656830384: Egg never appeared\n[03:53:48 AM] t0656830384: Egg never appeared\n[03:53:49 AM] Cairo Osorto: Thanks for contacting.\n[03:53:49 AM] Cairo Osorto: Thanks for contacting.\n[03:54:24 AM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[03:54:24 AM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[03:59:26 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[03:59:26 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[04:03:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:03:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:04:40.359Z"
+        },
+        {
+          "chat_id": "2047527918019325952",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-24T04:13:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Generic 'Thanks for contacting' without personalization or warmth, no name used."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask clarifying questions or confirm understanding of the specific issue before providing instructions."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard instructions but didn't address customer's specific complaint about wallet not showing anything; no follow-up to confirm resolution."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Instructions were clear and structured, but agent didn't acknowledge the customer's specific concern about the wallet."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing provided; chat appears incomplete with no confirmation customer issue was resolved or proper goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided generic bonus claiming instructions without first understanding the customer's specific wallet display issue. The interaction lacks proper greeting, issue discovery, and closing, appearing incomplete and impersonal.",
+          "coaching_tip": "Before providing standard instructions, ask clarifying questions to understand the specific problem the customer is experiencing, then tailor your response accordingly.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[04:07:51 AM] Customer: Full Name: Nicholas Leininger Email Address: nleininger55@gmail.com Subject / How can we help you?: Daily bonus says look in your wallet but there's nothing showing up\n[04:07:51 AM] Customer: Full Name: Nicholas Leininger Email Address: nleininger55@gmail.com Subject / How can we help you?: Daily bonus says look in your wallet but there's nothing showing up\n[04:08:13 AM] Customer: Hello\n[04:08:13 AM] Customer: Hello\n[04:08:22 AM] Cairo Osorto: Thanks for contacting.\n[04:08:22 AM] Cairo Osorto: Thanks for contacting.\n[04:10:29 AM] Cairo Osorto: Claiming your Daily Bonus is quick — here's how:\n1. Log in at www.jackpotdaily.com\n2. Click the treasure chest icon on the right side of your screen\n3. Tap the pink note with the checkmark\n4. Complete the daily task to unlock it\nOnce you're done, it'll be credited automatically!\nNot seeing the chest? Let me know and I'll help you find it!\n[04:10:29 AM] Cairo Osorto: Claiming your Daily Bonus is quick — here's how:\n1. Log in at www.jackpotdaily.com\n2. Click the treasure chest icon on the right side of your screen\n3. Tap the pink note with the checkmark\n4. Complete the daily task to unlock it\nOnce you're done, it'll be credited automatically!\nNot seeing the chest? Let me know and I'll help you find it!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:14:39.740Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 1
-    },
-    {
-      "id": "5669",
-      "name": "Rocio Duarte",
-      "chats": [
-        {
-          "chat_id": "2045106210067542016",
-          "agent_name": "Rocio Duarte",
-          "agent_id": "5669",
-          "timestamp": "2026-04-17T12:00:00.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at all, jumped straight to 'allow me one moment' without acknowledging the customer."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Reviewed account history and previous interactions, but didn't fully grasp the timeline issue regarding old vs new referral requirements."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided information that contradicted previous agent assurances without acknowledging the discrepancy or offering escalation despite customer frustration."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Professional and clear but lacked empathy for a frustrated repeat customer and didn't acknowledge their valid concerns about conflicting information."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, appropriately checked account details before responding."
-            },
-            "closing": {
-              "score": 6,
-              "notes": "Offered further help but closed prematurely given the customer clearly disagreed with the findings and provided contradictory evidence."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent investigated the account but provided information that contradicted previous agent assurances without acknowledging the discrepancy or the customer's escalating frustration. The agent missed an opportunity to escalate appropriately when the customer showed evidence of conflicting information and expressed intent to contact gaming authorities.",
-          "coaching_tip": "When a customer presents evidence contradicting your findings and mentions previous assurances from other agents, acknowledge the discrepancy explicitly and offer to escalate to a supervisor rather than closing with a generic 'anything else' question.",
-          "website": "Jackpot Daily",
-          "message_count": 17,
-          "raw_transcript": "[11:44:51 AM] t3899252970: Full Name: t3899252970 Email Address: manda81874@gmail.com Subject / How can we help you?: I'm looking for an update on my submitted revelation ticket 2 days ago? I was assured as you should see several times I'd get a response to my issue going on 2 weeks now\n[11:45:26 AM] Rocio Duarte: Please allow me one moment to look into this for you!\n[11:46:04 AM] t3899252970: Every time I reach out I'm told the same things over and over and I am really getting irritated at this point because I feel like I'm giving a runaround and you guys are not honoring what you guys advertised and at this point I'm going to be having to escalate the situation to the gaming console or higher if need be because my situation has not been handled nearly close to the way it should be For a customer who has only tried to promote your site\n[11:46:17 AM] t3899252970: Hopefully you're able to see chat history so you can see the umpteen times that I have contacted about this and the same things that I'm told over and over again\n[11:47:31 AM] Rocio Duarte: I'm getting the information of previous interactions as we speak, allow me a few minutes please\n[11:47:53 AM] t3899252970: No yes. Take all the time that you need. I'm glad to hear you guys can actually see the history. That saves me a lot more frustration by having to repeat over and over\n[11:48:11 AM] t3899252970: In fact, I believe one of my conversations about a week and a half ago was with you\n[11:50:42 AM] Rocio Duarte: This is our first interaction, I'm still getting the information from your account to check the status of this case\n[11:51:38 AM] t3899252970: Okay then maybe it was my referral who contacted you but I'm 99 positive it was you LOL. Either way, thank you for taking the time to check into this and actually read the previous conversations to know what's going on. I appreciate it\n[11:54:33 AM] Rocio Duarte: I’ve taken a look at your account and I can see that you currently have one referral listed. However, after checking their account on our end, there is no record of a purchase made by them yet.\n\nFor a referral to qualify for the bonus, the person you invited needs to complete at least one purchase to trigger the reward for you. As soon as they make their first purchase, the system should recognize it and move things forward!\n\nIs there anything else I can help you with or check on for you today?\n[11:55:13 AM] t3899252970: One second please\n[11:55:36 AM] t3899252970: Which referral are you referring to? Because the one I'm referring to 150% has completed all of the steps\n[11:56:53 AM] t3899252970: These are referrals from prior to you guys changing the requirements. This was over 2 weeks ago when I first signed up within 2 days of me signing up. I got three total referrals that completed all the steps but I have was only credited for one of them because That's when your referral program began to have issues and then shortly after that you guys switched up the requirements to $70 purchase. I have not referred anybody to you guys since my two referrals have not credited and that was prior again to the change. Since the change I have invited zero friends because of the issues I'm having. I'm not going to be inviting any of my friends further until they have been resolved rather than me just getting a runaround and told that you guys see the referrals and that they have completed it and you guys are working on getting accredited and you'll put in a ticket to your back office so that they are manually credited\n[11:57:03 AM] t3899252970: Screenshot_20260415-131733.png\n[11:57:18 AM] t3899252970: As you can see from this screenshot, the representative I spoke to 2 days ago assured me multiple times that everything was completed correctly and you guys were working on crediting me\n[11:59:18 AM] t3899252970: One of the times I was even suggested to email support which I did over 8 days ago with a zero response from them still. Then I contact you guys back through chat support and imagine that I'm told again to send an email to that support. Even after I told them that I had gotten no response, they're still telling me to continue to email that same email. What is the point when you guys are not honoring anything that you guys are saying. This is really poor service on your guys's part and I will be reviewing your guys is psych so that others know as well and I will no longer promote until my issue is resolved\n[11:59:40 AM] Rocio Duarte: I’ve taken another thorough look at your account, and I want to be as clear as possible with the data I have in front of me: there is only one referral showing, and we have no record of any purchases made by them yet. Since a purchase is the specific trigger needed for the referral bonus to activate, that is why it hasn't reflected on your end.\n\nIf you are certain they have made a purchase and feel there's been a mistake, I would highly encourage your referral to reach out to us directly. Please ask them to create a support ticket with a brief description of the issue and any relevant screenshots of their purchase confirmation. That way, our team can look at their side of the transaction and get everything synced up for both of you!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:53:16.025Z"
-        },
-        {
-          "chat_id": "2045094206031626240",
-          "agent_name": "Rocio Duarte",
-          "agent_id": "5669",
-          "timestamp": "2026-04-17T11:32:23.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent asked good clarifying questions including screenshot request and thoroughly investigated account history to understand the confusion."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent correctly identified the issue (customer bought exclusive pack instead of sequential welcome bonus) but failed to offer any goodwill solution despite customer's reasonable confusion about the offer structure."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional explanations with detailed breakdown of offers, though could have been more empathetic given customer frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; agent correctly explained the sequential bonus structure and didn't make unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript appears truncated but shows no closing attempt in the visible portion; conversation seems unresolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 53,
-          "grade": "F",
-          "summary": "Agent demonstrated good investigative skills and provided accurate information about the sequential welcome bonus structure versus the exclusive pack purchase. However, the interaction lacked a proper greeting and failed to offer any customer-friendly resolution despite the customer's reasonable confusion about the offer terms.",
-          "coaching_tip": "When a customer makes a purchase based on reasonable confusion about offer terms, consider offering a goodwill gesture or escalation path rather than simply explaining why they didn't receive what they expected.",
-          "website": "Jackpot Daily",
-          "message_count": 32,
-          "raw_transcript": "[10:57:09 AM] t3813459558: Full Name: t3813459558 Email Address: bethbong11@gmail.com Subject / How can we help you?: I thought I was getting my third welcome bonus for $20.99 I should have gotten 60 free SC but I only got 30 free SC. I only did 2 offers then my third welcome bonus wasn’t the welcome bonus I was supposed to be getting. Please fix it!\n[10:57:25 AM] t3813459558: Ok\n[10:57:31 AM] Rocio Duarte: Please allow me one moment to look into this for you!\n[10:57:42 AM] t3813459558: Ok\n[10:58:51 AM] t3813459558: It said I would get 3 welcome bonuses\n[10:59:57 AM] Rocio Duarte: To make sure I’m on the same page and looking at the exact same promotion you are, would you mind sending over a screenshot of the offer mentioning the three welcome bonuses?\n\nSince we occasionally run different specials and limited-time bundles, seeing the specific wording or the image of the offer really helps me verify the details on our end.\n[11:04:10 AM] t3813459558: I don’t know if I can get the screen shot because I already had done 2 of them then the third one wasn’t right and they aren’t showing now. The offers were all double or a little more than double what the normal purchases were and I did the 19.99 with 50 free SC and the 9.99 with 20 free SC and then I thought I was getting the third one for $29.99 with 60 free SC and I only got 30\n[11:05:55 AM] t3813459558: It was the welcome offers cuz I just signed up this morning. Not any limited time offers. The welcome offers specifically that I was given about 1-2 hours ago and I’ve been playing since I set up\n[11:07:45 AM] Rocio Duarte: Got it. It seems that you are referring to the purchase packs. Here's the info I've got: Your first three purchases all come with bonus packs — here’s the breakdown:\n\n1st Purchase (New User Offer):\n- $10: 4,000 GC | 600 XP | 22 SC\n- $50: 20,000 GC | 3,000 XP | 80 SC\n- $100: 40,000 GC | 6,000 XP | 140 SC\n\n2nd Purchase Pack:\n- $10: 4,000 GC | 500 XP | 20 SC\n- $50: 20,000 GC | 2,500 XP | 70 SC\n- $100: 40,000 GC | 5,000 XP | 130 SC\n\n3rd Purchase Pack:\n- $10: 4,000 GC | 400 XP | 18 SC\n- $50: 20,000 GC | 2,000 XP | 65 SC\n- $100: 40,000 GC | 4,000 XP | 120 SC\n\nQuick rules: min $10 purchase, bonuses land within 4 hours, SC needs 1x playthrough before redemption, and packs unlock in order (1 → 2 → 3).\n[11:10:00 AM] t3813459558: How do I upload a photo? Or screenshot?\n[11:11:07 AM] t3813459558: I did not get extra or any boys pack on my third purchase\n[11:11:33 AM] Rocio Duarte: To send an image you can click the \"attach file\" option\n[11:11:42 AM] Rocio Duarte: Let me look into this on your account\n[11:13:06 AM] t3813459558: I spent 19.99 for 50 free first then I spent $9.99 on 20 free sc and when I spent 29,99 I thought I was getting the one that said 60 free sc and I only got 30 I want my other 30 free sc\n[11:15:12 AM] t3813459558: I don’t see the attach file option\n[11:15:46 AM] t3813459558: Ok I found it\n[11:15:46 AM] t3813459558: IMG_6387.jpg\n[11:16:03 AM] Rocio Duarte: I’ve taken a close look at your account history, and I can see where the confusion might be coming from!I was able to confirm that your first and third purchases were successfully approved by our system. However, we currently have no record of a second purchase being completed. As the screenshot shows, these packs unlock in a specific order ($1 \\rightarrow 2 \\rightarrow 3$), which is likely why you're seeing a different result in your bonus progression.I did find a record of an Exclusive $30 pack purchase, but since that’s a separate special offer, it doesn't count toward the sequential \"first three purchases\" welcome bonuses.\n[11:16:48 AM] t3813459558: IMG_6389.jpg\n[11:18:15 AM] t3813459558: I didn’t see a specific sequential order I thought it was saying I could get those offers in my first three. I spent that 30 only because I thought I was getting 60.\n[11:18:31 AM] t3813459558: And u did not get it\n[11:18:51 AM] t3813459558: Only 30 so please give me my other 30\n[11:20:21 AM] t3813459558: I shouldn’t have spent this money anyways but I feel like I should get what I was under the impression I was going to get for the welcome offers. And u already did the play through\n[11:21:22 AM] Rocio Duarte: Because the welcome bonus sequence is hard-coded into our software, it is a fully automated process. I truly wish I could step in and adjust this myself, but the system requires those specific packs to be completed in their exact order (1 -2 -3) to trigger the next reward.\n[11:22:17 AM] t3813459558: Here’s my activity from my account this morning on completed transactions\n[11:22:17 AM] t3813459558: IMG_6390.jpg\n[11:22:48 AM] t3813459558: All in less than 2 and a half hours\n[11:23:17 AM] Rocio Duarte: In this case, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[11:27:33 AM] t3813459558: It was not clear that they had to be in a certain order. I have played on a lot of different sites and I’ve never seen a sequential order in a welcome package or one that required a new customer to spend a certain amount of  money in a certain order to get it. They all have percentages and that’s what I thought I was getting. This isn’t right . You can do something to fix this. I only make minimum wage I deserve my bonus as your site led me to believe please correct this\n[11:28:08 AM] t3813459558: Ok\n[11:28:42 AM] t3813459558: How do I create this support ticket\n[11:29:17 AM] Rocio Duarte: I am truly sorry that we haven't been able to resolve this right here in our chat. Since this requires a more specialized look into the system logic, we want to make sure the right people are investigating this for you.\n\nTo get this moving, could you please create a support ticket by emailing support@jackpotdaily.com. Just include a brief description of what happened along with any screenshots you have. To ensure it gets the immediate attention it deserves, please put “ESCALATE” in the subject line.\n\nOnce you send that over, our specialized team will perform a full review of your case and get back to you with more detailed information and the next steps. We really appreciate your patience while we bring in the experts to help clear this up!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:54:57.620Z"
-        }
-      ],
-      "avg_score": 56,
-      "grade": "F",
-      "trend": 0
+      "trend": 12
     },
     {
       "id": "5806",
@@ -8376,11 +8322,155 @@
           "raw_transcript": "[03:41:17 AM] t6735217614: Full Name: t6735217614 Email Address: jason.levi0005@gmail.com Subject / How can we help you?: Can't add account to wallet\n[03:41:17 AM] t6735217614: Full Name: t6735217614 Email Address: jason.levi0005@gmail.com Subject / How can we help you?: Can't add account to wallet\n[03:41:32 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[03:41:32 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[03:42:19 AM] t6735217614: Says full name isn't valid\n[03:42:19 AM] t6735217614: Says full name isn't valid\n[03:42:32 AM] Oscar Zelaya: Hey jason.levi0005 !\n\nGot it — let’s get this sorted \nCould you tell me a bit more about what happens when you try to add your account to the wallet? For example:\nAre you seeing any error message?\nWhich wallet are you trying to use?\nAt what step does it stop?\nIn the meantime, a few quick things to try:\nDouble-check the account details you’re entering\nMake sure your account is fully verified (KYC)\nTry a different browser or device\nIf you can, please share a screenshot of the issue — that’ll help me pinpoint it much faster\n[03:42:32 AM] Oscar Zelaya: Hey jason.levi0005 !\n\nGot it — let’s get this sorted \nCould you tell me a bit more about what happens when you try to add your account to the wallet? For example:\nAre you seeing any error message?\nWhich wallet are you trying to use?\nAt what step does it stop?\nIn the meantime, a few quick things to try:\nDouble-check the account details you’re entering\nMake sure your account is fully verified (KYC)\nTry a different browser or device\nIf you can, please share a screenshot of the issue — that’ll help me pinpoint it much faster\n[03:44:06 AM] t6735217614: How do I add screenshot\n[03:44:06 AM] t6735217614: How do I add screenshot\n[03:44:39 AM] t6735217614: I tried to get daily sign in and it want me to add a redemption account\n[03:44:39 AM] t6735217614: I tried to get daily sign in and it want me to add a redemption account\n[03:44:53 AM] t6735217614: And when I try it says full name is t valid\n[03:44:53 AM] t6735217614: And when I try it says full name is t valid\n[03:45:38 AM] Oscar Zelaya: You can upload the document using the attach icon in this chat \nJust click the attachment icon, select your file, and send it through — once I receive it, I’ll review everything and move forward with your request right away\n[03:45:38 AM] Oscar Zelaya: You can upload the document using the attach icon in this chat \nJust click the attachment icon, select your file, and send it through — once I receive it, I’ll review everything and move forward with your request right away\n[03:46:15 AM] t6735217614: Screenshot_20260423-224316_Chrome.png\n[03:46:15 AM] t6735217614: Screenshot_20260423-224316_Chrome.png\n[03:46:32 AM] t6735217614: I have another image to send\n[03:46:32 AM] t6735217614: I have another image to send\n[03:46:46 AM] Oscar Zelaya: Thank you for sharing the screenshot — please allow me a moment while I take a closer look\nI’ll be right back with an update, I appreciate your patience!\n[03:46:46 AM] Oscar Zelaya: Thank you for sharing the screenshot — please allow me a moment while I take a closer look\nI’ll be right back with an update, I appreciate your patience!\n[03:48:00 AM] Oscar Zelaya: At the moment, our team is actively working on this situation and doing everything possible to resolve it as quickly as we can. We truly appreciate your patience while we continue reviewing and addressing the situation. In the meantime, we kindly ask that you allow us some additional time to complete the process. If after 24 hours you are still unable to redeem, please don’t hesitate to contact us again so we can take another look at your account and assist you further. Thank you very much for your patience, understanding, and for reaching out to us.\n[03:48:00 AM] Oscar Zelaya: At the moment, our team is actively working on this situation and doing everything possible to resolve it as quickly as we can. We truly appreciate your patience while we continue reviewing and addressing the situation. In the meantime, we kindly ask that you allow us some additional time to complete the process. If after 24 hours you are still unable to redeem, please don’t hesitate to contact us again so we can take another look at your account and assist you further. Thank you very much for your patience, understanding, and for reaching out to us.\n[03:49:04 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:49:04 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:49:30 AM] t6735217614: U didn't even help me with this\n[03:49:30 AM] t6735217614: U didn't even help me with this\n[03:49:51 AM] t6735217614: I mean I signed up and got nothing can't even play\n[03:49:51 AM] t6735217614: I mean I signed up and got nothing can't even play\n[03:50:31 AM] Oscar Zelaya: Our team is actively working on resolving this as quickly as possible. We truly appreciate your patience and understanding in the meantime\n[03:50:31 AM] Oscar Zelaya: Our team is actively working on resolving this as quickly as possible. We truly appreciate your patience and understanding in the meantime\n[03:51:27 AM] t6735217614: That again helps me none\n[03:51:27 AM] t6735217614: That again helps me none\n[03:51:28 AM] Oscar Zelaya: refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[03:51:28 AM] Oscar Zelaya: refresh of your account usually does the trick.\nTo properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[03:52:43 AM] Oscar Zelaya: Have you had a chance to try this option?\nLet me know how it went, and I’ll be happy to assist you further\n[03:52:43 AM] Oscar Zelaya: Have you had a chance to try this option?\nLet me know how it went, and I’ll be happy to assist you further\n[03:53:50 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:53:50 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[03:57:58 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[03:57:58 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:59:51.154Z"
+        },
+        {
+          "chat_id": "2047527307652198400",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-24T04:13:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting; first message was a generic 'one moment' hold statement without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked for email confirmation and requested a screenshot to investigate, showing reasonable effort to understand the issue."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided referral program requirements but didn't confirm whether customer met them or explain why rewards weren't received yet."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional but somewhat template-driven; typo in 'posible' and didn't wait for screenshot response before closing."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately shared program terms and requirements."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed prematurely after requesting screenshot without waiting for customer response or confirming issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided referral program requirements and requested information to investigate but closed the chat prematurely after asking for a screenshot without waiting for the customer's response or confirming resolution. The interaction lacked a proper greeting and felt rushed toward the end.",
+          "coaching_tip": "Always wait for the customer's response after requesting information like screenshots, and confirm the issue is resolved before closing the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[04:05:26 AM] t2461117157: Full Name: t2461117157 Email Address: jessekylee420520@gmail.com Subject / How can we help you?: I sent the link to a friend of mine and he signed up and we both purchased a coin package. But I’m not getting the refferal rewards\n[04:05:26 AM] t2461117157: Full Name: t2461117157 Email Address: jessekylee420520@gmail.com Subject / How can we help you?: I sent the link to a friend of mine and he signed up and we both purchased a coin package. But I’m not getting the refferal rewards\n[04:05:40 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:05:40 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:07:54 AM] Oscar Zelaya: Hey jessekylee420520 !\nCould you please confirm the email address connected to your account? That will help me locate your profile and check this for you right away\n[04:07:54 AM] Oscar Zelaya: Hey jessekylee420520 !\nCould you please confirm the email address connected to your account? That will help me locate your profile and check this for you right away\n[04:08:45 AM] t2461117157: jessekylee420520@gmail.com\n[04:08:45 AM] t2461117157: jessekylee420520@gmail.com\n[04:10:03 AM] Oscar Zelaya: KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[04:10:03 AM] Oscar Zelaya: KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[04:10:17 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[04:10:17 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[04:11:36 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:11:36 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:13:21 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:13:21 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:14:49.487Z"
+        }
+      ],
+      "avg_score": 57,
+      "grade": "F",
+      "trend": 4
+    },
+    {
+      "id": "5669",
+      "name": "Rocio Duarte",
+      "chats": [
+        {
+          "chat_id": "2045106210067542016",
+          "agent_name": "Rocio Duarte",
+          "agent_id": "5669",
+          "timestamp": "2026-04-17T12:00:00.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at all, jumped straight to 'allow me one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Reviewed account history and previous interactions, but didn't fully grasp the timeline issue regarding old vs new referral requirements."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided information that contradicted previous agent assurances without acknowledging the discrepancy or offering escalation despite customer frustration."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and clear but lacked empathy for a frustrated repeat customer and didn't acknowledge their valid concerns about conflicting information."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately checked account details before responding."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help but closed prematurely given the customer clearly disagreed with the findings and provided contradictory evidence."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent investigated the account but provided information that contradicted previous agent assurances without acknowledging the discrepancy or the customer's escalating frustration. The agent missed an opportunity to escalate appropriately when the customer showed evidence of conflicting information and expressed intent to contact gaming authorities.",
+          "coaching_tip": "When a customer presents evidence contradicting your findings and mentions previous assurances from other agents, acknowledge the discrepancy explicitly and offer to escalate to a supervisor rather than closing with a generic 'anything else' question.",
+          "website": "Jackpot Daily",
+          "message_count": 17,
+          "raw_transcript": "[11:44:51 AM] t3899252970: Full Name: t3899252970 Email Address: manda81874@gmail.com Subject / How can we help you?: I'm looking for an update on my submitted revelation ticket 2 days ago? I was assured as you should see several times I'd get a response to my issue going on 2 weeks now\n[11:45:26 AM] Rocio Duarte: Please allow me one moment to look into this for you!\n[11:46:04 AM] t3899252970: Every time I reach out I'm told the same things over and over and I am really getting irritated at this point because I feel like I'm giving a runaround and you guys are not honoring what you guys advertised and at this point I'm going to be having to escalate the situation to the gaming console or higher if need be because my situation has not been handled nearly close to the way it should be For a customer who has only tried to promote your site\n[11:46:17 AM] t3899252970: Hopefully you're able to see chat history so you can see the umpteen times that I have contacted about this and the same things that I'm told over and over again\n[11:47:31 AM] Rocio Duarte: I'm getting the information of previous interactions as we speak, allow me a few minutes please\n[11:47:53 AM] t3899252970: No yes. Take all the time that you need. I'm glad to hear you guys can actually see the history. That saves me a lot more frustration by having to repeat over and over\n[11:48:11 AM] t3899252970: In fact, I believe one of my conversations about a week and a half ago was with you\n[11:50:42 AM] Rocio Duarte: This is our first interaction, I'm still getting the information from your account to check the status of this case\n[11:51:38 AM] t3899252970: Okay then maybe it was my referral who contacted you but I'm 99 positive it was you LOL. Either way, thank you for taking the time to check into this and actually read the previous conversations to know what's going on. I appreciate it\n[11:54:33 AM] Rocio Duarte: I’ve taken a look at your account and I can see that you currently have one referral listed. However, after checking their account on our end, there is no record of a purchase made by them yet.\n\nFor a referral to qualify for the bonus, the person you invited needs to complete at least one purchase to trigger the reward for you. As soon as they make their first purchase, the system should recognize it and move things forward!\n\nIs there anything else I can help you with or check on for you today?\n[11:55:13 AM] t3899252970: One second please\n[11:55:36 AM] t3899252970: Which referral are you referring to? Because the one I'm referring to 150% has completed all of the steps\n[11:56:53 AM] t3899252970: These are referrals from prior to you guys changing the requirements. This was over 2 weeks ago when I first signed up within 2 days of me signing up. I got three total referrals that completed all the steps but I have was only credited for one of them because That's when your referral program began to have issues and then shortly after that you guys switched up the requirements to $70 purchase. I have not referred anybody to you guys since my two referrals have not credited and that was prior again to the change. Since the change I have invited zero friends because of the issues I'm having. I'm not going to be inviting any of my friends further until they have been resolved rather than me just getting a runaround and told that you guys see the referrals and that they have completed it and you guys are working on getting accredited and you'll put in a ticket to your back office so that they are manually credited\n[11:57:03 AM] t3899252970: Screenshot_20260415-131733.png\n[11:57:18 AM] t3899252970: As you can see from this screenshot, the representative I spoke to 2 days ago assured me multiple times that everything was completed correctly and you guys were working on crediting me\n[11:59:18 AM] t3899252970: One of the times I was even suggested to email support which I did over 8 days ago with a zero response from them still. Then I contact you guys back through chat support and imagine that I'm told again to send an email to that support. Even after I told them that I had gotten no response, they're still telling me to continue to email that same email. What is the point when you guys are not honoring anything that you guys are saying. This is really poor service on your guys's part and I will be reviewing your guys is psych so that others know as well and I will no longer promote until my issue is resolved\n[11:59:40 AM] Rocio Duarte: I’ve taken another thorough look at your account, and I want to be as clear as possible with the data I have in front of me: there is only one referral showing, and we have no record of any purchases made by them yet. Since a purchase is the specific trigger needed for the referral bonus to activate, that is why it hasn't reflected on your end.\n\nIf you are certain they have made a purchase and feel there's been a mistake, I would highly encourage your referral to reach out to us directly. Please ask them to create a support ticket with a brief description of the issue and any relevant screenshots of their purchase confirmation. That way, our team can look at their side of the transaction and get everything synced up for both of you!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:53:16.025Z"
+        },
+        {
+          "chat_id": "2045094206031626240",
+          "agent_name": "Rocio Duarte",
+          "agent_id": "5669",
+          "timestamp": "2026-04-17T11:32:23.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent asked good clarifying questions including screenshot request and thoroughly investigated account history to understand the confusion."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent correctly identified the issue (customer bought exclusive pack instead of sequential welcome bonus) but failed to offer any goodwill solution despite customer's reasonable confusion about the offer structure."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional explanations with detailed breakdown of offers, though could have been more empathetic given customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent correctly explained the sequential bonus structure and didn't make unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated but shows no closing attempt in the visible portion; conversation seems unresolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent demonstrated good investigative skills and provided accurate information about the sequential welcome bonus structure versus the exclusive pack purchase. However, the interaction lacked a proper greeting and failed to offer any customer-friendly resolution despite the customer's reasonable confusion about the offer terms.",
+          "coaching_tip": "When a customer makes a purchase based on reasonable confusion about offer terms, consider offering a goodwill gesture or escalation path rather than simply explaining why they didn't receive what they expected.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[10:57:09 AM] t3813459558: Full Name: t3813459558 Email Address: bethbong11@gmail.com Subject / How can we help you?: I thought I was getting my third welcome bonus for $20.99 I should have gotten 60 free SC but I only got 30 free SC. I only did 2 offers then my third welcome bonus wasn’t the welcome bonus I was supposed to be getting. Please fix it!\n[10:57:25 AM] t3813459558: Ok\n[10:57:31 AM] Rocio Duarte: Please allow me one moment to look into this for you!\n[10:57:42 AM] t3813459558: Ok\n[10:58:51 AM] t3813459558: It said I would get 3 welcome bonuses\n[10:59:57 AM] Rocio Duarte: To make sure I’m on the same page and looking at the exact same promotion you are, would you mind sending over a screenshot of the offer mentioning the three welcome bonuses?\n\nSince we occasionally run different specials and limited-time bundles, seeing the specific wording or the image of the offer really helps me verify the details on our end.\n[11:04:10 AM] t3813459558: I don’t know if I can get the screen shot because I already had done 2 of them then the third one wasn’t right and they aren’t showing now. The offers were all double or a little more than double what the normal purchases were and I did the 19.99 with 50 free SC and the 9.99 with 20 free SC and then I thought I was getting the third one for $29.99 with 60 free SC and I only got 30\n[11:05:55 AM] t3813459558: It was the welcome offers cuz I just signed up this morning. Not any limited time offers. The welcome offers specifically that I was given about 1-2 hours ago and I’ve been playing since I set up\n[11:07:45 AM] Rocio Duarte: Got it. It seems that you are referring to the purchase packs. Here's the info I've got: Your first three purchases all come with bonus packs — here’s the breakdown:\n\n1st Purchase (New User Offer):\n- $10: 4,000 GC | 600 XP | 22 SC\n- $50: 20,000 GC | 3,000 XP | 80 SC\n- $100: 40,000 GC | 6,000 XP | 140 SC\n\n2nd Purchase Pack:\n- $10: 4,000 GC | 500 XP | 20 SC\n- $50: 20,000 GC | 2,500 XP | 70 SC\n- $100: 40,000 GC | 5,000 XP | 130 SC\n\n3rd Purchase Pack:\n- $10: 4,000 GC | 400 XP | 18 SC\n- $50: 20,000 GC | 2,000 XP | 65 SC\n- $100: 40,000 GC | 4,000 XP | 120 SC\n\nQuick rules: min $10 purchase, bonuses land within 4 hours, SC needs 1x playthrough before redemption, and packs unlock in order (1 → 2 → 3).\n[11:10:00 AM] t3813459558: How do I upload a photo? Or screenshot?\n[11:11:07 AM] t3813459558: I did not get extra or any boys pack on my third purchase\n[11:11:33 AM] Rocio Duarte: To send an image you can click the \"attach file\" option\n[11:11:42 AM] Rocio Duarte: Let me look into this on your account\n[11:13:06 AM] t3813459558: I spent 19.99 for 50 free first then I spent $9.99 on 20 free sc and when I spent 29,99 I thought I was getting the one that said 60 free sc and I only got 30 I want my other 30 free sc\n[11:15:12 AM] t3813459558: I don’t see the attach file option\n[11:15:46 AM] t3813459558: Ok I found it\n[11:15:46 AM] t3813459558: IMG_6387.jpg\n[11:16:03 AM] Rocio Duarte: I’ve taken a close look at your account history, and I can see where the confusion might be coming from!I was able to confirm that your first and third purchases were successfully approved by our system. However, we currently have no record of a second purchase being completed. As the screenshot shows, these packs unlock in a specific order ($1 \\rightarrow 2 \\rightarrow 3$), which is likely why you're seeing a different result in your bonus progression.I did find a record of an Exclusive $30 pack purchase, but since that’s a separate special offer, it doesn't count toward the sequential \"first three purchases\" welcome bonuses.\n[11:16:48 AM] t3813459558: IMG_6389.jpg\n[11:18:15 AM] t3813459558: I didn’t see a specific sequential order I thought it was saying I could get those offers in my first three. I spent that 30 only because I thought I was getting 60.\n[11:18:31 AM] t3813459558: And u did not get it\n[11:18:51 AM] t3813459558: Only 30 so please give me my other 30\n[11:20:21 AM] t3813459558: I shouldn’t have spent this money anyways but I feel like I should get what I was under the impression I was going to get for the welcome offers. And u already did the play through\n[11:21:22 AM] Rocio Duarte: Because the welcome bonus sequence is hard-coded into our software, it is a fully automated process. I truly wish I could step in and adjust this myself, but the system requires those specific packs to be completed in their exact order (1 -2 -3) to trigger the next reward.\n[11:22:17 AM] t3813459558: Here’s my activity from my account this morning on completed transactions\n[11:22:17 AM] t3813459558: IMG_6390.jpg\n[11:22:48 AM] t3813459558: All in less than 2 and a half hours\n[11:23:17 AM] Rocio Duarte: In this case, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[11:27:33 AM] t3813459558: It was not clear that they had to be in a certain order. I have played on a lot of different sites and I’ve never seen a sequential order in a welcome package or one that required a new customer to spend a certain amount of  money in a certain order to get it. They all have percentages and that’s what I thought I was getting. This isn’t right . You can do something to fix this. I only make minimum wage I deserve my bonus as your site led me to believe please correct this\n[11:28:08 AM] t3813459558: Ok\n[11:28:42 AM] t3813459558: How do I create this support ticket\n[11:29:17 AM] Rocio Duarte: I am truly sorry that we haven't been able to resolve this right here in our chat. Since this requires a more specialized look into the system logic, we want to make sure the right people are investigating this for you.\n\nTo get this moving, could you please create a support ticket by emailing support@jackpotdaily.com. Just include a brief description of what happened along with any screenshots you have. To ensure it gets the immediate attention it deserves, please put “ESCALATE” in the subject line.\n\nOnce you send that over, our specialized team will perform a full review of your case and get back to you with more detailed information and the next steps. We really appreciate your patience while we bring in the experts to help clear this up!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:54:57.620Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": 9
+      "trend": 0
     },
     {
       "id": "5807",
@@ -13587,11 +13677,56 @@
           "raw_transcript": "[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:22 AM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: Redemption\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:52:46 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:08 AM] t3625261861: Why cant I redeem\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:53:33 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:56:01 AM] Ana Erazo: Could you please specify the exact issue you are experiencing so we can assist you more effectively?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[03:58:16 AM] Ana Erazo: Are you still there?\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:00:13 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:04:49.677Z"
+        },
+        {
+          "chat_id": "2047526778963800064",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T04:12:56.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting without using customer's name and introduced self as 'Brittany' when agent name is 'Ana Erazo' which is confusing."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the missing balance concern but didn't ask clarifying questions about purchase amount, timing, or investigate the discrepancy shown in screenshot."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps and confirmed current balance, but didn't investigate why funds disappeared or verify if the $30 balance matches expected amount after purchase."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear instructions provided but didn't acknowledge customer's specific concern that they didn't play any games yet money disappeared."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided appropriate escalation path via email if issue persists."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closing with offer for further assistance and well-wishes for gameplay."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided basic technical troubleshooting but failed to investigate the customer's core concern about missing funds after purchase. The name confusion (introducing as Brittany when system shows Ana Erazo) and lack of deeper inquiry into the balance discrepancy were notable weaknesses.",
+          "coaching_tip": "When a customer reports missing funds, always verify the purchase amount and timeline before offering generic refresh steps—investigate the transaction history to confirm whether funds were actually lost or if it's a display issue.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[04:03:19 AM] t2540557351: Full Name: t2540557351 Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[04:03:19 AM] t2540557351: Full Name: t2540557351 Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[04:03:29 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:03:29 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:04:39 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:04:39 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:05:35 AM] t2540557351: I made a purchase and was looking through slots and now it's gone I did not play\n[04:05:35 AM] t2540557351: Screenshot_20260423_230111_Chrome.jpg\n[04:05:35 AM] t2540557351: I made a purchase and was looking through slots and now it's gone I did not play\n[04:05:35 AM] t2540557351: Screenshot_20260423_230111_Chrome.jpg\n[04:07:16 AM] Ana Erazo: From our side, we can see that you currently have 30 in your balance.\n[04:07:16 AM] Ana Erazo: From our side, we can see that you currently have 30 in your balance.\n[04:07:48 AM] Ana Erazo: To properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[04:07:48 AM] Ana Erazo: To properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[04:08:48 AM] Ana Erazo: Are you still there?\n[04:08:48 AM] Ana Erazo: Are you still there?\n[04:09:42 AM] Ana Erazo: Is there anything else I can help you with today?\n[04:09:42 AM] Ana Erazo: Is there anything else I can help you with today?\n[04:10:40 AM] t2540557351: OK I'll refresh\n[04:10:40 AM] t2540557351: OK I'll refresh\n[04:10:57 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[04:10:57 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[04:12:00 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:12:00 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:15:00.416Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 8
+      "trend": 5
     },
     {
       "id": "5842",
@@ -36409,6 +36544,141 @@
       "raw_transcript": "[03:57:05 AM] Customer: Full Name: Jennifer Abernathy Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[03:57:05 AM] Customer: Full Name: Jennifer Abernathy Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[03:57:26 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:57:26 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:59:13 AM] Jonathan Fuentes: Can I please have more specific information about the situation?\n[03:59:13 AM] Jonathan Fuentes: Can I please have more specific information about the situation?\n[03:59:40 AM] Customer: I made a purchase my first\\nCoins and another\n[03:59:40 AM] Customer: I made a purchase my first\\nCoins and another\n[03:59:48 AM] Customer: Now it's not there , I didn't play them\n[03:59:48 AM] Customer: Now it's not there , I didn't play them\n[04:00:03 AM] Jonathan Fuentes: How many coins did you purchased?\n[04:00:03 AM] Jonathan Fuentes: How many coins did you purchased?\n[04:00:51 AM] Customer: Nine ninety nine thirty , because I was a deal\n[04:00:51 AM] Customer: Nine ninety nine thirty , because I was a deal\n[04:01:25 AM] Customer: Screenshot_20260423_230111_Chrome.jpg\n[04:01:25 AM] Customer: Screenshot_20260423_230111_Chrome.jpg\n[04:02:51 AM] Jonathan Fuentes: So you received 30 SC, am I correct?\n[04:02:51 AM] Jonathan Fuentes: So you received 30 SC, am I correct?\n[04:03:02 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:03:02 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:05:37 AM] Jonathan Fuentes: I checked your account and I can still see the 30 SC balance available 👍\n\nIf you’re not seeing it reflected on your end, please try the following:\n\nLog out of your account\nWait about 2 minutes\nLog\n\nlet me know if this works.\n[04:05:37 AM] Jonathan Fuentes: I checked your account and I can still see the 30 SC balance available 👍\n\nIf you’re not seeing it reflected on your end, please try the following:\n\nLog out of your account\nWait about 2 minutes\nLog\n\nlet me know if this works.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T04:09:40.264Z"
+    },
+    {
+      "chat_id": "2047527918019325952",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-24T04:13:33.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Generic 'Thanks for contacting' without personalization or warmth, no name used."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask clarifying questions or confirm understanding of the specific issue before providing instructions."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard instructions but didn't address customer's specific complaint about wallet not showing anything; no follow-up to confirm resolution."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Instructions were clear and structured, but agent didn't acknowledge the customer's specific concern about the wallet."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing provided; chat appears incomplete with no confirmation customer issue was resolved or proper goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 54,
+      "grade": "F",
+      "summary": "Agent provided generic bonus claiming instructions without first understanding the customer's specific wallet display issue. The interaction lacks proper greeting, issue discovery, and closing, appearing incomplete and impersonal.",
+      "coaching_tip": "Before providing standard instructions, ask clarifying questions to understand the specific problem the customer is experiencing, then tailor your response accordingly.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[04:07:51 AM] Customer: Full Name: Nicholas Leininger Email Address: nleininger55@gmail.com Subject / How can we help you?: Daily bonus says look in your wallet but there's nothing showing up\n[04:07:51 AM] Customer: Full Name: Nicholas Leininger Email Address: nleininger55@gmail.com Subject / How can we help you?: Daily bonus says look in your wallet but there's nothing showing up\n[04:08:13 AM] Customer: Hello\n[04:08:13 AM] Customer: Hello\n[04:08:22 AM] Cairo Osorto: Thanks for contacting.\n[04:08:22 AM] Cairo Osorto: Thanks for contacting.\n[04:10:29 AM] Cairo Osorto: Claiming your Daily Bonus is quick — here's how:\n1. Log in at www.jackpotdaily.com\n2. Click the treasure chest icon on the right side of your screen\n3. Tap the pink note with the checkmark\n4. Complete the daily task to unlock it\nOnce you're done, it'll be credited automatically!\nNot seeing the chest? Let me know and I'll help you find it!\n[04:10:29 AM] Cairo Osorto: Claiming your Daily Bonus is quick — here's how:\n1. Log in at www.jackpotdaily.com\n2. Click the treasure chest icon on the right side of your screen\n3. Tap the pink note with the checkmark\n4. Complete the daily task to unlock it\nOnce you're done, it'll be credited automatically!\nNot seeing the chest? Let me know and I'll help you find it!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:14:39.740Z"
+    },
+    {
+      "chat_id": "2047527307652198400",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-24T04:13:30.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No initial greeting; first message was a generic 'one moment' hold statement without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Asked for email confirmation and requested a screenshot to investigate, showing reasonable effort to understand the issue."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided referral program requirements but didn't confirm whether customer met them or explain why rewards weren't received yet."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Clear and professional but somewhat template-driven; typo in 'posible' and didn't wait for screenshot response before closing."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately shared program terms and requirements."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed prematurely after requesting screenshot without waiting for customer response or confirming issue was resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent provided referral program requirements and requested information to investigate but closed the chat prematurely after asking for a screenshot without waiting for the customer's response or confirming resolution. The interaction lacked a proper greeting and felt rushed toward the end.",
+      "coaching_tip": "Always wait for the customer's response after requesting information like screenshots, and confirm the issue is resolved before closing the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[04:05:26 AM] t2461117157: Full Name: t2461117157 Email Address: jessekylee420520@gmail.com Subject / How can we help you?: I sent the link to a friend of mine and he signed up and we both purchased a coin package. But I’m not getting the refferal rewards\n[04:05:26 AM] t2461117157: Full Name: t2461117157 Email Address: jessekylee420520@gmail.com Subject / How can we help you?: I sent the link to a friend of mine and he signed up and we both purchased a coin package. But I’m not getting the refferal rewards\n[04:05:40 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:05:40 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:07:54 AM] Oscar Zelaya: Hey jessekylee420520 !\nCould you please confirm the email address connected to your account? That will help me locate your profile and check this for you right away\n[04:07:54 AM] Oscar Zelaya: Hey jessekylee420520 !\nCould you please confirm the email address connected to your account? That will help me locate your profile and check this for you right away\n[04:08:45 AM] t2461117157: jessekylee420520@gmail.com\n[04:08:45 AM] t2461117157: jessekylee420520@gmail.com\n[04:10:03 AM] Oscar Zelaya: KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[04:10:03 AM] Oscar Zelaya: KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[04:10:17 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[04:10:17 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[04:11:36 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:11:36 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:13:21 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:13:21 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:14:49.487Z"
+    },
+    {
+      "chat_id": "2047526778963800064",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T04:12:56.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic greeting without using customer's name and introduced self as 'Brittany' when agent name is 'Ana Erazo' which is confusing."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent acknowledged the missing balance concern but didn't ask clarifying questions about purchase amount, timing, or investigate the discrepancy shown in screenshot."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps and confirmed current balance, but didn't investigate why funds disappeared or verify if the $30 balance matches expected amount after purchase."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear instructions provided but didn't acknowledge customer's specific concern that they didn't play any games yet money disappeared."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided appropriate escalation path via email if issue persists."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closing with offer for further assistance and well-wishes for gameplay."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided basic technical troubleshooting but failed to investigate the customer's core concern about missing funds after purchase. The name confusion (introducing as Brittany when system shows Ana Erazo) and lack of deeper inquiry into the balance discrepancy were notable weaknesses.",
+      "coaching_tip": "When a customer reports missing funds, always verify the purchase amount and timeline before offering generic refresh steps—investigate the transaction history to confirm whether funds were actually lost or if it's a display issue.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[04:03:19 AM] t2540557351: Full Name: t2540557351 Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[04:03:19 AM] t2540557351: Full Name: t2540557351 Email Address: Lilbitytwin84@gmail.com Subject / How can we help you?: I made a purchase and I was going through all of the games to pick one , and now my money is going\n[04:03:29 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:03:29 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:04:39 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:04:39 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:05:35 AM] t2540557351: I made a purchase and was looking through slots and now it's gone I did not play\n[04:05:35 AM] t2540557351: Screenshot_20260423_230111_Chrome.jpg\n[04:05:35 AM] t2540557351: I made a purchase and was looking through slots and now it's gone I did not play\n[04:05:35 AM] t2540557351: Screenshot_20260423_230111_Chrome.jpg\n[04:07:16 AM] Ana Erazo: From our side, we can see that you currently have 30 in your balance.\n[04:07:16 AM] Ana Erazo: From our side, we can see that you currently have 30 in your balance.\n[04:07:48 AM] Ana Erazo: To properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[04:07:48 AM] Ana Erazo: To properly refresh your account, please follow these simple steps:\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[04:08:48 AM] Ana Erazo: Are you still there?\n[04:08:48 AM] Ana Erazo: Are you still there?\n[04:09:42 AM] Ana Erazo: Is there anything else I can help you with today?\n[04:09:42 AM] Ana Erazo: Is there anything else I can help you with today?\n[04:10:40 AM] t2540557351: OK I'll refresh\n[04:10:40 AM] t2540557351: OK I'll refresh\n[04:10:57 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[04:10:57 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[04:12:00 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:12:00 AM] Ana Erazo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:15:00.416Z"
     }
   ]
 }
