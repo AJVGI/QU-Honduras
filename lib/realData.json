@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T01:34:43.045Z",
-  "total_chats": 371,
+  "scored_at": "2026-04-24T01:44:45.661Z",
+  "total_chats": 372,
   "total_agents": 25,
   "agents": [
     {
@@ -14739,11 +14739,56 @@
           "raw_transcript": "[01:11:47 AM] t8166751450: Full Name: t8166751450 Email Address: Terrianwilliams156@gmail.com Subject / How can we help you?: I want to just delete my account this platform is not working right\n[01:11:47 AM] t8166751450: Full Name: t8166751450 Email Address: Terrianwilliams156@gmail.com Subject / How can we help you?: I want to just delete my account this platform is not working right\n[01:12:09 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:12:09 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[01:12:26 AM] t8166751450: It's not letting me verify the account\n[01:12:26 AM] t8166751450: It's not letting me verify the account\n[01:14:33 AM] Ana Erazo: Hi , thank you for being so open with me. I want to tell you that I truly admire your decision to put your well-being first, and we fully support you in this step.\n\nAt Jackpot Daily, we take Responsible Social Gameplay very seriously. As you’ve shared this concern with us, I am proceeding to permanently close your account immediately to support your safety.\n\nPlease keep in mind:\n\n\n* Permanent Action: This closure is permanent, meaning you will not be able to access gameplay or reopen this account in the future.\n* Safety Protocol: This policy is strictly in place to protect the health and well-being of our players.\n* No New Accounts: Per our terms, we reserve the right to terminate any new accounts that may be created by a player who has closed their account due to responsible gameplay concerns.\n\nWe genuinely wish you the very best on this journey. If you ever need to review our resources, our Responsible Social Gameplay Policy is always available on our platform for more information.\n\nTake care of yourself, and thank you for being part of our community.\n[01:14:33 AM] Ana Erazo: Hi , thank you for being so open with me. I want to tell you that I truly admire your decision to put your well-being first, and we fully support you in this step.\n\nAt Jackpot Daily, we take Responsible Social Gameplay very seriously. As you’ve shared this concern with us, I am proceeding to permanently close your account immediately to support your safety.\n\nPlease keep in mind:\n\n\n* Permanent Action: This closure is permanent, meaning you will not be able to access gameplay or reopen this account in the future.\n* Safety Protocol: This policy is strictly in place to protect the health and well-being of our players.\n* No New Accounts: Per our terms, we reserve the right to terminate any new accounts that may be created by a player who has closed their account due to responsible gameplay concerns.\n\nWe genuinely wish you the very best on this journey. If you ever need to review our resources, our Responsible Social Gameplay Policy is always available on our platform for more information.\n\nTake care of yourself, and thank you for being part of our community.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T01:19:44.911Z"
+        },
+        {
+          "chat_id": "2047487011240849408",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T01:41:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with agent name but didn't use customer's name or add warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the phone number issue and asked clarifying questions to get both numbers, though took time to grasp the verification catch-22."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided guidance on proper phone number format but didn't clearly confirm if the backend number was actually updated to resolve the verification loop."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with helpful formatting in the phone number explanation, though multiple hold messages were somewhat repetitive."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Appropriately warned about account deletion permanence and followed proper procedures without violations."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and closed politely, though the closing message appears truncated in transcript."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent handled the phone number verification issue competently, providing clear formatting guidance and appropriately warning about account deletion. However, it's unclear whether the agent actually updated the phone number on the backend or only provided instructions, leaving some ambiguity about full resolution.",
+          "coaching_tip": "After collecting both phone numbers, explicitly confirm whether you've updated the number in the system or clarify next steps the customer must take to complete the change.",
+          "website": "Jackpot Daily",
+          "message_count": 40,
+          "raw_transcript": "[01:25:18 AM] t3107116585: Full Name: t3107116585 Email Address: roody484752@gmail.com Subject / How can we help you?: I'm still dealing with the same issue that it wants to modify the phone number I gave\n[01:25:18 AM] t3107116585: Full Name: t3107116585 Email Address: roody484752@gmail.com Subject / How can we help you?: I'm still dealing with the same issue that it wants to modify the phone number I gave\n[01:25:40 AM] Ana Erazo: Hi ! My name is BrittanyI will be assisting you.\n[01:25:40 AM] Ana Erazo: Hi ! My name is BrittanyI will be assisting you.\n[01:26:07 AM] t3107116585: Hey Brittany how are you doing\n[01:26:07 AM] t3107116585: Hey Brittany how are you doing\n[01:27:48 AM] Ana Erazo: Give me a moment to review this information.\n[01:27:48 AM] Ana Erazo: Give me a moment to review this information.\n[01:27:57 AM] t3107116585: Ok\n[01:27:57 AM] t3107116585: Ok\n[01:30:42 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:30:42 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:31:49 AM] t3107116585: Ok\n[01:31:49 AM] t3107116585: Ok\n[01:33:56 AM] Ana Erazo: Kindly note that your account needs to be verified before we can update your phone number.\n[01:33:56 AM] Ana Erazo: Kindly note that your account needs to be verified before we can update your phone number.\n[01:34:44 AM] t3107116585: I tried to do that but it wants my number fixed before I can do that lol\n[01:34:44 AM] t3107116585: I tried to do that but it wants my number fixed before I can do that lol\n[01:35:04 AM] t3107116585: Can you just delete my account and I can start over\n[01:35:04 AM] t3107116585: Can you just delete my account and I can start over\n[01:35:59 AM] Ana Erazo: Kindly be aware that deleting the account is permanent, and you will not be able to open a new one afterward.\n[01:35:59 AM] Ana Erazo: Kindly be aware that deleting the account is permanent, and you will not be able to open a new one afterward.\n[01:36:55 AM] t3107116585: Ok so that's not an option so what can we do to fix the problem\n[01:36:55 AM] t3107116585: Ok so that's not an option so what can we do to fix the problem\n[01:37:48 AM] t3107116585: It won't let me finish verifying until my number issue is delt with\n[01:37:48 AM] t3107116585: It won't let me finish verifying until my number issue is delt with\n[01:37:56 AM] Ana Erazo: Kindly provide the phone number currently associated with your account, along with the new number you would like to update it to.\n[01:37:56 AM] Ana Erazo: Kindly provide the phone number currently associated with your account, along with the new number you would like to update it to.\n[01:38:34 AM] t3107116585: 12342287934 13305063792\n[01:38:34 AM] t3107116585: 12342287934 13305063792\n[01:38:58 AM] Ana Erazo: Thank you! one sec\n[01:38:58 AM] Ana Erazo: Thank you! one sec\n[01:40:42 AM] Ana Erazo: Hey! When registering your account and verifying your phone number, please enter only the 10 digits of your phone number — no need to add “+1” or just “1” at the beginning.\nFor example:\n\nCorrect: 5551234567\nIncorrect: +15551234567 or 15551234567\nThe system already recognizes the country code automatically, so entering only the 10 digits ensures your verification goes through smoothly.\nAny trouble with the verification? Let me know and I’ll help you right away!\n[01:40:42 AM] Ana Erazo: Hey! When registering your account and verifying your phone number, please enter only the 10 digits of your phone number — no need to add “+1” or just “1” at the beginning.\nFor example:\n\nCorrect: 5551234567\nIncorrect: +15551234567 or 15551234567\nThe system already recognizes the country code automatically, so entering only the 10 digits ensures your verification goes through smoothly.\nAny trouble with the verification? Let me know and I’ll help you right away!\n[01:41:11 AM] t3107116585: Ok\n[01:41:11 AM] t3107116585: Ok\n[01:41:33 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:41:33 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:41:48 AM] t3107116585: Ok will do thank you for helping\n[01:41:48 AM] t3107116585: Ok will do thank you for helping",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T01:44:45.160Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -11
+      "trend": -6
     },
     {
       "id": "5840",
@@ -33619,6 +33664,51 @@
       "raw_transcript": "[01:27:23 AM] t8069929939: Full Name: t8069929939 Email Address: ywheeler18@gmail.com Subject / How can we help you?: Where is my referral bonus\n[01:27:23 AM] t8069929939: Full Name: t8069929939 Email Address: ywheeler18@gmail.com Subject / How can we help you?: Where is my referral bonus\n[01:27:40 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[01:27:40 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[01:28:05 AM] t8069929939: Thank you\n[01:28:05 AM] t8069929939: Thank you\n[01:28:19 AM] t8069929939: What are the requirements\n[01:28:19 AM] t8069929939: What are the requirements\n[01:29:11 AM] Jonathan Fuentes: Your referral needs to complete all steps — registration, KYC verification, and cumulative purchases totalling at least $70. Once done, your reward will trigger automatically!\n[01:29:11 AM] Jonathan Fuentes: Your referral needs to complete all steps — registration, KYC verification, and cumulative purchases totalling at least $70. Once done, your reward will trigger automatically!\n[01:30:04 AM] t8069929939: Oh wow it doesn’t state that when I sent it to my friend\n[01:30:04 AM] t8069929939: Oh wow it doesn’t state that when I sent it to my friend\n[01:32:16 AM] Jonathan Fuentes: I understand how that can be confusing, and I apologize for that.\n\nThose are the current requirements for the referral program. Once all the steps are completed, the reward will be automatically credited.\n\nIf you have any questions about the process or need help checking the progress, just let me know — I’m here to help.\n[01:32:16 AM] Jonathan Fuentes: I understand how that can be confusing, and I apologize for that.\n\nThose are the current requirements for the referral program. Once all the steps are completed, the reward will be automatically credited.\n\nIf you have any questions about the process or need help checking the progress, just let me know — I’m here to help.\n[01:33:14 AM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[01:33:14 AM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T01:34:42.545Z"
+    },
+    {
+      "chat_id": "2047487011240849408",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T01:41:57.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting with agent name but didn't use customer's name or add warmth."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the phone number issue and asked clarifying questions to get both numbers, though took time to grasp the verification catch-22."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided guidance on proper phone number format but didn't clearly confirm if the backend number was actually updated to resolve the verification loop."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional with helpful formatting in the phone number explanation, though multiple hold messages were somewhat repetitive."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Appropriately warned about account deletion permanence and followed proper procedures without violations."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and closed politely, though the closing message appears truncated in transcript."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 65,
+      "grade": "D",
+      "summary": "Agent handled the phone number verification issue competently, providing clear formatting guidance and appropriately warning about account deletion. However, it's unclear whether the agent actually updated the phone number on the backend or only provided instructions, leaving some ambiguity about full resolution.",
+      "coaching_tip": "After collecting both phone numbers, explicitly confirm whether you've updated the number in the system or clarify next steps the customer must take to complete the change.",
+      "website": "Jackpot Daily",
+      "message_count": 40,
+      "raw_transcript": "[01:25:18 AM] t3107116585: Full Name: t3107116585 Email Address: roody484752@gmail.com Subject / How can we help you?: I'm still dealing with the same issue that it wants to modify the phone number I gave\n[01:25:18 AM] t3107116585: Full Name: t3107116585 Email Address: roody484752@gmail.com Subject / How can we help you?: I'm still dealing with the same issue that it wants to modify the phone number I gave\n[01:25:40 AM] Ana Erazo: Hi ! My name is BrittanyI will be assisting you.\n[01:25:40 AM] Ana Erazo: Hi ! My name is BrittanyI will be assisting you.\n[01:26:07 AM] t3107116585: Hey Brittany how are you doing\n[01:26:07 AM] t3107116585: Hey Brittany how are you doing\n[01:27:48 AM] Ana Erazo: Give me a moment to review this information.\n[01:27:48 AM] Ana Erazo: Give me a moment to review this information.\n[01:27:57 AM] t3107116585: Ok\n[01:27:57 AM] t3107116585: Ok\n[01:30:42 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:30:42 AM] Ana Erazo: Please allow me one moment to look into this for you!\n[01:31:49 AM] t3107116585: Ok\n[01:31:49 AM] t3107116585: Ok\n[01:33:56 AM] Ana Erazo: Kindly note that your account needs to be verified before we can update your phone number.\n[01:33:56 AM] Ana Erazo: Kindly note that your account needs to be verified before we can update your phone number.\n[01:34:44 AM] t3107116585: I tried to do that but it wants my number fixed before I can do that lol\n[01:34:44 AM] t3107116585: I tried to do that but it wants my number fixed before I can do that lol\n[01:35:04 AM] t3107116585: Can you just delete my account and I can start over\n[01:35:04 AM] t3107116585: Can you just delete my account and I can start over\n[01:35:59 AM] Ana Erazo: Kindly be aware that deleting the account is permanent, and you will not be able to open a new one afterward.\n[01:35:59 AM] Ana Erazo: Kindly be aware that deleting the account is permanent, and you will not be able to open a new one afterward.\n[01:36:55 AM] t3107116585: Ok so that's not an option so what can we do to fix the problem\n[01:36:55 AM] t3107116585: Ok so that's not an option so what can we do to fix the problem\n[01:37:48 AM] t3107116585: It won't let me finish verifying until my number issue is delt with\n[01:37:48 AM] t3107116585: It won't let me finish verifying until my number issue is delt with\n[01:37:56 AM] Ana Erazo: Kindly provide the phone number currently associated with your account, along with the new number you would like to update it to.\n[01:37:56 AM] Ana Erazo: Kindly provide the phone number currently associated with your account, along with the new number you would like to update it to.\n[01:38:34 AM] t3107116585: 12342287934 13305063792\n[01:38:34 AM] t3107116585: 12342287934 13305063792\n[01:38:58 AM] Ana Erazo: Thank you! one sec\n[01:38:58 AM] Ana Erazo: Thank you! one sec\n[01:40:42 AM] Ana Erazo: Hey! When registering your account and verifying your phone number, please enter only the 10 digits of your phone number — no need to add “+1” or just “1” at the beginning.\nFor example:\n\nCorrect: 5551234567\nIncorrect: +15551234567 or 15551234567\nThe system already recognizes the country code automatically, so entering only the 10 digits ensures your verification goes through smoothly.\nAny trouble with the verification? Let me know and I’ll help you right away!\n[01:40:42 AM] Ana Erazo: Hey! When registering your account and verifying your phone number, please enter only the 10 digits of your phone number — no need to add “+1” or just “1” at the beginning.\nFor example:\n\nCorrect: 5551234567\nIncorrect: +15551234567 or 15551234567\nThe system already recognizes the country code automatically, so entering only the 10 digits ensures your verification goes through smoothly.\nAny trouble with the verification? Let me know and I’ll help you right away!\n[01:41:11 AM] t3107116585: Ok\n[01:41:11 AM] t3107116585: Ok\n[01:41:33 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:41:33 AM] Ana Erazo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:41:48 AM] t3107116585: Ok will do thank you for helping\n[01:41:48 AM] t3107116585: Ok will do thank you for helping",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T01:44:45.160Z"
     }
   ]
 }
