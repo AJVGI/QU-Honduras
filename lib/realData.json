@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T21:04:44.166Z",
-  "total_chats": 586,
+  "scored_at": "2026-04-24T21:09:44.516Z",
+  "total_chats": 587,
   "total_agents": 26,
   "agents": [
     {
@@ -15747,11 +15747,56 @@
           "raw_transcript": "[04:47:09 AM] t8755546285: Full Name: t8755546285 Email Address: theodore.rozanek@live.com Subject / How can we help you?: Take a break\n[04:47:09 AM] t8755546285: Full Name: t8755546285 Email Address: theodore.rozanek@live.com Subject / How can we help you?: Take a break\n[04:47:29 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:47:29 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:49:37 AM] Oscar Zelaya: Thanks for reaching out.\nAs requested, we’ve applied a self-exclusion to your account.\nPlease keep in mind:\n• You will no longer be able to access your account for gameplay\n • The account cannot be reopened or reactivated during the self-exclusion period\n • This is a responsible gaming measure designed to support player safety and wellbeing\nWe understand this is an important decision, and we respect your request.\nIf you have any questions or need clarification about how self-exclusion works, feel free to reach out — we’re here to help.\n[04:49:37 AM] Oscar Zelaya: Thanks for reaching out.\nAs requested, we’ve applied a self-exclusion to your account.\nPlease keep in mind:\n• You will no longer be able to access your account for gameplay\n • The account cannot be reopened or reactivated during the self-exclusion period\n • This is a responsible gaming measure designed to support player safety and wellbeing\nWe understand this is an important decision, and we respect your request.\nIf you have any questions or need clarification about how self-exclusion works, feel free to reach out — we’re here to help.\n[04:49:59 AM] t8755546285: I just wanted a temporary break though\n[04:49:59 AM] t8755546285: I just wanted a temporary break though\n[04:50:00 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:50:00 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:50:11 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:50:11 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:51:51 AM] Oscar Zelaya: If you’d like to take a break, that’s absolutely fine \nJust reach out to us whenever you’re ready, and we’ll be happy to assist you in resuming your gameplay.\n[04:51:51 AM] Oscar Zelaya: If you’d like to take a break, that’s absolutely fine \nJust reach out to us whenever you’re ready, and we’ll be happy to assist you in resuming your gameplay.\n[04:52:09 AM] t8755546285: Ok thanks nathan\n[04:52:09 AM] t8755546285: Ok thanks nathan\n[04:52:26 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:52:26 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:52:31 AM] t8755546285: Nope\n[04:52:31 AM] t8755546285: Nope\n[04:53:09 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:53:09 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:54:44.382Z"
+        },
+        {
+          "chat_id": "2047784142602858496",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-24T21:08:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No proper greeting, only a 'one moment' acknowledgment before jumping into the closure message."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent clearly understood the self-exclusion request and acted appropriately without unnecessary probing given the sensitive nature."
+            },
+            "resolution": {
+              "score": 26,
+              "notes": "Account was permanently closed as requested with clear explanation of what this means, handled sensitively and appropriately for responsible gaming."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Empathetic, clear, and professional tone appropriate for a sensitive gambling problem closure, with good structure and bullet points."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "Perfect handling of responsible gaming request with permanent closure, no attempt to retain customer, and supportive messaging."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered well-wishes and invited feedback, but didn't explicitly offer further help or provide a formal closing statement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 80,
+          "grade": "B",
+          "summary": "Agent handled a sensitive self-exclusion request appropriately and professionally, permanently closing the account without resistance and providing clear, empathetic communication. The response was compliant with responsible gaming protocols and showed genuine care for the customer's wellbeing.",
+          "coaching_tip": "Add a brief warm greeting before the hold message to establish rapport, even in sensitive situations like self-exclusion requests.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[09:06:00 PM] t8811244417: Full Name: t8811244417 Email Address: Kirkpatrick.wood@gmail.com Subject / How can we help you?: Close account due to gambling problems\n[09:06:00 PM] t8811244417: Full Name: t8811244417 Email Address: Kirkpatrick.wood@gmail.com Subject / How can we help you?: Close account due to gambling problems\n[09:06:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:06:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:08:03 PM] Oscar Zelaya: Hey Kirkpatrick.wood , we’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n* You will no longer be able to access gameplay or reopen the account going forward\n* This measure is in place to support the safety and wellbeing of all our players\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.\n[09:08:03 PM] Oscar Zelaya: Hey Kirkpatrick.wood , we’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n* You will no longer be able to access gameplay or reopen the account going forward\n* This measure is in place to support the safety and wellbeing of all our players\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T21:09:44.016Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": -6
+      "trend": -5
     },
     {
       "id": "5805",
@@ -52978,6 +53023,51 @@
       "raw_transcript": "[08:54:45 PM] t9805129777: Full Name: t9805129777 Email Address: joed16343@gmail.com Subject / How can we help you?: Is my redemption still being processed?! It’s been well over the 24-48hr period. Here is my slip id 312205715867\n[08:54:45 PM] t9805129777: Full Name: t9805129777 Email Address: joed16343@gmail.com Subject / How can we help you?: Is my redemption still being processed?! It’s been well over the 24-48hr period. Here is my slip id 312205715867\n[08:55:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:55:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:55:51 PM] t9805129777: Okay thank you!\n[08:55:51 PM] t9805129777: Okay thank you!\n[08:58:46 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nyou redemption request status is till on new it didnt pass the first or secod approval yet , so you just need to wait t get the update on it , remember that you can check the status \no check where your redemption is at:\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\nYou'll see all your successful, pending, and cancelled requests right there!\n[08:58:46 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nyou redemption request status is till on new it didnt pass the first or secod approval yet , so you just need to wait t get the update on it , remember that you can check the status \no check where your redemption is at:\n1. Log in at www.jackpotdaily.com\n2. Click the \"Transaction\" tab in the left-hand sidebar\n3. Switch to the \"Redemption\" tab\nYou'll see all your successful, pending, and cancelled requests right there!\n[08:59:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:59:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[09:00:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[09:00:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T21:04:43.667Z"
+    },
+    {
+      "chat_id": "2047784142602858496",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-24T21:08:21.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No proper greeting, only a 'one moment' acknowledgment before jumping into the closure message."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent clearly understood the self-exclusion request and acted appropriately without unnecessary probing given the sensitive nature."
+        },
+        "resolution": {
+          "score": 26,
+          "notes": "Account was permanently closed as requested with clear explanation of what this means, handled sensitively and appropriately for responsible gaming."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Empathetic, clear, and professional tone appropriate for a sensitive gambling problem closure, with good structure and bullet points."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "Perfect handling of responsible gaming request with permanent closure, no attempt to retain customer, and supportive messaging."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered well-wishes and invited feedback, but didn't explicitly offer further help or provide a formal closing statement."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 80,
+      "grade": "B",
+      "summary": "Agent handled a sensitive self-exclusion request appropriately and professionally, permanently closing the account without resistance and providing clear, empathetic communication. The response was compliant with responsible gaming protocols and showed genuine care for the customer's wellbeing.",
+      "coaching_tip": "Add a brief warm greeting before the hold message to establish rapport, even in sensitive situations like self-exclusion requests.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[09:06:00 PM] t8811244417: Full Name: t8811244417 Email Address: Kirkpatrick.wood@gmail.com Subject / How can we help you?: Close account due to gambling problems\n[09:06:00 PM] t8811244417: Full Name: t8811244417 Email Address: Kirkpatrick.wood@gmail.com Subject / How can we help you?: Close account due to gambling problems\n[09:06:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:06:23 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:08:03 PM] Oscar Zelaya: Hey Kirkpatrick.wood , we’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n* You will no longer be able to access gameplay or reopen the account going forward\n* This measure is in place to support the safety and wellbeing of all our players\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.\n[09:08:03 PM] Oscar Zelaya: Hey Kirkpatrick.wood , we’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n* You will no longer be able to access gameplay or reopen the account going forward\n* This measure is in place to support the safety and wellbeing of all our players\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T21:09:44.016Z"
     }
   ]
 }
