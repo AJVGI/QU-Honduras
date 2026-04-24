@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T21:39:42.385Z",
-  "total_chats": 591,
+  "scored_at": "2026-04-24T21:49:48.597Z",
+  "total_chats": 592,
   "total_agents": 26,
   "agents": [
     {
@@ -24306,11 +24306,56 @@
           "raw_transcript": "[09:10:39 PM] t4206233039: Full Name: t4206233039 Email Address: albert0294montenegro@gmail.com Subject / How can we help you?: i invited 2 of my friends and im still waiting for my referral money\n[09:10:39 PM] t4206233039: Full Name: t4206233039 Email Address: albert0294montenegro@gmail.com Subject / How can we help you?: i invited 2 of my friends and im still waiting for my referral money\n[09:11:00 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:11:00 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:11:18 PM] t4206233039: thank you\n[09:11:18 PM] t4206233039: thank you\n[09:14:12 PM] t4206233039: thank you\n[09:14:12 PM] t4206233039: thank you\n[09:15:13 PM] Ludovicode Flores: Could share your email address with me please\n[09:15:13 PM] Ludovicode Flores: Could share your email address with me please\n[09:16:10 PM] t4206233039: albert0294montenegro@gmail.com\n[09:16:10 PM] t4206233039: albert0294montenegro@gmail.com\n[09:18:31 PM] Ludovicode Flores: Could share the email address of the persons you refer with me please\n[09:18:31 PM] Ludovicode Flores: Could share the email address of the persons you refer with me please\n[09:19:13 PM] t4206233039: hold on\n[09:19:13 PM] t4206233039: hold on\n[09:20:10 PM] t4206233039: Jonaz.riunite@gmail.com\n[09:20:10 PM] t4206233039: Jonaz.riunite@gmail.com\n[09:23:48 PM] t4206233039: Brayandanpiel@outlook.es\n[09:23:48 PM] t4206233039: Brayandanpiel@outlook.es\n[09:24:17 PM] t4206233039: i can send you the phone number as well if you need it too\n[09:24:17 PM] t4206233039: i can send you the phone number as well if you need it too\n[09:24:29 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[09:24:29 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[09:24:32 PM] Ludovicode Flores: Your friends have not yet created an account. I am sending you the steps so that they can follow them\n[09:24:32 PM] Ludovicode Flores: Your friends have not yet created an account. I am sending you the steps so that they can follow them\n[09:27:11 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[09:27:11 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[09:28:57 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[09:28:57 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T21:29:48.136Z"
+        },
+        {
+          "chat_id": "2047793549730476032",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-24T21:46:22.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped straight to 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about the login issue, error messages, device type, or what specifically was happening."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided generic troubleshooting steps that may help but didn't confirm if customer was using app vs browser or if solution worked."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Instructions were clear and detailed but overly lengthy for initial response without diagnosing the actual problem first."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, standard troubleshooting provided within appropriate boundaries."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed prematurely without waiting for customer confirmation that the issue was resolved or that they tried the steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided detailed troubleshooting steps but failed to greet the customer, ask diagnostic questions, or confirm resolution before closing. The response was generic and didn't address whether customer was using the app or browser despite customer specifically mentioning 'the app'.",
+          "coaching_tip": "Always start with a proper greeting, then ask clarifying questions about the specific issue before providing solutions—customer said 'app' but you gave browser instructions without confirming their platform first.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[09:43:23 PM] Customer: Full Name: Johanny toledo Email Address: johannytoledo1714@gmail.com Subject / How can we help you?: The app is not le me login in\n[09:43:23 PM] Customer: Full Name: Johanny toledo Email Address: johannytoledo1714@gmail.com Subject / How can we help you?: The app is not le me login in\n[09:43:34 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:43:34 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:44:46 PM] Ludovicode Flores: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots ( ) → Settings → Privacy & Security → Clear Browsing Data → select “All⋮\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots ( ) → Settings → Privacy, Search & Services → Clear Browsing Data → All⋯\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for you\n[09:44:46 PM] Ludovicode Flores: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots ( ) → Settings → Privacy & Security → Clear Browsing Data → select “All⋮\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots ( ) → Settings → Privacy, Search & Services → Clear Browsing Data → All⋯\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for you\n[09:45:30 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[09:45:30 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[09:46:20 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[09:46:20 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T21:49:48.097Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 9
+      "trend": 12
     },
     {
       "id": "5803",
@@ -53428,6 +53473,51 @@
       "raw_transcript": "[09:30:58 PM] Customer: Full Name: Daily Perez Luna Email Address: dailypl@yahoo.com Subject / How can we help you?: Por favor que problema hay cuando no me deja registrarme\n[09:30:58 PM] Customer: Full Name: Daily Perez Luna Email Address: dailypl@yahoo.com Subject / How can we help you?: Por favor que problema hay cuando no me deja registrarme\n[09:31:13 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:31:13 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[09:31:25 PM] Customer: It doesn't allow me to register, it gives me a warning\n[09:31:25 PM] Customer: It doesn't allow me to register, it gives me a warning\n[09:31:49 PM] Customer: Yes\n[09:31:49 PM] Oscar Zelaya: Hi Daily If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[09:31:49 PM] Customer: Yes\n[09:31:49 PM] Oscar Zelaya: Hi Daily If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[09:32:25 PM] Customer: I can't send you a photo\n[09:32:25 PM] Customer: I can't send you a photo\n[09:32:56 PM] Customer: IMG_8242.jpg\n[09:32:56 PM] Customer: IMG_8242.jpg\n[09:33:34 PM] Oscar Zelaya: Thank you for sharing the screenshot — please allow me a moment while I take a closer look\nI’ll be right back with an update, I appreciate your patience!\n[09:33:34 PM] Oscar Zelaya: Thank you for sharing the screenshot — please allow me a moment while I take a closer look\nI’ll be right back with an update, I appreciate your patience!\n[09:33:37 PM] Customer: It won't let me complete the registration after I add my phone number and the code\n[09:33:37 PM] Customer: It won't let me complete the registration after I add my phone number and the code\n[09:34:11 PM] Customer: Sure\n[09:34:11 PM] Customer: Sure\n[09:35:01 PM] Oscar Zelaya: When registering your account and verifying your phone number, please enter only the 10 digits of your phone number — no need to add “+1” or just “1” at the beginning.\nFor example:\n\n* Correct: 5551234567\n* Incorrect: +15551234567 or 15551234567\n\nThe system already recognizes the country code automatically, so entering only the 10 digits ensures your verification goes through smoothly.\nAny trouble with the verification? Let me know and I’ll help you right away!\n[09:35:01 PM] Oscar Zelaya: When registering your account and verifying your phone number, please enter only the 10 digits of your phone number — no need to add “+1” or just “1” at the beginning.\nFor example:\n\n* Correct: 5551234567\n* Incorrect: +15551234567 or 15551234567\n\nThe system already recognizes the country code automatically, so entering only the 10 digits ensures your verification goes through smoothly.\nAny trouble with the verification? Let me know and I’ll help you right away!\n[09:35:52 PM] Oscar Zelaya: Could you please try that option and let me know how it goes?\nI’ll be here to help with the next steps\n[09:35:52 PM] Oscar Zelaya: Could you please try that option and let me know how it goes?\nI’ll be here to help with the next steps\n[09:36:21 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[09:36:21 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[09:38:16 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[09:38:16 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T21:39:41.884Z"
+    },
+    {
+      "chat_id": "2047793549730476032",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-24T21:46:22.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped straight to 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions about the login issue, error messages, device type, or what specifically was happening."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided generic troubleshooting steps that may help but didn't confirm if customer was using app vs browser or if solution worked."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Instructions were clear and detailed but overly lengthy for initial response without diagnosing the actual problem first."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, standard troubleshooting provided within appropriate boundaries."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closed prematurely without waiting for customer confirmation that the issue was resolved or that they tried the steps."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 57,
+      "grade": "F",
+      "summary": "Agent provided detailed troubleshooting steps but failed to greet the customer, ask diagnostic questions, or confirm resolution before closing. The response was generic and didn't address whether customer was using the app or browser despite customer specifically mentioning 'the app'.",
+      "coaching_tip": "Always start with a proper greeting, then ask clarifying questions about the specific issue before providing solutions—customer said 'app' but you gave browser instructions without confirming their platform first.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[09:43:23 PM] Customer: Full Name: Johanny toledo Email Address: johannytoledo1714@gmail.com Subject / How can we help you?: The app is not le me login in\n[09:43:23 PM] Customer: Full Name: Johanny toledo Email Address: johannytoledo1714@gmail.com Subject / How can we help you?: The app is not le me login in\n[09:43:34 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:43:34 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:44:46 PM] Ludovicode Flores: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots ( ) → Settings → Privacy & Security → Clear Browsing Data → select “All⋮\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots ( ) → Settings → Privacy, Search & Services → Clear Browsing Data → All⋯\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for you\n[09:44:46 PM] Ludovicode Flores: No worries — a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots ( ) → Settings → Privacy & Security → Clear Browsing Data → select “All⋮\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots ( ) → Settings → Privacy, Search & Services → Clear Browsing Data → All⋯\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for you\n[09:45:30 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[09:45:30 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[09:46:20 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[09:46:20 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T21:49:48.097Z"
     }
   ]
 }
