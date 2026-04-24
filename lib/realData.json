@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T05:34:45.867Z",
-  "total_chats": 431,
+  "scored_at": "2026-04-24T05:40:02.734Z",
+  "total_chats": 434,
   "total_agents": 25,
   "agents": [
     {
@@ -6196,6 +6196,465 @@
       "trend": 8
     },
     {
+      "id": "5842",
+      "name": "Raul Figueroa",
+      "chats": [
+        {
+          "chat_id": "2045106983517597696",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-17T11:52:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, friendly greeting with clear offer to help."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Customer never responded after initial form submission, so no discovery was possible."
+            },
+            "resolution": {
+              "score": 15,
+              "notes": "No resolution possible due to customer non-response, but agent provided email alternative for follow-up."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout, appropriate check-in message sent."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, handled abandoned chat appropriately."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with clear alternative contact method provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled an abandoned chat appropriately with professional communication throughout. Customer submitted a form about welcome bonus but never engaged in the chat, leaving no opportunity for issue resolution.",
+          "coaching_tip": "Consider waiting 3-4 minutes before the inactivity warning, as 2 minutes may be too brief for customers who are multitasking.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[11:47:55 AM] t4493888305: Full Name: t4493888305 Email Address: kpatel1340@gmail.com Subject / How can we help you?: Welcome bonus\n[11:48:53 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[11:51:35 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[11:52:54 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:53:42.602Z"
+        },
+        {
+          "chat_id": "2045101163744636928",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-17T11:30:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into response without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions about the signup bonus or daily bonus issues mentioned by customer."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided vague explanation about team working on issue but no specifics, timeline, or verification of customer's account status."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Response was somewhat clear but lacked empathy for week-long wait and provided no actionable information or follow-up plan."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but made implicit promise that bonus will be credited without verifying customer eligibility or account details."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered friendly closing but did not ask if customer had other questions or provide alternative contact method for updates."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer and provided a generic response about bonuses being processed without investigating the specific account or asking clarifying questions. The resolution was vague with no timeline, verification, or concrete next steps for a customer waiting nearly a week.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, then investigate the specific account before providing generic responses about ongoing issues.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[11:24:48 AM] t4173393072: Full Name: t4173393072 Email Address: etalley1984@gmail.com Subject / How can we help you?: Hello, since I've signed up I have not gotten no sign up bonus if given and I have not been able to claim the daily bonus. I've been signed up for almost a week now\n[11:25:06 AM] t4173393072: Nope the suggested action did not work\n[11:26:34 AM] Raul Figueroa: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[11:30:03 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:55:08.335Z"
+        },
+        {
+          "chat_id": "2045094261597974528",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-17T11:02:50.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly greeting with empathy but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Understood the phone number conflict issue and identified it as a system/account linkage problem."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Correctly explained the issue and provided appropriate escalation path to support email, though could not resolve directly."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and professional with good explanation of the problem and next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately escalated without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and provided warm, friendly closing with well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent handled the phone number conflict issue professionally by explaining the likely cause and directing the customer to the appropriate support channel. Communication was clear and empathetic throughout, though the issue required escalation rather than direct resolution.",
+          "coaching_tip": "Use the customer's name (Shanna) in the greeting to create a more personalized connection from the start.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[10:57:22 AM] Customer: Full Name: SHANNA MARIE KIRKLAND Email Address: Shannakirkland1@gmail.com Subject / How can we help you?: Says my number already exists but im a new member just signing up and recently changed my number\n[10:58:27 AM] Raul Figueroa: Hey! I’m really sorry you’re running into this — I can see how confusing that is, especially as a new member.\n\nIf your phone number is showing as already in use, it may be linked to an existing account or previously registered in the system.\n\nSince this isn’t something that can be updated from your side during sign-up, the best next step is to contact support@jackpotdaily.com\n from your email and explain that you recently changed your number.\n\nThey’ll be able to check what’s linked to it and help get everything sorted so you can complete your registration.\n[10:59:48 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:02:45 AM] Raul Figueroa: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:55:59.580Z"
+        },
+        {
+          "chat_id": "2047269187843616768",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-23T11:00:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript; customer message only."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent interaction to assess issue discovery."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No agent response or resolution attempt provided."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent communication present in transcript."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent interaction to evaluate compliance."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as agent never responded."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "This transcript contains only the customer's initial inquiry with no agent response whatsoever. The customer submitted their question about the golden egg feature after KYC verification but received no reply.",
+          "coaching_tip": "This appears to be an incomplete transcript showing only customer input; ensure agents acknowledge and respond to all incoming customer inquiries promptly.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[10:59:45 AM] t4708444669: Full Name: t4708444669 Email Address: trishbarr2019@gmail.com Subject / How can we help you?: KYC said, my account has been verified. It's not giving me the option to smash the golden egg. Can you help ?\n[10:59:45 AM] t4708444669: Full Name: t4708444669 Email Address: trishbarr2019@gmail.com Subject / How can we help you?: KYC said, my account has been verified. It's not giving me the option to smash the golden egg. Can you help ?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T11:01:26.927Z"
+        },
+        {
+          "chat_id": "2047273912382566400",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-23T11:22:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with empathy and acknowledgment of frustration, though no personalized name use."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Understood the core issue about missing bonus after verification but didn't ask clarifying questions about timing or verification status."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided reasonable troubleshooting steps and performed a backend refresh, though resolution is pending customer action."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and empathetic communication with appropriate tone, though explanation could have been slightly more structured."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and set appropriate expectations about timing without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Warm closing with offer for further assistance and well-wishes for gameplay."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent handled the verification bonus issue competently with empathy and provided actionable troubleshooting steps including a backend refresh. Communication was professional and clear throughout with appropriate expectations set.",
+          "coaching_tip": "Ask clarifying questions about when verification was completed and current account status before providing solutions to ensure more targeted assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[11:18:31 AM] t9289381181: Full Name: t9289381181 Email Address: anesvanessa78@gmail.com Subject / How can we help you?: Hello ive already sent my verification and instill havent received my daily sign on bonus\n[11:18:31 AM] t9289381181: Full Name: t9289381181 Email Address: anesvanessa78@gmail.com Subject / How can we help you?: Hello ive already sent my verification and instill havent received my daily sign on bonus\n[11:19:13 AM] t9289381181: So do I have to wait on here\n[11:19:13 AM] t9289381181: So do I have to wait on here\n[11:19:35 AM] t9289381181: So do I have to wait on here?\n[11:19:35 AM] t9289381181: So do I have to wait on here?\n[11:20:29 AM] Raul Figueroa: Hey! I’m sorry about that — I understand how frustrating it is to complete verification and still not receive your daily sign-in bonus.\n\nIn some cases, there can be a slight delay after verification is submitted or completed before bonuses are applied. Please try to refresh the website after login out and login in back in, usually it takes about an hour, I have done a refresh so it can be less time.\n[11:20:29 AM] Raul Figueroa: Hey! I’m sorry about that — I understand how frustrating it is to complete verification and still not receive your daily sign-in bonus.\n\nIn some cases, there can be a slight delay after verification is submitted or completed before bonuses are applied. Please try to refresh the website after login out and login in back in, usually it takes about an hour, I have done a refresh so it can be less time.\n[11:21:59 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:21:59 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:22:07 AM] t9289381181: Thank you\n[11:22:07 AM] t9289381181: Thank you\n[11:22:48 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there! Have a great day!\n[11:22:48 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there! Have a great day!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T11:23:48.082Z"
+        },
+        {
+          "chat_id": "2047275112914579456",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-23T11:32:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly greeting with empathy but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent asked some clarifying questions but took time to understand the customer just created account and is having initial password issues."
+            },
+            "resolution": {
+              "score": 17,
+              "notes": "Provided troubleshooting steps and escalation path, but resolution unclear as customer issue wasn't fully diagnosed before chat ended."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Communication was somewhat confusing with grammatical errors and unclear phrasing that may have hindered understanding."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained limitations and directed to proper support channel."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No proper closing, agent did not confirm resolution, ask if more help needed, or say goodbye after customer's final 'Ok'."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided basic troubleshooting steps and escalation options but struggled with clear communication and issue discovery. The interaction lacked a proper closing and the agent didn't fully diagnose whether this was a new account setup issue versus a password reset problem.",
+          "coaching_tip": "Always provide a proper closing after the customer's last message - confirm next steps, ask if they need anything else, and thank them for contacting support before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "raw_transcript": "[11:23:18 AM] Customer: Full Name: Terry Mullins Email Address: tradercex45@gmail.com Subject / How can we help you?: It won't let me reset password\n[11:23:18 AM] Customer: Full Name: Terry Mullins Email Address: tradercex45@gmail.com Subject / How can we help you?: It won't let me reset password\n[11:24:38 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble resetting your password — I know that’s frustrating.\n\nA few things you can try:\n\n* Make sure you’re using the correct email linked to your account\n* Check your spam/junk folder for the reset email\n* Try requesting the reset again and wait a few minutes\n* Use a different browser or an incognito/private window\n\nIf it’s still not working, please reach out to support@jackpotdaily.com from your registered email so the team can help you regain access to your account.\n\nWe’ll get you back in\n[11:24:38 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble resetting your password — I know that’s frustrating.\n\nA few things you can try:\n\n* Make sure you’re using the correct email linked to your account\n* Check your spam/junk folder for the reset email\n* Try requesting the reset again and wait a few minutes\n* Use a different browser or an incognito/private window\n\nIf it’s still not working, please reach out to support@jackpotdaily.com from your registered email so the team can help you regain access to your account.\n\nWe’ll get you back in\n[11:24:53 AM] Customer: Just opened acct. And it said something wrong with password\n[11:24:53 AM] Customer: Just opened acct. And it said something wrong with password\n[11:26:08 AM] Raul Figueroa: Did the password met the requirements that ask you for to be valid? Like if it was long enough, if it included a capital letter or a special character.\n[11:26:08 AM] Raul Figueroa: Did the password met the requirements that ask you for to be valid? Like if it was long enough, if it included a capital letter or a special character.\n[11:26:40 AM] Customer: I believe so\n[11:26:40 AM] Customer: I believe so\n[11:26:56 AM] Raul Figueroa: Try to check because most of the times it can be that, since directly from here we are not able to set one for you since it will be personal for you.\n[11:26:56 AM] Raul Figueroa: Try to check because most of the times it can be that, since directly from here we are not able to set one for you since it will be personal for you.\n[11:27:02 AM] Customer: Its not sending reset code\n[11:27:02 AM] Customer: Its not sending reset code\n[11:27:41 AM] Customer: It sent the first time\n[11:27:41 AM] Customer: It sent the first time\n[11:27:52 AM] Raul Figueroa: Are you trying to send it to your phone number or email address? Since it will not let you to reset a password that you haven't created yet.\n[11:27:52 AM] Raul Figueroa: Are you trying to send it to your phone number or email address? Since it will not let you to reset a password that you haven't created yet.\n[11:28:06 AM] Customer: Email\n[11:28:06 AM] Customer: Email\n[11:29:08 AM] Customer: I did the email phone number it all went through\n[11:29:08 AM] Customer: I did the email phone number it all went through\n[11:30:15 AM] Raul Figueroa: Try to check the spam box also, it can be there, if doesn't let you to do it that way then you will need to logout and then do the \"Forgot password\" step in the login window.\n[11:30:15 AM] Raul Figueroa: Try to check the spam box also, it can be there, if doesn't let you to do it that way then you will need to logout and then do the \"Forgot password\" step in the login window.\n[11:31:41 AM] Customer: Ok\n[11:31:41 AM] Customer: Ok",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T11:34:08.401Z"
+        },
+        {
+          "chat_id": "2047276193853255680",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-23T11:32:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly greeting with empathy but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "No attempt to ask clarifying questions or discover specific error messages before providing generic troubleshooting."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps and escalation path but didn't verify if any steps worked or gather diagnostic details."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-structured response with empathy, though somewhat scripted and one-directional."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and appropriately directed to official support channel."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with clear next steps and friendly sign-off."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided a competent response with standard troubleshooting steps and proper escalation path, but failed to engage in any discovery dialogue with the customer. The interaction was entirely one-way with no attempt to understand the specific issue or confirm whether suggested solutions worked.",
+          "coaching_tip": "Before providing generic troubleshooting, ask at least one clarifying question about what error message they see or what happens when they try to log in to provide more targeted assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[11:27:35 AM] Customer: Full Name: Robert Morrison Email Address: robertron113@gmail.com Subject / How can we help you?: It's not letting me log in\n[11:27:35 AM] Customer: Full Name: Robert Morrison Email Address: robertron113@gmail.com Subject / How can we help you?: It's not letting me log in\n[11:28:58 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble logging in — I know that can be frustrating.\n\nA few things you can try:\n\n* Double-check your email and password (watch for typos or extra spaces)\n* Try resetting your password\n* Use a different browser or an incognito/private window\n* Clear your cache and cookies\n\nIf it’s still not letting you log in after that, please reach out to support@jackpotdaily.com from your registered email so the team can take a closer look and help you regain access.\n\nWe’ll get this sorted for you 👍\n[11:28:58 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble logging in — I know that can be frustrating.\n\nA few things you can try:\n\n* Double-check your email and password (watch for typos or extra spaces)\n* Try resetting your password\n* Use a different browser or an incognito/private window\n* Clear your cache and cookies\n\nIf it’s still not letting you log in after that, please reach out to support@jackpotdaily.com from your registered email so the team can take a closer look and help you regain access.\n\nWe’ll get this sorted for you 👍\n[11:30:36 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:30:36 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:32:01 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:32:01 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T11:34:18.168Z"
+        },
+        {
+          "chat_id": "2047283801217609728",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-23T12:00:19.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly informal greeting with empathy statement, though didn't use customer's actual name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about how long the redemption has been pending or gather account details to investigate."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided general information but redirected to email without attempting to check the actual status or timeframe of this specific redemption."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and empathetic explanation of general process, but could have been more personalized to the customer's specific situation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and appropriately directed customer to official support channel for account-specific issues."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with clear next steps and friendly sign-off, though closed after only 90 seconds without response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided a generic explanation of redemption processing times and redirected to email support without investigating the specific case. The interaction was professional but lacked personalization and proactive problem-solving.",
+          "coaching_tip": "Before redirecting to email, ask how long the redemption has been pending and attempt to look up the account status to provide specific information or set proper expectations.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[11:57:49 AM] t9418562809: Full Name: t9418562809 Email Address: shamonicathompson@gmail.com Subject / How can we help you?: Why is my redemption still pending?\n[11:57:49 AM] t9418562809: Full Name: t9418562809 Email Address: shamonicathompson@gmail.com Subject / How can we help you?: Why is my redemption still pending?\n[11:58:47 AM] Raul Figueroa: Hey! I understand — waiting on a redemption can be frustrating.\n\nRedemptions can stay in “pending” status for a bit while they go through processing and review. This can depend on factors like verification, volume, and the method selected.\n\nIn most cases, it takes a few business days to complete.\n\nIf it’s been longer than expected, feel free to reach out to support@jackpotdaily.com\n from your registered email so the team can check the status for you\n[11:58:47 AM] Raul Figueroa: Hey! I understand — waiting on a redemption can be frustrating.\n\nRedemptions can stay in “pending” status for a bit while they go through processing and review. This can depend on factors like verification, volume, and the method selected.\n\nIn most cases, it takes a few business days to complete.\n\nIf it’s been longer than expected, feel free to reach out to support@jackpotdaily.com\n from your registered email so the team can check the status for you\n[12:00:15 PM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:00:15 PM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:01:56.667Z"
+        },
+        {
+          "chat_id": "2047543823029809152",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-24T05:15:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, enthusiastic greeting with clear offer to help."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the customer wanted their second chance playback bonus but didn't ask clarifying questions about timing or eligibility."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Explained the automatic release process and timing variability but didn't provide specific timeframe or escalation option if bonus doesn't arrive."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with empathy shown, though could have been more specific about expected timing."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and appropriately didn't make unauthorized promises about bonus delivery."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, no offer for further assistance, and conversation appears incomplete."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided a competent response explaining the automatic bonus system and timing variability. However, the interaction lacks a proper closing and could have offered more specific guidance or follow-up options.",
+          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and provide a specific timeframe or action plan if the issue persists.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:11:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:11:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:11:39 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:11:39 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:11:51 AM] t0038884144: I want my second chance playback I'm supposed to get today so I can play that and be done\n[05:11:51 AM] t0038884144: I want my second chance playback I'm supposed to get today so I can play that and be done\n[05:13:24 AM] t0038884144: support agent\n[05:13:24 AM] t0038884144: support agent\n[05:13:36 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:13:36 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:14:33 AM] Raul Figueroa: Hey! I understand — I know you’re waiting on that second chance play.\n\nThese bonuses are usually released automatically, but timing can vary and they may not always arrive exactly at the same time for every account. So the best thing that you can do right now is refresh the account constantly and check the balance until is applied.\n[05:14:33 AM] Raul Figueroa: Hey! I understand — I know you’re waiting on that second chance play.\n\nThese bonuses are usually released automatically, but timing can vary and they may not always arrive exactly at the same time for every account. So the best thing that you can do right now is refresh the account constantly and check the balance until is applied.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T05:19:42.479Z"
+        },
+        {
+          "chat_id": "2047545315613949952",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-24T05:37:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and empathetic opening, though didn't use customer's name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent asked good clarifying questions about what was submitted and when, and discovered the discrepancy between email and account status."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent investigated the account status, identified the pending verification issue, and gathered information to understand the discrepancy, though final resolution unclear from truncated transcript."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic communication with good proactive updates during wait times."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Properly handled verification inquiry, requested email for lookup, and appropriately managed document submission guidelines."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript truncated before closing, cannot evaluate."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent provided a competent response to a verification status inquiry with good troubleshooting steps, empathetic communication, and appropriate follow-up questions. The agent successfully identified a discrepancy between the customer's email notification and actual account status, though the transcript cuts off before resolution is complete.",
+          "coaching_tip": "When customers mention receiving conflicting information (approved email vs pending status), immediately acknowledge the confusion and provide a clear timeline for when the discrepancy will be resolved.",
+          "website": "Jackpot Daily",
+          "message_count": 64,
+          "raw_transcript": "[05:16:59 AM] t6444932623: Full Name: t6444932623 Email Address: andriannahetrick21@gmail.com Subject / How can we help you?: Verification error\n[05:16:59 AM] t6444932623: Full Name: t6444932623 Email Address: andriannahetrick21@gmail.com Subject / How can we help you?: Verification error\n[05:17:21 AM] t6444932623: Ok\n[05:17:21 AM] t6444932623: Ok\n[05:17:53 AM] t6444932623: Verification error\n[05:17:53 AM] t6444932623: Verification error\n[05:18:25 AM] Raul Figueroa: Hey! I’m sorry you’re running into a verification error — I know that can be frustrating.\n\nA few quick things you can try:\n\nRefresh the page or log out and back in\nTry a different browser or an incognito/private window\nClear your cache and cookies, If this doesn't works please let me know the error in specific.\n[05:18:25 AM] Raul Figueroa: Hey! I’m sorry you’re running into a verification error — I know that can be frustrating.\n\nA few quick things you can try:\n\nRefresh the page or log out and back in\nTry a different browser or an incognito/private window\nClear your cache and cookies, If this doesn't works please let me know the error in specific.\n[05:20:23 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:20:23 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:20:46 AM] t6444932623: Ok I guess I would like to know my verification status\n[05:20:46 AM] t6444932623: Ok I guess I would like to know my verification status\n[05:21:15 AM] Raul Figueroa: Let me know your email address so I can look it up.\n[05:21:15 AM] Raul Figueroa: Let me know your email address so I can look it up.\n[05:21:43 AM] t6444932623: andriannahetrick21@gmail.com\n[05:21:43 AM] t6444932623: andriannahetrick21@gmail.com\n[05:22:09 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:22:09 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:22:29 AM] t6444932623: thank you\n[05:22:29 AM] t6444932623: thank you\n[05:24:13 AM] t6444932623: ok\n[05:24:13 AM] t6444932623: ok\n[05:24:18 AM] Raul Figueroa: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[05:24:18 AM] Raul Figueroa: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[05:24:26 AM] t6444932623: ya\n[05:24:26 AM] t6444932623: ya\n[05:27:38 AM] Raul Figueroa: What info did you submitted already to get your account verified? Because the status still appears me to be pending, also if you can let me know when was the day that you submitted the info.\n[05:27:38 AM] Raul Figueroa: What info did you submitted already to get your account verified? Because the status still appears me to be pending, also if you can let me know when was the day that you submitted the info.\n[05:28:06 AM] t6444932623: U\n[05:28:06 AM] t6444932623: U\n[05:28:21 AM] t6444932623: My id , proof of address or bank statement I think\n[05:28:21 AM] t6444932623: My id , proof of address or bank statement I think\n[05:29:53 AM] t6444932623: Am I able to send screenshots or photos ?\n[05:29:53 AM] t6444932623: Am I able to send screenshots or photos ?\n[05:30:02 AM] t6444932623: Of what I have received\n[05:30:02 AM] t6444932623: Of what I have received\n[05:30:35 AM] Raul Figueroa: In this chat you can sent screenshots but not the documents, please show me what you received.\n[05:30:35 AM] Raul Figueroa: In this chat you can sent screenshots but not the documents, please show me what you received.\n[05:31:13 AM] t6444932623: It doesn’t give me the option to\n[05:31:13 AM] t6444932623: It doesn’t give me the option to\n[05:33:04 AM] t6444932623: Well I got a email stating my account was approved for verification and that I’m able to accept different features but on my account it states it’s still pending\n[05:33:04 AM] t6444932623: Well I got a email stating my account was approved for verification and that I’m able to accept different features but on my account it states it’s still pending\n[05:33:14 AM] t6444932623: and this email was sent to me on the 19th\n[05:33:14 AM] t6444932623: and this email was sent to me on the 19th\n[05:33:48 AM] Raul Figueroa: Oh, let me check, because the info that you have sent at least it doesn't shows me over here.\n[05:33:48 AM] Raul Figueroa: Oh, let me check, because the info that you have sent at least it doesn't shows me over here.\n[05:33:57 AM] Raul Figueroa: Allow me a second to check on that.\n[05:33:57 AM] Raul Figueroa: Allow me a second to check on that.\n[05:34:04 AM] Raul Figueroa: To see if it's correct.\n[05:34:04 AM] Raul Figueroa: To see if it's correct.\n[05:34:43 AM] Raul Figueroa: If you received an email saying your verification was approved, that’s usually the most up-to-date status. Sometimes the account dashboard can take a bit longer to reflect the update.\n\nI’d recommend logging out and back in, or giving it a little time to sync.\n\nIf it still shows as pending after that, please reach out to support@jackpotdaily.com\n from your registered email so the team can take a closer look and update it for you\n[05:34:43 AM] Raul Figueroa: If you received an email saying your verification was approved, that’s usually the most up-to-date status. Sometimes the account dashboard can take a bit longer to reflect the update.\n\nI’d recommend logging out and back in, or giving it a little time to sync.\n\nIf it still shows as pending after that, please reach out to support@jackpotdaily.com\n from your registered email so the team can take a closer look and update it for you\n[05:35:07 AM] t6444932623: Dear User, Your submitted identity verification documents have been approved. You can now use the platform’s related features and services normally. Thank you for your cooperation and support. jkscu\n[05:35:07 AM] t6444932623: Dear User, Your submitted identity verification documents have been approved. You can now use the platform’s related features and services normally. Thank you for your cooperation and support. jkscu\n[05:35:26 AM] t6444932623: Jkscus1 *\n[05:35:26 AM] t6444932623: Jkscus1 *\n[05:35:32 AM] t6444932623: it’s what one email said\n[05:35:32 AM] t6444932623: it’s what one email said\n[05:35:49 AM] t6444932623: and the other one said\n[05:35:49 AM] t6444932623: and the other one said\n[05:35:53 AM] t6444932623: Dear User, You have successfully submitted your identity verification documents. We will review them as soon as possible. Please wait patiently for the result. Once the review is completed, you will be notified via internal message. jkscus1\n[05:35:53 AM] t6444932623: Dear User, You have successfully submitted your identity verification documents. We will review them as soon as possible. Please wait patiently for the result. Once the review is completed, you will be notified via internal message. jkscus1\n[05:36:59 AM] Raul Figueroa: Yes, seems like there was a delay or issue in the process of getting verified completely, like I said you can submit a ticket to the email address I attached before so they can take a deeper look on that, since what I see here it should be verified.\n[05:36:59 AM] Raul Figueroa: Yes, seems like there was a delay or issue in the process of getting verified completely, like I said you can submit a ticket to the email address I attached before so they can take a deeper look on that, since what I see here it should be verified.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T05:39:52.360Z"
+        }
+      ],
+      "avg_score": 57,
+      "grade": "F",
+      "trend": 12
+    },
+    {
       "id": "5847",
       "name": "Cairo Osorto",
       "chats": [
@@ -9056,420 +9515,6 @@
       "avg_score": 56,
       "grade": "F",
       "trend": -6
-    },
-    {
-      "id": "5842",
-      "name": "Raul Figueroa",
-      "chats": [
-        {
-          "chat_id": "2045106983517597696",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-17T11:52:58.000Z",
-          "categories": {
-            "greeting": {
-              "score": 8,
-              "notes": "Warm, friendly greeting with clear offer to help."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Customer never responded after initial form submission, so no discovery was possible."
-            },
-            "resolution": {
-              "score": 15,
-              "notes": "No resolution possible due to customer non-response, but agent provided email alternative for follow-up."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional throughout, appropriate check-in message sent."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, handled abandoned chat appropriately."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closing with clear alternative contact method provided."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent handled an abandoned chat appropriately with professional communication throughout. Customer submitted a form about welcome bonus but never engaged in the chat, leaving no opportunity for issue resolution.",
-          "coaching_tip": "Consider waiting 3-4 minutes before the inactivity warning, as 2 minutes may be too brief for customers who are multitasking.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[11:47:55 AM] t4493888305: Full Name: t4493888305 Email Address: kpatel1340@gmail.com Subject / How can we help you?: Welcome bonus\n[11:48:53 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[11:51:35 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[11:52:54 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:53:42.602Z"
-        },
-        {
-          "chat_id": "2045101163744636928",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-17T11:30:05.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped directly into response without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent did not ask any clarifying questions about the signup bonus or daily bonus issues mentioned by customer."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Provided vague explanation about team working on issue but no specifics, timeline, or verification of customer's account status."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Response was somewhat clear but lacked empathy for week-long wait and provided no actionable information or follow-up plan."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but made implicit promise that bonus will be credited without verifying customer eligibility or account details."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered friendly closing but did not ask if customer had other questions or provide alternative contact method for updates."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 49,
-          "grade": "F",
-          "summary": "Agent failed to greet the customer and provided a generic response about bonuses being processed without investigating the specific account or asking clarifying questions. The resolution was vague with no timeline, verification, or concrete next steps for a customer waiting nearly a week.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name, then investigate the specific account before providing generic responses about ongoing issues.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[11:24:48 AM] t4173393072: Full Name: t4173393072 Email Address: etalley1984@gmail.com Subject / How can we help you?: Hello, since I've signed up I have not gotten no sign up bonus if given and I have not been able to claim the daily bonus. I've been signed up for almost a week now\n[11:25:06 AM] t4173393072: Nope the suggested action did not work\n[11:26:34 AM] Raul Figueroa: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[11:30:03 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:55:08.335Z"
-        },
-        {
-          "chat_id": "2045094261597974528",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-17T11:02:50.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Friendly greeting with empathy but did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Understood the phone number conflict issue and identified it as a system/account linkage problem."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Correctly explained the issue and provided appropriate escalation path to support email, though could not resolve directly."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and professional with good explanation of the problem and next steps."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, appropriately escalated without making unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Offered further help and provided warm, friendly closing with well-wishes."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 73,
-          "grade": "C",
-          "summary": "Agent handled the phone number conflict issue professionally by explaining the likely cause and directing the customer to the appropriate support channel. Communication was clear and empathetic throughout, though the issue required escalation rather than direct resolution.",
-          "coaching_tip": "Use the customer's name (Shanna) in the greeting to create a more personalized connection from the start.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[10:57:22 AM] Customer: Full Name: SHANNA MARIE KIRKLAND Email Address: Shannakirkland1@gmail.com Subject / How can we help you?: Says my number already exists but im a new member just signing up and recently changed my number\n[10:58:27 AM] Raul Figueroa: Hey! I’m really sorry you’re running into this — I can see how confusing that is, especially as a new member.\n\nIf your phone number is showing as already in use, it may be linked to an existing account or previously registered in the system.\n\nSince this isn’t something that can be updated from your side during sign-up, the best next step is to contact support@jackpotdaily.com\n from your email and explain that you recently changed your number.\n\nThey’ll be able to check what’s linked to it and help get everything sorted so you can complete your registration.\n[10:59:48 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:02:45 AM] Raul Figueroa: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:55:59.580Z"
-        },
-        {
-          "chat_id": "2047269187843616768",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-23T11:00:03.000Z",
-          "categories": {
-            "greeting": {
-              "score": 0,
-              "notes": "No agent response present in transcript; customer message only."
-            },
-            "issue_discovery": {
-              "score": 0,
-              "notes": "No agent interaction to assess issue discovery."
-            },
-            "resolution": {
-              "score": 0,
-              "notes": "No agent response or resolution attempt provided."
-            },
-            "communication": {
-              "score": 0,
-              "notes": "No agent communication present in transcript."
-            },
-            "compliance": {
-              "score": 0,
-              "notes": "No agent interaction to evaluate compliance."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing provided as agent never responded."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 0,
-          "grade": "F",
-          "summary": "This transcript contains only the customer's initial inquiry with no agent response whatsoever. The customer submitted their question about the golden egg feature after KYC verification but received no reply.",
-          "coaching_tip": "This appears to be an incomplete transcript showing only customer input; ensure agents acknowledge and respond to all incoming customer inquiries promptly.",
-          "website": "Jackpot Daily",
-          "message_count": 2,
-          "raw_transcript": "[10:59:45 AM] t4708444669: Full Name: t4708444669 Email Address: trishbarr2019@gmail.com Subject / How can we help you?: KYC said, my account has been verified. It's not giving me the option to smash the golden egg. Can you help ?\n[10:59:45 AM] t4708444669: Full Name: t4708444669 Email Address: trishbarr2019@gmail.com Subject / How can we help you?: KYC said, my account has been verified. It's not giving me the option to smash the golden egg. Can you help ?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T11:01:26.927Z"
-        },
-        {
-          "chat_id": "2047273912382566400",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-23T11:22:57.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with empathy and acknowledgment of frustration, though no personalized name use."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Understood the core issue about missing bonus after verification but didn't ask clarifying questions about timing or verification status."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided reasonable troubleshooting steps and performed a backend refresh, though resolution is pending customer action."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and empathetic communication with appropriate tone, though explanation could have been slightly more structured."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and set appropriate expectations about timing without unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Warm closing with offer for further assistance and well-wishes for gameplay."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 71,
-          "grade": "C",
-          "summary": "Agent handled the verification bonus issue competently with empathy and provided actionable troubleshooting steps including a backend refresh. Communication was professional and clear throughout with appropriate expectations set.",
-          "coaching_tip": "Ask clarifying questions about when verification was completed and current account status before providing solutions to ensure more targeted assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[11:18:31 AM] t9289381181: Full Name: t9289381181 Email Address: anesvanessa78@gmail.com Subject / How can we help you?: Hello ive already sent my verification and instill havent received my daily sign on bonus\n[11:18:31 AM] t9289381181: Full Name: t9289381181 Email Address: anesvanessa78@gmail.com Subject / How can we help you?: Hello ive already sent my verification and instill havent received my daily sign on bonus\n[11:19:13 AM] t9289381181: So do I have to wait on here\n[11:19:13 AM] t9289381181: So do I have to wait on here\n[11:19:35 AM] t9289381181: So do I have to wait on here?\n[11:19:35 AM] t9289381181: So do I have to wait on here?\n[11:20:29 AM] Raul Figueroa: Hey! I’m sorry about that — I understand how frustrating it is to complete verification and still not receive your daily sign-in bonus.\n\nIn some cases, there can be a slight delay after verification is submitted or completed before bonuses are applied. Please try to refresh the website after login out and login in back in, usually it takes about an hour, I have done a refresh so it can be less time.\n[11:20:29 AM] Raul Figueroa: Hey! I’m sorry about that — I understand how frustrating it is to complete verification and still not receive your daily sign-in bonus.\n\nIn some cases, there can be a slight delay after verification is submitted or completed before bonuses are applied. Please try to refresh the website after login out and login in back in, usually it takes about an hour, I have done a refresh so it can be less time.\n[11:21:59 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:21:59 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:22:07 AM] t9289381181: Thank you\n[11:22:07 AM] t9289381181: Thank you\n[11:22:48 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there! Have a great day!\n[11:22:48 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there! Have a great day!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T11:23:48.082Z"
-        },
-        {
-          "chat_id": "2047275112914579456",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-23T11:32:11.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Friendly greeting with empathy but did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent asked some clarifying questions but took time to understand the customer just created account and is having initial password issues."
-            },
-            "resolution": {
-              "score": 17,
-              "notes": "Provided troubleshooting steps and escalation path, but resolution unclear as customer issue wasn't fully diagnosed before chat ended."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Communication was somewhat confusing with grammatical errors and unclear phrasing that may have hindered understanding."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately explained limitations and directed to proper support channel."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No proper closing, agent did not confirm resolution, ask if more help needed, or say goodbye after customer's final 'Ok'."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent provided basic troubleshooting steps and escalation options but struggled with clear communication and issue discovery. The interaction lacked a proper closing and the agent didn't fully diagnose whether this was a new account setup issue versus a password reset problem.",
-          "coaching_tip": "Always provide a proper closing after the customer's last message - confirm next steps, ask if they need anything else, and thank them for contacting support before ending the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 26,
-          "raw_transcript": "[11:23:18 AM] Customer: Full Name: Terry Mullins Email Address: tradercex45@gmail.com Subject / How can we help you?: It won't let me reset password\n[11:23:18 AM] Customer: Full Name: Terry Mullins Email Address: tradercex45@gmail.com Subject / How can we help you?: It won't let me reset password\n[11:24:38 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble resetting your password — I know that’s frustrating.\n\nA few things you can try:\n\n* Make sure you’re using the correct email linked to your account\n* Check your spam/junk folder for the reset email\n* Try requesting the reset again and wait a few minutes\n* Use a different browser or an incognito/private window\n\nIf it’s still not working, please reach out to support@jackpotdaily.com from your registered email so the team can help you regain access to your account.\n\nWe’ll get you back in\n[11:24:38 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble resetting your password — I know that’s frustrating.\n\nA few things you can try:\n\n* Make sure you’re using the correct email linked to your account\n* Check your spam/junk folder for the reset email\n* Try requesting the reset again and wait a few minutes\n* Use a different browser or an incognito/private window\n\nIf it’s still not working, please reach out to support@jackpotdaily.com from your registered email so the team can help you regain access to your account.\n\nWe’ll get you back in\n[11:24:53 AM] Customer: Just opened acct. And it said something wrong with password\n[11:24:53 AM] Customer: Just opened acct. And it said something wrong with password\n[11:26:08 AM] Raul Figueroa: Did the password met the requirements that ask you for to be valid? Like if it was long enough, if it included a capital letter or a special character.\n[11:26:08 AM] Raul Figueroa: Did the password met the requirements that ask you for to be valid? Like if it was long enough, if it included a capital letter or a special character.\n[11:26:40 AM] Customer: I believe so\n[11:26:40 AM] Customer: I believe so\n[11:26:56 AM] Raul Figueroa: Try to check because most of the times it can be that, since directly from here we are not able to set one for you since it will be personal for you.\n[11:26:56 AM] Raul Figueroa: Try to check because most of the times it can be that, since directly from here we are not able to set one for you since it will be personal for you.\n[11:27:02 AM] Customer: Its not sending reset code\n[11:27:02 AM] Customer: Its not sending reset code\n[11:27:41 AM] Customer: It sent the first time\n[11:27:41 AM] Customer: It sent the first time\n[11:27:52 AM] Raul Figueroa: Are you trying to send it to your phone number or email address? Since it will not let you to reset a password that you haven't created yet.\n[11:27:52 AM] Raul Figueroa: Are you trying to send it to your phone number or email address? Since it will not let you to reset a password that you haven't created yet.\n[11:28:06 AM] Customer: Email\n[11:28:06 AM] Customer: Email\n[11:29:08 AM] Customer: I did the email phone number it all went through\n[11:29:08 AM] Customer: I did the email phone number it all went through\n[11:30:15 AM] Raul Figueroa: Try to check the spam box also, it can be there, if doesn't let you to do it that way then you will need to logout and then do the \"Forgot password\" step in the login window.\n[11:30:15 AM] Raul Figueroa: Try to check the spam box also, it can be there, if doesn't let you to do it that way then you will need to logout and then do the \"Forgot password\" step in the login window.\n[11:31:41 AM] Customer: Ok\n[11:31:41 AM] Customer: Ok",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T11:34:08.401Z"
-        },
-        {
-          "chat_id": "2047276193853255680",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-23T11:32:11.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Friendly greeting with empathy but did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "No attempt to ask clarifying questions or discover specific error messages before providing generic troubleshooting."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided standard troubleshooting steps and escalation path but didn't verify if any steps worked or gather diagnostic details."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and well-structured response with empathy, though somewhat scripted and one-directional."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and appropriately directed to official support channel."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closing with clear next steps and friendly sign-off."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent provided a competent response with standard troubleshooting steps and proper escalation path, but failed to engage in any discovery dialogue with the customer. The interaction was entirely one-way with no attempt to understand the specific issue or confirm whether suggested solutions worked.",
-          "coaching_tip": "Before providing generic troubleshooting, ask at least one clarifying question about what error message they see or what happens when they try to log in to provide more targeted assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[11:27:35 AM] Customer: Full Name: Robert Morrison Email Address: robertron113@gmail.com Subject / How can we help you?: It's not letting me log in\n[11:27:35 AM] Customer: Full Name: Robert Morrison Email Address: robertron113@gmail.com Subject / How can we help you?: It's not letting me log in\n[11:28:58 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble logging in — I know that can be frustrating.\n\nA few things you can try:\n\n* Double-check your email and password (watch for typos or extra spaces)\n* Try resetting your password\n* Use a different browser or an incognito/private window\n* Clear your cache and cookies\n\nIf it’s still not letting you log in after that, please reach out to support@jackpotdaily.com from your registered email so the team can take a closer look and help you regain access.\n\nWe’ll get this sorted for you 👍\n[11:28:58 AM] Raul Figueroa: Hey! I’m sorry you’re having trouble logging in — I know that can be frustrating.\n\nA few things you can try:\n\n* Double-check your email and password (watch for typos or extra spaces)\n* Try resetting your password\n* Use a different browser or an incognito/private window\n* Clear your cache and cookies\n\nIf it’s still not letting you log in after that, please reach out to support@jackpotdaily.com from your registered email so the team can take a closer look and help you regain access.\n\nWe’ll get this sorted for you 👍\n[11:30:36 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:30:36 AM] Raul Figueroa: Let me know if anything else comes up — always happy to help!\n[11:32:01 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:32:01 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T11:34:18.168Z"
-        },
-        {
-          "chat_id": "2047283801217609728",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-23T12:00:19.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Friendly informal greeting with empathy statement, though didn't use customer's actual name."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask any clarifying questions about how long the redemption has been pending or gather account details to investigate."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided general information but redirected to email without attempting to check the actual status or timeframe of this specific redemption."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and empathetic explanation of general process, but could have been more personalized to the customer's specific situation."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and appropriately directed customer to official support channel for account-specific issues."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closing with clear next steps and friendly sign-off, though closed after only 90 seconds without response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 62,
-          "grade": "D",
-          "summary": "Agent provided a generic explanation of redemption processing times and redirected to email support without investigating the specific case. The interaction was professional but lacked personalization and proactive problem-solving.",
-          "coaching_tip": "Before redirecting to email, ask how long the redemption has been pending and attempt to look up the account status to provide specific information or set proper expectations.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[11:57:49 AM] t9418562809: Full Name: t9418562809 Email Address: shamonicathompson@gmail.com Subject / How can we help you?: Why is my redemption still pending?\n[11:57:49 AM] t9418562809: Full Name: t9418562809 Email Address: shamonicathompson@gmail.com Subject / How can we help you?: Why is my redemption still pending?\n[11:58:47 AM] Raul Figueroa: Hey! I understand — waiting on a redemption can be frustrating.\n\nRedemptions can stay in “pending” status for a bit while they go through processing and review. This can depend on factors like verification, volume, and the method selected.\n\nIn most cases, it takes a few business days to complete.\n\nIf it’s been longer than expected, feel free to reach out to support@jackpotdaily.com\n from your registered email so the team can check the status for you\n[11:58:47 AM] Raul Figueroa: Hey! I understand — waiting on a redemption can be frustrating.\n\nRedemptions can stay in “pending” status for a bit while they go through processing and review. This can depend on factors like verification, volume, and the method selected.\n\nIn most cases, it takes a few business days to complete.\n\nIf it’s been longer than expected, feel free to reach out to support@jackpotdaily.com\n from your registered email so the team can check the status for you\n[12:00:15 PM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:00:15 PM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:01:56.667Z"
-        },
-        {
-          "chat_id": "2047543823029809152",
-          "agent_name": "Raul Figueroa",
-          "agent_id": "5842",
-          "timestamp": "2026-04-24T05:15:02.000Z",
-          "categories": {
-            "greeting": {
-              "score": 8,
-              "notes": "Warm, enthusiastic greeting with clear offer to help."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Understood the customer wanted their second chance playback bonus but didn't ask clarifying questions about timing or eligibility."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Explained the automatic release process and timing variability but didn't provide specific timeframe or escalation option if bonus doesn't arrive."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional with empathy shown, though could have been more specific about expected timing."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and appropriately didn't make unauthorized promises about bonus delivery."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing statement, no offer for further assistance, and conversation appears incomplete."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent provided a competent response explaining the automatic bonus system and timing variability. However, the interaction lacks a proper closing and could have offered more specific guidance or follow-up options.",
-          "coaching_tip": "Always close the conversation by asking if there's anything else you can help with and provide a specific timeframe or action plan if the issue persists.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[05:11:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:11:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:11:39 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:11:39 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:11:51 AM] t0038884144: I want my second chance playback I'm supposed to get today so I can play that and be done\n[05:11:51 AM] t0038884144: I want my second chance playback I'm supposed to get today so I can play that and be done\n[05:13:24 AM] t0038884144: support agent\n[05:13:24 AM] t0038884144: support agent\n[05:13:36 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:13:36 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:14:33 AM] Raul Figueroa: Hey! I understand — I know you’re waiting on that second chance play.\n\nThese bonuses are usually released automatically, but timing can vary and they may not always arrive exactly at the same time for every account. So the best thing that you can do right now is refresh the account constantly and check the balance until is applied.\n[05:14:33 AM] Raul Figueroa: Hey! I understand — I know you’re waiting on that second chance play.\n\nThese bonuses are usually released automatically, but timing can vary and they may not always arrive exactly at the same time for every account. So the best thing that you can do right now is refresh the account constantly and check the balance until is applied.",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T05:19:42.479Z"
-        }
-      ],
-      "avg_score": 56,
-      "grade": "F",
-      "trend": 18
     },
     {
       "id": "5670",
@@ -18807,11 +18852,56 @@
           "raw_transcript": "[05:13:13 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[05:13:13 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[05:13:42 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:13:42 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:13:59 AM] t2515061554: Hello\n[05:13:59 AM] t2515061554: Hello\n[05:15:18 AM] Guillermo Mendoza: Hi Stephany youre contacting regarding your golden egg bonus correct\n[05:15:18 AM] Guillermo Mendoza: Hi Stephany youre contacting regarding your golden egg bonus correct\n[05:15:38 AM] t2515061554: Yes\n[05:15:38 AM] t2515061554: Yes\n[05:16:02 AM] Guillermo Mendoza: allright let me review your account and check the status of it\n[05:16:02 AM] Guillermo Mendoza: allright let me review your account and check the status of it\n[05:16:09 AM] t2515061554: Ok\n[05:16:09 AM] t2515061554: Ok\n[05:18:34 AM] t2515061554: Hello\n[05:18:34 AM] t2515061554: Hello\n[05:19:44 AM] t2515061554: It's fine have a good evening goodbye\n[05:19:44 AM] t2515061554: It's fine have a good evening goodbye",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T05:24:51.169Z"
+        },
+        {
+          "chat_id": "2047547883992690688",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T05:35:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting present, though slightly generic and repeated due to system duplication."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent asked how to help but customer only provided '2000' and 'Español' - issue never discovered before premature closure warning."
+            },
+            "resolution": {
+              "score": 5,
+              "notes": "No resolution attempted; agent warned of chat closure after customer requested Spanish without waiting for customer to explain their issue."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent switched to Spanish appropriately but gave customer insufficient time to respond before threatening closure."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, handled language request appropriately."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "Abrupt closure warning after only 3 minutes with no issue addressed or proper farewell."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 37,
+          "grade": "F",
+          "summary": "Agent greeted professionally and switched to Spanish when requested, but failed to discover the actual issue. The chat was prematurely closed with a 2-minute warning before the customer could explain what '2000' meant or state their problem.",
+          "coaching_tip": "After switching languages or when customers provide unclear information like '2000', ask specific clarifying questions and allow adequate response time (at least 5-7 minutes of inactivity) before warning about chat closure.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:27:11 AM] Customer: Full Name: JUAN DANIEL MATINEZ MIRANDA Email Address: juandanielmartinezmiranda7@gmail.com Subject / How can we help you?: 2000\n[05:27:11 AM] Customer: Full Name: JUAN DANIEL MATINEZ MIRANDA Email Address: juandanielmartinezmiranda7@gmail.com Subject / How can we help you?: 2000\n[05:27:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:27:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:29:04 AM] Guillermo Mendoza: Hi Good night can you tell me how can i help you\n[05:29:04 AM] Guillermo Mendoza: Hi Good night can you tell me how can i help you\n[05:29:08 AM] Customer: Español\n[05:29:08 AM] Customer: Español\n[05:29:34 AM] Guillermo Mendoza: si buena noches bienvenido a sporte por chat como le puedo ayudar el dia de hoy\n[05:29:34 AM] Guillermo Mendoza: si buena noches bienvenido a sporte por chat como le puedo ayudar el dia de hoy\n[05:32:46 AM] Guillermo Mendoza: If no more question chat closes in 2 minutes\n[05:32:46 AM] Guillermo Mendoza: If no more question chat closes in 2 minutes",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T05:40:02.233Z"
         }
       ],
-      "avg_score": 50,
+      "avg_score": 49,
       "grade": "F",
-      "trend": 4
+      "trend": -12
     },
     {
       "id": "5838",
@@ -18864,240 +18954,6 @@
         }
       ],
       "avg_score": 45,
-      "grade": "F",
-      "trend": 0
-    },
-    {
-      "id": "5839",
-      "name": "Ariel Lanza",
-      "chats": [
-        {
-          "chat_id": "2045110283830657024",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T12:17:17.000Z",
-          "categories": {
-            "greeting": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "issue_discovery": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "resolution": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "communication": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "compliance": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            }
-          },
-          "auto_fail": {
-            "triggered": true,
-            "reason": "Agent completely failed to respond to customer who waited and provided extensive documentation about a 2-week-old escalated issue."
-          },
-          "total_score": 0,
-          "grade": "F",
-          "summary": "This transcript shows only customer messages with no agent response whatsoever, despite the customer waiting, providing multiple screenshots, and expressing significant frustration about an unresolved referral credit issue spanning two weeks. The complete absence of agent engagement represents a critical service failure.",
-          "coaching_tip": "Ensure agents acknowledge customers immediately upon chat initiation and provide status updates if research time is needed - never leave a customer without any response.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[12:01:02 PM] t3899252970: Full Name: t3899252970 Email Address: manda81874@gmail.com Subject / How can we help you?: I'm looking for an update on my submitted revelation ticket 2 days ago? I was assured as you should see several times I'd get a response to my issue going on 2 weeks now\n[12:04:21 PM] t3899252970: IMG_20260417_070233.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070231.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070228.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070220.jpg\n[12:04:21 PM] t3899252970: Screenshot_20260415-131733.png\n[12:04:22 PM] t3899252970: IMG_20260417_070239.jpg\n[12:04:22 PM] t3899252970: IMG_20260417_070236.jpg\n[12:05:46 PM] t3899252970: Over and over again my referrals have been confirmed and I've been told my situation is being escalated several times and that I will be credited for my missing referrals that were prior to your guys's glitch or breakdown of your referral system over a week ago I've been told to contact support via email which I did 9 days ago with no response. Still to this day and chat support is the only thing I can get to answer and as you can see from my previous history I am consistently being given a runaround absolutely everyday that I contact about it. I will now be filing a report with the gaming console but I will continue to bother you guys every single day about what I am owed and I will not be promoting to your site until my issue is resolved",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:52:54.112Z"
-        },
-        {
-          "chat_id": "2045107204351688704",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:56:30.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with only agent name, no warmth or acknowledgment of customer frustration."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Asked about error message but didn't fully explore timeline or what documents were already submitted before providing generic response."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided generic troubleshooting then deflected to email ticket without attempting to check account status or provide specific help."
-            },
-            "communication": {
-              "score": 10,
-              "notes": "Copy-pasted long generic response that didn't address customer's specific situation, inconsistent messaging about next steps."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but escalation process could have been handled more appropriately given customer frustration."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing whatsoever, conversation ended abruptly after customer questioned why agent couldn't help directly."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent provided generic troubleshooting information without investigating the specific account situation, then deflected to email support multiple times despite customer expressing all-day frustration. The interaction lacked personalization, empathy, and proactive problem-solving.",
-          "coaching_tip": "Before providing generic responses or escalating, check the customer's account status and document submission history to provide specific, personalized guidance and show you're actively trying to help.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[11:48:48 AM] t0695532386: Full Name: t0695532386 Email Address: suzannecampbell804@gmail.com Subject / How can we help you?: There's no way it takes this long to verify somebody\n[11:49:18 AM] t0695532386: Ok I just submitted another document with my address on it\n[11:49:32 AM] Ariel Lanza: Hi this Ariel\n[11:49:38 AM] t0695532386: Can we please verify me now\n[11:49:41 AM] t0695532386: Hi\n[11:49:49 AM] Ariel Lanza: Tell me what is the error message youre receiving?\n[11:50:08 AM] t0695532386: Im not verified\n[11:50:36 AM] t0695532386: So I sent another form with my address just now\n[11:51:41 AM] Ariel Lanza: Sorry to hear your verification didn't go through\n— no worries, let's sort it out together!\nThe most common reasons are:\n- Blurry or unclear photos — all text and corners need to be fully readable\n- Mismatched info — name, date of birth, or address must match your account\nexactly\n- Expired or invalid documents — we need a current, government-issued ID\nYou should have also received an email with the specific reason. Once that's clear,\njust resubmit and we'll process it quickly!\nAlso — in some cases our verification system (Socure) may send you a secure link to upload your documents directly. If you get that link, it's completely safe to use. Just\nclick it, follow the steps, and upload your ID and selfie.\nNot sure what to resubmit or having trouble with the link? Let me know and I'll guide\nyou through it!\n[11:52:11 AM] t0695532386: I did resubmit\n[11:52:24 AM] Ariel Lanza: try with a different browser\n[11:52:52 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:52:59 AM] t0695532386: The email asked for a document with my address on it so I just sent that\n[11:53:17 AM] t0695532386: And I just did that exactly\n[11:53:35 AM] Ariel Lanza: how long been since you send it?\n[11:53:59 AM] t0695532386: Before I started this conversation\n[11:54:38 AM] Ariel Lanza: since you just uppload it you need to wait up a 2 hours time frame for the system can update it\n[11:55:06 AM] t0695532386: I've been trying to get verified ALL day\n[11:55:22 AM] Ariel Lanza: please submit a ticket\n[11:55:48 AM] t0695532386: Isn't this why your here to talk to",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:53:33.340Z"
-        },
-        {
-          "chat_id": "2045104476477030400",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:46:27.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting present, jumped directly to apology and instructions without acknowledging customer by name or welcoming them."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the document verification issue but did not ask clarifying questions or confirm understanding of the specific problem."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided a valid escalation path via email with clear instructions, but did not attempt any immediate troubleshooting or check account status first."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Instructions were clear and structured, but the opening apology fragment appears incomplete and communication lacked warmth or empathy."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed customer to proper escalation channel without making unauthorized promises."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "No closing statement, farewell, or offer of further assistance provided after giving instructions."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent provided valid escalation instructions for a document verification issue but failed to include a proper greeting or closing. Communication was functional but lacked warmth and the agent missed an opportunity to check the account or provide immediate assistance.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name and close by confirming understanding and offering further help before ending the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[11:37:58 AM] Customer: Full Name: Sidiq-Ibrahim Ishmail Sesay Email Address: sdqybrm@gmail.com Subject / How can we help you?: My phone number is fine it's the last section the identity verification it asked for proof of address. I sent the wrong file and it's stuck on that status for review\n[11:38:22 AM] Customer: Screenshot_20260417-073731.png\n[11:38:41 AM] Customer: The screen I run into\n[11:38:56 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:54:04.059Z"
-        },
-        {
-          "chat_id": "2045101415343947776",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:37:58.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Basic greeting with name but minimal warmth and contained a typo ('apologyze')."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Understood the location verification issue and requested a screenshot for proper diagnosis."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided reasonable troubleshooting steps (different browser/device) but closed chat before customer could respond to solution."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and professional but had spelling errors and closed chat prematurely after only 6 minutes."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closed abruptly due to no response after only 6 minutes without proper closing or escalation offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent correctly identified the issue and provided reasonable troubleshooting steps but closed the chat too quickly (6 minutes) before allowing adequate time for the customer to test the solution. Communication was functional but contained spelling errors and lacked patience.",
-          "coaching_tip": "Wait at least 10-15 minutes before closing due to inactivity, especially after providing troubleshooting steps that require the customer to take action and test solutions.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[11:25:48 AM] Customer: Full Name: James Oliver Email Address: oliver21221@gmail.com Subject / How can we help you?: My location is on but it’s telling me it’s not and won’t let me sign up.\n[11:26:29 AM] Ariel Lanza: Hi this is Ariel.\nI do apologyze for the inconvenience\n[11:26:38 AM] Ariel Lanza: can you please send me a screenshot\n[11:27:30 AM] Customer: IMG_1725.png\n[11:28:07 AM] Ariel Lanza: thanks for the picture!\n[11:28:29 AM] Ariel Lanza: lets try something.\nplease try with a different browser\n[11:28:51 AM] Ariel Lanza: or a different device\n[11:33:42 AM] Ariel Lanza: are you still with me?\n[11:35:11 AM] Ariel Lanza: I will have to close this chat due to no response\nThanks for reaching",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:54:46.858Z"
-        },
-        {
-          "chat_id": "2045096201979265024",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:23:31.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent failed to properly understand the customer's issue about a returned deposit and provided irrelevant withdrawal information instead."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Agent gave contradictory advice (wait 2 hours, check different browser, submit ticket) without addressing the core issue of where the returned money went."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Multiple typos ('houras', incomplete sentence '-do apologize'), unclear instructions, and disjointed responses that confused rather than clarified."
-            },
-            "compliance": {
-              "score": 7,
-              "notes": "No major violations but the handling was substandard and the escalation process was appropriate though delayed."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Offered further help but did so prematurely without resolving or properly addressing the customer's concern about their missing funds."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 43,
-          "grade": "F",
-          "summary": "Agent completely misunderstood the customer's issue about a returned deposit and provided irrelevant withdrawal information. Communication was poor with typos and contradictory instructions that failed to address where the customer's money went.",
-          "coaching_tip": "Read the customer's issue carefully before responding - this was about a returned deposit, not a withdrawal request, and required account investigation not generic withdrawal templates.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[11:05:05 AM] t5210780353: Full Name: t5210780353 Email Address: catd71955@gmail.com Subject / How can we help you?: I just checked my email and the direct deposit to my account was tried to be applied, but the bank sent the hundred dollars back to where it came from but it’s not on my account on the game either so where is my money?\n[11:05:52 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[11:07:43 AM] Ariel Lanza: OPTIONS TO REDEEM, WITH THE CARD WE ARE HAVING ISSUES\nSounds like you're ready to cash out!\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this issue as soon as possible.\nIn the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nYou'll need at least 100 Sweepstakes Coins that have been played through\nIf you have any questions during the process, I'm right here to help!\n[11:10:24 AM] t5210780353: IMG_0011.png\n[11:10:35 AM] t5210780353: They sent the money back\n[11:11:13 AM] Ariel Lanza: lets wait up to 2 houras to be update and be posted on the account again\n[11:11:54 AM] Ariel Lanza: -do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:12:27 AM] t5210780353: The transaction was at 1 am\n[11:14:25 AM] Ariel Lanza: try to check on a different browser\n[11:14:38 AM] Ariel Lanza: in case you cant see it please submit a ticket\n[11:18:46 AM] Ariel Lanza: is there anything else I can assist you with?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:55:18.464Z"
-        }
-      ],
-      "avg_score": 42,
       "grade": "F",
       "trend": 0
     },
@@ -19374,11 +19230,290 @@
           "raw_transcript": "[05:12:37 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[05:12:37 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T05:14:40.952Z"
+        },
+        {
+          "chat_id": "2047546186682810368",
+          "agent_name": "Daniel Padilla",
+          "agent_id": "5804",
+          "timestamp": "2026-04-24T05:36:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to help, though generic without customer name usage."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent identified the Facebook login issue but didn't ask clarifying questions about alternative access methods until customer volunteered the information."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent acknowledged known issue but provided no concrete solution for customer who has no alternative login method, only vague 24-48 hour timeline."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and empathetic language with appropriate apologies, though somewhat repetitive across multiple messages."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, appropriately escalated known technical issue."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Message appears truncated with no proper closing or confirmation that customer's concern was addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent professionally acknowledged a known Facebook login issue but failed to provide actionable resolution for a customer with no alternative access method. The interaction lacked proactive problem-solving and ended with an incomplete, truncated message.",
+          "coaching_tip": "When a customer has no alternative login method during a known outage, proactively offer to set up password reset or email login rather than just asking them to wait 24-48 hours without access.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[05:20:27 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:20:27 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:21:33 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:21:33 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:23:34 AM] Daniel Padilla: Thank you for reaching out to us! \nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\nWarm regards,\nThe Jackpot Daily Team\n[05:23:34 AM] Daniel Padilla: Thank you for reaching out to us! \nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\nWarm regards,\nThe Jackpot Daily Team\n[05:24:14 AM] Customer: Help please\n[05:24:14 AM] Customer: Help please\n[05:26:23 AM] Customer: Ok\n[05:26:23 AM] Customer: Ok\n[05:27:08 AM] Daniel Padilla: I’m really sorry for the inconvenience this may be causing. At the moment, the login feature through Facebook is temporarily unavailable.\n\nWe understand how frustrating this can be, especially when you’re trying to access your account quickly. Our team is already aware of the situation and working to resolve it as soon as possible.\n\nIn the meantime, if you have another login method available, we recommend using it to access your account. If not, please let us know—we’ll be more than happy to assist you further.\n\nWe will also make sure to let you know as soon as this feature becomes available again.\n\nWe truly appreciate your patience and understanding.\n[05:27:08 AM] Daniel Padilla: I’m really sorry for the inconvenience this may be causing. At the moment, the login feature through Facebook is temporarily unavailable.\n\nWe understand how frustrating this can be, especially when you’re trying to access your account quickly. Our team is already aware of the situation and working to resolve it as soon as possible.\n\nIn the meantime, if you have another login method available, we recommend using it to access your account. If not, please let us know—we’ll be more than happy to assist you further.\n\nWe will also make sure to let you know as soon as this feature becomes available again.\n\nWe truly appreciate your patience and understanding.\n[05:28:03 AM] Customer: I do not have another log in method\n[05:28:03 AM] Customer: I do not have another log in method\n[05:30:46 AM] Daniel Padilla: Please accept our sincere apologies for the inconvenience with the login method.\n\nWe understand how important it is to access your account without issues, and we truly regret the trouble this may be causing. Our team is currently working on this, and we will provide you with an update within the next 24–48 hours.\n\nWe really appreciate your patience and understanding in the meantime. If there’s anything else we can assist you with, please don’t hesitate to let us know.\n[05:30:46 AM] Daniel Padilla: Please accept our sincere apologies for the inconvenience with the login method.\n\nWe understand how important it is to access your account without issues, and we truly regret the trouble this may be causing. Our team is currently working on this, and we will provide you with an update within the next 24–48 hours.\n\nWe really appreciate your patience and understanding in the meantime. If there’s anything else we can assist you with, please don’t hesitate to let us know.\n[05:33:51 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[05:33:51 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[05:36:29 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:36:29 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T05:39:41.776Z"
         }
       ],
-      "avg_score": 41,
+      "avg_score": 44,
       "grade": "F",
-      "trend": 3
+      "trend": 34
+    },
+    {
+      "id": "5839",
+      "name": "Ariel Lanza",
+      "chats": [
+        {
+          "chat_id": "2045110283830657024",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T12:17:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            }
+          },
+          "auto_fail": {
+            "triggered": true,
+            "reason": "Agent completely failed to respond to customer who waited and provided extensive documentation about a 2-week-old escalated issue."
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "This transcript shows only customer messages with no agent response whatsoever, despite the customer waiting, providing multiple screenshots, and expressing significant frustration about an unresolved referral credit issue spanning two weeks. The complete absence of agent engagement represents a critical service failure.",
+          "coaching_tip": "Ensure agents acknowledge customers immediately upon chat initiation and provide status updates if research time is needed - never leave a customer without any response.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[12:01:02 PM] t3899252970: Full Name: t3899252970 Email Address: manda81874@gmail.com Subject / How can we help you?: I'm looking for an update on my submitted revelation ticket 2 days ago? I was assured as you should see several times I'd get a response to my issue going on 2 weeks now\n[12:04:21 PM] t3899252970: IMG_20260417_070233.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070231.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070228.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070220.jpg\n[12:04:21 PM] t3899252970: Screenshot_20260415-131733.png\n[12:04:22 PM] t3899252970: IMG_20260417_070239.jpg\n[12:04:22 PM] t3899252970: IMG_20260417_070236.jpg\n[12:05:46 PM] t3899252970: Over and over again my referrals have been confirmed and I've been told my situation is being escalated several times and that I will be credited for my missing referrals that were prior to your guys's glitch or breakdown of your referral system over a week ago I've been told to contact support via email which I did 9 days ago with no response. Still to this day and chat support is the only thing I can get to answer and as you can see from my previous history I am consistently being given a runaround absolutely everyday that I contact about it. I will now be filing a report with the gaming console but I will continue to bother you guys every single day about what I am owed and I will not be promoting to your site until my issue is resolved",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:52:54.112Z"
+        },
+        {
+          "chat_id": "2045107204351688704",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:56:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with only agent name, no warmth or acknowledgment of customer frustration."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked about error message but didn't fully explore timeline or what documents were already submitted before providing generic response."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic troubleshooting then deflected to email ticket without attempting to check account status or provide specific help."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Copy-pasted long generic response that didn't address customer's specific situation, inconsistent messaging about next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but escalation process could have been handled more appropriately given customer frustration."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing whatsoever, conversation ended abruptly after customer questioned why agent couldn't help directly."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided generic troubleshooting information without investigating the specific account situation, then deflected to email support multiple times despite customer expressing all-day frustration. The interaction lacked personalization, empathy, and proactive problem-solving.",
+          "coaching_tip": "Before providing generic responses or escalating, check the customer's account status and document submission history to provide specific, personalized guidance and show you're actively trying to help.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[11:48:48 AM] t0695532386: Full Name: t0695532386 Email Address: suzannecampbell804@gmail.com Subject / How can we help you?: There's no way it takes this long to verify somebody\n[11:49:18 AM] t0695532386: Ok I just submitted another document with my address on it\n[11:49:32 AM] Ariel Lanza: Hi this Ariel\n[11:49:38 AM] t0695532386: Can we please verify me now\n[11:49:41 AM] t0695532386: Hi\n[11:49:49 AM] Ariel Lanza: Tell me what is the error message youre receiving?\n[11:50:08 AM] t0695532386: Im not verified\n[11:50:36 AM] t0695532386: So I sent another form with my address just now\n[11:51:41 AM] Ariel Lanza: Sorry to hear your verification didn't go through\n— no worries, let's sort it out together!\nThe most common reasons are:\n- Blurry or unclear photos — all text and corners need to be fully readable\n- Mismatched info — name, date of birth, or address must match your account\nexactly\n- Expired or invalid documents — we need a current, government-issued ID\nYou should have also received an email with the specific reason. Once that's clear,\njust resubmit and we'll process it quickly!\nAlso — in some cases our verification system (Socure) may send you a secure link to upload your documents directly. If you get that link, it's completely safe to use. Just\nclick it, follow the steps, and upload your ID and selfie.\nNot sure what to resubmit or having trouble with the link? Let me know and I'll guide\nyou through it!\n[11:52:11 AM] t0695532386: I did resubmit\n[11:52:24 AM] Ariel Lanza: try with a different browser\n[11:52:52 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:52:59 AM] t0695532386: The email asked for a document with my address on it so I just sent that\n[11:53:17 AM] t0695532386: And I just did that exactly\n[11:53:35 AM] Ariel Lanza: how long been since you send it?\n[11:53:59 AM] t0695532386: Before I started this conversation\n[11:54:38 AM] Ariel Lanza: since you just uppload it you need to wait up a 2 hours time frame for the system can update it\n[11:55:06 AM] t0695532386: I've been trying to get verified ALL day\n[11:55:22 AM] Ariel Lanza: please submit a ticket\n[11:55:48 AM] t0695532386: Isn't this why your here to talk to",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:53:33.340Z"
+        },
+        {
+          "chat_id": "2045104476477030400",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:46:27.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting present, jumped directly to apology and instructions without acknowledging customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the document verification issue but did not ask clarifying questions or confirm understanding of the specific problem."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided a valid escalation path via email with clear instructions, but did not attempt any immediate troubleshooting or check account status first."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Instructions were clear and structured, but the opening apology fragment appears incomplete and communication lacked warmth or empathy."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed customer to proper escalation channel without making unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No closing statement, farewell, or offer of further assistance provided after giving instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent provided valid escalation instructions for a document verification issue but failed to include a proper greeting or closing. Communication was functional but lacked warmth and the agent missed an opportunity to check the account or provide immediate assistance.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name and close by confirming understanding and offering further help before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[11:37:58 AM] Customer: Full Name: Sidiq-Ibrahim Ishmail Sesay Email Address: sdqybrm@gmail.com Subject / How can we help you?: My phone number is fine it's the last section the identity verification it asked for proof of address. I sent the wrong file and it's stuck on that status for review\n[11:38:22 AM] Customer: Screenshot_20260417-073731.png\n[11:38:41 AM] Customer: The screen I run into\n[11:38:56 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:54:04.059Z"
+        },
+        {
+          "chat_id": "2045101415343947776",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:37:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Basic greeting with name but minimal warmth and contained a typo ('apologyze')."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the location verification issue and requested a screenshot for proper diagnosis."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided reasonable troubleshooting steps (different browser/device) but closed chat before customer could respond to solution."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional but had spelling errors and closed chat prematurely after only 6 minutes."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed abruptly due to no response after only 6 minutes without proper closing or escalation offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent correctly identified the issue and provided reasonable troubleshooting steps but closed the chat too quickly (6 minutes) before allowing adequate time for the customer to test the solution. Communication was functional but contained spelling errors and lacked patience.",
+          "coaching_tip": "Wait at least 10-15 minutes before closing due to inactivity, especially after providing troubleshooting steps that require the customer to take action and test solutions.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[11:25:48 AM] Customer: Full Name: James Oliver Email Address: oliver21221@gmail.com Subject / How can we help you?: My location is on but it’s telling me it’s not and won’t let me sign up.\n[11:26:29 AM] Ariel Lanza: Hi this is Ariel.\nI do apologyze for the inconvenience\n[11:26:38 AM] Ariel Lanza: can you please send me a screenshot\n[11:27:30 AM] Customer: IMG_1725.png\n[11:28:07 AM] Ariel Lanza: thanks for the picture!\n[11:28:29 AM] Ariel Lanza: lets try something.\nplease try with a different browser\n[11:28:51 AM] Ariel Lanza: or a different device\n[11:33:42 AM] Ariel Lanza: are you still with me?\n[11:35:11 AM] Ariel Lanza: I will have to close this chat due to no response\nThanks for reaching",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:54:46.858Z"
+        },
+        {
+          "chat_id": "2045096201979265024",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:23:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent failed to properly understand the customer's issue about a returned deposit and provided irrelevant withdrawal information instead."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent gave contradictory advice (wait 2 hours, check different browser, submit ticket) without addressing the core issue of where the returned money went."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Multiple typos ('houras', incomplete sentence '-do apologize'), unclear instructions, and disjointed responses that confused rather than clarified."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No major violations but the handling was substandard and the escalation process was appropriate though delayed."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but did so prematurely without resolving or properly addressing the customer's concern about their missing funds."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 43,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's issue about a returned deposit and provided irrelevant withdrawal information. Communication was poor with typos and contradictory instructions that failed to address where the customer's money went.",
+          "coaching_tip": "Read the customer's issue carefully before responding - this was about a returned deposit, not a withdrawal request, and required account investigation not generic withdrawal templates.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[11:05:05 AM] t5210780353: Full Name: t5210780353 Email Address: catd71955@gmail.com Subject / How can we help you?: I just checked my email and the direct deposit to my account was tried to be applied, but the bank sent the hundred dollars back to where it came from but it’s not on my account on the game either so where is my money?\n[11:05:52 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[11:07:43 AM] Ariel Lanza: OPTIONS TO REDEEM, WITH THE CARD WE ARE HAVING ISSUES\nSounds like you're ready to cash out!\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this issue as soon as possible.\nIn the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nYou'll need at least 100 Sweepstakes Coins that have been played through\nIf you have any questions during the process, I'm right here to help!\n[11:10:24 AM] t5210780353: IMG_0011.png\n[11:10:35 AM] t5210780353: They sent the money back\n[11:11:13 AM] Ariel Lanza: lets wait up to 2 houras to be update and be posted on the account again\n[11:11:54 AM] Ariel Lanza: -do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:12:27 AM] t5210780353: The transaction was at 1 am\n[11:14:25 AM] Ariel Lanza: try to check on a different browser\n[11:14:38 AM] Ariel Lanza: in case you cant see it please submit a ticket\n[11:18:46 AM] Ariel Lanza: is there anything else I can assist you with?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:55:18.464Z"
+        }
+      ],
+      "avg_score": 42,
+      "grade": "F",
+      "trend": 0
     },
     {
       "id": "5555",
@@ -39019,6 +39154,141 @@
       "raw_transcript": "[05:22:11 AM] Customer: Full Name: Tracy Moore Email Address: tleann17@gmail.com Subject / How can we help you?: Please remove all of my information and closest account\n[05:22:11 AM] Customer: Full Name: Tracy Moore Email Address: tleann17@gmail.com Subject / How can we help you?: Please remove all of my information and closest account\n[05:22:35 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:22:35 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:23:00 AM] Customer: I just want all of my information and moved in the account closed thank you have a great day. It's not allowing me to verify anything and I'm tired of fooling with it\n[05:23:00 AM] Customer: I just want all of my information and moved in the account closed thank you have a great day. It's not allowing me to verify anything and I'm tired of fooling with it\n[05:25:10 AM] Karen Perez: I understand it can be frustrating. I'm here to help. Can you please tell me what happened with the verification process?\n[05:25:10 AM] Karen Perez: I understand it can be frustrating. I'm here to help. Can you please tell me what happened with the verification process?\n[05:27:05 AM] Karen Perez: Sorry, are you still there?\n[05:27:05 AM] Karen Perez: Sorry, are you still there?\n[05:29:31 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:29:31 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T05:34:45.365Z"
+    },
+    {
+      "chat_id": "2047546186682810368",
+      "agent_name": "Daniel Padilla",
+      "agent_id": "5804",
+      "timestamp": "2026-04-24T05:36:34.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with offer to help, though generic without customer name usage."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent identified the Facebook login issue but didn't ask clarifying questions about alternative access methods until customer volunteered the information."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent acknowledged known issue but provided no concrete solution for customer who has no alternative login method, only vague 24-48 hour timeline."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and empathetic language with appropriate apologies, though somewhat repetitive across multiple messages."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, appropriately escalated known technical issue."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Message appears truncated with no proper closing or confirmation that customer's concern was addressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 58,
+      "grade": "F",
+      "summary": "Agent professionally acknowledged a known Facebook login issue but failed to provide actionable resolution for a customer with no alternative access method. The interaction lacked proactive problem-solving and ended with an incomplete, truncated message.",
+      "coaching_tip": "When a customer has no alternative login method during a known outage, proactively offer to set up password reset or email login rather than just asking them to wait 24-48 hours without access.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[05:20:27 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:20:27 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:21:33 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:21:33 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:23:34 AM] Daniel Padilla: Thank you for reaching out to us! \nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\nWarm regards,\nThe Jackpot Daily Team\n[05:23:34 AM] Daniel Padilla: Thank you for reaching out to us! \nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\nWarm regards,\nThe Jackpot Daily Team\n[05:24:14 AM] Customer: Help please\n[05:24:14 AM] Customer: Help please\n[05:26:23 AM] Customer: Ok\n[05:26:23 AM] Customer: Ok\n[05:27:08 AM] Daniel Padilla: I’m really sorry for the inconvenience this may be causing. At the moment, the login feature through Facebook is temporarily unavailable.\n\nWe understand how frustrating this can be, especially when you’re trying to access your account quickly. Our team is already aware of the situation and working to resolve it as soon as possible.\n\nIn the meantime, if you have another login method available, we recommend using it to access your account. If not, please let us know—we’ll be more than happy to assist you further.\n\nWe will also make sure to let you know as soon as this feature becomes available again.\n\nWe truly appreciate your patience and understanding.\n[05:27:08 AM] Daniel Padilla: I’m really sorry for the inconvenience this may be causing. At the moment, the login feature through Facebook is temporarily unavailable.\n\nWe understand how frustrating this can be, especially when you’re trying to access your account quickly. Our team is already aware of the situation and working to resolve it as soon as possible.\n\nIn the meantime, if you have another login method available, we recommend using it to access your account. If not, please let us know—we’ll be more than happy to assist you further.\n\nWe will also make sure to let you know as soon as this feature becomes available again.\n\nWe truly appreciate your patience and understanding.\n[05:28:03 AM] Customer: I do not have another log in method\n[05:28:03 AM] Customer: I do not have another log in method\n[05:30:46 AM] Daniel Padilla: Please accept our sincere apologies for the inconvenience with the login method.\n\nWe understand how important it is to access your account without issues, and we truly regret the trouble this may be causing. Our team is currently working on this, and we will provide you with an update within the next 24–48 hours.\n\nWe really appreciate your patience and understanding in the meantime. If there’s anything else we can assist you with, please don’t hesitate to let us know.\n[05:30:46 AM] Daniel Padilla: Please accept our sincere apologies for the inconvenience with the login method.\n\nWe understand how important it is to access your account without issues, and we truly regret the trouble this may be causing. Our team is currently working on this, and we will provide you with an update within the next 24–48 hours.\n\nWe really appreciate your patience and understanding in the meantime. If there’s anything else we can assist you with, please don’t hesitate to let us know.\n[05:33:51 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[05:33:51 AM] Daniel Padilla: I have not get any response from you, please let me know if you still there?\n[05:36:29 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:36:29 AM] Daniel Padilla: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T05:39:41.776Z"
+    },
+    {
+      "chat_id": "2047545315613949952",
+      "agent_name": "Raul Figueroa",
+      "agent_id": "5842",
+      "timestamp": "2026-04-24T05:37:10.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and empathetic opening, though didn't use customer's name."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent asked good clarifying questions about what was submitted and when, and discovered the discrepancy between email and account status."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Agent investigated the account status, identified the pending verification issue, and gathered information to understand the discrepancy, though final resolution unclear from truncated transcript."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic communication with good proactive updates during wait times."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Properly handled verification inquiry, requested email for lookup, and appropriately managed document submission guidelines."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript truncated before closing, cannot evaluate."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent provided a competent response to a verification status inquiry with good troubleshooting steps, empathetic communication, and appropriate follow-up questions. The agent successfully identified a discrepancy between the customer's email notification and actual account status, though the transcript cuts off before resolution is complete.",
+      "coaching_tip": "When customers mention receiving conflicting information (approved email vs pending status), immediately acknowledge the confusion and provide a clear timeline for when the discrepancy will be resolved.",
+      "website": "Jackpot Daily",
+      "message_count": 64,
+      "raw_transcript": "[05:16:59 AM] t6444932623: Full Name: t6444932623 Email Address: andriannahetrick21@gmail.com Subject / How can we help you?: Verification error\n[05:16:59 AM] t6444932623: Full Name: t6444932623 Email Address: andriannahetrick21@gmail.com Subject / How can we help you?: Verification error\n[05:17:21 AM] t6444932623: Ok\n[05:17:21 AM] t6444932623: Ok\n[05:17:53 AM] t6444932623: Verification error\n[05:17:53 AM] t6444932623: Verification error\n[05:18:25 AM] Raul Figueroa: Hey! I’m sorry you’re running into a verification error — I know that can be frustrating.\n\nA few quick things you can try:\n\nRefresh the page or log out and back in\nTry a different browser or an incognito/private window\nClear your cache and cookies, If this doesn't works please let me know the error in specific.\n[05:18:25 AM] Raul Figueroa: Hey! I’m sorry you’re running into a verification error — I know that can be frustrating.\n\nA few quick things you can try:\n\nRefresh the page or log out and back in\nTry a different browser or an incognito/private window\nClear your cache and cookies, If this doesn't works please let me know the error in specific.\n[05:20:23 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:20:23 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:20:46 AM] t6444932623: Ok I guess I would like to know my verification status\n[05:20:46 AM] t6444932623: Ok I guess I would like to know my verification status\n[05:21:15 AM] Raul Figueroa: Let me know your email address so I can look it up.\n[05:21:15 AM] Raul Figueroa: Let me know your email address so I can look it up.\n[05:21:43 AM] t6444932623: andriannahetrick21@gmail.com\n[05:21:43 AM] t6444932623: andriannahetrick21@gmail.com\n[05:22:09 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:22:09 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[05:22:29 AM] t6444932623: thank you\n[05:22:29 AM] t6444932623: thank you\n[05:24:13 AM] t6444932623: ok\n[05:24:13 AM] t6444932623: ok\n[05:24:18 AM] Raul Figueroa: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[05:24:18 AM] Raul Figueroa: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[05:24:26 AM] t6444932623: ya\n[05:24:26 AM] t6444932623: ya\n[05:27:38 AM] Raul Figueroa: What info did you submitted already to get your account verified? Because the status still appears me to be pending, also if you can let me know when was the day that you submitted the info.\n[05:27:38 AM] Raul Figueroa: What info did you submitted already to get your account verified? Because the status still appears me to be pending, also if you can let me know when was the day that you submitted the info.\n[05:28:06 AM] t6444932623: U\n[05:28:06 AM] t6444932623: U\n[05:28:21 AM] t6444932623: My id , proof of address or bank statement I think\n[05:28:21 AM] t6444932623: My id , proof of address or bank statement I think\n[05:29:53 AM] t6444932623: Am I able to send screenshots or photos ?\n[05:29:53 AM] t6444932623: Am I able to send screenshots or photos ?\n[05:30:02 AM] t6444932623: Of what I have received\n[05:30:02 AM] t6444932623: Of what I have received\n[05:30:35 AM] Raul Figueroa: In this chat you can sent screenshots but not the documents, please show me what you received.\n[05:30:35 AM] Raul Figueroa: In this chat you can sent screenshots but not the documents, please show me what you received.\n[05:31:13 AM] t6444932623: It doesn’t give me the option to\n[05:31:13 AM] t6444932623: It doesn’t give me the option to\n[05:33:04 AM] t6444932623: Well I got a email stating my account was approved for verification and that I’m able to accept different features but on my account it states it’s still pending\n[05:33:04 AM] t6444932623: Well I got a email stating my account was approved for verification and that I’m able to accept different features but on my account it states it’s still pending\n[05:33:14 AM] t6444932623: and this email was sent to me on the 19th\n[05:33:14 AM] t6444932623: and this email was sent to me on the 19th\n[05:33:48 AM] Raul Figueroa: Oh, let me check, because the info that you have sent at least it doesn't shows me over here.\n[05:33:48 AM] Raul Figueroa: Oh, let me check, because the info that you have sent at least it doesn't shows me over here.\n[05:33:57 AM] Raul Figueroa: Allow me a second to check on that.\n[05:33:57 AM] Raul Figueroa: Allow me a second to check on that.\n[05:34:04 AM] Raul Figueroa: To see if it's correct.\n[05:34:04 AM] Raul Figueroa: To see if it's correct.\n[05:34:43 AM] Raul Figueroa: If you received an email saying your verification was approved, that’s usually the most up-to-date status. Sometimes the account dashboard can take a bit longer to reflect the update.\n\nI’d recommend logging out and back in, or giving it a little time to sync.\n\nIf it still shows as pending after that, please reach out to support@jackpotdaily.com\n from your registered email so the team can take a closer look and update it for you\n[05:34:43 AM] Raul Figueroa: If you received an email saying your verification was approved, that’s usually the most up-to-date status. Sometimes the account dashboard can take a bit longer to reflect the update.\n\nI’d recommend logging out and back in, or giving it a little time to sync.\n\nIf it still shows as pending after that, please reach out to support@jackpotdaily.com\n from your registered email so the team can take a closer look and update it for you\n[05:35:07 AM] t6444932623: Dear User, Your submitted identity verification documents have been approved. You can now use the platform’s related features and services normally. Thank you for your cooperation and support. jkscu\n[05:35:07 AM] t6444932623: Dear User, Your submitted identity verification documents have been approved. You can now use the platform’s related features and services normally. Thank you for your cooperation and support. jkscu\n[05:35:26 AM] t6444932623: Jkscus1 *\n[05:35:26 AM] t6444932623: Jkscus1 *\n[05:35:32 AM] t6444932623: it’s what one email said\n[05:35:32 AM] t6444932623: it’s what one email said\n[05:35:49 AM] t6444932623: and the other one said\n[05:35:49 AM] t6444932623: and the other one said\n[05:35:53 AM] t6444932623: Dear User, You have successfully submitted your identity verification documents. We will review them as soon as possible. Please wait patiently for the result. Once the review is completed, you will be notified via internal message. jkscus1\n[05:35:53 AM] t6444932623: Dear User, You have successfully submitted your identity verification documents. We will review them as soon as possible. Please wait patiently for the result. Once the review is completed, you will be notified via internal message. jkscus1\n[05:36:59 AM] Raul Figueroa: Yes, seems like there was a delay or issue in the process of getting verified completely, like I said you can submit a ticket to the email address I attached before so they can take a deeper look on that, since what I see here it should be verified.\n[05:36:59 AM] Raul Figueroa: Yes, seems like there was a delay or issue in the process of getting verified completely, like I said you can submit a ticket to the email address I attached before so they can take a deeper look on that, since what I see here it should be verified.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T05:39:52.360Z"
+    },
+    {
+      "chat_id": "2047547883992690688",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T05:35:35.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting present, though slightly generic and repeated due to system duplication."
+        },
+        "issue_discovery": {
+          "score": 4,
+          "notes": "Agent asked how to help but customer only provided '2000' and 'Español' - issue never discovered before premature closure warning."
+        },
+        "resolution": {
+          "score": 5,
+          "notes": "No resolution attempted; agent warned of chat closure after customer requested Spanish without waiting for customer to explain their issue."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Agent switched to Spanish appropriately but gave customer insufficient time to respond before threatening closure."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, handled language request appropriately."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "Abrupt closure warning after only 3 minutes with no issue addressed or proper farewell."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 37,
+      "grade": "F",
+      "summary": "Agent greeted professionally and switched to Spanish when requested, but failed to discover the actual issue. The chat was prematurely closed with a 2-minute warning before the customer could explain what '2000' meant or state their problem.",
+      "coaching_tip": "After switching languages or when customers provide unclear information like '2000', ask specific clarifying questions and allow adequate response time (at least 5-7 minutes of inactivity) before warning about chat closure.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[05:27:11 AM] Customer: Full Name: JUAN DANIEL MATINEZ MIRANDA Email Address: juandanielmartinezmiranda7@gmail.com Subject / How can we help you?: 2000\n[05:27:11 AM] Customer: Full Name: JUAN DANIEL MATINEZ MIRANDA Email Address: juandanielmartinezmiranda7@gmail.com Subject / How can we help you?: 2000\n[05:27:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:27:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:29:04 AM] Guillermo Mendoza: Hi Good night can you tell me how can i help you\n[05:29:04 AM] Guillermo Mendoza: Hi Good night can you tell me how can i help you\n[05:29:08 AM] Customer: Español\n[05:29:08 AM] Customer: Español\n[05:29:34 AM] Guillermo Mendoza: si buena noches bienvenido a sporte por chat como le puedo ayudar el dia de hoy\n[05:29:34 AM] Guillermo Mendoza: si buena noches bienvenido a sporte por chat como le puedo ayudar el dia de hoy\n[05:32:46 AM] Guillermo Mendoza: If no more question chat closes in 2 minutes\n[05:32:46 AM] Guillermo Mendoza: If no more question chat closes in 2 minutes",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T05:40:02.233Z"
     }
   ]
 }
