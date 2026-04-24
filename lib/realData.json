@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T12:59:52.431Z",
-  "total_chats": 491,
+  "scored_at": "2026-04-24T13:04:42.359Z",
+  "total_chats": 492,
   "total_agents": 26,
   "agents": [
     {
@@ -22038,9 +22038,54 @@
           "raw_transcript": "[12:39:10 PM] t7274412046: Full Name: t7274412046 Email Address: princessgordan19@gmail.com Subject / How can we help you?: It’s saying my full name isn’t valid when I try to add my bank account info\n[12:39:10 PM] t7274412046: Full Name: t7274412046 Email Address: princessgordan19@gmail.com Subject / How can we help you?: It’s saying my full name isn’t valid when I try to add my bank account info",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T12:44:59.033Z"
+        },
+        {
+          "chat_id": "2047657077840900096",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T13:00:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent looked into the account but asked no clarifying questions about redemption amount, method, timing, or expected delivery."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent only stated the status is 'paying pending' but provided no timeline, next steps, or actionable information for the customer."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Multiple typos ('pending paid', unclear phrasing) and confusing explanation that didn't clarify what customer should expect."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to set proper expectations about payment timelines or escalation procedures."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help but closed prematurely without confirming customer understood the status or had no further questions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 45,
+          "grade": "F",
+          "summary": "Agent investigated the redemption status but failed to provide a proper greeting, clear explanation, or actionable next steps. The communication was confusing with typos, and the customer was left without understanding when to expect payment or what to do next.",
+          "coaching_tip": "Always provide a clear timeline and next steps when discussing pending payments—tell the customer what 'paying pending' means, expected timeframe, and who to contact if it exceeds that window.",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "raw_transcript": "[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:59 PM] Customer: Ok\n[12:42:59 PM] Customer: Ok\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:48:54 PM] Customer: Ok\n[12:48:54 PM] Customer: Ok\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:54 PM] Customer: Ok\n[12:51:54 PM] Customer: Ok\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:58:56 PM] Customer: Ok\n[12:58:56 PM] Customer: Ok\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:00:22 PM] Customer: Thanks\n[01:00:22 PM] Customer: Thanks",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:04:41.857Z"
         }
       ],
-      "avg_score": 35,
+      "avg_score": 38,
       "grade": "F",
       "trend": 0
     },
@@ -44428,6 +44473,51 @@
       "raw_transcript": "[12:50:08 PM] t8858317260: Full Name: t8858317260 Email Address: keetoncak@gmail.com Subject / How can we help you?: How long does it take to get a redemption typically? It's my first one and the first time I ever won anything. I'm fully verified.\n[12:50:08 PM] t8858317260: Full Name: t8858317260 Email Address: keetoncak@gmail.com Subject / How can we help you?: How long does it take to get a redemption typically? It's my first one and the first time I ever won anything. I'm fully verified.\n[12:50:41 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[12:50:41 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[12:51:10 PM] t8858317260: Ok. Thank you for your time and effort 🙏😌\n[12:51:10 PM] t8858317260: Ok. Thank you for your time and effort 🙏😌\n[12:51:56 PM] Maritza Caceres: Thank you🤗\n[12:51:56 PM] Maritza Caceres: Thank you🤗\n[12:54:07 PM] Maritza Caceres: Congrats — sounds like you're ready to cash out!\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:54:07 PM] Maritza Caceres: Congrats — sounds like you're ready to cash out!\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:55:29 PM] t8858317260: Well I definitely meet the requirements. I already have a redemption pending. I didn't see any options for debit card only ACH. So that's what I did.\n[12:55:29 PM] t8858317260: Well I definitely meet the requirements. I already have a redemption pending. I didn't see any options for debit card only ACH. So that's what I did.\n[12:56:15 PM] t8858317260: Will it take 10 days or does it happen sooner typically?\n[12:56:15 PM] t8858317260: Will it take 10 days or does it happen sooner typically?\n[12:57:05 PM] Maritza Caceres: I´m sorry to hear that, I just double checked and your redemption status is approved, so at this moment you just need to wait some time\n[12:57:05 PM] Maritza Caceres: I´m sorry to hear that, I just double checked and your redemption status is approved, so at this moment you just need to wait some time\n[12:57:48 PM] t8858317260: My redemption has been approved I know. So about how long does it take typically? 10 days? Or sooner?\n[12:57:48 PM] t8858317260: My redemption has been approved I know. So about how long does it take typically? 10 days? Or sooner?\n[12:57:55 PM] Maritza Caceres: Yes, typically takes less than that, but our time frame is 10 days including the time from the bank\n[12:57:55 PM] Maritza Caceres: Yes, typically takes less than that, but our time frame is 10 days including the time from the bank\n[12:58:25 PM] t8858317260: Ok. Cool. Thank you for clarifying. That's all. Thank you again for your time.\n[12:58:25 PM] t8858317260: Ok. Cool. Thank you for clarifying. That's all. Thank you again for your time.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T12:59:51.930Z"
+    },
+    {
+      "chat_id": "2047657077840900096",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T13:00:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent looked into the account but asked no clarifying questions about redemption amount, method, timing, or expected delivery."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Agent only stated the status is 'paying pending' but provided no timeline, next steps, or actionable information for the customer."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Multiple typos ('pending paid', unclear phrasing) and confusing explanation that didn't clarify what customer should expect."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but failed to set proper expectations about payment timelines or escalation procedures."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help but closed prematurely without confirming customer understood the status or had no further questions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 45,
+      "grade": "F",
+      "summary": "Agent investigated the redemption status but failed to provide a proper greeting, clear explanation, or actionable next steps. The communication was confusing with typos, and the customer was left without understanding when to expect payment or what to do next.",
+      "coaching_tip": "Always provide a clear timeline and next steps when discussing pending payments—tell the customer what 'paying pending' means, expected timeframe, and who to contact if it exceeds that window.",
+      "website": "Jackpot Daily",
+      "message_count": 26,
+      "raw_transcript": "[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:59 PM] Customer: Ok\n[12:42:59 PM] Customer: Ok\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:48:54 PM] Customer: Ok\n[12:48:54 PM] Customer: Ok\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:54 PM] Customer: Ok\n[12:51:54 PM] Customer: Ok\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:58:56 PM] Customer: Ok\n[12:58:56 PM] Customer: Ok\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:00:22 PM] Customer: Thanks\n[01:00:22 PM] Customer: Thanks",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T13:04:41.857Z"
     }
   ]
 }
