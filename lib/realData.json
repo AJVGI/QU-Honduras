@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T06:24:40.836Z",
-  "total_chats": 440,
+  "scored_at": "2026-04-24T06:49:55.512Z",
+  "total_chats": 442,
   "total_agents": 25,
   "agents": [
     {
@@ -19032,11 +19032,101 @@
           "raw_transcript": "[05:56:33 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@outlook.es Subject / How can we help you?: Error trying to log in\n[05:56:33 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@outlook.es Subject / How can we help you?: Error trying to log in\n[05:56:52 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:56:52 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:57:14 AM] Customer: pasted-image-1777010230164.png\n[05:57:14 AM] Customer: pasted-image-1777010230164.png\n[05:58:56 AM] Guillermo Mendoza: Hi Brayan whats the login credentials ythat you are using\n[05:58:56 AM] Guillermo Mendoza: Hi Brayan whats the login credentials ythat you are using\n[06:01:14 AM] Guillermo Mendoza: I just checked your account shows that its fully verified\n[06:01:14 AM] Guillermo Mendoza: I just checked your account shows that its fully verified\n[06:03:04 AM] Customer: Brayandanpiel@outlook.es\n[06:03:04 AM] Customer: Brayandanpiel@outlook.es\n[06:03:52 AM] Guillermo Mendoza: oh looks that you sign in with facebook then theres a diferent email\n[06:03:52 AM] Guillermo Mendoza: oh looks that you sign in with facebook then theres a diferent email\n[06:04:26 AM] Customer: Yes\n[06:04:26 AM] Customer: Yes\n[06:04:47 AM] Customer: And it don’t let me log in anywhere\n[06:04:47 AM] Customer: And it don’t let me log in anywhere\n[06:05:28 AM] Guillermo Mendoza: help me confirming your phone and physical address\n[06:05:28 AM] Guillermo Mendoza: help me confirming your phone and physical address\n[06:05:57 AM] Customer: 8328499342\n[06:05:57 AM] Customer: 8328499342\n[06:06:09 AM] Customer: 12031 sharpcrest st Houston tx 77072\n[06:06:09 AM] Customer: 12031 sharpcrest st Houston tx 77072\n[06:06:18 AM] Guillermo Mendoza: thank you so much\n[06:06:18 AM] Guillermo Mendoza: thank you so much\n[06:07:11 AM] Guillermo Mendoza: allright the email that you need t use is brayandanpiel@outlook.es\n[06:07:11 AM] Guillermo Mendoza: allright the email that you need t use is brayandanpiel@outlook.es\n[06:08:27 AM] Customer: Can you set a password for me ?\n[06:08:27 AM] Customer: Can you set a password for me ?\n[06:08:48 AM] Customer: I don’t have access to that mail just for Facebook\n[06:08:48 AM] Customer: I don’t have access to that mail just for Facebook\n[06:08:58 AM] Guillermo Mendoza: in this case go to login the click on forgot\n[06:08:58 AM] Guillermo Mendoza: in this case go to login the click on forgot\n[06:09:07 AM] Guillermo Mendoza: use this email and you will be set\n[06:09:07 AM] Guillermo Mendoza: use this email and you will be set\n[06:11:40 AM] Guillermo Mendoza: let me know if success or about other inquiry\n[06:11:40 AM] Guillermo Mendoza: let me know if success or about other inquiry\n[06:12:33 AM] Customer: I don’t have access to those mails\n[06:12:33 AM] Customer: I don’t have access to those mails\n[06:12:50 AM] Customer: Is there any other way I can use ?\n[06:12:50 AM] Customer: Is there any other way I can use ?\n[06:15:12 AM] Guillermo Mendoza: looks that the account got just verified contact email provider to recover accesss\n[06:15:12 AM] Guillermo Mendoza: looks that the account got just verified contact email provider to recover accesss\n[06:16:20 AM] Guillermo Mendoza: if no questions chat close in 2 minutes\n[06:16:20 AM] Guillermo Mendoza: if no questions chat close in 2 minutes",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T06:19:54.072Z"
+        },
+        {
+          "chat_id": "2047567825722978304",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T06:48:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to assist, though generic and contains minor grammatical awkwardness."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent acknowledged the issue but did not ask any clarifying questions about verification status or what specifically was blocking the customer."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent stated they would check the account but chat ends before any actual resolution or information is provided."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple typos and grammatical errors ('let m helpyou out', 'youre account') reduce clarity and professionalism."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected in the brief interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as the chat transcript ends mid-conversation without resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent provided a basic greeting and acknowledged they would investigate the verification issue, but the transcript ends before any meaningful resolution or information was delivered. Communication quality was hindered by multiple spelling and grammatical errors.",
+          "coaching_tip": "Proofread messages before sending to avoid typos that reduce professionalism, and ask specific clarifying questions about verification documents submitted to expedite resolution.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[06:46:26 AM] t7231993078: Full Name: t7231993078 Email Address: juggalo.bs1055@gmail.com Subject / How can we help you?: You won't let me spend the wheel or do anything cuz of verification I've done everything\n[06:46:26 AM] t7231993078: Full Name: t7231993078 Email Address: juggalo.bs1055@gmail.com Subject / How can we help you?: You won't let me spend the wheel or do anything cuz of verification I've done everything\n[06:46:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:46:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:47:55 AM] Guillermo Mendoza: let m helpyou out will check youre account\n[06:47:55 AM] Guillermo Mendoza: let m helpyou out will check youre account\n[06:48:13 AM] t7231993078: Ok\n[06:48:13 AM] t7231993078: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T06:49:43.948Z"
+        },
+        {
+          "chat_id": "2047563741507448832",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T06:46:22.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting but generic, no personalization or customer name used."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Acknowledged the two-part question but didn't clarify which issue to address first or confirm customer's actual account status before launching into explanation."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided detailed information about Golden Egg and verification process, but didn't address the referral link question at all and gave expiration explanation when customer just signed up."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Multiple typos and grammatical errors throughout (yure, woder, verrify, A mention), making communication unclear and unprofessional."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, explained terms and conditions appropriately."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no closing visible, but agent didn't wrap up before cutoff."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided detailed policy information but communication was marred by numerous spelling and grammar errors. Failed to address the referral link question entirely and gave expiration explanation that didn't match customer's timeline of just signing up.",
+          "coaching_tip": "Proofread messages before sending to eliminate typos, and always address all parts of a multi-question inquiry before closing the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[06:30:12 AM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: When will I receive my sighnup bonus and where is the referral link\n[06:30:12 AM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: When will I receive my sighnup bonus and where is the referral link\n[06:30:42 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:30:42 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:32:04 AM] t1751778726: Thank you\n[06:32:04 AM] t1751778726: Thank you\n[06:32:24 AM] Guillermo Mendoza: Hi so yure contacting regarding your signin bonus and woder how to refer\n[06:32:24 AM] Guillermo Mendoza: Hi so yure contacting regarding your signin bonus and woder how to refer\n[06:32:34 AM] t1751778726: Yes\n[06:32:34 AM] t1751778726: Yes\n[06:33:21 AM] t1751778726: Please\n[06:33:21 AM] t1751778726: Please\n[06:33:26 AM] Guillermo Mendoza: Let me help you out will check your account allow me some minutes\n[06:33:26 AM] Guillermo Mendoza: Let me help you out will check your account allow me some minutes\n[06:33:50 AM] t1751778726: Ok thanks\n[06:33:50 AM] t1751778726: Ok thanks\n[06:35:05 AM] Guillermo Mendoza: Still checking\n[06:35:05 AM] Guillermo Mendoza: Still checking\n[06:35:14 AM] t1751778726: Ok\n[06:35:14 AM] t1751778726: Ok\n[06:38:20 AM] Guillermo Mendoza: I can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 2 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf either:\n\n* The ticket wasn’t claimed within the 5‑day window, or\n* The Smash & Win wasn’t played within 24 hours after verification\n\n…the Golden Egg will show as expired and can’t be reactivated.\n[06:38:20 AM] Guillermo Mendoza: I can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 2 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf either:\n\n* The ticket wasn’t claimed within the 5‑day window, or\n* The Smash & Win wasn’t played within 24 hours after verification\n\n…the Golden Egg will show as expired and can’t be reactivated.\n[06:39:15 AM] t1751778726: Okay I just got through signing up right now so where do I find the golden egg just to play the ticket\n[06:39:15 AM] t1751778726: Okay I just got through signing up right now so where do I find the golden egg just to play the ticket\n[06:39:59 AM] Guillermo Mendoza: A mention you need to verrify and comes available\n[06:39:59 AM] Guillermo Mendoza: A mention you need to verrify and comes available\n[06:40:15 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[06:40:15 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[06:40:52 AM] t1751778726: Ok thank you\n[06:40:52 AM] t1751778726: Ok thank you\n[06:41:11 AM] Guillermo Mendoza: My pleasuredoyou have any otherquestion\n[06:41:11 AM] Guillermo Mendoza: My pleasuredoyou have any otherquestion\n[06:46:12 AM] Guillermo Mendoza: chat close now\n[06:46:12 AM] Guillermo Mendoza: chat close now",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T06:49:55.010Z"
         }
       ],
       "avg_score": 49,
       "grade": "F",
-      "trend": -12
+      "trend": -10
     },
     {
       "id": "5804",
@@ -39829,6 +39919,96 @@
       "raw_transcript": "[06:03:41 AM] t9936163459: Full Name: t9936163459 Email Address: jansmaalysha@gmail.com Subject / How can we help you?: Hello I accidentally purchased the same promo twice and I don’t want to get in trouble. The first one wasn’t going through and then I seeen it went through as the 2nd attempt was processing and the 2nd attempt also successfully processed. It was the 9.99 for 17sc promo.\n[06:03:41 AM] t9936163459: Full Name: t9936163459 Email Address: jansmaalysha@gmail.com Subject / How can we help you?: Hello I accidentally purchased the same promo twice and I don’t want to get in trouble. The first one wasn’t going through and then I seeen it went through as the 2nd attempt was processing and the 2nd attempt also successfully processed. It was the 9.99 for 17sc promo.\n[06:05:52 AM] Raul Figueroa: Hey! No worries at all — I understand how that can happen, especially if the first attempt looked like it didn’t go through. You’re not going to get in trouble for that, just to see I understood, you did two purchases of $9.99 and they went through without issues and 2 packages of the second attempt went throw, correct?\n[06:05:52 AM] Raul Figueroa: Hey! No worries at all — I understand how that can happen, especially if the first attempt looked like it didn’t go through. You’re not going to get in trouble for that, just to see I understood, you did two purchases of $9.99 and they went through without issues and 2 packages of the second attempt went throw, correct?\n[06:07:49 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:07:49 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:08:05 AM] t9936163459: Yes and I know that most sites will not let you purchase\n[06:08:05 AM] t9936163459: Yes and I know that most sites will not let you purchase\n[06:08:10 AM] t9936163459: Samwle\n[06:08:10 AM] t9936163459: Samwle\n[06:08:19 AM] t9936163459: same promo twice\n[06:08:19 AM] t9936163459: same promo twice\n[06:08:41 AM] t9936163459: Or you could lose your winnings if sc is won\n[06:08:41 AM] t9936163459: Or you could lose your winnings if sc is won\n[06:09:27 AM] t9936163459: It gave me 2 of the same promo\n[06:09:27 AM] t9936163459: It gave me 2 of the same promo\n[06:10:08 AM] Raul Figueroa: Don't worry, in this case both were applied correctly, we give you at least 3 purchase bonuses, that means that you already reedemed all the bonuses of purchase by adding the 2 packages by accident, you are able to use the funds and reedem when you have enough, all packages cost the same the only difference is the amounts of GC and SC you receive.\n[06:10:08 AM] Raul Figueroa: Don't worry, in this case both were applied correctly, we give you at least 3 purchase bonuses, that means that you already reedemed all the bonuses of purchase by adding the 2 packages by accident, you are able to use the funds and reedem when you have enough, all packages cost the same the only difference is the amounts of GC and SC you receive.\n[06:10:57 AM] t9936163459: Okay sounds good. Thank you!\n[06:10:57 AM] t9936163459: Okay sounds good. Thank you!\n[06:11:47 AM] t9936163459: Just wanted to be sure. Will this chat be saved?\n[06:11:47 AM] t9936163459: Just wanted to be sure. Will this chat be saved?\n[06:12:16 AM] Raul Figueroa: Yes of course, if you want I can check further, so you can be sure.\n[06:12:16 AM] Raul Figueroa: Yes of course, if you want I can check further, so you can be sure.\n[06:12:46 AM] t9936163459: Yes please\n[06:12:46 AM] t9936163459: Yes please\n[06:12:58 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[06:12:58 AM] Raul Figueroa: Please allow me one moment to look into this for you!\n[06:14:21 AM] t9936163459: I might have to be away from phone for a bit.  But if the 2 purchases of the same promo are not allowed, then go ahead with a refund of one. Otherwise just let me know if I’m good. I will wait for your response before I play.\n[06:14:21 AM] t9936163459: I might have to be away from phone for a bit.  But if the 2 purchases of the same promo are not allowed, then go ahead with a refund of one. Otherwise just let me know if I’m good. I will wait for your response before I play.\n[06:15:10 AM] Raul Figueroa: Of course, thanks for that, Yes! Just allow me a second so I can check on here the correct information before you can play.\n[06:15:10 AM] Raul Figueroa: Of course, thanks for that, Yes! Just allow me a second so I can check on here the correct information before you can play.\n[06:19:41 AM] Raul Figueroa: Thanks for the wait, I have checked and it seems like yo are good to go! The only thing that can happen and can be an issue is in the case that you try to purchase another purchase pack, since it may not allow you to complete it, but if it happens we are able to escalate it so you can be able to see if it's possible to get another purchase pack in the future, with that being said you can play and enjoy our games!\n[06:19:41 AM] Raul Figueroa: Thanks for the wait, I have checked and it seems like yo are good to go! The only thing that can happen and can be an issue is in the case that you try to purchase another purchase pack, since it may not allow you to complete it, but if it happens we are able to escalate it so you can be able to see if it's possible to get another purchase pack in the future, with that being said you can play and enjoy our games!\n[06:22:14 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:22:14 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:23:37 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[06:23:37 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T06:24:40.335Z"
+    },
+    {
+      "chat_id": "2047567825722978304",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T06:48:57.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with offer to assist, though generic and contains minor grammatical awkwardness."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent acknowledged the issue but did not ask any clarifying questions about verification status or what specifically was blocking the customer."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent stated they would check the account but chat ends before any actual resolution or information is provided."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Multiple typos and grammatical errors ('let m helpyou out', 'youre account') reduce clarity and professionalism."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected in the brief interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as the chat transcript ends mid-conversation without resolution."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 48,
+      "grade": "F",
+      "summary": "Agent provided a basic greeting and acknowledged they would investigate the verification issue, but the transcript ends before any meaningful resolution or information was delivered. Communication quality was hindered by multiple spelling and grammatical errors.",
+      "coaching_tip": "Proofread messages before sending to avoid typos that reduce professionalism, and ask specific clarifying questions about verification documents submitted to expedite resolution.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[06:46:26 AM] t7231993078: Full Name: t7231993078 Email Address: juggalo.bs1055@gmail.com Subject / How can we help you?: You won't let me spend the wheel or do anything cuz of verification I've done everything\n[06:46:26 AM] t7231993078: Full Name: t7231993078 Email Address: juggalo.bs1055@gmail.com Subject / How can we help you?: You won't let me spend the wheel or do anything cuz of verification I've done everything\n[06:46:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:46:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:47:55 AM] Guillermo Mendoza: let m helpyou out will check youre account\n[06:47:55 AM] Guillermo Mendoza: let m helpyou out will check youre account\n[06:48:13 AM] t7231993078: Ok\n[06:48:13 AM] t7231993078: Ok",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T06:49:43.948Z"
+    },
+    {
+      "chat_id": "2047563741507448832",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T06:46:22.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting but generic, no personalization or customer name used."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Acknowledged the two-part question but didn't clarify which issue to address first or confirm customer's actual account status before launching into explanation."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided detailed information about Golden Egg and verification process, but didn't address the referral link question at all and gave expiration explanation when customer just signed up."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Multiple typos and grammatical errors throughout (yure, woder, verrify, A mention), making communication unclear and unprofessional."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, explained terms and conditions appropriately."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with no closing visible, but agent didn't wrap up before cutoff."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent provided detailed policy information but communication was marred by numerous spelling and grammar errors. Failed to address the referral link question entirely and gave expiration explanation that didn't match customer's timeline of just signing up.",
+      "coaching_tip": "Proofread messages before sending to eliminate typos, and always address all parts of a multi-question inquiry before closing the conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 34,
+      "raw_transcript": "[06:30:12 AM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: When will I receive my sighnup bonus and where is the referral link\n[06:30:12 AM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: When will I receive my sighnup bonus and where is the referral link\n[06:30:42 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:30:42 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[06:32:04 AM] t1751778726: Thank you\n[06:32:04 AM] t1751778726: Thank you\n[06:32:24 AM] Guillermo Mendoza: Hi so yure contacting regarding your signin bonus and woder how to refer\n[06:32:24 AM] Guillermo Mendoza: Hi so yure contacting regarding your signin bonus and woder how to refer\n[06:32:34 AM] t1751778726: Yes\n[06:32:34 AM] t1751778726: Yes\n[06:33:21 AM] t1751778726: Please\n[06:33:21 AM] t1751778726: Please\n[06:33:26 AM] Guillermo Mendoza: Let me help you out will check your account allow me some minutes\n[06:33:26 AM] Guillermo Mendoza: Let me help you out will check your account allow me some minutes\n[06:33:50 AM] t1751778726: Ok thanks\n[06:33:50 AM] t1751778726: Ok thanks\n[06:35:05 AM] Guillermo Mendoza: Still checking\n[06:35:05 AM] Guillermo Mendoza: Still checking\n[06:35:14 AM] t1751778726: Ok\n[06:35:14 AM] t1751778726: Ok\n[06:38:20 AM] Guillermo Mendoza: I can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 2 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf either:\n\n* The ticket wasn’t claimed within the 5‑day window, or\n* The Smash & Win wasn’t played within 24 hours after verification\n\n…the Golden Egg will show as expired and can’t be reactivated.\n[06:38:20 AM] Guillermo Mendoza: I can explain why the Golden Egg is showing as expired.\nHere’s how the timeline works:\n\n* Once you register your account, the Golden Egg promotion is issued automatically\n* You have 2 days from registration to claim the Golden Egg ticket\n* After the ticket is claimed, you must complete account verification\n* Once verification is completed, you have 24 hours to use the ticket and play the Smash & Win bonus round, where you can win up to 100 SC\n\nIf either:\n\n* The ticket wasn’t claimed within the 5‑day window, or\n* The Smash & Win wasn’t played within 24 hours after verification\n\n…the Golden Egg will show as expired and can’t be reactivated.\n[06:39:15 AM] t1751778726: Okay I just got through signing up right now so where do I find the golden egg just to play the ticket\n[06:39:15 AM] t1751778726: Okay I just got through signing up right now so where do I find the golden egg just to play the ticket\n[06:39:59 AM] Guillermo Mendoza: A mention you need to verrify and comes available\n[06:39:59 AM] Guillermo Mendoza: A mention you need to verrify and comes available\n[06:40:15 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[06:40:15 AM] Guillermo Mendoza: Hey ! Let's get you verified — it's straightforward, I promise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification partner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to upload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[06:40:52 AM] t1751778726: Ok thank you\n[06:40:52 AM] t1751778726: Ok thank you\n[06:41:11 AM] Guillermo Mendoza: My pleasuredoyou have any otherquestion\n[06:41:11 AM] Guillermo Mendoza: My pleasuredoyou have any otherquestion\n[06:46:12 AM] Guillermo Mendoza: chat close now\n[06:46:12 AM] Guillermo Mendoza: chat close now",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T06:49:55.010Z"
     }
   ]
 }
