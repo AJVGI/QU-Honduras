@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T12:49:43.027Z",
-  "total_chats": 487,
+  "scored_at": "2026-04-24T12:54:55.109Z",
+  "total_chats": 489,
   "total_agents": 26,
   "agents": [
     {
@@ -3831,11 +3831,56 @@
           "raw_transcript": "[12:31:48 PM] Customer: Full Name: Sharla Longhurst Email Address: sendmeanangel222@gmail.com Subject / How can we help you?: I wanted to withdraw but i think we're waiting for everyone to get ready\n[12:31:48 PM] Customer: Full Name: Sharla Longhurst Email Address: sendmeanangel222@gmail.com Subject / How can we help you?: I wanted to withdraw but i think we're waiting for everyone to get ready\n[12:32:15 PM] Diana Lopez: Hi!\n[12:32:15 PM] Diana Lopez: Hi!\n[12:32:22 PM] Customer: Hello\n[12:32:22 PM] Customer: Hello\n[12:33:14 PM] Diana Lopez: I understand you want to withdraw. Can you please clarify what you mean by 'waiting for everyone to get ready'?\n\nIf your redemption request has already been submitted, it is in queue and will be processed as soon as possible. If you haven't submitted it yet, please go to the Redeem section in your account to start the process.\n[12:33:14 PM] Diana Lopez: I understand you want to withdraw. Can you please clarify what you mean by 'waiting for everyone to get ready'?\n\nIf your redemption request has already been submitted, it is in queue and will be processed as soon as possible. If you haven't submitted it yet, please go to the Redeem section in your account to start the process.\n[12:36:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[12:36:43 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T12:44:51.791Z"
+        },
+        {
+          "chat_id": "2047658341407080448",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T12:51:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all—agent jumped straight to 'one moment' without any welcome or acknowledgment of the customer."
+            },
+            "issue_discovery": {
+              "score": 17,
+              "notes": "Agent effectively clarified the Second Chance bonus requirements and confirmed the customer met both criteria through good follow-up."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent correctly identified the issue, escalated appropriately, explained the bonus structure, and warned about chargeback consequences professionally."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic, and professional throughout despite customer hostility; validated frustration while providing factual information."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly warned about chargeback consequences and made no unauthorized promises; handled escalation by the book."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "Transcript appears truncated, but no proper closing or offer of further assistance is visible before cutoff."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent handled a highly escalated customer professionally, correctly identified a legitimate bonus issue, and appropriately escalated while warning about chargeback consequences. The only significant weakness was the complete absence of an opening greeting.",
+          "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before diving into the issue—it sets a professional tone even in urgent situations.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T12:54:54.607Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": 6
+      "trend": -2
     },
     {
       "id": "5808",
@@ -14775,6 +14820,51 @@
           "raw_transcript": "[12:26:48 PM] Customer: Full Name: Nancy Smith Email Address: casinogamesemail12@gmail.com Subject / How can we help you?: Hi I cashed out on 4/14/26. Was wondering when I would receive\n[12:26:48 PM] Customer: Full Name: Nancy Smith Email Address: casinogamesemail12@gmail.com Subject / How can we help you?: Hi I cashed out on 4/14/26. Was wondering when I would receive\n[12:29:15 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[12:29:15 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[12:30:44 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:30:44 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:33:30 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[12:33:30 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[12:36:10 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[12:36:10 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T12:39:44.750Z"
+        },
+        {
+          "chat_id": "2047655893795815424",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-24T12:53:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Took too long to clarify the issue and initially misunderstood that customer needed ID verification, not phone/email."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps but didn't address customer's specific request for alternative verification methods or acknowledge the overnight issue."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear instructions provided but multiple delay messages and slow response time detracted from effectiveness."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript ends abruptly with no closing statement or offer for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided standard technical troubleshooting but took too long to understand the core issue (ID verification problems) and didn't address the customer's specific question about alternative verification methods. The interaction lacked a proper closing and the agent could have been more proactive in offering escalation given the customer had been struggling since the previous night.",
+          "coaching_tip": "When a customer reports repeated failures over many hours, acknowledge their frustration and consider escalating or offering alternative solutions rather than only providing standard troubleshooting steps they may have already tried.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[12:36:23 PM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: OK, I signed up last night on y’all website so that I could receive the free $30 and try out place out. I enjoy gambling anyway I can’t receive it until I’m verified and I have been trying to bear supply since last night and it will not let me verify keep saying the site is busy. Is there a wage to verify without going on that site like can I send it to y’all directly or is there something else we can do?\n[12:36:23 PM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: OK, I signed up last night on y’all website so that I could receive the free $30 and try out place out. I enjoy gambling anyway I can’t receive it until I’m verified and I have been trying to bear supply since last night and it will not let me verify keep saying the site is busy. Is there a wage to verify without going on that site like can I send it to y’all directly or is there something else we can do?\n[12:37:36 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:37:36 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:38:11 PM] t1751778726: Thanks\n[12:38:11 PM] t1751778726: Thanks\n[12:39:20 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:39:20 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:40:19 PM] t1751778726: Ok\n[12:40:19 PM] t1751778726: Ok\n[12:42:19 PM] t1751778726: Ok\n[12:42:19 PM] t1751778726: Ok\n[12:42:24 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[12:42:24 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[12:45:53 PM] Angie Pereira: You are trying to verify your phone number and email?\n[12:45:53 PM] Angie Pereira: You are trying to verify your phone number and email?\n[12:46:16 PM] t1751778726: No, my ID\n[12:46:16 PM] t1751778726: No, my ID\n[12:47:48 PM] t1751778726: I sent a copy of the screenshot last night when I wrote about this and they told me to wait and try it again in two or three hours where I did and it’s still not working. I’ve been trying all night and half the morning.\n[12:47:48 PM] t1751778726: I sent a copy of the screenshot last night when I wrote about this and they told me to wait and try it again in two or three hours where I did and it’s still not working. I’ve been trying all night and half the morning.\n[12:49:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again\n[12:49:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again\n[12:50:29 PM] t1751778726: I’ll try if not guess I’ll give up seems like nobody can help me\n[12:50:29 PM] t1751778726: I’ll try if not guess I’ll give up seems like nobody can help me\n[12:50:38 PM] t1751778726: Thanks\n[12:50:38 PM] t1751778726: Thanks\n[12:51:11 PM] Angie Pereira: Alright. I'm really sorry I couldn't fully resolve this today for you. If you need anything else let us know\n[12:51:11 PM] Angie Pereira: Alright. I'm really sorry I couldn't fully resolve this today for you. If you need anything else let us know\n[12:53:42 PM] Angie Pereira: Thanks for chatting with us. Have a great day!\n[12:53:42 PM] Angie Pereira: Thanks for chatting with us. Have a great day!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T12:54:45.697Z"
         }
       ],
       "avg_score": 55,
@@ -44068,6 +44158,96 @@
       "raw_transcript": "[12:30:48 PM] Customer: Full Name: Araceli contreras garcia Email Address: ac1806070@gmail.com Subject / How can we help you?: Hola cuanto tardan la verificación ya mande mis dos quiero empezar a jugar\n[12:30:48 PM] Customer: Full Name: Araceli contreras garcia Email Address: ac1806070@gmail.com Subject / How can we help you?: Hola cuanto tardan la verificación ya mande mis dos quiero empezar a jugar\n[12:31:07 PM] Customer: Gracias\n[12:31:07 PM] Customer: Gracias\n[12:31:52 PM] Maritza Caceres: Un momento por favor\n[12:31:52 PM] Maritza Caceres: Un momento por favor\n[12:37:28 PM] Maritza Caceres: ¡Hola!\n\nTenemos excelentes noticias: tu cuenta ha sido verificada oficialmente.\n\nTodo está listo por nuestra parte. Solo es necesario esperar un breve momento para que el sistema se sincronice y actualice su estado de forma interna. Este proceso no suele tardar mucho, pero le sugerimos revisar nuevamente en unas horas y trate de cerrar sesion y luego ingresar de nuevo.\n\n¡Mucho éxito en el Jackpot Daily! Esperamos que hoy sea tu día de suerte. 🎰✨\n[12:37:28 PM] Maritza Caceres: ¡Hola!\n\nTenemos excelentes noticias: tu cuenta ha sido verificada oficialmente.\n\nTodo está listo por nuestra parte. Solo es necesario esperar un breve momento para que el sistema se sincronice y actualice su estado de forma interna. Este proceso no suele tardar mucho, pero le sugerimos revisar nuevamente en unas horas y trate de cerrar sesion y luego ingresar de nuevo.\n\n¡Mucho éxito en el Jackpot Daily! Esperamos que hoy sea tu día de suerte. 🎰✨\n[12:41:24 PM] Maritza Caceres: No hemos recibido respuesta de usted, solo quiero saber si aun sigue ahi?\n[12:41:24 PM] Maritza Caceres: No hemos recibido respuesta de usted, solo quiero saber si aun sigue ahi?\n[12:46:36 PM] Maritza Caceres: Gracias por chatear con nosotros Araceli! Esperamos que disfrute sus juegos — Mucha suerte!\n[12:46:36 PM] Maritza Caceres: Gracias por chatear con nosotros Araceli! Esperamos que disfrute sus juegos — Mucha suerte!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T12:49:42.526Z"
+    },
+    {
+      "chat_id": "2047655893795815424",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-24T12:53:46.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Took too long to clarify the issue and initially misunderstood that customer needed ID verification, not phone/email."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps but didn't address customer's specific request for alternative verification methods or acknowledge the overnight issue."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Clear instructions provided but multiple delay messages and slow response time detracted from effectiveness."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript ends abruptly with no closing statement or offer for further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 55,
+      "grade": "F",
+      "summary": "Agent provided standard technical troubleshooting but took too long to understand the core issue (ID verification problems) and didn't address the customer's specific question about alternative verification methods. The interaction lacked a proper closing and the agent could have been more proactive in offering escalation given the customer had been struggling since the previous night.",
+      "coaching_tip": "When a customer reports repeated failures over many hours, acknowledge their frustration and consider escalating or offering alternative solutions rather than only providing standard troubleshooting steps they may have already tried.",
+      "website": "Jackpot Daily",
+      "message_count": 30,
+      "raw_transcript": "[12:36:23 PM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: OK, I signed up last night on y’all website so that I could receive the free $30 and try out place out. I enjoy gambling anyway I can’t receive it until I’m verified and I have been trying to bear supply since last night and it will not let me verify keep saying the site is busy. Is there a wage to verify without going on that site like can I send it to y’all directly or is there something else we can do?\n[12:36:23 PM] t1751778726: Full Name: t1751778726 Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: OK, I signed up last night on y’all website so that I could receive the free $30 and try out place out. I enjoy gambling anyway I can’t receive it until I’m verified and I have been trying to bear supply since last night and it will not let me verify keep saying the site is busy. Is there a wage to verify without going on that site like can I send it to y’all directly or is there something else we can do?\n[12:37:36 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:37:36 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[12:38:11 PM] t1751778726: Thanks\n[12:38:11 PM] t1751778726: Thanks\n[12:39:20 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:39:20 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[12:40:19 PM] t1751778726: Ok\n[12:40:19 PM] t1751778726: Ok\n[12:42:19 PM] t1751778726: Ok\n[12:42:19 PM] t1751778726: Ok\n[12:42:24 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[12:42:24 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[12:45:53 PM] Angie Pereira: You are trying to verify your phone number and email?\n[12:45:53 PM] Angie Pereira: You are trying to verify your phone number and email?\n[12:46:16 PM] t1751778726: No, my ID\n[12:46:16 PM] t1751778726: No, my ID\n[12:47:48 PM] t1751778726: I sent a copy of the screenshot last night when I wrote about this and they told me to wait and try it again in two or three hours where I did and it’s still not working. I’ve been trying all night and half the morning.\n[12:47:48 PM] t1751778726: I sent a copy of the screenshot last night when I wrote about this and they told me to wait and try it again in two or three hours where I did and it’s still not working. I’ve been trying all night and half the morning.\n[12:49:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again\n[12:49:13 PM] Angie Pereira: No worries — a quick browser refresh and cache clear usually fixes most display or loading issues. \n\nHere’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nJackpot Daily — Live Chat Macros Internal Use Only\nJackpot Daily · Customer Service Page 6\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again\n[12:50:29 PM] t1751778726: I’ll try if not guess I’ll give up seems like nobody can help me\n[12:50:29 PM] t1751778726: I’ll try if not guess I’ll give up seems like nobody can help me\n[12:50:38 PM] t1751778726: Thanks\n[12:50:38 PM] t1751778726: Thanks\n[12:51:11 PM] Angie Pereira: Alright. I'm really sorry I couldn't fully resolve this today for you. If you need anything else let us know\n[12:51:11 PM] Angie Pereira: Alright. I'm really sorry I couldn't fully resolve this today for you. If you need anything else let us know\n[12:53:42 PM] Angie Pereira: Thanks for chatting with us. Have a great day!\n[12:53:42 PM] Angie Pereira: Thanks for chatting with us. Have a great day!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T12:54:45.697Z"
+    },
+    {
+      "chat_id": "2047658341407080448",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T12:51:36.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all—agent jumped straight to 'one moment' without any welcome or acknowledgment of the customer."
+        },
+        "issue_discovery": {
+          "score": 17,
+          "notes": "Agent effectively clarified the Second Chance bonus requirements and confirmed the customer met both criteria through good follow-up."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent correctly identified the issue, escalated appropriately, explained the bonus structure, and warned about chargeback consequences professionally."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, empathetic, and professional throughout despite customer hostility; validated frustration while providing factual information."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly warned about chargeback consequences and made no unauthorized promises; handled escalation by the book."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "Transcript appears truncated, but no proper closing or offer of further assistance is visible before cutoff."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent handled a highly escalated customer professionally, correctly identified a legitimate bonus issue, and appropriately escalated while warning about chargeback consequences. The only significant weakness was the complete absence of an opening greeting.",
+      "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before diving into the issue—it sets a professional tone even in urgent situations.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:06 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: ISSUES\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:37 PM] Diana Lopez: Please allow me one moment to look into this for you!\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:46:40 PM] t8628659172: i just lost ANOTHER 300 so why does my second chance say 0????\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:14 PM] t8628659172: i am filing fraud dispute for all amounts ever wasted here\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:24 PM] Diana Lopez: I understand your frustration. You lost $300 and your Second Chance bonus shows $0. That doesn't feel right.\n\nThe Second Chance bonus requires you to meet BOTH a minimum purchase amount AND a minimum net SC loss on the same day. If you met both requirements and the bonus still shows $0, there may be an issue.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:47:53 PM] t8628659172: yep. spent $50 and lost 300. nothing.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:23 PM] t8628659172: this site sucks. i just shattered my phone because this stupid site.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:48:29 PM] Diana Lopez: Thank you for clarifying. You spent $50 and lost $300 on the same day, and your Second Chance bonus is still showing $0. That should not be happening.\n\nBased on our bonus structure, a net loss of $300 should qualify for at least 6% back (18 SC), and with a $50 purchase, you should have met both requirements.\n\nI've noted your account. Our team will look into why the bonus didn't trigger and provide an update as soon as possible.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:10 PM] t8628659172: in the meantime i’m calling bank. fraud.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:49:50 PM] Diana Lopez: I understand you're frustrated, and you have every right to be. You spent $50, lost $300, and the bonus you were promised isn't showing up. That's not the experience we want for you.\n\nBefore you call your bank, please know that once a chargeback is filed, your account will be suspended and you will not be able to use the platform or redeem any future winnings.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:50:13 PM] t8628659172: i don’t mind. i’ve lost 5k here.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.\n[12:51:16 PM] Diana Lopez: I hear you. You've lost $5,000 on the platform, and now a $300 loss with no bonus is the last straw. I understand why you're done waiting.\n\nI've noted your account. If you decide to proceed with calling your bank, that is your right. Our team will still review your case.\n\nThank you for giving us a try. I'm sorry it ended this way.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T12:54:54.607Z"
     }
   ]
 }
