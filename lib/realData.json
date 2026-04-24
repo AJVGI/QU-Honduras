@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T19:49:47.349Z",
-  "total_chats": 571,
+  "scored_at": "2026-04-24T19:54:46.339Z",
+  "total_chats": 572,
   "total_agents": 26,
   "agents": [
     {
@@ -5721,11 +5721,56 @@
           "raw_transcript": "[06:17:27 PM] t1120088700: Full Name: t1120088700 Email Address: brucelawayne80@gmail.com Subject / How can we help you?: Checking to see if my verification is cleared\n[06:17:27 PM] t1120088700: Full Name: t1120088700 Email Address: brucelawayne80@gmail.com Subject / How can we help you?: Checking to see if my verification is cleared\n[06:17:43 PM] Diana Lopez: Hello!\n[06:17:43 PM] Diana Lopez: Hello!\n[06:19:06 PM] Diana Lopez: I understand you want to check if your verification has been cleared.\n\nVerification can take time to process. Please log into your account and go to the verification section (usually under Profile or KYC) to see your current status.\n\nIf your status shows 'Pending' or 'In Review,' our team is still working on it. You will receive an email notification once your verification is complete.\n\nThank you for your patience.\n[06:19:06 PM] Diana Lopez: I understand you want to check if your verification has been cleared.\n\nVerification can take time to process. Please log into your account and go to the verification section (usually under Profile or KYC) to see your current status.\n\nIf your status shows 'Pending' or 'In Review,' our team is still working on it. You will receive an email notification once your verification is complete.\n\nThank you for your patience.\n[06:21:59 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[06:21:59 PM] Diana Lopez: Glad we got that sorted! Is there anything else I can help you with today?\n[06:23:09 PM] t1120088700: No thanks\n[06:23:09 PM] t1120088700: No thanks",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T18:24:42.967Z"
+        },
+        {
+          "chat_id": "2047763391912390656",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T19:50:00.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting was present but minimal ('Hello1\\') with apparent typo and no personalization."
+            },
+            "issue_discovery": {
+              "score": 17,
+              "notes": "Agent clearly understood the self-exclusion request and provided thorough confirmation points before proceeding."
+            },
+            "resolution": {
+              "score": 25,
+              "notes": "Successfully processed the sensitive self-exclusion request with clear explanation of what happens next."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Professional, empathetic tone with clear explanations and appropriate acknowledgment of responsible gaming."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Handled responsible gaming request appropriately with proper confirmation and documentation of terms."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Warm closing with 'take care of yourself' and offered availability for future contact."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "Agent handled a sensitive self-exclusion request professionally and efficiently, obtaining proper confirmation before processing. Communication was clear and empathetic with appropriate responsible gaming language throughout.",
+          "coaching_tip": "Fix the greeting to remove the typo and backslash characters, and consider personalizing with the customer's name for a warmer opening.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T19:54:45.838Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 7
+      "trend": 13
     },
     {
       "id": "5808",
@@ -51628,6 +51673,51 @@
       "raw_transcript": "[07:36:51 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[07:36:51 PM] Customer: Full Name: María Arguello Email Address: lorearguello87@gmail.com Subject / How can we help you?: Activar mi ubicación\n[07:37:40 PM] Andrea Rodriguez: Hola mi nombre es Amanda y le estaré apoyando el dia de hoy\n[07:37:40 PM] Andrea Rodriguez: Hola mi nombre es Amanda y le estaré apoyando el dia de hoy\n[07:39:47 PM] Andrea Rodriguez: Para activar la ubicación en tu dispositivo:\n\nEn iPhone / iPad:\nAjustes → Privacidad → Servicios de Ubicación → Activar → Busca tu navegador (Safari, Chrome, etc.) → Selecciona \"Mientras se usa la app\"\n\nEn Android:\nAjustes → Ubicación → Activar → Busca tu navegador → Selecciona \"Permitir solo mientras se usa la app\"\n\nEn computadora (Chrome):\nHaz clic en el ícono del candado 🔒 junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activado, actualiza la página e inténtalo de nuevo.\n[07:39:47 PM] Andrea Rodriguez: Para activar la ubicación en tu dispositivo:\n\nEn iPhone / iPad:\nAjustes → Privacidad → Servicios de Ubicación → Activar → Busca tu navegador (Safari, Chrome, etc.) → Selecciona \"Mientras se usa la app\"\n\nEn Android:\nAjustes → Ubicación → Activar → Busca tu navegador → Selecciona \"Permitir solo mientras se usa la app\"\n\nEn computadora (Chrome):\nHaz clic en el ícono del candado 🔒 junto a la URL → Configuración del sitio → Ubicación → Permitir\n\nUna vez activado, actualiza la página e inténtalo de nuevo.\n[07:41:33 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[07:41:33 PM] Andrea Rodriguez: Let me know if you are still here so we can keep helping you.\n[07:44:58 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[07:44:58 PM] Andrea Rodriguez: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T19:49:46.848Z"
+    },
+    {
+      "chat_id": "2047763391912390656",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T19:50:00.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Greeting was present but minimal ('Hello1\\') with apparent typo and no personalization."
+        },
+        "issue_discovery": {
+          "score": 17,
+          "notes": "Agent clearly understood the self-exclusion request and provided thorough confirmation points before proceeding."
+        },
+        "resolution": {
+          "score": 25,
+          "notes": "Successfully processed the sensitive self-exclusion request with clear explanation of what happens next."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Professional, empathetic tone with clear explanations and appropriate acknowledgment of responsible gaming."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Handled responsible gaming request appropriately with proper confirmation and documentation of terms."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Warm closing with 'take care of yourself' and offered availability for future contact."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 81,
+      "grade": "B",
+      "summary": "Agent handled a sensitive self-exclusion request professionally and efficiently, obtaining proper confirmation before processing. Communication was clear and empathetic with appropriate responsible gaming language throughout.",
+      "coaching_tip": "Fix the greeting to remove the typo and backslash characters, and consider personalizing with the customer's name for a warmer opening.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:32 PM] t8003346297: Full Name: t8003346297 Email Address: thewolfqueen9306@gmail.com Subject / How can we help you?: Please put a restriction on my account for no access for 1 month.\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:43:53 PM] Diana Lopez: Hello1\\\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:44:31 PM] Diana Lopez: I understand you want to restrict access to your account for 1 month. I can help with that.\n\nPlease confirm the following:\n*- You want a 1-month self-exclusion from the platform*\n- You understand that during this time you will not be able to log in, play, or make purchases\n*- Your account will be reactivated automatically after 1 month*\n\nOnce you confirm, I will process your restriction request.\n\nThank you for taking this responsible step.\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:45:21 PM] t8003346297: Yes thank you i want to confirm this\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.\n[07:46:18 PM] Diana Lopez: Thank you for confirming. I have processed your request to restrict your account for 1 month.\n\nDuring this time, you will not be able to log in, play, or make any purchases. Your account will be reactivated automatically after 1 month.\n\nIf you need anything before then, you can reach out to us. Take care of yourself.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T19:54:45.838Z"
     }
   ]
 }
