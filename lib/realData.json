@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T18:54:45.385Z",
-  "total_chats": 560,
+  "scored_at": "2026-04-24T18:59:48.480Z",
+  "total_chats": 562,
   "total_agents": 26,
   "agents": [
     {
@@ -22369,510 +22369,6 @@
       "trend": -10
     },
     {
-      "id": "5838",
-      "name": "Evelyn Portillo",
-      "chats": [
-        {
-          "chat_id": "2045112238472790016",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-17T12:21:21.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No proper greeting at start; only said 'Hey!' after several minutes into the conversation."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent understood the cooling-off request but failed to clarify or explore temporary self-exclusion options that might exist."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent only offered permanent closure when customer explicitly requested a temporary 30-day cooling-off period, which is a significant mismatch and potential compliance issue."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Communication was clear and professional, but the casual closing about 'enjoying games' contradicts the responsible gambling context."
-            },
-            "compliance": {
-              "score": 4,
-              "notes": "Major compliance concern: failed to offer or mention temporary self-exclusion options when customer specifically requested a 30-day break, which is a standard responsible gambling tool."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closing was inappropriate and tone-deaf, wishing customer to 'enjoy games' and 'good luck' after discussing account closure for responsible gambling reasons."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 45,
-          "grade": "F",
-          "summary": "Agent failed to address the customer's specific request for a temporary 30-day cooling-off period and only offered permanent closure, which is a serious responsible gambling compliance failure. The closing was also inappropriate for the context, wishing the customer luck with games after discussing self-exclusion.",
-          "coaching_tip": "Always offer temporary self-exclusion or cooling-off period options when customers request breaks, and ensure closing remarks match the serious nature of responsible gambling conversations.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[12:08:48 PM] t2909646168: Full Name: t2909646168 Email Address: mattmcbrayer@aol.com Subject / How can we help you?: I want to do a cool of period of one month 30days\n[12:09:25 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:12:18 PM] Evelyn Portillo: Give me a moment to review this information.\n[12:17:09 PM] Evelyn Portillo: Hey!\nI completely understand wanting to take a break. While we don’t have an option to \"freeze\" or temporarily pause an account, we can definitely close it for you permanently .\nIf you choose to proceed with a Permanent Account Closure, please keep a few things in mind:\nNo Access: You will no longer be able to log in or access any gameplay and cannot be recovered.\nFinality: Once an account is permanently closed, it cannot be reopened\nWould you like me to move forward with the permanent closure for you?\n[12:18:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[12:21:18 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:52:33.360Z"
-        },
-        {
-          "chat_id": "2047652347387408384",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T12:35:14.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped directly to 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the withdrawal inquiry and checked the redemption status, though didn't ask clarifying questions about payment method chosen."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent confirmed status and provided general timeframes but didn't directly answer customer's specific question about estimated completion date."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Multiple typos ('redemeption', 'ust'), unclear explanation, and didn't directly address customer's follow-up question about estimated date."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided standard timeframes without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and closed politely, though somewhat abrupt given customer's unanswered question."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent checked the redemption status and provided general processing timeframes but failed to directly answer the customer's specific question about estimated completion date. Communication was hindered by typos and the agent moved to close without ensuring the customer's concern was fully addressed.",
-          "coaching_tip": "Always directly answer the customer's specific question before providing general information, and when a customer asks for an estimated date, provide a clear calculation based on the information you have rather than repeating generic timeframes.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[12:22:17 PM] t7564382737: Full Name: t7564382737 Email Address: casinogamesemail12@gmail.com Subject / How can we help you?: Hi I was wondering how long redemption take i cashed out on 4/17/26\n[12:22:17 PM] t7564382737: Full Name: t7564382737 Email Address: casinogamesemail12@gmail.com Subject / How can we help you?: Hi I was wondering how long redemption take i cashed out on 4/17/26\n[12:22:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:22:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:22:48 PM] t7564382737: Thank you\n[12:22:48 PM] t7564382737: Thank you\n[12:25:33 PM] t7564382737: K\n[12:25:33 PM] t7564382737: K\n[12:26:32 PM] Evelyn Portillo: In this case I JUST check the redemption from that date and the redemeption still on new status , that´s mean we have to wait this usually take between 24-72 hours , without weekend\n[12:26:32 PM] Evelyn Portillo: In this case I JUST check the redemption from that date and the redemeption still on new status , that´s mean we have to wait this usually take between 24-72 hours , without weekend\n[12:27:21 PM] Evelyn Portillo: in this case we have to wait the first and second approval\n[12:27:21 PM] Evelyn Portillo: in this case we have to wait the first and second approval\n[12:29:13 PM] Evelyn Portillo: you can check the redemption status Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n[12:29:13 PM] t7564382737: Ok so do you have a guess around what day the redemption might be done on\n[12:29:13 PM] Evelyn Portillo: you can check the redemption status Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n[12:29:13 PM] t7564382737: Ok so do you have a guess around what day the redemption might be done on\n[12:29:49 PM] Evelyn Portillo: ust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:29:49 PM] Evelyn Portillo: ust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:33:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:33:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:35:11 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[12:35:11 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T12:39:54.406Z"
-        },
-        {
-          "chat_id": "2047656593485414400",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T12:39:44.000Z",
-          "categories": {
-            "greeting": {
-              "score": 0,
-              "notes": "No agent response present in transcript."
-            },
-            "issue_discovery": {
-              "score": 0,
-              "notes": "No agent response present to discover or clarify the issue."
-            },
-            "resolution": {
-              "score": 0,
-              "notes": "No agent response present to attempt resolution."
-            },
-            "communication": {
-              "score": 0,
-              "notes": "No agent communication present in transcript."
-            },
-            "compliance": {
-              "score": 0,
-              "notes": "No agent interaction to evaluate for compliance."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No agent closing present in transcript."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 0,
-          "grade": "F",
-          "summary": "The transcript contains only the customer's initial inquiry with no agent response whatsoever. This appears to be an incomplete chat log where the agent never engaged with the customer.",
-          "coaching_tip": "Ensure agents respond promptly to all incoming customer inquiries and that chat transcripts capture the complete interaction.",
-          "website": "Jackpot Daily",
-          "message_count": 2,
-          "raw_transcript": "[12:39:10 PM] t7274412046: Full Name: t7274412046 Email Address: princessgordan19@gmail.com Subject / How can we help you?: It’s saying my full name isn’t valid when I try to add my bank account info\n[12:39:10 PM] t7274412046: Full Name: t7274412046 Email Address: princessgordan19@gmail.com Subject / How can we help you?: It’s saying my full name isn’t valid when I try to add my bank account info",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T12:44:59.033Z"
-        },
-        {
-          "chat_id": "2047657077840900096",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T13:00:24.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent looked into the account but asked no clarifying questions about redemption amount, method, timing, or expected delivery."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Agent only stated the status is 'paying pending' but provided no timeline, next steps, or actionable information for the customer."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Multiple typos ('pending paid', unclear phrasing) and confusing explanation that didn't clarify what customer should expect."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but failed to set proper expectations about payment timelines or escalation procedures."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help but closed prematurely without confirming customer understood the status or had no further questions."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 45,
-          "grade": "F",
-          "summary": "Agent investigated the redemption status but failed to provide a proper greeting, clear explanation, or actionable next steps. The communication was confusing with typos, and the customer was left without understanding when to expect payment or what to do next.",
-          "coaching_tip": "Always provide a clear timeline and next steps when discussing pending payments—tell the customer what 'paying pending' means, expected timeframe, and who to contact if it exceeds that window.",
-          "website": "Jackpot Daily",
-          "message_count": 26,
-          "raw_transcript": "[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:59 PM] Customer: Ok\n[12:42:59 PM] Customer: Ok\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:48:54 PM] Customer: Ok\n[12:48:54 PM] Customer: Ok\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:54 PM] Customer: Ok\n[12:51:54 PM] Customer: Ok\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:58:56 PM] Customer: Ok\n[12:58:56 PM] Customer: Ok\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:00:22 PM] Customer: Thanks\n[01:00:22 PM] Customer: Thanks",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T13:04:41.857Z"
-        },
-        {
-          "chat_id": "2047664530956218368",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T13:19:59.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent identified the redemption request but didn't clarify the customer's concern about the timeline discrepancy or ask about previous communication."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided general timeline information but failed to address why the status is still 'new' or reconcile the previous promise that it would arrive 'this week.'"
-            },
-            "communication": {
-              "score": 12,
-              "notes": "The explanation about 'first and second request' was confusing and unclear; general redemption info was clear but didn't address the specific concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected; provided standard redemption information appropriately."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided a friendly closing, though somewhat premature given the unresolved timeline concern."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 56,
-          "grade": "F",
-          "summary": "Agent provided general redemption timeline information but failed to address the customer's specific concern about a previous promise that the redemption would arrive 'this week.' The lack of greeting and confusing explanation about request status detracted from an otherwise professional interaction.",
-          "coaching_tip": "Always acknowledge previous commitments mentioned by customers and either confirm, clarify, or escalate timeline discrepancies rather than providing only generic information.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[01:10:42 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[01:10:42 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[01:12:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:12:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:12:10 PM] t5416824943: And it still just says  pending\n[01:12:10 PM] t5416824943: And it still just says  pending\n[01:14:07 PM] Evelyn Portillo: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[01:14:07 PM] Evelyn Portillo: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[01:14:33 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:14:33 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:17:06 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:17:06 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:19:41 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:19:41 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T13:24:56.180Z"
-        },
-        {
-          "chat_id": "2047669928612282368",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T13:42:51.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped straight to 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent initially explained timelines but did clarify when customer revealed the real issue about missing funds after successful status."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent confirmed payment was made but didn't address the customer's concern about funds not appearing in their account or provide next steps."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Messages were somewhat clear but contained typos and grammatical errors ('gonna be credited', 'tota'), and lacked empathy for the missing funds concern."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No major violations but closed without confirming customer satisfaction on a payment discrepancy issue."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and said goodbye, but closed prematurely while customer's core concern about missing funds remained unaddressed."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent provided redemption timeline information but failed to adequately address the customer's main concern that funds marked as 'redemption successful' had not appeared in their account. The interaction closed without confirming resolution or offering troubleshooting steps for the payment discrepancy.",
-          "coaching_tip": "When a customer reports funds haven't arrived despite successful status, verify the payment method details, confirm expected arrival timeframe, and provide specific next steps or escalation options rather than closing the chat prematurely.",
-          "website": "Jackpot Daily",
-          "message_count": 16,
-          "raw_transcript": "[01:32:09 PM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: How long does redemption take\n[01:32:09 PM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: How long does redemption take\n[01:32:36 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:32:36 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:34:14 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days tota\n You need to wait 24-72 hours for the request pass the first and second approval , and then  you gonna be credited depending on your method\n[01:34:14 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days tota\n You need to wait 24-72 hours for the request pass the first and second approval , and then  you gonna be credited depending on your method\n[01:35:32 PM] t3625261861: The status updated to redemption successful but nothing in my account\n[01:35:32 PM] t3625261861: The status updated to redemption successful but nothing in my account\n[01:35:54 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:35:54 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:36:56 PM] Evelyn Portillo: the request of the 23 of this month is already paid the request amount is 450\n[01:36:56 PM] Evelyn Portillo: the request of the 23 of this month is already paid the request amount is 450\n[01:39:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:39:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:42:47 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:42:47 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T13:45:03.744Z"
-        },
-        {
-          "chat_id": "2047671599656550400",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T13:53:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped directly into asking for a moment to investigate without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Agent asked relevant clarifying questions about task completion and purchase status, though took considerable time to investigate."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Agent confirmed the task was claimed and bonus received on their end, explained possible delay, which appropriately addressed the issue."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Communication was generally clear but marred by multiple typos and grammatical errors in the final resolution message."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made, stayed within appropriate boundaries."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Offered further help and provided a warm closing with good luck wishes, though slightly abrupt given the unresolved visual discrepancy."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 66,
-          "grade": "D",
-          "summary": "Agent handled the task completion inquiry adequately by investigating and confirming the bonus was credited on the backend, explaining a possible display delay. However, the interaction lacked a proper greeting and contained noticeable spelling/grammar errors that detracted from professionalism.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name when available, and proofread messages before sending to avoid typos like 'reeive' and 'propably' that undermine professionalism.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:29 PM] Customer: Thank you!\n[01:39:29 PM] Customer: Thank you!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T13:59:42.849Z"
-        },
-        {
-          "chat_id": "2047677179927818240",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T14:10:01.000Z",
-          "categories": {
-            "greeting": {
-              "score": 8,
-              "notes": "Warm, personalized greeting using customer's name with friendly tone."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Understood basic verification request but didn't clarify what was needed or confirm completion details."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Claimed to complete verification but provided no confirmation details and left new question about purchases unanswered."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Started well but became unclear with typo 'yesod' and ended abruptly without addressing final question."
-            },
-            "compliance": {
-              "score": 7,
-              "notes": "No major violations but lacked proper verification confirmation documentation."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Attempted closing but customer had unresolved follow-up question that was ignored, making closure premature."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 56,
-          "grade": "F",
-          "summary": "Agent provided friendly service and claimed to resolve the verification issue quickly, but failed to provide confirmation details or explain what was done. The interaction ended prematurely with the customer's final question about purchases left completely unanswered.",
-          "coaching_tip": "Always confirm what action was taken and provide specific details when completing account changes, and never close the chat while a customer question remains unanswered.",
-          "website": "Jackpot Daily",
-          "message_count": 24,
-          "raw_transcript": "[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:02:19 PM] Customer: Need help verifying my account\n[02:02:19 PM] Customer: Need help verifying my account\n[02:04:05 PM] Customer: It’s been a while\n[02:04:05 PM] Customer: It’s been a while\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:29 PM] Customer: Okay\n[02:04:29 PM] Customer: Okay\n[02:05:57 PM] Evelyn Portillo: done!\n[02:05:57 PM] Evelyn Portillo: done!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:07:36 PM] Customer: Is it done now\n[02:07:36 PM] Customer: Is it done now\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T14:14:42.574Z"
-        },
-        {
-          "chat_id": "2047683399908110336",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T14:34:21.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the core issue about missing signup bonus and investigated the account, though didn't clarify the customer's claim of '20 SC' discrepancy initially."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Agent correctly identified the actual bonus (2 SC not 20 SC), explained verification requirements, and provided account-specific information showing bonuses are available but need to be played."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Information was accurate but overly lengthy with excessive detail about Golden Egg and daily rewards that may have overwhelmed the customer seeking a simple answer."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; agent correctly clarified the actual bonus terms rather than honoring an incorrect expectation of 20 SC."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No closing whatsoever; the transcript ends mid-sentence with the message truncated and no follow-up or resolution confirmation."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent provided accurate information correcting the customer's misunderstanding about bonus amount and explained verification requirements. However, the response was overly detailed and lacked both a proper greeting and any closing, with the final message appearing incomplete.",
-          "coaching_tip": "Always open with a warm greeting using the customer's name when possible, and ensure every interaction has a clear closing that confirms resolution and offers further assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[02:25:41 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[02:25:41 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[02:26:17 PM] t5771772342: I tried everything in the list and I still can't do anything\n[02:26:17 PM] t5771772342: I tried everything in the list and I still can't do anything\n[02:26:31 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[02:26:31 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[02:28:45 PM] Evelyn Portillo: I can definitely help clear that up for you. It sounds like there might be a small misunderstanding regarding the sign-up bonus amount. According to our current offers, the Welcome Bonus for new users is:\n2 Sweepstakes Coins (SC)\n100,000 Gold Coins (GC) \nThe reason you likely haven't seen these in your account yet is that they are credited automatically only after you complete two specific steps:\nVerify your email address\nVerify your phone number \nOnce those two things are done, the bonus should land right in your account! If you've already done both and still don't see it, just let me know and I'll be happy to investigate further.\nBy the way, did you happen to see anything about a \"Golden Egg\" when you signed up? That’s another new user offer where you can reveal a random reward of up to 100 SC after completing your KYC (identity) verification!\n[02:28:45 PM] Evelyn Portillo: I can definitely help clear that up for you. It sounds like there might be a small misunderstanding regarding the sign-up bonus amount. According to our current offers, the Welcome Bonus for new users is:\n2 Sweepstakes Coins (SC)\n100,000 Gold Coins (GC) \nThe reason you likely haven't seen these in your account yet is that they are credited automatically only after you complete two specific steps:\nVerify your email address\nVerify your phone number \nOnce those two things are done, the bonus should land right in your account! If you've already done both and still don't see it, just let me know and I'll be happy to investigate further.\nBy the way, did you happen to see anything about a \"Golden Egg\" when you signed up? That’s another new user offer where you can reveal a random reward of up to 100 SC after completing your KYC (identity) verification!\n[02:31:39 PM] Evelyn Portillo: I can see the you have the welcome bonua and sign in bonus available but you need to play it .\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\nand \nDaily Login Rewards are totally free — just log in\neach day and collect!\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🎉\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:31:39 PM] Evelyn Portillo: I can see the you have the welcome bonua and sign in bonus available but you need to play it .\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\nand \nDaily Login Rewards are totally free — just log in\neach day and collect!\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🎉\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:31:48 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:31:48 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:34:17 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[02:34:17 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T14:34:43.549Z"
-        },
-        {
-          "chat_id": "2047722998944542720",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T17:08:11.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'one moment' without welcoming the customer or using their name."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the Facebook login issue but didn't ask clarifying questions about error messages or what exactly happens when customer tries to log in."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Provided comprehensive troubleshooting steps covering likely causes, but didn't confirm if customer tried them or if issue was resolved before closing."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and well-structured with bullet points, though closed chat without waiting for customer confirmation."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises; handled account access issue appropriately."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Offered further help but closed prematurely without confirming resolution or allowing customer to respond to troubleshooting steps."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 65,
-          "grade": "D",
-          "summary": "Agent provided solid troubleshooting guidance for a Facebook login issue with clear, empathetic communication. However, the interaction lacked a proper greeting and closed prematurely without confirming whether the customer successfully resolved the issue.",
-          "coaching_tip": "Always wait for customer confirmation that troubleshooting steps worked or failed before closing the chat, especially when the customer has deposited money and cannot access their account.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T17:09:42.216Z"
-        },
-        {
-          "chat_id": "2047739226268721152",
-          "agent_name": "Evelyn Portillo",
-          "agent_id": "5838",
-          "timestamp": "2026-04-24T18:15:05.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent thoroughly investigated the discrepancy and identified the likely confusion between pack types and unlock order."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Provided clear explanation of pack structure, actionable steps to verify transaction, and offered refund option with conditions."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Professional and well-structured response with clear formatting, though could have acknowledged customer's frustration more empathetically."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed policy correctly regarding refunds and wagering requirements with appropriate conditions stated."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Offered further help and provided a friendly, encouraging sign-off appropriate for a casino environment."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 77,
-          "grade": "C",
-          "summary": "Agent provided a thorough and accurate explanation of the bonus pack system with clear resolution paths, but failed to open with any greeting. The response was professional and compliant, though could have shown more empathy toward the frustrated customer.",
-          "coaching_tip": "Always open with a greeting that acknowledges the customer by name or with a warm welcome before diving into the issue, especially when a customer is clearly frustrated.",
-          "website": "Jackpot Daily",
-          "message_count": 14,
-          "raw_transcript": "[06:07:31 PM] t9072739044: Full Name: t9072739044 Email Address: beercats0321@gmail.com Subject / How can we help you?: What the hell is goin on i choose welcome bonus package $30.00 for $9.99 and i only recieved $18.00...Were is the rest of it this is bull.. correct it or refund my purchase. Thank you\n[06:07:31 PM] t9072739044: Full Name: t9072739044 Email Address: beercats0321@gmail.com Subject / How can we help you?: What the hell is goin on i choose welcome bonus package $30.00 for $9.99 and i only recieved $18.00...Were is the rest of it this is bull.. correct it or refund my purchase. Thank you\n[06:08:13 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:08:13 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:08:35 PM] t9072739044: Thnk you\n[06:08:35 PM] t9072739044: Thnk you\n[06:10:20 PM] t9072739044: Okay appreciate\n[06:10:20 PM] t9072739044: Okay appreciate\n[06:12:11 PM] Evelyn Portillo: It sounds like there might be a little confusion with how the packs unlock. According to our records, the 1st Purchase Pack (the New User Offer) has a $9.99 option that gives you 30 SC (a 200% bonus).\nThe $18.00 SC amount you mentioned actually matches the $9.99 option for the 2nd Purchase Pack . Since our bonus packs must be unlocked in a specific order (1 → 2 → 3), it's possible you are seeing the contents of a subsequent pack or a different daily offer .\nHow we can fix this:\nCheck your Transaction History: You can see exactly which pack was applied by going to Menu > Profile > Activity and filtering by transaction type .\nWagering Requirements: Keep in mind that SC from purchases requires a 1x playthrough before it can be redeemed (p. 1).\nRefund Option: If you'd still prefer a refund, we can process one for unused Gold Coin packages within 48 hours of purchase, provided none of the funds have been played yet\n[06:12:11 PM] Evelyn Portillo: It sounds like there might be a little confusion with how the packs unlock. According to our records, the 1st Purchase Pack (the New User Offer) has a $9.99 option that gives you 30 SC (a 200% bonus).\nThe $18.00 SC amount you mentioned actually matches the $9.99 option for the 2nd Purchase Pack . Since our bonus packs must be unlocked in a specific order (1 → 2 → 3), it's possible you are seeing the contents of a subsequent pack or a different daily offer .\nHow we can fix this:\nCheck your Transaction History: You can see exactly which pack was applied by going to Menu > Profile > Activity and filtering by transaction type .\nWagering Requirements: Keep in mind that SC from purchases requires a 1x playthrough before it can be redeemed (p. 1).\nRefund Option: If you'd still prefer a refund, we can process one for unused Gold Coin packages within 48 hours of purchase, provided none of the funds have been played yet\n[06:13:03 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[06:13:03 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[06:15:01 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:15:01 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T18:19:47.469Z"
-        }
-      ],
-      "avg_score": 53,
-      "grade": "F",
-      "trend": 21
-    },
-    {
       "id": "5840",
       "name": "Ludovicode Flores",
       "chats": [
@@ -24914,6 +24410,600 @@
       "avg_score": 52,
       "grade": "F",
       "trend": -1
+    },
+    {
+      "id": "5838",
+      "name": "Evelyn Portillo",
+      "chats": [
+        {
+          "chat_id": "2045112238472790016",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-17T12:21:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No proper greeting at start; only said 'Hey!' after several minutes into the conversation."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent understood the cooling-off request but failed to clarify or explore temporary self-exclusion options that might exist."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent only offered permanent closure when customer explicitly requested a temporary 30-day cooling-off period, which is a significant mismatch and potential compliance issue."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Communication was clear and professional, but the casual closing about 'enjoying games' contradicts the responsible gambling context."
+            },
+            "compliance": {
+              "score": 4,
+              "notes": "Major compliance concern: failed to offer or mention temporary self-exclusion options when customer specifically requested a 30-day break, which is a standard responsible gambling tool."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closing was inappropriate and tone-deaf, wishing customer to 'enjoy games' and 'good luck' after discussing account closure for responsible gambling reasons."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 45,
+          "grade": "F",
+          "summary": "Agent failed to address the customer's specific request for a temporary 30-day cooling-off period and only offered permanent closure, which is a serious responsible gambling compliance failure. The closing was also inappropriate for the context, wishing the customer luck with games after discussing self-exclusion.",
+          "coaching_tip": "Always offer temporary self-exclusion or cooling-off period options when customers request breaks, and ensure closing remarks match the serious nature of responsible gambling conversations.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[12:08:48 PM] t2909646168: Full Name: t2909646168 Email Address: mattmcbrayer@aol.com Subject / How can we help you?: I want to do a cool of period of one month 30days\n[12:09:25 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:12:18 PM] Evelyn Portillo: Give me a moment to review this information.\n[12:17:09 PM] Evelyn Portillo: Hey!\nI completely understand wanting to take a break. While we don’t have an option to \"freeze\" or temporarily pause an account, we can definitely close it for you permanently .\nIf you choose to proceed with a Permanent Account Closure, please keep a few things in mind:\nNo Access: You will no longer be able to log in or access any gameplay and cannot be recovered.\nFinality: Once an account is permanently closed, it cannot be reopened\nWould you like me to move forward with the permanent closure for you?\n[12:18:00 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[12:21:18 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:52:33.360Z"
+        },
+        {
+          "chat_id": "2047652347387408384",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T12:35:14.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly to 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the withdrawal inquiry and checked the redemption status, though didn't ask clarifying questions about payment method chosen."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent confirmed status and provided general timeframes but didn't directly answer customer's specific question about estimated completion date."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple typos ('redemeption', 'ust'), unclear explanation, and didn't directly address customer's follow-up question about estimated date."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided standard timeframes without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and closed politely, though somewhat abrupt given customer's unanswered question."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent checked the redemption status and provided general processing timeframes but failed to directly answer the customer's specific question about estimated completion date. Communication was hindered by typos and the agent moved to close without ensuring the customer's concern was fully addressed.",
+          "coaching_tip": "Always directly answer the customer's specific question before providing general information, and when a customer asks for an estimated date, provide a clear calculation based on the information you have rather than repeating generic timeframes.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[12:22:17 PM] t7564382737: Full Name: t7564382737 Email Address: casinogamesemail12@gmail.com Subject / How can we help you?: Hi I was wondering how long redemption take i cashed out on 4/17/26\n[12:22:17 PM] t7564382737: Full Name: t7564382737 Email Address: casinogamesemail12@gmail.com Subject / How can we help you?: Hi I was wondering how long redemption take i cashed out on 4/17/26\n[12:22:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:22:39 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:22:48 PM] t7564382737: Thank you\n[12:22:48 PM] t7564382737: Thank you\n[12:25:33 PM] t7564382737: K\n[12:25:33 PM] t7564382737: K\n[12:26:32 PM] Evelyn Portillo: In this case I JUST check the redemption from that date and the redemeption still on new status , that´s mean we have to wait this usually take between 24-72 hours , without weekend\n[12:26:32 PM] Evelyn Portillo: In this case I JUST check the redemption from that date and the redemeption still on new status , that´s mean we have to wait this usually take between 24-72 hours , without weekend\n[12:27:21 PM] Evelyn Portillo: in this case we have to wait the first and second approval\n[12:27:21 PM] Evelyn Portillo: in this case we have to wait the first and second approval\n[12:29:13 PM] Evelyn Portillo: you can check the redemption status Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n[12:29:13 PM] t7564382737: Ok so do you have a guess around what day the redemption might be done on\n[12:29:13 PM] Evelyn Portillo: you can check the redemption status Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\n[12:29:13 PM] t7564382737: Ok so do you have a guess around what day the redemption might be done on\n[12:29:49 PM] Evelyn Portillo: ust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:29:49 PM] Evelyn Portillo: ust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[12:33:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:33:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:35:11 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[12:35:11 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T12:39:54.406Z"
+        },
+        {
+          "chat_id": "2047656593485414400",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T12:39:44.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent response present to discover or clarify the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No agent response present to attempt resolution."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent communication present in transcript."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent interaction to evaluate for compliance."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No agent closing present in transcript."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "The transcript contains only the customer's initial inquiry with no agent response whatsoever. This appears to be an incomplete chat log where the agent never engaged with the customer.",
+          "coaching_tip": "Ensure agents respond promptly to all incoming customer inquiries and that chat transcripts capture the complete interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[12:39:10 PM] t7274412046: Full Name: t7274412046 Email Address: princessgordan19@gmail.com Subject / How can we help you?: It’s saying my full name isn’t valid when I try to add my bank account info\n[12:39:10 PM] t7274412046: Full Name: t7274412046 Email Address: princessgordan19@gmail.com Subject / How can we help you?: It’s saying my full name isn’t valid when I try to add my bank account info",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T12:44:59.033Z"
+        },
+        {
+          "chat_id": "2047657077840900096",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T13:00:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent looked into the account but asked no clarifying questions about redemption amount, method, timing, or expected delivery."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent only stated the status is 'paying pending' but provided no timeline, next steps, or actionable information for the customer."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Multiple typos ('pending paid', unclear phrasing) and confusing explanation that didn't clarify what customer should expect."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to set proper expectations about payment timelines or escalation procedures."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help but closed prematurely without confirming customer understood the status or had no further questions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 45,
+          "grade": "F",
+          "summary": "Agent investigated the redemption status but failed to provide a proper greeting, clear explanation, or actionable next steps. The communication was confusing with typos, and the customer was left without understanding when to expect payment or what to do next.",
+          "coaching_tip": "Always provide a clear timeline and next steps when discussing pending payments—tell the customer what 'paying pending' means, expected timeframe, and who to contact if it exceeds that window.",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "raw_transcript": "[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:41:05 PM] Customer: Full Name: Damarcus Robertson Email Address: yleo4238@gmail.com Subject / How can we help you?: I didn’t receive my money I redeemed\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:42:59 PM] Customer: Ok\n[12:42:59 PM] Customer: Ok\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:45:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[12:48:54 PM] Customer: Ok\n[12:48:54 PM] Customer: Ok\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:18 PM] Evelyn Portillo: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:51:54 PM] Customer: Ok\n[12:51:54 PM] Customer: Ok\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:55:40 PM] Evelyn Portillo: so I see you have a pending paid of a redemption\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:00 PM] Evelyn Portillo: the redemption status pass the first and second approval\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:56:15 PM] Evelyn Portillo: but it is on paying pending\n[12:58:56 PM] Customer: Ok\n[12:58:56 PM] Customer: Ok\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[12:59:41 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:00:22 PM] Customer: Thanks\n[01:00:22 PM] Customer: Thanks",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:04:41.857Z"
+        },
+        {
+          "chat_id": "2047664530956218368",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T13:19:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent identified the redemption request but didn't clarify the customer's concern about the timeline discrepancy or ask about previous communication."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided general timeline information but failed to address why the status is still 'new' or reconcile the previous promise that it would arrive 'this week.'"
+            },
+            "communication": {
+              "score": 12,
+              "notes": "The explanation about 'first and second request' was confusing and unclear; general redemption info was clear but didn't address the specific concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; provided standard redemption information appropriately."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though somewhat premature given the unresolved timeline concern."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided general redemption timeline information but failed to address the customer's specific concern about a previous promise that the redemption would arrive 'this week.' The lack of greeting and confusing explanation about request status detracted from an otherwise professional interaction.",
+          "coaching_tip": "Always acknowledge previous commitments mentioned by customers and either confirm, clarify, or escalate timeline discrepancies rather than providing only generic information.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[01:10:42 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[01:10:42 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[01:12:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:12:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:12:10 PM] t5416824943: And it still just says  pending\n[01:12:10 PM] t5416824943: And it still just says  pending\n[01:14:07 PM] Evelyn Portillo: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[01:14:07 PM] Evelyn Portillo: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[01:14:33 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:14:33 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:17:06 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:17:06 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:19:41 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:19:41 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:24:56.180Z"
+        },
+        {
+          "chat_id": "2047669928612282368",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T13:42:51.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped straight to 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent initially explained timelines but did clarify when customer revealed the real issue about missing funds after successful status."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent confirmed payment was made but didn't address the customer's concern about funds not appearing in their account or provide next steps."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Messages were somewhat clear but contained typos and grammatical errors ('gonna be credited', 'tota'), and lacked empathy for the missing funds concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations but closed without confirming customer satisfaction on a payment discrepancy issue."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and said goodbye, but closed prematurely while customer's core concern about missing funds remained unaddressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided redemption timeline information but failed to adequately address the customer's main concern that funds marked as 'redemption successful' had not appeared in their account. The interaction closed without confirming resolution or offering troubleshooting steps for the payment discrepancy.",
+          "coaching_tip": "When a customer reports funds haven't arrived despite successful status, verify the payment method details, confirm expected arrival timeframe, and provide specific next steps or escalation options rather than closing the chat prematurely.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[01:32:09 PM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: How long does redemption take\n[01:32:09 PM] t3625261861: Full Name: t3625261861 Email Address: lazariusjones68@gmail.com Subject / How can we help you?: How long does redemption take\n[01:32:36 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:32:36 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:34:14 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days tota\n You need to wait 24-72 hours for the request pass the first and second approval , and then  you gonna be credited depending on your method\n[01:34:14 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days tota\n You need to wait 24-72 hours for the request pass the first and second approval , and then  you gonna be credited depending on your method\n[01:35:32 PM] t3625261861: The status updated to redemption successful but nothing in my account\n[01:35:32 PM] t3625261861: The status updated to redemption successful but nothing in my account\n[01:35:54 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:35:54 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:36:56 PM] Evelyn Portillo: the request of the 23 of this month is already paid the request amount is 450\n[01:36:56 PM] Evelyn Portillo: the request of the 23 of this month is already paid the request amount is 450\n[01:39:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:39:15 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:42:47 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:42:47 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:45:03.744Z"
+        },
+        {
+          "chat_id": "2047671599656550400",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T13:53:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into asking for a moment to investigate without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent asked relevant clarifying questions about task completion and purchase status, though took considerable time to investigate."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent confirmed the task was claimed and bonus received on their end, explained possible delay, which appropriately addressed the issue."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Communication was generally clear but marred by multiple typos and grammatical errors in the final resolution message."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made, stayed within appropriate boundaries."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and provided a warm closing with good luck wishes, though slightly abrupt given the unresolved visual discrepancy."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "Agent handled the task completion inquiry adequately by investigating and confirming the bonus was credited on the backend, explaining a possible display delay. However, the interaction lacked a proper greeting and contained noticeable spelling/grammar errors that detracted from professionalism.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name when available, and proofread messages before sending to avoid typos like 'reeive' and 'propably' that undermine professionalism.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:38:47 PM] Customer: Full Name: Danielle Foster Email Address: daniellebelton58@gmail.com Subject / How can we help you?: Hello! I did not receive the $1 task completion! I added my bank details!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:06 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:39:29 PM] Customer: Thank you!\n[01:39:29 PM] Customer: Thank you!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:41:22 PM] Customer: No rush! No worries! It’s appreciated!\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:43:14 PM] Evelyn Portillo: Thanks ! , give me a minute\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:45:52 PM] Evelyn Portillo: I'm sorry to hear your $1 task reward isn't showing up yet. To help me track this down, could you please confirm a couple of details?\nDid you complete the daily task? To claim your reward, you'll need to log in, click the treasure chest icon on the right, and then tap the pink note with the checkmark to finish the task. \nWas this your first purchase? If you are looking for a purchase-related bonus, keep in mind that those typically land automatically after the transaction is finalized. \nJust a quick note: simply adding bank details doesn't automatically trigger the daily bonus — you'll still need to complete that day's specific task in the treasure chest. \nBear with me for just a moment while I take a closer look at your account activity!\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:47:21 PM] Customer: IMG_0290.jpg\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:49:43 PM] Evelyn Portillo: On my record appear that the task is claimed and your reeive the bonus , propably if you dont see it there will be some delay , but on my records appear completed\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:50:49 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:53:04 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:59:42.849Z"
+        },
+        {
+          "chat_id": "2047677179927818240",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T14:10:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, personalized greeting using customer's name with friendly tone."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Understood basic verification request but didn't clarify what was needed or confirm completion details."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Claimed to complete verification but provided no confirmation details and left new question about purchases unanswered."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Started well but became unclear with typo 'yesod' and ended abruptly without addressing final question."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No major violations but lacked proper verification confirmation documentation."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Attempted closing but customer had unresolved follow-up question that was ignored, making closure premature."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided friendly service and claimed to resolve the verification issue quickly, but failed to provide confirmation details or explain what was done. The interaction ended prematurely with the customer's final question about purchases left completely unanswered.",
+          "coaching_tip": "Always confirm what action was taken and provide specific details when completing account changes, and never close the chat while a customer question remains unanswered.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:00:58 PM] Customer: Full Name: Jacinda jones Email Address: jacindaj47@gmail.com Subject / How can we help you?: Support\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:01:45 PM] Evelyn Portillo: Hi Jacinda! Thanks for reaching out — happy to help! What's going on?\n[02:02:19 PM] Customer: Need help verifying my account\n[02:02:19 PM] Customer: Need help verifying my account\n[02:04:05 PM] Customer: It’s been a while\n[02:04:05 PM] Customer: It’s been a while\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:21 PM] Evelyn Portillo: Give me a moment to review this information.\n[02:04:29 PM] Customer: Okay\n[02:04:29 PM] Customer: Okay\n[02:05:57 PM] Evelyn Portillo: done!\n[02:05:57 PM] Evelyn Portillo: done!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:06:13 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:07:36 PM] Customer: Is it done now\n[02:07:36 PM] Customer: Is it done now\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:41 PM] Evelyn Portillo: yesod luck out there!\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:51 PM] Evelyn Portillo: Yes ,ma´am\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please\n[02:07:56 PM] Customer: Can you tell me what purchase I’ve made to please",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:14:42.574Z"
+        },
+        {
+          "chat_id": "2047683399908110336",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T14:34:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the core issue about missing signup bonus and investigated the account, though didn't clarify the customer's claim of '20 SC' discrepancy initially."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent correctly identified the actual bonus (2 SC not 20 SC), explained verification requirements, and provided account-specific information showing bonuses are available but need to be played."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Information was accurate but overly lengthy with excessive detail about Golden Egg and daily rewards that may have overwhelmed the customer seeking a simple answer."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent correctly clarified the actual bonus terms rather than honoring an incorrect expectation of 20 SC."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever; the transcript ends mid-sentence with the message truncated and no follow-up or resolution confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent provided accurate information correcting the customer's misunderstanding about bonus amount and explained verification requirements. However, the response was overly detailed and lacked both a proper greeting and any closing, with the final message appearing incomplete.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name when possible, and ensure every interaction has a clear closing that confirms resolution and offers further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:25:41 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[02:25:41 PM] t5771772342: Full Name: t5771772342 Email Address: felixsalinas634684@gmail.com Subject / How can we help you?: Hi I just joined and I forgot to copy my gamer tag but I did want to mention one thing before I go retrieve that for you. When I joined up I was promised 20 sc just to sign up with gold coins as well, My question is why haven't I received it yet?\n[02:26:17 PM] t5771772342: I tried everything in the list and I still can't do anything\n[02:26:17 PM] t5771772342: I tried everything in the list and I still can't do anything\n[02:26:31 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[02:26:31 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[02:28:45 PM] Evelyn Portillo: I can definitely help clear that up for you. It sounds like there might be a small misunderstanding regarding the sign-up bonus amount. According to our current offers, the Welcome Bonus for new users is:\n2 Sweepstakes Coins (SC)\n100,000 Gold Coins (GC) \nThe reason you likely haven't seen these in your account yet is that they are credited automatically only after you complete two specific steps:\nVerify your email address\nVerify your phone number \nOnce those two things are done, the bonus should land right in your account! If you've already done both and still don't see it, just let me know and I'll be happy to investigate further.\nBy the way, did you happen to see anything about a \"Golden Egg\" when you signed up? That’s another new user offer where you can reveal a random reward of up to 100 SC after completing your KYC (identity) verification!\n[02:28:45 PM] Evelyn Portillo: I can definitely help clear that up for you. It sounds like there might be a small misunderstanding regarding the sign-up bonus amount. According to our current offers, the Welcome Bonus for new users is:\n2 Sweepstakes Coins (SC)\n100,000 Gold Coins (GC) \nThe reason you likely haven't seen these in your account yet is that they are credited automatically only after you complete two specific steps:\nVerify your email address\nVerify your phone number \nOnce those two things are done, the bonus should land right in your account! If you've already done both and still don't see it, just let me know and I'll be happy to investigate further.\nBy the way, did you happen to see anything about a \"Golden Egg\" when you signed up? That’s another new user offer where you can reveal a random reward of up to 100 SC after completing your KYC (identity) verification!\n[02:31:39 PM] Evelyn Portillo: I can see the you have the welcome bonua and sign in bonus available but you need to play it .\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\nand \nDaily Login Rewards are totally free — just log in\neach day and collect!\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🎉\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:31:39 PM] Evelyn Portillo: I can see the you have the welcome bonua and sign in bonus available but you need to play it .\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\nand \nDaily Login Rewards are totally free — just log in\neach day and collect!\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🎉\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:31:48 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:31:48 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[02:34:17 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[02:34:17 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T14:34:43.549Z"
+        },
+        {
+          "chat_id": "2047722998944542720",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T17:08:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without welcoming the customer or using their name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the Facebook login issue but didn't ask clarifying questions about error messages or what exactly happens when customer tries to log in."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided comprehensive troubleshooting steps covering likely causes, but didn't confirm if customer tried them or if issue was resolved before closing."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured with bullet points, though closed chat without waiting for customer confirmation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises; handled account access issue appropriately."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but closed prematurely without confirming resolution or allowing customer to respond to troubleshooting steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent provided solid troubleshooting guidance for a Facebook login issue with clear, empathetic communication. However, the interaction lacked a proper greeting and closed prematurely without confirming whether the customer successfully resolved the issue.",
+          "coaching_tip": "Always wait for customer confirmation that troubleshooting steps worked or failed before closing the chat, especially when the customer has deposited money and cannot access their account.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:02 PM] Customer: Full Name: Keysha Williams Email Address: kwilliams2256@ymail.com Subject / How can we help you?: I set up my account earlier today I have been playing and I have added money to play also now I can't get back in I set it up with Facebook but now it won't let me get in\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:03:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:44 PM] Evelyn Portillo: I’ve got you — that can be frustrating, but we can figure it out :+1:\n\nThis usually happens if the login method doesn’t match the original account setup. If you signed up with Facebook, please make sure you’re clicking “Continue with Facebook” (not entering email/password).\n\nAlso try:\n• Making sure you’re logged into the correct Facebook account\n• Clearing your browser cache or trying a different browser/device\n• Disabling any VPN\n\nIf it’s still taking you to registration, it may mean a new account is being triggered instead of logging into the existing one.\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:06:54 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[05:08:08 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T17:09:42.216Z"
+        },
+        {
+          "chat_id": "2047739226268721152",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T18:15:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent thoroughly investigated the discrepancy and identified the likely confusion between pack types and unlock order."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided clear explanation of pack structure, actionable steps to verify transaction, and offered refund option with conditions."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Professional and well-structured response with clear formatting, though could have acknowledged customer's frustration more empathetically."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed policy correctly regarding refunds and wagering requirements with appropriate conditions stated."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and provided a friendly, encouraging sign-off appropriate for a casino environment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 77,
+          "grade": "C",
+          "summary": "Agent provided a thorough and accurate explanation of the bonus pack system with clear resolution paths, but failed to open with any greeting. The response was professional and compliant, though could have shown more empathy toward the frustrated customer.",
+          "coaching_tip": "Always open with a greeting that acknowledges the customer by name or with a warm welcome before diving into the issue, especially when a customer is clearly frustrated.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[06:07:31 PM] t9072739044: Full Name: t9072739044 Email Address: beercats0321@gmail.com Subject / How can we help you?: What the hell is goin on i choose welcome bonus package $30.00 for $9.99 and i only recieved $18.00...Were is the rest of it this is bull.. correct it or refund my purchase. Thank you\n[06:07:31 PM] t9072739044: Full Name: t9072739044 Email Address: beercats0321@gmail.com Subject / How can we help you?: What the hell is goin on i choose welcome bonus package $30.00 for $9.99 and i only recieved $18.00...Were is the rest of it this is bull.. correct it or refund my purchase. Thank you\n[06:08:13 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:08:13 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:08:35 PM] t9072739044: Thnk you\n[06:08:35 PM] t9072739044: Thnk you\n[06:10:20 PM] t9072739044: Okay appreciate\n[06:10:20 PM] t9072739044: Okay appreciate\n[06:12:11 PM] Evelyn Portillo: It sounds like there might be a little confusion with how the packs unlock. According to our records, the 1st Purchase Pack (the New User Offer) has a $9.99 option that gives you 30 SC (a 200% bonus).\nThe $18.00 SC amount you mentioned actually matches the $9.99 option for the 2nd Purchase Pack . Since our bonus packs must be unlocked in a specific order (1 → 2 → 3), it's possible you are seeing the contents of a subsequent pack or a different daily offer .\nHow we can fix this:\nCheck your Transaction History: You can see exactly which pack was applied by going to Menu > Profile > Activity and filtering by transaction type .\nWagering Requirements: Keep in mind that SC from purchases requires a 1x playthrough before it can be redeemed (p. 1).\nRefund Option: If you'd still prefer a refund, we can process one for unused Gold Coin packages within 48 hours of purchase, provided none of the funds have been played yet\n[06:12:11 PM] Evelyn Portillo: It sounds like there might be a little confusion with how the packs unlock. According to our records, the 1st Purchase Pack (the New User Offer) has a $9.99 option that gives you 30 SC (a 200% bonus).\nThe $18.00 SC amount you mentioned actually matches the $9.99 option for the 2nd Purchase Pack . Since our bonus packs must be unlocked in a specific order (1 → 2 → 3), it's possible you are seeing the contents of a subsequent pack or a different daily offer .\nHow we can fix this:\nCheck your Transaction History: You can see exactly which pack was applied by going to Menu > Profile > Activity and filtering by transaction type .\nWagering Requirements: Keep in mind that SC from purchases requires a 1x playthrough before it can be redeemed (p. 1).\nRefund Option: If you'd still prefer a refund, we can process one for unused Gold Coin packages within 48 hours of purchase, provided none of the funds have been played yet\n[06:13:03 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[06:13:03 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[06:15:01 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:15:01 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T18:19:47.469Z"
+        },
+        {
+          "chat_id": "2047751887712464896",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T18:58:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "Agent never responded or greeted the customer at all."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent made no attempt to discover or clarify the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "Agent provided no resolution, escalation, or assistance whatsoever."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "Agent sent no messages and did not communicate at all."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No policy violations occurred, though no interaction took place."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Agent did not close the conversation or offer further help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 7,
+          "grade": "F",
+          "summary": "The agent completely failed to respond to the customer's inquiry about a missing golden egg. This appears to be an abandoned chat with zero agent participation.",
+          "coaching_tip": "Always acknowledge the customer immediately upon chat initiation and begin troubleshooting their reported issue.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[06:57:50 PM] t5879162312: Full Name: t5879162312 Email Address: shayd0126@gmail.com Subject / How can we help you?: Golden egg missing\n[06:57:50 PM] t5879162312: Full Name: t5879162312 Email Address: shayd0126@gmail.com Subject / How can we help you?: Golden egg missing",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T18:59:40.031Z"
+        },
+        {
+          "chat_id": "2047750902571118592",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-24T18:56:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting was provided; agent went directly to investigating without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent acknowledged the issue but asked no clarifying questions about referral details, timing, or eligibility before investigating."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "Chat ended before any resolution, information, or follow-up was provided to the customer."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional tone but minimal communication; only one brief message before chat ended prematurely."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the limited interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing was provided; the chat appears to have been disconnected or abandoned."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 33,
+          "grade": "F",
+          "summary": "The agent failed to greet the customer and provided only a brief acknowledgment before the chat ended without resolution. The transcript is incomplete, showing either a technical issue or premature disconnection.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name before proceeding to investigate, and ensure you maintain the chat connection through to resolution.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[06:53:55 PM] t7338410233: Full Name: t7338410233 Email Address: poolejanine2470@gmail.com Subject / How can we help you?: I still have not received my referral bonus yet 😕\n[06:53:55 PM] t7338410233: Full Name: t7338410233 Email Address: poolejanine2470@gmail.com Subject / How can we help you?: I still have not received my referral bonus yet 😕\n[06:54:21 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:54:21 PM] Evelyn Portillo: Please allow me one moment to look into this for you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T18:59:47.979Z"
+        }
+      ],
+      "avg_score": 48,
+      "grade": "F",
+      "trend": -8
     },
     {
       "id": "5839",
@@ -50638,6 +50728,96 @@
       "raw_transcript": "[06:39:23 PM] Customer: Full Name: Sarah Martin Email Address: tthomas2058@yahoo.com Subject / How can we help you?: Why has it taken more than a 12 hours to complete my verification?\n[06:39:23 PM] Customer: Full Name: Sarah Martin Email Address: tthomas2058@yahoo.com Subject / How can we help you?: Why has it taken more than a 12 hours to complete my verification?\n[06:39:49 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:39:49 PM] Marcos Avila: Please allow me one moment to look into this for you!\n[06:40:34 PM] Customer: Where in the process of verification am I at?\n[06:40:34 PM] Customer: Where in the process of verification am I at?\n[06:42:01 PM] Marcos Avila: Give me a moment to review this information.\n[06:42:01 PM] Marcos Avila: Give me a moment to review this information.\n[06:47:16 PM] Marcos Avila: Could you please confirm the email address associated with your Jackpot Daily account?\n[06:47:16 PM] Marcos Avila: Could you please confirm the email address associated with your Jackpot Daily account?\n[06:51:08 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:51:08 PM] Marcos Avila: I haven't heard from you in a few minutes. Are you still there, or is there anything else I can help you with?\n[06:53:56 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!\n[06:53:56 PM] Marcos Avila: Dear customer, we haven't received a response for some time. No further activity is detected, this chat will be closed automatically. If you still require assistance, please let us know. Thank you!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T18:54:44.883Z"
+    },
+    {
+      "chat_id": "2047751887712464896",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T18:58:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "Agent never responded or greeted the customer at all."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent made no attempt to discover or clarify the issue."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "Agent provided no resolution, escalation, or assistance whatsoever."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "Agent sent no messages and did not communicate at all."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No policy violations occurred, though no interaction took place."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Agent did not close the conversation or offer further help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 7,
+      "grade": "F",
+      "summary": "The agent completely failed to respond to the customer's inquiry about a missing golden egg. This appears to be an abandoned chat with zero agent participation.",
+      "coaching_tip": "Always acknowledge the customer immediately upon chat initiation and begin troubleshooting their reported issue.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[06:57:50 PM] t5879162312: Full Name: t5879162312 Email Address: shayd0126@gmail.com Subject / How can we help you?: Golden egg missing\n[06:57:50 PM] t5879162312: Full Name: t5879162312 Email Address: shayd0126@gmail.com Subject / How can we help you?: Golden egg missing",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T18:59:40.031Z"
+    },
+    {
+      "chat_id": "2047750902571118592",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-24T18:56:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting was provided; agent went directly to investigating without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent acknowledged the issue but asked no clarifying questions about referral details, timing, or eligibility before investigating."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "Chat ended before any resolution, information, or follow-up was provided to the customer."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Professional tone but minimal communication; only one brief message before chat ended prematurely."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed in the limited interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing was provided; the chat appears to have been disconnected or abandoned."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 33,
+      "grade": "F",
+      "summary": "The agent failed to greet the customer and provided only a brief acknowledgment before the chat ended without resolution. The transcript is incomplete, showing either a technical issue or premature disconnection.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name before proceeding to investigate, and ensure you maintain the chat connection through to resolution.",
+      "website": "Jackpot Daily",
+      "message_count": 4,
+      "raw_transcript": "[06:53:55 PM] t7338410233: Full Name: t7338410233 Email Address: poolejanine2470@gmail.com Subject / How can we help you?: I still have not received my referral bonus yet 😕\n[06:53:55 PM] t7338410233: Full Name: t7338410233 Email Address: poolejanine2470@gmail.com Subject / How can we help you?: I still have not received my referral bonus yet 😕\n[06:54:21 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:54:21 PM] Evelyn Portillo: Please allow me one moment to look into this for you!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T18:59:47.979Z"
     }
   ]
 }
