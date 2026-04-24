@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T05:54:55.591Z",
-  "total_chats": 437,
+  "scored_at": "2026-04-24T06:19:54.573Z",
+  "total_chats": 439,
   "total_agents": 25,
   "agents": [
     {
@@ -18942,6 +18942,51 @@
           "raw_transcript": "[05:27:11 AM] Customer: Full Name: JUAN DANIEL MATINEZ MIRANDA Email Address: juandanielmartinezmiranda7@gmail.com Subject / How can we help you?: 2000\n[05:27:11 AM] Customer: Full Name: JUAN DANIEL MATINEZ MIRANDA Email Address: juandanielmartinezmiranda7@gmail.com Subject / How can we help you?: 2000\n[05:27:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:27:43 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:29:04 AM] Guillermo Mendoza: Hi Good night can you tell me how can i help you\n[05:29:04 AM] Guillermo Mendoza: Hi Good night can you tell me how can i help you\n[05:29:08 AM] Customer: Español\n[05:29:08 AM] Customer: Español\n[05:29:34 AM] Guillermo Mendoza: si buena noches bienvenido a sporte por chat como le puedo ayudar el dia de hoy\n[05:29:34 AM] Guillermo Mendoza: si buena noches bienvenido a sporte por chat como le puedo ayudar el dia de hoy\n[05:32:46 AM] Guillermo Mendoza: If no more question chat closes in 2 minutes\n[05:32:46 AM] Guillermo Mendoza: If no more question chat closes in 2 minutes",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T05:40:02.233Z"
+        },
+        {
+          "chat_id": "2047555271416705024",
+          "agent_name": "Guillermo Mendoza",
+          "agent_id": "5803",
+          "timestamp": "2026-04-24T06:18:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to assist, though slightly generic and contains minor grammatical awkwardness."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent identified the Facebook login discrepancy and verified account details, but could have probed earlier about email access issues."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent identified the correct email but failed to provide alternative solution when customer clearly stated no email access, leaving issue unresolved."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple typos and grammatical errors throughout, and responses lacked empathy when customer expressed inability to access email."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Properly verified customer identity with phone and address before discussing account details, no policy violations."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Abrupt 2-minute warning without offering escalation or alternative solutions despite unresolved issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent correctly identified the login issue related to Facebook authentication but failed to resolve the core problem when customer stated they couldn't access the email account. The interaction ended prematurely without offering escalation or alternative recovery options for a customer locked out of their account.",
+          "coaching_tip": "When a customer cannot access their email for password recovery, escalate to a supervisor or offer alternative account recovery methods rather than directing them to contact their email provider and closing the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 46,
+          "raw_transcript": "[05:56:33 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@outlook.es Subject / How can we help you?: Error trying to log in\n[05:56:33 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@outlook.es Subject / How can we help you?: Error trying to log in\n[05:56:52 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:56:52 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:57:14 AM] Customer: pasted-image-1777010230164.png\n[05:57:14 AM] Customer: pasted-image-1777010230164.png\n[05:58:56 AM] Guillermo Mendoza: Hi Brayan whats the login credentials ythat you are using\n[05:58:56 AM] Guillermo Mendoza: Hi Brayan whats the login credentials ythat you are using\n[06:01:14 AM] Guillermo Mendoza: I just checked your account shows that its fully verified\n[06:01:14 AM] Guillermo Mendoza: I just checked your account shows that its fully verified\n[06:03:04 AM] Customer: Brayandanpiel@outlook.es\n[06:03:04 AM] Customer: Brayandanpiel@outlook.es\n[06:03:52 AM] Guillermo Mendoza: oh looks that you sign in with facebook then theres a diferent email\n[06:03:52 AM] Guillermo Mendoza: oh looks that you sign in with facebook then theres a diferent email\n[06:04:26 AM] Customer: Yes\n[06:04:26 AM] Customer: Yes\n[06:04:47 AM] Customer: And it don’t let me log in anywhere\n[06:04:47 AM] Customer: And it don’t let me log in anywhere\n[06:05:28 AM] Guillermo Mendoza: help me confirming your phone and physical address\n[06:05:28 AM] Guillermo Mendoza: help me confirming your phone and physical address\n[06:05:57 AM] Customer: 8328499342\n[06:05:57 AM] Customer: 8328499342\n[06:06:09 AM] Customer: 12031 sharpcrest st Houston tx 77072\n[06:06:09 AM] Customer: 12031 sharpcrest st Houston tx 77072\n[06:06:18 AM] Guillermo Mendoza: thank you so much\n[06:06:18 AM] Guillermo Mendoza: thank you so much\n[06:07:11 AM] Guillermo Mendoza: allright the email that you need t use is brayandanpiel@outlook.es\n[06:07:11 AM] Guillermo Mendoza: allright the email that you need t use is brayandanpiel@outlook.es\n[06:08:27 AM] Customer: Can you set a password for me ?\n[06:08:27 AM] Customer: Can you set a password for me ?\n[06:08:48 AM] Customer: I don’t have access to that mail just for Facebook\n[06:08:48 AM] Customer: I don’t have access to that mail just for Facebook\n[06:08:58 AM] Guillermo Mendoza: in this case go to login the click on forgot\n[06:08:58 AM] Guillermo Mendoza: in this case go to login the click on forgot\n[06:09:07 AM] Guillermo Mendoza: use this email and you will be set\n[06:09:07 AM] Guillermo Mendoza: use this email and you will be set\n[06:11:40 AM] Guillermo Mendoza: let me know if success or about other inquiry\n[06:11:40 AM] Guillermo Mendoza: let me know if success or about other inquiry\n[06:12:33 AM] Customer: I don’t have access to those mails\n[06:12:33 AM] Customer: I don’t have access to those mails\n[06:12:50 AM] Customer: Is there any other way I can use ?\n[06:12:50 AM] Customer: Is there any other way I can use ?\n[06:15:12 AM] Guillermo Mendoza: looks that the account got just verified contact email provider to recover accesss\n[06:15:12 AM] Guillermo Mendoza: looks that the account got just verified contact email provider to recover accesss\n[06:16:20 AM] Guillermo Mendoza: if no questions chat close in 2 minutes\n[06:16:20 AM] Guillermo Mendoza: if no questions chat close in 2 minutes",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T06:19:54.072Z"
         }
       ],
       "avg_score": 49,
@@ -19311,11 +19356,56 @@
           "raw_transcript": "[05:39:20 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:39:20 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:39:58 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:39:58 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:41:14 AM] Customer: Thank you\n[05:41:14 AM] Customer: Thank you\n[05:42:15 AM] Daniel Padilla: Can you please send a screenshot of the error that you are getting?\n[05:42:15 AM] Daniel Padilla: Can you please send a screenshot of the error that you are getting?\n[05:44:18 AM] Customer: Do you speak Spanish by any chance ?\n[05:44:18 AM] Customer: Do you speak Spanish by any chance ?\n[05:46:42 AM] Customer: Thank you\n[05:46:42 AM] Customer: Thank you\n[05:46:51 AM] Daniel Padilla: I´m sorry, only english\n[05:46:51 AM] Daniel Padilla: I´m sorry, only english\n[05:46:58 AM] Customer: Can yall set a new password?\n[05:46:58 AM] Customer: Can yall set a new password?\n[05:47:26 AM] Customer: Because when I first logged in the sistem didn’t ask for a password\n[05:47:26 AM] Customer: Because when I first logged in the sistem didn’t ask for a password\n[05:48:04 AM] Customer: And when a type my phone number it just says that the phone number is already registered\n[05:48:04 AM] Customer: And when a type my phone number it just says that the phone number is already registered\n[05:48:46 AM] Daniel Padilla: At the moment, it’s not possible for us to set or change your password from our end. Additionally, we’ve been experiencing issues with the login process through Facebook, which may be affecting your access.\n\nWe understand how frustrating this can be and truly appreciate your patience while our team works to resolve this situation. If you have any alternative login method available, we recommend trying that in the meantime.\n[05:48:46 AM] Daniel Padilla: At the moment, it’s not possible for us to set or change your password from our end. Additionally, we’ve been experiencing issues with the login process through Facebook, which may be affecting your access.\n\nWe understand how frustrating this can be and truly appreciate your patience while our team works to resolve this situation. If you have any alternative login method available, we recommend trying that in the meantime.\n[05:49:05 AM] Daniel Padilla: Please provide me your phone number\n[05:49:05 AM] Daniel Padilla: Please provide me your phone number",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T05:54:55.090Z"
+        },
+        {
+          "chat_id": "2047558145188773888",
+          "agent_name": "Daniel Padilla",
+          "agent_id": "5804",
+          "timestamp": "2026-04-24T06:18:53.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to help, but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked for email address and understood the registration interruption issue adequately."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Took action by refreshing account information and provided clear next steps, though solution was somewhat ambiguous about whether to wait or restart immediately."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with appropriate empathy, minor typo ('asociated') but overall effective communication."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, handled account access appropriately."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and said goodbye, though phrasing 'terminating chat' could be softer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent handled a registration/login issue competently by refreshing the account and providing clear instructions to retry in 2-3 hours or restart the process. Communication was professional with appropriate empathy, though the resolution guidance could have been more precise about the exact steps to take.",
+          "coaching_tip": "Clarify resolution steps more precisely—specify whether customer should wait the full 2-3 hours before attempting, or if they can try restarting immediately, to avoid confusion.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[06:07:58 AM] Customer: Full Name: Brandi Cart Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: I'm trying to sign into my account and saying I have the wrong password I try to resend it and said it's still the wrong password so I don't understand can you help me get my account please\n[06:07:58 AM] Customer: Full Name: Brandi Cart Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: I'm trying to sign into my account and saying I have the wrong password I try to resend it and said it's still the wrong password so I don't understand can you help me get my account please\n[06:08:23 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[06:08:23 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[06:09:32 AM] Daniel Padilla: Can you please send me the email address asociated with your account?\n[06:09:32 AM] Daniel Padilla: Can you please send me the email address asociated with your account?\n[06:10:11 AM] Customer: lindsleybrandi@gmail.com I was signing up I just finished signing up and I verified my email and everything and then it showed me to enable location and I lost my page and when I went back and try to get on the site that's when all this happened it wouldn't have been\n[06:10:11 AM] Customer: lindsleybrandi@gmail.com I was signing up I just finished signing up and I verified my email and everything and then it showed me to enable location and I lost my page and when I went back and try to get on the site that's when all this happened it wouldn't have been\n[06:11:01 AM] Customer: That was supposed to say it wouldn't let me in\n[06:11:01 AM] Customer: That was supposed to say it wouldn't let me in\n[06:16:18 AM] Daniel Padilla: Thank you for your patience, and I’m really sorry for the inconvenience caused.\n\nIt appears there was an interruption during the process on your end. I’ve just refreshed your information on my side, so you should be able to continue and complete the process within the next 2–3 hours.\n\nHowever, please note that it may still be necessary to restart the process from the beginning. We understand this can be frustrating, and we sincerely apologize for any inconvenience this may cause.\n\nIf you run into any issues or need further assistance, please don’t hesitate to reach out—we’re here to help.\n[06:16:18 AM] Daniel Padilla: Thank you for your patience, and I’m really sorry for the inconvenience caused.\n\nIt appears there was an interruption during the process on your end. I’ve just refreshed your information on my side, so you should be able to continue and complete the process within the next 2–3 hours.\n\nHowever, please note that it may still be necessary to restart the process from the beginning. We understand this can be frustrating, and we sincerely apologize for any inconvenience this may cause.\n\nIf you run into any issues or need further assistance, please don’t hesitate to reach out—we’re here to help.\n[06:17:36 AM] Customer: Ok thank you so just sign up again\n[06:17:36 AM] Customer: Ok thank you so just sign up again\n[06:18:01 AM] Daniel Padilla: Correct! Should be working by then\n[06:18:01 AM] Daniel Padilla: Correct! Should be working by then\n[06:18:08 AM] Daniel Padilla: Anything else i can do for you?\n[06:18:08 AM] Daniel Padilla: Anything else i can do for you?\n[06:18:35 AM] Customer: Thank you and that's all for now\n[06:18:35 AM] Customer: Thank you and that's all for now\n[06:18:48 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day\n[06:18:48 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T06:19:44.182Z"
         }
       ],
-      "avg_score": 46,
+      "avg_score": 48,
       "grade": "F",
-      "trend": 23
+      "trend": 12
     },
     {
       "id": "5838",
@@ -39559,6 +39649,96 @@
       "raw_transcript": "[05:39:20 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:39:20 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@otlook.es Subject / How can we help you?: I put my email but it doesnt let me log in be alise i did it through facebook and I didn’t set a password\n[05:39:58 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:39:58 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[05:41:14 AM] Customer: Thank you\n[05:41:14 AM] Customer: Thank you\n[05:42:15 AM] Daniel Padilla: Can you please send a screenshot of the error that you are getting?\n[05:42:15 AM] Daniel Padilla: Can you please send a screenshot of the error that you are getting?\n[05:44:18 AM] Customer: Do you speak Spanish by any chance ?\n[05:44:18 AM] Customer: Do you speak Spanish by any chance ?\n[05:46:42 AM] Customer: Thank you\n[05:46:42 AM] Customer: Thank you\n[05:46:51 AM] Daniel Padilla: I´m sorry, only english\n[05:46:51 AM] Daniel Padilla: I´m sorry, only english\n[05:46:58 AM] Customer: Can yall set a new password?\n[05:46:58 AM] Customer: Can yall set a new password?\n[05:47:26 AM] Customer: Because when I first logged in the sistem didn’t ask for a password\n[05:47:26 AM] Customer: Because when I first logged in the sistem didn’t ask for a password\n[05:48:04 AM] Customer: And when a type my phone number it just says that the phone number is already registered\n[05:48:04 AM] Customer: And when a type my phone number it just says that the phone number is already registered\n[05:48:46 AM] Daniel Padilla: At the moment, it’s not possible for us to set or change your password from our end. Additionally, we’ve been experiencing issues with the login process through Facebook, which may be affecting your access.\n\nWe understand how frustrating this can be and truly appreciate your patience while our team works to resolve this situation. If you have any alternative login method available, we recommend trying that in the meantime.\n[05:48:46 AM] Daniel Padilla: At the moment, it’s not possible for us to set or change your password from our end. Additionally, we’ve been experiencing issues with the login process through Facebook, which may be affecting your access.\n\nWe understand how frustrating this can be and truly appreciate your patience while our team works to resolve this situation. If you have any alternative login method available, we recommend trying that in the meantime.\n[05:49:05 AM] Daniel Padilla: Please provide me your phone number\n[05:49:05 AM] Daniel Padilla: Please provide me your phone number",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T05:54:55.090Z"
+    },
+    {
+      "chat_id": "2047558145188773888",
+      "agent_name": "Daniel Padilla",
+      "agent_id": "5804",
+      "timestamp": "2026-04-24T06:18:53.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with offer to help, but did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Asked for email address and understood the registration interruption issue adequately."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Took action by refreshing account information and provided clear next steps, though solution was somewhat ambiguous about whether to wait or restart immediately."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional with appropriate empathy, minor typo ('asociated') but overall effective communication."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, handled account access appropriately."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance and said goodbye, though phrasing 'terminating chat' could be softer."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 70,
+      "grade": "C",
+      "summary": "Agent handled a registration/login issue competently by refreshing the account and providing clear instructions to retry in 2-3 hours or restart the process. Communication was professional with appropriate empathy, though the resolution guidance could have been more precise about the exact steps to take.",
+      "coaching_tip": "Clarify resolution steps more precisely—specify whether customer should wait the full 2-3 hours before attempting, or if they can try restarting immediately, to avoid confusion.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[06:07:58 AM] Customer: Full Name: Brandi Cart Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: I'm trying to sign into my account and saying I have the wrong password I try to resend it and said it's still the wrong password so I don't understand can you help me get my account please\n[06:07:58 AM] Customer: Full Name: Brandi Cart Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: I'm trying to sign into my account and saying I have the wrong password I try to resend it and said it's still the wrong password so I don't understand can you help me get my account please\n[06:08:23 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[06:08:23 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[06:09:32 AM] Daniel Padilla: Can you please send me the email address asociated with your account?\n[06:09:32 AM] Daniel Padilla: Can you please send me the email address asociated with your account?\n[06:10:11 AM] Customer: lindsleybrandi@gmail.com I was signing up I just finished signing up and I verified my email and everything and then it showed me to enable location and I lost my page and when I went back and try to get on the site that's when all this happened it wouldn't have been\n[06:10:11 AM] Customer: lindsleybrandi@gmail.com I was signing up I just finished signing up and I verified my email and everything and then it showed me to enable location and I lost my page and when I went back and try to get on the site that's when all this happened it wouldn't have been\n[06:11:01 AM] Customer: That was supposed to say it wouldn't let me in\n[06:11:01 AM] Customer: That was supposed to say it wouldn't let me in\n[06:16:18 AM] Daniel Padilla: Thank you for your patience, and I’m really sorry for the inconvenience caused.\n\nIt appears there was an interruption during the process on your end. I’ve just refreshed your information on my side, so you should be able to continue and complete the process within the next 2–3 hours.\n\nHowever, please note that it may still be necessary to restart the process from the beginning. We understand this can be frustrating, and we sincerely apologize for any inconvenience this may cause.\n\nIf you run into any issues or need further assistance, please don’t hesitate to reach out—we’re here to help.\n[06:16:18 AM] Daniel Padilla: Thank you for your patience, and I’m really sorry for the inconvenience caused.\n\nIt appears there was an interruption during the process on your end. I’ve just refreshed your information on my side, so you should be able to continue and complete the process within the next 2–3 hours.\n\nHowever, please note that it may still be necessary to restart the process from the beginning. We understand this can be frustrating, and we sincerely apologize for any inconvenience this may cause.\n\nIf you run into any issues or need further assistance, please don’t hesitate to reach out—we’re here to help.\n[06:17:36 AM] Customer: Ok thank you so just sign up again\n[06:17:36 AM] Customer: Ok thank you so just sign up again\n[06:18:01 AM] Daniel Padilla: Correct! Should be working by then\n[06:18:01 AM] Daniel Padilla: Correct! Should be working by then\n[06:18:08 AM] Daniel Padilla: Anything else i can do for you?\n[06:18:08 AM] Daniel Padilla: Anything else i can do for you?\n[06:18:35 AM] Customer: Thank you and that's all for now\n[06:18:35 AM] Customer: Thank you and that's all for now\n[06:18:48 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day\n[06:18:48 AM] Daniel Padilla: Ok great if there is nothing else I can do for you I will be terminating chat, have a great rest of your day",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T06:19:44.182Z"
+    },
+    {
+      "chat_id": "2047555271416705024",
+      "agent_name": "Guillermo Mendoza",
+      "agent_id": "5803",
+      "timestamp": "2026-04-24T06:18:25.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with offer to assist, though slightly generic and contains minor grammatical awkwardness."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent identified the Facebook login discrepancy and verified account details, but could have probed earlier about email access issues."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent identified the correct email but failed to provide alternative solution when customer clearly stated no email access, leaving issue unresolved."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Multiple typos and grammatical errors throughout, and responses lacked empathy when customer expressed inability to access email."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Properly verified customer identity with phone and address before discussing account details, no policy violations."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Abrupt 2-minute warning without offering escalation or alternative solutions despite unresolved issue."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent correctly identified the login issue related to Facebook authentication but failed to resolve the core problem when customer stated they couldn't access the email account. The interaction ended prematurely without offering escalation or alternative recovery options for a customer locked out of their account.",
+      "coaching_tip": "When a customer cannot access their email for password recovery, escalate to a supervisor or offer alternative account recovery methods rather than directing them to contact their email provider and closing the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 46,
+      "raw_transcript": "[05:56:33 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@outlook.es Subject / How can we help you?: Error trying to log in\n[05:56:33 AM] Customer: Full Name: Brayan Lopez Email Address: brayandanpiel@outlook.es Subject / How can we help you?: Error trying to log in\n[05:56:52 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:56:52 AM] Guillermo Mendoza: Thanks for reaching Jackpot Daily support, I will be assisting you today, is going to be my pleasure.\n[05:57:14 AM] Customer: pasted-image-1777010230164.png\n[05:57:14 AM] Customer: pasted-image-1777010230164.png\n[05:58:56 AM] Guillermo Mendoza: Hi Brayan whats the login credentials ythat you are using\n[05:58:56 AM] Guillermo Mendoza: Hi Brayan whats the login credentials ythat you are using\n[06:01:14 AM] Guillermo Mendoza: I just checked your account shows that its fully verified\n[06:01:14 AM] Guillermo Mendoza: I just checked your account shows that its fully verified\n[06:03:04 AM] Customer: Brayandanpiel@outlook.es\n[06:03:04 AM] Customer: Brayandanpiel@outlook.es\n[06:03:52 AM] Guillermo Mendoza: oh looks that you sign in with facebook then theres a diferent email\n[06:03:52 AM] Guillermo Mendoza: oh looks that you sign in with facebook then theres a diferent email\n[06:04:26 AM] Customer: Yes\n[06:04:26 AM] Customer: Yes\n[06:04:47 AM] Customer: And it don’t let me log in anywhere\n[06:04:47 AM] Customer: And it don’t let me log in anywhere\n[06:05:28 AM] Guillermo Mendoza: help me confirming your phone and physical address\n[06:05:28 AM] Guillermo Mendoza: help me confirming your phone and physical address\n[06:05:57 AM] Customer: 8328499342\n[06:05:57 AM] Customer: 8328499342\n[06:06:09 AM] Customer: 12031 sharpcrest st Houston tx 77072\n[06:06:09 AM] Customer: 12031 sharpcrest st Houston tx 77072\n[06:06:18 AM] Guillermo Mendoza: thank you so much\n[06:06:18 AM] Guillermo Mendoza: thank you so much\n[06:07:11 AM] Guillermo Mendoza: allright the email that you need t use is brayandanpiel@outlook.es\n[06:07:11 AM] Guillermo Mendoza: allright the email that you need t use is brayandanpiel@outlook.es\n[06:08:27 AM] Customer: Can you set a password for me ?\n[06:08:27 AM] Customer: Can you set a password for me ?\n[06:08:48 AM] Customer: I don’t have access to that mail just for Facebook\n[06:08:48 AM] Customer: I don’t have access to that mail just for Facebook\n[06:08:58 AM] Guillermo Mendoza: in this case go to login the click on forgot\n[06:08:58 AM] Guillermo Mendoza: in this case go to login the click on forgot\n[06:09:07 AM] Guillermo Mendoza: use this email and you will be set\n[06:09:07 AM] Guillermo Mendoza: use this email and you will be set\n[06:11:40 AM] Guillermo Mendoza: let me know if success or about other inquiry\n[06:11:40 AM] Guillermo Mendoza: let me know if success or about other inquiry\n[06:12:33 AM] Customer: I don’t have access to those mails\n[06:12:33 AM] Customer: I don’t have access to those mails\n[06:12:50 AM] Customer: Is there any other way I can use ?\n[06:12:50 AM] Customer: Is there any other way I can use ?\n[06:15:12 AM] Guillermo Mendoza: looks that the account got just verified contact email provider to recover accesss\n[06:15:12 AM] Guillermo Mendoza: looks that the account got just verified contact email provider to recover accesss\n[06:16:20 AM] Guillermo Mendoza: if no questions chat close in 2 minutes\n[06:16:20 AM] Guillermo Mendoza: if no questions chat close in 2 minutes",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T06:19:54.072Z"
     }
   ]
 }
