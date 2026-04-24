@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:19:41.227Z",
-  "total_chats": 388,
+  "scored_at": "2026-04-24T03:24:41.079Z",
+  "total_chats": 389,
   "total_agents": 25,
   "agents": [
     {
@@ -9465,11 +9465,56 @@
           "raw_transcript": "[02:42:03 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: I’m going to report jackpot daily to the BBB today. It’s going on 4 weeks and still no payment and been going back and forth for weeks now about trying to redeem. When are you going to FIX my account so I can get my money that I’ve won\n[02:42:03 AM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: I’m going to report jackpot daily to the BBB today. It’s going on 4 weeks and still no payment and been going back and forth for weeks now about trying to redeem. When are you going to FIX my account so I can get my money that I’ve won\n[02:42:18 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:42:18 AM] t5927241207: Sorry, I closed the chat by accident\n[02:42:18 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[02:42:18 AM] t5927241207: Sorry, I closed the chat by accident\n[02:42:26 AM] t5927241207: Do you still see the previous messages?\n[02:42:26 AM] t5927241207: Do you still see the previous messages?\n[02:42:52 AM] Oskar Abaunza: Please press on ‘Submit’ and then send me another screenshot, please\n[02:42:52 AM] Oskar Abaunza: Please press on ‘Submit’ and then send me another screenshot, please\n[02:43:32 AM] Oskar Abaunza: Yes, I saw it, thank you.\n[02:43:32 AM] Oskar Abaunza: Yes, I saw it, thank you.\n[02:44:57 AM] t5927241207: IMG_1431.png\n[02:44:57 AM] t5927241207: IMG_1431.png\n[02:45:23 AM] t5927241207: It keeps telling me this. I literally tried to add all 3 of my bank accounts already\n[02:45:23 AM] t5927241207: It keeps telling me this. I literally tried to add all 3 of my bank accounts already\n[02:46:11 AM] t5927241207: Is there a way to delete them all and try again? It’s also not asking me for my address\n[02:46:11 AM] t5927241207: Is there a way to delete them all and try again? It’s also not asking me for my address\n[02:46:18 AM] t5927241207: Can you update the address for me?\n[02:46:18 AM] t5927241207: Can you update the address for me?\n[02:46:33 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:46:33 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:47:01 AM] t5927241207: No\n[02:47:01 AM] t5927241207: No\n[02:47:06 AM] t5927241207: They don’t help\n[02:47:06 AM] t5927241207: They don’t help\n[02:48:03 AM] Oskar Abaunza: In this case, this is the only way for us to assist you further. You will be responded to as quickly as possible.\n[02:48:03 AM] Oskar Abaunza: In this case, this is the only way for us to assist you further. You will be responded to as quickly as possible.\n[02:48:17 AM] t5927241207: I haven’t been.\n[02:48:17 AM] t5927241207: I haven’t been.\n[02:48:45 AM] t5927241207: I’ve been messaging them since April 8th and don’t never get a reply back\n[02:48:45 AM] t5927241207: IMG_1432.jpg\n[02:48:45 AM] t5927241207: I’ve been messaging them since April 8th and don’t never get a reply back\n[02:48:45 AM] t5927241207: IMG_1432.jpg\n[02:49:19 AM] t5927241207: How do I update my address? Since that’s the issue\n[02:49:19 AM] t5927241207: How do I update my address? Since that’s the issue\n[02:50:31 AM] t5927241207: You know what. I’m going to have to contact the BBB\n[02:50:31 AM] t5927241207: You know what. I’m going to have to contact the BBB\n[02:50:41 AM] Oskar Abaunza: Please create another ticket. We will prioritize your case and respond to you as soon as possible.\n[02:50:41 AM] Oskar Abaunza: Please create another ticket. We will prioritize your case and respond to you as soon as possible.\n[02:51:35 AM] t5927241207: Tuh. Bye\n[02:51:35 AM] t5927241207: Tuh. Bye",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T02:54:48.618Z"
+        },
+        {
+          "chat_id": "2047513389198307328",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-24T03:19:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent asked for details and screenshots, which was reasonable, though customer resolved their own question before agent could fully investigate."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Customer self-resolved after reading email details; agent appropriately offered follow-up contact if issue persists within 24 hours."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout, though could have been slightly more personalized or empathetic."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent appropriately did not make unauthorized promises about the credit."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Good closing with friendly game wishes and checked if further assistance needed before ending chat."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent handled the inquiry competently by requesting details to investigate the $10 credit, and appropriately offered follow-up support when customer self-resolved. The interaction was professional but lacked an initial greeting.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name or a welcome message before diving into the issue investigation.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:29 AM] t7409419483: Tysm\n[03:10:29 AM] t7409419483: Tysm\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:24:40.578Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": -9
+      "trend": -12
     },
     {
       "id": "5670",
@@ -35149,6 +35194,51 @@
       "raw_transcript": "[03:05:14 AM] t3500124798: Full Name: t3500124798 Email Address: ashttg2025@icloud.com Subject / How can we help you?: My friend has not received her referral bonus of $58 I used her link I made a purchase and I am verified\n[03:05:14 AM] t3500124798: Full Name: t3500124798 Email Address: ashttg2025@icloud.com Subject / How can we help you?: My friend has not received her referral bonus of $58 I used her link I made a purchase and I am verified\n[03:05:25 AM] Cairo Osorto: Thanks for contacting.\n[03:05:25 AM] Cairo Osorto: Thanks for contacting.\n[03:05:42 AM] t3500124798: Screenshot_20260423-230400.Chrome.png\n[03:05:42 AM] t3500124798: Screenshot_20260423-230238.Chrome.png\n[03:05:42 AM] t3500124798: Screenshot_20260423-230400.Chrome.png\n[03:05:42 AM] t3500124798: Screenshot_20260423-230238.Chrome.png\n[03:05:58 AM] t3500124798: I have attached my screenshot of my payment and I am verified\n[03:05:58 AM] t3500124798: I have attached my screenshot of my payment and I am verified\n[03:06:14 AM] t3500124798: Why did my friend still not get her referral bonus\n[03:06:14 AM] t3500124798: Why did my friend still not get her referral bonus\n[03:06:25 AM] t3500124798: My information is Ashley Flowers\n[03:06:25 AM] t3500124798: My information is Ashley Flowers\n[03:06:29 AM] t3500124798: ashttg2025@icloud.com\n[03:06:29 AM] t3500124798: ashttg2025@icloud.com\n[03:06:40 AM] t3500124798: My friends info is Marilynn Laterra\n[03:06:40 AM] Cairo Osorto: Thanks for your information, sorry to hear about this.\n[03:06:40 AM] t3500124798: My friends info is Marilynn Laterra\n[03:06:40 AM] Cairo Osorto: Thanks for your information, sorry to hear about this.\n[03:06:43 AM] t3500124798: newyork2508@gmail.com\n[03:06:43 AM] t3500124798: newyork2508@gmail.com\n[03:06:57 AM] Cairo Osorto: Kindly give me a few minutes while I review this information you sent please :)\n[03:06:57 AM] Cairo Osorto: Kindly give me a few minutes while I review this information you sent please :)\n[03:07:01 AM] t3500124798: Ok\n[03:07:01 AM] t3500124798: Ok\n[03:07:05 AM] Cairo Osorto: Thanks!\n[03:07:05 AM] Cairo Osorto: Thanks!\n[03:09:10 AM] t3500124798: No problem she has also contacted your team as well so I am contacting you all now do to you all not helping when she shows her proof now I have shown mine she is rightfully owed her $58 bonus Sean\n[03:09:10 AM] t3500124798: No problem she has also contacted your team as well so I am contacting you all now do to you all not helping when she shows her proof now I have shown mine she is rightfully owed her $58 bonus Sean\n[03:09:28 AM] Cairo Osorto: Thanks, one moment please.\n[03:09:28 AM] Cairo Osorto: Thanks, one moment please.\n[03:10:05 AM] t3500124798: Ok\n[03:10:05 AM] t3500124798: Ok\n[03:10:48 AM] Cairo Osorto: Thanks.\n[03:10:48 AM] Cairo Osorto: Thanks.\n[03:10:56 AM] t3500124798: Welcome\n[03:10:56 AM] t3500124798: Welcome\n[03:11:39 AM] Cairo Osorto: Thanks for waiting.\n[03:11:39 AM] Cairo Osorto: Thanks for waiting.\n[03:11:58 AM] Cairo Osorto: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[03:11:58 AM] Cairo Osorto: Here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[03:14:14 AM] Cairo Osorto: I hope you've found this information useful since it is worth reviewing based on a quick revision of the account. Is there anything else I may assist you with tonight?\n[03:14:14 AM] Cairo Osorto: I hope you've found this information useful since it is worth reviewing based on a quick revision of the account. Is there anything else I may assist you with tonight?\n[03:14:57 AM] t3500124798: Hello\n[03:14:57 AM] t3500124798: Hello\n[03:16:26 AM] Cairo Osorto: I'm here. Please review the information above with your referral since at least one condition seems to not have been met in order to qualify for the bonus. May I help you with anything else tonight?\n[03:16:26 AM] Cairo Osorto: I'm here. Please review the information above with your referral since at least one condition seems to not have been met in order to qualify for the bonus. May I help you with anything else tonight?\n[03:18:47 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:18:47 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:19:40.726Z"
+    },
+    {
+      "chat_id": "2047513389198307328",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-24T03:19:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly into 'one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent asked for details and screenshots, which was reasonable, though customer resolved their own question before agent could fully investigate."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Customer self-resolved after reading email details; agent appropriately offered follow-up contact if issue persists within 24 hours."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional throughout, though could have been slightly more personalized or empathetic."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent appropriately did not make unauthorized promises about the credit."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Good closing with friendly game wishes and checked if further assistance needed before ending chat."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent handled the inquiry competently by requesting details to investigate the $10 credit, and appropriately offered follow-up support when customer self-resolved. The interaction was professional but lacked an initial greeting.",
+      "coaching_tip": "Always open with a warm greeting using the customer's name or a welcome message before diving into the issue investigation.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:07 AM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:20 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:10:29 AM] t7409419483: Tysm\n[03:10:29 AM] t7409419483: Tysm\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:13:10 AM] Oskar Abaunza: Could you please provide more details about those $10 that were supposed to be credited to your account? Also, please send screenshots so we can review this properly.\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:14:31 AM] t7409419483: Never mind the email says I'll get it in the next 24 hours I just have to wait\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:22 AM] Oskar Abaunza: If you still have not received the $10, please feel free to reach us anytime at support@jackpotdaily.com\n — we’ll be happy to help\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:17:42 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:19:39 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:24:40.578Z"
     }
   ]
 }
