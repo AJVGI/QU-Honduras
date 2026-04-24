@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T15:49:46.079Z",
-  "total_chats": 535,
+  "scored_at": "2026-04-24T16:04:47.372Z",
+  "total_chats": 536,
   "total_agents": 26,
   "agents": [
     {
@@ -5001,11 +5001,56 @@
           "raw_transcript": "[03:22:16 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[03:22:16 PM] t5645204337: Full Name: t5645204337 Email Address: garrettoswald@yahoo.com Subject / How can we help you?: WAITING for agent to reach out, i just submitted my ID correctly and my self portrait, and it all checked out\n[03:22:32 PM] Diana Lopez: Hello!\n[03:22:32 PM] Diana Lopez: Hello!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T15:25:01.920Z"
+        },
+        {
+          "chat_id": "2047705777120309248",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T16:04:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Basic 'Hello!' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the core issue about missing W9 and redemption delay, but didn't probe deeper into timeline or process concerns."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Escalated appropriately and offered to resend form, but provided no timeline, no direct solution, and customer remains frustrated at chat end."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and empathetic initially, but became repetitive with 'as soon as possible' and didn't address customer's valid process questions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, appropriately avoided committing to specific timelines."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing whatsoever, transcript ends mid-conversation with customer asking legitimate questions that went unanswered."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent showed initial empathy and understood the issue but provided only generic escalation responses without timeline or substantive answers. The interaction ended abruptly without closure while customer was still asking valid questions about process and communication.",
+          "coaching_tip": "Always provide a proper closing even when you can't give exact timelines—acknowledge the customer's final concerns and confirm next steps before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[03:54:36 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back.\n[03:54:36 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back.\n[03:54:53 PM] Diana Lopez: Hello!\n[03:54:53 PM] Diana Lopez: Hello!\n[03:55:31 PM] Diana Lopez: I understand your frustration. It's been almost a week since you submitted your redemption, you were told you would receive a W9 form but haven't received it, and you haven't heard back from anyone. That's not acceptable, and I'm sorry.\n\n*Please check your email inbox and spam/junk folder for an email from us containing the W9 form. If you don't see it, please let me know and I will make sure our team resends it to you.*\n\nI've noted your account. Our team will provide an update as soon as possible.\n\nThank you for your patience.\n[03:55:31 PM] Diana Lopez: I understand your frustration. It's been almost a week since you submitted your redemption, you were told you would receive a W9 form but haven't received it, and you haven't heard back from anyone. That's not acceptable, and I'm sorry.\n\n*Please check your email inbox and spam/junk folder for an email from us containing the W9 form. If you don't see it, please let me know and I will make sure our team resends it to you.*\n\nI've noted your account. Our team will provide an update as soon as possible.\n\nThank you for your patience.\n[03:56:53 PM] t6955935479: I have checked all folders and have not received it\n[03:56:53 PM] t6955935479: I have checked all folders and have not received it\n[03:57:38 PM] Diana Lopez: thank you for checking and letting me know. I understand you've looked in all folders and still haven't received the W9 form.\n\nI've noted your account. Our team will resend the W9 form to you as soon as possible.\n\nThank you for your patience.\n[03:57:38 PM] Diana Lopez: thank you for checking and letting me know. I understand you've looked in all folders and still haven't received the W9 form.\n\nI've noted your account. Our team will resend the W9 form to you as soon as possible.\n\nThank you for your patience.\n[03:58:15 PM] t6955935479: Ok, when should I be receiving it? I would like to get my funds in a timely manner\n[03:58:15 PM] t6955935479: Ok, when should I be receiving it? I would like to get my funds in a timely manner\n[03:58:45 PM] Diana Lopez: understand you want to receive the W9 form and get your funds in a timely manner. That's completely reasonable.\n\nI cannot provide an exact time for when the form will be resent. Our team is working on it and you will receive it as soon as possible.\n\nThank you for your patience\n[03:58:45 PM] Diana Lopez: understand you want to receive the W9 form and get your funds in a timely manner. That's completely reasonable.\n\nI cannot provide an exact time for when the form will be resent. Our team is working on it and you will receive it as soon as possible.\n\nThank you for your patience\n[03:59:45 PM] t6955935479: OK because they said it was already sent and I have not received it. I know that you have the correct email address for me because I get emails from you. Why can’t the team that is supposed to send that out reach out to me directly or join a chat or have access to chat\n[03:59:45 PM] t6955935479: OK because they said it was already sent and I have not received it. I know that you have the correct email address for me because I get emails from you. Why can’t the team that is supposed to send that out reach out to me directly or join a chat or have access to chat\n[04:00:15 PM] Diana Lopez: You're asking a very fair question. If the team has your correct email address and you receive other emails from us, there's no reason the W9 shouldn't be reaching you.\n\nThe team that sends W9 forms does not have access to live chat. They work through email only. That's why you've been directed to email support for this issue.\n\nI've noted your account and will make sure your case is reviewed. Please continue to check your email and spam folder. You will receive the W9 form as soon as possible.\n\nThank you for your patience.\n[04:00:15 PM] Diana Lopez: You're asking a very fair question. If the team has your correct email address and you receive other emails from us, there's no reason the W9 shouldn't be reaching you.\n\nThe team that sends W9 forms does not have access to live chat. They work through email only. That's why you've been directed to email support for this issue.\n\nI've noted your account and will make sure your case is reviewed. Please continue to check your email and spam folder. You will receive the W9 form as soon as possible.\n\nThank you for your patience.\n[04:01:46 PM] t6955935479: The agent last night said that if they don’t receive the W9 in a timely manner, I will have to start this process. I’ll over again, so I would like to avoid that being that that it has been taking longer than it should\n[04:01:46 PM] t6955935479: The agent last night said that if they don’t receive the W9 in a timely manner, I will have to start this process. I’ll over again, so I would like to avoid that being that that it has been taking longer than it should\n[04:02:11 PM] Diana Lopez: I completely understand. You want to avoid having to start the process over again, especially since you've already been waiting longer than you should. That's fair.\n\nI've noted your account. Our team will resend the W9 form as soon as possible. Please check your email and spam folder regularly.\n[04:02:11 PM] Diana Lopez: I completely understand. You want to avoid having to start the process over again, especially since you've already been waiting longer than you should. That's fair.\n\nI've noted your account. Our team will resend the W9 form as soon as possible. Please check your email and spam folder regularly.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T16:04:46.873Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 8
+      "trend": 1
     },
     {
       "id": "5808",
@@ -48388,6 +48433,51 @@
       "raw_transcript": "[03:41:28 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: Trying to get an update on my redemption it’s still showing pending\n[03:41:28 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: Trying to get an update on my redemption it’s still showing pending\n[03:42:04 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:42:04 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:43:22 PM] Angie Pereira: ACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[03:43:22 PM] Angie Pereira: ACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[03:44:08 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[03:44:08 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[03:46:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[03:46:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T15:49:45.578Z"
+    },
+    {
+      "chat_id": "2047705777120309248",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T16:04:10.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Basic 'Hello!' without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Understood the core issue about missing W9 and redemption delay, but didn't probe deeper into timeline or process concerns."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Escalated appropriately and offered to resend form, but provided no timeline, no direct solution, and customer remains frustrated at chat end."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Professional and empathetic initially, but became repetitive with 'as soon as possible' and didn't address customer's valid process questions."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, appropriately avoided committing to specific timelines."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing whatsoever, transcript ends mid-conversation with customer asking legitimate questions that went unanswered."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent showed initial empathy and understood the issue but provided only generic escalation responses without timeline or substantive answers. The interaction ended abruptly without closure while customer was still asking valid questions about process and communication.",
+      "coaching_tip": "Always provide a proper closing even when you can't give exact timelines—acknowledge the customer's final concerns and confirm next steps before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[03:54:36 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back.\n[03:54:36 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back.\n[03:54:53 PM] Diana Lopez: Hello!\n[03:54:53 PM] Diana Lopez: Hello!\n[03:55:31 PM] Diana Lopez: I understand your frustration. It's been almost a week since you submitted your redemption, you were told you would receive a W9 form but haven't received it, and you haven't heard back from anyone. That's not acceptable, and I'm sorry.\n\n*Please check your email inbox and spam/junk folder for an email from us containing the W9 form. If you don't see it, please let me know and I will make sure our team resends it to you.*\n\nI've noted your account. Our team will provide an update as soon as possible.\n\nThank you for your patience.\n[03:55:31 PM] Diana Lopez: I understand your frustration. It's been almost a week since you submitted your redemption, you were told you would receive a W9 form but haven't received it, and you haven't heard back from anyone. That's not acceptable, and I'm sorry.\n\n*Please check your email inbox and spam/junk folder for an email from us containing the W9 form. If you don't see it, please let me know and I will make sure our team resends it to you.*\n\nI've noted your account. Our team will provide an update as soon as possible.\n\nThank you for your patience.\n[03:56:53 PM] t6955935479: I have checked all folders and have not received it\n[03:56:53 PM] t6955935479: I have checked all folders and have not received it\n[03:57:38 PM] Diana Lopez: thank you for checking and letting me know. I understand you've looked in all folders and still haven't received the W9 form.\n\nI've noted your account. Our team will resend the W9 form to you as soon as possible.\n\nThank you for your patience.\n[03:57:38 PM] Diana Lopez: thank you for checking and letting me know. I understand you've looked in all folders and still haven't received the W9 form.\n\nI've noted your account. Our team will resend the W9 form to you as soon as possible.\n\nThank you for your patience.\n[03:58:15 PM] t6955935479: Ok, when should I be receiving it? I would like to get my funds in a timely manner\n[03:58:15 PM] t6955935479: Ok, when should I be receiving it? I would like to get my funds in a timely manner\n[03:58:45 PM] Diana Lopez: understand you want to receive the W9 form and get your funds in a timely manner. That's completely reasonable.\n\nI cannot provide an exact time for when the form will be resent. Our team is working on it and you will receive it as soon as possible.\n\nThank you for your patience\n[03:58:45 PM] Diana Lopez: understand you want to receive the W9 form and get your funds in a timely manner. That's completely reasonable.\n\nI cannot provide an exact time for when the form will be resent. Our team is working on it and you will receive it as soon as possible.\n\nThank you for your patience\n[03:59:45 PM] t6955935479: OK because they said it was already sent and I have not received it. I know that you have the correct email address for me because I get emails from you. Why can’t the team that is supposed to send that out reach out to me directly or join a chat or have access to chat\n[03:59:45 PM] t6955935479: OK because they said it was already sent and I have not received it. I know that you have the correct email address for me because I get emails from you. Why can’t the team that is supposed to send that out reach out to me directly or join a chat or have access to chat\n[04:00:15 PM] Diana Lopez: You're asking a very fair question. If the team has your correct email address and you receive other emails from us, there's no reason the W9 shouldn't be reaching you.\n\nThe team that sends W9 forms does not have access to live chat. They work through email only. That's why you've been directed to email support for this issue.\n\nI've noted your account and will make sure your case is reviewed. Please continue to check your email and spam folder. You will receive the W9 form as soon as possible.\n\nThank you for your patience.\n[04:00:15 PM] Diana Lopez: You're asking a very fair question. If the team has your correct email address and you receive other emails from us, there's no reason the W9 shouldn't be reaching you.\n\nThe team that sends W9 forms does not have access to live chat. They work through email only. That's why you've been directed to email support for this issue.\n\nI've noted your account and will make sure your case is reviewed. Please continue to check your email and spam folder. You will receive the W9 form as soon as possible.\n\nThank you for your patience.\n[04:01:46 PM] t6955935479: The agent last night said that if they don’t receive the W9 in a timely manner, I will have to start this process. I’ll over again, so I would like to avoid that being that that it has been taking longer than it should\n[04:01:46 PM] t6955935479: The agent last night said that if they don’t receive the W9 in a timely manner, I will have to start this process. I’ll over again, so I would like to avoid that being that that it has been taking longer than it should\n[04:02:11 PM] Diana Lopez: I completely understand. You want to avoid having to start the process over again, especially since you've already been waiting longer than you should. That's fair.\n\nI've noted your account. Our team will resend the W9 form as soon as possible. Please check your email and spam folder regularly.\n[04:02:11 PM] Diana Lopez: I completely understand. You want to avoid having to start the process over again, especially since you've already been waiting longer than you should. That's fair.\n\nI've noted your account. Our team will resend the W9 form as soon as possible. Please check your email and spam folder regularly.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T16:04:46.873Z"
     }
   ]
 }
