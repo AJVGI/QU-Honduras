@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T03:39:43.380Z",
-  "total_chats": 392,
+  "scored_at": "2026-04-24T03:44:40.346Z",
+  "total_chats": 393,
   "total_agents": 25,
   "agents": [
     {
@@ -7098,11 +7098,56 @@
           "raw_transcript": "[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:25:23 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Itz been 16 days since I put in for a redeem on the 04/06/2026 I called HR already can you please tell me what cashapp you sent my redemption to if you said it was sent please and thank\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:05 AM] Customer: Can you please tell me what account it was sent to\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.\n[03:26:18 AM] Jonathan Fuentes: Hi! We can confirm that the funds have already been released from our end. At this point, we recommend contacting your bank for further assistance.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T03:34:39.461Z"
+        },
+        {
+          "chat_id": "2047519104184971264",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-24T03:41:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without acknowledging customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the customer was asking about payment details but did not clarify what specific information the customer needed or why."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided the processing date and correctly cited security policy, but could have offered alternative verification methods or escalation options."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional but somewhat repetitive; could have been more empathetic given customer's apparent concern about their payment."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly followed security protocols by not disclosing sensitive banking information through chat channel."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and closed politely, though the 'good luck out there' is slightly casual for a financial concern."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent handled security compliance well by refusing to share banking details and provided the payment processing date. However, the interaction lacked a proper greeting and could have been more helpful by offering alternative ways for the customer to verify their payment destination.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name, and when you cannot fulfill a request due to policy, proactively offer alternative solutions like verifying information through a secure channel or email.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T03:44:39.846Z"
         }
       ],
       "avg_score": 58,
       "grade": "F",
-      "trend": 7
+      "trend": 9
     },
     {
       "id": "5669",
@@ -35509,6 +35554,51 @@
       "raw_transcript": "[03:22:35 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[03:22:35 AM] t5930547634: Full Name: t5930547634 Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: I’ve been waiting days for an email back in regards to my name. I’m unable to redeem because of an invalid last name and I’m not getting any answers\n[03:22:51 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:22:51 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[03:23:08 AM] t5930547634: Ok\n[03:23:08 AM] t5930547634: Ok\n[03:23:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[03:23:47 AM] Oskar Abaunza: Give me a moment to review this information.\n[03:23:51 AM] t5930547634: Ok\n[03:23:51 AM] t5930547634: Ok\n[03:25:30 AM] t5930547634: Ok\n[03:25:30 AM] t5930547634: Ok\n[03:27:48 AM] Oskar Abaunza: Are you trying to redeem via ACH or card network?\n[03:27:48 AM] Oskar Abaunza: Are you trying to redeem via ACH or card network?\n[03:28:06 AM] t5930547634: No it keeps showing this\n[03:28:06 AM] t5930547634: IMG_4179.png\n[03:28:06 AM] t5930547634: No it keeps showing this\n[03:28:06 AM] t5930547634: IMG_4179.png\n[03:28:19 AM] t5930547634: My last name is hyphenated so it says invalid\n[03:28:19 AM] t5930547634: My last name is hyphenated so it says invalid\n[03:28:34 AM] t5930547634: That’s how it is on my ID\n[03:28:34 AM] t5930547634: That’s how it is on my ID\n[03:28:46 AM] t5930547634: It doesn’t let me go past this screen\n[03:28:46 AM] t5930547634: It doesn’t let me go past this screen\n[03:29:54 AM] Oskar Abaunza: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\nSometimes formatting can affect how the system processes the information. Also, please try adding your last name as hyphenated.\n[03:29:54 AM] Oskar Abaunza: Thanks for your message. Could you please try entering your full name again, making sure it is written in all capital letters?\nSometimes formatting can affect how the system processes the information. Also, please try adding your last name as hyphenated.\n[03:31:39 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:31:39 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[03:35:05 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:35:05 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T03:39:42.880Z"
+    },
+    {
+      "chat_id": "2047519104184971264",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-24T03:41:07.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'one moment' without acknowledging customer by name or welcoming them."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the customer was asking about payment details but did not clarify what specific information the customer needed or why."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent provided the processing date and correctly cited security policy, but could have offered alternative verification methods or escalation options."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional but somewhat repetitive; could have been more empathetic given customer's apparent concern about their payment."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly followed security protocols by not disclosing sensitive banking information through chat channel."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and closed politely, though the 'good luck out there' is slightly casual for a financial concern."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent handled security compliance well by refusing to share banking details and provided the payment processing date. However, the interaction lacked a proper greeting and could have been more helpful by offering alternative ways for the customer to verify their payment destination.",
+      "coaching_tip": "Always open with a warm greeting using the customer's name, and when you cannot fulfill a request due to policy, proactively offer alternative solutions like verifying information through a secure channel or email.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:32:50 AM] Customer: Full Name: STANLEY G BROWN Email Address: walnutboi449@gmail.com Subject / How can we help you?: Can you please tell me what account the money was sent and the time\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:33:23 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:36:12 AM] Jonathan Fuentes: For security and privacy reasons, we do not have access to or share detailed banking information through this channel, and sensitive financial details cannot be disclosed.\n\nHowever, we can confirm that the payment was processed on our end on April 7, 2026.\n\nIf you have any further questions we’re here to assist.\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:37:29 AM] Customer: Can you please tell me what account it was sent to\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:38:45 AM] Jonathan Fuentes: As I mention before, because of security and privacy reasons, we do not have access to detailed banking information and, through this channel, sensitive financial details cannot be disclosed.\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:39:39 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!\n[03:41:04 AM] Jonathan Fuentes: Thanks for chatting with us! Good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T03:44:39.846Z"
     }
   ]
 }
