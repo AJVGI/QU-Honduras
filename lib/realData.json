@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T00:25:04.265Z",
-  "total_chats": 361,
+  "scored_at": "2026-04-24T00:29:38.068Z",
+  "total_chats": 362,
   "total_agents": 25,
   "agents": [
     {
@@ -434,1050 +434,6 @@
       "avg_score": 64,
       "grade": "D",
       "trend": 0
-    },
-    {
-      "id": "5847",
-      "name": "Cairo Osorto",
-      "chats": [
-        {
-          "chat_id": "2047116991214170112",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T01:01:21.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the verification concern and addressed the follow-up address question, though could have probed initial confusion more."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Appropriately explained the verification process and correctly refused to disclose account info before verification per security policy."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional but somewhat robotic, lacked empathy for customer's verification anxiety."
-            },
-            "compliance": {
-              "score": 10,
-              "notes": "Perfect adherence to security protocols by refusing to disclose account information before verification."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided a closing with well-wishes but felt slightly abrupt given the customer's ongoing verification concern."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 70,
-          "grade": "C",
-          "summary": "Agent handled the interaction competently by correctly applying security protocols and explaining the verification timeline. Communication was professional but lacked warmth and could have better acknowledged the customer's frustration about waiting.",
-          "coaching_tip": "Add empathetic acknowledgment of customer concerns (e.g., 'I understand waiting for verification can be frustrating') before explaining policies to build better rapport.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[12:54:58 AM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: The email you all sent is just allowing me to upload my id. I’m waiting on another email verification\n[12:55:21 AM] Cairo Osorto: Thanks for contacting.\n[12:58:11 AM] Cairo Osorto: Hello - if you have successfully uploaded your documentation, please give us some time to review your information and corroborate that everything is in order. In the meantime, is there anything else I can assist you with?\n[01:00:12 AM] t5003516845: Is my address on my profile 95 Beckham circle Jackson Alabama 36545\n[01:01:10 AM] Cairo Osorto: So long as your account isn't fully verified, we are unable to disclose that information due to security reasons. Apologies - I see that you have made this question multiple times before, but before we provide an answer, your account must be fully verified.\n[01:01:19 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:47:06.110Z"
-        },
-        {
-          "chat_id": "2047114513387712512",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T00:53:12.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional and friendly greeting, though initial response was brief before warming up."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Clearly understood the customer's question about the Monthly Grand and confirmed understanding before researching."
-            },
-            "resolution": {
-              "score": 26,
-              "notes": "Provided comprehensive, accurate information including entry requirements, prize amount, timing, notification method, and playthrough requirements."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, friendly, and well-structured response with appropriate use of enthusiasm and emojis matching customer tone."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly explained all terms including playthrough requirements with no unauthorized promises."
-            },
-            "closing": {
-              "score": 9,
-              "notes": "Warm, personalized closing with well-wishes and encouragement that matched the conversational tone."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 84,
-          "grade": "B",
-          "summary": "Cairo provided excellent service with a comprehensive explanation of the Monthly Grand giveaway, including all relevant details and requirements. The interaction was friendly, professional, and the agent matched the customer's casual tone appropriately.",
-          "coaching_tip": "Consider providing a slightly warmer initial greeting that immediately acknowledges the customer by tone rather than the generic 'Thanks for contacting' to establish rapport faster.",
-          "website": "Jackpot Daily",
-          "message_count": 15,
-          "raw_transcript": "[12:45:08 AM] Customer: Full Name: Kari Aydelott Email Address: karilynea86@yahoo.com Subject / How can we help you?: I was just curious what the monthly Grand was?\n[12:45:21 AM] Cairo Osorto: Thanks for contacting.\n[12:45:31 AM] Customer: How r u\n[12:46:19 AM] Cairo Osorto: Very good! How are you doing this evening?\n[12:46:42 AM] Customer: Im great! Just had a question. What is the monthly grand?\n[12:47:38 AM] Cairo Osorto: I'll gladly let you know :) One moment please.\n[12:47:52 AM] Customer: Sure take your time\n[12:48:30 AM] Cairo Osorto: Thanks!\n[12:51:24 AM] Cairo Osorto: Thanks for waiting! The Monthly Grand SC Giveaway is our biggest\nmonthly prize — up to 377,777 SC!\nHow to enter: make at least one GC purchase of $1+ during the month. That’s all —\nyou’re automatically entered, no opt-in needed!\nOne lucky winner is randomly drawn and the prize lands before 10 PM PT on the 1st\nof the next month. Winners get notified by email.\nQuick note: the prize has a 1x playthrough requirement before you can redeem it.\nAny questions about the giveaway? I’m here!\n[12:52:05 AM] Customer: Oh ok thanks.\n[12:52:23 AM] Customer: Thats sounds awesome. If i win! Lol\n[12:52:37 AM] Customer: Thanks that's all I needed to know.\n[12:52:50 AM] Cairo Osorto: Been a pleasure! And hey, I hope you do win! Have a nice evening :)\n[12:53:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:53:05 AM] Customer: You do the same!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:47:37.949Z"
-        },
-        {
-          "chat_id": "2047110608917934080",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T00:43:28.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "Greeting was minimal ('Thanks for contacting') with no personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the issue and requested a screenshot for clarification, showing good diagnostic approach."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent provided troubleshooting steps and escalated appropriately, but customer left frustrated after paying for a package they couldn't access."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Communication was clear and professional with structured troubleshooting steps, though lacked empathy when customer expressed frustration about their first experience."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; proper escalation procedure followed without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Agent offered further assistance and closed professionally, though the upbeat tone felt slightly mismatched given customer's frustration."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent followed proper troubleshooting protocol and escalated appropriately when technical steps failed. However, the response lacked sufficient empathy when the customer expressed frustration about their first experience after making a purchase.",
-          "coaching_tip": "When a paying customer expresses disappointment about their first experience, acknowledge their frustration more directly and reassure them their issue will be prioritized before moving to escalation.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[12:29:37 AM] t8687356241: Full Name: t8687356241 Email Address: echo13865@gmail.com Subject / How can we help you?: I'm trying to figure out why I can't get the daily bonus since I purchased the package.\n[12:30:27 AM] Cairo Osorto: Thanks for contacting.\n[12:31:33 AM] Cairo Osorto: Claiming your Daily Bonus is quick — here's how:\n1. Log in at www.jackpotdaily.com\n2. Click the treasure chest icon on the right side of your screen\n3. Tap the pink note with the checkmark\n4. Complete the daily task to unlock it\nOnce you're done, it'll be credited automatically!\nNot seeing the chest? Let me know and I'll help you find it!\n[12:32:05 AM] t8687356241: I don't see a chest but I completed the daily task .\n[12:32:44 AM] Cairo Osorto: I understand. Can you please share a screenshot?\n[12:33:09 AM] t8687356241: Screenshot_20260422-203238.Chrome.jpg\n[12:34:04 AM] Cairo Osorto: I see, thanks! One moment please.\n[12:34:49 AM] Cairo Osorto: Can you please try reloading the page, see if it shows you the reward now?\n[12:36:07 AM] t8687356241: Yes one moment\n[12:36:24 AM] Cairo Osorto: Thanks, take your time :)\n[12:36:47 AM] t8687356241: No still isn't allowing me to\n[12:37:24 AM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[12:37:55 AM] t8687356241: Okay I'll try to log out and back in I've done everything else you've said\n[12:38:28 AM] Cairo Osorto: Understood, please do and let me know if that does the trick.\n[12:39:28 AM] t8687356241: It's still not allowing me to. I'm not really understanding and this is my first time on this app and I'm just really not liking how this is going so far for me . Esp if it's not working and I just created and paid for the welcome bonus\n[12:40:18 AM] Cairo Osorto: I understand.\n[12:41:16 AM] Cairo Osorto: And we sincerely apologize for the inconvenience. At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[12:41:35 AM] Cairo Osorto: Is there anything else I may assist you with in the meantime?\n[12:42:24 AM] t8687356241: No that's all\n[12:43:25 AM] Cairo Osorto: Understood. Please submit your ticket and our support team will gladly help you out in a timely manner, have a nice evening. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:47:48.121Z"
-        },
-        {
-          "chat_id": "2047100273334988800",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T00:06:15.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic 'Thanks for contacting' without proper introduction or warmth, especially inappropriate given the sensitive nature of the request."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent identified a potential email mismatch but the customer provided their email clearly in the initial message, creating unnecessary confusion."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Failed to process a critical responsible gaming self-exclusion request due to email confusion when customer had already provided their email address, leaving a vulnerable customer unprotected."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Multiple follow-ups waiting for confirmation created delay on an urgent responsible gaming matter that required immediate action."
-            },
-            "compliance": {
-              "score": 3,
-              "notes": "Serious compliance failure - self-exclusion requests citing gambling problems must be processed immediately without requiring additional confirmation that causes dangerous delays."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Inappropriate casual closing with 'Good luck out there' for a customer requesting help with a gambling problem."
-            }
-          },
-          "auto_fail": {
-            "triggered": true,
-            "reason": "Critical responsible gaming violation - agent failed to immediately process self-exclusion request from customer explicitly stating gambling problem, instead creating barriers and delays that left vulnerable customer at risk."
-          },
-          "total_score": 39,
-          "grade": "F",
-          "summary": "Agent failed to properly handle a critical responsible gaming self-exclusion request. By questioning the email address already provided and requiring confirmation before processing, the agent created dangerous delays for a vulnerable customer explicitly stating they have a gambling problem.",
-          "coaching_tip": "Self-exclusion requests citing gambling problems must be processed immediately without barriers - if email verification is needed, close the account first using any identifier available, then verify details afterward to protect the vulnerable customer.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[11:48:33 PM] t7555694719: Full Name: t7555694719 Email Address: Deanna.wall.spina@gmail.com Subject / How can we help you?: Please close my account permanently\n[11:48:48 PM] t7555694719: I have a gambling problem. Please close my account indefinitely.\n[11:48:53 PM] Cairo Osorto: Thanks for contacting.\n[11:50:36 PM] Cairo Osorto: We're sorry to hear that you're leaving, but we're all for responsible gaming. I'll gladly oversee that your account is terminated, no worries. Is there anything else you might need assistance with?\n[11:52:14 PM] Cairo Osorto: By the way - the account associated with \"dmw9219@yahoo.com\" should be terminated, correct?\n[11:56:53 PM] Cairo Osorto: Please confirm if this is correct.\n[12:02:25 AM] Cairo Osorto: Are you still there?\n[12:05:54 AM] Cairo Osorto: Apologies, but until you can confirm which email corresponds to your requested cancelation, it will remain on hold. Please reach us back for further assistance.\n[12:06:13 AM] Cairo Osorto: Thanks for chatting with us! Good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:49:11.497Z"
-        },
-        {
-          "chat_id": "2047097424371347456",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-22T23:42:32.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting without personalization or warmth, just 'Thanks for contacting.'"
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent identified the location activation issue and asked a clarifying question about mobile device."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "No resolution provided; customer didn't respond but agent gave insufficient wait time and no troubleshooting steps were offered."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional communication in Spanish after detecting customer's language, appropriately bilingual."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises detected."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Polite closing with well-wishes for gaming, though customer issue remained unresolved."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent appropriately switched to Spanish and asked a clarifying question but closed the chat after only 5 minutes without providing any troubleshooting steps or solutions. The customer's location activation issue was never addressed beyond the initial question.",
-          "coaching_tip": "Wait longer for customer responses (at least 8-10 minutes) and proactively provide troubleshooting steps or instructions even if the customer is slow to respond, rather than closing prematurely.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[11:37:13 PM] Customer: Full Name: Sonia Reyes Email Address: soniadelgado821@gmail.com Subject / How can we help you?: Nesecito activar ubicacion\n[11:37:27 PM] Cairo Osorto: Thanks for contacting.\n[11:38:40 PM] Cairo Osorto: ¡Le ayudaré con gusto! ¿Necesita activar su ubicación en su teléfono móvil?\n[11:40:46 PM] Cairo Osorto: Parece haberse retirado. ¿Hay algo más con lo que pueda ayudarle?\n[11:42:30 PM] Cairo Osorto: ¡Gracias por chatear con nosotros! Que disfrute sus juegos — ¡buena suerte allá afuera!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:50:04.761Z"
-        },
-        {
-          "chat_id": "2047091077096976384",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-22T23:21:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Agent understood the customer wanted to add a card for redemption and acknowledged the previous ACH usage."
-            },
-            "resolution": {
-              "score": 23,
-              "notes": "Provided clear step-by-step instructions on how to select Card Network and enter card information for redemption."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Professional and friendly tone with appropriate use of emojis, clear instructions delivered concisely."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made, stayed within appropriate support boundaries."
-            },
-            "closing": {
-              "score": 9,
-              "notes": "Strong closing with reassurance of availability, well-wishes, and proper sign-off."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 76,
-          "grade": "C",
-          "summary": "Agent provided accurate guidance on adding a card payment method for redemptions with clear instructions. Communication was professional and friendly, though the initial greeting was minimal.",
-          "coaching_tip": "Start with a warmer, more personalized greeting that includes acknowledging the customer by name or with a fuller welcome message.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[11:12:00 PM] t2725267994: Full Name: t2725267994 Email Address: jlee420811@gmail.com Subject / How can we help you?: Hello so I redeemed before, but I did it ACH cause that was the only option and I’m trying to add my card to my wallet. How do I do that?\n[11:12:19 PM] Cairo Osorto: Thanks for contacting.\n[11:14:16 PM] t2725267994: Hello so I redeemed once before but had to do it ach so I wanted to add my card now but how do o do that\n[11:14:54 PM] Cairo Osorto: Understood! Bear with me - I'll guide you on how to add your card as a payment method for redemption in a moment.\n[11:16:32 PM] t2725267994: Ok I do have a card that I use for payments saved already too don’t knoe if that helps but just letting u know\n[11:18:28 PM] Cairo Osorto: I see, thanks for letting me know :) It's fairly straightforward - when you head over to the redemption option (where you have selected ACH before), select \"Card Network\" instead and please enter the information of the card that you wish to have your redemption credited to.\n[11:18:49 PM] Cairo Osorto: Hope this helps! :) Is there anything else I can assist you with?\n[11:19:58 PM] t2725267994: Ok I hope it works if not I’ll be back lol\n[11:20:50 PM] Cairo Osorto: Oh, no worries, should work just fine, but if you need any further assistance, we'll always be here to help! :) Hope you enjoy the rest of your day.\n[11:21:01 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:50:45.850Z"
-        },
-        {
-          "chat_id": "2047084718331359232",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-22T23:04:05.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the upload issue and address verification concern but didn't probe deeply into the technical problem shown in the screenshot."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Escalated to email support but didn't resolve the immediate upload issue or provide alternative solutions despite customer's repeated frustration."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Professional and clear but somewhat robotic; failed to acknowledge customer's frustration effectively when they expressed difficulty."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Correctly refused to disclose account information for unverified account, following proper security protocols."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Closed abruptly without confirming customer satisfaction or waiting for response to the 'anything else' question."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 61,
-          "grade": "D",
-          "summary": "Agent followed compliance protocols correctly by refusing to confirm address details for an unverified account and escalated appropriately to email support. However, the service felt mechanical with poor empathy when the customer expressed frustration, and the closing was rushed without proper confirmation.",
-          "coaching_tip": "When customers express frustration ('Why make it so hard for people'), acknowledge their feelings directly before explaining policy, and never close the chat without waiting for customer confirmation after asking if there's anything else.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[10:46:44 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: The email you all sent is just allowing me to upload my id\n[10:47:01 PM] Cairo Osorto: Thanks for contacting.\n[10:51:16 PM] Cairo Osorto: I'm sorry to hear that you haven't been able to complete your verification. Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[10:52:37 PM] t5003516845: Is my address on file 95 Beckham Corcle Jackson Alabama 36544\n[10:52:42 PM] t5003516845: Circle\n[10:53:34 PM] Cairo Osorto: Bear with me, please remain online.\n[10:53:38 PM] Cairo Osorto: Thanks for your patience.\n[10:53:54 PM] t5003516845: What is my address on file???\n[10:55:00 PM] t5003516845: Also it’s not letting me upload.\n[10:55:00 PM] t5003516845: IMG_9138.png\n[10:55:18 PM] Cairo Osorto: Please remain online - I am currently reviewing your inquiry and your previous interactions with our support team.\n[10:55:57 PM] Cairo Osorto: Apologies, but we cannot disclose account information to non-verified accounts.\n[10:57:14 PM] Cairo Osorto: Bear with me - since I understand that you're not being able to upload your documentation, I'm looking for a way to help you with that.\n[10:58:01 PM] t5003516845: Did I use 95 Beckham Circle\n[10:58:44 PM] t5003516845: It’s a yes or no question? Why make it so hard for people\n[10:59:30 PM] Cairo Osorto: Please keep in mind that the way the link works is you need to keep the tab open since it is programmed to expire after a given amount of time and/or if you exit the tab.\n[11:00:17 PM] t5003516845: Tab is still open\n[11:00:59 PM] Cairo Osorto: I understand that it is a yes or no question - the thing is I cannot confirm either precisely since your account isn't fully verified, as doing so would incur a mishandling of confidential player information. Keep in mind that these are procedures in place to protect your information and that of every of our players.\n[11:01:58 PM] Cairo Osorto: I have reached out to our email support team and they will gladly lend you a hand shortly - please await their email with further instructions on how to complete your KYC verification. Is there anything else I can assist you with in the meantime?\n[11:04:03 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:51:35.344Z"
-        },
-        {
-          "chat_id": "2044574892874838016",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-16T00:37:24.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional greeting but generic without personalization or customer name usage."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Quickly clarified the specific bonus type and investigated the account thoroughly."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Issue resolved successfully; agent checked account and customer confirmed receipt of reward."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional throughout with appropriate empathy and concise responses."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; handled verification-related issue appropriately without unauthorized promises."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing statement or offer for further assistance after customer thanked agent."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 72,
-          "grade": "C",
-          "summary": "Agent effectively identified and resolved the daily reward issue with good investigation and clear communication. However, the interaction lacked a proper closing after the customer's final message.",
-          "coaching_tip": "Always provide a closing statement even when the customer thanks you first—acknowledge their thanks and invite them to reach out if they need further assistance.",
-          "website": "Jackpot Daily",
-          "message_count": 7,
-          "raw_transcript": "[12:33:35 AM] t3063698396: Full Name: t3063698396 Email Address: smb1048@gmail.com Subject / How can we help you?: Unable to collect daily reward. Even after verification was approved and completed it says my account needs to be verified?\n[12:33:47 AM] Cairo Osorto: Thanks for contacting customer support!\n[12:34:16 AM] Cairo Osorto: Hello, sorry to hear that. Are you referring to the smash egg bonus reward?\n[12:34:30 AM] t3063698396: Yes\n[12:34:51 AM] Cairo Osorto: Got it. Bear with me, I'll take a look at your account.\n[12:36:29 AM] Cairo Osorto: Can you please check again? Your account reflects you as having the reward.\n[12:37:19 AM] t3063698396: It just now awarded me two SC but before it kept saying kyc failure. Thank you",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:56:28.491Z"
-        },
-        {
-          "chat_id": "2044572836127141888",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-16T00:35:10.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Basic professional greeting but generic and didn't use customer name."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Acknowledged the issue and asked clarifying question about ticket timing, but didn't explore the actual legal name problem."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Appropriately directed to email support and managed expectations, but didn't attempt any immediate troubleshooting or offer alternatives."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional throughout, though could have shown more empathy for customer's frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, correctly deferred to proper channel without making unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided friendly closing, though customer didn't respond to the offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent handled the interaction professionally by confirming the customer had followed previous instructions to email support and appropriately managed expectations about response time. However, the agent missed an opportunity to show empathy for the customer's frustration or explore if any immediate assistance could be provided while waiting for email response.",
-          "coaching_tip": "When customers express frustration about waiting for email responses, acknowledge their concern with empathy before explaining the process, and consider asking if there's any preliminary information you can gather to help expedite their case.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[12:25:25 AM] t6919257960: Full Name: t6919257960 Email Address: bwirtjers99@gmail.com Subject / How can we help you?: Full legal name issue\n[12:25:35 AM] Cairo Osorto: Thanks for contacting customer service!\n[12:26:17 AM] t6919257960: Screenshot_20260415-182456.png\n[12:27:17 AM] Cairo Osorto: I see, thanks for the screenshot. I also see that you were advised earlier to request assistance to our support team via email at support@jackpotdaily.com\n[12:27:29 AM] Cairo Osorto: Have you tried submitting a ticket?\n[12:27:33 AM] t6919257960: I did and no one answered me\n[12:28:17 AM] Cairo Osorto: May I ask when you submitted the ticket? Keep in mind that responses are taken in the order received and may take some time to receive a response.\n[12:28:34 AM] t6919257960: About 30 min ago\n[12:30:40 AM] Cairo Osorto: I see. Please give our support team more time since they're currently receiving multiple requests for assistance but rest assured that they're doing everything in their power to resolve this asap.\n[12:32:51 AM] Cairo Osorto: Is there anything else I can assist you with?\n[12:35:05 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:56:49.136Z"
-        },
-        {
-          "chat_id": "2044564110032859136",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-16T00:13:28.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Basic greeting present but lacked personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent identified the recurring ACH issue and previous contact history but didn't probe for specific error details."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Appropriately redirected to email team per protocol but didn't offer to escalate or provide timeline expectations."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Professional and clear but somewhat repetitive and lacked empathy given customer's urgency."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed departmental protocols correctly and made no unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided closing but felt slightly dismissive given the unresolved customer frustration."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent correctly identified a repeat issue and appropriately directed the customer to the email support team per protocol. However, the interaction lacked warmth and could have better acknowledged the customer's frustration with more empathetic language and concrete next steps.",
-          "coaching_tip": "When redirecting frustrated customers to another channel, acknowledge their urgency more explicitly and offer to personally escalate or provide an expected response timeframe to build confidence.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[11:50:44 PM] t9263262615: Full Name: t9263262615 Email Address: miranda.paulram@gmail.com Subject / How can we help you?: Why am I not able to cash out via ACH all my info is correct !\n[11:50:56 PM] t9263262615: Please help me redeem my winnings\n[11:51:08 PM] Cairo Osorto: Thanks for contacting customer service!\n[11:53:24 PM] t9263262615: Please !!!\n[11:54:37 PM] Cairo Osorto: Hello - I see that you have reached out to us many times about the same situation regarding the ACH redemption. I also see that you have been requested to reach out to our support team via email rather than chat support since the email team is in charge of reviewing this type of issue. Have you reached out to them?\n[12:00:29 AM] Cairo Osorto: You seem to have left. Is there anything else I can help you with?\n[12:01:46 AM] t9263262615: I've heard nothing but good things about this platform I need assistance with my account asap please\n[12:04:22 AM] Cairo Osorto: I understand and I'm really sorry to hear that, but please reach out to our email support team - we have different departments dedicated to different lines of assistance depending on the issue at hand. We are sincerely sorry for any inconvenience, but rest assured that our email team will gladly help you out.\n[12:09:39 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:13:26 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:58:53.676Z"
-        },
-        {
-          "chat_id": "2044568423823618048",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-16T00:15:16.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with enthusiasm but did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent did not ask any clarifying questions about what specific issue Rebecca was experiencing with account setup."
-            },
-            "resolution": {
-              "score": 17,
-              "notes": "Provided standard registration steps but didn't verify if customer had already attempted these or identify the actual blocker."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and well-formatted instructions, professional tone throughout, but lacked personalization."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing with well-wishes."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 65,
-          "grade": "D",
-          "summary": "Agent provided standard account creation instructions but failed to diagnose whether the customer had already attempted registration or what specific problem they encountered. The response was professional and clear but lacked the discovery phase needed to ensure the solution matched the actual issue.",
-          "coaching_tip": "Before providing solutions, ask clarifying questions like 'Have you already tried to register?' or 'What step are you stuck on?' to ensure your response addresses the customer's specific problem.",
-          "website": "Jackpot Daily",
-          "message_count": 5,
-          "raw_transcript": "[12:07:53 AM] Customer: Full Name: Rebecca Givens Email Address: rgivens303@gmail.com Subject / How can we help you?: Trying to start up account\n[12:08:18 AM] Cairo Osorto: Thanks for contacting customer service!\n[12:09:23 AM] Cairo Osorto: Welcome — so excited for you to join!\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n[12:13:07 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:14:53 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:59:03.251Z"
-        },
-        {
-          "chat_id": "2044565351110062080",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-16T00:07:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional but generic greeting without personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the name input issue and checked verification status, though could have asked more clarifying questions about the specific error."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided a reasonable troubleshooting suggestion (all caps) but didn't confirm if it worked or offer alternative solutions before customer went silent."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional communication with appropriate status updates, though could have been more detailed in explaining the solution."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately checked verification status and provided standard troubleshooting."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided a friendly closing, though customer had already left without confirmation of resolution."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 65,
-          "grade": "D",
-          "summary": "Agent handled the technical issue professionally with appropriate verification checks and a troubleshooting suggestion. However, the resolution was incomplete as the customer left before confirming whether the solution worked, and no follow-up alternatives were offered.",
-          "coaching_tip": "When providing technical solutions, offer multiple troubleshooting steps upfront and set expectations for follow-up if the first solution doesn't work, rather than waiting for customer response between each suggestion.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[11:55:40 PM] t2542846500: Full Name: t2542846500 Email Address: zmgcwall83@gmail.com Subject / How can we help you?: I am trying to redeem and when I try to type my full name in it will not let me type my full name in it does not light up everything else I can type in but my actual full name and do I need to send my ID a picture of my ID somewhere\n[11:56:02 PM] Cairo Osorto: Thanks for contacting customer service!\n[11:56:06 PM] t2542846500: Where do I put in my id\n[11:56:27 PM] Cairo Osorto: Bear with me, I'm going over your previous messages.\n[11:58:16 PM] Cairo Osorto: I see that your account is already fully verified. Bear with me, I'm checking.\n[11:59:44 PM] Cairo Osorto: Okay - can you please try inputting your name in all caps? (UPPERCASE LETTERS) Let me know if that helps.\n[12:04:57 AM] Cairo Osorto: You seem to have left. Is there anything else I can help you with?\n[12:07:24 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:02:08.489Z"
-        },
-        {
-          "chat_id": "2044242785191948288",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-15T02:42:55.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional but generic greeting without personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent requested screenshot but customer never responded, then proceeded without clarifying if verification was actually complete or what specific error appeared."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided generic verification instructions without confirming customer's claim that verification was already complete, potentially missing the actual issue."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear instructions but didn't address the customer's specific statement about already being verified."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, appropriately referenced trusted verification partner."
-            },
-            "closing": {
-              "score": 6,
-              "notes": "Closed politely but prematurely given the customer never confirmed resolution or returned after the check-in."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent provided standard verification instructions but failed to investigate the customer's claim that verification was already completed. The resolution was generic and didn't address the potential system error or account status issue the customer may have been experiencing.",
-          "coaching_tip": "When a customer states they've already completed a process, verify their account status in the system before sending standard instructions to avoid appearing dismissive of their concern.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[02:33:54 AM] t9949552208: Full Name: t9949552208 Email Address: estevezleeh1@gmail.com Subject / How can we help you?: I cannot claim any of my rewards it says to set up verification but I already have\n[02:34:12 AM] Cairo Osorto: Thanks for reaching out to customer service!\n[02:35:27 AM] Cairo Osorto: I understand that you're running into an inconvenience trying to claim your rewards due to verification. Can you please share a screenshot?\n[02:38:56 AM] Cairo Osorto: You seem to have left. Is there anything else I can help you with?\n[02:42:44 AM] Cairo Osorto: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[02:42:51 AM] Cairo Osorto: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:04:05.575Z"
-        },
-        {
-          "chat_id": "2044237766665269248",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-15T02:27:09.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional but generic greeting without personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Asked clarifying question but failed to fully understand the customer was referring to a different bonus (30SC vs golden egg)."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided solution for wrong bonus type (golden egg instead of 30SC signup bonus), then didn't address the actual issue when customer clarified."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Clear language but failed to acknowledge customer's clarification about the 30SC bonus and gave vague 'try again' response."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but didn't properly verify or address the promotional offer the customer mentioned."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further help and provided friendly closing, though somewhat premature given unresolved issue."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent misidentified the customer's issue as a golden egg bonus problem when the customer was actually asking about a 30SC signup bonus from a promotional link. When the customer clarified, the agent failed to properly address the actual issue and gave an unclear 'try again' response before closing.",
-          "coaching_tip": "When a customer clarifies or corrects the issue, acknowledge the new information explicitly and provide a specific solution for that particular bonus rather than defaulting to generic troubleshooting.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[02:13:58 AM] t9893814543: Full Name: t9893814543 Email Address: dustinc440@gmail.com Subject / How can we help you?: I can't get my bonus\n[02:14:23 AM] Cairo Osorto: Thanks for reaching out to customer service!\n[02:15:07 AM] Cairo Osorto: I understand that you are having an inconvenience trying to get your bonus. Can you please specify which bonus you're referring to?\n[02:15:20 AM] t9893814543: Welcome\n[02:15:54 AM] Cairo Osorto: I see, the welcome bonus. Please let me look into this, I'll be right with you.\n[02:18:30 AM] Cairo Osorto: Thanks for waiting. The egg should appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[02:21:10 AM] Cairo Osorto: Is there anything else I can help you with?\n[02:22:18 AM] t9893814543: The link I clicked on said 30sc free apon sign up\n[02:22:46 AM] Cairo Osorto: Can you please try again?\n[02:25:19 AM] Cairo Osorto: Is there anything else I can help you with?\n[02:27:04 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:04:45.854Z"
-        },
-        {
-          "chat_id": "2044217063496839168",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-15T01:02:03.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with thanks for reaching out, but did not use customer's name."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the issue clearly and asked appropriate confirmation question about following the steps."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Provided clear troubleshooting steps (logout/login) and proper escalation path via email with specific instructions."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, professional, and well-structured responses with empathy and appropriate hold notifications."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately explained promotion terms and escalation process without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided friendly closing with well-wishes, though customer didn't respond to final check-in."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 79,
-          "grade": "C",
-          "summary": "Agent handled the bonus claim issue competently by explaining the promotion mechanics, confirming steps were followed, and providing both immediate troubleshooting and escalation options. Communication was clear and professional throughout with appropriate empathy.",
-          "coaching_tip": "Wait for customer confirmation before closing the chat after asking 'Is there anything else I can help you with?' to ensure they don't have follow-up questions.",
-          "website": "Jackpot Daily",
-          "message_count": 13,
-          "raw_transcript": "[12:51:42 AM] t9182836903: Full Name: t9182836903 Email Address: missmeever38@gmail.com Subject / How can we help you?: I verified m\n[12:52:13 AM] t9182836903: I verified my account and it is not letting me claim my smash and win bonus\n[12:52:15 AM] Cairo Osorto: Hello, thanks for reaching out to customer service!\n[12:52:34 AM] t9182836903: I verified my account and it is not letting me claim my smash and win bonus\n[12:53:44 AM] Cairo Osorto: I understand, remember that this is how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n● The reward amount is random (can’t be predicted or\nchanged!)\n● It’s a one‑time welcome offer — new accounts only\n● It expires 5 days after being issued, so grab it soon!\n[12:54:10 AM] Cairo Osorto: Can you confirm that you have followed the steps?\n[12:54:22 AM] t9182836903: Yes\n[12:54:49 AM] Cairo Osorto: I see. In that case, please remain online while I look into this for you.\n[12:55:00 AM] t9182836903: Okay thank you\n[12:55:06 AM] Cairo Osorto: My pleasure.\n[12:58:53 AM] Cairo Osorto: We apologize for the inconvenience you are experiencing.\n \nThe Golden Egg should appear automatically once KYC verification is confirmed. Please log out, wait approximately 2 minutes, and then log back in. In many cases, this process successfully triggers the synchronization.\n\nIf the Golden Egg is still not visible after this step, kindly send an email to support@jackpotdaily.com with the subject line GOLDEN EGG MISSING and include the email address linked to your account. Our team will ensure it is applied manually.\n[01:00:03 AM] Cairo Osorto: Is there anything else I can help you with?\n[01:02:01 AM] Cairo Osorto: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:13:16.012Z"
-        },
-        {
-          "chat_id": "2044210724724895744",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-15T00:40:26.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with request for elaboration, though slightly delayed after initial acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent clarified the verification status concern and gathered key information about the 'complete but waiting' message."
-            },
-            "resolution": {
-              "score": 19,
-              "notes": "Properly escalated to email support with clear instructions including subject line protocol, appropriate for account verification issues."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional throughout with appropriate status updates during investigation time."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, followed proper escalation procedures for verification matters."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided friendly closing, though customer didn't respond to the offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 72,
-          "grade": "C",
-          "summary": "Agent handled a verification status inquiry professionally by investigating the issue and properly escalating to email support with clear instructions. Communication was clear with appropriate patience acknowledgments during the lookup process.",
-          "coaching_tip": "After escalating to email, briefly explain why this channel is better suited for the issue to help manage customer expectations and reduce frustration.",
-          "website": "Jackpot Daily",
-          "message_count": 13,
-          "raw_transcript": "[12:26:31 AM] t4634497088: Full Name: t4634497088 Email Address: raoufmalek@yahoo.com Subject / How can we help you?: Verification\n[12:26:50 AM] Cairo Osorto: Thanks for the information!\n[12:27:48 AM] Cairo Osorto: Thank you for reaching out to customer service. Can you please elaborate on what seems to be the issue trying to complete verification?\n[12:29:02 AM] t4634497088: That’s my question\n[12:29:08 AM] t4634497088: what is the issue?\n[12:29:19 AM] t4634497088: I should be verified by now\n[12:29:42 AM] Cairo Osorto: I see, sorry to hear that. Bear with me - I'll look up your information on our record.\n[12:30:16 AM] t4634497088: Says verification complete but that I have to wait. I already wait\n[12:30:44 AM] Cairo Osorto: I see, please remain online, I'm looking into this.\n[12:34:14 AM] Cairo Osorto: I appreciate your patience.\n[12:36:25 AM] Cairo Osorto: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:38:12 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:40:24 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:16:47.311Z"
-        },
-        {
-          "chat_id": "2044199863746080768",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-15T00:20:28.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all; agent jumped straight to 'Please remain online' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent eventually asked clarifying questions about which bonuses, but took very long and required customer to repeatedly explain the same issue."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "Agent provided generic instructions on how the bonus works but failed to address the core issue that customer missed bonuses due to verification delays and never actually resolved or escalated."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Multiple vague holding messages without substance; failed to explain what was being checked or provide meaningful updates during long delays."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but didn't properly escalate a bonus issue that likely required management review."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Abrupt closing without confirming if the issue was resolved or if customer had further questions after providing generic information."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 48,
-          "grade": "F",
-          "summary": "Agent took excessive time to investigate, provided only generic bonus instructions without addressing the customer's specific complaint about missing registration bonuses due to verification delays, and closed prematurely without resolution. The lack of any greeting and failure to actually resolve or escalate the issue resulted in poor service.",
-          "coaching_tip": "When a customer explains they missed time-sensitive bonuses due to system delays, escalate to a supervisor rather than just explaining how the bonus works—the customer needs compensation review, not instructions.",
-          "website": "Jackpot Daily",
-          "message_count": 30,
-          "raw_transcript": "[11:43:21 PM] Customer: Full Name: t4694706492 Email Address: janaeandjr2015@gmail.com Subject / How can we help you?: I don't know how many times I have to go through these process in order to get my bonuses.What is going on\n[11:45:07 PM] Cairo Osorto: Please remain online.\n[11:46:26 PM] Customer: Is there a way you can manually add the bonus or accses to said bonuses to my account\n[11:46:56 PM] Customer: Ok\n[11:47:05 PM] Cairo Osorto: Please bear with me, I'm going over your previous messages.\n[11:47:16 PM] Customer: Ok\n[11:47:45 PM] Cairo Osorto: One moment please.\n[11:47:53 PM] Customer: Ty\n[11:51:38 PM] Cairo Osorto: Thanks for your patience.\n[11:52:13 PM] Customer: No worries\n[11:52:55 PM] Cairo Osorto: Thanks for your patience. May I ask which bonuses you're specifically referring to?\n[11:54:08 PM] Customer: Sign up bonus\n[11:54:21 PM] Customer: Register egg bonus smash\n[11:54:36 PM] Customer: Daily wheel spin and login\n[11:54:53 PM] Cairo Osorto: I see, thanks.\n[11:58:09 PM] Customer: Whatever is offered for new player i never got the chance to except any due to long verification time\n[11:58:42 PM] Cairo Osorto: I see, sorry to hear that. Bear with me, I'm looking into this.\n[11:58:57 PM] Customer: Ok thanks\n[12:00:01 AM] Cairo Osorto: Thanks.\n[12:04:31 AM] Cairo Osorto: Sorry for the hold-up, I'm still checking.\n[12:04:47 AM] Customer: Alright\n[12:05:19 AM] Cairo Osorto: Thanks.\n[12:06:56 AM] Cairo Osorto: Would you be so kind as to share a screenshot to better understand what is happening?\n[12:08:24 AM] Customer: There is no screenshot of a problem.The situation is I never received my register bonus.It doesn't offer it to me no more.Because of the delay in the process of my verification, so I never received my sign of bonuses.It's not in my account\n[12:09:31 AM] Cairo Osorto: I see, thanks for letting me know.\n[12:09:33 AM] Customer: Whatever is offered to new players to sign up.I never received mine.I don't have the option in my account to receive it\n[12:10:15 AM] Cairo Osorto: I see, bear with me, I'll continue checking.\n[12:16:13 AM] Cairo Osorto: Here’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n● The reward amount is random (can’t be predicted or\nchanged!)\n● It’s a one‑time welcome offer — new accounts only\n● It expires 5 days after being issued, so grab it soon!\n[12:18:43 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:20:20 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:17:53.571Z"
-        },
-        {
-          "chat_id": "2044197790786826240",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-15T00:09:54.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with offer to help, though generic without customer name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent understood the basic concern but failed to clarify the key distinction customer made between internal approval versus bank processing time."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Agent provided standard policy information but never addressed the customer's specific concern about internal approval delays or checked the actual redemption status."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Professional and empathetic tone, but responses became repetitive and didn't directly address the customer's distinction between site approval and bank processing."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, appropriately stated processing timeframes without making unauthorized promises."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "Closed abruptly without confirming customer satisfaction after they raised legitimate concerns about approval delays."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 57,
-          "grade": "F",
-          "summary": "Agent provided professional service but missed the core issue: customer clearly distinguished between internal redemption approval and bank processing time, which agent never addressed. The closing was premature given the customer's unresolved frustration about approval delays.",
-          "coaching_tip": "When a customer makes a specific distinction (internal approval vs. bank processing), acknowledge it directly and check the actual status rather than repeating generic policy statements.",
-          "website": "Jackpot Daily",
-          "message_count": 25,
-          "raw_transcript": "[11:35:07 PM] t1022572948: Full Name: t1022572948 Email Address: lmlmlmxo@yahoo.com Subject / How can we help you?: hi, everywhere i have read people have stated they have gotten their ach redemption same day or within 24 hours. wondering why mine is still yet to be approved?\n[11:35:35 PM] Cairo Osorto: Hello! I'll be more than happy to help you today. Please remain online.\n[11:37:16 PM] t1022572948: thank you kindly\n[11:37:39 PM] Cairo Osorto: My pleasure! I'm here to help.\n[11:40:50 PM] Cairo Osorto: I'm still here, I appreciate your patience.\n[11:41:12 PM] t1022572948: no problem, thank you\n[11:42:21 PM] Cairo Osorto: Thank you for your inquiry. Please note that ACH bank transfers may take up to 10 business days to be fully processed and reflected in your account. We appreciate your patience, and if you have any further questions or need assistance in the meantime, feel free to reach out.\n[11:43:26 PM] t1022572948: it seems as if others are being prioritized\n[11:44:27 PM] t1022572948: i’ve talked to many people 2 people who suggested your site because of the fast ach and it seems to not be the case. i’m just a little disappointed with that\n[11:44:58 PM] Cairo Osorto: I see, just a moment please.\n[11:47:08 PM] t1022572948: sure. two people spoke highly of you to my fiancé so he signed up and then referred me. so i’m just not seeing the same results others are seeing. and redemption time is a huge thing for me. it’s the deciding factor of if im going to continue spending money on a site or not\n[11:47:37 PM] Cairo Osorto: One moment please.\n[11:47:51 PM] t1022572948: sure no problem thank you\n[11:49:58 PM] Cairo Osorto: Thanks for your patience.\n[11:50:08 PM] t1022572948: of course\n[11:51:22 PM] Cairo Osorto: Hi there — I completely understand how important it is for you to redeem your funds right away, and I’m really sorry for the frustration this delay may be causing.\n\nI do want to let you know that ACH bank transfers can take up to 10 business days to fully process. While many transfers complete sooner, this timeframe depends on banking networks and processing times that are unfortunately outside of our control.\n\nI know that waiting isn’t ideal, especially when you’re eager to access your funds. Please rest assured that your transfer is in progress, and we’re here to support you every step of the way. If there’s anything we can check or clarify for you in the meantime, don’t hesitate to reach out.\n\nThank you so much for your patience and understanding — we truly appreciate it.\n[11:52:15 PM] t1022572948: well i understand it is in process on your end and has to still be approved by your site\n[11:52:24 PM] t1022572948: it’s not my bank we are waiting on\n[11:55:04 PM] Cairo Osorto: I understand.\n[11:57:34 PM] t1022572948: so can your site approve my redemption request? it’s been over 24 hours\n[11:58:37 PM] t1022572948: which is quite unusual for a redemption approval\n[11:59:31 PM] Cairo Osorto: Bear with me, I'm trying to see if there's anything at all that can be done to expedite this.\n[12:03:23 AM] Cairo Osorto: Apologies but ACH bank transfers can vary in processing time depending on your bank. In some cases, the funds may arrive almost immediately, while in others it can take up to 2 business days, thats why our timeframe is up to 10 business days to be fully completed.\n\nIf you’re still within that timeframe, everything is likely processing as expected. If it goes beyond that, just let me know and I’ll be happy to take a closer look for you.\n[12:07:12 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:09:50 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:18:38.078Z"
-        },
-        {
-          "chat_id": "2047421598604292096",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T21:14:11.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the missing golden egg issue and acknowledged the verification completion without needing further clarification."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided a reasonable troubleshooting step (logout/login) and clear escalation path with specific email instructions if issue persists."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional with empathy ('I am sorry to hear that'), instructions were specific and easy to follow."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed to official support channel for manual resolution without making unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Checked for additional needs and provided a warm, casino-appropriate closing with good luck wishes."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 70,
-          "grade": "C",
-          "summary": "Agent competently handled a missing promotional item inquiry with appropriate troubleshooting and escalation guidance. Communication was clear and professional, though the greeting was minimal and lacked personalization.",
-          "coaching_tip": "Enhance your greeting by using the customer's name or email and adding warmth, such as 'Hi there! Thanks for reaching out to Jackpot Daily support.'",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T21:14:45.616Z"
-        },
-        {
-          "chat_id": "2047430883144413184",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T21:59:50.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Initial greeting was minimal ('Thanks for contacting') without personalization or warmth until follow-up message."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent acknowledged the issue, gathered necessary verification information (email and phone), and investigated the account properly."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Agent correctly identified that no account existed with provided credentials and asked customer to verify information, which was the appropriate action."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Professional and empathetic tone throughout, with reassuring language and clear instructions, though some messages were unnecessarily brief."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed proper verification procedures by collecting email and phone number before accessing account information."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance and provided a friendly closing, though customer had stepped away and may not have seen final message."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 72,
-          "grade": "C",
-          "summary": "Agent handled a login issue professionally by gathering verification details and correctly identifying that no account existed with the provided information. Communication was warm and empathetic, with appropriate troubleshooting steps taken.",
-          "coaching_tip": "Strengthen the initial greeting by immediately introducing yourself by name and acknowledging the customer's specific issue to create a more personalized opening.",
-          "website": "Jackpot Daily",
-          "message_count": 40,
-          "raw_transcript": "[09:42:16 PM] Customer: Full Name: Julia Fisher Email Address: flossie1901@gmail.com Subject / How can we help you?: Hi, I'm trying to login. I just created this password and it says I'm wrong. I tried to do another one and it says it's wrong and I haven't even set it yet. I'm lost.\n[09:42:16 PM] Customer: Full Name: Julia Fisher Email Address: flossie1901@gmail.com Subject / How can we help you?: Hi, I'm trying to login. I just created this password and it says I'm wrong. I tried to do another one and it says it's wrong and I haven't even set it yet. I'm lost.\n[09:42:26 PM] Customer: Thank you\n[09:42:26 PM] Customer: Thank you\n[09:42:29 PM] Cairo Osorto: Thanks for contacting.\n[09:42:29 PM] Cairo Osorto: Thanks for contacting.\n[09:42:46 PM] Customer: Hi, how are you\n[09:42:46 PM] Customer: Hi, how are you\n[09:43:50 PM] Cairo Osorto: I'm doing very well :) What about you? Sorry to hear about your situation trying to access your account. No worries, I'll do my best to try and help you out.\n[09:43:50 PM] Cairo Osorto: I'm doing very well :) What about you? Sorry to hear about your situation trying to access your account. No worries, I'll do my best to try and help you out.\n[09:44:29 PM] Customer: Thank you. I'm well. Just trying to figure this out. I'm not tech savvy but I'm not crazy either. Lol\n[09:44:29 PM] Customer: Thank you. I'm well. Just trying to figure this out. I'm not tech savvy but I'm not crazy either. Lol\n[09:45:20 PM] Cairo Osorto: No worries! Apps and programs can be a little tough to navigate sometimes but I'm here to help you out :) May I know which email you used for registration?\n[09:45:20 PM] Cairo Osorto: No worries! Apps and programs can be a little tough to navigate sometimes but I'm here to help you out :) May I know which email you used for registration?\n[09:45:35 PM] Customer: flossie1901@gmail.com\n[09:45:35 PM] Customer: flossie1901@gmail.com\n[09:46:10 PM] Cairo Osorto: Understood, thanks. May I please have the phone number you used for registration also?\n[09:46:10 PM] Cairo Osorto: Understood, thanks. May I please have the phone number you used for registration also?\n[09:46:23 PM] Customer: 2282439196\n[09:46:23 PM] Customer: 2282439196\n[09:46:36 PM] Cairo Osorto: Thanks, please remain online.\n[09:46:36 PM] Cairo Osorto: Thanks, please remain online.\n[09:46:42 PM] Customer: Ok\n[09:46:42 PM] Customer: Ok\n[09:47:07 PM] Cairo Osorto: Thanks.\n[09:47:07 PM] Cairo Osorto: Thanks.\n[09:47:24 PM] Customer: No problem\n[09:47:24 PM] Customer: No problem\n[09:47:44 PM] Cairo Osorto: Great.\n[09:47:44 PM] Cairo Osorto: Great.\n[09:49:58 PM] Cairo Osorto: Apologies - can you please double-check that the info you shared is correct? I'm not finding any accounts with neither your phone or email.\n[09:49:58 PM] Cairo Osorto: Apologies - can you please double-check that the info you shared is correct? I'm not finding any accounts with neither your phone or email.\n[09:50:31 PM] Customer: Wait. Really?  Ok. One minute. I'll be back\n[09:50:31 PM] Customer: Wait. Really?  Ok. One minute. I'll be back\n[09:51:12 PM] Cairo Osorto: Please, thank you!\n[09:51:12 PM] Cairo Osorto: Please, thank you!\n[09:57:00 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[09:57:00 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[09:59:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:59:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T22:04:43.486Z"
-        },
-        {
-          "chat_id": "2047449972088811520",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T23:06:06.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic 'Thanks for contacting' without personalization or warmth."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Asked one clarifying question but customer already stated the issue (account access) and agent didn't proactively troubleshoot or offer solutions."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "No resolution attempted; agent waited passively for customer response instead of offering password reset, account lookup, or other standard login assistance."
-            },
-            "communication": {
-              "score": 12,
-              "notes": "Professional tone but passive approach; didn't guide the conversation or provide actionable next steps."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No violations but didn't verify identity before discussing account access, which is a security concern."
-            },
-            "closing": {
-              "score": 6,
-              "notes": "Offered further assistance and said goodbye, but closed prematurely after only 7 minutes with minimal engagement."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 49,
-          "grade": "F",
-          "summary": "Agent was polite but overly passive, asking what the problem was when the customer already stated they couldn't access their account. No troubleshooting steps, password reset options, or proactive assistance were offered before closing the chat after customer silence.",
-          "coaching_tip": "When a customer states a login issue, immediately offer standard solutions like password reset links or account verification steps rather than waiting for them to provide more details.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[10:58:07 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:58:07 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:58:33 PM] Cairo Osorto: Thanks for contacting.\n[10:58:33 PM] Cairo Osorto: Thanks for contacting.\n[11:00:03 PM] Cairo Osorto: Sorry to hear that you're running into an inconvenience trying to log in. May I know what the hurdle seems to be?\n[11:00:03 PM] Cairo Osorto: Sorry to hear that you're running into an inconvenience trying to log in. May I know what the hurdle seems to be?\n[11:02:02 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:02:02 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:05:55 PM] Cairo Osorto: Apologies, but in order to better assist you, I'd need more information. Should you need any further assistance, feel free to reach out again.\n[11:05:55 PM] Cairo Osorto: Apologies, but in order to better assist you, I'd need more information. Should you need any further assistance, feel free to reach out again.\n[11:06:04 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:06:04 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T23:09:39.202Z"
-        },
-        {
-          "chat_id": "2047459642987819008",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T23:44:18.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic greeting without personalization or warmth, missing customer name."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Asked one clarifying question but customer didn't respond; agent could have probed more specifically about common issues."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "No resolution achieved due to customer non-response, but agent appropriately waited and invited customer to return with more details."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional communication, though could have been more proactive with troubleshooting suggestions."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Proper closing with invitation to return and friendly sign-off."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 63,
-          "grade": "D",
-          "summary": "Agent handled an abandoned chat appropriately with professional communication and proper wait times. However, the initial discovery could have been stronger by offering specific troubleshooting options rather than waiting for customer to describe the problem.",
-          "coaching_tip": "When customers report they 'can't play,' immediately offer 2-3 common scenarios (login issues, game loading problems, account restrictions) to help non-responsive customers identify their specific issue faster.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[11:36:33 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:36:33 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:36:49 PM] Cairo Osorto: Thanks for contacting.\n[11:36:49 PM] Cairo Osorto: Thanks for contacting.\n[11:37:57 PM] Cairo Osorto: Sorry to hear that you're unable to play. May I ask what the inconvenience seems to be?\n[11:37:57 PM] Cairo Osorto: Sorry to hear that you're unable to play. May I ask what the inconvenience seems to be?\n[11:39:44 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:39:44 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:44:16 PM] Cairo Osorto: Apologies, but in order to better assist you, we need more information. Feel free to reach us back should you need any more help. Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:44:16 PM] Cairo Osorto: Apologies, but in order to better assist you, we need more information. Feel free to reach us back should you need any more help. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T23:44:39.333Z"
-        },
-        {
-          "chat_id": "2047459039893041152",
-          "agent_name": "Cairo Osorto",
-          "agent_id": "5847",
-          "timestamp": "2026-04-23T23:43:25.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Generic greeting without personalization or warmth, missing customer name."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Asked a clarifying question about Instagram access but didn't probe further when customer went silent."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided direct link to platform which addresses likely issue, though customer didn't confirm resolution."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional but could have been more proactive during the long silence period."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises detected."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Polite closing with offer for further assistance and well-wishes for gaming."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 64,
-          "grade": "D",
-          "summary": "Agent handled a brief interaction where the customer appeared to have login issues via Instagram. The agent asked a clarifying question, waited during customer silence, then provided the direct platform link as a solution.",
-          "coaching_tip": "When customers go silent after initial contact, send a proactive message earlier explaining alternative solutions rather than waiting 4+ minutes before providing the platform link.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[11:34:09 PM] Customer: Full Name: Lakasia rogers Email Address: amour.kasia27@gmail.com Subject / How can we help you?: Non_support_incognito It won't allow me to login only on instagram\n[11:34:09 PM] Customer: Full Name: Lakasia rogers Email Address: amour.kasia27@gmail.com Subject / How can we help you?: Non_support_incognito It won't allow me to login only on instagram\n[11:34:25 PM] Cairo Osorto: Thanks for contacting.\n[11:34:25 PM] Cairo Osorto: Thanks for contacting.\n[11:35:09 PM] Cairo Osorto: I'll be happy to help you out! Apologies - are you trying to access your account via Instagram?\n[11:35:09 PM] Cairo Osorto: I'll be happy to help you out! Apologies - are you trying to access your account via Instagram?\n[11:38:28 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:38:28 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:42:49 PM] Cairo Osorto: The best way to access our platform is by following this link: https://www.jackpotdaily.com/\n[11:42:49 PM] Cairo Osorto: The best way to access our platform is by following this link: https://www.jackpotdaily.com/\n[11:43:20 PM] Cairo Osorto: Should you need any further assistance, feel free to reach us back. Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:43:20 PM] Cairo Osorto: Should you need any further assistance, feel free to reach us back. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T23:44:47.417Z"
-        }
-      ],
-      "avg_score": 64,
-      "grade": "D",
-      "trend": 1
     },
     {
       "id": "5551",
@@ -5015,6 +3971,1095 @@
       "avg_score": 61,
       "grade": "D",
       "trend": 2
+    },
+    {
+      "id": "5847",
+      "name": "Cairo Osorto",
+      "chats": [
+        {
+          "chat_id": "2047116991214170112",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T01:01:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the verification concern and addressed the follow-up address question, though could have probed initial confusion more."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Appropriately explained the verification process and correctly refused to disclose account info before verification per security policy."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional but somewhat robotic, lacked empathy for customer's verification anxiety."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "Perfect adherence to security protocols by refusing to disclose account information before verification."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided a closing with well-wishes but felt slightly abrupt given the customer's ongoing verification concern."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent handled the interaction competently by correctly applying security protocols and explaining the verification timeline. Communication was professional but lacked warmth and could have better acknowledged the customer's frustration about waiting.",
+          "coaching_tip": "Add empathetic acknowledgment of customer concerns (e.g., 'I understand waiting for verification can be frustrating') before explaining policies to build better rapport.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[12:54:58 AM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: The email you all sent is just allowing me to upload my id. I’m waiting on another email verification\n[12:55:21 AM] Cairo Osorto: Thanks for contacting.\n[12:58:11 AM] Cairo Osorto: Hello - if you have successfully uploaded your documentation, please give us some time to review your information and corroborate that everything is in order. In the meantime, is there anything else I can assist you with?\n[01:00:12 AM] t5003516845: Is my address on my profile 95 Beckham circle Jackson Alabama 36545\n[01:01:10 AM] Cairo Osorto: So long as your account isn't fully verified, we are unable to disclose that information due to security reasons. Apologies - I see that you have made this question multiple times before, but before we provide an answer, your account must be fully verified.\n[01:01:19 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:47:06.110Z"
+        },
+        {
+          "chat_id": "2047114513387712512",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T00:53:12.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though initial response was brief before warming up."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Clearly understood the customer's question about the Monthly Grand and confirmed understanding before researching."
+            },
+            "resolution": {
+              "score": 26,
+              "notes": "Provided comprehensive, accurate information including entry requirements, prize amount, timing, notification method, and playthrough requirements."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, friendly, and well-structured response with appropriate use of enthusiasm and emojis matching customer tone."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly explained all terms including playthrough requirements with no unauthorized promises."
+            },
+            "closing": {
+              "score": 9,
+              "notes": "Warm, personalized closing with well-wishes and encouragement that matched the conversational tone."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 84,
+          "grade": "B",
+          "summary": "Cairo provided excellent service with a comprehensive explanation of the Monthly Grand giveaway, including all relevant details and requirements. The interaction was friendly, professional, and the agent matched the customer's casual tone appropriately.",
+          "coaching_tip": "Consider providing a slightly warmer initial greeting that immediately acknowledges the customer by tone rather than the generic 'Thanks for contacting' to establish rapport faster.",
+          "website": "Jackpot Daily",
+          "message_count": 15,
+          "raw_transcript": "[12:45:08 AM] Customer: Full Name: Kari Aydelott Email Address: karilynea86@yahoo.com Subject / How can we help you?: I was just curious what the monthly Grand was?\n[12:45:21 AM] Cairo Osorto: Thanks for contacting.\n[12:45:31 AM] Customer: How r u\n[12:46:19 AM] Cairo Osorto: Very good! How are you doing this evening?\n[12:46:42 AM] Customer: Im great! Just had a question. What is the monthly grand?\n[12:47:38 AM] Cairo Osorto: I'll gladly let you know :) One moment please.\n[12:47:52 AM] Customer: Sure take your time\n[12:48:30 AM] Cairo Osorto: Thanks!\n[12:51:24 AM] Cairo Osorto: Thanks for waiting! The Monthly Grand SC Giveaway is our biggest\nmonthly prize — up to 377,777 SC!\nHow to enter: make at least one GC purchase of $1+ during the month. That’s all —\nyou’re automatically entered, no opt-in needed!\nOne lucky winner is randomly drawn and the prize lands before 10 PM PT on the 1st\nof the next month. Winners get notified by email.\nQuick note: the prize has a 1x playthrough requirement before you can redeem it.\nAny questions about the giveaway? I’m here!\n[12:52:05 AM] Customer: Oh ok thanks.\n[12:52:23 AM] Customer: Thats sounds awesome. If i win! Lol\n[12:52:37 AM] Customer: Thanks that's all I needed to know.\n[12:52:50 AM] Cairo Osorto: Been a pleasure! And hey, I hope you do win! Have a nice evening :)\n[12:53:01 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:53:05 AM] Customer: You do the same!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:47:37.949Z"
+        },
+        {
+          "chat_id": "2047110608917934080",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T00:43:28.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Greeting was minimal ('Thanks for contacting') with no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the issue and requested a screenshot for clarification, showing good diagnostic approach."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided troubleshooting steps and escalated appropriately, but customer left frustrated after paying for a package they couldn't access."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Communication was clear and professional with structured troubleshooting steps, though lacked empathy when customer expressed frustration about their first experience."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; proper escalation procedure followed without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Agent offered further assistance and closed professionally, though the upbeat tone felt slightly mismatched given customer's frustration."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent followed proper troubleshooting protocol and escalated appropriately when technical steps failed. However, the response lacked sufficient empathy when the customer expressed frustration about their first experience after making a purchase.",
+          "coaching_tip": "When a paying customer expresses disappointment about their first experience, acknowledge their frustration more directly and reassure them their issue will be prioritized before moving to escalation.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[12:29:37 AM] t8687356241: Full Name: t8687356241 Email Address: echo13865@gmail.com Subject / How can we help you?: I'm trying to figure out why I can't get the daily bonus since I purchased the package.\n[12:30:27 AM] Cairo Osorto: Thanks for contacting.\n[12:31:33 AM] Cairo Osorto: Claiming your Daily Bonus is quick — here's how:\n1. Log in at www.jackpotdaily.com\n2. Click the treasure chest icon on the right side of your screen\n3. Tap the pink note with the checkmark\n4. Complete the daily task to unlock it\nOnce you're done, it'll be credited automatically!\nNot seeing the chest? Let me know and I'll help you find it!\n[12:32:05 AM] t8687356241: I don't see a chest but I completed the daily task .\n[12:32:44 AM] Cairo Osorto: I understand. Can you please share a screenshot?\n[12:33:09 AM] t8687356241: Screenshot_20260422-203238.Chrome.jpg\n[12:34:04 AM] Cairo Osorto: I see, thanks! One moment please.\n[12:34:49 AM] Cairo Osorto: Can you please try reloading the page, see if it shows you the reward now?\n[12:36:07 AM] t8687356241: Yes one moment\n[12:36:24 AM] Cairo Osorto: Thanks, take your time :)\n[12:36:47 AM] t8687356241: No still isn't allowing me to\n[12:37:24 AM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[12:37:55 AM] t8687356241: Okay I'll try to log out and back in I've done everything else you've said\n[12:38:28 AM] Cairo Osorto: Understood, please do and let me know if that does the trick.\n[12:39:28 AM] t8687356241: It's still not allowing me to. I'm not really understanding and this is my first time on this app and I'm just really not liking how this is going so far for me . Esp if it's not working and I just created and paid for the welcome bonus\n[12:40:18 AM] Cairo Osorto: I understand.\n[12:41:16 AM] Cairo Osorto: And we sincerely apologize for the inconvenience. At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible.\n[12:41:35 AM] Cairo Osorto: Is there anything else I may assist you with in the meantime?\n[12:42:24 AM] t8687356241: No that's all\n[12:43:25 AM] Cairo Osorto: Understood. Please submit your ticket and our support team will gladly help you out in a timely manner, have a nice evening. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:47:48.121Z"
+        },
+        {
+          "chat_id": "2047100273334988800",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T00:06:15.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Thanks for contacting' without proper introduction or warmth, especially inappropriate given the sensitive nature of the request."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent identified a potential email mismatch but the customer provided their email clearly in the initial message, creating unnecessary confusion."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Failed to process a critical responsible gaming self-exclusion request due to email confusion when customer had already provided their email address, leaving a vulnerable customer unprotected."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Multiple follow-ups waiting for confirmation created delay on an urgent responsible gaming matter that required immediate action."
+            },
+            "compliance": {
+              "score": 3,
+              "notes": "Serious compliance failure - self-exclusion requests citing gambling problems must be processed immediately without requiring additional confirmation that causes dangerous delays."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Inappropriate casual closing with 'Good luck out there' for a customer requesting help with a gambling problem."
+            }
+          },
+          "auto_fail": {
+            "triggered": true,
+            "reason": "Critical responsible gaming violation - agent failed to immediately process self-exclusion request from customer explicitly stating gambling problem, instead creating barriers and delays that left vulnerable customer at risk."
+          },
+          "total_score": 39,
+          "grade": "F",
+          "summary": "Agent failed to properly handle a critical responsible gaming self-exclusion request. By questioning the email address already provided and requiring confirmation before processing, the agent created dangerous delays for a vulnerable customer explicitly stating they have a gambling problem.",
+          "coaching_tip": "Self-exclusion requests citing gambling problems must be processed immediately without barriers - if email verification is needed, close the account first using any identifier available, then verify details afterward to protect the vulnerable customer.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[11:48:33 PM] t7555694719: Full Name: t7555694719 Email Address: Deanna.wall.spina@gmail.com Subject / How can we help you?: Please close my account permanently\n[11:48:48 PM] t7555694719: I have a gambling problem. Please close my account indefinitely.\n[11:48:53 PM] Cairo Osorto: Thanks for contacting.\n[11:50:36 PM] Cairo Osorto: We're sorry to hear that you're leaving, but we're all for responsible gaming. I'll gladly oversee that your account is terminated, no worries. Is there anything else you might need assistance with?\n[11:52:14 PM] Cairo Osorto: By the way - the account associated with \"dmw9219@yahoo.com\" should be terminated, correct?\n[11:56:53 PM] Cairo Osorto: Please confirm if this is correct.\n[12:02:25 AM] Cairo Osorto: Are you still there?\n[12:05:54 AM] Cairo Osorto: Apologies, but until you can confirm which email corresponds to your requested cancelation, it will remain on hold. Please reach us back for further assistance.\n[12:06:13 AM] Cairo Osorto: Thanks for chatting with us! Good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:49:11.497Z"
+        },
+        {
+          "chat_id": "2047097424371347456",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-22T23:42:32.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting without personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent identified the location activation issue and asked a clarifying question about mobile device."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution provided; customer didn't respond but agent gave insufficient wait time and no troubleshooting steps were offered."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication in Spanish after detecting customer's language, appropriately bilingual."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with well-wishes for gaming, though customer issue remained unresolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent appropriately switched to Spanish and asked a clarifying question but closed the chat after only 5 minutes without providing any troubleshooting steps or solutions. The customer's location activation issue was never addressed beyond the initial question.",
+          "coaching_tip": "Wait longer for customer responses (at least 8-10 minutes) and proactively provide troubleshooting steps or instructions even if the customer is slow to respond, rather than closing prematurely.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[11:37:13 PM] Customer: Full Name: Sonia Reyes Email Address: soniadelgado821@gmail.com Subject / How can we help you?: Nesecito activar ubicacion\n[11:37:27 PM] Cairo Osorto: Thanks for contacting.\n[11:38:40 PM] Cairo Osorto: ¡Le ayudaré con gusto! ¿Necesita activar su ubicación en su teléfono móvil?\n[11:40:46 PM] Cairo Osorto: Parece haberse retirado. ¿Hay algo más con lo que pueda ayudarle?\n[11:42:30 PM] Cairo Osorto: ¡Gracias por chatear con nosotros! Que disfrute sus juegos — ¡buena suerte allá afuera!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:50:04.761Z"
+        },
+        {
+          "chat_id": "2047091077096976384",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-22T23:21:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent understood the customer wanted to add a card for redemption and acknowledged the previous ACH usage."
+            },
+            "resolution": {
+              "score": 23,
+              "notes": "Provided clear step-by-step instructions on how to select Card Network and enter card information for redemption."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Professional and friendly tone with appropriate use of emojis, clear instructions delivered concisely."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made, stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 9,
+              "notes": "Strong closing with reassurance of availability, well-wishes, and proper sign-off."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 76,
+          "grade": "C",
+          "summary": "Agent provided accurate guidance on adding a card payment method for redemptions with clear instructions. Communication was professional and friendly, though the initial greeting was minimal.",
+          "coaching_tip": "Start with a warmer, more personalized greeting that includes acknowledging the customer by name or with a fuller welcome message.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:12:00 PM] t2725267994: Full Name: t2725267994 Email Address: jlee420811@gmail.com Subject / How can we help you?: Hello so I redeemed before, but I did it ACH cause that was the only option and I’m trying to add my card to my wallet. How do I do that?\n[11:12:19 PM] Cairo Osorto: Thanks for contacting.\n[11:14:16 PM] t2725267994: Hello so I redeemed once before but had to do it ach so I wanted to add my card now but how do o do that\n[11:14:54 PM] Cairo Osorto: Understood! Bear with me - I'll guide you on how to add your card as a payment method for redemption in a moment.\n[11:16:32 PM] t2725267994: Ok I do have a card that I use for payments saved already too don’t knoe if that helps but just letting u know\n[11:18:28 PM] Cairo Osorto: I see, thanks for letting me know :) It's fairly straightforward - when you head over to the redemption option (where you have selected ACH before), select \"Card Network\" instead and please enter the information of the card that you wish to have your redemption credited to.\n[11:18:49 PM] Cairo Osorto: Hope this helps! :) Is there anything else I can assist you with?\n[11:19:58 PM] t2725267994: Ok I hope it works if not I’ll be back lol\n[11:20:50 PM] Cairo Osorto: Oh, no worries, should work just fine, but if you need any further assistance, we'll always be here to help! :) Hope you enjoy the rest of your day.\n[11:21:01 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:50:45.850Z"
+        },
+        {
+          "chat_id": "2047084718331359232",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-22T23:04:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the upload issue and address verification concern but didn't probe deeply into the technical problem shown in the screenshot."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Escalated to email support but didn't resolve the immediate upload issue or provide alternative solutions despite customer's repeated frustration."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Professional and clear but somewhat robotic; failed to acknowledge customer's frustration effectively when they expressed difficulty."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Correctly refused to disclose account information for unverified account, following proper security protocols."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed abruptly without confirming customer satisfaction or waiting for response to the 'anything else' question."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent followed compliance protocols correctly by refusing to confirm address details for an unverified account and escalated appropriately to email support. However, the service felt mechanical with poor empathy when the customer expressed frustration, and the closing was rushed without proper confirmation.",
+          "coaching_tip": "When customers express frustration ('Why make it so hard for people'), acknowledge their feelings directly before explaining policy, and never close the chat without waiting for customer confirmation after asking if there's anything else.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[10:46:44 PM] t5003516845: Full Name: t5003516845 Email Address: tamyiah4@gmail.com Subject / How can we help you?: The email you all sent is just allowing me to upload my id\n[10:47:01 PM] Cairo Osorto: Thanks for contacting.\n[10:51:16 PM] Cairo Osorto: I'm sorry to hear that you haven't been able to complete your verification. Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[10:52:37 PM] t5003516845: Is my address on file 95 Beckham Corcle Jackson Alabama 36544\n[10:52:42 PM] t5003516845: Circle\n[10:53:34 PM] Cairo Osorto: Bear with me, please remain online.\n[10:53:38 PM] Cairo Osorto: Thanks for your patience.\n[10:53:54 PM] t5003516845: What is my address on file???\n[10:55:00 PM] t5003516845: Also it’s not letting me upload.\n[10:55:00 PM] t5003516845: IMG_9138.png\n[10:55:18 PM] Cairo Osorto: Please remain online - I am currently reviewing your inquiry and your previous interactions with our support team.\n[10:55:57 PM] Cairo Osorto: Apologies, but we cannot disclose account information to non-verified accounts.\n[10:57:14 PM] Cairo Osorto: Bear with me - since I understand that you're not being able to upload your documentation, I'm looking for a way to help you with that.\n[10:58:01 PM] t5003516845: Did I use 95 Beckham Circle\n[10:58:44 PM] t5003516845: It’s a yes or no question? Why make it so hard for people\n[10:59:30 PM] Cairo Osorto: Please keep in mind that the way the link works is you need to keep the tab open since it is programmed to expire after a given amount of time and/or if you exit the tab.\n[11:00:17 PM] t5003516845: Tab is still open\n[11:00:59 PM] Cairo Osorto: I understand that it is a yes or no question - the thing is I cannot confirm either precisely since your account isn't fully verified, as doing so would incur a mishandling of confidential player information. Keep in mind that these are procedures in place to protect your information and that of every of our players.\n[11:01:58 PM] Cairo Osorto: I have reached out to our email support team and they will gladly lend you a hand shortly - please await their email with further instructions on how to complete your KYC verification. Is there anything else I can assist you with in the meantime?\n[11:04:03 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:51:35.344Z"
+        },
+        {
+          "chat_id": "2044574892874838016",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-16T00:37:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting but generic without personalization or customer name usage."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Quickly clarified the specific bonus type and investigated the account thoroughly."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Issue resolved successfully; agent checked account and customer confirmed receipt of reward."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout with appropriate empathy and concise responses."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; handled verification-related issue appropriately without unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement or offer for further assistance after customer thanked agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent effectively identified and resolved the daily reward issue with good investigation and clear communication. However, the interaction lacked a proper closing after the customer's final message.",
+          "coaching_tip": "Always provide a closing statement even when the customer thanks you first—acknowledge their thanks and invite them to reach out if they need further assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 7,
+          "raw_transcript": "[12:33:35 AM] t3063698396: Full Name: t3063698396 Email Address: smb1048@gmail.com Subject / How can we help you?: Unable to collect daily reward. Even after verification was approved and completed it says my account needs to be verified?\n[12:33:47 AM] Cairo Osorto: Thanks for contacting customer support!\n[12:34:16 AM] Cairo Osorto: Hello, sorry to hear that. Are you referring to the smash egg bonus reward?\n[12:34:30 AM] t3063698396: Yes\n[12:34:51 AM] Cairo Osorto: Got it. Bear with me, I'll take a look at your account.\n[12:36:29 AM] Cairo Osorto: Can you please check again? Your account reflects you as having the reward.\n[12:37:19 AM] t3063698396: It just now awarded me two SC but before it kept saying kyc failure. Thank you",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:56:28.491Z"
+        },
+        {
+          "chat_id": "2044572836127141888",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-16T00:35:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Basic professional greeting but generic and didn't use customer name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Acknowledged the issue and asked clarifying question about ticket timing, but didn't explore the actual legal name problem."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Appropriately directed to email support and managed expectations, but didn't attempt any immediate troubleshooting or offer alternatives."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional throughout, though could have shown more empathy for customer's frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, correctly deferred to proper channel without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing, though customer didn't respond to the offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled the interaction professionally by confirming the customer had followed previous instructions to email support and appropriately managed expectations about response time. However, the agent missed an opportunity to show empathy for the customer's frustration or explore if any immediate assistance could be provided while waiting for email response.",
+          "coaching_tip": "When customers express frustration about waiting for email responses, acknowledge their concern with empathy before explaining the process, and consider asking if there's any preliminary information you can gather to help expedite their case.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[12:25:25 AM] t6919257960: Full Name: t6919257960 Email Address: bwirtjers99@gmail.com Subject / How can we help you?: Full legal name issue\n[12:25:35 AM] Cairo Osorto: Thanks for contacting customer service!\n[12:26:17 AM] t6919257960: Screenshot_20260415-182456.png\n[12:27:17 AM] Cairo Osorto: I see, thanks for the screenshot. I also see that you were advised earlier to request assistance to our support team via email at support@jackpotdaily.com\n[12:27:29 AM] Cairo Osorto: Have you tried submitting a ticket?\n[12:27:33 AM] t6919257960: I did and no one answered me\n[12:28:17 AM] Cairo Osorto: May I ask when you submitted the ticket? Keep in mind that responses are taken in the order received and may take some time to receive a response.\n[12:28:34 AM] t6919257960: About 30 min ago\n[12:30:40 AM] Cairo Osorto: I see. Please give our support team more time since they're currently receiving multiple requests for assistance but rest assured that they're doing everything in their power to resolve this asap.\n[12:32:51 AM] Cairo Osorto: Is there anything else I can assist you with?\n[12:35:05 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:56:49.136Z"
+        },
+        {
+          "chat_id": "2044564110032859136",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-16T00:13:28.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Basic greeting present but lacked personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent identified the recurring ACH issue and previous contact history but didn't probe for specific error details."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Appropriately redirected to email team per protocol but didn't offer to escalate or provide timeline expectations."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and clear but somewhat repetitive and lacked empathy given customer's urgency."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed departmental protocols correctly and made no unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided closing but felt slightly dismissive given the unresolved customer frustration."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent correctly identified a repeat issue and appropriately directed the customer to the email support team per protocol. However, the interaction lacked warmth and could have better acknowledged the customer's frustration with more empathetic language and concrete next steps.",
+          "coaching_tip": "When redirecting frustrated customers to another channel, acknowledge their urgency more explicitly and offer to personally escalate or provide an expected response timeframe to build confidence.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:50:44 PM] t9263262615: Full Name: t9263262615 Email Address: miranda.paulram@gmail.com Subject / How can we help you?: Why am I not able to cash out via ACH all my info is correct !\n[11:50:56 PM] t9263262615: Please help me redeem my winnings\n[11:51:08 PM] Cairo Osorto: Thanks for contacting customer service!\n[11:53:24 PM] t9263262615: Please !!!\n[11:54:37 PM] Cairo Osorto: Hello - I see that you have reached out to us many times about the same situation regarding the ACH redemption. I also see that you have been requested to reach out to our support team via email rather than chat support since the email team is in charge of reviewing this type of issue. Have you reached out to them?\n[12:00:29 AM] Cairo Osorto: You seem to have left. Is there anything else I can help you with?\n[12:01:46 AM] t9263262615: I've heard nothing but good things about this platform I need assistance with my account asap please\n[12:04:22 AM] Cairo Osorto: I understand and I'm really sorry to hear that, but please reach out to our email support team - we have different departments dedicated to different lines of assistance depending on the issue at hand. We are sincerely sorry for any inconvenience, but rest assured that our email team will gladly help you out.\n[12:09:39 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:13:26 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:58:53.676Z"
+        },
+        {
+          "chat_id": "2044568423823618048",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-16T00:15:16.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with enthusiasm but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask any clarifying questions about what specific issue Rebecca was experiencing with account setup."
+            },
+            "resolution": {
+              "score": 17,
+              "notes": "Provided standard registration steps but didn't verify if customer had already attempted these or identify the actual blocker."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-formatted instructions, professional tone throughout, but lacked personalization."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing with well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent provided standard account creation instructions but failed to diagnose whether the customer had already attempted registration or what specific problem they encountered. The response was professional and clear but lacked the discovery phase needed to ensure the solution matched the actual issue.",
+          "coaching_tip": "Before providing solutions, ask clarifying questions like 'Have you already tried to register?' or 'What step are you stuck on?' to ensure your response addresses the customer's specific problem.",
+          "website": "Jackpot Daily",
+          "message_count": 5,
+          "raw_transcript": "[12:07:53 AM] Customer: Full Name: Rebecca Givens Email Address: rgivens303@gmail.com Subject / How can we help you?: Trying to start up account\n[12:08:18 AM] Cairo Osorto: Thanks for contacting customer service!\n[12:09:23 AM] Cairo Osorto: Welcome — so excited for you to join!\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n[12:13:07 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:14:53 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:59:03.251Z"
+        },
+        {
+          "chat_id": "2044565351110062080",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-16T00:07:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional but generic greeting without personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the name input issue and checked verification status, though could have asked more clarifying questions about the specific error."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided a reasonable troubleshooting suggestion (all caps) but didn't confirm if it worked or offer alternative solutions before customer went silent."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication with appropriate status updates, though could have been more detailed in explaining the solution."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately checked verification status and provided standard troubleshooting."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though customer had already left without confirmation of resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent handled the technical issue professionally with appropriate verification checks and a troubleshooting suggestion. However, the resolution was incomplete as the customer left before confirming whether the solution worked, and no follow-up alternatives were offered.",
+          "coaching_tip": "When providing technical solutions, offer multiple troubleshooting steps upfront and set expectations for follow-up if the first solution doesn't work, rather than waiting for customer response between each suggestion.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[11:55:40 PM] t2542846500: Full Name: t2542846500 Email Address: zmgcwall83@gmail.com Subject / How can we help you?: I am trying to redeem and when I try to type my full name in it will not let me type my full name in it does not light up everything else I can type in but my actual full name and do I need to send my ID a picture of my ID somewhere\n[11:56:02 PM] Cairo Osorto: Thanks for contacting customer service!\n[11:56:06 PM] t2542846500: Where do I put in my id\n[11:56:27 PM] Cairo Osorto: Bear with me, I'm going over your previous messages.\n[11:58:16 PM] Cairo Osorto: I see that your account is already fully verified. Bear with me, I'm checking.\n[11:59:44 PM] Cairo Osorto: Okay - can you please try inputting your name in all caps? (UPPERCASE LETTERS) Let me know if that helps.\n[12:04:57 AM] Cairo Osorto: You seem to have left. Is there anything else I can help you with?\n[12:07:24 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:02:08.489Z"
+        },
+        {
+          "chat_id": "2044242785191948288",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-15T02:42:55.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional but generic greeting without personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent requested screenshot but customer never responded, then proceeded without clarifying if verification was actually complete or what specific error appeared."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic verification instructions without confirming customer's claim that verification was already complete, potentially missing the actual issue."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear instructions but didn't address the customer's specific statement about already being verified."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately referenced trusted verification partner."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Closed politely but prematurely given the customer never confirmed resolution or returned after the check-in."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent provided standard verification instructions but failed to investigate the customer's claim that verification was already completed. The resolution was generic and didn't address the potential system error or account status issue the customer may have been experiencing.",
+          "coaching_tip": "When a customer states they've already completed a process, verify their account status in the system before sending standard instructions to avoid appearing dismissive of their concern.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[02:33:54 AM] t9949552208: Full Name: t9949552208 Email Address: estevezleeh1@gmail.com Subject / How can we help you?: I cannot claim any of my rewards it says to set up verification but I already have\n[02:34:12 AM] Cairo Osorto: Thanks for reaching out to customer service!\n[02:35:27 AM] Cairo Osorto: I understand that you're running into an inconvenience trying to claim your rewards due to verification. Can you please share a screenshot?\n[02:38:56 AM] Cairo Osorto: You seem to have left. Is there anything else I can help you with?\n[02:42:44 AM] Cairo Osorto: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[02:42:51 AM] Cairo Osorto: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:04:05.575Z"
+        },
+        {
+          "chat_id": "2044237766665269248",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-15T02:27:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional but generic greeting without personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked clarifying question but failed to fully understand the customer was referring to a different bonus (30SC vs golden egg)."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided solution for wrong bonus type (golden egg instead of 30SC signup bonus), then didn't address the actual issue when customer clarified."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear language but failed to acknowledge customer's clarification about the 30SC bonus and gave vague 'try again' response."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but didn't properly verify or address the promotional offer the customer mentioned."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing, though somewhat premature given unresolved issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent misidentified the customer's issue as a golden egg bonus problem when the customer was actually asking about a 30SC signup bonus from a promotional link. When the customer clarified, the agent failed to properly address the actual issue and gave an unclear 'try again' response before closing.",
+          "coaching_tip": "When a customer clarifies or corrects the issue, acknowledge the new information explicitly and provide a specific solution for that particular bonus rather than defaulting to generic troubleshooting.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[02:13:58 AM] t9893814543: Full Name: t9893814543 Email Address: dustinc440@gmail.com Subject / How can we help you?: I can't get my bonus\n[02:14:23 AM] Cairo Osorto: Thanks for reaching out to customer service!\n[02:15:07 AM] Cairo Osorto: I understand that you are having an inconvenience trying to get your bonus. Can you please specify which bonus you're referring to?\n[02:15:20 AM] t9893814543: Welcome\n[02:15:54 AM] Cairo Osorto: I see, the welcome bonus. Please let me look into this, I'll be right with you.\n[02:18:30 AM] Cairo Osorto: Thanks for waiting. The egg should appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[02:21:10 AM] Cairo Osorto: Is there anything else I can help you with?\n[02:22:18 AM] t9893814543: The link I clicked on said 30sc free apon sign up\n[02:22:46 AM] Cairo Osorto: Can you please try again?\n[02:25:19 AM] Cairo Osorto: Is there anything else I can help you with?\n[02:27:04 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:04:45.854Z"
+        },
+        {
+          "chat_id": "2044217063496839168",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-15T01:02:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with thanks for reaching out, but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the issue clearly and asked appropriate confirmation question about following the steps."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided clear troubleshooting steps (logout/login) and proper escalation path via email with specific instructions."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, professional, and well-structured responses with empathy and appropriate hold notifications."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained promotion terms and escalation process without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing with well-wishes, though customer didn't respond to final check-in."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 79,
+          "grade": "C",
+          "summary": "Agent handled the bonus claim issue competently by explaining the promotion mechanics, confirming steps were followed, and providing both immediate troubleshooting and escalation options. Communication was clear and professional throughout with appropriate empathy.",
+          "coaching_tip": "Wait for customer confirmation before closing the chat after asking 'Is there anything else I can help you with?' to ensure they don't have follow-up questions.",
+          "website": "Jackpot Daily",
+          "message_count": 13,
+          "raw_transcript": "[12:51:42 AM] t9182836903: Full Name: t9182836903 Email Address: missmeever38@gmail.com Subject / How can we help you?: I verified m\n[12:52:13 AM] t9182836903: I verified my account and it is not letting me claim my smash and win bonus\n[12:52:15 AM] Cairo Osorto: Hello, thanks for reaching out to customer service!\n[12:52:34 AM] t9182836903: I verified my account and it is not letting me claim my smash and win bonus\n[12:53:44 AM] Cairo Osorto: I understand, remember that this is how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n● The reward amount is random (can’t be predicted or\nchanged!)\n● It’s a one‑time welcome offer — new accounts only\n● It expires 5 days after being issued, so grab it soon!\n[12:54:10 AM] Cairo Osorto: Can you confirm that you have followed the steps?\n[12:54:22 AM] t9182836903: Yes\n[12:54:49 AM] Cairo Osorto: I see. In that case, please remain online while I look into this for you.\n[12:55:00 AM] t9182836903: Okay thank you\n[12:55:06 AM] Cairo Osorto: My pleasure.\n[12:58:53 AM] Cairo Osorto: We apologize for the inconvenience you are experiencing.\n \nThe Golden Egg should appear automatically once KYC verification is confirmed. Please log out, wait approximately 2 minutes, and then log back in. In many cases, this process successfully triggers the synchronization.\n\nIf the Golden Egg is still not visible after this step, kindly send an email to support@jackpotdaily.com with the subject line GOLDEN EGG MISSING and include the email address linked to your account. Our team will ensure it is applied manually.\n[01:00:03 AM] Cairo Osorto: Is there anything else I can help you with?\n[01:02:01 AM] Cairo Osorto: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:13:16.012Z"
+        },
+        {
+          "chat_id": "2044210724724895744",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-15T00:40:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with request for elaboration, though slightly delayed after initial acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent clarified the verification status concern and gathered key information about the 'complete but waiting' message."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Properly escalated to email support with clear instructions including subject line protocol, appropriate for account verification issues."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout with appropriate status updates during investigation time."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, followed proper escalation procedures for verification matters."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing, though customer didn't respond to the offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent handled a verification status inquiry professionally by investigating the issue and properly escalating to email support with clear instructions. Communication was clear with appropriate patience acknowledgments during the lookup process.",
+          "coaching_tip": "After escalating to email, briefly explain why this channel is better suited for the issue to help manage customer expectations and reduce frustration.",
+          "website": "Jackpot Daily",
+          "message_count": 13,
+          "raw_transcript": "[12:26:31 AM] t4634497088: Full Name: t4634497088 Email Address: raoufmalek@yahoo.com Subject / How can we help you?: Verification\n[12:26:50 AM] Cairo Osorto: Thanks for the information!\n[12:27:48 AM] Cairo Osorto: Thank you for reaching out to customer service. Can you please elaborate on what seems to be the issue trying to complete verification?\n[12:29:02 AM] t4634497088: That’s my question\n[12:29:08 AM] t4634497088: what is the issue?\n[12:29:19 AM] t4634497088: I should be verified by now\n[12:29:42 AM] Cairo Osorto: I see, sorry to hear that. Bear with me - I'll look up your information on our record.\n[12:30:16 AM] t4634497088: Says verification complete but that I have to wait. I already wait\n[12:30:44 AM] Cairo Osorto: I see, please remain online, I'm looking into this.\n[12:34:14 AM] Cairo Osorto: I appreciate your patience.\n[12:36:25 AM] Cairo Osorto: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:38:12 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:40:24 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:16:47.311Z"
+        },
+        {
+          "chat_id": "2044199863746080768",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-15T00:20:28.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped straight to 'Please remain online' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent eventually asked clarifying questions about which bonuses, but took very long and required customer to repeatedly explain the same issue."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent provided generic instructions on how the bonus works but failed to address the core issue that customer missed bonuses due to verification delays and never actually resolved or escalated."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple vague holding messages without substance; failed to explain what was being checked or provide meaningful updates during long delays."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but didn't properly escalate a bonus issue that likely required management review."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Abrupt closing without confirming if the issue was resolved or if customer had further questions after providing generic information."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent took excessive time to investigate, provided only generic bonus instructions without addressing the customer's specific complaint about missing registration bonuses due to verification delays, and closed prematurely without resolution. The lack of any greeting and failure to actually resolve or escalate the issue resulted in poor service.",
+          "coaching_tip": "When a customer explains they missed time-sensitive bonuses due to system delays, escalate to a supervisor rather than just explaining how the bonus works—the customer needs compensation review, not instructions.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[11:43:21 PM] Customer: Full Name: t4694706492 Email Address: janaeandjr2015@gmail.com Subject / How can we help you?: I don't know how many times I have to go through these process in order to get my bonuses.What is going on\n[11:45:07 PM] Cairo Osorto: Please remain online.\n[11:46:26 PM] Customer: Is there a way you can manually add the bonus or accses to said bonuses to my account\n[11:46:56 PM] Customer: Ok\n[11:47:05 PM] Cairo Osorto: Please bear with me, I'm going over your previous messages.\n[11:47:16 PM] Customer: Ok\n[11:47:45 PM] Cairo Osorto: One moment please.\n[11:47:53 PM] Customer: Ty\n[11:51:38 PM] Cairo Osorto: Thanks for your patience.\n[11:52:13 PM] Customer: No worries\n[11:52:55 PM] Cairo Osorto: Thanks for your patience. May I ask which bonuses you're specifically referring to?\n[11:54:08 PM] Customer: Sign up bonus\n[11:54:21 PM] Customer: Register egg bonus smash\n[11:54:36 PM] Customer: Daily wheel spin and login\n[11:54:53 PM] Cairo Osorto: I see, thanks.\n[11:58:09 PM] Customer: Whatever is offered for new player i never got the chance to except any due to long verification time\n[11:58:42 PM] Cairo Osorto: I see, sorry to hear that. Bear with me, I'm looking into this.\n[11:58:57 PM] Customer: Ok thanks\n[12:00:01 AM] Cairo Osorto: Thanks.\n[12:04:31 AM] Cairo Osorto: Sorry for the hold-up, I'm still checking.\n[12:04:47 AM] Customer: Alright\n[12:05:19 AM] Cairo Osorto: Thanks.\n[12:06:56 AM] Cairo Osorto: Would you be so kind as to share a screenshot to better understand what is happening?\n[12:08:24 AM] Customer: There is no screenshot of a problem.The situation is I never received my register bonus.It doesn't offer it to me no more.Because of the delay in the process of my verification, so I never received my sign of bonuses.It's not in my account\n[12:09:31 AM] Cairo Osorto: I see, thanks for letting me know.\n[12:09:33 AM] Customer: Whatever is offered to new players to sign up.I never received mine.I don't have the option in my account to receive it\n[12:10:15 AM] Cairo Osorto: I see, bear with me, I'll continue checking.\n[12:16:13 AM] Cairo Osorto: Here’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n● The reward amount is random (can’t be predicted or\nchanged!)\n● It’s a one‑time welcome offer — new accounts only\n● It expires 5 days after being issued, so grab it soon!\n[12:18:43 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:20:20 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:17:53.571Z"
+        },
+        {
+          "chat_id": "2044197790786826240",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-15T00:09:54.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with offer to help, though generic without customer name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic concern but failed to clarify the key distinction customer made between internal approval versus bank processing time."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent provided standard policy information but never addressed the customer's specific concern about internal approval delays or checked the actual redemption status."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and empathetic tone, but responses became repetitive and didn't directly address the customer's distinction between site approval and bank processing."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately stated processing timeframes without making unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed abruptly without confirming customer satisfaction after they raised legitimate concerns about approval delays."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided professional service but missed the core issue: customer clearly distinguished between internal redemption approval and bank processing time, which agent never addressed. The closing was premature given the customer's unresolved frustration about approval delays.",
+          "coaching_tip": "When a customer makes a specific distinction (internal approval vs. bank processing), acknowledge it directly and check the actual status rather than repeating generic policy statements.",
+          "website": "Jackpot Daily",
+          "message_count": 25,
+          "raw_transcript": "[11:35:07 PM] t1022572948: Full Name: t1022572948 Email Address: lmlmlmxo@yahoo.com Subject / How can we help you?: hi, everywhere i have read people have stated they have gotten their ach redemption same day or within 24 hours. wondering why mine is still yet to be approved?\n[11:35:35 PM] Cairo Osorto: Hello! I'll be more than happy to help you today. Please remain online.\n[11:37:16 PM] t1022572948: thank you kindly\n[11:37:39 PM] Cairo Osorto: My pleasure! I'm here to help.\n[11:40:50 PM] Cairo Osorto: I'm still here, I appreciate your patience.\n[11:41:12 PM] t1022572948: no problem, thank you\n[11:42:21 PM] Cairo Osorto: Thank you for your inquiry. Please note that ACH bank transfers may take up to 10 business days to be fully processed and reflected in your account. We appreciate your patience, and if you have any further questions or need assistance in the meantime, feel free to reach out.\n[11:43:26 PM] t1022572948: it seems as if others are being prioritized\n[11:44:27 PM] t1022572948: i’ve talked to many people 2 people who suggested your site because of the fast ach and it seems to not be the case. i’m just a little disappointed with that\n[11:44:58 PM] Cairo Osorto: I see, just a moment please.\n[11:47:08 PM] t1022572948: sure. two people spoke highly of you to my fiancé so he signed up and then referred me. so i’m just not seeing the same results others are seeing. and redemption time is a huge thing for me. it’s the deciding factor of if im going to continue spending money on a site or not\n[11:47:37 PM] Cairo Osorto: One moment please.\n[11:47:51 PM] t1022572948: sure no problem thank you\n[11:49:58 PM] Cairo Osorto: Thanks for your patience.\n[11:50:08 PM] t1022572948: of course\n[11:51:22 PM] Cairo Osorto: Hi there — I completely understand how important it is for you to redeem your funds right away, and I’m really sorry for the frustration this delay may be causing.\n\nI do want to let you know that ACH bank transfers can take up to 10 business days to fully process. While many transfers complete sooner, this timeframe depends on banking networks and processing times that are unfortunately outside of our control.\n\nI know that waiting isn’t ideal, especially when you’re eager to access your funds. Please rest assured that your transfer is in progress, and we’re here to support you every step of the way. If there’s anything we can check or clarify for you in the meantime, don’t hesitate to reach out.\n\nThank you so much for your patience and understanding — we truly appreciate it.\n[11:52:15 PM] t1022572948: well i understand it is in process on your end and has to still be approved by your site\n[11:52:24 PM] t1022572948: it’s not my bank we are waiting on\n[11:55:04 PM] Cairo Osorto: I understand.\n[11:57:34 PM] t1022572948: so can your site approve my redemption request? it’s been over 24 hours\n[11:58:37 PM] t1022572948: which is quite unusual for a redemption approval\n[11:59:31 PM] Cairo Osorto: Bear with me, I'm trying to see if there's anything at all that can be done to expedite this.\n[12:03:23 AM] Cairo Osorto: Apologies but ACH bank transfers can vary in processing time depending on your bank. In some cases, the funds may arrive almost immediately, while in others it can take up to 2 business days, thats why our timeframe is up to 10 business days to be fully completed.\n\nIf you’re still within that timeframe, everything is likely processing as expected. If it goes beyond that, just let me know and I’ll be happy to take a closer look for you.\n[12:07:12 AM] Cairo Osorto: Is there anything else I can help you with?\n[12:09:50 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:18:38.078Z"
+        },
+        {
+          "chat_id": "2047421598604292096",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T21:14:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the missing golden egg issue and acknowledged the verification completion without needing further clarification."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided a reasonable troubleshooting step (logout/login) and clear escalation path with specific email instructions if issue persists."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional with empathy ('I am sorry to hear that'), instructions were specific and easy to follow."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed to official support channel for manual resolution without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Checked for additional needs and provided a warm, casino-appropriate closing with good luck wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 70,
+          "grade": "C",
+          "summary": "Agent competently handled a missing promotional item inquiry with appropriate troubleshooting and escalation guidance. Communication was clear and professional, though the greeting was minimal and lacked personalization.",
+          "coaching_tip": "Enhance your greeting by using the customer's name or email and adding warmth, such as 'Hi there! Thanks for reaching out to Jackpot Daily support.'",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:23 PM] t1090468071: Full Name: t1090468071 Email Address: Almiller051887@gmail.com Subject / How can we help you?: I verified my account. Where is my golden egg ?\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:05:53 PM] Cairo Osorto: Thanks for contacting.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:06:56 PM] Cairo Osorto: I am sorry to hear that - let me look into this for you. The egg\nshould appear automatically once KYC is confirmed. Could you try logging out, waiting 2 minutes, and\nlogging back in? Sometimes this triggers the sync. If it is still not there after that, please email\nsupport@jackpotdaily.com with GOLDEN EGG MISSING in the subject and your account email, and\nour team will apply it manually.\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:09:28 PM] Cairo Osorto: Is there anything else I can assist you with?\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:14:08 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T21:14:45.616Z"
+        },
+        {
+          "chat_id": "2047430883144413184",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T21:59:50.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Initial greeting was minimal ('Thanks for contacting') without personalization or warmth until follow-up message."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent acknowledged the issue, gathered necessary verification information (email and phone), and investigated the account properly."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent correctly identified that no account existed with provided credentials and asked customer to verify information, which was the appropriate action."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Professional and empathetic tone throughout, with reassuring language and clear instructions, though some messages were unnecessarily brief."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper verification procedures by collecting email and phone number before accessing account information."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided a friendly closing, though customer had stepped away and may not have seen final message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent handled a login issue professionally by gathering verification details and correctly identifying that no account existed with the provided information. Communication was warm and empathetic, with appropriate troubleshooting steps taken.",
+          "coaching_tip": "Strengthen the initial greeting by immediately introducing yourself by name and acknowledging the customer's specific issue to create a more personalized opening.",
+          "website": "Jackpot Daily",
+          "message_count": 40,
+          "raw_transcript": "[09:42:16 PM] Customer: Full Name: Julia Fisher Email Address: flossie1901@gmail.com Subject / How can we help you?: Hi, I'm trying to login. I just created this password and it says I'm wrong. I tried to do another one and it says it's wrong and I haven't even set it yet. I'm lost.\n[09:42:16 PM] Customer: Full Name: Julia Fisher Email Address: flossie1901@gmail.com Subject / How can we help you?: Hi, I'm trying to login. I just created this password and it says I'm wrong. I tried to do another one and it says it's wrong and I haven't even set it yet. I'm lost.\n[09:42:26 PM] Customer: Thank you\n[09:42:26 PM] Customer: Thank you\n[09:42:29 PM] Cairo Osorto: Thanks for contacting.\n[09:42:29 PM] Cairo Osorto: Thanks for contacting.\n[09:42:46 PM] Customer: Hi, how are you\n[09:42:46 PM] Customer: Hi, how are you\n[09:43:50 PM] Cairo Osorto: I'm doing very well :) What about you? Sorry to hear about your situation trying to access your account. No worries, I'll do my best to try and help you out.\n[09:43:50 PM] Cairo Osorto: I'm doing very well :) What about you? Sorry to hear about your situation trying to access your account. No worries, I'll do my best to try and help you out.\n[09:44:29 PM] Customer: Thank you. I'm well. Just trying to figure this out. I'm not tech savvy but I'm not crazy either. Lol\n[09:44:29 PM] Customer: Thank you. I'm well. Just trying to figure this out. I'm not tech savvy but I'm not crazy either. Lol\n[09:45:20 PM] Cairo Osorto: No worries! Apps and programs can be a little tough to navigate sometimes but I'm here to help you out :) May I know which email you used for registration?\n[09:45:20 PM] Cairo Osorto: No worries! Apps and programs can be a little tough to navigate sometimes but I'm here to help you out :) May I know which email you used for registration?\n[09:45:35 PM] Customer: flossie1901@gmail.com\n[09:45:35 PM] Customer: flossie1901@gmail.com\n[09:46:10 PM] Cairo Osorto: Understood, thanks. May I please have the phone number you used for registration also?\n[09:46:10 PM] Cairo Osorto: Understood, thanks. May I please have the phone number you used for registration also?\n[09:46:23 PM] Customer: 2282439196\n[09:46:23 PM] Customer: 2282439196\n[09:46:36 PM] Cairo Osorto: Thanks, please remain online.\n[09:46:36 PM] Cairo Osorto: Thanks, please remain online.\n[09:46:42 PM] Customer: Ok\n[09:46:42 PM] Customer: Ok\n[09:47:07 PM] Cairo Osorto: Thanks.\n[09:47:07 PM] Cairo Osorto: Thanks.\n[09:47:24 PM] Customer: No problem\n[09:47:24 PM] Customer: No problem\n[09:47:44 PM] Cairo Osorto: Great.\n[09:47:44 PM] Cairo Osorto: Great.\n[09:49:58 PM] Cairo Osorto: Apologies - can you please double-check that the info you shared is correct? I'm not finding any accounts with neither your phone or email.\n[09:49:58 PM] Cairo Osorto: Apologies - can you please double-check that the info you shared is correct? I'm not finding any accounts with neither your phone or email.\n[09:50:31 PM] Customer: Wait. Really?  Ok. One minute. I'll be back\n[09:50:31 PM] Customer: Wait. Really?  Ok. One minute. I'll be back\n[09:51:12 PM] Cairo Osorto: Please, thank you!\n[09:51:12 PM] Cairo Osorto: Please, thank you!\n[09:57:00 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[09:57:00 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[09:59:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:59:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T22:04:43.486Z"
+        },
+        {
+          "chat_id": "2047449972088811520",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T23:06:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Thanks for contacting' without personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Asked one clarifying question but customer already stated the issue (account access) and agent didn't proactively troubleshoot or offer solutions."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution attempted; agent waited passively for customer response instead of offering password reset, account lookup, or other standard login assistance."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional tone but passive approach; didn't guide the conversation or provide actionable next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations but didn't verify identity before discussing account access, which is a security concern."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further assistance and said goodbye, but closed prematurely after only 7 minutes with minimal engagement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent was polite but overly passive, asking what the problem was when the customer already stated they couldn't access their account. No troubleshooting steps, password reset options, or proactive assistance were offered before closing the chat after customer silence.",
+          "coaching_tip": "When a customer states a login issue, immediately offer standard solutions like password reset links or account verification steps rather than waiting for them to provide more details.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[10:58:07 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:58:07 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: Man I’m trying to get into my account registered under 9192577387\n[10:58:33 PM] Cairo Osorto: Thanks for contacting.\n[10:58:33 PM] Cairo Osorto: Thanks for contacting.\n[11:00:03 PM] Cairo Osorto: Sorry to hear that you're running into an inconvenience trying to log in. May I know what the hurdle seems to be?\n[11:00:03 PM] Cairo Osorto: Sorry to hear that you're running into an inconvenience trying to log in. May I know what the hurdle seems to be?\n[11:02:02 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:02:02 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:05:55 PM] Cairo Osorto: Apologies, but in order to better assist you, I'd need more information. Should you need any further assistance, feel free to reach out again.\n[11:05:55 PM] Cairo Osorto: Apologies, but in order to better assist you, I'd need more information. Should you need any further assistance, feel free to reach out again.\n[11:06:04 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:06:04 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:09:39.202Z"
+        },
+        {
+          "chat_id": "2047459642987819008",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T23:44:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting without personalization or warmth, missing customer name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Asked one clarifying question but customer didn't respond; agent could have probed more specifically about common issues."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "No resolution achieved due to customer non-response, but agent appropriately waited and invited customer to return with more details."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication, though could have been more proactive with troubleshooting suggestions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Proper closing with invitation to return and friendly sign-off."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent handled an abandoned chat appropriately with professional communication and proper wait times. However, the initial discovery could have been stronger by offering specific troubleshooting options rather than waiting for customer to describe the problem.",
+          "coaching_tip": "When customers report they 'can't play,' immediately offer 2-3 common scenarios (login issues, game loading problems, account restrictions) to help non-responsive customers identify their specific issue faster.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:36:33 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:36:33 PM] Customer: Full Name: Billy bercier Email Address: bercierbilly2@gmail.com Subject / How can we help you?: Why can't I play\n[11:36:49 PM] Cairo Osorto: Thanks for contacting.\n[11:36:49 PM] Cairo Osorto: Thanks for contacting.\n[11:37:57 PM] Cairo Osorto: Sorry to hear that you're unable to play. May I ask what the inconvenience seems to be?\n[11:37:57 PM] Cairo Osorto: Sorry to hear that you're unable to play. May I ask what the inconvenience seems to be?\n[11:39:44 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:39:44 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:44:16 PM] Cairo Osorto: Apologies, but in order to better assist you, we need more information. Feel free to reach us back should you need any more help. Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:44:16 PM] Cairo Osorto: Apologies, but in order to better assist you, we need more information. Feel free to reach us back should you need any more help. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:44:39.333Z"
+        },
+        {
+          "chat_id": "2047459039893041152",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-23T23:43:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting without personalization or warmth, missing customer name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Asked a clarifying question about Instagram access but didn't probe further when customer went silent."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided direct link to platform which addresses likely issue, though customer didn't confirm resolution."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional but could have been more proactive during the long silence period."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with offer for further assistance and well-wishes for gaming."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled a brief interaction where the customer appeared to have login issues via Instagram. The agent asked a clarifying question, waited during customer silence, then provided the direct platform link as a solution.",
+          "coaching_tip": "When customers go silent after initial contact, send a proactive message earlier explaining alternative solutions rather than waiting 4+ minutes before providing the platform link.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[11:34:09 PM] Customer: Full Name: Lakasia rogers Email Address: amour.kasia27@gmail.com Subject / How can we help you?: Non_support_incognito It won't allow me to login only on instagram\n[11:34:09 PM] Customer: Full Name: Lakasia rogers Email Address: amour.kasia27@gmail.com Subject / How can we help you?: Non_support_incognito It won't allow me to login only on instagram\n[11:34:25 PM] Cairo Osorto: Thanks for contacting.\n[11:34:25 PM] Cairo Osorto: Thanks for contacting.\n[11:35:09 PM] Cairo Osorto: I'll be happy to help you out! Apologies - are you trying to access your account via Instagram?\n[11:35:09 PM] Cairo Osorto: I'll be happy to help you out! Apologies - are you trying to access your account via Instagram?\n[11:38:28 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:38:28 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:42:49 PM] Cairo Osorto: The best way to access our platform is by following this link: https://www.jackpotdaily.com/\n[11:42:49 PM] Cairo Osorto: The best way to access our platform is by following this link: https://www.jackpotdaily.com/\n[11:43:20 PM] Cairo Osorto: Should you need any further assistance, feel free to reach us back. Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:43:20 PM] Cairo Osorto: Should you need any further assistance, feel free to reach us back. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T23:44:47.417Z"
+        },
+        {
+          "chat_id": "2047469260099072000",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-24T00:25:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent response present to discover or clarify the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No agent response present to attempt resolution."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent communication present in transcript."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent response present to evaluate compliance."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No agent response present to close the interaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "The transcript contains only the customer's initial inquiry submitted twice with no agent response recorded. No agent interaction occurred to evaluate performance.",
+          "coaching_tip": "Ensure all chat transcripts capture agent responses; if this represents a missed or unassigned chat, implement queue monitoring to prevent customer abandonment.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[12:14:46 AM] t6310785248: Full Name: t6310785248 Email Address: ayrah143@gmail.com Subject / How can we help you?: How long will it take for you to verify my account it is more than a week already\n[12:14:46 AM] t6310785248: Full Name: t6310785248 Email Address: ayrah143@gmail.com Subject / How can we help you?: How long will it take for you to verify my account it is more than a week already",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T00:29:37.566Z"
+        }
+      ],
+      "avg_score": 61,
+      "grade": "D",
+      "trend": -16
     },
     {
       "id": "5802",
@@ -32719,6 +32764,51 @@
       "raw_transcript": "[12:05:17 AM] Customer: Full Name: Lakasia rogers Email Address: amour.kasia27@gmail.com Subject / How can we help you?: Non_support_incognito It won't allow me to login only on instagram\n[12:05:17 AM] Customer: Full Name: Lakasia rogers Email Address: amour.kasia27@gmail.com Subject / How can we help you?: Non_support_incognito It won't allow me to login only on instagram\n[12:05:37 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:05:37 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:05:43 AM] Customer: I'm trying to login on the browser\n[12:05:43 AM] Customer: I'm trying to login on the browser\n[12:06:01 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as possible\n[12:06:01 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as possible\n[12:06:45 AM] Customer: IMG_4046.jpg\n[12:06:45 AM] Customer: IMG_4046.jpg\n[12:07:18 AM] Customer: Every time I click to login this what appears\n[12:07:18 AM] Customer: Every time I click to login this what appears\n[12:07:22 AM] Oscar Zelaya: Thank you for sharing the screenshot — that really helps \nLet me take a closer look at it and I’ll guide you through the next steps to get this sorted\n[12:07:22 AM] Oscar Zelaya: Thank you for sharing the screenshot — that really helps \nLet me take a closer look at it and I’ll guide you through the next steps to get this sorted\n[12:07:51 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:07:51 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:09:17 AM] Customer: Okay\n[12:09:17 AM] Customer: Okay\n[12:10:03 AM] Oscar Zelaya: Could you please try logging in using the “Continue with Google” option?\nSometimes that helps if your account was originally created using Google — it should take you straight into the correct account \nLet me know how it goes!\n[12:10:03 AM] Oscar Zelaya: Could you please try logging in using the “Continue with Google” option?\nSometimes that helps if your account was originally created using Google — it should take you straight into the correct account \nLet me know how it goes!\n[12:10:41 AM] Customer: Same message appeared\n[12:10:41 AM] Customer: Same message appeared\n[12:11:07 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:11:07 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:13:21 AM] Oscar Zelaya: Hey Lakasia ! Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[12:13:21 AM] Oscar Zelaya: Hey Lakasia ! Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[12:14:30 AM] Customer: It allowed me to redeem a prize so what if it isn't available in my area will the refund me\n[12:14:30 AM] Customer: It allowed me to redeem a prize so what if it isn't available in my area will the refund me\n[12:14:35 AM] Customer: They\n[12:14:35 AM] Customer: They\n[12:14:45 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:14:45 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[12:16:46 AM] Oscar Zelaya: can see your redemption has already been approved, so everything is progressing as expected.\nIf you selected ACH Bank Transfer, please keep in mind it can take up to 10 business days for the funds to arrive, depending on your bank.\nJust a quick reminder — weekends and holidays aren’t counted as business days.\nIf it goes beyond that timeframe, feel free to reach out and I’ll be happy to take a closer look for you\n[12:16:46 AM] Oscar Zelaya: can see your redemption has already been approved, so everything is progressing as expected.\nIf you selected ACH Bank Transfer, please keep in mind it can take up to 10 business days for the funds to arrive, depending on your bank.\nJust a quick reminder — weekends and holidays aren’t counted as business days.\nIf it goes beyond that timeframe, feel free to reach out and I’ll be happy to take a closer look for you\n[12:18:18 AM] Oscar Zelaya: Have you tried logging in without using Incognito/Private mode?\nSometimes that mode can block cookies or saved session data, which may prevent the login from going through properly. I’d recommend trying in a regular browser window\n[12:18:18 AM] Oscar Zelaya: Have you tried logging in without using Incognito/Private mode?\nSometimes that mode can block cookies or saved session data, which may prevent the login from going through properly. I’d recommend trying in a regular browser window\n[12:19:34 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[12:19:34 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[12:21:11 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[12:21:11 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T00:25:03.764Z"
+    },
+    {
+      "chat_id": "2047469260099072000",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-24T00:25:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "No agent response present in transcript."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "No agent response present to discover or clarify the issue."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No agent response present to attempt resolution."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "No agent communication present in transcript."
+        },
+        "compliance": {
+          "score": 0,
+          "notes": "No agent response present to evaluate compliance."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No agent response present to close the interaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 0,
+      "grade": "F",
+      "summary": "The transcript contains only the customer's initial inquiry submitted twice with no agent response recorded. No agent interaction occurred to evaluate performance.",
+      "coaching_tip": "Ensure all chat transcripts capture agent responses; if this represents a missed or unassigned chat, implement queue monitoring to prevent customer abandonment.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[12:14:46 AM] t6310785248: Full Name: t6310785248 Email Address: ayrah143@gmail.com Subject / How can we help you?: How long will it take for you to verify my account it is more than a week already\n[12:14:46 AM] t6310785248: Full Name: t6310785248 Email Address: ayrah143@gmail.com Subject / How can we help you?: How long will it take for you to verify my account it is more than a week already",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T00:29:37.566Z"
     }
   ]
 }
