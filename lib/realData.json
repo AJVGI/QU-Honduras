@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T23:50:10.683Z",
-  "total_chats": 617,
+  "scored_at": "2026-04-24T23:54:45.607Z",
+  "total_chats": 618,
   "total_agents": 26,
   "agents": [
     {
@@ -14100,11 +14100,56 @@
           "raw_transcript": "[11:13:15 PM] Customer: Full Name: Laquitta Drain Email Address: laquitta_drain2015@yahoo.com Subject / How can we help you?: My location settings are right but it keep telling me to set it\n[11:13:15 PM] Customer: Full Name: Laquitta Drain Email Address: laquitta_drain2015@yahoo.com Subject / How can we help you?: My location settings are right but it keep telling me to set it\n[11:13:45 PM] Cairo Osorto: Thanks for contacting.\n[11:13:45 PM] Cairo Osorto: Thanks for contacting.\n[11:14:17 PM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:14:17 PM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:16:54 PM] Customer: I've done it all\n[11:16:54 PM] Customer: I've done it all\n[11:18:46 PM] Cairo Osorto: One moment please.\n[11:18:46 PM] Cairo Osorto: One moment please.\n[11:21:48 PM] Cairo Osorto: May you please share a screenshot?\n[11:21:48 PM] Cairo Osorto: May you please share a screenshot?\n[11:24:22 PM] Cairo Osorto: You seem to have left. Is there anything else I can help you with today?\n[11:24:22 PM] Cairo Osorto: You seem to have left. Is there anything else I can help you with today?\n[11:26:18 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:26:18 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T23:29:54.202Z"
+        },
+        {
+          "chat_id": "2047824799849033728",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-24T23:54:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Generic 'Thanks for contacting' without personalization or proper welcome."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask clarifying questions about the location issue before providing generic troubleshooting steps."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic troubleshooting without addressing the specific location services problem mentioned by customer."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Professional tone but did not acknowledge the specific location issue or tailor response to customer's concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to properly investigate or escalate a potentially geolocation-related compliance issue."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help and closed politely but customer issue was not resolved or followed up."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent provided generic troubleshooting steps without addressing the customer's specific location services issue. The response lacked personalization and proper issue discovery before offering solutions.",
+          "coaching_tip": "Ask clarifying questions about location-specific errors before providing generic troubleshooting, as geolocation issues may require specialized support or escalation.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:47:33 PM] Customer: Full Name: Azaria Banks Email Address: azariabanks9@gmail.com Subject / How can we help you?: My location on while using the app, and i can’t still can not continue.\n[11:47:33 PM] Customer: Full Name: Azaria Banks Email Address: azariabanks9@gmail.com Subject / How can we help you?: My location on while using the app, and i can’t still can not continue.\n[11:47:55 PM] Cairo Osorto: Thanks for contacting.\n[11:47:55 PM] Cairo Osorto: Thanks for contacting.\n[11:48:45 PM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:48:45 PM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:52:18 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:52:18 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:54:13 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:54:13 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T23:54:45.107Z"
         }
       ],
       "avg_score": 58,
       "grade": "F",
-      "trend": 13
+      "trend": 16
     },
     {
       "id": "5806",
@@ -55768,6 +55813,51 @@
       "raw_transcript": "[11:40:17 PM] t6713844567: Full Name: t6713844567 Email Address: goodluckbettor@gmail.com Subject / How can we help you?: What redemption methods do you offer\n[11:40:17 PM] t6713844567: Full Name: t6713844567 Email Address: goodluckbettor@gmail.com Subject / How can we help you?: What redemption methods do you offer\n[11:40:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:40:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:40:40 PM] t6713844567: And what are the minimums for each redemption method\n[11:40:40 PM] t6713844567: And what are the minimums for each redemption method\n[11:41:30 PM] Ludovicode Flores: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nIf speed matters most, go with the Debit Card! Any questions?\n[11:41:30 PM] Ludovicode Flores: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nIf speed matters most, go with the Debit Card! Any questions?\n[11:43:18 PM] Ludovicode Flores: Great news — we don't charge any redemption fees!\nThe only things to keep in mind are:\n- You'll need a minimum of 100 Sweepstakes Coins to redeem, - Max 1,000\n- Those coins need to have been played through at least once\nThat's it! Anything else I can help with?\n[11:43:18 PM] Ludovicode Flores: Great news — we don't charge any redemption fees!\nThe only things to keep in mind are:\n- You'll need a minimum of 100 Sweepstakes Coins to redeem, - Max 1,000\n- Those coins need to have been played through at least once\nThat's it! Anything else I can help with?\n[11:44:22 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[11:44:22 PM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[11:45:13 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:45:13 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T23:50:10.182Z"
+    },
+    {
+      "chat_id": "2047824799849033728",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-24T23:54:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Generic 'Thanks for contacting' without personalization or proper welcome."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask clarifying questions about the location issue before providing generic troubleshooting steps."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided generic troubleshooting without addressing the specific location services problem mentioned by customer."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Professional tone but did not acknowledge the specific location issue or tailor response to customer's concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but failed to properly investigate or escalate a potentially geolocation-related compliance issue."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help and closed politely but customer issue was not resolved or followed up."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 49,
+      "grade": "F",
+      "summary": "Agent provided generic troubleshooting steps without addressing the customer's specific location services issue. The response lacked personalization and proper issue discovery before offering solutions.",
+      "coaching_tip": "Ask clarifying questions about location-specific errors before providing generic troubleshooting, as geolocation issues may require specialized support or escalation.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[11:47:33 PM] Customer: Full Name: Azaria Banks Email Address: azariabanks9@gmail.com Subject / How can we help you?: My location on while using the app, and i can’t still can not continue.\n[11:47:33 PM] Customer: Full Name: Azaria Banks Email Address: azariabanks9@gmail.com Subject / How can we help you?: My location on while using the app, and i can’t still can not continue.\n[11:47:55 PM] Cairo Osorto: Thanks for contacting.\n[11:47:55 PM] Cairo Osorto: Thanks for contacting.\n[11:48:45 PM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:48:45 PM] Cairo Osorto: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:52:18 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:52:18 PM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with?\n[11:54:13 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:54:13 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T23:54:45.107Z"
     }
   ]
 }
