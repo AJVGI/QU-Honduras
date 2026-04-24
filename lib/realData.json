@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T16:09:52.734Z",
-  "total_chats": 538,
+  "scored_at": "2026-04-24T16:14:53.710Z",
+  "total_chats": 540,
   "total_agents": 26,
   "agents": [
     {
@@ -2967,11 +2967,56 @@
           "raw_transcript": "[03:05:39 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[03:05:39 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[03:05:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[03:05:58 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[03:06:13 PM] Andrea Rodriguez: Via ACH can take up to 10 days.\n[03:06:13 PM] Andrea Rodriguez: Via ACH can take up to 10 days.\n[03:06:33 PM] Andrea Rodriguez: We do not process redemptions on weekends.\n[03:06:33 PM] Andrea Rodriguez: We do not process redemptions on weekends.\n[03:06:47 PM] Andrea Rodriguez: Sorry, 10 bussiness days.\n[03:06:47 PM] Andrea Rodriguez: Sorry, 10 bussiness days.\n[03:07:19 PM] t5416824943: What was Samantha talking  about making it pass  first and second request\n[03:07:19 PM] t5416824943: What was Samantha talking  about making it pass  first and second request\n[03:08:09 PM] Andrea Rodriguez: I do not understand, can you explain further\n[03:08:09 PM] Andrea Rodriguez: I do not understand, can you explain further\n[03:09:44 PM] t5416824943: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[03:09:44 PM] t5416824943: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[03:10:00 PM] t5416824943: That's what she  sent\n[03:10:00 PM] t5416824943: That's what she  sent\n[03:10:54 PM] Andrea Rodriguez: Yes we only process one redemption at the time, you cannot have two requests.\n[03:10:54 PM] Andrea Rodriguez: Yes we only process one redemption at the time, you cannot have two requests.\n[03:11:14 PM] t5416824943: I dont\n[03:11:14 PM] t5416824943: I dont",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T15:24:46.727Z"
+        },
+        {
+          "chat_id": "2047708273951158272",
+          "agent_name": "Andrea Rodriguez",
+          "agent_id": "5801",
+          "timestamp": "2026-04-24T16:11:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with name introduction, but didn't use customer's name or acknowledge their frustration."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic issue but failed to investigate why W9 wasn't sent or check ticket status despite customer's clear concern."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent provided general timeline information but didn't resolve the core issue of missing W9 or lack of communication, no escalation offered."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Repetitive 'be patient' responses came across as dismissive rather than empathetic, failed to acknowledge customer's valid concerns about missing W9."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, correctly mentioned W9 requirement and processing times, though could have been more helpful."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but closed prematurely without actually resolving the W9 issue or providing next steps."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided basic information about processing times but failed to address the customer's primary concern about not receiving the promised W9 form. The repetitive 'be patient' responses without investigating the issue or offering to escalate came across as dismissive and unhelpful.",
+          "coaching_tip": "When a customer reports not receiving a promised document (W9), check the account status and either resend it immediately or escalate to the appropriate team rather than defaulting to 'be patient' responses.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T16:14:44.075Z"
         }
       ],
-      "avg_score": 63,
+      "avg_score": 62,
       "grade": "D",
-      "trend": 10
+      "trend": 3
     },
     {
       "id": "5554",
@@ -11625,11 +11670,56 @@
           "raw_transcript": "[03:41:28 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: Trying to get an update on my redemption it’s still showing pending\n[03:41:28 PM] t3954923554: Full Name: t3954923554 Email Address: neches.grocery@gmail.com Subject / How can we help you?: Trying to get an update on my redemption it’s still showing pending\n[03:42:04 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:42:04 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:43:22 PM] Angie Pereira: ACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[03:43:22 PM] Angie Pereira: ACH Processing time can take up to 10 business days but weekends and holidays are not included in processing time.\n[03:44:08 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[03:44:08 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[03:46:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[03:46:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T15:49:45.578Z"
+        },
+        {
+          "chat_id": "2047704400174989312",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-24T16:10:12.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the missing bonus issue but asked for clarification only after stating credits were already there, creating confusion."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent claimed credits were available but customer disputed this; no clear resolution or escalation provided before transcript cuts off."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Communication was professional but created confusion by stating credits were available when customer couldn't see them, leading to frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; agent appropriately asked for evidence and checked account details."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no closing provided in the visible portion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent provided a friendly greeting and attempted to investigate the missing second chance bonus, but created confusion by stating credits were already available when the customer clearly disputed this. The interaction lacks clear resolution and the transcript cuts off without a proper closing.",
+          "coaching_tip": "Before confirming that credits are available, ensure you're looking at the specific bonus type the customer is asking about and can explain exactly where they should see it to avoid creating confusion and frustration.",
+          "website": "Jackpot Daily",
+          "message_count": 74,
+          "raw_transcript": "[03:49:08 PM] t4086527119: Full Name: t4086527119 Email Address: seth.hill2@gmail.com Subject / How can we help you?: Where is the six hours? That is my second chance bonus for today? It says zero today but told me yesterday it'd be six dollars and some odd cents tomorrow.\n[03:49:08 PM] t4086527119: Full Name: t4086527119 Email Address: seth.hill2@gmail.com Subject / How can we help you?: Where is the six hours? That is my second chance bonus for today? It says zero today but told me yesterday it'd be six dollars and some odd cents tomorrow.\n[03:49:23 PM] t4086527119: $6\n[03:49:23 PM] t4086527119: $6\n[03:49:44 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:49:44 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:50:19 PM] t4086527119: Ok\n[03:50:19 PM] t4086527119: Ok\n[03:50:29 PM] Angie Pereira: How can I assist?\n[03:50:29 PM] Angie Pereira: How can I assist?\n[03:50:41 PM] t4086527119: Yesterday I said I had six dollars coming tomorrow for my second chance bonus but today it says zero\n[03:50:41 PM] t4086527119: Yesterday I said I had six dollars coming tomorrow for my second chance bonus but today it says zero\n[03:52:26 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:52:26 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:53:10 PM] t4086527119: Ok\n[03:53:10 PM] t4086527119: Ok\n[03:54:46 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[03:54:46 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[03:55:08 PM] t4086527119: Ok\n[03:55:08 PM] t4086527119: Ok\n[03:56:22 PM] Angie Pereira: I can see on your account that the credits are there already available\n[03:56:22 PM] Angie Pereira: I can see on your account that the credits are there already available\n[03:56:58 PM] t4086527119: It says i have $1.xx\n[03:56:58 PM] t4086527119: It says i have $1.xx\n[03:57:06 PM] t4086527119: Did u just add it\n[03:57:06 PM] t4086527119: Did u just add it\n[03:58:04 PM] t4086527119: Nope it says .14 i mever got the 6.xx it said id get tomorrow today\n[03:58:04 PM] t4086527119: Nope it says .14 i mever got the 6.xx it said id get tomorrow today\n[03:58:34 PM] t4086527119: Where did it go if i got it\n[03:58:34 PM] t4086527119: Where did it go if i got it\n[03:58:38 PM] t4086527119: or why cant i see it\n[03:58:38 PM] t4086527119: or why cant i see it\n[03:59:09 PM] Angie Pereira: It reflects you did your deposit, the credit was made and there are already transactions of you playing after the deposit\n[03:59:09 PM] Angie Pereira: It reflects you did your deposit, the credit was made and there are already transactions of you playing after the deposit\n[03:59:23 PM] t4086527119: Yeah i had a 1.41\n[03:59:23 PM] t4086527119: Yeah i had a 1.41\n[03:59:29 PM] t4086527119: I just played\n[03:59:29 PM] t4086527119: I just played\n[03:59:34 PM] t4086527119: Where is the 6\n[03:59:34 PM] t4086527119: Where is the 6\n[04:00:31 PM] t4086527119: I just logged on for first time today and there was $$1.41 on the account n i played it thats it andbwhen i signed off yesterday it said i have $6.xx coming today\n[04:00:31 PM] t4086527119: I just logged on for first time today and there was $$1.41 on the account n i played it thats it andbwhen i signed off yesterday it said i have $6.xx coming today\n[04:00:32 PM] Angie Pereira: Do you have any type of screenshot you can send where it said you were going to get $6 or where did you saw it, please explain more ?\n[04:00:32 PM] Angie Pereira: Do you have any type of screenshot you can send where it said you were going to get $6 or where did you saw it, please explain more ?\n[04:00:51 PM] t4086527119: It was under the second chance spin\n[04:00:51 PM] t4086527119: It was under the second chance spin\n[04:01:07 PM] t4086527119: said it would be available tomorrow\n[04:01:07 PM] t4086527119: said it would be available tomorrow\n[04:01:17 PM] t4086527119: and jt says 0 available now\n[04:01:17 PM] t4086527119: and jt says 0 available now\n[04:01:41 PM] t4086527119: But it never went to my money i had 1.41 this am\n[04:01:41 PM] t4086527119: But it never went to my money i had 1.41 this am\n[04:01:47 PM] t4086527119: not 6.xx\n[04:01:47 PM] t4086527119: not 6.xx\n[04:03:20 PM] Angie Pereira: Here's how it works:\n\nYour first three purchases all come with bonus\npacks — here’s the breakdown:\n\n1st Purchase (New User Offer):\n- $10: 4,000 GC | 600 XP | 22 SC\n- $50: 20,000 GC | 3,000 XP | 80 SC\n- $100: 40,000 GC | 6,000 XP | 140 SC\n\n2nd Purchase Pack:\n- $10: 4,000 GC | 500 XP | 20 SC\n- $50: 20,000 GC | 2,500 XP | 70 SC\n- $100: 40,000 GC | 5,000 XP | 130 SC\n\n3rd Purchase Pack:\n- $10: 4,000 GC | 400 XP | 18 SC\n- $50: 20,000 GC | 2,000 XP | 65 SC\n- $100: 40,000 GC | 4,000 XP | 120 SC\n\nQuick rules: min $10 purchase, bonuses land within 4 hours, SC needs 1x playthrough before redemption, and packs unlock in order (1 → 2 → 3).\n[04:03:20 PM] Angie Pereira: Here's how it works:\n\nYour first three purchases all come with bonus\npacks — here’s the breakdown:\n\n1st Purchase (New User Offer):\n- $10: 4,000 GC | 600 XP | 22 SC\n- $50: 20,000 GC | 3,000 XP | 80 SC\n- $100: 40,000 GC | 6,000 XP | 140 SC\n\n2nd Purchase Pack:\n- $10: 4,000 GC | 500 XP | 20 SC\n- $50: 20,000 GC | 2,500 XP | 70 SC\n- $100: 40,000 GC | 5,000 XP | 130 SC\n\n3rd Purchase Pack:\n- $10: 4,000 GC | 400 XP | 18 SC\n- $50: 20,000 GC | 2,000 XP | 65 SC\n- $100: 40,000 GC | 4,000 XP | 120 SC\n\nQuick rules: min $10 purchase, bonuses land within 4 hours, SC needs 1x playthrough before redemption, and packs unlock in order (1 → 2 → 3).\n[04:03:47 PM] t4086527119: Okay im telling u what it told me\n[04:03:47 PM] t4086527119: Okay im telling u what it told me\n[04:03:55 PM] t4086527119: ive made 3 purchases already\n[04:03:55 PM] t4086527119: ive made 3 purchases already\n[04:04:28 PM] t4086527119: if u cant give me wheat it said yeaterdwy thats fine but im gonna consider this a scam and claw back my deposits thru ny card company\n[04:04:28 PM] t4086527119: if u cant give me wheat it said yeaterdwy thats fine but im gonna consider this a scam and claw back my deposits thru ny card company\n[04:04:34 PM] t4086527119: cause yall aint gonna rip me off\n[04:04:34 PM] t4086527119: cause yall aint gonna rip me off\n[04:04:43 PM] t4086527119: plain and simple\n[04:04:43 PM] t4086527119: plain and simple\n[04:06:01 PM] Angie Pereira: Your account has been credited exactly as I mentioned before\n[04:06:01 PM] Angie Pereira: Your account has been credited exactly as I mentioned before\n[04:06:27 PM] Angie Pereira: Every time you did a purchase the system automatically credited your account\n[04:06:27 PM] Angie Pereira: Every time you did a purchase the system automatically credited your account\n[04:07:51 PM] Angie Pereira: Let us know if anything else comes up?\n[04:07:51 PM] Angie Pereira: Let us know if anything else comes up?\n[04:10:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:10:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T16:14:53.209Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 11
+      "trend": -2
     },
     {
       "id": "5847",
@@ -48658,6 +48748,96 @@
       "raw_transcript": "[03:39:22 PM] t8061171687: Full Name: t8061171687 Email Address: forrests0609@gmail.com Subject / How can we help you?: I want to take a 30 day break but it’s no where to be found in the profile section\n[03:39:22 PM] t8061171687: Full Name: t8061171687 Email Address: forrests0609@gmail.com Subject / How can we help you?: I want to take a 30 day break but it’s no where to be found in the profile section\n[03:39:40 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[03:39:40 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[03:41:57 PM] Maritza Caceres: I completely understand wanting to take a breather—we're all about making sure your time here is fun and responsible. Since you're looking for a 30-day break, I can escalate this to our specialized team immediately to have your account restricted for that period.\n\nI just need you to answer the following:\n- Reason for the 30 day break\n[03:41:57 PM] Maritza Caceres: I completely understand wanting to take a breather—we're all about making sure your time here is fun and responsible. Since you're looking for a 30-day break, I can escalate this to our specialized team immediately to have your account restricted for that period.\n\nI just need you to answer the following:\n- Reason for the 30 day break\n[03:42:22 PM] t8061171687: I am playing a little too much.\n[03:42:22 PM] t8061171687: I am playing a little too much.\n[03:43:25 PM] Maritza Caceres: I really appreciate you being open about that. Recognizing that is a huge first step, and we want to support you in taking that break right now.\n[03:43:25 PM] Maritza Caceres: I really appreciate you being open about that. Recognizing that is a huge first step, and we want to support you in taking that break right now.\n[03:43:34 PM] Maritza Caceres: Let me work on that, one moment please\n[03:43:34 PM] Maritza Caceres: Let me work on that, one moment please\n[03:47:36 PM] t8061171687: Thank you\n[03:47:36 PM] t8061171687: Thank you\n[03:47:47 PM] Maritza Caceres: Not a problem, thank you\n[03:47:47 PM] Maritza Caceres: Not a problem, thank you\n[03:51:43 PM] Maritza Caceres: Thank you for reaching out! I completely understand your interest in taking a break.\n\nCurrently, our team is working on implementing a new 'Responsible Gaming' feature that will allow players to put their accounts on 'standby' for a specific number of days. While we are very excited to bring this option to you soon, it is not quite ready yet.\n\nAt the moment, the only available option to step away from the platform is to permanently close your account. I would be happy to assist you with that if you would like to proceed, or I can notify you as soon as our new standby feature is officially live!\n[03:51:43 PM] Maritza Caceres: Thank you for reaching out! I completely understand your interest in taking a break.\n\nCurrently, our team is working on implementing a new 'Responsible Gaming' feature that will allow players to put their accounts on 'standby' for a specific number of days. While we are very excited to bring this option to you soon, it is not quite ready yet.\n\nAt the moment, the only available option to step away from the platform is to permanently close your account. I would be happy to assist you with that if you would like to proceed, or I can notify you as soon as our new standby feature is officially live!\n[03:52:34 PM] t8061171687: That would be great. Please close the account. Thank you\n[03:52:34 PM] t8061171687: That would be great. Please close the account. Thank you\n[03:53:48 PM] Maritza Caceres: So, just to make sure and confirm, you would like to close your account permanently?\n[03:53:48 PM] Maritza Caceres: So, just to make sure and confirm, you would like to close your account permanently?\n[03:54:50 PM] t8061171687: Yes. Close the account\n[03:54:50 PM] t8061171687: Yes. Close the account\n[03:54:59 PM] t8061171687: Permanently\n[03:54:59 PM] t8061171687: Permanently\n[03:55:05 PM] t8061171687: Thank you\n[03:55:05 PM] t8061171687: Thank you\n[03:56:12 PM] Maritza Caceres: I hear you, and I want you to know that while we are truly sad to see you go, we have the utmost respect for the decision you’re making today. It takes a great deal of strength to prioritize your well-being like this, and we fully support you in doing what is best for you.\n[03:56:12 PM] Maritza Caceres: I hear you, and I want you to know that while we are truly sad to see you go, we have the utmost respect for the decision you’re making today. It takes a great deal of strength to prioritize your well-being like this, and we fully support you in doing what is best for you.\n[03:56:40 PM] Maritza Caceres: Just allow me a moment while I work into this for you\n[03:56:40 PM] Maritza Caceres: Just allow me a moment while I work into this for you\n[04:00:34 PM] Maritza Caceres: Thank you for your patience, Forrest.\n\nI’m reaching out to let you know that, as requested, your account has now been permanently closed. You should be logged out of your session momentarily.\n\nWhile we are genuinely sad to see you leave our community, please know that we hold your well-being in the highest regard. We fully support you in this step and are glad we could help you prioritize what’s most important.\n\nAs a reminder, this action is final to ensure your continued safety, and the account cannot be reopened. We’ve also made sure you are removed from all future marketing.\n\nWe wish you nothing but the very best of luck and happiness moving forward. Take care of yourself.\n[04:00:34 PM] Maritza Caceres: Thank you for your patience, Forrest.\n\nI’m reaching out to let you know that, as requested, your account has now been permanently closed. You should be logged out of your session momentarily.\n\nWhile we are genuinely sad to see you leave our community, please know that we hold your well-being in the highest regard. We fully support you in this step and are glad we could help you prioritize what’s most important.\n\nAs a reminder, this action is final to ensure your continued safety, and the account cannot be reopened. We’ve also made sure you are removed from all future marketing.\n\nWe wish you nothing but the very best of luck and happiness moving forward. Take care of yourself.\n[04:01:24 PM] Maritza Caceres: Is there anything else I can assist you with today?\n[04:01:24 PM] Maritza Caceres: Is there anything else I can assist you with today?\n[04:07:45 PM] Maritza Caceres: It has been a pleasure having you as part of the Jackpot Daily family.\n\nWhile we are truly sad to see you go, we want to thank you for the time you spent with us. We genuinely value the community we’ve built here, and saying goodbye to a player is never easy for our team.\n\nPlease know that we respect your decision and wish you nothing but the absolute best in whatever comes next for you. We’re grateful for the opportunity we had to be a part of your gaming experience.\n\nTake care of yourself, and we wish you a wonderful path ahead.\n[04:07:45 PM] Maritza Caceres: It has been a pleasure having you as part of the Jackpot Daily family.\n\nWhile we are truly sad to see you go, we want to thank you for the time you spent with us. We genuinely value the community we’ve built here, and saying goodbye to a player is never easy for our team.\n\nPlease know that we respect your decision and wish you nothing but the absolute best in whatever comes next for you. We’re grateful for the opportunity we had to be a part of your gaming experience.\n\nTake care of yourself, and we wish you a wonderful path ahead.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T16:09:52.233Z"
+    },
+    {
+      "chat_id": "2047708273951158272",
+      "agent_name": "Andrea Rodriguez",
+      "agent_id": "5801",
+      "timestamp": "2026-04-24T16:11:31.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting with name introduction, but didn't use customer's name or acknowledge their frustration."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic issue but failed to investigate why W9 wasn't sent or check ticket status despite customer's clear concern."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent provided general timeline information but didn't resolve the core issue of missing W9 or lack of communication, no escalation offered."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Repetitive 'be patient' responses came across as dismissive rather than empathetic, failed to acknowledge customer's valid concerns about missing W9."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, correctly mentioned W9 requirement and processing times, though could have been more helpful."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Offered further help but closed prematurely without actually resolving the W9 issue or providing next steps."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 54,
+      "grade": "F",
+      "summary": "Agent provided basic information about processing times but failed to address the customer's primary concern about not receiving the promised W9 form. The repetitive 'be patient' responses without investigating the issue or offering to escalate came across as dismissive and unhelpful.",
+      "coaching_tip": "When a customer reports not receiving a promised document (W9), check the account status and either resend it immediately or escalate to the appropriate team rather than defaulting to 'be patient' responses.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:31 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: It has been almost a week since I submitted my redemption with no communication as to why it is taking so long to approve. I was chatting with an agent last night who said that I would be receiving a W9 but I have not received it. I sent an email last night and I have not heard back. The last agent ended our chat before I was done\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:04:50 PM] Andrea Rodriguez: Hi there! \nMy name is Amanda I will be assisting you with this matter.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:37 PM] Andrea Rodriguez: If you already have a ticket created I suggest you to be patient. Remember we do not proccess redemptions on weekends and you sent the request a saturday.\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:07:56 PM] t6955935479: I understand that, but it has been five business days with no update\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:15 PM] Andrea Rodriguez: Via ACH can take 10 bussiness days and its only been 5\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:24 PM] Andrea Rodriguez: Please be patient\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:08:28 PM] t6955935479: Yes, but it has not even been approved yet.\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:09:11 PM] t6955935479: And they said it should take 24 to 48 hours to be approved\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:03 PM] Andrea Rodriguez: Because your redemption request is $600 or more, U.S. federal law requires us to collect a completed W-9 form before we can release the payment.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:10:26 PM] t6955935479: I know, but I have not received the W9. And I have sent an email asking about it and have not received a response.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:11 PM] Andrea Rodriguez: Please be patient our agents are working everyday to answer all the emails we get.\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?\n[04:11:24 PM] Andrea Rodriguez: Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T16:14:44.075Z"
+    },
+    {
+      "chat_id": "2047704400174989312",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-24T16:10:12.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the missing bonus issue but asked for clarification only after stating credits were already there, creating confusion."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent claimed credits were available but customer disputed this; no clear resolution or escalation provided before transcript cuts off."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Communication was professional but created confusion by stating credits were available when customer couldn't see them, leading to frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected; agent appropriately asked for evidence and checked account details."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with no closing provided in the visible portion."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 52,
+      "grade": "F",
+      "summary": "Agent provided a friendly greeting and attempted to investigate the missing second chance bonus, but created confusion by stating credits were already available when the customer clearly disputed this. The interaction lacks clear resolution and the transcript cuts off without a proper closing.",
+      "coaching_tip": "Before confirming that credits are available, ensure you're looking at the specific bonus type the customer is asking about and can explain exactly where they should see it to avoid creating confusion and frustration.",
+      "website": "Jackpot Daily",
+      "message_count": 74,
+      "raw_transcript": "[03:49:08 PM] t4086527119: Full Name: t4086527119 Email Address: seth.hill2@gmail.com Subject / How can we help you?: Where is the six hours? That is my second chance bonus for today? It says zero today but told me yesterday it'd be six dollars and some odd cents tomorrow.\n[03:49:08 PM] t4086527119: Full Name: t4086527119 Email Address: seth.hill2@gmail.com Subject / How can we help you?: Where is the six hours? That is my second chance bonus for today? It says zero today but told me yesterday it'd be six dollars and some odd cents tomorrow.\n[03:49:23 PM] t4086527119: $6\n[03:49:23 PM] t4086527119: $6\n[03:49:44 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:49:44 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[03:50:19 PM] t4086527119: Ok\n[03:50:19 PM] t4086527119: Ok\n[03:50:29 PM] Angie Pereira: How can I assist?\n[03:50:29 PM] Angie Pereira: How can I assist?\n[03:50:41 PM] t4086527119: Yesterday I said I had six dollars coming tomorrow for my second chance bonus but today it says zero\n[03:50:41 PM] t4086527119: Yesterday I said I had six dollars coming tomorrow for my second chance bonus but today it says zero\n[03:52:26 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:52:26 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[03:53:10 PM] t4086527119: Ok\n[03:53:10 PM] t4086527119: Ok\n[03:54:46 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[03:54:46 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[03:55:08 PM] t4086527119: Ok\n[03:55:08 PM] t4086527119: Ok\n[03:56:22 PM] Angie Pereira: I can see on your account that the credits are there already available\n[03:56:22 PM] Angie Pereira: I can see on your account that the credits are there already available\n[03:56:58 PM] t4086527119: It says i have $1.xx\n[03:56:58 PM] t4086527119: It says i have $1.xx\n[03:57:06 PM] t4086527119: Did u just add it\n[03:57:06 PM] t4086527119: Did u just add it\n[03:58:04 PM] t4086527119: Nope it says .14 i mever got the 6.xx it said id get tomorrow today\n[03:58:04 PM] t4086527119: Nope it says .14 i mever got the 6.xx it said id get tomorrow today\n[03:58:34 PM] t4086527119: Where did it go if i got it\n[03:58:34 PM] t4086527119: Where did it go if i got it\n[03:58:38 PM] t4086527119: or why cant i see it\n[03:58:38 PM] t4086527119: or why cant i see it\n[03:59:09 PM] Angie Pereira: It reflects you did your deposit, the credit was made and there are already transactions of you playing after the deposit\n[03:59:09 PM] Angie Pereira: It reflects you did your deposit, the credit was made and there are already transactions of you playing after the deposit\n[03:59:23 PM] t4086527119: Yeah i had a 1.41\n[03:59:23 PM] t4086527119: Yeah i had a 1.41\n[03:59:29 PM] t4086527119: I just played\n[03:59:29 PM] t4086527119: I just played\n[03:59:34 PM] t4086527119: Where is the 6\n[03:59:34 PM] t4086527119: Where is the 6\n[04:00:31 PM] t4086527119: I just logged on for first time today and there was $$1.41 on the account n i played it thats it andbwhen i signed off yesterday it said i have $6.xx coming today\n[04:00:31 PM] t4086527119: I just logged on for first time today and there was $$1.41 on the account n i played it thats it andbwhen i signed off yesterday it said i have $6.xx coming today\n[04:00:32 PM] Angie Pereira: Do you have any type of screenshot you can send where it said you were going to get $6 or where did you saw it, please explain more ?\n[04:00:32 PM] Angie Pereira: Do you have any type of screenshot you can send where it said you were going to get $6 or where did you saw it, please explain more ?\n[04:00:51 PM] t4086527119: It was under the second chance spin\n[04:00:51 PM] t4086527119: It was under the second chance spin\n[04:01:07 PM] t4086527119: said it would be available tomorrow\n[04:01:07 PM] t4086527119: said it would be available tomorrow\n[04:01:17 PM] t4086527119: and jt says 0 available now\n[04:01:17 PM] t4086527119: and jt says 0 available now\n[04:01:41 PM] t4086527119: But it never went to my money i had 1.41 this am\n[04:01:41 PM] t4086527119: But it never went to my money i had 1.41 this am\n[04:01:47 PM] t4086527119: not 6.xx\n[04:01:47 PM] t4086527119: not 6.xx\n[04:03:20 PM] Angie Pereira: Here's how it works:\n\nYour first three purchases all come with bonus\npacks — here’s the breakdown:\n\n1st Purchase (New User Offer):\n- $10: 4,000 GC | 600 XP | 22 SC\n- $50: 20,000 GC | 3,000 XP | 80 SC\n- $100: 40,000 GC | 6,000 XP | 140 SC\n\n2nd Purchase Pack:\n- $10: 4,000 GC | 500 XP | 20 SC\n- $50: 20,000 GC | 2,500 XP | 70 SC\n- $100: 40,000 GC | 5,000 XP | 130 SC\n\n3rd Purchase Pack:\n- $10: 4,000 GC | 400 XP | 18 SC\n- $50: 20,000 GC | 2,000 XP | 65 SC\n- $100: 40,000 GC | 4,000 XP | 120 SC\n\nQuick rules: min $10 purchase, bonuses land within 4 hours, SC needs 1x playthrough before redemption, and packs unlock in order (1 → 2 → 3).\n[04:03:20 PM] Angie Pereira: Here's how it works:\n\nYour first three purchases all come with bonus\npacks — here’s the breakdown:\n\n1st Purchase (New User Offer):\n- $10: 4,000 GC | 600 XP | 22 SC\n- $50: 20,000 GC | 3,000 XP | 80 SC\n- $100: 40,000 GC | 6,000 XP | 140 SC\n\n2nd Purchase Pack:\n- $10: 4,000 GC | 500 XP | 20 SC\n- $50: 20,000 GC | 2,500 XP | 70 SC\n- $100: 40,000 GC | 5,000 XP | 130 SC\n\n3rd Purchase Pack:\n- $10: 4,000 GC | 400 XP | 18 SC\n- $50: 20,000 GC | 2,000 XP | 65 SC\n- $100: 40,000 GC | 4,000 XP | 120 SC\n\nQuick rules: min $10 purchase, bonuses land within 4 hours, SC needs 1x playthrough before redemption, and packs unlock in order (1 → 2 → 3).\n[04:03:47 PM] t4086527119: Okay im telling u what it told me\n[04:03:47 PM] t4086527119: Okay im telling u what it told me\n[04:03:55 PM] t4086527119: ive made 3 purchases already\n[04:03:55 PM] t4086527119: ive made 3 purchases already\n[04:04:28 PM] t4086527119: if u cant give me wheat it said yeaterdwy thats fine but im gonna consider this a scam and claw back my deposits thru ny card company\n[04:04:28 PM] t4086527119: if u cant give me wheat it said yeaterdwy thats fine but im gonna consider this a scam and claw back my deposits thru ny card company\n[04:04:34 PM] t4086527119: cause yall aint gonna rip me off\n[04:04:34 PM] t4086527119: cause yall aint gonna rip me off\n[04:04:43 PM] t4086527119: plain and simple\n[04:04:43 PM] t4086527119: plain and simple\n[04:06:01 PM] Angie Pereira: Your account has been credited exactly as I mentioned before\n[04:06:01 PM] Angie Pereira: Your account has been credited exactly as I mentioned before\n[04:06:27 PM] Angie Pereira: Every time you did a purchase the system automatically credited your account\n[04:06:27 PM] Angie Pereira: Every time you did a purchase the system automatically credited your account\n[04:07:51 PM] Angie Pereira: Let us know if anything else comes up?\n[04:07:51 PM] Angie Pereira: Let us know if anything else comes up?\n[04:10:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:10:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T16:14:53.209Z"
     }
   ]
 }
