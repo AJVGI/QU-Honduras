@@ -1,107 +1,8 @@
 {
-  "scored_at": "2026-04-24T16:29:40.140Z",
-  "total_chats": 542,
+  "scored_at": "2026-04-24T16:39:59.743Z",
+  "total_chats": 544,
   "total_agents": 26,
   "agents": [
-    {
-      "id": "5664",
-      "name": "David Berlioz",
-      "chats": [
-        {
-          "chat_id": "2047258440497459200",
-          "agent_name": "David Berlioz",
-          "agent_id": "5664",
-          "timestamp": "2026-04-23T10:21:33.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting, only asked for a moment to investigate without acknowledging the customer first."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent requested time to investigate but customer escalated before any discovery could occur."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "No resolution attempted due to customer's abusive language and refusal of help before agent could respond."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Agent remained professional and clear despite extreme provocation from customer."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly terminated conversation due to abusive language while offering future assistance channels."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional termination with clear explanation and alternative contact methods provided."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent handled an extremely abusive customer professionally by attempting to help initially, then appropriately terminating the conversation when disrespectful language continued. The customer refused assistance and escalated to profanity before the agent could address the bonus issue.",
-          "coaching_tip": "Include a brief greeting acknowledging the customer by name before requesting time to investigate, even in tense situations.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:26:17.675Z"
-        },
-        {
-          "chat_id": "2047256938017501184",
-          "agent_name": "David Berlioz",
-          "agent_id": "5664",
-          "timestamp": "2026-04-23T10:39:35.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "No greeting at start; first message was just a hold statement, greeting came much later with the instructions."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Understood both the signup question and follow-up location question well, addressed each appropriately."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Provided clear step-by-step signup instructions and explained location services accurately with helpful guidance."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, friendly, and well-structured responses with good use of numbered steps and encouraging tone."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately mentioned verification requirements and provided accurate information."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closing with alternative contact method provided and invitation for further assistance."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 78,
-          "grade": "C",
-          "summary": "Agent provided accurate and helpful information for both signup and location services questions with clear instructions. Main weakness was the lack of initial greeting and extended response times between messages.",
-          "coaching_tip": "Start every chat with a proper greeting that acknowledges the customer by name before asking them to wait, rather than leading with a hold message.",
-          "website": "Jackpot Daily",
-          "message_count": 18,
-          "raw_transcript": "[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:12:12 AM] Customer: ok...look\n[10:12:12 AM] Customer: ok...look\n[10:14:49 AM] Customer: thank you\n[10:14:49 AM] Customer: thank you\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:41:14.854Z"
-        }
-      ],
-      "avg_score": 67,
-      "grade": "D",
-      "trend": 0
-    },
     {
       "id": "5800",
       "name": "Maritza Caceres",
@@ -465,11 +366,155 @@
           "raw_transcript": "[03:39:22 PM] t8061171687: Full Name: t8061171687 Email Address: forrests0609@gmail.com Subject / How can we help you?: I want to take a 30 day break but it’s no where to be found in the profile section\n[03:39:22 PM] t8061171687: Full Name: t8061171687 Email Address: forrests0609@gmail.com Subject / How can we help you?: I want to take a 30 day break but it’s no where to be found in the profile section\n[03:39:40 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[03:39:40 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[03:41:57 PM] Maritza Caceres: I completely understand wanting to take a breather—we're all about making sure your time here is fun and responsible. Since you're looking for a 30-day break, I can escalate this to our specialized team immediately to have your account restricted for that period.\n\nI just need you to answer the following:\n- Reason for the 30 day break\n[03:41:57 PM] Maritza Caceres: I completely understand wanting to take a breather—we're all about making sure your time here is fun and responsible. Since you're looking for a 30-day break, I can escalate this to our specialized team immediately to have your account restricted for that period.\n\nI just need you to answer the following:\n- Reason for the 30 day break\n[03:42:22 PM] t8061171687: I am playing a little too much.\n[03:42:22 PM] t8061171687: I am playing a little too much.\n[03:43:25 PM] Maritza Caceres: I really appreciate you being open about that. Recognizing that is a huge first step, and we want to support you in taking that break right now.\n[03:43:25 PM] Maritza Caceres: I really appreciate you being open about that. Recognizing that is a huge first step, and we want to support you in taking that break right now.\n[03:43:34 PM] Maritza Caceres: Let me work on that, one moment please\n[03:43:34 PM] Maritza Caceres: Let me work on that, one moment please\n[03:47:36 PM] t8061171687: Thank you\n[03:47:36 PM] t8061171687: Thank you\n[03:47:47 PM] Maritza Caceres: Not a problem, thank you\n[03:47:47 PM] Maritza Caceres: Not a problem, thank you\n[03:51:43 PM] Maritza Caceres: Thank you for reaching out! I completely understand your interest in taking a break.\n\nCurrently, our team is working on implementing a new 'Responsible Gaming' feature that will allow players to put their accounts on 'standby' for a specific number of days. While we are very excited to bring this option to you soon, it is not quite ready yet.\n\nAt the moment, the only available option to step away from the platform is to permanently close your account. I would be happy to assist you with that if you would like to proceed, or I can notify you as soon as our new standby feature is officially live!\n[03:51:43 PM] Maritza Caceres: Thank you for reaching out! I completely understand your interest in taking a break.\n\nCurrently, our team is working on implementing a new 'Responsible Gaming' feature that will allow players to put their accounts on 'standby' for a specific number of days. While we are very excited to bring this option to you soon, it is not quite ready yet.\n\nAt the moment, the only available option to step away from the platform is to permanently close your account. I would be happy to assist you with that if you would like to proceed, or I can notify you as soon as our new standby feature is officially live!\n[03:52:34 PM] t8061171687: That would be great. Please close the account. Thank you\n[03:52:34 PM] t8061171687: That would be great. Please close the account. Thank you\n[03:53:48 PM] Maritza Caceres: So, just to make sure and confirm, you would like to close your account permanently?\n[03:53:48 PM] Maritza Caceres: So, just to make sure and confirm, you would like to close your account permanently?\n[03:54:50 PM] t8061171687: Yes. Close the account\n[03:54:50 PM] t8061171687: Yes. Close the account\n[03:54:59 PM] t8061171687: Permanently\n[03:54:59 PM] t8061171687: Permanently\n[03:55:05 PM] t8061171687: Thank you\n[03:55:05 PM] t8061171687: Thank you\n[03:56:12 PM] Maritza Caceres: I hear you, and I want you to know that while we are truly sad to see you go, we have the utmost respect for the decision you’re making today. It takes a great deal of strength to prioritize your well-being like this, and we fully support you in doing what is best for you.\n[03:56:12 PM] Maritza Caceres: I hear you, and I want you to know that while we are truly sad to see you go, we have the utmost respect for the decision you’re making today. It takes a great deal of strength to prioritize your well-being like this, and we fully support you in doing what is best for you.\n[03:56:40 PM] Maritza Caceres: Just allow me a moment while I work into this for you\n[03:56:40 PM] Maritza Caceres: Just allow me a moment while I work into this for you\n[04:00:34 PM] Maritza Caceres: Thank you for your patience, Forrest.\n\nI’m reaching out to let you know that, as requested, your account has now been permanently closed. You should be logged out of your session momentarily.\n\nWhile we are genuinely sad to see you leave our community, please know that we hold your well-being in the highest regard. We fully support you in this step and are glad we could help you prioritize what’s most important.\n\nAs a reminder, this action is final to ensure your continued safety, and the account cannot be reopened. We’ve also made sure you are removed from all future marketing.\n\nWe wish you nothing but the very best of luck and happiness moving forward. Take care of yourself.\n[04:00:34 PM] Maritza Caceres: Thank you for your patience, Forrest.\n\nI’m reaching out to let you know that, as requested, your account has now been permanently closed. You should be logged out of your session momentarily.\n\nWhile we are genuinely sad to see you leave our community, please know that we hold your well-being in the highest regard. We fully support you in this step and are glad we could help you prioritize what’s most important.\n\nAs a reminder, this action is final to ensure your continued safety, and the account cannot be reopened. We’ve also made sure you are removed from all future marketing.\n\nWe wish you nothing but the very best of luck and happiness moving forward. Take care of yourself.\n[04:01:24 PM] Maritza Caceres: Is there anything else I can assist you with today?\n[04:01:24 PM] Maritza Caceres: Is there anything else I can assist you with today?\n[04:07:45 PM] Maritza Caceres: It has been a pleasure having you as part of the Jackpot Daily family.\n\nWhile we are truly sad to see you go, we want to thank you for the time you spent with us. We genuinely value the community we’ve built here, and saying goodbye to a player is never easy for our team.\n\nPlease know that we respect your decision and wish you nothing but the absolute best in whatever comes next for you. We’re grateful for the opportunity we had to be a part of your gaming experience.\n\nTake care of yourself, and we wish you a wonderful path ahead.\n[04:07:45 PM] Maritza Caceres: It has been a pleasure having you as part of the Jackpot Daily family.\n\nWhile we are truly sad to see you go, we want to thank you for the time you spent with us. We genuinely value the community we’ve built here, and saying goodbye to a player is never easy for our team.\n\nPlease know that we respect your decision and wish you nothing but the absolute best in whatever comes next for you. We’re grateful for the opportunity we had to be a part of your gaming experience.\n\nTake care of yourself, and we wish you a wonderful path ahead.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T16:09:52.233Z"
+        },
+        {
+          "chat_id": "2047712529802375168",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-24T16:38:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, enthusiastic greeting with clear offer to help and acknowledgment of wait time."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent investigated the account thoroughly and understood both the egg issue and birthday bonus question without needing clarification."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Both issues resolved accurately with account verification and clear explanation of the egg bonus already being credited plus detailed birthday bonus instructions."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, professional, and empathetic with good explanations, though response times were slightly long causing customer to check connection."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No policy violations, appropriately explained birthday bonus requirements including KYC verification without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help in a friendly manner, though customer didn't formally acknowledge before agent closed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "Agent handled both inquiries competently, providing accurate account information and clear policy explanations. Response times were somewhat slow, causing the customer to check if still connected, but overall service was professional and thorough.",
+          "coaching_tip": "Work on reducing response times during account lookups to avoid customer anxiety about connection status—consider sending interim updates if research takes longer than 2 minutes.",
+          "website": "Jackpot Daily",
+          "message_count": 24,
+          "raw_transcript": "[04:21:26 PM] t7618748015: Full Name: t7618748015 Email Address: jessicacherie723@gmail.com Subject / How can we help you?: But I never received my egg\n[04:21:26 PM] t7618748015: Full Name: t7618748015 Email Address: jessicacherie723@gmail.com Subject / How can we help you?: But I never received my egg\n[04:21:58 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[04:21:58 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[04:22:15 PM] t7618748015: K\n[04:22:15 PM] t7618748015: K\n[04:22:43 PM] Maritza Caceres: Thank you\n[04:22:43 PM] Maritza Caceres: Thank you\n[04:25:37 PM] t7618748015: Are we still connected?\n[04:25:37 PM] t7618748015: Are we still connected?\n[04:25:51 PM] Maritza Caceres: I’ve just taken a look at your account!\n\nIt looks like the Golden Egg was successfully smashed and the bonus has already been added to your balance. You should see it showing up in your transaction history right now.\n\nSometimes the 'smashing' animation can happen so fast it's easy to miss, but rest assured, those Sweepstakes Coins are safely in your account and ready for you to enjoy.\n[04:25:51 PM] Maritza Caceres: I’ve just taken a look at your account!\n\nIt looks like the Golden Egg was successfully smashed and the bonus has already been added to your balance. You should see it showing up in your transaction history right now.\n\nSometimes the 'smashing' animation can happen so fast it's easy to miss, but rest assured, those Sweepstakes Coins are safely in your account and ready for you to enjoy.\n[04:26:01 PM] Maritza Caceres: Yes, I´m here\n[04:26:01 PM] Maritza Caceres: Yes, I´m here\n[04:26:58 PM] t7618748015: Do y’all do anything for birthdays?\n[04:26:58 PM] t7618748015: Do y’all do anything for birthdays?\n[04:28:49 PM] Maritza Caceres: Bear with me for just a moment while I take a look at your account!\n[04:28:49 PM] Maritza Caceres: Bear with me for just a moment while I take a look at your account!\n[04:29:42 PM] Maritza Caceres: We definitely love to celebrate with our players! We do offer a special Birthday Bonus, but there is one small catch—it has to be claimed on the exact day of your birthday.\n\nHere is how to make sure you get it:\n\nMake sure your account is fully verified (KYC) so we have your date of birth on file.\n\nLog in on your actual birthday.\n\nCheck your promotional inbox or the 'Bonuses' section on that day to claim your gift!\n[04:29:42 PM] Maritza Caceres: We definitely love to celebrate with our players! We do offer a special Birthday Bonus, but there is one small catch—it has to be claimed on the exact day of your birthday.\n\nHere is how to make sure you get it:\n\nMake sure your account is fully verified (KYC) so we have your date of birth on file.\n\nLog in on your actual birthday.\n\nCheck your promotional inbox or the 'Bonuses' section on that day to claim your gift!\n[04:33:48 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[04:33:48 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[04:38:24 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[04:38:24 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T16:39:59.243Z"
         }
       ],
-      "avg_score": 66,
+      "avg_score": 68,
       "grade": "D",
-      "trend": -9
+      "trend": -2
+    },
+    {
+      "id": "5664",
+      "name": "David Berlioz",
+      "chats": [
+        {
+          "chat_id": "2047258440497459200",
+          "agent_name": "David Berlioz",
+          "agent_id": "5664",
+          "timestamp": "2026-04-23T10:21:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting, only asked for a moment to investigate without acknowledging the customer first."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent requested time to investigate but customer escalated before any discovery could occur."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution attempted due to customer's abusive language and refusal of help before agent could respond."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Agent remained professional and clear despite extreme provocation from customer."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly terminated conversation due to abusive language while offering future assistance channels."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional termination with clear explanation and alternative contact methods provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent handled an extremely abusive customer professionally by attempting to help initially, then appropriately terminating the conversation when disrespectful language continued. The customer refused assistance and escalated to profanity before the agent could address the bonus issue.",
+          "coaching_tip": "Include a brief greeting acknowledging the customer by name before requesting time to investigate, even in tense situations.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:26:17.675Z"
+        },
+        {
+          "chat_id": "2047256938017501184",
+          "agent_name": "David Berlioz",
+          "agent_id": "5664",
+          "timestamp": "2026-04-23T10:39:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at start; first message was just a hold statement, greeting came much later with the instructions."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Understood both the signup question and follow-up location question well, addressed each appropriately."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided clear step-by-step signup instructions and explained location services accurately with helpful guidance."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, friendly, and well-structured responses with good use of numbered steps and encouraging tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned verification requirements and provided accurate information."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with alternative contact method provided and invitation for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent provided accurate and helpful information for both signup and location services questions with clear instructions. Main weakness was the lack of initial greeting and extended response times between messages.",
+          "coaching_tip": "Start every chat with a proper greeting that acknowledges the customer by name before asking them to wait, rather than leading with a hold message.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:12:12 AM] Customer: ok...look\n[10:12:12 AM] Customer: ok...look\n[10:14:49 AM] Customer: thank you\n[10:14:49 AM] Customer: thank you\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:41:14.854Z"
+        }
+      ],
+      "avg_score": 67,
+      "grade": "D",
+      "trend": 0
     },
     {
       "id": "5846",
@@ -5181,11 +5226,56 @@
           "raw_transcript": "[04:06:01 PM] Customer: Full Name: t4086527119 Email Address: seth.hill2@gmail.com Subject / How can we help you?: Where is the six hours? That is my second chance bonus for today? It says zero today but told me yesterday it'd be six dollars and some odd cents tomorrow.\n[04:06:01 PM] Customer: Full Name: t4086527119 Email Address: seth.hill2@gmail.com Subject / How can we help you?: Where is the six hours? That is my second chance bonus for today? It says zero today but told me yesterday it'd be six dollars and some odd cents tomorrow.\n[04:06:29 PM] Customer: Where is my meesages with the other agent\n[04:06:29 PM] Customer: Where is my meesages with the other agent\n[04:06:32 PM] Diana Lopez: hELLO!\n[04:06:32 PM] Diana Lopez: hELLO!\n[04:06:36 PM] Customer: Or are u same agent\n[04:06:36 PM] Customer: Or are u same agent\n[04:07:00 PM] Diana Lopez: I understand. Yesterday you were told your Second Chance bonus would be around $6 today, but now it's showing $0. That's frustrating, especially when you were expecting it.\n\nThe Second Chance bonus is calculated based on your net SC loss and purchase amount from the previous day. If the bonus is showing $0 today, it means the system did not register both requirements being met for yesterday.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[04:07:00 PM] Diana Lopez: I understand. Yesterday you were told your Second Chance bonus would be around $6 today, but now it's showing $0. That's frustrating, especially when you were expecting it.\n\nThe Second Chance bonus is calculated based on your net SC loss and purchase amount from the previous day. If the bonus is showing $0 today, it means the system did not register both requirements being met for yesterday.\n\nI've noted your account. Our team will look into this and provide an update as soon as possible.\n\nThank you for your patience.\n[04:07:26 PM] Customer: If it ain't deposited today, I'm gonna just dispute my charges from you guys and get all my money back\n[04:07:26 PM] Customer: If it ain't deposited today, I'm gonna just dispute my charges from you guys and get all my money back\n[04:07:37 PM] Customer: U can add that to the case\n[04:07:37 PM] Customer: U can add that to the case\n[04:07:47 PM] Customer: Bye\n[04:07:47 PM] Customer: Bye",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T16:09:42.292Z"
+        },
+        {
+          "chat_id": "2047715553575911424",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T16:39:04.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Customer stated they wanted to understand promotions; agent didn't ask which specific promotion or clarify needs before responding."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive promotion information that addressed the general inquiry, though may have been more than needed without clarification."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Information was clear and well-structured, but no personalization or acknowledgment of customer's specific situation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "All promotion details appear accurate with no unauthorized promises or policy violations."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance appropriately, though the 'Glad we got that sorted!' assumes resolution without confirming customer satisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided comprehensive promotion information but took a template-heavy approach without personalizing the interaction or confirming which specific promotion the customer needed help with. The response was informative but lacked the discovery and engagement elements that would elevate the service experience.",
+          "coaching_tip": "Before sending large information dumps, ask clarifying questions like 'Which promotion are you interested in learning more about?' to provide targeted, relevant assistance and create a more conversational experience.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[04:33:27 PM] t4170879288: Full Name: t4170879288 Email Address: mineslou@yahoo.com Subject / How can we help you?: Understanding the promotion\n[04:33:27 PM] t4170879288: Full Name: t4170879288 Email Address: mineslou@yahoo.com Subject / How can we help you?: Understanding the promotion\n[04:33:48 PM] Diana Lopez: Hello!\n[04:33:48 PM] Diana Lopez: Hello!\n[04:34:36 PM] Diana Lopez: Understanding JackpotDaily Promotions\n1. Golden Egg (Welcome Offer)\n\nWhat: Free SC reward up to 100 SC\n\nHow: Register + complete KYC verification → Egg appears on main lobby → Smash it\n\nExpiry: 48 hours after it appears\n\nFree? Yes, no purchase needed\n\n2. Daily Login Reward\n\nWhat: Free SC and GC every day\n\nHow: Log in → Click treasure chest → Complete daily task\n\nRewards: Day 1 = 1 SC + 200 GC … Day 7 = 7 SC + 2,000 GC\n\nFree? Yes, no purchase needed\n\n3. Consecutive Purchase Streak\n\nWhat: Bonus for purchasing every day\n\nHow: Make one purchase per day to keep streak alive\n\nRewards: Day 7 = Lucky Wheel spin up to 7,777 SC\n\nFree? No, requires purchase\n\n4. First, Second & Third Purchase Packs\n\nWhat: Bonus SC and GC on your first three purchases\n\nHow: Offers unlock in order (1st → 2nd → 3rd)\n\nMinimum purchase: $9.99\n\nBonus: Up to 200% extra SC\n\n5. Referral Program\n\nWhat: Earn rewards when friends join and purchase\n\nHow: Friend registers with your link + completes KYC + makes qualifying purchase\n\nRewards: 58 SC + 5,800 GC per referral + lifetime rebate + milestone rewards\n\n6. Second Chance Bonus (Rescue Bonus)\n\nWhat: Get a percentage back on net SC losses\n\nHow: Meet minimum purchase AND net SC loss on same day\n\nBonus: 5% to 30% depending on loss amount\n\n7. Sunday Mystery Reward\n\nWhat: Random SC prize every Sunday\n\nHow: Make any $1+ GC purchase Monday through Saturday\n\nMax reward: Up to 77,777 SC\n\n8. Monthly Grand SC Giveaway\n\nWhat: Chance to win up to 377,777 SC\n\nHow: Make any $1+ GC purchase during the month → automatic entry\n\nWinner: 1 random winner drawn on the 1st of each month\n[04:34:36 PM] Diana Lopez: Understanding JackpotDaily Promotions\n1. Golden Egg (Welcome Offer)\n\nWhat: Free SC reward up to 100 SC\n\nHow: Register + complete KYC verification → Egg appears on main lobby → Smash it\n\nExpiry: 48 hours after it appears\n\nFree? Yes, no purchase needed\n\n2. Daily Login Reward\n\nWhat: Free SC and GC every day\n\nHow: Log in → Click treasure chest → Complete daily task\n\nRewards: Day 1 = 1 SC + 200 GC … Day 7 = 7 SC + 2,000 GC\n\nFree? Yes, no purchase needed\n\n3. Consecutive Purchase Streak\n\nWhat: Bonus for purchasing every day\n\nHow: Make one purchase per day to keep streak alive\n\nRewards: Day 7 = Lucky Wheel spin up to 7,777 SC\n\nFree? No, requires purchase\n\n4. First, Second & Third Purchase Packs\n\nWhat: Bonus SC and GC on your first three purchases\n\nHow: Offers unlock in order (1st → 2nd → 3rd)\n\nMinimum purchase: $9.99\n\nBonus: Up to 200% extra SC\n\n5. Referral Program\n\nWhat: Earn rewards when friends join and purchase\n\nHow: Friend registers with your link + completes KYC + makes qualifying purchase\n\nRewards: 58 SC + 5,800 GC per referral + lifetime rebate + milestone rewards\n\n6. Second Chance Bonus (Rescue Bonus)\n\nWhat: Get a percentage back on net SC losses\n\nHow: Meet minimum purchase AND net SC loss on same day\n\nBonus: 5% to 30% depending on loss amount\n\n7. Sunday Mystery Reward\n\nWhat: Random SC prize every Sunday\n\nHow: Make any $1+ GC purchase Monday through Saturday\n\nMax reward: Up to 77,777 SC\n\n8. Monthly Grand SC Giveaway\n\nWhat: Chance to win up to 377,777 SC\n\nHow: Make any $1+ GC purchase during the month → automatic entry\n\nWinner: 1 random winner drawn on the 1st of each month\n[04:36:58 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[04:36:58 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T16:39:49.156Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": -4
+      "trend": 0
     },
     {
       "id": "5808",
@@ -49018,6 +49108,96 @@
       "raw_transcript": "[04:17:05 PM] t8565797373: Full Name: t8565797373 Email Address: leanne72484@gmail.com Subject / How can we help you?: It’s saying my phone number is incorrect but it won’t let me change it\n[04:17:05 PM] t8565797373: Full Name: t8565797373 Email Address: leanne72484@gmail.com Subject / How can we help you?: It’s saying my phone number is incorrect but it won’t let me change it\n[04:18:07 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:18:07 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:18:50 PM] Angie Pereira: What is your phone number?\n[04:18:50 PM] Angie Pereira: What is your phone number?\n[04:20:10 PM] t8565797373: 8505866058\n[04:20:10 PM] t8565797373: 8505866058\n[04:20:35 PM] Angie Pereira: I see on your account the phone number is correct\n[04:20:35 PM] Angie Pereira: I see on your account the phone number is correct\n[04:21:09 PM] t8565797373: I know it’s correct but it’s telling me that it isnt\n[04:21:09 PM] t8565797373: I know it’s correct but it’s telling me that it isnt\n[04:22:18 PM] Angie Pereira: Please try to enter your phone number without the +1\n[04:22:18 PM] Angie Pereira: Please try to enter your phone number without the +1\n[04:23:29 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:23:29 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:26:20 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:26:20 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T16:29:39.639Z"
+    },
+    {
+      "chat_id": "2047715553575911424",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T16:39:04.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic 'Hello!' without personalization or warmth, minimal effort."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Customer stated they wanted to understand promotions; agent didn't ask which specific promotion or clarify needs before responding."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided comprehensive promotion information that addressed the general inquiry, though may have been more than needed without clarification."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Information was clear and well-structured, but no personalization or acknowledgment of customer's specific situation."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "All promotion details appear accurate with no unauthorized promises or policy violations."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance appropriately, though the 'Glad we got that sorted!' assumes resolution without confirming customer satisfaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided comprehensive promotion information but took a template-heavy approach without personalizing the interaction or confirming which specific promotion the customer needed help with. The response was informative but lacked the discovery and engagement elements that would elevate the service experience.",
+      "coaching_tip": "Before sending large information dumps, ask clarifying questions like 'Which promotion are you interested in learning more about?' to provide targeted, relevant assistance and create a more conversational experience.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[04:33:27 PM] t4170879288: Full Name: t4170879288 Email Address: mineslou@yahoo.com Subject / How can we help you?: Understanding the promotion\n[04:33:27 PM] t4170879288: Full Name: t4170879288 Email Address: mineslou@yahoo.com Subject / How can we help you?: Understanding the promotion\n[04:33:48 PM] Diana Lopez: Hello!\n[04:33:48 PM] Diana Lopez: Hello!\n[04:34:36 PM] Diana Lopez: Understanding JackpotDaily Promotions\n1. Golden Egg (Welcome Offer)\n\nWhat: Free SC reward up to 100 SC\n\nHow: Register + complete KYC verification → Egg appears on main lobby → Smash it\n\nExpiry: 48 hours after it appears\n\nFree? Yes, no purchase needed\n\n2. Daily Login Reward\n\nWhat: Free SC and GC every day\n\nHow: Log in → Click treasure chest → Complete daily task\n\nRewards: Day 1 = 1 SC + 200 GC … Day 7 = 7 SC + 2,000 GC\n\nFree? Yes, no purchase needed\n\n3. Consecutive Purchase Streak\n\nWhat: Bonus for purchasing every day\n\nHow: Make one purchase per day to keep streak alive\n\nRewards: Day 7 = Lucky Wheel spin up to 7,777 SC\n\nFree? No, requires purchase\n\n4. First, Second & Third Purchase Packs\n\nWhat: Bonus SC and GC on your first three purchases\n\nHow: Offers unlock in order (1st → 2nd → 3rd)\n\nMinimum purchase: $9.99\n\nBonus: Up to 200% extra SC\n\n5. Referral Program\n\nWhat: Earn rewards when friends join and purchase\n\nHow: Friend registers with your link + completes KYC + makes qualifying purchase\n\nRewards: 58 SC + 5,800 GC per referral + lifetime rebate + milestone rewards\n\n6. Second Chance Bonus (Rescue Bonus)\n\nWhat: Get a percentage back on net SC losses\n\nHow: Meet minimum purchase AND net SC loss on same day\n\nBonus: 5% to 30% depending on loss amount\n\n7. Sunday Mystery Reward\n\nWhat: Random SC prize every Sunday\n\nHow: Make any $1+ GC purchase Monday through Saturday\n\nMax reward: Up to 77,777 SC\n\n8. Monthly Grand SC Giveaway\n\nWhat: Chance to win up to 377,777 SC\n\nHow: Make any $1+ GC purchase during the month → automatic entry\n\nWinner: 1 random winner drawn on the 1st of each month\n[04:34:36 PM] Diana Lopez: Understanding JackpotDaily Promotions\n1. Golden Egg (Welcome Offer)\n\nWhat: Free SC reward up to 100 SC\n\nHow: Register + complete KYC verification → Egg appears on main lobby → Smash it\n\nExpiry: 48 hours after it appears\n\nFree? Yes, no purchase needed\n\n2. Daily Login Reward\n\nWhat: Free SC and GC every day\n\nHow: Log in → Click treasure chest → Complete daily task\n\nRewards: Day 1 = 1 SC + 200 GC … Day 7 = 7 SC + 2,000 GC\n\nFree? Yes, no purchase needed\n\n3. Consecutive Purchase Streak\n\nWhat: Bonus for purchasing every day\n\nHow: Make one purchase per day to keep streak alive\n\nRewards: Day 7 = Lucky Wheel spin up to 7,777 SC\n\nFree? No, requires purchase\n\n4. First, Second & Third Purchase Packs\n\nWhat: Bonus SC and GC on your first three purchases\n\nHow: Offers unlock in order (1st → 2nd → 3rd)\n\nMinimum purchase: $9.99\n\nBonus: Up to 200% extra SC\n\n5. Referral Program\n\nWhat: Earn rewards when friends join and purchase\n\nHow: Friend registers with your link + completes KYC + makes qualifying purchase\n\nRewards: 58 SC + 5,800 GC per referral + lifetime rebate + milestone rewards\n\n6. Second Chance Bonus (Rescue Bonus)\n\nWhat: Get a percentage back on net SC losses\n\nHow: Meet minimum purchase AND net SC loss on same day\n\nBonus: 5% to 30% depending on loss amount\n\n7. Sunday Mystery Reward\n\nWhat: Random SC prize every Sunday\n\nHow: Make any $1+ GC purchase Monday through Saturday\n\nMax reward: Up to 77,777 SC\n\n8. Monthly Grand SC Giveaway\n\nWhat: Chance to win up to 377,777 SC\n\nHow: Make any $1+ GC purchase during the month → automatic entry\n\nWinner: 1 random winner drawn on the 1st of each month\n[04:36:58 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?\n[04:36:58 PM] Diana Lopez: Glad we got that sorted ! Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T16:39:49.156Z"
+    },
+    {
+      "chat_id": "2047712529802375168",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-24T16:38:26.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, enthusiastic greeting with clear offer to help and acknowledgment of wait time."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent investigated the account thoroughly and understood both the egg issue and birthday bonus question without needing clarification."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Both issues resolved accurately with account verification and clear explanation of the egg bonus already being credited plus detailed birthday bonus instructions."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, professional, and empathetic with good explanations, though response times were slightly long causing customer to check connection."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "No policy violations, appropriately explained birthday bonus requirements including KYC verification without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help in a friendly manner, though customer didn't formally acknowledge before agent closed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 81,
+      "grade": "B",
+      "summary": "Agent handled both inquiries competently, providing accurate account information and clear policy explanations. Response times were somewhat slow, causing the customer to check if still connected, but overall service was professional and thorough.",
+      "coaching_tip": "Work on reducing response times during account lookups to avoid customer anxiety about connection status—consider sending interim updates if research takes longer than 2 minutes.",
+      "website": "Jackpot Daily",
+      "message_count": 24,
+      "raw_transcript": "[04:21:26 PM] t7618748015: Full Name: t7618748015 Email Address: jessicacherie723@gmail.com Subject / How can we help you?: But I never received my egg\n[04:21:26 PM] t7618748015: Full Name: t7618748015 Email Address: jessicacherie723@gmail.com Subject / How can we help you?: But I never received my egg\n[04:21:58 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[04:21:58 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[04:22:15 PM] t7618748015: K\n[04:22:15 PM] t7618748015: K\n[04:22:43 PM] Maritza Caceres: Thank you\n[04:22:43 PM] Maritza Caceres: Thank you\n[04:25:37 PM] t7618748015: Are we still connected?\n[04:25:37 PM] t7618748015: Are we still connected?\n[04:25:51 PM] Maritza Caceres: I’ve just taken a look at your account!\n\nIt looks like the Golden Egg was successfully smashed and the bonus has already been added to your balance. You should see it showing up in your transaction history right now.\n\nSometimes the 'smashing' animation can happen so fast it's easy to miss, but rest assured, those Sweepstakes Coins are safely in your account and ready for you to enjoy.\n[04:25:51 PM] Maritza Caceres: I’ve just taken a look at your account!\n\nIt looks like the Golden Egg was successfully smashed and the bonus has already been added to your balance. You should see it showing up in your transaction history right now.\n\nSometimes the 'smashing' animation can happen so fast it's easy to miss, but rest assured, those Sweepstakes Coins are safely in your account and ready for you to enjoy.\n[04:26:01 PM] Maritza Caceres: Yes, I´m here\n[04:26:01 PM] Maritza Caceres: Yes, I´m here\n[04:26:58 PM] t7618748015: Do y’all do anything for birthdays?\n[04:26:58 PM] t7618748015: Do y’all do anything for birthdays?\n[04:28:49 PM] Maritza Caceres: Bear with me for just a moment while I take a look at your account!\n[04:28:49 PM] Maritza Caceres: Bear with me for just a moment while I take a look at your account!\n[04:29:42 PM] Maritza Caceres: We definitely love to celebrate with our players! We do offer a special Birthday Bonus, but there is one small catch—it has to be claimed on the exact day of your birthday.\n\nHere is how to make sure you get it:\n\nMake sure your account is fully verified (KYC) so we have your date of birth on file.\n\nLog in on your actual birthday.\n\nCheck your promotional inbox or the 'Bonuses' section on that day to claim your gift!\n[04:29:42 PM] Maritza Caceres: We definitely love to celebrate with our players! We do offer a special Birthday Bonus, but there is one small catch—it has to be claimed on the exact day of your birthday.\n\nHere is how to make sure you get it:\n\nMake sure your account is fully verified (KYC) so we have your date of birth on file.\n\nLog in on your actual birthday.\n\nCheck your promotional inbox or the 'Bonuses' section on that day to claim your gift!\n[04:33:48 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[04:33:48 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[04:38:24 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[04:38:24 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T16:39:59.243Z"
     }
   ]
 }
