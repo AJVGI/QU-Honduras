@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T04:44:51.464Z",
-  "total_chats": 418,
+  "scored_at": "2026-04-24T04:50:01.770Z",
+  "total_chats": 421,
   "total_agents": 25,
   "agents": [
     {
@@ -7638,11 +7638,56 @@
           "raw_transcript": "[04:36:16 AM] Customer: Full Name: Angela Chaisson-pomerleau Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: Still can’t redeem\n[04:36:16 AM] Customer: Full Name: Angela Chaisson-pomerleau Email Address: Uh.nope.4@gmail.com Subject / How can we help you?: Still can’t redeem\n[04:36:26 AM] Cairo Osorto: Thanks for contacting.\n[04:36:26 AM] Cairo Osorto: Thanks for contacting.\n[04:38:12 AM] Customer: FINALLY it’s working\n[04:38:12 AM] Customer: FINALLY it’s working\n[04:38:32 AM] Customer: If they would’ve just listened in the first place.\n[04:38:32 AM] Customer: If they would’ve just listened in the first place.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:39:49.902Z"
+        },
+        {
+          "chat_id": "2047533625879867392",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-24T04:48:20.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Minimal greeting with no personalization, warmth, or agent name introduction - just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the issue but failed to ask clarifying questions about which promotion the customer had or verify the specific terms they were shown."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent provided conflicting information ($70 vs customer's $30 promotion) without investigating the discrepancy, verifying account details, or escalating the dispute appropriately."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Repetitive apologies without substance, failed to address customer's legitimate concern about the promotion discrepancy, and closed prematurely while customer was clearly frustrated."
+            },
+            "compliance": {
+              "score": 6,
+              "notes": "Provided policy information but failed to verify which specific promotion applied to this customer, creating potential compliance issues around promotional terms."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed the chat while customer was actively disputing the information and expressing frustration, without resolution or proper escalation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 42,
+          "grade": "F",
+          "summary": "Agent provided poor service by insisting on a $70 requirement when the customer's promotion stated $30, without investigating the discrepancy or checking the customer's specific offer. The agent closed the chat prematurely while the customer was frustrated and the issue remained unresolved.",
+          "coaching_tip": "When a customer disputes promotional terms, always verify their specific offer in the system before contradicting them - investigate discrepancies rather than repeatedly apologizing and closing without resolution.",
+          "website": "Jackpot Daily",
+          "message_count": 38,
+          "raw_transcript": "[04:30:32 AM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Missing referral bonus\n[04:30:32 AM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Missing referral bonus\n[04:30:40 AM] Cairo Osorto: Thanks for contacting.\n[04:30:40 AM] Cairo Osorto: Thanks for contacting.\n[04:31:43 AM] t1399485029: The person I referred has completed all the steps but I haven’t received any bonus\n[04:31:43 AM] t1399485029: The person I referred has completed all the steps but I haven’t received any bonus\n[04:32:26 AM] Cairo Osorto: I see, sorry to hear that.\n[04:32:26 AM] Cairo Osorto: I see, sorry to hear that.\n[04:33:14 AM] t1399485029: Will you be able to help\n[04:33:14 AM] t1399485029: Will you be able to help\n[04:34:35 AM] Cairo Osorto: I'm here, thanks for waiting.\n[04:34:35 AM] Cairo Osorto: I'm here, thanks for waiting.\n[04:34:52 AM] t1399485029: Sure\n[04:34:52 AM] t1399485029: Sure\n[04:36:02 AM] Cairo Osorto: Apologies - I see that you've reached out to us many times about this and I was able to quickly review your former conversations, but I must confirm that it is strictly necessary that your referral makes purchases equivalent to or totalling up to $70 in order for you to receive the bonus.\n[04:36:02 AM] Cairo Osorto: Apologies - I see that you've reached out to us many times about this and I was able to quickly review your former conversations, but I must confirm that it is strictly necessary that your referral makes purchases equivalent to or totalling up to $70 in order for you to receive the bonus.\n[04:36:39 AM] t1399485029: My promotion only says $30\n[04:36:39 AM] t1399485029: My promotion only says $30\n[04:37:13 AM] Cairo Osorto: We sincerely apologize for any misunderstandings that might've arised from previous interactions with our team. Is there anything else I may assist you with this evening?\n[04:37:13 AM] Cairo Osorto: We sincerely apologize for any misunderstandings that might've arised from previous interactions with our team. Is there anything else I may assist you with this evening?\n[04:38:05 AM] t1399485029: Yes my promotion says that they only have to spend$30\n[04:38:05 AM] t1399485029: Yes my promotion says that they only have to spend$30\n[04:38:36 AM] Cairo Osorto: I understand.\n[04:38:36 AM] Cairo Osorto: I understand.\n[04:39:01 AM] t1399485029: So what amount is it then\n[04:39:01 AM] t1399485029: So what amount is it then\n[04:40:09 AM] Cairo Osorto: I reiterate our apologies on behalf of our team. The amount is $70 that can be either a single purchase of that value or higher or multiples purchases amounting up to $70.\n[04:40:09 AM] Cairo Osorto: I reiterate our apologies on behalf of our team. The amount is $70 that can be either a single purchase of that value or higher or multiples purchases amounting up to $70.\n[04:40:49 AM] Cairo Osorto: (For example: $40 and $30) Is there anything else I may be able to help with tonight?\n[04:40:49 AM] Cairo Osorto: (For example: $40 and $30) Is there anything else I may be able to help with tonight?\n[04:42:42 AM] t1399485029: No bc this is bullshit. No where on the referral bonus promotion does it say anything about $70. Where are you seeing this\n[04:42:42 AM] t1399485029: No bc this is bullshit. No where on the referral bonus promotion does it say anything about $70. Where are you seeing this\n[04:45:44 AM] Cairo Osorto: That is stipulated in the terms and conditions of the platform. I reiterate our apologies on behalf of our team.\n[04:45:44 AM] Cairo Osorto: That is stipulated in the terms and conditions of the platform. I reiterate our apologies on behalf of our team.\n[04:46:13 AM] Cairo Osorto: Is there anything else I can help you with tonight?\n[04:46:13 AM] Cairo Osorto: Is there anything else I can help you with tonight?\n[04:48:12 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:48:12 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:49:42.091Z"
         }
       ],
-      "avg_score": 59,
+      "avg_score": 58,
       "grade": "F",
-      "trend": 5
+      "trend": 4
     },
     {
       "id": "5669",
@@ -8781,11 +8826,56 @@
           "raw_transcript": "[04:28:10 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:28:10 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:28:36 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:28:36 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:31:12 AM] Oscar Zelaya: Hey linklogz12345  !\n\nSorry to hear that — let’s get this sorted for you \nThe no-deposit welcome bonus is usually credited after you complete:\nEmail verification\nPhone verification\nOnce both are done, you should receive your 2 SC + 100,000 GC automatically.\nIf you didn’t receive it, let’s check a couple things:\nHave you completed both email and phone verification?\nWhen did you sign up?\nIf everything is completed and it’s still not there, no worries — I’ll review your account and make sure you get what you’re entitled to\n[04:31:12 AM] Oscar Zelaya: Hey linklogz12345  !\n\nSorry to hear that — let’s get this sorted for you \nThe no-deposit welcome bonus is usually credited after you complete:\nEmail verification\nPhone verification\nOnce both are done, you should receive your 2 SC + 100,000 GC automatically.\nIf you didn’t receive it, let’s check a couple things:\nHave you completed both email and phone verification?\nWhen did you sign up?\nIf everything is completed and it’s still not there, no worries — I’ll review your account and make sure you get what you’re entitled to\n[04:32:13 AM] t7111290234: Yes\n[04:32:13 AM] t7111290234: Yes\n[04:32:32 AM] t7111290234: Signed up just now\n[04:32:32 AM] t7111290234: Signed up just now\n[04:33:32 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[04:33:32 AM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[04:33:56 AM] t7111290234: Yes\n[04:33:56 AM] t7111290234: Yes\n[04:34:36 AM] Oscar Zelaya: Thank you for the help.\n[04:34:36 AM] Oscar Zelaya: Thank you for the help.\n[04:36:03 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:36:03 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:37:00 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:37:00 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:39:58.943Z"
+        },
+        {
+          "chat_id": "2047535376457101312",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-24T04:45:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all initially; agent jumped straight to 'Please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent identified verification as the issue but didn't confirm which steps customer had actually completed despite customer stating they verified phone and email."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided KYC instructions but failed to address customer's claim of already completing email/phone verification or investigate why bonus wasn't credited if those were done."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Instructions were clear but agent talked past the customer's repeated statement about already verifying phone and email, showing poor active listening."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; correctly explained verification requirements and bonus crediting process."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "Asked 'anything else' prematurely while customer was still explaining their issue, then transcript cuts off with no proper closure."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 50,
+          "grade": "F",
+          "summary": "Agent provided standard KYC verification instructions but failed to actively listen when customer stated they had already verified phone and email. The premature closing attempt and lack of investigation into the customer's specific situation resulted in an incomplete resolution.",
+          "coaching_tip": "When a customer contradicts your initial assessment, pause and investigate their account status before repeating generic instructions—verify what steps they've actually completed and troubleshoot accordingly.",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "raw_transcript": "[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:40:14 AM] t7111290234: Ok\n[04:40:14 AM] t7111290234: Ok\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:50:01.270Z"
         }
       ],
       "avg_score": 56,
       "grade": "F",
-      "trend": 7
+      "trend": 6
     },
     {
       "id": "5670",
@@ -16854,11 +16944,56 @@
           "raw_transcript": "[04:32:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:32:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:32:17 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:32:17 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:32:25 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:32:25 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:33:18 AM] t0038884144: so I was reward like at least 60 free spins for sugar bang 2 by completing task.\n[04:33:18 AM] t0038884144: so I was reward like at least 60 free spins for sugar bang 2 by completing task.\n[04:33:43 AM] t0038884144: Never have experienced such blatant bs .\n[04:33:43 AM] t0038884144: Never have experienced such blatant bs .\n[04:34:05 AM] t0038884144: I bet won less than a dollar\n[04:34:05 AM] t0038884144: I bet won less than a dollar\n[04:34:10 AM] t0038884144: if\n[04:34:10 AM] Ana Erazo: Give me a moment to review this information.\n[04:34:10 AM] t0038884144: if\n[04:34:10 AM] Ana Erazo: Give me a moment to review this information.\n[04:34:29 AM] t0038884144: so it's obvious those free spins are rigged\n[04:34:29 AM] t0038884144: so it's obvious those free spins are rigged\n[04:34:37 AM] t0038884144: if you go\n[04:34:37 AM] t0038884144: if you go\n[04:35:08 AM] t0038884144: guys are going to pull that crap just keep the god damn free spins\n[04:35:08 AM] t0038884144: guys are going to pull that crap just keep the god damn free spins\n[04:35:27 AM] t0038884144: it's the s\n[04:35:27 AM] t0038884144: it's the s\n[04:35:40 AM] Ana Erazo: Can you please share a screenshot?\n[04:35:40 AM] Ana Erazo: Can you please share a screenshot?\n[04:36:46 AM] t0038884144: last 2 sets of 15 free spins on that game I won a total of 8 cents . I won 4 cents twice with the exact same pattern\n[04:36:46 AM] t0038884144: last 2 sets of 15 free spins on that game I won a total of 8 cents . I won 4 cents twice with the exact same pattern\n[04:37:04 AM] t0038884144: do you know where I can get a time machine at so I can go back in time and take screenshots of it? why would I have screenshots? give me a break\n[04:37:04 AM] t0038884144: do you know where I can get a time machine at so I can go back in time and take screenshots of it? why would I have screenshots? give me a break\n[04:37:29 AM] t0038884144: things cuz last night or the other night I cashed out over $800 and I'm probably putting a database and not allowed to win now cuz I can't get over $100 every time I try to play you freaking cheaters\n[04:37:29 AM] t0038884144: things cuz last night or the other night I cashed out over $800 and I'm probably putting a database and not allowed to win now cuz I can't get over $100 every time I try to play you freaking cheaters\n[04:37:38 AM] t0038884144: Where's my playback?\n[04:37:38 AM] t0038884144: Where's my playback?\n[04:39:20 AM] Ana Erazo: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[04:39:20 AM] Ana Erazo: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T04:44:50.963Z"
+        },
+        {
+          "chat_id": "2047536185890091008",
+          "agent_name": "Ana Erazo",
+          "agent_id": "5836",
+          "timestamp": "2026-04-24T04:47:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided; agent jumped directly to account review without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 6,
+              "notes": "Agent did not ask any clarifying questions about the vague 'support agent' inquiry or the apology message."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution attempted; agent checked account but never addressed the customer's unclear concern or provided any assistance."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Agent's messages were professional but failed to engage with the customer's actual statements or clarify their needs."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations, but the interaction lacked substance to fully evaluate adherence to protocols."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closing was polite but premature given no issue was addressed or resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 39,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer, did not investigate the unclear inquiry, and closed the chat without providing any meaningful assistance. The interaction shows a complete lack of issue discovery and resolution despite professional tone.",
+          "coaching_tip": "Always start with a proper greeting and ask clarifying questions when customer inquiries are unclear before checking accounts or closing the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[04:40:42 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:40:42 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:41:07 AM] t0038884144: I'm so sorry if I hurt your feelings\n[04:41:07 AM] t0038884144: I'm so sorry if I hurt your feelings\n[04:41:22 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:41:22 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:43:22 AM] Ana Erazo: Are you still there?\n[04:43:22 AM] Ana Erazo: Are you still there?\n[04:47:36 AM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[04:47:36 AM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T04:49:50.928Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -7
+      "trend": -18
     },
     {
       "id": "5840",
@@ -37849,6 +37984,141 @@
       "raw_transcript": "[04:32:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:32:03 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:32:17 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:32:17 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:32:25 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:32:25 AM] Ana Erazo: Hi ! My name is Brittany I will be assisting you.\n[04:33:18 AM] t0038884144: so I was reward like at least 60 free spins for sugar bang 2 by completing task.\n[04:33:18 AM] t0038884144: so I was reward like at least 60 free spins for sugar bang 2 by completing task.\n[04:33:43 AM] t0038884144: Never have experienced such blatant bs .\n[04:33:43 AM] t0038884144: Never have experienced such blatant bs .\n[04:34:05 AM] t0038884144: I bet won less than a dollar\n[04:34:05 AM] t0038884144: I bet won less than a dollar\n[04:34:10 AM] t0038884144: if\n[04:34:10 AM] Ana Erazo: Give me a moment to review this information.\n[04:34:10 AM] t0038884144: if\n[04:34:10 AM] Ana Erazo: Give me a moment to review this information.\n[04:34:29 AM] t0038884144: so it's obvious those free spins are rigged\n[04:34:29 AM] t0038884144: so it's obvious those free spins are rigged\n[04:34:37 AM] t0038884144: if you go\n[04:34:37 AM] t0038884144: if you go\n[04:35:08 AM] t0038884144: guys are going to pull that crap just keep the god damn free spins\n[04:35:08 AM] t0038884144: guys are going to pull that crap just keep the god damn free spins\n[04:35:27 AM] t0038884144: it's the s\n[04:35:27 AM] t0038884144: it's the s\n[04:35:40 AM] Ana Erazo: Can you please share a screenshot?\n[04:35:40 AM] Ana Erazo: Can you please share a screenshot?\n[04:36:46 AM] t0038884144: last 2 sets of 15 free spins on that game I won a total of 8 cents . I won 4 cents twice with the exact same pattern\n[04:36:46 AM] t0038884144: last 2 sets of 15 free spins on that game I won a total of 8 cents . I won 4 cents twice with the exact same pattern\n[04:37:04 AM] t0038884144: do you know where I can get a time machine at so I can go back in time and take screenshots of it? why would I have screenshots? give me a break\n[04:37:04 AM] t0038884144: do you know where I can get a time machine at so I can go back in time and take screenshots of it? why would I have screenshots? give me a break\n[04:37:29 AM] t0038884144: things cuz last night or the other night I cashed out over $800 and I'm probably putting a database and not allowed to win now cuz I can't get over $100 every time I try to play you freaking cheaters\n[04:37:29 AM] t0038884144: things cuz last night or the other night I cashed out over $800 and I'm probably putting a database and not allowed to win now cuz I can't get over $100 every time I try to play you freaking cheaters\n[04:37:38 AM] t0038884144: Where's my playback?\n[04:37:38 AM] t0038884144: Where's my playback?\n[04:39:20 AM] Ana Erazo: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[04:39:20 AM] Ana Erazo: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T04:44:50.963Z"
+    },
+    {
+      "chat_id": "2047533625879867392",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-24T04:48:20.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Minimal greeting with no personalization, warmth, or agent name introduction - just 'Thanks for contacting.'"
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent acknowledged the issue but failed to ask clarifying questions about which promotion the customer had or verify the specific terms they were shown."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "Agent provided conflicting information ($70 vs customer's $30 promotion) without investigating the discrepancy, verifying account details, or escalating the dispute appropriately."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Repetitive apologies without substance, failed to address customer's legitimate concern about the promotion discrepancy, and closed prematurely while customer was clearly frustrated."
+        },
+        "compliance": {
+          "score": 6,
+          "notes": "Provided policy information but failed to verify which specific promotion applied to this customer, creating potential compliance issues around promotional terms."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Closed the chat while customer was actively disputing the information and expressing frustration, without resolution or proper escalation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 42,
+      "grade": "F",
+      "summary": "Agent provided poor service by insisting on a $70 requirement when the customer's promotion stated $30, without investigating the discrepancy or checking the customer's specific offer. The agent closed the chat prematurely while the customer was frustrated and the issue remained unresolved.",
+      "coaching_tip": "When a customer disputes promotional terms, always verify their specific offer in the system before contradicting them - investigate discrepancies rather than repeatedly apologizing and closing without resolution.",
+      "website": "Jackpot Daily",
+      "message_count": 38,
+      "raw_transcript": "[04:30:32 AM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Missing referral bonus\n[04:30:32 AM] t1399485029: Full Name: t1399485029 Email Address: sanddmann2315@gmail.com Subject / How can we help you?: Missing referral bonus\n[04:30:40 AM] Cairo Osorto: Thanks for contacting.\n[04:30:40 AM] Cairo Osorto: Thanks for contacting.\n[04:31:43 AM] t1399485029: The person I referred has completed all the steps but I haven’t received any bonus\n[04:31:43 AM] t1399485029: The person I referred has completed all the steps but I haven’t received any bonus\n[04:32:26 AM] Cairo Osorto: I see, sorry to hear that.\n[04:32:26 AM] Cairo Osorto: I see, sorry to hear that.\n[04:33:14 AM] t1399485029: Will you be able to help\n[04:33:14 AM] t1399485029: Will you be able to help\n[04:34:35 AM] Cairo Osorto: I'm here, thanks for waiting.\n[04:34:35 AM] Cairo Osorto: I'm here, thanks for waiting.\n[04:34:52 AM] t1399485029: Sure\n[04:34:52 AM] t1399485029: Sure\n[04:36:02 AM] Cairo Osorto: Apologies - I see that you've reached out to us many times about this and I was able to quickly review your former conversations, but I must confirm that it is strictly necessary that your referral makes purchases equivalent to or totalling up to $70 in order for you to receive the bonus.\n[04:36:02 AM] Cairo Osorto: Apologies - I see that you've reached out to us many times about this and I was able to quickly review your former conversations, but I must confirm that it is strictly necessary that your referral makes purchases equivalent to or totalling up to $70 in order for you to receive the bonus.\n[04:36:39 AM] t1399485029: My promotion only says $30\n[04:36:39 AM] t1399485029: My promotion only says $30\n[04:37:13 AM] Cairo Osorto: We sincerely apologize for any misunderstandings that might've arised from previous interactions with our team. Is there anything else I may assist you with this evening?\n[04:37:13 AM] Cairo Osorto: We sincerely apologize for any misunderstandings that might've arised from previous interactions with our team. Is there anything else I may assist you with this evening?\n[04:38:05 AM] t1399485029: Yes my promotion says that they only have to spend$30\n[04:38:05 AM] t1399485029: Yes my promotion says that they only have to spend$30\n[04:38:36 AM] Cairo Osorto: I understand.\n[04:38:36 AM] Cairo Osorto: I understand.\n[04:39:01 AM] t1399485029: So what amount is it then\n[04:39:01 AM] t1399485029: So what amount is it then\n[04:40:09 AM] Cairo Osorto: I reiterate our apologies on behalf of our team. The amount is $70 that can be either a single purchase of that value or higher or multiples purchases amounting up to $70.\n[04:40:09 AM] Cairo Osorto: I reiterate our apologies on behalf of our team. The amount is $70 that can be either a single purchase of that value or higher or multiples purchases amounting up to $70.\n[04:40:49 AM] Cairo Osorto: (For example: $40 and $30) Is there anything else I may be able to help with tonight?\n[04:40:49 AM] Cairo Osorto: (For example: $40 and $30) Is there anything else I may be able to help with tonight?\n[04:42:42 AM] t1399485029: No bc this is bullshit. No where on the referral bonus promotion does it say anything about $70. Where are you seeing this\n[04:42:42 AM] t1399485029: No bc this is bullshit. No where on the referral bonus promotion does it say anything about $70. Where are you seeing this\n[04:45:44 AM] Cairo Osorto: That is stipulated in the terms and conditions of the platform. I reiterate our apologies on behalf of our team.\n[04:45:44 AM] Cairo Osorto: That is stipulated in the terms and conditions of the platform. I reiterate our apologies on behalf of our team.\n[04:46:13 AM] Cairo Osorto: Is there anything else I can help you with tonight?\n[04:46:13 AM] Cairo Osorto: Is there anything else I can help you with tonight?\n[04:48:12 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[04:48:12 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:49:42.091Z"
+    },
+    {
+      "chat_id": "2047536185890091008",
+      "agent_name": "Ana Erazo",
+      "agent_id": "5836",
+      "timestamp": "2026-04-24T04:47:39.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided; agent jumped directly to account review without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 6,
+          "notes": "Agent did not ask any clarifying questions about the vague 'support agent' inquiry or the apology message."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No resolution attempted; agent checked account but never addressed the customer's unclear concern or provided any assistance."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Agent's messages were professional but failed to engage with the customer's actual statements or clarify their needs."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations, but the interaction lacked substance to fully evaluate adherence to protocols."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closing was polite but premature given no issue was addressed or resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 39,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer, did not investigate the unclear inquiry, and closed the chat without providing any meaningful assistance. The interaction shows a complete lack of issue discovery and resolution despite professional tone.",
+      "coaching_tip": "Always start with a proper greeting and ask clarifying questions when customer inquiries are unclear before checking accounts or closing the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[04:40:42 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:40:42 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:41:07 AM] t0038884144: I'm so sorry if I hurt your feelings\n[04:41:07 AM] t0038884144: I'm so sorry if I hurt your feelings\n[04:41:22 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:41:22 AM] Ana Erazo: Bear with me for just a moment while I take a look at your account!\n[04:43:22 AM] Ana Erazo: Are you still there?\n[04:43:22 AM] Ana Erazo: Are you still there?\n[04:47:36 AM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[04:47:36 AM] Ana Erazo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:49:50.928Z"
+    },
+    {
+      "chat_id": "2047535376457101312",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-24T04:45:33.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all initially; agent jumped straight to 'Please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent identified verification as the issue but didn't confirm which steps customer had actually completed despite customer stating they verified phone and email."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided KYC instructions but failed to address customer's claim of already completing email/phone verification or investigate why bonus wasn't credited if those were done."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Instructions were clear but agent talked past the customer's repeated statement about already verifying phone and email, showing poor active listening."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; correctly explained verification requirements and bonus crediting process."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "Asked 'anything else' prematurely while customer was still explaining their issue, then transcript cuts off with no proper closure."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 50,
+      "grade": "F",
+      "summary": "Agent provided standard KYC verification instructions but failed to actively listen when customer stated they had already verified phone and email. The premature closing attempt and lack of investigation into the customer's specific situation resulted in an incomplete resolution.",
+      "coaching_tip": "When a customer contradicts your initial assessment, pause and investigate their account status before repeating generic instructions—verify what steps they've actually completed and troubleshoot accordingly.",
+      "website": "Jackpot Daily",
+      "message_count": 26,
+      "raw_transcript": "[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:29 AM] t7111290234: Full Name: t7111290234 Email Address: linklogz12345@gmail.com Subject / How can we help you?: Didn't give me my no deposit welcome bonus\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:37:55 AM] t7111290234: Screenshot_20260423-233700_Google.png\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:12 AM] t7111290234: Didn't give me nothing... says 0\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:38:22 AM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[04:40:14 AM] t7111290234: Ok\n[04:40:14 AM] t7111290234: Ok\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:41:47 AM] Oscar Zelaya: Hey linklogz12345 !\nThanks for reaching out \nIt looks like your account hasn’t been fully verified yet, which is why the welcome bonus isn’t available to claim at the moment.\nTo unlock your welcome bonus, please make sure you complete the verification steps:\nVerify your email address\nVerify your phone number\nComplete KYC verification (if prompted)\nOnce everything is completed, your bonus will be credited automatically\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:15 AM] t7111290234: I verified my phone and email\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:42:37 AM] t7111290234: I veried phone and email\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:43:19 AM] Oscar Zelaya: Here's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload\nsteps.\nIt usually takes a few minutes to an hour. Let me know if you hit any snags\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:15 AM] Oscar Zelaya: You’ll need to complete all the required steps in order to proceed. Once everything is completed, you’ll be able to access the feature without any issues\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:44:23 AM] Oscar Zelaya: Is there anything else I can help you with today?\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:45:29 AM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T04:50:01.270Z"
     }
   ]
 }
