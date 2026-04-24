@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T22:24:58.186Z",
-  "total_chats": 594,
+  "scored_at": "2026-04-24T22:30:02.415Z",
+  "total_chats": 597,
   "total_agents": 26,
   "agents": [
     {
@@ -6630,11 +6630,56 @@
           "raw_transcript": "[11:48:26 PM] t5962389448: Full Name: t5962389448 Email Address: josiebrow2992@gmail.com Subject / How can we help you?: Why can't I receive my registration bonus?\n[11:48:45 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:51:55 PM] Daniel Ayestas: Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\n\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 5 days after being issued, so grab it soon!\n\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[11:54:54 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[11:58:12 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "model_used": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T10:18:14.836Z"
+        },
+        {
+          "chat_id": "2047802612497346560",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-24T22:29:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying question about payment method (ACH vs Card) which was relevant, though could have probed more about the specific error message."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps for refresh/cache clearing, but didn't confirm if the solution worked or offer escalation if it didn't."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional instructions, but multiple 'please allow me one moment' messages felt repetitive and the long wait times weren't well managed."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected; stayed within appropriate support boundaries."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closing with well-wishes, though didn't confirm the issue was actually resolved before closing."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent provided standard technical troubleshooting steps for a redemption issue but failed to greet the customer initially and didn't confirm resolution before closing. Communication was professional but wait times were long with repetitive holding messages.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, and before closing, confirm the solution worked or offer alternative next steps if the issue persists.",
+          "website": "Jackpot Daily",
+          "message_count": 36,
+          "raw_transcript": "[10:19:23 PM] t3276656367: Full Name: t3276656367 Email Address: ksd31553@yahoo.com Subject / How can we help you?: It was telling me I could redeem and moe it’s not letting me\n[10:19:23 PM] t3276656367: Full Name: t3276656367 Email Address: ksd31553@yahoo.com Subject / How can we help you?: It was telling me I could redeem and moe it’s not letting me\n[10:20:22 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:20:22 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:21:13 PM] t3276656367: Ol\n[10:21:13 PM] t3276656367: Ol\n[10:21:16 PM] t3276656367: ok\n[10:21:16 PM] t3276656367: ok\n[10:22:00 PM] Daniel Ayestas: To help us assist you more efficiently, could you please confirm which method you are using — ACH or Card network?\n[10:22:00 PM] Daniel Ayestas: To help us assist you more efficiently, could you please confirm which method you are using — ACH or Card network?\n[10:22:25 PM] t3276656367: Ach I guess\n[10:22:25 PM] t3276656367: Ach I guess\n[10:22:48 PM] t3276656367: that’s what it said\n[10:22:48 PM] t3276656367: that’s what it said\n[10:23:13 PM] Daniel Ayestas: Give me a moment to review this information.\n[10:23:13 PM] Daniel Ayestas: Give me a moment to review this information.\n[10:23:25 PM] t3276656367: ok\n[10:23:25 PM] t3276656367: ok\n[10:25:08 PM] t3276656367: Ok\n[10:25:08 PM] t3276656367: Ok\n[10:25:28 PM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[10:25:28 PM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[10:25:42 PM] t3276656367: Ok\n[10:25:42 PM] t3276656367: Ok\n[10:27:49 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:27:49 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:28:01 PM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n[10:28:01 PM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n[10:28:51 PM] t3276656367: Ok\n[10:28:51 PM] t3276656367: Ok\n[10:28:56 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[10:28:56 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[10:29:06 PM] t3276656367: No thanks\n[10:29:06 PM] t3276656367: No thanks\n[10:29:13 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:29:13 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T22:29:43.127Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": 2
+      "trend": 4
     },
     {
       "id": "5802",
@@ -9762,11 +9807,56 @@
           "raw_transcript": "[10:11:23 PM] Customer: Full Name: Nichole Long Email Address: 68nal86@gmail.com Subject / How can we help you?: Redemptions\n[10:11:23 PM] Customer: Full Name: Nichole Long Email Address: 68nal86@gmail.com Subject / How can we help you?: Redemptions\n[10:11:39 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:11:39 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:11:57 PM] Jonathan Fuentes: How can I help you regarding your redemptions?\n[10:11:57 PM] Jonathan Fuentes: How can I help you regarding your redemptions?\n[10:13:33 PM] Customer: Got a redemption for $300, approved 4/19. Does it always take this long to receive it.\n[10:13:33 PM] Customer: Got a redemption for $300, approved 4/19. Does it always take this long to receive it.\n[10:14:22 PM] Jonathan Fuentes: Thank you for reaching out!\n\nAt the moment, redemptions are processed via ACH transfer. These typically take up to 10 business days to be completed, as they go through both our processing system and your bank’s processing times.\n\nPlease keep in mind that weekends are not counted as business days, so this can extend the overall timeframe slightly.\n[10:14:22 PM] Jonathan Fuentes: Thank you for reaching out!\n\nAt the moment, redemptions are processed via ACH transfer. These typically take up to 10 business days to be completed, as they go through both our processing system and your bank’s processing times.\n\nPlease keep in mind that weekends are not counted as business days, so this can extend the overall timeframe slightly.\n[10:14:45 PM] Jonathan Fuentes: If you have any other questions, feel free to let me know.\n[10:14:45 PM] Jonathan Fuentes: If you have any other questions, feel free to let me know.\n[10:15:56 PM] Customer: This the only casino that has a long process. So is it because it is the 1st redemption?\n[10:15:56 PM] Customer: This the only casino that has a long process. So is it because it is the 1st redemption?\n[10:17:28 PM] Jonathan Fuentes: Not at all — it’s not because it’s your first redemption. That timeframe is simply the standard processing time for ACH transfers.\n\nIn most cases, players actually receive their funds sooner, but we provide that estimate to account for bank processing times on both ends.\n[10:17:28 PM] Jonathan Fuentes: Not at all — it’s not because it’s your first redemption. That timeframe is simply the standard processing time for ACH transfers.\n\nIn most cases, players actually receive their funds sooner, but we provide that estimate to account for bank processing times on both ends.\n[10:18:35 PM] Jonathan Fuentes: We completely understand your concern, and we want you to know that we’re actively working on enabling additional redemption methods that may be faster in the future. In the meantime, we truly appreciate your patience\n[10:18:35 PM] Jonathan Fuentes: We completely understand your concern, and we want you to know that we’re actively working on enabling additional redemption methods that may be faster in the future. In the meantime, we truly appreciate your patience\n[10:18:39 PM] Customer: Alright\n[10:18:39 PM] Customer: Alright\n[10:18:57 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[10:18:57 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[10:19:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:19:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T22:24:57.685Z"
+        },
+        {
+          "chat_id": "2047803416846839808",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-24T22:28:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, agent jumped directly to asking for time without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 4,
+              "notes": "Agent failed to acknowledge the serious complaint about redemptions and referrals, only asked for email already provided in form."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted; agent abruptly closed chat while customer was waiting, leaving all issues unaddressed."
+            },
+            "communication": {
+              "score": 5,
+              "notes": "Agent provided only generic holding statements and failed to acknowledge customer's frustration or the substance of their complaint."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No policy violations, but failed to properly handle escalation-worthy complaint about payment processing."
+            },
+            "closing": {
+              "score": 1,
+              "notes": "Agent closed chat prematurely with generic template while customer was still waiting for help, completely inappropriate given context."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 20,
+          "grade": "F",
+          "summary": "Agent completely failed to address a serious complaint about redemption issues and referral payments. The chat was closed prematurely with a generic template message while the customer was waiting, providing zero resolution or acknowledgment of the concerns raised.",
+          "coaching_tip": "Never close a chat while a customer is waiting for a response, especially on serious payment complaints that require escalation to management or the payments team.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[10:22:35 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site . I DIDNT ASK ABOUT A DEPOSIT MADW TO MY ACCOUNT DO YALL UNDERSTAND ENGLISH\n[10:22:35 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site . I DIDNT ASK ABOUT A DEPOSIT MADW TO MY ACCOUNT DO YALL UNDERSTAND ENGLISH\n[10:22:47 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:22:47 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:25:11 PM] Jonathan Fuentes: Please allow me one moment to look all this information for you!\n[10:25:11 PM] Jonathan Fuentes: Please allow me one moment to look all this information for you!\n[10:26:22 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:26:22 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:28:09 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:28:09 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T22:29:52.950Z"
         }
       ],
-      "avg_score": 60,
-      "grade": "D",
-      "trend": 8
+      "avg_score": 59,
+      "grade": "F",
+      "trend": -11
     },
     {
       "id": "5844",
@@ -13200,11 +13290,56 @@
           "raw_transcript": "[10:06:08 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site .\n[10:06:08 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site .\n[10:06:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:06:26 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:10:06 PM] t1110271063: K\n[10:10:06 PM] t1110271063: K\n[10:10:07 PM] Oscar Zelaya: Hey {{ticket.requester.first_name}}!\n\nHi brittanicarrasco98 Thanks for bringing this up \n\nCould you please let me know how many referrals you’ve noticed with pending payouts?\nIf possible, please also share a screenshot of what you’re seeing — that will help me review the cases more accurately and assist you faster 🔍\nI’ll take a closer look as soon as I have that information. I’ve got you on this\n[10:10:47 PM] t1110271063: One of my referrals which is a well know casino streamer for mcluck waited over a week for his redemption ! And it still hasn’t processed !\n[10:10:47 PM] t1110271063: One of my referrals which is a well know casino streamer for mcluck waited over a week for his redemption ! And it still hasn’t processed !\n[10:10:50 PM] Oscar Zelaya: Hey brittanicarrasco98 !\n\nThanks for bringing this up \n\nCould you please let me know how many referrals you’ve noticed with pending payouts?\nIf possible, please also share a screenshot of what you’re seeing — that will help me review the cases more accurately and assist you faster 🔍\nI’ll take a closer look as soon as I have that information. I’ve got you on this\n[10:10:50 PM] Oscar Zelaya: Hey brittanicarrasco98 !\n\nThanks for bringing this up \n\nCould you please let me know how many referrals you’ve noticed with pending payouts?\nIf possible, please also share a screenshot of what you’re seeing — that will help me review the cases more accurately and assist you faster 🔍\nI’ll take a closer look as soon as I have that information. I’ve got you on this\n[10:11:37 PM] t1110271063: I’ve redeemed a few times and got it in a few hrs and now all of a sudden when I have money sitting in my account I can’t even get a small redemption approved in the typical time frame\n[10:11:37 PM] t1110271063: I’ve redeemed a few times and got it in a few hrs and now all of a sudden when I have money sitting in my account I can’t even get a small redemption approved in the typical time frame\n[10:12:21 PM] t1110271063: Trust pilot reviews are rolling in from tons of people claiming they haven’t been paid as well, this is terrible for business and terrible for my reputation! I promoted this site so much because I had a good experience with my first few redemptions\n[10:12:21 PM] t1110271063: Trust pilot reviews are rolling in from tons of people claiming they haven’t been paid as well, this is terrible for business and terrible for my reputation! I promoted this site so much because I had a good experience with my first few redemptions\n[10:13:43 PM] Oscar Zelaya: Just to better understand your situation, could you please let me know how much your last redemption was for?\nThat will help me take a closer look and assist you more accurately\n[10:13:43 PM] Oscar Zelaya: Just to better understand your situation, could you please let me know how much your last redemption was for?\nThat will help me take a closer look and assist you more accurately\n[10:13:56 PM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[10:13:56 PM] Oscar Zelaya: If possible, could you please share a screenshot of what you’re seeing on your end? That will help me review the issue more accurately and get this resolved for you as quickly as posible\n[10:15:11 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:15:11 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:15:42 PM] t1110271063: See every time people contact support yall just rush to end the conversation\n[10:15:42 PM] t1110271063: See every time people contact support yall just rush to end the conversation\n[10:16:18 PM] t1110271063: I redeemed 500 waited over night not approved canceled and did 300 this morning still not approved ! Every one of my other redemptions were approved in a few hrs\n[10:16:18 PM] t1110271063: I redeemed 500 waited over night not approved canceled and did 300 this morning still not approved ! Every one of my other redemptions were approved in a few hrs\n[10:16:38 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:16:38 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:17:43 PM] Oscar Zelaya: ’ve taken a look and we still don’t see the deposit reflected on the account just yet.\nNo worries though. Once the deposit is fully received on our end, it will automatically reflect on your account — there’s nothing else you need to do.\nSometimes deposits can take a bit longer depending on the time of day the transaction was made or processing delays with the payment provider, especially outside standard business hours.\nIf it doesn’t show up after a little more time, just let me know and I’ll be happy to look into it further for you.\n[10:17:43 PM] Oscar Zelaya: ’ve taken a look and we still don’t see the deposit reflected on the account just yet.\nNo worries though. Once the deposit is fully received on our end, it will automatically reflect on your account — there’s nothing else you need to do.\nSometimes deposits can take a bit longer depending on the time of day the transaction was made or processing delays with the payment provider, especially outside standard business hours.\nIf it doesn’t show up after a little more time, just let me know and I’ll be happy to look into it further for you.\n[10:18:40 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:18:40 PM] Oscar Zelaya: Is there anything else I can help you with today?\n[10:20:05 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:20:05 PM] Oscar Zelaya: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T22:24:47.969Z"
+        },
+        {
+          "chat_id": "2047804001290121216",
+          "agent_name": "Oscar Zelaya",
+          "agent_id": "5806",
+          "timestamp": "2026-04-24T22:27:20.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with customer name used, though slightly delayed after initial acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked appropriate clarifying questions about the signup bonus issue but could have been more specific about what '$2' refers to."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution provided as chat appears incomplete - agent is still in discovery phase awaiting customer response."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional communication with appropriate request for additional details to troubleshoot effectively."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance issues observed; agent appropriately gathering information before making any commitments."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing present as the conversation is incomplete and still ongoing."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "This transcript captures only the initial phase of a support interaction where the agent acknowledged the issue and requested clarifying information. No resolution or closing occurred as the customer had not yet responded to the agent's follow-up questions.",
+          "coaching_tip": "When customers mention a specific promotional amount (like '$2'), acknowledge it directly and reference the specific promotion to show understanding before asking for clarification.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[10:24:54 PM] t9782676811: Full Name: t9782676811 Email Address: joneskatrina753@gmail.com Subject / How can we help you?: I thought I get 2 when I sign up I didn’t get it\n[10:24:54 PM] t9782676811: Full Name: t9782676811 Email Address: joneskatrina753@gmail.com Subject / How can we help you?: I thought I get 2 when I sign up I didn’t get it\n[10:25:09 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:25:09 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:26:35 PM] Oscar Zelaya: Hey joneskatrina753 !\nCould you please provide a bit more detail about the situation you’re experiencing?\nAny additional information—such as what’s happening, any error messages, or the step where the issue occurs—will help me understand it better and get this resolved for you as quickly as possible\n[10:26:35 PM] Oscar Zelaya: Hey joneskatrina753 !\nCould you please provide a bit more detail about the situation you’re experiencing?\nAny additional information—such as what’s happening, any error messages, or the step where the issue occurs—will help me understand it better and get this resolved for you as quickly as possible",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T22:30:01.913Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 5
+      "trend": 10
     },
     {
       "id": "5842",
@@ -53698,6 +53833,141 @@
       "raw_transcript": "[10:11:23 PM] Customer: Full Name: Nichole Long Email Address: 68nal86@gmail.com Subject / How can we help you?: Redemptions\n[10:11:23 PM] Customer: Full Name: Nichole Long Email Address: 68nal86@gmail.com Subject / How can we help you?: Redemptions\n[10:11:39 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:11:39 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:11:57 PM] Jonathan Fuentes: How can I help you regarding your redemptions?\n[10:11:57 PM] Jonathan Fuentes: How can I help you regarding your redemptions?\n[10:13:33 PM] Customer: Got a redemption for $300, approved 4/19. Does it always take this long to receive it.\n[10:13:33 PM] Customer: Got a redemption for $300, approved 4/19. Does it always take this long to receive it.\n[10:14:22 PM] Jonathan Fuentes: Thank you for reaching out!\n\nAt the moment, redemptions are processed via ACH transfer. These typically take up to 10 business days to be completed, as they go through both our processing system and your bank’s processing times.\n\nPlease keep in mind that weekends are not counted as business days, so this can extend the overall timeframe slightly.\n[10:14:22 PM] Jonathan Fuentes: Thank you for reaching out!\n\nAt the moment, redemptions are processed via ACH transfer. These typically take up to 10 business days to be completed, as they go through both our processing system and your bank’s processing times.\n\nPlease keep in mind that weekends are not counted as business days, so this can extend the overall timeframe slightly.\n[10:14:45 PM] Jonathan Fuentes: If you have any other questions, feel free to let me know.\n[10:14:45 PM] Jonathan Fuentes: If you have any other questions, feel free to let me know.\n[10:15:56 PM] Customer: This the only casino that has a long process. So is it because it is the 1st redemption?\n[10:15:56 PM] Customer: This the only casino that has a long process. So is it because it is the 1st redemption?\n[10:17:28 PM] Jonathan Fuentes: Not at all — it’s not because it’s your first redemption. That timeframe is simply the standard processing time for ACH transfers.\n\nIn most cases, players actually receive their funds sooner, but we provide that estimate to account for bank processing times on both ends.\n[10:17:28 PM] Jonathan Fuentes: Not at all — it’s not because it’s your first redemption. That timeframe is simply the standard processing time for ACH transfers.\n\nIn most cases, players actually receive their funds sooner, but we provide that estimate to account for bank processing times on both ends.\n[10:18:35 PM] Jonathan Fuentes: We completely understand your concern, and we want you to know that we’re actively working on enabling additional redemption methods that may be faster in the future. In the meantime, we truly appreciate your patience\n[10:18:35 PM] Jonathan Fuentes: We completely understand your concern, and we want you to know that we’re actively working on enabling additional redemption methods that may be faster in the future. In the meantime, we truly appreciate your patience\n[10:18:39 PM] Customer: Alright\n[10:18:39 PM] Customer: Alright\n[10:18:57 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[10:18:57 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[10:19:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:19:51 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T22:24:57.685Z"
+    },
+    {
+      "chat_id": "2047802612497346560",
+      "agent_name": "Daniel Ayestas",
+      "agent_id": "5808",
+      "timestamp": "2026-04-24T22:29:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying question about payment method (ACH vs Card) which was relevant, though could have probed more about the specific error message."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps for refresh/cache clearing, but didn't confirm if the solution worked or offer escalation if it didn't."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional instructions, but multiple 'please allow me one moment' messages felt repetitive and the long wait times weren't well managed."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected; stayed within appropriate support boundaries."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closing with well-wishes, though didn't confirm the issue was actually resolved before closing."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent provided standard technical troubleshooting steps for a redemption issue but failed to greet the customer initially and didn't confirm resolution before closing. Communication was professional but wait times were long with repetitive holding messages.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name, and before closing, confirm the solution worked or offer alternative next steps if the issue persists.",
+      "website": "Jackpot Daily",
+      "message_count": 36,
+      "raw_transcript": "[10:19:23 PM] t3276656367: Full Name: t3276656367 Email Address: ksd31553@yahoo.com Subject / How can we help you?: It was telling me I could redeem and moe it’s not letting me\n[10:19:23 PM] t3276656367: Full Name: t3276656367 Email Address: ksd31553@yahoo.com Subject / How can we help you?: It was telling me I could redeem and moe it’s not letting me\n[10:20:22 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:20:22 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:21:13 PM] t3276656367: Ol\n[10:21:13 PM] t3276656367: Ol\n[10:21:16 PM] t3276656367: ok\n[10:21:16 PM] t3276656367: ok\n[10:22:00 PM] Daniel Ayestas: To help us assist you more efficiently, could you please confirm which method you are using — ACH or Card network?\n[10:22:00 PM] Daniel Ayestas: To help us assist you more efficiently, could you please confirm which method you are using — ACH or Card network?\n[10:22:25 PM] t3276656367: Ach I guess\n[10:22:25 PM] t3276656367: Ach I guess\n[10:22:48 PM] t3276656367: that’s what it said\n[10:22:48 PM] t3276656367: that’s what it said\n[10:23:13 PM] Daniel Ayestas: Give me a moment to review this information.\n[10:23:13 PM] Daniel Ayestas: Give me a moment to review this information.\n[10:23:25 PM] t3276656367: ok\n[10:23:25 PM] t3276656367: ok\n[10:25:08 PM] t3276656367: Ok\n[10:25:08 PM] t3276656367: Ok\n[10:25:28 PM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[10:25:28 PM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[10:25:42 PM] t3276656367: Ok\n[10:25:42 PM] t3276656367: Ok\n[10:27:49 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:27:49 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[10:28:01 PM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n[10:28:01 PM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n[10:28:51 PM] t3276656367: Ok\n[10:28:51 PM] t3276656367: Ok\n[10:28:56 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[10:28:56 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[10:29:06 PM] t3276656367: No thanks\n[10:29:06 PM] t3276656367: No thanks\n[10:29:13 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:29:13 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T22:29:43.127Z"
+    },
+    {
+      "chat_id": "2047803416846839808",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-24T22:28:46.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, agent jumped directly to asking for time without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 4,
+          "notes": "Agent failed to acknowledge the serious complaint about redemptions and referrals, only asked for email already provided in form."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted; agent abruptly closed chat while customer was waiting, leaving all issues unaddressed."
+        },
+        "communication": {
+          "score": 5,
+          "notes": "Agent provided only generic holding statements and failed to acknowledge customer's frustration or the substance of their complaint."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No policy violations, but failed to properly handle escalation-worthy complaint about payment processing."
+        },
+        "closing": {
+          "score": 1,
+          "notes": "Agent closed chat prematurely with generic template while customer was still waiting for help, completely inappropriate given context."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 20,
+      "grade": "F",
+      "summary": "Agent completely failed to address a serious complaint about redemption issues and referral payments. The chat was closed prematurely with a generic template message while the customer was waiting, providing zero resolution or acknowledgment of the concerns raised.",
+      "coaching_tip": "Never close a chat while a customer is waiting for a response, especially on serious payment complaints that require escalation to management or the payments team.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[10:22:35 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site . I DIDNT ASK ABOUT A DEPOSIT MADW TO MY ACCOUNT DO YALL UNDERSTAND ENGLISH\n[10:22:35 PM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: So I’m assuming you guys have no intentions of paying out bigger amounts since several of my referrals have had issues getting paid anything over 300$ and now my account isn’t getting redemptions approved either, super disappointing as I’ve brought over 500 players to this site and over 100 have spent more than the referral amount, until I see that you guys are still actively processing redemptions I’m going to inform all of my referrals to avoid this site . I DIDNT ASK ABOUT A DEPOSIT MADW TO MY ACCOUNT DO YALL UNDERSTAND ENGLISH\n[10:22:47 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:22:47 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:25:11 PM] Jonathan Fuentes: Please allow me one moment to look all this information for you!\n[10:25:11 PM] Jonathan Fuentes: Please allow me one moment to look all this information for you!\n[10:26:22 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:26:22 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:28:09 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:28:09 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T22:29:52.950Z"
+    },
+    {
+      "chat_id": "2047804001290121216",
+      "agent_name": "Oscar Zelaya",
+      "agent_id": "5806",
+      "timestamp": "2026-04-24T22:27:20.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with customer name used, though slightly delayed after initial acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked appropriate clarifying questions about the signup bonus issue but could have been more specific about what '$2' refers to."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution provided as chat appears incomplete - agent is still in discovery phase awaiting customer response."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional communication with appropriate request for additional details to troubleshoot effectively."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance issues observed; agent appropriately gathering information before making any commitments."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing present as the conversation is incomplete and still ongoing."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 44,
+      "grade": "F",
+      "summary": "This transcript captures only the initial phase of a support interaction where the agent acknowledged the issue and requested clarifying information. No resolution or closing occurred as the customer had not yet responded to the agent's follow-up questions.",
+      "coaching_tip": "When customers mention a specific promotional amount (like '$2'), acknowledge it directly and reference the specific promotion to show understanding before asking for clarification.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[10:24:54 PM] t9782676811: Full Name: t9782676811 Email Address: joneskatrina753@gmail.com Subject / How can we help you?: I thought I get 2 when I sign up I didn’t get it\n[10:24:54 PM] t9782676811: Full Name: t9782676811 Email Address: joneskatrina753@gmail.com Subject / How can we help you?: I thought I get 2 when I sign up I didn’t get it\n[10:25:09 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:25:09 PM] Oscar Zelaya: Please allow me one moment to look into this for you!\n[10:26:35 PM] Oscar Zelaya: Hey joneskatrina753 !\nCould you please provide a bit more detail about the situation you’re experiencing?\nAny additional information—such as what’s happening, any error messages, or the step where the issue occurs—will help me understand it better and get this resolved for you as quickly as possible\n[10:26:35 PM] Oscar Zelaya: Hey joneskatrina753 !\nCould you please provide a bit more detail about the situation you’re experiencing?\nAny additional information—such as what’s happening, any error messages, or the step where the issue occurs—will help me understand it better and get this resolved for you as quickly as possible",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T22:30:01.913Z"
     }
   ]
 }
