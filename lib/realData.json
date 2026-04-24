@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-24T13:24:56.681Z",
-  "total_chats": 495,
+  "scored_at": "2026-04-24T13:34:55.906Z",
+  "total_chats": 497,
   "total_agents": 26,
   "agents": [
     {
@@ -4011,11 +4011,56 @@
           "raw_transcript": "[12:51:55 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: Hey the game isn't letting me play any games. Why is that? It says it's not working in my region. Can someone please help me with this so that I can play please\n[12:51:55 PM] Customer: Full Name: Jason Williams Email Address: j.willie1@yahoo.com Subject / How can we help you?: Hey the game isn't letting me play any games. Why is that? It says it's not working in my region. Can someone please help me with this so that I can play please\n[12:52:43 PM] Diana Lopez: Hi — I understand your frustration. You want to play, but the game is telling you it's not available in your region.\n\nThis usually means that your location is not currently supported by JackpotDaily. Based on our terms, players from restricted states (California, Connecticut, Delaware, Idaho, Indiana, Louisiana, Maryland, Michigan, Montana, Nevada, New Jersey, New York, Tennessee, Washington, West Virginia) are not eligible to play.\n\nPlease confirm which state you are playing from. If you are not in a restricted state, there may be a technical issue with how your location is being detected.\n\nTry these steps:\n1. Make sure you don't have a VPN or proxy enabled\n2. Enable location services on your device and browser\n3. Try refreshing the page or logging out and back in\n\nIf you are in an eligible state and still see this message, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[12:52:43 PM] Diana Lopez: Hi — I understand your frustration. You want to play, but the game is telling you it's not available in your region.\n\nThis usually means that your location is not currently supported by JackpotDaily. Based on our terms, players from restricted states (California, Connecticut, Delaware, Idaho, Indiana, Louisiana, Maryland, Michigan, Montana, Nevada, New Jersey, New York, Tennessee, Washington, West Virginia) are not eligible to play.\n\nPlease confirm which state you are playing from. If you are not in a restricted state, there may be a technical issue with how your location is being detected.\n\nTry these steps:\n1. Make sure you don't have a VPN or proxy enabled\n2. Enable location services on your device and browser\n3. Try refreshing the page or logging out and back in\n\nIf you are in an eligible state and still see this message, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[12:56:53 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[12:56:53 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T12:59:41.656Z"
+        },
+        {
+          "chat_id": "2047668786905956352",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-24T13:30:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with 'Hi' but did not use customer's name or add warmth."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent effectively clarified the issue by confirming customer can see but cannot click the 3rd purchase deal."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided standard troubleshooting steps and offered escalation if issue persists, which is appropriate for technical issues."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with numbered steps and proper formatting, though slightly template-like."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about purchase pack structure and pricing."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No proper closing provided; chat ends with troubleshooting steps without confirming resolution or offering further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent provided competent technical support with clear troubleshooting steps and accurate information about purchase packs. However, the interaction lacked a proper closing and the agent did not confirm whether the customer's issue was resolved.",
+          "coaching_tip": "Always close the conversation by asking if the troubleshooting steps worked and confirming the customer has no further questions before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[01:27:37 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: I’m trying to buy my 3rd purchase deal\n[01:27:37 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: I’m trying to buy my 3rd purchase deal\n[01:28:25 PM] Diana Lopez: Hi — to buy your 3rd Purchase Deal, you need to have completed both your 1st and 2nd Purchase Packs first. The offers unlock in order.\n\nOnce you've completed the 1st and 2nd, the 3rd Purchase Pack will appear automatically in your promotions section.\n\nHere are the 3rd Purchase Pack options:\n*- $29.99 → 12,000 GC + 60 SC (100% bonus)*\n*- $9.99 → 4,000 GC + 17 SC (70% bonus)*\n*- $49.99 → 20,000 GC + 80 SC (60% bonus)*\n*- $99.99 → 40,000 GC + 140 SC (40% bonus)*\n\nIf you've already completed the 1st and 2nd purchases and still don't see the 3rd offer, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[01:28:25 PM] Diana Lopez: Hi — to buy your 3rd Purchase Deal, you need to have completed both your 1st and 2nd Purchase Packs first. The offers unlock in order.\n\nOnce you've completed the 1st and 2nd, the 3rd Purchase Pack will appear automatically in your promotions section.\n\nHere are the 3rd Purchase Pack options:\n*- $29.99 → 12,000 GC + 60 SC (100% bonus)*\n*- $9.99 → 4,000 GC + 17 SC (70% bonus)*\n*- $49.99 → 20,000 GC + 80 SC (60% bonus)*\n*- $99.99 → 40,000 GC + 140 SC (40% bonus)*\n\nIf you've already completed the 1st and 2nd purchases and still don't see the 3rd offer, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[01:29:25 PM] t9768059934: I have made 2 purchases\n[01:29:25 PM] t9768059934: I have made 2 purchases\n[01:29:46 PM] t9768059934: I see the third but I’m unable to click on it\n[01:29:46 PM] t9768059934: I see the third but I’m unable to click on it\n[01:30:22 PM] Diana Lopez: thank you for letting me know. You can see the 3rd Purchase Deal but you're unable to click on it.\n\nPlease try these steps:\n\n1. Refresh the page and try again\n2. Log out of your account and log back in\n3. Clear your browser's cache and cookies\n4. Try a different browser or device\n\nIf you're still unable to click on it after trying these steps, please let me know and I will make sure our team looks into this for you.\n[01:30:22 PM] Diana Lopez: thank you for letting me know. You can see the 3rd Purchase Deal but you're unable to click on it.\n\nPlease try these steps:\n\n1. Refresh the page and try again\n2. Log out of your account and log back in\n3. Clear your browser's cache and cookies\n4. Try a different browser or device\n\nIf you're still unable to click on it after trying these steps, please let me know and I will make sure our team looks into this for you.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:34:55.406Z"
         }
       ],
       "avg_score": 63,
       "grade": "D",
-      "trend": -3
+      "trend": 3
     },
     {
       "id": "5808",
@@ -15045,11 +15090,56 @@
           "raw_transcript": "[01:07:06 PM] Customer: Full Name: Brandi Cart Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: Yeah I deleted everything for the last 4 weeks in my browser and it's still not working\n[01:07:06 PM] Customer: Full Name: Brandi Cart Email Address: lindsleybrandi@gmail.com Subject / How can we help you?: Yeah I deleted everything for the last 4 weeks in my browser and it's still not working\n[01:08:16 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:08:16 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:08:53 PM] Customer: I've been trying since last night to verify my ID so I can receive my new I mean my appointments for signing up and it won't let me they told me to clear my browser and did that they told me wait two three hours I did that I've done everything out told me to do and it's still not working\n[01:08:53 PM] Customer: I've been trying since last night to verify my ID so I can receive my new I mean my appointments for signing up and it won't let me they told me to clear my browser and did that they told me wait two three hours I did that I've done everything out told me to do and it's still not working\n[01:09:58 PM] Angie Pereira: I am so sorry to hear that at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[01:09:58 PM] Angie Pereira: I am so sorry to hear that at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[01:10:32 PM] Customer: Ok thanks\n[01:10:32 PM] Customer: Ok thanks\n[01:12:28 PM] Angie Pereira: Thanks for chatting with us — good luck out there!\n[01:12:28 PM] Angie Pereira: Thanks for chatting with us — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T13:14:45.773Z"
+        },
+        {
+          "chat_id": "2047666838052843520",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-24T13:32:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though generic without customer name usage."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent identified document submission history but didn't clarify the POA link request or address discrepancy issue before disengaging."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution provided; agent asked about email ticket but never sent the requested POA link or explained next steps."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Multiple delay messages were appropriate, but agent abandoned the conversation without addressing the core request."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No policy violations, but failed to complete the service interaction properly."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed prematurely while customer issue was unresolved and without confirming customer had left."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 46,
+          "grade": "F",
+          "summary": "Agent greeted professionally and acknowledged the request but failed to deliver the POA link or provide any resolution. The conversation was closed prematurely without confirming the customer had disengaged or addressing their urgent need.",
+          "coaching_tip": "Never close a chat without either resolving the customer's request or confirming they've left; if you need to escalate or send a link, complete that action before offering closing pleasantries.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[01:19:52 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:19:52 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:20:02 PM] Customer: ?\n[01:20:02 PM] Customer: ?\n[01:20:29 PM] Customer: Need my POA link\n[01:20:29 PM] Customer: Need my POA link\n[01:20:43 PM] Angie Pereira: Hi.Thanks for reaching out — happy to help!\n[01:20:43 PM] Angie Pereira: Hi.Thanks for reaching out — happy to help!\n[01:22:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[01:22:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[01:25:40 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[01:25:40 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[01:27:51 PM] Angie Pereira: I can see you have submitted your documents several times\n[01:27:51 PM] Angie Pereira: I can see you have submitted your documents several times\n[01:28:03 PM] Angie Pereira: Have you already submitted a ticket via email for this\n[01:28:03 PM] Angie Pereira: Have you already submitted a ticket via email for this\n[01:30:10 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[01:30:10 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[01:32:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:32:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T13:34:45.849Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 19
+      "trend": 8
     },
     {
       "id": "5552",
@@ -44788,6 +44878,96 @@
       "raw_transcript": "[01:10:42 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[01:10:42 PM] t5416824943: Full Name: t5416824943 Email Address: slimtim6060@gmail.com Subject / How can we help you?: How long is it going to take my redemption? Yall Said the other day I should receive my redemption this week\n[01:12:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:12:02 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[01:12:10 PM] t5416824943: And it still just says  pending\n[01:12:10 PM] t5416824943: And it still just says  pending\n[01:14:07 PM] Evelyn Portillo: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[01:14:07 PM] Evelyn Portillo: there is a request for the 18 of the amount 100$ , but there is no status beside new on this request , we have to wait until the request pass the first and second request\n[01:14:33 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:14:33 PM] Evelyn Portillo: Here's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:17:06 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:17:06 PM] Evelyn Portillo: Perfect! Let me know if anything else comes up — always happy to help!\n[01:19:41 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[01:19:41 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-24T13:24:56.180Z"
+    },
+    {
+      "chat_id": "2047666838052843520",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-24T13:32:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though generic without customer name usage."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent identified document submission history but didn't clarify the POA link request or address discrepancy issue before disengaging."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "No resolution provided; agent asked about email ticket but never sent the requested POA link or explained next steps."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Multiple delay messages were appropriate, but agent abandoned the conversation without addressing the core request."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No policy violations, but failed to complete the service interaction properly."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Closed prematurely while customer issue was unresolved and without confirming customer had left."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 46,
+      "grade": "F",
+      "summary": "Agent greeted professionally and acknowledged the request but failed to deliver the POA link or provide any resolution. The conversation was closed prematurely without confirming the customer had disengaged or addressing their urgent need.",
+      "coaching_tip": "Never close a chat without either resolving the customer's request or confirming they've left; if you need to escalate or send a link, complete that action before offering closing pleasantries.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[01:19:52 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:19:52 PM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[01:20:02 PM] Customer: ?\n[01:20:02 PM] Customer: ?\n[01:20:29 PM] Customer: Need my POA link\n[01:20:29 PM] Customer: Need my POA link\n[01:20:43 PM] Angie Pereira: Hi.Thanks for reaching out — happy to help!\n[01:20:43 PM] Angie Pereira: Hi.Thanks for reaching out — happy to help!\n[01:22:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[01:22:22 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[01:25:40 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[01:25:40 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[01:27:51 PM] Angie Pereira: I can see you have submitted your documents several times\n[01:27:51 PM] Angie Pereira: I can see you have submitted your documents several times\n[01:28:03 PM] Angie Pereira: Have you already submitted a ticket via email for this\n[01:28:03 PM] Angie Pereira: Have you already submitted a ticket via email for this\n[01:30:10 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[01:30:10 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[01:32:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:32:08 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T13:34:45.849Z"
+    },
+    {
+      "chat_id": "2047668786905956352",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-24T13:30:33.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting with 'Hi' but did not use customer's name or add warmth."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent effectively clarified the issue by confirming customer can see but cannot click the 3rd purchase deal."
+        },
+        "resolution": {
+          "score": 22,
+          "notes": "Provided standard troubleshooting steps and offered escalation if issue persists, which is appropriate for technical issues."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured responses with numbered steps and proper formatting, though slightly template-like."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate information about purchase pack structure and pricing."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "No proper closing provided; chat ends with troubleshooting steps without confirming resolution or offering further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 72,
+      "grade": "C",
+      "summary": "Agent provided competent technical support with clear troubleshooting steps and accurate information about purchase packs. However, the interaction lacked a proper closing and the agent did not confirm whether the customer's issue was resolved.",
+      "coaching_tip": "Always close the conversation by asking if the troubleshooting steps worked and confirming the customer has no further questions before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[01:27:37 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: I’m trying to buy my 3rd purchase deal\n[01:27:37 PM] t9768059934: Full Name: t9768059934 Email Address: rebeccaoquendo2@gmail.com Subject / How can we help you?: I’m trying to buy my 3rd purchase deal\n[01:28:25 PM] Diana Lopez: Hi — to buy your 3rd Purchase Deal, you need to have completed both your 1st and 2nd Purchase Packs first. The offers unlock in order.\n\nOnce you've completed the 1st and 2nd, the 3rd Purchase Pack will appear automatically in your promotions section.\n\nHere are the 3rd Purchase Pack options:\n*- $29.99 → 12,000 GC + 60 SC (100% bonus)*\n*- $9.99 → 4,000 GC + 17 SC (70% bonus)*\n*- $49.99 → 20,000 GC + 80 SC (60% bonus)*\n*- $99.99 → 40,000 GC + 140 SC (40% bonus)*\n\nIf you've already completed the 1st and 2nd purchases and still don't see the 3rd offer, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[01:28:25 PM] Diana Lopez: Hi — to buy your 3rd Purchase Deal, you need to have completed both your 1st and 2nd Purchase Packs first. The offers unlock in order.\n\nOnce you've completed the 1st and 2nd, the 3rd Purchase Pack will appear automatically in your promotions section.\n\nHere are the 3rd Purchase Pack options:\n*- $29.99 → 12,000 GC + 60 SC (100% bonus)*\n*- $9.99 → 4,000 GC + 17 SC (70% bonus)*\n*- $49.99 → 20,000 GC + 80 SC (60% bonus)*\n*- $99.99 → 40,000 GC + 140 SC (40% bonus)*\n\nIf you've already completed the 1st and 2nd purchases and still don't see the 3rd offer, please let me know and I will make sure our team looks into this for you.\n\nThank you for your patience.\n[01:29:25 PM] t9768059934: I have made 2 purchases\n[01:29:25 PM] t9768059934: I have made 2 purchases\n[01:29:46 PM] t9768059934: I see the third but I’m unable to click on it\n[01:29:46 PM] t9768059934: I see the third but I’m unable to click on it\n[01:30:22 PM] Diana Lopez: thank you for letting me know. You can see the 3rd Purchase Deal but you're unable to click on it.\n\nPlease try these steps:\n\n1. Refresh the page and try again\n2. Log out of your account and log back in\n3. Clear your browser's cache and cookies\n4. Try a different browser or device\n\nIf you're still unable to click on it after trying these steps, please let me know and I will make sure our team looks into this for you.\n[01:30:22 PM] Diana Lopez: thank you for letting me know. You can see the 3rd Purchase Deal but you're unable to click on it.\n\nPlease try these steps:\n\n1. Refresh the page and try again\n2. Log out of your account and log back in\n3. Clear your browser's cache and cookies\n4. Try a different browser or device\n\nIf you're still unable to click on it after trying these steps, please let me know and I will make sure our team looks into this for you.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-24T13:34:55.406Z"
     }
   ]
 }
