@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T20:26:51.491Z",
-  "total_chats": 663,
+  "scored_at": "2026-04-25T20:31:42.675Z",
+  "total_chats": 664,
   "total_agents": 27,
   "agents": [
     {
@@ -29553,11 +29553,56 @@
           "raw_transcript": "[08:06:25 PM] t8958073471: Full Name: t8958073471 Email Address: christywynn98@yahoo.com Subject / How can we help you?: Close my account permanently\n[08:06:25 PM] t8958073471: Full Name: t8958073471 Email Address: christywynn98@yahoo.com Subject / How can we help you?: Close my account permanently\n[08:06:58 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:06:58 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:07:57 PM] Evelyn Portillo: we're really sad to see you go\n\nAs requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[08:07:57 PM] Evelyn Portillo: we're really sad to see you go\n\nAs requested, your account has been permanently closed.\n\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\n\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish you all the very best!\n[08:12:34 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:12:34 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:15:23 PM] Evelyn Portillo: Can you tel me the reason of your clousure please ?\n[08:15:23 PM] Evelyn Portillo: Can you tel me the reason of your clousure please ?\n[08:18:53 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[08:18:53 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T20:21:42.569Z"
+        },
+        {
+          "chat_id": "2048135732483895296",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-25T20:28:20.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped straight into 'one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Provided common causes but never confirmed which issue applied or asked follow-up questions after customer responded 'Ok'."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Offered generic troubleshooting without confirming the actual problem or whether solutions worked; closed chat prematurely without resolution."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear and friendly tone, but closed the conversation before the customer could respond to the troubleshooting suggestions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned one-account rule and regional restrictions."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed abruptly after providing info without waiting for customer confirmation or feedback on whether issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent provided helpful troubleshooting options but closed the chat prematurely without confirming the customer's specific issue or whether the suggested solutions resolved the problem. The lack of proper greeting and premature closure significantly impacted service quality.",
+          "coaching_tip": "Always wait for customer confirmation that their issue is resolved before closing the chat, especially when you've just provided troubleshooting steps they need to try.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[08:23:05 PM] Customer: Full Name: Honey Jay Email Address: jarishanewman93@gmail.com Subject / How can we help you?: Im trying to create a account and its not letting me\n[08:23:05 PM] Customer: Full Name: Honey Jay Email Address: jarishanewman93@gmail.com Subject / How can we help you?: Im trying to create a account and its not letting me\n[08:23:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:23:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:25:37 PM] Customer: Ok\n[08:25:37 PM] Customer: Ok\n[08:26:02 PM] Evelyn Portillo: Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[08:26:02 PM] Evelyn Portillo: Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[08:27:12 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:27:12 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:28:15 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[08:28:15 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T20:31:42.175Z"
         }
       ],
       "avg_score": 48,
       "grade": "F",
-      "trend": 3
+      "trend": 8
     },
     {
       "id": "5839",
@@ -59917,6 +59962,51 @@
       "raw_transcript": "[08:13:07 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Can yall just please delete my account. This is too much. Thanks.\n[08:13:07 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Can yall just please delete my account. This is too much. Thanks.\n[08:13:39 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:13:39 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:15:11 PM] t9404135794: Thanks\n[08:15:11 PM] t9404135794: Thanks\n[08:16:02 PM] t9404135794: Just need confirmation that it will be deleted.\n[08:16:02 PM] t9404135794: Just need confirmation that it will be deleted.\n[08:16:11 PM] Angie Pereira: May I ask what is the reason for the cancellation\n[08:16:11 PM] Angie Pereira: May I ask what is the reason for the cancellation\n[08:17:53 PM] t9404135794: I can’t even upload my document that is needed after I have verified already. If I don’t respond to this chat then I am automatically kicked back to the platform and then I have to submit another chat inquiry all over again. It just seems like too much. I wanted to give this site a try but guess not\n[08:17:53 PM] t9404135794: I can’t even upload my document that is needed after I have verified already. If I don’t respond to this chat then I am automatically kicked back to the platform and then I have to submit another chat inquiry all over again. It just seems like too much. I wanted to give this site a try but guess not\n[08:18:36 PM] t9404135794: I can’t even smash the golden egg bc it is still saying I am unverified.\n[08:18:36 PM] t9404135794: I can’t even smash the golden egg bc it is still saying I am unverified.\n[08:19:11 PM] Angie Pereira: Have you submitted a ticket already to our support team\n[08:19:11 PM] Angie Pereira: Have you submitted a ticket already to our support team\n[08:19:49 PM] t9404135794: Huh? What have I been doing with you if this isn’t support? I am so confused\n[08:19:49 PM] t9404135794: Huh? What have I been doing with you if this isn’t support? I am so confused\n[08:20:43 PM] Angie Pereira: For better assistance at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[08:20:43 PM] Angie Pereira: For better assistance at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T20:26:50.990Z"
+    },
+    {
+      "chat_id": "2048135732483895296",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-25T20:28:20.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped straight into 'one moment' without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Provided common causes but never confirmed which issue applied or asked follow-up questions after customer responded 'Ok'."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Offered generic troubleshooting without confirming the actual problem or whether solutions worked; closed chat prematurely without resolution."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear and friendly tone, but closed the conversation before the customer could respond to the troubleshooting suggestions."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately mentioned one-account rule and regional restrictions."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Closed abruptly after providing info without waiting for customer confirmation or feedback on whether issue was resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 48,
+      "grade": "F",
+      "summary": "Agent provided helpful troubleshooting options but closed the chat prematurely without confirming the customer's specific issue or whether the suggested solutions resolved the problem. The lack of proper greeting and premature closure significantly impacted service quality.",
+      "coaching_tip": "Always wait for customer confirmation that their issue is resolved before closing the chat, especially when you've just provided troubleshooting steps they need to try.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[08:23:05 PM] Customer: Full Name: Honey Jay Email Address: jarishanewman93@gmail.com Subject / How can we help you?: Im trying to create a account and its not letting me\n[08:23:05 PM] Customer: Full Name: Honey Jay Email Address: jarishanewman93@gmail.com Subject / How can we help you?: Im trying to create a account and its not letting me\n[08:23:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:23:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:25:37 PM] Customer: Ok\n[08:25:37 PM] Customer: Ok\n[08:26:02 PM] Evelyn Portillo: Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[08:26:02 PM] Evelyn Portillo: Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[08:27:12 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:27:12 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:28:15 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[08:28:15 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T20:31:42.175Z"
     }
   ]
 }
