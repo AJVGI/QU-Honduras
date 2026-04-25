@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T23:31:46.904Z",
-  "total_chats": 692,
+  "scored_at": "2026-04-25T23:36:52.745Z",
+  "total_chats": 694,
   "total_agents": 27,
   "agents": [
     {
@@ -13911,11 +13911,56 @@
           "raw_transcript": "[11:15:01 PM] t2554816044: Full Name: t2554816044 Email Address: dezarae.huggins@gmail.com Subject / How can we help you?: i want to see if i cancel a redemption that i have not yet received i dont have the oltion to cqncel on my end\n[11:15:01 PM] t2554816044: Full Name: t2554816044 Email Address: dezarae.huggins@gmail.com Subject / How can we help you?: i want to see if i cancel a redemption that i have not yet received i dont have the oltion to cqncel on my end\n[11:15:13 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:15:13 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:15:43 PM] t2554816044: okay thank you\n[11:15:43 PM] t2554816044: okay thank you\n[11:17:59 PM] Jonathan Fuentes: At this point, the redemption can’t be canceled from here.\n\nYou’ll need to wait for it to be completed and paid out. In case anything goes wrong during the process, the amount would be returned back to your account automatically.\n[11:17:59 PM] Jonathan Fuentes: At this point, the redemption can’t be canceled from here.\n\nYou’ll need to wait for it to be completed and paid out. In case anything goes wrong during the process, the amount would be returned back to your account automatically.\n[11:18:46 PM] t2554816044: okay thank you\n[11:18:46 PM] t2554816044: okay thank you\n[11:19:10 PM] Jonathan Fuentes: Is there anything else I can help you with?\n[11:19:10 PM] Jonathan Fuentes: Is there anything else I can help you with?\n[11:20:19 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:20:19 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T23:21:40.236Z"
+        },
+        {
+          "chat_id": "2048182109029052416",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-25T23:33:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without acknowledging the customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the core issue about missing bonus after verification but did not ask clarifying questions about account status or verification confirmation."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent appropriately escalated via email ticket but did not check account status or provide timeline, leaving customer to self-escalate."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and empathetic language with good explanation of weekend delays, though could have been more proactive."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately did not promise unauthorized bonuses and followed escalation protocol."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and apologized for incomplete resolution, providing reasonable closure given the escalation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 64,
+          "grade": "D",
+          "summary": "Agent handled the escalation appropriately and communicated weekend delays clearly, but missed the opportunity to greet the customer and did not proactively check account verification status before directing to email support. The interaction was professional but somewhat passive in problem-solving approach.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name when available, and proactively check account status before escalating to demonstrate you've exhausted immediate options.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:27:22 PM] t6716857680: Full Name: t6716857680 Email Address: anitabussell4@gmail.com Subject / How can we help you?: Verified but no bonus\n[11:27:22 PM] t6716857680: Full Name: t6716857680 Email Address: anitabussell4@gmail.com Subject / How can we help you?: Verified but no bonus\n[11:27:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:27:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:28:05 PM] t6716857680: It's been hours since I verified...still no daily bonus or golden egg and no email from anyone\n[11:28:05 PM] t6716857680: It's been hours since I verified...still no daily bonus or golden egg and no email from anyone\n[11:30:14 PM] Jonathan Fuentes: Thanks for your patience — I understand how you’re feeling \n\nSince it’s currently the weekend, some processes like verification updates and rewards can take a bit longer than usual to reflect.\nIf you’d like to help speed things up, I recommend creating a support ticket so the team can take a closer look. You can do that by sending an email to support@jackpotdaily.com with a brief description of the issue.\n\nTo help prioritize your case, make sure to include “ESCALATE” in the subject line \n\nLet me know if you need help with anything else!\n[11:30:14 PM] Jonathan Fuentes: Thanks for your patience — I understand how you’re feeling \n\nSince it’s currently the weekend, some processes like verification updates and rewards can take a bit longer than usual to reflect.\nIf you’d like to help speed things up, I recommend creating a support ticket so the team can take a closer look. You can do that by sending an email to support@jackpotdaily.com with a brief description of the issue.\n\nTo help prioritize your case, make sure to include “ESCALATE” in the subject line \n\nLet me know if you need help with anything else!\n[11:31:45 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[11:31:45 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T23:36:42.028Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 20
+      "trend": 19
     },
     {
       "id": "5806",
@@ -27771,11 +27816,56 @@
           "raw_transcript": "[10:52:33 PM] t8661908886: Full Name: t8661908886 Email Address: 060403ricky@gmail.com Subject / How can we help you?: It said if I sign up I get $25 sc\n[10:52:33 PM] t8661908886: Full Name: t8661908886 Email Address: 060403ricky@gmail.com Subject / How can we help you?: It said if I sign up I get $25 sc\n[10:52:46 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:52:46 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:53:42 PM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[10:53:42 PM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[10:54:29 PM] Ludovicode Flores: The Golden Egg is the only welcome bonus we offer\n[10:54:29 PM] Ludovicode Flores: The Golden Egg is the only welcome bonus we offer\n[10:58:55 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:58:55 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T23:01:55.100Z"
+        },
+        {
+          "chat_id": "2048181822072123392",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-25T23:31:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent identified two issues but failed to ask clarifying questions about the referral problem or confirm customer understanding of redemption requirements."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic redemption info that didn't address the 'none redeemable' concern, and dismissed referral issue without explanation or investigation into why friend received bonus but customer didn't."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Information was clear but lacked empathy for customer's frustration and didn't explain the referral discrepancy or next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but failed to properly investigate the referral bonus discrepancy which could be a legitimate issue requiring escalation."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Abrupt closing with no confirmation that issues were resolved, no offer of further assistance, and customer concerns left unaddressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 46,
+          "grade": "F",
+          "summary": "Agent provided generic redemption information without addressing why customer's money isn't redeemable, and dismissed the referral bonus issue without proper investigation or explanation. The interaction lacked empathy, proper issue resolution, and appropriate closing, leaving the customer's primary concerns unresolved.",
+          "coaching_tip": "When a customer reports a referral bonus discrepancy where their friend received payment but they didn't, investigate thoroughly and explain the specific reason or escalate rather than simply stating no referrals are registered.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T23:36:52.244Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 1
+      "trend": -4
     },
     {
       "id": "5955",
@@ -62527,6 +62617,96 @@
       "raw_transcript": "[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:17:09 PM] Customer: Hello Sean\n[11:17:09 PM] Customer: Hello Sean\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T23:31:46.402Z"
+    },
+    {
+      "chat_id": "2048182109029052416",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-25T23:33:03.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'one moment' without acknowledging the customer by name or welcoming them."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the core issue about missing bonus after verification but did not ask clarifying questions about account status or verification confirmation."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent appropriately escalated via email ticket but did not check account status or provide timeline, leaving customer to self-escalate."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and empathetic language with good explanation of weekend delays, though could have been more proactive."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately did not promise unauthorized bonuses and followed escalation protocol."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and apologized for incomplete resolution, providing reasonable closure given the escalation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 64,
+      "grade": "D",
+      "summary": "Agent handled the escalation appropriately and communicated weekend delays clearly, but missed the opportunity to greet the customer and did not proactively check account verification status before directing to email support. The interaction was professional but somewhat passive in problem-solving approach.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name when available, and proactively check account status before escalating to demonstrate you've exhausted immediate options.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[11:27:22 PM] t6716857680: Full Name: t6716857680 Email Address: anitabussell4@gmail.com Subject / How can we help you?: Verified but no bonus\n[11:27:22 PM] t6716857680: Full Name: t6716857680 Email Address: anitabussell4@gmail.com Subject / How can we help you?: Verified but no bonus\n[11:27:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:27:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:28:05 PM] t6716857680: It's been hours since I verified...still no daily bonus or golden egg and no email from anyone\n[11:28:05 PM] t6716857680: It's been hours since I verified...still no daily bonus or golden egg and no email from anyone\n[11:30:14 PM] Jonathan Fuentes: Thanks for your patience — I understand how you’re feeling \n\nSince it’s currently the weekend, some processes like verification updates and rewards can take a bit longer than usual to reflect.\nIf you’d like to help speed things up, I recommend creating a support ticket so the team can take a closer look. You can do that by sending an email to support@jackpotdaily.com with a brief description of the issue.\n\nTo help prioritize your case, make sure to include “ESCALATE” in the subject line \n\nLet me know if you need help with anything else!\n[11:30:14 PM] Jonathan Fuentes: Thanks for your patience — I understand how you’re feeling \n\nSince it’s currently the weekend, some processes like verification updates and rewards can take a bit longer than usual to reflect.\nIf you’d like to help speed things up, I recommend creating a support ticket so the team can take a closer look. You can do that by sending an email to support@jackpotdaily.com with a brief description of the issue.\n\nTo help prioritize your case, make sure to include “ESCALATE” in the subject line \n\nLet me know if you need help with anything else!\n[11:31:45 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[11:31:45 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T23:36:42.028Z"
+    },
+    {
+      "chat_id": "2048181822072123392",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-25T23:31:46.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent identified two issues but failed to ask clarifying questions about the referral problem or confirm customer understanding of redemption requirements."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided generic redemption info that didn't address the 'none redeemable' concern, and dismissed referral issue without explanation or investigation into why friend received bonus but customer didn't."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Information was clear but lacked empathy for customer's frustration and didn't explain the referral discrepancy or next steps."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but failed to properly investigate the referral bonus discrepancy which could be a legitimate issue requiring escalation."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Abrupt closing with no confirmation that issues were resolved, no offer of further assistance, and customer concerns left unaddressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 46,
+      "grade": "F",
+      "summary": "Agent provided generic redemption information without addressing why customer's money isn't redeemable, and dismissed the referral bonus issue without proper investigation or explanation. The interaction lacked empathy, proper issue resolution, and appropriate closing, leaving the customer's primary concerns unresolved.",
+      "coaching_tip": "When a customer reports a referral bonus discrepancy where their friend received payment but they didn't, investigate thoroughly and explain the specific reason or escalate rather than simply stating no referrals are registered.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T23:36:52.244Z"
     }
   ]
 }
