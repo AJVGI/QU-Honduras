@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T21:21:46.564Z",
-  "total_chats": 676,
+  "scored_at": "2026-04-25T21:31:45.754Z",
+  "total_chats": 677,
   "total_agents": 27,
   "agents": [
     {
@@ -19536,11 +19536,56 @@
           "raw_transcript": "[01:20:04 AM] t6182239843: Full Name: t6182239843 Email Address: ghostmoneynyc@gmail.com Subject / How can we help you?: Trying to redeem, but it says my redeem of balance is zero.I've already met the playthrough requirements\n[01:20:20 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[01:20:52 AM] t6182239843: Already added an ach trying to redeem. Redeemable balance says 0 but I've already met all playthrough requirements\n[01:21:26 AM] Marlon Cibrian: Bear with me for just a moment while I take a look at your account!\n[01:23:12 AM] Marlon Cibrian: First, make sure your account is fully verified — then:\n1. Head to www.jackpotdaily.com and log in\n2. Click the menu at the top left\n3. Select \"Redeem\"\n4. Enter and confirm your amount\nMax per transaction is $2,500 per day, just so you know!\nLet me know if anything's not showing up or you hit a snag\n[01:23:41 AM] t6182239843: It doesnt show a Redeemable balance. My entire balance should be redeemable\n[01:24:41 AM] Marlon Cibrian: Could you please confirm if you have already verified your account?\n[01:24:56 AM] t6182239843: Yes its verified\n[01:25:06 AM] t6182239843: Why dont I check everything to confirm\n[01:25:42 AM] t6182239843: Talk to human\n[01:25:42 AM] Marlon Cibrian: Yes, please.\n[01:26:11 AM] t6182239843: Its all verifed I meant why dont you check everything to confirm\n[01:26:34 AM] Marlon Cibrian: Just a moment please.\n[01:28:05 AM] Marlon Cibrian: Hey! No worries — a quick browser\nrefresh and cache clear usually fixes most display or loading\nissues. Here’s how:\nStep 1 — Hard Refresh:\n● Windows/Linux: Ctrl + Shift + R\n● Mac: Cmd + Shift + R (or just press F5!)\nStep 2 — Clear Cache & Cookies:\n● Chrome: Three dots → Settings → Privacy & Security →\nClear Browsing Data → select “All time” + check Cookies &\nCached files → Clear data\n● Firefox: Three lines → Settings → Privacy & Security →\nClear Data\nSafari (Mac): Safari menu → Settings → Privacy → Manage\nWebsite Data → Remove All\n● Shortcut: Cmd + Option + E\n● Edge: Three dots → Settings → Privacy, Search &\nServices → Clear Browsing Data → All time → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to\nwww.jackpotdaily.com and log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for\nyou!\n[01:28:35 AM] t6182239843: No, I asked you to check and confirm what my redeemable balance is.You should see it on your end.Can I talk to an actual human instead of a a I\n[01:30:01 AM] Marlon Cibrian: At the moment, your account shows a balance of 144.73 SC.\n\nIf the balance is not appearing on your end, please try logging out and logging back into your account. You can also try the troubleshooting steps we mentioned earlier, as that usually helps refresh the balance display.",
           "model_used": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T10:25:00.389Z"
+        },
+        {
+          "chat_id": "2048150231471976448",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-25T21:30:04.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly to 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent clearly understood the customer's question about ACH and what it means for cashouts."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided accurate, complete explanation of ACH including definition and processing timeframe relevant to casino withdrawals."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and professional explanation with relevant details, though could have been slightly more personalized."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate processing timeframe without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and closed politely, though the casino-themed goodbye was slightly informal."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent provided accurate and helpful information about ACH transfers and processing times, directly answering the customer's question. However, the interaction lacked a proper greeting at the start, jumping straight to the hold message.",
+          "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before asking them to wait, as this sets a more welcoming tone for the interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[09:20:42 PM] t1953810729: Full Name: t1953810729 Email Address: megbraykay@yahoo.com Subject / How can we help you?: So if I wanna cash out what what is ACH mean?\n[09:20:42 PM] t1953810729: Full Name: t1953810729 Email Address: megbraykay@yahoo.com Subject / How can we help you?: So if I wanna cash out what what is ACH mean?\n[09:21:01 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[09:21:01 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[09:23:29 PM] Marlon Cibrian: An ACH (Automated Clearing House) transfer in casino redemption refers to an electronic, bank-to-bank transfer used to withdraw winnings from an online casino account directly into a personal checking or savings account.Please note that ACH transfers may take up to 10 business days to process and be reflected in your account.\n[09:23:29 PM] Marlon Cibrian: An ACH (Automated Clearing House) transfer in casino redemption refers to an electronic, bank-to-bank transfer used to withdraw winnings from an online casino account directly into a personal checking or savings account.Please note that ACH transfers may take up to 10 business days to process and be reflected in your account.\n[09:26:47 PM] Marlon Cibrian: Is there anything else I can help you with today?\n[09:26:47 PM] Marlon Cibrian: Is there anything else I can help you with today?\n[09:29:59 PM] Marlon Cibrian: Thanks for chatting with us!— good luck out there!\n[09:29:59 PM] Marlon Cibrian: Thanks for chatting with us!— good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T21:31:45.252Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": -3
+      "trend": 6
     },
     {
       "id": "5552",
@@ -61087,6 +61132,51 @@
       "raw_transcript": "[09:13:09 PM] Customer: Full Name: Haley Lauderdale Email Address: haleylauderdale25@gmail.com Subject / How can we help you?: Sign up bonus\n[09:13:09 PM] Customer: Full Name: Haley Lauderdale Email Address: haleylauderdale25@gmail.com Subject / How can we help you?: Sign up bonus\n[09:13:21 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:13:21 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[09:13:35 PM] Customer: Ok\n[09:13:35 PM] Customer: Ok\n[09:16:33 PM] Ludovicode Flores: Hi Haley I’d be happy to explain how our Golden Egg promotion works.\nIt’s really simple to participate:\n\n1. KYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\n2. Smash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\n3. Get your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[09:16:33 PM] Ludovicode Flores: Hi Haley I’d be happy to explain how our Golden Egg promotion works.\nIt’s really simple to participate:\n\n1. KYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\n2. Smash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\n3. Get your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[09:18:24 PM] Customer: Thank you\n[09:18:24 PM] Customer: Thank you",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T21:21:46.063Z"
+    },
+    {
+      "chat_id": "2048150231471976448",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-25T21:30:04.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped directly to 'one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent clearly understood the customer's question about ACH and what it means for cashouts."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided accurate, complete explanation of ACH including definition and processing timeframe relevant to casino withdrawals."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear and professional explanation with relevant details, though could have been slightly more personalized."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, provided accurate processing timeframe without unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and closed politely, though the casino-themed goodbye was slightly informal."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 75,
+      "grade": "C",
+      "summary": "Agent provided accurate and helpful information about ACH transfers and processing times, directly answering the customer's question. However, the interaction lacked a proper greeting at the start, jumping straight to the hold message.",
+      "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before asking them to wait, as this sets a more welcoming tone for the interaction.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[09:20:42 PM] t1953810729: Full Name: t1953810729 Email Address: megbraykay@yahoo.com Subject / How can we help you?: So if I wanna cash out what what is ACH mean?\n[09:20:42 PM] t1953810729: Full Name: t1953810729 Email Address: megbraykay@yahoo.com Subject / How can we help you?: So if I wanna cash out what what is ACH mean?\n[09:21:01 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[09:21:01 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[09:23:29 PM] Marlon Cibrian: An ACH (Automated Clearing House) transfer in casino redemption refers to an electronic, bank-to-bank transfer used to withdraw winnings from an online casino account directly into a personal checking or savings account.Please note that ACH transfers may take up to 10 business days to process and be reflected in your account.\n[09:23:29 PM] Marlon Cibrian: An ACH (Automated Clearing House) transfer in casino redemption refers to an electronic, bank-to-bank transfer used to withdraw winnings from an online casino account directly into a personal checking or savings account.Please note that ACH transfers may take up to 10 business days to process and be reflected in your account.\n[09:26:47 PM] Marlon Cibrian: Is there anything else I can help you with today?\n[09:26:47 PM] Marlon Cibrian: Is there anything else I can help you with today?\n[09:29:59 PM] Marlon Cibrian: Thanks for chatting with us!— good luck out there!\n[09:29:59 PM] Marlon Cibrian: Thanks for chatting with us!— good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T21:31:45.252Z"
     }
   ]
 }
