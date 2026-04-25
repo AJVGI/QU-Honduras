@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T23:11:40.850Z",
-  "total_chats": 689,
+  "scored_at": "2026-04-25T23:16:43.518Z",
+  "total_chats": 690,
   "total_agents": 27,
   "agents": [
     {
@@ -18483,11 +18483,56 @@
           "raw_transcript": "[10:34:04 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Cannot login to site. Repeatedly get login failure. I want my moneh refunded if I cant even play it.\n[10:34:04 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Cannot login to site. Repeatedly get login failure. I want my moneh refunded if I cant even play it.\n[10:34:18 PM] Cairo Osorto: Thanks for contacting.\n[10:34:18 PM] Cairo Osorto: Thanks for contacting.\n[10:34:49 PM] Customer: I cant even log in.\n[10:34:49 PM] Customer: I cant even log in.\n[10:35:09 PM] Cairo Osorto: Hello, I'm sorry to hear that you haven't been able to log in.\n[10:35:09 PM] Cairo Osorto: Hello, I'm sorry to hear that you haven't been able to log in.\n[10:35:41 PM] Customer: Ok and? What can you do about it\n[10:35:41 PM] Customer: Ok and? What can you do about it\n[10:36:03 PM] Cairo Osorto: Can you please share a screenshot of the error message you're getting to better understand what you see?\n[10:36:03 PM] Cairo Osorto: Can you please share a screenshot of the error message you're getting to better understand what you see?\n[10:37:50 PM] Customer: How do i add it\n[10:37:50 PM] Customer: How do i add it\n[10:38:24 PM] Cairo Osorto: You can copy and paste it on this chat just as you would with text.\n[10:38:24 PM] Cairo Osorto: You can copy and paste it on this chat just as you would with text.\n[10:39:36 PM] Customer: Warning\nLogin failure. Please try again.\n\nCode: auth/popup-closed-by-user\nReason: Firebase: Error (auth/popup-closed-by-user).\n[10:39:36 PM] Customer: Warning\nLogin failure. Please try again.\n\nCode: auth/popup-closed-by-user\nReason: Firebase: Error (auth/popup-closed-by-user).\n[10:40:32 PM] Cairo Osorto: I understand, thanks for that!\n[10:40:32 PM] Cairo Osorto: I understand, thanks for that!\n[10:41:29 PM] Cairo Osorto: A few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[10:41:29 PM] Cairo Osorto: A few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T22:46:46.560Z"
+        },
+        {
+          "chat_id": "2048177366584619008",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-25T23:15:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent acknowledged understanding but didn't ask clarifying questions about why the phone number change was needed or verify account details."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Properly escalated to email with clear instructions including the ESCALATE subject line requirement, though customer must take additional steps."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional instructions provided, though the long delay before responding and lack of empathy about the inconvenience could be improved."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper escalation protocol for account changes without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing with well-wishes for gaming."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 67,
+          "grade": "D",
+          "summary": "Agent handled the phone number change request appropriately by directing the customer to proper escalation channels with clear instructions. However, the greeting was minimal and the agent could have shown more empathy about the customer's urgency to make a purchase.",
+          "coaching_tip": "Open with a warmer, personalized greeting and acknowledge the customer's purchase intent with empathy before directing them to email escalation.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[11:08:32 PM] t3050060718: Full Name: t3050060718 Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:32 PM] t3050060718: Full Name: t3050060718 Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:50 PM] Cairo Osorto: Thanks for contacting.\n[11:08:50 PM] Cairo Osorto: Thanks for contacting.\n[11:09:56 PM] t3050060718: I am wanting to buy the 9.99 package but i dont have the same phone number anymore.\n[11:09:56 PM] t3050060718: I am wanting to buy the 9.99 package but i dont have the same phone number anymore.\n[11:10:40 PM] Cairo Osorto: I understand.\n[11:10:40 PM] Cairo Osorto: I understand.\n[11:12:32 PM] Cairo Osorto: Thanks for reaching out. At this point and in order to request a phone number change, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible. Is there anything else I can assist you with?\n[11:12:32 PM] Cairo Osorto: Thanks for reaching out. At this point and in order to request a phone number change, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible. Is there anything else I can assist you with?\n[11:12:57 PM] t3050060718: no\n[11:12:57 PM] t3050060718: no\n[11:13:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:13:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T23:16:43.017Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": -6
+      "trend": -8
     },
     {
       "id": "5669",
@@ -62257,6 +62302,51 @@
       "raw_transcript": "[11:07:31 PM] Customer: Full Name: Amber Watson Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:07:31 PM] Customer: Full Name: Amber Watson Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:01 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:08:01 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:09:48 PM] Jonathan Fuentes: No problem — I can help you with that\n\nTo get your phone number updated, we’ll just need you to send an email to support@jackpotdaily.com\n with your request so our team can process it securely.\n\nIf you include your current number, the new number, and any relevant details, that will help speed things up\n[11:09:48 PM] Jonathan Fuentes: No problem — I can help you with that\n\nTo get your phone number updated, we’ll just need you to send an email to support@jackpotdaily.com\n with your request so our team can process it securely.\n\nIf you include your current number, the new number, and any relevant details, that will help speed things up\n[11:10:29 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:10:29 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T23:11:40.350Z"
+    },
+    {
+      "chat_id": "2048177366584619008",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-25T23:15:07.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Minimal greeting with no personalization or warmth, just 'Thanks for contacting.'"
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent acknowledged understanding but didn't ask clarifying questions about why the phone number change was needed or verify account details."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Properly escalated to email with clear instructions including the ESCALATE subject line requirement, though customer must take additional steps."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and professional instructions provided, though the long delay before responding and lack of empathy about the inconvenience could be improved."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed proper escalation protocol for account changes without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided a friendly closing with well-wishes for gaming."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 67,
+      "grade": "D",
+      "summary": "Agent handled the phone number change request appropriately by directing the customer to proper escalation channels with clear instructions. However, the greeting was minimal and the agent could have shown more empathy about the customer's urgency to make a purchase.",
+      "coaching_tip": "Open with a warmer, personalized greeting and acknowledge the customer's purchase intent with empathy before directing them to email escalation.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[11:08:32 PM] t3050060718: Full Name: t3050060718 Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:32 PM] t3050060718: Full Name: t3050060718 Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:50 PM] Cairo Osorto: Thanks for contacting.\n[11:08:50 PM] Cairo Osorto: Thanks for contacting.\n[11:09:56 PM] t3050060718: I am wanting to buy the 9.99 package but i dont have the same phone number anymore.\n[11:09:56 PM] t3050060718: I am wanting to buy the 9.99 package but i dont have the same phone number anymore.\n[11:10:40 PM] Cairo Osorto: I understand.\n[11:10:40 PM] Cairo Osorto: I understand.\n[11:12:32 PM] Cairo Osorto: Thanks for reaching out. At this point and in order to request a phone number change, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible. Is there anything else I can assist you with?\n[11:12:32 PM] Cairo Osorto: Thanks for reaching out. At this point and in order to request a phone number change, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible. Is there anything else I can assist you with?\n[11:12:57 PM] t3050060718: no\n[11:12:57 PM] t3050060718: no\n[11:13:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:13:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T23:16:43.017Z"
     }
   ]
 }
