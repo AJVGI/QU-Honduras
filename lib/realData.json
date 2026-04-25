@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T20:21:53.003Z",
-  "total_chats": 661,
+  "scored_at": "2026-04-25T20:26:51.491Z",
+  "total_chats": 663,
   "total_agents": 27,
   "agents": [
     {
@@ -6666,11 +6666,56 @@
           "raw_transcript": "[07:46:20 PM] t0374329224: Full Name: t0374329224 Email Address: garizabalo2905@gmail.com Subject / How can we help you?: Kelly\n[07:46:20 PM] t0374329224: Full Name: t0374329224 Email Address: garizabalo2905@gmail.com Subject / How can we help you?: Kelly\n[07:46:43 PM] Diana Lopez: Hello!\n[07:46:43 PM] Diana Lopez: Hello!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T19:51:39.547Z"
+        },
+        {
+          "chat_id": "2048131237242777600",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-25T20:23:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with just 'Hello' and no personalization or warmth."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent failed to ask clarifying questions and didn't investigate the customer's claim of not playing games yesterday."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent provided contradictory explanations without clear resolution, leaving customer confused and requesting further clarification."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Explanations were confusing and contradictory, using vague technical language that the customer explicitly stated they didn't understand."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but explanations about reward processing lacked transparency and clarity."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no closing from agent visible."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent provided repetitive, confusing explanations that contradicted the customer's experience without proper investigation. When the customer explicitly stated confusion, the agent continued with similar vague technical explanations rather than simplifying or escalating.",
+          "coaching_tip": "When a customer says they don't understand your explanation, stop repeating the same information and either simplify dramatically using concrete examples, or escalate to a supervisor who can investigate the account discrepancy.",
+          "website": "Jackpot Daily",
+          "message_count": 36,
+          "raw_transcript": "[08:05:14 PM] Customer: Full Name: Vallon Gore Email Address: gvallon502@gmail.com Subject / How can we help you?: I didn't get my sign in rewards yesterday or today but it said i did\n[08:05:14 PM] Customer: Full Name: Vallon Gore Email Address: gvallon502@gmail.com Subject / How can we help you?: I didn't get my sign in rewards yesterday or today but it said i did\n[08:05:40 PM] Diana Lopez: Hello!\n[08:05:40 PM] Diana Lopez: Hello!\n[08:05:46 PM] Customer: Hello\n[08:05:46 PM] Customer: Hello\n[08:07:26 PM] Diana Lopez: We understand how frustrating that can be. Sometimes, due to a temporary delay or connection issue, the system may mark the daily reward as claimed even if it wasn’t successfully credited.\n[08:07:26 PM] Diana Lopez: We understand how frustrating that can be. Sometimes, due to a temporary delay or connection issue, the system may mark the daily reward as claimed even if it wasn’t successfully credited.\n[08:07:54 PM] Customer: Well i didn't get anything yesterday or today\n[08:07:54 PM] Customer: Well i didn't get anything yesterday or today\n[08:08:52 PM] Diana Lopez: We’ve checked your account, and we can confirm that your daily sign-in reward was successfully credited.\n\nAccording to our system:\n\nThe reward amount was issued correctly\nA portion was used during gameplay\nThe remaining balance was cleared as part of the promotion conditions\n\nThis is why it may appear as though the reward wasn’t received, even though it was applied to your account.\n\nIf you’d like, we can walk you through how these rewards work so you can get the most out of them going forward!\n\nLet us know if you have any questions—we’re happy to help!\n[08:08:52 PM] Diana Lopez: We’ve checked your account, and we can confirm that your daily sign-in reward was successfully credited.\n\nAccording to our system:\n\nThe reward amount was issued correctly\nA portion was used during gameplay\nThe remaining balance was cleared as part of the promotion conditions\n\nThis is why it may appear as though the reward wasn’t received, even though it was applied to your account.\n\nIf you’d like, we can walk you through how these rewards work so you can get the most out of them going forward!\n\nLet us know if you have any questions—we’re happy to help!\n[08:09:57 PM] Customer: I didn't play any games yesterday\n[08:09:57 PM] Customer: I didn't play any games yesterday\n[08:11:00 PM] Diana Lopez: We’ve reviewed your account, and we can confirm that the daily sign-in reward was successfully credited.\n\nOur system shows that the reward was partially processed and later cleared under the promotion’s conditions. This can sometimes happen if the bonus is activated automatically and expires or is consumed in the background, even if no full gameplay session was completed.\n\nThat said, we understand your concern and would be happy to take a closer look at your activity to confirm exactly what happened.\n[08:11:00 PM] Diana Lopez: We’ve reviewed your account, and we can confirm that the daily sign-in reward was successfully credited.\n\nOur system shows that the reward was partially processed and later cleared under the promotion’s conditions. This can sometimes happen if the bonus is activated automatically and expires or is consumed in the background, even if no full gameplay session was completed.\n\nThat said, we understand your concern and would be happy to take a closer look at your activity to confirm exactly what happened.\n[08:11:57 PM] Customer: Yes please because I don't understand what you mean\n[08:11:57 PM] Customer: Yes please because I don't understand what you mean\n[08:12:31 PM] Diana Lopez: We totally understand the confusion, and we’re happy to clarify.\n\nYour daily sign-in reward was successfully added to your account. After that, the system shows it was partially used and the remaining amount was cleared based on the promotion rules.\n\nThis doesn’t always require a full gameplay session—sometimes a game can briefly open or refresh in the background, which may activate and use part of the bonus automatically.\n[08:12:31 PM] Diana Lopez: We totally understand the confusion, and we’re happy to clarify.\n\nYour daily sign-in reward was successfully added to your account. After that, the system shows it was partially used and the remaining amount was cleared based on the promotion rules.\n\nThis doesn’t always require a full gameplay session—sometimes a game can briefly open or refresh in the background, which may activate and use part of the bonus automatically.\n[08:14:01 PM] Customer: That doesn't make sense\n[08:14:01 PM] Customer: That doesn't make sense\n[08:14:28 PM] Customer: No game was left open in background\n[08:14:28 PM] Customer: No game was left open in background\n[08:14:48 PM] Diana Lopez: Here’s what we can confirm from our system:\n\nYour daily sign-in reward was successfully credited to your account\nA portion of it was processed, and the remaining amount was later cleared under the promotion’s rules\n\nSince you mentioned you didn’t play any games, the best next step is for us to review your detailed activity logs (including exact timestamps and any game interactions) to see exactly what caused this.\n[08:14:48 PM] Diana Lopez: Here’s what we can confirm from our system:\n\nYour daily sign-in reward was successfully credited to your account\nA portion of it was processed, and the remaining amount was later cleared under the promotion’s rules\n\nSince you mentioned you didn’t play any games, the best next step is for us to review your detailed activity logs (including exact timestamps and any game interactions) to see exactly what caused this.\n[08:15:42 PM] Customer: That wasn't explained in the promotion..yes look  into it please\n[08:15:42 PM] Customer: That wasn't explained in the promotion..yes look  into it please\n[08:16:05 PM] Customer: Its been over a week since I purchased anything\n[08:16:05 PM] Customer: Its been over a week since I purchased anything\n[08:16:36 PM] Diana Lopez: Thank you for pointing that out—we completely understand your concern.\n\nIf the promotion terms weren’t clear, that’s definitely something we take seriously, and we appreciate you bringing it to our attention.\n\nWe’re going to take a closer look at your account activity, including detailed logs and timestamps, to determine exactly what happened with your reward. Once we have that information, we’ll provide you with a clear explanation.\n\nIf we find any discrepancy or that the reward wasn’t applied correctly, we’ll make sure to resolve it for you.\n\nWe appreciate your patience while we review this and will follow up with you as soon as possible!\n[08:16:36 PM] Diana Lopez: Thank you for pointing that out—we completely understand your concern.\n\nIf the promotion terms weren’t clear, that’s definitely something we take seriously, and we appreciate you bringing it to our attention.\n\nWe’re going to take a closer look at your account activity, including detailed logs and timestamps, to determine exactly what happened with your reward. Once we have that information, we’ll provide you with a clear explanation.\n\nIf we find any discrepancy or that the reward wasn’t applied correctly, we’ll make sure to resolve it for you.\n\nWe appreciate your patience while we review this and will follow up with you as soon as possible!\n[08:17:34 PM] Customer: How long will this take\n[08:17:34 PM] Customer: How long will this take\n[08:21:29 PM] Diana Lopez: Thanks for your patience 😊\n\nA detailed review like this usually takes about 24–48 hours, as we need to check your account activity logs and verify everything carefully.\n\nThat said, we’ll do our best to get back to you sooner if possible. As soon as we have an update, we’ll reach out right away.\n\nWe appreciate your understanding while we look into this!\n[08:21:29 PM] Diana Lopez: Thanks for your patience 😊\n\nA detailed review like this usually takes about 24–48 hours, as we need to check your account activity logs and verify everything carefully.\n\nThat said, we’ll do our best to get back to you sooner if possible. As soon as we have an update, we’ll reach out right away.\n\nWe appreciate your understanding while we look into this!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T20:26:41.820Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": -13
+      "trend": -11
     },
     {
       "id": "5802",
@@ -11112,11 +11157,56 @@
           "raw_transcript": "[07:45:35 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Hello, I have tried everything you have stated to try and it is still coming up with session expired.\n[07:45:35 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Hello, I have tried everything you have stated to try and it is still coming up with session expired.\n[07:47:54 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:47:54 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:49:13 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:49:13 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:51:01 PM] t9404135794: Thank you\n[07:51:01 PM] t9404135794: Thank you\n[07:51:39 PM] Angie Pereira: What are you trying to submit?\n[07:51:39 PM] Angie Pereira: What are you trying to submit?\n[07:53:32 PM] t9404135794: A bank statement. Something with my address on it. I’m not sure why yall are asking for additional documents tbh but I am willing to do it but seems like I can’t. My daughter referred me to this site and honestly I just want to play.\n[07:53:32 PM] t9404135794: A bank statement. Something with my address on it. I’m not sure why yall are asking for additional documents tbh but I am willing to do it but seems like I can’t. My daughter referred me to this site and honestly I just want to play.\n[07:54:43 PM] Angie Pereira: Give me a moment to review this information.\n[07:54:43 PM] Angie Pereira: Give me a moment to review this information.\n[07:57:36 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:57:36 PM] Angie Pereira: Bear with me for just a moment while I take a look at your account!\n[07:59:04 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:59:04 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[08:02:43 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[08:02:43 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T20:06:56.024Z"
+        },
+        {
+          "chat_id": "2048133222164164608",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-25T20:22:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked about cancellation reason but failed to explore the underlying verification and document upload issues that were the root cause."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Escalated via email ticket but missed opportunity to address verification issues directly or retain the customer by solving their actual problem."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Clear instructions for escalation, but the question about submitting a ticket confused the customer who thought they were already in support."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated account deletion request."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, farewell, or offer of further assistance after providing escalation instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided a professional greeting and escalated the account deletion request appropriately, but missed a critical opportunity to address the customer's actual frustration with verification and document upload issues. The interaction lacked proper issue discovery, problem-solving attempts, and any closing statement.",
+          "coaching_tip": "When a customer requests account deletion due to technical frustrations, first attempt to resolve the underlying issue (verification problems, upload errors) before escalating—this shows care and may retain the customer.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[08:13:07 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Can yall just please delete my account. This is too much. Thanks.\n[08:13:07 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Can yall just please delete my account. This is too much. Thanks.\n[08:13:39 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:13:39 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:15:11 PM] t9404135794: Thanks\n[08:15:11 PM] t9404135794: Thanks\n[08:16:02 PM] t9404135794: Just need confirmation that it will be deleted.\n[08:16:02 PM] t9404135794: Just need confirmation that it will be deleted.\n[08:16:11 PM] Angie Pereira: May I ask what is the reason for the cancellation\n[08:16:11 PM] Angie Pereira: May I ask what is the reason for the cancellation\n[08:17:53 PM] t9404135794: I can’t even upload my document that is needed after I have verified already. If I don’t respond to this chat then I am automatically kicked back to the platform and then I have to submit another chat inquiry all over again. It just seems like too much. I wanted to give this site a try but guess not\n[08:17:53 PM] t9404135794: I can’t even upload my document that is needed after I have verified already. If I don’t respond to this chat then I am automatically kicked back to the platform and then I have to submit another chat inquiry all over again. It just seems like too much. I wanted to give this site a try but guess not\n[08:18:36 PM] t9404135794: I can’t even smash the golden egg bc it is still saying I am unverified.\n[08:18:36 PM] t9404135794: I can’t even smash the golden egg bc it is still saying I am unverified.\n[08:19:11 PM] Angie Pereira: Have you submitted a ticket already to our support team\n[08:19:11 PM] Angie Pereira: Have you submitted a ticket already to our support team\n[08:19:49 PM] t9404135794: Huh? What have I been doing with you if this isn’t support? I am so confused\n[08:19:49 PM] t9404135794: Huh? What have I been doing with you if this isn’t support? I am so confused\n[08:20:43 PM] Angie Pereira: For better assistance at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[08:20:43 PM] Angie Pereira: For better assistance at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T20:26:50.990Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 12
+      "trend": 6
     },
     {
       "id": "5845",
@@ -59737,6 +59827,96 @@
       "raw_transcript": "[08:14:02 PM] t4104214168: Full Name: t4104214168 Email Address: risamckay212@gmail.com Subject / How can we help you?: I haven’t received my golden egg and my account is fully verified\n[08:14:02 PM] t4104214168: Full Name: t4104214168 Email Address: risamckay212@gmail.com Subject / How can we help you?: I haven’t received my golden egg and my account is fully verified\n[08:14:46 PM] Kenneth Aguilar: Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[08:14:46 PM] Kenneth Aguilar: Your Golden Egg is waiting — exciting stuff!\n\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[08:15:36 PM] t4104214168: Yes I never received I have a screen shot where it says my stuff is still pending\n[08:15:36 PM] t4104214168: Yes I never received I have a screen shot where it says my stuff is still pending\n[08:15:52 PM] t4104214168: IMG_2479.jpg\n[08:15:52 PM] Kenneth Aguilar: Please share the screenshot\n[08:15:52 PM] t4104214168: IMG_2479.jpg\n[08:15:52 PM] Kenneth Aguilar: Please share the screenshot\n[08:16:09 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[08:16:09 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[08:16:17 PM] t4104214168: Okay thank you\n[08:16:17 PM] t4104214168: Okay thank you\n[08:16:50 PM] Kenneth Aguilar: I can see the golden egg was requested the 7th and claimed the 8th\n[08:16:50 PM] Kenneth Aguilar: I can see the golden egg was requested the 7th and claimed the 8th",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T20:21:52.502Z"
+    },
+    {
+      "chat_id": "2048131237242777600",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-25T20:23:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Minimal greeting with just 'Hello' and no personalization or warmth."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent failed to ask clarifying questions and didn't investigate the customer's claim of not playing games yesterday."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent provided contradictory explanations without clear resolution, leaving customer confused and requesting further clarification."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Explanations were confusing and contradictory, using vague technical language that the customer explicitly stated they didn't understand."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, but explanations about reward processing lacked transparency and clarity."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with no closing from agent visible."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 49,
+      "grade": "F",
+      "summary": "Agent provided repetitive, confusing explanations that contradicted the customer's experience without proper investigation. When the customer explicitly stated confusion, the agent continued with similar vague technical explanations rather than simplifying or escalating.",
+      "coaching_tip": "When a customer says they don't understand your explanation, stop repeating the same information and either simplify dramatically using concrete examples, or escalate to a supervisor who can investigate the account discrepancy.",
+      "website": "Jackpot Daily",
+      "message_count": 36,
+      "raw_transcript": "[08:05:14 PM] Customer: Full Name: Vallon Gore Email Address: gvallon502@gmail.com Subject / How can we help you?: I didn't get my sign in rewards yesterday or today but it said i did\n[08:05:14 PM] Customer: Full Name: Vallon Gore Email Address: gvallon502@gmail.com Subject / How can we help you?: I didn't get my sign in rewards yesterday or today but it said i did\n[08:05:40 PM] Diana Lopez: Hello!\n[08:05:40 PM] Diana Lopez: Hello!\n[08:05:46 PM] Customer: Hello\n[08:05:46 PM] Customer: Hello\n[08:07:26 PM] Diana Lopez: We understand how frustrating that can be. Sometimes, due to a temporary delay or connection issue, the system may mark the daily reward as claimed even if it wasn’t successfully credited.\n[08:07:26 PM] Diana Lopez: We understand how frustrating that can be. Sometimes, due to a temporary delay or connection issue, the system may mark the daily reward as claimed even if it wasn’t successfully credited.\n[08:07:54 PM] Customer: Well i didn't get anything yesterday or today\n[08:07:54 PM] Customer: Well i didn't get anything yesterday or today\n[08:08:52 PM] Diana Lopez: We’ve checked your account, and we can confirm that your daily sign-in reward was successfully credited.\n\nAccording to our system:\n\nThe reward amount was issued correctly\nA portion was used during gameplay\nThe remaining balance was cleared as part of the promotion conditions\n\nThis is why it may appear as though the reward wasn’t received, even though it was applied to your account.\n\nIf you’d like, we can walk you through how these rewards work so you can get the most out of them going forward!\n\nLet us know if you have any questions—we’re happy to help!\n[08:08:52 PM] Diana Lopez: We’ve checked your account, and we can confirm that your daily sign-in reward was successfully credited.\n\nAccording to our system:\n\nThe reward amount was issued correctly\nA portion was used during gameplay\nThe remaining balance was cleared as part of the promotion conditions\n\nThis is why it may appear as though the reward wasn’t received, even though it was applied to your account.\n\nIf you’d like, we can walk you through how these rewards work so you can get the most out of them going forward!\n\nLet us know if you have any questions—we’re happy to help!\n[08:09:57 PM] Customer: I didn't play any games yesterday\n[08:09:57 PM] Customer: I didn't play any games yesterday\n[08:11:00 PM] Diana Lopez: We’ve reviewed your account, and we can confirm that the daily sign-in reward was successfully credited.\n\nOur system shows that the reward was partially processed and later cleared under the promotion’s conditions. This can sometimes happen if the bonus is activated automatically and expires or is consumed in the background, even if no full gameplay session was completed.\n\nThat said, we understand your concern and would be happy to take a closer look at your activity to confirm exactly what happened.\n[08:11:00 PM] Diana Lopez: We’ve reviewed your account, and we can confirm that the daily sign-in reward was successfully credited.\n\nOur system shows that the reward was partially processed and later cleared under the promotion’s conditions. This can sometimes happen if the bonus is activated automatically and expires or is consumed in the background, even if no full gameplay session was completed.\n\nThat said, we understand your concern and would be happy to take a closer look at your activity to confirm exactly what happened.\n[08:11:57 PM] Customer: Yes please because I don't understand what you mean\n[08:11:57 PM] Customer: Yes please because I don't understand what you mean\n[08:12:31 PM] Diana Lopez: We totally understand the confusion, and we’re happy to clarify.\n\nYour daily sign-in reward was successfully added to your account. After that, the system shows it was partially used and the remaining amount was cleared based on the promotion rules.\n\nThis doesn’t always require a full gameplay session—sometimes a game can briefly open or refresh in the background, which may activate and use part of the bonus automatically.\n[08:12:31 PM] Diana Lopez: We totally understand the confusion, and we’re happy to clarify.\n\nYour daily sign-in reward was successfully added to your account. After that, the system shows it was partially used and the remaining amount was cleared based on the promotion rules.\n\nThis doesn’t always require a full gameplay session—sometimes a game can briefly open or refresh in the background, which may activate and use part of the bonus automatically.\n[08:14:01 PM] Customer: That doesn't make sense\n[08:14:01 PM] Customer: That doesn't make sense\n[08:14:28 PM] Customer: No game was left open in background\n[08:14:28 PM] Customer: No game was left open in background\n[08:14:48 PM] Diana Lopez: Here’s what we can confirm from our system:\n\nYour daily sign-in reward was successfully credited to your account\nA portion of it was processed, and the remaining amount was later cleared under the promotion’s rules\n\nSince you mentioned you didn’t play any games, the best next step is for us to review your detailed activity logs (including exact timestamps and any game interactions) to see exactly what caused this.\n[08:14:48 PM] Diana Lopez: Here’s what we can confirm from our system:\n\nYour daily sign-in reward was successfully credited to your account\nA portion of it was processed, and the remaining amount was later cleared under the promotion’s rules\n\nSince you mentioned you didn’t play any games, the best next step is for us to review your detailed activity logs (including exact timestamps and any game interactions) to see exactly what caused this.\n[08:15:42 PM] Customer: That wasn't explained in the promotion..yes look  into it please\n[08:15:42 PM] Customer: That wasn't explained in the promotion..yes look  into it please\n[08:16:05 PM] Customer: Its been over a week since I purchased anything\n[08:16:05 PM] Customer: Its been over a week since I purchased anything\n[08:16:36 PM] Diana Lopez: Thank you for pointing that out—we completely understand your concern.\n\nIf the promotion terms weren’t clear, that’s definitely something we take seriously, and we appreciate you bringing it to our attention.\n\nWe’re going to take a closer look at your account activity, including detailed logs and timestamps, to determine exactly what happened with your reward. Once we have that information, we’ll provide you with a clear explanation.\n\nIf we find any discrepancy or that the reward wasn’t applied correctly, we’ll make sure to resolve it for you.\n\nWe appreciate your patience while we review this and will follow up with you as soon as possible!\n[08:16:36 PM] Diana Lopez: Thank you for pointing that out—we completely understand your concern.\n\nIf the promotion terms weren’t clear, that’s definitely something we take seriously, and we appreciate you bringing it to our attention.\n\nWe’re going to take a closer look at your account activity, including detailed logs and timestamps, to determine exactly what happened with your reward. Once we have that information, we’ll provide you with a clear explanation.\n\nIf we find any discrepancy or that the reward wasn’t applied correctly, we’ll make sure to resolve it for you.\n\nWe appreciate your patience while we review this and will follow up with you as soon as possible!\n[08:17:34 PM] Customer: How long will this take\n[08:17:34 PM] Customer: How long will this take\n[08:21:29 PM] Diana Lopez: Thanks for your patience 😊\n\nA detailed review like this usually takes about 24–48 hours, as we need to check your account activity logs and verify everything carefully.\n\nThat said, we’ll do our best to get back to you sooner if possible. As soon as we have an update, we’ll reach out right away.\n\nWe appreciate your understanding while we look into this!\n[08:21:29 PM] Diana Lopez: Thanks for your patience 😊\n\nA detailed review like this usually takes about 24–48 hours, as we need to check your account activity logs and verify everything carefully.\n\nThat said, we’ll do our best to get back to you sooner if possible. As soon as we have an update, we’ll reach out right away.\n\nWe appreciate your understanding while we look into this!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T20:26:41.820Z"
+    },
+    {
+      "chat_id": "2048133222164164608",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-25T20:22:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Asked about cancellation reason but failed to explore the underlying verification and document upload issues that were the root cause."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Escalated via email ticket but missed opportunity to address verification issues directly or retain the customer by solving their actual problem."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Clear instructions for escalation, but the question about submitting a ticket confused the customer who thought they were already in support."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated account deletion request."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, farewell, or offer of further assistance after providing escalation instructions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 54,
+      "grade": "F",
+      "summary": "Agent provided a professional greeting and escalated the account deletion request appropriately, but missed a critical opportunity to address the customer's actual frustration with verification and document upload issues. The interaction lacked proper issue discovery, problem-solving attempts, and any closing statement.",
+      "coaching_tip": "When a customer requests account deletion due to technical frustrations, first attempt to resolve the underlying issue (verification problems, upload errors) before escalating—this shows care and may retain the customer.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[08:13:07 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Can yall just please delete my account. This is too much. Thanks.\n[08:13:07 PM] t9404135794: Full Name: t9404135794 Email Address: d0nnawalk33r@gmail.com Subject / How can we help you?: Can yall just please delete my account. This is too much. Thanks.\n[08:13:39 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:13:39 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:15:11 PM] t9404135794: Thanks\n[08:15:11 PM] t9404135794: Thanks\n[08:16:02 PM] t9404135794: Just need confirmation that it will be deleted.\n[08:16:02 PM] t9404135794: Just need confirmation that it will be deleted.\n[08:16:11 PM] Angie Pereira: May I ask what is the reason for the cancellation\n[08:16:11 PM] Angie Pereira: May I ask what is the reason for the cancellation\n[08:17:53 PM] t9404135794: I can’t even upload my document that is needed after I have verified already. If I don’t respond to this chat then I am automatically kicked back to the platform and then I have to submit another chat inquiry all over again. It just seems like too much. I wanted to give this site a try but guess not\n[08:17:53 PM] t9404135794: I can’t even upload my document that is needed after I have verified already. If I don’t respond to this chat then I am automatically kicked back to the platform and then I have to submit another chat inquiry all over again. It just seems like too much. I wanted to give this site a try but guess not\n[08:18:36 PM] t9404135794: I can’t even smash the golden egg bc it is still saying I am unverified.\n[08:18:36 PM] t9404135794: I can’t even smash the golden egg bc it is still saying I am unverified.\n[08:19:11 PM] Angie Pereira: Have you submitted a ticket already to our support team\n[08:19:11 PM] Angie Pereira: Have you submitted a ticket already to our support team\n[08:19:49 PM] t9404135794: Huh? What have I been doing with you if this isn’t support? I am so confused\n[08:19:49 PM] t9404135794: Huh? What have I been doing with you if this isn’t support? I am so confused\n[08:20:43 PM] Angie Pereira: For better assistance at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[08:20:43 PM] Angie Pereira: For better assistance at this point we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T20:26:50.990Z"
     }
   ]
 }
