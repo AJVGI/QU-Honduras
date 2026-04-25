@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T19:46:57.758Z",
-  "total_chats": 654,
+  "scored_at": "2026-04-25T19:51:40.047Z",
+  "total_chats": 655,
   "total_agents": 27,
   "agents": [
     {
@@ -6576,11 +6576,56 @@
           "raw_transcript": "[07:41:10 PM] t2554816044: Full Name: t2554816044 Email Address: dezarae.huggins@gmail.com Subject / How can we help you?: Checking reedem status . It says its been fully processed but i havent seen it post in my bank account\n[07:41:10 PM] t2554816044: Full Name: t2554816044 Email Address: dezarae.huggins@gmail.com Subject / How can we help you?: Checking reedem status . It says its been fully processed but i havent seen it post in my bank account\n[07:41:37 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[07:41:37 PM] Diana Lopez: Debit: 24 – 48 hours hours · ACH: 3-5 business days.\n[07:42:00 PM] t2554816044: ok\n[07:42:00 PM] t2554816044: ok\n[07:42:16 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!\n[07:42:16 PM] Diana Lopez: Perfect! Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T19:46:47.151Z"
+        },
+        {
+          "chat_id": "2048126480847515648",
+          "agent_name": "Diana Lopez",
+          "agent_id": "5554",
+          "timestamp": "2026-04-25T19:49:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Agent greeted but did not personalize or acknowledge the customer's information."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent made no attempt to discover or clarify the customer's issue before chat ended."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted; chat ended immediately after greeting with no assistance provided."
+            },
+            "communication": {
+              "score": 8,
+              "notes": "Greeting was clear and professional, though duplicated, but no further communication occurred."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the brief interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided; chat ended abruptly without offering help or saying goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 21,
+          "grade": "F",
+          "summary": "Agent provided only a basic greeting with no follow-up to understand or address the customer's needs. The interaction ended prematurely without any attempt at issue discovery, resolution, or proper closing.",
+          "coaching_tip": "Always follow your greeting with a proactive question to understand the customer's needs, such as 'How may I assist you today, Kelly?' to move the conversation forward.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[07:46:20 PM] t0374329224: Full Name: t0374329224 Email Address: garizabalo2905@gmail.com Subject / How can we help you?: Kelly\n[07:46:20 PM] t0374329224: Full Name: t0374329224 Email Address: garizabalo2905@gmail.com Subject / How can we help you?: Kelly\n[07:46:43 PM] Diana Lopez: Hello!\n[07:46:43 PM] Diana Lopez: Hello!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T19:51:39.547Z"
         }
       ],
       "avg_score": 61,
       "grade": "D",
-      "trend": -8
+      "trend": -13
     },
     {
       "id": "5802",
@@ -59107,6 +59152,51 @@
       "raw_transcript": "[07:37:34 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:37:34 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:38:12 PM] Evelyn Portillo: Hi ! My name is Samantha I will be assisting you with .\n[07:38:12 PM] Evelyn Portillo: Hi ! \nMy name is Samantha I will be assisting you with .\n[07:38:29 PM] t0038884144: what's the point of rewarding all these free spins for completing missions if you can't win anything with those free spins?\n[07:38:29 PM] t0038884144: what's the point of rewarding all these free spins for completing missions if you can't win anything with those free spins?\n[07:39:49 PM] t0038884144: pretty obvious those free spins are rigged\n[07:39:49 PM] t0038884144: pretty obvious those free spins are rigged\n[07:41:14 PM] Evelyn Portillo: There are more ways to win without purchase if that what you want\n[07:41:14 PM] Evelyn Portillo: There are more ways to win without purchase if that what you want\n[07:41:19 PM] Evelyn Portillo: no purchase is required to earn Sweepstakes Coins, although some bonuses may require optional qualifying purchases to unlock additional rewards:\n\n* Welcome Bonus — verify your email and phone number to receive free SC and GC\n* Golden Egg Welcome Offer — unlocks after KYC verification for new accounts\n* Daily Login Rewards — log in each day and complete the task to claim free SC\n* Daily Bonus Tasks — free SC for completing simple daily activities\n* VIP Rewards Club — earn daily, weekly, and tier upgrade SC bonuses as you level up\n* Referral Program — earn instant SC, lifetime gameplay rebates, and milestone rewards\n* SC Daily Cashback — automatic SC cashback based on your daily SC gameplay\n* Consecutive Purchase Streak — bonus SC and GC for qualifying daily purchases (optional)\n* Second Chance (SC Rescue Bonus) — percentage of net SC losses returned when eligible\n* Sunday Mystery Rewards — random SC reward for making a qualifying purchase during the week (optional)\n* Monthly Grand SC Giveaway — automatic entry with a qualifying purchase (optional)\n* Tournaments — compete on leaderboards for SC prizes\n* Social Media Giveaways — free SC promos shared on our official channels\n* Email Promotions — exclusive bonus offers sent directly to your inbox\n* AMOE / Postal Requests — request free Sweepstakes Coins by mail with no purchase required\n[07:41:19 PM] Evelyn Portillo: no purchase is required to earn Sweepstakes Coins, although some bonuses may require optional qualifying purchases to unlock additional rewards:\n\n* Welcome Bonus — verify your email and phone number to receive free SC and GC\n* Golden Egg Welcome Offer — unlocks after KYC verification for new accounts\n* Daily Login Rewards — log in each day and complete the task to claim free SC\n* Daily Bonus Tasks — free SC for completing simple daily activities\n* VIP Rewards Club — earn daily, weekly, and tier upgrade SC bonuses as you level up\n* Referral Program — earn instant SC, lifetime gameplay rebates, and milestone rewards\n* SC Daily Cashback — automatic SC cashback based on your daily SC gameplay\n* Consecutive Purchase Streak — bonus SC and GC for qualifying daily purchases (optional)\n* Second Chance (SC Rescue Bonus) — percentage of net SC losses returned when eligible\n* Sunday Mystery Rewards — random SC reward for making a qualifying purchase during the week (optional)\n* Monthly Grand SC Giveaway — automatic entry with a qualifying purchase (optional)\n* Tournaments — compete on leaderboards for SC prizes\n* Social Media Giveaways — free SC promos shared on our official channels\n* Email Promotions — exclusive bonus offers sent directly to your inbox\n* AMOE / Postal Requests — request free Sweepstakes Coins by mail with no purchase required\n[07:41:36 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:41:36 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:42:53 PM] t0038884144: how about you give me a free sweepstakes bonus cin\n[07:42:53 PM] t0038884144: how about you give me a free sweepstakes bonus cin\n[07:43:08 PM] t0038884144: considering all the money I lost on here\n[07:43:08 PM] t0038884144: considering all the money I lost on here\n[07:43:17 PM] t0038884144: or just close my account\n[07:43:17 PM] t0038884144: or just close my account\n[07:43:25 PM] Evelyn Portillo: We do not give SC the only way you can get it is by package or winning\n[07:43:25 PM] Evelyn Portillo: We do not give SC the only way you can get it is by package or winning",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T19:46:57.258Z"
+    },
+    {
+      "chat_id": "2048126480847515648",
+      "agent_name": "Diana Lopez",
+      "agent_id": "5554",
+      "timestamp": "2026-04-25T19:49:25.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Agent greeted but did not personalize or acknowledge the customer's information."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent made no attempt to discover or clarify the customer's issue before chat ended."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted; chat ended immediately after greeting with no assistance provided."
+        },
+        "communication": {
+          "score": 8,
+          "notes": "Greeting was clear and professional, though duplicated, but no further communication occurred."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed in the brief interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided; chat ended abruptly without offering help or saying goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 21,
+      "grade": "F",
+      "summary": "Agent provided only a basic greeting with no follow-up to understand or address the customer's needs. The interaction ended prematurely without any attempt at issue discovery, resolution, or proper closing.",
+      "coaching_tip": "Always follow your greeting with a proactive question to understand the customer's needs, such as 'How may I assist you today, Kelly?' to move the conversation forward.",
+      "website": "Jackpot Daily",
+      "message_count": 4,
+      "raw_transcript": "[07:46:20 PM] t0374329224: Full Name: t0374329224 Email Address: garizabalo2905@gmail.com Subject / How can we help you?: Kelly\n[07:46:20 PM] t0374329224: Full Name: t0374329224 Email Address: garizabalo2905@gmail.com Subject / How can we help you?: Kelly\n[07:46:43 PM] Diana Lopez: Hello!\n[07:46:43 PM] Diana Lopez: Hello!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T19:51:39.547Z"
     }
   ]
 }
