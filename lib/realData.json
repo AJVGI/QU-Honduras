@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T22:11:42.623Z",
-  "total_chats": 679,
+  "scored_at": "2026-04-25T22:26:44.902Z",
+  "total_chats": 680,
   "total_agents": 27,
   "agents": [
     {
@@ -25332,11 +25332,56 @@
           "raw_transcript": "[10:02:10 PM] t8737956798: Full Name: t8737956798 Email Address: Yadircm1999@gmail.com Subject / How can we help you?: I want to close my account. I feel like I opened it on a whim; it won't let me purchase credit to play, and I don't want it anymore. Thank you—you can go ahead and close it. Thanks.\n[10:02:10 PM] t8737956798: Full Name: t8737956798 Email Address: Yadircm1999@gmail.com Subject / How can we help you?: I want to close my account. I feel like I opened it on a whim; it won't let me purchase credit to play, and I don't want it anymore. Thank you—you can go ahead and close it. Thanks.\n[10:02:20 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:02:20 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:04:43 PM] Ludovicode Flores: we're really sad to see you go\nAs requested, your account has been permanently closed.\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish\nyou all the very best\n[10:04:43 PM] Ludovicode Flores: we're really sad to see you go\nAs requested, your account has been permanently closed.\nJust so you know:\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish\nyou all the very best\n[10:05:15 PM] t8737956798: Thanks\n[10:05:15 PM] t8737956798: Thanks\n[10:06:01 PM] Ludovicode Flores: Thanks for chatting with us\n[10:06:01 PM] Ludovicode Flores: Thanks for chatting with us",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T22:06:45.047Z"
+        },
+        {
+          "chat_id": "2048165784806273024",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-25T22:24:22.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly to looking into the issue without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about the purchase issue or attempt to understand what specific error the customer encountered."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Chat ended prematurely with only an acknowledgment to investigate; no actual resolution or troubleshooting was provided."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Message was clear and professional but lacked empathy and any substantive communication beyond a hold statement."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations but incomplete interaction makes full assessment difficult."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as the transcript appears to end abruptly after the initial hold message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 42,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer and provided only a brief hold message without any actual troubleshooting or resolution. The transcript appears incomplete, showing only the very beginning of the interaction.",
+          "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before diving into the issue, and ensure you ask clarifying questions about error messages or specific problems encountered.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[10:22:30 PM] t3836917945: Full Name: t3836917945 Email Address: jennydove1978@gmail.com Subject / How can we help you?: Yes I was Trying to make my first purchased, I had to go get my card. I got out of the site and I never got to make my first purchase. It was 10 years dollars for 30 coins. I still want to make my first purchase, and it will not let be\n[10:22:30 PM] t3836917945: Full Name: t3836917945 Email Address: jennydove1978@gmail.com Subject / How can we help you?: Yes I was Trying to make my first purchased, I had to go get my card. I got out of the site and I never got to make my first purchase. It was 10 years dollars for 30 coins. I still want to make my first purchase, and it will not let be\n[10:22:44 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:22:44 PM] Ludovicode Flores: Please allow me one moment to look into this for you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T22:26:44.402Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": 10
+      "trend": 2
     },
     {
       "id": "5807",
@@ -61357,6 +61402,51 @@
       "raw_transcript": "[10:03:00 PM] t1203550967: Full Name: t1203550967 Email Address: debfenn2014@gmail.com Subject / How can we help you?: I signed up and went to purchase my sign up bonus, and it said it would automatically apply but it didn’t. I’ve purchased multiple times now\n[10:03:00 PM] t1203550967: Full Name: t1203550967 Email Address: debfenn2014@gmail.com Subject / How can we help you?: I signed up and went to purchase my sign up bonus, and it said it would automatically apply but it didn’t. I’ve purchased multiple times now\n[10:03:18 PM] Cairo Osorto: Thanks for contacting.\n[10:03:18 PM] Cairo Osorto: Thanks for contacting.\n[10:04:05 PM] Cairo Osorto: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[10:04:05 PM] Cairo Osorto: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[10:05:40 PM] Cairo Osorto: You seem to have left. Is there anything else I may assist you with today?\n[10:05:40 PM] Cairo Osorto: You seem to have left. Is there anything else I may assist you with today?\n[10:07:25 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:07:25 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T22:11:42.122Z"
+    },
+    {
+      "chat_id": "2048165784806273024",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-25T22:24:22.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped directly to looking into the issue without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions about the purchase issue or attempt to understand what specific error the customer encountered."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "Chat ended prematurely with only an acknowledgment to investigate; no actual resolution or troubleshooting was provided."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Message was clear and professional but lacked empathy and any substantive communication beyond a hold statement."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations but incomplete interaction makes full assessment difficult."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as the transcript appears to end abruptly after the initial hold message."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 42,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer and provided only a brief hold message without any actual troubleshooting or resolution. The transcript appears incomplete, showing only the very beginning of the interaction.",
+      "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before diving into the issue, and ensure you ask clarifying questions about error messages or specific problems encountered.",
+      "website": "Jackpot Daily",
+      "message_count": 4,
+      "raw_transcript": "[10:22:30 PM] t3836917945: Full Name: t3836917945 Email Address: jennydove1978@gmail.com Subject / How can we help you?: Yes I was Trying to make my first purchased, I had to go get my card. I got out of the site and I never got to make my first purchase. It was 10 years dollars for 30 coins. I still want to make my first purchase, and it will not let be\n[10:22:30 PM] t3836917945: Full Name: t3836917945 Email Address: jennydove1978@gmail.com Subject / How can we help you?: Yes I was Trying to make my first purchased, I had to go get my card. I got out of the site and I never got to make my first purchase. It was 10 years dollars for 30 coins. I still want to make my first purchase, and it will not let be\n[10:22:44 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:22:44 PM] Ludovicode Flores: Please allow me one moment to look into this for you!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T22:26:44.402Z"
     }
   ]
 }
