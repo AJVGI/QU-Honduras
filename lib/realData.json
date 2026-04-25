@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T23:01:55.602Z",
-  "total_chats": 687,
+  "scored_at": "2026-04-25T23:06:41.330Z",
+  "total_chats": 688,
   "total_agents": 27,
   "agents": [
     {
@@ -13776,11 +13776,56 @@
           "raw_transcript": "[10:38:04 PM] Customer: Full Name: Amanda Delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: It says there’s a vpn\n[10:38:04 PM] Customer: Full Name: Amanda Delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: It says there’s a vpn\n[10:38:21 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:38:21 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[10:39:43 PM] Jonathan Fuentes: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\n-A VPN or proxy is active — try disabling it and refreshing\n-Location services are turned off — enable them in your browser or device settings\n-Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\n*Switch between Wi-Fi and mobile data\n*Restart your router and device\n*Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper.\n[10:39:43 PM] Jonathan Fuentes: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n\n-A VPN or proxy is active — try disabling it and refreshing\n-Location services are turned off — enable them in your browser or device settings\n-Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n\n*Switch between Wi-Fi and mobile data\n*Restart your router and device\n*Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper.\n[10:41:37 PM] Customer: I’ve already done all of that nor it says my user n or password is invalid\n[10:41:37 PM] Customer: I’ve already done all of that nor it says my user n or password is invalid\n[10:42:27 PM] Jonathan Fuentes: Can I please have a screenchot of the error you have?\n[10:42:40 PM] Jonathan Fuentes: Can I please have a screenshot of the error you have?\n[10:42:40 PM] Jonathan Fuentes: Can I please have a screenshot of the error you have?\n[10:43:50 PM] Jonathan Fuentes: Are you still there? I'm still here if you need any help.\n[10:43:50 PM] Jonathan Fuentes: Are you still there? I'm still here if you need any help.\n[10:44:05 PM] Customer: Yes\n[10:44:05 PM] Customer: Yes\n[10:44:17 PM] Jonathan Fuentes: Can I please have a screenshot of the error you have?\n[10:44:17 PM] Jonathan Fuentes: Can I please have a screenshot of the error you have?\n[10:44:31 PM] Customer: IMG_1427.jpg\n[10:44:31 PM] Customer: IMG_1427.jpg\n[10:45:02 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:45:02 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[10:45:42 PM] Customer: 060403ricky@gmail.com\n[10:45:42 PM] Customer: 060403ricky@gmail.com\n[10:46:29 PM] Jonathan Fuentes: Did you registered directly with your email or with Facebook?\n[10:46:29 PM] Jonathan Fuentes: Did you registered directly with your email or with Facebook?\n[10:46:35 PM] Customer: Fb\n[10:46:35 PM] Customer: Fb\n[10:48:06 PM] Jonathan Fuentes: We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, please go ahead and send an email to support@jackpotdaily.com with a brief description of the issue and any relevant details or screenshots.\n\nTo help speed things up, make sure to include “ESCALATE” in the subject line so the team can prioritize your case.\n[10:48:06 PM] Jonathan Fuentes: We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, please go ahead and send an email to support@jackpotdaily.com with a brief description of the issue and any relevant details or screenshots.\n\nTo help speed things up, make sure to include “ESCALATE” in the subject line so the team can prioritize your case.\n[10:49:58 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[10:49:58 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T22:51:43.221Z"
+        },
+        {
+          "chat_id": "2048175300336250880",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-25T23:03:32.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting present; agent jumped directly to 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent appropriately asked for reason behind closure decision and acknowledged the customer's frustration about game payouts."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Account was permanently closed as requested with clear explanation of what this means for the customer."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Professional, empathetic tone throughout with clear explanations, though slightly verbose for the straightforward request."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly handled account closure request, included responsible gaming language, and set appropriate expectations."
+            },
+            "closing": {
+              "score": 9,
+              "notes": "Thoughtful closing with well-wishes and invitation for feedback, appropriate for account closure context."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 80,
+          "grade": "B",
+          "summary": "Agent handled the account closure request professionally and efficiently, asking appropriate questions before proceeding. The interaction was empathetic and compliant, though it lacked an initial greeting.",
+          "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before addressing their request, even in sensitive situations like account closures.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[11:00:19 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Close account\n[11:00:19 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Close account\n[11:00:31 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:00:31 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:00:42 PM] Customer: Permanently close my account. This site is awful\n[11:00:42 PM] Customer: Permanently close my account. This site is awful\n[11:01:09 PM] Jonathan Fuentes: I’m sorry to hear you’re considering closing your account.\nWould you mind sharing the reason behind your decision? I’d really like to understand and see if there’s anything we can do to help before moving forward.\n[11:01:09 PM] Jonathan Fuentes: I’m sorry to hear you’re considering closing your account.\nWould you mind sharing the reason behind your decision? I’d really like to understand and see if there’s anything we can do to help before moving forward.\n[11:01:18 PM] Customer: None of the games pay\n[11:01:18 PM] Customer: None of the games pay\n[11:02:26 PM] Jonathan Fuentes: I understand, and I’m really sorry to hear that.\n\nWe truly appreciate you sharing that with us. Give me one moment to proceed with this process for you.\n[11:02:26 PM] Jonathan Fuentes: I understand, and I’m really sorry to hear that.\n\nWe truly appreciate you sharing that with us. Give me one moment to proceed with this process for you.\n[11:03:12 PM] Jonathan Fuentes: We’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n\nYou will no longer be able to access gameplay or reopen the account going forward\n\n\nThis measure is in place to support the safety and wellbeing of all our players\n\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.\n[11:03:12 PM] Jonathan Fuentes: We’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n\nYou will no longer be able to access gameplay or reopen the account going forward\n\n\nThis measure is in place to support the safety and wellbeing of all our players\n\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T23:06:40.828Z"
         }
       ],
-      "avg_score": 58,
+      "avg_score": 59,
       "grade": "F",
-      "trend": 2
+      "trend": 15
     },
     {
       "id": "5806",
@@ -62077,6 +62122,51 @@
       "raw_transcript": "[10:52:33 PM] t8661908886: Full Name: t8661908886 Email Address: 060403ricky@gmail.com Subject / How can we help you?: It said if I sign up I get $25 sc\n[10:52:33 PM] t8661908886: Full Name: t8661908886 Email Address: 060403ricky@gmail.com Subject / How can we help you?: It said if I sign up I get $25 sc\n[10:52:46 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:52:46 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[10:53:42 PM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[10:53:42 PM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[10:54:29 PM] Ludovicode Flores: The Golden Egg is the only welcome bonus we offer\n[10:54:29 PM] Ludovicode Flores: The Golden Egg is the only welcome bonus we offer\n[10:58:55 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[10:58:55 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T23:01:55.100Z"
+    },
+    {
+      "chat_id": "2048175300336250880",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-25T23:03:32.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No greeting present; agent jumped directly to 'one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent appropriately asked for reason behind closure decision and acknowledged the customer's frustration about game payouts."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Account was permanently closed as requested with clear explanation of what this means for the customer."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Professional, empathetic tone throughout with clear explanations, though slightly verbose for the straightforward request."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly handled account closure request, included responsible gaming language, and set appropriate expectations."
+        },
+        "closing": {
+          "score": 9,
+          "notes": "Thoughtful closing with well-wishes and invitation for feedback, appropriate for account closure context."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 80,
+      "grade": "B",
+      "summary": "Agent handled the account closure request professionally and efficiently, asking appropriate questions before proceeding. The interaction was empathetic and compliant, though it lacked an initial greeting.",
+      "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before addressing their request, even in sensitive situations like account closures.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[11:00:19 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Close account\n[11:00:19 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Close account\n[11:00:31 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:00:31 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:00:42 PM] Customer: Permanently close my account. This site is awful\n[11:00:42 PM] Customer: Permanently close my account. This site is awful\n[11:01:09 PM] Jonathan Fuentes: I’m sorry to hear you’re considering closing your account.\nWould you mind sharing the reason behind your decision? I’d really like to understand and see if there’s anything we can do to help before moving forward.\n[11:01:09 PM] Jonathan Fuentes: I’m sorry to hear you’re considering closing your account.\nWould you mind sharing the reason behind your decision? I’d really like to understand and see if there’s anything we can do to help before moving forward.\n[11:01:18 PM] Customer: None of the games pay\n[11:01:18 PM] Customer: None of the games pay\n[11:02:26 PM] Jonathan Fuentes: I understand, and I’m really sorry to hear that.\n\nWe truly appreciate you sharing that with us. Give me one moment to proceed with this process for you.\n[11:02:26 PM] Jonathan Fuentes: I understand, and I’m really sorry to hear that.\n\nWe truly appreciate you sharing that with us. Give me one moment to proceed with this process for you.\n[11:03:12 PM] Jonathan Fuentes: We’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n\nYou will no longer be able to access gameplay or reopen the account going forward\n\n\nThis measure is in place to support the safety and wellbeing of all our players\n\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.\n[11:03:12 PM] Jonathan Fuentes: We’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n\nYou will no longer be able to access gameplay or reopen the account going forward\n\n\nThis measure is in place to support the safety and wellbeing of all our players\n\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T23:06:40.828Z"
     }
   ]
 }
