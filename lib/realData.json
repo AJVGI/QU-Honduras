@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T22:31:43.152Z",
-  "total_chats": 681,
+  "scored_at": "2026-04-25T22:46:47.062Z",
+  "total_chats": 682,
   "total_agents": 27,
   "agents": [
     {
@@ -18303,11 +18303,56 @@
           "raw_transcript": "[10:03:00 PM] t1203550967: Full Name: t1203550967 Email Address: debfenn2014@gmail.com Subject / How can we help you?: I signed up and went to purchase my sign up bonus, and it said it would automatically apply but it didn’t. I’ve purchased multiple times now\n[10:03:00 PM] t1203550967: Full Name: t1203550967 Email Address: debfenn2014@gmail.com Subject / How can we help you?: I signed up and went to purchase my sign up bonus, and it said it would automatically apply but it didn’t. I’ve purchased multiple times now\n[10:03:18 PM] Cairo Osorto: Thanks for contacting.\n[10:03:18 PM] Cairo Osorto: Thanks for contacting.\n[10:04:05 PM] Cairo Osorto: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[10:04:05 PM] Cairo Osorto: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n[10:05:40 PM] Cairo Osorto: You seem to have left. Is there anything else I may assist you with today?\n[10:05:40 PM] Cairo Osorto: You seem to have left. Is there anything else I may assist you with today?\n[10:07:25 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[10:07:25 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T22:11:42.122Z"
+        },
+        {
+          "chat_id": "2048168694239768576",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-25T22:42:27.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Initial greeting was minimal ('Thanks for contacting') without personalization or warmth, though later added apology."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent requested screenshot to diagnose the issue, which was appropriate, and received the error details needed."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps but chat ended without confirming if solutions worked or addressing refund request."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Communication was clear and professional, though could have been more empathetic given customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately did not promise refund without proper investigation or authority."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing provided; chat ended abruptly after listing troubleshooting steps without follow-up or offer of further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent handled basic troubleshooting competently by requesting error details and providing standard solutions, but failed to address the customer's refund demand or properly close the interaction. The lack of closing and incomplete resolution of customer concerns significantly impacted the overall service quality.",
+          "coaching_tip": "Always acknowledge all customer requests (like the refund demand) even if you need to escalate, and ensure you close every chat by confirming next steps and offering additional help.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[10:34:04 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Cannot login to site. Repeatedly get login failure. I want my moneh refunded if I cant even play it.\n[10:34:04 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Cannot login to site. Repeatedly get login failure. I want my moneh refunded if I cant even play it.\n[10:34:18 PM] Cairo Osorto: Thanks for contacting.\n[10:34:18 PM] Cairo Osorto: Thanks for contacting.\n[10:34:49 PM] Customer: I cant even log in.\n[10:34:49 PM] Customer: I cant even log in.\n[10:35:09 PM] Cairo Osorto: Hello, I'm sorry to hear that you haven't been able to log in.\n[10:35:09 PM] Cairo Osorto: Hello, I'm sorry to hear that you haven't been able to log in.\n[10:35:41 PM] Customer: Ok and? What can you do about it\n[10:35:41 PM] Customer: Ok and? What can you do about it\n[10:36:03 PM] Cairo Osorto: Can you please share a screenshot of the error message you're getting to better understand what you see?\n[10:36:03 PM] Cairo Osorto: Can you please share a screenshot of the error message you're getting to better understand what you see?\n[10:37:50 PM] Customer: How do i add it\n[10:37:50 PM] Customer: How do i add it\n[10:38:24 PM] Cairo Osorto: You can copy and paste it on this chat just as you would with text.\n[10:38:24 PM] Cairo Osorto: You can copy and paste it on this chat just as you would with text.\n[10:39:36 PM] Customer: Warning\nLogin failure. Please try again.\n\nCode: auth/popup-closed-by-user\nReason: Firebase: Error (auth/popup-closed-by-user).\n[10:39:36 PM] Customer: Warning\nLogin failure. Please try again.\n\nCode: auth/popup-closed-by-user\nReason: Firebase: Error (auth/popup-closed-by-user).\n[10:40:32 PM] Cairo Osorto: I understand, thanks for that!\n[10:40:32 PM] Cairo Osorto: I understand, thanks for that!\n[10:41:29 PM] Cairo Osorto: A few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[10:41:29 PM] Cairo Osorto: A few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T22:46:46.560Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 1
+      "trend": -6
     },
     {
       "id": "5669",
@@ -61537,6 +61582,51 @@
       "raw_transcript": "[10:19:55 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight Almost 48 hours later and no $10 credit? And I click on daily free play everyday n it gives me nothing\n[10:19:55 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I got an email that said I'm going to get credited $10 do you know when that $10 is coming in cuz I plan on playing tonight Almost 48 hours later and no $10 credit? And I click on daily free play everyday n it gives me nothing\n[10:20:07 PM] Jonathan Fuentes: Give me a moment to review this information.\n[10:20:07 PM] Jonathan Fuentes: Give me a moment to review this information.\n[10:20:13 PM] t7409419483: Ok\n[10:20:13 PM] t7409419483: Ok\n[10:21:00 PM] t7409419483: I was supposed to get the $10 credit in 24 hours or less\n[10:21:00 PM] t7409419483: I was supposed to get the $10 credit in 24 hours or less\n[10:24:05 PM] Jonathan Fuentes: I’ve reviewed your case and can see everything that’s happened so far.\n\nI did escalate this yesterday, which is why the designated team is the one handling the $10 credit for you.\n\nAt this point, the best thing we can do is allow them a bit more time to complete the process, as credits like this are handled directly by that team and can’t be applied from this side of the chat.\n\nAlso, since it’s currently the weekend, processing times can sometimes take a bit longer than usual.\n\nI understand the wait can be frustrating, but it is already in progress and being worked on\n[10:24:05 PM] Jonathan Fuentes: I’ve reviewed your case and can see everything that’s happened so far.\n\nI did escalate this yesterday, which is why the designated team is the one handling the $10 credit for you.\n\nAt this point, the best thing we can do is allow them a bit more time to complete the process, as credits like this are handled directly by that team and can’t be applied from this side of the chat.\n\nAlso, since it’s currently the weekend, processing times can sometimes take a bit longer than usual.\n\nI understand the wait can be frustrating, but it is already in progress and being worked on\n[10:26:18 PM] Jonathan Fuentes: Also, just to check, have you already created a support ticket for this?\n\nIf not, please go ahead and send an email to support@jackpotdaily.com\n with a brief description of the issue and any relevant details or screenshots.\n\nTo help speed things up, make sure to include “ESCALATE” in the subject line so the team can prioritize your case.\n[10:26:18 PM] Jonathan Fuentes: Also, just to check, have you already created a support ticket for this?\n\nIf not, please go ahead and send an email to support@jackpotdaily.com\n with a brief description of the issue and any relevant details or screenshots.\n\nTo help speed things up, make sure to include “ESCALATE” in the subject line so the team can prioritize your case.\n[10:26:41 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[10:26:41 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T22:31:42.650Z"
+    },
+    {
+      "chat_id": "2048168694239768576",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-25T22:42:27.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Initial greeting was minimal ('Thanks for contacting') without personalization or warmth, though later added apology."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent requested screenshot to diagnose the issue, which was appropriate, and received the error details needed."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps but chat ended without confirming if solutions worked or addressing refund request."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Communication was clear and professional, though could have been more empathetic given customer frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately did not promise refund without proper investigation or authority."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing provided; chat ended abruptly after listing troubleshooting steps without follow-up or offer of further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent handled basic troubleshooting competently by requesting error details and providing standard solutions, but failed to address the customer's refund demand or properly close the interaction. The lack of closing and incomplete resolution of customer concerns significantly impacted the overall service quality.",
+      "coaching_tip": "Always acknowledge all customer requests (like the refund demand) even if you need to escalate, and ensure you close every chat by confirming next steps and offering additional help.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[10:34:04 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Cannot login to site. Repeatedly get login failure. I want my moneh refunded if I cant even play it.\n[10:34:04 PM] Customer: Full Name: Kelly Moore Email Address: kapmoore11@gmail.com Subject / How can we help you?: Cannot login to site. Repeatedly get login failure. I want my moneh refunded if I cant even play it.\n[10:34:18 PM] Cairo Osorto: Thanks for contacting.\n[10:34:18 PM] Cairo Osorto: Thanks for contacting.\n[10:34:49 PM] Customer: I cant even log in.\n[10:34:49 PM] Customer: I cant even log in.\n[10:35:09 PM] Cairo Osorto: Hello, I'm sorry to hear that you haven't been able to log in.\n[10:35:09 PM] Cairo Osorto: Hello, I'm sorry to hear that you haven't been able to log in.\n[10:35:41 PM] Customer: Ok and? What can you do about it\n[10:35:41 PM] Customer: Ok and? What can you do about it\n[10:36:03 PM] Cairo Osorto: Can you please share a screenshot of the error message you're getting to better understand what you see?\n[10:36:03 PM] Cairo Osorto: Can you please share a screenshot of the error message you're getting to better understand what you see?\n[10:37:50 PM] Customer: How do i add it\n[10:37:50 PM] Customer: How do i add it\n[10:38:24 PM] Cairo Osorto: You can copy and paste it on this chat just as you would with text.\n[10:38:24 PM] Cairo Osorto: You can copy and paste it on this chat just as you would with text.\n[10:39:36 PM] Customer: Warning\nLogin failure. Please try again.\n\nCode: auth/popup-closed-by-user\nReason: Firebase: Error (auth/popup-closed-by-user).\n[10:39:36 PM] Customer: Warning\nLogin failure. Please try again.\n\nCode: auth/popup-closed-by-user\nReason: Firebase: Error (auth/popup-closed-by-user).\n[10:40:32 PM] Cairo Osorto: I understand, thanks for that!\n[10:40:32 PM] Cairo Osorto: I understand, thanks for that!\n[10:41:29 PM] Cairo Osorto: A few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[10:41:29 PM] Cairo Osorto: A few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T22:46:46.560Z"
     }
   ]
 }
