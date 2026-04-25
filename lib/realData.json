@@ -1,8 +1,107 @@
 {
-  "scored_at": "2026-04-25T20:31:42.675Z",
-  "total_chats": 664,
+  "scored_at": "2026-04-25T20:36:42.444Z",
+  "total_chats": 665,
   "total_agents": 27,
   "agents": [
+    {
+      "id": "5664",
+      "name": "David Berlioz",
+      "chats": [
+        {
+          "chat_id": "2047258440497459200",
+          "agent_name": "David Berlioz",
+          "agent_id": "5664",
+          "timestamp": "2026-04-23T10:21:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting, only asked for a moment to investigate without acknowledging the customer first."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent requested time to investigate but customer escalated before any discovery could occur."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution attempted due to customer's abusive language and refusal of help before agent could respond."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Agent remained professional and clear despite extreme provocation from customer."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly terminated conversation due to abusive language while offering future assistance channels."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional termination with clear explanation and alternative contact methods provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent handled an extremely abusive customer professionally by attempting to help initially, then appropriately terminating the conversation when disrespectful language continued. The customer refused assistance and escalated to profanity before the agent could address the bonus issue.",
+          "coaching_tip": "Include a brief greeting acknowledging the customer by name before requesting time to investigate, even in tense situations.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:26:17.675Z"
+        },
+        {
+          "chat_id": "2047256938017501184",
+          "agent_name": "David Berlioz",
+          "agent_id": "5664",
+          "timestamp": "2026-04-23T10:39:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting at start; first message was just a hold statement, greeting came much later with the instructions."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Understood both the signup question and follow-up location question well, addressed each appropriately."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided clear step-by-step signup instructions and explained location services accurately with helpful guidance."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, friendly, and well-structured responses with good use of numbered steps and encouraging tone."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately mentioned verification requirements and provided accurate information."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with alternative contact method provided and invitation for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 78,
+          "grade": "C",
+          "summary": "Agent provided accurate and helpful information for both signup and location services questions with clear instructions. Main weakness was the lack of initial greeting and extended response times between messages.",
+          "coaching_tip": "Start every chat with a proper greeting that acknowledges the customer by name before asking them to wait, rather than leading with a hold message.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:12:12 AM] Customer: ok...look\n[10:12:12 AM] Customer: ok...look\n[10:14:49 AM] Customer: thank you\n[10:14:49 AM] Customer: thank you\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T10:41:14.854Z"
+        }
+      ],
+      "avg_score": 67,
+      "grade": "D",
+      "trend": 0
+    },
     {
       "id": "5800",
       "name": "Maritza Caceres",
@@ -816,110 +915,56 @@
           "raw_transcript": "[08:03:11 PM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: Hey, are you able to cancel my redemption from your end?\n[08:03:11 PM] t5927241207: Full Name: t5927241207 Email Address: ricetakeria@gmail.com Subject / How can we help you?: Hey, are you able to cancel my redemption from your end?\n[08:04:04 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[08:04:04 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[08:05:55 PM] t5927241207: Ok\n[08:05:55 PM] t5927241207: Ok\n[08:06:35 PM] Maritza Caceres: Hi Takeria,\n\nThank you for reaching out to us! I would be happy to clarify the process regarding redemption cancellations.\n\nAt this time, our support team does not have the ability to manually cancel a redemption request once it has been initiated.\n[08:06:35 PM] Maritza Caceres: Hi Takeria,\n\nThank you for reaching out to us! I would be happy to clarify the process regarding redemption cancellations.\n\nAt this time, our support team does not have the ability to manually cancel a redemption request once it has been initiated.\n[08:12:08 PM] Maritza Caceres: I haven't received a response in the last 6 minutes and just wanted to make sure you're still there.\n[08:12:08 PM] Maritza Caceres: I haven't received a response in the last 6 minutes and just wanted to make sure you're still there.\n[08:16:03 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[08:16:03 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T20:16:45.903Z"
-        }
-      ],
-      "avg_score": 68,
-      "grade": "D",
-      "trend": -12
-    },
-    {
-      "id": "5664",
-      "name": "David Berlioz",
-      "chats": [
-        {
-          "chat_id": "2047258440497459200",
-          "agent_name": "David Berlioz",
-          "agent_id": "5664",
-          "timestamp": "2026-04-23T10:21:33.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting, only asked for a moment to investigate without acknowledging the customer first."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent requested time to investigate but customer escalated before any discovery could occur."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "No resolution attempted due to customer's abusive language and refusal of help before agent could respond."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Agent remained professional and clear despite extreme provocation from customer."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Properly terminated conversation due to abusive language while offering future assistance channels."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional termination with clear explanation and alternative contact methods provided."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 55,
-          "grade": "F",
-          "summary": "Agent handled an extremely abusive customer professionally by attempting to help initially, then appropriately terminating the conversation when disrespectful language continued. The customer refused assistance and escalated to profanity before the agent could address the bonus issue.",
-          "coaching_tip": "Include a brief greeting acknowledging the customer by name before requesting time to investigate, even in tense situations.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:03 AM] t9614058862: Full Name: t9614058862 Email Address: dustinryanmcdonald@gmail.com Subject / How can we help you?: What happen to the bonuses I couldn't collect until being verified? In fact where are any of the sign up bonuses. Spent hours on chat yesterday to no resolve...fuck this site\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:17:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:18:40 AM] t9614058862: Don't bother. I'm done with this bs. Just know your all idiots and I'm posting the chat logs to review sites and reporting you all to the bbb\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:19:15 AM] t9614058862: Fuckin lying scam ass fucks\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[10:21:30 AM] David Berlioz: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:26:17.675Z"
         },
         {
-          "chat_id": "2047256938017501184",
-          "agent_name": "David Berlioz",
-          "agent_id": "5664",
-          "timestamp": "2026-04-23T10:39:35.000Z",
+          "chat_id": "2048134516509028352",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-25T20:35:13.000Z",
           "categories": {
             "greeting": {
-              "score": 5,
-              "notes": "No greeting at start; first message was just a hold statement, greeting came much later with the instructions."
+              "score": 7,
+              "notes": "Professional and friendly greeting with offer to help, though generic without customer name."
             },
             "issue_discovery": {
-              "score": 16,
-              "notes": "Understood both the signup question and follow-up location question well, addressed each appropriately."
+              "score": 10,
+              "notes": "Agent asked for clarification only after customer returned, but failed to acknowledge or address the detailed complaint already provided in opening messages."
             },
             "resolution": {
-              "score": 24,
-              "notes": "Provided clear step-by-step signup instructions and explained location services accurately with helpful guidance."
+              "score": 8,
+              "notes": "No resolution attempted; agent only asked for clarification at the very end with an angry customer making serious accusations."
             },
             "communication": {
-              "score": 17,
-              "notes": "Clear, friendly, and well-structured responses with good use of numbered steps and encouraging tone."
+              "score": 11,
+              "notes": "Agent was polite but failed to acknowledge the customer's serious concerns about game malfunction and refund request until prompted again."
             },
             "compliance": {
               "score": 8,
-              "notes": "No policy violations; appropriately mentioned verification requirements and provided accurate information."
+              "notes": "No policy violations, but failed to escalate serious fraud allegations and legal threats appropriately."
             },
             "closing": {
-              "score": 8,
-              "notes": "Professional closing with alternative contact method provided and invitation for further assistance."
+              "score": 0,
+              "notes": "Chat transcript ends with no closing; conversation was still ongoing."
             }
           },
           "auto_fail": {
             "triggered": false,
             "reason": null
           },
-          "total_score": 78,
-          "grade": "C",
-          "summary": "Agent provided accurate and helpful information for both signup and location services questions with clear instructions. Main weakness was the lack of initial greeting and extended response times between messages.",
-          "coaching_tip": "Start every chat with a proper greeting that acknowledges the customer by name before asking them to wait, rather than leading with a hold message.",
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent provided a polite greeting but failed to acknowledge the customer's detailed complaint about game malfunction and refund demands that were clearly stated in the opening messages. When the customer returned angry after waiting, the agent only asked for clarification without addressing the serious fraud allegations or escalating appropriately.",
+          "coaching_tip": "Always read and acknowledge the customer's initial message content immediately, especially when serious allegations are made, and escalate fraud claims and legal threats to management promptly.",
           "website": "Jackpot Daily",
-          "message_count": 18,
-          "raw_transcript": "[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:04 AM] Customer: Full Name: DONALD TAUFERNER Email Address: donleetauferner@yahoo.com Subject / How can we help you?: how do i sign up?\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:11:38 AM] David Berlioz: Please allow me one moment to look into this for you!\n[10:12:12 AM] Customer: ok...look\n[10:12:12 AM] Customer: ok...look\n[10:14:49 AM] Customer: thank you\n[10:14:49 AM] Customer: thank you\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:17:30 AM] David Berlioz: Hey!  Welcome — so excited for you to join!\n\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\n\nYou'll need full account verification to redeem winnings, just so you know!\n\nLet me know if you get stuck anywhere\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:21:48 AM] Customer: how do i enable services for my location?\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:27:06 AM] David Berlioz: Give me a moment to review this information.\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:34:38 AM] David Berlioz: Hey!\n\nGreat question — there’s nothing you need to “enable” on your account, but your device does need to allow location access so we can confirm you’re in a supported area \n\nOnce your location is detected properly, you should be able to play without any issues \nIf it’s still not working after that, let me know — I can check what’s going on from our side!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:39:24 AM] David Berlioz: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T10:41:14.854Z"
+          "message_count": 16,
+          "raw_transcript": "[08:18:15 PM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: I checked that game again today just for shits and giggles and guess what it started all over again it's not supposed to do that nobody has gotten back to me I'm just waiting to hear back from my lawyer I am so angry at your casino that you're scamming people you scammed me and I'm so upset I want every dollar back I put in that particular machine every single one because that one I can prove you're scamming people with\n[08:18:15 PM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: I checked that game again today just for shits and giggles and guess what it started all over again it's not supposed to do that nobody has gotten back to me I'm just waiting to hear back from my lawyer I am so angry at your casino that you're scamming people you scammed me and I'm so upset I want every dollar back I put in that particular machine every single one because that one I can prove you're scamming people with\n[08:18:30 PM] t1315504932: And of course not one word back from anybody regarding this matter not one freaking word\n[08:18:30 PM] t1315504932: And of course not one word back from anybody regarding this matter not one freaking word\n[08:18:44 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[08:18:44 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[08:21:59 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:21:59 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:26:16 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[08:26:16 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[08:32:27 PM] t1315504932: And you sit there tell me that you guys are offering me exclusive reward $10 for $10 is not an exclusive reward!!!!!\n[08:32:27 PM] t1315504932: And you sit there tell me that you guys are offering me exclusive reward $10 for $10 is not an exclusive reward!!!!!\n[08:33:26 PM] Maritza Caceres: I´m sorry can you explain to me a bit more of what´s going on?\n[08:33:26 PM] Maritza Caceres: I´m sorry can you explain to me a bit more of what´s going on?\n[08:35:09 PM] t1315504932: Oh this session I'm recording I'm screen recording the whole session and I have my roommate sitting here I'm getting all the proof together that I possibly can yeah your game is supposed to stay where I left off last time it does not and it kept switching out on me same game different versions yeah every time I was going to hit the bonus that's exactly what would happen it's a scam and it's rigged and I'm going to prove it\n[08:35:09 PM] t1315504932: Oh this session I'm recording I'm screen recording the whole session and I have my roommate sitting here I'm getting all the proof together that I possibly can yeah your game is supposed to stay where I left off last time it does not and it kept switching out on me same game different versions yeah every time I was going to hit the bonus that's exactly what would happen it's a scam and it's rigged and I'm going to prove it",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T20:36:41.945Z"
         }
       ],
       "avg_score": 67,
       "grade": "D",
-      "trend": 0
+      "trend": -12
     },
     {
       "id": "5846",
@@ -60007,6 +60052,51 @@
       "raw_transcript": "[08:23:05 PM] Customer: Full Name: Honey Jay Email Address: jarishanewman93@gmail.com Subject / How can we help you?: Im trying to create a account and its not letting me\n[08:23:05 PM] Customer: Full Name: Honey Jay Email Address: jarishanewman93@gmail.com Subject / How can we help you?: Im trying to create a account and its not letting me\n[08:23:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:23:52 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:25:37 PM] Customer: Ok\n[08:25:37 PM] Customer: Ok\n[08:26:02 PM] Evelyn Portillo: Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[08:26:02 PM] Evelyn Portillo: Let's figure this out together!\nA couple of the most common causes:\nEmail already in use — each player can only have one account. Try resetting your\npassword at www.jackpotdaily.com → Login → \"Forgot Password?\"\nRegion — Jackpot Daily might not be available in your area just yet, unfortunately.\nDoes either of those sound like it could be the issue? Let me know and I'll help from\nhere!\n[08:27:12 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:27:12 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:28:15 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[08:28:15 PM] Evelyn Portillo: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T20:31:42.175Z"
+    },
+    {
+      "chat_id": "2048134516509028352",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-25T20:35:13.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting with offer to help, though generic without customer name."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent asked for clarification only after customer returned, but failed to acknowledge or address the detailed complaint already provided in opening messages."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No resolution attempted; agent only asked for clarification at the very end with an angry customer making serious accusations."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Agent was polite but failed to acknowledge the customer's serious concerns about game malfunction and refund request until prompted again."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, but failed to escalate serious fraud allegations and legal threats appropriately."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Chat transcript ends with no closing; conversation was still ongoing."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 44,
+      "grade": "F",
+      "summary": "Agent provided a polite greeting but failed to acknowledge the customer's detailed complaint about game malfunction and refund demands that were clearly stated in the opening messages. When the customer returned angry after waiting, the agent only asked for clarification without addressing the serious fraud allegations or escalating appropriately.",
+      "coaching_tip": "Always read and acknowledge the customer's initial message content immediately, especially when serious allegations are made, and escalate fraud claims and legal threats to management promptly.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[08:18:15 PM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: I checked that game again today just for shits and giggles and guess what it started all over again it's not supposed to do that nobody has gotten back to me I'm just waiting to hear back from my lawyer I am so angry at your casino that you're scamming people you scammed me and I'm so upset I want every dollar back I put in that particular machine every single one because that one I can prove you're scamming people with\n[08:18:15 PM] t1315504932: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: I checked that game again today just for shits and giggles and guess what it started all over again it's not supposed to do that nobody has gotten back to me I'm just waiting to hear back from my lawyer I am so angry at your casino that you're scamming people you scammed me and I'm so upset I want every dollar back I put in that particular machine every single one because that one I can prove you're scamming people with\n[08:18:30 PM] t1315504932: And of course not one word back from anybody regarding this matter not one freaking word\n[08:18:30 PM] t1315504932: And of course not one word back from anybody regarding this matter not one freaking word\n[08:18:44 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[08:18:44 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[08:21:59 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:21:59 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:26:16 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[08:26:16 PM] Maritza Caceres: I haven't received a response in the last three minutes and just wanted to make sure you're still there.\n[08:32:27 PM] t1315504932: And you sit there tell me that you guys are offering me exclusive reward $10 for $10 is not an exclusive reward!!!!!\n[08:32:27 PM] t1315504932: And you sit there tell me that you guys are offering me exclusive reward $10 for $10 is not an exclusive reward!!!!!\n[08:33:26 PM] Maritza Caceres: I´m sorry can you explain to me a bit more of what´s going on?\n[08:33:26 PM] Maritza Caceres: I´m sorry can you explain to me a bit more of what´s going on?\n[08:35:09 PM] t1315504932: Oh this session I'm recording I'm screen recording the whole session and I have my roommate sitting here I'm getting all the proof together that I possibly can yeah your game is supposed to stay where I left off last time it does not and it kept switching out on me same game different versions yeah every time I was going to hit the bonus that's exactly what would happen it's a scam and it's rigged and I'm going to prove it\n[08:35:09 PM] t1315504932: Oh this session I'm recording I'm screen recording the whole session and I have my roommate sitting here I'm getting all the proof together that I possibly can yeah your game is supposed to stay where I left off last time it does not and it kept switching out on me same game different versions yeah every time I was going to hit the bonus that's exactly what would happen it's a scam and it's rigged and I'm going to prove it",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T20:36:41.945Z"
     }
   ]
 }
