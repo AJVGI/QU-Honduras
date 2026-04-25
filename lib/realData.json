@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T23:21:40.735Z",
-  "total_chats": 691,
+  "scored_at": "2026-04-25T23:31:46.904Z",
+  "total_chats": 692,
   "total_agents": 27,
   "agents": [
     {
@@ -18573,11 +18573,56 @@
           "raw_transcript": "[11:08:32 PM] t3050060718: Full Name: t3050060718 Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:32 PM] t3050060718: Full Name: t3050060718 Email Address: mynameisamberlea@gmail.com Subject / How can we help you?: I need to change my phone number to 501-237-6137\n[11:08:50 PM] Cairo Osorto: Thanks for contacting.\n[11:08:50 PM] Cairo Osorto: Thanks for contacting.\n[11:09:56 PM] t3050060718: I am wanting to buy the 9.99 package but i dont have the same phone number anymore.\n[11:09:56 PM] t3050060718: I am wanting to buy the 9.99 package but i dont have the same phone number anymore.\n[11:10:40 PM] Cairo Osorto: I understand.\n[11:10:40 PM] Cairo Osorto: I understand.\n[11:12:32 PM] Cairo Osorto: Thanks for reaching out. At this point and in order to request a phone number change, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible. Is there anything else I can assist you with?\n[11:12:32 PM] Cairo Osorto: Thanks for reaching out. At this point and in order to request a phone number change, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots. To help us prioritize your request, make sure to include “ESCALATE” in the subject line. Once submitted, our team will review your case and get back to you as soon as possible. Is there anything else I can assist you with?\n[11:12:57 PM] t3050060718: no\n[11:12:57 PM] t3050060718: no\n[11:13:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:13:46 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T23:16:43.017Z"
+        },
+        {
+          "chat_id": "2048179369632641024",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-25T23:29:18.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with name usage and empathy, though initial message was generic."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions about error messages and screenshots, but could have probed deeper into location services settings earlier."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps but didn't escalate or offer mobile-specific location services guidance when basic steps failed."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional but somewhat repetitive; didn't acknowledge customer's concern about disconnecting during screenshot attempt."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided standard troubleshooting but struggled to adapt when customer reported already trying those steps and expressed concern about losing chat connection. The interaction lacked mobile-specific guidance for location services issues and didn't progress toward escalation or alternative solutions.",
+          "coaching_tip": "When a customer reports they've already tried standard troubleshooting, acknowledge this and move to more specific solutions or escalation rather than continuing to request the same diagnostic information.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:17:09 PM] Customer: Hello Sean\n[11:17:09 PM] Customer: Hello Sean\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-25T23:31:46.402Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": -8
+      "trend": -7
     },
     {
       "id": "5669",
@@ -62437,6 +62482,51 @@
       "raw_transcript": "[11:15:01 PM] t2554816044: Full Name: t2554816044 Email Address: dezarae.huggins@gmail.com Subject / How can we help you?: i want to see if i cancel a redemption that i have not yet received i dont have the oltion to cqncel on my end\n[11:15:01 PM] t2554816044: Full Name: t2554816044 Email Address: dezarae.huggins@gmail.com Subject / How can we help you?: i want to see if i cancel a redemption that i have not yet received i dont have the oltion to cqncel on my end\n[11:15:13 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:15:13 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:15:43 PM] t2554816044: okay thank you\n[11:15:43 PM] t2554816044: okay thank you\n[11:17:59 PM] Jonathan Fuentes: At this point, the redemption can’t be canceled from here.\n\nYou’ll need to wait for it to be completed and paid out. In case anything goes wrong during the process, the amount would be returned back to your account automatically.\n[11:17:59 PM] Jonathan Fuentes: At this point, the redemption can’t be canceled from here.\n\nYou’ll need to wait for it to be completed and paid out. In case anything goes wrong during the process, the amount would be returned back to your account automatically.\n[11:18:46 PM] t2554816044: okay thank you\n[11:18:46 PM] t2554816044: okay thank you\n[11:19:10 PM] Jonathan Fuentes: Is there anything else I can help you with?\n[11:19:10 PM] Jonathan Fuentes: Is there anything else I can help you with?\n[11:20:19 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:20:19 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T23:21:40.236Z"
+    },
+    {
+      "chat_id": "2048179369632641024",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-25T23:29:18.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with name usage and empathy, though initial message was generic."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions about error messages and screenshots, but could have probed deeper into location services settings earlier."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps but didn't escalate or offer mobile-specific location services guidance when basic steps failed."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional but somewhat repetitive; didn't acknowledge customer's concern about disconnecting during screenshot attempt."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with no visible closing from agent."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided standard troubleshooting but struggled to adapt when customer reported already trying those steps and expressed concern about losing chat connection. The interaction lacked mobile-specific guidance for location services issues and didn't progress toward escalation or alternative solutions.",
+      "coaching_tip": "When a customer reports they've already tried standard troubleshooting, acknowledge this and move to more specific solutions or escalation rather than continuing to request the same diagnostic information.",
+      "website": "Jackpot Daily",
+      "message_count": 34,
+      "raw_transcript": "[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:17:09 PM] Customer: Hello Sean\n[11:17:09 PM] Customer: Hello Sean\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-25T23:31:46.402Z"
     }
   ]
 }
