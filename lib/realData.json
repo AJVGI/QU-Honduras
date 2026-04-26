@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T14:21:45.605Z",
-  "total_chats": 799,
+  "scored_at": "2026-04-26T14:26:42.865Z",
+  "total_chats": 800,
   "total_agents": 28,
   "agents": [
     {
@@ -1329,11 +1329,56 @@
           "raw_transcript": "[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T14:21:45.103Z"
+        },
+        {
+          "chat_id": "2048407424099725312",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-26T14:23:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "Agent never responded or greeted the customer at all."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent made no attempt to understand or acknowledge the customer's request."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted; customer request was completely ignored."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "Agent provided zero communication throughout the entire interaction."
+            },
+            "compliance": {
+              "score": 5,
+              "notes": "No policy violations occurred, but only because agent never engaged."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as agent never participated in the conversation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 5,
+          "grade": "F",
+          "summary": "The agent failed to respond entirely to the customer's request for free redeemable sweepstakes coins. This transcript shows only the customer's duplicate form submissions with no agent participation whatsoever.",
+          "coaching_tip": "Always acknowledge customer inquiries immediately with a greeting, even if the request cannot be fulfilled, and explain the proper process or policy regarding promotional requests.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[02:22:42 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please\n[02:22:42 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T14:26:42.363Z"
         }
       ],
-      "avg_score": 67,
+      "avg_score": 64,
       "grade": "D",
-      "trend": -3
+      "trend": -7
     },
     {
       "id": "5801",
@@ -72166,6 +72211,51 @@
       "raw_transcript": "[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T14:21:45.103Z"
+    },
+    {
+      "chat_id": "2048407424099725312",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-26T14:23:05.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "Agent never responded or greeted the customer at all."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent made no attempt to understand or acknowledge the customer's request."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted; customer request was completely ignored."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "Agent provided zero communication throughout the entire interaction."
+        },
+        "compliance": {
+          "score": 5,
+          "notes": "No policy violations occurred, but only because agent never engaged."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as agent never participated in the conversation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 5,
+      "grade": "F",
+      "summary": "The agent failed to respond entirely to the customer's request for free redeemable sweepstakes coins. This transcript shows only the customer's duplicate form submissions with no agent participation whatsoever.",
+      "coaching_tip": "Always acknowledge customer inquiries immediately with a greeting, even if the request cannot be fulfilled, and explain the proper process or policy regarding promotional requests.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[02:22:42 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please\n[02:22:42 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T14:26:42.363Z"
     }
   ]
 }
