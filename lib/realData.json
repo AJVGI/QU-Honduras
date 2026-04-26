@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T06:21:49.094Z",
-  "total_chats": 748,
+  "scored_at": "2026-04-26T06:26:44.864Z",
+  "total_chats": 749,
   "total_agents": 27,
   "agents": [
     {
@@ -17574,11 +17574,56 @@
           "raw_transcript": "[06:08:16 AM] Customer: Full Name: Tanya Roberts Email Address: tsroberts45@gmail.com Subject / How can we help you?: I have not received either of my referral money\n[06:08:16 AM] Customer: Full Name: Tanya Roberts Email Address: tsroberts45@gmail.com Subject / How can we help you?: I have not received either of my referral money\n[06:09:03 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:09:03 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:10:01 AM] Customer: Where to go to update my address not understanding what I need to fix to get my referral rewards\n[06:10:01 AM] Customer: Where to go to update my address not understanding what I need to fix to get my referral rewards\n[06:10:45 AM] Raul Figueroa: Hey! I understand — that can definitely be a bit confusing.\n\nAt the moment, address details usually can’t be updated directly from your account settings. If there’s an issue with your address affecting your referral rewards, it will need to be reviewed and updated by the support team.\n\nPlease reach out to support@jackpotdaily.com\n from your registered email and let them know what needs to be corrected, along with the correct address details.\n\nThey’ll be able to review your account and help get everything sorted so your rewards can be processed\n[06:10:45 AM] Raul Figueroa: Hey! I understand — that can definitely be a bit confusing.\n\nAt the moment, address details usually can’t be updated directly from your account settings. If there’s an issue with your address affecting your referral rewards, it will need to be reviewed and updated by the support team.\n\nPlease reach out to support@jackpotdaily.com\n from your registered email and let them know what needs to be corrected, along with the correct address details.\n\nThey’ll be able to review your account and help get everything sorted so your rewards can be processed\n[06:12:35 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:12:35 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:13:28 AM] Customer: Ok\n[06:13:28 AM] Customer: Ok\n[06:14:29 AM] Customer: I don’t have another email I’m lost at what is the 1 I have other than tsroberts45@ gmail.com\n[06:14:29 AM] Customer: I don’t have another email I’m lost at what is the 1 I have other than tsroberts45@ gmail.com\n[06:14:59 AM] Raul Figueroa: Use the email for your account.\n[06:14:59 AM] Raul Figueroa: Use the email for your account.\n[06:15:42 AM] Customer: I know that but what do I change it too\n[06:15:42 AM] Customer: I know that but what do I change it too\n[06:16:34 AM] Raul Figueroa: The address on your account needs to exactly match the one on your verification documents (like your ID or proof of address). That includes things like street name, apartment/unit number, city, state, and ZIP code.\n\nIf you’re not sure what’s causing the mismatch, the best option is to contact support@jackpotdaily.com\n from your registered email and ask them what specifically needs to be corrected. They can point out exactly what’s not matching.\n[06:16:34 AM] Raul Figueroa: The address on your account needs to exactly match the one on your verification documents (like your ID or proof of address). That includes things like street name, apartment/unit number, city, state, and ZIP code.\n\nIf you’re not sure what’s causing the mismatch, the best option is to contact support@jackpotdaily.com\n from your registered email and ask them what specifically needs to be corrected. They can point out exactly what’s not matching.\n[06:17:12 AM] Customer: Ok ty\n[06:17:12 AM] Customer: Ok ty\n[06:17:36 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:17:36 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T06:21:48.594Z"
+        },
+        {
+          "chat_id": "2048286421084319744",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-26T06:24:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, personalized greeting using customer's name with enthusiastic tone."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not investigate the existing issue or check account status despite customer referencing prior conversations with two other reps."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided only generic troubleshooting without checking account history or following up on the specific voucher issue already escalated."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and friendly but lacked depth needed for a follow-up issue requiring continuity."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations but missed opportunity to properly document or escalate ongoing issue."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and closed politely but prematurely given unresolved status."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided friendly service but failed to investigate the customer's ongoing voucher issue that had already been discussed with two previous representatives. The generic logout/login suggestion without checking account history or status was insufficient for a follow-up inquiry.",
+          "coaching_tip": "When customers reference prior conversations about unresolved issues, always check account notes and ticket history before providing generic troubleshooting steps.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[06:21:52 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[06:21:52 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[06:22:12 AM] Customer: Hi Eric.\n[06:22:12 AM] Customer: Hi Eric.\n[06:22:28 AM] Raul Figueroa: Hey Mark! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:22:28 AM] Raul Figueroa: Hey Mark! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:22:31 AM] Customer: I spoke with 2 other reps who were extremely helpful\n[06:22:31 AM] Customer: I spoke with 2 other reps who were extremely helpful\n[06:23:08 AM] Customer: I was having an issue with the cash voucher bonus. I was seeing if the issue was resolved yet and if I access the reward?\n[06:23:08 AM] Customer: I was having an issue with the cash voucher bonus. I was seeing if the issue was resolved yet and if I access the reward?\n[06:23:47 AM] Raul Figueroa: Hey! \n\nThanks for checking in on that. If there was an issue with your cash voucher bonus, it may still be under review or pending resolution.\n\nI’d recommend logging out and back in to see if the reward has been applied, as sometimes it can take a bit to update.\n[06:23:47 AM] Raul Figueroa: Hey! \n\nThanks for checking in on that. If there was an issue with your cash voucher bonus, it may still be under review or pending resolution.\n\nI’d recommend logging out and back in to see if the reward has been applied, as sometimes it can take a bit to update.\n[06:24:04 AM] Customer: Okay\n[06:24:04 AM] Customer: Okay\n[06:24:38 AM] Raul Figueroa: Perfect! Let me know if anything else comes up — always happy to help!\n[06:24:38 AM] Raul Figueroa: Perfect! Let me know if anything else comes up — always happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T06:26:44.363Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": -2
+      "trend": -1
     },
     {
       "id": "5847",
@@ -67567,6 +67612,51 @@
       "raw_transcript": "[06:08:16 AM] Customer: Full Name: Tanya Roberts Email Address: tsroberts45@gmail.com Subject / How can we help you?: I have not received either of my referral money\n[06:08:16 AM] Customer: Full Name: Tanya Roberts Email Address: tsroberts45@gmail.com Subject / How can we help you?: I have not received either of my referral money\n[06:09:03 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:09:03 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:10:01 AM] Customer: Where to go to update my address not understanding what I need to fix to get my referral rewards\n[06:10:01 AM] Customer: Where to go to update my address not understanding what I need to fix to get my referral rewards\n[06:10:45 AM] Raul Figueroa: Hey! I understand — that can definitely be a bit confusing.\n\nAt the moment, address details usually can’t be updated directly from your account settings. If there’s an issue with your address affecting your referral rewards, it will need to be reviewed and updated by the support team.\n\nPlease reach out to support@jackpotdaily.com\n from your registered email and let them know what needs to be corrected, along with the correct address details.\n\nThey’ll be able to review your account and help get everything sorted so your rewards can be processed\n[06:10:45 AM] Raul Figueroa: Hey! I understand — that can definitely be a bit confusing.\n\nAt the moment, address details usually can’t be updated directly from your account settings. If there’s an issue with your address affecting your referral rewards, it will need to be reviewed and updated by the support team.\n\nPlease reach out to support@jackpotdaily.com\n from your registered email and let them know what needs to be corrected, along with the correct address details.\n\nThey’ll be able to review your account and help get everything sorted so your rewards can be processed\n[06:12:35 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:12:35 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[06:13:28 AM] Customer: Ok\n[06:13:28 AM] Customer: Ok\n[06:14:29 AM] Customer: I don’t have another email I’m lost at what is the 1 I have other than tsroberts45@ gmail.com\n[06:14:29 AM] Customer: I don’t have another email I’m lost at what is the 1 I have other than tsroberts45@ gmail.com\n[06:14:59 AM] Raul Figueroa: Use the email for your account.\n[06:14:59 AM] Raul Figueroa: Use the email for your account.\n[06:15:42 AM] Customer: I know that but what do I change it too\n[06:15:42 AM] Customer: I know that but what do I change it too\n[06:16:34 AM] Raul Figueroa: The address on your account needs to exactly match the one on your verification documents (like your ID or proof of address). That includes things like street name, apartment/unit number, city, state, and ZIP code.\n\nIf you’re not sure what’s causing the mismatch, the best option is to contact support@jackpotdaily.com\n from your registered email and ask them what specifically needs to be corrected. They can point out exactly what’s not matching.\n[06:16:34 AM] Raul Figueroa: The address on your account needs to exactly match the one on your verification documents (like your ID or proof of address). That includes things like street name, apartment/unit number, city, state, and ZIP code.\n\nIf you’re not sure what’s causing the mismatch, the best option is to contact support@jackpotdaily.com\n from your registered email and ask them what specifically needs to be corrected. They can point out exactly what’s not matching.\n[06:17:12 AM] Customer: Ok ty\n[06:17:12 AM] Customer: Ok ty\n[06:17:36 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:17:36 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T06:21:48.594Z"
+    },
+    {
+      "chat_id": "2048286421084319744",
+      "agent_name": "Raul Figueroa",
+      "agent_id": "5842",
+      "timestamp": "2026-04-26T06:24:58.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, personalized greeting using customer's name with enthusiastic tone."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not investigate the existing issue or check account status despite customer referencing prior conversations with two other reps."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided only generic troubleshooting without checking account history or following up on the specific voucher issue already escalated."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and friendly but lacked depth needed for a follow-up issue requiring continuity."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No violations but missed opportunity to properly document or escalate ongoing issue."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and closed politely but prematurely given unresolved status."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided friendly service but failed to investigate the customer's ongoing voucher issue that had already been discussed with two previous representatives. The generic logout/login suggestion without checking account history or status was insufficient for a follow-up inquiry.",
+      "coaching_tip": "When customers reference prior conversations about unresolved issues, always check account notes and ticket history before providing generic troubleshooting steps.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[06:21:52 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[06:21:52 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[06:22:12 AM] Customer: Hi Eric.\n[06:22:12 AM] Customer: Hi Eric.\n[06:22:28 AM] Raul Figueroa: Hey Mark! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:22:28 AM] Raul Figueroa: Hey Mark! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[06:22:31 AM] Customer: I spoke with 2 other reps who were extremely helpful\n[06:22:31 AM] Customer: I spoke with 2 other reps who were extremely helpful\n[06:23:08 AM] Customer: I was having an issue with the cash voucher bonus. I was seeing if the issue was resolved yet and if I access the reward?\n[06:23:08 AM] Customer: I was having an issue with the cash voucher bonus. I was seeing if the issue was resolved yet and if I access the reward?\n[06:23:47 AM] Raul Figueroa: Hey! \n\nThanks for checking in on that. If there was an issue with your cash voucher bonus, it may still be under review or pending resolution.\n\nI’d recommend logging out and back in to see if the reward has been applied, as sometimes it can take a bit to update.\n[06:23:47 AM] Raul Figueroa: Hey! \n\nThanks for checking in on that. If there was an issue with your cash voucher bonus, it may still be under review or pending resolution.\n\nI’d recommend logging out and back in to see if the reward has been applied, as sometimes it can take a bit to update.\n[06:24:04 AM] Customer: Okay\n[06:24:04 AM] Customer: Okay\n[06:24:38 AM] Raul Figueroa: Perfect! Let me know if anything else comes up — always happy to help!\n[06:24:38 AM] Raul Figueroa: Perfect! Let me know if anything else comes up — always happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T06:26:44.363Z"
     }
   ]
 }
