@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T19:21:59.979Z",
-  "total_chats": 836,
+  "scored_at": "2026-04-26T19:41:50.504Z",
+  "total_chats": 837,
   "total_agents": 28,
   "agents": [
     {
@@ -4047,6 +4047,51 @@
           "raw_transcript": "[06:12:09 PM] Customer: Full Name: Demetrius Niles Email Address: demetriusniles87@gmail.com Subject / How can we help you?: I haven't received a verification code\n[06:12:09 PM] Customer: Full Name: Demetrius Niles Email Address: demetriusniles87@gmail.com Subject / How can we help you?: I haven't received a verification code\n[06:12:31 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[06:12:31 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[06:13:13 PM] Customer: Hello\n[06:13:13 PM] Andrea Hernandez: Does it show any error mesaage?\n[06:13:13 PM] Customer: Hello\n[06:13:13 PM] Andrea Hernandez: Does it show any error mesaage?\n[06:13:36 PM] Customer: No it it's just waiting for me to put in the code but one never comes\n[06:13:36 PM] Customer: No it it's just waiting for me to put in the code but one never comes\n[06:13:47 PM] Customer: Email and phone verification I think\n[06:13:47 PM] Customer: Email and phone verification I think\n[06:13:58 PM] Andrea Hernandez: No worries — let’s get that verification code to you 👍\n\nHere are a few things to check:\n\nMake sure your phone number/email is entered correctly\nCheck your spam/junk folder (if it’s email verification)\nWait a minute and then tap “Resend Code”\nMake sure your phone has signal/service (for SMS codes)\nTry turning airplane mode on/off or restarting your device\n\nIf you still don’t receive it after that, let me know if it’s for email or phone verification\n[06:13:58 PM] Andrea Hernandez: No worries — let’s get that verification code to you 👍\n\nHere are a few things to check:\n\nMake sure your phone number/email is entered correctly\nCheck your spam/junk folder (if it’s email verification)\nWait a minute and then tap “Resend Code”\nMake sure your phone has signal/service (for SMS codes)\nTry turning airplane mode on/off or restarting your device\n\nIf you still don’t receive it after that, let me know if it’s for email or phone verification\n[06:14:28 PM] Customer: I've tried doing it on a few different occasions and still nothing\n[06:14:28 PM] Customer: I've tried doing it on a few different occasions and still nothing\n[06:15:30 PM] Andrea Hernandez: Thanks for trying those steps — I know that’s frustrating. If you’ve tried multiple times and still aren’t receiving the code.\nLet’s try a couple quick things first:\n\nDouble-check the phone number/email is 100% correct\nTry requesting the code using a different browser or device\nMake sure your phone isn’t blocking unknown/short-code messages\n[06:15:30 PM] Andrea Hernandez: Thanks for trying those steps — I know that’s frustrating. If you’ve tried multiple times and still aren’t receiving the code.\nLet’s try a couple quick things first:\n\nDouble-check the phone number/email is 100% correct\nTry requesting the code using a different browser or device\nMake sure your phone isn’t blocking unknown/short-code messages\n[06:16:03 PM] Customer: I would check his blocking short code messages even though I've got short code messages before\n[06:16:03 PM] Customer: I would check his blocking short code messages even though I've got short code messages before\n[06:16:51 PM] Andrea Hernandez: That’s a great point — even if you’ve received short code messages before, sometimes carriers or device settings can still block them 👍\n\nPlease double-check the following:\n\nMake sure short code/verification messages aren’t blocked in your phone settings\nCheck if any spam filter or message filtering app is active\nContact your carrier and confirm that short code SMS is fully enabled on your line\n[06:16:51 PM] Andrea Hernandez: That’s a great point — even if you’ve received short code messages before, sometimes carriers or device settings can still block them 👍\n\nPlease double-check the following:\n\nMake sure short code/verification messages aren’t blocked in your phone settings\nCheck if any spam filter or message filtering app is active\nContact your carrier and confirm that short code SMS is fully enabled on your line\n[06:17:03 PM] Andrea Hernandez: Even if it worked before, settings can change or carriers can temporarily restrict these messages.\n[06:17:03 PM] Andrea Hernandez: Even if it worked before, settings can change or carriers can temporarily restrict these messages.\n[06:20:46 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[06:20:46 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T18:21:48.387Z"
+        },
+        {
+          "chat_id": "2048484848434982912",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-26T19:39:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though no personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Quickly understood the redemption timeline question and proactively addressed follow-up questions about payment methods."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided accurate redemption timeframes and clearly explained why Apple Pay isn't available for withdrawals with proper context."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic responses with good formatting and appropriate use of emojis to maintain friendly tone."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No policy violations, appropriately explained system limitations without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional close with alternative contact method provided, though slightly abrupt after only 2 minutes of silence."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 81,
+          "grade": "B",
+          "summary": "Emily handled this interaction competently, providing accurate information about redemption timelines and thoughtfully explaining payment method limitations. She maintained professionalism while addressing customer feedback about system improvements.",
+          "coaching_tip": "Wait 3-5 minutes before closing chat due to inactivity rather than 2 minutes to give customers adequate time to respond, especially after providing detailed explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[07:30:21 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: How long does it take to receive redemptions\n[07:30:21 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: How long does it take to receive redemptions\n[07:30:34 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:30:34 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:31:31 PM] Andrea Hernandez: Here’s what to expect for redemptions:\n\nACH Bank Transfer: up to 10 business days\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[07:31:31 PM] Andrea Hernandez: Here’s what to expect for redemptions:\n\nACH Bank Transfer: up to 10 business days\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[07:32:22 PM] t5339346694: How come yall use Apple Pay for payments but not for redemptions\n[07:32:22 PM] t5339346694: How come yall use Apple Pay for payments but not for redemptions\n[07:33:18 PM] Andrea Hernandez: Great question — I can see why that feels confusing.\n\nApple Pay can be used for purchases, but redemptions work differently. Withdrawals need to go through methods that support sending funds back to you, like:\n\nBank transfer (ACH)\n\nApple Pay is designed mainly for making payments, not for receiving withdrawals from platforms like this.\n\nSo even though you can use it to purchase, redemptions have to go through supported payout methods 👍\n[07:33:18 PM] Andrea Hernandez: Great question — I can see why that feels confusing.\n\nApple Pay can be used for purchases, but redemptions work differently. Withdrawals need to go through methods that support sending funds back to you, like:\n\nBank transfer (ACH)\n\nApple Pay is designed mainly for making payments, not for receiving withdrawals from platforms like this.\n\nSo even though you can use it to purchase, redemptions have to go through supported payout methods 👍\n[07:36:20 PM] t5339346694: Yall should upgrade the system because they have it possible to use them for payments & withdrawals\n[07:36:20 PM] t5339346694: Yall should upgrade the system because they have it possible to use them for payments & withdrawals\n[07:37:11 PM] Andrea Hernandez: That’s a fair point — I totally understand where you’re coming from 👍\n\nSome platforms are starting to support more flexible payout options, but right now our system only supports specific withdrawal methods (like bank transfer) due to processing, security, and compliance requirements.\n\nThat said, your feedback is definitely valid, and I’ll make sure to pass it along to the team — improvements like this are often based on user suggestions like yours 💡\n[07:37:11 PM] Andrea Hernandez: That’s a fair point — I totally understand where you’re coming from 👍\n\nSome platforms are starting to support more flexible payout options, but right now our system only supports specific withdrawal methods (like bank transfer) due to processing, security, and compliance requirements.\n\nThat said, your feedback is definitely valid, and I’ll make sure to pass it along to the team — improvements like this are often based on user suggestions like yours 💡\n[07:39:28 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:39:28 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T19:41:50.002Z"
         }
       ],
       "avg_score": 63,
@@ -75496,6 +75541,51 @@
       "raw_transcript": "[07:13:55 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:13:55 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:14:50 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[07:14:50 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[07:18:03 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:18:03 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:20:46 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:20:46 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T19:21:59.478Z"
+    },
+    {
+      "chat_id": "2048484848434982912",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-26T19:39:34.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though no personalization with customer name."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Quickly understood the redemption timeline question and proactively addressed follow-up questions about payment methods."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided accurate redemption timeframes and clearly explained why Apple Pay isn't available for withdrawals with proper context."
+        },
+        "communication": {
+          "score": 17,
+          "notes": "Clear, empathetic responses with good formatting and appropriate use of emojis to maintain friendly tone."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "No policy violations, appropriately explained system limitations without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Professional close with alternative contact method provided, though slightly abrupt after only 2 minutes of silence."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 81,
+      "grade": "B",
+      "summary": "Emily handled this interaction competently, providing accurate information about redemption timelines and thoughtfully explaining payment method limitations. She maintained professionalism while addressing customer feedback about system improvements.",
+      "coaching_tip": "Wait 3-5 minutes before closing chat due to inactivity rather than 2 minutes to give customers adequate time to respond, especially after providing detailed explanations.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[07:30:21 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: How long does it take to receive redemptions\n[07:30:21 PM] t5339346694: Full Name: t5339346694 Email Address: Raheimm51@gmail.com Subject / How can we help you?: How long does it take to receive redemptions\n[07:30:34 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:30:34 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[07:31:31 PM] Andrea Hernandez: Here’s what to expect for redemptions:\n\nACH Bank Transfer: up to 10 business days\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[07:31:31 PM] Andrea Hernandez: Here’s what to expect for redemptions:\n\nACH Bank Transfer: up to 10 business days\n\nA couple of quick things to keep in mind:\n\nRedemptions aren’t processed on weekends\nOnly one redemption can be pending at a time\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[07:32:22 PM] t5339346694: How come yall use Apple Pay for payments but not for redemptions\n[07:32:22 PM] t5339346694: How come yall use Apple Pay for payments but not for redemptions\n[07:33:18 PM] Andrea Hernandez: Great question — I can see why that feels confusing.\n\nApple Pay can be used for purchases, but redemptions work differently. Withdrawals need to go through methods that support sending funds back to you, like:\n\nBank transfer (ACH)\n\nApple Pay is designed mainly for making payments, not for receiving withdrawals from platforms like this.\n\nSo even though you can use it to purchase, redemptions have to go through supported payout methods 👍\n[07:33:18 PM] Andrea Hernandez: Great question — I can see why that feels confusing.\n\nApple Pay can be used for purchases, but redemptions work differently. Withdrawals need to go through methods that support sending funds back to you, like:\n\nBank transfer (ACH)\n\nApple Pay is designed mainly for making payments, not for receiving withdrawals from platforms like this.\n\nSo even though you can use it to purchase, redemptions have to go through supported payout methods 👍\n[07:36:20 PM] t5339346694: Yall should upgrade the system because they have it possible to use them for payments & withdrawals\n[07:36:20 PM] t5339346694: Yall should upgrade the system because they have it possible to use them for payments & withdrawals\n[07:37:11 PM] Andrea Hernandez: That’s a fair point — I totally understand where you’re coming from 👍\n\nSome platforms are starting to support more flexible payout options, but right now our system only supports specific withdrawal methods (like bank transfer) due to processing, security, and compliance requirements.\n\nThat said, your feedback is definitely valid, and I’ll make sure to pass it along to the team — improvements like this are often based on user suggestions like yours 💡\n[07:37:11 PM] Andrea Hernandez: That’s a fair point — I totally understand where you’re coming from 👍\n\nSome platforms are starting to support more flexible payout options, but right now our system only supports specific withdrawal methods (like bank transfer) due to processing, security, and compliance requirements.\n\nThat said, your feedback is definitely valid, and I’ll make sure to pass it along to the team — improvements like this are often based on user suggestions like yours 💡\n[07:39:28 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:39:28 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T19:41:50.002Z"
     }
   ]
 }
