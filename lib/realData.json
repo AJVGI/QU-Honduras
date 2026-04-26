@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T04:37:02.916Z",
-  "total_chats": 726,
+  "scored_at": "2026-04-26T04:41:51.691Z",
+  "total_chats": 728,
   "total_agents": 27,
   "agents": [
     {
@@ -14406,11 +14406,101 @@
           "raw_transcript": "[04:32:20 AM] t6705171695: Full Name: t6705171695 Email Address: emilyharris936@gmail.com Subject / How can we help you?: Where is the free SC for signing up?\n[04:32:20 AM] t6705171695: Full Name: t6705171695 Email Address: emilyharris936@gmail.com Subject / How can we help you?: Where is the free SC for signing up?\n[04:32:37 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:32:37 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:34:00 AM] Jonathan Fuentes: In that case, could you try logging out of your account, waiting about 2 minutes, and then logging back in? Sometimes that helps refresh things and allows the reward to show up properly.\n\nIf it still doesn’t appear after that, let me know and I’ll take a closer look\n[04:34:00 AM] Jonathan Fuentes: In that case, could you try logging out of your account, waiting about 2 minutes, and then logging back in? Sometimes that helps refresh things and allows the reward to show up properly.\n\nIf it still doesn’t appear after that, let me know and I’ll take a closer look\n[04:34:36 AM] t6705171695: Ok I will log out no\n[04:34:36 AM] t6705171695: Ok I will log out no",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T04:36:53.242Z"
+        },
+        {
+          "chat_id": "2048260002050949120",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-26T04:39:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting provided; agent immediately asked for a moment to investigate without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the location activation issue and asked a relevant clarifying question about device type to provide guidance."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No resolution provided; customer never responded, but agent closed chat prematurely after only 2 minutes without adequate wait time or offering alternative contact methods."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Agent appropriately switched to Spanish to match customer's language and communicated clearly, though could have been more patient."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected; handled within standard support parameters."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided a polite closing message wishing good luck, though it came too quickly after minimal customer engagement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent appropriately identified the issue and switched to Spanish to assist, asking a good clarifying question about device type. However, the agent closed the chat prematurely after only 2 minutes of waiting, not allowing sufficient time for customer response or offering alternative support channels.",
+          "coaching_tip": "Wait at least 3-5 minutes for customer responses before closing, and offer alternative contact methods or callback options when customers become unresponsive during troubleshooting.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[04:36:54 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion\n[04:36:54 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion\n[04:37:09 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:37:09 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:37:48 AM] Jonathan Fuentes: Con gusto te ayudo.\n¿Me podrías decir qué tipo de celular estás usando? Así puedo guiarte paso a paso.\n[04:37:48 AM] Jonathan Fuentes: Con gusto te ayudo.\n¿Me podrías decir qué tipo de celular estás usando? Así puedo guiarte paso a paso.\n[04:38:45 AM] Jonathan Fuentes: ¿Sigues ahi? \n\nAqui estoy por si todavia necesitas mi ayuda.\n[04:38:45 AM] Jonathan Fuentes: ¿Sigues ahi? \n\nAqui estoy por si todavia necesitas mi ayuda.\n[04:39:20 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!\n[04:39:20 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T04:41:43.858Z"
+        },
+        {
+          "chat_id": "2048259846161252352",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-26T04:36:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent response present to discover or clarify the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No agent response present to attempt resolution."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent communication present in transcript."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent interaction to evaluate for compliance."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No agent closing present in transcript."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "This transcript contains only customer form submissions with no agent response whatsoever. The customer submitted their location activation question in Spanish twice, but no agent ever engaged with the chat.",
+          "coaching_tip": "Ensure agents are monitoring and responding to incoming customer inquiries promptly, especially when customers submit their questions multiple times.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[04:36:16 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion\n[04:36:16 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T04:41:51.189Z"
         }
       ],
-      "avg_score": 59,
+      "avg_score": 58,
       "grade": "F",
-      "trend": -18
+      "trend": -30
     },
     {
       "id": "5847",
@@ -65587,6 +65677,96 @@
       "raw_transcript": "[04:22:44 AM] t7177009428: Full Name: t7177009428 Email Address: adamerby21@gmail.com Subject / How can we help you?: I just played all $50 I got from a referral and it still saying play through needed? How is that? I have played before and it’s 1:1?? Or am I missing something, please if you can help fix this issue thank you!! :)\n[04:22:44 AM] t7177009428: Full Name: t7177009428 Email Address: adamerby21@gmail.com Subject / How can we help you?: I just played all $50 I got from a referral and it still saying play through needed? How is that? I have played before and it’s 1:1?? Or am I missing something, please if you can help fix this issue thank you!! :)\n[04:22:58 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:22:58 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:26:22 AM] Marlon Cibrian: Is this issue related to a specific game?\n[04:26:22 AM] Marlon Cibrian: Is this issue related to a specific game?\n[04:27:25 AM] t7177009428: No, the issue is I’m trying to redeem my $100 and it saying nothing is able to be redeemed, I already played through the $50\n[04:27:25 AM] t7177009428: No, the issue is I’m trying to redeem my $100 and it saying nothing is able to be redeemed, I already played through the $50\n[04:28:07 AM] Marlon Cibrian: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[04:28:07 AM] Marlon Cibrian: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[04:30:45 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:30:45 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:32:38 AM] Marlon Cibrian: Thanks for chatting with us!  — good luck out there!\n[04:32:38 AM] Marlon Cibrian: Thanks for chatting with us!  — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T04:37:02.414Z"
+    },
+    {
+      "chat_id": "2048260002050949120",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-26T04:39:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No greeting provided; agent immediately asked for a moment to investigate without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the location activation issue and asked a relevant clarifying question about device type to provide guidance."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "No resolution provided; customer never responded, but agent closed chat prematurely after only 2 minutes without adequate wait time or offering alternative contact methods."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Agent appropriately switched to Spanish to match customer's language and communicated clearly, though could have been more patient."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected; handled within standard support parameters."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Provided a polite closing message wishing good luck, though it came too quickly after minimal customer engagement."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent appropriately identified the issue and switched to Spanish to assist, asking a good clarifying question about device type. However, the agent closed the chat prematurely after only 2 minutes of waiting, not allowing sufficient time for customer response or offering alternative support channels.",
+      "coaching_tip": "Wait at least 3-5 minutes for customer responses before closing, and offer alternative contact methods or callback options when customers become unresponsive during troubleshooting.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[04:36:54 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion\n[04:36:54 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion\n[04:37:09 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:37:09 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[04:37:48 AM] Jonathan Fuentes: Con gusto te ayudo.\n¿Me podrías decir qué tipo de celular estás usando? Así puedo guiarte paso a paso.\n[04:37:48 AM] Jonathan Fuentes: Con gusto te ayudo.\n¿Me podrías decir qué tipo de celular estás usando? Así puedo guiarte paso a paso.\n[04:38:45 AM] Jonathan Fuentes: ¿Sigues ahi? \n\nAqui estoy por si todavia necesitas mi ayuda.\n[04:38:45 AM] Jonathan Fuentes: ¿Sigues ahi? \n\nAqui estoy por si todavia necesitas mi ayuda.\n[04:39:20 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!\n[04:39:20 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T04:41:43.858Z"
+    },
+    {
+      "chat_id": "2048259846161252352",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-26T04:36:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "No agent response present in transcript."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "No agent response present to discover or clarify the issue."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No agent response present to attempt resolution."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "No agent communication present in transcript."
+        },
+        "compliance": {
+          "score": 0,
+          "notes": "No agent interaction to evaluate for compliance."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No agent closing present in transcript."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 0,
+      "grade": "F",
+      "summary": "This transcript contains only customer form submissions with no agent response whatsoever. The customer submitted their location activation question in Spanish twice, but no agent ever engaged with the chat.",
+      "coaching_tip": "Ensure agents are monitoring and responding to incoming customer inquiries promptly, especially when customers submit their questions multiple times.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[04:36:16 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion\n[04:36:16 AM] Customer: Full Name: Elizabeth soto Email Address: elizabethsoto07091977@gmail.com Subject / How can we help you?: Cómo activar mi ubicacion",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T04:41:51.189Z"
     }
   ]
 }
