@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T03:21:56.371Z",
-  "total_chats": 718,
+  "scored_at": "2026-04-26T03:36:56.014Z",
+  "total_chats": 720,
   "total_agents": 27,
   "agents": [
     {
@@ -14271,11 +14271,56 @@
           "raw_transcript": "[01:24:29 AM] Customer: Full Name: Whaley Whaley Email Address: clintwhaley91@gmail.com Subject / How can we help you?: Y can’t I play\n[01:24:29 AM] Customer: Full Name: Whaley Whaley Email Address: clintwhaley91@gmail.com Subject / How can we help you?: Y can’t I play\n[01:24:47 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[01:24:47 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[01:25:24 AM] Jonathan Fuentes: I’d be happy to help!\n\nCould you tell me a bit more about what’s happening when you try to play? That way I can understand the issue and guide you better\n[01:25:24 AM] Jonathan Fuentes: I’d be happy to help!\n\nCould you tell me a bit more about what’s happening when you try to play? That way I can understand the issue and guide you better\n[01:27:06 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[01:27:06 AM] Jonathan Fuentes: Is there anything else I can help you with today?\n[01:27:39 AM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[01:27:39 AM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T01:31:46.565Z"
+        },
+        {
+          "chat_id": "2048243021526118400",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-26T03:32:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into asking a question without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked a good clarifying question to understand the redemption issue, and customer provided the specific question about timing."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "Chat ended before any resolution or information was provided; agent was still investigating when transcript concluded."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Communication was clear and professional, though the agent could have been more concise in the initial question."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed; agent appropriately indicated they would research the question."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing occurred as the chat transcript ended mid-conversation while agent was still investigating."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 38,
+          "grade": "F",
+          "summary": "Agent failed to provide any greeting and the chat ended before resolution could be achieved. Issue discovery was adequate with appropriate clarifying questions, but the incomplete nature of this transcript results in very low scores for greeting, resolution, and closing.",
+          "coaching_tip": "Always open customer interactions with a warm, professional greeting that acknowledges the customer before diving into questions about their issue.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[03:29:25 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[03:29:25 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[03:30:05 AM] Jonathan Fuentes: Could you tell me a bit more about what’s happening when your redemption? That way I can understand the issue and guide you better\n[03:30:05 AM] Jonathan Fuentes: Could you tell me a bit more about what’s happening when your redemption? That way I can understand the issue and guide you better\n[03:30:28 AM] t7911492542: How long does it take to receive a redemption\n[03:30:28 AM] t7911492542: How long does it take to receive a redemption\n[03:31:43 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:31:43 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T03:36:55.514Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -2
+      "trend": -14
     },
     {
       "id": "5806",
@@ -25233,11 +25278,56 @@
           "raw_transcript": "[02:49:09 AM] Customer: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: Why are you guys not giving me any support I've been waiting and waiting and waiting to hear from you and I hear nothing so with that being said where the hell is the support that I was supposed to get and why the hell does this game keep switching up to a different game or a different version and why the hell does it keep starting over when it's supposed to be where I left off and it does not do that it's a fucking scam and somebody better get back to me and I'm not fucking playing I've had enough of this bullshit\n[02:49:09 AM] Customer: Full Name: t1315504932 Email Address: mooreorless68@gmail.com Subject / How can we help you?: Why are you guys not giving me any support I've been waiting and waiting and waiting to hear from you and I hear nothing so with that being said where the hell is the support that I was supposed to get and why the hell does this game keep switching up to a different game or a different version and why the hell does it keep starting over when it's supposed to be where I left off and it does not do that it's a fucking scam and somebody better get back to me and I'm not fucking playing I've had enough of this bullshit\n[02:49:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[02:49:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[02:51:02 AM] Marlon Cibrian: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\nIf it’s still not working after those, could you share:\n• The name of the game you were playing\n• The date and approximate time of the issue\n• Your balance at the time\nOnce I have those details I’ll dig right in!\n[02:51:02 AM] Marlon Cibrian: Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\nIf it’s still not working after those, could you share:\n• The name of the game you were playing\n• The date and approximate time of the issue\n• Your balance at the time\nOnce I have those details I’ll dig right in!\n[02:52:25 AM] Customer: I have done all that I've only been playing the same game for the last week it's called Jewel boom and nobody's doing anything about it this was supposed to be escalated to the higher ups because it keeps switching back and forth between the same game but it's it's a different version and why is it doing that and why is it not starting where I left off this is a scam and I'm so freaking mad and I've done everything you've already told me to do here I've done that over and over again why are you blaming me when you know damn well you guys are a scam artist that just even pisses me off even more acting like it's something on my end I can't make the game switch versions that's something you guys do\n[02:52:25 AM] Customer: I have done all that I've only been playing the same game for the last week it's called Jewel boom and nobody's doing anything about it this was supposed to be escalated to the higher ups because it keeps switching back and forth between the same game but it's it's a different version and why is it doing that and why is it not starting where I left off this is a scam and I'm so freaking mad and I've done everything you've already told me to do here I've done that over and over again why are you blaming me when you know damn well you guys are a scam artist that just even pisses me off even more acting like it's something on my end I can't make the game switch versions that's something you guys do\n[02:53:09 AM] Customer: As soon as I'm about to hit the bonus it switches versions imagine that how interesting is that and then when I go to get more money and come back in because I lose yeah then it starts me all over again it's not supposed to do that that's a scam\n[02:53:09 AM] Customer: As soon as I'm about to hit the bonus it switches versions imagine that how interesting is that and then when I go to get more money and come back in because I lose yeah then it starts me all over again it's not supposed to do that that's a scam\n[02:53:52 AM] Customer: Somebody was supposed to be getting back to me over this nobody's gotten back to me and you know what I'm getting sick and tired of waiting I shouldn't have to wait this is pretty serious business\n[02:53:52 AM] Customer: Somebody was supposed to be getting back to me over this nobody's gotten back to me and you know what I'm getting sick and tired of waiting I shouldn't have to wait this is pretty serious business\n[02:54:55 AM] Customer: Already told them over and over again but they need to return my money every time that I put into this particular game they need to do so because I've already talked to an attorney and I will take it all the way if I have to\n[02:54:55 AM] Customer: Already told them over and over again but they need to return my money every time that I put into this particular game they need to do so because I've already talked to an attorney and I will take it all the way if I have to\n[02:55:47 AM] Customer: Now the last two times I went in to play that game which was just a few minutes ago it's doing the same thing and I have screen recordings of this I made sure I did so I have evidence\n[02:55:47 AM] Customer: Now the last two times I went in to play that game which was just a few minutes ago it's doing the same thing and I have screen recordings of this I made sure I did so I have evidence\n[02:57:09 AM] Customer: Yep every time it's ready to go into the bonus I ran out of money imagine that it takes me all the way through my money to get to the bonus and then you still don't because then if you have to go buy more gold coins and then when you go back to the game it starts you all the way over again you know fucking mad that makes me because then it's got a suck up and no another all the money that I all the gold coins I just bought and the psycho just keeps repeating itself how interesting is that and who's winning on that one seems to me you guys are\n[02:57:09 AM] Customer: Yep every time it's ready to go into the bonus I ran out of money imagine that it takes me all the way through my money to get to the bonus and then you still don't because then if you have to go buy more gold coins and then when you go back to the game it starts you all the way over again you know fucking mad that makes me because then it's got a suck up and no another all the money that I all the gold coins I just bought and the psycho just keeps repeating itself how interesting is that and who's winning on that one seems to me you guys are\n[02:59:01 AM] Marlon Cibrian: We sincerely apologize for the inconvenience you are experiencing with this game.\nCould you please confirm if you have already created a support ticket? If not, kindly send an email to support@jackpotdaily.com\n including a short description of the issue and any relevant screenshots.\nThis will allow us to prioritize and assist you more efficiently.\n[02:59:01 AM] Marlon Cibrian: We sincerely apologize for the inconvenience you are experiencing with this game.\nCould you please confirm if you have already created a support ticket? If not, kindly send an email to support@jackpotdaily.com\n including a short description of the issue and any relevant screenshots.\nThis will allow us to prioritize and assist you more efficiently.\n[02:59:53 AM] Customer: And here's another thing that I find very very interesting is that when I go get more gold coins and come back to go in again the test that's supposed to pop open the bonus yes and the money that sits next to it that Stacks up higher and higher as you get closer to the bonus the interesting part about that is when I left out the amount that I was playing for is still the same that hasn't changed but yeah everything else reset so that's a scam that's rigged that is completely rigged if you guys want to see what it looks like go look at you for yourself cuz all this evidence is for the court and and for my lawyer\n[02:59:53 AM] Customer: And here's another thing that I find very very interesting is that when I go get more gold coins and come back to go in again the test that's supposed to pop open the bonus yes and the money that sits next to it that Stacks up higher and higher as you get closer to the bonus the interesting part about that is when I left out the amount that I was playing for is still the same that hasn't changed but yeah everything else reset so that's a scam that's rigged that is completely rigged if you guys want to see what it looks like go look at you for yourself cuz all this evidence is for the court and and for my lawyer\n[03:01:07 AM] Customer: Why would the chest that the bonus chest that's ready to pop off reset but nothing else does the amount doesn't and the game switches to a different version back and forth yeah when I leave out the chest is ready to pop when I come back in it's the other version how convenient for you guys\n[03:01:07 AM] Customer: Why would the chest that the bonus chest that's ready to pop off reset but nothing else does the amount doesn't and the game switches to a different version back and forth yeah when I leave out the chest is ready to pop when I come back in it's the other version how convenient for you guys\n[03:02:06 AM] Customer: You guys should know what your games are doing and honestly I'm sure you do know exactly what your games are doing of course you're going to know what they're doing when you program them to do it so people need to quit acting like they don't know what the hell I'm talking about when they know exactly how they programmed it I'm not an idiot and I don't like anybody insulting my intelligence I happen to have a very very high IQ and I see patterns and things I'm on the Spectrum scale and you know what I see all kinds of patterns you guys really suck at patterns to be honest with you\n[03:02:06 AM] Customer: You guys should know what your games are doing and honestly I'm sure you do know exactly what your games are doing of course you're going to know what they're doing when you program them to do it so people need to quit acting like they don't know what the hell I'm talking about when they know exactly how they programmed it I'm not an idiot and I don't like anybody insulting my intelligence I happen to have a very very high IQ and I see patterns and things I'm on the Spectrum scale and you know what I see all kinds of patterns you guys really suck at patterns to be honest with you\n[03:03:07 AM] Customer: Oh and for the record I used to be a hacker so I know all about programming computers and I know all about how they can be programmed to do certain things so yeah it's not that hard and you guys seriously think that nobody's going to take notice to it I certainly did\n[03:03:07 AM] Customer: Oh and for the record I used to be a hacker so I know all about programming computers and I know all about how they can be programmed to do certain things so yeah it's not that hard and you guys seriously think that nobody's going to take notice to it I certainly did\n[03:03:54 AM] Customer: And here you guys sit not saying anything and not doing anything about this you're not attempting to make anything correct so that's how I know this is a big ass scam and that's how I know I'll be seeing you guys in court and I will be contacting the authorities for your area you can believe that long\n[03:03:54 AM] Customer: And here you guys sit not saying anything and not doing anything about this you're not attempting to make anything correct so that's how I know this is a big ass scam and that's how I know I'll be seeing you guys in court and I will be contacting the authorities for your area you can believe that long\n[03:05:14 AM] Customer: I have been more than patient holding back my reviews upon the results of all of this but guess what I've waited long enough and you guys are dragging your feet doing nothing so you can drag your feet doing nothing because I'm going to do something I'm going to be all over the Internet this evening making sure that I leave every review and in complete honesty as to what I have dealt with with this casino and the lack of support and of course why would they give you support if they're rigged\n[03:05:14 AM] Customer: I have been more than patient holding back my reviews upon the results of all of this but guess what I've waited long enough and you guys are dragging your feet doing nothing so you can drag your feet doing nothing because I'm going to do something I'm going to be all over the Internet this evening making sure that I leave every review and in complete honesty as to what I have dealt with with this casino and the lack of support and of course why would they give you support if they're rigged\n[03:06:13 AM] Marlon Cibrian: Again, I sincerely apologize for the inconvenience with this game. At this point, there isn’t anything further I can do from my side, so the best option is to escalate your case to our support team.\n\nWe kindly ask that you create a support ticket via email so we can properly escalate this for you. Please send an email to support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, please include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n\nWe truly appreciate your patience and understanding.\n[03:06:13 AM] Marlon Cibrian: Again, I sincerely apologize for the inconvenience with this game. At this point, there isn’t anything further I can do from my side, so the best option is to escalate your case to our support team.\n\nWe kindly ask that you create a support ticket via email so we can properly escalate this for you. Please send an email to support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, please include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n\nWe truly appreciate your patience and understanding.\n[03:06:20 AM] Customer: Either the games involved in a tournament are it's not so why is it going into a tournament mode and then not goes in and out you guys are all messed up over there\n[03:06:20 AM] Customer: Either the games involved in a tournament are it's not so why is it going into a tournament mode and then not goes in and out you guys are all messed up over there\n[03:06:45 AM] Customer: How about this one you can escalate to kiss my ass because I am so tired of being told that people are going to escalate something escalate what I'd like to hear your version of what escalate means because you know what I mean to me you're full of shit\n[03:06:45 AM] Customer: How about this one you can escalate to kiss my ass because I am so tired of being told that people are going to escalate something escalate what I'd like to hear your version of what escalate means because you know what I mean to me you're full of shit",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T03:11:55.003Z"
+        },
+        {
+          "chat_id": "2048243630654832640",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-26T03:36:33.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask clarifying questions about the missing level-up bonus or confirm the customer's specific concern before providing generic information."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Issue remains completely unresolved; agent provided generic VIP information but never addressed the missing level-up bonus or referral bonus concerns."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Agent provided clear VIP program information but failed to directly address customer's specific questions and gave a confusing 'Yes!' response without context."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; agent provided standard program information without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Chat appears incomplete with no closing; customer's last questions about missing bonuses and referrals were left unanswered."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 38,
+          "grade": "F",
+          "summary": "Agent failed to properly greet the customer or address their specific concern about a missing Silver VIP level-up bonus. The interaction ended without resolution, with the customer's questions about both VIP and referral bonuses remaining unanswered.",
+          "coaching_tip": "Always directly address the customer's specific issue first before providing general information, and investigate account-specific concerns like missing bonuses rather than sending generic program details.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[03:31:50 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: I hit silver vip this morning ninhavent any level up bonus , just wondering..... thx.\n[03:31:50 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: I hit silver vip this morning ninhavent any level up bonus , just wondering..... thx.\n[03:32:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[03:32:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[03:32:39 AM] t9595345601: thx\n[03:32:39 AM] t9595345601: thx\n[03:33:13 AM] Marlon Cibrian: Welcome to the VIP Rewards Club — 29 tiers\nfrom Bronze all the way up to Apex!\nHow to earn XP and level up:\n- SC gameplay: 3x XP per spin\n- GC purchases: 30x XP\n- Daily login: 10 XP\nEach tier gives you an Upgrade Bonus (one-time SC credit) plus daily and weekly SC\nbonuses that grow with every level.\nA couple of things to keep in mind:\n- Weekly bonuses drop every Thursday at 12 PM PT — claim within 24 hours!\n- You need qualifying purchases within 30 days to maintain your tier\n- Must be a verified US resident, 18+\nWant to know your current tier or what the next level unlocks? I can help!\n[03:33:13 AM] Marlon Cibrian: Welcome to the VIP Rewards Club — 29 tiers\nfrom Bronze all the way up to Apex!\nHow to earn XP and level up:\n- SC gameplay: 3x XP per spin\n- GC purchases: 30x XP\n- Daily login: 10 XP\nEach tier gives you an Upgrade Bonus (one-time SC credit) plus daily and weekly SC\nbonuses that grow with every level.\nA couple of things to keep in mind:\n- Weekly bonuses drop every Thursday at 12 PM PT — claim within 24 hours!\n- You need qualifying purchases within 30 days to maintain your tier\n- Must be a verified US resident, 18+\nWant to know your current tier or what the next level unlocks? I can help!\n[03:34:36 AM] t9595345601: sure\n[03:34:36 AM] t9595345601: sure\n[03:34:52 AM] Marlon Cibrian: Yes!\n[03:34:52 AM] Marlon Cibrian: Yes!\n[03:35:33 AM] t9595345601: what does my level unlock? I haven't received anything or referral bonuses either I've got a referral that place that I know isis I get 28% but I haven't received your thing\n[03:35:33 AM] t9595345601: what does my level unlock? I haven't received anything or referral bonuses either I've got a referral that place that I know isis I get 28% but I haven't received your thing\n[03:35:54 AM] t9595345601: sorry I was using speaker\n[03:35:54 AM] t9595345601: sorry I was using speaker",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T03:36:46.570Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": -11
+      "trend": 4
     },
     {
       "id": "5807",
@@ -64867,6 +64957,96 @@
       "raw_transcript": "[03:15:20 AM] t7906834803: Full Name: t7906834803 Email Address: jentrox2025@gmail.com Subject / How can we help you?: I don't believe i receive anything for signing up\n[03:15:20 AM] t7906834803: Full Name: t7906834803 Email Address: jentrox2025@gmail.com Subject / How can we help you?: I don't believe i receive anything for signing up\n[03:15:34 AM] Cairo Osorto: Thanks for contacting.\n[03:15:34 AM] Cairo Osorto: Thanks for contacting.\n[03:15:40 AM] t7906834803: Hi\n[03:15:40 AM] t7906834803: Hi\n[03:16:30 AM] t7906834803: Do u receive any sc when signing up\n[03:16:30 AM] t7906834803: Do u receive any sc when signing up",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T03:21:55.870Z"
+    },
+    {
+      "chat_id": "2048243630654832640",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-26T03:36:33.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask clarifying questions about the missing level-up bonus or confirm the customer's specific concern before providing generic information."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Issue remains completely unresolved; agent provided generic VIP information but never addressed the missing level-up bonus or referral bonus concerns."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Agent provided clear VIP program information but failed to directly address customer's specific questions and gave a confusing 'Yes!' response without context."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected; agent provided standard program information without making unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Chat appears incomplete with no closing; customer's last questions about missing bonuses and referrals were left unanswered."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 38,
+      "grade": "F",
+      "summary": "Agent failed to properly greet the customer or address their specific concern about a missing Silver VIP level-up bonus. The interaction ended without resolution, with the customer's questions about both VIP and referral bonuses remaining unanswered.",
+      "coaching_tip": "Always directly address the customer's specific issue first before providing general information, and investigate account-specific concerns like missing bonuses rather than sending generic program details.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[03:31:50 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: I hit silver vip this morning ninhavent any level up bonus , just wondering..... thx.\n[03:31:50 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: I hit silver vip this morning ninhavent any level up bonus , just wondering..... thx.\n[03:32:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[03:32:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[03:32:39 AM] t9595345601: thx\n[03:32:39 AM] t9595345601: thx\n[03:33:13 AM] Marlon Cibrian: Welcome to the VIP Rewards Club — 29 tiers\nfrom Bronze all the way up to Apex!\nHow to earn XP and level up:\n- SC gameplay: 3x XP per spin\n- GC purchases: 30x XP\n- Daily login: 10 XP\nEach tier gives you an Upgrade Bonus (one-time SC credit) plus daily and weekly SC\nbonuses that grow with every level.\nA couple of things to keep in mind:\n- Weekly bonuses drop every Thursday at 12 PM PT — claim within 24 hours!\n- You need qualifying purchases within 30 days to maintain your tier\n- Must be a verified US resident, 18+\nWant to know your current tier or what the next level unlocks? I can help!\n[03:33:13 AM] Marlon Cibrian: Welcome to the VIP Rewards Club — 29 tiers\nfrom Bronze all the way up to Apex!\nHow to earn XP and level up:\n- SC gameplay: 3x XP per spin\n- GC purchases: 30x XP\n- Daily login: 10 XP\nEach tier gives you an Upgrade Bonus (one-time SC credit) plus daily and weekly SC\nbonuses that grow with every level.\nA couple of things to keep in mind:\n- Weekly bonuses drop every Thursday at 12 PM PT — claim within 24 hours!\n- You need qualifying purchases within 30 days to maintain your tier\n- Must be a verified US resident, 18+\nWant to know your current tier or what the next level unlocks? I can help!\n[03:34:36 AM] t9595345601: sure\n[03:34:36 AM] t9595345601: sure\n[03:34:52 AM] Marlon Cibrian: Yes!\n[03:34:52 AM] Marlon Cibrian: Yes!\n[03:35:33 AM] t9595345601: what does my level unlock? I haven't received anything or referral bonuses either I've got a referral that place that I know isis I get 28% but I haven't received your thing\n[03:35:33 AM] t9595345601: what does my level unlock? I haven't received anything or referral bonuses either I've got a referral that place that I know isis I get 28% but I haven't received your thing\n[03:35:54 AM] t9595345601: sorry I was using speaker\n[03:35:54 AM] t9595345601: sorry I was using speaker",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T03:36:46.570Z"
+    },
+    {
+      "chat_id": "2048243021526118400",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-26T03:32:09.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into asking a question without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked a good clarifying question to understand the redemption issue, and customer provided the specific question about timing."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "Chat ended before any resolution or information was provided; agent was still investigating when transcript concluded."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Communication was clear and professional, though the agent could have been more concise in the initial question."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed; agent appropriately indicated they would research the question."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing occurred as the chat transcript ended mid-conversation while agent was still investigating."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 38,
+      "grade": "F",
+      "summary": "Agent failed to provide any greeting and the chat ended before resolution could be achieved. Issue discovery was adequate with appropriate clarifying questions, but the incomplete nature of this transcript results in very low scores for greeting, resolution, and closing.",
+      "coaching_tip": "Always open customer interactions with a warm, professional greeting that acknowledges the customer before diving into questions about their issue.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[03:29:25 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[03:29:25 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[03:30:05 AM] Jonathan Fuentes: Could you tell me a bit more about what’s happening when your redemption? That way I can understand the issue and guide you better\n[03:30:05 AM] Jonathan Fuentes: Could you tell me a bit more about what’s happening when your redemption? That way I can understand the issue and guide you better\n[03:30:28 AM] t7911492542: How long does it take to receive a redemption\n[03:30:28 AM] t7911492542: How long does it take to receive a redemption\n[03:31:43 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[03:31:43 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T03:36:55.514Z"
     }
   ]
 }
