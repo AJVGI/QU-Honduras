@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-25T23:36:52.745Z",
-  "total_chats": 694,
+  "scored_at": "2026-04-26T00:01:47.307Z",
+  "total_chats": 695,
   "total_agents": 27,
   "agents": [
     {
@@ -27861,11 +27861,56 @@
           "raw_transcript": "[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T23:36:52.244Z"
+        },
+        {
+          "chat_id": "2048189222200111104",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-25T23:59:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask clarifying questions about which side of the referral the customer was on or verify account details before providing generic information."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent provided referral program details but completely failed to address the customer's specific complaint about not receiving their $50 SC as the referred user, leaving the issue unresolved."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Information was clear but entirely mismatched to the customer's concern; customer wanted their missing reward, not an explanation of how to refer others."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No policy violations, but failed to investigate the account or escalate a potential missing credit issue."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Abrupt closing with no confirmation the issue was resolved, no offer for further assistance, and no acknowledgment of the customer's dissatisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 43,
+          "grade": "F",
+          "summary": "Agent failed to understand the customer was the referred party expecting a reward, not the referrer, and provided irrelevant information about referring others. The issue was left completely unresolved with an abrupt closing and no investigation into the missing credit.",
+          "coaching_tip": "Always clarify which side of a referral transaction the customer is on before responding, and investigate account-specific issues rather than providing generic program information.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[11:55:38 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: No I used my friends referral code, therefore according to your guys peloton I should be able to get 50$ aswell as him, to which he did, but I didn’t. I did use his referral code when creating THIS account and have plenty of proof. I do expect 50$ SC if you guys want me to keep buying in on your guys sight.\n[11:55:38 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: No I used my friends referral code, therefore according to your guys peloton I should be able to get 50$ aswell as him, to which he did, but I didn’t. I did use his referral code when creating THIS account and have plenty of proof. I do expect 50$ SC if you guys want me to keep buying in on your guys sight.\n[11:55:50 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:55:50 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:57:23 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[11:57:23 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[11:59:39 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:59:39 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T00:01:46.806Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": -4
+      "trend": -16
     },
     {
       "id": "5955",
@@ -62707,6 +62752,51 @@
       "raw_transcript": "[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:14 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: None of my money is redeemable I have played welll over 150 SC, also I used my friends referral code and he got the 50$, however I DID NOT get 50$, it showed up in his account by not mine, is there anyway I can get the 50$ that I am well deserving of, thanks.\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:26:26 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:29:30 PM] Ludovicode Flores: For redemptions\nHere's what we've got:\nDebit Card — fastest option, usually 1–3 business days\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:30:43 PM] Ludovicode Flores: Regarding the referral, after reviewing your account I see that you do not have any referrals registered\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:31:42 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-25T23:36:52.244Z"
+    },
+    {
+      "chat_id": "2048189222200111104",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-25T23:59:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask clarifying questions about which side of the referral the customer was on or verify account details before providing generic information."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Agent provided referral program details but completely failed to address the customer's specific complaint about not receiving their $50 SC as the referred user, leaving the issue unresolved."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Information was clear but entirely mismatched to the customer's concern; customer wanted their missing reward, not an explanation of how to refer others."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No policy violations, but failed to investigate the account or escalate a potential missing credit issue."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Abrupt closing with no confirmation the issue was resolved, no offer for further assistance, and no acknowledgment of the customer's dissatisfaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 43,
+      "grade": "F",
+      "summary": "Agent failed to understand the customer was the referred party expecting a reward, not the referrer, and provided irrelevant information about referring others. The issue was left completely unresolved with an abrupt closing and no investigation into the missing credit.",
+      "coaching_tip": "Always clarify which side of a referral transaction the customer is on before responding, and investigate account-specific issues rather than providing generic program information.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[11:55:38 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: No I used my friends referral code, therefore according to your guys peloton I should be able to get 50$ aswell as him, to which he did, but I didn’t. I did use his referral code when creating THIS account and have plenty of proof. I do expect 50$ SC if you guys want me to keep buying in on your guys sight.\n[11:55:38 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: No I used my friends referral code, therefore according to your guys peloton I should be able to get 50$ aswell as him, to which he did, but I didn’t. I did use his referral code when creating THIS account and have plenty of proof. I do expect 50$ SC if you guys want me to keep buying in on your guys sight.\n[11:55:50 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:55:50 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:57:23 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[11:57:23 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[11:59:39 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:59:39 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T00:01:46.806Z"
     }
   ]
 }
