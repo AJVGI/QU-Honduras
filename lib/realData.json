@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T02:26:46.141Z",
-  "total_chats": 710,
+  "scored_at": "2026-04-26T02:31:42.518Z",
+  "total_chats": 711,
   "total_agents": 27,
   "agents": [
     {
@@ -9078,11 +9078,56 @@
           "raw_transcript": "[12:03:04 AM] Customer: Full Name: Valarie Pittman Email Address: valariepittman0@gmail.com Subject / How can we help you?: I'm trying to sign up but it's saying something about my location my location\n[12:03:04 AM] Customer: Full Name: Valarie Pittman Email Address: valariepittman0@gmail.com Subject / How can we help you?: I'm trying to sign up but it's saying something about my location my location\n[12:03:23 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:03:23 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:04:27 AM] Customer: Ok\n[12:04:27 AM] Customer: Ok\n[12:04:38 AM] Daniel Ayestas: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[12:04:38 AM] Daniel Ayestas: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[12:04:40 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:04:40 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:04:58 AM] Customer: Ok\n[12:04:58 AM] Customer: Ok\n[12:05:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:05:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:08:22 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:08:22 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T00:11:48.476Z"
+        },
+        {
+          "chat_id": "2048226118733230080",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-26T02:27:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly to 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions about what error message appeared or what specifically wasn't working during password change."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided clear password reset instructions and proactively mentioned account lockout possibility, though didn't confirm if issue was resolved."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and friendly tone with step-by-step instructions, but closed conversation without waiting for customer confirmation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately handled password reset within standard procedures."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closed prematurely without confirming customer's issue was resolved or receiving acknowledgment from customer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided helpful password reset instructions with good detail but failed to greet the customer initially and closed the chat without confirming the issue was resolved. The premature closure is the most significant weakness as the customer never responded to indicate their problem was solved.",
+          "coaching_tip": "Always wait for customer confirmation that their issue is resolved before closing the chat, especially when providing instructions they need to follow.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T02:31:42.016Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 3
+      "trend": -4
     },
     {
       "id": "5844",
@@ -64147,6 +64192,51 @@
       "raw_transcript": "[02:10:37 AM] Customer: Full Name: Candice Williams Email Address: candicewilliams1025@gmail.com Subject / How can we help you?: How do I play\n[02:10:37 AM] Customer: Full Name: Candice Williams Email Address: candicewilliams1025@gmail.com Subject / How can we help you?: How do I play\n[02:14:19 AM] Marlon Cibrian: I’ll explain how sweepstakes casinos work and how you can play on JackpotDaily.\n\nSweepstakes casinos are a bit different from regular casinos. Instead of playing directly with real money, you use virtual coins called Sweepstakes Coins (SC). These are what you use to play games like slots and other casino games on the platform.\n\nTo get started on JackpotDaily, it’s very simple:\n\n• First, create your account and log in\n• You may receive free SC when you sign up or through daily rewards and promotions\n• Use your Sweepstakes Coins to play the available games\n• If you collect eligible winnings, you may be able to request a redemption following the platform rules\n\nThe best part is that you can often get free coins just by logging in daily or taking part in promotions, so you can start playing without needing a purchase.\n[02:14:19 AM] Marlon Cibrian: I’ll explain how sweepstakes casinos work and how you can play on JackpotDaily.\n\nSweepstakes casinos are a bit different from regular casinos. Instead of playing directly with real money, you use virtual coins called Sweepstakes Coins (SC). These are what you use to play games like slots and other casino games on the platform.\n\nTo get started on JackpotDaily, it’s very simple:\n\n• First, create your account and log in\n• You may receive free SC when you sign up or through daily rewards and promotions\n• Use your Sweepstakes Coins to play the available games\n• If you collect eligible winnings, you may be able to request a redemption following the platform rules\n\nThe best part is that you can often get free coins just by logging in daily or taking part in promotions, so you can start playing without needing a purchase.\n[02:14:32 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[02:14:32 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[02:18:02 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[02:18:02 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T02:26:45.640Z"
+    },
+    {
+      "chat_id": "2048226118733230080",
+      "agent_name": "Daniel Ayestas",
+      "agent_id": "5808",
+      "timestamp": "2026-04-26T02:27:07.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly to 'one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not ask clarifying questions about what error message appeared or what specifically wasn't working during password change."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided clear password reset instructions and proactively mentioned account lockout possibility, though didn't confirm if issue was resolved."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and friendly tone with step-by-step instructions, but closed conversation without waiting for customer confirmation."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately handled password reset within standard procedures."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closed prematurely without confirming customer's issue was resolved or receiving acknowledgment from customer."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided helpful password reset instructions with good detail but failed to greet the customer initially and closed the chat without confirming the issue was resolved. The premature closure is the most significant weakness as the customer never responded to indicate their problem was solved.",
+      "coaching_tip": "Always wait for customer confirmation that their issue is resolved before closing the chat, especially when providing instructions they need to follow.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T02:31:42.016Z"
     }
   ]
 }
