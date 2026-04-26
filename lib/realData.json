@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T04:21:49.227Z",
-  "total_chats": 722,
+  "scored_at": "2026-04-26T04:31:48.613Z",
+  "total_chats": 723,
   "total_agents": 27,
   "agents": [
     {
@@ -29121,6 +29121,51 @@
           "raw_transcript": "[02:23:56 AM] Customer: Full Name: Gilbert jr Domenech Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: Hello how just wondering if you help me locate my free spains\n[02:23:56 AM] Customer: Full Name: Gilbert jr Domenech Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: Hello how just wondering if you help me locate my free spains\n[02:24:08 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:24:08 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:24:16 AM] Customer: Thank you\n[02:24:16 AM] Customer: Thank you\n[02:26:18 AM] Customer: K\n[02:26:18 AM] Customer: K\n[02:29:36 AM] Ludovicode Flores: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n\nNot seeing yours? Let me know!\n[02:29:36 AM] Customer: Someone still helping me?\n[02:29:36 AM] Ludovicode Flores: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n\nNot seeing yours? Let me know!\n[02:29:36 AM] Customer: Someone still helping me?\n[02:30:58 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[02:30:58 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[02:31:44 AM] Ludovicode Flores: Thanks for chatting with us\n[02:31:44 AM] Ludovicode Flores: Thanks for chatting with us",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T02:36:46.669Z"
+        },
+        {
+          "chat_id": "2048255593237659648",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-26T04:27:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the bonus issue but didn't initially clarify whether customer had completed KYC before providing generic information."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided clear KYC instructions and explained the requirement for the bonus, though closed prematurely before confirming customer understood fully."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and detailed instructions provided, but closed the chat too quickly when customer was still engaging and asking questions."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained bonus terms and verification requirements."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Attempted to close prematurely while customer was still asking questions, showing poor timing and engagement awareness."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided accurate information about KYC verification and bonus requirements but failed to greet the customer and attempted to close the chat prematurely while the customer was still engaged. The resolution was ultimately helpful but the interaction lacked proper opening and closing awareness.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, and avoid closing the chat until you've confirmed the customer has no further questions and received their explicit acknowledgment.",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "raw_transcript": "[04:19:22 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:19:22 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:19:34 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:19:34 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:20:39 AM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[04:20:39 AM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[04:20:45 AM] t9077482285: Thank u\n[04:20:45 AM] t9077482285: Thank u\n[04:21:16 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:21:16 AM] t9077482285: I don't have the option for kyc\n[04:21:16 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:21:16 AM] t9077482285: I don't have the option for kyc\n[04:21:32 AM] Ludovicode Flores: one sec please\n[04:21:32 AM] Ludovicode Flores: one sec please\n[04:22:41 AM] t9077482285: I never got the welcome bonus I messaged last night as well\n[04:22:41 AM] t9077482285: I never got the welcome bonus I messaged last night as well\n[04:23:02 AM] Ludovicode Flores: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way\n[04:23:02 AM] Ludovicode Flores: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way\n[04:24:03 AM] Ludovicode Flores: You need to verify your account in order to receive the welcome bonus\n[04:24:03 AM] Ludovicode Flores: You need to verify your account in order to receive the welcome bonus\n[04:24:47 AM] t9077482285: Ok\n[04:24:47 AM] t9077482285: Ok\n[04:25:12 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:25:12 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:27:36 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:27:36 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T04:31:48.112Z"
         }
       ],
       "avg_score": 53,
@@ -65227,6 +65272,51 @@
       "raw_transcript": "[04:16:00 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[04:16:00 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[04:16:23 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:16:23 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:16:35 AM] t7911492542: What the waiting period for you to get your winni\n[04:16:35 AM] t7911492542: What the waiting period for you to get your winni\n[04:17:49 AM] Marlon Cibrian: ACH transfers may take up to 10 business days to complete.\n[04:17:49 AM] Marlon Cibrian: ACH transfers may take up to 10 business days to complete.\n[04:21:06 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:21:06 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T04:21:48.726Z"
+    },
+    {
+      "chat_id": "2048255593237659648",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-26T04:27:40.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the bonus issue but didn't initially clarify whether customer had completed KYC before providing generic information."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided clear KYC instructions and explained the requirement for the bonus, though closed prematurely before confirming customer understood fully."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and detailed instructions provided, but closed the chat too quickly when customer was still engaging and asking questions."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained bonus terms and verification requirements."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Attempted to close prematurely while customer was still asking questions, showing poor timing and engagement awareness."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided accurate information about KYC verification and bonus requirements but failed to greet the customer and attempted to close the chat prematurely while the customer was still engaged. The resolution was ultimately helpful but the interaction lacked proper opening and closing awareness.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name, and avoid closing the chat until you've confirmed the customer has no further questions and received their explicit acknowledgment.",
+      "website": "Jackpot Daily",
+      "message_count": 26,
+      "raw_transcript": "[04:19:22 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:19:22 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:19:34 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:19:34 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:20:39 AM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[04:20:39 AM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[04:20:45 AM] t9077482285: Thank u\n[04:20:45 AM] t9077482285: Thank u\n[04:21:16 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:21:16 AM] t9077482285: I don't have the option for kyc\n[04:21:16 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:21:16 AM] t9077482285: I don't have the option for kyc\n[04:21:32 AM] Ludovicode Flores: one sec please\n[04:21:32 AM] Ludovicode Flores: one sec please\n[04:22:41 AM] t9077482285: I never got the welcome bonus I messaged last night as well\n[04:22:41 AM] t9077482285: I never got the welcome bonus I messaged last night as well\n[04:23:02 AM] Ludovicode Flores: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way\n[04:23:02 AM] Ludovicode Flores: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way\n[04:24:03 AM] Ludovicode Flores: You need to verify your account in order to receive the welcome bonus\n[04:24:03 AM] Ludovicode Flores: You need to verify your account in order to receive the welcome bonus\n[04:24:47 AM] t9077482285: Ok\n[04:24:47 AM] t9077482285: Ok\n[04:25:12 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:25:12 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:27:36 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:27:36 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T04:31:48.112Z"
     }
   ]
 }
