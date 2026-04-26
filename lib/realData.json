@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T06:01:46.048Z",
-  "total_chats": 746,
+  "scored_at": "2026-04-26T06:06:45.854Z",
+  "total_chats": 747,
   "total_agents": 27,
   "agents": [
     {
@@ -32073,11 +32073,56 @@
           "raw_transcript": "[05:32:04 AM] Customer: Full Name: t9745516744 Email Address: sallyeherron76@gmail.com Subject / How can we help you?: Why does my sweep coin balance differ from my redeemable sweep coin balance\n[05:32:04 AM] Customer: Full Name: t9745516744 Email Address: sallyeherron76@gmail.com Subject / How can we help you?: Why does my sweep coin balance differ from my redeemable sweep coin balance\n[05:32:43 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:32:43 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:34:14 AM] Ariel Lanza: Thanks for your patience while I looked into this for you.\n\nI have some great news! I’ve just finished checking your account on my end, and I can confirm that your current balance is 321.27 Sweepstakes Coins (SC).\n\nSince your balance is well above the minimum requirement, you are all set to start a redemption! Here is exactly how to do it:\n\nHow to Redeem Your Winnings\nLog in to your account at www.jackpotdaily.com.\n\nOpen the Menu: Click on the \"Redeem\" tab on the left-hand sidebar.\n\nChoose Your Method: Select how you'd like to receive your funds (Bank Transfer, Debit Card, or Skrill).\n\nEnter the Amount: Input the amount you wish to redeem from your 321.27 SC balance.\n\nConfirm: Review the details and submit your request!\n\nWhat to Expect Next\nReview Period: Our team will perform a quick security check on the request.\n\nDelivery Time: * Debit Card & Skrill: Usually arrives within 1–3 business days.\n\nBank Transfer: Can take up to 10 business days depending on your bank's processing speed.\n[05:34:14 AM] Ariel Lanza: Thanks for your patience while I looked into this for you.\n\nI have some great news! I’ve just finished checking your account on my end, and I can confirm that your current balance is 321.27 Sweepstakes Coins (SC).\n\nSince your balance is well above the minimum requirement, you are all set to start a redemption! Here is exactly how to do it:\n\nHow to Redeem Your Winnings\nLog in to your account at www.jackpotdaily.com.\n\nOpen the Menu: Click on the \"Redeem\" tab on the left-hand sidebar.\n\nChoose Your Method: Select how you'd like to receive your funds (Bank Transfer, Debit Card, or Skrill).\n\nEnter the Amount: Input the amount you wish to redeem from your 321.27 SC balance.\n\nConfirm: Review the details and submit your request!\n\nWhat to Expect Next\nReview Period: Our team will perform a quick security check on the request.\n\nDelivery Time: * Debit Card & Skrill: Usually arrives within 1–3 business days.\n\nBank Transfer: Can take up to 10 business days depending on your bank's processing speed.\n[05:36:50 AM] Ariel Lanza: Are you still with me?\n[05:36:50 AM] Ariel Lanza: Are you still with me?\n[05:39:18 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n\nI hope you have a fantastic rest of your day and the best of luck on the reels!\n\nIs there anything else I can quickly help you with before I head out?\n[05:39:18 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n\nI hope you have a fantastic rest of your day and the best of luck on the reels!\n\nIs there anything else I can quickly help you with before I head out?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T05:51:52.810Z"
+        },
+        {
+          "chat_id": "2048275753388568576",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T06:03:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the customer's frustration about low reward amounts but didn't ask clarifying questions about what the customer expected or experienced."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided explanations but gave contradictory information (first explaining the 32 cents breakdown, then suggesting it's a sync delay), leaving the customer's core question unanswered."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent was empathetic and professional but overly verbose and ultimately confusing with conflicting explanations about the issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, though the vague technical explanations about system sync could be misleading if inaccurate."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Chat appears incomplete with no proper closing, farewell, or confirmation that the issue was resolved; customer left waiting after troubleshooting suggestion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent showed empathy but failed to provide a clear, consistent resolution to the customer's concern about receiving only 32 cents in combined rewards. The explanation shifted from breaking down the reward calculation to blaming a sync delay, then suggesting browser troubleshooting without confirming the actual issue or following up.",
+          "coaching_tip": "Provide one clear, consistent explanation rather than multiple conflicting theories, and always close the loop by confirming whether the issue is resolved or what the next steps are before ending the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:46:11 AM] t9595345601: ??\n[05:46:11 AM] t9595345601: ??\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:40 AM] t9595345601: good sunday\n[05:47:40 AM] t9595345601: good sunday\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T06:06:45.352Z"
         }
       ],
       "avg_score": 48,
       "grade": "F",
-      "trend": -5
+      "trend": -9
     },
     {
       "id": "5838",
@@ -67387,6 +67432,51 @@
       "raw_transcript": "[05:52:11 AM] Customer: Full Name: Tanya Roberts Email Address: tsroberts45@gmail.com Subject / How can we help you?: I have not received either of my referral money\n[05:52:11 AM] Customer: Full Name: Tanya Roberts Email Address: tsroberts45@gmail.com Subject / How can we help you?: I have not received either of my referral money\n[05:52:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:52:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:53:00 AM] Customer: When will I get my referral rewards\n[05:53:00 AM] Customer: When will I get my referral rewards\n[05:54:39 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[05:54:39 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[05:54:58 AM] Customer: K\n[05:54:58 AM] Customer: K\n[05:56:29 AM] Karen Perez: Thanks for waiting. I’ve looked into your recent redemption request, and I’m happy to help you get this sorted.\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n\n• Character Limit: Keep this information within the 50-character limit.\n\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n[05:56:29 AM] Karen Perez: Thanks for waiting. I’ve looked into your recent redemption request, and I’m happy to help you get this sorted.\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n\n• Character Limit: Keep this information within the 50-character limit.\n\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n[05:57:25 AM] Karen Perez: Is there anything else I can do for you today?\n[05:57:25 AM] Karen Perez: Is there anything else I can do for you today?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T06:01:45.547Z"
+    },
+    {
+      "chat_id": "2048275753388568576",
+      "agent_name": "Ariel Lanza",
+      "agent_id": "5839",
+      "timestamp": "2026-04-26T06:03:46.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the customer's frustration about low reward amounts but didn't ask clarifying questions about what the customer expected or experienced."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent provided explanations but gave contradictory information (first explaining the 32 cents breakdown, then suggesting it's a sync delay), leaving the customer's core question unanswered."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Agent was empathetic and professional but overly verbose and ultimately confusing with conflicting explanations about the issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, though the vague technical explanations about system sync could be misleading if inaccurate."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Chat appears incomplete with no proper closing, farewell, or confirmation that the issue was resolved; customer left waiting after troubleshooting suggestion."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent showed empathy but failed to provide a clear, consistent resolution to the customer's concern about receiving only 32 cents in combined rewards. The explanation shifted from breaking down the reward calculation to blaming a sync delay, then suggesting browser troubleshooting without confirming the actual issue or following up.",
+      "coaching_tip": "Provide one clear, consistent explanation rather than multiple conflicting theories, and always close the loop by confirming whether the issue is resolved or what the next steps are before ending the conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:46:11 AM] t9595345601: ??\n[05:46:11 AM] t9595345601: ??\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:40 AM] t9595345601: good sunday\n[05:47:40 AM] t9595345601: good sunday\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T06:06:45.352Z"
     }
   ]
 }
