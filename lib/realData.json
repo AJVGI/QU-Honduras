@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T04:11:52.520Z",
-  "total_chats": 721,
+  "scored_at": "2026-04-26T04:21:49.227Z",
+  "total_chats": 722,
   "total_agents": 27,
   "agents": [
     {
@@ -25368,11 +25368,56 @@
           "raw_transcript": "[03:31:50 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: I hit silver vip this morning ninhavent any level up bonus , just wondering..... thx.\n[03:31:50 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: I hit silver vip this morning ninhavent any level up bonus , just wondering..... thx.\n[03:32:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[03:32:25 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[03:32:39 AM] t9595345601: thx\n[03:32:39 AM] t9595345601: thx\n[03:33:13 AM] Marlon Cibrian: Welcome to the VIP Rewards Club — 29 tiers\nfrom Bronze all the way up to Apex!\nHow to earn XP and level up:\n- SC gameplay: 3x XP per spin\n- GC purchases: 30x XP\n- Daily login: 10 XP\nEach tier gives you an Upgrade Bonus (one-time SC credit) plus daily and weekly SC\nbonuses that grow with every level.\nA couple of things to keep in mind:\n- Weekly bonuses drop every Thursday at 12 PM PT — claim within 24 hours!\n- You need qualifying purchases within 30 days to maintain your tier\n- Must be a verified US resident, 18+\nWant to know your current tier or what the next level unlocks? I can help!\n[03:33:13 AM] Marlon Cibrian: Welcome to the VIP Rewards Club — 29 tiers\nfrom Bronze all the way up to Apex!\nHow to earn XP and level up:\n- SC gameplay: 3x XP per spin\n- GC purchases: 30x XP\n- Daily login: 10 XP\nEach tier gives you an Upgrade Bonus (one-time SC credit) plus daily and weekly SC\nbonuses that grow with every level.\nA couple of things to keep in mind:\n- Weekly bonuses drop every Thursday at 12 PM PT — claim within 24 hours!\n- You need qualifying purchases within 30 days to maintain your tier\n- Must be a verified US resident, 18+\nWant to know your current tier or what the next level unlocks? I can help!\n[03:34:36 AM] t9595345601: sure\n[03:34:36 AM] t9595345601: sure\n[03:34:52 AM] Marlon Cibrian: Yes!\n[03:34:52 AM] Marlon Cibrian: Yes!\n[03:35:33 AM] t9595345601: what does my level unlock? I haven't received anything or referral bonuses either I've got a referral that place that I know isis I get 28% but I haven't received your thing\n[03:35:33 AM] t9595345601: what does my level unlock? I haven't received anything or referral bonuses either I've got a referral that place that I know isis I get 28% but I haven't received your thing\n[03:35:54 AM] t9595345601: sorry I was using speaker\n[03:35:54 AM] t9595345601: sorry I was using speaker",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T03:36:46.570Z"
+        },
+        {
+          "chat_id": "2048254743868174336",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-26T04:21:16.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly to 'one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions about the specific redemption or confirm customer's situation before providing generic information."
+            },
+            "resolution": {
+              "score": 17,
+              "notes": "Provided standard timeframe information that likely answers the question, but didn't confirm if this addressed the customer's specific concern or offer to check status."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Communication was clear and professional but minimal, with no empathy or personalization for a customer asking about their winnings."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard processing timeframe information appropriately."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered a friendly closing but didn't ask if there were additional questions or confirm the issue was resolved."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided accurate timeframe information but delivered minimal service with no greeting, limited discovery, and no confirmation that the answer met the customer's needs. The interaction was functional but lacked the engagement and thoroughness expected for a customer inquiring about their winnings.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name when available, and before closing, confirm the customer's question has been fully answered and ask if they need anything else.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[04:16:00 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[04:16:00 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[04:16:23 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:16:23 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:16:35 AM] t7911492542: What the waiting period for you to get your winni\n[04:16:35 AM] t7911492542: What the waiting period for you to get your winni\n[04:17:49 AM] Marlon Cibrian: ACH transfers may take up to 10 business days to complete.\n[04:17:49 AM] Marlon Cibrian: ACH transfers may take up to 10 business days to complete.\n[04:21:06 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:21:06 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T04:21:48.726Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 4
+      "trend": 10
     },
     {
       "id": "5807",
@@ -65137,6 +65182,51 @@
       "raw_transcript": "[04:02:38 AM] t6685293285: Full Name: t6685293285 Email Address: ev484381@gmail.com Subject / How can we help you?: My sign on bonus\n[04:02:38 AM] t6685293285: Full Name: t6685293285 Email Address: ev484381@gmail.com Subject / How can we help you?: My sign on bonus\n[04:02:54 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[04:02:54 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[04:03:11 AM] t6685293285: Ok thanks\n[04:03:11 AM] t6685293285: Ok thanks\n[04:03:24 AM] Daniel Ayestas: Great to have you back! What can I help you with today?\n[04:03:24 AM] Daniel Ayestas: Great to have you back! What can I help you with today?\n[04:03:43 AM] t6685293285: my sign on bonus\n[04:03:43 AM] t6685293285: my sign on bonus\n[04:04:44 AM] Daniel Ayestas: I’d be happy to explain how our Golden Egg promotion works.\nIt’s really simple to participate:\n1.\tKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\n2.\tSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\n3.\tGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n•\tThis reward is limited to one (1) per account.\n•\tRewards are randomly distributed and cannot be exchanged.\n•\tPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[04:04:44 AM] Daniel Ayestas: I’d be happy to explain how our Golden Egg promotion works.\nIt’s really simple to participate:\n1.\tKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\n2.\tSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\n3.\tGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n•\tThis reward is limited to one (1) per account.\n•\tRewards are randomly distributed and cannot be exchanged.\n•\tPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[04:04:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:04:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:05:10 AM] t6685293285: i did that already\n[04:05:10 AM] t6685293285: i did that already\n[04:05:44 AM] t6685293285: I didn’t smash a egg\n[04:05:44 AM] t6685293285: I didn’t smash a egg\n[04:06:03 AM] Daniel Ayestas: Give me a moment to review this information.\n[04:06:03 AM] Daniel Ayestas: Give me a moment to review this information.\n[04:07:24 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[04:07:24 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[04:07:34 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:07:34 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:07:55 AM] t6685293285: No that sucks wasted my time for nothing\n[04:07:55 AM] t6685293285: No that sucks wasted my time for nothing",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T04:11:52.020Z"
+    },
+    {
+      "chat_id": "2048254743868174336",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-26T04:21:16.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly to 'one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not ask clarifying questions about the specific redemption or confirm customer's situation before providing generic information."
+        },
+        "resolution": {
+          "score": 17,
+          "notes": "Provided standard timeframe information that likely answers the question, but didn't confirm if this addressed the customer's specific concern or offer to check status."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Communication was clear and professional but minimal, with no empathy or personalization for a customer asking about their winnings."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided standard processing timeframe information appropriately."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered a friendly closing but didn't ask if there were additional questions or confirm the issue was resolved."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent provided accurate timeframe information but delivered minimal service with no greeting, limited discovery, and no confirmation that the answer met the customer's needs. The interaction was functional but lacked the engagement and thoroughness expected for a customer inquiring about their winnings.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name when available, and before closing, confirm the customer's question has been fully answered and ask if they need anything else.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[04:16:00 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[04:16:00 AM] t7911492542: Full Name: t7911492542 Email Address: tonja4118@gmail.com Subject / How can we help you?: Redemption\n[04:16:23 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:16:23 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:16:35 AM] t7911492542: What the waiting period for you to get your winni\n[04:16:35 AM] t7911492542: What the waiting period for you to get your winni\n[04:17:49 AM] Marlon Cibrian: ACH transfers may take up to 10 business days to complete.\n[04:17:49 AM] Marlon Cibrian: ACH transfers may take up to 10 business days to complete.\n[04:21:06 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:21:06 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T04:21:48.726Z"
     }
   ]
 }
