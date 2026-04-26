@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T05:01:54.325Z",
-  "total_chats": 733,
+  "scored_at": "2026-04-26T05:21:56.623Z",
+  "total_chats": 735,
   "total_agents": 27,
   "agents": [
     {
@@ -1012,645 +1012,6 @@
       "trend": -5
     },
     {
-      "id": "5846",
-      "name": "Karen Perez",
-      "chats": [
-        {
-          "chat_id": "2045105114267090944",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-17T11:52:20.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with name introduction and offer to help, though slightly generic."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Agent understood the daily coins question and connected it to previous account issues, showing good context awareness."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive troubleshooting steps covering location settings, verification wait, and escalation template, though resolution depends on customer action."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and detailed with good structure using bullets and emojis, though extremely lengthy responses may overwhelm some customers."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately set expectations about daily bonuses not being guaranteed and account restrictions."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Gave reasonable wait time with follow-ups before closing, included friendly sign-off and well-wishes."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 71,
-          "grade": "C",
-          "summary": "Agent provided thorough technical troubleshooting for daily coins issue with detailed step-by-step instructions and appropriate context from previous account problems. Communication was professional and comprehensive, though very lengthy, and properly managed customer expectations about account restrictions.",
-          "coaching_tip": "Consider breaking up extremely long responses into smaller chunks with pauses to check customer understanding, as walls of text can be overwhelming and may cause customers to disengage.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[11:40:30 AM] t4089908191: Full Name: t4089908191 Email Address: chewy88401@gmail.com Subject / How can we help you?: Free coins\n[11:40:51 AM] Karen Perez: Hi! \nMy name is Karen. What can I do for you today?\n[11:42:05 AM] Karen Perez: Are you still there?\n[11:42:31 AM] t4089908191: Do you guys give daily free coins?\n[11:43:29 AM] Karen Perez: Yes — most platforms like this DO offer daily free coins, but there are a few important catches.\n\n How daily free coins usually work\nYou get a daily login bonus just for signing in\nIt can include:\nGold Coins (GC)\nSometimes a small amount of SC\nUsually available every 24 hours\n\n On many sites, you just:\n\nLog in\nClick a button (or pop-up)\nClaim it\n What you should expect\nDaily rewards are usually small\nExample: ~0.25 SC to 1 SC per day on many platforms\nSome days you may get only GC and no SC\nSome sites use:\nA wheel spin\nA bonus chest\nOr streak rewards\n Why YOU might not be getting it\n\nBased on everything you’ve been dealing with:\n\n If your account has issues (which yours clearly does), it can block:\n\nDaily bonus\nWelcome bonus\nGame access\n\nEspecially if:\n\nLocation isn’t detected\nVerification isn’t fully synced\nAccount is partially restricted\n Important truth\nDaily bonuses are not guaranteed to include SC every day\nAnd if your account is glitched:\n You may get nothing at all until it’s fixed\n Real talk\n\nYes — you should be getting daily coins\n\nBut in your case:\n The reason you’re not is likely the same backend/account issue causing everything else\n[11:45:30 AM] t4089908191: How do I fix that\n[11:46:55 AM] Karen Perez: You don’t “fix” this in one click — your account has a few things blocking it, and they all tie together. I’ll give you the exact steps that actually matter.\n\n Step 1: Fix location (this is critical)\n\nIf location isn’t detected, nothing else will work (games, daily bonus, redeem)\n\nOn your iPad:\n\nSettings → Privacy & Security → Location Services → ON\nTap Safari Websites (or Chrome)\nSet to Allow While Using App\nTurn Precise Location ON\n\nThen:\n\nGo to Settings → Safari → Location → set to Ask\nReopen the site and tap Allow\n\nAlso:\n\nTurn OFF iCloud Private Relay\nDon’t use private/incognito mode\n Step 2: Wait for verification to fully complete\n\nIf it still says:\n\n“In process”\n\n You will NOT get:\n\nDaily bonus\nWelcome bonus\nRedemption\n\nYou have to wait until it says fully verified/approved\n\n Step 3: Check after verification finishes\n\nOnce approved:\n\nLog out\nClear Safari data\nLog back in\n\nThen check:\n\nDaily bonus button\nGolden Egg / rewards\nGame access\n If it STILL doesn’t work\n\nThen it’s not your settings — it’s your account stuck on their side\n\nAt that point, you need a reset:\n\nHello,\n\nMy account is not receiving daily bonuses and my device location was not being detected.\n\nI have now enabled all location permissions and completed verification, but I am still unable to claim rewards or fully use my account.\n\nPlease reset and review my account so that daily bonuses and features work correctly.\n\nThank you.\n\n Straight answer\nMost people → daily bonus works automatically\nYou → account is partially blocked, so it doesn’t\n\nFix location + wait for verification\nIf that doesn’t fix it → they have to manually reset your account\n[11:50:09 AM] Karen Perez: Are you still there?\n[11:52:13 AM] Karen Perez: Since there is no response, I'll need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:53:53.687Z"
-        },
-        {
-          "chat_id": "2045102840119656448",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-17T11:38:30.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional greeting with name and offer to assist, but minimal warmth or personalization."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent accurately understood the customer's frustration about being blocked from withdrawal and subsequent losses."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided honest explanation, managed expectations clearly, and gave actionable guidance with a template email for proper escalation."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, empathetic, and well-structured response with helpful framing advice, though quite lengthy."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "No unauthorized promises made, properly explained limitations, and directed to appropriate support channel."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Checked for continued engagement and closed professionally with well-wishes, though slightly formulaic."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 75,
-          "grade": "C",
-          "summary": "Agent demonstrated strong understanding of the customer's frustration and provided honest, helpful guidance without making unauthorized promises. The response was empathetic and actionable, directing the customer to escalate appropriately while managing expectations about played funds.",
-          "coaching_tip": "Consider condensing lengthy explanations into more digestible chunks to maintain customer engagement and prevent information overload.",
-          "website": "Jackpot Daily",
-          "message_count": 6,
-          "raw_transcript": "[11:31:27 AM] t3056351078: Full Name: t3056351078 Email Address: rickytreeman1976@gmail.com Subject / How can we help you?: Just seems so amazing how I wanted to cash out a few hours ago but for some reason couldn't, and now of course that money was lost playing. People sign up for these sites with somewhat confidence that everything will run smoothly. So far that has not been the case. I'm really not a complainer but it's just irritating\n[11:32:10 AM] Karen Perez: Hi! \nMy name is Karen. I will be assisting you with your request.\n[11:32:34 AM] t3056351078: I really don't have a request I'm just pointing out my frustration\n[11:34:13 AM] Karen Perez: I get why that bothers you. You had a balance you wanted to redeem, something blocked you, and then continuing to play led to losses. That’s a frustrating spot to be in.\n\nHere’s the straight reality of how these platforms work:\n\n What happened (most likely)\nYou tried to redeem\nYour account still had a block (name error/verification / location / playthrough)\nBecause of that, redemption wasn’t possible at that moment\nYou kept playing → balance changed based on game results\n\n The system didn’t force you to keep playing, but it also didn’t clearly stop you, which is where the frustration comes from\n\n Important point\n\nOnce funds are played:\n\nThey are considered used in gameplay\nThey typically can’t be restored or reversed\n\nI know that’s not what you want to hear, but I don’t want to mislead you.\n\n Where you do have a valid complaint\n\nYour issue isn’t just losses — it’s that:\n\nYou were unable to redeem when you tried\nDue to account/system issues that weren’t fixed in time\n\n That’s the part you should focus on when you contact support at support@jackpotdaily.com\n\n How to frame it (this matters)\n\nDon’t focus on “I lost money playing”\nFocus on:\n\n“I attempted to redeem and was blocked due to errors”\n\nHere’s a message that reflects that:\n\nHello,\n\nI attempted to redeem my balance earlier but was unable to due to account errors (including name validation and other issues I previously reported).\n\nBecause of this, I was unable to cash out when I intended to.\n\nThis situation is very frustrating, as I tried to redeem before continuing gameplay but was prevented from doing so due to unresolved issues on my account.\n\nPlease review my account and advise on what can be done regarding this situation, as well as resolve the ongoing redemption issues.\n\nThank you.\n\n Real talk\nYou’re not wrong to expect things to work smoothly\nAnd you did try to do the right thing by redeeming first\nBut the system blocked you at the wrong time\n\nThat’s where your leverage is — not the loss itself, but being prevented from redeeming\n[11:36:40 AM] Karen Perez: Are you still there?\n[11:38:25 AM] Karen Perez: Since there is no response, I'll need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:54:37.371Z"
-        },
-        {
-          "chat_id": "2045097653980983296",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-17T11:11:57.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to help, though could be slightly warmer."
-            },
-            "issue_discovery": {
-              "score": 12,
-              "notes": "Agent asked what they can help with, but customer's incomplete message 'assis' wasn't acknowledged or clarified."
-            },
-            "resolution": {
-              "score": 18,
-              "notes": "No resolution possible yet as conversation just started and customer hasn't fully stated their issue."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and professional communication, appropriately brief for an opening exchange."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No compliance issues observed in this brief interaction."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Not applicable as conversation is ongoing and just beginning."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 59,
-          "grade": "F",
-          "summary": "Agent provided a competent professional greeting and opened the conversation appropriately. The interaction is too brief to evaluate most categories as the customer hasn't yet fully stated their issue.",
-          "coaching_tip": "When a customer's initial message appears incomplete or cut off (like 'assis'), proactively acknowledge it and invite them to complete their thought to accelerate issue discovery.",
-          "website": "Jackpot Daily",
-          "message_count": 2,
-          "raw_transcript": "[11:10:51 AM] Customer: Full Name: hello Email Address: johnsmith@gmail.com Subject / How can we help you?: assis\n[11:11:34 AM] Karen Perez: Hi! \nMy name is Karen. What can I do for you today?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:55:38.818Z"
-        },
-        {
-          "chat_id": "2047268147245182976",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-23T11:08:30.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to assist, though used wrong name (Melissa vs Karen)."
-            },
-            "issue_discovery": {
-              "score": 17,
-              "notes": "Agent thoroughly explained referral requirements and asked clarifying questions about link usage and timing to diagnose the issue."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Agent verified account status, gathered necessary information, and provided clear explanation that rewards typically process within 24 hours with proper escalation path."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, well-structured responses with bullet points and empathetic tone throughout the conversation."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; agent appropriately explained requirements and timeframes without making unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript appears truncated with no visible closing from agent."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 72,
-          "grade": "C",
-          "summary": "Agent provided thorough explanation of referral requirements and systematically gathered information to diagnose why rewards hadn't been received. Communication was clear and professional, though the transcript appears incomplete with no closing visible.",
-          "coaching_tip": "Ensure the agent name in the greeting matches the actual agent name to avoid customer confusion (introduced as Melissa but system shows Karen Perez).",
-          "website": "Jackpot Daily",
-          "message_count": 28,
-          "raw_transcript": "[10:55:37 AM] t6601375437: Full Name: t6601375437 Email Address: gaberenteria410@gmail.com Subject / How can we help you?: Why haven't I got my reward for referral to my friends who have successfully signed up and deposited on here\n[10:55:37 AM] t6601375437: Full Name: t6601375437 Email Address: gaberenteria410@gmail.com Subject / How can we help you?: Why haven't I got my reward for referral to my friends who have successfully signed up and deposited on here\n[10:56:05 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:56:05 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:56:13 AM] t6601375437: Okay\n[10:56:13 AM] t6601375437: Okay\n[10:56:44 AM] Karen Perez: I get why you’d expect that to come through right away — let’s break it down.\n\nFor the referral reward to trigger, all of these steps need to be fully completed by your friend:\n\nThey signed up using your referral link or code\nThey completed KYC verification\nThey made their first purchase\n\nIf any one of those didn’t fully go through, the reward won’t trigger yet.\n\nA couple of other things to double-check:\n\nThey didn’t already have an account (only new users count)\nThe referral was properly tracked at signup (can’t be added after)\n\nIf everything has been completed and you still didn’t receive the reward, then it may be:\n\nStill processing\nOr needs a manual check on our side\n[10:56:44 AM] Karen Perez: I get why you’d expect that to come through right away — let’s break it down.\n\nFor the referral reward to trigger, all of these steps need to be fully completed by your friend:\n\nThey signed up using your referral link or code\nThey completed KYC verification\nThey made their first purchase\n\nIf any one of those didn’t fully go through, the reward won’t trigger yet.\n\nA couple of other things to double-check:\n\nThey didn’t already have an account (only new users count)\nThe referral was properly tracked at signup (can’t be added after)\n\nIf everything has been completed and you still didn’t receive the reward, then it may be:\n\nStill processing\nOr needs a manual check on our side\n[10:57:53 AM] t6601375437: How long is kyc verification take\n[10:57:53 AM] t6601375437: How long is kyc verification take\n[10:58:26 AM] Karen Perez: Good question.\n\nKYC verification is usually pretty quick — most are completed within a few minutes to up to an hour.\n\nIn some cases, it can take longer if:\n\nThe system needs a manual review\nThere’s a high volume of requests\nAdditional documents (like Proof of Address) are required\n\nIf it’s been a while since you submitted yours, it may be pending review or need a small correction (like the address mismatch you mentioned earlier).\n[10:58:26 AM] Karen Perez: Good question.\n\nKYC verification is usually pretty quick — most are completed within a few minutes to up to an hour.\n\nIn some cases, it can take longer if:\n\nThe system needs a manual review\nThere’s a high volume of requests\nAdditional documents (like Proof of Address) are required\n\nIf it’s been a while since you submitted yours, it may be pending review or need a small correction (like the address mismatch you mentioned earlier).\n[11:01:26 AM] Karen Perez: I was able to review your account. You are fully verified. Did your referrals use the link?\n[11:01:26 AM] Karen Perez: I was able to review your account. You are fully verified. Did your referrals use the link?\n[11:01:48 AM] t6601375437: K⅞\n[11:01:48 AM] t6601375437: K⅞\n[11:02:08 AM] t6601375437: Yeah\n[11:02:08 AM] t6601375437: Yeah\n[11:02:38 AM] Karen Perez: How long ago did they register through the referral link?\n[11:02:38 AM] Karen Perez: How long ago did they register through the referral link?\n[11:03:17 AM] t6601375437: One about 3 hours ago bd the second one about  2 hours ago\n[11:03:17 AM] t6601375437: One about 3 hours ago bd the second one about  2 hours ago\n[11:04:31 AM] Karen Perez: Thanks for the timing — that helps.\n\nIf your referrals completed everything 2–3 hours ago, it’s still within a normal window where rewards might not have hit just yet.\n\nEven though the reward is often instant, it can sometimes take a bit longer if:\n\nTheir KYC is still processing or under review\nThe system is still verifying their first purchase\nThere’s a short delay in syncing the referral tracking\n\nThe reward only triggers once all steps are fully completed and approved, not just submitted.\n\nWhat I’d suggest:\n\nGive it a little more time (it can take a few hours in some cases)\n[11:04:31 AM] Karen Perez: Thanks for the timing — that helps.\n\nIf your referrals completed everything 2–3 hours ago, it’s still within a normal window where rewards might not have hit just yet.\n\nEven though the reward is often instant, it can sometimes take a bit longer if:\n\nTheir KYC is still processing or under review\nThe system is still verifying their first purchase\nThere’s a short delay in syncing the referral tracking\n\nThe reward only triggers once all steps are fully completed and approved, not just submitted.\n\nWhat I’d suggest:\n\nGive it a little more time (it can take a few hours in some cases)\n[11:06:35 AM] Karen Perez: Sorry, are you still there?\n[11:06:35 AM] Karen Perez: Sorry, are you still there?\n[11:08:24 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[11:08:24 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T11:10:14.628Z"
-        },
-        {
-          "chat_id": "2047280581149765632",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-23T12:05:23.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though didn't use customer's name."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Understood the autofill address issue clearly and asked appropriate clarifying question to confirm correct address."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Collected all necessary information, explained the process clearly, and initiated the address update appropriately."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, empathetic, and well-structured responses with good use of formatting and proactive updates during wait times."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed proper verification procedures and collected appropriate documentation without policy violations."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript appears truncated with no visible closing from the agent."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 68,
-          "grade": "D",
-          "summary": "Agent handled the address update request competently, gathering all required information and explaining the process clearly with empathetic communication. The transcript appears incomplete, showing no closing, but the agent demonstrated solid support skills throughout the interaction.",
-          "coaching_tip": "When collecting multiple pieces of information, acknowledge receipt of each item submitted to reassure the customer their information was received correctly.",
-          "website": "Jackpot Daily",
-          "message_count": 38,
-          "raw_transcript": "[11:45:01 AM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[11:45:01 AM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[11:45:25 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:45:25 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:46:12 AM] t2967770497: Okay…\n[11:46:12 AM] t2967770497: Okay…\n[11:46:22 AM] Karen Perez: no worries — that happens more often than you’d think with autofill.\n\nThere’s no self-service option to change your address directly, but we can get it updated for you on our side.\n\nHere’s what we’ll need:\n\nYour current registered email\nYour correct address (the one you want on the account)\nA photo of your government-issued ID\nA quick note explaining the change (autofill error is perfectly fine)\n\nYou can either:\n\nEmail this to support@jackpotdaily.com\nOr share it here and I’ll start the process for you\n\nOnce your address is updated, you’ll be able to resubmit verification and it should go through without any issues.\n\nIf you want, I can also guide you on the best document to use for Proof of Address so it gets approved first try.\n[11:46:22 AM] Karen Perez: no worries — that happens more often than you’d think with autofill.\n\nThere’s no self-service option to change your address directly, but we can get it updated for you on our side.\n\nHere’s what we’ll need:\n\nYour current registered email\nYour correct address (the one you want on the account)\nA photo of your government-issued ID\nA quick note explaining the change (autofill error is perfectly fine)\n\nYou can either:\n\nEmail this to support@jackpotdaily.com\nOr share it here and I’ll start the process for you\n\nOnce your address is updated, you’ll be able to resubmit verification and it should go through without any issues.\n\nIf you want, I can also guide you on the best document to use for Proof of Address so it gets approved first try.\n[11:47:21 AM] t2967770497: Okay my email is tongoblast2@gmail.com\n[11:47:21 AM] t2967770497: Okay my email is tongoblast2@gmail.com\n[11:47:37 AM] t2967770497: my reason is auto fill put in wrong adress\n[11:47:37 AM] t2967770497: my reason is auto fill put in wrong adress\n[11:48:14 AM] t2967770497: image.jpg\n[11:48:14 AM] t2967770497: image.jpg\n[11:48:52 AM] t2967770497: Adress is 700 n Dobson rd #41 chandler az 85224\n[11:48:52 AM] t2967770497: Adress is 700 n Dobson rd #41 chandler az 85224\n[11:49:07 AM] Karen Perez: That is the correct address?\n[11:49:07 AM] Karen Perez: That is the correct address?\n[11:50:11 AM] t2967770497: yes well 700 north Dobson road #41 chandler as 85224\n[11:50:11 AM] t2967770497: yes well 700 north Dobson road #41 chandler as 85224\n[11:50:17 AM] t2967770497: az**\n[11:50:17 AM] t2967770497: az**\n[11:50:56 AM] Karen Perez: Thank you, allow me a few minutes.\n[11:50:56 AM] Karen Perez: Thank you, allow me a few minutes.\n[11:51:06 AM] t2967770497: ok thanks\n[11:51:06 AM] t2967770497: ok thanks\n[11:52:26 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:52:26 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:55:13 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[11:55:13 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[11:59:51 AM] t2967770497: Ok\n[11:59:51 AM] t2967770497: Ok\n[12:01:16 PM] Karen Perez: Thank you for waiting. At this time, we need to wait a few more hours for the system to finish processing so that any updates can be made. Please wait and send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n[12:01:16 PM] Karen Perez: Thank you for waiting. At this time, we need to wait a few more hours for the system to finish processing so that any updates can be made. Please wait and send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n[12:03:14 PM] Karen Perez: Sorry, are you still there?\n[12:03:14 PM] Karen Perez: Sorry, are you still there?\n[12:05:07 PM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:05:07 PM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T12:07:04.302Z"
-        },
-        {
-          "chat_id": "2047546623063273472",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T05:29:38.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name, though name mismatch (Karen Perez/Melissa) is confusing but likely a system issue."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent attempted to understand verification issue but customer explicitly requested account closure and data deletion, which agent did not acknowledge or address."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "Agent failed to process the clear account closure request or escalate to appropriate team, instead focusing only on verification troubleshooting."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Clear and empathetic communication, but missed the primary request for account closure and data removal."
-            },
-            "compliance": {
-              "score": 6,
-              "notes": "Did not properly handle a data deletion request which may have GDPR/privacy compliance implications requiring specific acknowledgment or escalation."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Provided alternative contact method and polite close, though customer's main request was never addressed."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 52,
-          "grade": "F",
-          "summary": "Agent was polite and empathetic but completely missed the customer's primary request for account closure and data deletion, focusing instead on verification troubleshooting. The core issue was never acknowledged or escalated to the appropriate team.",
-          "coaching_tip": "When a customer explicitly requests account closure or data deletion, acknowledge this request immediately and either process it or escalate to the appropriate team, even if there are secondary issues mentioned.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[05:22:11 AM] Customer: Full Name: Tracy Moore Email Address: tleann17@gmail.com Subject / How can we help you?: Please remove all of my information and closest account\n[05:22:11 AM] Customer: Full Name: Tracy Moore Email Address: tleann17@gmail.com Subject / How can we help you?: Please remove all of my information and closest account\n[05:22:35 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:22:35 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:23:00 AM] Customer: I just want all of my information and moved in the account closed thank you have a great day. It's not allowing me to verify anything and I'm tired of fooling with it\n[05:23:00 AM] Customer: I just want all of my information and moved in the account closed thank you have a great day. It's not allowing me to verify anything and I'm tired of fooling with it\n[05:25:10 AM] Karen Perez: I understand it can be frustrating. I'm here to help. Can you please tell me what happened with the verification process?\n[05:25:10 AM] Karen Perez: I understand it can be frustrating. I'm here to help. Can you please tell me what happened with the verification process?\n[05:27:05 AM] Karen Perez: Sorry, are you still there?\n[05:27:05 AM] Karen Perez: Sorry, are you still there?\n[05:29:31 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:29:31 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T05:34:45.365Z"
-        },
-        {
-          "chat_id": "2047565996968685568",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T06:54:00.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Professional greeting with agent name but did not use customer's name or add warmth."
-            },
-            "issue_discovery": {
-              "score": 17,
-              "notes": "Excellent understanding of the login loop issue and proactively explained the root cause with clear technical insight."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Agent gathered necessary information and was working toward resolution, but transcript cuts off before completion so full resolution cannot be assessed."
-            },
-            "communication": {
-              "score": 18,
-              "notes": "Very clear, empathetic explanation of technical issue with excellent reassurance that it wasn't customer error."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations observed; appropriately handled account verification and email change request."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript truncated before closing, so no closing can be evaluated."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 69,
-          "grade": "D",
-          "summary": "Agent demonstrated strong technical understanding and communication skills, clearly explaining the login sync issue and gathering appropriate information. Transcript cuts off mid-resolution, preventing assessment of final outcome and closing.",
-          "coaching_tip": "When asking for account details, acknowledge the customer's additional request (email change) immediately to show you've noted it, rather than waiting until after account lookup.",
-          "website": "Jackpot Daily",
-          "message_count": 36,
-          "raw_transcript": "[06:39:10 AM] Customer: Full Name: Andrea Moak Email Address: hollowcrow1147@gmail.com Subject / How can we help you?: My cell phone is used on my account and I can't sign in. What's going on??\n[06:39:10 AM] Customer: Full Name: Andrea Moak Email Address: hollowcrow1147@gmail.com Subject / How can we help you?: My cell phone is used on my account and I can't sign in. What's going on??\n[06:39:38 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[06:39:38 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[06:40:34 AM] Customer: Everytime I try to sign in it keeps jumping back n forth between Facebook sign in and open an account. When I put in my cell number it says it's already in use. What is going on?\n[06:40:34 AM] Customer: Everytime I try to sign in it keeps jumping back n forth between Facebook sign in and open an account. When I put in my cell number it says it's already in use. What is going on?\n[06:41:32 AM] Karen Perez: I hear you — that back-and-forth loop is super frustrating, and I can see why it feels like you’re stuck.\n\nWhat’s happening here is almost certainly this:\n\nYour account already exists (that’s why your phone number is “already in use”)\nBut your Facebook login isn’t properly linking to that existing account\nSo the system keeps sending you to registration instead of logging you in\n\nIt’s basically a login sync issue, not something you’re doing wrong.\n\nUnfortunately, this isn’t something you can fix from your side once it’s in that loop — it needs to be corrected on our end.\n\nI can get this resolved for you. Just send me:\n\nYour registered email\nYour phone number (last 4 digits is fine if you prefer)\nThe name on the account\n\nI’ll locate your account and fix the login method so you can sign in normally without being pushed back into registration.\n[06:41:32 AM] Karen Perez: I hear you — that back-and-forth loop is super frustrating, and I can see why it feels like you’re stuck.\n\nWhat’s happening here is almost certainly this:\n\nYour account already exists (that’s why your phone number is “already in use”)\nBut your Facebook login isn’t properly linking to that existing account\nSo the system keeps sending you to registration instead of logging you in\n\nIt’s basically a login sync issue, not something you’re doing wrong.\n\nUnfortunately, this isn’t something you can fix from your side once it’s in that loop — it needs to be corrected on our end.\n\nI can get this resolved for you. Just send me:\n\nYour registered email\nYour phone number (last 4 digits is fine if you prefer)\nThe name on the account\n\nI’ll locate your account and fix the login method so you can sign in normally without being pushed back into registration.\n[06:42:50 AM] Customer: Ok\n[06:42:50 AM] Customer: Ok\n[06:42:57 AM] Customer: Andrea Moak\n[06:42:57 AM] Customer: Andrea Moak\n[06:43:02 AM] Customer: 409-571-0109\n[06:43:02 AM] Customer: 409-571-0109\n[06:43:08 AM] Customer: Hollowcrow1147@gmail.com\n[06:43:08 AM] Customer: Hollowcrow1147@gmail.com\n[06:43:26 AM] Customer: I want to use my new email address.....boomcomm1xyz@gmail.com\n[06:43:26 AM] Customer: I want to use my new email address.....boomcomm1xyz@gmail.com\n[06:44:09 AM] Karen Perez: Thank you for that information. Bear with me for just a moment while I take a look at your account!\n[06:44:09 AM] Karen Perez: Thank you for that information. Bear with me for just a moment while I take a look at your account!\n[06:44:20 AM] Customer: Thank you\n[06:44:20 AM] Customer: Thank you\n[06:46:09 AM] Customer: Ok\n[06:46:09 AM] Customer: Ok\n[06:46:19 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:46:19 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:05 AM] Karen Perez: Thank you for your patience!\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[06:50:05 AM] Karen Perez: Thank you for your patience!\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[06:50:50 AM] Customer: What does that mean? You aren't fixing it now?\n[06:50:50 AM] Customer: What does that mean? You aren't fixing it now?\n[06:52:18 AM] Karen Perez: We are working to fix this. In the meantime we ask for your patience and to wait patiently for a few hours.,\n[06:52:18 AM] Karen Perez: We are working to fix this. In the meantime we ask for your patience and to wait patiently for a few hours.,\n[06:52:34 AM] Customer: Ok great. Thank s for nothing . Adios. You will lose many customers because this is stupid.\n[06:52:34 AM] Customer: Ok great. Thank s for nothing . Adios. You will lose many customers because this is stupid.\n[06:53:47 AM] Karen Perez: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[06:53:47 AM] Karen Perez: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T06:54:45.870Z"
-        },
-        {
-          "chat_id": "2047577788503601152",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T07:30:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to assist, though could have personalized with customer name."
-            },
-            "issue_discovery": {
-              "score": 5,
-              "notes": "Agent did not ask any clarifying questions about the gold egg issue or verification steps before customer went silent."
-            },
-            "resolution": {
-              "score": 8,
-              "notes": "No resolution attempted due to customer non-response, but agent appropriately offered email alternative for follow-up."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and professional communication, though agent could have acknowledged the specific issue before waiting for response."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and appropriately directed customer to official support channel."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Professional closing with clear next steps and alternative contact method provided."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 48,
-          "grade": "F",
-          "summary": "Agent provided professional service but customer became unresponsive immediately after the greeting. The agent appropriately waited and then closed the chat with alternative contact information, though could have acknowledged the specific gold egg issue in the initial response.",
-          "coaching_tip": "After greeting, immediately acknowledge the customer's specific issue before waiting for response to show you've read their concern and are prepared to help.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[07:26:01 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[07:26:01 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[07:27:18 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[07:27:18 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[07:28:32 AM] Karen Perez: Sorry, are you still there?\n[07:28:32 AM] Karen Perez: Sorry, are you still there?\n[07:30:21 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:30:21 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T07:35:01.009Z"
-        },
-        {
-          "chat_id": "2047587177808740352",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T08:09:40.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to help, though fairly standard."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the referral bonus issue and proactively explained all requirements without needing to ask clarifying questions."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided comprehensive explanation of referral requirements and identified likely cause (KYC pending), though couldn't fully resolve without customer response."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, empathetic opening, well-structured bullet points made complex requirements easy to understand."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, explained requirements accurately without making unauthorized promises."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Polite closure with alternative contact method provided after reasonable wait time for response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 76,
-          "grade": "C",
-          "summary": "Agent provided a thorough, well-organized explanation of referral bonus requirements and identified the most likely cause of the delay. Communication was clear and professional throughout, with appropriate follow-up attempts before closing.",
-          "coaching_tip": "Consider asking one confirming question about the boyfriend's KYC status before providing the full explanation to make the interaction more conversational and targeted.",
-          "website": "Jackpot Daily",
-          "message_count": 12,
-          "raw_transcript": "[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T08:14:42.926Z"
-        },
-        {
-          "chat_id": "2047594973821186048",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T09:06:01.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to assist, though used wrong name (Melissa vs Karen)."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the login method mismatch issue well and asked clarifying questions about alternative login methods."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided clear troubleshooting steps with password reset and alternative login methods, appropriately addressing the likely cause."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic, and well-structured responses with step-by-step instructions, though somewhat lengthy."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately reassured customer about funds without making unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript appears truncated with no visible closing from agent."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 69,
-          "grade": "D",
-          "summary": "Agent demonstrated solid technical understanding of the login issue and provided appropriate troubleshooting steps with empathy. Communication was clear and structured, though the agent introduced themselves with an incorrect name and the transcript shows no proper closing.",
-          "coaching_tip": "Ensure your name matches your system profile (introduced as Melissa but profile shows Karen) to maintain credibility and avoid customer confusion.",
-          "website": "Jackpot Daily",
-          "message_count": 80,
-          "raw_transcript": "[08:34:18 AM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Um I thought I signed through my Facebook but it shows nothing when I try to log in with Facebook...... I have money on my account and my phone screen went to sleep and I can't find it since\n[08:34:18 AM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Um I thought I signed through my Facebook but it shows nothing when I try to log in with Facebook...... I have money on my account and my phone screen went to sleep and I can't find it since\n[08:34:47 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[08:34:47 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[08:34:55 AM] Customer: Hi\n[08:34:55 AM] Customer: Hi\n[08:35:20 AM] Customer: I deposited 9.99 and my bonus was $30 sc\n[08:35:20 AM] Customer: I deposited 9.99 and my bonus was $30 sc\n[08:35:52 AM] Customer: I had more than they when my screen went to sleep though\n[08:35:52 AM] Customer: I had more than they when my screen went to sleep though\n[08:36:00 AM] Customer: That\n[08:36:00 AM] Customer: That\n[08:36:01 AM] Karen Perez: I understand — that’s stressful, especially if you had money on the account.\n\nWhat’s happening here is very likely a login method mismatch, not that your account is gone.\n\nBased on what you described:\n\nYour account does exist (since you had a balance)\nBut it may not actually be linked to Facebook, or the link didn’t complete properly\nSo when you try Facebook login, it shows nothing or starts a new account instead\n\nLet’s try to recover it:\n\nStep 1 — Try email login\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you may have used (including the one linked to your Facebook)\n\nIf it lets you reset, that means your account is tied to email/password, not Facebook.\n\nStep 2 — Think of any other login method\n\nDid you possibly use Apple, Google, or email instead of Facebook?\nSometimes it defaults differently during signup\n[08:36:01 AM] Karen Perez: I understand — that’s stressful, especially if you had money on the account.\n\nWhat’s happening here is very likely a login method mismatch, not that your account is gone.\n\nBased on what you described:\n\nYour account does exist (since you had a balance)\nBut it may not actually be linked to Facebook, or the link didn’t complete properly\nSo when you try Facebook login, it shows nothing or starts a new account instead\n\nLet’s try to recover it:\n\nStep 1 — Try email login\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you may have used (including the one linked to your Facebook)\n\nIf it lets you reset, that means your account is tied to email/password, not Facebook.\n\nStep 2 — Think of any other login method\n\nDid you possibly use Apple, Google, or email instead of Facebook?\nSometimes it defaults differently during signup\n[08:36:35 AM] Customer: I was verified and everything\n[08:36:35 AM] Customer: I was verified and everything\n[08:37:20 AM] Customer: Only Google or Facebook\n[08:37:20 AM] Customer: Only Google or Facebook\n[08:37:34 AM] Karen Perez: The good news is: your funds and SC don’t disappear just because your screen went to sleep. This is almost definitely a login/access issue, not a loss of balance.\n\nWhat likely happened:\n\nYour session timed out when your phone went to sleep\nNow you’re trying to log back in with Facebook, but the account may not actually be linked properly\nSo it looks like your account is “missing,” when it’s really just not being accessed correctly\n\nYour balance (including the deposit and bonus SC) should still be on the original account.\n\nLet’s recover it:\n\nTry this first:\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you might’ve used (including your Facebook email)\n\nIf it works, log in with email + password instead of Facebook.\n[08:37:34 AM] Karen Perez: The good news is: your funds and SC don’t disappear just because your screen went to sleep. This is almost definitely a login/access issue, not a loss of balance.\n\nWhat likely happened:\n\nYour session timed out when your phone went to sleep\nNow you’re trying to log back in with Facebook, but the account may not actually be linked properly\nSo it looks like your account is “missing,” when it’s really just not being accessed correctly\n\nYour balance (including the deposit and bonus SC) should still be on the original account.\n\nLet’s recover it:\n\nTry this first:\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you might’ve used (including your Facebook email)\n\nIf it works, log in with email + password instead of Facebook.\n[08:38:29 AM] Customer: I did try\n[08:38:29 AM] Customer: I did try\n[08:38:39 AM] Customer: Still can't find it\n[08:38:39 AM] Customer: Still can't find it\n[08:39:15 AM] Customer: Can you help with my first and last name\n[08:39:15 AM] Customer: Can you help with my first and last name\n[08:39:32 AM] Customer: Social\n[08:39:32 AM] Customer: Social\n[08:39:40 AM] Customer: Anything\n[08:39:40 AM] Customer: Anything\n[08:40:21 AM] Karen Perez: I'm sorry, can you please clarify more?\n[08:40:21 AM] Karen Perez: I'm sorry, can you please clarify more?\n[08:40:48 AM] Customer: What about by my id then can't you find my email?\n[08:40:48 AM] Customer: What about by my id then can't you find my email?\n[08:42:01 AM] Karen Perez: I already found your account. Have you tried the steps I sent?\n[08:42:01 AM] Karen Perez: I already found your account. Have you tried the steps I sent?\n[08:42:08 AM] Customer: Yes\n[08:42:08 AM] Customer: Yes\n[08:43:05 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[08:43:05 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[08:43:21 AM] Customer: What email did I use......ok thank you\n[08:43:21 AM] Customer: What email did I use......ok thank you\n[08:43:39 AM] Karen Perez: mnsweetheartf49@gmail.com\n[08:43:39 AM] Karen Perez: mnsweetheartf49@gmail.com\n[08:44:05 AM] Customer: Omg that is the only one I am having trouble accessing\n[08:44:05 AM] Customer: Omg that is the only one I am having trouble accessing\n[08:44:30 AM] Customer: But that is my Facebook email\n[08:44:30 AM] Customer: But that is my Facebook email\n[08:45:01 AM] Karen Perez: That would be the email on your account\n[08:45:01 AM] Karen Perez: That would be the email on your account\n[08:45:12 AM] Customer: Can I change it?\n[08:45:12 AM] Customer: Can I change it?\n[08:45:20 AM] Karen Perez: Are you able to send a screenshot of the issue?\n[08:45:20 AM] Karen Perez: Are you able to send a screenshot of the issue?\n[08:45:42 AM] Customer: I hit the login with Facebook and it sends me right to the registration page and I've already registered and been verified\n[08:45:42 AM] Customer: I hit the login with Facebook and it sends me right to the registration page and I've already registered and been verified\n[08:45:57 AM] Customer: I must have tried that 10 times\n[08:45:57 AM] Customer: I must have tried that 10 times\n[08:47:23 AM] Karen Perez: Please allow me one moment to look into this for you!\n[08:47:23 AM] Karen Perez: Please allow me one moment to look into this for you!\n[08:48:00 AM] Customer: Ok\n[08:48:00 AM] Customer: Ok\n[08:50:23 AM] Karen Perez: We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. \n\nPlease be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[08:50:23 AM] Karen Perez: We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. \n\nPlease be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[08:50:57 AM] Customer: I wanna change my email\n[08:50:57 AM] Customer: I wanna change my email\n[08:51:26 AM] Customer: Please\n[08:51:26 AM] Customer: Please\n[08:52:06 AM] Karen Perez: Let me confirm if we are able to do it.\n[08:52:06 AM] Karen Perez: Let me confirm if we are able to do it.\n[08:52:14 AM] Customer: Ok\n[08:52:14 AM] Customer: Ok\n[08:55:22 AM] Customer: Well if you can I'd like it to be\n[08:55:22 AM] Customer: Well if you can I'd like it to be\n[08:55:28 AM] Customer: kindofabigdeal2020@gmail.com\n[08:55:28 AM] Customer: kindofabigdeal2020@gmail.com\n[09:00:35 AM] Customer: Well???\n[09:00:35 AM] Customer: Well???\n[09:03:56 AM] Karen Perez: I apologize for the delay; my system froze a little. It would be best to request the change to our team via email at support@jackpotdaily.com since I'm unable to do it.\n[09:03:56 AM] Karen Perez: I apologize for the delay; my system froze a little. It would be best to request the change to our team via email at support@jackpotdaily.com since I'm unable to do it.",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T09:09:45.369Z"
-        },
-        {
-          "chat_id": "2047603613553868800",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T09:30:58.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with willingness to help, though no personalization by customer name."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Agent initially misdiagnosed the issue as an address problem without asking clarifying questions about the actual delay."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Eventually provided a timeframe (48 hours) but gave conflicting information first about address issues, causing customer confusion."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear language but inconsistent messaging created confusion; good empathy shown at the end but after customer expressed frustration."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No major violations; stayed within policy boundaries and set appropriate expectations about processing time."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Asked if anything else was needed but transcript appears cut off before proper closure after customer's final concern."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent provided conflicting information initially by suggesting an address issue when the real answer was simply to wait for standard processing time. Communication improved after customer pushback, but the initial misdiagnosis undermined confidence and required correction.",
-          "coaching_tip": "Before providing a solution, verify the actual cause of the delay rather than assuming—ask clarifying questions first to avoid giving incorrect information that must later be walked back.",
-          "website": "Jackpot Daily",
-          "message_count": 34,
-          "raw_transcript": "[09:08:38 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: Any idea why all of my other redemption have been processed in a few hrs and my current one has been pending for 24hrs ?\n[09:08:38 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: Any idea why all of my other redemption have been processed in a few hrs and my current one has been pending for 24hrs ?\n[09:10:06 AM] Karen Perez: Hello!  I’ve looked into your recent redemption request, and I’m happy to help you get this sorted.\n\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n\n• Character Limit: Keep this information within the 50-character limit.\n\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you\n[09:10:06 AM] Karen Perez: Hello!  I’ve looked into your recent redemption request, and I’m happy to help you get this sorted.\n\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n\n• Character Limit: Keep this information within the 50-character limit.\n\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you\n[09:12:38 AM] Karen Perez: Sorry, are you still there?\n[09:12:38 AM] Karen Perez: Sorry, are you still there?\n[09:13:31 AM] t1110271063: I’ve redeemed many times so that makes no sense\n[09:13:31 AM] t1110271063: I’ve redeemed many times so that makes no sense\n[09:14:22 AM] Karen Perez: This is a current issue; we appreciate your patience while we resolve this.\n[09:14:22 AM] Karen Perez: This is a current issue; we appreciate your patience while we resolve this.\n[09:14:28 AM] t1110271063: My redemption is pending for 24 hrs every other redemption has been processed in like 3 hrs\n[09:14:28 AM] t1110271063: My redemption is pending for 24 hrs every other redemption has been processed in like 3 hrs\n[09:17:00 AM] Karen Perez: Please wait 48 hours so can we resolve this.\n[09:17:00 AM] Karen Perez: Please wait 48 hours so can we resolve this.\n[09:17:14 AM] Karen Perez: Is there anything else I can do for you today?\n[09:17:14 AM] Karen Perez: Is there anything else I can do for you today?\n[09:17:46 AM] t1110271063: It’s quiet discouraging considering the large amount of referrals I have brought to this site that have spent a ton of money here\n[09:17:46 AM] t1110271063: It’s quiet discouraging considering the large amount of referrals I have brought to this site that have spent a ton of money here\n[09:19:50 AM] Karen Perez: I completely understand why that feels discouraging — especially with the effort you’ve put into referring others. That’s valuable, and it shouldn’t feel like you’re being left in the dark on something like a redemption.\n\nWhat you’re experiencing doesn’t mean anything is wrong with your payout — it’s still within the normal processing window — but I agree the inconsistency compared to your previous faster redemptions can feel off.\n\nSometimes when accounts have:\n\nHigher activity (like referrals or increased transactions)\nLarger or more frequent redemptions\n\n…it can trigger an extra review step, which slows things down a bit. It’s a standard check, not a penalty — but I get that it doesn’t feel great from your side.\n[09:19:50 AM] Karen Perez: I completely understand why that feels discouraging — especially with the effort you’ve put into referring others. That’s valuable, and it shouldn’t feel like you’re being left in the dark on something like a redemption.\n\nWhat you’re experiencing doesn’t mean anything is wrong with your payout — it’s still within the normal processing window — but I agree the inconsistency compared to your previous faster redemptions can feel off.\n\nSometimes when accounts have:\n\nHigher activity (like referrals or increased transactions)\nLarger or more frequent redemptions\n\n…it can trigger an extra review step, which slows things down a bit. It’s a standard check, not a penalty — but I get that it doesn’t feel great from your side.\n[09:22:23 AM] Karen Perez: Sorry, are you still there?\n[09:22:23 AM] Karen Perez: Sorry, are you still there?\n[09:23:43 AM] t1110271063: I would just really like to get my redemption before the weekend 😩 I redeemed a smaller amount to hopefully avoid a delay\n[09:23:43 AM] t1110271063: I would just really like to get my redemption before the weekend 😩 I redeemed a smaller amount to hopefully avoid a delay\n[09:24:46 AM] Karen Perez: I completely get that — especially trying to get it in before the weekend, that makes sense.\nRedeeming a smaller amount was actually a smart move, and in many cases those do process faster — but timing can still vary if the request gets picked up for a quick review.\nRight now, since it’s been about 24 hours:\n\n\nIt’s still within the normal window (up to 1–3 business days)\n\n\nIf it’s already in progress, there’s a good chance it could still clear before the weekend\n\n\nWhat I can do on my side is check if it’s:\n\n\nAlready approved and just pending payout\n\n\nSitting in review\n\n\nOr queued for processing\n\n\nIf you want the best shot at getting a clear answer (and possibly nudging it along if needed), send me your registered email and I’ll take a closer look right away.\nI’ll be straight with you on where it stands so you’re not just waiting and hoping.\n[09:24:46 AM] Karen Perez: I completely get that — especially trying to get it in before the weekend, that makes sense.\nRedeeming a smaller amount was actually a smart move, and in many cases those do process faster — but timing can still vary if the request gets picked up for a quick review.\nRight now, since it’s been about 24 hours:\n\n\nIt’s still within the normal window (up to 1–3 business days)\n\n\nIf it’s already in progress, there’s a good chance it could still clear before the weekend\n\n\nWhat I can do on my side is check if it’s:\n\n\nAlready approved and just pending payout\n\n\nSitting in review\n\n\nOr queued for processing\n\n\nIf you want the best shot at getting a clear answer (and possibly nudging it along if needed), send me your registered email and I’ll take a closer look right away.\nI’ll be straight with you on where it stands so you’re not just waiting and hoping.\n[09:26:54 AM] Karen Perez: Sorry, are you still there?\n[09:26:54 AM] Karen Perez: Sorry, are you still there?\n[09:27:51 AM] t1110271063: Brittanicarrasco98@gmail.com\n[09:27:51 AM] t1110271063: Brittanicarrasco98@gmail.com\n[09:28:36 AM] Karen Perez: Yes?\n[09:28:36 AM] Karen Perez: Yes?\n[09:30:43 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[09:30:43 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T09:34:41.025Z"
-        },
-        {
-          "chat_id": "2047609960267083776",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T09:40:30.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting whatsoever, agent jumped straight to response without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 10,
-              "notes": "Agent did not ask any clarifying questions about the redemption status, timeframe concerns, or verify account details."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent provided minimal guidance to wait for timeframe but offered no specifics, status update, or helpful information about the redemption."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Responses were terse and lacked empathy or explanation, failing to address customer's concern about nudging the process along."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected, agent appropriately did not make unauthorized promises."
-            },
-            "closing": {
-              "score": 2,
-              "notes": "No proper closing, no offer of further assistance, chat ended abruptly after customer's acknowledgment."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 44,
-          "grade": "F",
-          "summary": "Agent provided minimal service with no greeting, poor communication, and abrupt handling. The customer's request to expedite or check on their redemption was dismissed without explanation or helpful information.",
-          "coaching_tip": "Always open with a proper greeting, acknowledge the customer's concern specifically, and provide context or timeframe details rather than just telling them to wait.",
-          "website": "Jackpot Daily",
-          "message_count": 8,
-          "raw_transcript": "[09:33:51 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: You said to give you my email to possibly nudge along my redemption\n[09:33:51 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: You said to give you my email to possibly nudge along my redemption\n[09:36:06 AM] Karen Perez: Yes, thank you. Please wait for the timeframe previously given\n[09:36:06 AM] Karen Perez: Yes, thank you. Please wait for the timeframe previously given\n[09:38:42 AM] Karen Perez: Sorry, are you still there?\n[09:38:42 AM] Karen Perez: Sorry, are you still there?\n[09:40:20 AM] t1110271063: Ok\n[09:40:20 AM] t1110271063: Ok",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T09:44:44.756Z"
-        },
-        {
-          "chat_id": "2047629491149656064",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T10:55:51.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to assist, though no personalization with customer name."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the free play request and proactively offered to investigate if a specific reward was missing."
-            },
-            "resolution": {
-              "score": 22,
-              "notes": "Provided comprehensive information about all available free play options and offered to investigate further if needed."
-            },
-            "communication": {
-              "score": 17,
-              "notes": "Clear, empathetic tone with well-organized information and appropriate follow-up when customer went silent."
-            },
-            "compliance": {
-              "score": 9,
-              "notes": "Correctly explained that free play cannot be manually added on request and outlined legitimate earning methods."
-            },
-            "closing": {
-              "score": 8,
-              "notes": "Professional closure with alternative contact method provided and invitation to reach out again."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 79,
-          "grade": "C",
-          "summary": "Agent handled a free play request professionally by explaining all legitimate options and offering to investigate any missing rewards. Communication was clear and empathetic with appropriate follow-up and closure when customer became unresponsive.",
-          "coaching_tip": "Consider asking a clarifying question earlier to determine if the customer was expecting a specific promotion or just inquiring generally about free play options.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[10:51:28 AM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Free play\n[10:51:28 AM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Free play\n[10:52:09 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:52:09 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:52:54 AM] Karen Perez: I get it — always nice to have some free play.\n\nWe don’t have a way to manually add free play or SC on request, but there are a few ways you can still get some without depositing:\n\nDaily Login Rewards\nWelcome rewards (like the Golden Egg, if still available)\nReferral bonuses\nPromotions via email or social channels\nPostal Request (AMOE) — no purchase required\n\nIf you were expecting a specific reward or something that didn’t credit properly, that’s something I can definitely check for you.\n\nJust let me know and I’ll take a look.\n[10:52:54 AM] Karen Perez: I get it — always nice to have some free play.\n\nWe don’t have a way to manually add free play or SC on request, but there are a few ways you can still get some without depositing:\n\nDaily Login Rewards\nWelcome rewards (like the Golden Egg, if still available)\nReferral bonuses\nPromotions via email or social channels\nPostal Request (AMOE) — no purchase required\n\nIf you were expecting a specific reward or something that didn’t credit properly, that’s something I can definitely check for you.\n\nJust let me know and I’ll take a look.\n[10:54:10 AM] Karen Perez: Sorry, are you still there?\n[10:54:10 AM] Karen Perez: Sorry, are you still there?\n[10:55:47 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:55:47 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T10:59:40.784Z"
-        },
-        {
-          "chat_id": "2047632741616103424",
-          "agent_name": "Karen Perez",
-          "agent_id": "5846",
-          "timestamp": "2026-04-24T11:21:07.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with agent name and offer to assist, though slightly generic."
-            },
-            "issue_discovery": {
-              "score": 15,
-              "notes": "Agent understood the missing Golden Egg issue and asked clarifying questions including screenshot request and timeline."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Agent explained the promotion mechanics but didn't actually resolve whether customer received it or provide a remedy for the missing reward."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear, empathetic communication with good explanations, though the final response pivoted to explaining rather than resolving."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made throughout the interaction."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript cuts off mid-response with no closing provided in the visible portion."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 62,
-          "grade": "D",
-          "summary": "Agent provided professional service with empathetic communication and good initial investigation into the missing Golden Egg promotion. However, the resolution shifted from checking/fixing the issue to simply explaining how the promotion works, without confirming whether the customer actually received it or offering a concrete solution.",
-          "coaching_tip": "After investigating an account issue, always circle back with specific findings about the customer's account status and a clear next step or resolution, rather than pivoting to general promotional explanations.",
-          "website": "Jackpot Daily",
-          "message_count": 40,
-          "raw_transcript": "[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:12 AM] t2673526652: After verification\n[11:06:12 AM] t2673526652: After verification\n[11:06:49 AM] t2673526652: Kk\n[11:06:49 AM] t2673526652: Kk\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:56 AM] t2673526652: Ok\n[11:12:56 AM] t2673526652: Ok\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-24T11:24:54.349Z"
-        }
-      ],
-      "avg_score": 65,
-      "grade": "D",
-      "trend": 0
-    },
-    {
       "id": "5801",
       "name": "Andrea Rodriguez",
       "chats": [
@@ -2288,6 +1649,690 @@
       "avg_score": 64,
       "grade": "D",
       "trend": 4
+    },
+    {
+      "id": "5846",
+      "name": "Karen Perez",
+      "chats": [
+        {
+          "chat_id": "2045105114267090944",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-17T11:52:20.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with name introduction and offer to help, though slightly generic."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the daily coins question and connected it to previous account issues, showing good context awareness."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive troubleshooting steps covering location settings, verification wait, and escalation template, though resolution depends on customer action."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and detailed with good structure using bullets and emojis, though extremely lengthy responses may overwhelm some customers."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately set expectations about daily bonuses not being guaranteed and account restrictions."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Gave reasonable wait time with follow-ups before closing, included friendly sign-off and well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent provided thorough technical troubleshooting for daily coins issue with detailed step-by-step instructions and appropriate context from previous account problems. Communication was professional and comprehensive, though very lengthy, and properly managed customer expectations about account restrictions.",
+          "coaching_tip": "Consider breaking up extremely long responses into smaller chunks with pauses to check customer understanding, as walls of text can be overwhelming and may cause customers to disengage.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[11:40:30 AM] t4089908191: Full Name: t4089908191 Email Address: chewy88401@gmail.com Subject / How can we help you?: Free coins\n[11:40:51 AM] Karen Perez: Hi! \nMy name is Karen. What can I do for you today?\n[11:42:05 AM] Karen Perez: Are you still there?\n[11:42:31 AM] t4089908191: Do you guys give daily free coins?\n[11:43:29 AM] Karen Perez: Yes — most platforms like this DO offer daily free coins, but there are a few important catches.\n\n How daily free coins usually work\nYou get a daily login bonus just for signing in\nIt can include:\nGold Coins (GC)\nSometimes a small amount of SC\nUsually available every 24 hours\n\n On many sites, you just:\n\nLog in\nClick a button (or pop-up)\nClaim it\n What you should expect\nDaily rewards are usually small\nExample: ~0.25 SC to 1 SC per day on many platforms\nSome days you may get only GC and no SC\nSome sites use:\nA wheel spin\nA bonus chest\nOr streak rewards\n Why YOU might not be getting it\n\nBased on everything you’ve been dealing with:\n\n If your account has issues (which yours clearly does), it can block:\n\nDaily bonus\nWelcome bonus\nGame access\n\nEspecially if:\n\nLocation isn’t detected\nVerification isn’t fully synced\nAccount is partially restricted\n Important truth\nDaily bonuses are not guaranteed to include SC every day\nAnd if your account is glitched:\n You may get nothing at all until it’s fixed\n Real talk\n\nYes — you should be getting daily coins\n\nBut in your case:\n The reason you’re not is likely the same backend/account issue causing everything else\n[11:45:30 AM] t4089908191: How do I fix that\n[11:46:55 AM] Karen Perez: You don’t “fix” this in one click — your account has a few things blocking it, and they all tie together. I’ll give you the exact steps that actually matter.\n\n Step 1: Fix location (this is critical)\n\nIf location isn’t detected, nothing else will work (games, daily bonus, redeem)\n\nOn your iPad:\n\nSettings → Privacy & Security → Location Services → ON\nTap Safari Websites (or Chrome)\nSet to Allow While Using App\nTurn Precise Location ON\n\nThen:\n\nGo to Settings → Safari → Location → set to Ask\nReopen the site and tap Allow\n\nAlso:\n\nTurn OFF iCloud Private Relay\nDon’t use private/incognito mode\n Step 2: Wait for verification to fully complete\n\nIf it still says:\n\n“In process”\n\n You will NOT get:\n\nDaily bonus\nWelcome bonus\nRedemption\n\nYou have to wait until it says fully verified/approved\n\n Step 3: Check after verification finishes\n\nOnce approved:\n\nLog out\nClear Safari data\nLog back in\n\nThen check:\n\nDaily bonus button\nGolden Egg / rewards\nGame access\n If it STILL doesn’t work\n\nThen it’s not your settings — it’s your account stuck on their side\n\nAt that point, you need a reset:\n\nHello,\n\nMy account is not receiving daily bonuses and my device location was not being detected.\n\nI have now enabled all location permissions and completed verification, but I am still unable to claim rewards or fully use my account.\n\nPlease reset and review my account so that daily bonuses and features work correctly.\n\nThank you.\n\n Straight answer\nMost people → daily bonus works automatically\nYou → account is partially blocked, so it doesn’t\n\nFix location + wait for verification\nIf that doesn’t fix it → they have to manually reset your account\n[11:50:09 AM] Karen Perez: Are you still there?\n[11:52:13 AM] Karen Perez: Since there is no response, I'll need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:53:53.687Z"
+        },
+        {
+          "chat_id": "2045102840119656448",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-17T11:38:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with name and offer to assist, but minimal warmth or personalization."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent accurately understood the customer's frustration about being blocked from withdrawal and subsequent losses."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided honest explanation, managed expectations clearly, and gave actionable guidance with a template email for proper escalation."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic, and well-structured response with helpful framing advice, though quite lengthy."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No unauthorized promises made, properly explained limitations, and directed to appropriate support channel."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Checked for continued engagement and closed professionally with well-wishes, though slightly formulaic."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 75,
+          "grade": "C",
+          "summary": "Agent demonstrated strong understanding of the customer's frustration and provided honest, helpful guidance without making unauthorized promises. The response was empathetic and actionable, directing the customer to escalate appropriately while managing expectations about played funds.",
+          "coaching_tip": "Consider condensing lengthy explanations into more digestible chunks to maintain customer engagement and prevent information overload.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[11:31:27 AM] t3056351078: Full Name: t3056351078 Email Address: rickytreeman1976@gmail.com Subject / How can we help you?: Just seems so amazing how I wanted to cash out a few hours ago but for some reason couldn't, and now of course that money was lost playing. People sign up for these sites with somewhat confidence that everything will run smoothly. So far that has not been the case. I'm really not a complainer but it's just irritating\n[11:32:10 AM] Karen Perez: Hi! \nMy name is Karen. I will be assisting you with your request.\n[11:32:34 AM] t3056351078: I really don't have a request I'm just pointing out my frustration\n[11:34:13 AM] Karen Perez: I get why that bothers you. You had a balance you wanted to redeem, something blocked you, and then continuing to play led to losses. That’s a frustrating spot to be in.\n\nHere’s the straight reality of how these platforms work:\n\n What happened (most likely)\nYou tried to redeem\nYour account still had a block (name error/verification / location / playthrough)\nBecause of that, redemption wasn’t possible at that moment\nYou kept playing → balance changed based on game results\n\n The system didn’t force you to keep playing, but it also didn’t clearly stop you, which is where the frustration comes from\n\n Important point\n\nOnce funds are played:\n\nThey are considered used in gameplay\nThey typically can’t be restored or reversed\n\nI know that’s not what you want to hear, but I don’t want to mislead you.\n\n Where you do have a valid complaint\n\nYour issue isn’t just losses — it’s that:\n\nYou were unable to redeem when you tried\nDue to account/system issues that weren’t fixed in time\n\n That’s the part you should focus on when you contact support at support@jackpotdaily.com\n\n How to frame it (this matters)\n\nDon’t focus on “I lost money playing”\nFocus on:\n\n“I attempted to redeem and was blocked due to errors”\n\nHere’s a message that reflects that:\n\nHello,\n\nI attempted to redeem my balance earlier but was unable to due to account errors (including name validation and other issues I previously reported).\n\nBecause of this, I was unable to cash out when I intended to.\n\nThis situation is very frustrating, as I tried to redeem before continuing gameplay but was prevented from doing so due to unresolved issues on my account.\n\nPlease review my account and advise on what can be done regarding this situation, as well as resolve the ongoing redemption issues.\n\nThank you.\n\n Real talk\nYou’re not wrong to expect things to work smoothly\nAnd you did try to do the right thing by redeeming first\nBut the system blocked you at the wrong time\n\nThat’s where your leverage is — not the loss itself, but being prevented from redeeming\n[11:36:40 AM] Karen Perez: Are you still there?\n[11:38:25 AM] Karen Perez: Since there is no response, I'll need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:54:37.371Z"
+        },
+        {
+          "chat_id": "2045097653980983296",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-17T11:11:57.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to help, though could be slightly warmer."
+            },
+            "issue_discovery": {
+              "score": 12,
+              "notes": "Agent asked what they can help with, but customer's incomplete message 'assis' wasn't acknowledged or clarified."
+            },
+            "resolution": {
+              "score": 18,
+              "notes": "No resolution possible yet as conversation just started and customer hasn't fully stated their issue."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional communication, appropriately brief for an opening exchange."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance issues observed in this brief interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Not applicable as conversation is ongoing and just beginning."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent provided a competent professional greeting and opened the conversation appropriately. The interaction is too brief to evaluate most categories as the customer hasn't yet fully stated their issue.",
+          "coaching_tip": "When a customer's initial message appears incomplete or cut off (like 'assis'), proactively acknowledge it and invite them to complete their thought to accelerate issue discovery.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[11:10:51 AM] Customer: Full Name: hello Email Address: johnsmith@gmail.com Subject / How can we help you?: assis\n[11:11:34 AM] Karen Perez: Hi! \nMy name is Karen. What can I do for you today?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:55:38.818Z"
+        },
+        {
+          "chat_id": "2047268147245182976",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-23T11:08:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though used wrong name (Melissa vs Karen)."
+            },
+            "issue_discovery": {
+              "score": 17,
+              "notes": "Agent thoroughly explained referral requirements and asked clarifying questions about link usage and timing to diagnose the issue."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Agent verified account status, gathered necessary information, and provided clear explanation that rewards typically process within 24 hours with proper escalation path."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with bullet points and empathetic tone throughout the conversation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent appropriately explained requirements and timeframes without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent provided thorough explanation of referral requirements and systematically gathered information to diagnose why rewards hadn't been received. Communication was clear and professional, though the transcript appears incomplete with no closing visible.",
+          "coaching_tip": "Ensure the agent name in the greeting matches the actual agent name to avoid customer confusion (introduced as Melissa but system shows Karen Perez).",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[10:55:37 AM] t6601375437: Full Name: t6601375437 Email Address: gaberenteria410@gmail.com Subject / How can we help you?: Why haven't I got my reward for referral to my friends who have successfully signed up and deposited on here\n[10:55:37 AM] t6601375437: Full Name: t6601375437 Email Address: gaberenteria410@gmail.com Subject / How can we help you?: Why haven't I got my reward for referral to my friends who have successfully signed up and deposited on here\n[10:56:05 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:56:05 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:56:13 AM] t6601375437: Okay\n[10:56:13 AM] t6601375437: Okay\n[10:56:44 AM] Karen Perez: I get why you’d expect that to come through right away — let’s break it down.\n\nFor the referral reward to trigger, all of these steps need to be fully completed by your friend:\n\nThey signed up using your referral link or code\nThey completed KYC verification\nThey made their first purchase\n\nIf any one of those didn’t fully go through, the reward won’t trigger yet.\n\nA couple of other things to double-check:\n\nThey didn’t already have an account (only new users count)\nThe referral was properly tracked at signup (can’t be added after)\n\nIf everything has been completed and you still didn’t receive the reward, then it may be:\n\nStill processing\nOr needs a manual check on our side\n[10:56:44 AM] Karen Perez: I get why you’d expect that to come through right away — let’s break it down.\n\nFor the referral reward to trigger, all of these steps need to be fully completed by your friend:\n\nThey signed up using your referral link or code\nThey completed KYC verification\nThey made their first purchase\n\nIf any one of those didn’t fully go through, the reward won’t trigger yet.\n\nA couple of other things to double-check:\n\nThey didn’t already have an account (only new users count)\nThe referral was properly tracked at signup (can’t be added after)\n\nIf everything has been completed and you still didn’t receive the reward, then it may be:\n\nStill processing\nOr needs a manual check on our side\n[10:57:53 AM] t6601375437: How long is kyc verification take\n[10:57:53 AM] t6601375437: How long is kyc verification take\n[10:58:26 AM] Karen Perez: Good question.\n\nKYC verification is usually pretty quick — most are completed within a few minutes to up to an hour.\n\nIn some cases, it can take longer if:\n\nThe system needs a manual review\nThere’s a high volume of requests\nAdditional documents (like Proof of Address) are required\n\nIf it’s been a while since you submitted yours, it may be pending review or need a small correction (like the address mismatch you mentioned earlier).\n[10:58:26 AM] Karen Perez: Good question.\n\nKYC verification is usually pretty quick — most are completed within a few minutes to up to an hour.\n\nIn some cases, it can take longer if:\n\nThe system needs a manual review\nThere’s a high volume of requests\nAdditional documents (like Proof of Address) are required\n\nIf it’s been a while since you submitted yours, it may be pending review or need a small correction (like the address mismatch you mentioned earlier).\n[11:01:26 AM] Karen Perez: I was able to review your account. You are fully verified. Did your referrals use the link?\n[11:01:26 AM] Karen Perez: I was able to review your account. You are fully verified. Did your referrals use the link?\n[11:01:48 AM] t6601375437: K⅞\n[11:01:48 AM] t6601375437: K⅞\n[11:02:08 AM] t6601375437: Yeah\n[11:02:08 AM] t6601375437: Yeah\n[11:02:38 AM] Karen Perez: How long ago did they register through the referral link?\n[11:02:38 AM] Karen Perez: How long ago did they register through the referral link?\n[11:03:17 AM] t6601375437: One about 3 hours ago bd the second one about  2 hours ago\n[11:03:17 AM] t6601375437: One about 3 hours ago bd the second one about  2 hours ago\n[11:04:31 AM] Karen Perez: Thanks for the timing — that helps.\n\nIf your referrals completed everything 2–3 hours ago, it’s still within a normal window where rewards might not have hit just yet.\n\nEven though the reward is often instant, it can sometimes take a bit longer if:\n\nTheir KYC is still processing or under review\nThe system is still verifying their first purchase\nThere’s a short delay in syncing the referral tracking\n\nThe reward only triggers once all steps are fully completed and approved, not just submitted.\n\nWhat I’d suggest:\n\nGive it a little more time (it can take a few hours in some cases)\n[11:04:31 AM] Karen Perez: Thanks for the timing — that helps.\n\nIf your referrals completed everything 2–3 hours ago, it’s still within a normal window where rewards might not have hit just yet.\n\nEven though the reward is often instant, it can sometimes take a bit longer if:\n\nTheir KYC is still processing or under review\nThe system is still verifying their first purchase\nThere’s a short delay in syncing the referral tracking\n\nThe reward only triggers once all steps are fully completed and approved, not just submitted.\n\nWhat I’d suggest:\n\nGive it a little more time (it can take a few hours in some cases)\n[11:06:35 AM] Karen Perez: Sorry, are you still there?\n[11:06:35 AM] Karen Perez: Sorry, are you still there?\n[11:08:24 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[11:08:24 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T11:10:14.628Z"
+        },
+        {
+          "chat_id": "2047280581149765632",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-23T12:05:23.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though didn't use customer's name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Understood the autofill address issue clearly and asked appropriate clarifying question to confirm correct address."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Collected all necessary information, explained the process clearly, and initiated the address update appropriately."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic, and well-structured responses with good use of formatting and proactive updates during wait times."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper verification procedures and collected appropriate documentation without policy violations."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from the agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 68,
+          "grade": "D",
+          "summary": "Agent handled the address update request competently, gathering all required information and explaining the process clearly with empathetic communication. The transcript appears incomplete, showing no closing, but the agent demonstrated solid support skills throughout the interaction.",
+          "coaching_tip": "When collecting multiple pieces of information, acknowledge receipt of each item submitted to reassure the customer their information was received correctly.",
+          "website": "Jackpot Daily",
+          "message_count": 38,
+          "raw_transcript": "[11:45:01 AM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[11:45:01 AM] t2967770497: Full Name: t2967770497 Email Address: tongoblast2@gmil.com Subject / How can we help you?: How do I change my adress when I filled out my profile it used an old adress with auto fill now I can’t verify my adress because my I’d doesn’t match\n[11:45:25 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:45:25 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:46:12 AM] t2967770497: Okay…\n[11:46:12 AM] t2967770497: Okay…\n[11:46:22 AM] Karen Perez: no worries — that happens more often than you’d think with autofill.\n\nThere’s no self-service option to change your address directly, but we can get it updated for you on our side.\n\nHere’s what we’ll need:\n\nYour current registered email\nYour correct address (the one you want on the account)\nA photo of your government-issued ID\nA quick note explaining the change (autofill error is perfectly fine)\n\nYou can either:\n\nEmail this to support@jackpotdaily.com\nOr share it here and I’ll start the process for you\n\nOnce your address is updated, you’ll be able to resubmit verification and it should go through without any issues.\n\nIf you want, I can also guide you on the best document to use for Proof of Address so it gets approved first try.\n[11:46:22 AM] Karen Perez: no worries — that happens more often than you’d think with autofill.\n\nThere’s no self-service option to change your address directly, but we can get it updated for you on our side.\n\nHere’s what we’ll need:\n\nYour current registered email\nYour correct address (the one you want on the account)\nA photo of your government-issued ID\nA quick note explaining the change (autofill error is perfectly fine)\n\nYou can either:\n\nEmail this to support@jackpotdaily.com\nOr share it here and I’ll start the process for you\n\nOnce your address is updated, you’ll be able to resubmit verification and it should go through without any issues.\n\nIf you want, I can also guide you on the best document to use for Proof of Address so it gets approved first try.\n[11:47:21 AM] t2967770497: Okay my email is tongoblast2@gmail.com\n[11:47:21 AM] t2967770497: Okay my email is tongoblast2@gmail.com\n[11:47:37 AM] t2967770497: my reason is auto fill put in wrong adress\n[11:47:37 AM] t2967770497: my reason is auto fill put in wrong adress\n[11:48:14 AM] t2967770497: image.jpg\n[11:48:14 AM] t2967770497: image.jpg\n[11:48:52 AM] t2967770497: Adress is 700 n Dobson rd #41 chandler az 85224\n[11:48:52 AM] t2967770497: Adress is 700 n Dobson rd #41 chandler az 85224\n[11:49:07 AM] Karen Perez: That is the correct address?\n[11:49:07 AM] Karen Perez: That is the correct address?\n[11:50:11 AM] t2967770497: yes well 700 north Dobson road #41 chandler as 85224\n[11:50:11 AM] t2967770497: yes well 700 north Dobson road #41 chandler as 85224\n[11:50:17 AM] t2967770497: az**\n[11:50:17 AM] t2967770497: az**\n[11:50:56 AM] Karen Perez: Thank you, allow me a few minutes.\n[11:50:56 AM] Karen Perez: Thank you, allow me a few minutes.\n[11:51:06 AM] t2967770497: ok thanks\n[11:51:06 AM] t2967770497: ok thanks\n[11:52:26 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:52:26 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:55:13 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[11:55:13 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[11:59:51 AM] t2967770497: Ok\n[11:59:51 AM] t2967770497: Ok\n[12:01:16 PM] Karen Perez: Thank you for waiting. At this time, we need to wait a few more hours for the system to finish processing so that any updates can be made. Please wait and send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n[12:01:16 PM] Karen Perez: Thank you for waiting. At this time, we need to wait a few more hours for the system to finish processing so that any updates can be made. Please wait and send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n[12:03:14 PM] Karen Perez: Sorry, are you still there?\n[12:03:14 PM] Karen Perez: Sorry, are you still there?\n[12:05:07 PM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:05:07 PM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T12:07:04.302Z"
+        },
+        {
+          "chat_id": "2047546623063273472",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T05:29:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though name mismatch (Karen Perez/Melissa) is confusing but likely a system issue."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent attempted to understand verification issue but customer explicitly requested account closure and data deletion, which agent did not acknowledge or address."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent failed to process the clear account closure request or escalate to appropriate team, instead focusing only on verification troubleshooting."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and empathetic communication, but missed the primary request for account closure and data removal."
+            },
+            "compliance": {
+              "score": 6,
+              "notes": "Did not properly handle a data deletion request which may have GDPR/privacy compliance implications requiring specific acknowledgment or escalation."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Provided alternative contact method and polite close, though customer's main request was never addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent was polite and empathetic but completely missed the customer's primary request for account closure and data deletion, focusing instead on verification troubleshooting. The core issue was never acknowledged or escalated to the appropriate team.",
+          "coaching_tip": "When a customer explicitly requests account closure or data deletion, acknowledge this request immediately and either process it or escalate to the appropriate team, even if there are secondary issues mentioned.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:22:11 AM] Customer: Full Name: Tracy Moore Email Address: tleann17@gmail.com Subject / How can we help you?: Please remove all of my information and closest account\n[05:22:11 AM] Customer: Full Name: Tracy Moore Email Address: tleann17@gmail.com Subject / How can we help you?: Please remove all of my information and closest account\n[05:22:35 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:22:35 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:23:00 AM] Customer: I just want all of my information and moved in the account closed thank you have a great day. It's not allowing me to verify anything and I'm tired of fooling with it\n[05:23:00 AM] Customer: I just want all of my information and moved in the account closed thank you have a great day. It's not allowing me to verify anything and I'm tired of fooling with it\n[05:25:10 AM] Karen Perez: I understand it can be frustrating. I'm here to help. Can you please tell me what happened with the verification process?\n[05:25:10 AM] Karen Perez: I understand it can be frustrating. I'm here to help. Can you please tell me what happened with the verification process?\n[05:27:05 AM] Karen Perez: Sorry, are you still there?\n[05:27:05 AM] Karen Perez: Sorry, are you still there?\n[05:29:31 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:29:31 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T05:34:45.365Z"
+        },
+        {
+          "chat_id": "2047565996968685568",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T06:54:00.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting with agent name but did not use customer's name or add warmth."
+            },
+            "issue_discovery": {
+              "score": 17,
+              "notes": "Excellent understanding of the login loop issue and proactively explained the root cause with clear technical insight."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent gathered necessary information and was working toward resolution, but transcript cuts off before completion so full resolution cannot be assessed."
+            },
+            "communication": {
+              "score": 18,
+              "notes": "Very clear, empathetic explanation of technical issue with excellent reassurance that it wasn't customer error."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations observed; appropriately handled account verification and email change request."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript truncated before closing, so no closing can be evaluated."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent demonstrated strong technical understanding and communication skills, clearly explaining the login sync issue and gathering appropriate information. Transcript cuts off mid-resolution, preventing assessment of final outcome and closing.",
+          "coaching_tip": "When asking for account details, acknowledge the customer's additional request (email change) immediately to show you've noted it, rather than waiting until after account lookup.",
+          "website": "Jackpot Daily",
+          "message_count": 36,
+          "raw_transcript": "[06:39:10 AM] Customer: Full Name: Andrea Moak Email Address: hollowcrow1147@gmail.com Subject / How can we help you?: My cell phone is used on my account and I can't sign in. What's going on??\n[06:39:10 AM] Customer: Full Name: Andrea Moak Email Address: hollowcrow1147@gmail.com Subject / How can we help you?: My cell phone is used on my account and I can't sign in. What's going on??\n[06:39:38 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[06:39:38 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[06:40:34 AM] Customer: Everytime I try to sign in it keeps jumping back n forth between Facebook sign in and open an account. When I put in my cell number it says it's already in use. What is going on?\n[06:40:34 AM] Customer: Everytime I try to sign in it keeps jumping back n forth between Facebook sign in and open an account. When I put in my cell number it says it's already in use. What is going on?\n[06:41:32 AM] Karen Perez: I hear you — that back-and-forth loop is super frustrating, and I can see why it feels like you’re stuck.\n\nWhat’s happening here is almost certainly this:\n\nYour account already exists (that’s why your phone number is “already in use”)\nBut your Facebook login isn’t properly linking to that existing account\nSo the system keeps sending you to registration instead of logging you in\n\nIt’s basically a login sync issue, not something you’re doing wrong.\n\nUnfortunately, this isn’t something you can fix from your side once it’s in that loop — it needs to be corrected on our end.\n\nI can get this resolved for you. Just send me:\n\nYour registered email\nYour phone number (last 4 digits is fine if you prefer)\nThe name on the account\n\nI’ll locate your account and fix the login method so you can sign in normally without being pushed back into registration.\n[06:41:32 AM] Karen Perez: I hear you — that back-and-forth loop is super frustrating, and I can see why it feels like you’re stuck.\n\nWhat’s happening here is almost certainly this:\n\nYour account already exists (that’s why your phone number is “already in use”)\nBut your Facebook login isn’t properly linking to that existing account\nSo the system keeps sending you to registration instead of logging you in\n\nIt’s basically a login sync issue, not something you’re doing wrong.\n\nUnfortunately, this isn’t something you can fix from your side once it’s in that loop — it needs to be corrected on our end.\n\nI can get this resolved for you. Just send me:\n\nYour registered email\nYour phone number (last 4 digits is fine if you prefer)\nThe name on the account\n\nI’ll locate your account and fix the login method so you can sign in normally without being pushed back into registration.\n[06:42:50 AM] Customer: Ok\n[06:42:50 AM] Customer: Ok\n[06:42:57 AM] Customer: Andrea Moak\n[06:42:57 AM] Customer: Andrea Moak\n[06:43:02 AM] Customer: 409-571-0109\n[06:43:02 AM] Customer: 409-571-0109\n[06:43:08 AM] Customer: Hollowcrow1147@gmail.com\n[06:43:08 AM] Customer: Hollowcrow1147@gmail.com\n[06:43:26 AM] Customer: I want to use my new email address.....boomcomm1xyz@gmail.com\n[06:43:26 AM] Customer: I want to use my new email address.....boomcomm1xyz@gmail.com\n[06:44:09 AM] Karen Perez: Thank you for that information. Bear with me for just a moment while I take a look at your account!\n[06:44:09 AM] Karen Perez: Thank you for that information. Bear with me for just a moment while I take a look at your account!\n[06:44:20 AM] Customer: Thank you\n[06:44:20 AM] Customer: Thank you\n[06:46:09 AM] Customer: Ok\n[06:46:09 AM] Customer: Ok\n[06:46:19 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:46:19 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[06:50:05 AM] Karen Perez: Thank you for your patience!\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[06:50:05 AM] Karen Perez: Thank you for your patience!\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[06:50:50 AM] Customer: What does that mean? You aren't fixing it now?\n[06:50:50 AM] Customer: What does that mean? You aren't fixing it now?\n[06:52:18 AM] Karen Perez: We are working to fix this. In the meantime we ask for your patience and to wait patiently for a few hours.,\n[06:52:18 AM] Karen Perez: We are working to fix this. In the meantime we ask for your patience and to wait patiently for a few hours.,\n[06:52:34 AM] Customer: Ok great. Thank s for nothing . Adios. You will lose many customers because this is stupid.\n[06:52:34 AM] Customer: Ok great. Thank s for nothing . Adios. You will lose many customers because this is stupid.\n[06:53:47 AM] Karen Perez: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.\n[06:53:47 AM] Karen Perez: I want to help, but I need to keep this conversation respectful. Due to the disrespectful language used in this chat, I’ll have to terminate the conversation at this time. If you’d like assistance in the future, you’re very welcome to reach out again through live chat or email us at support@jackpotdaily.com, and we’ll be happy to help as long as the conversation remains respectful. Thank you for understanding.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T06:54:45.870Z"
+        },
+        {
+          "chat_id": "2047577788503601152",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T07:30:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though could have personalized with customer name."
+            },
+            "issue_discovery": {
+              "score": 5,
+              "notes": "Agent did not ask any clarifying questions about the gold egg issue or verification steps before customer went silent."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution attempted due to customer non-response, but agent appropriately offered email alternative for follow-up."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional communication, though agent could have acknowledged the specific issue before waiting for response."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and appropriately directed customer to official support channel."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Professional closing with clear next steps and alternative contact method provided."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 48,
+          "grade": "F",
+          "summary": "Agent provided professional service but customer became unresponsive immediately after the greeting. The agent appropriately waited and then closed the chat with alternative contact information, though could have acknowledged the specific gold egg issue in the initial response.",
+          "coaching_tip": "After greeting, immediately acknowledge the customer's specific issue before waiting for response to show you've read their concern and are prepared to help.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[07:26:01 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[07:26:01 AM] t2515061554: Full Name: t2515061554 Email Address: Stephaniehenry0215@gmail.com Subject / How can we help you?: Why can't I get my gold egg I verified an did all the steps\n[07:27:18 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[07:27:18 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[07:28:32 AM] Karen Perez: Sorry, are you still there?\n[07:28:32 AM] Karen Perez: Sorry, are you still there?\n[07:30:21 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[07:30:21 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T07:35:01.009Z"
+        },
+        {
+          "chat_id": "2047587177808740352",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T08:09:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to help, though fairly standard."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the referral bonus issue and proactively explained all requirements without needing to ask clarifying questions."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided comprehensive explanation of referral requirements and identified likely cause (KYC pending), though couldn't fully resolve without customer response."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic opening, well-structured bullet points made complex requirements easy to understand."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, explained requirements accurately without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closure with alternative contact method provided after reasonable wait time for response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 76,
+          "grade": "C",
+          "summary": "Agent provided a thorough, well-organized explanation of referral bonus requirements and identified the most likely cause of the delay. Communication was clear and professional throughout, with appropriate follow-up attempts before closing.",
+          "coaching_tip": "Consider asking one confirming question about the boyfriend's KYC status before providing the full explanation to make the interaction more conversational and targeted.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:20 AM] t3097076379: Full Name: t3097076379 Email Address: sassybaby4925@gmail.com Subject / How can we help you?: Hi I need help\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:03:53 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:04:19 AM] t3097076379: I didn't receive my referral bonus when I refered my bf and I deposited so did he\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:05:17 AM] Karen Perez: I get why you’d expect that to come through right away — let’s go through it.\n\nFor the referral bonus to trigger, all of these steps need to be completed by your boyfriend:\n\nHe signed up using your referral link or code\nHe completed KYC verification (approved, not just submitted)\nHe made his first purchase\n\nIf any of those didn’t fully go through, the reward won’t trigger yet.\n\nAlso worth checking:\n\nThe referral must be applied at sign-up (it can’t be added later)\nHe must be a new user (no existing account before)\n\nSince you both deposited, that part is covered — but the most common delay is KYC still processing or pending approval on his account.\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:07:03 AM] Karen Perez: Sorry, are you still there?\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[08:09:32 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T08:14:42.926Z"
+        },
+        {
+          "chat_id": "2047594973821186048",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T09:06:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though used wrong name (Melissa vs Karen)."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the login method mismatch issue well and asked clarifying questions about alternative login methods."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided clear troubleshooting steps with password reset and alternative login methods, appropriately addressing the likely cause."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and well-structured responses with step-by-step instructions, though somewhat lengthy."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately reassured customer about funds without making unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent demonstrated solid technical understanding of the login issue and provided appropriate troubleshooting steps with empathy. Communication was clear and structured, though the agent introduced themselves with an incorrect name and the transcript shows no proper closing.",
+          "coaching_tip": "Ensure your name matches your system profile (introduced as Melissa but profile shows Karen) to maintain credibility and avoid customer confusion.",
+          "website": "Jackpot Daily",
+          "message_count": 80,
+          "raw_transcript": "[08:34:18 AM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Um I thought I signed through my Facebook but it shows nothing when I try to log in with Facebook...... I have money on my account and my phone screen went to sleep and I can't find it since\n[08:34:18 AM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Um I thought I signed through my Facebook but it shows nothing when I try to log in with Facebook...... I have money on my account and my phone screen went to sleep and I can't find it since\n[08:34:47 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[08:34:47 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[08:34:55 AM] Customer: Hi\n[08:34:55 AM] Customer: Hi\n[08:35:20 AM] Customer: I deposited 9.99 and my bonus was $30 sc\n[08:35:20 AM] Customer: I deposited 9.99 and my bonus was $30 sc\n[08:35:52 AM] Customer: I had more than they when my screen went to sleep though\n[08:35:52 AM] Customer: I had more than they when my screen went to sleep though\n[08:36:00 AM] Customer: That\n[08:36:00 AM] Customer: That\n[08:36:01 AM] Karen Perez: I understand — that’s stressful, especially if you had money on the account.\n\nWhat’s happening here is very likely a login method mismatch, not that your account is gone.\n\nBased on what you described:\n\nYour account does exist (since you had a balance)\nBut it may not actually be linked to Facebook, or the link didn’t complete properly\nSo when you try Facebook login, it shows nothing or starts a new account instead\n\nLet’s try to recover it:\n\nStep 1 — Try email login\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you may have used (including the one linked to your Facebook)\n\nIf it lets you reset, that means your account is tied to email/password, not Facebook.\n\nStep 2 — Think of any other login method\n\nDid you possibly use Apple, Google, or email instead of Facebook?\nSometimes it defaults differently during signup\n[08:36:01 AM] Karen Perez: I understand — that’s stressful, especially if you had money on the account.\n\nWhat’s happening here is very likely a login method mismatch, not that your account is gone.\n\nBased on what you described:\n\nYour account does exist (since you had a balance)\nBut it may not actually be linked to Facebook, or the link didn’t complete properly\nSo when you try Facebook login, it shows nothing or starts a new account instead\n\nLet’s try to recover it:\n\nStep 1 — Try email login\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you may have used (including the one linked to your Facebook)\n\nIf it lets you reset, that means your account is tied to email/password, not Facebook.\n\nStep 2 — Think of any other login method\n\nDid you possibly use Apple, Google, or email instead of Facebook?\nSometimes it defaults differently during signup\n[08:36:35 AM] Customer: I was verified and everything\n[08:36:35 AM] Customer: I was verified and everything\n[08:37:20 AM] Customer: Only Google or Facebook\n[08:37:20 AM] Customer: Only Google or Facebook\n[08:37:34 AM] Karen Perez: The good news is: your funds and SC don’t disappear just because your screen went to sleep. This is almost definitely a login/access issue, not a loss of balance.\n\nWhat likely happened:\n\nYour session timed out when your phone went to sleep\nNow you’re trying to log back in with Facebook, but the account may not actually be linked properly\nSo it looks like your account is “missing,” when it’s really just not being accessed correctly\n\nYour balance (including the deposit and bonus SC) should still be on the original account.\n\nLet’s recover it:\n\nTry this first:\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you might’ve used (including your Facebook email)\n\nIf it works, log in with email + password instead of Facebook.\n[08:37:34 AM] Karen Perez: The good news is: your funds and SC don’t disappear just because your screen went to sleep. This is almost definitely a login/access issue, not a loss of balance.\n\nWhat likely happened:\n\nYour session timed out when your phone went to sleep\nNow you’re trying to log back in with Facebook, but the account may not actually be linked properly\nSo it looks like your account is “missing,” when it’s really just not being accessed correctly\n\nYour balance (including the deposit and bonus SC) should still be on the original account.\n\nLet’s recover it:\n\nTry this first:\n\nGo to www.jackpotdaily.com\nClick Login → Forgot Password\nEnter the email you might’ve used (including your Facebook email)\n\nIf it works, log in with email + password instead of Facebook.\n[08:38:29 AM] Customer: I did try\n[08:38:29 AM] Customer: I did try\n[08:38:39 AM] Customer: Still can't find it\n[08:38:39 AM] Customer: Still can't find it\n[08:39:15 AM] Customer: Can you help with my first and last name\n[08:39:15 AM] Customer: Can you help with my first and last name\n[08:39:32 AM] Customer: Social\n[08:39:32 AM] Customer: Social\n[08:39:40 AM] Customer: Anything\n[08:39:40 AM] Customer: Anything\n[08:40:21 AM] Karen Perez: I'm sorry, can you please clarify more?\n[08:40:21 AM] Karen Perez: I'm sorry, can you please clarify more?\n[08:40:48 AM] Customer: What about by my id then can't you find my email?\n[08:40:48 AM] Customer: What about by my id then can't you find my email?\n[08:42:01 AM] Karen Perez: I already found your account. Have you tried the steps I sent?\n[08:42:01 AM] Karen Perez: I already found your account. Have you tried the steps I sent?\n[08:42:08 AM] Customer: Yes\n[08:42:08 AM] Customer: Yes\n[08:43:05 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[08:43:05 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[08:43:21 AM] Customer: What email did I use......ok thank you\n[08:43:21 AM] Customer: What email did I use......ok thank you\n[08:43:39 AM] Karen Perez: mnsweetheartf49@gmail.com\n[08:43:39 AM] Karen Perez: mnsweetheartf49@gmail.com\n[08:44:05 AM] Customer: Omg that is the only one I am having trouble accessing\n[08:44:05 AM] Customer: Omg that is the only one I am having trouble accessing\n[08:44:30 AM] Customer: But that is my Facebook email\n[08:44:30 AM] Customer: But that is my Facebook email\n[08:45:01 AM] Karen Perez: That would be the email on your account\n[08:45:01 AM] Karen Perez: That would be the email on your account\n[08:45:12 AM] Customer: Can I change it?\n[08:45:12 AM] Customer: Can I change it?\n[08:45:20 AM] Karen Perez: Are you able to send a screenshot of the issue?\n[08:45:20 AM] Karen Perez: Are you able to send a screenshot of the issue?\n[08:45:42 AM] Customer: I hit the login with Facebook and it sends me right to the registration page and I've already registered and been verified\n[08:45:42 AM] Customer: I hit the login with Facebook and it sends me right to the registration page and I've already registered and been verified\n[08:45:57 AM] Customer: I must have tried that 10 times\n[08:45:57 AM] Customer: I must have tried that 10 times\n[08:47:23 AM] Karen Perez: Please allow me one moment to look into this for you!\n[08:47:23 AM] Karen Perez: Please allow me one moment to look into this for you!\n[08:48:00 AM] Customer: Ok\n[08:48:00 AM] Customer: Ok\n[08:50:23 AM] Karen Perez: We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. \n\nPlease be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[08:50:23 AM] Karen Perez: We’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. \n\nPlease be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[08:50:57 AM] Customer: I wanna change my email\n[08:50:57 AM] Customer: I wanna change my email\n[08:51:26 AM] Customer: Please\n[08:51:26 AM] Customer: Please\n[08:52:06 AM] Karen Perez: Let me confirm if we are able to do it.\n[08:52:06 AM] Karen Perez: Let me confirm if we are able to do it.\n[08:52:14 AM] Customer: Ok\n[08:52:14 AM] Customer: Ok\n[08:55:22 AM] Customer: Well if you can I'd like it to be\n[08:55:22 AM] Customer: Well if you can I'd like it to be\n[08:55:28 AM] Customer: kindofabigdeal2020@gmail.com\n[08:55:28 AM] Customer: kindofabigdeal2020@gmail.com\n[09:00:35 AM] Customer: Well???\n[09:00:35 AM] Customer: Well???\n[09:03:56 AM] Karen Perez: I apologize for the delay; my system froze a little. It would be best to request the change to our team via email at support@jackpotdaily.com since I'm unable to do it.\n[09:03:56 AM] Karen Perez: I apologize for the delay; my system froze a little. It would be best to request the change to our team via email at support@jackpotdaily.com since I'm unable to do it.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T09:09:45.369Z"
+        },
+        {
+          "chat_id": "2047603613553868800",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T09:30:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with willingness to help, though no personalization by customer name."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent initially misdiagnosed the issue as an address problem without asking clarifying questions about the actual delay."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Eventually provided a timeframe (48 hours) but gave conflicting information first about address issues, causing customer confusion."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear language but inconsistent messaging created confusion; good empathy shown at the end but after customer expressed frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No major violations; stayed within policy boundaries and set appropriate expectations about processing time."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Asked if anything else was needed but transcript appears cut off before proper closure after customer's final concern."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided conflicting information initially by suggesting an address issue when the real answer was simply to wait for standard processing time. Communication improved after customer pushback, but the initial misdiagnosis undermined confidence and required correction.",
+          "coaching_tip": "Before providing a solution, verify the actual cause of the delay rather than assuming—ask clarifying questions first to avoid giving incorrect information that must later be walked back.",
+          "website": "Jackpot Daily",
+          "message_count": 34,
+          "raw_transcript": "[09:08:38 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: Any idea why all of my other redemption have been processed in a few hrs and my current one has been pending for 24hrs ?\n[09:08:38 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: Any idea why all of my other redemption have been processed in a few hrs and my current one has been pending for 24hrs ?\n[09:10:06 AM] Karen Perez: Hello!  I’ve looked into your recent redemption request, and I’m happy to help you get this sorted.\n\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n\n• Character Limit: Keep this information within the 50-character limit.\n\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you\n[09:10:06 AM] Karen Perez: Hello!  I’ve looked into your recent redemption request, and I’m happy to help you get this sorted.\n\nIt looks like the issue may be related to how the billing address is entered in the system. To ensure your request is processed successfully, please follow these steps when updating your details:\n\n• Billing Address Line: Please use this field only for the street name and house or apartment number.\n\n• Character Limit: Keep this information within the 50-character limit.\n\n• Additional Details: If you have extra address details (such as suite numbers or building names), please place those in the other appropriate address fields provided on the form.\n\nOnce you have updated your information to match these requirements, please try submitting your redemption request again.\n\nIf you’re still running into trouble after updating your address, just let me know and I’ll take a closer look for you\n[09:12:38 AM] Karen Perez: Sorry, are you still there?\n[09:12:38 AM] Karen Perez: Sorry, are you still there?\n[09:13:31 AM] t1110271063: I’ve redeemed many times so that makes no sense\n[09:13:31 AM] t1110271063: I’ve redeemed many times so that makes no sense\n[09:14:22 AM] Karen Perez: This is a current issue; we appreciate your patience while we resolve this.\n[09:14:22 AM] Karen Perez: This is a current issue; we appreciate your patience while we resolve this.\n[09:14:28 AM] t1110271063: My redemption is pending for 24 hrs every other redemption has been processed in like 3 hrs\n[09:14:28 AM] t1110271063: My redemption is pending for 24 hrs every other redemption has been processed in like 3 hrs\n[09:17:00 AM] Karen Perez: Please wait 48 hours so can we resolve this.\n[09:17:00 AM] Karen Perez: Please wait 48 hours so can we resolve this.\n[09:17:14 AM] Karen Perez: Is there anything else I can do for you today?\n[09:17:14 AM] Karen Perez: Is there anything else I can do for you today?\n[09:17:46 AM] t1110271063: It’s quiet discouraging considering the large amount of referrals I have brought to this site that have spent a ton of money here\n[09:17:46 AM] t1110271063: It’s quiet discouraging considering the large amount of referrals I have brought to this site that have spent a ton of money here\n[09:19:50 AM] Karen Perez: I completely understand why that feels discouraging — especially with the effort you’ve put into referring others. That’s valuable, and it shouldn’t feel like you’re being left in the dark on something like a redemption.\n\nWhat you’re experiencing doesn’t mean anything is wrong with your payout — it’s still within the normal processing window — but I agree the inconsistency compared to your previous faster redemptions can feel off.\n\nSometimes when accounts have:\n\nHigher activity (like referrals or increased transactions)\nLarger or more frequent redemptions\n\n…it can trigger an extra review step, which slows things down a bit. It’s a standard check, not a penalty — but I get that it doesn’t feel great from your side.\n[09:19:50 AM] Karen Perez: I completely understand why that feels discouraging — especially with the effort you’ve put into referring others. That’s valuable, and it shouldn’t feel like you’re being left in the dark on something like a redemption.\n\nWhat you’re experiencing doesn’t mean anything is wrong with your payout — it’s still within the normal processing window — but I agree the inconsistency compared to your previous faster redemptions can feel off.\n\nSometimes when accounts have:\n\nHigher activity (like referrals or increased transactions)\nLarger or more frequent redemptions\n\n…it can trigger an extra review step, which slows things down a bit. It’s a standard check, not a penalty — but I get that it doesn’t feel great from your side.\n[09:22:23 AM] Karen Perez: Sorry, are you still there?\n[09:22:23 AM] Karen Perez: Sorry, are you still there?\n[09:23:43 AM] t1110271063: I would just really like to get my redemption before the weekend 😩 I redeemed a smaller amount to hopefully avoid a delay\n[09:23:43 AM] t1110271063: I would just really like to get my redemption before the weekend 😩 I redeemed a smaller amount to hopefully avoid a delay\n[09:24:46 AM] Karen Perez: I completely get that — especially trying to get it in before the weekend, that makes sense.\nRedeeming a smaller amount was actually a smart move, and in many cases those do process faster — but timing can still vary if the request gets picked up for a quick review.\nRight now, since it’s been about 24 hours:\n\n\nIt’s still within the normal window (up to 1–3 business days)\n\n\nIf it’s already in progress, there’s a good chance it could still clear before the weekend\n\n\nWhat I can do on my side is check if it’s:\n\n\nAlready approved and just pending payout\n\n\nSitting in review\n\n\nOr queued for processing\n\n\nIf you want the best shot at getting a clear answer (and possibly nudging it along if needed), send me your registered email and I’ll take a closer look right away.\nI’ll be straight with you on where it stands so you’re not just waiting and hoping.\n[09:24:46 AM] Karen Perez: I completely get that — especially trying to get it in before the weekend, that makes sense.\nRedeeming a smaller amount was actually a smart move, and in many cases those do process faster — but timing can still vary if the request gets picked up for a quick review.\nRight now, since it’s been about 24 hours:\n\n\nIt’s still within the normal window (up to 1–3 business days)\n\n\nIf it’s already in progress, there’s a good chance it could still clear before the weekend\n\n\nWhat I can do on my side is check if it’s:\n\n\nAlready approved and just pending payout\n\n\nSitting in review\n\n\nOr queued for processing\n\n\nIf you want the best shot at getting a clear answer (and possibly nudging it along if needed), send me your registered email and I’ll take a closer look right away.\nI’ll be straight with you on where it stands so you’re not just waiting and hoping.\n[09:26:54 AM] Karen Perez: Sorry, are you still there?\n[09:26:54 AM] Karen Perez: Sorry, are you still there?\n[09:27:51 AM] t1110271063: Brittanicarrasco98@gmail.com\n[09:27:51 AM] t1110271063: Brittanicarrasco98@gmail.com\n[09:28:36 AM] Karen Perez: Yes?\n[09:28:36 AM] Karen Perez: Yes?\n[09:30:43 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[09:30:43 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T09:34:41.025Z"
+        },
+        {
+          "chat_id": "2047609960267083776",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T09:40:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting whatsoever, agent jumped straight to response without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about the redemption status, timeframe concerns, or verify account details."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided minimal guidance to wait for timeframe but offered no specifics, status update, or helpful information about the redemption."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Responses were terse and lacked empathy or explanation, failing to address customer's concern about nudging the process along."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, agent appropriately did not make unauthorized promises."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No proper closing, no offer of further assistance, chat ended abruptly after customer's acknowledgment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent provided minimal service with no greeting, poor communication, and abrupt handling. The customer's request to expedite or check on their redemption was dismissed without explanation or helpful information.",
+          "coaching_tip": "Always open with a proper greeting, acknowledge the customer's concern specifically, and provide context or timeframe details rather than just telling them to wait.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[09:33:51 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: You said to give you my email to possibly nudge along my redemption\n[09:33:51 AM] t1110271063: Full Name: t1110271063 Email Address: brittanicarrasco98@gmail.com Subject / How can we help you?: You said to give you my email to possibly nudge along my redemption\n[09:36:06 AM] Karen Perez: Yes, thank you. Please wait for the timeframe previously given\n[09:36:06 AM] Karen Perez: Yes, thank you. Please wait for the timeframe previously given\n[09:38:42 AM] Karen Perez: Sorry, are you still there?\n[09:38:42 AM] Karen Perez: Sorry, are you still there?\n[09:40:20 AM] t1110271063: Ok\n[09:40:20 AM] t1110271063: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T09:44:44.756Z"
+        },
+        {
+          "chat_id": "2047629491149656064",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T10:55:51.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though no personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the free play request and proactively offered to investigate if a specific reward was missing."
+            },
+            "resolution": {
+              "score": 22,
+              "notes": "Provided comprehensive information about all available free play options and offered to investigate further if needed."
+            },
+            "communication": {
+              "score": 17,
+              "notes": "Clear, empathetic tone with well-organized information and appropriate follow-up when customer went silent."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Correctly explained that free play cannot be manually added on request and outlined legitimate earning methods."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closure with alternative contact method provided and invitation to reach out again."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 79,
+          "grade": "C",
+          "summary": "Agent handled a free play request professionally by explaining all legitimate options and offering to investigate any missing rewards. Communication was clear and empathetic with appropriate follow-up and closure when customer became unresponsive.",
+          "coaching_tip": "Consider asking a clarifying question earlier to determine if the customer was expecting a specific promotion or just inquiring generally about free play options.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[10:51:28 AM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Free play\n[10:51:28 AM] t1660190150: Full Name: t1660190150 Email Address: antwonfrancis00@gmail.com Subject / How can we help you?: Free play\n[10:52:09 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:52:09 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[10:52:54 AM] Karen Perez: I get it — always nice to have some free play.\n\nWe don’t have a way to manually add free play or SC on request, but there are a few ways you can still get some without depositing:\n\nDaily Login Rewards\nWelcome rewards (like the Golden Egg, if still available)\nReferral bonuses\nPromotions via email or social channels\nPostal Request (AMOE) — no purchase required\n\nIf you were expecting a specific reward or something that didn’t credit properly, that’s something I can definitely check for you.\n\nJust let me know and I’ll take a look.\n[10:52:54 AM] Karen Perez: I get it — always nice to have some free play.\n\nWe don’t have a way to manually add free play or SC on request, but there are a few ways you can still get some without depositing:\n\nDaily Login Rewards\nWelcome rewards (like the Golden Egg, if still available)\nReferral bonuses\nPromotions via email or social channels\nPostal Request (AMOE) — no purchase required\n\nIf you were expecting a specific reward or something that didn’t credit properly, that’s something I can definitely check for you.\n\nJust let me know and I’ll take a look.\n[10:54:10 AM] Karen Perez: Sorry, are you still there?\n[10:54:10 AM] Karen Perez: Sorry, are you still there?\n[10:55:47 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:55:47 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T10:59:40.784Z"
+        },
+        {
+          "chat_id": "2047632741616103424",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-24T11:21:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to assist, though slightly generic."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent understood the missing Golden Egg issue and asked clarifying questions including screenshot request and timeline."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent explained the promotion mechanics but didn't actually resolve whether customer received it or provide a remedy for the missing reward."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic communication with good explanations, though the final response pivoted to explaining rather than resolving."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made throughout the interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript cuts off mid-response with no closing provided in the visible portion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided professional service with empathetic communication and good initial investigation into the missing Golden Egg promotion. However, the resolution shifted from checking/fixing the issue to simply explaining how the promotion works, without confirming whether the customer actually received it or offering a concrete solution.",
+          "coaching_tip": "After investigating an account issue, always circle back with specific findings about the customer's account status and a clear next step or resolution, rather than pivoting to general promotional explanations.",
+          "website": "Jackpot Daily",
+          "message_count": 40,
+          "raw_transcript": "[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:04:23 AM] t2673526652: Full Name: t2673526652 Email Address: mamasita421@gmail.com Subject / How can we help you?: I don’t recall gee we trying a golden egg at sign up\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:39 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:05:45 AM] t2673526652: I don’t recall getting a golden egg at sign up\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[11:06:12 AM] t2673526652: After verification\n[11:06:12 AM] t2673526652: After verification\n[11:06:49 AM] t2673526652: Kk\n[11:06:49 AM] t2673526652: Kk\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:33 AM] Karen Perez: Thank you for your patience!  Got it — if your KYC is already fully verified, then the Golden Egg should have unlocked automatically.\n\nSo if you never saw it, that usually means one of two things:\n\nIt didn’t trigger properly on your account\nOr it was issued but expired after 5 days without being claimed\n\nSince you don’t recall ever seeing it, it sounds more like it may not have shown up correctly, which is something we can check and fix on our side.\n\nI don’t want you missing out on a welcome reward you should’ve had.\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:09:49 AM] Karen Perez: Are you able to send me a screenshot showing the issue?\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:18 AM] t2673526652: It’s been a while . Just reading about it I. Promotion tab and i just thought of it\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:11:42 AM] Karen Perez: I see, thanks for clarifying.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:39 AM] Karen Perez: Please allow me a few minutes.\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:45 AM] t2673526652: It was new that I noticed and feel like I never got it\n[11:12:56 AM] t2673526652: Ok\n[11:12:56 AM] t2673526652: Ok\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:13 AM] Karen Perez: I’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:14:53 AM] t2673526652: Ok I dnt recall seeing that but alright ty\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:15:22 AM] t2673526652: Could I get complementary sc added?\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:17:01 AM] Karen Perez: I get why you’d ask — especially with everything you’ve been dealing with.\n\nI do need to be upfront though: we’re not able to manually add complimentary SC on request. Rewards and credits are system-generated and tied to specific promos or events.\n\nThat said, if something should have been credited and wasn’t (like your Golden Egg or any other reward), that’s different — and I can absolutely look into that and get it fixed if needed.\n\nYou still have a few ways to get SC without depositing:\n\nDaily Login Rewards\nReferral bonuses\nPromotions via email/social\nPostal Request (AMOE)\n\nPlease create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:18:27 AM] Karen Perez: Is there anything else I can do for you today?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:19:47 AM] Karen Perez: Sorry, are you still there?\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:21:01 AM] Karen Perez: Since there is no response, I will need to close this chat! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-24T11:24:54.349Z"
+        },
+        {
+          "chat_id": "2048270470836600832",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-26T05:21:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though used wrong name (Melissa vs Karen Perez)."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the issue and provided multiple possible explanations, but didn't ask clarifying questions or confirm which scenario applied."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Offered to check directly but then immediately moved to closing without actually investigating or resolving the issue."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured explanation with helpful bullet points, though ultimately incomplete."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Prematurely closed before resolving the issue after saying they would check directly."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided a thorough explanation of possible causes for missing daily bonuses but failed to follow through on the promise to check directly. The interaction ended prematurely without actual resolution or investigation.",
+          "coaching_tip": "Never offer to investigate an issue and then immediately ask if there's anything else you can help with—always follow through on your commitment to check the account before moving to close.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:18:29 AM] t3709905099: Full Name: t3709905099 Email Address: 2011kenderious@gmail.com Subject / How can we help you?: I collected my daily bonus for 2 days but haven't received anything\n[05:18:29 AM] t3709905099: Full Name: t3709905099 Email Address: 2011kenderious@gmail.com Subject / How can we help you?: I collected my daily bonus for 2 days but haven't received anything\n[05:18:57 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:18:57 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:19:46 AM] Karen Perez: I get why that’s confusing — let’s clear it up.\n\nIf you’re claiming the daily bonus but not seeing anything added, a few things could be going on:\n\nThe reward may be Gold Coins (GC), not Sweepstakes Coins (SC)\n→ GC and SC are shown separately in your balance\nThe bonus might not have been fully claimed\n→ Sometimes you need to click “Claim” and then confirm it\nThere could be a display delay or glitch\n→ Try logging out and back in or refreshing the page\nThe reward might be locked behind a requirement\n→ In some cases, certain bonuses don’t credit until conditions are met\n\nSince you mentioned earlier issues with login and account setup, it’s also possible the reward didn’t properly attach to your account.\n\nLet’s not guess — I can check it directly.\n[05:19:46 AM] Karen Perez: I get why that’s confusing — let’s clear it up.\n\nIf you’re claiming the daily bonus but not seeing anything added, a few things could be going on:\n\nThe reward may be Gold Coins (GC), not Sweepstakes Coins (SC)\n→ GC and SC are shown separately in your balance\nThe bonus might not have been fully claimed\n→ Sometimes you need to click “Claim” and then confirm it\nThere could be a display delay or glitch\n→ Try logging out and back in or refreshing the page\nThe reward might be locked behind a requirement\n→ In some cases, certain bonuses don’t credit until conditions are met\n\nSince you mentioned earlier issues with login and account setup, it’s also possible the reward didn’t properly attach to your account.\n\nLet’s not guess — I can check it directly.\n[05:20:51 AM] Karen Perez: Is there anything else I can do for you today?\n[05:20:51 AM] Karen Perez: Is there anything else I can do for you today?\n[05:20:59 AM] t3709905099: No\n[05:20:59 AM] t3709905099: No",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:21:56.122Z"
+        }
+      ],
+      "avg_score": 64,
+      "grade": "D",
+      "trend": -2
     },
     {
       "id": "5551",
@@ -17124,11 +17169,56 @@
           "raw_transcript": "[11:34:18 AM] t0267556637: Full Name: t0267556637 Email Address: Juanitajackson2125@gmail.com Subject / How can we help you?: I need the first time deals\n[11:34:18 AM] t0267556637: Full Name: t0267556637 Email Address: Juanitajackson2125@gmail.com Subject / How can we help you?: I need the first time deals\n[11:35:38 AM] t0267556637: Hello\n[11:35:38 AM] t0267556637: Hello\n[11:35:40 AM] Raul Figueroa: Hey!\n\nFirst-time deals are usually offered automatically when you’re a new player, but they don’t always stay available for long or may vary depending on current promotions.\n\nI recommend checking the “Promotions” section on the site — any available first-time offers or packages will show there. The first time offer that usually is $9.99\n[11:35:40 AM] Raul Figueroa: Hey!\n\nFirst-time deals are usually offered automatically when you’re a new player, but they don’t always stay available for long or may vary depending on current promotions.\n\nI recommend checking the “Promotions” section on the site — any available first-time offers or packages will show there. The first time offer that usually is $9.99\n[11:36:05 AM] t0267556637: Ok\n[11:36:05 AM] t0267556637: Ok\n[11:37:19 AM] Raul Figueroa: Perfect! Let me know if anything else comes up — always happy to help!\n[11:37:19 AM] Raul Figueroa: Perfect! Let me know if anything else comes up — always happy to help!\n[11:37:39 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:37:39 AM] Raul Figueroa: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T11:39:40.905Z"
+        },
+        {
+          "chat_id": "2048270725552488448",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-26T05:21:29.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Casual 'Hey!' is friendly but lacks personalization and customer name usage."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the basic question about weekly mystery bonus timing but didn't ask clarifying questions about eligibility or previous bonus history."
+            },
+            "resolution": {
+              "score": 17,
+              "notes": "Provided general information about bonus timing and where to check, but didn't offer to investigate the specific account or provide concrete timeframes."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional explanation, though somewhat generic and could have been more specific or helpful."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately avoided making specific promises about bonus delivery."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, no offer for further assistance, and no goodbye—conversation left hanging."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 61,
+          "grade": "D",
+          "summary": "Agent provided a basic, accurate response about weekly mystery bonuses but offered minimal proactive help and failed to close the conversation properly. The interaction was functional but lacked personalization and follow-through.",
+          "coaching_tip": "Always close conversations by asking if there's anything else you can help with and offering a polite sign-off, even for brief inquiries.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[05:19:30 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:19:30 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:19:52 AM] t0038884144: when do I get my weekly mystery bonus?\n[05:19:52 AM] t0038884144: when do I get my weekly mystery bonus?\n[05:20:41 AM] Raul Figueroa: Hey! \n\nWeekly Mystery Bonuses are usually released automatically, but the exact timing can vary and they may not arrive at the same time for every account.\n\nI recommend keeping an eye on your account and the Promotions section, as that’s where it will appear once it’s available.\n[05:20:41 AM] Raul Figueroa: Hey! \n\nWeekly Mystery Bonuses are usually released automatically, but the exact timing can vary and they may not arrive at the same time for every account.\n\nI recommend keeping an eye on your account and the Promotions section, as that’s where it will appear once it’s available.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:21:47.647Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 17
+      "trend": 3
     },
     {
       "id": "5847",
@@ -66217,6 +66307,96 @@
       "raw_transcript": "[04:53:45 AM] Customer: Full Name: Laura Cruz Email Address: lauracor229@gmail.com Subject / How can we help you?: Nati\n[04:53:45 AM] Customer: Full Name: Laura Cruz Email Address: lauracor229@gmail.com Subject / How can we help you?: Nati\n[04:54:43 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:54:43 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:54:54 AM] Marlon Cibrian: How may I assist you today?\n[04:54:54 AM] Marlon Cibrian: How may I assist you today?\n[04:57:02 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:57:02 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:59:01 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:59:01 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T05:01:53.824Z"
+    },
+    {
+      "chat_id": "2048270725552488448",
+      "agent_name": "Raul Figueroa",
+      "agent_id": "5842",
+      "timestamp": "2026-04-26T05:21:29.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Casual 'Hey!' is friendly but lacks personalization and customer name usage."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the basic question about weekly mystery bonus timing but didn't ask clarifying questions about eligibility or previous bonus history."
+        },
+        "resolution": {
+          "score": 17,
+          "notes": "Provided general information about bonus timing and where to check, but didn't offer to investigate the specific account or provide concrete timeframes."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional explanation, though somewhat generic and could have been more specific or helpful."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately avoided making specific promises about bonus delivery."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, no offer for further assistance, and no goodbye—conversation left hanging."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 61,
+      "grade": "D",
+      "summary": "Agent provided a basic, accurate response about weekly mystery bonuses but offered minimal proactive help and failed to close the conversation properly. The interaction was functional but lacked personalization and follow-through.",
+      "coaching_tip": "Always close conversations by asking if there's anything else you can help with and offering a polite sign-off, even for brief inquiries.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[05:19:30 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:19:30 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:19:52 AM] t0038884144: when do I get my weekly mystery bonus?\n[05:19:52 AM] t0038884144: when do I get my weekly mystery bonus?\n[05:20:41 AM] Raul Figueroa: Hey! \n\nWeekly Mystery Bonuses are usually released automatically, but the exact timing can vary and they may not arrive at the same time for every account.\n\nI recommend keeping an eye on your account and the Promotions section, as that’s where it will appear once it’s available.\n[05:20:41 AM] Raul Figueroa: Hey! \n\nWeekly Mystery Bonuses are usually released automatically, but the exact timing can vary and they may not arrive at the same time for every account.\n\nI recommend keeping an eye on your account and the Promotions section, as that’s where it will appear once it’s available.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T05:21:47.647Z"
+    },
+    {
+      "chat_id": "2048270470836600832",
+      "agent_name": "Karen Perez",
+      "agent_id": "5846",
+      "timestamp": "2026-04-26T05:21:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though used wrong name (Melissa vs Karen Perez)."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Understood the issue and provided multiple possible explanations, but didn't ask clarifying questions or confirm which scenario applied."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Offered to check directly but then immediately moved to closing without actually investigating or resolving the issue."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured explanation with helpful bullet points, though ultimately incomplete."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Prematurely closed before resolving the issue after saying they would check directly."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent provided a thorough explanation of possible causes for missing daily bonuses but failed to follow through on the promise to check directly. The interaction ended prematurely without actual resolution or investigation.",
+      "coaching_tip": "Never offer to investigate an issue and then immediately ask if there's anything else you can help with—always follow through on your commitment to check the account before moving to close.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[05:18:29 AM] t3709905099: Full Name: t3709905099 Email Address: 2011kenderious@gmail.com Subject / How can we help you?: I collected my daily bonus for 2 days but haven't received anything\n[05:18:29 AM] t3709905099: Full Name: t3709905099 Email Address: 2011kenderious@gmail.com Subject / How can we help you?: I collected my daily bonus for 2 days but haven't received anything\n[05:18:57 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:18:57 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:19:46 AM] Karen Perez: I get why that’s confusing — let’s clear it up.\n\nIf you’re claiming the daily bonus but not seeing anything added, a few things could be going on:\n\nThe reward may be Gold Coins (GC), not Sweepstakes Coins (SC)\n→ GC and SC are shown separately in your balance\nThe bonus might not have been fully claimed\n→ Sometimes you need to click “Claim” and then confirm it\nThere could be a display delay or glitch\n→ Try logging out and back in or refreshing the page\nThe reward might be locked behind a requirement\n→ In some cases, certain bonuses don’t credit until conditions are met\n\nSince you mentioned earlier issues with login and account setup, it’s also possible the reward didn’t properly attach to your account.\n\nLet’s not guess — I can check it directly.\n[05:19:46 AM] Karen Perez: I get why that’s confusing — let’s clear it up.\n\nIf you’re claiming the daily bonus but not seeing anything added, a few things could be going on:\n\nThe reward may be Gold Coins (GC), not Sweepstakes Coins (SC)\n→ GC and SC are shown separately in your balance\nThe bonus might not have been fully claimed\n→ Sometimes you need to click “Claim” and then confirm it\nThere could be a display delay or glitch\n→ Try logging out and back in or refreshing the page\nThe reward might be locked behind a requirement\n→ In some cases, certain bonuses don’t credit until conditions are met\n\nSince you mentioned earlier issues with login and account setup, it’s also possible the reward didn’t properly attach to your account.\n\nLet’s not guess — I can check it directly.\n[05:20:51 AM] Karen Perez: Is there anything else I can do for you today?\n[05:20:51 AM] Karen Perez: Is there anything else I can do for you today?\n[05:20:59 AM] t3709905099: No\n[05:20:59 AM] t3709905099: No",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T05:21:56.122Z"
     }
   ]
 }
