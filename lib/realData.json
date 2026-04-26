@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T01:06:40.353Z",
-  "total_chats": 704,
+  "scored_at": "2026-04-26T01:21:46.358Z",
+  "total_chats": 705,
   "total_agents": 27,
   "agents": [
     {
@@ -28311,11 +28311,56 @@
           "raw_transcript": "[12:42:55 AM] t8907934821: Full Name: t8907934821 Email Address: lpogson.ycs@gmail.com Subject / How can we help you?: I’d like to self exclude\n[12:42:55 AM] t8907934821: Full Name: t8907934821 Email Address: lpogson.ycs@gmail.com Subject / How can we help you?: I’d like to self exclude\n[12:43:05 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:43:05 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:44:16 AM] Ludovicode Flores: May I ask why you would like to self-exclude?\n[12:44:16 AM] Ludovicode Flores: May I ask why you would like to self-exclude?\n[12:45:02 AM] t8907934821: Spending too much, minimal bonus wins - please move forward permanently exclude\n[12:45:02 AM] t8907934821: Spending too much, minimal bonus wins - please move forward permanently exclude\n[12:46:40 AM] Ludovicode Flores: As requested, your account has been permanently closed.\nJust so you know\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish\nyou all the very best!\n[12:46:40 AM] Ludovicode Flores: As requested, your account has been permanently closed.\nJust so you know\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and wellbeing of all our players\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish\nyou all the very best!\n[12:48:10 AM] Ludovicode Flores: Thanks for chatting with us\n[12:48:10 AM] Ludovicode Flores: Thanks for chatting with us",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T00:51:56.865Z"
+        },
+        {
+          "chat_id": "2048209654160650240",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-26T01:20:34.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided; agent immediately asked for time to investigate without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent acknowledged the issue by requesting time to investigate but asked no clarifying questions about the golden egg promotion or verification steps."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution provided; agent never returned with findings or next steps after requesting time to investigate."
+            },
+            "communication": {
+              "score": 6,
+              "notes": "Agent communicated the need for time but then went silent for over two minutes with no follow-up or status update."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No compliance violations observed in the limited interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided; chat appears abandoned after agent requested time to investigate."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 25,
+          "grade": "F",
+          "summary": "Agent requested time to investigate the golden egg issue but never returned with any information, resolution, or follow-up. The interaction lacks a greeting, resolution, and closing, appearing incomplete or abandoned.",
+          "coaching_tip": "Always provide status updates if investigation takes longer than 60 seconds, and ensure you return with findings or next steps rather than leaving the customer waiting indefinitely.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[01:16:50 AM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[01:16:50 AM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[01:17:03 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[01:17:03 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[01:17:10 AM] t7467972587: Yes\n[01:17:10 AM] t7467972587: Yes\n[01:19:17 AM] t7467972587: Ok thanks\n[01:19:17 AM] t7467972587: Ok thanks",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T01:21:45.857Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 1
+      "trend": 0
     },
     {
       "id": "5955",
@@ -63607,6 +63652,51 @@
       "raw_transcript": "[12:49:58 AM] Customer: Full Name: Quashane Nelson Email Address: Quashanabeach35@gmail.com Subject / How can we help you?: I’m trying to connect my phone number\n[12:49:58 AM] Customer: Full Name: Quashane Nelson Email Address: Quashanabeach35@gmail.com Subject / How can we help you?: I’m trying to connect my phone number\n[12:50:32 AM] Customer: Ok\n[12:50:32 AM] Customer: Ok\n[12:51:23 AM] Customer: Hello\n[12:51:23 AM] Customer: Hello",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T01:06:39.852Z"
+    },
+    {
+      "chat_id": "2048209654160650240",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-26T01:20:34.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided; agent immediately asked for time to investigate without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent acknowledged the issue by requesting time to investigate but asked no clarifying questions about the golden egg promotion or verification steps."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution provided; agent never returned with findings or next steps after requesting time to investigate."
+        },
+        "communication": {
+          "score": 6,
+          "notes": "Agent communicated the need for time but then went silent for over two minutes with no follow-up or status update."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No compliance violations observed in the limited interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided; chat appears abandoned after agent requested time to investigate."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 25,
+      "grade": "F",
+      "summary": "Agent requested time to investigate the golden egg issue but never returned with any information, resolution, or follow-up. The interaction lacks a greeting, resolution, and closing, appearing incomplete or abandoned.",
+      "coaching_tip": "Always provide status updates if investigation takes longer than 60 seconds, and ensure you return with findings or next steps rather than leaving the customer waiting indefinitely.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[01:16:50 AM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[01:16:50 AM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[01:17:03 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[01:17:03 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[01:17:10 AM] t7467972587: Yes\n[01:17:10 AM] t7467972587: Yes\n[01:19:17 AM] t7467972587: Ok thanks\n[01:19:17 AM] t7467972587: Ok thanks",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T01:21:45.857Z"
     }
   ]
 }
