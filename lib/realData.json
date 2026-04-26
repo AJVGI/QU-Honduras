@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T17:11:50.224Z",
-  "total_chats": 821,
+  "scored_at": "2026-04-26T17:42:01.379Z",
+  "total_chats": 823,
   "total_agents": 28,
   "agents": [
     {
@@ -5091,11 +5091,56 @@
           "raw_transcript": "[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:21 PM] t5661391840: Hello\n[05:04:21 PM] t5661391840: Hello\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T17:11:49.722Z"
+        },
+        {
+          "chat_id": "2048452129269837824",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-26T17:37:47.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Generic greeting with no personalization and agent name mismatch (Andrea vs Emily)."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions and eventually got full explanation of the login issue from customer."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting explanation but didn't fully address customer's claim that Facebook login worked previously and suddenly stopped."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and structured response with formatting, but didn't acknowledge customer's frustration or that method worked before."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made during the interaction."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with customer still responding; no visible closing from agent in provided text."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 57,
+          "grade": "F",
+          "summary": "Agent provided technically accurate information about login methods but didn't fully address why a previously working method suddenly failed. The response lacked empathy for the customer's frustration and didn't offer escalation when standard troubleshooting didn't resolve the issue.",
+          "coaching_tip": "When a customer states something worked yesterday but fails today, acknowledge this specifically and investigate account-level changes rather than only providing generic troubleshooting steps.",
+          "website": "Jackpot Daily",
+          "message_count": 36,
+          "raw_transcript": "[05:20:20 PM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Won't let me log in now through Facebook\n[05:20:20 PM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Won't let me log in now through Facebook\n[05:20:35 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:20:35 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:21:07 PM] Andrea Hernandez: Can you send me a screenshot of the issue your experiencing\n[05:21:07 PM] Andrea Hernandez: Can you send me a screenshot of the issue your experiencing\n[05:22:25 PM] Customer: OK hang on\n[05:22:25 PM] Customer: OK hang on\n[05:22:48 PM] Andrea Hernandez: Alright\n[05:22:48 PM] Andrea Hernandez: Alright\n[05:24:28 PM] Customer: Won't let me send the screenshots\n[05:24:28 PM] Customer: Won't let me send the screenshots\n[05:25:15 PM] Andrea Hernandez: What error does it show?\n[05:25:15 PM] Andrea Hernandez: What error does it show?\n[05:27:52 PM] Andrea Hernandez: Are you still here?\n[05:27:52 PM] Andrea Hernandez: Are you still here?\n[05:28:25 PM] Customer: Yes\n[05:28:25 PM] Customer: Yes\n[05:29:01 PM] Andrea Hernandez: Can you please tell me what error does it show?\n[05:29:01 PM] Andrea Hernandez: Can you please tell me what error does it show?\n[05:30:01 PM] Customer: It first gives me the option to put in my email and password and which I already have an email and password saved and then it says sign in with Facebook and I click that and when I click that then another screen comes up and says there is already a account made with the same information contact support or something but it just has warning across the top after I click the login with Facebook it says warning there's another account with this information you registered through Facebook but I click the Facebook one and it doesn't let me\n[05:30:01 PM] Customer: It first gives me the option to put in my email and password and which I already have an email and password saved and then it says sign in with Facebook and I click that and when I click that then another screen comes up and says there is already a account made with the same information contact support or something but it just has warning across the top after I click the login with Facebook it says warning there's another account with this information you registered through Facebook but I click the Facebook one and it doesn't let me\n[05:31:45 PM] Andrea Hernandez: Thanks for explaining — I see exactly what’s happening here 👍\n\nThis occurs when an account was already created using either:\n\nEmail & password, or\nFacebook login\n\n…but then a different login method is being used for the same details, which causes that “account already exists” warning.\n\n✅ What to do:\nIf you originally signed up with email/password, please log in using that method (don’t use Facebook)\nIf you signed up using Facebook, then you must always use the “Continue with Facebook” option\n\n⚠️ Important: These two login methods don’t automatically merge, even if they use the same email.\n[05:31:45 PM] Andrea Hernandez: Thanks for explaining — I see exactly what’s happening here 👍\n\nThis occurs when an account was already created using either:\n\nEmail & password, or\nFacebook login\n\n…but then a different login method is being used for the same details, which causes that “account already exists” warning.\n\n✅ What to do:\nIf you originally signed up with email/password, please log in using that method (don’t use Facebook)\nIf you signed up using Facebook, then you must always use the “Continue with Facebook” option\n\n⚠️ Important: These two login methods don’t automatically merge, even if they use the same email.\n[05:33:05 PM] Customer: I did\n[05:33:05 PM] Customer: I did\n[05:33:24 PM] Customer: Was working just fine last night now this morning all the sudden it ain't working too quick continue with Facebook\n[05:33:24 PM] Customer: Was working just fine last night now this morning all the sudden it ain't working too quick continue with Facebook\n[05:33:49 PM] Customer: I did it worked last night but now this morning is not working too quick continue with Facebook\n[05:33:49 PM] Customer: I did it worked last night but now this morning is not working too quick continue with Facebook\n[05:34:11 PM] Andrea Hernandez: Got it — if it was working last night and suddenly stopped this morning, this is likely a session/login glitch rather than anything wrong with your account 👍\n\nLet’s try a few quick fixes:\n\nLog out completely and close the browser/app\nClear your cache and cookies\nTry again using “Continue with Facebook”\nMake sure you’re logged into the correct Facebook account\nTry a different browser or use incognito/private mode\n\nAlso, avoid switching between email login and Facebook — stick to the one you originally used.\n[05:34:11 PM] Andrea Hernandez: Got it — if it was working last night and suddenly stopped this morning, this is likely a session/login glitch rather than anything wrong with your account 👍\n\nLet’s try a few quick fixes:\n\nLog out completely and close the browser/app\nClear your cache and cookies\nTry again using “Continue with Facebook”\nMake sure you’re logged into the correct Facebook account\nTry a different browser or use incognito/private mode\n\nAlso, avoid switching between email login and Facebook — stick to the one you originally used.\n[05:35:02 PM] Customer: OK\n[05:35:02 PM] Customer: OK\n[05:37:05 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:37:05 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T17:42:00.878Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": 17
+      "trend": 15
     },
     {
       "id": "5554",
@@ -28041,11 +28086,56 @@
           "raw_transcript": "[03:18:04 PM] t1006312034: Full Name: t1006312034 Email Address: Keyera_c@yahoo.com Subject / How can we help you?: Close account\n[03:18:04 PM] t1006312034: Full Name: t1006312034 Email Address: Keyera_c@yahoo.com Subject / How can we help you?: Close account\n[03:18:18 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[03:18:18 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[03:18:56 PM] t1006312034: thanks\n[03:18:56 PM] t1006312034: thanks\n[03:19:10 PM] Kenneth Aguilar: Can you tell me the reason you're trying to close the account?\n[03:19:10 PM] Kenneth Aguilar: Can you tell me the reason you're trying to close the account?\n[03:19:25 PM] t1006312034: Never win on here and just need to close\n[03:19:25 PM] t1006312034: Never win on here and just need to close\n[03:19:48 PM] t1006312034: Also trying to limit my gameplay\n[03:19:48 PM] t1006312034: Also trying to limit my gameplay\n[03:20:01 PM] Kenneth Aguilar: Okay, I understand.\n\nPlease allow me one moment.\n[03:20:01 PM] Kenneth Aguilar: Okay, I understand.\n\nPlease allow me one moment.\n[03:20:25 PM] t1006312034: sure thanks\n[03:20:25 PM] t1006312034: sure thanks\n[03:21:47 PM] Kenneth Aguilar: We're really sad to see you go\nAs requested, your account has been permanently closed.\n\nJust so you know:\n\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and well being of all our players\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish\nyou all the very best!\n[03:21:47 PM] Kenneth Aguilar: We're really sad to see you go\nAs requested, your account has been permanently closed.\n\nJust so you know:\n\n- You won't be able to access gameplay or reopen the account going forward\n- This is in place to support the safety and well being of all our players\nIf there's anything we could've done better, we'd genuinely love to hear it. We wish\nyou all the very best!\n[03:22:16 PM] t1006312034: Thanks\n[03:22:16 PM] t1006312034: Thanks\n[03:23:25 PM] Kenneth Aguilar: Awesome, is there anything else I can assist you with?\n[03:23:25 PM] Kenneth Aguilar: Awesome, is there anything else I can assist you with?\n[03:28:47 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[03:28:47 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T15:32:00.252Z"
+        },
+        {
+          "chat_id": "2048455037373403136",
+          "agent_name": "Kenneth Aguilar",
+          "agent_id": "5955",
+          "timestamp": "2026-04-26T17:40:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the basic issue about the sign-on bonus but provided confusing initial explanation about needing to play it."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Issue was escalated appropriately after initial confusion, though customer left without clear timeline or next steps."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Professional but confusing initial response about playing the bonus contradicted later explanation that it would be auto-credited."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately did not promise unauthorized bonuses and escalated to team."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing statement, farewell, or offer of further assistance; chat ended abruptly after customer's acknowledgment."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent handled the bonus inquiry with appropriate escalation but provided confusing initial information about needing to 'play' the bonus before clarifying it would be auto-credited. The interaction lacked both a proper greeting and closing, and the contradictory messaging created unnecessary confusion.",
+          "coaching_tip": "Always open with a proper greeting and close with an offer for further assistance; avoid giving incomplete or contradictory information before fully reviewing the account situation.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[05:31:54 PM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[05:31:54 PM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[05:32:11 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:32:11 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:32:26 PM] t3294762125: Ty\n[05:32:26 PM] t3294762125: Ty\n[05:34:47 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:34:47 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:35:10 PM] t3294762125: Ty\n[05:35:10 PM] t3294762125: Ty\n[05:36:09 PM] Kenneth Aguilar: Okay as I can see the bonus was requested yesterday and claimed today, to get it it has to be played.\n[05:36:09 PM] Kenneth Aguilar: Okay as I can see the bonus was requested yesterday and claimed today, to get it it has to be played.\n[05:36:57 PM] t3294762125: How do I play it if there's no credits posted to my account\n[05:36:57 PM] t3294762125: How do I play it if there's no credits posted to my account\n[05:38:49 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:38:49 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:38:58 PM] t3294762125: Ok\n[05:38:58 PM] t3294762125: Ok\n[05:39:20 PM] Kenneth Aguilar: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[05:39:20 PM] Kenneth Aguilar: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[05:40:01 PM] t3294762125: K ty\n[05:40:01 PM] t3294762125: K ty",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T17:41:51.667Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -6
+      "trend": 4
     },
     {
       "id": "5805",
@@ -74146,6 +74236,96 @@
       "raw_transcript": "[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:21 PM] t5661391840: Hello\n[05:04:21 PM] t5661391840: Hello\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T17:11:49.722Z"
+    },
+    {
+      "chat_id": "2048455037373403136",
+      "agent_name": "Kenneth Aguilar",
+      "agent_id": "5955",
+      "timestamp": "2026-04-26T17:40:10.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly into 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Agent understood the basic issue about the sign-on bonus but provided confusing initial explanation about needing to play it."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Issue was escalated appropriately after initial confusion, though customer left without clear timeline or next steps."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Professional but confusing initial response about playing the bonus contradicted later explanation that it would be auto-credited."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately did not promise unauthorized bonuses and escalated to team."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing statement, farewell, or offer of further assistance; chat ended abruptly after customer's acknowledgment."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent handled the bonus inquiry with appropriate escalation but provided confusing initial information about needing to 'play' the bonus before clarifying it would be auto-credited. The interaction lacked both a proper greeting and closing, and the contradictory messaging created unnecessary confusion.",
+      "coaching_tip": "Always open with a proper greeting and close with an offer for further assistance; avoid giving incomplete or contradictory information before fully reviewing the account situation.",
+      "website": "Jackpot Daily",
+      "message_count": 22,
+      "raw_transcript": "[05:31:54 PM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[05:31:54 PM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[05:32:11 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:32:11 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:32:26 PM] t3294762125: Ty\n[05:32:26 PM] t3294762125: Ty\n[05:34:47 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:34:47 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:35:10 PM] t3294762125: Ty\n[05:35:10 PM] t3294762125: Ty\n[05:36:09 PM] Kenneth Aguilar: Okay as I can see the bonus was requested yesterday and claimed today, to get it it has to be played.\n[05:36:09 PM] Kenneth Aguilar: Okay as I can see the bonus was requested yesterday and claimed today, to get it it has to be played.\n[05:36:57 PM] t3294762125: How do I play it if there's no credits posted to my account\n[05:36:57 PM] t3294762125: How do I play it if there's no credits posted to my account\n[05:38:49 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:38:49 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:38:58 PM] t3294762125: Ok\n[05:38:58 PM] t3294762125: Ok\n[05:39:20 PM] Kenneth Aguilar: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[05:39:20 PM] Kenneth Aguilar: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[05:40:01 PM] t3294762125: K ty\n[05:40:01 PM] t3294762125: K ty",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T17:41:51.667Z"
+    },
+    {
+      "chat_id": "2048452129269837824",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-26T17:37:47.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Generic greeting with no personalization and agent name mismatch (Andrea vs Emily)."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions and eventually got full explanation of the login issue from customer."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting explanation but didn't fully address customer's claim that Facebook login worked previously and suddenly stopped."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and structured response with formatting, but didn't acknowledge customer's frustration or that method worked before."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made during the interaction."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with customer still responding; no visible closing from agent in provided text."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 57,
+      "grade": "F",
+      "summary": "Agent provided technically accurate information about login methods but didn't fully address why a previously working method suddenly failed. The response lacked empathy for the customer's frustration and didn't offer escalation when standard troubleshooting didn't resolve the issue.",
+      "coaching_tip": "When a customer states something worked yesterday but fails today, acknowledge this specifically and investigate account-level changes rather than only providing generic troubleshooting steps.",
+      "website": "Jackpot Daily",
+      "message_count": 36,
+      "raw_transcript": "[05:20:20 PM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Won't let me log in now through Facebook\n[05:20:20 PM] Customer: Full Name: DEFREITAS TABITHA Email Address: mnsweetheartf49@gmail.com Subject / How can we help you?: Won't let me log in now through Facebook\n[05:20:35 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:20:35 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:21:07 PM] Andrea Hernandez: Can you send me a screenshot of the issue your experiencing\n[05:21:07 PM] Andrea Hernandez: Can you send me a screenshot of the issue your experiencing\n[05:22:25 PM] Customer: OK hang on\n[05:22:25 PM] Customer: OK hang on\n[05:22:48 PM] Andrea Hernandez: Alright\n[05:22:48 PM] Andrea Hernandez: Alright\n[05:24:28 PM] Customer: Won't let me send the screenshots\n[05:24:28 PM] Customer: Won't let me send the screenshots\n[05:25:15 PM] Andrea Hernandez: What error does it show?\n[05:25:15 PM] Andrea Hernandez: What error does it show?\n[05:27:52 PM] Andrea Hernandez: Are you still here?\n[05:27:52 PM] Andrea Hernandez: Are you still here?\n[05:28:25 PM] Customer: Yes\n[05:28:25 PM] Customer: Yes\n[05:29:01 PM] Andrea Hernandez: Can you please tell me what error does it show?\n[05:29:01 PM] Andrea Hernandez: Can you please tell me what error does it show?\n[05:30:01 PM] Customer: It first gives me the option to put in my email and password and which I already have an email and password saved and then it says sign in with Facebook and I click that and when I click that then another screen comes up and says there is already a account made with the same information contact support or something but it just has warning across the top after I click the login with Facebook it says warning there's another account with this information you registered through Facebook but I click the Facebook one and it doesn't let me\n[05:30:01 PM] Customer: It first gives me the option to put in my email and password and which I already have an email and password saved and then it says sign in with Facebook and I click that and when I click that then another screen comes up and says there is already a account made with the same information contact support or something but it just has warning across the top after I click the login with Facebook it says warning there's another account with this information you registered through Facebook but I click the Facebook one and it doesn't let me\n[05:31:45 PM] Andrea Hernandez: Thanks for explaining — I see exactly what’s happening here 👍\n\nThis occurs when an account was already created using either:\n\nEmail & password, or\nFacebook login\n\n…but then a different login method is being used for the same details, which causes that “account already exists” warning.\n\n✅ What to do:\nIf you originally signed up with email/password, please log in using that method (don’t use Facebook)\nIf you signed up using Facebook, then you must always use the “Continue with Facebook” option\n\n⚠️ Important: These two login methods don’t automatically merge, even if they use the same email.\n[05:31:45 PM] Andrea Hernandez: Thanks for explaining — I see exactly what’s happening here 👍\n\nThis occurs when an account was already created using either:\n\nEmail & password, or\nFacebook login\n\n…but then a different login method is being used for the same details, which causes that “account already exists” warning.\n\n✅ What to do:\nIf you originally signed up with email/password, please log in using that method (don’t use Facebook)\nIf you signed up using Facebook, then you must always use the “Continue with Facebook” option\n\n⚠️ Important: These two login methods don’t automatically merge, even if they use the same email.\n[05:33:05 PM] Customer: I did\n[05:33:05 PM] Customer: I did\n[05:33:24 PM] Customer: Was working just fine last night now this morning all the sudden it ain't working too quick continue with Facebook\n[05:33:24 PM] Customer: Was working just fine last night now this morning all the sudden it ain't working too quick continue with Facebook\n[05:33:49 PM] Customer: I did it worked last night but now this morning is not working too quick continue with Facebook\n[05:33:49 PM] Customer: I did it worked last night but now this morning is not working too quick continue with Facebook\n[05:34:11 PM] Andrea Hernandez: Got it — if it was working last night and suddenly stopped this morning, this is likely a session/login glitch rather than anything wrong with your account 👍\n\nLet’s try a few quick fixes:\n\nLog out completely and close the browser/app\nClear your cache and cookies\nTry again using “Continue with Facebook”\nMake sure you’re logged into the correct Facebook account\nTry a different browser or use incognito/private mode\n\nAlso, avoid switching between email login and Facebook — stick to the one you originally used.\n[05:34:11 PM] Andrea Hernandez: Got it — if it was working last night and suddenly stopped this morning, this is likely a session/login glitch rather than anything wrong with your account 👍\n\nLet’s try a few quick fixes:\n\nLog out completely and close the browser/app\nClear your cache and cookies\nTry again using “Continue with Facebook”\nMake sure you’re logged into the correct Facebook account\nTry a different browser or use incognito/private mode\n\nAlso, avoid switching between email login and Facebook — stick to the one you originally used.\n[05:35:02 PM] Customer: OK\n[05:35:02 PM] Customer: OK\n[05:37:05 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:37:05 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T17:42:00.878Z"
     }
   ]
 }
