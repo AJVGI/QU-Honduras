@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T16:31:58.554Z",
-  "total_chats": 816,
+  "scored_at": "2026-04-26T16:36:51.233Z",
+  "total_chats": 818,
   "total_agents": 28,
   "agents": [
     {
@@ -15225,11 +15225,56 @@
           "raw_transcript": "[04:00:49 PM] Customer: Full Name: Vincent Gaddy Email Address: Lamar.gaddy@gmail.com Subject / How can we help you?: I cleared my cache and signed back in but it still says I need to verify phone number for daily login reward.\n[04:00:49 PM] Customer: Full Name: Vincent Gaddy Email Address: Lamar.gaddy@gmail.com Subject / How can we help you?: I cleared my cache and signed back in but it still says I need to verify phone number for daily login reward.\n[04:01:47 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:01:47 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:03:57 PM] Angie Pereira: Yes if you are now creating your account you will have to verified first to access bonus\n[04:03:57 PM] Angie Pereira: Yes if you are now creating your account you will have to verified first to access bonus\n[04:04:25 PM] Customer: My account is already fully verified\n[04:04:25 PM] Customer: My account is already fully verified\n[04:05:10 PM] Customer: The day to login bonus task is to verify your phone number. My phone number is already verified but it's not checking off that I've completed the task\n[04:05:10 PM] Customer: The day to login bonus task is to verify your phone number. My phone number is already verified but it's not checking off that I've completed the task\n[04:06:19 PM] Angie Pereira: What is the email address that you are using on your account?\n[04:06:19 PM] Angie Pereira: What is the email address that you are using on your account?\n[04:06:53 PM] Customer: lamar.gaddy@gmail.com\n[04:06:53 PM] Customer: lamar.gaddy@gmail.com\n[04:11:02 PM] Angie Pereira: I understand, we apologize for the inconvinience please allow then the system to update so you can see it reflected on your account\n[04:11:02 PM] Angie Pereira: I understand, we apologize for the inconvinience please allow then the system to update so you can see it reflected on your account\n[04:12:10 PM] Customer: Ok\n[04:12:10 PM] Customer: Ok",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T16:16:58.520Z"
+        },
+        {
+          "chat_id": "2048437270482350080",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-26T16:35:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Understood the customer was asking about missing mystery bonus but didn't verify account eligibility or purchase history."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Provided clear explanation of mystery bonus requirements and timing, but didn't confirm if customer qualified or check their specific account status."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured explanation with helpful formatting and friendly tone throughout."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate information about promotional terms and conditions."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closing with offer for further assistance and friendly well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent provided a competent response with clear explanation of the mystery bonus program requirements and timing. However, the agent missed an opportunity to check the customer's specific account to verify eligibility or explain why they may not have received the bonus.",
+          "coaching_tip": "When customers ask about missing bonuses, always check their account history to verify if they met the requirements before providing general information—this personalizes the response and directly addresses their concern.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T16:36:50.732Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 13
+      "trend": 8
     },
     {
       "id": "5839",
@@ -36366,11 +36411,56 @@
           "raw_transcript": "[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:21:16 PM] Customer: Si\n[04:21:16 PM] Customer: Si\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T16:31:58.053Z"
+        },
+        {
+          "chat_id": "2048440810738831360",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-26T16:35:53.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "Agent never responded to the customer at all."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent made no attempt to understand or acknowledge the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted; customer received no response whatsoever."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "Complete absence of communication from the agent."
+            },
+            "compliance": {
+              "score": 5,
+              "notes": "No policy violations but also no interaction to evaluate compliance."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as agent never engaged."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 5,
+          "grade": "F",
+          "summary": "The agent completely failed to respond to the customer who submitted messages in Spanish indicating they want to play but something isn't working. This represents a total failure of customer service with zero engagement.",
+          "coaching_tip": "Always acknowledge customer messages immediately, even if you need translation assistance or time to investigate their issue.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[04:35:22 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: No trabajo\n[04:35:22 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: No trabajo\n[04:35:37 PM] Customer: Kiero. Jugar\n[04:35:37 PM] Customer: Kiero. Jugar",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T16:36:42.426Z"
         }
       ],
-      "avg_score": 48,
+      "avg_score": 47,
       "grade": "F",
-      "trend": -3
+      "trend": -16
     },
     {
       "id": "5555",
@@ -73696,6 +73786,96 @@
       "raw_transcript": "[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:21:16 PM] Customer: Si\n[04:21:16 PM] Customer: Si\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T16:31:58.053Z"
+    },
+    {
+      "chat_id": "2048440810738831360",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-26T16:35:53.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "Agent never responded to the customer at all."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent made no attempt to understand or acknowledge the issue."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted; customer received no response whatsoever."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "Complete absence of communication from the agent."
+        },
+        "compliance": {
+          "score": 5,
+          "notes": "No policy violations but also no interaction to evaluate compliance."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as agent never engaged."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 5,
+      "grade": "F",
+      "summary": "The agent completely failed to respond to the customer who submitted messages in Spanish indicating they want to play but something isn't working. This represents a total failure of customer service with zero engagement.",
+      "coaching_tip": "Always acknowledge customer messages immediately, even if you need translation assistance or time to investigate their issue.",
+      "website": "Jackpot Daily",
+      "message_count": 4,
+      "raw_transcript": "[04:35:22 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: No trabajo\n[04:35:22 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: No trabajo\n[04:35:37 PM] Customer: Kiero. Jugar\n[04:35:37 PM] Customer: Kiero. Jugar",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T16:36:42.426Z"
+    },
+    {
+      "chat_id": "2048437270482350080",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-26T16:35:30.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Understood the customer was asking about missing mystery bonus but didn't verify account eligibility or purchase history."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Provided clear explanation of mystery bonus requirements and timing, but didn't confirm if customer qualified or check their specific account status."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured explanation with helpful formatting and friendly tone throughout."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate information about promotional terms and conditions."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closing with offer for further assistance and friendly well-wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 71,
+      "grade": "C",
+      "summary": "Agent provided a competent response with clear explanation of the mystery bonus program requirements and timing. However, the agent missed an opportunity to check the customer's specific account to verify eligibility or explain why they may not have received the bonus.",
+      "coaching_tip": "When customers ask about missing bonuses, always check their account history to verify if they met the requirements before providing general information—this personalizes the response and directly addresses their concern.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T16:36:50.732Z"
     }
   ]
 }
