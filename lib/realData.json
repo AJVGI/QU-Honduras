@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T09:21:59.701Z",
-  "total_chats": 771,
+  "scored_at": "2026-04-26T10:01:48.006Z",
+  "total_chats": 772,
   "total_agents": 28,
   "agents": [
     {
@@ -21435,11 +21435,56 @@
           "raw_transcript": "[08:28:05 AM] Customer: Full Name: Susan A Brown Email Address: susanbrownca@gmail.com Subject / How can we help you?: I AM NOT ASLE. To receive verification. Code on. my Phone can I still play\n[08:28:05 AM] Customer: Full Name: Susan A Brown Email Address: susanbrownca@gmail.com Subject / How can we help you?: I AM NOT ASLE. To receive verification. Code on. my Phone can I still play\n[08:29:13 AM] Ariel Lanza: I completely understand the frustration when technology doesn't play along! It sounds like you're having a bit of trouble receiving that SMS verification code on your phone.\n\nBear with me for just a moment while I check your account status!\n\nTo answer your question: Yes, you can still play our games using Gold Coins (GC) or any existing Sweepstakes Coins (SC) already in your balance. However, you will need to complete that phone verification to fully secure your account and, most importantly, to be eligible for redemptions in the future.\n\nIf you aren't receiving the code, please try these \"Quick Fixes\":\nCheck for Blocks: Ensure you don't have \"Short Code\" or \"Premium Messaging\" blocked in your phone's settings.\n\nThe \"Airplane Mode\" Trick: Turn Airplane Mode on for 10 seconds, then turn it off. This forces your phone to reconnect to the nearest cell tower.\n\nRestart your Device: It sounds simple, but it often clears out stuck messages.\n\nWait & Retry: Sometimes carrier networks get congested. Wait about 10 minutes before requesting a new code to avoid \"spam\" locks.\n\nStill not working?\nIf you’ve tried the steps above and the code still isn't arriving, please let me know! I can check if there’s a typo in the phone number on file or if we need to try an alternative verification method for you.\n\nIn the meantime, feel free to enjoy the games in the lobby! Is there anything else I can assist you with while we get that code sorted out?\n[08:29:13 AM] Ariel Lanza: I completely understand the frustration when technology doesn't play along! It sounds like you're having a bit of trouble receiving that SMS verification code on your phone.\n\nBear with me for just a moment while I check your account status!\n\nTo answer your question: Yes, you can still play our games using Gold Coins (GC) or any existing Sweepstakes Coins (SC) already in your balance. However, you will need to complete that phone verification to fully secure your account and, most importantly, to be eligible for redemptions in the future.\n\nIf you aren't receiving the code, please try these \"Quick Fixes\":\nCheck for Blocks: Ensure you don't have \"Short Code\" or \"Premium Messaging\" blocked in your phone's settings.\n\nThe \"Airplane Mode\" Trick: Turn Airplane Mode on for 10 seconds, then turn it off. This forces your phone to reconnect to the nearest cell tower.\n\nRestart your Device: It sounds simple, but it often clears out stuck messages.\n\nWait & Retry: Sometimes carrier networks get congested. Wait about 10 minutes before requesting a new code to avoid \"spam\" locks.\n\nStill not working?\nIf you’ve tried the steps above and the code still isn't arriving, please let me know! I can check if there’s a typo in the phone number on file or if we need to try an alternative verification method for you.\n\nIn the meantime, feel free to enjoy the games in the lobby! Is there anything else I can assist you with while we get that code sorted out?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T08:36:47.011Z"
+        },
+        {
+          "chat_id": "2048337992982151168",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T10:01:13.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'give me a moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask clarifying questions about the signing bonus issue and instead addressed verification without confirming if that was the actual problem."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided verification instructions but never addressed the actual stated issue of missing signing bonus, potentially misdiagnosing the problem."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Instructions were clear and detailed, but the response didn't connect to the customer's specific concern about the signing bonus."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but failed to properly address the bonus inquiry which could be a compliance concern depending on bonus terms."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help but assumed issue was resolved without customer confirmation or actual resolution of the bonus question."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 52,
+          "grade": "F",
+          "summary": "Agent provided detailed verification instructions but failed to address the customer's actual issue about a missing signing bonus. The response appears to be a template answer about verification without investigating whether verification was truly the cause of the bonus not being received.",
+          "coaching_tip": "Always directly address the customer's stated issue first and ask clarifying questions before providing solutions—confirm whether the signing bonus requires verification or if there's another reason it wasn't received.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[09:46:48 AM] t4321669790: Full Name: t4321669790 Email Address: murphy31701@yahoo.com Subject / How can we help you?: Did not receive my signing bonus\n[09:46:48 AM] t4321669790: Full Name: t4321669790 Email Address: murphy31701@yahoo.com Subject / How can we help you?: Did not receive my signing bonus\n[09:47:10 AM] Ariel Lanza: Give me a moment to review this information.\n[09:47:10 AM] Ariel Lanza: Give me a moment to review this information.\n[09:49:00 AM] Ariel Lanza: I’ve checked your account and can see that your verification is not complete yet. To ensure your security and allow you to cash out your winnings, you'll just need to finish this one-time process.\n\nOnce you are verified, you will be able to access the \"Redeem\" tab whenever you meet the minimum balance requirements!\n\nHow to verify right now:\n\nLog in to your account and go to the \"Redeem\" tab.\n\nClick the button to start the process with our partner, Socure.\n\nTake a clear photo of the front and back of your ID (Driver's License, State ID, or Passport).\n\nComplete the quick liveness selfie as prompted.\n\nPro-tip: Make sure you are in a well-lit room and that all four corners of your ID are visible. If you are on a computer, using your mobile phone often makes this process much faster!\n\nMost accounts are verified instantly, but some may take up to 24 hours for a manual review. I’ll be keeping an eye on your status!\n\nIs there anything else I can help you with to get this finished?\n[09:49:00 AM] Ariel Lanza: I’ve checked your account and can see that your verification is not complete yet. To ensure your security and allow you to cash out your winnings, you'll just need to finish this one-time process.\n\nOnce you are verified, you will be able to access the \"Redeem\" tab whenever you meet the minimum balance requirements!\n\nHow to verify right now:\n\nLog in to your account and go to the \"Redeem\" tab.\n\nClick the button to start the process with our partner, Socure.\n\nTake a clear photo of the front and back of your ID (Driver's License, State ID, or Passport).\n\nComplete the quick liveness selfie as prompted.\n\nPro-tip: Make sure you are in a well-lit room and that all four corners of your ID are visible. If you are on a computer, using your mobile phone often makes this process much faster!\n\nMost accounts are verified instantly, but some may take up to 24 hours for a manual review. I’ll be keeping an eye on your status!\n\nIs there anything else I can help you with to get this finished?\n[09:58:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[09:58:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T10:01:47.504Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 17
+      "trend": 19
     },
     {
       "id": "5552",
@@ -69646,6 +69691,51 @@
       "raw_transcript": "[09:10:54 AM] Customer: Full Name: Michael Orminski Email Address: mike72390@gmail.com Subject / How can we help you?: Yo where did my first purchase bonus offer go? I didn't buy it yet and it's not there wtf\n[09:10:54 AM] Customer: Full Name: Michael Orminski Email Address: mike72390@gmail.com Subject / How can we help you?: Yo where did my first purchase bonus offer go? I didn't buy it yet and it's not there wtf\n[09:11:47 AM] Karen Perez: I totally get the frustration when an offer you were eyeing seems to have pulled a vanishing act. Let's look into what might be happening with those purchase packs.There are a few reasons why a specific pack might not be showing up right now:Sequential Order: Purchase packs must be unlocked in a specific order: $1 \\rightarrow 2 \\rightarrow 3$. If you are looking for the 2nd or 3rd pack, you won't see them until the previous one is completed.Verification Status: Many of our bonuses and offers require you to be fully KYC verified before they appear or can be accessed.Technical Glitch: Sometimes it’s just a display error. A quick Hard Refresh ($Ctrl+Shift+R$ on Windows or $Cmd+Shift+R$ on Mac) or clearing your Cache & Cookies usually brings those offers right back to the storefront.A quick reminder on the 1st Purchase (New User Offer) tiers:$10: 4,000 GC | 600 XP | 22 SC $50: 20,000 GC | 3,000 XP | 80 SC $100: 4,0000 GC | 6,000 XP | 140 SC If you’ve tried a refresh and you’re definitely verified but the offer still isn't there, let me know! I can dig deeper into your account settings to see exactly what’s going on.Have you already completed your account verification?\n[09:12:04 AM] Customer: Yall really gonna do me like that immediately out of the gates when I'm trying to make my first purchase?? This is shady\n[09:12:04 AM] Customer: Yall really gonna do me like that immediately out of the gates when I'm trying to make my first purchase?? This is shady\n[09:13:56 AM] Karen Perez: Let me take a look into your account.\n[09:13:56 AM] Karen Perez: Let me take a look into your account.\n[09:16:58 AM] Karen Perez: I totally get the frustration when an offer you were eyeing seems to have pulled a vanishing act. Let's look into what might be happening with those purchase packs.\n\nThere are a few reasons why a specific pack might not be showing up right now:\n\n]**Sequential Order**: Purchase packs must be unlocked in a specific order: $1 \\rightarrow 2 \\rightarrow 3$. If you are looking for the 2nd or 3rd pack, you won't see them until the previous one is completed.\n**Verification Status**: Many of our bonuses and offers require you to be fully KYC verified before they appear or can be accessed.\n**Technical Glitch**: Sometimes it’s just a display error. A quick **Hard Refresh** ($Ctrl+Shift+R$ on Windows or $Cmd+Shift+R$ on Mac) or clearing your **Cache & Cookies** usually brings those offers right back to the storefront.\n\n**A quick reminder on the 1st Purchase (New User Offer) tiers:**\n* **$10**: 4,000 GC | 600 XP | 22 SC\n* **$50**: 20,000 GC | 3,000 XP | 80 SC \n* **$100**: 4,0000 GC | 6,000 XP | [cite_start]140 SC\n[09:16:58 AM] Karen Perez: I totally get the frustration when an offer you were eyeing seems to have pulled a vanishing act. Let's look into what might be happening with those purchase packs.\n\nThere are a few reasons why a specific pack might not be showing up right now:\n\n]**Sequential Order**: Purchase packs must be unlocked in a specific order: $1 \\rightarrow 2 \\rightarrow 3$. If you are looking for the 2nd or 3rd pack, you won't see them until the previous one is completed.\n**Verification Status**: Many of our bonuses and offers require you to be fully KYC verified before they appear or can be accessed.\n**Technical Glitch**: Sometimes it’s just a display error. A quick **Hard Refresh** ($Ctrl+Shift+R$ on Windows or $Cmd+Shift+R$ on Mac) or clearing your **Cache & Cookies** usually brings those offers right back to the storefront.\n\n**A quick reminder on the 1st Purchase (New User Offer) tiers:**\n* **$10**: 4,000 GC | 600 XP | 22 SC\n* **$50**: 20,000 GC | 3,000 XP | 80 SC \n* **$100**: 4,0000 GC | 6,000 XP | [cite_start]140 SC\n[09:17:57 AM] Karen Perez: Sorry, are you still there?\n[09:17:57 AM] Karen Perez: Sorry, are you still there?\n[09:19:01 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[09:19:01 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T09:21:59.199Z"
+    },
+    {
+      "chat_id": "2048337992982151168",
+      "agent_name": "Ariel Lanza",
+      "agent_id": "5839",
+      "timestamp": "2026-04-26T10:01:13.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'give me a moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask clarifying questions about the signing bonus issue and instead addressed verification without confirming if that was the actual problem."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent provided verification instructions but never addressed the actual stated issue of missing signing bonus, potentially misdiagnosing the problem."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Instructions were clear and detailed, but the response didn't connect to the customer's specific concern about the signing bonus."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, but failed to properly address the bonus inquiry which could be a compliance concern depending on bonus terms."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help but assumed issue was resolved without customer confirmation or actual resolution of the bonus question."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 52,
+      "grade": "F",
+      "summary": "Agent provided detailed verification instructions but failed to address the customer's actual issue about a missing signing bonus. The response appears to be a template answer about verification without investigating whether verification was truly the cause of the bonus not being received.",
+      "coaching_tip": "Always directly address the customer's stated issue first and ask clarifying questions before providing solutions—confirm whether the signing bonus requires verification or if there's another reason it wasn't received.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[09:46:48 AM] t4321669790: Full Name: t4321669790 Email Address: murphy31701@yahoo.com Subject / How can we help you?: Did not receive my signing bonus\n[09:46:48 AM] t4321669790: Full Name: t4321669790 Email Address: murphy31701@yahoo.com Subject / How can we help you?: Did not receive my signing bonus\n[09:47:10 AM] Ariel Lanza: Give me a moment to review this information.\n[09:47:10 AM] Ariel Lanza: Give me a moment to review this information.\n[09:49:00 AM] Ariel Lanza: I’ve checked your account and can see that your verification is not complete yet. To ensure your security and allow you to cash out your winnings, you'll just need to finish this one-time process.\n\nOnce you are verified, you will be able to access the \"Redeem\" tab whenever you meet the minimum balance requirements!\n\nHow to verify right now:\n\nLog in to your account and go to the \"Redeem\" tab.\n\nClick the button to start the process with our partner, Socure.\n\nTake a clear photo of the front and back of your ID (Driver's License, State ID, or Passport).\n\nComplete the quick liveness selfie as prompted.\n\nPro-tip: Make sure you are in a well-lit room and that all four corners of your ID are visible. If you are on a computer, using your mobile phone often makes this process much faster!\n\nMost accounts are verified instantly, but some may take up to 24 hours for a manual review. I’ll be keeping an eye on your status!\n\nIs there anything else I can help you with to get this finished?\n[09:49:00 AM] Ariel Lanza: I’ve checked your account and can see that your verification is not complete yet. To ensure your security and allow you to cash out your winnings, you'll just need to finish this one-time process.\n\nOnce you are verified, you will be able to access the \"Redeem\" tab whenever you meet the minimum balance requirements!\n\nHow to verify right now:\n\nLog in to your account and go to the \"Redeem\" tab.\n\nClick the button to start the process with our partner, Socure.\n\nTake a clear photo of the front and back of your ID (Driver's License, State ID, or Passport).\n\nComplete the quick liveness selfie as prompted.\n\nPro-tip: Make sure you are in a well-lit room and that all four corners of your ID are visible. If you are on a computer, using your mobile phone often makes this process much faster!\n\nMost accounts are verified instantly, but some may take up to 24 hours for a manual review. I’ll be keeping an eye on your status!\n\nIs there anything else I can help you with to get this finished?\n[09:58:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[09:58:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T10:01:47.504Z"
     }
   ]
 }
