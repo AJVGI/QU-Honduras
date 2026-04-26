@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T00:36:47.930Z",
-  "total_chats": 697,
+  "scored_at": "2026-04-26T00:42:01.781Z",
+  "total_chats": 700,
   "total_agents": 27,
   "agents": [
     {
@@ -14001,11 +14001,56 @@
           "raw_transcript": "[11:27:22 PM] t6716857680: Full Name: t6716857680 Email Address: anitabussell4@gmail.com Subject / How can we help you?: Verified but no bonus\n[11:27:22 PM] t6716857680: Full Name: t6716857680 Email Address: anitabussell4@gmail.com Subject / How can we help you?: Verified but no bonus\n[11:27:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:27:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:28:05 PM] t6716857680: It's been hours since I verified...still no daily bonus or golden egg and no email from anyone\n[11:28:05 PM] t6716857680: It's been hours since I verified...still no daily bonus or golden egg and no email from anyone\n[11:30:14 PM] Jonathan Fuentes: Thanks for your patience — I understand how you’re feeling \n\nSince it’s currently the weekend, some processes like verification updates and rewards can take a bit longer than usual to reflect.\nIf you’d like to help speed things up, I recommend creating a support ticket so the team can take a closer look. You can do that by sending an email to support@jackpotdaily.com with a brief description of the issue.\n\nTo help prioritize your case, make sure to include “ESCALATE” in the subject line \n\nLet me know if you need help with anything else!\n[11:30:14 PM] Jonathan Fuentes: Thanks for your patience — I understand how you’re feeling \n\nSince it’s currently the weekend, some processes like verification updates and rewards can take a bit longer than usual to reflect.\nIf you’d like to help speed things up, I recommend creating a support ticket so the team can take a closer look. You can do that by sending an email to support@jackpotdaily.com with a brief description of the issue.\n\nTo help prioritize your case, make sure to include “ESCALATE” in the subject line \n\nLet me know if you need help with anything else!\n[11:31:45 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[11:31:45 PM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T23:36:42.028Z"
+        },
+        {
+          "chat_id": "2048197533536448512",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-26T00:37:48.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional acknowledgment but no personalized greeting or name usage."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Asked good clarifying questions about the verification issue and email details to understand the problem thoroughly."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Properly explained the known system issue and provided clear escalation path with specific instructions including ESCALATE tag."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and professional throughout with well-structured guidance on next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately escalated without making unauthorized promises about resolution timeline."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Apologized for incomplete resolution and set expectation for follow-up, but didn't explicitly offer further help or say goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent handled a verification issue competently by diagnosing the problem, explaining a known system issue, and providing clear escalation instructions. Communication was professional and empathetic throughout with appropriate next steps given.",
+          "coaching_tip": "Personalize the greeting by using the customer's name (Onee) and add a proper closing that explicitly asks if there's anything else needed before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[12:28:40 AM] Customer: Full Name: Onee Reid Email Address: Risingking2009@gmail.com Subject / How can we help you?: I’m still having trouble to verify my account so I can redeem my rewards\n[12:28:40 AM] Customer: Full Name: Onee Reid Email Address: Risingking2009@gmail.com Subject / How can we help you?: I’m still having trouble to verify my account so I can redeem my rewards\n[12:28:52 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:28:52 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:29:39 AM] Jonathan Fuentes: I’d be happy to help you with that.\n\nCould you let me know what issue you’re running into during the verification process? That way I can guide you better and help get it sorted out.\n[12:29:39 AM] Jonathan Fuentes: I’d be happy to help you with that.\n\nCould you let me know what issue you’re running into during the verification process? That way I can guide you better and help get it sorted out.\n[12:30:11 AM] Customer: I’m assuming the address part\n[12:30:11 AM] Customer: I’m assuming the address part\n[12:31:03 AM] Jonathan Fuentes: Did you happen to receive any email or message with more details about the issue? That can help us understand exactly what’s causing the problem and guide you better.\n[12:31:03 AM] Jonathan Fuentes: Did you happen to receive any email or message with more details about the issue? That can help us understand exactly what’s causing the problem and guide you better.\n[12:32:07 AM] Customer: Yes but I was going through connection issues on my end and I guess by the time I was able to get connection the link I received was expired\n[12:32:07 AM] Customer: Yes but I was going through connection issues on my end and I guess by the time I was able to get connection the link I received was expired\n[12:33:57 AM] Jonathan Fuentes: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues\n[12:33:57 AM] Jonathan Fuentes: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues\n[12:35:05 AM] Jonathan Fuentes: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:35:05 AM] Jonathan Fuentes: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:37:45 AM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[12:37:45 AM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T00:41:51.638Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 19
+      "trend": 17
     },
     {
       "id": "5806",
@@ -18708,11 +18753,56 @@
           "raw_transcript": "[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:29 PM] Customer: Full Name: Dan Hunter Email Address: night_man_747@yahoo.com Subject / How can we help you?: The game will not allow me back in my location. Service services are open and allow allowing it to connect to my phone, but it will not.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:16:46 PM] Cairo Osorto: Thanks for contacting.\n[11:17:09 PM] Customer: Hello Sean\n[11:17:09 PM] Customer: Hello Sean\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:17:53 PM] Cairo Osorto: Hello Dan! Sorry to hear you’re running into an issue — let’s get it\nsorted!\nA few things to try first:\n• Log out and log back in\n• Clear your browser’s cache and cookies\n• Try a different browser (Chrome, Firefox, Safari, etc.)\n• Disable any VPN or proxy\n• Check your internet connection is stable\n• Try on a different device if you have one handy\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:18:55 PM] Customer: I have tried all of that and I do not have a VPN proxy right now it’s not allowing me to even log back in\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:41 PM] Cairo Osorto: I see, sorry to hear that.\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:19:47 PM] Customer: And I am on my mobile device\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:20:17 PM] Cairo Osorto: Are you getting an error message? If so, can you please share a screenshot?\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:06 PM] Customer: No, I am not getting an error message. It is telling me to set my location services to allow and it’s already been sent to allow when I first signed up went back in and it’s still open allowing access.\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:21:47 PM] Cairo Osorto: Can you please share a screenshot to better understand what you're looking at?\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:13 PM] Customer: Like right now I’m not even talking to you from Chrome or anything. I am connected to you through my email because it’s not allowing me to connect to you through the online platform.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:22:54 PM] Customer: If I try to go back and screenshot, it’s gonna disconnect me from you and I will have to do this all over again with someone else.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:23:45 PM] Cairo Osorto: I see, although I'm trying to better understand what the problem is in order to identify a possible solution.\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:24:42 PM] Customer: OK, let’s see if it will keep you while I try to go back and screenshot but I am pretty sure that I will be starting a new chat with someone else to do the same thing but that is OK\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:25:20 PM] Cairo Osorto: Since it sounds like the problem might be related to the location feature on your phone.\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:27:00 PM] Cairo Osorto: I understand. You seem to have left. Is there anything else I can assist you with?\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:29:14 PM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-25T23:31:46.402Z"
+        },
+        {
+          "chat_id": "2048199271852584960",
+          "agent_name": "Cairo Osorto",
+          "agent_id": "5847",
+          "timestamp": "2026-04-26T00:39:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Generic 'Thanks for contacting' without personalization or warmth, no name used."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the POA link request but didn't acknowledge customer's frustration about waiting since last week or explore their situation further."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Explained technical issue and provided email escalation path, but customer indicated they'd already tried this method repeatedly without success."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear explanation of the technical issue but lacked empathy for customer's week-long wait and repeated attempts."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately escalated to email support without making unauthorized promises."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Provided a closing but it felt dismissive given the customer's expressed frustration and lack of resolution."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided technically accurate information about a system issue and escalation path, but failed to acknowledge the customer's week-long wait and frustration. The resolution offered was the same method the customer stated they had already tried repeatedly, showing lack of active listening.",
+          "coaching_tip": "When a customer states they've already tried the solution you're offering, acknowledge this explicitly and explore alternative escalation paths or offer to personally follow up with the team on their behalf.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[12:35:34 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[12:35:34 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[12:35:53 AM] Customer: Send me a link to verify my account.\n[12:35:53 AM] Customer: Send me a link to verify my account.\n[12:36:00 AM] Cairo Osorto: Thanks for contacting.\n[12:36:00 AM] Cairo Osorto: Thanks for contacting.\n[12:36:01 AM] Customer: I been waiting since last week.\n[12:36:01 AM] Customer: I been waiting since last week.\n[12:37:08 AM] Customer: Send link and I will upload my home address with my Alabama id that states my 95 Beckham Circle address also with a bank statement with the same address.\n[12:37:08 AM] Customer: Send link and I will upload my home address with my Alabama id that states my 95 Beckham Circle address also with a bank statement with the same address.\n[12:37:28 AM] Customer: ?\n[12:37:28 AM] Customer: ?\n[12:37:47 AM] Cairo Osorto: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues.\n[12:37:47 AM] Cairo Osorto: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues.\n[12:38:00 AM] Cairo Osorto: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:38:00 AM] Cairo Osorto: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:38:39 AM] Customer: Smh ok. Been sending that same email 1000 times but thank for your little help as usual\n[12:38:39 AM] Customer: Smh ok. Been sending that same email 1000 times but thank for your little help as usual\n[12:39:53 AM] Cairo Osorto: Thanks for chatting with us, good luck out there.\n[12:39:53 AM] Cairo Osorto: Thanks for chatting with us, good luck out there.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T00:41:43.228Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": -7
+      "trend": 3
     },
     {
       "id": "5669",
@@ -27996,11 +28086,56 @@
           "raw_transcript": "[12:23:41 AM] t9953519863: Full Name: t9953519863 Email Address: tthomas2058@yahoo.com Subject / How can we help you?: Please unlock my profile so I can change the name and address\n[12:23:41 AM] t9953519863: Full Name: t9953519863 Email Address: tthomas2058@yahoo.com Subject / How can we help you?: Please unlock my profile so I can change the name and address\n[12:23:53 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:23:53 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:24:24 AM] t9953519863: Ty\n[12:24:24 AM] t9953519863: Ty\n[12:24:33 AM] Ludovicode Flores: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:24:33 AM] Ludovicode Flores: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:25:20 AM] t9953519863: I'm just doing what you told me my options were\n[12:25:20 AM] t9953519863: I'm just doing what you told me my options were\n[12:25:56 AM] t9953519863: I just need to change name and address to match the id\n[12:25:56 AM] t9953519863: I just need to change name and address to match the id\n[12:26:39 AM] t9953519863: Can you just delete the account altogether I'll reopen it accordingly\n[12:26:39 AM] t9953519863: Can you just delete the account altogether I'll reopen it accordingly\n[12:26:52 AM] Ludovicode Flores: Yes just create the ticket, our team will assist you with updating your name and address.\n[12:26:52 AM] Ludovicode Flores: Yes just create the ticket, our team will assist you with updating your name and address.\n[12:27:28 AM] Ludovicode Flores: If I delete your account, you will not be able to create another one.\n[12:27:28 AM] Ludovicode Flores: If I delete your account, you will not be able to create another one.\n[12:27:43 AM] t9953519863: Send me a screenshot of what the email should look like please\n[12:27:43 AM] t9953519863: Send me a screenshot of what the email should look like please\n[12:30:35 AM] Ludovicode Flores: Just send an email to the address I just provided with the word 'escalate' along with a description of your issue\n[12:30:35 AM] Ludovicode Flores: Just send an email to the address I just provided with the word 'escalate' along with a description of your issue\n[12:32:56 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[12:32:56 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T00:36:47.428Z"
+        },
+        {
+          "chat_id": "2048199427772215296",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-26T00:39:11.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, jumped straight to 'allow me one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions about the specific redemption status, timeline, or method before providing generic information."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent provided generic policy information but never actually looked into the customer's specific pending redemption or explained why it hasn't been approved."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Information was clear but didn't address the customer's frustrated tone or specific concern about their pending redemption status."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Provided accurate policy information with no violations, though could have been more specific to the customer's situation."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Asked 'Any questions' but provided no actual closing, didn't wait for response, and offered no further assistance statement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer and provided only generic redemption policy information without investigating the specific pending redemption that prompted the frustrated inquiry. The response did not address why the customer's redemption hasn't been approved or provide any timeline or next steps.",
+          "coaching_tip": "Always investigate the customer's specific account situation before providing generic policy information, especially when they're asking about a pending transaction.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[12:36:11 AM] t1224229816: Full Name: t1224229816 Email Address: cjnc.888@gmail.com Subject / How can we help you?: My redemption still hasn’t been approved! What’s the issue? Are ya’ll scamming me?\n[12:36:11 AM] t1224229816: Full Name: t1224229816 Email Address: cjnc.888@gmail.com Subject / How can we help you?: My redemption still hasn’t been approved! What’s the issue? Are ya’ll scamming me?\n[12:36:23 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:36:23 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:38:10 AM] Ludovicode Flores: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nIf speed matters most, go with the Debit Card! Any questions\n[12:38:10 AM] Ludovicode Flores: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nIf speed matters most, go with the Debit Card! Any questions",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T00:42:01.280Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": -8
+      "trend": -5
     },
     {
       "id": "5955",
@@ -62977,6 +63112,141 @@
       "raw_transcript": "[12:23:41 AM] t9953519863: Full Name: t9953519863 Email Address: tthomas2058@yahoo.com Subject / How can we help you?: Please unlock my profile so I can change the name and address\n[12:23:41 AM] t9953519863: Full Name: t9953519863 Email Address: tthomas2058@yahoo.com Subject / How can we help you?: Please unlock my profile so I can change the name and address\n[12:23:53 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:23:53 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:24:24 AM] t9953519863: Ty\n[12:24:24 AM] t9953519863: Ty\n[12:24:33 AM] Ludovicode Flores: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:24:33 AM] Ludovicode Flores: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:25:20 AM] t9953519863: I'm just doing what you told me my options were\n[12:25:20 AM] t9953519863: I'm just doing what you told me my options were\n[12:25:56 AM] t9953519863: I just need to change name and address to match the id\n[12:25:56 AM] t9953519863: I just need to change name and address to match the id\n[12:26:39 AM] t9953519863: Can you just delete the account altogether I'll reopen it accordingly\n[12:26:39 AM] t9953519863: Can you just delete the account altogether I'll reopen it accordingly\n[12:26:52 AM] Ludovicode Flores: Yes just create the ticket, our team will assist you with updating your name and address.\n[12:26:52 AM] Ludovicode Flores: Yes just create the ticket, our team will assist you with updating your name and address.\n[12:27:28 AM] Ludovicode Flores: If I delete your account, you will not be able to create another one.\n[12:27:28 AM] Ludovicode Flores: If I delete your account, you will not be able to create another one.\n[12:27:43 AM] t9953519863: Send me a screenshot of what the email should look like please\n[12:27:43 AM] t9953519863: Send me a screenshot of what the email should look like please\n[12:30:35 AM] Ludovicode Flores: Just send an email to the address I just provided with the word 'escalate' along with a description of your issue\n[12:30:35 AM] Ludovicode Flores: Just send an email to the address I just provided with the word 'escalate' along with a description of your issue\n[12:32:56 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[12:32:56 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T00:36:47.428Z"
+    },
+    {
+      "chat_id": "2048199271852584960",
+      "agent_name": "Cairo Osorto",
+      "agent_id": "5847",
+      "timestamp": "2026-04-26T00:39:58.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Generic 'Thanks for contacting' without personalization or warmth, no name used."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the POA link request but didn't acknowledge customer's frustration about waiting since last week or explore their situation further."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Explained technical issue and provided email escalation path, but customer indicated they'd already tried this method repeatedly without success."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear explanation of the technical issue but lacked empathy for customer's week-long wait and repeated attempts."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately escalated to email support without making unauthorized promises."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Provided a closing but it felt dismissive given the customer's expressed frustration and lack of resolution."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 54,
+      "grade": "F",
+      "summary": "Agent provided technically accurate information about a system issue and escalation path, but failed to acknowledge the customer's week-long wait and frustration. The resolution offered was the same method the customer stated they had already tried repeatedly, showing lack of active listening.",
+      "coaching_tip": "When a customer states they've already tried the solution you're offering, acknowledge this explicitly and explore alternative escalation paths or offer to personally follow up with the team on their behalf.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[12:35:34 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[12:35:34 AM] Customer: Full Name: Alex Besteda Email Address: tamyiah4@gmail.com Subject / How can we help you?: Send me a new link to upload my POA. I was told that my drivers license address has nothing to do with my home address.\n[12:35:53 AM] Customer: Send me a link to verify my account.\n[12:35:53 AM] Customer: Send me a link to verify my account.\n[12:36:00 AM] Cairo Osorto: Thanks for contacting.\n[12:36:00 AM] Cairo Osorto: Thanks for contacting.\n[12:36:01 AM] Customer: I been waiting since last week.\n[12:36:01 AM] Customer: I been waiting since last week.\n[12:37:08 AM] Customer: Send link and I will upload my home address with my Alabama id that states my 95 Beckham Circle address also with a bank statement with the same address.\n[12:37:08 AM] Customer: Send link and I will upload my home address with my Alabama id that states my 95 Beckham Circle address also with a bank statement with the same address.\n[12:37:28 AM] Customer: ?\n[12:37:28 AM] Customer: ?\n[12:37:47 AM] Cairo Osorto: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues.\n[12:37:47 AM] Cairo Osorto: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues.\n[12:38:00 AM] Cairo Osorto: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:38:00 AM] Cairo Osorto: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:38:39 AM] Customer: Smh ok. Been sending that same email 1000 times but thank for your little help as usual\n[12:38:39 AM] Customer: Smh ok. Been sending that same email 1000 times but thank for your little help as usual\n[12:39:53 AM] Cairo Osorto: Thanks for chatting with us, good luck out there.\n[12:39:53 AM] Cairo Osorto: Thanks for chatting with us, good luck out there.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T00:41:43.228Z"
+    },
+    {
+      "chat_id": "2048197533536448512",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-26T00:37:48.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional acknowledgment but no personalized greeting or name usage."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Asked good clarifying questions about the verification issue and email details to understand the problem thoroughly."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Properly explained the known system issue and provided clear escalation path with specific instructions including ESCALATE tag."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and professional throughout with well-structured guidance on next steps."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately escalated without making unauthorized promises about resolution timeline."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Apologized for incomplete resolution and set expectation for follow-up, but didn't explicitly offer further help or say goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 73,
+      "grade": "C",
+      "summary": "Agent handled a verification issue competently by diagnosing the problem, explaining a known system issue, and providing clear escalation instructions. Communication was professional and empathetic throughout with appropriate next steps given.",
+      "coaching_tip": "Personalize the greeting by using the customer's name (Onee) and add a proper closing that explicitly asks if there's anything else needed before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[12:28:40 AM] Customer: Full Name: Onee Reid Email Address: Risingking2009@gmail.com Subject / How can we help you?: I’m still having trouble to verify my account so I can redeem my rewards\n[12:28:40 AM] Customer: Full Name: Onee Reid Email Address: Risingking2009@gmail.com Subject / How can we help you?: I’m still having trouble to verify my account so I can redeem my rewards\n[12:28:52 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:28:52 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:29:39 AM] Jonathan Fuentes: I’d be happy to help you with that.\n\nCould you let me know what issue you’re running into during the verification process? That way I can guide you better and help get it sorted out.\n[12:29:39 AM] Jonathan Fuentes: I’d be happy to help you with that.\n\nCould you let me know what issue you’re running into during the verification process? That way I can guide you better and help get it sorted out.\n[12:30:11 AM] Customer: I’m assuming the address part\n[12:30:11 AM] Customer: I’m assuming the address part\n[12:31:03 AM] Jonathan Fuentes: Did you happen to receive any email or message with more details about the issue? That can help us understand exactly what’s causing the problem and guide you better.\n[12:31:03 AM] Jonathan Fuentes: Did you happen to receive any email or message with more details about the issue? That can help us understand exactly what’s causing the problem and guide you better.\n[12:32:07 AM] Customer: Yes but I was going through connection issues on my end and I guess by the time I was able to get connection the link I received was expired\n[12:32:07 AM] Customer: Yes but I was going through connection issues on my end and I guess by the time I was able to get connection the link I received was expired\n[12:33:57 AM] Jonathan Fuentes: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues\n[12:33:57 AM] Jonathan Fuentes: At the moment, there’s an inconvenience with the Proof of Address verification links, which may be affecting your ability to complete that step.\n\nOur team is already aware of this, and we’ll make sure to notify you as soon as the verification process is available again so you can complete it without issues\n[12:35:05 AM] Jonathan Fuentes: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:35:05 AM] Jonathan Fuentes: In the meantime, I recommend creating a support ticket so the team can assist you directly with your Proof of Address verification.\n\nYou can do that by sending an email to support@jackpotdaily.com and mentioning that you need help verifying your Proof of Address (POA).\n\nTo help speed things up, include any relevant details or screenshots, and add “ESCALATE” in the subject line so your case can be prioritized.\n[12:37:45 AM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!\n[12:37:45 AM] Jonathan Fuentes: I'm really sorry I couldn't fully resolve this today but our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T00:41:51.638Z"
+    },
+    {
+      "chat_id": "2048199427772215296",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-26T00:39:11.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, jumped straight to 'allow me one moment' without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask any clarifying questions about the specific redemption status, timeline, or method before providing generic information."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Agent provided generic policy information but never actually looked into the customer's specific pending redemption or explained why it hasn't been approved."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Information was clear but didn't address the customer's frustrated tone or specific concern about their pending redemption status."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Provided accurate policy information with no violations, though could have been more specific to the customer's situation."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Asked 'Any questions' but provided no actual closing, didn't wait for response, and offered no further assistance statement."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 44,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer and provided only generic redemption policy information without investigating the specific pending redemption that prompted the frustrated inquiry. The response did not address why the customer's redemption hasn't been approved or provide any timeline or next steps.",
+      "coaching_tip": "Always investigate the customer's specific account situation before providing generic policy information, especially when they're asking about a pending transaction.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[12:36:11 AM] t1224229816: Full Name: t1224229816 Email Address: cjnc.888@gmail.com Subject / How can we help you?: My redemption still hasn’t been approved! What’s the issue? Are ya’ll scamming me?\n[12:36:11 AM] t1224229816: Full Name: t1224229816 Email Address: cjnc.888@gmail.com Subject / How can we help you?: My redemption still hasn’t been approved! What’s the issue? Are ya’ll scamming me?\n[12:36:23 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:36:23 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[12:38:10 AM] Ludovicode Flores: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nIf speed matters most, go with the Debit Card! Any questions\n[12:38:10 AM] Ludovicode Flores: Just a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\nIf speed matters most, go with the Debit Card! Any questions",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T00:42:01.280Z"
     }
   ]
 }
