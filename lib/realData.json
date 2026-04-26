@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T18:06:59.628Z",
-  "total_chats": 827,
+  "scored_at": "2026-04-26T18:11:45.602Z",
+  "total_chats": 828,
   "total_agents": 28,
   "agents": [
     {
@@ -28311,11 +28311,56 @@
           "raw_transcript": "[05:31:54 PM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[05:31:54 PM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[05:32:11 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:32:11 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:32:26 PM] t3294762125: Ty\n[05:32:26 PM] t3294762125: Ty\n[05:34:47 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:34:47 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:35:10 PM] t3294762125: Ty\n[05:35:10 PM] t3294762125: Ty\n[05:36:09 PM] Kenneth Aguilar: Okay as I can see the bonus was requested yesterday and claimed today, to get it it has to be played.\n[05:36:09 PM] Kenneth Aguilar: Okay as I can see the bonus was requested yesterday and claimed today, to get it it has to be played.\n[05:36:57 PM] t3294762125: How do I play it if there's no credits posted to my account\n[05:36:57 PM] t3294762125: How do I play it if there's no credits posted to my account\n[05:38:49 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:38:49 PM] Kenneth Aguilar: Give me a moment to review this information.\n[05:38:58 PM] t3294762125: Ok\n[05:38:58 PM] t3294762125: Ok\n[05:39:20 PM] Kenneth Aguilar: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[05:39:20 PM] Kenneth Aguilar: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[05:40:01 PM] t3294762125: K ty\n[05:40:01 PM] t3294762125: K ty",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T17:41:51.667Z"
+        },
+        {
+          "chat_id": "2048457482015436800",
+          "agent_name": "Kenneth Aguilar",
+          "agent_id": "5955",
+          "timestamp": "2026-04-26T18:06:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent identified both the golden egg and referral issues, though took time to pivot from the first to the actual concern."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent correctly explained why referral didn't qualify, provided full program details, and clarified the cumulative $70 purchase requirement."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional overall, though the large policy paste could have been more conversational and better timed."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent correctly explained program terms without making unauthorized promises."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Chat appears truncated, but no visible closing, farewell, or offer of further assistance in the provided transcript."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 63,
+          "grade": "D",
+          "summary": "Agent handled the referral qualification issue competently by explaining requirements and providing program details, but failed to open with any greeting. The closing is missing or truncated, and communication could have been more personalized.",
+          "coaching_tip": "Always start chats with a warm greeting using the customer's name before diving into research; it sets a professional tone and builds rapport immediately.",
+          "website": "Jackpot Daily",
+          "message_count": 49,
+          "raw_transcript": "[05:41:36 PM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[05:41:36 PM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[05:42:03 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:42:03 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:42:33 PM] t7467972587: Yes I was trying to see how long it takes to get referral money because I referred someone someone and I didn't receive the money yet\n[05:42:33 PM] t7467972587: Yes I was trying to see how long it takes to get referral money because I referred someone someone and I didn't receive the money yet\n[05:43:34 PM] Kenneth Aguilar: Okay I can see the golden egg e\n[05:44:00 PM] Kenneth Aguilar: Okay I can see the golden egg was requested and claimed the 10th\n[05:44:00 PM] Kenneth Aguilar: Okay I can see the golden egg was requested and claimed the 10th\n[05:44:45 PM] t7467972587: I was talking about I referred someone and I haven't received the referral money yet how long does it take to come\n[05:44:45 PM] t7467972587: I was talking about I referred someone and I haven't received the referral money yet how long does it take to come\n[05:45:01 PM] Kenneth Aguilar: With your referral bonus, the request was sent but didn't qualify.\n[05:45:01 PM] Kenneth Aguilar: With your referral bonus, the request was sent but didn't qualify.\n[05:45:21 PM] t7467972587: Why wasn't it qualified\n[05:45:21 PM] t7467972587: Why wasn't it qualified\n[05:46:42 PM] Kenneth Aguilar: The Referral Program is one of the best deals on\nthe platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\n[05:46:42 PM] Kenneth Aguilar: The Referral Program is one of the best deals on\nthe platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\n[05:46:59 PM] Kenneth Aguilar: Please check those steps, unfortunately it didn't qualify.\n[05:46:59 PM] Kenneth Aguilar: Please check those steps, unfortunately it didn't qualify.\n[05:48:03 PM] t7467972587: So she had to make a purchase of 70$ or more\n[05:48:03 PM] t7467972587: So she had to make a purchase of 70$ or more\n[05:48:30 PM] Kenneth Aguilar: Yes, not a one time purchase, but a total of 70$ in purchases\n[05:48:30 PM] Kenneth Aguilar: Yes, not a one time purchase, but a total of 70$ in purchases\n[05:49:11 PM] t7467972587: Ok so if she put more on there to add up to $70 I will get it\n[05:49:11 PM] t7467972587: Ok so if she put more on there to add up to $70 I will get it\n[05:50:40 PM] Kenneth Aguilar: Please allow me one moment to check.\n[05:50:40 PM] Kenneth Aguilar: Please allow me one moment to check.\n[05:50:53 PM] t7467972587: Yes\n[05:50:53 PM] t7467972587: Yes\n[05:52:18 PM] t7467972587: Yes I'm waiting\n[05:52:18 PM] t7467972587: Yes I'm waiting\n[05:53:17 PM] Kenneth Aguilar: Thanks, one moment please.\n[05:53:17 PM] Kenneth Aguilar: Thanks, one moment please.\n[05:56:42 PM] Kenneth Aguilar: As I can see the account is not verified yet, that's the reason the referral bonus was not provided.\n\nThe deposit amount was met actually, you have to verify the account, once met those terms and conditions the bonus can be payed.\n[05:56:42 PM] Kenneth Aguilar: As I can see the account is not verified yet, that's the reason the referral bonus was not provided.\n\nThe deposit amount was met actually, you have to verify the account, once met those terms and conditions the bonus can be payed.\n[05:57:26 PM] t7467972587: Who account needs to verified\n[05:57:26 PM] t7467972587: Who account needs to verified\n[05:58:58 PM] Kenneth Aguilar: Both have to be verified, in this case the referred one is not verified yet.\n[05:58:58 PM] Kenneth Aguilar: Both have to be verified, in this case the referred one is not verified yet.\n[06:00:10 PM] t7467972587: Ok I will tell them but I done verified my account haven't I\n[06:00:10 PM] t7467972587: Ok I will tell them but I done verified my account haven't I\n[06:00:23 PM] Kenneth Aguilar: Terms and conditions can be checked in website so you know what has to be met, please keep an eye on that since they get updated constantly.\n\n\nhttps://www.jackpotdaily.com/promotions?id=5589556\n[06:00:23 PM] Kenneth Aguilar: Terms and conditions can be checked in website so you know what has to be met, please keep an eye on that since they get updated constantly.\n\n\nhttps://www.jackpotdaily.com/promotions?id=5589556\n[06:01:05 PM] Kenneth Aguilar: Yes, please complete steps, if completed inside the period the bonus still can be received.\n[06:01:05 PM] Kenneth Aguilar: Yes, please complete steps, if completed inside the period the bonus still can be received.\n[06:04:29 PM] Kenneth Aguilar: Hello, you still there?\n[06:04:29 PM] Kenneth Aguilar: Hello, you still there?\n[06:06:39 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:06:39 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T18:11:45.101Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": 4
+      "trend": 7
     },
     {
       "id": "5805",
@@ -74686,6 +74731,51 @@
       "raw_transcript": "[05:58:32 PM] t8212790450: Full Name: t8212790450 Email Address: kennys4040@gmail.com Subject / How can we help you?: Trying to get my free Easter egg thing or whatever the hell you want to call it I want my free spins or whatever\n[05:58:32 PM] t8212790450: Full Name: t8212790450 Email Address: kennys4040@gmail.com Subject / How can we help you?: Trying to get my free Easter egg thing or whatever the hell you want to call it I want my free spins or whatever\n[05:59:08 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[05:59:08 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[05:59:14 PM] t8212790450: Thank you\n[05:59:14 PM] t8212790450: Thank you\n[05:59:20 PM] Maritza Caceres: Thanks to you\n[05:59:20 PM] Maritza Caceres: Thanks to you\n[06:00:32 PM] Maritza Caceres: I’d be happy to explain how our Golden Egg promotion works.\nIt’s really simple to participate:\n\n1. KYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\n2. Smash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\n3. Get your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[06:00:32 PM] Maritza Caceres: I’d be happy to explain how our Golden Egg promotion works.\nIt’s really simple to participate:\n\n1. KYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\n2. Smash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\n3. Get your prize: You will receive a random SC prize instantly!\n\n\nA few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T18:06:59.128Z"
+    },
+    {
+      "chat_id": "2048457482015436800",
+      "agent_name": "Kenneth Aguilar",
+      "agent_id": "5955",
+      "timestamp": "2026-04-26T18:06:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent identified both the golden egg and referral issues, though took time to pivot from the first to the actual concern."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Agent correctly explained why referral didn't qualify, provided full program details, and clarified the cumulative $70 purchase requirement."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional overall, though the large policy paste could have been more conversational and better timed."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent correctly explained program terms without making unauthorized promises."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Chat appears truncated, but no visible closing, farewell, or offer of further assistance in the provided transcript."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 63,
+      "grade": "D",
+      "summary": "Agent handled the referral qualification issue competently by explaining requirements and providing program details, but failed to open with any greeting. The closing is missing or truncated, and communication could have been more personalized.",
+      "coaching_tip": "Always start chats with a warm greeting using the customer's name before diving into research; it sets a professional tone and builds rapport immediately.",
+      "website": "Jackpot Daily",
+      "message_count": 49,
+      "raw_transcript": "[05:41:36 PM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[05:41:36 PM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[05:42:03 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:42:03 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[05:42:33 PM] t7467972587: Yes I was trying to see how long it takes to get referral money because I referred someone someone and I didn't receive the money yet\n[05:42:33 PM] t7467972587: Yes I was trying to see how long it takes to get referral money because I referred someone someone and I didn't receive the money yet\n[05:43:34 PM] Kenneth Aguilar: Okay I can see the golden egg e\n[05:44:00 PM] Kenneth Aguilar: Okay I can see the golden egg was requested and claimed the 10th\n[05:44:00 PM] Kenneth Aguilar: Okay I can see the golden egg was requested and claimed the 10th\n[05:44:45 PM] t7467972587: I was talking about I referred someone and I haven't received the referral money yet how long does it take to come\n[05:44:45 PM] t7467972587: I was talking about I referred someone and I haven't received the referral money yet how long does it take to come\n[05:45:01 PM] Kenneth Aguilar: With your referral bonus, the request was sent but didn't qualify.\n[05:45:01 PM] Kenneth Aguilar: With your referral bonus, the request was sent but didn't qualify.\n[05:45:21 PM] t7467972587: Why wasn't it qualified\n[05:45:21 PM] t7467972587: Why wasn't it qualified\n[05:46:42 PM] Kenneth Aguilar: The Referral Program is one of the best deals on\nthe platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\n[05:46:42 PM] Kenneth Aguilar: The Referral Program is one of the best deals on\nthe platform — and there are 3 reward types that all run at the same time!\n\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\n[05:46:59 PM] Kenneth Aguilar: Please check those steps, unfortunately it didn't qualify.\n[05:46:59 PM] Kenneth Aguilar: Please check those steps, unfortunately it didn't qualify.\n[05:48:03 PM] t7467972587: So she had to make a purchase of 70$ or more\n[05:48:03 PM] t7467972587: So she had to make a purchase of 70$ or more\n[05:48:30 PM] Kenneth Aguilar: Yes, not a one time purchase, but a total of 70$ in purchases\n[05:48:30 PM] Kenneth Aguilar: Yes, not a one time purchase, but a total of 70$ in purchases\n[05:49:11 PM] t7467972587: Ok so if she put more on there to add up to $70 I will get it\n[05:49:11 PM] t7467972587: Ok so if she put more on there to add up to $70 I will get it\n[05:50:40 PM] Kenneth Aguilar: Please allow me one moment to check.\n[05:50:40 PM] Kenneth Aguilar: Please allow me one moment to check.\n[05:50:53 PM] t7467972587: Yes\n[05:50:53 PM] t7467972587: Yes\n[05:52:18 PM] t7467972587: Yes I'm waiting\n[05:52:18 PM] t7467972587: Yes I'm waiting\n[05:53:17 PM] Kenneth Aguilar: Thanks, one moment please.\n[05:53:17 PM] Kenneth Aguilar: Thanks, one moment please.\n[05:56:42 PM] Kenneth Aguilar: As I can see the account is not verified yet, that's the reason the referral bonus was not provided.\n\nThe deposit amount was met actually, you have to verify the account, once met those terms and conditions the bonus can be payed.\n[05:56:42 PM] Kenneth Aguilar: As I can see the account is not verified yet, that's the reason the referral bonus was not provided.\n\nThe deposit amount was met actually, you have to verify the account, once met those terms and conditions the bonus can be payed.\n[05:57:26 PM] t7467972587: Who account needs to verified\n[05:57:26 PM] t7467972587: Who account needs to verified\n[05:58:58 PM] Kenneth Aguilar: Both have to be verified, in this case the referred one is not verified yet.\n[05:58:58 PM] Kenneth Aguilar: Both have to be verified, in this case the referred one is not verified yet.\n[06:00:10 PM] t7467972587: Ok I will tell them but I done verified my account haven't I\n[06:00:10 PM] t7467972587: Ok I will tell them but I done verified my account haven't I\n[06:00:23 PM] Kenneth Aguilar: Terms and conditions can be checked in website so you know what has to be met, please keep an eye on that since they get updated constantly.\n\n\nhttps://www.jackpotdaily.com/promotions?id=5589556\n[06:00:23 PM] Kenneth Aguilar: Terms and conditions can be checked in website so you know what has to be met, please keep an eye on that since they get updated constantly.\n\n\nhttps://www.jackpotdaily.com/promotions?id=5589556\n[06:01:05 PM] Kenneth Aguilar: Yes, please complete steps, if completed inside the period the bonus still can be received.\n[06:01:05 PM] Kenneth Aguilar: Yes, please complete steps, if completed inside the period the bonus still can be received.\n[06:04:29 PM] Kenneth Aguilar: Hello, you still there?\n[06:04:29 PM] Kenneth Aguilar: Hello, you still there?\n[06:06:39 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:06:39 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T18:11:45.101Z"
     }
   ]
 }
