@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T02:51:49.346Z",
-  "total_chats": 713,
+  "scored_at": "2026-04-26T03:01:49.292Z",
+  "total_chats": 714,
   "total_agents": 27,
   "agents": [
     {
@@ -9123,11 +9123,56 @@
           "raw_transcript": "[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T02:31:42.016Z"
+        },
+        {
+          "chat_id": "2048233073128337408",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-26T02:58:26.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting present; agent jumped directly into 'allow me one moment' without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked for error message and screenshot, received the error code, but didn't fully explore the issue before providing generic troubleshooting."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting steps, then escalated to email support when those didn't work, which is appropriate but could have been more proactive."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional instructions provided, but asked if anything else was needed prematurely before confirming the issue was resolved."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; proper escalation procedure followed with correct email address provided."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Transcript appears truncated, but agent asked 'anything else' prematurely mid-conversation and no proper closing is visible."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent handled a verification system error by providing standard troubleshooting steps and escalating to email support when the issue persisted. However, the interaction lacked a proper greeting and the agent prematurely attempted to close the conversation before confirming the customer's issue was addressed.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name when available, and avoid asking 'anything else I can help with' until you've confirmed the current issue is fully resolved or escalated.",
+          "website": "Jackpot Daily",
+          "message_count": 30,
+          "raw_transcript": "[02:49:53 AM] t3426580537: Full Name: t3426580537 Email Address: kywildcats0535@gmail.com Subject / How can we help you?: Won't let me verify my account\n[02:49:53 AM] t3426580537: Full Name: t3426580537 Email Address: kywildcats0535@gmail.com Subject / How can we help you?: Won't let me verify my account\n[02:50:09 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:50:09 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:50:29 AM] Daniel Ayestas: Thank you for reaching out. Could you please let me know if you’re seeing any error message when this happens?\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[02:50:29 AM] Daniel Ayestas: Thank you for reaching out. Could you please let me know if you’re seeing any error message when this happens?\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[02:51:11 AM] t3426580537: System busy, please try again later (#943-9qs95)\n[02:51:11 AM] t3426580537: System busy, please try again later (#943-9qs95)\n[02:51:50 AM] t3426580537: I'm wanna be verified B4 making any purchases because I won't be able to redeem\n[02:51:50 AM] t3426580537: I'm wanna be verified B4 making any purchases because I won't be able to redeem\n[02:51:51 AM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[02:51:51 AM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[02:52:06 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:52:06 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:52:43 AM] t3426580537: I've tried closing it and redoing it\n[02:52:43 AM] t3426580537: I've tried closing it and redoing it\n[02:52:57 AM] t3426580537: Even downloaded the app and does same thing\n[02:52:57 AM] t3426580537: Even downloaded the app and does same thing\n[02:53:17 AM] t3426580537: On a android\n[02:53:17 AM] t3426580537: On a android\n[02:53:33 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:53:33 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:57:41 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:57:41 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:57:48 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:57:48 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:58:10 AM] t3426580537: No\n[02:58:10 AM] t3426580537: No\n[02:58:23 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:58:23 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T03:01:48.792Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -4
+      "trend": -6
     },
     {
       "id": "5844",
@@ -64417,6 +64462,51 @@
       "raw_transcript": "[02:44:15 AM] Customer: Full Name: Dessie Stark Email Address: d3stark@outlook.com Subject / How can we help you?: So I tried clearing the cache and tried a different browser. I dont know how to see if my number was used on a different account but I assume that is what customer services job is. So I had already been verified, made a deposit, had won some money and it kicked me out logged me off and now won't let me log back in keeps saying to register and I do then it says to verify phone number and it gives me the error message: The mobile phone number already exists. (#2440-i4qid)\n[02:44:15 AM] Customer: Full Name: Dessie Stark Email Address: d3stark@outlook.com Subject / How can we help you?: So I tried clearing the cache and tried a different browser. I dont know how to see if my number was used on a different account but I assume that is what customer services job is. So I had already been verified, made a deposit, had won some money and it kicked me out logged me off and now won't let me log back in keeps saying to register and I do then it says to verify phone number and it gives me the error message: The mobile phone number already exists. (#2440-i4qid)\n[02:44:42 AM] Cairo Osorto: Thanks for contacting.\n[02:44:42 AM] Cairo Osorto: Thanks for contacting.\n[02:46:19 AM] Cairo Osorto: I understand, sorry to hear that. May I ask whether you registered to the platform via email, Google or Facebook?\n[02:46:19 AM] Cairo Osorto: I understand, sorry to hear that. May I ask whether you registered to the platform via email, Google or Facebook?\n[02:49:48 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with tonight?\n[02:49:48 AM] Cairo Osorto: You seem to have left. Is there anything else I can assist you with tonight?\n[02:51:03 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:51:03 AM] Cairo Osorto: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T02:51:48.844Z"
+    },
+    {
+      "chat_id": "2048233073128337408",
+      "agent_name": "Daniel Ayestas",
+      "agent_id": "5808",
+      "timestamp": "2026-04-26T02:58:26.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting present; agent jumped directly into 'allow me one moment' without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked for error message and screenshot, received the error code, but didn't fully explore the issue before providing generic troubleshooting."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting steps, then escalated to email support when those didn't work, which is appropriate but could have been more proactive."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional instructions provided, but asked if anything else was needed prematurely before confirming the issue was resolved."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; proper escalation procedure followed with correct email address provided."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "Transcript appears truncated, but agent asked 'anything else' prematurely mid-conversation and no proper closing is visible."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent handled a verification system error by providing standard troubleshooting steps and escalating to email support when the issue persisted. However, the interaction lacked a proper greeting and the agent prematurely attempted to close the conversation before confirming the customer's issue was addressed.",
+      "coaching_tip": "Always open with a warm greeting using the customer's name when available, and avoid asking 'anything else I can help with' until you've confirmed the current issue is fully resolved or escalated.",
+      "website": "Jackpot Daily",
+      "message_count": 30,
+      "raw_transcript": "[02:49:53 AM] t3426580537: Full Name: t3426580537 Email Address: kywildcats0535@gmail.com Subject / How can we help you?: Won't let me verify my account\n[02:49:53 AM] t3426580537: Full Name: t3426580537 Email Address: kywildcats0535@gmail.com Subject / How can we help you?: Won't let me verify my account\n[02:50:09 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:50:09 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:50:29 AM] Daniel Ayestas: Thank you for reaching out. Could you please let me know if you’re seeing any error message when this happens?\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[02:50:29 AM] Daniel Ayestas: Thank you for reaching out. Could you please let me know if you’re seeing any error message when this happens?\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[02:51:11 AM] t3426580537: System busy, please try again later (#943-9qs95)\n[02:51:11 AM] t3426580537: System busy, please try again later (#943-9qs95)\n[02:51:50 AM] t3426580537: I'm wanna be verified B4 making any purchases because I won't be able to redeem\n[02:51:50 AM] t3426580537: I'm wanna be verified B4 making any purchases because I won't be able to redeem\n[02:51:51 AM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[02:51:51 AM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[02:52:06 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:52:06 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:52:43 AM] t3426580537: I've tried closing it and redoing it\n[02:52:43 AM] t3426580537: I've tried closing it and redoing it\n[02:52:57 AM] t3426580537: Even downloaded the app and does same thing\n[02:52:57 AM] t3426580537: Even downloaded the app and does same thing\n[02:53:17 AM] t3426580537: On a android\n[02:53:17 AM] t3426580537: On a android\n[02:53:33 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:53:33 AM] Daniel Ayestas: Give me a moment to review this information.\n[02:57:41 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:57:41 AM] Daniel Ayestas: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[02:57:48 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:57:48 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:58:10 AM] t3426580537: No\n[02:58:10 AM] t3426580537: No\n[02:58:23 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:58:23 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T03:01:48.792Z"
     }
   ]
 }
