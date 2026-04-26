@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T06:51:44.342Z",
-  "total_chats": 754,
+  "scored_at": "2026-04-26T07:06:47.249Z",
+  "total_chats": 755,
   "total_agents": 28,
   "agents": [
     {
@@ -17853,11 +17853,56 @@
           "raw_transcript": "[06:25:59 AM] Customer: Full Name: Maria Miranda Email Address: mirandamaria94@icloud.com Subject / How can we help you?: I cannot access my account via Facebook or the website.\n[06:25:59 AM] Customer: Full Name: Maria Miranda Email Address: mirandamaria94@icloud.com Subject / How can we help you?: I cannot access my account via Facebook or the website.\n[06:26:57 AM] Raul Figueroa: Thank you for reaching out to us!\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of a technical issue that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[06:26:57 AM] Raul Figueroa: Thank you for reaching out to us!\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of a technical issue that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[06:28:37 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[06:28:37 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T06:31:42.942Z"
+        },
+        {
+          "chat_id": "2048294391661150208",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-26T07:03:13.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Friendly greeting with empathy for the customer's frustration, though no name personalization used."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the verification delay but didn't probe into specifics like when verification was submitted or check account status."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent redirected to email support without attempting to investigate the missing link or provide immediate assistance within their capability."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and clear but the second response was somewhat confusing with awkward phrasing about creating a ticket."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made; appropriately escalated to proper channel."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with further assistance offered and well-wishes, though customer issue remained unresolved in chat."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided empathetic acknowledgment but quickly deflected to email support without investigating the account or missing verification link. The customer's specific concern about a promised link from a previous agent was not adequately addressed.",
+          "coaching_tip": "Before redirecting to email, attempt to check the account status or resend the verification link yourself to provide immediate value and reduce customer effort.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[06:53:33 AM] t5410025929: Full Name: t5410025929 Email Address: teenasaldana@gmail.com Subject / How can we help you?: Why is my profile not verified yet\n[06:53:33 AM] t5410025929: Full Name: t5410025929 Email Address: teenasaldana@gmail.com Subject / How can we help you?: Why is my profile not verified yet\n[06:54:04 AM] t5410025929: I never got the new verification link to retry verifying my information\n[06:54:04 AM] t5410025929: I never got the new verification link to retry verifying my information\n[06:54:26 AM] Raul Figueroa: Hey! I’m sorry for the delay — I know it’s frustrating waiting for your profile to be verified.\n\nVerification times can vary depending on volume and if any additional review is needed, which can sometimes cause delays.\n\nIf it’s been longer than expected, it may need a manual check. Please reach out to support@jackpotdaily.com\n from your registered email so the team can review your status and help move things forward.\n[06:54:26 AM] Raul Figueroa: Hey! I’m sorry for the delay — I know it’s frustrating waiting for your profile to be verified.\n\nVerification times can vary depending on volume and if any additional review is needed, which can sometimes cause delays.\n\nIf it’s been longer than expected, it may need a manual check. Please reach out to support@jackpotdaily.com\n from your registered email so the team can review your status and help move things forward.\n[06:55:36 AM] t5410025929: The last agent I talked to a few days ago said he was going to send a link to my email I never received it\n[06:55:36 AM] t5410025929: The last agent I talked to a few days ago said he was going to send a link to my email I never received it\n[06:56:24 AM] Raul Figueroa: Create a ticket with the email address that I attached in the last message so they can be able to sent it in the moment they give you a response.\n[06:56:24 AM] Raul Figueroa: Create a ticket with the email address that I attached in the last message so they can be able to sent it in the moment they give you a response.\n[07:03:10 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[07:03:10 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T07:06:46.747Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 2
+      "trend": 10
     },
     {
       "id": "5847",
@@ -68116,6 +68161,51 @@
       "raw_transcript": "[06:40:53 AM] Customer: Full Name: Seneca Cooks Email Address: senecacooks0613@gmail.com Subject / How can we help you?: Verify my account\n[06:40:53 AM] Customer: Full Name: Seneca Cooks Email Address: senecacooks0613@gmail.com Subject / How can we help you?: Verify my account\n[06:41:00 AM] Kevin Sandoval: Hi there, my name is Kevin! Welcome to Jackpot Daily. I hope you're having a great day so far. I’m here to make sure you have the best experience possible—what can I help you with today?\n[06:41:00 AM] Kevin Sandoval: Hi there, my name is Kevin! Welcome to Jackpot Daily. I hope you're having a great day so far. I’m here to make sure you have the best experience possible—what can I help you with today?\n[06:41:42 AM] Customer: Verify my account\n[06:41:42 AM] Customer: Verify my account\n[06:42:19 AM] Kevin Sandoval: I completely understand the importance of having your account verified to enjoy all our features. To make sure I guide you through the correct steps, could you please tell me if you are having trouble uploading your documents or if you are waiting for an update on a previous submission?\n[06:42:19 AM] Kevin Sandoval: I completely understand the importance of having your account verified to enjoy all our features. To make sure I guide you through the correct steps, could you please tell me if you are having trouble uploading your documents or if you are waiting for an update on a previous submission?\n[06:42:31 AM] Customer: It's not letting me take a picture of my ID\n[06:42:31 AM] Customer: It's not letting me take a picture of my ID\n[06:43:10 AM] Kevin Sandoval: I know how frustrating it is when the tech doesn't cooperate during verification. To pinpoint what’s going wrong, are you seeing a specific error message when you try to snap the photo, or is the camera screen simply remaining blank or frozen?\n[06:43:10 AM] Kevin Sandoval: I know how frustrating it is when the tech doesn't cooperate during verification. To pinpoint what’s going wrong, are you seeing a specific error message when you try to snap the photo, or is the camera screen simply remaining blank or frozen?\n[06:43:58 AM] Customer: Blank and frozen\n[06:43:58 AM] Customer: Blank and frozen\n[06:44:32 AM] Kevin Sandoval: Ok I see. To see if we can get that camera to trigger, are you currently accessing the site through a mobile browser like Safari or Chrome, or are you using a desktop computer?\n[06:44:32 AM] Kevin Sandoval: Ok I see. To see if we can get that camera to trigger, are you currently accessing the site through a mobile browser like Safari or Chrome, or are you using a desktop computer?\n[06:44:59 AM] Customer: Chrome\n[06:44:59 AM] Customer: Chrome\n[06:46:05 AM] Kevin Sandoval: Just to be sure, can you tell me if you have followed these steps for your verification?\n\nKYC (identity verification) is needed before you\ncan make purchases, request redemptions, or access bonuses — but it's quick, I promise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID: - Must be government-issued and not expired - Must show your date of birth - All 4 corners must be visible - Front and back required (JPEG or PNG only) - No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n\nIt usually takes a few minutes to an hour. Let me know if you hit any snags!\n[06:46:05 AM] Kevin Sandoval: Just to be sure, can you tell me if you have followed these steps for your verification?\n\nKYC (identity verification) is needed before you\ncan make purchases, request redemptions, or access bonuses — but it's quick, I promise!\n\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID: - Must be government-issued and not expired - Must show your date of birth - All 4 corners must be visible - Front and back required (JPEG or PNG only) - No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a secure link from us. That link is completely safe — just click it and follow the upload steps.\n\nIt usually takes a few minutes to an hour. Let me know if you hit any snags!\n[06:48:06 AM] Kevin Sandoval: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there\n[06:48:06 AM] Kevin Sandoval: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there\n[06:50:47 AM] Kevin Sandoval: I haven't heard back from you, but I want to make sure we get that camera working so you can complete your verification. Usually, a blank screen means the browser is waiting for permission to access your hardware. Before we part ways, please try these quick steps on your mobile device:\n\n-Refresh the page: A simple reload often triggers the permission pop-up.\n\n-Check Browser Permissions: Go to your phone's Settings > Privacy > Camera and ensure your browser (Chrome or Safari) is allowed to access the camera.\n\n-Clear Cache: If it’s still frozen, try clearing your browser’s cache or opening the site in an Incognito/Private tab.\n\nSince I haven't received a response, I will close this chat for now. Please follow these troubleshooting steps to complete your KYC verification at your convenience.\n[06:50:47 AM] Kevin Sandoval: I haven't heard back from you, but I want to make sure we get that camera working so you can complete your verification. Usually, a blank screen means the browser is waiting for permission to access your hardware. Before we part ways, please try these quick steps on your mobile device:\n\n-Refresh the page: A simple reload often triggers the permission pop-up.\n\n-Check Browser Permissions: Go to your phone's Settings > Privacy > Camera and ensure your browser (Chrome or Safari) is allowed to access the camera.\n\n-Clear Cache: If it’s still frozen, try clearing your browser’s cache or opening the site in an Incognito/Private tab.\n\nSince I haven't received a response, I will close this chat for now. Please follow these troubleshooting steps to complete your KYC verification at your convenience.\n[06:50:57 AM] Kevin Sandoval: If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[06:50:57 AM] Kevin Sandoval: If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T06:51:43.841Z"
+    },
+    {
+      "chat_id": "2048294391661150208",
+      "agent_name": "Raul Figueroa",
+      "agent_id": "5842",
+      "timestamp": "2026-04-26T07:03:13.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Friendly greeting with empathy for the customer's frustration, though no name personalization used."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent acknowledged the verification delay but didn't probe into specifics like when verification was submitted or check account status."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent redirected to email support without attempting to investigate the missing link or provide immediate assistance within their capability."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Professional and clear but the second response was somewhat confusing with awkward phrasing about creating a ticket."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made; appropriately escalated to proper channel."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Polite closing with further assistance offered and well-wishes, though customer issue remained unresolved in chat."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent provided empathetic acknowledgment but quickly deflected to email support without investigating the account or missing verification link. The customer's specific concern about a promised link from a previous agent was not adequately addressed.",
+      "coaching_tip": "Before redirecting to email, attempt to check the account status or resend the verification link yourself to provide immediate value and reduce customer effort.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[06:53:33 AM] t5410025929: Full Name: t5410025929 Email Address: teenasaldana@gmail.com Subject / How can we help you?: Why is my profile not verified yet\n[06:53:33 AM] t5410025929: Full Name: t5410025929 Email Address: teenasaldana@gmail.com Subject / How can we help you?: Why is my profile not verified yet\n[06:54:04 AM] t5410025929: I never got the new verification link to retry verifying my information\n[06:54:04 AM] t5410025929: I never got the new verification link to retry verifying my information\n[06:54:26 AM] Raul Figueroa: Hey! I’m sorry for the delay — I know it’s frustrating waiting for your profile to be verified.\n\nVerification times can vary depending on volume and if any additional review is needed, which can sometimes cause delays.\n\nIf it’s been longer than expected, it may need a manual check. Please reach out to support@jackpotdaily.com\n from your registered email so the team can review your status and help move things forward.\n[06:54:26 AM] Raul Figueroa: Hey! I’m sorry for the delay — I know it’s frustrating waiting for your profile to be verified.\n\nVerification times can vary depending on volume and if any additional review is needed, which can sometimes cause delays.\n\nIf it’s been longer than expected, it may need a manual check. Please reach out to support@jackpotdaily.com\n from your registered email so the team can review your status and help move things forward.\n[06:55:36 AM] t5410025929: The last agent I talked to a few days ago said he was going to send a link to my email I never received it\n[06:55:36 AM] t5410025929: The last agent I talked to a few days ago said he was going to send a link to my email I never received it\n[06:56:24 AM] Raul Figueroa: Create a ticket with the email address that I attached in the last message so they can be able to sent it in the moment they give you a response.\n[06:56:24 AM] Raul Figueroa: Create a ticket with the email address that I attached in the last message so they can be able to sent it in the moment they give you a response.\n[07:03:10 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[07:03:10 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T07:06:46.747Z"
     }
   ]
 }
