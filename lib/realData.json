@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T04:56:58.749Z",
-  "total_chats": 731,
+  "scored_at": "2026-04-26T05:01:54.325Z",
+  "total_chats": 733,
   "total_agents": 27,
   "agents": [
     {
@@ -25773,11 +25773,56 @@
           "raw_transcript": "[04:37:39 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:37:39 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:37:54 AM] t9077482285: So I just finished kyc\n[04:37:54 AM] t9077482285: So I just finished kyc\n[04:40:22 AM] Marlon Cibrian: Are you having trouble with your welcome bonus egg?\n[04:40:22 AM] Marlon Cibrian: Are you having trouble with your welcome bonus egg?\n[04:40:57 AM] t9077482285: It said that a representative would be with me\n[04:40:57 AM] t9077482285: It said that a representative would be with me\n[04:43:37 AM] Marlon Cibrian: Your welcome bonus is super easy to claim:\n1. Create your account\n2. Verify your email address\n3. Verify your phone number\nOnce both are done, you'll automatically get:\n2 Sweepstakes Coins\n100,000 Gold Coins\nNo extra steps — just verify and you're good to go! Let me know if you run into any\nissues.\n[04:43:37 AM] Marlon Cibrian: Your welcome bonus is super easy to claim:\n1. Create your account\n2. Verify your email address\n3. Verify your phone number\nOnce both are done, you'll automatically get:\n2 Sweepstakes Coins\n100,000 Gold Coins\nNo extra steps — just verify and you're good to go! Let me know if you run into any\nissues.\n[04:47:33 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:47:33 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:50:30 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:50:30 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T04:51:46.818Z"
+        },
+        {
+          "chat_id": "2048264245132750848",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-26T04:59:05.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No proper greeting, only asked how to assist after a delay without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 3,
+              "notes": "Agent asked how to help but customer's incomplete message 'Nati' was never clarified or explored."
+            },
+            "resolution": {
+              "score": 5,
+              "notes": "No resolution attempted; agent moved to closing without understanding or addressing any issue."
+            },
+            "communication": {
+              "score": 6,
+              "notes": "Messages were clear but agent failed to engage meaningfully with the customer's unclear initial message."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, though the interaction was inadequate overall."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Closing was polite and offered further help, but premature given no issue was addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 32,
+          "grade": "F",
+          "summary": "Agent failed to engage with the customer's incomplete message and prematurely closed the chat without discovering or resolving any issue. The interaction lacked proactive communication and problem-solving effort.",
+          "coaching_tip": "When customers send incomplete or unclear messages, proactively ask specific clarifying questions rather than waiting silently or moving to close the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[04:53:45 AM] Customer: Full Name: Laura Cruz Email Address: lauracor229@gmail.com Subject / How can we help you?: Nati\n[04:53:45 AM] Customer: Full Name: Laura Cruz Email Address: lauracor229@gmail.com Subject / How can we help you?: Nati\n[04:54:43 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:54:43 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:54:54 AM] Marlon Cibrian: How may I assist you today?\n[04:54:54 AM] Marlon Cibrian: How may I assist you today?\n[04:57:02 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:57:02 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:59:01 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:59:01 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:01:53.824Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": -4
+      "trend": 1
     },
     {
       "id": "5807",
@@ -29526,11 +29571,56 @@
           "raw_transcript": "[04:19:22 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:19:22 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[04:19:34 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:19:34 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:20:39 AM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[04:20:39 AM] Ludovicode Flores: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate\n[04:20:45 AM] t9077482285: Thank u\n[04:20:45 AM] t9077482285: Thank u\n[04:21:16 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:21:16 AM] t9077482285: I don't have the option for kyc\n[04:21:16 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:21:16 AM] t9077482285: I don't have the option for kyc\n[04:21:32 AM] Ludovicode Flores: one sec please\n[04:21:32 AM] Ludovicode Flores: one sec please\n[04:22:41 AM] t9077482285: I never got the welcome bonus I messaged last night as well\n[04:22:41 AM] t9077482285: I never got the welcome bonus I messaged last night as well\n[04:23:02 AM] Ludovicode Flores: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way\n[04:23:02 AM] Ludovicode Flores: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way\n[04:24:03 AM] Ludovicode Flores: You need to verify your account in order to receive the welcome bonus\n[04:24:03 AM] Ludovicode Flores: You need to verify your account in order to receive the welcome bonus\n[04:24:47 AM] t9077482285: Ok\n[04:24:47 AM] t9077482285: Ok\n[04:25:12 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:25:12 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:27:36 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:27:36 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T04:31:48.112Z"
+        },
+        {
+          "chat_id": "2048263147474432000",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-26T04:59:07.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, agent jumped directly into 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent failed to ask clarifying questions about whether the customer or friend completed KYC, and didn't investigate why the friend isn't showing on the referral list."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent provided generic referral program information instead of investigating the specific issue, then gave an unclear statement about account verification without explaining whose account or how this resolves the problem."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Communication was confusing and non-responsive to the customer's actual concern about a missing referral; the verification comment was vague and unexplained."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No policy violations, but failed to properly investigate or escalate a potential technical issue with the referral system."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help and closed politely, though prematurely given the unresolved issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 43,
+          "grade": "F",
+          "summary": "Agent provided generic referral program information instead of investigating why the customer's friend isn't appearing on their referral list despite meeting requirements. The vague comment about account verification didn't address the core issue and left the customer without resolution.",
+          "coaching_tip": "When a customer reports a specific technical issue like a missing referral, investigate their account details first rather than sending generic program information they likely already know.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[04:49:23 AM] t2824761304: Full Name: t2824761304 Email Address: bendaalms@gmail.com Subject / How can we help you?: My friend kacie Korsten signed up under my link and it's not showing nor am I receiving any like it says I should from her\n[04:49:23 AM] t2824761304: Full Name: t2824761304 Email Address: bendaalms@gmail.com Subject / How can we help you?: My friend kacie Korsten signed up under my link and it's not showing nor am I receiving any like it says I should from her\n[04:49:36 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:49:36 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:51:04 AM] Ludovicode Flores: he Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here!\n[04:51:04 AM] Ludovicode Flores: he Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here!\n[04:52:47 AM] t2824761304: She doesn't even show on my referral list and she also has spent over 70\n[04:52:47 AM] t2824761304: She doesn't even show on my referral list and she also has spent over 70\n[04:54:31 AM] Ludovicode Flores: Please note that you are required to verify your account\n[04:54:31 AM] Ludovicode Flores: Please note that you are required to verify your account\n[04:56:28 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:56:28 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:59:04 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:59:04 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:01:44.563Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 4
+      "trend": -8
     },
     {
       "id": "5955",
@@ -66037,6 +66127,96 @@
       "raw_transcript": "[04:29:16 AM] Customer: Full Name: Jason Hamilton Email Address: j31512496@gmail.com Subject / How can we help you?: Verification\n[04:29:16 AM] Customer: Full Name: Jason Hamilton Email Address: j31512496@gmail.com Subject / How can we help you?: Verification\n[04:29:31 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[04:29:31 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[04:30:06 AM] Customer: I don’t understand why it says in progress if I had received this email the day I originally submitted it\n[04:30:06 AM] Customer: IMG_0034.png\n[04:30:06 AM] Customer: I don’t understand why it says in progress if I had received this email the day I originally submitted it\n[04:30:06 AM] Customer: IMG_0034.png\n[04:30:55 AM] Daniel Ayestas: Give me a moment to review this information.\n[04:30:55 AM] Daniel Ayestas: Give me a moment to review this information.\n[04:31:06 AM] Customer: Thank you\n[04:31:06 AM] Customer: Thank you\n[04:33:04 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[04:33:04 AM] Daniel Ayestas: Still here! Thanks so much for your patience!\n[04:33:16 AM] Customer: Thank you\n[04:33:16 AM] Customer: Thank you\n[04:36:03 AM] Daniel Ayestas: Thank you for completing your verification steps. At the moment, your account is still under review, and the process can take between 24 to 48 hours to finalize. We truly appreciate your patience while this is being completed. Once the verification is approved, you’ll be able to access all features.\n[04:36:03 AM] Daniel Ayestas: Thank you for completing your verification steps. At the moment, your account is still under review, and the process can take between 24 to 48 hours to finalize. We truly appreciate your patience while this is being completed. Once the verification is approved, you’ll be able to access all features.\n[04:36:11 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:36:11 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:36:24 AM] Customer: It’s been since the 12th\n[04:36:24 AM] Customer: It’s been since the 12th\n[04:38:30 AM] Daniel Ayestas: We sincerely apologize for the inconvenience.At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[04:38:30 AM] Daniel Ayestas: We sincerely apologize for the inconvenience.At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[04:38:41 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:38:41 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:39:08 AM] Customer: I was informed that there was already an escalation done so yesterday for this case\n[04:39:08 AM] Customer: I was informed that there was already an escalation done so yesterday for this case\n[04:39:37 AM] Customer: Per Sean\n[04:39:37 AM] Customer: Per Sean\n[04:40:05 AM] Daniel Ayestas: Give me a moment to review this information.\n[04:40:05 AM] Daniel Ayestas: Give me a moment to review this information.\n[04:40:13 AM] Customer: Thank you\n[04:40:13 AM] Customer: Thank you\n[04:41:16 AM] Daniel Ayestas: We sincerely appreciate your patience. At the moment, our team is actively working on your request. We also understand that you have already created a support ticket, and it is currently being reviewed. You should be receiving a response from our team very soon. Thank you very much for your understanding and patience while we work on this for you.\n[04:41:16 AM] Daniel Ayestas: We sincerely appreciate your patience. At the moment, our team is actively working on your request. We also understand that you have already created a support ticket, and it is currently being reviewed. You should be receiving a response from our team very soon. Thank you very much for your understanding and patience while we work on this for you.\n[04:41:27 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:41:27 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:41:40 AM] Customer: I was told that it would be a 24 hour timeframe and it’s already been that\n[04:41:40 AM] Customer: I was told that it would be a 24 hour timeframe and it’s already been that\n[04:42:16 AM] Customer: And it’s one thing to be understanding about the fact of having an email sent to me saying that’s approved and then it’s really not that is simply unethical\n[04:42:16 AM] Customer: And it’s one thing to be understanding about the fact of having an email sent to me saying that’s approved and then it’s really not that is simply unethical\n[04:42:47 AM] Daniel Ayestas: We truly understand the amount of time you have been waiting but at the moment, our team is actively working on your request. You should be receiving a response from our team very soon. Thank you very much for your understanding and patience while we work on this for you.\n[04:42:47 AM] Daniel Ayestas: We truly understand the amount of time you have been waiting but at the moment, our team is actively working on your request. You should be receiving a response from our team very soon. Thank you very much for your understanding and patience while we work on this for you.\n[04:43:31 AM] Customer: This is a huge frustration, what about the person that had referred me can you manually award them then?\n[04:43:31 AM] Customer: This is a huge frustration, what about the person that had referred me can you manually award them then?\n[04:45:59 AM] Daniel Ayestas: Thank you for your patience and understanding as we complete this process for you. \n\nIn regards the referral process here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[04:45:59 AM] Daniel Ayestas: Thank you for your patience and understanding as we complete this process for you. \n\nIn regards the referral process here is a quick summary of the requirements for your referral bonus:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $70.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n\nYou can track your progress in the 'Invite' section.\n[04:46:32 AM] Customer: When I was referred at that time it was 10 dollar purchase\n[04:46:32 AM] Customer: When I was referred at that time it was 10 dollar purchase\n[04:46:49 AM] Customer: I was referred\n[04:46:49 AM] Customer: I was referred\n[04:50:58 AM] Daniel Ayestas: I apologize for the misunderstanding. In order for your referral to apply for the referral bonus here are the requirements:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $30.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[04:50:58 AM] Daniel Ayestas: I apologize for the misunderstanding. In order for your referral to apply for the referral bonus here are the requirements:\n\n• KYC Verification: Both you and your friend must be fully KYC verified to qualify.\n• Purchase Goal: Your friend needs to complete cumulative purchases totaling at least $30.\n• Automatic Credit: Rewards are added automatically once all eligibility steps are met.\n• Playthrough: Any SC received from the bonus requires a 1x playthrough before redemption.\n• Fair Play: Only one reward per friend; duplicate IP addresses or bank accounts will result in cancellation.\n[04:51:45 AM] Customer: The verification is what’s stopping it\n[04:51:45 AM] Customer: The verification is what’s stopping it\n[04:52:01 AM] Daniel Ayestas: We truly understand the amount of time you have been waiting but at the moment, our team is actively working on your request. You should be receiving a response from our team very soon. Thank you very much for your understanding and patience while we work on this for you.\n[04:52:01 AM] Daniel Ayestas: We truly understand the amount of time you have been waiting but at the moment, our team is actively working on your request. You should be receiving a response from our team very soon. Thank you very much for your understanding and patience while we work on this for you.\n[04:52:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[04:52:10 AM] Daniel Ayestas: Is there anything else I can help you with today?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T04:56:58.247Z"
+    },
+    {
+      "chat_id": "2048263147474432000",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-26T04:59:07.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, agent jumped directly into 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent failed to ask clarifying questions about whether the customer or friend completed KYC, and didn't investigate why the friend isn't showing on the referral list."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "Agent provided generic referral program information instead of investigating the specific issue, then gave an unclear statement about account verification without explaining whose account or how this resolves the problem."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Communication was confusing and non-responsive to the customer's actual concern about a missing referral; the verification comment was vague and unexplained."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No policy violations, but failed to properly investigate or escalate a potential technical issue with the referral system."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help and closed politely, though prematurely given the unresolved issue."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 43,
+      "grade": "F",
+      "summary": "Agent provided generic referral program information instead of investigating why the customer's friend isn't appearing on their referral list despite meeting requirements. The vague comment about account verification didn't address the core issue and left the customer without resolution.",
+      "coaching_tip": "When a customer reports a specific technical issue like a missing referral, investigate their account details first rather than sending generic program information they likely already know.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[04:49:23 AM] t2824761304: Full Name: t2824761304 Email Address: bendaalms@gmail.com Subject / How can we help you?: My friend kacie Korsten signed up under my link and it's not showing nor am I receiving any like it says I should from her\n[04:49:23 AM] t2824761304: Full Name: t2824761304 Email Address: bendaalms@gmail.com Subject / How can we help you?: My friend kacie Korsten signed up under my link and it's not showing nor am I receiving any like it says I should from her\n[04:49:36 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:49:36 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[04:51:04 AM] Ludovicode Flores: he Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here!\n[04:51:04 AM] Ludovicode Flores: he Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time!\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here!\n[04:52:47 AM] t2824761304: She doesn't even show on my referral list and she also has spent over 70\n[04:52:47 AM] t2824761304: She doesn't even show on my referral list and she also has spent over 70\n[04:54:31 AM] Ludovicode Flores: Please note that you are required to verify your account\n[04:54:31 AM] Ludovicode Flores: Please note that you are required to verify your account\n[04:56:28 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:56:28 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[04:59:04 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[04:59:04 AM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T05:01:44.563Z"
+    },
+    {
+      "chat_id": "2048264245132750848",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-26T04:59:05.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No proper greeting, only asked how to assist after a delay without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 3,
+          "notes": "Agent asked how to help but customer's incomplete message 'Nati' was never clarified or explored."
+        },
+        "resolution": {
+          "score": 5,
+          "notes": "No resolution attempted; agent moved to closing without understanding or addressing any issue."
+        },
+        "communication": {
+          "score": 6,
+          "notes": "Messages were clear but agent failed to engage meaningfully with the customer's unclear initial message."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, though the interaction was inadequate overall."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Closing was polite and offered further help, but premature given no issue was addressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 32,
+      "grade": "F",
+      "summary": "Agent failed to engage with the customer's incomplete message and prematurely closed the chat without discovering or resolving any issue. The interaction lacked proactive communication and problem-solving effort.",
+      "coaching_tip": "When customers send incomplete or unclear messages, proactively ask specific clarifying questions rather than waiting silently or moving to close the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[04:53:45 AM] Customer: Full Name: Laura Cruz Email Address: lauracor229@gmail.com Subject / How can we help you?: Nati\n[04:53:45 AM] Customer: Full Name: Laura Cruz Email Address: lauracor229@gmail.com Subject / How can we help you?: Nati\n[04:54:43 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:54:43 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[04:54:54 AM] Marlon Cibrian: How may I assist you today?\n[04:54:54 AM] Marlon Cibrian: How may I assist you today?\n[04:57:02 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:57:02 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[04:59:01 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[04:59:01 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T05:01:53.824Z"
     }
   ]
 }
