@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T17:01:50.636Z",
-  "total_chats": 820,
+  "scored_at": "2026-04-26T17:11:50.224Z",
+  "total_chats": 821,
   "total_agents": 28,
   "agents": [
     {
@@ -5046,11 +5046,56 @@
           "raw_transcript": "[04:25:57 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I did get one .30 cent daily bonus just now on another device.\n[04:25:57 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I did get one .30 cent daily bonus just now on another device.\n[04:26:32 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:26:32 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:28:20 PM] Andrea Hernandez: I can see that you were able to receive the $0.30 daily bonus on another device, which suggests the rewards system is working, but there may be a device/session-related issue affecting your main device.\n\nI’ve added this detail to your case so the team can investigate further, specifically:\n\nPossible device or session syncing issues\nWhy rewards are not consistently appearing across devices\n\nIn the meantime, I recommend:\n\nUsing the device where the reward worked\nClearing cache/cookies or trying a different browser on your main device\n\nYour case is still escalated and under review, and this new info will help speed things up 👍\n[04:28:20 PM] Andrea Hernandez: I can see that you were able to receive the $0.30 daily bonus on another device, which suggests the rewards system is working, but there may be a device/session-related issue affecting your main device.\n\nI’ve added this detail to your case so the team can investigate further, specifically:\n\nPossible device or session syncing issues\nWhy rewards are not consistently appearing across devices\n\nIn the meantime, I recommend:\n\nUsing the device where the reward worked\nClearing cache/cookies or trying a different browser on your main device\n\nYour case is still escalated and under review, and this new info will help speed things up 👍\n[04:30:07 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:30:07 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T16:31:49.054Z"
+        },
+        {
+          "chat_id": "2048448020072460288",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-26T17:09:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, but did not use customer's name or add warmth."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent provided explanation without asking any clarifying questions about the customer's specific situation or account status."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided policy information but didn't verify customer's account status, check if Golden Egg was actually issued, or offer personalized troubleshooting."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and structured explanation of policy, but somewhat generic and not tailored to customer's specific case."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed policy guidelines and provided accurate terms without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered alternative contact method and explained closure reason, though closed after only 3 minutes of customer silence."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided policy information about the Golden Egg promotion but failed to investigate the customer's specific account or situation. The response was generic and lacked personalized troubleshooting or verification of whether the promotion was actually issued to this customer.",
+          "coaching_tip": "Before explaining policy, first ask clarifying questions and check the customer's account to see if the Golden Egg was issued, when they registered, and their KYC status to provide personalized assistance.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:21 PM] t5661391840: Hello\n[05:04:21 PM] t5661391840: Hello\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T17:11:49.722Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -1
+      "trend": 17
     },
     {
       "id": "5554",
@@ -74056,6 +74101,51 @@
       "raw_transcript": "[04:39:23 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been getting 1 to 2 marketing emails a day to get me to spend more money on this site. Yet I have not received any type of update on my redemption that I submitted a week ago.\n[04:39:23 PM] t6955935479: Full Name: t6955935479 Email Address: lchumbley85@gmail.com Subject / How can we help you?: I have been getting 1 to 2 marketing emails a day to get me to spend more money on this site. Yet I have not received any type of update on my redemption that I submitted a week ago.\n[04:42:05 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:42:05 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:45:54 PM] Evelyn Portillo: the redemption request from 04/18/2026 status is new , the request amount is 1100$ you need to with 24-48 hrs to check the update of the redemption\n[04:45:54 PM] Evelyn Portillo: the redemption request from 04/18/2026 status is new , the request amount is 1100$ you need to with 24-48 hrs to check the update of the redemption\n[04:46:32 PM] t6955935479: No, I have been discussing this with support for the last week. They have been telling me all sorts of things like I need to sign my W9 yet it hasn’t even been sent to me.\n[04:46:32 PM] t6955935479: No, I have been discussing this with support for the last week. They have been telling me all sorts of things like I need to sign my W9 yet it hasn’t even been sent to me.\n[04:46:36 PM] Evelyn Portillo: and with the email my recommendation is to block or delete the email because we are not sending any scam or marketing emails to our customer\n[04:46:36 PM] Evelyn Portillo: and with the email my recommendation is to block or delete the email because we are not sending any scam or marketing emails to our customer\n[04:47:01 PM] Evelyn Portillo: Got it , give me a minute to check the information\n[04:47:01 PM] Evelyn Portillo: Got it , give me a minute to check the information\n[04:47:12 PM] t6955935479: IMG_8558.jpg\n[04:47:12 PM] t6955935479: IMG_8559.jpg\n[04:47:12 PM] t6955935479: IMG_8558.jpg\n[04:47:12 PM] t6955935479: IMG_8559.jpg\n[04:47:19 PM] t6955935479: Looks like it’s from you\n[04:47:19 PM] t6955935479: Looks like it’s from you\n[04:48:37 PM] t6955935479: The support agents keep telling me to be patient yet. It is very concerning because anytime I reach out to support I get different answers. Like this morning you’re telling me that it’s new. But it’s not new. It is from a week ago and they told me last week to wait 24 to 48 hours and that was on Monday.\n[04:48:37 PM] t6955935479: The support agents keep telling me to be patient yet. It is very concerning because anytime I reach out to support I get different answers. Like this morning you’re telling me that it’s new. But it’s not new. It is from a week ago and they told me last week to wait 24 to 48 hours and that was on Monday.\n[04:49:20 PM] t6955935479: My concerns have been “escalated “yet no one has reached out to me. It’s only me reaching out via live chat with nothing being addressed.\n[04:49:20 PM] t6955935479: My concerns have been “escalated “yet no one has reached out to me. It’s only me reaching out via live chat with nothing being addressed.\n[04:50:45 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:50:45 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:53:22 PM] Evelyn Portillo: I completely understand wanting to get your funds as quickly as possible, and I appreciate your patience while we get this sorted out.\nBecause your redemption request is for an amount over $600, our team is required to collect a W-9 form for tax purposes before we can finalize the payment. I have escalated your case to our specialized department to initiate this process.\nPlease keep an eye on your email, as they will be sending the form directly to you. I apologize that I’m unable to send this form to you through our chat interface, but our escalated team will ensure you receive everything you need via ticket response.\n[04:53:22 PM] Evelyn Portillo: I completely understand wanting to get your funds as quickly as possible, and I appreciate your patience while we get this sorted out.\nBecause your redemption request is for an amount over $600, our team is required to collect a W-9 form for tax purposes before we can finalize the payment. I have escalated your case to our specialized department to initiate this process.\nPlease keep an eye on your email, as they will be sending the form directly to you. I apologize that I’m unable to send this form to you through our chat interface, but our escalated team will ensure you receive everything you need via ticket response.\n[04:54:22 PM] t6955935479: I got on Thursday, but I never got my W9. And yes, I have looked in my junk and spam folders. The W9 is not there. I don’t understand why they can’t just send it to me. This site is new. I can’t imagine that there are thousands of other customers needing a W9 as well to be the reason that it is not being sent.\n[04:54:22 PM] t6955935479: I got on Thursday, but I never got my W9. And yes, I have looked in my junk and spam folders. The W9 is not there. I don’t understand why they can’t just send it to me. This site is new. I can’t imagine that there are thousands of other customers needing a W9 as well to be the reason that it is not being sent.\n[04:54:31 PM] t6955935479: I\n[04:54:31 PM] t6955935479: I\n[04:54:43 PM] t6955935479: I got the same response on Thursday I mean\n[04:54:43 PM] t6955935479: I got the same response on Thursday I mean\n[04:55:31 PM] Evelyn Portillo: Give me a moment to review this information.\n[04:55:31 PM] Evelyn Portillo: Give me a moment to review this information.\n[04:56:01 PM] t6955935479: Is this an attempt to make me give up and play down my winnings? I am not trying to be difficult or rude, but the lack of transparency and communication is making me think that.\n[04:56:01 PM] t6955935479: Is this an attempt to make me give up and play down my winnings? I am not trying to be difficult or rude, but the lack of transparency and communication is making me think that.\n[05:00:17 PM] Evelyn Portillo: I truly appreciate your patience as we work through the details of your redemption. I know how important it is to receive your funds, especially for a significant amount like this, and I want to make sure we get everything handled correctly for you.\nBecause your request exceeds $600, we are legally required to have a W-9 form on file before the payment can be released. I have already escalated your request to our dedicated team to get this form sent over to you.\nI sincerely apologize that I cannot send the form directly through this chat. I know waiting for a separate email can be frustrating when you're ready to move forward, but please hang in there just a bit longer—our specialized team will reach out via your open ticket as soon as possible.\n[05:00:17 PM] Evelyn Portillo: I truly appreciate your patience as we work through the details of your redemption. I know how important it is to receive your funds, especially for a significant amount like this, and I want to make sure we get everything handled correctly for you.\nBecause your request exceeds $600, we are legally required to have a W-9 form on file before the payment can be released. I have already escalated your request to our dedicated team to get this form sent over to you.\nI sincerely apologize that I cannot send the form directly through this chat. I know waiting for a separate email can be frustrating when you're ready to move forward, but please hang in there just a bit longer—our specialized team will reach out via your open ticket as soon as possible.\n[05:01:05 PM] t6955935479: Same response\n[05:01:05 PM] t6955935479: Same response",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T17:01:50.135Z"
+    },
+    {
+      "chat_id": "2048448020072460288",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-26T17:09:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, but did not use customer's name or add warmth."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent provided explanation without asking any clarifying questions about the customer's specific situation or account status."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided policy information but didn't verify customer's account status, check if Golden Egg was actually issued, or offer personalized troubleshooting."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and structured explanation of policy, but somewhat generic and not tailored to customer's specific case."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed policy guidelines and provided accurate terms without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered alternative contact method and explained closure reason, though closed after only 3 minutes of customer silence."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided policy information about the Golden Egg promotion but failed to investigate the customer's specific account or situation. The response was generic and lacked personalized troubleshooting or verification of whether the promotion was actually issued to this customer.",
+      "coaching_tip": "Before explaining policy, first ask clarifying questions and check the customer's account to see if the Golden Egg was issued, when they registered, and their KYC status to provide personalized assistance.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:01 PM] t5661391840: Full Name: t5661391840 Email Address: perkinsjosh1986@gmail.com Subject / How can we help you?: I never got the golden egg\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:15 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[05:04:21 PM] t5661391840: Hello\n[05:04:21 PM] t5661391840: Hello\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:05:22 PM] Andrea Hernandez: The Golden Egg is a welcome promotion that must be claimed, not automatically credited. It’s issued when you register, but:\n\nYou need to open and claim it from the platform\nOnce you start claiming it, a 24-hour timer begins\nYou must complete KYC within those 24 hours\n\nIf it wasn’t claimed within that window, or if the timer expired before verification was completed, the Golden Egg will no longer be available.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:06:59 PM] Andrea Hernandez: A few important reminders:\n\n* This reward is limited to one (1) per account.\n* Rewards are randomly distributed and cannot be exchanged.\n* Please make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:09:21 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T17:11:49.722Z"
     }
   ]
 }
