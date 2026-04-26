@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T02:31:42.518Z",
-  "total_chats": 711,
+  "scored_at": "2026-04-26T02:36:47.170Z",
+  "total_chats": 712,
   "total_agents": 27,
   "agents": [
     {
@@ -28626,11 +28626,56 @@
           "raw_transcript": "[02:03:01 AM] Customer: Full Name: Amanda delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: You’re restricted in Illinois ??\n[02:03:01 AM] Customer: Full Name: Amanda delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: You’re restricted in Illinois ??\n[02:03:14 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:03:14 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:05:02 AM] Ludovicode Flores: Unfortunately, it is restricted.\n[02:05:02 AM] Ludovicode Flores: Unfortunately, it is restricted.\n[02:05:59 AM] Ludovicode Flores: Thanks for chatting with us\n[02:05:59 AM] Ludovicode Flores: Thanks for chatting with us",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T02:06:48.113Z"
+        },
+        {
+          "chat_id": "2048226541002600448",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-26T02:31:50.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask clarifying questions about what specific free spins the customer was looking for or check their account status."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic daily login information without confirming if this addressed the customer's specific 'free spains' issue or checking their account."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Long delay (5+ minutes) caused customer to ask if anyone was still helping; response was informative but potentially not relevant to the actual issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; provided standard promotional information appropriately."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further help and thanked customer, meeting basic closing requirements."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 50,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer and provided generic information about daily login rewards without investigating the specific 'free spins' the customer was asking about. The long response time and lack of personalized account checking resulted in an unclear resolution.",
+          "coaching_tip": "Always start with a proper greeting using the customer's name, and before providing generic information, ask clarifying questions and check the customer's account to identify their specific promotions or free spins.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[02:23:56 AM] Customer: Full Name: Gilbert jr Domenech Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: Hello how just wondering if you help me locate my free spains\n[02:23:56 AM] Customer: Full Name: Gilbert jr Domenech Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: Hello how just wondering if you help me locate my free spains\n[02:24:08 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:24:08 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:24:16 AM] Customer: Thank you\n[02:24:16 AM] Customer: Thank you\n[02:26:18 AM] Customer: K\n[02:26:18 AM] Customer: K\n[02:29:36 AM] Ludovicode Flores: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n\nNot seeing yours? Let me know!\n[02:29:36 AM] Customer: Someone still helping me?\n[02:29:36 AM] Ludovicode Flores: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n\nNot seeing yours? Let me know!\n[02:29:36 AM] Customer: Someone still helping me?\n[02:30:58 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[02:30:58 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[02:31:44 AM] Ludovicode Flores: Thanks for chatting with us\n[02:31:44 AM] Ludovicode Flores: Thanks for chatting with us",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T02:36:46.669Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 9
+      "trend": 4
     },
     {
       "id": "5955",
@@ -64237,6 +64282,51 @@
       "raw_transcript": "[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:15 AM] t4440910156: Full Name: t4440910156 Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: I tried to change my password and every time I do it don't let me\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:22:30 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:41 AM] Daniel Ayestas: No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:24:51 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[02:27:03 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T02:31:42.016Z"
+    },
+    {
+      "chat_id": "2048226541002600448",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-26T02:31:50.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask clarifying questions about what specific free spins the customer was looking for or check their account status."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided generic daily login information without confirming if this addressed the customer's specific 'free spains' issue or checking their account."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Long delay (5+ minutes) caused customer to ask if anyone was still helping; response was informative but potentially not relevant to the actual issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected; provided standard promotional information appropriately."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further help and thanked customer, meeting basic closing requirements."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 50,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer and provided generic information about daily login rewards without investigating the specific 'free spins' the customer was asking about. The long response time and lack of personalized account checking resulted in an unclear resolution.",
+      "coaching_tip": "Always start with a proper greeting using the customer's name, and before providing generic information, ask clarifying questions and check the customer's account to identify their specific promotions or free spins.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[02:23:56 AM] Customer: Full Name: Gilbert jr Domenech Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: Hello how just wondering if you help me locate my free spains\n[02:23:56 AM] Customer: Full Name: Gilbert jr Domenech Email Address: gilbertdomenech63@gmail.com Subject / How can we help you?: Hello how just wondering if you help me locate my free spains\n[02:24:08 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:24:08 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:24:16 AM] Customer: Thank you\n[02:24:16 AM] Customer: Thank you\n[02:26:18 AM] Customer: K\n[02:26:18 AM] Customer: K\n[02:29:36 AM] Ludovicode Flores: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n\nNot seeing yours? Let me know!\n[02:29:36 AM] Customer: Someone still helping me?\n[02:29:36 AM] Ludovicode Flores: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n\nNot seeing yours? Let me know!\n[02:29:36 AM] Customer: Someone still helping me?\n[02:30:58 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[02:30:58 AM] Ludovicode Flores: Please let me know if there’s anything else I can help you with\n[02:31:44 AM] Ludovicode Flores: Thanks for chatting with us\n[02:31:44 AM] Ludovicode Flores: Thanks for chatting with us",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T02:36:46.669Z"
     }
   ]
 }
