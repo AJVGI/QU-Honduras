@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T16:21:45.764Z",
-  "total_chats": 814,
+  "scored_at": "2026-04-26T16:31:58.554Z",
+  "total_chats": 816,
   "total_agents": 28,
   "agents": [
     {
@@ -5001,11 +5001,56 @@
           "raw_transcript": "[04:07:25 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Can I get my $10 credit now? As u said in 24 hours , 3 days ago!\n[04:07:25 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Can I get my $10 credit now? As u said in 24 hours , 3 days ago!\n[04:07:42 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:07:42 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:09:16 PM] t7409419483: Also not getting any daily rewards\n[04:09:16 PM] t7409419483: Also not getting any daily rewards\n[04:09:55 PM] Andrea Hernandez: I’ve reviewed your case and can see everything that’s happened so far.\n\nYour case was escalated yesterday, which is why the designated team is currently handling the $10 credit for you.\n\nAt this point, the best thing we can do is allow them a bit more time to complete the process, as credits like this are handled directly by that team and can’t be applied from this side of the chat.\n\nAlso, since it’s currently the weekend, processing times can sometimes take a bit longer than usual.\n\nI understand the wait can be frustrating, but please know it’s already in progress and being actively worked on 👍\n[04:09:55 PM] Andrea Hernandez: I’ve reviewed your case and can see everything that’s happened so far.\n\nYour case was escalated yesterday, which is why the designated team is currently handling the $10 credit for you.\n\nAt this point, the best thing we can do is allow them a bit more time to complete the process, as credits like this are handled directly by that team and can’t be applied from this side of the chat.\n\nAlso, since it’s currently the weekend, processing times can sometimes take a bit longer than usual.\n\nI understand the wait can be frustrating, but please know it’s already in progress and being actively worked on 👍\n[04:10:37 PM] t7409419483: Y haven't I received my daily bonuses\n[04:10:37 PM] t7409419483: Y haven't I received my daily bonuses\n[04:10:40 PM] Andrea Hernandez: Thanks for letting me know — I see this is affecting both your credits and daily rewards, so we’ll make sure it’s fully addressed.\n\nSince your daily rewards are showing as claimed but not appearing in your balance, this is part of the same issue already escalated.\n\nI’ve added this detail to your case so the team can check:\n\nWhy the daily rewards aren’t crediting properly\nIf they’re being issued but not applied\nAnd make sure any missing rewards are added to your balance\n\nAt this point, everything is already under review by the appropriate team, and we just need to allow them a bit more time to complete the fix 👍\n[04:10:40 PM] Andrea Hernandez: Thanks for letting me know — I see this is affecting both your credits and daily rewards, so we’ll make sure it’s fully addressed.\n\nSince your daily rewards are showing as claimed but not appearing in your balance, this is part of the same issue already escalated.\n\nI’ve added this detail to your case so the team can check:\n\nWhy the daily rewards aren’t crediting properly\nIf they’re being issued but not applied\nAnd make sure any missing rewards are added to your balance\n\nAt this point, everything is already under review by the appropriate team, and we just need to allow them a bit more time to complete the fix 👍\n[04:11:01 PM] t7409419483: Ok ty\n[04:11:01 PM] t7409419483: Ok ty\n[04:11:34 PM] Andrea Hernandez: Its always a pleasure\n[04:11:34 PM] Andrea Hernandez: Its always a pleasure\n[04:11:45 PM] Andrea Hernandez: Anything I can do for you?\n[04:11:45 PM] Andrea Hernandez: Anything I can do for you?\n[04:13:48 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:13:48 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T16:16:50.064Z"
+        },
+        {
+          "chat_id": "2048438441406197760",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-26T16:30:13.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though brief and lacked personalization with customer name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the device-specific bonus issue well and identified key technical factors like syncing and session problems."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Properly escalated with added context, provided reasonable troubleshooting steps, though issue remains unresolved pending team review."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured response with actionable recommendations and appropriate use of formatting for readability."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately managed expectations about escalation without unauthorized promises."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered alternative contact method but closed somewhat quickly after only 1.5 minutes of wait time."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent Emily handled the bonus issue competently by understanding the device-specific problem, escalating appropriately, and providing troubleshooting steps. The interaction was professional and clear, though the chat was closed relatively quickly without customer confirmation.",
+          "coaching_tip": "Allow more time for customer response before closing the chat—waiting at least 3-5 minutes would show better patience and give customers adequate time to read and respond to detailed troubleshooting instructions.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[04:25:57 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I did get one .30 cent daily bonus just now on another device.\n[04:25:57 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I did get one .30 cent daily bonus just now on another device.\n[04:26:32 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:26:32 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:28:20 PM] Andrea Hernandez: I can see that you were able to receive the $0.30 daily bonus on another device, which suggests the rewards system is working, but there may be a device/session-related issue affecting your main device.\n\nI’ve added this detail to your case so the team can investigate further, specifically:\n\nPossible device or session syncing issues\nWhy rewards are not consistently appearing across devices\n\nIn the meantime, I recommend:\n\nUsing the device where the reward worked\nClearing cache/cookies or trying a different browser on your main device\n\nYour case is still escalated and under review, and this new info will help speed things up 👍\n[04:28:20 PM] Andrea Hernandez: I can see that you were able to receive the $0.30 daily bonus on another device, which suggests the rewards system is working, but there may be a device/session-related issue affecting your main device.\n\nI’ve added this detail to your case so the team can investigate further, specifically:\n\nPossible device or session syncing issues\nWhy rewards are not consistently appearing across devices\n\nIn the meantime, I recommend:\n\nUsing the device where the reward worked\nClearing cache/cookies or trying a different browser on your main device\n\nYour case is still escalated and under review, and this new info will help speed things up 👍\n[04:30:07 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:30:07 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T16:31:49.054Z"
         }
       ],
       "avg_score": 62,
       "grade": "D",
-      "trend": -5
+      "trend": -1
     },
     {
       "id": "5554",
@@ -36276,11 +36321,56 @@
           "raw_transcript": "[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:18:16 PM] t6475622042: ok\n[04:18:16 PM] t6475622042: ok\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T16:21:45.264Z"
+        },
+        {
+          "chat_id": "2048436744040431616",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-26T16:28:47.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Warm greeting using customer name, though agent name confusion (Evelyn/Samantha) is problematic."
+            },
+            "issue_discovery": {
+              "score": 5,
+              "notes": "Agent failed to discover any issue; customer only responded 'Si' and agent never clarified what help was needed."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No issue was identified or resolved; agent closed chat without addressing any customer need or problem."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Professional and friendly tone, but failed to overcome language barrier or probe for actual issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but agent name inconsistency raises quality concerns."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with well-wishes, though premature given no issue was addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent provided friendly communication but completely failed to identify or address any customer issue, closing the chat after customer only said 'Si' repeatedly. The language barrier was not addressed and no meaningful support was provided.",
+          "coaching_tip": "When customers respond in another language or with unclear messages, use translation tools, ask clarifying questions in simple language, or offer to connect with a Spanish-speaking agent rather than closing without resolution.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:21:16 PM] Customer: Si\n[04:21:16 PM] Customer: Si\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T16:31:58.053Z"
         }
       ],
-      "avg_score": 49,
+      "avg_score": 48,
       "grade": "F",
-      "trend": 7
+      "trend": -3
     },
     {
       "id": "5555",
@@ -73516,6 +73606,96 @@
       "raw_transcript": "[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:18:16 PM] t6475622042: ok\n[04:18:16 PM] t6475622042: ok\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T16:21:45.264Z"
+    },
+    {
+      "chat_id": "2048438441406197760",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-26T16:30:13.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though brief and lacked personalization with customer name."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the device-specific bonus issue well and identified key technical factors like syncing and session problems."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Properly escalated with added context, provided reasonable troubleshooting steps, though issue remains unresolved pending team review."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured response with actionable recommendations and appropriate use of formatting for readability."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately managed expectations about escalation without unauthorized promises."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered alternative contact method but closed somewhat quickly after only 1.5 minutes of wait time."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 73,
+      "grade": "C",
+      "summary": "Agent Emily handled the bonus issue competently by understanding the device-specific problem, escalating appropriately, and providing troubleshooting steps. The interaction was professional and clear, though the chat was closed relatively quickly without customer confirmation.",
+      "coaching_tip": "Allow more time for customer response before closing the chat—waiting at least 3-5 minutes would show better patience and give customers adequate time to read and respond to detailed troubleshooting instructions.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[04:25:57 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I did get one .30 cent daily bonus just now on another device.\n[04:25:57 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: I did get one .30 cent daily bonus just now on another device.\n[04:26:32 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:26:32 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[04:28:20 PM] Andrea Hernandez: I can see that you were able to receive the $0.30 daily bonus on another device, which suggests the rewards system is working, but there may be a device/session-related issue affecting your main device.\n\nI’ve added this detail to your case so the team can investigate further, specifically:\n\nPossible device or session syncing issues\nWhy rewards are not consistently appearing across devices\n\nIn the meantime, I recommend:\n\nUsing the device where the reward worked\nClearing cache/cookies or trying a different browser on your main device\n\nYour case is still escalated and under review, and this new info will help speed things up 👍\n[04:28:20 PM] Andrea Hernandez: I can see that you were able to receive the $0.30 daily bonus on another device, which suggests the rewards system is working, but there may be a device/session-related issue affecting your main device.\n\nI’ve added this detail to your case so the team can investigate further, specifically:\n\nPossible device or session syncing issues\nWhy rewards are not consistently appearing across devices\n\nIn the meantime, I recommend:\n\nUsing the device where the reward worked\nClearing cache/cookies or trying a different browser on your main device\n\nYour case is still escalated and under review, and this new info will help speed things up 👍\n[04:30:07 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[04:30:07 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T16:31:49.054Z"
+    },
+    {
+      "chat_id": "2048436744040431616",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-26T16:28:47.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Warm greeting using customer name, though agent name confusion (Evelyn/Samantha) is problematic."
+        },
+        "issue_discovery": {
+          "score": 5,
+          "notes": "Agent failed to discover any issue; customer only responded 'Si' and agent never clarified what help was needed."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No issue was identified or resolved; agent closed chat without addressing any customer need or problem."
+        },
+        "communication": {
+          "score": 9,
+          "notes": "Professional and friendly tone, but failed to overcome language barrier or probe for actual issue."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, but agent name inconsistency raises quality concerns."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Polite closing with well-wishes, though premature given no issue was addressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 44,
+      "grade": "F",
+      "summary": "Agent provided friendly communication but completely failed to identify or address any customer issue, closing the chat after customer only said 'Si' repeatedly. The language barrier was not addressed and no meaningful support was provided.",
+      "coaching_tip": "When customers respond in another language or with unclear messages, use translation tools, ask clarifying questions in simple language, or offer to connect with a Spanish-speaking agent rather than closing without resolution.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:19:12 PM] Customer: Full Name: Elias Martinez Email Address: martines503jose@gmail.com Subject / How can we help you?: Si\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:20:59 PM] Evelyn Portillo: Hi Elias! Thanks for reaching out — happy to help! What's going on?\n[04:21:16 PM] Customer: Si\n[04:21:16 PM] Customer: Si\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:22:16 PM] Evelyn Portillo: Hi! My name is Samantha I will be assisting you with .\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:24:10 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[04:28:45 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T16:31:58.053Z"
     }
   ]
 }
