@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T23:11:45.710Z",
-  "total_chats": 867,
+  "scored_at": "2026-04-26T23:31:52.049Z",
+  "total_chats": 868,
   "total_agents": 28,
   "agents": [
     {
@@ -21282,6 +21282,51 @@
           "raw_transcript": "[11:02:58 PM] t6704106247: Full Name: t6704106247 Email Address: merandanda_mlndz44@yahoo.com Subject / How can we help you?: I still haven’t got a response by email\n[11:02:58 PM] t6704106247: Full Name: t6704106247 Email Address: merandanda_mlndz44@yahoo.com Subject / How can we help you?: I still haven’t got a response by email\n[11:03:16 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:03:16 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:04:36 PM] Jonathan Fuentes: Bear with me for just a moment while I take a look at your account!\n[11:04:36 PM] Jonathan Fuentes: Bear with me for just a moment while I take a look at your account!\n[11:05:27 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[11:05:27 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[11:07:04 PM] Jonathan Fuentes: Are you still there? \n\nI'm still here if you need help.\n[11:07:04 PM] Jonathan Fuentes: Are you still there? \n\nI'm still here if you need help.\n[11:07:55 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:07:55 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T23:11:45.209Z"
+        },
+        {
+          "chat_id": "2048543966064111616",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-26T23:27:08.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about which redemption, method used, or when it was requested."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided general timeline information but did not check the specific redemption status or provide personalized details."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Information was clear and included helpful reminders, but lacked personalization and context for the customer's specific situation."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Provided standard policy information with no violations or unauthorized promises."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing whatsoever, agent simply stopped responding after providing information without checking if customer had questions or saying goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent provided generic redemption timeline information but failed to personalize the response by checking the customer's specific redemption status. Critical deficiencies in greeting and closing, with no attempt to verify customer satisfaction or offer further assistance.",
+          "coaching_tip": "Always check the customer's actual account to provide specific status updates on their redemption rather than just generic timelines, and never end a chat without a proper closing and confirmation that the issue is resolved.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[11:25:16 PM] t6116347850: Full Name: t6116347850 Email Address: kcmoore4321@gmail.com Subject / How can we help you?: I want to know how long it’s gonna take for me to get my redemption\n[11:25:16 PM] t6116347850: Full Name: t6116347850 Email Address: kcmoore4321@gmail.com Subject / How can we help you?: I want to know how long it’s gonna take for me to get my redemption\n[11:25:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:25:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:26:34 PM] Jonathan Fuentes: ACH Bank Transfer — up to 10 business days total\n[11:26:34 PM] Jonathan Fuentes: ACH Bank Transfer — up to 10 business days total\n[11:26:45 PM] Jonathan Fuentes: Just a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\n[11:26:45 PM] Jonathan Fuentes: Just a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T23:31:51.547Z"
         }
       ],
       "avg_score": 57,
@@ -78286,6 +78331,51 @@
       "raw_transcript": "[11:02:58 PM] t6704106247: Full Name: t6704106247 Email Address: merandanda_mlndz44@yahoo.com Subject / How can we help you?: I still haven’t got a response by email\n[11:02:58 PM] t6704106247: Full Name: t6704106247 Email Address: merandanda_mlndz44@yahoo.com Subject / How can we help you?: I still haven’t got a response by email\n[11:03:16 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:03:16 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:04:36 PM] Jonathan Fuentes: Bear with me for just a moment while I take a look at your account!\n[11:04:36 PM] Jonathan Fuentes: Bear with me for just a moment while I take a look at your account!\n[11:05:27 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[11:05:27 PM] Jonathan Fuentes: Can I please have the email you used to create your account?\n[11:07:04 PM] Jonathan Fuentes: Are you still there? \n\nI'm still here if you need help.\n[11:07:04 PM] Jonathan Fuentes: Are you still there? \n\nI'm still here if you need help.\n[11:07:55 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:07:55 PM] Jonathan Fuentes: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T23:11:45.209Z"
+    },
+    {
+      "chat_id": "2048543966064111616",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-26T23:27:08.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped directly into 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions about which redemption, method used, or when it was requested."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided general timeline information but did not check the specific redemption status or provide personalized details."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Information was clear and included helpful reminders, but lacked personalization and context for the customer's specific situation."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Provided standard policy information with no violations or unauthorized promises."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing whatsoever, agent simply stopped responding after providing information without checking if customer had questions or saying goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 54,
+      "grade": "F",
+      "summary": "Agent provided generic redemption timeline information but failed to personalize the response by checking the customer's specific redemption status. Critical deficiencies in greeting and closing, with no attempt to verify customer satisfaction or offer further assistance.",
+      "coaching_tip": "Always check the customer's actual account to provide specific status updates on their redemption rather than just generic timelines, and never end a chat without a proper closing and confirmation that the issue is resolved.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[11:25:16 PM] t6116347850: Full Name: t6116347850 Email Address: kcmoore4321@gmail.com Subject / How can we help you?: I want to know how long it’s gonna take for me to get my redemption\n[11:25:16 PM] t6116347850: Full Name: t6116347850 Email Address: kcmoore4321@gmail.com Subject / How can we help you?: I want to know how long it’s gonna take for me to get my redemption\n[11:25:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:25:43 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:26:34 PM] Jonathan Fuentes: ACH Bank Transfer — up to 10 business days total\n[11:26:34 PM] Jonathan Fuentes: ACH Bank Transfer — up to 10 business days total\n[11:26:45 PM] Jonathan Fuentes: Just a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\n[11:26:45 PM] Jonathan Fuentes: Just a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T23:31:51.547Z"
     }
   ]
 }
