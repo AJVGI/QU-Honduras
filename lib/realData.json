@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T05:21:56.623Z",
-  "total_chats": 735,
+  "scored_at": "2026-04-26T05:26:42.208Z",
+  "total_chats": 736,
   "total_agents": 27,
   "agents": [
     {
@@ -17214,11 +17214,56 @@
           "raw_transcript": "[05:19:30 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:19:30 AM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[05:19:52 AM] t0038884144: when do I get my weekly mystery bonus?\n[05:19:52 AM] t0038884144: when do I get my weekly mystery bonus?\n[05:20:41 AM] Raul Figueroa: Hey! \n\nWeekly Mystery Bonuses are usually released automatically, but the exact timing can vary and they may not arrive at the same time for every account.\n\nI recommend keeping an eye on your account and the Promotions section, as that’s where it will appear once it’s available.\n[05:20:41 AM] Raul Figueroa: Hey! \n\nWeekly Mystery Bonuses are usually released automatically, but the exact timing can vary and they may not arrive at the same time for every account.\n\nI recommend keeping an eye on your account and the Promotions section, as that’s where it will appear once it’s available.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T05:21:47.647Z"
+        },
+        {
+          "chat_id": "2048269399608832000",
+          "agent_name": "Raul Figueroa",
+          "agent_id": "5842",
+          "timestamp": "2026-04-26T05:22:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, friendly greeting with clear offer to help."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent asked appropriate clarifying questions but customer failed to provide the email address already visible in the initial message."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent could not resolve due to customer non-responsiveness, but followed reasonable protocol for account lookup."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional throughout, though agent overlooked email in initial customer message."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, followed proper procedures for account verification."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Professional close with alternative contact method provided after reasonable wait time."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided friendly service and followed proper protocol for handling verification inquiries. However, the agent missed that the customer's email address was already provided in the initial automated form submission, which could have expedited the interaction.",
+          "coaching_tip": "Always review the initial chat message carefully for pre-populated customer information like email addresses before asking customers to repeat information they've already provided.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[05:14:14 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[05:14:14 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[05:14:49 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:14:49 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:16:20 AM] t9077482285: Is my account verified\n[05:16:20 AM] t9077482285: Is my account verified\n[05:17:20 AM] Raul Figueroa: Have you submitted the info to get verified? If is a yes please let me know when and what info did you submitted, and also please let me know your email address so I can take a look.\n[05:17:20 AM] Raul Figueroa: Have you submitted the info to get verified? If is a yes please let me know when and what info did you submitted, and also please let me know your email address so I can take a look.\n[05:17:43 AM] t9077482285: Yes\n[05:17:43 AM] t9077482285: Yes\n[05:20:03 AM] Raul Figueroa: Sorry, what's your email address?\n[05:20:03 AM] Raul Figueroa: Sorry, what's your email address?\n[05:21:03 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:21:03 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:22:39 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:22:39 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:26:41.707Z"
         }
       ],
       "avg_score": 57,
       "grade": "F",
-      "trend": 3
+      "trend": 1
     },
     {
       "id": "5847",
@@ -66397,6 +66442,51 @@
       "raw_transcript": "[05:18:29 AM] t3709905099: Full Name: t3709905099 Email Address: 2011kenderious@gmail.com Subject / How can we help you?: I collected my daily bonus for 2 days but haven't received anything\n[05:18:29 AM] t3709905099: Full Name: t3709905099 Email Address: 2011kenderious@gmail.com Subject / How can we help you?: I collected my daily bonus for 2 days but haven't received anything\n[05:18:57 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:18:57 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[05:19:46 AM] Karen Perez: I get why that’s confusing — let’s clear it up.\n\nIf you’re claiming the daily bonus but not seeing anything added, a few things could be going on:\n\nThe reward may be Gold Coins (GC), not Sweepstakes Coins (SC)\n→ GC and SC are shown separately in your balance\nThe bonus might not have been fully claimed\n→ Sometimes you need to click “Claim” and then confirm it\nThere could be a display delay or glitch\n→ Try logging out and back in or refreshing the page\nThe reward might be locked behind a requirement\n→ In some cases, certain bonuses don’t credit until conditions are met\n\nSince you mentioned earlier issues with login and account setup, it’s also possible the reward didn’t properly attach to your account.\n\nLet’s not guess — I can check it directly.\n[05:19:46 AM] Karen Perez: I get why that’s confusing — let’s clear it up.\n\nIf you’re claiming the daily bonus but not seeing anything added, a few things could be going on:\n\nThe reward may be Gold Coins (GC), not Sweepstakes Coins (SC)\n→ GC and SC are shown separately in your balance\nThe bonus might not have been fully claimed\n→ Sometimes you need to click “Claim” and then confirm it\nThere could be a display delay or glitch\n→ Try logging out and back in or refreshing the page\nThe reward might be locked behind a requirement\n→ In some cases, certain bonuses don’t credit until conditions are met\n\nSince you mentioned earlier issues with login and account setup, it’s also possible the reward didn’t properly attach to your account.\n\nLet’s not guess — I can check it directly.\n[05:20:51 AM] Karen Perez: Is there anything else I can do for you today?\n[05:20:51 AM] Karen Perez: Is there anything else I can do for you today?\n[05:20:59 AM] t3709905099: No\n[05:20:59 AM] t3709905099: No",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T05:21:56.122Z"
+    },
+    {
+      "chat_id": "2048269399608832000",
+      "agent_name": "Raul Figueroa",
+      "agent_id": "5842",
+      "timestamp": "2026-04-26T05:22:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, friendly greeting with clear offer to help."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent asked appropriate clarifying questions but customer failed to provide the email address already visible in the initial message."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "Agent could not resolve due to customer non-responsiveness, but followed reasonable protocol for account lookup."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional throughout, though agent overlooked email in initial customer message."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, followed proper procedures for account verification."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Professional close with alternative contact method provided after reasonable wait time."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 55,
+      "grade": "F",
+      "summary": "Agent provided friendly service and followed proper protocol for handling verification inquiries. However, the agent missed that the customer's email address was already provided in the initial automated form submission, which could have expedited the interaction.",
+      "coaching_tip": "Always review the initial chat message carefully for pre-populated customer information like email addresses before asking customers to repeat information they've already provided.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[05:14:14 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[05:14:14 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still haven't received us\n[05:14:49 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:14:49 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:16:20 AM] t9077482285: Is my account verified\n[05:16:20 AM] t9077482285: Is my account verified\n[05:17:20 AM] Raul Figueroa: Have you submitted the info to get verified? If is a yes please let me know when and what info did you submitted, and also please let me know your email address so I can take a look.\n[05:17:20 AM] Raul Figueroa: Have you submitted the info to get verified? If is a yes please let me know when and what info did you submitted, and also please let me know your email address so I can take a look.\n[05:17:43 AM] t9077482285: Yes\n[05:17:43 AM] t9077482285: Yes\n[05:20:03 AM] Raul Figueroa: Sorry, what's your email address?\n[05:20:03 AM] Raul Figueroa: Sorry, what's your email address?\n[05:21:03 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:21:03 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:22:39 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:22:39 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T05:26:41.707Z"
     }
   ]
 }
