@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T10:41:52.444Z",
-  "total_chats": 779,
+  "scored_at": "2026-04-26T10:51:56.852Z",
+  "total_chats": 781,
   "total_agents": 28,
   "agents": [
     {
@@ -2877,11 +2877,56 @@
           "raw_transcript": "[09:10:54 AM] Customer: Full Name: Michael Orminski Email Address: mike72390@gmail.com Subject / How can we help you?: Yo where did my first purchase bonus offer go? I didn't buy it yet and it's not there wtf\n[09:10:54 AM] Customer: Full Name: Michael Orminski Email Address: mike72390@gmail.com Subject / How can we help you?: Yo where did my first purchase bonus offer go? I didn't buy it yet and it's not there wtf\n[09:11:47 AM] Karen Perez: I totally get the frustration when an offer you were eyeing seems to have pulled a vanishing act. Let's look into what might be happening with those purchase packs.There are a few reasons why a specific pack might not be showing up right now:Sequential Order: Purchase packs must be unlocked in a specific order: $1 \\rightarrow 2 \\rightarrow 3$. If you are looking for the 2nd or 3rd pack, you won't see them until the previous one is completed.Verification Status: Many of our bonuses and offers require you to be fully KYC verified before they appear or can be accessed.Technical Glitch: Sometimes it’s just a display error. A quick Hard Refresh ($Ctrl+Shift+R$ on Windows or $Cmd+Shift+R$ on Mac) or clearing your Cache & Cookies usually brings those offers right back to the storefront.A quick reminder on the 1st Purchase (New User Offer) tiers:$10: 4,000 GC | 600 XP | 22 SC $50: 20,000 GC | 3,000 XP | 80 SC $100: 4,0000 GC | 6,000 XP | 140 SC If you’ve tried a refresh and you’re definitely verified but the offer still isn't there, let me know! I can dig deeper into your account settings to see exactly what’s going on.Have you already completed your account verification?\n[09:12:04 AM] Customer: Yall really gonna do me like that immediately out of the gates when I'm trying to make my first purchase?? This is shady\n[09:12:04 AM] Customer: Yall really gonna do me like that immediately out of the gates when I'm trying to make my first purchase?? This is shady\n[09:13:56 AM] Karen Perez: Let me take a look into your account.\n[09:13:56 AM] Karen Perez: Let me take a look into your account.\n[09:16:58 AM] Karen Perez: I totally get the frustration when an offer you were eyeing seems to have pulled a vanishing act. Let's look into what might be happening with those purchase packs.\n\nThere are a few reasons why a specific pack might not be showing up right now:\n\n]**Sequential Order**: Purchase packs must be unlocked in a specific order: $1 \\rightarrow 2 \\rightarrow 3$. If you are looking for the 2nd or 3rd pack, you won't see them until the previous one is completed.\n**Verification Status**: Many of our bonuses and offers require you to be fully KYC verified before they appear or can be accessed.\n**Technical Glitch**: Sometimes it’s just a display error. A quick **Hard Refresh** ($Ctrl+Shift+R$ on Windows or $Cmd+Shift+R$ on Mac) or clearing your **Cache & Cookies** usually brings those offers right back to the storefront.\n\n**A quick reminder on the 1st Purchase (New User Offer) tiers:**\n* **$10**: 4,000 GC | 600 XP | 22 SC\n* **$50**: 20,000 GC | 3,000 XP | 80 SC \n* **$100**: 4,0000 GC | 6,000 XP | [cite_start]140 SC\n[09:16:58 AM] Karen Perez: I totally get the frustration when an offer you were eyeing seems to have pulled a vanishing act. Let's look into what might be happening with those purchase packs.\n\nThere are a few reasons why a specific pack might not be showing up right now:\n\n]**Sequential Order**: Purchase packs must be unlocked in a specific order: $1 \\rightarrow 2 \\rightarrow 3$. If you are looking for the 2nd or 3rd pack, you won't see them until the previous one is completed.\n**Verification Status**: Many of our bonuses and offers require you to be fully KYC verified before they appear or can be accessed.\n**Technical Glitch**: Sometimes it’s just a display error. A quick **Hard Refresh** ($Ctrl+Shift+R$ on Windows or $Cmd+Shift+R$ on Mac) or clearing your **Cache & Cookies** usually brings those offers right back to the storefront.\n\n**A quick reminder on the 1st Purchase (New User Offer) tiers:**\n* **$10**: 4,000 GC | 600 XP | 22 SC\n* **$50**: 20,000 GC | 3,000 XP | 80 SC \n* **$100**: 4,0000 GC | 6,000 XP | [cite_start]140 SC\n[09:17:57 AM] Karen Perez: Sorry, are you still there?\n[09:17:57 AM] Karen Perez: Sorry, are you still there?\n[09:19:01 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[09:19:01 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach out to us anytime at support@jackpotdaily.com — we’ll be happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T09:21:59.199Z"
+        },
+        {
+          "chat_id": "2048348945912119296",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-26T10:47:29.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name and offer to help, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked for clarification and reviewed account history including previous chats, demonstrating adequate understanding of the cash voucher reward issue."
+            },
+            "resolution": {
+              "score": 19,
+              "notes": "Agent appropriately escalated the complex issue involving conflicting information from previous agents to the appropriate department for thorough review."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic communication with good patience updates, though could have been slightly more proactive in explaining next steps earlier."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent properly escalated rather than making unauthorized promises about the reward credit."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Transcript appears truncated at escalation explanation, so closing assessment is incomplete based on available information."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 69,
+          "grade": "D",
+          "summary": "Agent handled a moderately complex issue involving conflicting information from previous agents professionally and escalated appropriately. Communication was empathetic with good patience management, though the transcript appears cut off before the final closing.",
+          "coaching_tip": "When discovering a customer received conflicting information from multiple agents, acknowledge this specifically and apologize for the confusion before proceeding to resolution.",
+          "website": "Jackpot Daily",
+          "message_count": 58,
+          "raw_transcript": "[10:30:19 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[10:30:19 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[10:30:51 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[10:30:51 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[10:30:56 AM] Customer: Hi Melissa... I chatted with a couple agents in the last few hours\n[10:30:56 AM] Customer: Hi Melissa... I chatted with a couple agents in the last few hours\n[10:31:49 AM] Customer: I was given different answers on my inquiry of receiving my cash voucher rewards\n[10:31:49 AM] Customer: I was given different answers on my inquiry of receiving my cash voucher rewards\n[10:32:25 AM] Customer: Would you be able to look into this for me. I can reference previous chat logs if you need assistance\n[10:32:25 AM] Customer: Would you be able to look into this for me. I can reference previous chat logs if you need assistance\n[10:32:43 AM] Karen Perez: I see. Can you please clarify more?\n[10:32:43 AM] Karen Perez: I see. Can you please clarify more?\n[10:32:58 AM] Customer: But 2 of the agents told me to wait an hour and I would be credited with my reward\n[10:32:58 AM] Customer: But 2 of the agents told me to wait an hour and I would be credited with my reward\n[10:33:50 AM] Customer: Screenshot_20260426_063322_Chrome.jpg\n[10:33:50 AM] Customer: Screenshot_20260426_063322_Chrome.jpg\n[10:33:57 AM] Customer: Screenshot_20260426_063330_Chrome.jpg\n[10:33:57 AM] Customer: Screenshot_20260426_063330_Chrome.jpg\n[10:34:06 AM] Customer: Screenshot_20260426_063338_Chrome.jpg\n[10:34:06 AM] Customer: Screenshot_20260426_063338_Chrome.jpg\n[10:34:58 AM] Customer: I can send you proof of the 2 purchase as well.... ultimately I know its nothing big but its a bonus i earned and would love to use it\n[10:34:58 AM] Customer: I can send you proof of the 2 purchase as well.... ultimately I know its nothing big but its a bonus i earned and would love to use it\n[10:36:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[10:36:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[10:36:19 AM] Customer: Thank you for the assistance\n[10:36:19 AM] Customer: Thank you for the assistance\n[10:38:59 AM] Karen Perez: I was looking at the previous chat and saw that you request the closure of the account, do you still want that?\n[10:38:59 AM] Karen Perez: I was looking at the previous chat and saw that you request the closure of the account, do you still want that?\n[10:39:59 AM] Customer: If getting this bonus credited is this difficult it gave me reservations about playing and spending here\n[10:39:59 AM] Customer: If getting this bonus credited is this difficult it gave me reservations about playing and spending here\n[10:40:34 AM] Customer: However im open to still playing and spending depending on how long this issue takes to resolve\n[10:40:34 AM] Customer: However im open to still playing and spending depending on how long this issue takes to resolve\n[10:40:40 AM] Karen Perez: I can understand it can be frustrating. Pleaso allow me a few minutes\n[10:40:40 AM] Karen Perez: I can understand it can be frustrating. Pleaso allow me a few minutes\n[10:41:10 AM] Customer: Okay\n[10:41:10 AM] Customer: Okay\n[10:42:22 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:42:22 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:42:38 AM] Customer: My pleasure. I appreciate the assistance\n[10:42:38 AM] Customer: My pleasure. I appreciate the assistance\n[10:42:58 AM] Karen Perez: Since you’ve already been in contact with other agents regarding this issue, I’ll need to escalate the case to the appropriate department so it can be reviewed more thoroughly. At the moment, that department is currently closed.\n[10:42:58 AM] Karen Perez: Since you’ve already been in contact with other agents regarding this issue, I’ll need to escalate the case to the appropriate department so it can be reviewed more thoroughly. At the moment, that department is currently closed.\n[10:43:06 AM] Karen Perez: Please allow up to 24 hours for us to receive an update once the escalation is reviewed. As soon as I have more information to share, I’ll follow up with you right away.\n[10:43:06 AM] Karen Perez: Please allow up to 24 hours for us to receive an update once the escalation is reviewed. As soon as I have more information to share, I’ll follow up with you right away.\n[10:43:39 AM] Customer: I appreciate the time you spent looking into this\n[10:43:39 AM] Customer: I appreciate the time you spent looking into this\n[10:44:27 AM] Customer: I would like to submit a request to see if you can approve or get a small bonus approve for the inconvenience of this situation\n[10:44:27 AM] Customer: I would like to submit a request to see if you can approve or get a small bonus approve for the inconvenience of this situation\n[10:44:34 AM] Customer: You have been mkre then helpful\n[10:44:34 AM] Customer: You have been mkre then helpful\n[10:45:44 AM] Karen Perez: You are welcome!\n[10:45:44 AM] Karen Perez: You are welcome!\n[10:47:03 AM] Karen Perez: I’d be happy to submit a request on your behalf to see if a small courtesy bonus can be approved due to the inconvenience you experienced. To do that, I’ll need to escalate this to the appropriate department for review, as these requests are not something we can approve directly.\n[10:47:03 AM] Karen Perez: I’d be happy to submit a request on your behalf to see if a small courtesy bonus can be approved due to the inconvenience you experienced. To do that, I’ll need to escalate this to the appropriate department for review, as these requests are not something we can approve directly.\n[10:47:15 AM] Karen Perez: Once escalated, the team will evaluate the situation and determine whether a bonus can be granted.\n[10:47:15 AM] Karen Perez: Once escalated, the team will evaluate the situation and determine whether a bonus can be granted.\n[10:47:21 AM] Customer: Thank you\n[10:47:21 AM] Customer: Thank you",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T10:51:56.351Z"
         }
       ],
       "avg_score": 64,
       "grade": "D",
-      "trend": -1
+      "trend": -7
     },
     {
       "id": "5551",
@@ -8943,11 +8988,56 @@
           "raw_transcript": "[07:20:22 AM] t0505060060: Full Name: t0505060060 Email Address: 7inchz8allz6eep@gmail.com Subject / How can we help you?: Whats the daily sign in bonus?\n[07:20:22 AM] t0505060060: Full Name: t0505060060 Email Address: 7inchz8allz6eep@gmail.com Subject / How can we help you?: Whats the daily sign in bonus?\n[07:21:08 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment\n[07:21:08 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment\n[07:22:17 AM] t0505060060: Because the system said \"daily sign in complete. Check your wallet balance. The bonus has been added automatically.\" Or something along those lines.. but nothing is added to my wallet...??\n[07:22:17 AM] t0505060060: Because the system said \"daily sign in complete. Check your wallet balance. The bonus has been added automatically.\" Or something along those lines.. but nothing is added to my wallet...??\n[07:22:31 AM] t0505060060: Ok thank you Brandon\n[07:22:31 AM] t0505060060: Ok thank you Brandon\n[07:23:41 AM] t0505060060: Do i have to make a purchase in order to recieve free daily SC?\n[07:23:41 AM] t0505060060: Do i have to make a purchase in order to recieve free daily SC?\n[07:24:29 AM] Daniel Padilla: I´m checking your profile right now, please allow me one moment\n[07:24:29 AM] Daniel Padilla: I´m checking your profile right now, please allow me one moment\n[07:24:48 AM] t0505060060: Yea no problem youre good\n[07:24:48 AM] t0505060060: Yea no problem youre good\n[07:26:24 AM] t0505060060: Ok ty\n[07:26:24 AM] t0505060060: Ok ty\n[07:27:25 AM] Daniel Padilla: Did you get the daily reward for yesterday and the day before? ( 24/25 april)\n[07:27:25 AM] Daniel Padilla: Did you get the daily reward for yesterday and the day before? ( 24/25 april)\n[07:27:59 AM] t0505060060: Yesterday no and the day before.... no i dont believe so..\n[07:27:59 AM] t0505060060: Yesterday no and the day before.... no i dont believe so..\n[07:28:25 AM] Daniel Padilla: Can you please send me a screenshot of your balance?\n[07:28:25 AM] Daniel Padilla: Can you please send me a screenshot of your balance?\n[07:28:29 AM] t0505060060: Cuz the 24th is when i KYC\n[07:28:29 AM] t0505060060: Cuz the 24th is when i KYC\n[07:28:33 AM] t0505060060: K\n[07:28:33 AM] t0505060060: K\n[07:29:29 AM] t0505060060: The system wont let me\n[07:29:29 AM] t0505060060: The system wont let me\n[07:29:41 AM] t0505060060: I habe\n[07:29:41 AM] t0505060060: I habe\n[07:29:55 AM] t0505060060: I Have 0.00 in my account\n[07:29:55 AM] t0505060060: I Have 0.00 in my account\n[07:31:22 AM] t0505060060: Im sorry my bad on the 24th actually yes i did receive. .20 for the daily bonus.\n[07:31:22 AM] t0505060060: Im sorry my bad on the 24th actually yes i did receive. .20 for the daily bonus.\n[07:31:36 AM] t0505060060: But nothing yesterday and nothing today..\n[07:31:36 AM] t0505060060: But nothing yesterday and nothing today..\n[07:31:52 AM] Daniel Padilla: Ok, thank you! please give me a second\n[07:31:52 AM] Daniel Padilla: Ok, thank you! please give me a second\n[07:32:03 AM] t0505060060: K np\n[07:32:03 AM] t0505060060: K np\n[07:33:17 AM] Daniel Padilla: I’ve just refreshed the account on my end. When you have a moment, please log out, refresh your browser, and then log back in to update your session. It should appear after that, but feel free to let me know if you still need any help!\n[07:33:17 AM] Daniel Padilla: I’ve just refreshed the account on my end. When you have a moment, please log out, refresh your browser, and then log back in to update your session. It should appear after that, but feel free to let me know if you still need any help!\n[07:33:45 AM] t0505060060: Ok thx B. Ill brb\n[07:33:45 AM] t0505060060: Ok thx B. Ill brb\n[07:34:05 AM] Daniel Padilla: Sure! Take your time\n[07:34:05 AM] Daniel Padilla: Sure! Take your time\n[07:35:45 AM] t0505060060: Ok so i gave me my .30 for todays bonus but i didnt get anything fio\n[07:35:45 AM] t0505060060: Ok so i gave me my .30 for todays bonus but i didnt get anything fio\n[07:35:53 AM] t0505060060: For yesterday*\n[07:35:53 AM] t0505060060: For yesterday*\n[07:36:22 AM] t0505060060: Thank you btw\n[07:36:22 AM] t0505060060: Thank you btw\n[07:38:20 AM] Daniel Padilla: Great! I will refresh your account one more time, just in case, but the bonus for today should be in your account in a few hours, usually after the 10 am, so do not worry, you will get it\n[07:38:20 AM] Daniel Padilla: Great! I will refresh your account one more time, just in case, but the bonus for today should be in your account in a few hours, usually after the 10 am, so do not worry, you will get it\n[07:38:32 AM] Daniel Padilla: Anything else i can do for you?\n[07:38:32 AM] Daniel Padilla: Anything else i can do for you?\n[07:39:04 AM] t0505060060: Nope thatll work thanks B! Youre awesome i dont care what ANYBODY says about you!\n[07:39:04 AM] t0505060060: Nope thatll work thanks B! Youre awesome i dont care what ANYBODY says about you!\n[07:39:24 AM] t0505060060: 😁😆\n[07:39:24 AM] t0505060060: 😁😆\n[07:39:38 AM] Daniel Padilla: Great, if there’s nothing else I can assist you with, I’ll go ahead and end the chat. Have a great rest of your day!\n[07:39:38 AM] Daniel Padilla: Great, if there’s nothing else I can assist you with, I’ll go ahead and end the chat. Have a great rest of your day!\n[07:39:41 AM] t0505060060: 💪🏾👍🏾\n[07:39:41 AM] t0505060060: 💪🏾👍🏾",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T07:41:42.471Z"
+        },
+        {
+          "chat_id": "2048353591173148672",
+          "agent_name": "Daniel Padilla",
+          "agent_id": "5804",
+          "timestamp": "2026-04-26T10:51:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional welcome with offer to help, but did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Clearly understood the straightforward question about weekend redemption processing without need for further clarification."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided direct, accurate answer to the policy question with clear timeline expectations."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, empathetic, and professional with appropriate acknowledgment of customer concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Provided policy information appropriately without making unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance clearly, though could have included a more formal closing statement."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 79,
+          "grade": "C",
+          "summary": "Agent handled a straightforward policy question efficiently and professionally, providing accurate information about weekend redemption processing. The response was clear, empathetic, and complete with an offer for additional assistance.",
+          "coaching_tip": "Personalize the greeting by using the customer's name (Latoya) to create a warmer, more engaging interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 6,
+          "raw_transcript": "[10:48:47 AM] Customer: Full Name: Latoya S Henderson Email Address: Mz.volleybalL_tuky@yahoo.com Subject / How can we help you?: Are redemptions processed on weekends?\n[10:48:47 AM] Customer: Full Name: Latoya S Henderson Email Address: Mz.volleybalL_tuky@yahoo.com Subject / How can we help you?: Are redemptions processed on weekends?\n[10:49:06 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:49:06 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:49:53 AM] Daniel Padilla: Hi there! Thank you for reaching out. I understand how important this is. At the moment, redemptions are not processed on weekends, but they will resume as usual on the next business day. We appreciate your patience, and please let me know if there’s anything else I can assist you with!\n[10:49:53 AM] Daniel Padilla: Hi there! Thank you for reaching out. I understand how important this is. At the moment, redemptions are not processed on weekends, but they will resume as usual on the next business day. We appreciate your patience, and please let me know if there’s anything else I can assist you with!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T10:51:46.958Z"
         }
       ],
-      "avg_score": 59,
-      "grade": "F",
-      "trend": -10
+      "avg_score": 60,
+      "grade": "D",
+      "trend": -4
     },
     {
       "id": "5808",
@@ -70366,6 +70456,96 @@
       "raw_transcript": "[10:33:12 AM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[10:33:12 AM] t3294762125: Full Name: t3294762125 Email Address: mattponteri@gmail.com Subject / How can we help you?: How to I receive the $10 sign on bonus. I already did the complete verification\n[10:36:28 AM] Mirza Garcia: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[10:36:28 AM] Mirza Garcia: I’m sorry to hear you haven’t received your bonus yet. Our team is still working on this matter, and once the process is completed, your bonus will be automatically credited to your account — no extra steps required. We’ll make sure to let you know once everything is back to normal. We truly appreciate your patience and understanding while we finalize this for you.\n[10:37:12 AM] t3294762125: Ok TY\n[10:37:12 AM] t3294762125: Ok TY",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T10:41:51.943Z"
+    },
+    {
+      "chat_id": "2048353591173148672",
+      "agent_name": "Daniel Padilla",
+      "agent_id": "5804",
+      "timestamp": "2026-04-26T10:51:01.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional welcome with offer to help, but did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Clearly understood the straightforward question about weekend redemption processing without need for further clarification."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided direct, accurate answer to the policy question with clear timeline expectations."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic, and professional with appropriate acknowledgment of customer concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Provided policy information appropriately without making unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance clearly, though could have included a more formal closing statement."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 79,
+      "grade": "C",
+      "summary": "Agent handled a straightforward policy question efficiently and professionally, providing accurate information about weekend redemption processing. The response was clear, empathetic, and complete with an offer for additional assistance.",
+      "coaching_tip": "Personalize the greeting by using the customer's name (Latoya) to create a warmer, more engaging interaction.",
+      "website": "Jackpot Daily",
+      "message_count": 6,
+      "raw_transcript": "[10:48:47 AM] Customer: Full Name: Latoya S Henderson Email Address: Mz.volleybalL_tuky@yahoo.com Subject / How can we help you?: Are redemptions processed on weekends?\n[10:48:47 AM] Customer: Full Name: Latoya S Henderson Email Address: Mz.volleybalL_tuky@yahoo.com Subject / How can we help you?: Are redemptions processed on weekends?\n[10:49:06 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:49:06 AM] Daniel Padilla: Welcome to Jackpot Daily support — I'm here to help! \nLet me take a look at your request. Please allow me a moment.\n[10:49:53 AM] Daniel Padilla: Hi there! Thank you for reaching out. I understand how important this is. At the moment, redemptions are not processed on weekends, but they will resume as usual on the next business day. We appreciate your patience, and please let me know if there’s anything else I can assist you with!\n[10:49:53 AM] Daniel Padilla: Hi there! Thank you for reaching out. I understand how important this is. At the moment, redemptions are not processed on weekends, but they will resume as usual on the next business day. We appreciate your patience, and please let me know if there’s anything else I can assist you with!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T10:51:46.958Z"
+    },
+    {
+      "chat_id": "2048348945912119296",
+      "agent_name": "Karen Perez",
+      "agent_id": "5846",
+      "timestamp": "2026-04-26T10:47:29.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name and offer to help, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked for clarification and reviewed account history including previous chats, demonstrating adequate understanding of the cash voucher reward issue."
+        },
+        "resolution": {
+          "score": 19,
+          "notes": "Agent appropriately escalated the complex issue involving conflicting information from previous agents to the appropriate department for thorough review."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, empathetic communication with good patience updates, though could have been slightly more proactive in explaining next steps earlier."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent properly escalated rather than making unauthorized promises about the reward credit."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Transcript appears truncated at escalation explanation, so closing assessment is incomplete based on available information."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 69,
+      "grade": "D",
+      "summary": "Agent handled a moderately complex issue involving conflicting information from previous agents professionally and escalated appropriately. Communication was empathetic with good patience management, though the transcript appears cut off before the final closing.",
+      "coaching_tip": "When discovering a customer received conflicting information from multiple agents, acknowledge this specifically and apologize for the confusion before proceeding to resolution.",
+      "website": "Jackpot Daily",
+      "message_count": 58,
+      "raw_transcript": "[10:30:19 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[10:30:19 AM] Customer: Full Name: Mark R Ceryak Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[10:30:51 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[10:30:51 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[10:30:56 AM] Customer: Hi Melissa... I chatted with a couple agents in the last few hours\n[10:30:56 AM] Customer: Hi Melissa... I chatted with a couple agents in the last few hours\n[10:31:49 AM] Customer: I was given different answers on my inquiry of receiving my cash voucher rewards\n[10:31:49 AM] Customer: I was given different answers on my inquiry of receiving my cash voucher rewards\n[10:32:25 AM] Customer: Would you be able to look into this for me. I can reference previous chat logs if you need assistance\n[10:32:25 AM] Customer: Would you be able to look into this for me. I can reference previous chat logs if you need assistance\n[10:32:43 AM] Karen Perez: I see. Can you please clarify more?\n[10:32:43 AM] Karen Perez: I see. Can you please clarify more?\n[10:32:58 AM] Customer: But 2 of the agents told me to wait an hour and I would be credited with my reward\n[10:32:58 AM] Customer: But 2 of the agents told me to wait an hour and I would be credited with my reward\n[10:33:50 AM] Customer: Screenshot_20260426_063322_Chrome.jpg\n[10:33:50 AM] Customer: Screenshot_20260426_063322_Chrome.jpg\n[10:33:57 AM] Customer: Screenshot_20260426_063330_Chrome.jpg\n[10:33:57 AM] Customer: Screenshot_20260426_063330_Chrome.jpg\n[10:34:06 AM] Customer: Screenshot_20260426_063338_Chrome.jpg\n[10:34:06 AM] Customer: Screenshot_20260426_063338_Chrome.jpg\n[10:34:58 AM] Customer: I can send you proof of the 2 purchase as well.... ultimately I know its nothing big but its a bonus i earned and would love to use it\n[10:34:58 AM] Customer: I can send you proof of the 2 purchase as well.... ultimately I know its nothing big but its a bonus i earned and would love to use it\n[10:36:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[10:36:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[10:36:19 AM] Customer: Thank you for the assistance\n[10:36:19 AM] Customer: Thank you for the assistance\n[10:38:59 AM] Karen Perez: I was looking at the previous chat and saw that you request the closure of the account, do you still want that?\n[10:38:59 AM] Karen Perez: I was looking at the previous chat and saw that you request the closure of the account, do you still want that?\n[10:39:59 AM] Customer: If getting this bonus credited is this difficult it gave me reservations about playing and spending here\n[10:39:59 AM] Customer: If getting this bonus credited is this difficult it gave me reservations about playing and spending here\n[10:40:34 AM] Customer: However im open to still playing and spending depending on how long this issue takes to resolve\n[10:40:34 AM] Customer: However im open to still playing and spending depending on how long this issue takes to resolve\n[10:40:40 AM] Karen Perez: I can understand it can be frustrating. Pleaso allow me a few minutes\n[10:40:40 AM] Karen Perez: I can understand it can be frustrating. Pleaso allow me a few minutes\n[10:41:10 AM] Customer: Okay\n[10:41:10 AM] Customer: Okay\n[10:42:22 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:42:22 AM] Karen Perez: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[10:42:38 AM] Customer: My pleasure. I appreciate the assistance\n[10:42:38 AM] Customer: My pleasure. I appreciate the assistance\n[10:42:58 AM] Karen Perez: Since you’ve already been in contact with other agents regarding this issue, I’ll need to escalate the case to the appropriate department so it can be reviewed more thoroughly. At the moment, that department is currently closed.\n[10:42:58 AM] Karen Perez: Since you’ve already been in contact with other agents regarding this issue, I’ll need to escalate the case to the appropriate department so it can be reviewed more thoroughly. At the moment, that department is currently closed.\n[10:43:06 AM] Karen Perez: Please allow up to 24 hours for us to receive an update once the escalation is reviewed. As soon as I have more information to share, I’ll follow up with you right away.\n[10:43:06 AM] Karen Perez: Please allow up to 24 hours for us to receive an update once the escalation is reviewed. As soon as I have more information to share, I’ll follow up with you right away.\n[10:43:39 AM] Customer: I appreciate the time you spent looking into this\n[10:43:39 AM] Customer: I appreciate the time you spent looking into this\n[10:44:27 AM] Customer: I would like to submit a request to see if you can approve or get a small bonus approve for the inconvenience of this situation\n[10:44:27 AM] Customer: I would like to submit a request to see if you can approve or get a small bonus approve for the inconvenience of this situation\n[10:44:34 AM] Customer: You have been mkre then helpful\n[10:44:34 AM] Customer: You have been mkre then helpful\n[10:45:44 AM] Karen Perez: You are welcome!\n[10:45:44 AM] Karen Perez: You are welcome!\n[10:47:03 AM] Karen Perez: I’d be happy to submit a request on your behalf to see if a small courtesy bonus can be approved due to the inconvenience you experienced. To do that, I’ll need to escalate this to the appropriate department for review, as these requests are not something we can approve directly.\n[10:47:03 AM] Karen Perez: I’d be happy to submit a request on your behalf to see if a small courtesy bonus can be approved due to the inconvenience you experienced. To do that, I’ll need to escalate this to the appropriate department for review, as these requests are not something we can approve directly.\n[10:47:15 AM] Karen Perez: Once escalated, the team will evaluate the situation and determine whether a bonus can be granted.\n[10:47:15 AM] Karen Perez: Once escalated, the team will evaluate the situation and determine whether a bonus can be granted.\n[10:47:21 AM] Customer: Thank you\n[10:47:21 AM] Customer: Thank you",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T10:51:56.351Z"
     }
   ]
 }
