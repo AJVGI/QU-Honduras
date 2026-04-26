@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T00:01:47.307Z",
-  "total_chats": 695,
+  "scored_at": "2026-04-26T00:11:48.977Z",
+  "total_chats": 696,
   "total_agents": 27,
   "agents": [
     {
@@ -9033,11 +9033,56 @@
           "raw_transcript": "[11:47:49 PM] Customer: Full Name: Gina Email Address: ginasay77@gmail.com Subject / How can we help you?: It’s saying that have a an incorrect username or password\n[11:47:49 PM] Customer: Full Name: Gina Email Address: ginasay77@gmail.com Subject / How can we help you?: It’s saying that have a an incorrect username or password\n[11:48:02 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:48:02 PM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[11:51:12 PM] Daniel Ayestas: Could you please let me know if you’re seeing any error message when this happens?\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[11:51:12 PM] Daniel Ayestas: Could you please let me know if you’re seeing any error message when this happens?\nIf possible, please share a screenshot of what you’re seeing. That will help us take a closer look and assist you more efficiently.\n[11:52:59 PM] Customer: pasted-image-1777074775421.jpg\n[11:52:59 PM] Customer: pasted-image-1777074775421.jpg\n[11:53:14 PM] Daniel Ayestas: Give me a moment to review this information.\n[11:53:14 PM] Daniel Ayestas: Give me a moment to review this information.\n[11:53:42 PM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:53:42 PM] Daniel Ayestas: To properly refresh your account, please follow these simple steps:\n\nLog Out and Log In: Click on your profile icon and select \"Logout.\" Wait a few seconds, then log back in with your credentials.\n\nHard Refresh: If you are on a desktop, press Ctrl + F5 (Windows) or Command + Shift + R (Mac) while on the website.\n\nClear Cache: If the above steps don't work, clearing your browser's cache and cookies in your settings is a great way to ensure you're seeing the most up-to-date version of your account.\n\nMobile Users: Simply close the browser tab entirely and reopen www.jackpotdaily.com in a new window.\n\nIf your account still doesn't look right after trying these steps, please let us know at support@jackpotdaily.com and we'll be happy to investigate further for you!\n[11:53:53 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[11:53:53 PM] Daniel Ayestas: Is there anything else I can help you with today?\n[11:56:04 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[11:56:04 PM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T23:59:48.771Z"
+        },
+        {
+          "chat_id": "2048191092276686848",
+          "agent_name": "Daniel Ayestas",
+          "agent_id": "5808",
+          "timestamp": "2026-04-26T00:08:25.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, agent jumped directly to 'Please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic location error issue but never confirmed customer's state, device type, or verified if troubleshooting steps worked before closing."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided standard troubleshooting steps but closed chat prematurely without confirming if issue was resolved or waiting for customer to try solutions."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-formatted troubleshooting list, but timing was poor—asked if anything else needed immediately after giving instructions, not allowing time for customer to test."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises, handled appropriately within guidelines."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed abruptly after customer only said 'Ok' without confirming resolution or ensuring customer didn't need further assistance with the actual problem."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided reasonable troubleshooting steps for a location verification issue but failed to greet the customer and closed the chat prematurely without confirming the issue was resolved. The customer only acknowledged receiving the instructions but never reported back on whether they worked.",
+          "coaching_tip": "Wait for customer confirmation that troubleshooting steps have been attempted and whether the issue is resolved before offering to close the chat—'Ok' means they heard you, not that the problem is fixed.",
+          "website": "Jackpot Daily",
+          "message_count": 16,
+          "raw_transcript": "[12:03:04 AM] Customer: Full Name: Valarie Pittman Email Address: valariepittman0@gmail.com Subject / How can we help you?: I'm trying to sign up but it's saying something about my location my location\n[12:03:04 AM] Customer: Full Name: Valarie Pittman Email Address: valariepittman0@gmail.com Subject / How can we help you?: I'm trying to sign up but it's saying something about my location my location\n[12:03:23 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:03:23 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:04:27 AM] Customer: Ok\n[12:04:27 AM] Customer: Ok\n[12:04:38 AM] Daniel Ayestas: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[12:04:38 AM] Daniel Ayestas: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[12:04:40 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:04:40 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:04:58 AM] Customer: Ok\n[12:04:58 AM] Customer: Ok\n[12:05:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:05:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:08:22 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:08:22 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T00:11:48.476Z"
         }
       ],
-      "avg_score": 60,
-      "grade": "D",
-      "trend": 6
+      "avg_score": 59,
+      "grade": "F",
+      "trend": 3
     },
     {
       "id": "5844",
@@ -62797,6 +62842,51 @@
       "raw_transcript": "[11:55:38 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: No I used my friends referral code, therefore according to your guys peloton I should be able to get 50$ aswell as him, to which he did, but I didn’t. I did use his referral code when creating THIS account and have plenty of proof. I do expect 50$ SC if you guys want me to keep buying in on your guys sight.\n[11:55:38 PM] t4958167127: Full Name: t4958167127 Email Address: buttertfm@gmail.com Subject / How can we help you?: No I used my friends referral code, therefore according to your guys peloton I should be able to get 50$ aswell as him, to which he did, but I didn’t. I did use his referral code when creating THIS account and have plenty of proof. I do expect 50$ SC if you guys want me to keep buying in on your guys sight.\n[11:55:50 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:55:50 PM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[11:57:23 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[11:57:23 PM] Ludovicode Flores: The Referral Program is one of the best deals on the platform — and there are 3 reward types that all run at the same time\n1. Instant Referral Reward:\nFriend registers + completes KYC + makes cumulative purchases of $70+ = 58 SC +\n5,800 GC credited to you instantly!\n2. Lifetime Gameplay Rebate:\nYou earn a % of your friend’s SC gameplay forever:\n- Slots & Fishing: 0.28%\n- Poker, Live Casino & Sports: 0.18%\n3. Milestone Rewards:\n- 5 referrals: 58 SC\n- 10 referrals: 108 SC\n- 25 referrals: 288 SC\n- 50 referrals: 688 SC\n- 100 referrals: 1,888 SC\nFind your referral link in the ’Invite Friends’ section. All three rewards stack — the\nmore friends, the better!\nQuestions about your earnings? I’m here\n[11:59:39 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!\n[11:59:39 PM] Ludovicode Flores: Thanks for chatting with us Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T00:01:46.806Z"
+    },
+    {
+      "chat_id": "2048191092276686848",
+      "agent_name": "Daniel Ayestas",
+      "agent_id": "5808",
+      "timestamp": "2026-04-26T00:08:25.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, agent jumped directly to 'Please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic location error issue but never confirmed customer's state, device type, or verified if troubleshooting steps worked before closing."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided standard troubleshooting steps but closed chat prematurely without confirming if issue was resolved or waiting for customer to try solutions."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and well-formatted troubleshooting list, but timing was poor—asked if anything else needed immediately after giving instructions, not allowing time for customer to test."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises, handled appropriately within guidelines."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed abruptly after customer only said 'Ok' without confirming resolution or ensuring customer didn't need further assistance with the actual problem."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 55,
+      "grade": "F",
+      "summary": "Agent provided reasonable troubleshooting steps for a location verification issue but failed to greet the customer and closed the chat prematurely without confirming the issue was resolved. The customer only acknowledged receiving the instructions but never reported back on whether they worked.",
+      "coaching_tip": "Wait for customer confirmation that troubleshooting steps have been attempted and whether the issue is resolved before offering to close the chat—'Ok' means they heard you, not that the problem is fixed.",
+      "website": "Jackpot Daily",
+      "message_count": 16,
+      "raw_transcript": "[12:03:04 AM] Customer: Full Name: Valarie Pittman Email Address: valariepittman0@gmail.com Subject / How can we help you?: I'm trying to sign up but it's saying something about my location my location\n[12:03:04 AM] Customer: Full Name: Valarie Pittman Email Address: valariepittman0@gmail.com Subject / How can we help you?: I'm trying to sign up but it's saying something about my location my location\n[12:03:23 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:03:23 AM] Daniel Ayestas: Please allow me one moment to look into this for you!\n[12:04:27 AM] Customer: Ok\n[12:04:27 AM] Customer: Ok\n[12:04:38 AM] Daniel Ayestas: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[12:04:38 AM] Daniel Ayestas: That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[12:04:40 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:04:40 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:04:58 AM] Customer: Ok\n[12:04:58 AM] Customer: Ok\n[12:05:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:05:10 AM] Daniel Ayestas: Is there anything else I can help you with today?\n[12:08:22 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:08:22 AM] Daniel Ayestas: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T00:11:48.476Z"
     }
   ]
 }
