@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T10:11:56.187Z",
-  "total_chats": 774,
+  "scored_at": "2026-04-26T10:16:44.231Z",
+  "total_chats": 775,
   "total_agents": 28,
   "agents": [
     {
@@ -21525,11 +21525,56 @@
           "raw_transcript": "[09:46:48 AM] t4321669790: Full Name: t4321669790 Email Address: murphy31701@yahoo.com Subject / How can we help you?: Did not receive my signing bonus\n[09:46:48 AM] t4321669790: Full Name: t4321669790 Email Address: murphy31701@yahoo.com Subject / How can we help you?: Did not receive my signing bonus\n[09:47:10 AM] Ariel Lanza: Give me a moment to review this information.\n[09:47:10 AM] Ariel Lanza: Give me a moment to review this information.\n[09:49:00 AM] Ariel Lanza: I’ve checked your account and can see that your verification is not complete yet. To ensure your security and allow you to cash out your winnings, you'll just need to finish this one-time process.\n\nOnce you are verified, you will be able to access the \"Redeem\" tab whenever you meet the minimum balance requirements!\n\nHow to verify right now:\n\nLog in to your account and go to the \"Redeem\" tab.\n\nClick the button to start the process with our partner, Socure.\n\nTake a clear photo of the front and back of your ID (Driver's License, State ID, or Passport).\n\nComplete the quick liveness selfie as prompted.\n\nPro-tip: Make sure you are in a well-lit room and that all four corners of your ID are visible. If you are on a computer, using your mobile phone often makes this process much faster!\n\nMost accounts are verified instantly, but some may take up to 24 hours for a manual review. I’ll be keeping an eye on your status!\n\nIs there anything else I can help you with to get this finished?\n[09:49:00 AM] Ariel Lanza: I’ve checked your account and can see that your verification is not complete yet. To ensure your security and allow you to cash out your winnings, you'll just need to finish this one-time process.\n\nOnce you are verified, you will be able to access the \"Redeem\" tab whenever you meet the minimum balance requirements!\n\nHow to verify right now:\n\nLog in to your account and go to the \"Redeem\" tab.\n\nClick the button to start the process with our partner, Socure.\n\nTake a clear photo of the front and back of your ID (Driver's License, State ID, or Passport).\n\nComplete the quick liveness selfie as prompted.\n\nPro-tip: Make sure you are in a well-lit room and that all four corners of your ID are visible. If you are on a computer, using your mobile phone often makes this process much faster!\n\nMost accounts are verified instantly, but some may take up to 24 hours for a manual review. I’ll be keeping an eye on your status!\n\nIs there anything else I can help you with to get this finished?\n[09:58:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[09:58:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T10:01:47.504Z"
+        },
+        {
+          "chat_id": "2048342284369752064",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T10:13:52.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into an apology without acknowledging the customer first."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent provided generic information without asking any clarifying questions about the specific redemption status or when it was submitted."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided general process information but never actually checked the specific status of the customer's redemption request as asked."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Professional and clear but overly templated; failed to address the customer's follow-up question about adding a debit card directly."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided accurate timeframe information and set appropriate expectations."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No proper closing; chat appears to have ended abruptly mid-response with truncated message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided templated responses about redemption processes but failed to actually check the customer's specific redemption status as requested. The interaction lacked personalization, proper greeting, and a complete closing.",
+          "coaching_tip": "Always start by checking the customer's actual account status before providing generic process information, and directly answer follow-up questions instead of sending another template.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[10:03:51 AM] Customer: Full Name: Hmeen Jackson Email Address: hmeenj@gmail.com Subject / How can we help you?: Status update on redemption request\n[10:03:51 AM] Customer: Full Name: Hmeen Jackson Email Address: hmeenj@gmail.com Subject / How can we help you?: Status update on redemption request\n[10:04:50 AM] Customer: No problem\n[10:04:50 AM] Customer: No problem\n[10:06:14 AM] Customer: Ok\n[10:06:14 AM] Customer: Ok\n[10:06:35 AM] Ariel Lanza: I want to sincerely apologize for any confusion or delay you've experienced with your redemption. I know how important it is to receive your winnings, and I’m here to help clarify the process.\n\nPlease keep in mind that our team reviews and processes all redemption requests exclusively on business days (Monday through Friday). If you submitted a request over the weekend, it will be prioritized for review starting on the next business day.\n\nHere is a quick look at the redemption process:\n\nReview Period: Once submitted, our security team reviews the request to ensure everything is correct.\n\nApproval & Processing: After approval, the time it takes to reach you depends on your method:\n\nDebit Card & Skrill: Usually 1–3 business days.\n\nBank Transfer (ACH): Can take up to 10 business days depending on your bank.\n\nWe appreciate your patience while our team works through the queue! Please let me know if you have any other questions.\n[10:06:35 AM] Ariel Lanza: I want to sincerely apologize for any confusion or delay you've experienced with your redemption. I know how important it is to receive your winnings, and I’m here to help clarify the process.\n\nPlease keep in mind that our team reviews and processes all redemption requests exclusively on business days (Monday through Friday). If you submitted a request over the weekend, it will be prioritized for review starting on the next business day.\n\nHere is a quick look at the redemption process:\n\nReview Period: Once submitted, our security team reviews the request to ensure everything is correct.\n\nApproval & Processing: After approval, the time it takes to reach you depends on your method:\n\nDebit Card & Skrill: Usually 1–3 business days.\n\nBank Transfer (ACH): Can take up to 10 business days depending on your bank.\n\nWe appreciate your patience while our team works through the queue! Please let me know if you have any other questions.\n[10:11:08 AM] Customer: How can I add my debit card\n[10:11:08 AM] Customer: How can I add my debit card\n[10:12:14 AM] Ariel Lanza: Important Update Regarding Your Redemption Method\n\nI wanted to reach out with an update regarding your redemption options. At this time, ACH Bank Transfer is the only available method for processing your request.\n\nBecause ACH transfers move directly between financial institutions, they do follow a specific processing timeline. Here is what you can expect:\n\nReview Phase: Our team reviews all requests on business days (Monday–Friday).\n\nDelivery Timeframe: Once approved, it typically takes 3 to 10 business days for the funds to reflect in your bank account.\n\nPlease keep in mind that weekends and bank holidays are not counted as business days, which can occasionally extend the wait time slightly depending on your specific bank's internal processing speed.\n\nWe appreciate your patience while we work to get your winnings to you as securely as possible! Please let me know if you have any other questions about the transfer process.\n\nBest regards,\n[10:12:14 AM] Ariel Lanza: Important Update Regarding Your Redemption Method\n\nI wanted to reach out with an update regarding your redemption options. At this time, ACH Bank Transfer is the only available method for processing your request.\n\nBecause ACH transfers move directly between financial institutions, they do follow a specific processing timeline. Here is what you can expect:\n\nReview Phase: Our team reviews all requests on business days (Monday–Friday).\n\nDelivery Timeframe: Once approved, it typically takes 3 to 10 business days for the funds to reflect in your bank account.\n\nPlease keep in mind that weekends and bank holidays are not counted as business days, which can occasionally extend the wait time slightly depending on your specific bank's internal processing speed.\n\nWe appreciate your patience while we work to get your winnings to you as securely as possible! Please let me know if you have any other questions about the transfer process.\n\nBest regards,",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T10:16:43.729Z"
         }
       ],
       "avg_score": 55,
       "grade": "F",
-      "trend": 19
+      "trend": 20
     },
     {
       "id": "5552",
@@ -69916,6 +69961,51 @@
       "raw_transcript": "[10:00:39 AM] t5034660710: Full Name: t5034660710 Email Address: hmeenj@gmail.com Subject / How can we help you?: Status update on recent redemption request.\n[10:00:39 AM] t5034660710: Full Name: t5034660710 Email Address: hmeenj@gmail.com Subject / How can we help you?: Status update on recent redemption request.\n[10:01:01 AM] Kevin Sandoval: Hi there, my name is Kevin! Welcome to Jackpot Daily. I hope you're having a great day so far. I’m here to make sure you have the best experience possible—what can I help you with today?\n[10:01:01 AM] Kevin Sandoval: Hi there, my name is Kevin! Welcome to Jackpot Daily. I hope you're having a great day so far. I’m here to make sure you have the best experience possible—what can I help you with today?\n[10:03:53 AM] Kevin Sandoval: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there\n[10:03:53 AM] Kevin Sandoval: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there\n[10:07:01 AM] Kevin Sandoval: Since I haven't heard back from you, I'll go ahead and close this chat for now. Regarding your inquiry, just a quick heads-up on how it works: if the request was submitted today, please keep in mind that the initial transfer process typically takes 3–5 business days. After that, it may take another 3–5 business days for your bank to process it on their end. We suggest waiting a total of 10 business days to see the balance reflected in your account. If you don't see the funds after that period, we’ll be more than happy to help you again.\n[10:07:01 AM] Kevin Sandoval: Since I haven't heard back from you, I'll go ahead and close this chat for now. Regarding your inquiry, just a quick heads-up on how it works: if the request was submitted today, please keep in mind that the initial transfer process typically takes 3–5 business days. After that, it may take another 3–5 business days for your bank to process it on their end. We suggest waiting a total of 10 business days to see the balance reflected in your account. If you don't see the funds after that period, we’ll be more than happy to help you again.\n[10:07:13 AM] Kevin Sandoval: If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[10:07:13 AM] Kevin Sandoval: If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T10:11:55.685Z"
+    },
+    {
+      "chat_id": "2048342284369752064",
+      "agent_name": "Ariel Lanza",
+      "agent_id": "5839",
+      "timestamp": "2026-04-26T10:13:52.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into an apology without acknowledging the customer first."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent provided generic information without asking any clarifying questions about the specific redemption status or when it was submitted."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided general process information but never actually checked the specific status of the customer's redemption request as asked."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Professional and clear but overly templated; failed to address the customer's follow-up question about adding a debit card directly."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided accurate timeframe information and set appropriate expectations."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No proper closing; chat appears to have ended abruptly mid-response with truncated message."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent provided templated responses about redemption processes but failed to actually check the customer's specific redemption status as requested. The interaction lacked personalization, proper greeting, and a complete closing.",
+      "coaching_tip": "Always start by checking the customer's actual account status before providing generic process information, and directly answer follow-up questions instead of sending another template.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[10:03:51 AM] Customer: Full Name: Hmeen Jackson Email Address: hmeenj@gmail.com Subject / How can we help you?: Status update on redemption request\n[10:03:51 AM] Customer: Full Name: Hmeen Jackson Email Address: hmeenj@gmail.com Subject / How can we help you?: Status update on redemption request\n[10:04:50 AM] Customer: No problem\n[10:04:50 AM] Customer: No problem\n[10:06:14 AM] Customer: Ok\n[10:06:14 AM] Customer: Ok\n[10:06:35 AM] Ariel Lanza: I want to sincerely apologize for any confusion or delay you've experienced with your redemption. I know how important it is to receive your winnings, and I’m here to help clarify the process.\n\nPlease keep in mind that our team reviews and processes all redemption requests exclusively on business days (Monday through Friday). If you submitted a request over the weekend, it will be prioritized for review starting on the next business day.\n\nHere is a quick look at the redemption process:\n\nReview Period: Once submitted, our security team reviews the request to ensure everything is correct.\n\nApproval & Processing: After approval, the time it takes to reach you depends on your method:\n\nDebit Card & Skrill: Usually 1–3 business days.\n\nBank Transfer (ACH): Can take up to 10 business days depending on your bank.\n\nWe appreciate your patience while our team works through the queue! Please let me know if you have any other questions.\n[10:06:35 AM] Ariel Lanza: I want to sincerely apologize for any confusion or delay you've experienced with your redemption. I know how important it is to receive your winnings, and I’m here to help clarify the process.\n\nPlease keep in mind that our team reviews and processes all redemption requests exclusively on business days (Monday through Friday). If you submitted a request over the weekend, it will be prioritized for review starting on the next business day.\n\nHere is a quick look at the redemption process:\n\nReview Period: Once submitted, our security team reviews the request to ensure everything is correct.\n\nApproval & Processing: After approval, the time it takes to reach you depends on your method:\n\nDebit Card & Skrill: Usually 1–3 business days.\n\nBank Transfer (ACH): Can take up to 10 business days depending on your bank.\n\nWe appreciate your patience while our team works through the queue! Please let me know if you have any other questions.\n[10:11:08 AM] Customer: How can I add my debit card\n[10:11:08 AM] Customer: How can I add my debit card\n[10:12:14 AM] Ariel Lanza: Important Update Regarding Your Redemption Method\n\nI wanted to reach out with an update regarding your redemption options. At this time, ACH Bank Transfer is the only available method for processing your request.\n\nBecause ACH transfers move directly between financial institutions, they do follow a specific processing timeline. Here is what you can expect:\n\nReview Phase: Our team reviews all requests on business days (Monday–Friday).\n\nDelivery Timeframe: Once approved, it typically takes 3 to 10 business days for the funds to reflect in your bank account.\n\nPlease keep in mind that weekends and bank holidays are not counted as business days, which can occasionally extend the wait time slightly depending on your specific bank's internal processing speed.\n\nWe appreciate your patience while we work to get your winnings to you as securely as possible! Please let me know if you have any other questions about the transfer process.\n\nBest regards,\n[10:12:14 AM] Ariel Lanza: Important Update Regarding Your Redemption Method\n\nI wanted to reach out with an update regarding your redemption options. At this time, ACH Bank Transfer is the only available method for processing your request.\n\nBecause ACH transfers move directly between financial institutions, they do follow a specific processing timeline. Here is what you can expect:\n\nReview Phase: Our team reviews all requests on business days (Monday–Friday).\n\nDelivery Timeframe: Once approved, it typically takes 3 to 10 business days for the funds to reflect in your bank account.\n\nPlease keep in mind that weekends and bank holidays are not counted as business days, which can occasionally extend the wait time slightly depending on your specific bank's internal processing speed.\n\nWe appreciate your patience while we work to get your winnings to you as securely as possible! Please let me know if you have any other questions about the transfer process.\n\nBest regards,",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T10:16:43.729Z"
     }
   ]
 }
