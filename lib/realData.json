@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T20:22:16.709Z",
-  "total_chats": 846,
+  "scored_at": "2026-04-26T20:26:52.983Z",
+  "total_chats": 848,
   "total_agents": 28,
   "agents": [
     {
@@ -15990,11 +15990,56 @@
           "raw_transcript": "[08:18:10 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: close account. this site just robs people of money. other sites are better than this\n[08:18:10 PM] t8628659172: Full Name: t8628659172 Email Address: aqm1997@icloud.com Subject / How can we help you?: close account. this site just robs people of money. other sites are better than this\n[08:18:57 PM] t8628659172: i already filed dispute with bank so i don’t need this account anymore\n[08:18:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:18:57 PM] t8628659172: i already filed dispute with bank so i don’t need this account anymore\n[08:18:57 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:19:38 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[08:19:38 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[08:19:44 PM] t8628659172: K\n[08:19:44 PM] t8628659172: K",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T20:21:58.261Z"
+        },
+        {
+          "chat_id": "2048496326366556160",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-26T20:25:39.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the free spins inquiry and addressed it, then clarified when customer asked about voucher codes."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided detailed information about daily login rewards and clearly answered the voucher code question, though customer may have wanted promotional codes."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured responses with helpful formatting and emoji, though second response had minor grammatical awkwardness."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately did not promise unauthorized bonuses or codes."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further help and provided a warm, appropriate closing message."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent provided competent support by explaining the daily login rewards system clearly and addressing the customer's questions about free spins and voucher codes. Communication was professional and helpful throughout, with appropriate boundaries maintained regarding promotional offers.",
+          "coaching_tip": "When a customer asks about voucher codes or promotions, consider proactively directing them to where they can find current promotional offers or sign up for promotional communications, rather than just stating what's currently available.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[08:15:58 PM] t1879121327: Full Name: t1879121327 Email Address: otfalex28@gmail.com Subject / How can we help you?: Free spins\n[08:15:58 PM] t1879121327: Full Name: t1879121327 Email Address: otfalex28@gmail.com Subject / How can we help you?: Free spins\n[08:16:24 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:16:24 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:16:28 PM] t1879121327: Free spins\n[08:16:28 PM] t1879121327: Free spins\n[08:16:36 PM] t1879121327: ?\n[08:16:36 PM] t1879121327: ?\n[08:17:22 PM] Angie Pereira: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[08:17:22 PM] Angie Pereira: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[08:18:38 PM] t1879121327: Is there any cash voucher code\n[08:18:38 PM] t1879121327: Is there any cash voucher code\n[08:21:44 PM] Angie Pereira: The Daily Login Rewards are that are totally free are the ones available\n[08:21:44 PM] Angie Pereira: The Daily Login Rewards are that are totally free are the ones available\n[08:23:06 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:23:06 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:25:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[08:25:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T20:26:45.597Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -2
+      "trend": -1
     },
     {
       "id": "5839",
@@ -37716,11 +37761,56 @@
           "raw_transcript": "[08:10:12 PM] t0226495784: Full Name: t0226495784 Email Address: dustin.gryp@outlook.com Subject / How can we help you?: I want to self exclude\n[08:10:12 PM] t0226495784: Full Name: t0226495784 Email Address: dustin.gryp@outlook.com Subject / How can we help you?: I want to self exclude\n[08:10:59 PM] t0226495784: I’d like to self exclude\n[08:10:59 PM] t0226495784: I’d like to self exclude\n[08:11:17 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:11:17 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[08:12:26 PM] Evelyn Portillo: Sure i can help you , can you tellme the reason ?\n[08:12:26 PM] Evelyn Portillo: Sure i can help you , can you tellme the reason ?\n[08:12:57 PM] t0226495784: I don’t want to play anymore\n[08:12:57 PM] t0226495784: I don’t want to play anymore\n[08:13:07 PM] Evelyn Portillo: we’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n* You will no longer be able to access gameplay or reopen the account going forward\n* This measure is in place to support the safety and wellbeing of all our players\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.\n[08:13:07 PM] Evelyn Portillo: we’re really sad to see you go, and we truly appreciate the time you spent with us.\nAs requested, your account has been permanently closed.\nJust so you’re fully aware:\n\n* You will no longer be able to access gameplay or reopen the account going forward\n* This measure is in place to support the safety and wellbeing of all our players\n\nWe understand that this decision may not be easy, and we want to thank you for reaching out to us directly. If there’s anything we could’ve done better or any feedback you’d like to share, we’d genuinely love to hear it.\nWe wish you nothing but the very best moving forward.\n[08:16:15 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:16:15 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[08:18:44 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[08:18:44 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T20:22:07.205Z"
+        },
+        {
+          "chat_id": "2048497926317371392",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-26T20:22:51.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "Agent never responded or greeted the customer at all."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent made no attempt to discover or clarify the issue."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted as agent did not respond to the customer."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "Agent provided no communication whatsoever in this transcript."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No compliance violations occurred, though no interaction took place."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as agent never engaged with the customer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 7,
+          "grade": "F",
+          "summary": "The agent completely failed to respond to the customer's inquiry about a disappeared first purchase offer. This transcript shows only the customer's duplicate submission with no agent engagement whatsoever.",
+          "coaching_tip": "Always acknowledge customer inquiries immediately with a greeting and confirmation that you're reviewing their issue, even if you need time to investigate.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[08:22:19 PM] Customer: Full Name: Michelle Cruise Email Address: sonicoolcruise@gmail.com Subject / How can we help you?: My 1st purchase offer disappeared\n[08:22:19 PM] Customer: Full Name: Michelle Cruise Email Address: sonicoolcruise@gmail.com Subject / How can we help you?: My 1st purchase offer disappeared",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T20:26:52.481Z"
         }
       ],
-      "avg_score": 48,
+      "avg_score": 47,
       "grade": "F",
-      "trend": 17
+      "trend": 10
     },
     {
       "id": "5555",
@@ -76396,6 +76486,96 @@
       "raw_transcript": "[07:57:25 PM] Customer: Full Name: SHANNA MARIE KIRKLAND Email Address: Shannakirkland1@gmail.com Subject / How can we help you?: Says my number already exists but im a new member just signing up and recently changed my number\n[07:57:25 PM] Customer: Full Name: SHANNA MARIE KIRKLAND Email Address: Shannakirkland1@gmail.com Subject / How can we help you?: Says my number already exists but im a new member just signing up and recently changed my number\n[07:57:50 PM] Customer: Hey Carl how are u today\n[07:57:50 PM] Customer: Hey Carl how are u today\n[07:58:25 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[07:58:25 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[07:59:05 PM] Customer: Ive already went thru this process with a previous agent she told me to open the site on a different website and I did and it didnt work I may have accidentally opened two cause when my sign up thru Google wasnt working I turned and tried it on my facebook\n[07:59:05 PM] Customer: Ive already went thru this process with a previous agent she told me to open the site on a different website and I did and it didnt work I may have accidentally opened two cause when my sign up thru Google wasnt working I turned and tried it on my facebook\n[08:00:07 PM] Customer: I pretty much got thru both ways but got stuck o. The number part cause just like all my other apps this owner of my number before me has about of the same games and apps ive bbeen trying to update on\n[08:00:07 PM] Customer: I pretty much got thru both ways but got stuck o. The number part cause just like all my other apps this owner of my number before me has about of the same games and apps ive bbeen trying to update on\n[08:00:16 PM] Customer: Sure\n[08:00:16 PM] Customer: Sure\n[08:02:23 PM] Customer: I ended up losing connection with the previous agent about a week ago and just pretty much gave up but what id like to do is be able to register with my number and have the Facebook attempt of signing up deleted and id like to sign up thru Google only if possible\n[08:02:23 PM] Customer: I ended up losing connection with the previous agent about a week ago and just pretty much gave up but what id like to do is be able to register with my number and have the Facebook attempt of signing up deleted and id like to sign up thru Google only if possible\n[08:02:27 PM] Kenneth Aguilar: Please provide me the phone number related to the accounts\n[08:02:27 PM] Kenneth Aguilar: Please provide me the phone number related to the accounts\n[08:02:48 PM] Customer: That fine im just trying to explain my situation. Fully while waiting\n[08:02:48 PM] Customer: That fine im just trying to explain my situation. Fully while waiting\n[08:03:45 PM] Kenneth Aguilar: I understand, please allow me one moment\n[08:03:45 PM] Kenneth Aguilar: I understand, please allow me one moment\n[08:03:48 PM] Customer: Well I haven't signed up yet so my number is gonna tell u its already taken im not that account holder im the new owner for that number he already has an account with u guys but its 3343900884\n[08:03:48 PM] Customer: Well I haven't signed up yet so my number is gonna tell u its already taken im not that account holder im the new owner for that number he already has an account with u guys but its 3343900884\n[08:05:03 PM] Customer: His name is Joey and I only know that cause several  texts I got after connecting my new number and accidental banks being linked with number to my account ta\n[08:05:03 PM] Customer: His name is Joey and I only know that cause several  texts I got after connecting my new number and accidental banks being linked with number to my account ta\n[08:05:04 PM] Kenneth Aguilar: Okay, as I can see here the account is related to facebook so to login please try using facebook\n[08:05:04 PM] Kenneth Aguilar: Okay, as I can see here the account is related to facebook so to login please try using facebook\n[08:05:54 PM] Customer: I have and then it brings me to the profile part where u enter ur number and receive a code and when I put my number is says its linked to another accoubt\n[08:05:54 PM] Customer: I have and then it brings me to the profile part where u enter ur number and receive a code and when I put my number is says its linked to another accoubt\n[08:06:39 PM] Customer: But that aaccount holder who is the old owner no longer has that number so if he were to try and sign in using it id get his code meaning he cant log in anynore using it\n[08:06:39 PM] Customer: But that aaccount holder who is the old owner no longer has that number so if he were to try and sign in using it id get his code meaning he cant log in anynore using it\n[08:06:55 PM] Customer: Sup you've got to delete that number from his account\n[08:06:55 PM] Customer: Sup you've got to delete that number from his account\n[08:08:48 PM] Kenneth Aguilar: Yes that number is logged to the account, unfortunately we can't remove number from an account unless the holder of the account with that number request the removal.\n[08:08:48 PM] Kenneth Aguilar: Yes that number is logged to the account, unfortunately we can't remove number from an account unless the holder of the account with that number request the removal.\n[08:12:08 PM] Kenneth Aguilar: Hello, you still there?\n[08:12:08 PM] Kenneth Aguilar: Hello, you still there?\n[08:12:37 PM] Customer: Yes\n[08:12:37 PM] Customer: Yes\n[08:13:09 PM] Customer: So what are ppl supposed to do who get their number changed ive had this happen with 6 other casinos and they fixed the problem within seconds\n[08:13:09 PM] Customer: So what are ppl supposed to do who get their number changed ive had this happen with 6 other casinos and they fixed the problem within seconds\n[08:13:53 PM] Customer: Why would the owner request to remove the number what if they dont even or ever use ur app and never request it ppl change numbers or lose access to their number all the time\n[08:13:53 PM] Customer: Why would the owner request to remove the number what if they dont even or ever use ur app and never request it ppl change numbers or lose access to their number all the time\n[08:13:58 PM] Kenneth Aguilar: In this case what we can do is escalating case.\n\nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[08:13:58 PM] Kenneth Aguilar: In this case what we can do is escalating case.\n\nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[08:17:08 PM] Kenneth Aguilar: Hello, you still there?\n[08:17:08 PM] Kenneth Aguilar: Hello, you still there?\n[08:17:47 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[08:17:47 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T20:22:16.208Z"
+    },
+    {
+      "chat_id": "2048496326366556160",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-26T20:25:39.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Understood the free spins inquiry and addressed it, then clarified when customer asked about voucher codes."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided detailed information about daily login rewards and clearly answered the voucher code question, though customer may have wanted promotional codes."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured responses with helpful formatting and emoji, though second response had minor grammatical awkwardness."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately did not promise unauthorized bonuses or codes."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further help and provided a warm, appropriate closing message."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 73,
+      "grade": "C",
+      "summary": "Agent provided competent support by explaining the daily login rewards system clearly and addressing the customer's questions about free spins and voucher codes. Communication was professional and helpful throughout, with appropriate boundaries maintained regarding promotional offers.",
+      "coaching_tip": "When a customer asks about voucher codes or promotions, consider proactively directing them to where they can find current promotional offers or sign up for promotional communications, rather than just stating what's currently available.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[08:15:58 PM] t1879121327: Full Name: t1879121327 Email Address: otfalex28@gmail.com Subject / How can we help you?: Free spins\n[08:15:58 PM] t1879121327: Full Name: t1879121327 Email Address: otfalex28@gmail.com Subject / How can we help you?: Free spins\n[08:16:24 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:16:24 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[08:16:28 PM] t1879121327: Free spins\n[08:16:28 PM] t1879121327: Free spins\n[08:16:36 PM] t1879121327: ?\n[08:16:36 PM] t1879121327: ?\n[08:17:22 PM] Angie Pereira: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[08:17:22 PM] Angie Pereira: Daily Login Rewards are totally free — just log in each day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\n\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[08:18:38 PM] t1879121327: Is there any cash voucher code\n[08:18:38 PM] t1879121327: Is there any cash voucher code\n[08:21:44 PM] Angie Pereira: The Daily Login Rewards are that are totally free are the ones available\n[08:21:44 PM] Angie Pereira: The Daily Login Rewards are that are totally free are the ones available\n[08:23:06 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:23:06 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[08:25:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[08:25:35 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T20:26:45.597Z"
+    },
+    {
+      "chat_id": "2048497926317371392",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-26T20:22:51.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "Agent never responded or greeted the customer at all."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent made no attempt to discover or clarify the issue."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted as agent did not respond to the customer."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "Agent provided no communication whatsoever in this transcript."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No compliance violations occurred, though no interaction took place."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as agent never engaged with the customer."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 7,
+      "grade": "F",
+      "summary": "The agent completely failed to respond to the customer's inquiry about a disappeared first purchase offer. This transcript shows only the customer's duplicate submission with no agent engagement whatsoever.",
+      "coaching_tip": "Always acknowledge customer inquiries immediately with a greeting and confirmation that you're reviewing their issue, even if you need time to investigate.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[08:22:19 PM] Customer: Full Name: Michelle Cruise Email Address: sonicoolcruise@gmail.com Subject / How can we help you?: My 1st purchase offer disappeared\n[08:22:19 PM] Customer: Full Name: Michelle Cruise Email Address: sonicoolcruise@gmail.com Subject / How can we help you?: My 1st purchase offer disappeared",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T20:26:52.481Z"
     }
   ]
 }
