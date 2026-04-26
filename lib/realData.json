@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T16:36:51.233Z",
-  "total_chats": 818,
+  "scored_at": "2026-04-26T16:46:44.492Z",
+  "total_chats": 819,
   "total_agents": 28,
   "agents": [
     {
@@ -15270,11 +15270,56 @@
           "raw_transcript": "[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T16:36:50.732Z"
+        },
+        {
+          "chat_id": "2048441689982726144",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-26T16:46:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Customer stated 'Kiero jugar' (want to play) but agent never asked clarifying questions about what specific help was needed."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "No actual issue was resolved; agent looked into something but never communicated findings or addressed the customer's need to play."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Messages were polite but agent never engaged with the actual customer request or explained what they were checking."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, but failed to provide meaningful assistance."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Polite closing with well-wishes, though premature given the unresolved nature of the interaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided friendly service but failed to discover what the customer actually needed help with when they said they wanted to play. The interaction consisted of pleasantries without any substantive problem-solving or clarification of the customer's request.",
+          "coaching_tip": "Always ask clarifying questions when a customer's initial message is vague—ask what specifically they need help with before saying you'll look into it.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[04:38:51 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: Kiero jugar\n[04:38:51 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: Kiero jugar\n[04:39:16 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:39:16 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:41:24 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:41:24 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:44:01 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[04:44:01 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[04:46:13 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:46:13 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T16:46:43.991Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": 8
+      "trend": 3
     },
     {
       "id": "5839",
@@ -73876,6 +73921,51 @@
       "raw_transcript": "[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:21:18 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:22:25 PM] t0038884144: no mystery bonus today?\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:24:00 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:28:28 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:30:21 PM] Angie Pereira: Sunday Mystery Rewards are one of our favourite perks!\n\nHow to get yours: \nMake at least one GC purchase of $1+ any time from Monday to Saturday — that’s it! No sign-up needed.\n\nEvery Sunday by 10 PM PT, a mystery SC prize (up to 7,777 SC!) is automatically credited to your account.\n\nTwo things to keep in mind:\n- Prizes expire after 5 days if not claimed\n- Prize amounts can vary week to week\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:32:10 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:35:27 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T16:36:50.732Z"
+    },
+    {
+      "chat_id": "2048441689982726144",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-26T16:46:17.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Customer stated 'Kiero jugar' (want to play) but agent never asked clarifying questions about what specific help was needed."
+        },
+        "resolution": {
+          "score": 10,
+          "notes": "No actual issue was resolved; agent looked into something but never communicated findings or addressed the customer's need to play."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Messages were polite but agent never engaged with the actual customer request or explained what they were checking."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, but failed to provide meaningful assistance."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Polite closing with well-wishes, though premature given the unresolved nature of the interaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent provided friendly service but failed to discover what the customer actually needed help with when they said they wanted to play. The interaction consisted of pleasantries without any substantive problem-solving or clarification of the customer's request.",
+      "coaching_tip": "Always ask clarifying questions when a customer's initial message is vague—ask what specifically they need help with before saying you'll look into it.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[04:38:51 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: Kiero jugar\n[04:38:51 PM] Customer: Full Name: Fernando Email Address: Manolomatias2@gmail.com Subject / How can we help you?: Kiero jugar\n[04:39:16 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:39:16 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:41:24 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:41:24 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[04:44:01 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[04:44:01 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[04:46:13 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[04:46:13 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T16:46:43.991Z"
     }
   ]
 }
