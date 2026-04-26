@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T19:11:46.766Z",
-  "total_chats": 834,
+  "scored_at": "2026-04-26T19:21:59.979Z",
+  "total_chats": 836,
   "total_agents": 28,
   "agents": [
     {
@@ -15765,6 +15765,51 @@
           "raw_transcript": "[07:00:22 PM] t7158845050: Full Name: t7158845050 Email Address: rusty.a.carpenter@gmail.com Subject / How can we help you?: I’d verifycation\n[07:00:22 PM] t7158845050: Full Name: t7158845050 Email Address: rusty.a.carpenter@gmail.com Subject / How can we help you?: I’d verifycation\n[07:00:37 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:00:37 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:02:07 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:02:07 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:06:25 PM] Angie Pereira: I’m sorry to hear the system is throwing an error at you—I know how frustrating it is when you're just trying to get your account set up.\nSince the verification process is powered by our partner, Socure, there are a few common things that can cause an error message. Let’s try to get past it with these steps:\nCommon Troubleshooting Steps\n\nBrowser Refresh: Sometimes a quick \"Hard Refresh\" (Ctrl + Shift + R on Windows or Cmd + Shift + R on Mac) clears the error.\nClear Cache & Cookies: If the error persists, try clearing your browser’s cache and cookies or opening the verification link in an Incognito/Private window.\nConnection: Switch between Wi-Fi and mobile data. Sometimes a specific network connection can interfere with the secure link.\nVerification Document Tips\nIf the error happens while you are trying to upload your ID, double-check these requirements:\n\nFormat: The photo must be a JPEG or PNG (no PDFs or screenshots).\nVisibility: All 4 corners of the ID must be visible in the frame.\nLighting: Make sure there is no glare on the ID and the text is crystal clear.\nLive Photo: The selfie must be a clear, live photo—not a photo of a screen or a printed picture.\n[07:06:25 PM] Angie Pereira: I’m sorry to hear the system is throwing an error at you—I know how frustrating it is when you're just trying to get your account set up.\nSince the verification process is powered by our partner, Socure, there are a few common things that can cause an error message. Let’s try to get past it with these steps:\nCommon Troubleshooting Steps\n\nBrowser Refresh: Sometimes a quick \"Hard Refresh\" (Ctrl + Shift + R on Windows or Cmd + Shift + R on Mac) clears the error.\nClear Cache & Cookies: If the error persists, try clearing your browser’s cache and cookies or opening the verification link in an Incognito/Private window.\nConnection: Switch between Wi-Fi and mobile data. Sometimes a specific network connection can interfere with the secure link.\nVerification Document Tips\nIf the error happens while you are trying to upload your ID, double-check these requirements:\n\nFormat: The photo must be a JPEG or PNG (no PDFs or screenshots).\nVisibility: All 4 corners of the ID must be visible in the frame.\nLighting: Make sure there is no glare on the ID and the text is crystal clear.\nLive Photo: The selfie must be a clear, live photo—not a photo of a screen or a printed picture.\n[07:08:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:08:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:10:34 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:10:34 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T19:11:46.264Z"
+        },
+        {
+          "chat_id": "2048480714110103552",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-26T19:20:51.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, friendly greeting with clear offer to help, though customer name wasn't used."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Customer never clarified their issue despite agent's prompt; agent cannot discover what wasn't communicated."
+            },
+            "resolution": {
+              "score": 15,
+              "notes": "No resolution possible as customer didn't respond with actual issue after initial vague contact form submission."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, professional, and appropriately friendly throughout with good follow-up attempt."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Professional closing with well-wishes and implicit offer of future help."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 66,
+          "grade": "D",
+          "summary": "Agent provided appropriate service but customer never articulated their actual issue beyond submitting a contact form mentioning 'support agent'. Agent greeted warmly, followed up appropriately, and closed professionally when no response came.",
+          "coaching_tip": "When customers submit vague initial messages, try asking a more specific open-ended question to encourage engagement, such as 'I see you mentioned support agent - are you experiencing an issue with your account or have a question I can help with?'",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[07:13:55 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:13:55 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:14:50 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[07:14:50 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[07:18:03 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:18:03 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:20:46 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:20:46 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T19:21:59.478Z"
         }
       ],
       "avg_score": 59,
@@ -37176,11 +37221,56 @@
           "raw_transcript": "[06:50:42 PM] Customer: Full Name: CRYSTAL DAWN FISHER Email Address: briannabryson85@gmail.com Subject / How can we help you?: I'm trying to create a new account but when I add my phone number it says there's already a withdrawal account with this error code (#3100-xmkmv)\n[06:50:42 PM] Customer: Full Name: CRYSTAL DAWN FISHER Email Address: briannabryson85@gmail.com Subject / How can we help you?: I'm trying to create a new account but when I add my phone number it says there's already a withdrawal account with this error code (#3100-xmkmv)\n[06:53:10 PM] Customer: I have tried all the things you told me to try but it still says it\n[06:53:10 PM] Customer: I have tried all the things you told me to try but it still says it\n[06:54:58 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:54:58 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[06:55:04 PM] Customer: ok\n[06:55:04 PM] Customer: ok\n[06:55:21 PM] Customer: my phone number is 5392601206\n[06:55:21 PM] Customer: my phone number is 5392601206\n[06:58:46 PM] Evelyn Portillo: This are the steps so you can create a account , if the number add it is attached to another account youhave to use a different one, because we can not removed this information from another account of another customer , you can try to follo this step and if you still having the same issue please email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\nWelcome — so excited for you to join!\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\nYou'll need full account verification to redeem winnings, just so you know!\nLet me know if you get stuck anywhere\n[06:58:46 PM] Evelyn Portillo: This are the steps so you can create a account , if the number add it is attached to another account youhave to use a different one, because we can not removed this information from another account of another customer , you can try to follo this step and if you still having the same issue please email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\nWelcome — so excited for you to join!\nCreating your account takes just a couple of minutes:\n1. Go to www.jackpotdaily.com\n2. Click \"Register\" in the top-right corner\n3. Enter a valid email address\n4. Set a secure password\n5. Fill in your personal details\n6. Agree to our Terms & Conditions\n7. Click \"Verify Your Email\" in the confirmation email we send you\nYou'll need full account verification to redeem winnings, just so you know!\nLet me know if you get stuck anywhere\n[06:58:58 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[06:58:58 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:00:51 PM] Customer: well the last person I chatted with said it's not even in your system\n[07:00:51 PM] Customer: well the last person I chatted with said it's not even in your system\n[07:02:13 PM] Customer: she checked my phone number and email and she said neither was in the system\n[07:02:13 PM] Customer: she checked my phone number and email and she said neither was in the system\n[07:02:29 PM] Evelyn Portillo: yes she already escalated this issue , but if you still can not do it even if you follor the troubleshooting hat she mention to you and follow the step that i mention , you have to wait until a respond from our department\n[07:02:29 PM] Evelyn Portillo: yes she already escalated this issue , but if you still can not do it even if you follor the troubleshooting hat she mention to you and follow the step that i mention , you have to wait until a respond from our department\n[07:03:12 PM] Customer: ok do I have to create a ticket or did u do it\n[07:03:12 PM] Customer: ok do I have to create a ticket or did u do it\n[07:03:50 PM] Evelyn Portillo: you have to create one so we can asnwer to you and follow up this case with you please email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[07:03:50 PM] Evelyn Portillo: you have to create one so we can asnwer to you and follow up this case with you please email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[07:04:20 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:04:20 PM] Evelyn Portillo: Let me know if anything else comes up — always happy to help!\n[07:06:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!\n[07:06:03 PM] Evelyn Portillo: Thanks for chatting with us ! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T19:06:50.720Z"
+        },
+        {
+          "chat_id": "2048480359711813632",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-26T19:21:08.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "Greeting was delayed, contained a typo/formatting error ('Hi <! My name is Samantha will be assisting you today?'), and lacked professionalism."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent understood the customer wanted 40 SC coins but didn't ask clarifying questions about where they saw the ad or verify KYC completion before responding."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided information about the Golden Egg promotion but didn't directly address the customer's specific claim about a '40 SC for signup' advertisement or confirm if they completed KYC."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Response was a massive wall of text with purchase pack details that weren't requested, making it confusing and overwhelming rather than addressing the specific concern."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but didn't verify the customer's claim or set proper expectations about promotional terms and conditions."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided at all; transcript ends abruptly after the information dump with no follow-up or resolution confirmation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 42,
+          "grade": "F",
+          "summary": "Agent provided promotional information but failed to directly address the customer's specific complaint about not receiving advertised 40 SC coins. The response was poorly formatted, overwhelming with irrelevant purchase details, and lacked proper closing or confirmation that the issue was resolved.",
+          "coaching_tip": "Focus on answering the customer's specific question first before providing additional information, and always confirm whether they've completed KYC verification when discussing welcome promotions.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[07:12:31 PM] t8211917238: Full Name: t8211917238 Email Address: mnoggler933@gmail.com Subject / How can we help you?: He said if I sign up, I get $40 SC coins and I never received them when I signed up so I want that or I’m suing for false advertisement\n[07:12:31 PM] t8211917238: Full Name: t8211917238 Email Address: mnoggler933@gmail.com Subject / How can we help you?: He said if I sign up, I get $40 SC coins and I never received them when I signed up so I want that or I’m suing for false advertisement\n[07:13:03 PM] t8211917238: Hello\n[07:13:03 PM] t8211917238: Hello\n[07:13:30 PM] t8211917238: ??\n[07:13:30 PM] t8211917238: ??\n[07:14:40 PM] Evelyn Portillo: Hi <! My name is Samantha will be assisting you today?\n[07:14:40 PM] Evelyn Portillo: Hi\n[07:15:06 PM] t8211917238: Your advertisement said if you sign up you get 40 SC coins and I signed up and I didn’t get to 40 that is false advertisement so are you guys gonna give it to me or what?\n[07:15:06 PM] t8211917238: Your advertisement said if you sign up you get 40 SC coins and I signed up and I didn’t get to 40 that is false advertisement so are you guys gonna give it to me or what?\n[07:15:51 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:15:51 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:16:07 PM] t8211917238: Ok\n[07:16:07 PM] t8211917238: Ok\n[07:18:33 PM] t8211917238: Yeah, thank you because it says that if you sign up you get 40 SC coins and I went to 40 SC coins for signing up\n[07:18:33 PM] t8211917238: Yeah, thank you because it says that if you sign up you get 40 SC coins and I went to 40 SC coins for signing up\n[07:20:22 PM] Evelyn Portillo: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n\nour first three purchases all come with bonus\npacks — here’s the breakdown:\n1st Purchase (New User Offer):\n- $9.99: 4,000 GC | 600 XP | 30 SC (200%)\n- $19.99: 8,000 GC | 1,200 XP | 50 SC (150%)\n- $49.99: 20,000 GC | 3,000 XP | 100 SC (100%) - $99.99: 40,000 GC | 6,000 XP | 180\nSC (80%)\n2nd Purchase Pack:\n- $19.99: 8,000 GC | 1,000 XP | 44 SC (120%)\n- $9.99: 4,000 GC | 500 XP | 18 SC (80%)\n- $49.99: 20,000 GC | 2,500 XP | 80 SC (60%) - $99.99: 40,000 GC | 5,000 XP | 140 SC\n(40%)\n3rd Purchase Pack:\n- $29.99: 12,000 GC | 1,200 XP | 60 SC (100%)\n- $9.99: 4,000 GC | 400 XP | 17 SC (70%)\n- $49.99: 20,000 GC | 2,000 XP | 80 SC (60%) - $99.99: 40,000 GC | 4,000 XP | 140 SC\n(40%)\nQuick rules: min $9.99 purchase, bonuses land after purchase, SC needs 1x\nplaythrough before redemption, and packs unlock in order (1 → 2 → 3)\n[07:20:22 PM] Evelyn Portillo: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n\nour first three purchases all come with bonus\npacks — here’s the breakdown:\n1st Purchase (New User Offer):\n- $9.99: 4,000 GC | 600 XP | 30 SC (200%)\n- $19.99: 8,000 GC | 1,200 XP | 50 SC (150%)\n- $49.99: 20,000 GC | 3,000 XP | 100 SC (100%) - $99.99: 40,000 GC | 6,000 XP | 180\nSC (80%)\n2nd Purchase Pack:\n- $19.99: 8,000 GC | 1,000 XP | 44 SC (120%)\n- $9.99: 4,000 GC | 500 XP | 18 SC (80%)\n- $49.99: 20,000 GC | 2,500 XP | 80 SC (60%) - $99.99: 40,000 GC | 5,000 XP | 140 SC\n(40%)\n3rd Purchase Pack:\n- $29.99: 12,000 GC | 1,200 XP | 60 SC (100%)\n- $9.99: 4,000 GC | 400 XP | 17 SC (70%)\n- $49.99: 20,000 GC | 2,000 XP | 80 SC (60%) - $99.99: 40,000 GC | 4,000 XP | 140 SC\n(40%)\nQuick rules: min $9.99 purchase, bonuses land after purchase, SC needs 1x\nplaythrough before redemption, and packs unlock in order (1 → 2 → 3)",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T19:21:50.701Z"
         }
       ],
       "avg_score": 47,
       "grade": "F",
-      "trend": -18
+      "trend": -16
     },
     {
       "id": "5555",
@@ -75316,6 +75406,96 @@
       "raw_transcript": "[07:00:22 PM] t7158845050: Full Name: t7158845050 Email Address: rusty.a.carpenter@gmail.com Subject / How can we help you?: I’d verifycation\n[07:00:22 PM] t7158845050: Full Name: t7158845050 Email Address: rusty.a.carpenter@gmail.com Subject / How can we help you?: I’d verifycation\n[07:00:37 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:00:37 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[07:02:07 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:02:07 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[07:06:25 PM] Angie Pereira: I’m sorry to hear the system is throwing an error at you—I know how frustrating it is when you're just trying to get your account set up.\nSince the verification process is powered by our partner, Socure, there are a few common things that can cause an error message. Let’s try to get past it with these steps:\nCommon Troubleshooting Steps\n\nBrowser Refresh: Sometimes a quick \"Hard Refresh\" (Ctrl + Shift + R on Windows or Cmd + Shift + R on Mac) clears the error.\nClear Cache & Cookies: If the error persists, try clearing your browser’s cache and cookies or opening the verification link in an Incognito/Private window.\nConnection: Switch between Wi-Fi and mobile data. Sometimes a specific network connection can interfere with the secure link.\nVerification Document Tips\nIf the error happens while you are trying to upload your ID, double-check these requirements:\n\nFormat: The photo must be a JPEG or PNG (no PDFs or screenshots).\nVisibility: All 4 corners of the ID must be visible in the frame.\nLighting: Make sure there is no glare on the ID and the text is crystal clear.\nLive Photo: The selfie must be a clear, live photo—not a photo of a screen or a printed picture.\n[07:06:25 PM] Angie Pereira: I’m sorry to hear the system is throwing an error at you—I know how frustrating it is when you're just trying to get your account set up.\nSince the verification process is powered by our partner, Socure, there are a few common things that can cause an error message. Let’s try to get past it with these steps:\nCommon Troubleshooting Steps\n\nBrowser Refresh: Sometimes a quick \"Hard Refresh\" (Ctrl + Shift + R on Windows or Cmd + Shift + R on Mac) clears the error.\nClear Cache & Cookies: If the error persists, try clearing your browser’s cache and cookies or opening the verification link in an Incognito/Private window.\nConnection: Switch between Wi-Fi and mobile data. Sometimes a specific network connection can interfere with the secure link.\nVerification Document Tips\nIf the error happens while you are trying to upload your ID, double-check these requirements:\n\nFormat: The photo must be a JPEG or PNG (no PDFs or screenshots).\nVisibility: All 4 corners of the ID must be visible in the frame.\nLighting: Make sure there is no glare on the ID and the text is crystal clear.\nLive Photo: The selfie must be a clear, live photo—not a photo of a screen or a printed picture.\n[07:08:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:08:19 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[07:10:34 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:10:34 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T19:11:46.264Z"
+    },
+    {
+      "chat_id": "2048480359711813632",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-26T19:21:08.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "Greeting was delayed, contained a typo/formatting error ('Hi <! My name is Samantha will be assisting you today?'), and lacked professionalism."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent understood the customer wanted 40 SC coins but didn't ask clarifying questions about where they saw the ad or verify KYC completion before responding."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent provided information about the Golden Egg promotion but didn't directly address the customer's specific claim about a '40 SC for signup' advertisement or confirm if they completed KYC."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Response was a massive wall of text with purchase pack details that weren't requested, making it confusing and overwhelming rather than addressing the specific concern."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations but didn't verify the customer's claim or set proper expectations about promotional terms and conditions."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided at all; transcript ends abruptly after the information dump with no follow-up or resolution confirmation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 42,
+      "grade": "F",
+      "summary": "Agent provided promotional information but failed to directly address the customer's specific complaint about not receiving advertised 40 SC coins. The response was poorly formatted, overwhelming with irrelevant purchase details, and lacked proper closing or confirmation that the issue was resolved.",
+      "coaching_tip": "Focus on answering the customer's specific question first before providing additional information, and always confirm whether they've completed KYC verification when discussing welcome promotions.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[07:12:31 PM] t8211917238: Full Name: t8211917238 Email Address: mnoggler933@gmail.com Subject / How can we help you?: He said if I sign up, I get $40 SC coins and I never received them when I signed up so I want that or I’m suing for false advertisement\n[07:12:31 PM] t8211917238: Full Name: t8211917238 Email Address: mnoggler933@gmail.com Subject / How can we help you?: He said if I sign up, I get $40 SC coins and I never received them when I signed up so I want that or I’m suing for false advertisement\n[07:13:03 PM] t8211917238: Hello\n[07:13:03 PM] t8211917238: Hello\n[07:13:30 PM] t8211917238: ??\n[07:13:30 PM] t8211917238: ??\n[07:14:40 PM] Evelyn Portillo: Hi <! My name is Samantha will be assisting you today?\n[07:14:40 PM] Evelyn Portillo: Hi\n[07:15:06 PM] t8211917238: Your advertisement said if you sign up you get 40 SC coins and I signed up and I didn’t get to 40 that is false advertisement so are you guys gonna give it to me or what?\n[07:15:06 PM] t8211917238: Your advertisement said if you sign up you get 40 SC coins and I signed up and I didn’t get to 40 that is false advertisement so are you guys gonna give it to me or what?\n[07:15:51 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:15:51 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[07:16:07 PM] t8211917238: Ok\n[07:16:07 PM] t8211917238: Ok\n[07:18:33 PM] t8211917238: Yeah, thank you because it says that if you sign up you get 40 SC coins and I went to 40 SC coins for signing up\n[07:18:33 PM] t8211917238: Yeah, thank you because it says that if you sign up you get 40 SC coins and I went to 40 SC coins for signing up\n[07:20:22 PM] Evelyn Portillo: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n\nour first three purchases all come with bonus\npacks — here’s the breakdown:\n1st Purchase (New User Offer):\n- $9.99: 4,000 GC | 600 XP | 30 SC (200%)\n- $19.99: 8,000 GC | 1,200 XP | 50 SC (150%)\n- $49.99: 20,000 GC | 3,000 XP | 100 SC (100%) - $99.99: 40,000 GC | 6,000 XP | 180\nSC (80%)\n2nd Purchase Pack:\n- $19.99: 8,000 GC | 1,000 XP | 44 SC (120%)\n- $9.99: 4,000 GC | 500 XP | 18 SC (80%)\n- $49.99: 20,000 GC | 2,500 XP | 80 SC (60%) - $99.99: 40,000 GC | 5,000 XP | 140 SC\n(40%)\n3rd Purchase Pack:\n- $29.99: 12,000 GC | 1,200 XP | 60 SC (100%)\n- $9.99: 4,000 GC | 400 XP | 17 SC (70%)\n- $49.99: 20,000 GC | 2,000 XP | 80 SC (60%) - $99.99: 40,000 GC | 4,000 XP | 140 SC\n(40%)\nQuick rules: min $9.99 purchase, bonuses land after purchase, SC needs 1x\nplaythrough before redemption, and packs unlock in order (1 → 2 → 3)\n[07:20:22 PM] Evelyn Portillo: Your Golden Egg is waiting — exciting stuff!\nHere’s how it works:\n1. Register your account\n2. Complete KYC verification\n3. Your Golden Egg unlocks automatically\n4. Smash it to reveal a random SC reward — up to 100 SC!\nA couple of things to note:\n- The reward amount is random (can’t be predicted or changed!)\n- It’s a one-time welcome offer — new accounts only\n- It expires 24 hours after being issued, so grab it soon!\nEgg not showing up after KYC? Let me know and I’ll investigate!\n\nour first three purchases all come with bonus\npacks — here’s the breakdown:\n1st Purchase (New User Offer):\n- $9.99: 4,000 GC | 600 XP | 30 SC (200%)\n- $19.99: 8,000 GC | 1,200 XP | 50 SC (150%)\n- $49.99: 20,000 GC | 3,000 XP | 100 SC (100%) - $99.99: 40,000 GC | 6,000 XP | 180\nSC (80%)\n2nd Purchase Pack:\n- $19.99: 8,000 GC | 1,000 XP | 44 SC (120%)\n- $9.99: 4,000 GC | 500 XP | 18 SC (80%)\n- $49.99: 20,000 GC | 2,500 XP | 80 SC (60%) - $99.99: 40,000 GC | 5,000 XP | 140 SC\n(40%)\n3rd Purchase Pack:\n- $29.99: 12,000 GC | 1,200 XP | 60 SC (100%)\n- $9.99: 4,000 GC | 400 XP | 17 SC (70%)\n- $49.99: 20,000 GC | 2,000 XP | 80 SC (60%) - $99.99: 40,000 GC | 4,000 XP | 140 SC\n(40%)\nQuick rules: min $9.99 purchase, bonuses land after purchase, SC needs 1x\nplaythrough before redemption, and packs unlock in order (1 → 2 → 3)",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T19:21:50.701Z"
+    },
+    {
+      "chat_id": "2048480714110103552",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-26T19:20:51.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, friendly greeting with clear offer to help, though customer name wasn't used."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Customer never clarified their issue despite agent's prompt; agent cannot discover what wasn't communicated."
+        },
+        "resolution": {
+          "score": 15,
+          "notes": "No resolution possible as customer didn't respond with actual issue after initial vague contact form submission."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, professional, and appropriately friendly throughout with good follow-up attempt."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "No policy violations or unauthorized promises made."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Professional closing with well-wishes and implicit offer of future help."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 66,
+      "grade": "D",
+      "summary": "Agent provided appropriate service but customer never articulated their actual issue beyond submitting a contact form mentioning 'support agent'. Agent greeted warmly, followed up appropriately, and closed professionally when no response came.",
+      "coaching_tip": "When customers submit vague initial messages, try asking a more specific open-ended question to encourage engagement, such as 'I see you mentioned support agent - are you experiencing an issue with your account or have a question I can help with?'",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[07:13:55 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:13:55 PM] t0038884144: Full Name: t0038884144 Email Address: airbud.yay1999@gmail.com Subject / How can we help you?: support agent\n[07:14:50 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[07:14:50 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help! What's going on?\n[07:18:03 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:18:03 PM] Angie Pereira: Still there? Let me know if anything else comes up — always happy to help!\n[07:20:46 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[07:20:46 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T19:21:59.478Z"
     }
   ]
 }
