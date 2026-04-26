@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T01:41:45.889Z",
-  "total_chats": 707,
+  "scored_at": "2026-04-26T02:06:48.615Z",
+  "total_chats": 708,
   "total_agents": 27,
   "agents": [
     {
@@ -28446,11 +28446,56 @@
           "raw_transcript": "[01:16:50 AM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[01:16:50 AM] t7467972587: Full Name: t7467972587 Email Address: vprimer35@gmail.com Subject / How can we help you?: Yes I was trying to see why I did pick my golden egg yet I verified everything that I was supposed to do\n[01:17:03 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[01:17:03 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[01:17:10 AM] t7467972587: Yes\n[01:17:10 AM] t7467972587: Yes\n[01:19:17 AM] t7467972587: Ok thanks\n[01:19:17 AM] t7467972587: Ok thanks",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T01:21:45.857Z"
+        },
+        {
+          "chat_id": "2048221276261888000",
+          "agent_name": "Ludovicode Flores",
+          "agent_id": "5840",
+          "timestamp": "2026-04-26T02:06:03.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly to 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions or confirm understanding of the customer's concern about Illinois restrictions."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Confirmed the restriction status but provided no explanation, alternatives, or helpful context about why or what customer can do."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Responses were brief and lacked empathy or helpful detail, though not unprofessional."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, provided factually accurate information about state restrictions."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Abrupt closing with no offer of further assistance or proper farewell beyond a brief thanks."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 54,
+          "grade": "F",
+          "summary": "Agent confirmed the Illinois restriction accurately but provided minimal service value. The interaction lacked a proper greeting, any explanation of the restriction, and failed to offer alternatives or express empathy for the customer's situation.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, and when delivering restrictive news, explain why and offer any available alternatives or next steps to show you care about helping.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[02:03:01 AM] Customer: Full Name: Amanda delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: You’re restricted in Illinois ??\n[02:03:01 AM] Customer: Full Name: Amanda delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: You’re restricted in Illinois ??\n[02:03:14 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:03:14 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:05:02 AM] Ludovicode Flores: Unfortunately, it is restricted.\n[02:05:02 AM] Ludovicode Flores: Unfortunately, it is restricted.\n[02:05:59 AM] Ludovicode Flores: Thanks for chatting with us\n[02:05:59 AM] Ludovicode Flores: Thanks for chatting with us",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T02:06:48.113Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 0
+      "trend": 9
     },
     {
       "id": "5955",
@@ -63877,6 +63922,51 @@
       "raw_transcript": "[01:33:51 AM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: Redeem timing\n[01:33:51 AM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: Redeem timing\n[01:34:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[01:34:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[01:35:32 AM] Marlon Cibrian: ACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:35:32 AM] Marlon Cibrian: ACH Bank Transfer — up to 10 business days total\n\nJust a couple of things to keep in mind:\n- We don't process redemptions on weekends\n- Only one pending redemption at a time\n- You'll need at least 100 Sweepstakes Coins that have been played through\n[01:36:51 AM] t1558509715: Wow\n[01:36:51 AM] t1558509715: Wow",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T01:41:45.388Z"
+    },
+    {
+      "chat_id": "2048221276261888000",
+      "agent_name": "Ludovicode Flores",
+      "agent_id": "5840",
+      "timestamp": "2026-04-26T02:06:03.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all, agent jumped directly to 'one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions or confirm understanding of the customer's concern about Illinois restrictions."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Confirmed the restriction status but provided no explanation, alternatives, or helpful context about why or what customer can do."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Responses were brief and lacked empathy or helpful detail, though not unprofessional."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, provided factually accurate information about state restrictions."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Abrupt closing with no offer of further assistance or proper farewell beyond a brief thanks."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 54,
+      "grade": "F",
+      "summary": "Agent confirmed the Illinois restriction accurately but provided minimal service value. The interaction lacked a proper greeting, any explanation of the restriction, and failed to offer alternatives or express empathy for the customer's situation.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name, and when delivering restrictive news, explain why and offer any available alternatives or next steps to show you care about helping.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[02:03:01 AM] Customer: Full Name: Amanda delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: You’re restricted in Illinois ??\n[02:03:01 AM] Customer: Full Name: Amanda delacruz Email Address: 060403ricky@gmail.com Subject / How can we help you?: You’re restricted in Illinois ??\n[02:03:14 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:03:14 AM] Ludovicode Flores: Please allow me one moment to look into this for you!\n[02:05:02 AM] Ludovicode Flores: Unfortunately, it is restricted.\n[02:05:02 AM] Ludovicode Flores: Unfortunately, it is restricted.\n[02:05:59 AM] Ludovicode Flores: Thanks for chatting with us\n[02:05:59 AM] Ludovicode Flores: Thanks for chatting with us",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T02:06:48.113Z"
     }
   ]
 }
