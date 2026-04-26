@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T14:11:47.973Z",
-  "total_chats": 797,
+  "scored_at": "2026-04-26T14:16:45.575Z",
+  "total_chats": 798,
   "total_agents": 28,
   "agents": [
     {
@@ -14685,11 +14685,56 @@
           "raw_transcript": "[01:06:33 PM] t9444166215: Full Name: t9444166215 Email Address: Ziebarthm@gmail.com Subject / How can we help you?: Where's my egg\n[01:06:33 PM] t9444166215: Full Name: t9444166215 Email Address: Ziebarthm@gmail.com Subject / How can we help you?: Where's my egg\n[01:07:16 PM] t9444166215: I'm verified and everything and I thought you were able to smash an egg?\n[01:07:16 PM] t9444166215: I'm verified and everything and I thought you were able to smash an egg?\n[01:08:15 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:08:15 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[01:08:24 PM] t9444166215: Thank you!\n[01:08:24 PM] t9444166215: Thank you!\n[01:09:52 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[01:09:52 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[01:10:12 PM] t9444166215: Thank you\n[01:10:12 PM] t9444166215: Thank you\n[01:13:02 PM] Angie Pereira: Since you recently registered please allow some time for the system to make the proper updates:\n\nI’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[01:13:02 PM] Angie Pereira: Since you recently registered please allow some time for the system to make the proper updates:\n\nI’d be happy to explain how our Golden Egg promotion works.\n\nIt’s really simple to participate:\n\nKYC Verification: First, make sure your KYC verification is fully completed, as this is required to unlock the Golden Egg.\nSmash the Egg: Once verified, you’ll see the option to 'Smash the Golden Egg' on the platform.\nGet your prize: You will receive a random SC prize instantly!\n\nA few important reminders:\n\nThis reward is limited to one (1) per account.\nRewards are randomly distributed and cannot be exchanged.\nPlease make sure to claim your reward within 48 hours, as unclaimed rewards will expire after that time.\n[01:14:35 PM] t9444166215: Ok thank you\n[01:14:35 PM] t9444166215: Ok thank you\n[01:14:54 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[01:14:54 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[01:17:38 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[01:17:38 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T13:21:43.786Z"
+        },
+        {
+          "chat_id": "2048403469353398272",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-26T14:15:38.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Understood the new player bonus issue and identified KYC as the blocker, but didn't explicitly confirm customer hadn't completed verification first."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear, detailed KYC instructions that directly address why bonus wasn't received, with step-by-step guidance."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear, well-structured instructions with friendly tone and reassurance throughout the interaction."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper procedures by requiring KYC before bonus access with no policy violations."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Offered further assistance and provided a warm, appropriate closing with well-wishes."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent competently handled a new player bonus inquiry by identifying KYC verification as the requirement and providing comprehensive instructions. Communication was clear and professional throughout with appropriate opening and closing.",
+          "coaching_tip": "Before providing the KYC solution, ask a quick clarifying question to confirm the customer hasn't already completed verification to ensure you're addressing the actual root cause.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:13:52 PM] t5759352054: OK\n[02:13:52 PM] t5759352054: OK\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:57 PM] t5759352054: OK\n[02:14:57 PM] t5759352054: OK\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T14:16:45.074Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -9
+      "trend": -7
     },
     {
       "id": "5839",
@@ -71986,6 +72031,51 @@
       "raw_transcript": "[02:06:30 PM] Customer: Full Name: Melissa Ann Lorine Banovz Email Address: 3mellookinass88@gmail.com Subject / How can we help you?: It wint let me start the game\n[02:06:30 PM] Customer: Full Name: Melissa Ann Lorine Banovz Email Address: 3mellookinass88@gmail.com Subject / How can we help you?: It wint let me start the game\n[02:06:44 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:06:44 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T14:11:47.474Z"
+    },
+    {
+      "chat_id": "2048403469353398272",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-26T14:15:38.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 13,
+          "notes": "Understood the new player bonus issue and identified KYC as the blocker, but didn't explicitly confirm customer hadn't completed verification first."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear, detailed KYC instructions that directly address why bonus wasn't received, with step-by-step guidance."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Clear, well-structured instructions with friendly tone and reassurance throughout the interaction."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed proper procedures by requiring KYC before bonus access with no policy violations."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Offered further assistance and provided a warm, appropriate closing with well-wishes."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 72,
+      "grade": "C",
+      "summary": "Agent competently handled a new player bonus inquiry by identifying KYC verification as the requirement and providing comprehensive instructions. Communication was clear and professional throughout with appropriate opening and closing.",
+      "coaching_tip": "Before providing the KYC solution, ask a quick clarifying question to confirm the customer hasn't already completed verification to ensure you're addressing the actual root cause.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:13:52 PM] t5759352054: OK\n[02:13:52 PM] t5759352054: OK\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:57 PM] t5759352054: OK\n[02:14:57 PM] t5759352054: OK\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T14:16:45.074Z"
     }
   ]
 }
