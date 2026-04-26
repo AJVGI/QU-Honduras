@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T05:41:42.274Z",
-  "total_chats": 740,
+  "scored_at": "2026-04-26T05:46:42.426Z",
+  "total_chats": 741,
   "total_agents": 27,
   "agents": [
     {
@@ -33396,9 +33396,54 @@
           "raw_transcript": "[05:33:56 AM] Customer: Full Name: Cedria Dixon Email Address: cedria19@gmail.com Subject / How can we help you?: Close this account\n[05:33:56 AM] Customer: Full Name: Cedria Dixon Email Address: cedria19@gmail.com Subject / How can we help you?: Close this account\n[05:34:57 AM] Mirza Garcia: Are you sure you want to close it? Tell me why.\n[05:34:57 AM] Mirza Garcia: Are you sure you want to close it? Tell me why.\n[05:35:44 AM] Mirza Garcia: hello?\n[05:35:44 AM] Mirza Garcia: hello?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-24T05:49:44.946Z"
+        },
+        {
+          "chat_id": "2048275447279874048",
+          "agent_name": "Mirza Garcia",
+          "agent_id": "5555",
+          "timestamp": "2026-04-26T05:42:35.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Professional greeting present but generic, did not use customer name or personalize."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent requested email to investigate but did not clarify the confusing verification status issue or new player bonus question before customer left."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution provided; customer left before agent could investigate the account or address the bonus/verification concerns."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Clear request for information but no acknowledgment of customer's multiple messages or confusion about verification status."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations observed; agent appropriately requested account information before proceeding."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided; chat ended abruptly after customer said thank you with no agent response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 44,
+          "grade": "F",
+          "summary": "Agent provided a basic greeting and requested email to investigate but customer departed before any resolution could be attempted. The agent failed to acknowledge the customer's final thank you or provide any closing statement.",
+          "coaching_tip": "Always acknowledge when a customer thanks you or says goodbye, even if the issue wasn't fully resolved, to avoid appearing dismissive or unprofessional.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[05:38:16 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still t received bonus oil on the profile it says verified but on the egg it says verify\n[05:38:16 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still t received bonus oil on the profile it says verified but on the egg it says verify\n[05:39:37 AM] t9077482285: Hi\n[05:39:37 AM] t9077482285: Hi\n[05:40:02 AM] t9077482285: So I don't get any sc bonus for new player\n[05:40:02 AM] t9077482285: So I don't get any sc bonus for new player\n[05:40:07 AM] Mirza Garcia: hello hope you are well. let me have your email so I can take a look on your account\n[05:40:07 AM] Mirza Garcia: hello hope you are well. let me have your email so I can take a look on your account\n[05:40:27 AM] t9077482285: Yes\n[05:40:27 AM] t9077482285: Yes\n[05:42:21 AM] t9077482285: Thank u\n[05:42:21 AM] t9077482285: Thank u",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:46:41.925Z"
         }
       ],
-      "avg_score": 28,
+      "avg_score": 32,
       "grade": "F",
       "trend": 0
     },
@@ -66847,6 +66892,51 @@
       "raw_transcript": "[05:37:34 AM] t5355164300: Full Name: t5355164300 Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[05:37:34 AM] t5355164300: Full Name: t5355164300 Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[05:38:02 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:38:02 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[05:40:07 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:40:07 AM] Raul Figueroa: I have not got any response from you on the last 2 minutes, I just want to make sure that you still there.\n[05:41:16 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!\n[05:41:16 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T05:41:41.774Z"
+    },
+    {
+      "chat_id": "2048275447279874048",
+      "agent_name": "Mirza Garcia",
+      "agent_id": "5555",
+      "timestamp": "2026-04-26T05:42:35.000Z",
+      "categories": {
+        "greeting": {
+          "score": 6,
+          "notes": "Professional greeting present but generic, did not use customer name or personalize."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent requested email to investigate but did not clarify the confusing verification status issue or new player bonus question before customer left."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No resolution provided; customer left before agent could investigate the account or address the bonus/verification concerns."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Clear request for information but no acknowledgment of customer's multiple messages or confusion about verification status."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No violations observed; agent appropriately requested account information before proceeding."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided; chat ended abruptly after customer said thank you with no agent response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 44,
+      "grade": "F",
+      "summary": "Agent provided a basic greeting and requested email to investigate but customer departed before any resolution could be attempted. The agent failed to acknowledge the customer's final thank you or provide any closing statement.",
+      "coaching_tip": "Always acknowledge when a customer thanks you or says goodbye, even if the issue wasn't fully resolved, to avoid appearing dismissive or unprofessional.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[05:38:16 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still t received bonus oil on the profile it says verified but on the egg it says verify\n[05:38:16 AM] t9077482285: Full Name: t9077482285 Email Address: peache4600@gmail.com Subject / How can we help you?: New player bon still t received bonus oil on the profile it says verified but on the egg it says verify\n[05:39:37 AM] t9077482285: Hi\n[05:39:37 AM] t9077482285: Hi\n[05:40:02 AM] t9077482285: So I don't get any sc bonus for new player\n[05:40:02 AM] t9077482285: So I don't get any sc bonus for new player\n[05:40:07 AM] Mirza Garcia: hello hope you are well. let me have your email so I can take a look on your account\n[05:40:07 AM] Mirza Garcia: hello hope you are well. let me have your email so I can take a look on your account\n[05:40:27 AM] t9077482285: Yes\n[05:40:27 AM] t9077482285: Yes\n[05:42:21 AM] t9077482285: Thank u\n[05:42:21 AM] t9077482285: Thank u",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T05:46:41.925Z"
     }
   ]
 }
