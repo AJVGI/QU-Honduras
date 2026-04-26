@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T14:36:54.028Z",
-  "total_chats": 801,
+  "scored_at": "2026-04-26T14:41:52.971Z",
+  "total_chats": 803,
   "total_agents": 28,
   "agents": [
     {
@@ -1374,11 +1374,56 @@
           "raw_transcript": "[02:22:42 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please\n[02:22:42 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T14:26:42.363Z"
+        },
+        {
+          "chat_id": "2048411683579588608",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-26T14:40:54.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Professional, warm greeting with clear offer to help and request for a moment to review."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Customer made request crystal clear; agent had no opportunity to ask questions before customer disconnected."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent did not complete the account closure process before customer ended chat, though request was clear."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Agent remained professional and calm despite hostile customer language throughout the interaction."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent appropriately did not engage with accusations or make unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as customer abruptly ended the chat before agent could respond further."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent provided a professional greeting and remained composed when faced with an extremely hostile customer requesting account closure. The interaction ended before the agent could process the closure request or provide a proper closing.",
+          "coaching_tip": "In urgent account closure requests with hostile customers, immediately acknowledge the specific request before asking for time to review, such as 'I understand you want to close your account, let me process that right away.'",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[02:39:37 PM] Customer: Full Name: Anthony Ray Trader Email Address: tntcrue87@gmail.com Subject / How can we help you?: Take your site and shove it up your ass and CLOSE MY ACCOUNT\n[02:39:37 PM] Customer: Full Name: Anthony Ray Trader Email Address: tntcrue87@gmail.com Subject / How can we help you?: Take your site and shove it up your ass and CLOSE MY ACCOUNT\n[02:39:53 PM] Customer: Fucking scamming mother fuckers\n[02:39:53 PM] Customer: Fucking scamming mother fuckers\n[02:40:05 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:40:05 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:40:18 PM] Customer: just close my fucking account\n[02:40:18 PM] Customer: just close my fucking account\n[02:40:38 PM] Customer: I have played at MANY sweeps sites and this one is fucking rigged and a scam\n[02:40:38 PM] Customer: I have played at MANY sweeps sites and this one is fucking rigged and a scam\n[02:40:48 PM] Customer: I will get my money back from my bank\n[02:40:48 PM] Customer: I will get my money back from my bank\n[02:40:50 PM] Customer: fuck off\n[02:40:50 PM] Customer: fuck off",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T14:41:44.387Z"
         }
       ],
       "avg_score": 64,
       "grade": "D",
-      "trend": -7
+      "trend": -11
     },
     {
       "id": "5801",
@@ -14865,11 +14910,56 @@
           "raw_transcript": "[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:13:52 PM] t5759352054: OK\n[02:13:52 PM] t5759352054: OK\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:57 PM] t5759352054: OK\n[02:14:57 PM] t5759352054: OK\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T14:16:45.074Z"
+        },
+        {
+          "chat_id": "2048408009653923840",
+          "agent_name": "Angie Pereira",
+          "agent_id": "5844",
+          "timestamp": "2026-04-26T14:39:24.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional and friendly greeting, though did not use customer's name."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent failed to address the second part of the customer's question about not being able to smash the golden egg."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Only partially resolved - provided daily login info but completely ignored the golden egg technical issue."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and well-formatted information about login rewards, but communication was incomplete by ignoring half the inquiry."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained available free rewards without unauthorized promises."
+            },
+            "closing": {
+              "score": 8,
+              "notes": "Polite closing with well-wishes, though closed without confirming both issues were addressed."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent provided clear information about daily login rewards but completely failed to address the customer's technical issue with the golden egg feature. This represents a significant gap in issue discovery and resolution.",
+          "coaching_tip": "Always address all parts of a customer's inquiry - when multiple questions are asked, acknowledge each one and provide solutions or escalate technical issues you cannot resolve directly.",
+          "website": "Jackpot Daily",
+          "message_count": 18,
+          "raw_transcript": "[02:25:01 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please, also y can't I smash golden rgg\n[02:25:01 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please, also y can't I smash golden rgg\n[02:25:10 PM] t2275761159: Egg\n[02:25:10 PM] t2275761159: Egg\n[02:26:11 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:26:11 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:27:29 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:27:29 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:29:57 PM] t2275761159: Ty\n[02:29:57 PM] t2275761159: Ty\n[02:31:20 PM] Angie Pereira: Give me a moment to review this information.\n[02:31:20 PM] Angie Pereira: Give me a moment to review this information.\n[02:32:32 PM] Angie Pereira: You can use the daily Login Rewards are totally free — just log in\neach day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:32:32 PM] Angie Pereira: You can use the daily Login Rewards are totally free — just log in\neach day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:34:02 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:34:02 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:39:20 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:39:20 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T14:41:52.469Z"
         }
       ],
       "avg_score": 59,
       "grade": "F",
-      "trend": -7
+      "trend": -8
     },
     {
       "id": "5839",
@@ -72346,6 +72436,96 @@
       "raw_transcript": "[02:30:58 PM] Customer: Full Name: t8493310825 Email Address: casandrawillard6@gmail.com Subject / How can we help you?: I cashed out 100.00 how long before it gets on my account\n[02:30:58 PM] Customer: Full Name: t8493310825 Email Address: casandrawillard6@gmail.com Subject / How can we help you?: I cashed out 100.00 how long before it gets on my account\n[02:31:13 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:31:13 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[02:32:25 PM] Andrea Hernandez: Congrats on your cashout! 🎉\n\nHere’s what to expect:\n\nACH (bank transfer): up to 10 business days\n\nA couple of things to keep in mind:\n\nProcessing starts after the redemption is approved\nWeekends don’t count as business days\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[02:32:25 PM] Andrea Hernandez: Congrats on your cashout! 🎉\n\nHere’s what to expect:\n\nACH (bank transfer): up to 10 business days\n\nA couple of things to keep in mind:\n\nProcessing starts after the redemption is approved\nWeekends don’t count as business days\n\nIf you’re within that timeframe, everything is progressing normally 👍\n[02:33:41 PM] Andrea Hernandez: Are you still here?\n[02:33:41 PM] Andrea Hernandez: Are you still here?\n[02:35:04 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help\n[02:35:04 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T14:36:53.527Z"
+    },
+    {
+      "chat_id": "2048411683579588608",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-26T14:40:54.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Professional, warm greeting with clear offer to help and request for a moment to review."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Customer made request crystal clear; agent had no opportunity to ask questions before customer disconnected."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Agent did not complete the account closure process before customer ended chat, though request was clear."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Agent remained professional and calm despite hostile customer language throughout the interaction."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent appropriately did not engage with accusations or make unauthorized promises."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as customer abruptly ended the chat before agent could respond further."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 53,
+      "grade": "F",
+      "summary": "Agent provided a professional greeting and remained composed when faced with an extremely hostile customer requesting account closure. The interaction ended before the agent could process the closure request or provide a proper closing.",
+      "coaching_tip": "In urgent account closure requests with hostile customers, immediately acknowledge the specific request before asking for time to review, such as 'I understand you want to close your account, let me process that right away.'",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[02:39:37 PM] Customer: Full Name: Anthony Ray Trader Email Address: tntcrue87@gmail.com Subject / How can we help you?: Take your site and shove it up your ass and CLOSE MY ACCOUNT\n[02:39:37 PM] Customer: Full Name: Anthony Ray Trader Email Address: tntcrue87@gmail.com Subject / How can we help you?: Take your site and shove it up your ass and CLOSE MY ACCOUNT\n[02:39:53 PM] Customer: Fucking scamming mother fuckers\n[02:39:53 PM] Customer: Fucking scamming mother fuckers\n[02:40:05 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:40:05 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:40:18 PM] Customer: just close my fucking account\n[02:40:18 PM] Customer: just close my fucking account\n[02:40:38 PM] Customer: I have played at MANY sweeps sites and this one is fucking rigged and a scam\n[02:40:38 PM] Customer: I have played at MANY sweeps sites and this one is fucking rigged and a scam\n[02:40:48 PM] Customer: I will get my money back from my bank\n[02:40:48 PM] Customer: I will get my money back from my bank\n[02:40:50 PM] Customer: fuck off\n[02:40:50 PM] Customer: fuck off",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T14:41:44.387Z"
+    },
+    {
+      "chat_id": "2048408009653923840",
+      "agent_name": "Angie Pereira",
+      "agent_id": "5844",
+      "timestamp": "2026-04-26T14:39:24.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional and friendly greeting, though did not use customer's name."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent failed to address the second part of the customer's question about not being able to smash the golden egg."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Only partially resolved - provided daily login info but completely ignored the golden egg technical issue."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and well-formatted information about login rewards, but communication was incomplete by ignoring half the inquiry."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained available free rewards without unauthorized promises."
+        },
+        "closing": {
+          "score": 8,
+          "notes": "Polite closing with well-wishes, though closed without confirming both issues were addressed."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent provided clear information about daily login rewards but completely failed to address the customer's technical issue with the golden egg feature. This represents a significant gap in issue discovery and resolution.",
+      "coaching_tip": "Always address all parts of a customer's inquiry - when multiple questions are asked, acknowledge each one and provide solutions or escalate technical issues you cannot resolve directly.",
+      "website": "Jackpot Daily",
+      "message_count": 18,
+      "raw_transcript": "[02:25:01 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please, also y can't I smash golden rgg\n[02:25:01 PM] t2275761159: Full Name: t2275761159 Email Address: 2020JessMomof4@gmail.com Subject / How can we help you?: Free redeemable sc please, also y can't I smash golden rgg\n[02:25:10 PM] t2275761159: Egg\n[02:25:10 PM] t2275761159: Egg\n[02:26:11 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:26:11 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:27:29 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:27:29 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:29:57 PM] t2275761159: Ty\n[02:29:57 PM] t2275761159: Ty\n[02:31:20 PM] Angie Pereira: Give me a moment to review this information.\n[02:31:20 PM] Angie Pereira: Give me a moment to review this information.\n[02:32:32 PM] Angie Pereira: You can use the daily Login Rewards are totally free — just log in\neach day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:32:32 PM] Angie Pereira: You can use the daily Login Rewards are totally free — just log in\neach day and collect!\n\nHere’s the 7-day cycle:\nDay 1: 200 GC + 1 SC\nDay 2: 400 GC + 2 SC\nDay 3: 600 GC + 3 SC\nDay 4: 800 GC + 4 SC\nDay 5: 1,000 GC + 5 SC\nDay 6: 1,500 GC + 6 SC\nDay 7 JACKPOT: 2,000 GC + 7 SC 🏆\n\nThen it resets back to Day 1! Rewards expire after 5 days so don’t forget to claim.\nTo claim: log in → click the treasure chest icon → complete the daily task.\n[02:34:02 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:34:02 PM] Angie Pereira: Let me know if anything else comes up — always happy to help!\n[02:39:20 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:39:20 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T14:41:52.469Z"
     }
   ]
 }
