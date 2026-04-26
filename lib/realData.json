@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T16:16:59.021Z",
-  "total_chats": 813,
+  "scored_at": "2026-04-26T16:21:45.764Z",
+  "total_chats": 814,
   "total_agents": 28,
   "agents": [
     {
@@ -36231,6 +36231,51 @@
           "raw_transcript": "[03:46:38 PM] Customer: Full Name: Vincent Gaddy Email Address: lamar.gaddy@gmail.com Subject / How can we help you?: My sign in task is to verify my phone number but it's already verified. How can I check this off?\n[03:46:38 PM] Customer: Full Name: Vincent Gaddy Email Address: lamar.gaddy@gmail.com Subject / How can we help you?: My sign in task is to verify my phone number but it's already verified. How can I check this off?\n[03:47:22 PM] Evelyn Portillo: Give me a moment to review this information.\n[03:47:22 PM] Evelyn Portillo: Give me a moment to review this information.\n[03:50:54 PM] Customer: Ok\n[03:50:54 PM] Customer: Ok\n[03:52:42 PM] Evelyn Portillo: a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮ ) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for you!\ntry to log out and log in again if this doesnt work\n[03:52:42 PM] Evelyn Portillo: a quick browser refresh and cache\nclear usually fixes most display or loading issues. Here’s how:\nStep 1 — Hard Refresh:\nWindows/Linux: Ctrl + Shift + R\nMac: Cmd + Shift + R\n(or just press F5!)\nStep 2 — Clear Cache & Cookies:\nChrome:\nThree dots (⋮ ) → Settings → Privacy & Security → Clear Browsing Data → select “All\ntime” + check Cookies & Cached files → Clear data\nFirefox:\nThree lines (≡) → Settings → Privacy & Security → Clear Data\nSafari (Mac):\nSafari menu → Settings → Privacy → Manage Website Data → Remove All\nShortcut: Cmd + Option + E\nEdge:\nThree dots (⋯) → Settings → Privacy, Search & Services → Clear Browsing Data → All\ntime → Clear now\nMobile (iOS/Android):\nPhone Settings → find your browser → Clear History/Cache\nStep 3 — Close and reopen your browser, then head back to www.jackpotdaily.com\nand log in again.\nStill having trouble after that? Let me know and I’ll dig deeper for you!\ntry to log out and log in again if this doesnt work\n[03:53:43 PM] Customer: Ok\n[03:53:43 PM] Customer: Ok",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T15:56:57.070Z"
+        },
+        {
+          "chat_id": "2048436163063885824",
+          "agent_name": "Evelyn Portillo",
+          "agent_id": "5838",
+          "timestamp": "2026-04-26T16:18:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, agent jumped directly to asking for time to investigate without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions about the insufficient balance error and provided an irrelevant response about ACH processing times instead of addressing the actual issue."
+            },
+            "resolution": {
+              "score": 5,
+              "notes": "Completely failed to address the customer's actual problem of getting an insufficient balance message when trying to redeem 141 SC; provided unrelated information about ACH weekend processing."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "While the information provided was clear and well-formatted, it was entirely irrelevant to the customer's issue about insufficient balance errors."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, though the response was unhelpful and off-topic."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing at all; agent provided information and stopped responding without checking if the issue was resolved or offering further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 38,
+          "grade": "F",
+          "summary": "Agent failed to address the customer's actual issue about an insufficient balance error when redeeming SC, instead providing irrelevant information about ACH weekend processing times. The interaction lacked a proper greeting, issue discovery, relevant resolution, and any closing.",
+          "coaching_tip": "Always read the customer's issue carefully and ensure your response directly addresses their specific problem before providing information; in this case, investigate why the insufficient balance message appears for a 141 SC redemption.",
+          "website": "Jackpot Daily",
+          "message_count": 8,
+          "raw_transcript": "[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:18:16 PM] t6475622042: ok\n[04:18:16 PM] t6475622042: ok\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T16:21:45.264Z"
         }
       ],
       "avg_score": 49,
@@ -73426,6 +73471,51 @@
       "raw_transcript": "[04:00:49 PM] Customer: Full Name: Vincent Gaddy Email Address: Lamar.gaddy@gmail.com Subject / How can we help you?: I cleared my cache and signed back in but it still says I need to verify phone number for daily login reward.\n[04:00:49 PM] Customer: Full Name: Vincent Gaddy Email Address: Lamar.gaddy@gmail.com Subject / How can we help you?: I cleared my cache and signed back in but it still says I need to verify phone number for daily login reward.\n[04:01:47 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:01:47 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[04:03:57 PM] Angie Pereira: Yes if you are now creating your account you will have to verified first to access bonus\n[04:03:57 PM] Angie Pereira: Yes if you are now creating your account you will have to verified first to access bonus\n[04:04:25 PM] Customer: My account is already fully verified\n[04:04:25 PM] Customer: My account is already fully verified\n[04:05:10 PM] Customer: The day to login bonus task is to verify your phone number. My phone number is already verified but it's not checking off that I've completed the task\n[04:05:10 PM] Customer: The day to login bonus task is to verify your phone number. My phone number is already verified but it's not checking off that I've completed the task\n[04:06:19 PM] Angie Pereira: What is the email address that you are using on your account?\n[04:06:19 PM] Angie Pereira: What is the email address that you are using on your account?\n[04:06:53 PM] Customer: lamar.gaddy@gmail.com\n[04:06:53 PM] Customer: lamar.gaddy@gmail.com\n[04:11:02 PM] Angie Pereira: I understand, we apologize for the inconvinience please allow then the system to update so you can see it reflected on your account\n[04:11:02 PM] Angie Pereira: I understand, we apologize for the inconvinience please allow then the system to update so you can see it reflected on your account\n[04:12:10 PM] Customer: Ok\n[04:12:10 PM] Customer: Ok",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T16:16:58.520Z"
+    },
+    {
+      "chat_id": "2048436163063885824",
+      "agent_name": "Evelyn Portillo",
+      "agent_id": "5838",
+      "timestamp": "2026-04-26T16:18:40.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all, agent jumped directly to asking for time to investigate without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask any clarifying questions about the insufficient balance error and provided an irrelevant response about ACH processing times instead of addressing the actual issue."
+        },
+        "resolution": {
+          "score": 5,
+          "notes": "Completely failed to address the customer's actual problem of getting an insufficient balance message when trying to redeem 141 SC; provided unrelated information about ACH weekend processing."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "While the information provided was clear and well-formatted, it was entirely irrelevant to the customer's issue about insufficient balance errors."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, though the response was unhelpful and off-topic."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing at all; agent provided information and stopped responding without checking if the issue was resolved or offering further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 38,
+      "grade": "F",
+      "summary": "Agent failed to address the customer's actual issue about an insufficient balance error when redeeming SC, instead providing irrelevant information about ACH weekend processing times. The interaction lacked a proper greeting, issue discovery, relevant resolution, and any closing.",
+      "coaching_tip": "Always read the customer's issue carefully and ensure your response directly addresses their specific problem before providing information; in this case, investigate why the insufficient balance message appears for a 141 SC redemption.",
+      "website": "Jackpot Daily",
+      "message_count": 8,
+      "raw_transcript": "[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:16:54 PM] t6475622042: Full Name: t6475622042 Email Address: xavier.ewert@icloud.com Subject / How can we help you?: getting an insufficent balance message when trying to redeem 141 sc\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:17:35 PM] Evelyn Portillo: Please allow me one moment to look into this for you!\n[04:18:16 PM] t6475622042: ok\n[04:18:16 PM] t6475622042: ok\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.\n[04:18:24 PM] Evelyn Portillo: here is what to expect with ACH redemptions on weekends:\n- ACH transfers are not processed on weekends or bank holidays\n- If your redemption is approved on a Friday, processing will begin on the next business day (Monday)\n*- Funds typically take 3-10 business days to appear in your bank account after approval*\n- Weekends do not count toward business day processing time\nExample: If approved on Friday, count business days starting Monday.\nThank you for your patience.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T16:21:45.264Z"
     }
   ]
 }
