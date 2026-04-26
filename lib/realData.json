@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T07:06:47.249Z",
-  "total_chats": 755,
+  "scored_at": "2026-04-26T07:11:44.319Z",
+  "total_chats": 756,
   "total_agents": 28,
   "agents": [
     {
@@ -1869,11 +1869,56 @@
           "raw_transcript": "[06:28:00 AM] t9826060621: Full Name: t9826060621 Email Address: Jcverbonitz01@gmail.com Subject / How can we help you?: Hi it is not letting me use my card at the purchase shop because I let my wife use my card to try and add funds to her game\n[06:28:00 AM] t9826060621: Full Name: t9826060621 Email Address: Jcverbonitz01@gmail.com Subject / How can we help you?: Hi it is not letting me use my card at the purchase shop because I let my wife use my card to try and add funds to her game\n[06:28:19 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[06:28:19 AM] Karen Perez: Hi! \nMy name is Melissa. I will be assisting you with your request.\n[06:28:38 AM] t9826060621: Awesome\n[06:28:38 AM] t9826060621: Awesome\n[06:28:49 AM] t9826060621: I would like to put my card back on file\n[06:28:49 AM] t9826060621: I would like to put my card back on file\n[06:29:30 AM] Karen Perez: I understand what’s happening here.\n\nWhat’s likely going on is that the system has flagged the card because it was recently used on another account (your wife’s game). For security and fraud-prevention reasons, payment systems usually don’t allow the same card to be used across multiple accounts at the same time.\n\nThat’s why your purchase is being blocked at checkout.\n\nHere’s what you can do:\n\nWait a short period (24–48 hours) and try again\n→ Sometimes the temporary block clears automatically\nUse a different payment method/card for your account\nMake sure the card is used only on one account going forward, to avoid repeated flags.\n[06:29:30 AM] Karen Perez: I understand what’s happening here.\n\nWhat’s likely going on is that the system has flagged the card because it was recently used on another account (your wife’s game). For security and fraud-prevention reasons, payment systems usually don’t allow the same card to be used across multiple accounts at the same time.\n\nThat’s why your purchase is being blocked at checkout.\n\nHere’s what you can do:\n\nWait a short period (24–48 hours) and try again\n→ Sometimes the temporary block clears automatically\nUse a different payment method/card for your account\nMake sure the card is used only on one account going forward, to avoid repeated flags.\n[06:30:19 AM] Karen Perez: Is there anything else I can do for you today?\n[06:30:19 AM] Karen Perez: Is there anything else I can do for you today?\n[06:31:11 AM] Karen Perez: Sorry, are you still there?\n[06:31:11 AM] Karen Perez: Sorry, are you still there?\n[06:32:05 AM] t9826060621: Thank you\n[06:32:05 AM] t9826060621: Thank you\n[06:32:48 AM] Karen Perez: You are more than welcome! Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[06:32:48 AM] Karen Perez: You are more than welcome! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T06:36:42.962Z"
+        },
+        {
+          "chat_id": "2048292902553206784",
+          "agent_name": "Karen Perez",
+          "agent_id": "5846",
+          "timestamp": "2026-04-26T07:07:08.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with agent name, though didn't use customer's name which was available in the initial message."
+            },
+            "issue_discovery": {
+              "score": 15,
+              "notes": "Agent understood the verification need and asked clarifying questions about technical issues, though could have probed earlier about what specifically wasn't working."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided comprehensive KYC instructions but didn't directly answer the customer's specific question about the secure upload link and left issue partially unresolved."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional with good structure in instructions, but didn't directly address customer's repeated question about finding the upload link."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed proper verification procedures and didn't make unauthorized promises or violate policies."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from the agent."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent provided thorough KYC instructions and attempted to troubleshoot technical issues, but failed to directly answer the customer's specific question about where to find the secure upload link. The interaction shows competent support but lacks the follow-through needed to fully resolve the customer's access problem.",
+          "coaching_tip": "When a customer asks a specific question like 'where is the secure upload link,' provide a direct answer first before redirecting them to alternative methods—this builds trust and shows you're listening to their exact need.",
+          "website": "Jackpot Daily",
+          "message_count": 52,
+          "raw_transcript": "[06:47:38 AM] Customer: Full Name: Seneca Cooks Email Address: senecacooks0613@gmail.com Subject / How can we help you?: Verify account\n[06:47:38 AM] Customer: Full Name: Seneca Cooks Email Address: senecacooks0613@gmail.com Subject / How can we help you?: Verify account\n[06:48:10 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[06:48:10 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[06:48:50 AM] Customer: Verify account documents\n[06:48:50 AM] Customer: Verify account documents\n[06:50:05 AM] Customer: 20260408_233423.jpg\n[06:50:05 AM] Customer: 20260408_233423.jpg\n[06:50:30 AM] Karen Perez: I can help you with that.\n\nTo complete account document verification (KYC), here’s what you need to submit:\n\n1. Proof of Identity (required)\n\nGovernment-issued ID (Driver’s License, Passport, or National ID)\nMust be valid (not expired)\nClear image with all 4 corners visible\n\n2. Selfie verification\n\nA live selfie when prompted by the system\nMake sure your face is clearly visible\n\n3. Proof of Address (only if requested)\n\nUtility bill, bank statement, or official letter\nMust show:\nYour full name\nCurrent address\nDate within last 90 days\n\nHow to submit:\n\nLog in → go to Verification / Redeem section\nFollow the prompts to upload documents\nOr use the secure upload link if the in-app camera fails\n[06:50:30 AM] Karen Perez: I can help you with that.\n\nTo complete account document verification (KYC), here’s what you need to submit:\n\n1. Proof of Identity (required)\n\nGovernment-issued ID (Driver’s License, Passport, or National ID)\nMust be valid (not expired)\nClear image with all 4 corners visible\n\n2. Selfie verification\n\nA live selfie when prompted by the system\nMake sure your face is clearly visible\n\n3. Proof of Address (only if requested)\n\nUtility bill, bank statement, or official letter\nMust show:\nYour full name\nCurrent address\nDate within last 90 days\n\nHow to submit:\n\nLog in → go to Verification / Redeem section\nFollow the prompts to upload documents\nOr use the secure upload link if the in-app camera fails\n[06:50:41 AM] Customer: 20260408_233434.jpg\n[06:50:41 AM] Customer: 20260408_233434.jpg\n[06:51:30 AM] Customer: What is the security upload link\n[06:51:30 AM] Customer: What is the security upload link\n[06:52:28 AM] Karen Perez: You can follow the steps I just sent; that way would be the best way possible, so our system can receive them.\n[06:52:28 AM] Karen Perez: You can follow the steps I just sent; that way would be the best way possible, so our system can receive them.\n[06:52:44 AM] Karen Perez: Did you already try the other way?\n[06:52:44 AM] Karen Perez: Did you already try the other way?\n[06:52:57 AM] Customer: Yes\n[06:52:57 AM] Customer: Yes\n[06:53:20 AM] Customer: Where can I find the link at\n[06:53:20 AM] Customer: Where can I find the link at\n[06:53:38 AM] Karen Perez: Alright, give me a moment to review this.\n[06:53:38 AM] Karen Perez: Alright, give me a moment to review this.\n[06:54:02 AM] Customer: I sent u a picture of ID\n[06:54:02 AM] Customer: I sent u a picture of ID\n[06:55:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[06:55:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[06:55:17 AM] Customer: Ok\n[06:55:17 AM] Customer: Ok\n[06:58:13 AM] Karen Perez: Can you tell me what happened when you tried to submit the documents the regular way?\n[06:58:13 AM] Karen Perez: Can you tell me what happened when you tried to submit the documents the regular way?\n[06:58:56 AM] Customer: Blank screen  and  freeze up\n[06:58:56 AM] Customer: Blank screen  and  freeze up\n[06:59:13 AM] Karen Perez: Can you send me a screenshot, please?\n[06:59:13 AM] Karen Perez: Can you send me a screenshot, please?\n[06:59:44 AM] Customer: I got go in app to do it\n[06:59:44 AM] Customer: I got go in app to do it\n[06:59:54 AM] Karen Perez: Yes, please.\n[06:59:54 AM] Karen Perez: Yes, please.\n[07:00:10 AM] Customer: Ok\n[07:00:10 AM] Customer: Ok\n[07:00:50 AM] Karen Perez: I'll be here, take your time.\n[07:00:50 AM] Karen Perez: I'll be here, take your time.\n[07:02:22 AM] Karen Perez: Still here, just let me know.\n[07:02:22 AM] Karen Perez: Still here, just let me know.\n[07:03:49 AM] Karen Perez: Sorry, are you still there?\n[07:03:49 AM] Karen Perez: Sorry, are you still there?\n[07:06:04 AM] Karen Perez: Please create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n\nPlease also describe the reason of the request for the secure link, and you will receive a respond within the hour.\n[07:06:04 AM] Karen Perez: Please create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n\nPlease also describe the reason of the request for the secure link, and you will receive a respond within the hour.\n[07:07:03 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[07:07:03 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T07:11:43.818Z"
         }
       ],
       "avg_score": 65,
       "grade": "D",
-      "trend": 3
+      "trend": 5
     },
     {
       "id": "5801",
@@ -68206,6 +68251,51 @@
       "raw_transcript": "[06:53:33 AM] t5410025929: Full Name: t5410025929 Email Address: teenasaldana@gmail.com Subject / How can we help you?: Why is my profile not verified yet\n[06:53:33 AM] t5410025929: Full Name: t5410025929 Email Address: teenasaldana@gmail.com Subject / How can we help you?: Why is my profile not verified yet\n[06:54:04 AM] t5410025929: I never got the new verification link to retry verifying my information\n[06:54:04 AM] t5410025929: I never got the new verification link to retry verifying my information\n[06:54:26 AM] Raul Figueroa: Hey! I’m sorry for the delay — I know it’s frustrating waiting for your profile to be verified.\n\nVerification times can vary depending on volume and if any additional review is needed, which can sometimes cause delays.\n\nIf it’s been longer than expected, it may need a manual check. Please reach out to support@jackpotdaily.com\n from your registered email so the team can review your status and help move things forward.\n[06:54:26 AM] Raul Figueroa: Hey! I’m sorry for the delay — I know it’s frustrating waiting for your profile to be verified.\n\nVerification times can vary depending on volume and if any additional review is needed, which can sometimes cause delays.\n\nIf it’s been longer than expected, it may need a manual check. Please reach out to support@jackpotdaily.com\n from your registered email so the team can review your status and help move things forward.\n[06:55:36 AM] t5410025929: The last agent I talked to a few days ago said he was going to send a link to my email I never received it\n[06:55:36 AM] t5410025929: The last agent I talked to a few days ago said he was going to send a link to my email I never received it\n[06:56:24 AM] Raul Figueroa: Create a ticket with the email address that I attached in the last message so they can be able to sent it in the moment they give you a response.\n[06:56:24 AM] Raul Figueroa: Create a ticket with the email address that I attached in the last message so they can be able to sent it in the moment they give you a response.\n[07:03:10 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[07:03:10 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T07:06:46.747Z"
+    },
+    {
+      "chat_id": "2048292902553206784",
+      "agent_name": "Karen Perez",
+      "agent_id": "5846",
+      "timestamp": "2026-04-26T07:07:08.000Z",
+      "categories": {
+        "greeting": {
+          "score": 7,
+          "notes": "Professional greeting with agent name, though didn't use customer's name which was available in the initial message."
+        },
+        "issue_discovery": {
+          "score": 15,
+          "notes": "Agent understood the verification need and asked clarifying questions about technical issues, though could have probed earlier about what specifically wasn't working."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided comprehensive KYC instructions but didn't directly answer the customer's specific question about the secure upload link and left issue partially unresolved."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional with good structure in instructions, but didn't directly address customer's repeated question about finding the upload link."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "Followed proper verification procedures and didn't make unauthorized promises or violate policies."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript appears truncated with no visible closing from the agent."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 60,
+      "grade": "D",
+      "summary": "Agent provided thorough KYC instructions and attempted to troubleshoot technical issues, but failed to directly answer the customer's specific question about where to find the secure upload link. The interaction shows competent support but lacks the follow-through needed to fully resolve the customer's access problem.",
+      "coaching_tip": "When a customer asks a specific question like 'where is the secure upload link,' provide a direct answer first before redirecting them to alternative methods—this builds trust and shows you're listening to their exact need.",
+      "website": "Jackpot Daily",
+      "message_count": 52,
+      "raw_transcript": "[06:47:38 AM] Customer: Full Name: Seneca Cooks Email Address: senecacooks0613@gmail.com Subject / How can we help you?: Verify account\n[06:47:38 AM] Customer: Full Name: Seneca Cooks Email Address: senecacooks0613@gmail.com Subject / How can we help you?: Verify account\n[06:48:10 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[06:48:10 AM] Karen Perez: Hi! \nMy name is Melissa. What can I do for you today?\n[06:48:50 AM] Customer: Verify account documents\n[06:48:50 AM] Customer: Verify account documents\n[06:50:05 AM] Customer: 20260408_233423.jpg\n[06:50:05 AM] Customer: 20260408_233423.jpg\n[06:50:30 AM] Karen Perez: I can help you with that.\n\nTo complete account document verification (KYC), here’s what you need to submit:\n\n1. Proof of Identity (required)\n\nGovernment-issued ID (Driver’s License, Passport, or National ID)\nMust be valid (not expired)\nClear image with all 4 corners visible\n\n2. Selfie verification\n\nA live selfie when prompted by the system\nMake sure your face is clearly visible\n\n3. Proof of Address (only if requested)\n\nUtility bill, bank statement, or official letter\nMust show:\nYour full name\nCurrent address\nDate within last 90 days\n\nHow to submit:\n\nLog in → go to Verification / Redeem section\nFollow the prompts to upload documents\nOr use the secure upload link if the in-app camera fails\n[06:50:30 AM] Karen Perez: I can help you with that.\n\nTo complete account document verification (KYC), here’s what you need to submit:\n\n1. Proof of Identity (required)\n\nGovernment-issued ID (Driver’s License, Passport, or National ID)\nMust be valid (not expired)\nClear image with all 4 corners visible\n\n2. Selfie verification\n\nA live selfie when prompted by the system\nMake sure your face is clearly visible\n\n3. Proof of Address (only if requested)\n\nUtility bill, bank statement, or official letter\nMust show:\nYour full name\nCurrent address\nDate within last 90 days\n\nHow to submit:\n\nLog in → go to Verification / Redeem section\nFollow the prompts to upload documents\nOr use the secure upload link if the in-app camera fails\n[06:50:41 AM] Customer: 20260408_233434.jpg\n[06:50:41 AM] Customer: 20260408_233434.jpg\n[06:51:30 AM] Customer: What is the security upload link\n[06:51:30 AM] Customer: What is the security upload link\n[06:52:28 AM] Karen Perez: You can follow the steps I just sent; that way would be the best way possible, so our system can receive them.\n[06:52:28 AM] Karen Perez: You can follow the steps I just sent; that way would be the best way possible, so our system can receive them.\n[06:52:44 AM] Karen Perez: Did you already try the other way?\n[06:52:44 AM] Karen Perez: Did you already try the other way?\n[06:52:57 AM] Customer: Yes\n[06:52:57 AM] Customer: Yes\n[06:53:20 AM] Customer: Where can I find the link at\n[06:53:20 AM] Customer: Where can I find the link at\n[06:53:38 AM] Karen Perez: Alright, give me a moment to review this.\n[06:53:38 AM] Karen Perez: Alright, give me a moment to review this.\n[06:54:02 AM] Customer: I sent u a picture of ID\n[06:54:02 AM] Customer: I sent u a picture of ID\n[06:55:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[06:55:09 AM] Karen Perez: Bear with me for just a moment while I take a look at your account!\n[06:55:17 AM] Customer: Ok\n[06:55:17 AM] Customer: Ok\n[06:58:13 AM] Karen Perez: Can you tell me what happened when you tried to submit the documents the regular way?\n[06:58:13 AM] Karen Perez: Can you tell me what happened when you tried to submit the documents the regular way?\n[06:58:56 AM] Customer: Blank screen  and  freeze up\n[06:58:56 AM] Customer: Blank screen  and  freeze up\n[06:59:13 AM] Karen Perez: Can you send me a screenshot, please?\n[06:59:13 AM] Karen Perez: Can you send me a screenshot, please?\n[06:59:44 AM] Customer: I got go in app to do it\n[06:59:44 AM] Customer: I got go in app to do it\n[06:59:54 AM] Karen Perez: Yes, please.\n[06:59:54 AM] Karen Perez: Yes, please.\n[07:00:10 AM] Customer: Ok\n[07:00:10 AM] Customer: Ok\n[07:00:50 AM] Karen Perez: I'll be here, take your time.\n[07:00:50 AM] Karen Perez: I'll be here, take your time.\n[07:02:22 AM] Karen Perez: Still here, just let me know.\n[07:02:22 AM] Karen Perez: Still here, just let me know.\n[07:03:49 AM] Karen Perez: Sorry, are you still there?\n[07:03:49 AM] Karen Perez: Sorry, are you still there?\n[07:06:04 AM] Karen Perez: Please create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n\nPlease also describe the reason of the request for the secure link, and you will receive a respond within the hour.\n[07:06:04 AM] Karen Perez: Please create a support ticket by email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\n\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\n\nOnce submitted, our team will review your case and get back to you as soon as possible.\n\nPlease also describe the reason of the request for the secure link, and you will receive a respond within the hour.\n[07:07:03 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[07:07:03 AM] Karen Perez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T07:11:43.818Z"
     }
   ]
 }
