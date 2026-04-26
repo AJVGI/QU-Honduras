@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T08:01:48.592Z",
-  "total_chats": 764,
+  "scored_at": "2026-04-26T08:11:47.982Z",
+  "total_chats": 765,
   "total_agents": 28,
   "agents": [
     {
@@ -28723,6 +28723,465 @@
       "trend": -10
     },
     {
+      "id": "5839",
+      "name": "Ariel Lanza",
+      "chats": [
+        {
+          "chat_id": "2045110283830657024",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T12:17:17.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "compliance": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No agent response present in transcript - customer messages only."
+            }
+          },
+          "auto_fail": {
+            "triggered": true,
+            "reason": "Agent completely failed to respond to customer who waited and provided extensive documentation about a 2-week-old escalated issue."
+          },
+          "total_score": 0,
+          "grade": "F",
+          "summary": "This transcript shows only customer messages with no agent response whatsoever, despite the customer waiting, providing multiple screenshots, and expressing significant frustration about an unresolved referral credit issue spanning two weeks. The complete absence of agent engagement represents a critical service failure.",
+          "coaching_tip": "Ensure agents acknowledge customers immediately upon chat initiation and provide status updates if research time is needed - never leave a customer without any response.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[12:01:02 PM] t3899252970: Full Name: t3899252970 Email Address: manda81874@gmail.com Subject / How can we help you?: I'm looking for an update on my submitted revelation ticket 2 days ago? I was assured as you should see several times I'd get a response to my issue going on 2 weeks now\n[12:04:21 PM] t3899252970: IMG_20260417_070233.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070231.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070228.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070220.jpg\n[12:04:21 PM] t3899252970: Screenshot_20260415-131733.png\n[12:04:22 PM] t3899252970: IMG_20260417_070239.jpg\n[12:04:22 PM] t3899252970: IMG_20260417_070236.jpg\n[12:05:46 PM] t3899252970: Over and over again my referrals have been confirmed and I've been told my situation is being escalated several times and that I will be credited for my missing referrals that were prior to your guys's glitch or breakdown of your referral system over a week ago I've been told to contact support via email which I did 9 days ago with no response. Still to this day and chat support is the only thing I can get to answer and as you can see from my previous history I am consistently being given a runaround absolutely everyday that I contact about it. I will now be filing a report with the gaming console but I will continue to bother you guys every single day about what I am owed and I will not be promoting to your site until my issue is resolved",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:52:54.112Z"
+        },
+        {
+          "chat_id": "2045107204351688704",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:56:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Minimal greeting with only agent name, no warmth or acknowledgment of customer frustration."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Asked about error message but didn't fully explore timeline or what documents were already submitted before providing generic response."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided generic troubleshooting then deflected to email ticket without attempting to check account status or provide specific help."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Copy-pasted long generic response that didn't address customer's specific situation, inconsistent messaging about next steps."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations but escalation process could have been handled more appropriately given customer frustration."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing whatsoever, conversation ended abruptly after customer questioned why agent couldn't help directly."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent provided generic troubleshooting information without investigating the specific account situation, then deflected to email support multiple times despite customer expressing all-day frustration. The interaction lacked personalization, empathy, and proactive problem-solving.",
+          "coaching_tip": "Before providing generic responses or escalating, check the customer's account status and document submission history to provide specific, personalized guidance and show you're actively trying to help.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[11:48:48 AM] t0695532386: Full Name: t0695532386 Email Address: suzannecampbell804@gmail.com Subject / How can we help you?: There's no way it takes this long to verify somebody\n[11:49:18 AM] t0695532386: Ok I just submitted another document with my address on it\n[11:49:32 AM] Ariel Lanza: Hi this Ariel\n[11:49:38 AM] t0695532386: Can we please verify me now\n[11:49:41 AM] t0695532386: Hi\n[11:49:49 AM] Ariel Lanza: Tell me what is the error message youre receiving?\n[11:50:08 AM] t0695532386: Im not verified\n[11:50:36 AM] t0695532386: So I sent another form with my address just now\n[11:51:41 AM] Ariel Lanza: Sorry to hear your verification didn't go through\n— no worries, let's sort it out together!\nThe most common reasons are:\n- Blurry or unclear photos — all text and corners need to be fully readable\n- Mismatched info — name, date of birth, or address must match your account\nexactly\n- Expired or invalid documents — we need a current, government-issued ID\nYou should have also received an email with the specific reason. Once that's clear,\njust resubmit and we'll process it quickly!\nAlso — in some cases our verification system (Socure) may send you a secure link to upload your documents directly. If you get that link, it's completely safe to use. Just\nclick it, follow the steps, and upload your ID and selfie.\nNot sure what to resubmit or having trouble with the link? Let me know and I'll guide\nyou through it!\n[11:52:11 AM] t0695532386: I did resubmit\n[11:52:24 AM] Ariel Lanza: try with a different browser\n[11:52:52 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:52:59 AM] t0695532386: The email asked for a document with my address on it so I just sent that\n[11:53:17 AM] t0695532386: And I just did that exactly\n[11:53:35 AM] Ariel Lanza: how long been since you send it?\n[11:53:59 AM] t0695532386: Before I started this conversation\n[11:54:38 AM] Ariel Lanza: since you just uppload it you need to wait up a 2 hours time frame for the system can update it\n[11:55:06 AM] t0695532386: I've been trying to get verified ALL day\n[11:55:22 AM] Ariel Lanza: please submit a ticket\n[11:55:48 AM] t0695532386: Isn't this why your here to talk to",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:53:33.340Z"
+        },
+        {
+          "chat_id": "2045104476477030400",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:46:27.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting present, jumped directly to apology and instructions without acknowledging customer by name or welcoming them."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the document verification issue but did not ask clarifying questions or confirm understanding of the specific problem."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided a valid escalation path via email with clear instructions, but did not attempt any immediate troubleshooting or check account status first."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Instructions were clear and structured, but the opening apology fragment appears incomplete and communication lacked warmth or empathy."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately directed customer to proper escalation channel without making unauthorized promises."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "No closing statement, farewell, or offer of further assistance provided after giving instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 58,
+          "grade": "F",
+          "summary": "Agent provided valid escalation instructions for a document verification issue but failed to include a proper greeting or closing. Communication was functional but lacked warmth and the agent missed an opportunity to check the account or provide immediate assistance.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name and close by confirming understanding and offering further help before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 4,
+          "raw_transcript": "[11:37:58 AM] Customer: Full Name: Sidiq-Ibrahim Ishmail Sesay Email Address: sdqybrm@gmail.com Subject / How can we help you?: My phone number is fine it's the last section the identity verification it asked for proof of address. I sent the wrong file and it's stuck on that status for review\n[11:38:22 AM] Customer: Screenshot_20260417-073731.png\n[11:38:41 AM] Customer: The screen I run into\n[11:38:56 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:54:04.059Z"
+        },
+        {
+          "chat_id": "2045101415343947776",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:37:58.000Z",
+          "categories": {
+            "greeting": {
+              "score": 6,
+              "notes": "Basic greeting with name but minimal warmth and contained a typo ('apologyze')."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the location verification issue and requested a screenshot for proper diagnosis."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided reasonable troubleshooting steps (different browser/device) but closed chat before customer could respond to solution."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional but had spelling errors and closed chat prematurely after only 6 minutes."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Closed abruptly due to no response after only 6 minutes without proper closing or escalation offer."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 60,
+          "grade": "D",
+          "summary": "Agent correctly identified the issue and provided reasonable troubleshooting steps but closed the chat too quickly (6 minutes) before allowing adequate time for the customer to test the solution. Communication was functional but contained spelling errors and lacked patience.",
+          "coaching_tip": "Wait at least 10-15 minutes before closing due to inactivity, especially after providing troubleshooting steps that require the customer to take action and test solutions.",
+          "website": "Jackpot Daily",
+          "message_count": 9,
+          "raw_transcript": "[11:25:48 AM] Customer: Full Name: James Oliver Email Address: oliver21221@gmail.com Subject / How can we help you?: My location is on but it’s telling me it’s not and won’t let me sign up.\n[11:26:29 AM] Ariel Lanza: Hi this is Ariel.\nI do apologyze for the inconvenience\n[11:26:38 AM] Ariel Lanza: can you please send me a screenshot\n[11:27:30 AM] Customer: IMG_1725.png\n[11:28:07 AM] Ariel Lanza: thanks for the picture!\n[11:28:29 AM] Ariel Lanza: lets try something.\nplease try with a different browser\n[11:28:51 AM] Ariel Lanza: or a different device\n[11:33:42 AM] Ariel Lanza: are you still with me?\n[11:35:11 AM] Ariel Lanza: I will have to close this chat due to no response\nThanks for reaching",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:54:46.858Z"
+        },
+        {
+          "chat_id": "2045096201979265024",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-17T11:23:31.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all, agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent failed to properly understand the customer's issue about a returned deposit and provided irrelevant withdrawal information instead."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Agent gave contradictory advice (wait 2 hours, check different browser, submit ticket) without addressing the core issue of where the returned money went."
+            },
+            "communication": {
+              "score": 9,
+              "notes": "Multiple typos ('houras', incomplete sentence '-do apologize'), unclear instructions, and disjointed responses that confused rather than clarified."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No major violations but the handling was substandard and the escalation process was appropriate though delayed."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Offered further help but did so prematurely without resolving or properly addressing the customer's concern about their missing funds."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 43,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's issue about a returned deposit and provided irrelevant withdrawal information. Communication was poor with typos and contradictory instructions that failed to address where the customer's money went.",
+          "coaching_tip": "Read the customer's issue carefully before responding - this was about a returned deposit, not a withdrawal request, and required account investigation not generic withdrawal templates.",
+          "website": "Jackpot Daily",
+          "message_count": 11,
+          "raw_transcript": "[11:05:05 AM] t5210780353: Full Name: t5210780353 Email Address: catd71955@gmail.com Subject / How can we help you?: I just checked my email and the direct deposit to my account was tried to be applied, but the bank sent the hundred dollars back to where it came from but it’s not on my account on the game either so where is my money?\n[11:05:52 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[11:07:43 AM] Ariel Lanza: OPTIONS TO REDEEM, WITH THE CARD WE ARE HAVING ISSUES\nSounds like you're ready to cash out!\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this issue as soon as possible.\nIn the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nYou'll need at least 100 Sweepstakes Coins that have been played through\nIf you have any questions during the process, I'm right here to help!\n[11:10:24 AM] t5210780353: IMG_0011.png\n[11:10:35 AM] t5210780353: They sent the money back\n[11:11:13 AM] Ariel Lanza: lets wait up to 2 houras to be update and be posted on the account again\n[11:11:54 AM] Ariel Lanza: -do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:12:27 AM] t5210780353: The transaction was at 1 am\n[11:14:25 AM] Ariel Lanza: try to check on a different browser\n[11:14:38 AM] Ariel Lanza: in case you cant see it please submit a ticket\n[11:18:46 AM] Ariel Lanza: is there anything else I can assist you with?",
+          "model_used": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-23T09:55:18.464Z"
+        },
+        {
+          "chat_id": "2048268924136669184",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T05:30:59.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Professional greeting with clear introduction of role and services offered."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Understood the purchase tracking issue and requested email and screenshot for clarification."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear explanation about system delay and one-hour processing time, which directly addresses the discrepancy concern."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and professional throughout with appropriate hold messages, though slightly repetitive with multiple 'bear with me' statements."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations and provided accurate system information without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance appropriately before closing the interaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent handled the purchase tracking inquiry competently by investigating the account and explaining the processing delay between payment processor and game server. Communication was professional and the resolution was appropriate for the technical issue presented.",
+          "coaching_tip": "Vary your hold language to avoid repetition—you used 'Bear with me for just a moment while I take a look at your account' three times in the same conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 46,
+          "raw_transcript": "[05:12:21 AM] t5355164300: Full Name: t5355164300 Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[05:12:21 AM] t5355164300: Full Name: t5355164300 Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[05:12:42 AM] t5355164300: Hi Andrew\n[05:12:42 AM] t5355164300: Hi Andrew\n[05:12:48 AM] Ariel Lanza: Hello, I’m andrew. Thank you for reaching out to our support team.\n\nI am here to provide professional assistance with your account inquiries, prize redemptions, or any questions regarding our daily draws.\n\nHow may I assist you today?\n[05:12:48 AM] Ariel Lanza: Hello, I’m andrew. Thank you for reaching out to our support team.\n\nI am here to provide professional assistance with your account inquiries, prize redemptions, or any questions regarding our daily draws.\n\nHow may I assist you today?\n[05:13:02 AM] t5355164300: So im new to the platform as I signed up\n[05:13:02 AM] t5355164300: So im new to the platform as I signed up\n[05:14:10 AM] t5355164300: I made 2 purchases for 9.99 so far but in the reward for this cahs voucher its saying I only made 1 purchase so far\n[05:14:10 AM] t5355164300: I made 2 purchases for 9.99 so far but in the reward for this cahs voucher its saying I only made 1 purchase so far\n[05:14:36 AM] Ariel Lanza: can you please provide me your email\n[05:14:36 AM] Ariel Lanza: can you please provide me your email\n[05:14:40 AM] t5355164300: Markceryak@gmail.com\n[05:14:40 AM] t5355164300: Markceryak@gmail.com\n[05:14:48 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:14:48 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:14:52 AM] t5355164300: Thank you for the swift response and assistance on this\n[05:14:52 AM] t5355164300: Thank you for the swift response and assistance on this\n[05:16:17 AM] t5355164300: Take your time I appreciate the support\n[05:16:17 AM] t5355164300: Take your time I appreciate the support\n[05:16:50 AM] Ariel Lanza: Thanks, pleaseBear with me for just a moment while I take a look at your account!\n[05:16:50 AM] Ariel Lanza: Thanks, pleaseBear with me for just a moment while I take a look at your account!\n[05:18:01 AM] Ariel Lanza: can you please send me a screenshot\n[05:18:01 AM] Ariel Lanza: can you please send me a screenshot\n[05:18:54 AM] t5355164300: It wont allow me to send the screenshot or photos on here\n[05:18:54 AM] t5355164300: It wont allow me to send the screenshot or photos on here\n[05:19:44 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:19:44 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:19:51 AM] t5355164300: Thanks man\n[05:19:51 AM] t5355164300: Thanks man\n[05:24:26 AM] Ariel Lanza: Thanks for reaching out about your recent purchase.\n\nBear with me for just a moment while I take a look at your account! I have some good news—I can actually see that your deposit is visible in our system and has been successfully received on our end.\n\nHowever, sometimes there is a slight delay between our payment processor and the game server. To ensure your balance is updated correctly and all your coins are ready to use, we usually need about one hour for the system to fully reflect the update on your screen.\n[05:24:26 AM] Ariel Lanza: Thanks for reaching out about your recent purchase.\n\nBear with me for just a moment while I take a look at your account! I have some good news—I can actually see that your deposit is visible in our system and has been successfully received on our end.\n\nHowever, sometimes there is a slight delay between our payment processor and the game server. To ensure your balance is updated correctly and all your coins are ready to use, we usually need about one hour for the system to fully reflect the update on your screen.\n[05:24:44 AM] t5355164300: Okay\n[05:24:44 AM] t5355164300: Okay\n[05:25:11 AM] Ariel Lanza: Glad we got that sorted  Is there anything else I can help you with today?\n[05:25:11 AM] Ariel Lanza: Glad we got that sorted  Is there anything else I can help you with today?\n[05:25:48 AM] t5355164300: In the meantime time I know im new to the platform and have only spent $20 but are any player bonuses or rewards available you can send my way until my account is credited with thst purchase so I can unlock that bonus?\n[05:25:48 AM] t5355164300: In the meantime time I know im new to the platform and have only spent $20 but are any player bonuses or rewards available you can send my way until my account is credited with thst purchase so I can unlock that bonus?\n[05:27:21 AM] Ariel Lanza: about your bonuses.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your history, and I can confirm that you have already claimed your Welcome Bonus and smashed your Golden Egg.\n\nSince the Welcome Bonus and the Golden Egg are one-time gifts for joining us, they won't appear again—but that doesn't mean the rewards have to stop!\n\nHere is how you can keep the bonuses coming:\n\nDaily Login Rewards: This is your most reliable source for extra coins! Every 24 hours, you can claim your daily bonus in the lobby. If you log in every day, you’ll receive 1 Sweepstakes Coin (SC) and 200 Gold Coins (GC).\n\nMail-In Sweeps: Did you know you can receive 5 SC just by sending us a handwritten request? Check out our Sweeps Rules at the bottom of the website for the exact instructions on how to mail those in.\n\nSocial Media Giveaways: We love to run contests! Follow us on Facebook and Instagram—we frequently post \"Share & Win\" or trivia contests where we give away SC and GC to lucky winners.\n\nEmail Promotions: Keep a close eye on your inbox! We often send out exclusive \"Purchase Matches\" or \"Surprise Bonuses\" directly to our active players.\n\nI want to make sure you’re getting every coin possible! Have you already claimed your daily reward for today, or should I help you find where that button is located?\n[05:27:21 AM] Ariel Lanza: about your bonuses.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your history, and I can confirm that you have already claimed your Welcome Bonus and smashed your Golden Egg.\n\nSince the Welcome Bonus and the Golden Egg are one-time gifts for joining us, they won't appear again—but that doesn't mean the rewards have to stop!\n\nHere is how you can keep the bonuses coming:\n\nDaily Login Rewards: This is your most reliable source for extra coins! Every 24 hours, you can claim your daily bonus in the lobby. If you log in every day, you’ll receive 1 Sweepstakes Coin (SC) and 200 Gold Coins (GC).\n\nMail-In Sweeps: Did you know you can receive 5 SC just by sending us a handwritten request? Check out our Sweeps Rules at the bottom of the website for the exact instructions on how to mail those in.\n\nSocial Media Giveaways: We love to run contests! Follow us on Facebook and Instagram—we frequently post \"Share & Win\" or trivia contests where we give away SC and GC to lucky winners.\n\nEmail Promotions: Keep a close eye on your inbox! We often send out exclusive \"Purchase Matches\" or \"Surprise Bonuses\" directly to our active players.\n\nI want to make sure you’re getting every coin possible! Have you already claimed your daily reward for today, or should I help you find where that button is located?\n[05:29:04 AM] t5355164300: It says I did. I appreciate the assistance today..I'll be sure to do a trustpilot.com survey and note how helpful you have been. The live chat services here are incredible\n[05:29:04 AM] t5355164300: It says I did. I appreciate the assistance today..I'll be sure to do a trustpilot.com survey and note how helpful you have been. The live chat services here are incredible\n[05:30:18 AM] t5355164300: Ill just wait for the cash voucher to be available so I can use that\n[05:30:18 AM] t5355164300: Ill just wait for the cash voucher to be available so I can use that\n[05:30:40 AM] Ariel Lanza: Thank you so much for your kind words—it has been an absolute pleasure assisting you today. We truly appreciate you being a part of our community and for your patience as we got everything sorted out.\n[05:30:40 AM] Ariel Lanza: Thank you so much for your kind words—it has been an absolute pleasure assisting you today. We truly appreciate you being a part of our community and for your patience as we got everything sorted out.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:31:44.813Z"
+        },
+        {
+          "chat_id": "2048273888315797504",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T05:49:19.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all, agent jumped directly into 'one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent failed to address the actual question about why balances differ and instead assumed customer wanted redemption instructions."
+            },
+            "resolution": {
+              "score": 10,
+              "notes": "Completely missed the customer's question about the difference between total and redeemable balance, providing irrelevant redemption instructions instead."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Communication was clear and well-formatted, but entirely off-topic from what was asked."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, provided accurate account balance and standard redemption procedures."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Professional closing with offer for further assistance and well-wishes, though customer never got their question answered."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent completely misunderstood the customer's question about why sweep coin balance differs from redeemable balance, instead providing unsolicited redemption instructions. The customer asked a specific technical question that was never addressed or acknowledged.",
+          "coaching_tip": "Always read the customer's question carefully and address what they actually asked before offering additional information—this customer wanted to understand a balance discrepancy, not learn how to redeem.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[05:32:04 AM] Customer: Full Name: t9745516744 Email Address: sallyeherron76@gmail.com Subject / How can we help you?: Why does my sweep coin balance differ from my redeemable sweep coin balance\n[05:32:04 AM] Customer: Full Name: t9745516744 Email Address: sallyeherron76@gmail.com Subject / How can we help you?: Why does my sweep coin balance differ from my redeemable sweep coin balance\n[05:32:43 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:32:43 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:34:14 AM] Ariel Lanza: Thanks for your patience while I looked into this for you.\n\nI have some great news! I’ve just finished checking your account on my end, and I can confirm that your current balance is 321.27 Sweepstakes Coins (SC).\n\nSince your balance is well above the minimum requirement, you are all set to start a redemption! Here is exactly how to do it:\n\nHow to Redeem Your Winnings\nLog in to your account at www.jackpotdaily.com.\n\nOpen the Menu: Click on the \"Redeem\" tab on the left-hand sidebar.\n\nChoose Your Method: Select how you'd like to receive your funds (Bank Transfer, Debit Card, or Skrill).\n\nEnter the Amount: Input the amount you wish to redeem from your 321.27 SC balance.\n\nConfirm: Review the details and submit your request!\n\nWhat to Expect Next\nReview Period: Our team will perform a quick security check on the request.\n\nDelivery Time: * Debit Card & Skrill: Usually arrives within 1–3 business days.\n\nBank Transfer: Can take up to 10 business days depending on your bank's processing speed.\n[05:34:14 AM] Ariel Lanza: Thanks for your patience while I looked into this for you.\n\nI have some great news! I’ve just finished checking your account on my end, and I can confirm that your current balance is 321.27 Sweepstakes Coins (SC).\n\nSince your balance is well above the minimum requirement, you are all set to start a redemption! Here is exactly how to do it:\n\nHow to Redeem Your Winnings\nLog in to your account at www.jackpotdaily.com.\n\nOpen the Menu: Click on the \"Redeem\" tab on the left-hand sidebar.\n\nChoose Your Method: Select how you'd like to receive your funds (Bank Transfer, Debit Card, or Skrill).\n\nEnter the Amount: Input the amount you wish to redeem from your 321.27 SC balance.\n\nConfirm: Review the details and submit your request!\n\nWhat to Expect Next\nReview Period: Our team will perform a quick security check on the request.\n\nDelivery Time: * Debit Card & Skrill: Usually arrives within 1–3 business days.\n\nBank Transfer: Can take up to 10 business days depending on your bank's processing speed.\n[05:36:50 AM] Ariel Lanza: Are you still with me?\n[05:36:50 AM] Ariel Lanza: Are you still with me?\n[05:39:18 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n\nI hope you have a fantastic rest of your day and the best of luck on the reels!\n\nIs there anything else I can quickly help you with before I head out?\n[05:39:18 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n\nI hope you have a fantastic rest of your day and the best of luck on the reels!\n\nIs there anything else I can quickly help you with before I head out?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T05:51:52.810Z"
+        },
+        {
+          "chat_id": "2048275753388568576",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T06:03:46.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 13,
+              "notes": "Agent understood the customer's frustration about low reward amounts but didn't ask clarifying questions about what the customer expected or experienced."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Agent provided explanations but gave contradictory information (first explaining the 32 cents breakdown, then suggesting it's a sync delay), leaving the customer's core question unanswered."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent was empathetic and professional but overly verbose and ultimately confusing with conflicting explanations about the issue."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, though the vague technical explanations about system sync could be misleading if inaccurate."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "Chat appears incomplete with no proper closing, farewell, or confirmation that the issue was resolved; customer left waiting after troubleshooting suggestion."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent showed empathy but failed to provide a clear, consistent resolution to the customer's concern about receiving only 32 cents in combined rewards. The explanation shifted from breaking down the reward calculation to blaming a sync delay, then suggesting browser troubleshooting without confirming the actual issue or following up.",
+          "coaching_tip": "Provide one clear, consistent explanation rather than multiple conflicting theories, and always close the loop by confirming whether the issue is resolved or what the next steps are before ending the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:46:11 AM] t9595345601: ??\n[05:46:11 AM] t9595345601: ??\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:40 AM] t9595345601: good sunday\n[05:47:40 AM] t9595345601: good sunday\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T06:06:45.352Z"
+        },
+        {
+          "chat_id": "2048302558543130624",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T07:32:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 7,
+              "notes": "Professional greeting with acknowledgment, though the personalization token failed to populate the customer's name."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the redemption inquiry and proactively offered to check the customer's specific balance and eligibility status."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Comprehensive explanation of all redemption requirements, thresholds, timelines, and verification steps with offer to check specific account status."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Clear and well-structured information with helpful formatting, though slightly lengthy; minor follow-up about ACH-only was appropriately added."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "Followed policy correctly by explaining verification, playthrough requirements, and redemption thresholds without unauthorized promises."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript appears truncated with no visible closing from the agent after customer's final response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 71,
+          "grade": "C",
+          "summary": "Agent provided thorough, accurate information about redemption requirements and proactively offered to check the customer's specific eligibility. The response was comprehensive and professional, though the transcript cuts off before showing how the interaction concluded.",
+          "coaching_tip": "Break up lengthy explanations into smaller chunks and wait for customer acknowledgment between sections to ensure better engagement and comprehension.",
+          "website": "Jackpot Daily",
+          "message_count": 22,
+          "raw_transcript": "[07:26:00 AM] t3459056726: Full Name: t3459056726 Email Address: geraldineshaw2016@gmail.com Subject / How can we help you?: Hi,When can I redeeem my money\n[07:26:00 AM] t3459056726: Full Name: t3459056726 Email Address: geraldineshaw2016@gmail.com Subject / How can we help you?: Hi,When can I redeeem my money\n[07:26:27 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[07:26:27 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[07:26:34 AM] t3459056726: Ok\n[07:26:34 AM] t3459056726: Ok\n[07:27:10 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out. I know that’s the most exciting part of playing, and I’d be happy to explain exactly when you can get those winnings into your hands!\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and you can redeem your Sweepstakes Coins (SC) as soon as you meet these three standard requirements:\n\n1. Complete Your Verification\nTo keep your funds secure, you must complete the KYC (identity) verification via the \"Redeem\" tab. This involves a quick photo of your ID and a selfie. If you haven't done this yet, it's the first thing you'll need to check off!\n\n2. Reach the Minimum Threshold\nYou can request a redemption once you hit the minimum amount of Redeemable SC:\n\nGift Cards: Minimum of 50 SC.\n\nBank Transfers/Skrill/Debit Card: Minimum of 100 SC.\n\n3. Meet the Playthrough Requirement\nAny SC you receive (from bonuses or purchases) must be played through at least one time on any of our games. Once you’ve played them, those coins move into your \"Redeemable\" balance.\n\nHow to Check Your Progress:\nYou don't have to guess! You can see exactly how close you are by going to the \"Redeem\" tab in your menu. It will show you your current Redeemable Balance. If that balance is over 50 (for gift cards) or 100 (for cash), you can hit that redeem button right now!\n\nOnce you hit \"Redeem,\" here is the timeline:\n\nDebit Card & Skrill: 1–3 business days.\n\nBank Transfer: Up to 10 business days.\n\nI'm checking your redeemable balance right now—would you like me to see how close you are to that minimum limit?\n[07:27:10 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out. I know that’s the most exciting part of playing, and I’d be happy to explain exactly when you can get those winnings into your hands!\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and you can redeem your Sweepstakes Coins (SC) as soon as you meet these three standard requirements:\n\n1. Complete Your Verification\nTo keep your funds secure, you must complete the KYC (identity) verification via the \"Redeem\" tab. This involves a quick photo of your ID and a selfie. If you haven't done this yet, it's the first thing you'll need to check off!\n\n2. Reach the Minimum Threshold\nYou can request a redemption once you hit the minimum amount of Redeemable SC:\n\nGift Cards: Minimum of 50 SC.\n\nBank Transfers/Skrill/Debit Card: Minimum of 100 SC.\n\n3. Meet the Playthrough Requirement\nAny SC you receive (from bonuses or purchases) must be played through at least one time on any of our games. Once you’ve played them, those coins move into your \"Redeemable\" balance.\n\nHow to Check Your Progress:\nYou don't have to guess! You can see exactly how close you are by going to the \"Redeem\" tab in your menu. It will show you your current Redeemable Balance. If that balance is over 50 (for gift cards) or 100 (for cash), you can hit that redeem button right now!\n\nOnce you hit \"Redeem,\" here is the timeline:\n\nDebit Card & Skrill: 1–3 business days.\n\nBank Transfer: Up to 10 business days.\n\nI'm checking your redeemable balance right now—would you like me to see how close you are to that minimum limit?\n[07:27:35 AM] Ariel Lanza: keep in mind only ach redemtion is available\n[07:27:35 AM] Ariel Lanza: keep in mind only ach redemtion is available\n[07:28:52 AM] t3459056726: Ok & yes\n[07:28:52 AM] t3459056726: Ok & yes\n[07:29:32 AM] t3459056726: Ive already verified my account\n[07:29:32 AM] t3459056726: Ive already verified my account\n[07:30:07 AM] Ariel Lanza: That is great to hear! Since you’ve already completed the verification steps, you have cleared the biggest hurdle to getting your winnings.\n\nBear with me for just a moment while I take a look at your account! I’ve checked our system to see why the redemption options might not be appearing for you yet.\n\nEven with a verified account, there are usually two common reasons why the \"Redeem\" button might still be locked:\n\n1. The \"Magic\" Refresh\nSometimes, even after your ID is approved, your browser \"remembers\" your old unverified status.\n\nPlease log out and log back in. This forces the site to update and should reveal your new verified status and the redemption menu.\n\n2. Minimum Redeemable Balance\nTo see the redemption options, you must have enough Redeemable Sweepstakes Coins (SC) in your balance.\n\nGift Cards: You need a minimum of 50 SC.\n\nBank/Cash Redemptions: You need a minimum of 100 SC.\n\nQuick Check: Remember that only coins you have played through at least once move into your \"Redeemable\" balance. If you just received a bonus or made a purchase, you’ll need to take those coins for a spin on your favorite games first!\n\nI’m looking at your redeemable balance right now—would you like me to check exactly how many more coins you need to clear before you can hit that \"Redeem\" button?\n[07:30:07 AM] Ariel Lanza: That is great to hear! Since you’ve already completed the verification steps, you have cleared the biggest hurdle to getting your winnings.\n\nBear with me for just a moment while I take a look at your account! I’ve checked our system to see why the redemption options might not be appearing for you yet.\n\nEven with a verified account, there are usually two common reasons why the \"Redeem\" button might still be locked:\n\n1. The \"Magic\" Refresh\nSometimes, even after your ID is approved, your browser \"remembers\" your old unverified status.\n\nPlease log out and log back in. This forces the site to update and should reveal your new verified status and the redemption menu.\n\n2. Minimum Redeemable Balance\nTo see the redemption options, you must have enough Redeemable Sweepstakes Coins (SC) in your balance.\n\nGift Cards: You need a minimum of 50 SC.\n\nBank/Cash Redemptions: You need a minimum of 100 SC.\n\nQuick Check: Remember that only coins you have played through at least once move into your \"Redeemable\" balance. If you just received a bonus or made a purchase, you’ll need to take those coins for a spin on your favorite games first!\n\nI’m looking at your redeemable balance right now—would you like me to check exactly how many more coins you need to clear before you can hit that \"Redeem\" button?\n[07:31:33 AM] t3459056726: Ok\n[07:31:33 AM] t3459056726: Ok\n[07:31:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[07:31:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[07:32:11 AM] t3459056726: No thanks\n[07:32:11 AM] t3459056726: No thanks",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T07:36:44.797Z"
+        },
+        {
+          "chat_id": "2048311208662364160",
+          "agent_name": "Ariel Lanza",
+          "agent_id": "5839",
+          "timestamp": "2026-04-26T08:09:52.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No greeting for nearly 3 minutes after customer asked 'hello anyone there', then failed to personalize (template variable {{ticket.requester.first_name}} not replaced)."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent correctly identified the issue (missing KYC verification blocking welcome bonus) and investigated the account status."
+            },
+            "resolution": {
+              "score": 24,
+              "notes": "Provided comprehensive step-by-step instructions for KYC verification with clear explanation of what happens next and helpful troubleshooting tip."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Information was thorough and well-structured, but the unrendered template variable and long wait time detract from overall communication quality."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately explained KYC requirements and set realistic expectations about approval timeframes."
+            },
+            "closing": {
+              "score": 6,
+              "notes": "Offered further assistance but assumed issue was resolved without customer confirmation, and closing felt slightly premature."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 73,
+          "grade": "C",
+          "summary": "Agent provided detailed and accurate resolution steps for KYC verification to unlock the welcome bonus. However, the 3-minute initial response delay and failure to render the customer's name from the template variable significantly impacted the customer experience.",
+          "coaching_tip": "Always verify that template variables render correctly before sending messages, and acknowledge customers promptly even if you need time to investigate—a quick 'I'm with you, one moment' within the first minute prevents customer frustration.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[08:00:22 AM] Customer: Full Name: willy nash Email Address: willygma6@gmail.com Subject / How can we help you?: i have filled out everything do i get any welcome bonus\n[08:00:22 AM] Customer: Full Name: willy nash Email Address: willygma6@gmail.com Subject / How can we help you?: i have filled out everything do i get any welcome bonus\n[08:02:54 AM] Customer: hello anyone there\n[08:02:54 AM] Customer: hello anyone there\n[08:05:20 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[08:05:20 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[08:06:41 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out about your welcome rewards.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and I can see why your bonus hasn't landed yet. To unlock the full Welcome Bonus and your Golden Egg, your account needs to be KYC verified.\n\nWe do this to ensure every player is of legal age and to keep your future winnings secure. The good news? It only takes a minute!\n\nHere are the steps to verify right now:\n\nLog in to your account at www.jackpotdaily.com.\n\nGo to the \"Redeem\" tab: You’ll find this in the menu on the left-hand side.\n\nStart Verification: Click the button to begin the process via our secure partner, Socure.\n\nSubmit Your ID: Take a clear photo of the front and back of your valid government-issued ID (Driver’s License, State ID, or Passport).\n\nSelfie Check: Complete the quick \"liveness\" scan by following the on-screen prompts.\n\nWhat happens next?\nUnlock the Bonus: As soon as you get the \"Verified\" checkmark, your Golden Egg will appear in the lobby. Smash it to reveal your reward—you can win up to 100 SC!\n\nApproval Time: Most players are verified instantly, though some manual reviews can take up to 24 hours.\n\nQuick Tip: If you're on a computer and having trouble with the camera, try switching to your phone. The mobile process is super smooth for taking photos of your ID.\n\nI’m keeping an eye on your status! Is there anything else I can help you with while you get those documents ready?\n[08:06:41 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out about your welcome rewards.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and I can see why your bonus hasn't landed yet. To unlock the full Welcome Bonus and your Golden Egg, your account needs to be KYC verified.\n\nWe do this to ensure every player is of legal age and to keep your future winnings secure. The good news? It only takes a minute!\n\nHere are the steps to verify right now:\n\nLog in to your account at www.jackpotdaily.com.\n\nGo to the \"Redeem\" tab: You’ll find this in the menu on the left-hand side.\n\nStart Verification: Click the button to begin the process via our secure partner, Socure.\n\nSubmit Your ID: Take a clear photo of the front and back of your valid government-issued ID (Driver’s License, State ID, or Passport).\n\nSelfie Check: Complete the quick \"liveness\" scan by following the on-screen prompts.\n\nWhat happens next?\nUnlock the Bonus: As soon as you get the \"Verified\" checkmark, your Golden Egg will appear in the lobby. Smash it to reveal your reward—you can win up to 100 SC!\n\nApproval Time: Most players are verified instantly, though some manual reviews can take up to 24 hours.\n\nQuick Tip: If you're on a computer and having trouble with the camera, try switching to your phone. The mobile process is super smooth for taking photos of your ID.\n\nI’m keeping an eye on your status! Is there anything else I can help you with while you get those documents ready?\n[08:10:32 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[08:10:32 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T08:11:47.481Z"
+        }
+      ],
+      "avg_score": 53,
+      "grade": "F",
+      "trend": 21
+    },
+    {
       "id": "5840",
       "name": "Ludovicode Flores",
       "chats": [
@@ -32393,420 +32852,6 @@
       "avg_score": 52,
       "grade": "F",
       "trend": -1
-    },
-    {
-      "id": "5839",
-      "name": "Ariel Lanza",
-      "chats": [
-        {
-          "chat_id": "2045110283830657024",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T12:17:17.000Z",
-          "categories": {
-            "greeting": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "issue_discovery": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "resolution": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "communication": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "compliance": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "No agent response present in transcript - customer messages only."
-            }
-          },
-          "auto_fail": {
-            "triggered": true,
-            "reason": "Agent completely failed to respond to customer who waited and provided extensive documentation about a 2-week-old escalated issue."
-          },
-          "total_score": 0,
-          "grade": "F",
-          "summary": "This transcript shows only customer messages with no agent response whatsoever, despite the customer waiting, providing multiple screenshots, and expressing significant frustration about an unresolved referral credit issue spanning two weeks. The complete absence of agent engagement represents a critical service failure.",
-          "coaching_tip": "Ensure agents acknowledge customers immediately upon chat initiation and provide status updates if research time is needed - never leave a customer without any response.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[12:01:02 PM] t3899252970: Full Name: t3899252970 Email Address: manda81874@gmail.com Subject / How can we help you?: I'm looking for an update on my submitted revelation ticket 2 days ago? I was assured as you should see several times I'd get a response to my issue going on 2 weeks now\n[12:04:21 PM] t3899252970: IMG_20260417_070233.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070231.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070228.jpg\n[12:04:21 PM] t3899252970: IMG_20260417_070220.jpg\n[12:04:21 PM] t3899252970: Screenshot_20260415-131733.png\n[12:04:22 PM] t3899252970: IMG_20260417_070239.jpg\n[12:04:22 PM] t3899252970: IMG_20260417_070236.jpg\n[12:05:46 PM] t3899252970: Over and over again my referrals have been confirmed and I've been told my situation is being escalated several times and that I will be credited for my missing referrals that were prior to your guys's glitch or breakdown of your referral system over a week ago I've been told to contact support via email which I did 9 days ago with no response. Still to this day and chat support is the only thing I can get to answer and as you can see from my previous history I am consistently being given a runaround absolutely everyday that I contact about it. I will now be filing a report with the gaming console but I will continue to bother you guys every single day about what I am owed and I will not be promoting to your site until my issue is resolved",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:52:54.112Z"
-        },
-        {
-          "chat_id": "2045107204351688704",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:56:30.000Z",
-          "categories": {
-            "greeting": {
-              "score": 5,
-              "notes": "Minimal greeting with only agent name, no warmth or acknowledgment of customer frustration."
-            },
-            "issue_discovery": {
-              "score": 11,
-              "notes": "Asked about error message but didn't fully explore timeline or what documents were already submitted before providing generic response."
-            },
-            "resolution": {
-              "score": 14,
-              "notes": "Provided generic troubleshooting then deflected to email ticket without attempting to check account status or provide specific help."
-            },
-            "communication": {
-              "score": 10,
-              "notes": "Copy-pasted long generic response that didn't address customer's specific situation, inconsistent messaging about next steps."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations but escalation process could have been handled more appropriately given customer frustration."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "No closing whatsoever, conversation ended abruptly after customer questioned why agent couldn't help directly."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent provided generic troubleshooting information without investigating the specific account situation, then deflected to email support multiple times despite customer expressing all-day frustration. The interaction lacked personalization, empathy, and proactive problem-solving.",
-          "coaching_tip": "Before providing generic responses or escalating, check the customer's account status and document submission history to provide specific, personalized guidance and show you're actively trying to help.",
-          "website": "Jackpot Daily",
-          "message_count": 20,
-          "raw_transcript": "[11:48:48 AM] t0695532386: Full Name: t0695532386 Email Address: suzannecampbell804@gmail.com Subject / How can we help you?: There's no way it takes this long to verify somebody\n[11:49:18 AM] t0695532386: Ok I just submitted another document with my address on it\n[11:49:32 AM] Ariel Lanza: Hi this Ariel\n[11:49:38 AM] t0695532386: Can we please verify me now\n[11:49:41 AM] t0695532386: Hi\n[11:49:49 AM] Ariel Lanza: Tell me what is the error message youre receiving?\n[11:50:08 AM] t0695532386: Im not verified\n[11:50:36 AM] t0695532386: So I sent another form with my address just now\n[11:51:41 AM] Ariel Lanza: Sorry to hear your verification didn't go through\n— no worries, let's sort it out together!\nThe most common reasons are:\n- Blurry or unclear photos — all text and corners need to be fully readable\n- Mismatched info — name, date of birth, or address must match your account\nexactly\n- Expired or invalid documents — we need a current, government-issued ID\nYou should have also received an email with the specific reason. Once that's clear,\njust resubmit and we'll process it quickly!\nAlso — in some cases our verification system (Socure) may send you a secure link to upload your documents directly. If you get that link, it's completely safe to use. Just\nclick it, follow the steps, and upload your ID and selfie.\nNot sure what to resubmit or having trouble with the link? Let me know and I'll guide\nyou through it!\n[11:52:11 AM] t0695532386: I did resubmit\n[11:52:24 AM] Ariel Lanza: try with a different browser\n[11:52:52 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:52:59 AM] t0695532386: The email asked for a document with my address on it so I just sent that\n[11:53:17 AM] t0695532386: And I just did that exactly\n[11:53:35 AM] Ariel Lanza: how long been since you send it?\n[11:53:59 AM] t0695532386: Before I started this conversation\n[11:54:38 AM] Ariel Lanza: since you just uppload it you need to wait up a 2 hours time frame for the system can update it\n[11:55:06 AM] t0695532386: I've been trying to get verified ALL day\n[11:55:22 AM] Ariel Lanza: please submit a ticket\n[11:55:48 AM] t0695532386: Isn't this why your here to talk to",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:53:33.340Z"
-        },
-        {
-          "chat_id": "2045104476477030400",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:46:27.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting present, jumped directly to apology and instructions without acknowledging customer by name or welcoming them."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the document verification issue but did not ask clarifying questions or confirm understanding of the specific problem."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided a valid escalation path via email with clear instructions, but did not attempt any immediate troubleshooting or check account status first."
-            },
-            "communication": {
-              "score": 14,
-              "notes": "Instructions were clear and structured, but the opening apology fragment appears incomplete and communication lacked warmth or empathy."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations; appropriately directed customer to proper escalation channel without making unauthorized promises."
-            },
-            "closing": {
-              "score": 4,
-              "notes": "No closing statement, farewell, or offer of further assistance provided after giving instructions."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 58,
-          "grade": "F",
-          "summary": "Agent provided valid escalation instructions for a document verification issue but failed to include a proper greeting or closing. Communication was functional but lacked warmth and the agent missed an opportunity to check the account or provide immediate assistance.",
-          "coaching_tip": "Always open with a proper greeting using the customer's name and close by confirming understanding and offering further help before ending the chat.",
-          "website": "Jackpot Daily",
-          "message_count": 4,
-          "raw_transcript": "[11:37:58 AM] Customer: Full Name: Sidiq-Ibrahim Ishmail Sesay Email Address: sdqybrm@gmail.com Subject / How can we help you?: My phone number is fine it's the last section the identity verification it asked for proof of address. I sent the wrong file and it's stuck on that status for review\n[11:38:22 AM] Customer: Screenshot_20260417-073731.png\n[11:38:41 AM] Customer: The screen I run into\n[11:38:56 AM] Ariel Lanza: do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:54:04.059Z"
-        },
-        {
-          "chat_id": "2045101415343947776",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:37:58.000Z",
-          "categories": {
-            "greeting": {
-              "score": 6,
-              "notes": "Basic greeting with name but minimal warmth and contained a typo ('apologyze')."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Understood the location verification issue and requested a screenshot for proper diagnosis."
-            },
-            "resolution": {
-              "score": 16,
-              "notes": "Provided reasonable troubleshooting steps (different browser/device) but closed chat before customer could respond to solution."
-            },
-            "communication": {
-              "score": 13,
-              "notes": "Clear and professional but had spelling errors and closed chat prematurely after only 6 minutes."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations or unauthorized promises made."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Closed abruptly due to no response after only 6 minutes without proper closing or escalation offer."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 60,
-          "grade": "D",
-          "summary": "Agent correctly identified the issue and provided reasonable troubleshooting steps but closed the chat too quickly (6 minutes) before allowing adequate time for the customer to test the solution. Communication was functional but contained spelling errors and lacked patience.",
-          "coaching_tip": "Wait at least 10-15 minutes before closing due to inactivity, especially after providing troubleshooting steps that require the customer to take action and test solutions.",
-          "website": "Jackpot Daily",
-          "message_count": 9,
-          "raw_transcript": "[11:25:48 AM] Customer: Full Name: James Oliver Email Address: oliver21221@gmail.com Subject / How can we help you?: My location is on but it’s telling me it’s not and won’t let me sign up.\n[11:26:29 AM] Ariel Lanza: Hi this is Ariel.\nI do apologyze for the inconvenience\n[11:26:38 AM] Ariel Lanza: can you please send me a screenshot\n[11:27:30 AM] Customer: IMG_1725.png\n[11:28:07 AM] Ariel Lanza: thanks for the picture!\n[11:28:29 AM] Ariel Lanza: lets try something.\nplease try with a different browser\n[11:28:51 AM] Ariel Lanza: or a different device\n[11:33:42 AM] Ariel Lanza: are you still with me?\n[11:35:11 AM] Ariel Lanza: I will have to close this chat due to no response\nThanks for reaching",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:54:46.858Z"
-        },
-        {
-          "chat_id": "2045096201979265024",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-17T11:23:31.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all, agent jumped directly into 'Please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent failed to properly understand the customer's issue about a returned deposit and provided irrelevant withdrawal information instead."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Agent gave contradictory advice (wait 2 hours, check different browser, submit ticket) without addressing the core issue of where the returned money went."
-            },
-            "communication": {
-              "score": 9,
-              "notes": "Multiple typos ('houras', incomplete sentence '-do apologize'), unclear instructions, and disjointed responses that confused rather than clarified."
-            },
-            "compliance": {
-              "score": 7,
-              "notes": "No major violations but the handling was substandard and the escalation process was appropriate though delayed."
-            },
-            "closing": {
-              "score": 5,
-              "notes": "Offered further help but did so prematurely without resolving or properly addressing the customer's concern about their missing funds."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 43,
-          "grade": "F",
-          "summary": "Agent completely misunderstood the customer's issue about a returned deposit and provided irrelevant withdrawal information. Communication was poor with typos and contradictory instructions that failed to address where the customer's money went.",
-          "coaching_tip": "Read the customer's issue carefully before responding - this was about a returned deposit, not a withdrawal request, and required account investigation not generic withdrawal templates.",
-          "website": "Jackpot Daily",
-          "message_count": 11,
-          "raw_transcript": "[11:05:05 AM] t5210780353: Full Name: t5210780353 Email Address: catd71955@gmail.com Subject / How can we help you?: I just checked my email and the direct deposit to my account was tried to be applied, but the bank sent the hundred dollars back to where it came from but it’s not on my account on the game either so where is my money?\n[11:05:52 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[11:07:43 AM] Ariel Lanza: OPTIONS TO REDEEM, WITH THE CARD WE ARE HAVING ISSUES\nSounds like you're ready to cash out!\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this issue as soon as possible.\nIn the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nYou'll need at least 100 Sweepstakes Coins that have been played through\nIf you have any questions during the process, I'm right here to help!\n[11:10:24 AM] t5210780353: IMG_0011.png\n[11:10:35 AM] t5210780353: They sent the money back\n[11:11:13 AM] Ariel Lanza: lets wait up to 2 houras to be update and be posted on the account again\n[11:11:54 AM] Ariel Lanza: -do apologize for the inconvenience!\n, we kindly ask that you create a support ticket via email so we can escalate your case properly.\nPlease send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[11:12:27 AM] t5210780353: The transaction was at 1 am\n[11:14:25 AM] Ariel Lanza: try to check on a different browser\n[11:14:38 AM] Ariel Lanza: in case you cant see it please submit a ticket\n[11:18:46 AM] Ariel Lanza: is there anything else I can assist you with?",
-          "model_used": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-23T09:55:18.464Z"
-        },
-        {
-          "chat_id": "2048268924136669184",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-26T05:30:59.000Z",
-          "categories": {
-            "greeting": {
-              "score": 8,
-              "notes": "Professional greeting with clear introduction of role and services offered."
-            },
-            "issue_discovery": {
-              "score": 14,
-              "notes": "Understood the purchase tracking issue and requested email and screenshot for clarification."
-            },
-            "resolution": {
-              "score": 20,
-              "notes": "Provided clear explanation about system delay and one-hour processing time, which directly addresses the discrepancy concern."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Clear and professional throughout with appropriate hold messages, though slightly repetitive with multiple 'bear with me' statements."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations and provided accurate system information without unauthorized promises."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Offered further assistance appropriately before closing the interaction."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 72,
-          "grade": "C",
-          "summary": "Agent handled the purchase tracking inquiry competently by investigating the account and explaining the processing delay between payment processor and game server. Communication was professional and the resolution was appropriate for the technical issue presented.",
-          "coaching_tip": "Vary your hold language to avoid repetition—you used 'Bear with me for just a moment while I take a look at your account' three times in the same conversation.",
-          "website": "Jackpot Daily",
-          "message_count": 46,
-          "raw_transcript": "[05:12:21 AM] t5355164300: Full Name: t5355164300 Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[05:12:21 AM] t5355164300: Full Name: t5355164300 Email Address: markceryak@gmail.com Subject / How can we help you?: Live agent\n[05:12:42 AM] t5355164300: Hi Andrew\n[05:12:42 AM] t5355164300: Hi Andrew\n[05:12:48 AM] Ariel Lanza: Hello, I’m andrew. Thank you for reaching out to our support team.\n\nI am here to provide professional assistance with your account inquiries, prize redemptions, or any questions regarding our daily draws.\n\nHow may I assist you today?\n[05:12:48 AM] Ariel Lanza: Hello, I’m andrew. Thank you for reaching out to our support team.\n\nI am here to provide professional assistance with your account inquiries, prize redemptions, or any questions regarding our daily draws.\n\nHow may I assist you today?\n[05:13:02 AM] t5355164300: So im new to the platform as I signed up\n[05:13:02 AM] t5355164300: So im new to the platform as I signed up\n[05:14:10 AM] t5355164300: I made 2 purchases for 9.99 so far but in the reward for this cahs voucher its saying I only made 1 purchase so far\n[05:14:10 AM] t5355164300: I made 2 purchases for 9.99 so far but in the reward for this cahs voucher its saying I only made 1 purchase so far\n[05:14:36 AM] Ariel Lanza: can you please provide me your email\n[05:14:36 AM] Ariel Lanza: can you please provide me your email\n[05:14:40 AM] t5355164300: Markceryak@gmail.com\n[05:14:40 AM] t5355164300: Markceryak@gmail.com\n[05:14:48 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:14:48 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:14:52 AM] t5355164300: Thank you for the swift response and assistance on this\n[05:14:52 AM] t5355164300: Thank you for the swift response and assistance on this\n[05:16:17 AM] t5355164300: Take your time I appreciate the support\n[05:16:17 AM] t5355164300: Take your time I appreciate the support\n[05:16:50 AM] Ariel Lanza: Thanks, pleaseBear with me for just a moment while I take a look at your account!\n[05:16:50 AM] Ariel Lanza: Thanks, pleaseBear with me for just a moment while I take a look at your account!\n[05:18:01 AM] Ariel Lanza: can you please send me a screenshot\n[05:18:01 AM] Ariel Lanza: can you please send me a screenshot\n[05:18:54 AM] t5355164300: It wont allow me to send the screenshot or photos on here\n[05:18:54 AM] t5355164300: It wont allow me to send the screenshot or photos on here\n[05:19:44 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:19:44 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:19:51 AM] t5355164300: Thanks man\n[05:19:51 AM] t5355164300: Thanks man\n[05:24:26 AM] Ariel Lanza: Thanks for reaching out about your recent purchase.\n\nBear with me for just a moment while I take a look at your account! I have some good news—I can actually see that your deposit is visible in our system and has been successfully received on our end.\n\nHowever, sometimes there is a slight delay between our payment processor and the game server. To ensure your balance is updated correctly and all your coins are ready to use, we usually need about one hour for the system to fully reflect the update on your screen.\n[05:24:26 AM] Ariel Lanza: Thanks for reaching out about your recent purchase.\n\nBear with me for just a moment while I take a look at your account! I have some good news—I can actually see that your deposit is visible in our system and has been successfully received on our end.\n\nHowever, sometimes there is a slight delay between our payment processor and the game server. To ensure your balance is updated correctly and all your coins are ready to use, we usually need about one hour for the system to fully reflect the update on your screen.\n[05:24:44 AM] t5355164300: Okay\n[05:24:44 AM] t5355164300: Okay\n[05:25:11 AM] Ariel Lanza: Glad we got that sorted  Is there anything else I can help you with today?\n[05:25:11 AM] Ariel Lanza: Glad we got that sorted  Is there anything else I can help you with today?\n[05:25:48 AM] t5355164300: In the meantime time I know im new to the platform and have only spent $20 but are any player bonuses or rewards available you can send my way until my account is credited with thst purchase so I can unlock that bonus?\n[05:25:48 AM] t5355164300: In the meantime time I know im new to the platform and have only spent $20 but are any player bonuses or rewards available you can send my way until my account is credited with thst purchase so I can unlock that bonus?\n[05:27:21 AM] Ariel Lanza: about your bonuses.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your history, and I can confirm that you have already claimed your Welcome Bonus and smashed your Golden Egg.\n\nSince the Welcome Bonus and the Golden Egg are one-time gifts for joining us, they won't appear again—but that doesn't mean the rewards have to stop!\n\nHere is how you can keep the bonuses coming:\n\nDaily Login Rewards: This is your most reliable source for extra coins! Every 24 hours, you can claim your daily bonus in the lobby. If you log in every day, you’ll receive 1 Sweepstakes Coin (SC) and 200 Gold Coins (GC).\n\nMail-In Sweeps: Did you know you can receive 5 SC just by sending us a handwritten request? Check out our Sweeps Rules at the bottom of the website for the exact instructions on how to mail those in.\n\nSocial Media Giveaways: We love to run contests! Follow us on Facebook and Instagram—we frequently post \"Share & Win\" or trivia contests where we give away SC and GC to lucky winners.\n\nEmail Promotions: Keep a close eye on your inbox! We often send out exclusive \"Purchase Matches\" or \"Surprise Bonuses\" directly to our active players.\n\nI want to make sure you’re getting every coin possible! Have you already claimed your daily reward for today, or should I help you find where that button is located?\n[05:27:21 AM] Ariel Lanza: about your bonuses.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your history, and I can confirm that you have already claimed your Welcome Bonus and smashed your Golden Egg.\n\nSince the Welcome Bonus and the Golden Egg are one-time gifts for joining us, they won't appear again—but that doesn't mean the rewards have to stop!\n\nHere is how you can keep the bonuses coming:\n\nDaily Login Rewards: This is your most reliable source for extra coins! Every 24 hours, you can claim your daily bonus in the lobby. If you log in every day, you’ll receive 1 Sweepstakes Coin (SC) and 200 Gold Coins (GC).\n\nMail-In Sweeps: Did you know you can receive 5 SC just by sending us a handwritten request? Check out our Sweeps Rules at the bottom of the website for the exact instructions on how to mail those in.\n\nSocial Media Giveaways: We love to run contests! Follow us on Facebook and Instagram—we frequently post \"Share & Win\" or trivia contests where we give away SC and GC to lucky winners.\n\nEmail Promotions: Keep a close eye on your inbox! We often send out exclusive \"Purchase Matches\" or \"Surprise Bonuses\" directly to our active players.\n\nI want to make sure you’re getting every coin possible! Have you already claimed your daily reward for today, or should I help you find where that button is located?\n[05:29:04 AM] t5355164300: It says I did. I appreciate the assistance today..I'll be sure to do a trustpilot.com survey and note how helpful you have been. The live chat services here are incredible\n[05:29:04 AM] t5355164300: It says I did. I appreciate the assistance today..I'll be sure to do a trustpilot.com survey and note how helpful you have been. The live chat services here are incredible\n[05:30:18 AM] t5355164300: Ill just wait for the cash voucher to be available so I can use that\n[05:30:18 AM] t5355164300: Ill just wait for the cash voucher to be available so I can use that\n[05:30:40 AM] Ariel Lanza: Thank you so much for your kind words—it has been an absolute pleasure assisting you today. We truly appreciate you being a part of our community and for your patience as we got everything sorted out.\n[05:30:40 AM] Ariel Lanza: Thank you so much for your kind words—it has been an absolute pleasure assisting you today. We truly appreciate you being a part of our community and for your patience as we got everything sorted out.",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-26T05:31:44.813Z"
-        },
-        {
-          "chat_id": "2048273888315797504",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-26T05:49:19.000Z",
-          "categories": {
-            "greeting": {
-              "score": 3,
-              "notes": "No greeting at all, agent jumped directly into 'one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 8,
-              "notes": "Agent failed to address the actual question about why balances differ and instead assumed customer wanted redemption instructions."
-            },
-            "resolution": {
-              "score": 10,
-              "notes": "Completely missed the customer's question about the difference between total and redeemable balance, providing irrelevant redemption instructions instead."
-            },
-            "communication": {
-              "score": 15,
-              "notes": "Communication was clear and well-formatted, but entirely off-topic from what was asked."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations, provided accurate account balance and standard redemption procedures."
-            },
-            "closing": {
-              "score": 7,
-              "notes": "Professional closing with offer for further assistance and well-wishes, though customer never got their question answered."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent completely misunderstood the customer's question about why sweep coin balance differs from redeemable balance, instead providing unsolicited redemption instructions. The customer asked a specific technical question that was never addressed or acknowledged.",
-          "coaching_tip": "Always read the customer's question carefully and address what they actually asked before offering additional information—this customer wanted to understand a balance discrepancy, not learn how to redeem.",
-          "website": "Jackpot Daily",
-          "message_count": 10,
-          "raw_transcript": "[05:32:04 AM] Customer: Full Name: t9745516744 Email Address: sallyeherron76@gmail.com Subject / How can we help you?: Why does my sweep coin balance differ from my redeemable sweep coin balance\n[05:32:04 AM] Customer: Full Name: t9745516744 Email Address: sallyeherron76@gmail.com Subject / How can we help you?: Why does my sweep coin balance differ from my redeemable sweep coin balance\n[05:32:43 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:32:43 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:34:14 AM] Ariel Lanza: Thanks for your patience while I looked into this for you.\n\nI have some great news! I’ve just finished checking your account on my end, and I can confirm that your current balance is 321.27 Sweepstakes Coins (SC).\n\nSince your balance is well above the minimum requirement, you are all set to start a redemption! Here is exactly how to do it:\n\nHow to Redeem Your Winnings\nLog in to your account at www.jackpotdaily.com.\n\nOpen the Menu: Click on the \"Redeem\" tab on the left-hand sidebar.\n\nChoose Your Method: Select how you'd like to receive your funds (Bank Transfer, Debit Card, or Skrill).\n\nEnter the Amount: Input the amount you wish to redeem from your 321.27 SC balance.\n\nConfirm: Review the details and submit your request!\n\nWhat to Expect Next\nReview Period: Our team will perform a quick security check on the request.\n\nDelivery Time: * Debit Card & Skrill: Usually arrives within 1–3 business days.\n\nBank Transfer: Can take up to 10 business days depending on your bank's processing speed.\n[05:34:14 AM] Ariel Lanza: Thanks for your patience while I looked into this for you.\n\nI have some great news! I’ve just finished checking your account on my end, and I can confirm that your current balance is 321.27 Sweepstakes Coins (SC).\n\nSince your balance is well above the minimum requirement, you are all set to start a redemption! Here is exactly how to do it:\n\nHow to Redeem Your Winnings\nLog in to your account at www.jackpotdaily.com.\n\nOpen the Menu: Click on the \"Redeem\" tab on the left-hand sidebar.\n\nChoose Your Method: Select how you'd like to receive your funds (Bank Transfer, Debit Card, or Skrill).\n\nEnter the Amount: Input the amount you wish to redeem from your 321.27 SC balance.\n\nConfirm: Review the details and submit your request!\n\nWhat to Expect Next\nReview Period: Our team will perform a quick security check on the request.\n\nDelivery Time: * Debit Card & Skrill: Usually arrives within 1–3 business days.\n\nBank Transfer: Can take up to 10 business days depending on your bank's processing speed.\n[05:36:50 AM] Ariel Lanza: Are you still with me?\n[05:36:50 AM] Ariel Lanza: Are you still with me?\n[05:39:18 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n\nI hope you have a fantastic rest of your day and the best of luck on the reels!\n\nIs there anything else I can quickly help you with before I head out?\n[05:39:18 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n\nI hope you have a fantastic rest of your day and the best of luck on the reels!\n\nIs there anything else I can quickly help you with before I head out?",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-26T05:51:52.810Z"
-        },
-        {
-          "chat_id": "2048275753388568576",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-26T06:03:46.000Z",
-          "categories": {
-            "greeting": {
-              "score": 4,
-              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
-            },
-            "issue_discovery": {
-              "score": 13,
-              "notes": "Agent understood the customer's frustration about low reward amounts but didn't ask clarifying questions about what the customer expected or experienced."
-            },
-            "resolution": {
-              "score": 12,
-              "notes": "Agent provided explanations but gave contradictory information (first explaining the 32 cents breakdown, then suggesting it's a sync delay), leaving the customer's core question unanswered."
-            },
-            "communication": {
-              "score": 11,
-              "notes": "Agent was empathetic and professional but overly verbose and ultimately confusing with conflicting explanations about the issue."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "No policy violations detected, though the vague technical explanations about system sync could be misleading if inaccurate."
-            },
-            "closing": {
-              "score": 3,
-              "notes": "Chat appears incomplete with no proper closing, farewell, or confirmation that the issue was resolved; customer left waiting after troubleshooting suggestion."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 51,
-          "grade": "F",
-          "summary": "Agent showed empathy but failed to provide a clear, consistent resolution to the customer's concern about receiving only 32 cents in combined rewards. The explanation shifted from breaking down the reward calculation to blaming a sync delay, then suggesting browser troubleshooting without confirming the actual issue or following up.",
-          "coaching_tip": "Provide one clear, consistent explanation rather than multiple conflicting theories, and always close the loop by confirming whether the issue is resolved or what the next steps are before ending the conversation.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:39:29 AM] t9595345601: Full Name: t9595345601 Email Address: cholliday799@gmail.com Subject / How can we help you?: l so I just got to ask now are you telling me okay that it should possibly be 32 cents is my okay level up reward my daily login reward and my Sunday reward come bind it's 32 cents is all I got really are you serious\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:40:24 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:41:48 AM] Ariel Lanza: I am so incredibly sorry for the frustration this has caused. I completely understand why seeing 32 cents for all those combined rewards feels like a mistake, and I want to sincerely apologize for the disappointment and confusion. That is definitely not the \"winning\" feeling we want you to have!\n\nBear with me for just a moment while I take a look at your account! I’ve checked the reward logs to see exactly how that 0.32 SC was calculated, and I want to clarify how these different bonuses work together:\n\nBreaking down the 0.32 SC:\nThe \"One Penny\" Daily Sync: As we discussed earlier, if the daily login timer hasn't fully reset to the 24-hour mark, the system sometimes issues a tiny \"placeholder\" amount.\n\nLevel Up Rewards: These are calculated based on recent gameplay activity. If you've recently moved up a tier, the system automatically adds that bonus to your balance.\n\nThe Sunday Reward: This is often a percentage-based bonus based on the previous week's play.\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:45:08 AM] t9595345601: okay so it hasn't reset yet or that was it\n[05:46:11 AM] t9595345601: ??\n[05:46:11 AM] t9595345601: ??\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:33 AM] Ariel Lanza: I’ve taken a look at your account, and it appears there is currently a slight delay in the system synchronization.\n\nWhile your actions (like a deposit, a win, or a bonus claim) have been successfully recorded on our end, the \"handshake\" between our main server and your browser display is taking a little longer than usual. This means what you see on your screen might be a few minutes behind what is actually happening in your account. try to log out and log in in a different browser\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:46:40 AM] Ariel Lanza: please send me a screenshot\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:30 AM] t9595345601: ok thanks for checking for me\n[05:47:40 AM] t9595345601: good sunday\n[05:47:40 AM] t9595345601: good sunday\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:54:02 AM] Ariel Lanza: Glad we got that sorted Is there anything else I can help you with today?\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.\n[05:59:48 AM] Ariel Lanza: I haven't heard back from you in a little while, so I’m going to go ahead and close this chat for now to keep things tidy!\n\nDon't worry, though—if you still need help or have more questions, you can reach out at any time by opening a new chat or replying to this message. We’re always happy to pick up right where we left off.",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-26T06:06:45.352Z"
-        },
-        {
-          "chat_id": "2048302558543130624",
-          "agent_name": "Ariel Lanza",
-          "agent_id": "5839",
-          "timestamp": "2026-04-26T07:32:21.000Z",
-          "categories": {
-            "greeting": {
-              "score": 7,
-              "notes": "Professional greeting with acknowledgment, though the personalization token failed to populate the customer's name."
-            },
-            "issue_discovery": {
-              "score": 16,
-              "notes": "Agent understood the redemption inquiry and proactively offered to check the customer's specific balance and eligibility status."
-            },
-            "resolution": {
-              "score": 24,
-              "notes": "Comprehensive explanation of all redemption requirements, thresholds, timelines, and verification steps with offer to check specific account status."
-            },
-            "communication": {
-              "score": 16,
-              "notes": "Clear and well-structured information with helpful formatting, though slightly lengthy; minor follow-up about ACH-only was appropriately added."
-            },
-            "compliance": {
-              "score": 8,
-              "notes": "Followed policy correctly by explaining verification, playthrough requirements, and redemption thresholds without unauthorized promises."
-            },
-            "closing": {
-              "score": 0,
-              "notes": "Transcript appears truncated with no visible closing from the agent after customer's final response."
-            }
-          },
-          "auto_fail": {
-            "triggered": false,
-            "reason": null
-          },
-          "total_score": 71,
-          "grade": "C",
-          "summary": "Agent provided thorough, accurate information about redemption requirements and proactively offered to check the customer's specific eligibility. The response was comprehensive and professional, though the transcript cuts off before showing how the interaction concluded.",
-          "coaching_tip": "Break up lengthy explanations into smaller chunks and wait for customer acknowledgment between sections to ensure better engagement and comprehension.",
-          "website": "Jackpot Daily",
-          "message_count": 22,
-          "raw_transcript": "[07:26:00 AM] t3459056726: Full Name: t3459056726 Email Address: geraldineshaw2016@gmail.com Subject / How can we help you?: Hi,When can I redeeem my money\n[07:26:00 AM] t3459056726: Full Name: t3459056726 Email Address: geraldineshaw2016@gmail.com Subject / How can we help you?: Hi,When can I redeeem my money\n[07:26:27 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[07:26:27 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[07:26:34 AM] t3459056726: Ok\n[07:26:34 AM] t3459056726: Ok\n[07:27:10 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out. I know that’s the most exciting part of playing, and I’d be happy to explain exactly when you can get those winnings into your hands!\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and you can redeem your Sweepstakes Coins (SC) as soon as you meet these three standard requirements:\n\n1. Complete Your Verification\nTo keep your funds secure, you must complete the KYC (identity) verification via the \"Redeem\" tab. This involves a quick photo of your ID and a selfie. If you haven't done this yet, it's the first thing you'll need to check off!\n\n2. Reach the Minimum Threshold\nYou can request a redemption once you hit the minimum amount of Redeemable SC:\n\nGift Cards: Minimum of 50 SC.\n\nBank Transfers/Skrill/Debit Card: Minimum of 100 SC.\n\n3. Meet the Playthrough Requirement\nAny SC you receive (from bonuses or purchases) must be played through at least one time on any of our games. Once you’ve played them, those coins move into your \"Redeemable\" balance.\n\nHow to Check Your Progress:\nYou don't have to guess! You can see exactly how close you are by going to the \"Redeem\" tab in your menu. It will show you your current Redeemable Balance. If that balance is over 50 (for gift cards) or 100 (for cash), you can hit that redeem button right now!\n\nOnce you hit \"Redeem,\" here is the timeline:\n\nDebit Card & Skrill: 1–3 business days.\n\nBank Transfer: Up to 10 business days.\n\nI'm checking your redeemable balance right now—would you like me to see how close you are to that minimum limit?\n[07:27:10 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out. I know that’s the most exciting part of playing, and I’d be happy to explain exactly when you can get those winnings into your hands!\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and you can redeem your Sweepstakes Coins (SC) as soon as you meet these three standard requirements:\n\n1. Complete Your Verification\nTo keep your funds secure, you must complete the KYC (identity) verification via the \"Redeem\" tab. This involves a quick photo of your ID and a selfie. If you haven't done this yet, it's the first thing you'll need to check off!\n\n2. Reach the Minimum Threshold\nYou can request a redemption once you hit the minimum amount of Redeemable SC:\n\nGift Cards: Minimum of 50 SC.\n\nBank Transfers/Skrill/Debit Card: Minimum of 100 SC.\n\n3. Meet the Playthrough Requirement\nAny SC you receive (from bonuses or purchases) must be played through at least one time on any of our games. Once you’ve played them, those coins move into your \"Redeemable\" balance.\n\nHow to Check Your Progress:\nYou don't have to guess! You can see exactly how close you are by going to the \"Redeem\" tab in your menu. It will show you your current Redeemable Balance. If that balance is over 50 (for gift cards) or 100 (for cash), you can hit that redeem button right now!\n\nOnce you hit \"Redeem,\" here is the timeline:\n\nDebit Card & Skrill: 1–3 business days.\n\nBank Transfer: Up to 10 business days.\n\nI'm checking your redeemable balance right now—would you like me to see how close you are to that minimum limit?\n[07:27:35 AM] Ariel Lanza: keep in mind only ach redemtion is available\n[07:27:35 AM] Ariel Lanza: keep in mind only ach redemtion is available\n[07:28:52 AM] t3459056726: Ok & yes\n[07:28:52 AM] t3459056726: Ok & yes\n[07:29:32 AM] t3459056726: Ive already verified my account\n[07:29:32 AM] t3459056726: Ive already verified my account\n[07:30:07 AM] Ariel Lanza: That is great to hear! Since you’ve already completed the verification steps, you have cleared the biggest hurdle to getting your winnings.\n\nBear with me for just a moment while I take a look at your account! I’ve checked our system to see why the redemption options might not be appearing for you yet.\n\nEven with a verified account, there are usually two common reasons why the \"Redeem\" button might still be locked:\n\n1. The \"Magic\" Refresh\nSometimes, even after your ID is approved, your browser \"remembers\" your old unverified status.\n\nPlease log out and log back in. This forces the site to update and should reveal your new verified status and the redemption menu.\n\n2. Minimum Redeemable Balance\nTo see the redemption options, you must have enough Redeemable Sweepstakes Coins (SC) in your balance.\n\nGift Cards: You need a minimum of 50 SC.\n\nBank/Cash Redemptions: You need a minimum of 100 SC.\n\nQuick Check: Remember that only coins you have played through at least once move into your \"Redeemable\" balance. If you just received a bonus or made a purchase, you’ll need to take those coins for a spin on your favorite games first!\n\nI’m looking at your redeemable balance right now—would you like me to check exactly how many more coins you need to clear before you can hit that \"Redeem\" button?\n[07:30:07 AM] Ariel Lanza: That is great to hear! Since you’ve already completed the verification steps, you have cleared the biggest hurdle to getting your winnings.\n\nBear with me for just a moment while I take a look at your account! I’ve checked our system to see why the redemption options might not be appearing for you yet.\n\nEven with a verified account, there are usually two common reasons why the \"Redeem\" button might still be locked:\n\n1. The \"Magic\" Refresh\nSometimes, even after your ID is approved, your browser \"remembers\" your old unverified status.\n\nPlease log out and log back in. This forces the site to update and should reveal your new verified status and the redemption menu.\n\n2. Minimum Redeemable Balance\nTo see the redemption options, you must have enough Redeemable Sweepstakes Coins (SC) in your balance.\n\nGift Cards: You need a minimum of 50 SC.\n\nBank/Cash Redemptions: You need a minimum of 100 SC.\n\nQuick Check: Remember that only coins you have played through at least once move into your \"Redeemable\" balance. If you just received a bonus or made a purchase, you’ll need to take those coins for a spin on your favorite games first!\n\nI’m looking at your redeemable balance right now—would you like me to check exactly how many more coins you need to clear before you can hit that \"Redeem\" button?\n[07:31:33 AM] t3459056726: Ok\n[07:31:33 AM] t3459056726: Ok\n[07:31:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[07:31:53 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[07:32:11 AM] t3459056726: No thanks\n[07:32:11 AM] t3459056726: No thanks",
-          "scored_with": "anthropic/claude-sonnet-4.5",
-          "scored_at": "2026-04-26T07:36:44.797Z"
-        }
-      ],
-      "avg_score": 51,
-      "grade": "F",
-      "trend": -4
     },
     {
       "id": "5838",
@@ -69016,6 +69061,51 @@
       "raw_transcript": "[07:55:39 AM] Customer: Full Name: Isai Dominguez Email Address: isaidominguez0607@gmail.com Subject / How can we help you?: La worker\n[07:55:39 AM] Customer: Full Name: Isai Dominguez Email Address: isaidominguez0607@gmail.com Subject / How can we help you?: La worker\n[07:56:03 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[07:56:03 AM] Raul Figueroa: Hey! Welcome to Jackpot Daily support — I'm here to help! What can I do for you today?\n[08:00:56 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games ��� good luck out there!\n[08:00:56 AM] Raul Figueroa: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help! Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T08:01:48.090Z"
+    },
+    {
+      "chat_id": "2048311208662364160",
+      "agent_name": "Ariel Lanza",
+      "agent_id": "5839",
+      "timestamp": "2026-04-26T08:09:52.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No greeting for nearly 3 minutes after customer asked 'hello anyone there', then failed to personalize (template variable {{ticket.requester.first_name}} not replaced)."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent correctly identified the issue (missing KYC verification blocking welcome bonus) and investigated the account status."
+        },
+        "resolution": {
+          "score": 24,
+          "notes": "Provided comprehensive step-by-step instructions for KYC verification with clear explanation of what happens next and helpful troubleshooting tip."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Information was thorough and well-structured, but the unrendered template variable and long wait time detract from overall communication quality."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately explained KYC requirements and set realistic expectations about approval timeframes."
+        },
+        "closing": {
+          "score": 6,
+          "notes": "Offered further assistance but assumed issue was resolved without customer confirmation, and closing felt slightly premature."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 73,
+      "grade": "C",
+      "summary": "Agent provided detailed and accurate resolution steps for KYC verification to unlock the welcome bonus. However, the 3-minute initial response delay and failure to render the customer's name from the template variable significantly impacted the customer experience.",
+      "coaching_tip": "Always verify that template variables render correctly before sending messages, and acknowledge customers promptly even if you need time to investigate—a quick 'I'm with you, one moment' within the first minute prevents customer frustration.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[08:00:22 AM] Customer: Full Name: willy nash Email Address: willygma6@gmail.com Subject / How can we help you?: i have filled out everything do i get any welcome bonus\n[08:00:22 AM] Customer: Full Name: willy nash Email Address: willygma6@gmail.com Subject / How can we help you?: i have filled out everything do i get any welcome bonus\n[08:02:54 AM] Customer: hello anyone there\n[08:02:54 AM] Customer: hello anyone there\n[08:05:20 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[08:05:20 AM] Ariel Lanza: Please allow me one moment to look into this for you!\n[08:06:41 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out about your welcome rewards.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and I can see why your bonus hasn't landed yet. To unlock the full Welcome Bonus and your Golden Egg, your account needs to be KYC verified.\n\nWe do this to ensure every player is of legal age and to keep your future winnings secure. The good news? It only takes a minute!\n\nHere are the steps to verify right now:\n\nLog in to your account at www.jackpotdaily.com.\n\nGo to the \"Redeem\" tab: You’ll find this in the menu on the left-hand side.\n\nStart Verification: Click the button to begin the process via our secure partner, Socure.\n\nSubmit Your ID: Take a clear photo of the front and back of your valid government-issued ID (Driver’s License, State ID, or Passport).\n\nSelfie Check: Complete the quick \"liveness\" scan by following the on-screen prompts.\n\nWhat happens next?\nUnlock the Bonus: As soon as you get the \"Verified\" checkmark, your Golden Egg will appear in the lobby. Smash it to reveal your reward—you can win up to 100 SC!\n\nApproval Time: Most players are verified instantly, though some manual reviews can take up to 24 hours.\n\nQuick Tip: If you're on a computer and having trouble with the camera, try switching to your phone. The mobile process is super smooth for taking photos of your ID.\n\nI’m keeping an eye on your status! Is there anything else I can help you with while you get those documents ready?\n[08:06:41 AM] Ariel Lanza: Hey {{ticket.requester.first_name}}! Thanks for reaching out about your welcome rewards.\n\nBear with me for just a moment while I take a look at your account! I’ve checked your status, and I can see why your bonus hasn't landed yet. To unlock the full Welcome Bonus and your Golden Egg, your account needs to be KYC verified.\n\nWe do this to ensure every player is of legal age and to keep your future winnings secure. The good news? It only takes a minute!\n\nHere are the steps to verify right now:\n\nLog in to your account at www.jackpotdaily.com.\n\nGo to the \"Redeem\" tab: You’ll find this in the menu on the left-hand side.\n\nStart Verification: Click the button to begin the process via our secure partner, Socure.\n\nSubmit Your ID: Take a clear photo of the front and back of your valid government-issued ID (Driver’s License, State ID, or Passport).\n\nSelfie Check: Complete the quick \"liveness\" scan by following the on-screen prompts.\n\nWhat happens next?\nUnlock the Bonus: As soon as you get the \"Verified\" checkmark, your Golden Egg will appear in the lobby. Smash it to reveal your reward—you can win up to 100 SC!\n\nApproval Time: Most players are verified instantly, though some manual reviews can take up to 24 hours.\n\nQuick Tip: If you're on a computer and having trouble with the camera, try switching to your phone. The mobile process is super smooth for taking photos of your ID.\n\nI’m keeping an eye on your status! Is there anything else I can help you with while you get those documents ready?\n[08:10:32 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?\n[08:10:32 AM] Ariel Lanza: Glad we got that sorted ! Is there anything else I can help you with today?",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T08:11:47.481Z"
     }
   ]
 }
