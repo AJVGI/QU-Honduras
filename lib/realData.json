@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T21:46:56.867Z",
-  "total_chats": 856,
+  "scored_at": "2026-04-26T21:51:47.028Z",
+  "total_chats": 857,
   "total_agents": 28,
   "agents": [
     {
@@ -28122,11 +28122,56 @@
           "raw_transcript": "[09:11:07 PM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: Redeeming\n[09:11:07 PM] t1558509715: Full Name: t1558509715 Email Address: bifflecrystal6@gmail.com Subject / How can we help you?: Redeeming\n[09:11:27 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:11:27 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:12:22 PM] Oskar Abaunza: Could you please provide a bit more detail about what you're experiencing? This will help me assist you better.\n\nLooking forward to your reply!\n[09:12:22 PM] Oskar Abaunza: Could you please provide a bit more detail about what you're experiencing? This will help me assist you better.\n\nLooking forward to your reply!\n[09:14:01 PM] t1558509715: I got a email saying I redeemed my winnings but it’s not n my account\n[09:14:01 PM] t1558509715: I got a email saying I redeemed my winnings but it’s not n my account\n[09:15:01 PM] Oskar Abaunza: Could you please let me know which redemption method you are currently using? This will help me take a closer look into your request.\n[09:15:01 PM] Oskar Abaunza: Could you please let me know which redemption method you are currently using? This will help me take a closer look into your request.\n[09:15:52 PM] t1558509715: Ach\n[09:15:52 PM] t1558509715: Ach\n[09:15:54 PM] Oskar Abaunza: In the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nSounds like you're ready to cash out!\nYou'll need at least 100 Sweepstakes Coins that have been played through\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this inconvenient as soon as possible.\nIf you have any questions during the process, I'm right here to help!\n[09:15:54 PM] Oskar Abaunza: In the meantime, we recommend completing your transaction using:\nACH Bank Transfer — up to 10 business days total\nJust a couple of things to keep in mind:\nWe don't process redemptions on weekends\nOnly one pending redemption at a time\nSounds like you're ready to cash out!\nYou'll need at least 100 Sweepstakes Coins that have been played through\nPlease be aware that the option to withdraw directly to your card is currently unavailable, but we are working hard than ever to resolve this inconvenient as soon as possible.\nIf you have any questions during the process, I'm right here to help!\n[09:17:04 PM] Oskar Abaunza: Thanks for letting me know!!\n\nJust to inform you, ACH transfers can take up to 10 days to fully process your redemption request.\n\nIf you have any other questions, feel free to let me know!\n[09:17:04 PM] Oskar Abaunza: Thanks for letting me know!!\n\nJust to inform you, ACH transfers can take up to 10 days to fully process your redemption request.\n\nIf you have any other questions, feel free to let me know!\n[09:19:04 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:19:04 PM] Oskar Abaunza: Is there anything else I can help you with today?\n[09:21:12 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:21:12 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T21:21:50.217Z"
+        },
+        {
+          "chat_id": "2048515981818818560",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-26T21:50:40.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into asking for time to investigate without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the core issue about missing credit but asked no clarifying questions about when customer last checked or what they expected to see."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Agent investigated thoroughly and provided a clear answer that the credit was added and played through, resolving the discrepancy the customer reported."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Professional and clear communication with good patience updates during the investigation, though could have been more empathetic to customer frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent appropriately reviewed account and provided factual information without unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing with well-wishes, though customer didn't acknowledge the resolution before close."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 65,
+          "grade": "D",
+          "summary": "Agent successfully resolved the customer's concern about missing credit by investigating and explaining the funds were added and already used. However, the interaction lacked a proper greeting and could have shown more empathy toward the customer's initial frustration about the delay.",
+          "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before diving into the issue—it sets a warmer, more professional tone for the entire interaction.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[09:34:04 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Can I get my $10 credit now? As u said in 24 hours , 3 days ago! Support sent me an email today said I've been credited $10 n check my rewards tab n there is nothing there?\n[09:34:04 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Can I get my $10 credit now? As u said in 24 hours , 3 days ago! Support sent me an email today said I've been credited $10 n check my rewards tab n there is nothing there?\n[09:34:20 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:34:20 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:36:51 PM] Oskar Abaunza: Give me a moment to review this information.\n[09:36:51 PM] Oskar Abaunza: Give me a moment to review this information.\n[09:37:47 PM] t7409419483: Got it ty\n[09:37:47 PM] t7409419483: Got it ty\n[09:42:49 PM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[09:42:49 PM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[09:47:41 PM] Oskar Abaunza: I’ve personally reviewed your account, and I can confirm that the $10 credit was successfully added to your balance. Based on the account history, those funds have already been played through. If you have any other questions about your transactions, feel free to ask!\"\n[09:47:41 PM] Oskar Abaunza: I’ve personally reviewed your account, and I can confirm that the $10 credit was successfully added to your balance. Based on the account history, those funds have already been played through. If you have any other questions about your transactions, feel free to ask!\"\n[09:50:34 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:50:34 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T21:51:46.526Z"
         }
       ],
       "avg_score": 54,
       "grade": "F",
-      "trend": -5
+      "trend": 16
     },
     {
       "id": "5836",
@@ -77296,6 +77341,51 @@
       "raw_transcript": "[09:27:00 PM] Customer: Full Name: Kenneth Whitaker Email Address: ken_zion@yahoo.com Subject / How can we help you?: Location enabled but not able to go to site\n[09:27:00 PM] Customer: Full Name: Kenneth Whitaker Email Address: ken_zion@yahoo.com Subject / How can we help you?: Location enabled but not able to go to site\n[09:27:11 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[09:27:11 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[09:27:18 PM] Customer: Ok\n[09:27:18 PM] Customer: Ok\n[09:27:55 PM] Eliezer Mejia: Hey Kenneth!  That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[09:27:55 PM] Eliezer Mejia: Hey Kenneth!  That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[09:28:20 PM] Customer: Still not working\n[09:28:20 PM] Customer: Still not working\n[09:31:35 PM] Eliezer Mejia: To proceed with your account verification, we need to confirm from which U.S. state you are trying to register.\n\nCould you please let us know the state where you currently reside?\n[09:31:35 PM] Eliezer Mejia: To proceed with your account verification, we need to confirm from which U.S. state you are trying to register.\n\nCould you please let us know the state where you currently reside?\n[09:32:44 PM] Customer: North Carolina\n[09:32:44 PM] Customer: North Carolina\n[09:33:18 PM] Eliezer Mejia: This state is not restricted, allow me a moment please.\n[09:33:18 PM] Eliezer Mejia: This state is not restricted, allow me a moment please.\n[09:33:26 PM] Customer: Ok\n[09:33:26 PM] Customer: Ok\n[09:35:22 PM] Eliezer Mejia: We can see that you have already enabled location services on your device, but the restriction still appears when trying to access. In many cases, this happens because the browser does not have location permissions enabled.\n\nCould you please confirm if your browser has location permissions turned on for the Jackpot Daily website?\n\n-Check your browser settings.\n-Make sure the site has access to your location.\n\nThis will help us validate your access correctly and allow you to browse without issues.\n[09:35:22 PM] Eliezer Mejia: We can see that you have already enabled location services on your device, but the restriction still appears when trying to access. In many cases, this happens because the browser does not have location permissions enabled.\n\nCould you please confirm if your browser has location permissions turned on for the Jackpot Daily website?\n\n-Check your browser settings.\n-Make sure the site has access to your location.\n\nThis will help us validate your access correctly and allow you to browse without issues.\n[09:36:02 PM] Customer: I checked this and enabled already\n[09:36:02 PM] Customer: I checked this and enabled already\n[09:37:09 PM] Customer: Ok enabled everything\n[09:37:09 PM] Customer: Ok enabled everything\n[09:37:52 PM] Eliezer Mejia: We can tried this option, please let me know once you done that and also tried to refresh the browser.\n[09:37:52 PM] Eliezer Mejia: We can tried this option, please let me know once you done that and also tried to refresh the browser.\n[09:40:54 PM] Eliezer Mejia: Is there anything else I can help you with today?\n[09:40:54 PM] Eliezer Mejia: Is there anything else I can help you with today?\n[09:43:16 PM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:43:16 PM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T21:46:56.365Z"
+    },
+    {
+      "chat_id": "2048515981818818560",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-26T21:50:40.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into asking for time to investigate without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the core issue about missing credit but asked no clarifying questions about when customer last checked or what they expected to see."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Agent investigated thoroughly and provided a clear answer that the credit was added and played through, resolving the discrepancy the customer reported."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Professional and clear communication with good patience updates during the investigation, though could have been more empathetic to customer frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent appropriately reviewed account and provided factual information without unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided a friendly closing with well-wishes, though customer didn't acknowledge the resolution before close."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 65,
+      "grade": "D",
+      "summary": "Agent successfully resolved the customer's concern about missing credit by investigating and explaining the funds were added and already used. However, the interaction lacked a proper greeting and could have shown more empathy toward the customer's initial frustration about the delay.",
+      "coaching_tip": "Always open with a proper greeting that acknowledges the customer by name before diving into the issue—it sets a warmer, more professional tone for the entire interaction.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[09:34:04 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Can I get my $10 credit now? As u said in 24 hours , 3 days ago! Support sent me an email today said I've been credited $10 n check my rewards tab n there is nothing there?\n[09:34:04 PM] t7409419483: Full Name: t7409419483 Email Address: shellhunt454@gmail.com Subject / How can we help you?: Can I get my $10 credit now? As u said in 24 hours , 3 days ago! Support sent me an email today said I've been credited $10 n check my rewards tab n there is nothing there?\n[09:34:20 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:34:20 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[09:36:51 PM] Oskar Abaunza: Give me a moment to review this information.\n[09:36:51 PM] Oskar Abaunza: Give me a moment to review this information.\n[09:37:47 PM] t7409419483: Got it ty\n[09:37:47 PM] t7409419483: Got it ty\n[09:42:49 PM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[09:42:49 PM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[09:47:41 PM] Oskar Abaunza: I’ve personally reviewed your account, and I can confirm that the $10 credit was successfully added to your balance. Based on the account history, those funds have already been played through. If you have any other questions about your transactions, feel free to ask!\"\n[09:47:41 PM] Oskar Abaunza: I’ve personally reviewed your account, and I can confirm that the $10 credit was successfully added to your balance. Based on the account history, those funds have already been played through. If you have any other questions about your transactions, feel free to ask!\"\n[09:50:34 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[09:50:34 PM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T21:51:46.526Z"
     }
   ]
 }
