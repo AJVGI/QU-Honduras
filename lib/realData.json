@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T12:21:47.320Z",
-  "total_chats": 785,
+  "scored_at": "2026-04-26T12:26:58.037Z",
+  "total_chats": 787,
   "total_agents": 28,
   "agents": [
     {
@@ -4416,11 +4416,56 @@
           "raw_transcript": "[08:25:01 PM] t0049025054: Full Name: t0049025054 Email Address: lilmeme2812@gmail.com Subject / How can we help you?: I recieved a approved email but nothing in my account\n[08:25:01 PM] t0049025054: Full Name: t0049025054 Email Address: lilmeme2812@gmail.com Subject / How can we help you?: I recieved a approved email but nothing in my account\n[08:25:14 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:25:14 PM] Andrea Hernandez: Hi, this is Emily ill be assisting you today\n[08:26:02 PM] Andrea Hernandez: Can you send me a screenshot of the email you received\n[08:26:02 PM] Andrea Hernandez: Can you send me a screenshot of the email you received\n[08:26:30 PM] t0049025054: IMG_3080.png\n[08:26:30 PM] t0049025054: IMG_3080.png\n[08:28:07 PM] t0049025054: Ok\n[08:28:07 PM] t0049025054: Ok\n[08:28:11 PM] Andrea Hernandez: Thanks for sharing the screenshot — I can confirm that your redemption was successfully approved on our end 🎉\n\nAt this point, the funds have already been sent to your bank, and we just need to wait for their processing.\n\nPlease keep in mind:\n\nACH transfers can take up to 10 business days\nProcessing time depends on your bank\n\nEverything looks good from our side 👍\n[08:28:11 PM] Andrea Hernandez: Thanks for sharing the screenshot — I can confirm that your redemption was successfully approved on our end 🎉\n\nAt this point, the funds have already been sent to your bank, and we just need to wait for their processing.\n\nPlease keep in mind:\n\nACH transfers can take up to 10 business days\nProcessing time depends on your bank\n\nEverything looks good from our side 👍\n[08:28:58 PM] t0049025054: My bank don’t hold funds once it’s sent to them they sent to my account\n[08:28:58 PM] t0049025054: My bank don’t hold funds once it’s sent to them they sent to my account\n[08:29:31 PM] Andrea Hernandez: I understand what you’re saying — and you’re right that many banks post funds quickly once they receive them 👍\n\nHowever, with ACH transfers, there’s still a processing time before the funds actually reach your bank. Even if your bank releases funds immediately, the transfer can still take a few business days to be delivered to them.\n\nSince your redemption is already marked as successful on our end, it means it has been sent out and is currently in that processing stage.\n[08:29:31 PM] Andrea Hernandez: I understand what you’re saying — and you’re right that many banks post funds quickly once they receive them 👍\n\nHowever, with ACH transfers, there’s still a processing time before the funds actually reach your bank. Even if your bank releases funds immediately, the transfer can still take a few business days to be delivered to them.\n\nSince your redemption is already marked as successful on our end, it means it has been sent out and is currently in that processing stage.\n[08:30:02 PM] t0049025054: Ok\n[08:30:02 PM] t0049025054: Ok\n[08:30:23 PM] Andrea Hernandez: Is there anything else I can help you with?\n[08:30:23 PM] Andrea Hernandez: Is there anything else I can help you with?\n[08:30:30 PM] t0049025054: No\n[08:30:30 PM] t0049025054: No",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-23T20:34:43.522Z"
+        },
+        {
+          "chat_id": "2048372295051079680",
+          "agent_name": "Andrea Hernandez",
+          "agent_id": "5551",
+          "timestamp": "2026-04-26T12:22:09.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "Greeting present but contained typo ('ill se assiting') and lacked polish or personalization."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic issue but failed to gather key details like dates, amounts, or account specifics before requesting screenshots."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Provided generic troubleshooting but never escalated or investigated the account despite customer confirming steps didn't work; closed chat without resolution."
+            },
+            "communication": {
+              "score": 10,
+              "notes": "Multiple typos ('bonuses' misspelled, repeated messages), repetitive screenshot requests without explaining why, and unclear follow-up questions."
+            },
+            "compliance": {
+              "score": 7,
+              "notes": "No policy violations but failed to properly document or escalate unresolved issue before closing."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed prematurely after only 2 minutes of silence while customer issue remained unresolved; closing message was appropriate but timing was poor."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 49,
+          "grade": "F",
+          "summary": "Agent provided initial troubleshooting but failed to investigate the account after customer confirmed steps didn't work. Chat was closed prematurely without resolution after only brief silence, leaving the customer's 3-day missing rewards issue unaddressed.",
+          "coaching_tip": "When troubleshooting steps fail, immediately escalate to account investigation rather than repeatedly requesting screenshots—check transaction history and claim logs on your end to identify the issue.",
+          "website": "Jackpot Daily",
+          "message_count": 32,
+          "raw_transcript": "[12:03:06 PM] t8907110058: Full Name: t8907110058 Email Address: stockx891@gmail.com Subject / How can we help you?: why am I not getting my daily reward I’ve claimed it for the last 3 days and it never shows in my balance\n[12:03:06 PM] t8907110058: Full Name: t8907110058 Email Address: stockx891@gmail.com Subject / How can we help you?: why am I not getting my daily reward I’ve claimed it for the last 3 days and it never shows in my balance\n[12:03:56 PM] Andrea Hernandez: Hi, This is Emily ill se assiting you today\n[12:03:56 PM] Andrea Hernandez: Hi, This is Emily ill se assiting you today\n[12:04:16 PM] t8907110058: Okay\n[12:04:16 PM] t8907110058: Okay\n[12:04:56 PM] Andrea Hernandez: I understand why that’s frustrating — if you’re claiming it and not seeing it, something’s off. Let’s break it down 👇\n\nA few common reasons this happens:\n\nThe reward may not fully credit until you refresh/log out and back in\nIt could be getting stuck in a game session (not returned to your main balance yet)\nThere may be a temporary delay or display issue\n\nPlease try this first:\n\nLog out and back in\nOpen your last game, let it load, then exit properly\n\nIf after that you still don’t see it, then we’ll need to check your claim history on the backend to see if it’s being issued but not credited.\n[12:04:56 PM] Andrea Hernandez: I understand why that’s frustrating — if you’re claiming it and not seeing it, something’s off. Let’s break it down 👇\n\nA few common reasons this happens:\n\nThe reward may not fully credit until you refresh/log out and back in\nIt could be getting stuck in a game session (not returned to your main balance yet)\nThere may be a temporary delay or display issue\n\nPlease try this first:\n\nLog out and back in\nOpen your last game, let it load, then exit properly\n\nIf after that you still don’t see it, then we’ll need to check your claim history on the backend to see if it’s being issued but not credited.\n[12:09:47 PM] t8907110058: That didn’t work\n[12:09:47 PM] t8907110058: That didn’t work\n[12:11:05 PM] t8907110058: Okay\n[12:11:05 PM] t8907110058: Okay\n[12:11:14 PM] Andrea Hernandez: Thank you for your time\n[12:11:14 PM] Andrea Hernandez: Thank you for your time\n[12:11:23 PM] Andrea Hernandez: let me review your account\n[12:11:23 PM] Andrea Hernandez: let me review your account\n[12:12:43 PM] Andrea Hernandez: Please send me a screenshot of where you dont see you bonuses\n[12:12:43 PM] Andrea Hernandez: Please send me a screenshot of where you dont see you bonuses\n[12:14:55 PM] t8907110058: My daily reward for the last 3 days has not reflected in my balance\n[12:14:55 PM] t8907110058: My daily reward for the last 3 days has not reflected in my balance\n[12:15:53 PM] Andrea Hernandez: Please send me a screenshot\n[12:15:53 PM] Andrea Hernandez: Please send me a screenshot\n[12:16:41 PM] t8907110058: I’ve also made a purchase this week and i didn’t get a surprise reward today?\n[12:16:41 PM] t8907110058: I’ve also made a purchase this week and i didn’t get a surprise reward today?\n[12:17:38 PM] Andrea Hernandez: for your sunday reward?\n[12:17:38 PM] Andrea Hernandez: for your sunday reward?\n[12:18:10 PM] Andrea Hernandez: I need a screenshot the balance not reflected please\n[12:18:10 PM] Andrea Hernandez: I need a screenshot the balance not reflected please\n[12:20:27 PM] Andrea Hernandez: Are you still there?\n[12:20:27 PM] Andrea Hernandez: Are you still there?\n[12:22:06 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help\n[12:22:06 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T12:26:57.536Z"
         }
       ],
-      "avg_score": 63,
+      "avg_score": 62,
       "grade": "D",
-      "trend": 5
+      "trend": -1
     },
     {
       "id": "5554",
@@ -33612,11 +33657,56 @@
           "raw_transcript": "[12:01:46 PM] Customer: Full Name: Juan Cruz Email Address: juangcruz1994@gmail.com Subject / How can we help you?: https://share.a7slot.com/10189778\n[12:01:46 PM] Customer: Full Name: Juan Cruz Email Address: juangcruz1994@gmail.com Subject / How can we help you?: https://share.a7slot.com/10189778\n[12:01:58 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[12:01:58 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[12:02:25 PM] Customer: Ok\n[12:02:25 PM] Customer: Ok\n[12:03:40 PM] Kenneth Aguilar: Can you explain more detailed the issue you're having so I can assist?\n[12:03:40 PM] Kenneth Aguilar: Can you explain more detailed the issue you're having so I can assist?\n[12:06:02 PM] Kenneth Aguilar: Hello, you still there?\n[12:06:02 PM] Kenneth Aguilar: Hello, you still there?\n[12:07:17 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:07:17 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T12:11:49.253Z"
+        },
+        {
+          "chat_id": "2048371850429116416",
+          "agent_name": "Kenneth Aguilar",
+          "agent_id": "5955",
+          "timestamp": "2026-04-26T12:26:06.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped straight to 'allow me one moment' without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent asked about errors but didn't fully explore the daily bonus SC crediting issue before pivoting to verification instructions."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Provided verification instructions but didn't address the core complaint about missing SC from daily bonuses or investigate the account."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional but somewhat generic; didn't acknowledge customer's frustration or the specific SC crediting problem."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; provided standard verification process information appropriately."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript ends abruptly with no closing from agent after sending verification instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 50,
+          "grade": "F",
+          "summary": "Agent failed to greet the customer and focused on verification instructions without adequately addressing the primary issue of missing SC from daily bonuses. The interaction lacked proper issue investigation and had no closing.",
+          "coaching_tip": "Always start with a proper greeting, then fully investigate the primary complaint (missing SC credits) before providing generic instructions—check the account first to see if bonuses were actually credited.",
+          "website": "Jackpot Daily",
+          "message_count": 72,
+          "raw_transcript": "[12:01:20 PM] t8206277991: Full Name: t8206277991 Email Address: schultzlife5@gmail.com Subject / How can we help you?: I cannot redeem points or verify my account\n[12:01:20 PM] t8206277991: Full Name: t8206277991 Email Address: schultzlife5@gmail.com Subject / How can we help you?: I cannot redeem points or verify my account\n[12:01:46 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[12:01:46 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[12:02:33 PM] t8206277991: I received two daily bonuses, but I did not get the SC\n[12:02:33 PM] t8206277991: I received two daily bonuses, but I did not get the SC\n[12:03:05 PM] Kenneth Aguilar: What error are you receiving when trying to verify the account or with the redemption?\n[12:03:05 PM] Kenneth Aguilar: What error are you receiving when trying to verify the account or with the redemption?\n[12:03:34 PM] t8206277991: It does the checkmark on a daily bonuses, but it doesn’t go to my account. It keeps saying that I only have six cents left.\n[12:03:34 PM] t8206277991: It does the checkmark on a daily bonuses, but it doesn’t go to my account. It keeps saying that I only have six cents left.\n[12:03:47 PM] t8206277991: it won’t let me update anything\n[12:03:47 PM] t8206277991: it won’t let me update anything\n[12:03:58 PM] t8206277991: I want to play this game, but it won’t let me\n[12:03:58 PM] t8206277991: I want to play this game, but it won’t let me\n[12:04:15 PM] t8206277991: I should have 2SC it does the checkmark, but it won’t go to the account\n[12:04:15 PM] t8206277991: I should have 2SC it does the checkmark, but it won’t go to the account\n[12:04:24 PM] Kenneth Aguilar: Okay, can you send me a screenshot please?\n[12:04:24 PM] Kenneth Aguilar: Okay, can you send me a screenshot please?\n[12:07:11 PM] Kenneth Aguilar: Hello, you still there?\n[12:07:11 PM] Kenneth Aguilar: Hello, you still there?\n[12:08:49 PM] t8206277991: Yes\n[12:08:49 PM] t8206277991: Yes\n[12:09:16 PM] Kenneth Aguilar: Please share a screenshot of the error.\n[12:09:16 PM] Kenneth Aguilar: Please share a screenshot of the error.\n[12:09:29 PM] t8206277991: I took screenshots, but it won’t let me post it on here\n[12:09:29 PM] t8206277991: I took screenshots, but it won’t let me post it on here\n[12:09:41 PM] t8206277991: A picture thing doesn’t pop up for me to post it\n[12:09:41 PM] t8206277991: A picture thing doesn’t pop up for me to post it\n[12:10:35 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:10:35 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:11:21 PM] t8206277991: But I have three screenshots of it if you look on my account, it will show you\n[12:11:21 PM] t8206277991: But I have three screenshots of it if you look on my account, it will show you\n[12:11:41 PM] Kenneth Aguilar: Give me a moment to review this information.\n[12:11:41 PM] Kenneth Aguilar: Give me a moment to review this information.\n[12:11:54 PM] t8206277991: Ok\n[12:11:54 PM] t8206277991: Ok\n[12:12:44 PM] Kenneth Aguilar: Let's get you verified — it's straightforward, I\npromise!\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[12:12:44 PM] Kenneth Aguilar: Let's get you verified — it's straightforward, I\npromise!\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[12:12:51 PM] Kenneth Aguilar: Please try these steps.\n[12:12:51 PM] Kenneth Aguilar: Please try these steps.\n[12:13:14 PM] t8206277991: IMG_1899.png\n[12:13:14 PM] t8206277991: IMG_1900.jpg\n[12:13:14 PM] t8206277991: IMG_1901.jpg\n[12:13:14 PM] t8206277991: IMG_1902.jpg\n[12:13:14 PM] t8206277991: IMG_1899.png\n[12:13:14 PM] t8206277991: IMG_1900.jpg\n[12:13:14 PM] t8206277991: IMG_1901.jpg\n[12:13:14 PM] t8206277991: IMG_1902.jpg\n[12:14:19 PM] t8206277991: I’m i’m verified already it’s not giving me my coins\n[12:14:19 PM] t8206277991: I’m i’m verified already it’s not giving me my coins\n[12:14:56 PM] Kenneth Aguilar: Okay, redemptions can't be processed on weekends.\n[12:14:56 PM] Kenneth Aguilar: Okay, redemptions can't be processed on weekends.\n[12:15:44 PM] t8206277991: So I’ll get the chips tomorrow?\n[12:15:44 PM] t8206277991: So I’ll get the chips tomorrow?\n[12:15:50 PM] t8206277991: on Monday\n[12:15:50 PM] t8206277991: on Monday\n[12:16:08 PM] Kenneth Aguilar: Yes, tomorrow redemptions can be processed.\n[12:16:08 PM] Kenneth Aguilar: Yes, tomorrow redemptions can be processed.\n[12:16:42 PM] t8206277991: It’s just a daily bonus though why the heck wouldn’t you get it? It makes no sense. It’s not like I’m trying to redeem money\n[12:16:42 PM] t8206277991: It’s just a daily bonus though why the heck wouldn’t you get it? It makes no sense. It’s not like I’m trying to redeem money\n[12:17:32 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:17:32 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:19:03 PM] Kenneth Aguilar: As I can see the daily bonus was already claimed.\n[12:19:03 PM] Kenneth Aguilar: As I can see the daily bonus was already claimed.\n[12:20:37 PM] t8206277991: Yeah, it’s claimed but never went to the account if you’re looking further and see my transactions you’ll put two and two together. It says I got it, but I definitely didn’t cause I was not able to use any tokens because there was none in the account. something is messing up.\n[12:20:37 PM] t8206277991: Yeah, it’s claimed but never went to the account if you’re looking further and see my transactions you’ll put two and two together. It says I got it, but I definitely didn’t cause I was not able to use any tokens because there was none in the account. something is messing up.\n[12:21:48 PM] Kenneth Aguilar: Okay, in this case.\n\nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:21:48 PM] Kenneth Aguilar: Okay, in this case.\n\nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:24:34 PM] Kenneth Aguilar: Hello, you still there?\n[12:24:34 PM] Kenneth Aguilar: Hello, you still there?\n[12:26:03 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:26:03 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T12:26:47.809Z"
         }
       ],
       "avg_score": 52,
       "grade": "F",
-      "trend": -1
+      "trend": -7
     },
     {
       "id": "5838",
@@ -70906,6 +70996,96 @@
       "raw_transcript": "[12:19:51 PM] Customer: Full Name: Vilma Garcia Email Address: vg2619596@gmail.com Subject / How can we help you?: Ver capturas de pantalla\n[12:19:51 PM] Customer: Full Name: Vilma Garcia Email Address: vg2619596@gmail.com Subject / How can we help you?: Ver capturas de pantalla",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T12:21:46.818Z"
+    },
+    {
+      "chat_id": "2048371850429116416",
+      "agent_name": "Kenneth Aguilar",
+      "agent_id": "5955",
+      "timestamp": "2026-04-26T12:26:06.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped straight to 'allow me one moment' without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent asked about errors but didn't fully explore the daily bonus SC crediting issue before pivoting to verification instructions."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Provided verification instructions but didn't address the core complaint about missing SC from daily bonuses or investigate the account."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Clear and professional but somewhat generic; didn't acknowledge customer's frustration or the specific SC crediting problem."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; provided standard verification process information appropriately."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript ends abruptly with no closing from agent after sending verification instructions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 50,
+      "grade": "F",
+      "summary": "Agent failed to greet the customer and focused on verification instructions without adequately addressing the primary issue of missing SC from daily bonuses. The interaction lacked proper issue investigation and had no closing.",
+      "coaching_tip": "Always start with a proper greeting, then fully investigate the primary complaint (missing SC credits) before providing generic instructions—check the account first to see if bonuses were actually credited.",
+      "website": "Jackpot Daily",
+      "message_count": 72,
+      "raw_transcript": "[12:01:20 PM] t8206277991: Full Name: t8206277991 Email Address: schultzlife5@gmail.com Subject / How can we help you?: I cannot redeem points or verify my account\n[12:01:20 PM] t8206277991: Full Name: t8206277991 Email Address: schultzlife5@gmail.com Subject / How can we help you?: I cannot redeem points or verify my account\n[12:01:46 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[12:01:46 PM] Kenneth Aguilar: Please allow me one moment to look into this for you!\n[12:02:33 PM] t8206277991: I received two daily bonuses, but I did not get the SC\n[12:02:33 PM] t8206277991: I received two daily bonuses, but I did not get the SC\n[12:03:05 PM] Kenneth Aguilar: What error are you receiving when trying to verify the account or with the redemption?\n[12:03:05 PM] Kenneth Aguilar: What error are you receiving when trying to verify the account or with the redemption?\n[12:03:34 PM] t8206277991: It does the checkmark on a daily bonuses, but it doesn’t go to my account. It keeps saying that I only have six cents left.\n[12:03:34 PM] t8206277991: It does the checkmark on a daily bonuses, but it doesn’t go to my account. It keeps saying that I only have six cents left.\n[12:03:47 PM] t8206277991: it won’t let me update anything\n[12:03:47 PM] t8206277991: it won’t let me update anything\n[12:03:58 PM] t8206277991: I want to play this game, but it won’t let me\n[12:03:58 PM] t8206277991: I want to play this game, but it won’t let me\n[12:04:15 PM] t8206277991: I should have 2SC it does the checkmark, but it won’t go to the account\n[12:04:15 PM] t8206277991: I should have 2SC it does the checkmark, but it won’t go to the account\n[12:04:24 PM] Kenneth Aguilar: Okay, can you send me a screenshot please?\n[12:04:24 PM] Kenneth Aguilar: Okay, can you send me a screenshot please?\n[12:07:11 PM] Kenneth Aguilar: Hello, you still there?\n[12:07:11 PM] Kenneth Aguilar: Hello, you still there?\n[12:08:49 PM] t8206277991: Yes\n[12:08:49 PM] t8206277991: Yes\n[12:09:16 PM] Kenneth Aguilar: Please share a screenshot of the error.\n[12:09:16 PM] Kenneth Aguilar: Please share a screenshot of the error.\n[12:09:29 PM] t8206277991: I took screenshots, but it won’t let me post it on here\n[12:09:29 PM] t8206277991: I took screenshots, but it won’t let me post it on here\n[12:09:41 PM] t8206277991: A picture thing doesn’t pop up for me to post it\n[12:09:41 PM] t8206277991: A picture thing doesn’t pop up for me to post it\n[12:10:35 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:10:35 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:11:21 PM] t8206277991: But I have three screenshots of it if you look on my account, it will show you\n[12:11:21 PM] t8206277991: But I have three screenshots of it if you look on my account, it will show you\n[12:11:41 PM] Kenneth Aguilar: Give me a moment to review this information.\n[12:11:41 PM] Kenneth Aguilar: Give me a moment to review this information.\n[12:11:54 PM] t8206277991: Ok\n[12:11:54 PM] t8206277991: Ok\n[12:12:44 PM] Kenneth Aguilar: Let's get you verified — it's straightforward, I\npromise!\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[12:12:44 PM] Kenneth Aguilar: Let's get you verified — it's straightforward, I\npromise!\n\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\nLet me know if anything trips you up along the way!\n[12:12:51 PM] Kenneth Aguilar: Please try these steps.\n[12:12:51 PM] Kenneth Aguilar: Please try these steps.\n[12:13:14 PM] t8206277991: IMG_1899.png\n[12:13:14 PM] t8206277991: IMG_1900.jpg\n[12:13:14 PM] t8206277991: IMG_1901.jpg\n[12:13:14 PM] t8206277991: IMG_1902.jpg\n[12:13:14 PM] t8206277991: IMG_1899.png\n[12:13:14 PM] t8206277991: IMG_1900.jpg\n[12:13:14 PM] t8206277991: IMG_1901.jpg\n[12:13:14 PM] t8206277991: IMG_1902.jpg\n[12:14:19 PM] t8206277991: I’m i’m verified already it’s not giving me my coins\n[12:14:19 PM] t8206277991: I’m i’m verified already it’s not giving me my coins\n[12:14:56 PM] Kenneth Aguilar: Okay, redemptions can't be processed on weekends.\n[12:14:56 PM] Kenneth Aguilar: Okay, redemptions can't be processed on weekends.\n[12:15:44 PM] t8206277991: So I’ll get the chips tomorrow?\n[12:15:44 PM] t8206277991: So I’ll get the chips tomorrow?\n[12:15:50 PM] t8206277991: on Monday\n[12:15:50 PM] t8206277991: on Monday\n[12:16:08 PM] Kenneth Aguilar: Yes, tomorrow redemptions can be processed.\n[12:16:08 PM] Kenneth Aguilar: Yes, tomorrow redemptions can be processed.\n[12:16:42 PM] t8206277991: It’s just a daily bonus though why the heck wouldn’t you get it? It makes no sense. It’s not like I’m trying to redeem money\n[12:16:42 PM] t8206277991: It’s just a daily bonus though why the heck wouldn’t you get it? It makes no sense. It’s not like I’m trying to redeem money\n[12:17:32 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:17:32 PM] Kenneth Aguilar: Okay, please allow me one moment.\n[12:19:03 PM] Kenneth Aguilar: As I can see the daily bonus was already claimed.\n[12:19:03 PM] Kenneth Aguilar: As I can see the daily bonus was already claimed.\n[12:20:37 PM] t8206277991: Yeah, it’s claimed but never went to the account if you’re looking further and see my transactions you’ll put two and two together. It says I got it, but I definitely didn’t cause I was not able to use any tokens because there was none in the account. something is messing up.\n[12:20:37 PM] t8206277991: Yeah, it’s claimed but never went to the account if you’re looking further and see my transactions you’ll put two and two together. It says I got it, but I definitely didn’t cause I was not able to use any tokens because there was none in the account. something is messing up.\n[12:21:48 PM] Kenneth Aguilar: Okay, in this case.\n\nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:21:48 PM] Kenneth Aguilar: Okay, in this case.\n\nPlease email support@jackpotdaily.com with a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:24:34 PM] Kenneth Aguilar: Hello, you still there?\n[12:24:34 PM] Kenneth Aguilar: Hello, you still there?\n[12:26:03 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:26:03 PM] Kenneth Aguilar: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T12:26:47.809Z"
+    },
+    {
+      "chat_id": "2048372295051079680",
+      "agent_name": "Andrea Hernandez",
+      "agent_id": "5551",
+      "timestamp": "2026-04-26T12:22:09.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "Greeting present but contained typo ('ill se assiting') and lacked polish or personalization."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic issue but failed to gather key details like dates, amounts, or account specifics before requesting screenshots."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Provided generic troubleshooting but never escalated or investigated the account despite customer confirming steps didn't work; closed chat without resolution."
+        },
+        "communication": {
+          "score": 10,
+          "notes": "Multiple typos ('bonuses' misspelled, repeated messages), repetitive screenshot requests without explaining why, and unclear follow-up questions."
+        },
+        "compliance": {
+          "score": 7,
+          "notes": "No policy violations but failed to properly document or escalate unresolved issue before closing."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed prematurely after only 2 minutes of silence while customer issue remained unresolved; closing message was appropriate but timing was poor."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 49,
+      "grade": "F",
+      "summary": "Agent provided initial troubleshooting but failed to investigate the account after customer confirmed steps didn't work. Chat was closed prematurely without resolution after only brief silence, leaving the customer's 3-day missing rewards issue unaddressed.",
+      "coaching_tip": "When troubleshooting steps fail, immediately escalate to account investigation rather than repeatedly requesting screenshots—check transaction history and claim logs on your end to identify the issue.",
+      "website": "Jackpot Daily",
+      "message_count": 32,
+      "raw_transcript": "[12:03:06 PM] t8907110058: Full Name: t8907110058 Email Address: stockx891@gmail.com Subject / How can we help you?: why am I not getting my daily reward I’ve claimed it for the last 3 days and it never shows in my balance\n[12:03:06 PM] t8907110058: Full Name: t8907110058 Email Address: stockx891@gmail.com Subject / How can we help you?: why am I not getting my daily reward I’ve claimed it for the last 3 days and it never shows in my balance\n[12:03:56 PM] Andrea Hernandez: Hi, This is Emily ill se assiting you today\n[12:03:56 PM] Andrea Hernandez: Hi, This is Emily ill se assiting you today\n[12:04:16 PM] t8907110058: Okay\n[12:04:16 PM] t8907110058: Okay\n[12:04:56 PM] Andrea Hernandez: I understand why that’s frustrating — if you’re claiming it and not seeing it, something’s off. Let’s break it down 👇\n\nA few common reasons this happens:\n\nThe reward may not fully credit until you refresh/log out and back in\nIt could be getting stuck in a game session (not returned to your main balance yet)\nThere may be a temporary delay or display issue\n\nPlease try this first:\n\nLog out and back in\nOpen your last game, let it load, then exit properly\n\nIf after that you still don’t see it, then we’ll need to check your claim history on the backend to see if it’s being issued but not credited.\n[12:04:56 PM] Andrea Hernandez: I understand why that’s frustrating — if you’re claiming it and not seeing it, something’s off. Let’s break it down 👇\n\nA few common reasons this happens:\n\nThe reward may not fully credit until you refresh/log out and back in\nIt could be getting stuck in a game session (not returned to your main balance yet)\nThere may be a temporary delay or display issue\n\nPlease try this first:\n\nLog out and back in\nOpen your last game, let it load, then exit properly\n\nIf after that you still don’t see it, then we’ll need to check your claim history on the backend to see if it’s being issued but not credited.\n[12:09:47 PM] t8907110058: That didn’t work\n[12:09:47 PM] t8907110058: That didn’t work\n[12:11:05 PM] t8907110058: Okay\n[12:11:05 PM] t8907110058: Okay\n[12:11:14 PM] Andrea Hernandez: Thank you for your time\n[12:11:14 PM] Andrea Hernandez: Thank you for your time\n[12:11:23 PM] Andrea Hernandez: let me review your account\n[12:11:23 PM] Andrea Hernandez: let me review your account\n[12:12:43 PM] Andrea Hernandez: Please send me a screenshot of where you dont see you bonuses\n[12:12:43 PM] Andrea Hernandez: Please send me a screenshot of where you dont see you bonuses\n[12:14:55 PM] t8907110058: My daily reward for the last 3 days has not reflected in my balance\n[12:14:55 PM] t8907110058: My daily reward for the last 3 days has not reflected in my balance\n[12:15:53 PM] Andrea Hernandez: Please send me a screenshot\n[12:15:53 PM] Andrea Hernandez: Please send me a screenshot\n[12:16:41 PM] t8907110058: I’ve also made a purchase this week and i didn’t get a surprise reward today?\n[12:16:41 PM] t8907110058: I’ve also made a purchase this week and i didn’t get a surprise reward today?\n[12:17:38 PM] Andrea Hernandez: for your sunday reward?\n[12:17:38 PM] Andrea Hernandez: for your sunday reward?\n[12:18:10 PM] Andrea Hernandez: I need a screenshot the balance not reflected please\n[12:18:10 PM] Andrea Hernandez: I need a screenshot the balance not reflected please\n[12:20:27 PM] Andrea Hernandez: Are you still there?\n[12:20:27 PM] Andrea Hernandez: Are you still there?\n[12:22:06 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help\n[12:22:06 PM] Andrea Hernandez: Since I haven’t heard back from you, I’ll go ahead and close this chat for now. If you still need assistance, please feel free to reach us anytime at If you still need assistance, please feel free to reach us anytime at support@jackpotdaily.com — we’ll be happy to help",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T12:26:57.536Z"
     }
   ]
 }
