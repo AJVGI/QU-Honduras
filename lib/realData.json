@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-26T14:16:45.575Z",
-  "total_chats": 798,
+  "scored_at": "2026-04-26T14:21:45.605Z",
+  "total_chats": 799,
   "total_agents": 28,
   "agents": [
     {
@@ -1284,6 +1284,51 @@
           "raw_transcript": "[01:02:26 PM] t2372400654: Full Name: t2372400654 Email Address: mayhem5001@gmail.com Subject / How can we help you?: Where is my sign up bonus\n[01:02:26 PM] t2372400654: Full Name: t2372400654 Email Address: mayhem5001@gmail.com Subject / How can we help you?: Where is my sign up bonus\n[01:02:49 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[01:02:49 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[01:02:53 PM] t2372400654: Hello\n[01:02:53 PM] t2372400654: Hello\n[01:03:43 PM] Maritza Caceres: Welcome aboard — so excited to have you here!\nYour welcome bonus is super easy to claim:\n1. Create your account\n2. Verify your email address\n3. Verify your phone number\nOnce both are done, you'll automatically get:\n2 Sweepstakes Coins\n100,000 Gold Coins\nNo extra steps — just verify and you're good to go\n[01:03:43 PM] Maritza Caceres: Welcome aboard — so excited to have you here!\nYour welcome bonus is super easy to claim:\n1. Create your account\n2. Verify your email address\n3. Verify your phone number\nOnce both are done, you'll automatically get:\n2 Sweepstakes Coins\n100,000 Gold Coins\nNo extra steps — just verify and you're good to go\n[01:04:04 PM] t2372400654: I did verify\n[01:04:04 PM] t2372400654: I did verify\n[01:05:36 PM] Maritza Caceres: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\n[01:05:36 PM] Maritza Caceres: Let's get you verified — it's straightforward, I\npromise!\n1. Log in at www.jackpotdaily.com\n2. Click the \"Redeem\" tab in the left sidebar\n3. If you're not verified yet, you'll see an option to start right there\n4. Follow the steps — the process is powered by Socure, our trusted verification\npartner. You may need your smartphone to scan a QR code.\n5. Upload a clear photo of your government-issued ID (front and back) and a selfie\nAccepted IDs: Driver's Licence, State/National ID, Passport\nIf our system needs additional info, you may also receive a secure link from us to\nupload your documents directly — it's safe to use!\n[01:09:13 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[01:09:13 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[01:13:05 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!\n[01:13:05 PM] Maritza Caceres: Let me know if anything else comes up — always happy to help!",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T13:16:49.368Z"
+        },
+        {
+          "chat_id": "2048402875975155712",
+          "agent_name": "Maritza Caceres",
+          "agent_id": "5800",
+          "timestamp": "2026-04-26T14:16:43.000Z",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm, welcoming greeting with clear offer to help and acknowledgment of wait time."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent understood the issue and asked a clarifying follow-up question about what information was wrong."
+            },
+            "resolution": {
+              "score": 20,
+              "notes": "Provided clear escalation path with specific instructions for email submission including ID verification requirements."
+            },
+            "communication": {
+              "score": 16,
+              "notes": "Professional and clear throughout, with appropriate check-in after customer silence."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly explained security policy and followed correct verification procedures for profile changes."
+            },
+            "closing": {
+              "score": 5,
+              "notes": "Closing was apologetic but abrupt with no offer for further assistance or proper goodbye."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 72,
+          "grade": "C",
+          "summary": "Agent handled the profile change request professionally by explaining security policies and providing clear escalation instructions with ID verification requirements. The interaction was competent but the closing was weak with no proper farewell or offer of additional help.",
+          "coaching_tip": "Always end chats with a proper closing that includes both an offer for further assistance and a clear goodbye, even when the customer has stopped responding.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-26T14:21:45.103Z"
         }
       ],
       "avg_score": 67,
@@ -72076,6 +72121,51 @@
       "raw_transcript": "[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:06:59 PM] t5759352054: Full Name: t5759352054 Email Address: twantiff10@gmail.com Subject / How can we help you?: Im new comer didn't receive my reward\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:08:30 PM] Angie Pereira: Hi. Thanks for reaching out — happy to help!\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:09:37 PM] t5759352054: Im new player and didn't receive my bonus reward\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:10:04 PM] Angie Pereira: Please allow me one moment to look into this for you!\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:12:46 PM] Angie Pereira: Perfect next step will the KYC (identity verification) that is needed before you can make purchases, request redemptions, or access bonuses — but it's quick, I promise!\nHere's how to do it:\n1. Log in and click \"Buy Gold Coins\" at the top of the page\n2. Click \"Get Verified\"\n3. Follow the steps from there — the process is powered by Socure, our trusted\nverification partner\n4. Upload a selfie and a valid government-issued ID\nA few things to keep in mind for your ID:\n- Must be government-issued and not expired\n- Must show your date of birth\n- All 4 corners must be visible\n- Front and back required (JPEG or PNG only)\n- No screenshots from a PC or phone\nIf our system needs a bit more info to confirm your identity, you might receive a\nsecure link from us. That link is completely safe — just click it and follow the upload\nsteps.\n[02:13:52 PM] t5759352054: OK\n[02:13:52 PM] t5759352054: OK\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:17 PM] Angie Pereira: Perfect! Let me know if anything else comes up — always happy to help!\n[02:14:57 PM] t5759352054: OK\n[02:14:57 PM] t5759352054: OK\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!\n[02:15:14 PM] Angie Pereira: Thanks for chatting with us. Hope you enjoy your games — good luck out there!",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-26T14:16:45.074Z"
+    },
+    {
+      "chat_id": "2048402875975155712",
+      "agent_name": "Maritza Caceres",
+      "agent_id": "5800",
+      "timestamp": "2026-04-26T14:16:43.000Z",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm, welcoming greeting with clear offer to help and acknowledgment of wait time."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent understood the issue and asked a clarifying follow-up question about what information was wrong."
+        },
+        "resolution": {
+          "score": 20,
+          "notes": "Provided clear escalation path with specific instructions for email submission including ID verification requirements."
+        },
+        "communication": {
+          "score": 16,
+          "notes": "Professional and clear throughout, with appropriate check-in after customer silence."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly explained security policy and followed correct verification procedures for profile changes."
+        },
+        "closing": {
+          "score": 5,
+          "notes": "Closing was apologetic but abrupt with no offer for further assistance or proper goodbye."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 72,
+      "grade": "C",
+      "summary": "Agent handled the profile change request professionally by explaining security policies and providing clear escalation instructions with ID verification requirements. The interaction was competent but the closing was weak with no proper farewell or offer of additional help.",
+      "coaching_tip": "Always end chats with a proper closing that includes both an offer for further assistance and a clear goodbye, even when the customer has stopped responding.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:04:37 PM] t4188811782: Full Name: t4188811782 Email Address: cochranshamanda23@gmail.com Subject / How can we help you?: How do I change my profile info some of it is wrong\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:05:20 PM] Maritza Caceres: Hey! Welcome to Jackpot Daily support — I'm here to help! Please allow me one moment to look into this for you!\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:07:49 PM] Maritza Caceres: For security reasons and to keep our platform compliant, details like your Full Name, Date of Birth, Email Address, or Residential Address cannot be changed manually once they are saved.\n\nSince you mentioned some of your info is wrong, we’ll need to update it for you manually. To get this sorted, please send an email to support@jackpotdaily.com with the following:\n\nA brief explanation of what needs to be corrected.\n\nA clear photo of the front of your government-issued ID (to verify the correct details).\n\nThe specific info you need us to change\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:10:07 PM] Maritza Caceres: What information is wrong?\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:14:52 PM] Maritza Caceres: I haven't received a response in the last four minutes and just wanted to make sure you're still there.\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!\n[02:16:38 PM] Maritza Caceres: I'm really sorry I couldn't fully resolve this today  — our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-26T14:21:45.103Z"
     }
   ]
 }
