@@ -1,12 +1,283 @@
 {
-  "scored_at": "2026-04-27T00:38:02.902Z",
-  "total_chats": 8,
+  "scored_at": "2026-04-27T00:38:40.532Z",
+  "total_chats": 10,
   "total_agents": 4,
   "agents": [
     {
       "id": "5552",
       "name": "Eliezer Mejia",
       "chats": [
+        {
+          "chat_id": "2048551152987238400",
+          "agent_id": "5552",
+          "agent_name": "Eliezer Mejia",
+          "timestamp": "2026-04-27T00:03:30.000Z",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "total_score": 65,
+          "grade": "D",
+          "categories": {
+            "greeting": {
+              "score": 8,
+              "notes": "Warm greeting with customer name and appreciation for reaching out."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent acknowledged the issue but did not ask clarifying questions about the customer's specific situation or offer alternative solutions."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Informed customer of known Facebook login issue but provided no workaround, timeline, or proactive next steps for account access."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Clear and empathetic language with appropriate apology, though the message appears cut off in the transcript."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises made."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further assistance and provided friendly closing, though slightly premature given unresolved access issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "summary": "Agent professionally acknowledged a known Facebook login issue and provided empathetic communication. However, the agent missed opportunities to explore workarounds, gather account details for manual assistance, or provide a timeline for resolution.",
+          "strengths": [
+            "Used customer's name and maintained warm, empathetic tone throughout",
+            "Acknowledged known issue transparently and apologized appropriately",
+            "Professional communication with clear language"
+          ],
+          "weaknesses": [
+            "Did not explore alternative login methods or offer to manually verify/reset the account",
+            "Closed chat without ensuring customer had a path forward to access their account",
+            "No follow-up questions about account details that could enable immediate assistance"
+          ],
+          "coaching_tip": "When informing customers of known issues, always provide alternative solutions or proactive next steps rather than leaving them without access—offer to manually verify their account, create a support ticket, or provide a specific timeline for resolution.",
+          "message_analysis": [
+            {
+              "msg_id": "MSG-01",
+              "speaker": "CUSTOMER",
+              "text": "Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:53:49 PM",
+              "timestamp_iso": "2026-04-26T23:53:49.000Z"
+            },
+            {
+              "msg_id": "MSG-02",
+              "speaker": "CUSTOMER",
+              "text": "Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:53:49 PM",
+              "timestamp_iso": "2026-04-26T23:53:49.000Z"
+            },
+            {
+              "msg_id": "MSG-03",
+              "speaker": "CUSTOMER",
+              "text": "I originally signed up through my facebook but I do not have access to the email address and it's saying my account is not",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:55:57 PM",
+              "timestamp_iso": "2026-04-26T23:55:57.000Z"
+            },
+            {
+              "msg_id": "MSG-04",
+              "speaker": "CUSTOMER",
+              "text": "I originally signed up through my facebook but I do not have access to the email address and it's saying my account is not",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:55:57 PM",
+              "timestamp_iso": "2026-04-26T23:55:57.000Z"
+            },
+            {
+              "msg_id": "MSG-05",
+              "speaker": "AGENT",
+              "text": "Please allow me one moment to look into this for you!",
+              "rating": "good",
+              "positives": [
+                "Sets expectation for brief wait time",
+                "Professional and courteous tone"
+              ],
+              "issues": [],
+              "suggestion": null,
+              "tags": [
+                "discovery"
+              ],
+              "timestamp": "11:56:02 PM",
+              "timestamp_iso": "2026-04-26T23:56:02.000Z"
+            },
+            {
+              "msg_id": "MSG-06",
+              "speaker": "AGENT",
+              "text": "Please allow me one moment to look into this for you!",
+              "rating": "good",
+              "positives": [
+                "Sets expectation for brief wait time",
+                "Professional and courteous tone"
+              ],
+              "issues": [],
+              "suggestion": null,
+              "tags": [
+                "discovery"
+              ],
+              "timestamp": "11:56:02 PM",
+              "timestamp_iso": "2026-04-26T23:56:02.000Z"
+            },
+            {
+              "msg_id": "MSG-07",
+              "speaker": "AGENT",
+              "text": "Hi Kiterrial, Thank you for reaching out to us! We're so sorry if you've been having some trouble getting into your account. We",
+              "rating": "needs_improvement",
+              "positives": [
+                "Used customer's name for personalization",
+                "Empathetic apology and acknowledgment of known issue",
+                "Transparent about the problem"
+              ],
+              "issues": [
+                "No alternative solutions offered for immediate account access",
+                "Did not ask for account details to provide manual assistance",
+                "No timeline provided for resolution"
+              ],
+              "suggestion": "Hi Kiterrial, Thank you for reaching out! We're so sorry you're having trouble logging in. We're aware of a Facebook login issue affecting some players. While our team works on this, I can help you set up direct email login as an alternative. Can you confirm the phone number on your account so I can verify and assist you right away?",
+              "tags": [
+                "greeting",
+                "empathy",
+                "resolution",
+                "discovery"
+              ],
+              "timestamp": "12:00:10 AM",
+              "timestamp_iso": "2026-04-27T00:00:10.000Z"
+            },
+            {
+              "msg_id": "MSG-08",
+              "speaker": "AGENT",
+              "text": "Hi Kiterrial, Thank you for reaching out to us! We're so sorry if you've been having some trouble getting into your account. We",
+              "rating": "needs_improvement",
+              "positives": [
+                "Used customer's name for personalization",
+                "Empathetic apology and acknowledgment of known issue",
+                "Transparent about the problem"
+              ],
+              "issues": [
+                "No alternative solutions offered for immediate account access",
+                "Did not ask for account details to provide manual assistance",
+                "No timeline provided for resolution"
+              ],
+              "suggestion": "Hi Kiterrial, Thank you for reaching out! We're so sorry you're having trouble logging in. We're aware of a Facebook login issue affecting some players. While our team works on this, I can help you set up direct email login as an alternative. Can you confirm the phone number on your account so I can verify and assist you right away?",
+              "tags": [
+                "greeting",
+                "empathy",
+                "resolution",
+                "discovery"
+              ],
+              "timestamp": "12:00:10 AM",
+              "timestamp_iso": "2026-04-27T00:00:10.000Z"
+            },
+            {
+              "msg_id": "MSG-09",
+              "speaker": "AGENT",
+              "text": "Is there anything else I can help you with today?",
+              "rating": "needs_improvement",
+              "positives": [
+                "Offers additional assistance"
+              ],
+              "issues": [
+                "Premature closing when customer still cannot access their account",
+                "Does not confirm customer satisfaction with the resolution"
+              ],
+              "suggestion": "I understand this is frustrating since you still can't access your account. Would you like me to create a priority support ticket with your details so our team can manually restore your access? I can also send you updates via email at kiterrialp@yahoo.com.",
+              "tags": [
+                "closing",
+                "resolution"
+              ],
+              "timestamp": "12:02:37 AM",
+              "timestamp_iso": "2026-04-27T00:02:37.000Z"
+            },
+            {
+              "msg_id": "MSG-10",
+              "speaker": "AGENT",
+              "text": "Is there anything else I can help you with today?",
+              "rating": "needs_improvement",
+              "positives": [
+                "Offers additional assistance"
+              ],
+              "issues": [
+                "Premature closing when customer still cannot access their account",
+                "Does not confirm customer satisfaction with the resolution"
+              ],
+              "suggestion": "I understand this is frustrating since you still can't access your account. Would you like me to create a priority support ticket with your details so our team can manually restore your access? I can also send you updates via email at kiterrialp@yahoo.com.",
+              "tags": [
+                "closing",
+                "resolution"
+              ],
+              "timestamp": "12:02:37 AM",
+              "timestamp_iso": "2026-04-27T00:02:37.000Z"
+            },
+            {
+              "msg_id": "MSG-11",
+              "speaker": "AGENT",
+              "text": "Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+              "rating": "needs_improvement",
+              "positives": [
+                "Friendly and warm closing tone"
+              ],
+              "issues": [
+                "Inappropriate closing message given customer cannot access games",
+                "Assumes resolution when customer still has no account access"
+              ],
+              "suggestion": "Thank you for your patience, Kiterrial. We'll keep you updated on the Facebook login fix. If you need immediate assistance accessing your account, please email support@jackpotdaily.com and reference this chat. We're here to help!",
+              "tags": [
+                "closing",
+                "tone"
+              ],
+              "timestamp": "12:03:27 AM",
+              "timestamp_iso": "2026-04-27T00:03:27.000Z"
+            },
+            {
+              "msg_id": "MSG-12",
+              "speaker": "AGENT",
+              "text": "Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+              "rating": "needs_improvement",
+              "positives": [
+                "Friendly and warm closing tone"
+              ],
+              "issues": [
+                "Inappropriate closing message given customer cannot access games",
+                "Assumes resolution when customer still has no account access"
+              ],
+              "suggestion": "Thank you for your patience, Kiterrial. We'll keep you updated on the Facebook login fix. If you need immediate assistance accessing your account, please email support@jackpotdaily.com and reference this chat. We're here to help!",
+              "tags": [
+                "closing",
+                "tone"
+              ],
+              "timestamp": "12:03:27 AM",
+              "timestamp_iso": "2026-04-27T00:03:27.000Z"
+            }
+          ],
+          "raw_transcript": "[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "deep_scored": true,
+          "scored_with": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-27T00:38:40.128Z",
+          "created_at": "2026-04-27 00:38:40"
+        },
         {
           "chat_id": "2048553459761590272",
           "agent_id": "5552",
@@ -124,8 +395,8 @@
           "created_at": "2026-04-27 00:37:20"
         }
       ],
-      "avg_score": 73,
-      "grade": "C",
+      "avg_score": 69,
+      "grade": "D",
       "trend": 0
     },
     {
@@ -1339,6 +1610,440 @@
       "name": "Marlon Cibrian",
       "chats": [
         {
+          "chat_id": "2048550402441129984",
+          "agent_id": "5805",
+          "agent_name": "Marlon Cibrian",
+          "timestamp": "2026-04-27T00:04:01.000Z",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "total_score": 56,
+          "grade": "F",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided; agent started with a slash character and then asked for time without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions about the error message and confirmed the issue, though could have probed deeper about what specifically happens when attempting to redeem."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent provided standard troubleshooting steps and requested a screenshot for escalation, but did not fully resolve or confirm next steps if troubleshooting fails."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Professional and clear language throughout, though lacked warmth and empathy when customer expressed frustration about meeting requirements."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; agent correctly referenced the 100 SC play requirement."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing provided; chat ended abruptly with a repeated request for a screenshot without confirming understanding or offering further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "summary": "Agent handled a redemption issue with basic troubleshooting but failed to provide a proper greeting or closing. The interaction was functional but lacked warmth, and the agent did not establish clear next steps or follow-up procedures.",
+          "strengths": [
+            "Asked clarifying questions to understand the specific issue",
+            "Provided relevant troubleshooting steps including logout/login and screenshot request"
+          ],
+          "weaknesses": [
+            "Completely omitted greeting and closing",
+            "Did not acknowledge customer's frustration or provide empathy when they confirmed meeting the 100 SC requirement",
+            "Failed to establish clear escalation path or timeline for resolution"
+          ],
+          "coaching_tip": "Always open with a warm greeting using the customer's name and close by summarizing next steps and offering continued assistance—these bookends are critical for customer satisfaction even when technical issues remain unresolved.",
+          "message_analysis": [
+            {
+              "msg_id": "MSG-01",
+              "speaker": "CUSTOMER",
+              "text": "Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:50:50 PM",
+              "timestamp_iso": "2026-04-26T23:50:50.000Z"
+            },
+            {
+              "msg_id": "MSG-02",
+              "speaker": "CUSTOMER",
+              "text": "Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:50:50 PM",
+              "timestamp_iso": "2026-04-26T23:50:50.000Z"
+            },
+            {
+              "msg_id": "MSG-03",
+              "speaker": "AGENT",
+              "text": "/",
+              "rating": "poor",
+              "positives": [],
+              "issues": [
+                "Sent a meaningless slash character instead of a greeting",
+                "No acknowledgment of the customer or their issue"
+              ],
+              "suggestion": "Hello! Thank you for contacting Jackpot Daily support. My name is Marlon, and I'll be happy to help you with your redemption issue today.",
+              "tags": [
+                "greeting",
+                "tone"
+              ],
+              "timestamp": "11:51:17 PM",
+              "timestamp_iso": "2026-04-26T23:51:17.000Z"
+            },
+            {
+              "msg_id": "MSG-04",
+              "speaker": "AGENT",
+              "text": "/",
+              "rating": "poor",
+              "positives": [],
+              "issues": [
+                "Duplicate message due to system issue"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:51:17 PM",
+              "timestamp_iso": "2026-04-26T23:51:17.000Z"
+            },
+            {
+              "msg_id": "MSG-05",
+              "speaker": "AGENT",
+              "text": "Please allow me one moment to look into this for you!",
+              "rating": "good",
+              "positives": [
+                "Sets expectation for brief wait time",
+                "Professional and courteous tone"
+              ],
+              "issues": [],
+              "suggestion": null,
+              "tags": [
+                "tone"
+              ],
+              "timestamp": "11:51:29 PM",
+              "timestamp_iso": "2026-04-26T23:51:29.000Z"
+            },
+            {
+              "msg_id": "MSG-06",
+              "speaker": "AGENT",
+              "text": "Please allow me one moment to look into this for you!",
+              "rating": "na",
+              "positives": [],
+              "issues": [
+                "Duplicate message"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:51:29 PM",
+              "timestamp_iso": "2026-04-26T23:51:29.000Z"
+            },
+            {
+              "msg_id": "MSG-07",
+              "speaker": "CUSTOMER",
+              "text": "Ok",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:51:42 PM",
+              "timestamp_iso": "2026-04-26T23:51:42.000Z"
+            },
+            {
+              "msg_id": "MSG-08",
+              "speaker": "CUSTOMER",
+              "text": "Ok",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:51:42 PM",
+              "timestamp_iso": "2026-04-26T23:51:42.000Z"
+            },
+            {
+              "msg_id": "MSG-09",
+              "speaker": "AGENT",
+              "text": "Just to confirm—are you having trouble redeeming?",
+              "rating": "good",
+              "positives": [
+                "Confirms understanding of the issue",
+                "Uses clear, simple language"
+              ],
+              "issues": [],
+              "suggestion": null,
+              "tags": [
+                "discovery"
+              ],
+              "timestamp": "11:52:04 PM",
+              "timestamp_iso": "2026-04-26T23:52:04.000Z"
+            },
+            {
+              "msg_id": "MSG-10",
+              "speaker": "AGENT",
+              "text": "Just to confirm—are you having trouble redeeming?",
+              "rating": "na",
+              "positives": [],
+              "issues": [
+                "Duplicate message"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:52:04 PM",
+              "timestamp_iso": "2026-04-26T23:52:04.000Z"
+            },
+            {
+              "msg_id": "MSG-11",
+              "speaker": "CUSTOMER",
+              "text": "yes",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:52:15 PM",
+              "timestamp_iso": "2026-04-26T23:52:15.000Z"
+            },
+            {
+              "msg_id": "MSG-12",
+              "speaker": "CUSTOMER",
+              "text": "yes",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:52:15 PM",
+              "timestamp_iso": "2026-04-26T23:52:15.000Z"
+            },
+            {
+              "msg_id": "MSG-13",
+              "speaker": "AGENT",
+              "text": "Could you please confirm what error message you receive when attempting to redeem?",
+              "rating": "excellent",
+              "positives": [
+                "Asks specific diagnostic question",
+                "Professional and polite phrasing",
+                "Gathers information needed for troubleshooting"
+              ],
+              "issues": [],
+              "suggestion": null,
+              "tags": [
+                "discovery"
+              ],
+              "timestamp": "11:53:11 PM",
+              "timestamp_iso": "2026-04-26T23:53:11.000Z"
+            },
+            {
+              "msg_id": "MSG-14",
+              "speaker": "AGENT",
+              "text": "Could you please confirm what error message you receive when attempting to redeem?",
+              "rating": "na",
+              "positives": [],
+              "issues": [
+                "Duplicate message"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:53:11 PM",
+              "timestamp_iso": "2026-04-26T23:53:11.000Z"
+            },
+            {
+              "msg_id": "MSG-15",
+              "speaker": "CUSTOMER",
+              "text": "No error message just will not let redeem",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:54:36 PM",
+              "timestamp_iso": "2026-04-26T23:54:36.000Z"
+            },
+            {
+              "msg_id": "MSG-16",
+              "speaker": "CUSTOMER",
+              "text": "No error message just will not let redeem",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:54:36 PM",
+              "timestamp_iso": "2026-04-26T23:54:36.000Z"
+            },
+            {
+              "msg_id": "MSG-17",
+              "speaker": "AGENT",
+              "text": "Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.",
+              "rating": "needs_improvement",
+              "positives": [
+                "Provides relevant policy information",
+                "Offers a troubleshooting step"
+              ],
+              "issues": [
+                "Tone could be perceived as condescending with 'Please remember'",
+                "Should have asked if they met the requirement rather than assuming they didn't"
+              ],
+              "suggestion": "I can see you're trying to redeem. Just to confirm, have you played through at least 100 SC? If so, let's try logging out and back in to see if that resolves the issue.",
+              "tags": [
+                "policy",
+                "tone",
+                "resolution"
+              ],
+              "timestamp": "11:55:40 PM",
+              "timestamp_iso": "2026-04-26T23:55:40.000Z"
+            },
+            {
+              "msg_id": "MSG-18",
+              "speaker": "AGENT",
+              "text": "Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.",
+              "rating": "na",
+              "positives": [],
+              "issues": [
+                "Duplicate message"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:55:40 PM",
+              "timestamp_iso": "2026-04-26T23:55:40.000Z"
+            },
+            {
+              "msg_id": "MSG-19",
+              "speaker": "CUSTOMER",
+              "text": "I did play a100sc actually more",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:56:58 PM",
+              "timestamp_iso": "2026-04-26T23:56:58.000Z"
+            },
+            {
+              "msg_id": "MSG-20",
+              "speaker": "CUSTOMER",
+              "text": "I did play a100sc actually more",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:56:58 PM",
+              "timestamp_iso": "2026-04-26T23:56:58.000Z"
+            },
+            {
+              "msg_id": "MSG-21",
+              "speaker": "AGENT",
+              "text": "Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.",
+              "rating": "needs_improvement",
+              "positives": [
+                "Provides clear troubleshooting steps",
+                "Requests screenshot for further investigation"
+              ],
+              "issues": [
+                "Does not acknowledge customer's clarification about meeting the 100 SC requirement",
+                "Lacks empathy for customer's frustration",
+                "Does not explain what will happen after screenshot is provided"
+              ],
+              "suggestion": "Thank you for confirming you've met the playthrough requirement. Let's try logging out and back in to refresh your session. If you're still unable to redeem, please send me a screenshot of what you're seeing, and I'll escalate this to our technical team right away.",
+              "tags": [
+                "empathy",
+                "resolution"
+              ],
+              "timestamp": "11:57:57 PM",
+              "timestamp_iso": "2026-04-26T23:57:57.000Z"
+            },
+            {
+              "msg_id": "MSG-22",
+              "speaker": "AGENT",
+              "text": "Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.",
+              "rating": "na",
+              "positives": [],
+              "issues": [
+                "Duplicate message"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:57:57 PM",
+              "timestamp_iso": "2026-04-26T23:57:57.000Z"
+            },
+            {
+              "msg_id": "MSG-23",
+              "speaker": "CUSTOMER",
+              "text": "Ok",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:58:15 PM",
+              "timestamp_iso": "2026-04-26T23:58:15.000Z"
+            },
+            {
+              "msg_id": "MSG-24",
+              "speaker": "CUSTOMER",
+              "text": "Ok",
+              "rating": "na",
+              "positives": [],
+              "issues": [],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "11:58:15 PM",
+              "timestamp_iso": "2026-04-26T23:58:15.000Z"
+            },
+            {
+              "msg_id": "MSG-25",
+              "speaker": "AGENT",
+              "text": "If the issue persists, kindly provide a screenshot.",
+              "rating": "poor",
+              "positives": [],
+              "issues": [
+                "Simply repeats part of previous message without adding value",
+                "No closing or offer of continued support",
+                "Does not establish timeline or next steps",
+                "Abrupt ending without proper closure"
+              ],
+              "suggestion": "I'll be standing by to assist you further. If the logout doesn't resolve it, just send that screenshot and I'll investigate this for you right away. Is there anything else I can help you with in the meantime?",
+              "tags": [
+                "closing",
+                "tone"
+              ],
+              "timestamp": "12:00:59 AM",
+              "timestamp_iso": "2026-04-27T00:00:59.000Z"
+            },
+            {
+              "msg_id": "MSG-26",
+              "speaker": "AGENT",
+              "text": "If the issue persists, kindly provide a screenshot.",
+              "rating": "na",
+              "positives": [],
+              "issues": [
+                "Duplicate message"
+              ],
+              "suggestion": null,
+              "tags": [],
+              "timestamp": "12:00:59 AM",
+              "timestamp_iso": "2026-04-27T00:00:59.000Z"
+            }
+          ],
+          "raw_transcript": "[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:42 PM] t2730263379: Ok\n[11:51:42 PM] t2730263379: Ok\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:15 PM] t2730263379: yes\n[11:52:15 PM] t2730263379: yes\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:58:15 PM] t2730263379: Ok\n[11:58:15 PM] t2730263379: Ok\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.",
+          "deep_scored": true,
+          "scored_with": "anthropic/claude-sonnet-4-5",
+          "scored_at": "2026-04-27T00:38:11.274Z",
+          "created_at": "2026-04-27 00:38:11"
+        },
+        {
           "chat_id": "2048556116815998976",
           "agent_id": "5805",
           "agent_name": "Marlon Cibrian",
@@ -1633,12 +2338,717 @@
           "created_at": "2026-04-27 00:38:02"
         }
       ],
-      "avg_score": 31,
+      "avg_score": 39,
       "grade": "F",
       "trend": 0
     }
   ],
   "chats": [
+    {
+      "chat_id": "2048551152987238400",
+      "agent_id": "5552",
+      "agent_name": "Eliezer Mejia",
+      "timestamp": "2026-04-27T00:03:30.000Z",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "total_score": 65,
+      "grade": "D",
+      "categories": {
+        "greeting": {
+          "score": 8,
+          "notes": "Warm greeting with customer name and appreciation for reaching out."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent acknowledged the issue but did not ask clarifying questions about the customer's specific situation or offer alternative solutions."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Informed customer of known Facebook login issue but provided no workaround, timeline, or proactive next steps for account access."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Clear and empathetic language with appropriate apology, though the message appears cut off in the transcript."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises made."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further assistance and provided friendly closing, though slightly premature given unresolved access issue."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "summary": "Agent professionally acknowledged a known Facebook login issue and provided empathetic communication. However, the agent missed opportunities to explore workarounds, gather account details for manual assistance, or provide a timeline for resolution.",
+      "strengths": [
+        "Used customer's name and maintained warm, empathetic tone throughout",
+        "Acknowledged known issue transparently and apologized appropriately",
+        "Professional communication with clear language"
+      ],
+      "weaknesses": [
+        "Did not explore alternative login methods or offer to manually verify/reset the account",
+        "Closed chat without ensuring customer had a path forward to access their account",
+        "No follow-up questions about account details that could enable immediate assistance"
+      ],
+      "coaching_tip": "When informing customers of known issues, always provide alternative solutions or proactive next steps rather than leaving them without access—offer to manually verify their account, create a support ticket, or provide a specific timeline for resolution.",
+      "message_analysis": [
+        {
+          "msg_id": "MSG-01",
+          "speaker": "CUSTOMER",
+          "text": "Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:53:49 PM",
+          "timestamp_iso": "2026-04-26T23:53:49.000Z"
+        },
+        {
+          "msg_id": "MSG-02",
+          "speaker": "CUSTOMER",
+          "text": "Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:53:49 PM",
+          "timestamp_iso": "2026-04-26T23:53:49.000Z"
+        },
+        {
+          "msg_id": "MSG-03",
+          "speaker": "CUSTOMER",
+          "text": "I originally signed up through my facebook but I do not have access to the email address and it's saying my account is not",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:55:57 PM",
+          "timestamp_iso": "2026-04-26T23:55:57.000Z"
+        },
+        {
+          "msg_id": "MSG-04",
+          "speaker": "CUSTOMER",
+          "text": "I originally signed up through my facebook but I do not have access to the email address and it's saying my account is not",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:55:57 PM",
+          "timestamp_iso": "2026-04-26T23:55:57.000Z"
+        },
+        {
+          "msg_id": "MSG-05",
+          "speaker": "AGENT",
+          "text": "Please allow me one moment to look into this for you!",
+          "rating": "good",
+          "positives": [
+            "Sets expectation for brief wait time",
+            "Professional and courteous tone"
+          ],
+          "issues": [],
+          "suggestion": null,
+          "tags": [
+            "discovery"
+          ],
+          "timestamp": "11:56:02 PM",
+          "timestamp_iso": "2026-04-26T23:56:02.000Z"
+        },
+        {
+          "msg_id": "MSG-06",
+          "speaker": "AGENT",
+          "text": "Please allow me one moment to look into this for you!",
+          "rating": "good",
+          "positives": [
+            "Sets expectation for brief wait time",
+            "Professional and courteous tone"
+          ],
+          "issues": [],
+          "suggestion": null,
+          "tags": [
+            "discovery"
+          ],
+          "timestamp": "11:56:02 PM",
+          "timestamp_iso": "2026-04-26T23:56:02.000Z"
+        },
+        {
+          "msg_id": "MSG-07",
+          "speaker": "AGENT",
+          "text": "Hi Kiterrial, Thank you for reaching out to us! We're so sorry if you've been having some trouble getting into your account. We",
+          "rating": "needs_improvement",
+          "positives": [
+            "Used customer's name for personalization",
+            "Empathetic apology and acknowledgment of known issue",
+            "Transparent about the problem"
+          ],
+          "issues": [
+            "No alternative solutions offered for immediate account access",
+            "Did not ask for account details to provide manual assistance",
+            "No timeline provided for resolution"
+          ],
+          "suggestion": "Hi Kiterrial, Thank you for reaching out! We're so sorry you're having trouble logging in. We're aware of a Facebook login issue affecting some players. While our team works on this, I can help you set up direct email login as an alternative. Can you confirm the phone number on your account so I can verify and assist you right away?",
+          "tags": [
+            "greeting",
+            "empathy",
+            "resolution",
+            "discovery"
+          ],
+          "timestamp": "12:00:10 AM",
+          "timestamp_iso": "2026-04-27T00:00:10.000Z"
+        },
+        {
+          "msg_id": "MSG-08",
+          "speaker": "AGENT",
+          "text": "Hi Kiterrial, Thank you for reaching out to us! We're so sorry if you've been having some trouble getting into your account. We",
+          "rating": "needs_improvement",
+          "positives": [
+            "Used customer's name for personalization",
+            "Empathetic apology and acknowledgment of known issue",
+            "Transparent about the problem"
+          ],
+          "issues": [
+            "No alternative solutions offered for immediate account access",
+            "Did not ask for account details to provide manual assistance",
+            "No timeline provided for resolution"
+          ],
+          "suggestion": "Hi Kiterrial, Thank you for reaching out! We're so sorry you're having trouble logging in. We're aware of a Facebook login issue affecting some players. While our team works on this, I can help you set up direct email login as an alternative. Can you confirm the phone number on your account so I can verify and assist you right away?",
+          "tags": [
+            "greeting",
+            "empathy",
+            "resolution",
+            "discovery"
+          ],
+          "timestamp": "12:00:10 AM",
+          "timestamp_iso": "2026-04-27T00:00:10.000Z"
+        },
+        {
+          "msg_id": "MSG-09",
+          "speaker": "AGENT",
+          "text": "Is there anything else I can help you with today?",
+          "rating": "needs_improvement",
+          "positives": [
+            "Offers additional assistance"
+          ],
+          "issues": [
+            "Premature closing when customer still cannot access their account",
+            "Does not confirm customer satisfaction with the resolution"
+          ],
+          "suggestion": "I understand this is frustrating since you still can't access your account. Would you like me to create a priority support ticket with your details so our team can manually restore your access? I can also send you updates via email at kiterrialp@yahoo.com.",
+          "tags": [
+            "closing",
+            "resolution"
+          ],
+          "timestamp": "12:02:37 AM",
+          "timestamp_iso": "2026-04-27T00:02:37.000Z"
+        },
+        {
+          "msg_id": "MSG-10",
+          "speaker": "AGENT",
+          "text": "Is there anything else I can help you with today?",
+          "rating": "needs_improvement",
+          "positives": [
+            "Offers additional assistance"
+          ],
+          "issues": [
+            "Premature closing when customer still cannot access their account",
+            "Does not confirm customer satisfaction with the resolution"
+          ],
+          "suggestion": "I understand this is frustrating since you still can't access your account. Would you like me to create a priority support ticket with your details so our team can manually restore your access? I can also send you updates via email at kiterrialp@yahoo.com.",
+          "tags": [
+            "closing",
+            "resolution"
+          ],
+          "timestamp": "12:02:37 AM",
+          "timestamp_iso": "2026-04-27T00:02:37.000Z"
+        },
+        {
+          "msg_id": "MSG-11",
+          "speaker": "AGENT",
+          "text": "Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "rating": "needs_improvement",
+          "positives": [
+            "Friendly and warm closing tone"
+          ],
+          "issues": [
+            "Inappropriate closing message given customer cannot access games",
+            "Assumes resolution when customer still has no account access"
+          ],
+          "suggestion": "Thank you for your patience, Kiterrial. We'll keep you updated on the Facebook login fix. If you need immediate assistance accessing your account, please email support@jackpotdaily.com and reference this chat. We're here to help!",
+          "tags": [
+            "closing",
+            "tone"
+          ],
+          "timestamp": "12:03:27 AM",
+          "timestamp_iso": "2026-04-27T00:03:27.000Z"
+        },
+        {
+          "msg_id": "MSG-12",
+          "speaker": "AGENT",
+          "text": "Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "rating": "needs_improvement",
+          "positives": [
+            "Friendly and warm closing tone"
+          ],
+          "issues": [
+            "Inappropriate closing message given customer cannot access games",
+            "Assumes resolution when customer still has no account access"
+          ],
+          "suggestion": "Thank you for your patience, Kiterrial. We'll keep you updated on the Facebook login fix. If you need immediate assistance accessing your account, please email support@jackpotdaily.com and reference this chat. We're here to help!",
+          "tags": [
+            "closing",
+            "tone"
+          ],
+          "timestamp": "12:03:27 AM",
+          "timestamp_iso": "2026-04-27T00:03:27.000Z"
+        }
+      ],
+      "raw_transcript": "[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "deep_scored": true,
+      "scored_with": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-27T00:38:40.128Z",
+      "created_at": "2026-04-27 00:38:40"
+    },
+    {
+      "chat_id": "2048550402441129984",
+      "agent_id": "5805",
+      "agent_name": "Marlon Cibrian",
+      "timestamp": "2026-04-27T00:04:01.000Z",
+      "website": "Jackpot Daily",
+      "message_count": 26,
+      "total_score": 56,
+      "grade": "F",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided; agent started with a slash character and then asked for time without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions about the error message and confirmed the issue, though could have probed deeper about what specifically happens when attempting to redeem."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent provided standard troubleshooting steps and requested a screenshot for escalation, but did not fully resolve or confirm next steps if troubleshooting fails."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Professional and clear language throughout, though lacked warmth and empathy when customer expressed frustration about meeting requirements."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; agent correctly referenced the 100 SC play requirement."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing provided; chat ended abruptly with a repeated request for a screenshot without confirming understanding or offering further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "summary": "Agent handled a redemption issue with basic troubleshooting but failed to provide a proper greeting or closing. The interaction was functional but lacked warmth, and the agent did not establish clear next steps or follow-up procedures.",
+      "strengths": [
+        "Asked clarifying questions to understand the specific issue",
+        "Provided relevant troubleshooting steps including logout/login and screenshot request"
+      ],
+      "weaknesses": [
+        "Completely omitted greeting and closing",
+        "Did not acknowledge customer's frustration or provide empathy when they confirmed meeting the 100 SC requirement",
+        "Failed to establish clear escalation path or timeline for resolution"
+      ],
+      "coaching_tip": "Always open with a warm greeting using the customer's name and close by summarizing next steps and offering continued assistance—these bookends are critical for customer satisfaction even when technical issues remain unresolved.",
+      "message_analysis": [
+        {
+          "msg_id": "MSG-01",
+          "speaker": "CUSTOMER",
+          "text": "Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:50:50 PM",
+          "timestamp_iso": "2026-04-26T23:50:50.000Z"
+        },
+        {
+          "msg_id": "MSG-02",
+          "speaker": "CUSTOMER",
+          "text": "Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:50:50 PM",
+          "timestamp_iso": "2026-04-26T23:50:50.000Z"
+        },
+        {
+          "msg_id": "MSG-03",
+          "speaker": "AGENT",
+          "text": "/",
+          "rating": "poor",
+          "positives": [],
+          "issues": [
+            "Sent a meaningless slash character instead of a greeting",
+            "No acknowledgment of the customer or their issue"
+          ],
+          "suggestion": "Hello! Thank you for contacting Jackpot Daily support. My name is Marlon, and I'll be happy to help you with your redemption issue today.",
+          "tags": [
+            "greeting",
+            "tone"
+          ],
+          "timestamp": "11:51:17 PM",
+          "timestamp_iso": "2026-04-26T23:51:17.000Z"
+        },
+        {
+          "msg_id": "MSG-04",
+          "speaker": "AGENT",
+          "text": "/",
+          "rating": "poor",
+          "positives": [],
+          "issues": [
+            "Duplicate message due to system issue"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:51:17 PM",
+          "timestamp_iso": "2026-04-26T23:51:17.000Z"
+        },
+        {
+          "msg_id": "MSG-05",
+          "speaker": "AGENT",
+          "text": "Please allow me one moment to look into this for you!",
+          "rating": "good",
+          "positives": [
+            "Sets expectation for brief wait time",
+            "Professional and courteous tone"
+          ],
+          "issues": [],
+          "suggestion": null,
+          "tags": [
+            "tone"
+          ],
+          "timestamp": "11:51:29 PM",
+          "timestamp_iso": "2026-04-26T23:51:29.000Z"
+        },
+        {
+          "msg_id": "MSG-06",
+          "speaker": "AGENT",
+          "text": "Please allow me one moment to look into this for you!",
+          "rating": "na",
+          "positives": [],
+          "issues": [
+            "Duplicate message"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:51:29 PM",
+          "timestamp_iso": "2026-04-26T23:51:29.000Z"
+        },
+        {
+          "msg_id": "MSG-07",
+          "speaker": "CUSTOMER",
+          "text": "Ok",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:51:42 PM",
+          "timestamp_iso": "2026-04-26T23:51:42.000Z"
+        },
+        {
+          "msg_id": "MSG-08",
+          "speaker": "CUSTOMER",
+          "text": "Ok",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:51:42 PM",
+          "timestamp_iso": "2026-04-26T23:51:42.000Z"
+        },
+        {
+          "msg_id": "MSG-09",
+          "speaker": "AGENT",
+          "text": "Just to confirm—are you having trouble redeeming?",
+          "rating": "good",
+          "positives": [
+            "Confirms understanding of the issue",
+            "Uses clear, simple language"
+          ],
+          "issues": [],
+          "suggestion": null,
+          "tags": [
+            "discovery"
+          ],
+          "timestamp": "11:52:04 PM",
+          "timestamp_iso": "2026-04-26T23:52:04.000Z"
+        },
+        {
+          "msg_id": "MSG-10",
+          "speaker": "AGENT",
+          "text": "Just to confirm—are you having trouble redeeming?",
+          "rating": "na",
+          "positives": [],
+          "issues": [
+            "Duplicate message"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:52:04 PM",
+          "timestamp_iso": "2026-04-26T23:52:04.000Z"
+        },
+        {
+          "msg_id": "MSG-11",
+          "speaker": "CUSTOMER",
+          "text": "yes",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:52:15 PM",
+          "timestamp_iso": "2026-04-26T23:52:15.000Z"
+        },
+        {
+          "msg_id": "MSG-12",
+          "speaker": "CUSTOMER",
+          "text": "yes",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:52:15 PM",
+          "timestamp_iso": "2026-04-26T23:52:15.000Z"
+        },
+        {
+          "msg_id": "MSG-13",
+          "speaker": "AGENT",
+          "text": "Could you please confirm what error message you receive when attempting to redeem?",
+          "rating": "excellent",
+          "positives": [
+            "Asks specific diagnostic question",
+            "Professional and polite phrasing",
+            "Gathers information needed for troubleshooting"
+          ],
+          "issues": [],
+          "suggestion": null,
+          "tags": [
+            "discovery"
+          ],
+          "timestamp": "11:53:11 PM",
+          "timestamp_iso": "2026-04-26T23:53:11.000Z"
+        },
+        {
+          "msg_id": "MSG-14",
+          "speaker": "AGENT",
+          "text": "Could you please confirm what error message you receive when attempting to redeem?",
+          "rating": "na",
+          "positives": [],
+          "issues": [
+            "Duplicate message"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:53:11 PM",
+          "timestamp_iso": "2026-04-26T23:53:11.000Z"
+        },
+        {
+          "msg_id": "MSG-15",
+          "speaker": "CUSTOMER",
+          "text": "No error message just will not let redeem",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:54:36 PM",
+          "timestamp_iso": "2026-04-26T23:54:36.000Z"
+        },
+        {
+          "msg_id": "MSG-16",
+          "speaker": "CUSTOMER",
+          "text": "No error message just will not let redeem",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:54:36 PM",
+          "timestamp_iso": "2026-04-26T23:54:36.000Z"
+        },
+        {
+          "msg_id": "MSG-17",
+          "speaker": "AGENT",
+          "text": "Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.",
+          "rating": "needs_improvement",
+          "positives": [
+            "Provides relevant policy information",
+            "Offers a troubleshooting step"
+          ],
+          "issues": [
+            "Tone could be perceived as condescending with 'Please remember'",
+            "Should have asked if they met the requirement rather than assuming they didn't"
+          ],
+          "suggestion": "I can see you're trying to redeem. Just to confirm, have you played through at least 100 SC? If so, let's try logging out and back in to see if that resolves the issue.",
+          "tags": [
+            "policy",
+            "tone",
+            "resolution"
+          ],
+          "timestamp": "11:55:40 PM",
+          "timestamp_iso": "2026-04-26T23:55:40.000Z"
+        },
+        {
+          "msg_id": "MSG-18",
+          "speaker": "AGENT",
+          "text": "Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.",
+          "rating": "na",
+          "positives": [],
+          "issues": [
+            "Duplicate message"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:55:40 PM",
+          "timestamp_iso": "2026-04-26T23:55:40.000Z"
+        },
+        {
+          "msg_id": "MSG-19",
+          "speaker": "CUSTOMER",
+          "text": "I did play a100sc actually more",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:56:58 PM",
+          "timestamp_iso": "2026-04-26T23:56:58.000Z"
+        },
+        {
+          "msg_id": "MSG-20",
+          "speaker": "CUSTOMER",
+          "text": "I did play a100sc actually more",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:56:58 PM",
+          "timestamp_iso": "2026-04-26T23:56:58.000Z"
+        },
+        {
+          "msg_id": "MSG-21",
+          "speaker": "AGENT",
+          "text": "Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.",
+          "rating": "needs_improvement",
+          "positives": [
+            "Provides clear troubleshooting steps",
+            "Requests screenshot for further investigation"
+          ],
+          "issues": [
+            "Does not acknowledge customer's clarification about meeting the 100 SC requirement",
+            "Lacks empathy for customer's frustration",
+            "Does not explain what will happen after screenshot is provided"
+          ],
+          "suggestion": "Thank you for confirming you've met the playthrough requirement. Let's try logging out and back in to refresh your session. If you're still unable to redeem, please send me a screenshot of what you're seeing, and I'll escalate this to our technical team right away.",
+          "tags": [
+            "empathy",
+            "resolution"
+          ],
+          "timestamp": "11:57:57 PM",
+          "timestamp_iso": "2026-04-26T23:57:57.000Z"
+        },
+        {
+          "msg_id": "MSG-22",
+          "speaker": "AGENT",
+          "text": "Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.",
+          "rating": "na",
+          "positives": [],
+          "issues": [
+            "Duplicate message"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:57:57 PM",
+          "timestamp_iso": "2026-04-26T23:57:57.000Z"
+        },
+        {
+          "msg_id": "MSG-23",
+          "speaker": "CUSTOMER",
+          "text": "Ok",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:58:15 PM",
+          "timestamp_iso": "2026-04-26T23:58:15.000Z"
+        },
+        {
+          "msg_id": "MSG-24",
+          "speaker": "CUSTOMER",
+          "text": "Ok",
+          "rating": "na",
+          "positives": [],
+          "issues": [],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "11:58:15 PM",
+          "timestamp_iso": "2026-04-26T23:58:15.000Z"
+        },
+        {
+          "msg_id": "MSG-25",
+          "speaker": "AGENT",
+          "text": "If the issue persists, kindly provide a screenshot.",
+          "rating": "poor",
+          "positives": [],
+          "issues": [
+            "Simply repeats part of previous message without adding value",
+            "No closing or offer of continued support",
+            "Does not establish timeline or next steps",
+            "Abrupt ending without proper closure"
+          ],
+          "suggestion": "I'll be standing by to assist you further. If the logout doesn't resolve it, just send that screenshot and I'll investigate this for you right away. Is there anything else I can help you with in the meantime?",
+          "tags": [
+            "closing",
+            "tone"
+          ],
+          "timestamp": "12:00:59 AM",
+          "timestamp_iso": "2026-04-27T00:00:59.000Z"
+        },
+        {
+          "msg_id": "MSG-26",
+          "speaker": "AGENT",
+          "text": "If the issue persists, kindly provide a screenshot.",
+          "rating": "na",
+          "positives": [],
+          "issues": [
+            "Duplicate message"
+          ],
+          "suggestion": null,
+          "tags": [],
+          "timestamp": "12:00:59 AM",
+          "timestamp_iso": "2026-04-27T00:00:59.000Z"
+        }
+      ],
+      "raw_transcript": "[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:42 PM] t2730263379: Ok\n[11:51:42 PM] t2730263379: Ok\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:15 PM] t2730263379: yes\n[11:52:15 PM] t2730263379: yes\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:58:15 PM] t2730263379: Ok\n[11:58:15 PM] t2730263379: Ok\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.",
+      "deep_scored": true,
+      "scored_with": "anthropic/claude-sonnet-4-5",
+      "scored_at": "2026-04-27T00:38:11.274Z",
+      "created_at": "2026-04-27 00:38:11"
+    },
     {
       "chat_id": "2048553351448457216",
       "agent_id": "5807",
