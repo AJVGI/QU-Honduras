@@ -1,8 +1,107 @@
 {
-  "scored_at": "2026-04-27T00:33:44.355Z",
-  "total_chats": 1,
-  "total_agents": 1,
+  "scored_at": "2026-04-27T00:38:01.412Z",
+  "total_chats": 10,
+  "total_agents": 4,
   "agents": [
+    {
+      "id": "5552",
+      "name": "Eliezer Mejia",
+      "chats": [
+        {
+          "chat_id": "2048553459761590272",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-27T00:22:47.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 16,
+              "notes": "Agent understood the birthday correction request and appropriately identified the need for ID verification per compliance requirements."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent provided correct process but created confusion by first directing to website upload, then clarifying manual process, then escalating to email without clear next steps."
+            },
+            "communication": {
+              "score": 11,
+              "notes": "Agent was professional but repetitive, failed to directly answer where to upload ID when asked twice, and created unnecessary confusion about the process."
+            },
+            "compliance": {
+              "score": 9,
+              "notes": "Properly followed security protocols requiring ID verification for DOB changes and appropriately escalated sensitive account modification."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "Transcript truncated but shows no closing attempted before the cut-off; agent was mid-conversation directing to email ticket."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent correctly identified verification requirements for birthday correction but delivered confusing instructions that contradicted each other. Customer repeatedly asked where to upload ID but agent failed to provide clear, direct answer before escalating to email support.",
+          "coaching_tip": "When a customer asks a direct question like 'where can I upload my ID,' provide the specific answer immediately rather than repeating general instructions they've already read.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[12:02:59 AM] t5375237734: Full Name: t5375237734 Email Address: ahmirburge@gmail.com Subject / How can we help you?: i entered the wrong birthday want to correct it my birthday is 07/15/2000.\n[12:02:59 AM] t5375237734: Full Name: t5375237734 Email Address: ahmirburge@gmail.com Subject / How can we help you?: i entered the wrong birthday want to correct it my birthday is 07/15/2000.\n[12:03:08 AM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:03:08 AM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:03:21 AM] t5375237734: ok\n[12:03:21 AM] t5375237734: ok\n[12:03:41 AM] Eliezer Mejia: Give me a moment to review this information.\n[12:03:41 AM] Eliezer Mejia: Give me a moment to review this information.\n[12:05:01 AM] t5375237734: ok\n[12:05:01 AM] t5375237734: ok\n[12:08:52 AM] Eliezer Mejia: Thank you for reaching out to us regarding the update to the Date of Birth (DOB) on your account.\n\nTo ensure the security of your profile and maintain compliance with our verification standards, we require a valid government-issued photo ID (such as a Driver’s License or National ID card) to be verified before we can proceed with this change.\n\nHow to provide your document:\n\nYou can securely upload your document directly through your Jackpot Daily profile. Simply log in, navigate to the 'Verification' section (under Account Settings), and follow the prompts to upload a clear, high-resolution photo of your ID.\n\nOnce the document is uploaded and verified by our team, we will update your details immediately and notify you once the process is complete.\n\nThank you for your cooperation!\n[12:08:52 AM] Eliezer Mejia: Thank you for reaching out to us regarding the update to the Date of Birth (DOB) on your account.\n\nTo ensure the security of your profile and maintain compliance with our verification standards, we require a valid government-issued photo ID (such as a Driver’s License or National ID card) to be verified before we can proceed with this change.\n\nHow to provide your document:\n\nYou can securely upload your document directly through your Jackpot Daily profile. Simply log in, navigate to the 'Verification' section (under Account Settings), and follow the prompts to upload a clear, high-resolution photo of your ID.\n\nOnce the document is uploaded and verified by our team, we will update your details immediately and notify you once the process is complete.\n\nThank you for your cooperation!\n[12:11:09 AM] t5375237734: it’s not letting me modify the birthday option\n[12:11:09 AM] t5375237734: it’s not letting me modify the birthday option\n[12:11:30 AM] t5375237734: It states only customer service can modify it\n[12:11:30 AM] t5375237734: It states only customer service can modify it\n[12:12:50 AM] Eliezer Mejia: Please note that for security and compliance reasons, this change cannot be made directly through the website settings by the user. This update must be processed manually by our administration team.\n\nTo proceed with this correction, we first need you to provide a valid government-issued photo ID (such as a Driver’s License or Passport) where we can verify the correct information.\n[12:12:50 AM] Eliezer Mejia: Please note that for security and compliance reasons, this change cannot be made directly through the website settings by the user. This update must be processed manually by our administration team.\n\nTo proceed with this correction, we first need you to provide a valid government-issued photo ID (such as a Driver’s License or Passport) where we can verify the correct information.\n[12:13:55 AM] t5375237734: ok i stated that already. so where can i upload my identification card\n[12:13:55 AM] t5375237734: ok i stated that already. so where can i upload my identification card\n[12:14:38 AM] t5375237734: can i get a link\n[12:14:38 AM] t5375237734: can i get a link\n[12:15:50 AM] Eliezer Mejia: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:15:50 AM] Eliezer Mejia: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:20:46 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:20:46 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:22:44 AM] Eliezer Mejia: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!\n[12:22:44 AM] Eliezer Mejia: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:36:58.621Z"
+        },
+        {
+          "chat_id": "2048551152987238400",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-27T00:03:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting; first message was just a hold statement, personalized greeting came 4 minutes later."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions or verify account details; assumed it was the known Facebook login issue without confirming."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Informed customer of known Facebook login issue but provided no alternative solution or workaround for the specific problem of inaccessible email and duplicate phone number."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Professional and empathetic tone, but did not address the customer's specific concerns about email access and phone number registration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately acknowledged known issue and directed to support email."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing, though customer never confirmed satisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent acknowledged a known Facebook login issue but failed to address the customer's specific concerns about email access and duplicate phone number preventing account recovery. The response was generic and did not explore alternative solutions or escalate for personalized assistance.",
+          "coaching_tip": "When a customer describes specific account access issues beyond the known problem, ask clarifying questions and offer alternative solutions like manual account verification or escalation to resolve their unique situation.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:38:00.910Z"
+        }
+      ],
+      "avg_score": 58,
+      "grade": "F",
+      "trend": 0
+    },
     {
       "id": "5845",
       "name": "Jonathan Fuentes",
@@ -444,10 +543,343 @@
           "scored_with": "anthropic/claude-sonnet-4-5",
           "scored_at": "2026-04-27T00:33:43.952Z",
           "created_at": "2026-04-27 00:33:43"
+        },
+        {
+          "chat_id": "2048556495129636864",
+          "agent_name": "Jonathan Fuentes",
+          "agent_id": "5845",
+          "timestamp": "2026-04-27T00:23:48.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at start; agent jumped to 'one moment' then asked how to help without welcoming customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent asked clarifying question but customer's issue ('I want to play') was never properly explored or understood before closing."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "No resolution provided; agent asked for clarification then closed chat without addressing the customer's need to play."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Agent appropriately switched to Spanish and was polite, but communication was incomplete as issue was never addressed."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected; agent stayed within appropriate boundaries."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Closing was polite and wished customer luck, but premature given the unresolved issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent appropriately switched to Spanish and was polite but failed to resolve or even fully understand the customer's issue before closing the chat. The interaction lacked proper greeting and meaningful problem-solving.",
+          "coaching_tip": "Never close a chat after asking a clarifying question without waiting for the response and providing actual assistance; ensure the customer's issue is fully addressed before ending the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 14,
+          "raw_transcript": "[12:15:03 AM] Customer: Full Name: Cirilo Email Address: 6chirihuesca@gmail.com Subject / How can we help you?: Play\n[12:15:03 AM] Customer: Full Name: Cirilo Email Address: 6chirihuesca@gmail.com Subject / How can we help you?: Play\n[12:15:20 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:15:20 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:16:46 AM] Customer: Si está bien\n[12:16:46 AM] Customer: Si está bien\n[12:16:50 AM] Jonathan Fuentes: How can I help you today?\n[12:16:50 AM] Jonathan Fuentes: How can I help you today?\n[12:18:17 AM] Customer: Quiero jugar\n[12:18:17 AM] Customer: Quiero jugar\n[12:20:14 AM] Jonathan Fuentes: Hola.\n\n¿Podrías indicarme qué información necesitas para poder jugar? Así puedo ayudarte mejor\n[12:20:14 AM] Jonathan Fuentes: Hola.\n\n¿Podrías indicarme qué información necesitas para poder jugar? Así puedo ayudarte mejor\n[12:23:34 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!\n[12:23:34 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:37:07.907Z"
         }
       ],
-      "avg_score": 63,
-      "grade": "D",
+      "avg_score": 57,
+      "grade": "F",
+      "trend": 0
+    },
+    {
+      "id": "5807",
+      "name": "Oskar Abaunza",
+      "chats": [
+        {
+          "chat_id": "2048558653178163200",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-27T00:33:21.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided; agent jumped directly to asking for time to investigate without acknowledging the customer."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent understood the basic issue but asked for a screenshot only after troubleshooting failed, with minimal clarifying questions about what the customer experienced."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided a reasonable troubleshooting step and requested a screenshot for escalation, but didn't confirm if the issue was resolved before closing."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional language, but closed the chat without waiting for customer response to the troubleshooting request."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations or unauthorized promises detected; handled appropriately within guidelines."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed prematurely without confirming resolution or receiving customer acknowledgment after requesting action and screenshot."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent provided basic troubleshooting but failed to greet the customer and closed the chat prematurely without confirming whether the suggested solution worked. The interaction lacked proper opening and closing protocols, making it feel rushed and incomplete.",
+          "coaching_tip": "Always wait for customer confirmation after requesting an action like checking a section or sending a screenshot before offering to close the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[12:23:37 AM] t4679703332: Full Name: t4679703332 Email Address: bigdaddywilliams1234@gmail.com Subject / How can we help you?: Its not showing my daily dollar in My balance when I claimed it.\n[12:23:37 AM] t4679703332: Full Name: t4679703332 Email Address: bigdaddywilliams1234@gmail.com Subject / How can we help you?: Its not showing my daily dollar in My balance when I claimed it.\n[12:24:00 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:24:00 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:26:21 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:26:21 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:30:09 AM] Oskar Abaunza: Could you please go to the Bonus section and try to claim it there? If you’re still having issues, kindly send us a screenshot of what you’re seeing so we can take a closer look and assist you further.\n[12:30:09 AM] Oskar Abaunza: Could you please go to the Bonus section and try to claim it there? If you’re still having issues, kindly send us a screenshot of what you’re seeing so we can take a closer look and assist you further.\n[12:31:58 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:31:58 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:33:17 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:33:17 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:36:49.459Z"
+        },
+        {
+          "chat_id": "2048557773989703680",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-27T00:23:36.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent jumped directly into asking for a moment without welcoming the customer."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked for clarifying information (correct email) and identified the account doesn't exist, showing good investigative effort."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Issue partially diagnosed (no account found) but chat ends without resolution or clear next steps for the customer."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and professional language, though could have been more empathetic given customer's frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately verified account information before proceeding."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing provided; chat appears incomplete with customer left waiting for further assistance."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 55,
+          "grade": "F",
+          "summary": "Agent handled account verification appropriately but failed to provide a proper greeting or closing. The interaction appears incomplete, leaving the customer without clear resolution or next steps.",
+          "coaching_tip": "Always open with a warm greeting using the customer's name, and ensure you provide clear next steps or resolution before closing the conversation.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[12:20:08 AM] Customer: Full Name: Francisco Garcia Email Address: jonaz.imss1704@gmail.com Subject / How can we help you?: I cannot sing up / log in or reset the password\n[12:20:08 AM] Customer: Full Name: Francisco Garcia Email Address: jonaz.imss1704@gmail.com Subject / How can we help you?: I cannot sing up / log in or reset the password\n[12:20:25 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:20:25 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:21:39 AM] Oskar Abaunza: Could you please provide the email associated with your account?\n[12:21:39 AM] Oskar Abaunza: Could you please provide the email associated with your account?\n[12:21:57 AM] Customer: Jonaz.nikkori@gmail.com\n[12:21:57 AM] Customer: Jonaz.nikkori@gmail.com\n[12:23:19 AM] Oskar Abaunza: We’re not able to find an account associated with the email provided. Is it possible that you were able to successfully create the account?\n\nPlease let us know so we can assist you further.\n[12:23:19 AM] Oskar Abaunza: We’re not able to find an account associated with the email provided. Is it possible that you were able to successfully create the account?\n\nPlease let us know so we can assist you further.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:37:15.627Z"
+        },
+        {
+          "chat_id": "2048552364393934848",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-27T00:18:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No proper greeting at start, jumped straight to 'one moment' without welcoming customer."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent misunderstood the issue - customer said password reset wasn't working due to 'invalid' error, but agent provided generic reset instructions without addressing the actual error message."
+            },
+            "resolution": {
+              "score": 12,
+              "notes": "Failed to resolve - provided standard reset steps when customer already was in reset process, then claimed account doesn't exist despite customer providing registration details, leaving issue unresolved."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Clear and friendly tone, but multiple redundant 'give me a moment' messages and premature closing attempts while issue was still active."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations, appropriately asked for account verification when unable to locate account."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed prematurely while customer was still engaged and issue unresolved, asked 'anything else' twice before customer confirmed the account lock issue."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 53,
+          "grade": "F",
+          "summary": "Agent failed to understand the customer's actual problem - that the password reset form itself was giving an 'invalid' error despite matching passwords. The agent provided generic reset instructions, didn't troubleshoot the form error, then claimed the account doesn't exist and closed the chat while the issue remained unresolved.",
+          "coaching_tip": "When a customer describes a specific error message during a process, address that exact error first rather than providing generic instructions for the overall process they're already attempting.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:59:11 PM] Customer: Ok\n[11:59:11 PM] Customer: Ok\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:08:52 AM] Customer: Yes\n[12:08:52 AM] Customer: Yes\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:37:42.512Z"
+        },
+        {
+          "chat_id": "2048553351448457216",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-27T00:13:10.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 8,
+              "notes": "Agent did not ask any clarifying questions about what steps were completed or what the golden egg promotion entailed before investigating."
+            },
+            "resolution": {
+              "score": 14,
+              "notes": "Agent investigated but ultimately deflected to email escalation without attempting any resolution or explaining why chat couldn't resolve it."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Professional and provided clear escalation instructions, but multiple wait messages without substantive updates could have been consolidated."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated rather than making unauthorized promises about the promotion."
+            },
+            "closing": {
+              "score": 3,
+              "notes": "No closing whatsoever; agent provided escalation instructions but never said goodbye or asked if customer had other questions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 51,
+          "grade": "F",
+          "summary": "Agent was professional and investigated the golden egg issue but failed to greet the customer or close the conversation. The resolution was weak as the agent spent 9 minutes investigating only to deflect entirely to email without explaining findings or attempting any chat-based solution.",
+          "coaching_tip": "Always open with a greeting using the customer's name and close by confirming no further questions are needed before ending the chat.",
+          "website": "Jackpot Daily",
+          "message_count": 20,
+          "raw_transcript": "[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:53 AM] t4859632363: Ok\n[12:03:53 AM] t4859632363: Ok\n[12:05:06 AM] t4859632363: Okay thank you\n[12:05:06 AM] t4859632363: Okay thank you\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:41 AM] t4859632363: Your welcome\n[12:08:41 AM] t4859632363: Your welcome\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:13:01 AM] t4859632363: Ok\n[12:13:01 AM] t4859632363: Ok",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:37:52.061Z"
+        }
+      ],
+      "avg_score": 54,
+      "grade": "F",
+      "trend": 0
+    },
+    {
+      "id": "5805",
+      "name": "Marlon Cibrian",
+      "chats": [
+        {
+          "chat_id": "2048558379735281664",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-27T00:22:45.000Z",
+          "categories": {
+            "greeting": {
+              "score": 0,
+              "notes": "Agent never responded or greeted the customer at all."
+            },
+            "issue_discovery": {
+              "score": 0,
+              "notes": "Agent made no attempt to discover or clarify the issue regarding 'Juegos' (games)."
+            },
+            "resolution": {
+              "score": 0,
+              "notes": "No resolution attempted as agent did not engage with the customer."
+            },
+            "communication": {
+              "score": 0,
+              "notes": "Agent provided zero communication throughout the entire interaction."
+            },
+            "compliance": {
+              "score": 10,
+              "notes": "No compliance violations occurred since no interaction took place."
+            },
+            "closing": {
+              "score": 0,
+              "notes": "No closing provided as agent never engaged in the conversation."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 10,
+          "grade": "F",
+          "summary": "The agent completely failed to respond to the customer's inquiry about games. This represents a total absence of customer service with no greeting, discovery, resolution, or communication attempted.",
+          "coaching_tip": "Always acknowledge customer messages immediately with a greeting and begin issue discovery, even if the initial inquiry is brief or unclear.",
+          "website": "Jackpot Daily",
+          "message_count": 2,
+          "raw_transcript": "[12:22:32 AM] Customer: Full Name: Naty Email Address: Natygarciapupo@gmail.com Subject / How can we help you?: Juegos\n[12:22:32 AM] Customer: Full Name: Naty Email Address: Natygarciapupo@gmail.com Subject / How can we help you?: Juegos",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:37:22.736Z"
+        },
+        {
+          "chat_id": "2048556116815998976",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-27T00:21:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent went directly to 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about what steps were completed or when the promotion was supposed to be received."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent identified the expired promotion and provided escalation path via email, but did not attempt to resolve in chat or explain why it expired despite customer completing requirements."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Communication was clear and professional with proper escalation instructions, though lacked empathy for customer's frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though moved to close quickly after providing escalation instructions."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent handled the technical escalation appropriately but failed to provide a proper greeting and did not explore the customer's concern about completing all requirements. The interaction was functional but lacked the discovery phase needed to understand why the customer believed they should have received the reward.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name when available, and ask clarifying questions about what steps they completed before directing to escalation—this shows you care and may reveal quick-fix solutions.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:37:32.567Z"
+        }
+      ],
+      "avg_score": 35,
+      "grade": "F",
       "trend": 0
     }
   ],
@@ -889,6 +1321,411 @@
       "scored_with": "anthropic/claude-sonnet-4-5",
       "scored_at": "2026-04-27T00:33:43.952Z",
       "created_at": "2026-04-27 00:33:43"
+    },
+    {
+      "chat_id": "2048558653178163200",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-27T00:33:21.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided; agent jumped directly to asking for time to investigate without acknowledging the customer."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent understood the basic issue but asked for a screenshot only after troubleshooting failed, with minimal clarifying questions about what the customer experienced."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided a reasonable troubleshooting step and requested a screenshot for escalation, but didn't confirm if the issue was resolved before closing."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Clear and professional language, but closed the chat without waiting for customer response to the troubleshooting request."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations or unauthorized promises detected; handled appropriately within guidelines."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed prematurely without confirming resolution or receiving customer acknowledgment after requesting action and screenshot."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 55,
+      "grade": "F",
+      "summary": "Agent provided basic troubleshooting but failed to greet the customer and closed the chat prematurely without confirming whether the suggested solution worked. The interaction lacked proper opening and closing protocols, making it feel rushed and incomplete.",
+      "coaching_tip": "Always wait for customer confirmation after requesting an action like checking a section or sending a screenshot before offering to close the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[12:23:37 AM] t4679703332: Full Name: t4679703332 Email Address: bigdaddywilliams1234@gmail.com Subject / How can we help you?: Its not showing my daily dollar in My balance when I claimed it.\n[12:23:37 AM] t4679703332: Full Name: t4679703332 Email Address: bigdaddywilliams1234@gmail.com Subject / How can we help you?: Its not showing my daily dollar in My balance when I claimed it.\n[12:24:00 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:24:00 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:26:21 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:26:21 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:30:09 AM] Oskar Abaunza: Could you please go to the Bonus section and try to claim it there? If you’re still having issues, kindly send us a screenshot of what you’re seeing so we can take a closer look and assist you further.\n[12:30:09 AM] Oskar Abaunza: Could you please go to the Bonus section and try to claim it there? If you’re still having issues, kindly send us a screenshot of what you’re seeing so we can take a closer look and assist you further.\n[12:31:58 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:31:58 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:33:17 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:33:17 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:36:49.459Z"
+    },
+    {
+      "chat_id": "2048553459761590272",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-27T00:22:47.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 16,
+          "notes": "Agent understood the birthday correction request and appropriately identified the need for ID verification per compliance requirements."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent provided correct process but created confusion by first directing to website upload, then clarifying manual process, then escalating to email without clear next steps."
+        },
+        "communication": {
+          "score": 11,
+          "notes": "Agent was professional but repetitive, failed to directly answer where to upload ID when asked twice, and created unnecessary confusion about the process."
+        },
+        "compliance": {
+          "score": 9,
+          "notes": "Properly followed security protocols requiring ID verification for DOB changes and appropriately escalated sensitive account modification."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "Transcript truncated but shows no closing attempted before the cut-off; agent was mid-conversation directing to email ticket."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 53,
+      "grade": "F",
+      "summary": "Agent correctly identified verification requirements for birthday correction but delivered confusing instructions that contradicted each other. Customer repeatedly asked where to upload ID but agent failed to provide clear, direct answer before escalating to email support.",
+      "coaching_tip": "When a customer asks a direct question like 'where can I upload my ID,' provide the specific answer immediately rather than repeating general instructions they've already read.",
+      "website": "Jackpot Daily",
+      "message_count": 28,
+      "raw_transcript": "[12:02:59 AM] t5375237734: Full Name: t5375237734 Email Address: ahmirburge@gmail.com Subject / How can we help you?: i entered the wrong birthday want to correct it my birthday is 07/15/2000.\n[12:02:59 AM] t5375237734: Full Name: t5375237734 Email Address: ahmirburge@gmail.com Subject / How can we help you?: i entered the wrong birthday want to correct it my birthday is 07/15/2000.\n[12:03:08 AM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:03:08 AM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:03:21 AM] t5375237734: ok\n[12:03:21 AM] t5375237734: ok\n[12:03:41 AM] Eliezer Mejia: Give me a moment to review this information.\n[12:03:41 AM] Eliezer Mejia: Give me a moment to review this information.\n[12:05:01 AM] t5375237734: ok\n[12:05:01 AM] t5375237734: ok\n[12:08:52 AM] Eliezer Mejia: Thank you for reaching out to us regarding the update to the Date of Birth (DOB) on your account.\n\nTo ensure the security of your profile and maintain compliance with our verification standards, we require a valid government-issued photo ID (such as a Driver’s License or National ID card) to be verified before we can proceed with this change.\n\nHow to provide your document:\n\nYou can securely upload your document directly through your Jackpot Daily profile. Simply log in, navigate to the 'Verification' section (under Account Settings), and follow the prompts to upload a clear, high-resolution photo of your ID.\n\nOnce the document is uploaded and verified by our team, we will update your details immediately and notify you once the process is complete.\n\nThank you for your cooperation!\n[12:08:52 AM] Eliezer Mejia: Thank you for reaching out to us regarding the update to the Date of Birth (DOB) on your account.\n\nTo ensure the security of your profile and maintain compliance with our verification standards, we require a valid government-issued photo ID (such as a Driver’s License or National ID card) to be verified before we can proceed with this change.\n\nHow to provide your document:\n\nYou can securely upload your document directly through your Jackpot Daily profile. Simply log in, navigate to the 'Verification' section (under Account Settings), and follow the prompts to upload a clear, high-resolution photo of your ID.\n\nOnce the document is uploaded and verified by our team, we will update your details immediately and notify you once the process is complete.\n\nThank you for your cooperation!\n[12:11:09 AM] t5375237734: it’s not letting me modify the birthday option\n[12:11:09 AM] t5375237734: it’s not letting me modify the birthday option\n[12:11:30 AM] t5375237734: It states only customer service can modify it\n[12:11:30 AM] t5375237734: It states only customer service can modify it\n[12:12:50 AM] Eliezer Mejia: Please note that for security and compliance reasons, this change cannot be made directly through the website settings by the user. This update must be processed manually by our administration team.\n\nTo proceed with this correction, we first need you to provide a valid government-issued photo ID (such as a Driver’s License or Passport) where we can verify the correct information.\n[12:12:50 AM] Eliezer Mejia: Please note that for security and compliance reasons, this change cannot be made directly through the website settings by the user. This update must be processed manually by our administration team.\n\nTo proceed with this correction, we first need you to provide a valid government-issued photo ID (such as a Driver’s License or Passport) where we can verify the correct information.\n[12:13:55 AM] t5375237734: ok i stated that already. so where can i upload my identification card\n[12:13:55 AM] t5375237734: ok i stated that already. so where can i upload my identification card\n[12:14:38 AM] t5375237734: can i get a link\n[12:14:38 AM] t5375237734: can i get a link\n[12:15:50 AM] Eliezer Mejia: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:15:50 AM] Eliezer Mejia: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible\n[12:20:46 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:20:46 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:22:44 AM] Eliezer Mejia: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!\n[12:22:44 AM] Eliezer Mejia: I'm really sorry I couldn't fully resolve this today — our specialist team will follow up via email very soon!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:36:58.621Z"
+    },
+    {
+      "chat_id": "2048556495129636864",
+      "agent_name": "Jonathan Fuentes",
+      "agent_id": "5845",
+      "timestamp": "2026-04-27T00:23:48.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at start; agent jumped to 'one moment' then asked how to help without welcoming customer."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent asked clarifying question but customer's issue ('I want to play') was never properly explored or understood before closing."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "No resolution provided; agent asked for clarification then closed chat without addressing the customer's need to play."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Agent appropriately switched to Spanish and was polite, but communication was incomplete as issue was never addressed."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected; agent stayed within appropriate boundaries."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Closing was polite and wished customer luck, but premature given the unresolved issue."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent appropriately switched to Spanish and was polite but failed to resolve or even fully understand the customer's issue before closing the chat. The interaction lacked proper greeting and meaningful problem-solving.",
+      "coaching_tip": "Never close a chat after asking a clarifying question without waiting for the response and providing actual assistance; ensure the customer's issue is fully addressed before ending the conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 14,
+      "raw_transcript": "[12:15:03 AM] Customer: Full Name: Cirilo Email Address: 6chirihuesca@gmail.com Subject / How can we help you?: Play\n[12:15:03 AM] Customer: Full Name: Cirilo Email Address: 6chirihuesca@gmail.com Subject / How can we help you?: Play\n[12:15:20 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:15:20 AM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[12:16:46 AM] Customer: Si está bien\n[12:16:46 AM] Customer: Si está bien\n[12:16:50 AM] Jonathan Fuentes: How can I help you today?\n[12:16:50 AM] Jonathan Fuentes: How can I help you today?\n[12:18:17 AM] Customer: Quiero jugar\n[12:18:17 AM] Customer: Quiero jugar\n[12:20:14 AM] Jonathan Fuentes: Hola.\n\n¿Podrías indicarme qué información necesitas para poder jugar? Así puedo ayudarte mejor\n[12:20:14 AM] Jonathan Fuentes: Hola.\n\n¿Podrías indicarme qué información necesitas para poder jugar? Así puedo ayudarte mejor\n[12:23:34 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!\n[12:23:34 AM] Jonathan Fuentes: ¡Gracias por charlar con nosotros! Esperamos que disfrutes de tus partidas. ¡Mucha suerte!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:37:07.907Z"
+    },
+    {
+      "chat_id": "2048557773989703680",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-27T00:23:36.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent jumped directly into asking for a moment without welcoming the customer."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked for clarifying information (correct email) and identified the account doesn't exist, showing good investigative effort."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Issue partially diagnosed (no account found) but chat ends without resolution or clear next steps for the customer."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and professional language, though could have been more empathetic given customer's frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately verified account information before proceeding."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing provided; chat appears incomplete with customer left waiting for further assistance."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 55,
+      "grade": "F",
+      "summary": "Agent handled account verification appropriately but failed to provide a proper greeting or closing. The interaction appears incomplete, leaving the customer without clear resolution or next steps.",
+      "coaching_tip": "Always open with a warm greeting using the customer's name, and ensure you provide clear next steps or resolution before closing the conversation.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[12:20:08 AM] Customer: Full Name: Francisco Garcia Email Address: jonaz.imss1704@gmail.com Subject / How can we help you?: I cannot sing up / log in or reset the password\n[12:20:08 AM] Customer: Full Name: Francisco Garcia Email Address: jonaz.imss1704@gmail.com Subject / How can we help you?: I cannot sing up / log in or reset the password\n[12:20:25 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:20:25 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:21:39 AM] Oskar Abaunza: Could you please provide the email associated with your account?\n[12:21:39 AM] Oskar Abaunza: Could you please provide the email associated with your account?\n[12:21:57 AM] Customer: Jonaz.nikkori@gmail.com\n[12:21:57 AM] Customer: Jonaz.nikkori@gmail.com\n[12:23:19 AM] Oskar Abaunza: We’re not able to find an account associated with the email provided. Is it possible that you were able to successfully create the account?\n\nPlease let us know so we can assist you further.\n[12:23:19 AM] Oskar Abaunza: We’re not able to find an account associated with the email provided. Is it possible that you were able to successfully create the account?\n\nPlease let us know so we can assist you further.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:37:15.627Z"
+    },
+    {
+      "chat_id": "2048558379735281664",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-27T00:22:45.000Z",
+      "categories": {
+        "greeting": {
+          "score": 0,
+          "notes": "Agent never responded or greeted the customer at all."
+        },
+        "issue_discovery": {
+          "score": 0,
+          "notes": "Agent made no attempt to discover or clarify the issue regarding 'Juegos' (games)."
+        },
+        "resolution": {
+          "score": 0,
+          "notes": "No resolution attempted as agent did not engage with the customer."
+        },
+        "communication": {
+          "score": 0,
+          "notes": "Agent provided zero communication throughout the entire interaction."
+        },
+        "compliance": {
+          "score": 10,
+          "notes": "No compliance violations occurred since no interaction took place."
+        },
+        "closing": {
+          "score": 0,
+          "notes": "No closing provided as agent never engaged in the conversation."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 10,
+      "grade": "F",
+      "summary": "The agent completely failed to respond to the customer's inquiry about games. This represents a total absence of customer service with no greeting, discovery, resolution, or communication attempted.",
+      "coaching_tip": "Always acknowledge customer messages immediately with a greeting and begin issue discovery, even if the initial inquiry is brief or unclear.",
+      "website": "Jackpot Daily",
+      "message_count": 2,
+      "raw_transcript": "[12:22:32 AM] Customer: Full Name: Naty Email Address: Natygarciapupo@gmail.com Subject / How can we help you?: Juegos\n[12:22:32 AM] Customer: Full Name: Naty Email Address: Natygarciapupo@gmail.com Subject / How can we help you?: Juegos",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:37:22.736Z"
+    },
+    {
+      "chat_id": "2048556116815998976",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-27T00:21:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent went directly to 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions about what steps were completed or when the promotion was supposed to be received."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent identified the expired promotion and provided escalation path via email, but did not attempt to resolve in chat or explain why it expired despite customer completing requirements."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Communication was clear and professional with proper escalation instructions, though lacked empathy for customer's frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided a friendly closing, though moved to close quickly after providing escalation instructions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent handled the technical escalation appropriately but failed to provide a proper greeting and did not explore the customer's concern about completing all requirements. The interaction was functional but lacked the discovery phase needed to understand why the customer believed they should have received the reward.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name when available, and ask clarifying questions about what steps they completed before directing to escalation—this shows you care and may reveal quick-fix solutions.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:37:32.567Z"
+    },
+    {
+      "chat_id": "2048552364393934848",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-27T00:18:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No proper greeting at start, jumped straight to 'one moment' without welcoming customer."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent misunderstood the issue - customer said password reset wasn't working due to 'invalid' error, but agent provided generic reset instructions without addressing the actual error message."
+        },
+        "resolution": {
+          "score": 12,
+          "notes": "Failed to resolve - provided standard reset steps when customer already was in reset process, then claimed account doesn't exist despite customer providing registration details, leaving issue unresolved."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Clear and friendly tone, but multiple redundant 'give me a moment' messages and premature closing attempts while issue was still active."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations, appropriately asked for account verification when unable to locate account."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed prematurely while customer was still engaged and issue unresolved, asked 'anything else' twice before customer confirmed the account lock issue."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 53,
+      "grade": "F",
+      "summary": "Agent failed to understand the customer's actual problem - that the password reset form itself was giving an 'invalid' error despite matching passwords. The agent provided generic reset instructions, didn't troubleshoot the form error, then claimed the account doesn't exist and closed the chat while the issue remained unresolved.",
+      "coaching_tip": "When a customer describes a specific error message during a process, address that exact error first rather than providing generic instructions for the overall process they're already attempting.",
+      "website": "Jackpot Daily",
+      "message_count": 28,
+      "raw_transcript": "[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:59:11 PM] Customer: Ok\n[11:59:11 PM] Customer: Ok\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:08:52 AM] Customer: Yes\n[12:08:52 AM] Customer: Yes\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:37:42.512Z"
+    },
+    {
+      "chat_id": "2048553351448457216",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-27T00:13:10.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting at all; agent jumped directly into 'please allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 8,
+          "notes": "Agent did not ask any clarifying questions about what steps were completed or what the golden egg promotion entailed before investigating."
+        },
+        "resolution": {
+          "score": 14,
+          "notes": "Agent investigated but ultimately deflected to email escalation without attempting any resolution or explaining why chat couldn't resolve it."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Professional and provided clear escalation instructions, but multiple wait messages without substantive updates could have been consolidated."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated rather than making unauthorized promises about the promotion."
+        },
+        "closing": {
+          "score": 3,
+          "notes": "No closing whatsoever; agent provided escalation instructions but never said goodbye or asked if customer had other questions."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 51,
+      "grade": "F",
+      "summary": "Agent was professional and investigated the golden egg issue but failed to greet the customer or close the conversation. The resolution was weak as the agent spent 9 minutes investigating only to deflect entirely to email without explaining findings or attempting any chat-based solution.",
+      "coaching_tip": "Always open with a greeting using the customer's name and close by confirming no further questions are needed before ending the chat.",
+      "website": "Jackpot Daily",
+      "message_count": 20,
+      "raw_transcript": "[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:53 AM] t4859632363: Ok\n[12:03:53 AM] t4859632363: Ok\n[12:05:06 AM] t4859632363: Okay thank you\n[12:05:06 AM] t4859632363: Okay thank you\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:41 AM] t4859632363: Your welcome\n[12:08:41 AM] t4859632363: Your welcome\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:13:01 AM] t4859632363: Ok\n[12:13:01 AM] t4859632363: Ok",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:37:52.061Z"
+    },
+    {
+      "chat_id": "2048551152987238400",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-27T00:03:30.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No initial greeting; first message was just a hold statement, personalized greeting came 4 minutes later."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not ask clarifying questions or verify account details; assumed it was the known Facebook login issue without confirming."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Informed customer of known Facebook login issue but provided no alternative solution or workaround for the specific problem of inaccessible email and duplicate phone number."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Professional and empathetic tone, but did not address the customer's specific concerns about email access and phone number registration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately acknowledged known issue and directed to support email."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided friendly closing, though customer never confirmed satisfaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent acknowledged a known Facebook login issue but failed to address the customer's specific concerns about email access and duplicate phone number preventing account recovery. The response was generic and did not explore alternative solutions or escalate for personalized assistance.",
+      "coaching_tip": "When a customer describes specific account access issues beyond the known problem, ask clarifying questions and offer alternative solutions like manual account verification or escalation to resolve their unique situation.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:38:00.910Z"
     }
   ]
 }
