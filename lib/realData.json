@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-27T00:16:46.317Z",
-  "total_chats": 876,
+  "scored_at": "2026-04-27T00:21:57.334Z",
+  "total_chats": 878,
   "total_agents": 28,
   "agents": [
     {
@@ -31740,11 +31740,56 @@
           "raw_transcript": "[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:42 PM] t2730263379: Ok\n[11:51:42 PM] t2730263379: Ok\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:15 PM] t2730263379: yes\n[11:52:15 PM] t2730263379: yes\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:58:15 PM] t2730263379: Ok\n[11:58:15 PM] t2730263379: Ok\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-27T00:06:48.349Z"
+        },
+        {
+          "chat_id": "2048556116815998976",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-27T00:21:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 4,
+              "notes": "No greeting provided; agent went directly to 'allow me one moment' without any welcome or acknowledgment."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent did not ask any clarifying questions about what steps were completed or when the promotion was claimed before declaring it expired."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Agent identified the promotion as expired and provided escalation path via email, but did not attempt to resolve or explain why it expired despite customer claiming completion."
+            },
+            "communication": {
+              "score": 14,
+              "notes": "Communication was clear and professional with proper escalation instructions, though lacked empathy for customer's frustration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately escalated without making unauthorized promises."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided a friendly closing, though moved to close quickly after no customer response."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 59,
+          "grade": "F",
+          "summary": "Agent handled the technical escalation appropriately but failed to greet the customer or investigate their claim of completing all requirements. The interaction lacked the discovery phase needed to understand why the customer believed they qualified for the promotion.",
+          "coaching_tip": "Always open with a proper greeting using the customer's name, and ask clarifying questions about what steps they completed before concluding a promotion has expired—this shows empathy and may reveal resolution opportunities.",
+          "website": "Jackpot Daily",
+          "message_count": 10,
+          "raw_transcript": "[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:21:46.343Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 6
+      "trend": 4
     },
     {
       "id": "5807",
@@ -33864,11 +33909,56 @@
           "raw_transcript": "[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:53 AM] t4859632363: Ok\n[12:03:53 AM] t4859632363: Ok\n[12:05:06 AM] t4859632363: Okay thank you\n[12:05:06 AM] t4859632363: Okay thank you\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:41 AM] t4859632363: Your welcome\n[12:08:41 AM] t4859632363: Your welcome\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:13:01 AM] t4859632363: Ok\n[12:13:01 AM] t4859632363: Ok",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-27T00:16:45.816Z"
+        },
+        {
+          "chat_id": "2048552364393934848",
+          "agent_name": "Oskar Abaunza",
+          "agent_id": "5807",
+          "timestamp": "2026-04-27T00:18:02.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No proper greeting at start, only 'please allow me one moment' which is procedural, not welcoming."
+            },
+            "issue_discovery": {
+              "score": 10,
+              "notes": "Agent failed to understand the actual issue - customer said password reset form shows 'invalid' error, but agent provided generic password reset steps without addressing the validation error."
+            },
+            "resolution": {
+              "score": 8,
+              "notes": "Agent provided password reset steps but didn't address the specific 'invalid' error message, then couldn't find account and closed without resolving the core issue."
+            },
+            "communication": {
+              "score": 12,
+              "notes": "Friendly tone but multiple redundant 'give me a moment' messages and premature closing attempts while customer was still engaged showed poor flow management."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No violations but closed chat prematurely without confirming resolution or ensuring customer had no further questions after revealing account couldn't be found."
+            },
+            "closing": {
+              "score": 4,
+              "notes": "Closed abruptly after revealing account not found, without waiting for customer response or properly resolving the discrepancy."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 47,
+          "grade": "F",
+          "summary": "Agent misunderstood the core issue about password validation errors and provided generic reset instructions instead of troubleshooting the 'invalid' message. The interaction ended poorly when the account couldn't be located and agent closed without waiting for customer confirmation or alternative email.",
+          "coaching_tip": "When a customer describes a specific error message like 'invalid', ask clarifying questions about password requirements being met rather than assuming they need basic reset instructions, and never close a chat immediately after revealing an account issue without customer acknowledgment.",
+          "website": "Jackpot Daily",
+          "message_count": 28,
+          "raw_transcript": "[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:59:11 PM] Customer: Ok\n[11:59:11 PM] Customer: Ok\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:08:52 AM] Customer: Yes\n[12:08:52 AM] Customer: Yes\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:21:56.833Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 6
+      "trend": -8
     },
     {
       "id": "5840",
@@ -79096,6 +79186,96 @@
       "raw_transcript": "[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:47 AM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:02:57 AM] t4859632363: Okay thank-you\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:46 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:03:53 AM] t4859632363: Ok\n[12:03:53 AM] t4859632363: Ok\n[12:05:06 AM] t4859632363: Okay thank you\n[12:05:06 AM] t4859632363: Okay thank you\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:25 AM] Oskar Abaunza: Still here! This is taking a tiny bit longer than expected — thanks so much for your patience!\n[12:08:41 AM] t4859632363: Your welcome\n[12:08:41 AM] t4859632363: Your welcome\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:11:19 AM] Oskar Abaunza: At this point, we kindly ask that you create a support ticket via email so we can escalate your case properly. Please send an email to support@jackpotdaily.com including a brief description of the issue and any relevant screenshots.\nTo help us prioritize your request, make sure to include “ESCALATE” in the subject line.\nOnce submitted, our team will review your case and get back to you as soon as possible.\n[12:13:01 AM] t4859632363: Ok\n[12:13:01 AM] t4859632363: Ok",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-27T00:16:45.816Z"
+    },
+    {
+      "chat_id": "2048556116815998976",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-27T00:21:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 4,
+          "notes": "No greeting provided; agent went directly to 'allow me one moment' without any welcome or acknowledgment."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent did not ask any clarifying questions about what steps were completed or when the promotion was claimed before declaring it expired."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Agent identified the promotion as expired and provided escalation path via email, but did not attempt to resolve or explain why it expired despite customer claiming completion."
+        },
+        "communication": {
+          "score": 14,
+          "notes": "Communication was clear and professional with proper escalation instructions, though lacked empathy for customer's frustration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately escalated without making unauthorized promises."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided a friendly closing, though moved to close quickly after no customer response."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 59,
+      "grade": "F",
+      "summary": "Agent handled the technical escalation appropriately but failed to greet the customer or investigate their claim of completing all requirements. The interaction lacked the discovery phase needed to understand why the customer believed they qualified for the promotion.",
+      "coaching_tip": "Always open with a proper greeting using the customer's name, and ask clarifying questions about what steps they completed before concluding a promotion has expired—this shows empathy and may reveal resolution opportunities.",
+      "website": "Jackpot Daily",
+      "message_count": 10,
+      "raw_transcript": "[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:13:33 AM] t4859632363: Full Name: t4859632363 Email Address: cedricjenkins12@gmail.com Subject / How can we help you?: Golden egg I've done everything that I needed to do and I still haven't received the golden egg\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:14:10 AM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:06 AM] Marlon Cibrian: It appears that your Golden Egg promotion has expired. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:18:23 AM] Marlon Cibrian: Is there anything else I can help you with today?\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!\n[12:21:00 AM] Marlon Cibrian: Thanks for chatting with us! — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:21:46.343Z"
+    },
+    {
+      "chat_id": "2048552364393934848",
+      "agent_name": "Oskar Abaunza",
+      "agent_id": "5807",
+      "timestamp": "2026-04-27T00:18:02.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No proper greeting at start, only 'please allow me one moment' which is procedural, not welcoming."
+        },
+        "issue_discovery": {
+          "score": 10,
+          "notes": "Agent failed to understand the actual issue - customer said password reset form shows 'invalid' error, but agent provided generic password reset steps without addressing the validation error."
+        },
+        "resolution": {
+          "score": 8,
+          "notes": "Agent provided password reset steps but didn't address the specific 'invalid' error message, then couldn't find account and closed without resolving the core issue."
+        },
+        "communication": {
+          "score": 12,
+          "notes": "Friendly tone but multiple redundant 'give me a moment' messages and premature closing attempts while customer was still engaged showed poor flow management."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No violations but closed chat prematurely without confirming resolution or ensuring customer had no further questions after revealing account couldn't be found."
+        },
+        "closing": {
+          "score": 4,
+          "notes": "Closed abruptly after revealing account not found, without waiting for customer response or properly resolving the discrepancy."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 47,
+      "grade": "F",
+      "summary": "Agent misunderstood the core issue about password validation errors and provided generic reset instructions instead of troubleshooting the 'invalid' message. The interaction ended poorly when the account couldn't be located and agent closed without waiting for customer confirmation or alternative email.",
+      "coaching_tip": "When a customer describes a specific error message like 'invalid', ask clarifying questions about password requirements being met rather than assuming they need basic reset instructions, and never close a chat immediately after revealing an account issue without customer acknowledgment.",
+      "website": "Jackpot Daily",
+      "message_count": 28,
+      "raw_transcript": "[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:38 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: I’m resetting my password but when I go to put the new one and confirm it, they both match up, but it says invalid\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:58:55 PM] Oskar Abaunza: Please allow me one moment to look into this for you!\n[11:59:11 PM] Customer: Ok\n[11:59:11 PM] Customer: Ok\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:01:18 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:02:06 AM] Oskar Abaunza: Hey Donald!  No worries at all — happens to the best of us!\n\n1. Go to www.jackpotdaily.com\n2. Click \"Login\" → \"Forgot Password?\"\n3. Enter your registered email\n4. Follow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:03:30 AM] Oskar Abaunza: Please kindly follow the steps provided above and try again. If the issue persists after completing those steps, feel free to let us know and we’ll be happy to assist you further.\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:06:06 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:08:52 AM] Customer: Yes\n[12:08:52 AM] Customer: Yes\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:02 AM] Customer: It’s prob at least 5\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:09:36 AM] Customer: Prob gonna need to reset it\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:13:28 AM] Oskar Abaunza: Give me a moment to review this information.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:19 AM] Oskar Abaunza: We were unable to locate an account using the email provided. Could you please confirm if there is another email address that might be associated with your account?\n\nOnce we have the correct information, we’ll be happy to assist you further.\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:16:37 AM] Oskar Abaunza: Is there anything else I can help you with today?\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:17:59 AM] Oskar Abaunza: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:21:56.833Z"
     }
   ]
 }
