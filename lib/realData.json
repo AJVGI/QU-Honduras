@@ -1,6 +1,6 @@
 {
-  "scored_at": "2026-04-27T00:01:50.148Z",
-  "total_chats": 873,
+  "scored_at": "2026-04-27T00:06:57.784Z",
+  "total_chats": 875,
   "total_agents": 28,
   "agents": [
     {
@@ -29616,11 +29616,56 @@
           "raw_transcript": "[11:43:52 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: It’s not letting me past the part where it says disable vpn\n[11:43:52 PM] Customer: Full Name: Donald Gregory Email Address: djgregory89@icloud.com Subject / How can we help you?: It’s not letting me past the part where it says disable vpn\n[11:44:03 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:44:03 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:44:23 PM] Customer: I went and allowed it while using app\n[11:44:23 PM] Customer: I went and allowed it while using app\n[11:45:05 PM] Eliezer Mejia: Hey Donald!  That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[11:45:05 PM] Eliezer Mejia: Hey Donald!  That's a strange one if you're in an eligible state — let's figure out what's going on!\n\nIt's usually one of these culprits:\n- A VPN or proxy is active — try disabling it and refreshing\n- Location services are turned off — enable them in your browser or device settings\n- Your ISP might be routing your connection through a different state (annoying, but it happens!)\n\nQuick things to try:\n- Switch between Wi-Fi and mobile data\n- Restart your router and device\n- Make sure any VPNs or proxies are fully off\n\nTry those and let me know how it goes! If it's still not working, I'll dig deeper\n[11:45:38 PM] Customer: Ok give me couple mins\n[11:45:38 PM] Customer: Ok give me couple mins\n[11:46:07 PM] Eliezer Mejia: Sure, please take your time!\n[11:46:07 PM] Eliezer Mejia: Sure, please take your time!\n[11:49:31 PM] Eliezer Mejia: Is there anything else I can help you with today?\n[11:49:31 PM] Eliezer Mejia: Is there anything else I can help you with today?\n[11:49:50 PM] Customer: Still trying these suggestions\n[11:49:50 PM] Customer: Still trying these suggestions\n[11:50:24 PM] Eliezer Mejia: Okey, just let me know is there any update o positive action.\n[11:50:24 PM] Eliezer Mejia: Okey, just let me know is there any update o positive action.\n[11:51:19 PM] Customer: Idk yet I’m about to try one more thing but it May disable it\n[11:51:19 PM] Customer: Idk yet I’m about to try one more thing but it May disable it\n[11:51:30 PM] Customer: I meant may disable us\n[11:51:30 PM] Customer: I meant may disable us",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T23:56:51.745Z"
+        },
+        {
+          "chat_id": "2048551152987238400",
+          "agent_name": "Eliezer Mejia",
+          "agent_id": "5552",
+          "timestamp": "2026-04-27T00:03:30.000Z",
+          "categories": {
+            "greeting": {
+              "score": 5,
+              "notes": "No initial greeting; first message was just a hold statement, personalized greeting came 4 minutes later."
+            },
+            "issue_discovery": {
+              "score": 11,
+              "notes": "Agent did not ask clarifying questions or verify account details; assumed it was the known Facebook login issue without confirming."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Informed customer of known Facebook login issue but provided no alternative solution or workaround for the specific problem of inaccessible email and duplicate phone number."
+            },
+            "communication": {
+              "score": 15,
+              "notes": "Professional and empathetic tone, but didn't address the customer's specific concerns about email access and phone number registration."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations; appropriately acknowledged known issue and directed to support email."
+            },
+            "closing": {
+              "score": 7,
+              "notes": "Offered further help and provided friendly closing, though customer never confirmed satisfaction."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 62,
+          "grade": "D",
+          "summary": "Agent acknowledged a known Facebook login issue but failed to investigate the customer's specific problem regarding inaccessible email and duplicate phone number registration. The response was generic and didn't provide actionable next steps for the customer's unique situation.",
+          "coaching_tip": "When customers describe specific account issues beyond the known problem, ask clarifying questions and verify account details to provide tailored solutions rather than relying solely on templated responses about known issues.",
+          "website": "Jackpot Daily",
+          "message_count": 12,
+          "raw_transcript": "[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:06:57.283Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": -7
+      "trend": -11
     },
     {
       "id": "5805",
@@ -31650,11 +31695,56 @@
           "raw_transcript": "[11:35:12 PM] t9703908699: Full Name: t9703908699 Email Address: newyork2508@gmail.com Subject / How can we help you?: I have not received my referral bonus of $58 my friend is verified and spent over $40\n[11:35:12 PM] t9703908699: Full Name: t9703908699 Email Address: newyork2508@gmail.com Subject / How can we help you?: I have not received my referral bonus of $58 my friend is verified and spent over $40\n[11:35:25 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:35:25 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:36:16 PM] t9703908699: My info is newyork2508@gmail.com my name is Marilynn Laterra my friend that used my link is Ashley Flowers her email is ashttg2025@icloud\n[11:36:16 PM] t9703908699: My info is newyork2508@gmail.com my name is Marilynn Laterra my friend that used my link is Ashley Flowers her email is ashttg2025@icloud\n[11:36:52 PM] t9703908699: If u see my chat history last time they said she had to spend over 30 now she spent over 40 and I still got no bonus\n[11:36:52 PM] t9703908699: If u see my chat history last time they said she had to spend over 30 now she spent over 40 and I still got no bonus\n[11:37:36 PM] Marlon Cibrian: Bear with me for just a moment while I take a look at your account!\n[11:37:36 PM] Marlon Cibrian: Bear with me for just a moment while I take a look at your account!\n[11:37:43 PM] t9703908699: I was told I would be automatically credited when she spent that amount and she did I still have nothing\n[11:37:43 PM] t9703908699: I was told I would be automatically credited when she spent that amount and she did I still have nothing\n[11:39:12 PM] t9703908699: Ok I'll be here\n[11:39:12 PM] t9703908699: Ok I'll be here\n[11:41:19 PM] Marlon Cibrian: Please keep in mind these terms and conditions. I would like to double-check that you are not in the same location, as the system will not grant the referral bonus if it detects the same IP address.\n[11:41:19 PM] Marlon Cibrian: Please keep in mind these terms and conditions. I would like to double-check that you are not in the same location, as the system will not grant the referral bonus if it detects the same IP address.\n[11:41:21 PM] Marlon Cibrian: image.png\n[11:41:21 PM] Marlon Cibrian: image.png\n[11:41:59 PM] t9703908699: We live in the same complex not same ip\n[11:41:59 PM] t9703908699: We live in the same complex not same ip\n[11:42:36 PM] t9703908699: I am rightfully owed my referral bonus we did everything we were told in the previous chats\n[11:42:36 PM] t9703908699: I am rightfully owed my referral bonus we did everything we were told in the previous chats\n[11:44:07 PM] t9703908699: We are using wifi\n[11:44:07 PM] t9703908699: We are using wifi\n[11:44:17 PM] Marlon Cibrian: I completely understand. In this case, the best option is to escalate the matter and explain that you live in the same complex but do not share the same IP address. However, if the system detects the same IP address, the bonus will not be granted. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE�� in the subject line. Once received, our team will review your case and respond as soon as possible.\n[11:44:17 PM] Marlon Cibrian: I completely understand. In this case, the best option is to escalate the matter and explain that you live in the same complex but do not share the same IP address. However, if the system detects the same IP address, the bonus will not be granted. At this point, we kindly request that you submit a support ticket via email so we can properly escalate your case. Please contact support@jackpotdaily.com\n with a brief description of the issue and any relevant screenshots. To help us prioritize your request, please include “ESCALATE” in the subject line. Once received, our team will review your case and respond as soon as possible.\n[11:44:40 PM] t9703908699: ESCALATE\n[11:44:40 PM] t9703908699: ESCALATE\n[11:45:00 PM] Marlon Cibrian: If both users are connected to the same WiFi network, that is why the system is detecting the same IP address. A different WiFi connection would be required.\n[11:45:00 PM] Marlon Cibrian: If both users are connected to the same WiFi network, that is why the system is detecting the same IP address. A different WiFi connection would be required.\n[11:45:36 PM] Marlon Cibrian: Kindly send an email to the address provided so our support team can escalate your case and assist you with your referral bonus.\n[11:45:36 PM] Marlon Cibrian: Kindly send an email to the address provided so our support team can escalate your case and assist you with your referral bonus.\n[11:45:46 PM] t9703908699: Ok but she turned her wifi off\n[11:45:46 PM] t9703908699: Ok but she turned her wifi off\n[11:47:33 PM] Marlon Cibrian: The issue is that the system has already detected the same IP address. At this point, the best option is to escalate the case via support@jackpotdaily.com\n.\n[11:47:33 PM] Marlon Cibrian: The issue is that the system has already detected the same IP address. At this point, the best option is to escalate the case via support@jackpotdaily.com\n.\n[11:48:11 PM] Marlon Cibrian: Is there anything else I can help you with today?\n[11:48:11 PM] Marlon Cibrian: Is there anything else I can help you with today?",
           "scored_with": "anthropic/claude-sonnet-4.5",
           "scored_at": "2026-04-26T23:51:45.871Z"
+        },
+        {
+          "chat_id": "2048550402441129984",
+          "agent_name": "Marlon Cibrian",
+          "agent_id": "5805",
+          "timestamp": "2026-04-27T00:04:01.000Z",
+          "categories": {
+            "greeting": {
+              "score": 3,
+              "notes": "No greeting provided, agent opened with forward slashes and then jumped to 'one moment' without any welcome."
+            },
+            "issue_discovery": {
+              "score": 14,
+              "notes": "Agent asked clarifying questions about the error message and confirmed the issue, though could have probed deeper about account status."
+            },
+            "resolution": {
+              "score": 16,
+              "notes": "Provided standard troubleshooting (100 SC requirement, logout/login) and requested screenshot for escalation, but resolution incomplete as chat appears ongoing."
+            },
+            "communication": {
+              "score": 13,
+              "notes": "Clear and professional language, though somewhat repetitive with duplicate messages appearing throughout the chat."
+            },
+            "compliance": {
+              "score": 8,
+              "notes": "No policy violations detected, appropriately referenced redemption requirements without making unauthorized promises."
+            },
+            "closing": {
+              "score": 2,
+              "notes": "No closing provided; chat ends abruptly while waiting for customer screenshot with no acknowledgment or further assistance offered."
+            }
+          },
+          "auto_fail": {
+            "triggered": false,
+            "reason": null
+          },
+          "total_score": 56,
+          "grade": "F",
+          "summary": "Agent provided basic troubleshooting for a redemption issue but failed to open with a proper greeting and did not close the interaction appropriately. Communication was functional but lacked warmth and the resolution process was left incomplete.",
+          "coaching_tip": "Always open chats with a warm, personalized greeting using the customer's name when available, and ensure proper closure even when waiting for customer action by setting clear expectations.",
+          "website": "Jackpot Daily",
+          "message_count": 26,
+          "raw_transcript": "[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:42 PM] t2730263379: Ok\n[11:51:42 PM] t2730263379: Ok\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:15 PM] t2730263379: yes\n[11:52:15 PM] t2730263379: yes\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:58:15 PM] t2730263379: Ok\n[11:58:15 PM] t2730263379: Ok\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.",
+          "scored_with": "anthropic/claude-sonnet-4.5",
+          "scored_at": "2026-04-27T00:06:48.349Z"
         }
       ],
       "avg_score": 53,
       "grade": "F",
-      "trend": 9
+      "trend": 6
     },
     {
       "id": "5807",
@@ -78826,6 +78916,96 @@
       "raw_transcript": "[11:40:55 PM] Customer: Full Name: Brian Cruse Email Address: cruseb40@gmail.com Subject / How can we help you?: I'm trying to sign up but can't do so\n[11:40:55 PM] Customer: Full Name: Brian Cruse Email Address: cruseb40@gmail.com Subject / How can we help you?: I'm trying to sign up but can't do so\n[11:41:16 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:41:16 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:42:15 PM] Jonathan Fuentes: Did you already created an account or you want to create a new one?\n[11:42:15 PM] Jonathan Fuentes: Did you already created an account or you want to create a new one?\n[11:42:57 PM] Jonathan Fuentes: What happens when you try to get in?\n[11:42:57 PM] Jonathan Fuentes: What happens when you try to get in?\n[11:44:23 PM] Customer: I'm trying to\n[11:44:23 PM] Customer: I'm trying to\n[11:44:58 PM] Customer: Can you help me if I give you the ibfo\n[11:44:58 PM] Customer: Can you help me if I give you the ibfo\n[11:45:25 PM] Jonathan Fuentes: Yes, can I please have the email you trying to use?\n[11:45:25 PM] Jonathan Fuentes: Yes, can I please have the email you trying to use?\n[11:45:57 PM] Jonathan Fuentes: What message do you receive when you try to get in?\n[11:45:57 PM] Jonathan Fuentes: What message do you receive when you try to get in?\n[11:46:03 PM] Customer: crusebrian804@gmail.com\n[11:46:03 PM] Customer: crusebrian804@gmail.com\n[11:47:03 PM] Customer: Nothing when\n[11:47:03 PM] Customer: Nothing when\n[11:47:38 PM] Jonathan Fuentes: I don't see an account created with that email. \n\nKeep in mind that if you already have an account created, you can not use another email to create a new one.\n[11:47:38 PM] Jonathan Fuentes: I don't see an account created with that email. \n\nKeep in mind that if you already have an account created, you can not use another email to create a new one.\n[11:48:42 PM] Customer: It wouldn't take my other one would you like to check that one first\n[11:48:42 PM] Customer: It wouldn't take my other one would you like to check that one first\n[11:49:12 PM] Jonathan Fuentes: Yes, please send it so I can check.\n[11:49:12 PM] Jonathan Fuentes: Yes, please send it so I can check.\n[11:49:19 PM] Customer: cruseb40@gmail.com is the one they wouldn't take\n[11:49:19 PM] Customer: cruseb40@gmail.com is the one they wouldn't take\n[11:50:03 PM] Jonathan Fuentes: I can see a non-verify account created with that email.\n[11:50:03 PM] Jonathan Fuentes: I can see a non-verify account created with that email.\n[11:50:37 PM] Customer: So can you run with that one please\n[11:50:37 PM] Customer: So can you run with that one please\n[11:51:15 PM] Jonathan Fuentes: The account is created. You should be able to access it with your password.\n[11:51:15 PM] Jonathan Fuentes: The account is created. You should be able to access it with your password.\n[11:51:52 PM] Jonathan Fuentes: If you don't remember it, no worries at all, it happens to the best of us!\n\nGo to www.jackpotdaily.com\nClick \"Login\" → \"Forgot Password?\"\nEnter your registered email\nFollow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[11:51:52 PM] Jonathan Fuentes: If you don't remember it, no worries at all, it happens to the best of us!\n\nGo to www.jackpotdaily.com\nClick \"Login\" → \"Forgot Password?\"\nEnter your registered email\nFollow the reset link we send you\n\nQuick heads up — if you've had 5 incorrect login attempts, your account may be temporarily locked. If that's the case, just let me know and I'll sort it out!\n[11:52:05 PM] Customer: Okey I have another question can you help me do a refer A friend a\n[11:52:05 PM] Customer: Okey I have another question can you help me do a refer A friend a\n[11:52:28 PM] Customer: So I can receive the referral bonus alao\n[11:52:28 PM] Customer: So I can receive the referral bonus alao\n[11:53:33 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:53:33 PM] Jonathan Fuentes: Please allow me one moment to look into this for you!\n[11:53:55 PM] Customer: With the account you just set up will I still receive the welcome bonuses\n[11:53:55 PM] Customer: With the account you just set up will I still receive the welcome bonuses\n[11:55:33 PM] Jonathan Fuentes: Referring a friend is super easy 😊\n\nHere’s how you can do it:\n\nLog in to your account\nGo to the “Invite Friends” section\nCopy your unique referral link\nShare it with your friends\n\nOnce your friend signs up using your link and completes the required steps, you’ll receive your referral rewards automatically\n[11:55:33 PM] Jonathan Fuentes: Referring a friend is super easy 😊\n\nHere’s how you can do it:\n\nLog in to your account\nGo to the “Invite Friends” section\nCopy your unique referral link\nShare it with your friends\n\nOnce your friend signs up using your link and completes the required steps, you’ll receive your referral rewards automatically\n[11:56:19 PM] Customer: Okey thanks for your help\n[11:56:19 PM] Customer: Okey thanks for your help\n[11:56:38 PM] Jonathan Fuentes: Is there anything else I can help you with today?\n[11:56:38 PM] Jonathan Fuentes: Is there anything else I can help you with today?",
       "scored_with": "anthropic/claude-sonnet-4.5",
       "scored_at": "2026-04-27T00:01:49.647Z"
+    },
+    {
+      "chat_id": "2048550402441129984",
+      "agent_name": "Marlon Cibrian",
+      "agent_id": "5805",
+      "timestamp": "2026-04-27T00:04:01.000Z",
+      "categories": {
+        "greeting": {
+          "score": 3,
+          "notes": "No greeting provided, agent opened with forward slashes and then jumped to 'one moment' without any welcome."
+        },
+        "issue_discovery": {
+          "score": 14,
+          "notes": "Agent asked clarifying questions about the error message and confirmed the issue, though could have probed deeper about account status."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Provided standard troubleshooting (100 SC requirement, logout/login) and requested screenshot for escalation, but resolution incomplete as chat appears ongoing."
+        },
+        "communication": {
+          "score": 13,
+          "notes": "Clear and professional language, though somewhat repetitive with duplicate messages appearing throughout the chat."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations detected, appropriately referenced redemption requirements without making unauthorized promises."
+        },
+        "closing": {
+          "score": 2,
+          "notes": "No closing provided; chat ends abruptly while waiting for customer screenshot with no acknowledgment or further assistance offered."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 56,
+      "grade": "F",
+      "summary": "Agent provided basic troubleshooting for a redemption issue but failed to open with a proper greeting and did not close the interaction appropriately. Communication was functional but lacked warmth and the resolution process was left incomplete.",
+      "coaching_tip": "Always open chats with a warm, personalized greeting using the customer's name when available, and ensure proper closure even when waiting for customer action by setting clear expectations.",
+      "website": "Jackpot Daily",
+      "message_count": 26,
+      "raw_transcript": "[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:50:50 PM] t2730263379: Full Name: t2730263379 Email Address: vhenderson1980@gmail.com Subject / How can we help you?: Redeem issues\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:17 PM] Marlon Cibrian: /\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:29 PM] Marlon Cibrian: Please allow me one moment to look into this for you!\n[11:51:42 PM] t2730263379: Ok\n[11:51:42 PM] t2730263379: Ok\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:04 PM] Marlon Cibrian: Just to confirm—are you having trouble redeeming?\n[11:52:15 PM] t2730263379: yes\n[11:52:15 PM] t2730263379: yes\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:53:11 PM] Marlon Cibrian: Could you please confirm what error message you receive when attempting to redeem?\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:54:36 PM] t2730263379: No error message just will not let redeem\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:55:40 PM] Marlon Cibrian: Please remember that you must play at least 100 SC. Additionally, try logging out and then logging back in.\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:56:58 PM] t2730263379: I did play a100sc actually more\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:57:57 PM] Marlon Cibrian: Could you please try logging out and logging back in, then attempt to redeem again? If the issue persists, kindly provide a screenshot.\n[11:58:15 PM] t2730263379: Ok\n[11:58:15 PM] t2730263379: Ok\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.\n[12:00:59 AM] Marlon Cibrian: If the issue persists, kindly provide a screenshot.",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:06:48.349Z"
+    },
+    {
+      "chat_id": "2048551152987238400",
+      "agent_name": "Eliezer Mejia",
+      "agent_id": "5552",
+      "timestamp": "2026-04-27T00:03:30.000Z",
+      "categories": {
+        "greeting": {
+          "score": 5,
+          "notes": "No initial greeting; first message was just a hold statement, personalized greeting came 4 minutes later."
+        },
+        "issue_discovery": {
+          "score": 11,
+          "notes": "Agent did not ask clarifying questions or verify account details; assumed it was the known Facebook login issue without confirming."
+        },
+        "resolution": {
+          "score": 16,
+          "notes": "Informed customer of known Facebook login issue but provided no alternative solution or workaround for the specific problem of inaccessible email and duplicate phone number."
+        },
+        "communication": {
+          "score": 15,
+          "notes": "Professional and empathetic tone, but didn't address the customer's specific concerns about email access and phone number registration."
+        },
+        "compliance": {
+          "score": 8,
+          "notes": "No policy violations; appropriately acknowledged known issue and directed to support email."
+        },
+        "closing": {
+          "score": 7,
+          "notes": "Offered further help and provided friendly closing, though customer never confirmed satisfaction."
+        }
+      },
+      "auto_fail": {
+        "triggered": false,
+        "reason": null
+      },
+      "total_score": 62,
+      "grade": "D",
+      "summary": "Agent acknowledged a known Facebook login issue but failed to investigate the customer's specific problem regarding inaccessible email and duplicate phone number registration. The response was generic and didn't provide actionable next steps for the customer's unique situation.",
+      "coaching_tip": "When customers describe specific account issues beyond the known problem, ask clarifying questions and verify account details to provide tailored solutions rather than relying solely on templated responses about known issues.",
+      "website": "Jackpot Daily",
+      "message_count": 12,
+      "raw_transcript": "[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:53:49 PM] Customer: Full Name: Kiterrial Phillips Email Address: kiterrialp@yahoo.com Subject / How can we help you?: I can not login\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:55:57 PM] Customer: I originally signed up through my facebook but I do not have access to the email address and it’s saying my account is not registered but my number was entered when I registered last night so I can not continue the process nor can I change my password\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[11:56:02 PM] Eliezer Mejia: Please allow me one moment to look into this for you!\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:00:10 AM] Eliezer Mejia: Hi Kiterrial,\n\nThank you for reaching out to us! \n\nWe’re so sorry if you’ve been having some trouble getting into your account. We are currently aware of an inconvenience that is preventing some of our players from logging in through Facebook. Please be assured that our team is already working hard to resolve this and restore full access as quickly as possible!\n\nWe really appreciate your patience and understanding while we get this sorted out. In the meantime, if you have any other questions, feel free to reach back out to us at support@jackpotdaily.com.\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:02:37 AM] Eliezer Mejia: Is there anything else I can help you with today?\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!\n[12:03:27 AM] Eliezer Mejia: Thanks for chatting with us! Hope you enjoy your games — good luck out there!",
+      "scored_with": "anthropic/claude-sonnet-4.5",
+      "scored_at": "2026-04-27T00:06:57.283Z"
     }
   ]
 }
