@@ -91,6 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div>
           <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">Reports</div>
           <div className="space-y-0.5">
+            <NavLink href="/reports/hub" icon="📊" label="Reports Hub" onClick={close} />
             <NavLink href="/reports/daily" icon="📅" label="Daily Report" onClick={close} />
             <NavLink href="/reports/weekly" icon="📈" label="Weekly Report" onClick={close} />
             <NavLink href="/reports/autofails" icon="🚨" label="Auto-Fails" onClick={close} />
