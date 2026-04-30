@@ -348,21 +348,16 @@ async function generateMockReports(
         {
           children: [
             new Paragraph({
-              text: title,
-              bold: true,
-              size: 28,
+              children: [new TextRun({ text: title, bold: true, size: 28 })],
             }),
             new Paragraph({
-              text: `Period: ${periodLabel}`,
-              size: 20,
+              children: [new TextRun({ text: `Period: ${periodLabel}`, size: 20 })],
             }),
             new Paragraph({
-              text: `Total Tickets: ${aggregates.totalTickets}`,
-              size: 20,
+              children: [new TextRun({ text: `Total Tickets: ${aggregates.totalTickets}`, size: 20 })],
             }),
             new Paragraph({
-              text: `Avg FRT: ${aggregates.avgFrtSeconds.toFixed(1)}s`,
-              size: 20,
+              children: [new TextRun({ text: `Avg FRT: ${aggregates.avgFrtSeconds.toFixed(1)}s`, size: 20 })],
             }),
           ],
         },

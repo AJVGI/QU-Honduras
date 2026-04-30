@@ -30,7 +30,7 @@ export async function GET() {
     // Generate signed URLs for each report
     const reports = await Promise.all(
       (data || []).map(async (run) => {
-        const urls = { qa: null, inquiry: null, individual: null };
+        const urls: { qa: string | null; inquiry: string | null; individual: string | null } = { qa: null, inquiry: null, individual: null };
 
         if (run.qa_report_path) {
           const { data: url } = await supabase.storage.from('qa-reports').createSignedUrl(run.qa_report_path, 3600);
