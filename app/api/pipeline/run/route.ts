@@ -534,8 +534,8 @@ function kpiTile(label: string, value: string, fill: string) {
   });
 }
 
-function createMockReports(period: string, stats: AggregateStats): { qa: Buffer; inquiry: Buffer; individual: Buffer } {
-  const createDocx = (title: string) => {
+async function createMockReports(period: string, stats: AggregateStats): Promise<{ qa: Buffer; inquiry: Buffer; individual: Buffer }> {
+  const createDocx = async (title: string) => {
     const doc = new Document({
       sections: [{
         children: [
@@ -551,9 +551,9 @@ function createMockReports(period: string, stats: AggregateStats): { qa: Buffer;
   };
 
   return {
-    qa: createDocx('QA REPORT'),
-    inquiry: createDocx('CLIENT INQUIRY REPORT'),
-    individual: createDocx('INDIVIDUAL AGENT QA REPORT'),
+    qa: await createDocx('QA REPORT'),
+    inquiry: await createDocx('CLIENT INQUIRY REPORT'),
+    individual: await createDocx('INDIVIDUAL AGENT QA REPORT'),
   };
 }
 
