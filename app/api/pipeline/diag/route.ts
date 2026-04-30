@@ -9,3 +9,4 @@ export async function GET() {
     WELLYTALK_PASS: process.env.WELLYTALK_PASS ? 'SET('+process.env.WELLYTALK_PASS.length+'chars)' : 'MISSING',
   });
 }
+// env fix redeploy Thu Apr 30 11:17:49 PM UTC 2026
