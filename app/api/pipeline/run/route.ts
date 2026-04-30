@@ -205,7 +205,30 @@ const THRESHOLDS = {
 
 const SKIP_AGENTS_SET = new Set(AGENT_MAPPING.skip_agents);
 
+const RECURRING_FLAGS = {"_comment": "Per-agent historical patterns of issues across multiple periods. Reference this when writing flags - escalate severity for recurring patterns. Update after each report run.", "_version": "2026-04-29", "_period_count_to_date": 13, "active_recurring_flags": [{"agent": "Mirza Garcia", "flag_type": "Persistent low closure / no-response tickets", "first_observed": "2026-04-08", "consecutive_periods": 6, "severity": "HIGH", "current_action": "Formal improvement plan recommended for multiple periods - now critically overdue", "metrics": {"closure_rate_range": "12% - 50%", "frt_range": "82s - 138s", "zero_response_tickets_observed": true}}, {"agent": "Angie Pereira", "flag_type": "Question-then-close pattern", "first_observed": "2026-04-13", "consecutive_periods": 4, "severity": "HIGH (escalated from MEDIUM due to recurrence)", "current_action": "Targeted coaching session required - habit persists despite multiple flags", "description": "Asks diagnostic question then immediately sends farewell and closes ticket without waiting for client's answer"}, {"agent": "Oskar Abaunza", "flag_type": "Debit card 'unavailable' without confirmation", "first_observed": "2026-04-13", "consecutive_periods": 5, "severity": "HIGH", "current_action": "Direct coaching - only state unavailable when Manager confirms outage", "description": "Continues to tell clients debit card redemption is unavailable when no active outage exists"}, {"agent": "Evelyn Portillo", "flag_type": "Fabricated outage / high-volume language", "first_observed": "2026-04-15", "consecutive_periods": "Variant uses across 3+ periods", "severity": "HIGH", "current_action": "Direct coaching session required", "description": "Uses 'high volume of requests' or similar language to cover going idle, then closes unresolved frustrated clients with gaming farewell"}, {"agent": "Ludovicode Flores", "flag_type": "Fabricated outage language variants", "first_observed": "2026-04-15", "consecutive_periods": "Multiple", "severity": "MEDIUM", "current_action": "Final warning issued", "_note": "No fabricated language observed Apr 28-29 - improvement to monitor"}, {"agent": "Dustin Euceda", "flag_type": "FRT regression / inconsistent", "first_observed": "2026-04-08", "consecutive_periods": "Mixed", "severity": "MEDIUM", "current_action": "Reinforce 30-second acknowledgment habit", "metrics": {"frt_history": "215s, 169s, 125s, 159s, 61s (improvement), 94s, 109s, 153s", "interpretation": "Improved to target once but did not sustain"}}], "resolved_recurring_flags": [{"agent": "David Berlioz", "flag_type": "'Dear Player' impersonal greeting", "first_observed": "Pre-Apr 13", "consecutive_periods_when_active": 6, "resolved_in": "2026-04-29", "_note": "Now uses 'Hey there!' consistently - formal recognition recommended"}, {"agent": "Marcos Avila", "flag_type": "50 SC factual error", "first_observed": "2026-04-08", "resolved_in": "2026-04-13"}, {"agent": "Diana Lopez", "flag_type": "Wrong ACH timeline (3-5 days)", "first_observed": "Pre-Apr 14", "resolved_in": "2026-04-15"}, {"agent": "Multiple agents", "flag_type": "$70 referral threshold error (correct is $30)", "first_observed": "2026-04-15", "resolved_in": "2026-04-27"}, {"agent": "Andrea Hernandez", "flag_type": "Fabricated outage script (originating)", "first_observed": "Apr 9-10 period", "resolved_in": "2026-04-13", "_note": "Andrea has been the program's biggest improvement story"}], "improvement_arcs": [{"agent": "Andrea Hernandez", "metric": "closure_rate", "trajectory": [2, 0, 7, 38, 48, 72, 78, 67, 51], "interpretation": "Most sustained improvement in program history - 8+ consecutive periods of overall growth", "recommendation": "Formal recognition + consider mentoring role"}, {"agent": "Angie Pereira", "metric": "closure_rate", "trajectory": [16, 29, 57, 77, 85, 76], "interpretation": "Strong closure improvement; persistent process issue (question-then-close) coexists", "recommendation": "Recognize closure improvement; coach process habit"}, {"agent": "Oskar Abaunza", "metric": "closure_rate", "trajectory": [5, 49, 74, 86, 59, 68, 82, 53, 56], "interpretation": "Strong arc with one regression; debit card communication is separate concern"}], "_severity_escalation_rules": {"1_period": "Use base severity", "2_consecutive_periods": "Bump up one level (LOW -> MEDIUM, MEDIUM -> HIGH)", "3_plus_consecutive": "Recommend formal coaching session", "5_plus_consecutive": "Recommend formal warning / improvement plan"}} as const;
+const KNOWN_ISSUES = {"_comment": "Active platform issues and approved client-facing workarounds. The LLM should reference this when an agent's flag relates to a known issue.", "_version": "2026-04-29", "active_issues": [{"id": "FULL_NAME_BUG", "title": "Full Name Not Valid Bug", "first_observed": "2026-04-15", "status": "Open", "symptom": "Name field grayed out and starred during redemption; client cannot enter full legal name", "approved_workarounds": ["Try a different browser (Chrome, Firefox, Edge, or Safari)", "Type the full name in ALL CAPITAL LETTERS"], "wrong_fixes_to_flag": ["Cache/cookie clearing \u2014 does not resolve a system-locked field"], "escalation_subject": "FULL NAME BUG", "approved_script": "I understand how frustrating that is - this is a known issue we are actively working to resolve. In the meantime, here are two workarounds that have helped other players: (1) Try a different browser (Chrome, Firefox, Edge). (2) Try entering your name in ALL CAPITAL LETTERS. If neither works, email support@jackpotdaily.com with FULL NAME BUG in the subject and our team will investigate your specific account."}, {"id": "FIREBASE_LOGIN_FAILURE", "title": "Firebase / Google Login Failure", "first_observed": "2026-04-28", "status": "Open", "symptom": "Error 'firebase_login_failure' when logging in via Gmail / Google account", "approved_workarounds": ["Clear browser cache and cookies", "Try a different browser", "Try incognito/private mode", "Wait a few minutes and retry", "Try a different device"], "escalation_subject": "FIREBASE LOGIN BUG", "approved_script": "I see the firebase_login_failure error - this is a technical issue on our end. Please try: (1) Clear browser cache and cookies, (2) Different browser or device, (3) Incognito/private mode, (4) Wait a few minutes and retry. If none of those work, please email support@jackpotdaily.com with FIREBASE LOGIN BUG in the subject and your registered Gmail address - our technical team is working to resolve this."}, {"id": "SELF_EXCLUSION_BROKEN", "title": "Self-Exclusion Tool Reportedly Broken", "first_observed": "2026-04-27", "status": "Reported - needs technical escalation", "symptom": "In-platform self-exclusion tool not functioning", "approved_workarounds": ["Process account closure as the protective measure", "Frame closure as 'temporary measure until self-exclusion tool is fixed'"], "approved_script": "I completely understand and I want to support you in this. While our self-exclusion tool is currently being addressed by our technical team, I can immediately close your account to prevent access. Before I proceed, I just want to confirm this is what you would like. If you ever need support around responsible gaming, the National Problem Gambling Helpline is available 24/7 at 1-800-522-4700. Shall I go ahead and close your account now?", "compliance_note": "Self-exclusion is a responsible gaming compliance feature. A non-functional tool is a regulatory concern - flag for immediate technical escalation in the QA report."}], "resolved_issues": [{"id": "POA_UPLOAD_LINK", "title": "POA Upload Link Repeated", "resolved_in": "Apr 24-27 period", "_note": "Multiple clients reported receiving the same POA upload link repeatedly. Status improved but monitor."}, {"id": "DEBIT_CARD_TEMPORARY", "title": "Card Network (Debit) Redemption Temporarily Unavailable", "resolved_in": "Apr 23-24 period", "_note": "Was an actual outage in earlier periods. Now should be available unless Manager confirms otherwise. Agents communicating 'unavailable' without confirmation is now incorrect."}], "fabricated_outage_phrases_to_flag": ["Our team is actively investigating, and doing everything possible to resolve it", "We are currently experiencing a temporary issue regarding bonus credits", "The review process may take between 24 to 48 hours to complete", "The team is working to resolve this", "We are currently experiencing a higher volume of requests than usual", "Our team is doing our absolute best to review your case as quickly as possible"], "_fabricated_phrases_note": "These phrases were used by agents across multiple periods to deflect or stall when confirmed platform issues did not exist. Always flag when observed and the issue is diagnosable in chat. Distinguish from approved scripts above which reference real, confirmed issues."} as const;
+const HISTORICAL_KPIS = {"_comment": "Period-by-period KPI baseline. Append a new entry after each report run. Used by the LLM for trend analysis and milestone detection.", "_version": "2026-04-29", "periods": [{"label": "Apr 1-8, 2026", "start_date": "2026-04-01", "end_date": "2026-04-08", "total_tickets": 1413, "avg_frt_seconds": 50, "closure_pct": 40, "recalls": 21, "slow_frt_pct": 18.0, "bot_abandoned_pct": 7.2, "referral_pct_of_tickets": 2.1, "notes": "Baseline period before coaching program took effect"}, {"label": "Apr 8-9, 2026", "start_date": "2026-04-08", "end_date": "2026-04-09", "total_tickets": 573, "avg_frt_seconds": 140, "closure_pct": 40, "recalls": 9, "slow_frt_pct": 18.0, "bot_abandoned_pct": 5.4, "notes": "FRT spike during high volume - peak FRT ever observed"}, {"label": "Apr 9-10, 2026", "start_date": "2026-04-09", "end_date": "2026-04-10", "total_tickets": 461, "avg_frt_seconds": 129, "closure_pct": 36, "recalls": 5, "slow_frt_pct": 12.0, "bot_abandoned_pct": 3.0, "referral_pct_of_tickets": 9.8, "notes": "Closure low; referral % peaked here due to $70/$30 confusion"}, {"label": "Apr 10-13, 2026", "start_date": "2026-04-10", "end_date": "2026-04-13", "total_tickets": 1225, "avg_frt_seconds": 77, "closure_pct": 53, "recalls": 55, "slow_frt_pct": 4.0, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 4.8, "notes": "High recall period - peak observed"}, {"label": "Apr 13-14, 2026", "start_date": "2026-04-13", "end_date": "2026-04-14", "total_tickets": 547, "avg_frt_seconds": 77, "closure_pct": 62, "recalls": 17, "slow_frt_pct": 4.0, "bot_abandoned_pct": 0.2, "referral_pct_of_tickets": 4.4, "notes": "Closure improving"}, {"label": "Apr 14-15, 2026", "start_date": "2026-04-14", "end_date": "2026-04-15", "total_tickets": 432, "avg_frt_seconds": 52.8, "closure_pct": 69, "recalls": 11, "slow_frt_pct": 1.6, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 3.2, "notes": "First period with avg FRT below 60s target"}, {"label": "Apr 15-16, 2026", "start_date": "2026-04-15", "end_date": "2026-04-16", "total_tickets": 753, "avg_frt_seconds": 61.9, "closure_pct": 66, "recalls": 35, "slow_frt_pct": 2.4, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 2.0, "notes": "Recalls regression"}, {"label": "Apr 16-17, 2026", "start_date": "2026-04-16", "end_date": "2026-04-17", "total_tickets": 391, "avg_frt_seconds": 45.0, "closure_pct": 67, "recalls": 19, "slow_frt_pct": 1.3, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 1.8, "notes": "Continued strong FRT"}, {"label": "Apr 23-24, 2026", "start_date": "2026-04-23", "end_date": "2026-04-24", "total_tickets": 310, "avg_frt_seconds": 37.8, "closure_pct": 68, "recalls": 8, "slow_frt_pct": 0.6, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 2.3, "notes": "Best ever to that point"}, {"label": "Apr 24-27, 2026", "start_date": "2026-04-24", "end_date": "2026-04-27", "total_tickets": 602, "avg_frt_seconds": 41.9, "closure_pct": 62, "recalls": 16, "slow_frt_pct": 0.8, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 2.2, "notes": "Volume up, FRT held"}, {"label": "Apr 27-28, 2026", "start_date": "2026-04-27", "end_date": "2026-04-28", "total_tickets": 198, "avg_frt_seconds": 40.8, "closure_pct": 63, "recalls": 5, "slow_frt_pct": 1.0, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 1.5, "notes": "Lowest recall count"}, {"label": "Apr 28-29, 2026", "start_date": "2026-04-28", "end_date": "2026-04-29", "total_tickets": 332, "avg_frt_seconds": 32.0, "closure_pct": 64, "recalls": 10, "slow_frt_pct": 0.6, "bot_abandoned_pct": 0.0, "referral_pct_of_tickets": 1.5, "notes": "NEW PROGRAM RECORD: First time avg FRT below 40s"}], "current_records": {"best_avg_frt_seconds": 32.0, "best_closure_pct": 69, "lowest_recalls": 5, "lowest_slow_frt_pct": 0.6, "consecutive_zero_bot_abandoned_periods": 8, "longest_improvement_streak_periods": 8}, "_update_instructions": "After each new report run, append a new period object to the 'periods' array with that period's KPIs. Recompute 'current_records' if any value beats prior best."} as const;
+
+
 // ─── Token Cache ──────────────────────────────────────────────────────────
+
+interface WellyParticipant {
+  source_type: string;
+  source_user_id: string;
+  name: string;
+  nick_name: string;
+  chat_user_id: string;
+}
+
+interface WellyChat {
+  conversation_id: string;
+  participants: WellyParticipant[];
+  status: string;
+  last_message: Record<string, unknown>;
+  created_at: number;
+  updated_at: number;
+  website_name: string;
+}
 
 interface TokenCache {
   ac_token: string;
@@ -314,6 +337,40 @@ function classifyCategory(subject: string, content: string): string {
     }
   }
   return 'General Inquiry';
+}
+
+// Parse directly from chat-records list item (fast, no detail fetch needed)
+function parseTicketFromList(chat: WellyChat): Ticket {
+  const agentParticipant = chat.participants?.find((p) => p.source_type === 'INTERNAL' && !SKIP_AGENTS_SET.has(p.name || ''));
+  const clientParticipant = chat.participants?.find((p) => p.source_type === 'CLIENT_USER');
+  const lastMsg = chat.last_message || {};
+  const lastMessageContent = (lastMsg as {content?: {body_content?: string; message?: string}}).content?.body_content || (lastMsg as {content?: {message?: string}}).content?.message || '';
+  const lastMsgTyped = lastMsg as {source_type?: number; recall_info?: {recall_at?: number}};
+  const hasRecall = (lastMsgTyped.recall_info?.recall_at || 0) > 0;
+  const isClosed = chat.status === 'CLOSE' || chat.status === 'CLOSED';
+  const createdAt = chat.created_at > 1e12 ? Math.floor(chat.created_at / 1000) : chat.created_at;
+  const updatedAt = chat.updated_at > 1e12 ? Math.floor(chat.updated_at / 1000) : chat.updated_at;
+  const category = classifyCategory('', lastMessageContent);
+  return {
+    id: chat.conversation_id,
+    agentName: agentParticipant?.name || '',
+    agentAlias: agentParticipant?.nick_name || agentParticipant?.name || '',
+    agentId: agentParticipant?.source_user_id || '',
+    clientName: clientParticipant?.name || '',
+    subject: '',
+    clientEmail: '',
+    frtSeconds: null,
+    isClosed,
+    isOpen: chat.status === 'OPEN',
+    lastMessageContent,
+    lastMessageByAgent: lastMsgTyped.source_type === 1,
+    hasRecall,
+    wasTransferred: false,
+    createdAt,
+    updatedAt,
+    websiteName: chat.website_name || '',
+    category,
+  };
 }
 
 function parseTicket(detail: any): Ticket {
@@ -587,47 +644,104 @@ export async function POST(req: Request) {
 
     console.log(`[Pipeline] Period: ${periodLabel}`);
 
-    // Fetch all chat records
-    console.log('[Pipeline] Fetching chat records...');
-    const chatRecords = await getAllChatRecords(fromSec, toSec);
-    console.log(`[Pipeline] Got ${chatRecords.length} chat records`);
+    // Create Supabase client
+    const { createClient } = await import('@supabase/supabase-js');
+    const supabase = createClient(
+      process.env.SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_KEY!
+    );
 
-    // Parse each into ticket
-    console.log('[Pipeline] Fetching & parsing conversation details...');
-    const tickets: Ticket[] = [];
-    for (const chat of chatRecords) {
-      try {
-        const detail = await getConversationDetail(chat.conversation_id);
-        const ticket = parseTicket(detail);
-        tickets.push(ticket);
-      } catch (e) {
-        console.warn(`[Pipeline] Failed to parse ${chat.conversation_id}`);
+    // Insert run record
+    const { data: runRecord, error: insertError } = await supabase
+      .from('pipeline_runs')
+      .insert({ period_label: periodLabel, period_start: weekStart.toISOString().split('T')[0], period_end: weekEnd.toISOString().split('T')[0], status: 'running' })
+      .select().single();
+    if (insertError) throw insertError;
+    const runId = runRecord.id;
+
+    try {
+      // Fetch all chat records (list only — no per-ticket detail calls)
+      console.log('[Pipeline] Fetching chat records...');
+      const chatRecords = await getAllChatRecords(fromSec, toSec);
+      console.log(`[Pipeline] Got ${chatRecords.length} chat records`);
+
+      // Parse directly from list response (participants, status, last_message all present)
+      const tickets: Ticket[] = chatRecords.map(chat => parseTicketFromList(chat));
+      console.log(`[Pipeline] Parsed ${tickets.length} tickets`);
+
+      // Fetch detail for a sample (up to 50) to get subjects + FRT
+      const sampleIds = tickets
+        .filter(t => t.isClosed)
+        .slice(0, 50)
+        .map(t => t.id);
+      const detailMap = new Map<string, Ticket>();
+      for (const id of sampleIds) {
+        try {
+          const detail = await getConversationDetail(id);
+          detailMap.set(id, parseTicket(detail));
+          await sleep(20);
+        } catch { /* skip */ }
       }
+      // Merge detail data into tickets where available
+      const mergedTickets = tickets.map(t => detailMap.get(t.id) || t);
+
+      // Compute KPIs
+      const aggregates = computeAggregates(mergedTickets);
+      const perAgent = computePerAgent(mergedTickets);
+      const categories = computeCategories(mergedTickets);
+      const samples = sampleTicketsPerAgent(mergedTickets);
+
+      console.log(`[Pipeline] ${aggregates.total_tickets} tickets | FRT ${aggregates.avg_frt?.toFixed(1) || 'N/A'}s | closure ${aggregates.closure_rate_pct.toFixed(1)}%`);
+
+      // LLM calls
+      console.log('[Pipeline] Running LLM analysis...');
+      const samplesObj = Object.fromEntries(samples);
+      const refData = { agentMapping: AGENT_MAPPING, platformFacts: PLATFORM_FACTS, thresholds: THRESHOLDS, recurringFlags: RECURRING_FLAGS, knownIssues: KNOWN_ISSUES };
+
+      const [qaAnalysis, inquiryAnalysis, individualAnalysis] = await Promise.allSettled([
+        callLLM(SYSTEM_PROMPT, JSON.stringify({ report: 'qa', period: periodLabel, aggregates, perAgent, inquiryCategories: categories, agentSamples: samplesObj, referenceData: refData })),
+        callLLM(SYSTEM_PROMPT, JSON.stringify({ report: 'inquiry', period: periodLabel, inquiryCategories: categories, historicalKpis: HISTORICAL_KPIS, agentSamples: samplesObj })),
+        callLLM(SYSTEM_PROMPT, JSON.stringify({ report: 'individual', period: periodLabel, perAgent, agentSamples: samplesObj, recurringFlags: RECURRING_FLAGS, agentMapping: AGENT_MAPPING })),
+      ]);
+
+      const qaContent = qaAnalysis.status === 'fulfilled' ? JSON.parse(qaAnalysis.value) : {};
+      const inquiryContent = inquiryAnalysis.status === 'fulfilled' ? JSON.parse(inquiryAnalysis.value) : {};
+      const individualContent = individualAnalysis.status === 'fulfilled' ? JSON.parse(individualAnalysis.value) : {};
+
+      console.log('[Pipeline] LLM done, generating docx...');
+
+      // Generate reports
+      const reports = await createMockReports(periodLabel, aggregates);
+
+      // Upload to Supabase Storage
+      const base = `${weekStart.toISOString().split('T')[0]}_${weekEnd.toISOString().split('T')[0]}`;
+      const paths = { qa: `${base}/QA_Report.docx`, inquiry: `${base}/Client_Inquiry_Report.docx`, individual: `${base}/Individual_Agent_Report.docx` };
+
+      await Promise.all([
+        supabase.storage.from('qa-reports').upload(paths.qa, reports.qa, { upsert: true }),
+        supabase.storage.from('qa-reports').upload(paths.inquiry, reports.inquiry, { upsert: true }),
+        supabase.storage.from('qa-reports').upload(paths.individual, reports.individual, { upsert: true }),
+      ]);
+
+      await supabase.from('pipeline_runs').update({
+        status: 'completed',
+        qa_report_path: paths.qa,
+        inquiry_report_path: paths.inquiry,
+        individual_report_path: paths.individual,
+        total_tickets: aggregates.total_tickets,
+        agent_count: perAgent.length,
+        completed_at: new Date().toISOString(),
+        // llm_qa, llm_inquiry, llm_individual stored separately if columns exist
+      }).eq('id', runId);
+
+      console.log('[Pipeline] ✓ Done');
+
+      return NextResponse.json({ ok: true, period: periodLabel, runId, totalTickets: aggregates.total_tickets, agentCount: perAgent.length });
+
+    } catch (err) {
+      await supabase.from('pipeline_runs').update({ status: 'failed', error_message: (err as Error).message }).eq('id', runId);
+      throw err;
     }
-    console.log(`[Pipeline] Parsed ${tickets.length} tickets`);
-
-    // Compute KPIs
-    const aggregates = computeAggregates(tickets);
-    const perAgent = computePerAgent(tickets);
-    const categories = computeCategories(tickets);
-    const samples = sampleTicketsPerAgent(tickets);
-
-    console.log(`[Pipeline] Aggregates: ${aggregates.total_tickets} tickets, avg FRT ${aggregates.avg_frt?.toFixed(1) || 'N/A'}s, closure ${aggregates.closure_rate_pct.toFixed(1)}%`);
-
-    // Generate mock reports (real LLM integration would go here)
-    console.log('[Pipeline] Generating reports...');
-    const reports = createMockReports(periodLabel, aggregates);
-
-    console.log('[Pipeline] ✓ Complete');
-
-    return NextResponse.json({
-      ok: true,
-      period: periodLabel,
-      totalTickets: aggregates.total_tickets,
-      avgFrt: aggregates.avg_frt?.toFixed(1),
-      closureRate: aggregates.closure_rate_pct.toFixed(1),
-      perAgent: perAgent.length,
-    });
 
   } catch (error) {
     console.error('[Pipeline] Error:', (error as Error).message);

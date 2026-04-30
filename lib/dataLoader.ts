@@ -150,7 +150,7 @@ export const DATA_TIMESTAMP = realData?.scored_at || null;
 // All raw chats (flat, across all agents)
 export const ALL_CHATS: ChatScore[] = realData
   ? realData.agents.flatMap((a: Agent) => a.chats)
-  : generateMockAgents().flatMap(a => a.chats);
+  : [];
 
 export const AGENTS: Agent[] = realData 
   ? realData.agents.map(agent => {
@@ -163,7 +163,7 @@ export const AGENTS: Agent[] = realData
         : undefined;
       return { ...agent, lastActive };
     })
-  : generateMockAgents();
+  : [];
 
 export function getAgent(agentId: string): Agent | undefined {
   return AGENTS.find(a => a.id === agentId);
