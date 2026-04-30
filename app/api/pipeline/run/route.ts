@@ -254,7 +254,7 @@ async function wtFetch(url: string, opts: any = {}) {
 async function wellytalkLogin(): Promise<TokenCache> {
   const d = await wtFetch('https://auth.stacktech.org/backend/auth/v1/user/sign-in', {
     method: 'POST',
-    body: { account: process.env.WELLYTALK_USER || 'xtractadmin01', password: process.env.WELLYTALK_PASS || 'Wellytalk2026!' },
+    body: { account: process.env.WELLYTALK_USER || 'xtractadmin01', password: process.env.WELLYTALK_PASS },
   });
   if (d.code !== 0) throw new Error(`Login failed: ${d.code}`);
   return { ac_token: d.data.ac_token, rf_token: d.data.rf_token, exp: Date.now() + 3300 * 1000 };
