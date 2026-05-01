@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, [router]);
 
   const Sidebar = () => (
-    <aside className="flex flex-col h-full w-64 bg-[#0D0D1A] border-r border-[#E91E8C]/20">
+    <aside className="flex flex-col h-full w-64 bg-gradient-to-b from-[#0D0D1A] via-[#110d20] to-[#0D0D1A] border-r border-[#E91E8C]/20">
       {/* Brand */}
       <div className="px-5 py-5 border-b border-[#E91E8C]/20 flex items-center gap-3">
         <div className="w-9 h-9 rounded-xl jd-gradient flex items-center justify-center text-white font-black text-sm font-display shadow-lg" style={{boxShadow:'0 0 16px rgba(233,30,140,0.4)'}}>JD</div>

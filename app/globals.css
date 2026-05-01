@@ -14,10 +14,12 @@
   --jd-red:    #FF4444;
   --jd-navy:   #1A1A2E;
   --jd-dark:   #0D0D1A;
+  --jd-bg-deep: #200d35;
 }
 
 body {
-  background-color: var(--jd-dark);
+  background: linear-gradient(135deg, #0D0D1A 0%, #0D0D1A 50%, #1a0d2e 75%, #200d35 100%);
+  background-attachment: fixed;
   color: #f8fafc;
   font-family: 'Outfit', sans-serif;
 }
