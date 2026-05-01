@@ -1,55 +1,26 @@
-/**
- * GET /api/pipeline/status
- * Returns last pipeline run status
- */
-
 export const dynamic = 'force-dynamic';
 
 import { NextResponse } from 'next/server';
+import { createClient } from '@supabase/supabase-js';
 
 export async function GET() {
   try {
-    // Try to fetch the index from Vercel Blob
-    const indexResp = await fetch('https://blob.vercelusercontent.com/reports/index.json', {
-      cache: 'no-store',
-    });
+    const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
-    if (!indexResp.ok) {
-      return NextResponse.json({
-        ok: true,
-        status: 'no_runs',
-        message: 'No pipeline runs yet',
-      });
-    }
+    const { data, error } = await supabase
+      .from('pipeline_runs')
+      .select('id,period_label,status,created_at,completed_at,total_tickets,agent_count,error_message')
+      .order('created_at', { ascending: false })
+      .limit(1)
+      .maybeSingle();
 
-    const index = await indexResp.json();
-    const lastRun = index.periods?.[0];
-
-    if (!lastRun) {
-      return NextResponse.json({
-        ok: true,
-        status: 'no_runs',
-        message: 'No pipeline runs yet',
-      });
-    }
+    if (error) throw error;
 
     return NextResponse.json({
       ok: true,
-      status: 'success',
-      last_run: {
-        period: lastRun.label,
-        generated_at: lastRun.generated_at,
-        files: lastRun.files,
-      },
-      index_updated: index.last_updated,
+      lastRun: data || null,
     });
   } catch (err) {
-    return NextResponse.json(
-      {
-        ok: false,
-        error: String(err),
-      },
-      { status: 500 }
-    );
+    return NextResponse.json({ ok: false, error: (err as Error).message }, { status: 500 });
   }
 }

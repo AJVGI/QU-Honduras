@@ -169,7 +169,22 @@ export default function DashboardPage() {
   }, [qaAgents]);
 
   const bottomAgents = useMemo(() => {
-    return [...qaAgents].sort((a, b) => a.closure_rate - b.closure_rate).slice(0, 3);
+    // Show agents with most tickets but lowest grades, or lowest closure if no grades
+    const gradeOrder: Record<string, number> = { F: 0, D: 1, C: 2, B: 3, A: 4 };
+    const withGrade = qaAgents.filter(a => a.grade && a.tickets >= 5);
+    if (withGrade.length >= 3) {
+      return [...withGrade].sort((a, b) => {
+        const ga = gradeOrder[a.grade || 'A'] ?? 4;
+        const gb = gradeOrder[b.grade || 'A'] ?? 4;
+        if (ga !== gb) return ga - gb;
+        return a.closure_rate - b.closure_rate;
+      }).slice(0, 3);
+    }
+    // Fallback: lowest closure among agents with 5+ tickets
+    return [...qaAgents]
+      .filter(a => a.tickets >= 5)
+      .sort((a, b) => a.closure_rate - b.closure_rate)
+      .slice(0, 3);
   }, [qaAgents]);
 
   // Team KPIs
