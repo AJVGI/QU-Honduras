@@ -34,7 +34,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
 
     // Step 1: Get conversation detail to identify agent vs client sender_ids
     const detailRes = await fetch(`${API_BASE}/backend/cs-agent/v1/conversation/${conversationId}`, { headers: hdrs });
-    const detailData = await detailRes.json() as { code: number; data: Record<string, unknown> };
+    const detailData = await detailRes.json() as { code: number; data: { participants?: Participant[]; detail_payload?: { participants?: Participant[] } } };
 
     // Build a map of chat_user_id → role
     const senderRoleMap = new Map<string, 'agent' | 'client'>();
