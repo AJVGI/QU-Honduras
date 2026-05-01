@@ -242,8 +242,12 @@ export default function ChatDetailPage() {
                   </div>
                 </div>
               ) : messages.length === 0 ? (
-                <div className="flex items-center justify-center h-32 text-slate-400 text-sm">
-                  No messages available
+                <div className="flex items-center justify-center h-full text-slate-500 text-sm">
+                  <div className="text-center">
+                    <div className="text-3xl mb-2">📭</div>
+                    <div>No transcript available for this chat.</div>
+                    <div className="text-xs mt-1 text-slate-600">The conversation may have been archived or had no messages.</div>
+                  </div>
                 </div>
               ) : (
                 messages.map((msg, idx) => (

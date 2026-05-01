@@ -5,6 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 
 interface Ticket {
   id: string;
+  welly_conversation_id: string | null;
   run_id: string;
   agent_name: string;
   agent_alias: string;
