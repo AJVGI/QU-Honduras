@@ -55,16 +55,29 @@ export async function GET(req: Request) {
         return { data: [] };
       });
 
-    // Get agents for target week
+    // Get the latest run_id so we don't mix duplicate agent rows from multiple runs
+    const { data: latestRun } = await supabase
+      .from('pipeline_runs')
+      .select('id')
+      .eq('status', 'completed')
+      .order('created_at', { ascending: false })
+      .limit(1)
+      .single();
+
+    const latestRunId = latestRun?.id;
+
+    // Get agents for the latest run only (avoids 4x duplicate rows)
     let query = supabase
       .from('pipeline_agents')
       .select('*');
 
-    if (targetWeek) {
+    if (latestRunId) {
+      query = query.eq('run_id', latestRunId);
+    } else if (targetWeek) {
       query = query.eq('week_start', targetWeek);
     }
 
-    query = query.order('closure_pct', { ascending: false });
+    query = query.order('tickets', { ascending: false });
 
     const { data, error } = await query;
 

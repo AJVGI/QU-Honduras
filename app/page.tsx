@@ -26,6 +26,7 @@ interface QAAgent {
 interface TicketAlert {
   id: string; auto_fail: boolean; has_recall: boolean;
   frt_seconds: number | null; is_closed: boolean; category: string;
+  grade?: string | null; agent_name?: string;
 }
 
 const GRADE_COLOR: Record<Grade, string> = {
@@ -84,11 +85,12 @@ function AlertRow({ icon, label, value, accent }: { icon: string; label: string;
 
 /* ─── Page ───────────────────────────────────────────────────────── */
 export default function DashboardPage() {
-  const [liveData,  setLiveData]  = useState<LiveStatus | null>(null);
-  const [qaAgents,  setQaAgents]  = useState<QAAgent[]>([]);
-  const [tickets,   setTickets]   = useState<TicketAlert[]>([]);
-  const [countdown, setCountdown] = useState(REFRESH_INTERVAL);
-  const [loading,   setLoading]   = useState(true);
+  const [liveData,     setLiveData]    = useState<LiveStatus | null>(null);
+  const [qaAgents,     setQaAgents]    = useState<QAAgent[]>([]);
+  const [tickets,      setTickets]     = useState<TicketAlert[]>([]);
+  const [totalTickets, setTotalTickets]= useState<number>(0);
+  const [countdown,    setCountdown]   = useState(REFRESH_INTERVAL);
+  const [loading,      setLoading]     = useState(true);
 
   const fetchLive = useCallback(async () => {
     try { const r = await fetch('/api/live-status'); const j = await r.json(); if (j.ok) setLiveData(j); } catch {}
@@ -98,11 +100,12 @@ export default function DashboardPage() {
     try {
       const r = await fetch('/api/data/agents'); const j = await r.json();
       setQaAgents((j.agents || []).map((a: Record<string, unknown>) => {
+        // Use closure_pct only as a fallback — grade comes from ticket scores
         const cp = Number(a.closure_pct) || 0;
-        const grade: Grade = cp >= 90 ? 'A' : cp >= 75 ? 'B' : cp >= 60 ? 'C' : cp >= 45 ? 'D' : 'F';
         return {
           id: String(a.id || a.agent_name || ''), name: String(a.agent_name || ''),
-          avg_score: cp, grade, frt: a.avg_frt_seconds != null ? Number(a.avg_frt_seconds) : null,
+          avg_score: cp, grade: 'N/A' as Grade,
+          frt: a.avg_frt_seconds != null ? Number(a.avg_frt_seconds) : null,
           closure_rate: cp, tickets: Number(a.tickets) || 0,
         };
       }));
@@ -112,10 +115,13 @@ export default function DashboardPage() {
   const fetchTickets = useCallback(async () => {
     try {
       const r = await fetch('/api/data/tickets?limit=2000'); const j = await r.json();
+      setTotalTickets(j.total || 0);
       setTickets((j.tickets || []).map((t: Record<string, unknown>) => ({
         id: String(t.id || ''), auto_fail: Boolean(t.auto_fail), has_recall: Boolean(t.has_recall),
         frt_seconds: t.frt_seconds != null ? Number(t.frt_seconds) : null,
         is_closed: Boolean(t.is_closed), category: String(t.category || 'Other'),
+        grade: t.grade ? String(t.grade) : null,
+        agent_name: t.agent_name ? String(t.agent_name) : undefined,
       })));
     } catch {}
   }, []);
@@ -127,32 +133,76 @@ export default function DashboardPage() {
   useEffect(() => { const t = setInterval(fetchLive, REFRESH_INTERVAL * 1000); return () => clearInterval(t); }, [fetchLive]);
   useEffect(() => { const t = setInterval(() => setCountdown(c => c <= 1 ? REFRESH_INTERVAL : c - 1), 1000); return () => clearInterval(t); }, []);
 
+  // Enrich qaAgents with real scores from graded tickets
+  const enrichedAgents = useMemo(() => {
+    const gradeVal: Record<string, number> = { A: 95, B: 82, C: 67, D: 52, F: 25 };
+    const gradeOrd: Record<string, number> = { A: 4, B: 3, C: 2, D: 1, F: 0 };
+    // Build per-agent grade map from tickets
+    const agentGrades = new Map<string, string[]>();
+    tickets.forEach((t: any) => {
+      if (!t.grade || !t.agent_name) return;
+      const key = String(t.agent_name);
+      if (!agentGrades.has(key)) agentGrades.set(key, []);
+      agentGrades.get(key)!.push(t.grade);
+    });
+    return qaAgents.map(a => {
+      const grades = agentGrades.get(a.name) || [];
+      if (grades.length === 0) return { ...a, grade: 'N/A' as Grade, avg_score: 0 };
+      const avgScore = Math.round(grades.reduce((s, g) => s + (gradeVal[g] ?? 50), 0) / grades.length);
+      const dominantGrade = grades.sort((x, y) => (gradeOrd[y] ?? 0) - (gradeOrd[x] ?? 0))
+        .reduce((acc, g) => {
+          // most frequent grade
+          const counts = grades.reduce((c, v) => { c[v] = (c[v] || 0) + 1; return c; }, {} as Record<string,number>);
+          return Object.entries(counts).sort((a,b) => b[1]-a[1])[0]?.[0] ?? 'N/A';
+        }, 'N/A');
+      return { ...a, grade: dominantGrade as Grade, avg_score: avgScore };
+    });
+  }, [qaAgents, tickets]);
+
   const topAgents = useMemo(() =>
-    [...qaAgents].sort((a, b) => b.closure_rate - a.closure_rate).slice(0, 5), [qaAgents]);
+    [...enrichedAgents]
+      .filter(a => a.avg_score > 0)
+      .sort((a, b) => b.avg_score - a.avg_score)
+      .slice(0, 5)
+  , [enrichedAgents]);
 
   // Only flag agents with grades C/D/F as needing attention
   const bottomAgents = useMemo(() => {
-    const bad = qaAgents.filter(a => a.tickets >= 3 && ['C', 'D', 'F'].includes(a.grade));
+    const bad = enrichedAgents.filter(a => a.tickets >= 3 && ['C', 'D', 'F'].includes(a.grade));
     if (bad.length > 0) {
       const ord: Record<string, number> = { F: 0, D: 1, C: 2 };
       return [...bad].sort((a, b) => (ord[a.grade] ?? 3) - (ord[b.grade] ?? 3)).slice(0, 4);
     }
-    return []; // don't show high-performing agents as "needing attention"
-  }, [qaAgents]);
+    return [];
+  }, [enrichedAgents]);
 
   const teamKpis = useMemo(() => {
-    if (!qaAgents.length) return { avgFrt: 0, avgClosure: 0 };
-    return {
-      avgFrt: Math.round(qaAgents.reduce((s, a) => s + (a.frt || 0), 0) / qaAgents.length),
-      avgClosure: Math.round(qaAgents.reduce((s, a) => s + a.closure_rate, 0) / qaAgents.length),
-    };
-  }, [qaAgents]);
+    if (!qaAgents.length) return { avgFrtDisplay: 'N/A', avgScore: 0, gradedCount: 0 };
+    // FRT: skip nulls
+    const frtAgents = qaAgents.filter(a => a.frt !== null && a.frt > 0);
+    const avgFrtSec = frtAgents.length
+      ? Math.round(frtAgents.reduce((s, a) => s + (a.frt ?? 0), 0) / frtAgents.length)
+      : 0;
+    const frtMin = Math.floor(avgFrtSec / 60);
+    const frtSec = avgFrtSec % 60;
+    const avgFrtDisplay = frtAgents.length
+      ? frtMin > 0 ? `${frtMin}m ${frtSec}s` : `${frtSec}s`
+      : 'N/A';
+    // Score: from graded tickets only
+    const graded = tickets.filter(t => t.grade);
+    const gradeVal: Record<string, number> = { A: 95, B: 82, C: 67, D: 52, F: 25 };
+    const avgScore = graded.length
+      ? Math.round(graded.reduce((s, t) => s + (gradeVal[t.grade!] ?? 50), 0) / graded.length)
+      : 0;
+    return { avgFrtDisplay, avgScore, gradedCount: graded.length };
+  }, [qaAgents, tickets]);
 
+  // Grade distribution from actual graded tickets (not derived from closure %)
   const gradeDist = useMemo(() => {
-    const d: Record<Grade, number> = { A: 0, B: 0, C: 0, D: 0, F: 0, 'N/A': 0 };
-    qaAgents.forEach(a => { if (a.grade in d) d[a.grade]++; });
+    const d: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, F: 0 };
+    tickets.forEach(t => { if (t.grade && t.grade in d) d[t.grade]++; });
     return d;
-  }, [qaAgents]);
+  }, [tickets]);
 
   const alerts = useMemo(() => ({
     autoFails:  tickets.filter(t => t.auto_fail).length,
@@ -171,8 +221,8 @@ export default function DashboardPage() {
   }, [tickets]);
 
   const trendData = useMemo(() =>
-    qaAgents.length ? [{ day: 'Current', avg: Math.round(teamKpis.avgClosure) }] : []
-  , [qaAgents, teamKpis]);
+    teamKpis.avgScore > 0 ? [{ day: 'Current', avg: teamKpis.avgScore }] : []
+  , [teamKpis]);
 
   const matchQA = (name: string) => {
     const n = name.toLowerCase().trim();
@@ -220,7 +270,7 @@ export default function DashboardPage() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }} className="kpi-grid">
         <KpiCard label="Active Now"  value={liveData?.summary.activeAgents ?? 0} sub="handling chats"      icon="🟢" accent="#00C882" glow="glow-green" />
         <KpiCard label="Idle"        value={liveData?.summary.idleAgents   ?? 0} sub="15 – 120 min"        icon="🟡" accent="#e6c200" glow="glow-gold"  />
-        <KpiCard label="This Week"   value={qaAgents.reduce((s, a) => s + a.tickets, 0).toLocaleString()} sub="total tickets" icon="💬" accent="#E91E8C" glow="glow-pink" />
+        <KpiCard label="This Week"   value={(totalTickets || qaAgents.reduce((s, a) => s + a.tickets, 0)).toLocaleString()} sub="total tickets" icon="💬" accent="#E91E8C" glow="glow-pink" />
         <KpiCard label="QA Agents"   value={qaAgents.length}                     sub="with data this week" icon="📊" accent="#7B2D8B" glow="glow-promo" />
       </div>
 
@@ -285,12 +335,15 @@ export default function DashboardPage() {
             <CardHead title="Team KPIs" />
             <div style={{ padding: '14px 18px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
               <div>
-                <div style={{ color: 'var(--text-muted)', fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: 4 }}>Avg Closure</div>
-                <div style={{ color: '#fff', fontSize: 28, fontWeight: 900, lineHeight: 1 }}>{teamKpis.avgClosure}<span style={{ fontSize: 14 }}>%</span></div>
+                <div style={{ color: 'var(--text-muted)', fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: 4 }}>Avg QA Score</div>
+                <div style={{ color: '#fff', fontSize: 28, fontWeight: 900, lineHeight: 1 }}>
+                  {teamKpis.avgScore}<span style={{ fontSize: 14 }}>/100</span>
+                </div>
+                <div style={{ color: 'var(--text-muted)', fontSize: 10, marginTop: 2 }}>{teamKpis.gradedCount} tickets graded</div>
               </div>
               <div>
                 <div style={{ color: 'var(--text-muted)', fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: 4 }}>Avg FRT</div>
-                <div style={{ color: 'var(--text-secondary)', fontSize: 28, fontWeight: 900, lineHeight: 1 }}>{teamKpis.avgFrt}<span style={{ fontSize: 14 }}>s</span></div>
+                <div style={{ color: 'var(--text-secondary)', fontSize: 28, fontWeight: 900, lineHeight: 1 }}>{teamKpis.avgFrtDisplay}</div>
               </div>
             </div>
             <div style={{ padding: '0 18px 14px' }}>
@@ -320,7 +373,7 @@ export default function DashboardPage() {
                   </span>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <GradeBadge grade={a.grade} />
-                    <span style={{ color: 'var(--text-primary)', fontWeight: 700, fontSize: 13, minWidth: 40, textAlign: 'right' }}>{a.closure_rate}%</span>
+                    <span style={{ color: 'var(--text-primary)', fontWeight: 700, fontSize: 13, minWidth: 40, textAlign: 'right' }}>{a.avg_score}</span>
                   </div>
                 </Link>
               ))}
@@ -343,7 +396,7 @@ export default function DashboardPage() {
                     </span>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                       <GradeBadge grade={a.grade} />
-                      <span style={{ color: '#FF4444', fontWeight: 700, fontSize: 13, minWidth: 40, textAlign: 'right' }}>{a.closure_rate}%</span>
+                      <span style={{ color: '#FF4444', fontWeight: 700, fontSize: 13, minWidth: 40, textAlign: 'right' }}>{a.avg_score}</span>
                     </div>
                   </Link>
                 ))}
