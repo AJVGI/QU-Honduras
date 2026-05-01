@@ -1,90 +1,115 @@
 /**
- * Shared types for the QA pipeline
+ * Core types for the QA pipeline
  */
+
+export interface WellyChat {
+  conversation_id: string;
+  participants: WellyParticipant[];
+  status: string;
+  updated_at: number;
+  created_at: number;
+  website_name: string;
+  first_response_time?: number;
+}
+
+export interface WellyParticipant {
+  source_type: string;
+  source_user_id: string;
+  name: string;
+  nick_name: string;
+  chat_user_id: string;
+}
+
+export interface WellyConversationDetail {
+  code: number;
+  data: {
+    conversation_id: string;
+    participants: WellyParticipant[];
+    messages: WellyMessage[];
+    status: string;
+    created_at: number;
+    updated_at: number;
+  };
+}
+
+export interface WellyMessage {
+  id: string;
+  content: string;
+  from_user_id: string;
+  created_at: number;
+  message_type: string;
+  from_name?: string;
+}
 
 export interface Ticket {
   id: string;
-  conversationId: string;
   visitor: string;
   agents: string[];
-  primaryAgent: string | null;
-  startTime: string;
-  frtSeconds: number | null;
+  primary_agent: string | null;
+  start_time: string;
+  frt_seconds: number | null;
   content: string;
   category: string;
-  isHumanHandled: boolean;
-  isBotOnly: boolean;
-  isClosedByAgent: boolean;
-  isClosedVisitorLeft: boolean;
-  isClosedInactivity: boolean;
-  hasRecall: boolean;
-  recallCount: number;
-  isSlowFrt: boolean;
-  isBotAbandoned: boolean;
+  is_human_handled: boolean;
+  is_bot_only: boolean;
+  is_closed_by_agent: boolean;
+  is_closed_visitor_left: boolean;
+  is_closed_inactivity: boolean;
+  has_recall: boolean;
+  recall_count: number;
+  is_slow_frt: boolean;
+  is_bot_abandoned: boolean;
 }
 
 export interface AgentStats {
   agent: string;
   total: number;
   closed: number;
-  closurePct: number;
+  closure_pct: number;
   recalls: number;
-  visitorLeft: number;
-  avgFrtSeconds: number | null;
+  visitor_left: number;
+  avg_frt_seconds: number | null;
+  frts: number[];
 }
 
-export interface AggregateStats {
-  totalTickets: number;
-  avgFrtSeconds: number;
-  medianFrtSeconds: number;
-  closedByAgentCount: number;
-  closedByAgentPct: number;
-  visitorLeftCount: number;
-  visitorLeftPct: number;
-  recallCount: number;
-  slowFrtCount: number;
-  slowFrtPct: number;
-  botAbandonedCount: number;
-  botAbandonedPct: number;
+export interface TeamAggregates {
+  total_tickets: number;
+  avg_frt_seconds: number;
+  closure_pct: number;
+  recalls: number;
+  slow_frt_pct: number;
+  bot_abandoned_pct: number;
+  visitor_left_pct: number;
 }
 
-export interface LLMInput {
-  periodLabel: string;
-  periodStart: string;
-  periodEnd: string;
-  aggregateStats: AggregateStats;
-  perAgentStats: AgentStats[];
-  inquiryCategoryCounts: Record<string, number>;
-  agentTicketSamples: Record<string, { ticket: Ticket; content: string }[]>;
-  systemPrompt: string;
-  references: {
-    agentMapping: unknown;
-    platformFacts: unknown;
-    thresholds: unknown;
-    inquiryKeywords: unknown;
-    knownIssues: unknown;
-    recurringFlags: unknown;
-  };
+export interface InquiryCategory {
+  name: string;
+  count: number;
+  pct_of_total: number;
 }
 
-export interface LLMOutput {
-  qaReportContent: unknown;
-  inquiryReportContent: unknown;
-  individualReportContent: unknown;
+export interface PipelineReport {
+  period_label: string;
+  period_start: string;
+  period_end: string;
+  generated_at: string;
+  team_aggregates: TeamAggregates;
+  per_agent_stats: AgentStats[];
+  inquiry_categories: InquiryCategory[];
+  sampled_tickets: Record<string, Ticket[]>;
 }
 
-export interface PipelineRun {
-  id: string;
-  periodLabel: string;
-  periodStart: string;
-  periodEnd: string;
-  status: 'pending' | 'running' | 'completed' | 'failed';
-  qaReportPath: string | null;
-  inquiryReportPath: string | null;
-  individualReportPath: string | null;
-  totalTickets: number | null;
-  agentCount: number | null;
-  errorMessage: string | null;
-  createdAt: string;
-  completedAt: string | null;
+export interface ReportIndex {
+  periods: Array<{
+    label: string;
+    start: string;
+    end: string;
+    generated_at: string;
+    files: {
+      qa_report: string;
+      inquiry_report: string;
+      agent_report: string;
+    };
+  }>;
+  last_updated: string;
 }

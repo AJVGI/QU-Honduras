@@ -1,232 +1,157 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
+import { Button } from '@/components/ui/button';
 
 interface Report {
-  id: string;
-  periodLabel: string;
-  periodStart: string;
-  periodEnd: string;
-  createdAt: string;
-  totalTickets: number;
-  agentCount: number;
-  downloadUrls: {
-    qa: string | null;
-    inquiry: string | null;
-    individual: string | null;
+  label: string;
+  start: string;
+  end: string;
+  generated_at: string;
+  files: {
+    qa_report: string;
+    inquiry_report: string;
+    agent_report: string;
   };
-}
-
-interface StatusData {
-  lastRun: {
-    id: string;
-    period_label: string;
-    status: 'pending' | 'running' | 'completed' | 'failed';
-    created_at: string;
-    completed_at: string | null;
-  } | null;
-}
-
-async function downloadViaProxy(proxyUrl: string, filename: string) {
-  const res = await fetch(proxyUrl);
-  if (!res.ok) throw new Error(`Download failed: HTTP ${res.status}`);
-  const blob = await res.blob();
-  const objectUrl = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = objectUrl;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(objectUrl);
 }
 
 export default function ReportsHub() {
   const [reports, setReports] = useState<Report[]>([]);
-  const [status, setStatus] = useState<StatusData['lastRun'] | null>(null);
   const [loading, setLoading] = useState(true);
   const [running, setRunning] = useState(false);
-  const [weekOffset, setWeekOffset] = useState(0);
-  const [error, setError] = useState<string | null>(null);
-  const [downloading, setDownloading] = useState<string | null>(null);
+  const [lastRun, setLastRun] = useState<{ period: string; generated_at: string } | null>(null);
 
-  const fetchData = async () => {
+  useEffect(() => {
+    fetchReports();
+  }, []);
+
+  async function fetchReports() {
     try {
-      setError(null);
-      const [reportsRes, statusRes] = await Promise.all([
-        fetch('/api/pipeline/reports').then((r) => r.json()),
-        fetch('/api/pipeline/status').then((r) => r.json()),
-      ]);
-      if (reportsRes.ok) setReports(reportsRes.reports || []);
-      if (statusRes.ok) setStatus(statusRes.lastRun);
-    } catch (e) {
-      setError((e as Error).message);
+      const res = await fetch('/api/pipeline/reports');
+      const data = await res.json();
+      if (data.ok) {
+        setReports(data.reports || []);
+      }
+
+      const statusRes = await fetch('/api/pipeline/status');
+      const statusData = await statusRes.json();
+      if (statusData.ok && statusData.last_run) {
+        setLastRun(statusData.last_run);
+      }
+    } catch (err) {
+      console.error('Failed to fetch reports:', err);
     } finally {
       setLoading(false);
     }
-  };
+  }
 
-  useEffect(() => {
-    fetchData();
-    const interval = setInterval(fetchData, 5000);
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleRunPipeline = async () => {
+  async function runPipeline() {
+    setRunning(true);
     try {
-      setRunning(true);
-      setError(null);
-      const res = await fetch('/api/pipeline/run', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ weekOffset }),
-      });
-      if (!res.ok) {
-        const d = await res.json();
-        throw new Error(d.error || 'Pipeline failed');
+      const res = await fetch('/api/pipeline/run', { method: 'POST' });
+      const data = await res.json();
+      if (data.ok) {
+        // Wait a moment then refresh
+        setTimeout(() => {
+          fetchReports();
+          setRunning(false);
+        }, 2000);
+      } else {
+        console.error('Pipeline error:', data.error);
+        setRunning(false);
       }
-      let attempts = 0;
-      while (attempts < 60) {
-        await new Promise((r) => setTimeout(r, 5000));
-        const s = await fetch('/api/pipeline/status').then((r) => r.json());
-        if (s.lastRun?.status === 'completed' || s.lastRun?.status === 'failed') {
-          setStatus(s.lastRun);
-          break;
-        }
-        attempts++;
-      }
-      await fetchData();
-    } catch (e) {
-      setError((e as Error).message);
-    } finally {
+    } catch (err) {
+      console.error('Failed to run pipeline:', err);
       setRunning(false);
     }
-  };
+  }
 
-  const handleDownload = async (proxyUrl: string, label: string, filename: string) => {
+  async function downloadReport(url: string, filename: string) {
     try {
-      setDownloading(proxyUrl);
-      await downloadViaProxy(proxyUrl, filename);
-    } catch (e) {
-      setError(`${label} download failed: ${(e as Error).message}`);
-    } finally {
-      setDownloading(null);
+      const res = await fetch(url);
+      const blob = await res.blob();
+      const downloadUrl = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = downloadUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(downloadUrl);
+      document.body.removeChild(a);
+    } catch (err) {
+      console.error('Download failed:', err);
     }
-  };
-
-  const formatDate = (d: string) => {
-    try { return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); }
-    catch { return d; }
-  };
-  const formatTime = (d: string) => {
-    try { return new Date(d).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }); }
-    catch { return d; }
-  };
-
-  function DownloadBtn({ url, label, emoji, filename }: { url: string; label: string; emoji: string; filename: string }) {
-    const busy = downloading === url;
-    return (
-      <button
-        onClick={() => handleDownload(url, label, filename)}
-        disabled={busy}
-        className="px-4 py-2 rounded font-semibold transition flex items-center gap-2 text-white text-sm"
-        style={{ background: busy ? '#555' : '#7B2D8B', cursor: busy ? 'not-allowed' : 'pointer' }}
-        onMouseEnter={e => { if (!busy) (e.currentTarget as HTMLButtonElement).style.background = '#9B3DAB'; }}
-        onMouseLeave={e => { if (!busy) (e.currentTarget as HTMLButtonElement).style.background = '#7B2D8B'; }}
-      >
-        {busy ? '⏳' : emoji} {busy ? 'Downloading...' : label}
-      </button>
-    );
   }
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#1A1A2E', color: '#E0E0E0' }}>
-      <div className="border-b p-6" style={{ borderColor: '#7B2D8B' }}>
-        <h1 className="text-3xl font-bold mb-2">📊 Reports Hub</h1>
-        <p className="text-gray-400">Download QA pipeline reports as Word documents</p>
-      </div>
-
-      <div className="p-6 max-w-6xl mx-auto">
-        {error && (
-          <div className="mb-6 p-4 bg-red-900/20 border border-red-700 rounded-lg flex items-start gap-3">
-            <span>⚠️</span>
-            <p className="text-red-200 text-sm">{error}</p>
-          </div>
-        )}
-
-        <div className="mb-8 p-6 border rounded-xl" style={{ borderColor: '#7B2D8B', background: '#242435' }}>
-          <h2 className="text-xl font-bold mb-4">Pipeline Status</h2>
-          {status ? (
-            <div className="flex flex-wrap gap-6 mb-4 text-sm">
-              <div><span className="text-gray-400">Last Run: </span><span>{formatDate(status.created_at)} {formatTime(status.created_at)}</span></div>
-              <div><span className="text-gray-400">Period: </span><span>{status.period_label}</span></div>
-              <div>
-                <span className="text-gray-400">Status: </span>
-                <span className="font-bold" style={{ color: status.status === 'completed' ? '#4ADE80' : status.status === 'failed' ? '#F87171' : '#FBBF24' }}>
-                  {status.status.charAt(0).toUpperCase() + status.status.slice(1)}
-                </span>
-              </div>
-            </div>
-          ) : <p className="text-gray-400 mb-4 text-sm">No runs yet.</p>}
-
-          <div className="flex items-end gap-4 flex-wrap">
-            <div>
-              <label className="block text-sm font-medium mb-2 text-gray-300">Week</label>
-              <select
-                value={weekOffset}
-                onChange={(e) => setWeekOffset(parseInt(e.target.value))}
-                disabled={running}
-                className="px-3 py-2 rounded border text-sm"
-                style={{ background: '#1A1A2E', borderColor: '#7B2D8B', color: '#E0E0E0' }}
-              >
-                <option value="0">Last Week</option>
-                <option value="1">2 Weeks Ago</option>
-                <option value="2">3 Weeks Ago</option>
-                <option value="4">Monthly</option>
-              </select>
-            </div>
-            <button
-              onClick={handleRunPipeline}
-              disabled={running}
-              className="px-6 py-2 rounded font-semibold text-white transition text-sm"
-              style={{ background: running ? '#555' : '#E91E8C', cursor: running ? 'not-allowed' : 'pointer' }}
-            >
-              {running ? '⏳ Running pipeline...' : '▶ Run Pipeline Now'}
-            </button>
-          </div>
+    <div className="min-h-screen bg-[#1A1A2E] text-white p-6">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold mb-2">QA Reports Hub</h1>
+          <p className="text-gray-400">Automated quality assurance pipeline for JackpotDaily</p>
         </div>
 
-        <h2 className="text-xl font-bold mb-4">Generated Reports</h2>
+        {/* Status Card */}
+        <div className="bg-[#2D2D44] border border-[#7B2D8B]/20 rounded-lg p-6 mb-8">
+          <h2 className="text-xl font-semibold mb-4">Pipeline Status</h2>
+          {lastRun ? (
+            <div className="space-y-2 mb-6">
+              <p className="text-green-400">✓ Last run: {lastRun.period}</p>
+              <p className="text-gray-400 text-sm">Generated: {new Date(lastRun.generated_at).toLocaleString()}</p>
+            </div>
+          ) : (
+            <p className="text-gray-400 mb-6">No runs yet</p>
+          )}
+
+          <Button
+            onClick={runPipeline}
+            disabled={running}
+            className="bg-[#E91E8C] hover:bg-[#E91E8C]/80 text-white font-semibold"
+          >
+            {running ? 'Running...' : 'Run Pipeline Now'}
+          </Button>
+        </div>
+
+        {/* Reports Grid */}
         {loading ? (
-          <p className="text-gray-400">Loading...</p>
+          <div className="text-center text-gray-400">Loading reports...</div>
         ) : reports.length === 0 ? (
-          <div className="p-8 text-center border rounded-xl" style={{ borderColor: '#7B2D8B', background: '#242435' }}>
-            <div className="text-4xl mb-3">📭</div>
-            <p className="text-gray-400">No reports yet. Run the pipeline above to generate your first report.</p>
-          </div>
+          <div className="text-center text-gray-400">No reports available. Run the pipeline to generate reports.</div>
         ) : (
-          <div className="space-y-4">
-            {reports.map((r) => (
-              <div key={r.id} className="p-6 border rounded-xl" style={{ borderColor: '#7B2D8B', background: '#242435' }}>
+          <div className="grid gap-6">
+            {reports.map((report, idx) => (
+              <div
+                key={idx}
+                className="bg-[#2D2D44] border border-[#7B2D8B]/20 rounded-lg p-6 hover:border-[#E91E8C]/50 transition"
+              >
                 <div className="mb-4">
-                  <div className="text-lg font-bold text-white">{r.periodLabel}</div>
-                  <div className="text-sm text-gray-400 mt-1">
-                    Generated {formatDate(r.createdAt)} · {r.totalTickets} tickets · {r.agentCount} agents
-                  </div>
+                  <h3 className="text-lg font-semibold text-[#E91E8C]">{report.label}</h3>
+                  <p className="text-sm text-gray-400">Generated: {new Date(report.generated_at).toLocaleString()}</p>
                 </div>
-                <div className="flex flex-wrap gap-3">
-                  {r.downloadUrls.qa && (
-                    <DownloadBtn url={r.downloadUrls.qa} label="QA Report" emoji="📊" filename={`QA_Report_${r.periodLabel.replace(/\s/g,'_')}.docx`} />
-                  )}
-                  {r.downloadUrls.inquiry && (
-                    <DownloadBtn url={r.downloadUrls.inquiry} label="Inquiry Report" emoji="📋" filename={`Inquiry_Report_${r.periodLabel.replace(/\s/g,'_')}.docx`} />
-                  )}
-                  {r.downloadUrls.individual && (
-                    <DownloadBtn url={r.downloadUrls.individual} label="Individual Report" emoji="👤" filename={`Individual_Report_${r.periodLabel.replace(/\s/g,'_')}.docx`} />
-                  )}
-                  {!r.downloadUrls.qa && !r.downloadUrls.inquiry && !r.downloadUrls.individual && (
-                    <span className="text-sm text-gray-500 italic">No files for this run.</span>
-                  )}
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <Button
+                    onClick={() => downloadReport(report.files.qa_report, `qa-report-${report.label}.docx`)}
+                    variant="outline"
+                    className="border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white"
+                  >
+                    📊 QA Report
+                  </Button>
+                  <Button
+                    onClick={() => downloadReport(report.files.inquiry_report, `inquiry-report-${report.label}.docx`)}
+                    variant="outline"
+                    className="border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white"
+                  >
+                    💬 Inquiry Report
+                  </Button>
+                  <Button
+                    onClick={() => downloadReport(report.files.agent_report, `agent-report-${report.label}.docx`)}
+                    variant="outline"
+                    className="border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white"
+                  >
+                    👤 Agent Report
+                  </Button>
                 </div>
               </div>
             ))}
