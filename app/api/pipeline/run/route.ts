@@ -10,7 +10,7 @@ export const maxDuration = 300; // 5 minutes for processing
 export const dynamic = 'force-dynamic';
 
 import { NextRequest, NextResponse } from 'next/server';
-import { put } from '@vercel/blob';
+// Storage: Supabase (Vercel Blob removed)
 import { Document, Packer, Paragraph, TextRun } from 'docx';
 import { createClient } from '@supabase/supabase-js';
 
@@ -26,7 +26,7 @@ import {
   trimContent,
   hashCode,
 } from '../parser';
-import { Ticket, PipelineReport, ReportIndex, WellyChat } from '../types';
+import { Ticket, PipelineReport, WellyChat } from '../types';
 import { SYSTEM_PROMPT, getAgentDisplayName } from '../reference-data';
 
 const MAX_GRADED = 150; // Increased from 30
@@ -452,59 +452,66 @@ export async function POST(req: NextRequest) {
       JSON.stringify(analysis.agent_report, null, 2)
     );
 
-    // 9. Upload to Vercel Blob
-    console.log('[Pipeline] Uploading reports to Vercel Blob...');
+    // 9. Upload to Supabase Storage
+    console.log('[Pipeline] Uploading reports to Supabase Storage...');
     const timestamp = Date.now();
     const periodKey = periodLabel.replace(/[\s,]/g, '_');
 
-    const qaUrl = await put(`reports/${periodKey}/qa_report_${timestamp}.docx`, qaReportBuffer, {
-      access: 'public',
-    });
-    const inquiryUrl = await put(`reports/${periodKey}/inquiry_report_${timestamp}.docx`, inquiryReportBuffer, {
-      access: 'public',
-    });
-    const agentUrl = await put(`reports/${periodKey}/agent_report_${timestamp}.docx`, agentReportBuffer, {
-      access: 'public',
-    });
-
-    console.log('[Pipeline] Uploaded:', qaUrl, inquiryUrl, agentUrl);
-
-    // 10. Update index
-    let index: ReportIndex = { periods: [], last_updated: new Date().toISOString() };
-    try {
-      const indexBlob = await fetch('https://blob.vercelusercontent.com/reports/index.json');
-      if (indexBlob.ok) {
-        index = await indexBlob.json();
-      }
-    } catch (e) {
-      console.warn('Could not fetch existing index:', e);
-    }
-
-    const newPeriod = {
-      label: periodLabel,
-      start: startDate.toISOString(),
-      end: endDate.toISOString(),
-      generated_at: new Date().toISOString(),
-      files: {
-        qa_report: qaUrl.url,
-        inquiry_report: inquiryUrl.url,
-        agent_report: agentUrl.url,
-      },
+    const uploadFile = async (path: string, buffer: Buffer) => {
+      const { error } = await supabase.storage
+        .from('qa-reports')
+        .upload(path, buffer, {
+          contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+          upsert: true,
+        });
+      if (error) throw new Error(`Upload failed for ${path}: ${error.message}`);
+      return path;
     };
 
-    // Remove old period if it exists
-    index.periods = index.periods.filter(p => p.label !== periodLabel);
-    index.periods.unshift(newPeriod);
-    index.last_updated = new Date().toISOString();
+    const qaPath = await uploadFile(`${periodKey}/qa_report_${timestamp}.docx`, qaReportBuffer);
+    const inquiryPath = await uploadFile(`${periodKey}/inquiry_report_${timestamp}.docx`, inquiryReportBuffer);
+    const agentPath = await uploadFile(`${periodKey}/agent_report_${timestamp}.docx`, agentReportBuffer);
 
-    await put('reports/index.json', JSON.stringify(index, null, 2), { access: 'public' });
+    console.log('[Pipeline] Uploaded:', qaPath, inquiryPath, agentPath);
+
+    // 10. Upsert pipeline_runs row
+    const storagePaths = {
+      qa_report: qaPath,
+      inquiry_report: inquiryPath,
+      agent_report: agentPath,
+    };
+
+    const { error: upsertErr } = await supabase
+      .from('pipeline_runs')
+      .upsert(
+        {
+          period_label: periodLabel,
+          period_start: startDate.toISOString(),
+          period_end: endDate.toISOString(),
+          status: 'completed',
+          completed_at: new Date().toISOString(),
+          total_tickets: teamAggregates.total_tickets,
+          agent_count: perAgentStats.length,
+          storage_paths: storagePaths,
+          grading_summary: {
+            tickets_graded: gradedCount,
+            tickets_failed: gradeFailures,
+            total_selected: ticketsToGrade.length,
+          },
+        },
+        { onConflict: 'period_label' }
+      );
+
+    if (upsertErr) {
+      console.error('[Pipeline] Failed to update pipeline_runs:', upsertErr);
+    }
 
     console.log('[Pipeline] Complete');
 
     return NextResponse.json({
       ok: true,
       period: periodLabel,
-      files: [qaUrl.url, inquiryUrl.url, agentUrl.url],
+      files: [qaPath, inquiryPath, agentPath],
       grading: {
         tickets_graded: gradedCount,
         tickets_failed: gradeFailures,
