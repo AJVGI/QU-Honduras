@@ -521,21 +521,38 @@ async function callLLM(systemPrompt: string, userMessage: string): Promise<strin
       'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
       'Content-Type': 'application/json',
       'HTTP-Referer': 'https://jackpotdaily-qa.vercel.app',
+      'X-Title': 'JackpotDaily QA',
     },
     body: JSON.stringify({
       model: 'anthropic/claude-haiku-4-5',
       messages: [
         { role: 'system', content: systemPrompt },
-        { role: 'user', content: userMessage },
+        { role: 'user', content: userMessage + '\n\nRespond ONLY with valid JSON. No markdown, no explanation, no preamble. Start your response with {' },
       ],
-      response_format: { type: 'json_object' },
       max_tokens: 4000,
     }),
   });
 
   const data = await res.json();
   if (!res.ok) throw new Error(`LLM error: ${data.error?.message}`);
-  return data.choices[0].message.content;
+  const raw = data.choices[0].message.content as string;
+  // Strip any markdown code fences
+  const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '').trim();
+  return cleaned;
+}
+
+function safeParseLLM(raw: string): Record<string, unknown> {
+  try {
+    return JSON.parse(raw) as Record<string, unknown>;
+  } catch {
+    // Try to extract JSON object from response
+    const match = raw.match(/\{[\s\S]*\}/);
+    if (match) {
+      try { return JSON.parse(match[0]) as Record<string, unknown>; } catch { /* fall through */ }
+    }
+    console.warn('[Pipeline] LLM returned non-JSON, using empty fallback. Preview:', raw.slice(0, 100));
+    return {};
+  }
 }
 
 // ─── DOCX Generation ──────────────────────────────────────────────────────
@@ -704,9 +721,9 @@ export async function POST(req: Request) {
         callLLM(SYSTEM_PROMPT, JSON.stringify({ report: 'individual', period: periodLabel, perAgent, agentSamples: samplesObj, recurringFlags: RECURRING_FLAGS, agentMapping: AGENT_MAPPING })),
       ]);
 
-      const qaContent = qaAnalysis.status === 'fulfilled' ? JSON.parse(qaAnalysis.value) : {};
-      const inquiryContent = inquiryAnalysis.status === 'fulfilled' ? JSON.parse(inquiryAnalysis.value) : {};
-      const individualContent = individualAnalysis.status === 'fulfilled' ? JSON.parse(individualAnalysis.value) : {};
+      const qaContent = qaAnalysis.status === 'fulfilled' ? safeParseLLM(qaAnalysis.value) : {};
+      const inquiryContent = inquiryAnalysis.status === 'fulfilled' ? safeParseLLM(inquiryAnalysis.value) : {};
+      const individualContent = individualAnalysis.status === 'fulfilled' ? safeParseLLM(individualAnalysis.value) : {};
 
       console.log('[Pipeline] LLM done, generating docx...');
 
