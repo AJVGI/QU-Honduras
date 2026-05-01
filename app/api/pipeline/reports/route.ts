@@ -18,7 +18,8 @@ export async function GET() {
       .from('pipeline_runs')
       .select('*')
       .eq('status', 'completed')
-      .order('period_start', { ascending: false });
+      .not('period_label', 'ilike', 'test%')
+      .order('created_at', { ascending: false });
 
     if (error) throw error;
 
