@@ -8,12 +8,7 @@ export const dynamic = 'force-dynamic';
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 
-if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_KEY) {
-  throw new Error('Missing Supabase environment variables');
-}
 
-const SUPABASE_URL = process.env.SUPABASE_URL;
-const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 
 export async function GET(req: Request) {
   try {
@@ -24,7 +19,7 @@ export async function GET(req: Request) {
       return NextResponse.json({ error: 'Missing path parameter' }, { status: 400 });
     }
 
-    const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+    const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
     const { data, error } = await supabase.storage.from('qa-reports').createSignedUrl(path, 3600);
 
