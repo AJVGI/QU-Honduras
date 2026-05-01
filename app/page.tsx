@@ -5,7 +5,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid,
   LineChart, Line, Tooltip, ResponsiveContainer,
 } from 'recharts';
-import { IS_REAL_DATA, DATA_TIMESTAMP } from '@/lib/dataLoader';
+// dataLoader removed — data now pulled live from Supabase + WellyTalk API
 import { gradeColor } from '@/lib/utils';
 import { Grade } from '@/lib/types';
 import { GradeBadge } from '@/components/GradeBadge';
@@ -174,7 +174,7 @@ export default function DashboardPage() {
           <h1 className="text-2xl font-black text-white">Dashboard</h1>
           <p className="text-slate-400 text-sm mt-1">
             Honduras Agents — JackpotDaily QA
-            {IS_REAL_DATA && <span className="ml-2">● LIVE</span>}
+            <span className="ml-2 text-green-400">● LIVE</span>
           </p>
         </div>
         <div className="text-xs text-slate-500 text-right">

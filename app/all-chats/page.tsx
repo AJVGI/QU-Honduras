@@ -68,7 +68,7 @@ export default function AllChatsPage() {
       try {
         const params = new URLSearchParams({
           week_start: selectedWeek,
-          limit: '500',
+          limit: '2000',
           offset: '0',
         });
         const res = await fetch(`/api/data/tickets?${params}`);

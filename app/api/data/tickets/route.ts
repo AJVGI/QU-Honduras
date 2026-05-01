@@ -23,7 +23,7 @@ export async function GET(req: Request) {
   try {
     const url = new URL(req.url);
     const weekStart = url.searchParams.get('week_start');
-    const limit = parseInt(url.searchParams.get('limit') || '200', 10);
+    const limit = Math.min(parseInt(url.searchParams.get('limit') || '2000', 10), 5000);
     const offset = parseInt(url.searchParams.get('offset') || '0', 10);
     const agent = url.searchParams.get('agent');
     const category = url.searchParams.get('category');
