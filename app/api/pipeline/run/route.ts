@@ -702,6 +702,56 @@ export async function POST(req: Request) {
       // Merge detail data into tickets where available
       const mergedTickets = tickets.map(t => detailMap.get(t.id) || t);
 
+      // Build transcripts for detailed tickets
+      const buildTranscript = (detail: any): string => {
+        const lines: string[] = [];
+        
+        // Add pre-chat info (subject, email)
+        const preChatInfo = detail.pre_chat_info as Array<{type: string; title: string; value: string[]}> | undefined;
+        if (preChatInfo) {
+          for (const field of preChatInfo) {
+            const val = field.value?.[0] || '';
+            const title = (field.title || '').replace(/<[^>]*>/g, '').trim();
+            if (val && title) lines.push(`${title} ${val}`);
+          }
+        }
+        
+        // Add participants
+        const participants = detail.participants as Array<{source_type: string; name: string; nick_name: string}> | undefined;
+        const agent = participants?.find(p => p.source_type === 'INTERNAL');
+        if (agent) lines.push(`Agent: ${agent.name} (alias: ${agent.nick_name || agent.name})`);
+        
+        // Add stats
+        const stats = detail.stats as {first_response_time?: number; average_response_time?: number} | undefined;
+        if (stats) {
+          if (stats.first_response_time) lines.push(`First Response Time: ${stats.first_response_time}s`);
+          if (stats.average_response_time) lines.push(`Avg Response Time: ${stats.average_response_time}s`);
+        }
+        
+        // Add last message
+        const lastMsg = detail.last_message as {content?: {body_content?: string}; source_type?: number} | undefined;
+        const lastContent = lastMsg?.content?.body_content || '';
+        if (lastContent) {
+          const sender = lastMsg?.source_type === 1 ? 'Agent' : 'Client';
+          lines.push(`Last message (${sender}): ${lastContent}`);
+        }
+        
+        // Status
+        lines.push(`Status: ${detail.status}`);
+        
+        return lines.join('\n');
+      };
+      
+      // Store transcript with detail map - we already have the tickets from detailMap
+      const detailMapWithTranscripts = new Map<string, {ticket: Ticket; transcript: string}>();
+      for (const [id, ticket] of detailMap) {
+        try {
+          const rawDetail = await getConversationDetail(id);
+          const transcript = buildTranscript(rawDetail);
+          detailMapWithTranscripts.set(id, { ticket, transcript });
+        } catch { /* skip if detail fetch fails */ }
+      }
+
       // Compute KPIs
       const aggregates = computeAggregates(mergedTickets);
       const perAgent = computePerAgent(mergedTickets);
@@ -714,20 +764,30 @@ export async function POST(req: Request) {
       const weekStartDate = weekStart.toISOString().split('T')[0];
 
       // Batch insert tickets (max 500 at a time to avoid payload limits)
-      const ticketRows = mergedTickets.map(t => ({
-        run_id: runId,
-        agent_name: t.agentName,
-        agent_alias: t.agentAlias,
-        subject: t.subject,
-        category: t.category,
-        frt_seconds: t.frtSeconds,
-        is_closed: t.isClosed,
-        has_recall: t.hasRecall,
-        was_transferred: t.wasTransferred,
-        last_message_content: t.lastMessageContent.slice(0, 500),
-        created_at: new Date(t.createdAt * 1000).toISOString(),
-        week_start: weekStartDate,
-      }));
+      const ticketRows = mergedTickets.map(t => {
+        const detailData = detailMapWithTranscripts.get(t.id);
+        return {
+          run_id: runId,
+          welly_conversation_id: t.id,
+          agent_name: t.agentName,
+          agent_alias: t.agentAlias,
+          subject: t.subject,
+          category: t.category,
+          frt_seconds: t.frtSeconds,
+          is_closed: t.isClosed,
+          has_recall: t.hasRecall,
+          was_transferred: t.wasTransferred,
+          last_message_content: t.lastMessageContent.slice(0, 500),
+          transcript: detailData?.transcript || null,
+          score: null,
+          grade: null,
+          auto_fail: false,
+          auto_fail_reason: null,
+          coaching_tip: null,
+          created_at: new Date(t.createdAt * 1000).toISOString(),
+          week_start: weekStartDate,
+        };
+      });
 
       // Insert in batches of 500
       for (let i = 0; i < ticketRows.length; i += 500) {
@@ -793,6 +853,63 @@ export async function POST(req: Request) {
         completed_at: new Date().toISOString(),
         // llm_qa, llm_inquiry, llm_individual stored separately if columns exist
       }).eq('id', runId);
+
+      // Grade sampled tickets individually (batch of 5 at a time to control cost)
+      console.log('[Pipeline] Starting per-ticket LLM grading...');
+      const gradingModel = 'anthropic/claude-haiku-4-5';
+      const ticketsToGrade = Array.from(detailMapWithTranscripts.entries()).slice(0, 30); // Max 30 per run
+      let gradedCount = 0;
+      
+      for (let i = 0; i < ticketsToGrade.length; i += 5) {
+        const batch = ticketsToGrade.slice(i, i + 5);
+        await Promise.allSettled(batch.map(async ([convId, {ticket, transcript}]) => {
+          try {
+            const gradePrompt = `You are a QA analyst for JackpotDaily customer support. Grade this conversation.
+
+CONVERSATION:
+${transcript}
+
+AGENT MAPPING: ${JSON.stringify(AGENT_MAPPING.agents.slice(0, 5))}
+PLATFORM FACTS (key): Redemption max $2500/day, referral threshold $30, daily login bonus FREE, KYC 1hr, debit 1-3 biz days, ACH up to 10 biz days.
+
+Respond with JSON only:
+{
+  "score": 0-100,
+  "grade": "A|B|C|D|F",
+  "auto_fail": false,
+  "auto_fail_reason": null,
+  "strengths": ["..."],
+  "issues": ["..."],
+  "coaching_tip": "..."
+}
+
+Score criteria: 90-100=A (excellent), 80-89=B (good), 70-79=C (acceptable), 60-69=D (needs improvement), <60=F (poor)
+Auto-fail if: factual error, PII mishandling, harm response without care, or zero response to client.`;
+
+            const result = await callLLM('You are a QA scoring assistant. Return only valid JSON.', gradePrompt);
+            const grade = safeParseLLM(result) as {score?: number; grade?: string; auto_fail?: boolean; auto_fail_reason?: string; strengths?: string[]; issues?: string[]; coaching_tip?: string};
+            
+            if (grade.score !== undefined) {
+              // Update the ticket record with grade
+              await supabase.from('pipeline_tickets')
+                .update({
+                  score: grade.score,
+                  grade: grade.grade,
+                  auto_fail: grade.auto_fail || false,
+                  auto_fail_reason: grade.auto_fail_reason || null,
+                  coaching_tip: grade.coaching_tip || null,
+                })
+                .eq('welly_conversation_id', convId)
+                .eq('run_id', runId);
+              gradedCount++;
+            }
+          } catch (e) {
+            console.error(`[Pipeline] Grade failed for ${convId}:`, (e as Error).message);
+          }
+        }));
+        await sleep(500); // Pause between batches
+      }
+      console.log(`[Pipeline] Graded ${gradedCount} tickets`);
 
       console.log('[Pipeline] ✓ Done');
 

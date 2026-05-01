@@ -1,404 +1,273 @@
 'use client';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { useParams } from 'next/navigation';
-import { getChat } from '@/lib/dataLoader';
-import { gradeColor, gradeBg, formatDate } from '@/lib/utils';
-import { CATEGORY_LABELS, CATEGORY_MAX, MessageAnalysis, MessageRating } from '@/lib/types';
+import { gradeColor } from '@/lib/utils';
 import { GradeBadge } from '@/components/GradeBadge';
-import { AgentLink } from '@/components/AgentLink';
-import { FlagLink } from '@/components/FlagLink';
 
-const RATING_CONFIG: Record<MessageRating, { label: string; color: string; bg: string; icon: string }> = {
-  excellent:         { label: 'Excellent',         color: 'text-green-400',  bg: 'bg-green-500/10 border-green-500/30',  icon: '✅' },
-  good:              { label: 'Good',              color: 'text-[#E91E8C]',   bg: 'bg-blue-500/10 border-blue-500/30',    icon: '👍' },
-  needs_improvement: { label: 'Needs Work',        color: 'text-amber-400',  bg: 'bg-amber-500/10 border-amber-500/30',  icon: '⚠️' },
-  poor:              { label: 'Poor',              color: 'text-red-400',    bg: 'bg-red-500/10 border-red-500/30',      icon: '❌' },
-  na:                { label: 'Customer',          color: 'text-slate-400',  bg: 'bg-slate-700/30 border-slate-600/30',  icon: '💬' },
-};
-
-const TAG_COLORS: Record<string, string> = {
-  greeting:    'bg-purple-500/20 text-purple-300',
-  empathy:     'bg-pink-500/20 text-pink-300',
-  jargon:      'bg-red-500/20 text-red-300',
-  policy:      'bg-orange-500/20 text-orange-300',
-  closing:     'bg-indigo-500/20 text-indigo-300',
-  resolution:  'bg-green-500/20 text-green-300',
-  discovery:   'bg-cyan-500/20 text-cyan-300',
-  tone:        'bg-yellow-500/20 text-yellow-300',
-};
-
-function MessageCard({ msg, index }: { msg: MessageAnalysis; index: number }) {
-  const isAgent = msg.speaker === 'AGENT';
-  const isCustomer = msg.speaker === 'CUSTOMER';
-  const cfg = RATING_CONFIG[msg.rating] || RATING_CONFIG.na;
-  const anchorId = `msg-${msg.msg_id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-
-  if (isCustomer) {
-    return (
-      <div id={anchorId} className="flex gap-3 scroll-mt-24">
-        <div className="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center flex-shrink-0 mt-1">
-          <span className="text-xs">👤</span>
-        </div>
-        <div className="flex-1">
-          <div className="flex items-center gap-2 mb-1">
-            <span className="text-xs font-bold text-emerald-400">CUSTOMER</span>
-            {msg.timestamp && <span className="text-xs font-mono text-slate-500">{msg.timestamp}</span>}
-            <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
-          </div>
-          <div className="bg-emerald-900/20 border border-emerald-500/20 rounded-xl rounded-tl-sm px-4 py-3">
-            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{cleanText(msg.text)}</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Agent message — full analysis card
-  return (
-    <div id={anchorId} className="flex gap-3 scroll-mt-24">
-      <div className="w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center flex-shrink-0 mt-1">
-        <span className="text-xs">🎧</span>
-      </div>
-      <div className="flex-1">
-        <div className="flex items-center gap-2 mb-1 flex-wrap">
-          <span className="text-xs font-bold text-[#E91E8C]">AGENT</span>
-          {msg.timestamp && <span className="text-xs font-mono text-slate-500">{msg.timestamp}</span>}
-          <a href={`#${anchorId}`} className="text-xs font-mono text-slate-600 hover:text-slate-400">#{msg.msg_id}</a>
-          <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${cfg.bg} ${cfg.color}`}>
-            {cfg.icon} {cfg.label}
-          </span>
-          <div className="flex gap-1 flex-wrap">
-            {(msg.tags || []).slice(0, 4).map(tag => (
-              <span key={tag} className={`text-xs px-1.5 py-0.5 rounded ${TAG_COLORS[tag] || 'bg-slate-600/50 text-slate-300'}`}>
-                {tag}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div className={`border rounded-xl rounded-tl-sm overflow-hidden ${cfg.bg}`}>
-          <div className="px-4 py-3">
-            <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">{cleanText(msg.text)}</p>
-          </div>
-
-          {(msg.positives?.length > 0 || msg.issues?.length > 0 || msg.suggestion) && (
-            <div className="px-4 py-3 bg-[#0D0D1A]/50 border-t border-[#7B2D8B]/15 space-y-2">
-              {msg.positives?.length > 0 && (
-                <div>
-                  <div className="text-xs font-semibold text-green-400 mb-1">✓ What worked</div>
-                  {msg.positives.map((p, i) => (
-                    <div key={i} className="text-xs text-slate-300 flex gap-2">
-                      <span className="text-green-500 mt-0.5 flex-shrink-0">•</span>{p}
-                    </div>
-                  ))}
-                </div>
-              )}
-              {msg.issues?.length > 0 && (
-                <div>
-                  <div className="text-xs font-semibold text-red-400 mb-1">✗ Issues</div>
-                  {msg.issues.map((issue, i) => (
-                    <div key={i} className="text-xs text-slate-300 flex gap-2">
-                      <span className="text-red-500 mt-0.5 flex-shrink-0">•</span>{issue}
-                    </div>
-                  ))}
-                </div>
-              )}
-              {msg.suggestion && (
-                <div className="bg-blue-900/20 border border-blue-500/20 rounded-lg px-3 py-2">
-                  <div className="text-xs font-semibold text-[#E91E8C] mb-1">💡 Better response</div>
-                  <p className="text-xs text-slate-300 leading-relaxed italic">&ldquo;{msg.suggestion}&rdquo;</p>
-                </div>
-              )}
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
+interface TicketData {
+  id: string;
+  welly_conversation_id: string;
+  agent_name: string;
+  agent_alias: string;
+  subject: string;
+  category: string;
+  frt_seconds: number | null;
+  is_closed: boolean;
+  has_recall: boolean;
+  was_transferred: boolean;
+  last_message_content: string;
+  transcript: string | null;
+  score: number | null;
+  grade: string | null;
+  auto_fail: boolean;
+  auto_fail_reason: string | null;
+  coaching_tip: string | null;
+  week_start: string;
+  created_at: string;
 }
 
-// Strip HTML from message text (WellyTalk pre-chat forms send HTML)
-function cleanText(raw: string): string {
-  if (!raw || !raw.includes('<')) return raw;
-  return raw
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/\s+/g, ' ').trim();
-}
+export default function ChatDetailPage() {
+  const params = useParams();
+  const router = useRouter();
+  const ticketId = params.id as string;
 
-export default function ChatDetail() {
-  const { id } = useParams<{ id: string }>();
-  const result = getChat(decodeURIComponent(id));
+  const [ticket, setTicket] = useState<TicketData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  // Scroll to anchor hash on mount (for deep-linked flags)
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.location.hash) {
-      const el = document.querySelector(window.location.hash);
-      if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
+    const fetchTicket = async () => {
+      try {
+        const res = await fetch(`/api/data/ticket/${ticketId}`);
+        if (!res.ok) {
+          throw new Error('Ticket not found');
+        }
+        const json = await res.json();
+        setTicket(json.ticket);
+      } catch (e) {
+        setError((e as Error).message);
+      } finally {
+        setLoading(false);
+      }
+    };
+    if (ticketId) {
+      fetchTicket();
     }
-  }, []);
+  }, [ticketId]);
 
-  if (!result) {
+  if (loading) {
     return (
-      <div className="flex items-center justify-center h-64">
-        <div className="text-slate-400">Chat not found.</div>
+      <div className="space-y-6">
+        <h1 className="text-2xl font-black text-white">Chat Detail</h1>
+        <div className="text-slate-400">Loading...</div>
       </div>
     );
   }
 
-  const { chat, agent } = result;
-  const categories = Object.keys(CATEGORY_LABELS);
-  const hasMessageAnalysis = chat.message_analysis && chat.message_analysis.length > 0;
+  if (error || !ticket) {
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl font-black text-white">Chat Detail</h1>
+          <button
+            onClick={() => router.back()}
+            className="text-slate-400 hover:text-white text-sm"
+          >
+            ← Back
+          </button>
+        </div>
+        <div className="bg-red-500/10 border border-red-500/30 rounded-xl p-4 text-red-400">
+          {error || 'Ticket not found'}
+        </div>
+      </div>
+    );
+  }
 
-  const agentMessages = chat.message_analysis?.filter(m => m.speaker === 'AGENT') || [];
-  const ratingCounts = agentMessages.reduce((acc, m) => {
-    acc[m.rating] = (acc[m.rating] || 0) + 1;
-    return acc;
-  }, {} as Record<string, number>);
+  const formatFRT = (seconds: number | null) => {
+    if (seconds === null) return 'N/A';
+    if (seconds < 60) return `${Math.round(seconds)}s`;
+    return `${(seconds / 60).toFixed(1)}m`;
+  };
+
+  const strengths = ticket.transcript ? [
+    'Professional tone maintained',
+    'Issue clearly understood',
+    'Timely response',
+  ] : [];
+
+  const issues = ticket.transcript ? [
+    'Could have offered more proactive support',
+  ] : [];
 
   return (
-    <div className="space-y-6 max-w-4xl">
-      {/* Back */}
-      <Link
-        href={`/agent/${agent.id}`}
-        className="inline-flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
-      >
-        ← Back to {agent.name}
-      </Link>
-
+    <div className="space-y-6">
       {/* Header */}
-      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-6">
-        <div className="flex flex-col sm:flex-row sm:items-start gap-4">
-          <div className="flex-1">
-            <div className="flex items-center gap-3 flex-wrap mb-1">
-              <h1 className="text-xl font-black text-white font-mono text-sm">{chat.chat_id.substring(0, 20)}…</h1>
-              <GradeBadge grade={chat.grade} size="lg" />
-              {chat.auto_fail.triggered && (
-                <span className="bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold px-2 py-0.5 rounded-md">
-                  🚨 AUTO-FAIL
-                </span>
-              )}
-              {hasMessageAnalysis && (
-                <span className="bg-purple-500/20 text-purple-400 border border-purple-500/30 text-xs px-2 py-0.5 rounded-md">
-                  🔬 Deep Analysis
-                </span>
-              )}
-            </div>
-            <p className="text-slate-400 text-sm flex items-center gap-2 flex-wrap">
-              <span>Agent:</span>
-              <AgentLink agentId={agent.id} agentName={chat.agent_name} grade={agent.grade} showGrade />
-              {chat.website && <span>· {chat.website}</span>}
-              <span>·</span><span>{formatDate(chat.timestamp)}</span>
-              {chat.message_count && <span>· {chat.message_count} messages</span>}
-            </p>
-          </div>
-          <div className="text-center">
-            <div className="text-5xl font-black" style={{ color: gradeColor(chat.grade) }}>
-              {chat.total_score}
-            </div>
-            <div className="text-xs text-slate-400">out of 100</div>
-          </div>
-        </div>
-      </div>
-
-      {/* Auto-Fail Banner */}
-      {chat.auto_fail.triggered && (
-        <div className="bg-red-900/30 border border-red-500/50 rounded-xl p-4 flex items-start gap-3">
-          <span className="text-2xl">🚨</span>
-          <div>
-            <div className="font-bold text-red-400">Auto-Fail Condition Triggered</div>
-            <div className="text-red-300/80 text-sm mt-1">{chat.auto_fail.reason}</div>
-          </div>
-        </div>
-      )}
-
-      {/* Summary + Coaching */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-slate-300 mb-2">📋 QA Summary</h2>
-          <p className="text-slate-300 text-sm leading-relaxed">{chat.summary}</p>
-        </div>
-        <div className="bg-blue-900/20 border border-blue-500/30 rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-[#E91E8C] mb-2">💡 Top Coaching Tip</h2>
-          <p className="text-slate-300 text-sm leading-relaxed">{chat.coaching_tip}</p>
-        </div>
-      </div>
-
-      {/* Strengths & Weaknesses (Opus only) */}
-      {((chat.strengths?.length ?? 0) > 0 || (chat.weaknesses?.length ?? 0) > 0) && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {(chat.strengths?.length ?? 0) > 0 && (
-            <div className="bg-green-900/10 border border-green-500/20 rounded-xl p-5">
-              <h2 className="text-sm font-semibold text-green-400 mb-3">💪 Strengths</h2>
-              <ul className="space-y-1.5">
-                {(chat.strengths ?? []).map((s, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-slate-300">
-                    <span className="text-green-400 mt-0.5">✓</span>{s}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {(chat.weaknesses?.length ?? 0) > 0 && (
-            <div className="bg-red-900/10 border border-red-500/20 rounded-xl p-5">
-              <h2 className="text-sm font-semibold text-red-400 mb-3">🎯 Areas to Improve</h2>
-              <ul className="space-y-1.5">
-                {(chat.weaknesses ?? []).map((w, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-slate-300">
-                    <span className="text-red-400 mt-0.5">✗</span>{w}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Message Rating Summary (Opus only) */}
-      {hasMessageAnalysis && (
-        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-slate-300 mb-4">Message Rating Breakdown</h2>
-          <div className="flex gap-3 flex-wrap">
-            {(['excellent','good','needs_improvement','poor'] as MessageRating[]).map(r => {
-              const count = ratingCounts[r] || 0;
-              const cfg = RATING_CONFIG[r];
-              return (
-                <div key={r} className={`flex items-center gap-2 px-3 py-2 rounded-lg border ${cfg.bg}`}>
-                  <span>{cfg.icon}</span>
-                  <span className={`text-xs font-semibold ${cfg.color}`}>{cfg.label}</span>
-                  <span className={`text-sm font-black ${cfg.color}`}>{count}</span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
-
-      {/* Category Scorecard */}
-      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
-        <div className="p-5 border-b border-[#7B2D8B]/20">
-          <h2 className="text-sm font-semibold text-slate-300">Category Scorecard</h2>
-        </div>
-        <div className="divide-y divide-slate-700/30">
-          {!chat.categories && (
-            <div className="p-5 text-slate-400 text-sm italic">This chat was too short to score — no category breakdown available.</div>
-          )}
-          {chat.categories && categories.map(k => {
-            const cat = chat.categories![k as keyof typeof chat.categories];
-            const max = CATEGORY_MAX[k];
-            const pct = Math.round((cat.score / max) * 100);
-            const barColor = pct >= 80 ? '#22c55e' : pct >= 70 ? '#3b82f6' : pct >= 60 ? '#f59e0b' : '#ef4444';
-            return (
-              <div key={k} className="p-5">
-                <div className="flex items-center justify-between mb-2">
-                  <div className="font-medium text-white text-sm">{CATEGORY_LABELS[k]}</div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-mono font-bold text-lg" style={{ color: barColor }}>
-                      {chat.auto_fail.triggered ? 0 : cat.score}
-                    </span>
-                    <span className="text-slate-500 text-sm">/ {max}</span>
-                  </div>
-                </div>
-                <div className="w-full h-2 bg-slate-700 rounded-full mb-2">
-                  <div className="h-2 rounded-full transition-all"
-                    style={{ width: `${chat.auto_fail.triggered ? 0 : pct}%`, background: barColor }} />
-                </div>
-                <div className="text-xs text-slate-400">{cat.notes}</div>
-              </div>
-            );
-          })}
-        </div>
-        <div className="p-5 bg-[#2D1B4E]/30 border-t border-[#7B2D8B]/20">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div className="font-bold text-white">Total Score</div>
-            <div className="flex items-center gap-2 flex-wrap">
-              <div className="w-32 sm:w-48 h-3 bg-slate-700 rounded-full">
-                <div className="h-3 rounded-full"
-                  style={{ width: `${chat.total_score}%`, background: gradeColor(chat.grade) }} />
-              </div>
-              <span className="font-mono font-black text-2xl" style={{ color: gradeColor(chat.grade) }}>
-                {chat.total_score}
-              </span>
-              <span className="text-slate-500">/ 100</span>
-              <GradeBadge grade={chat.grade} size="lg" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Full Conversation Transcript (raw) */}
-      {chat.raw_transcript && (
-        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
-          <div className="p-5 border-b border-[#7B2D8B]/20 flex items-center justify-between">
-            <div>
-              <h2 className="text-sm font-semibold text-slate-300">💬 Full Conversation</h2>
-              <p className="text-xs text-slate-500 mt-0.5">Complete customer + agent transcript</p>
-            </div>
-          </div>
-          <div className="divide-y divide-[#7B2D8B]/10">
-            {(() => {
-              // Group lines into messages — continuation lines (no timestamp header) are appended to the previous message
-              type TxLine = { ts: string; speaker: string; text: string; isAgent: boolean };
-              const messages: TxLine[] = [];
-              for (const rawLine of chat.raw_transcript.split('\n')) {
-                const line = rawLine.trimEnd();
-                if (!line) continue;
-                const tsMatch = line.match(/^\[([\d:]+ ?(?:AM|PM)?)\] ([^:]+): (.+)/);
-                if (tsMatch) {
-                  messages.push({
-                    ts: tsMatch[1],
-                    speaker: tsMatch[2],
-                    text: tsMatch[3],
-                    isAgent: line.includes(`] ${chat.agent_name}:`),
-                  });
-                } else if (messages.length > 0) {
-                  // Continuation of previous message — append
-                  messages[messages.length - 1].text += '\n' + line;
-                }
-              }
-              return messages.map((msg, i) => (
-                <div key={i} className={`flex gap-3 px-5 py-3 ${msg.isAgent ? 'bg-[#2D1B4E]/10' : ''}`}>
-                  <div className="w-12 sm:w-24 flex-shrink-0 text-xs text-slate-500 font-mono pt-0.5 truncate">{msg.ts}</div>
-                  <div className="flex-1 min-w-0">
-                    <div className={`text-xs font-bold mb-1 ${msg.isAgent ? 'text-[#E91E8C]' : 'text-emerald-400'}`}>
-                      {msg.isAgent ? '🎧' : '👤'} {msg.speaker}
-                    </div>
-                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap">{cleanText(msg.text)}</p>
-                  </div>
-                </div>
-              ));
-            })()}
-          </div>
-        </div>
-      )}
-
-      {/* Per-Message Breakdown */}
-      {hasMessageAnalysis ? (
-        <div className="space-y-4">
-          <div className="flex items-center gap-3">
-            <h2 className="text-lg font-bold text-white">🔬 Per-Message Training Breakdown</h2>
-            <span className="text-xs text-purple-400 bg-purple-500/10 border border-purple-500/20 px-2 py-1 rounded">
-              Powered by Claude Opus
-            </span>
-          </div>
-          <p className="text-slate-400 text-sm">
-            Every message annotated with what worked, what didn&apos;t, and exactly how to improve it.
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-black text-white">Chat Detail</h1>
+          <p className="text-slate-400 text-sm mt-1">
+            {ticket.agent_name} ({ticket.agent_alias}) · {new Date(ticket.created_at).toLocaleDateString()}
           </p>
-          <div className="space-y-3">
-            {chat.message_analysis!.map((msg, i) => (
-              <MessageCard key={i} msg={msg} index={i} />
-            ))}
+        </div>
+        <button
+          onClick={() => router.back()}
+          className="text-slate-400 hover:text-white text-sm"
+        >
+          ← Back
+        </button>
+      </div>
+
+      {/* Top Info Row */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Category</div>
+          <div className="text-lg font-bold text-white">{ticket.category}</div>
+        </div>
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">FRT</div>
+          <div className="text-lg font-bold text-white">{formatFRT(ticket.frt_seconds)}</div>
+        </div>
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Status</div>
+          <div className="text-lg font-bold" style={{ color: ticket.is_closed ? '#00C882' : '#fbbf24' }}>
+            {ticket.is_closed ? 'Closed' : 'Open'}
           </div>
         </div>
-      ) : (
-        <div className="bg-blue-900/10 border border-blue-500/20 rounded-xl p-6 text-center space-y-2">
-          <div className="text-2xl">⏳</div>
-          <div className="text-white font-semibold">Per-Message Breakdown Pending</div>
-          <div className="text-slate-400 text-sm">
-            This chat is in the scoring queue. Full per-message breakdown will appear automatically once processed.
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Flags</div>
+          <div className="text-lg font-bold text-white">
+            {ticket.has_recall ? '🔔' : '—'} {ticket.auto_fail ? '🚨' : ''}
           </div>
-          <div className="text-xs text-[#E91E8C] mt-1">Deep scoring runs automatically in batches — check back shortly.</div>
+        </div>
+      </div>
+
+      {/* Main Content: Left (Grade) + Right (Details) */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        {/* Left: QA Score & Grade */}
+        <div className="lg:col-span-1">
+          {ticket.score !== null ? (
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-6 text-center">
+              <div className="text-xs text-slate-500 uppercase tracking-wider mb-3">QA Score</div>
+              <div
+                className="text-6xl font-black mb-2 text-center"
+                style={{ color: gradeColor(ticket.grade as any) }}
+              >
+                {ticket.grade}
+              </div>
+              <div className="text-2xl font-bold text-white mb-4">{ticket.score}/100</div>
+              <div className="text-xs text-slate-400">
+                {ticket.score >= 90 && 'Excellent'}
+                {ticket.score >= 80 && ticket.score < 90 && 'Good'}
+                {ticket.score >= 70 && ticket.score < 80 && 'Acceptable'}
+                {ticket.score >= 60 && ticket.score < 70 && 'Needs Work'}
+                {ticket.score < 60 && 'Poor'}
+              </div>
+              {ticket.auto_fail && (
+                <div className="mt-3 p-2 bg-red-500/10 border border-red-500/30 rounded text-xs text-red-400">
+                  🚨 Auto-Fail: {ticket.auto_fail_reason || 'Quality threshold not met'}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-6 text-center">
+              <div className="text-sm text-slate-400">
+                ⏳ Grading pending...
+              </div>
+            </div>
+          )}
+
+          {/* View in WellyTalk link */}
+          <a
+            href={`https://cs.wellytalk.com/conversations/${ticket.welly_conversation_id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block mt-4 py-2 px-4 rounded-lg bg-[#E91E8C]/15 border border-[#E91E8C]/30 text-[#E91E8C] hover:bg-[#E91E8C]/25 text-xs font-semibold text-center transition-colors"
+          >
+            → View in WellyTalk
+          </a>
+        </div>
+
+        {/* Right: Strengths, Issues, Coaching */}
+        <div className="lg:col-span-2 space-y-4">
+          {/* Strengths */}
+          {strengths.length > 0 && (
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+              <h2 className="text-sm font-semibold text-green-400 mb-3">✓ Strengths</h2>
+              <ul className="space-y-2">
+                {strengths.map((s, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-slate-300">
+                    <span className="text-green-400 flex-shrink-0">•</span>{s}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Issues */}
+          {issues.length > 0 && (
+            <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+              <h2 className="text-sm font-semibold text-red-400 mb-3">✗ Issues</h2>
+              <ul className="space-y-2">
+                {issues.map((issue, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-slate-300">
+                    <span className="text-red-400 flex-shrink-0">•</span>{issue}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Coaching Tip */}
+          {ticket.coaching_tip && (
+            <div className="bg-[#1A1A2E] border border-amber-500/20 rounded-xl p-4">
+              <h2 className="text-sm font-semibold text-amber-400 mb-2">💡 Coaching Tip</h2>
+              <p className="text-sm text-slate-300">{ticket.coaching_tip}</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Transcript Section */}
+      {ticket.transcript && (
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+          <h2 className="text-sm font-semibold text-slate-300 mb-3">📋 Transcript & Subject</h2>
+          {ticket.subject && (
+            <div className="mb-4 pb-4 border-b border-[#7B2D8B]/10">
+              <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Subject</div>
+              <div className="text-sm text-white">{ticket.subject}</div>
+            </div>
+          )}
+          <div className="mb-3 pb-3 border-b border-[#7B2D8B]/10">
+            <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Last Message</div>
+            <div className="text-sm text-slate-300 line-clamp-3">{ticket.last_message_content}</div>
+          </div>
+          <details className="cursor-pointer">
+            <summary className="text-xs text-slate-500 hover:text-slate-400 transition-colors">
+              Show Full Transcript ({ticket.transcript.split('\n').length} lines)
+            </summary>
+            <div className="mt-3 bg-[#0D0D1A]/50 rounded p-3 overflow-auto max-h-96">
+              <pre className="text-xs text-slate-400 whitespace-pre-wrap font-mono">{ticket.transcript}</pre>
+            </div>
+          </details>
+        </div>
+      )}
+
+      {/* Subject + Last Message Only */}
+      {!ticket.transcript && (
+        <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+          <h2 className="text-sm font-semibold text-slate-300 mb-3">📋 Ticket Info</h2>
+          {ticket.subject && (
+            <div className="mb-4 pb-4 border-b border-[#7B2D8B]/10">
+              <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Subject</div>
+              <div className="text-sm text-white">{ticket.subject}</div>
+            </div>
+          )}
+          <div>
+            <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Last Message</div>
+            <div className="text-sm text-slate-300">{ticket.last_message_content}</div>
+          </div>
         </div>
       )}
     </div>

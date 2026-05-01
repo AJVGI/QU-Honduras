@@ -57,54 +57,42 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto py-4 px-3 space-y-6 jd-sidebar-scroll">
-        {/* Overview */}
+      <div className="flex-1 overflow-y-auto py-4 px-3 space-y-4 jd-sidebar-scroll">
+        {/* Dashboard */}
         <div>
-          <NavLink href="/" icon="📊" label="Team Overview" onClick={close} />
+          <NavLink href="/" icon="📊" label="Dashboard" onClick={close} />
+        </div>
+
+        {/* Reports Hub */}
+        <div>
           <NavLink href="/reports/hub" icon="📄" label="Reports Hub" onClick={close} />
         </div>
 
-        {/* Agents */}
-        <div>
-          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">Agents ({AGENTS.length})</div>
+        {/* LIVE section */}
+        <div className="pt-2">
+          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">──── LIVE ────</div>
           <div className="space-y-0.5">
-            {AGENTS.map(a => (
-              <Link key={a.id} href={`/agent/${a.id}`} onClick={close}
-                className="flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-400 hover:bg-[#2D1B4E]/60 hover:text-white text-sm transition-all group border border-transparent hover:border-[#7B2D8B]/30">
-                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${GRADE_DOT[a.grade]}`} />
-                <span className="flex-1 truncate group-hover:text-white">{a.name}</span>
-                <span className="text-xs font-mono" style={{ color: gradeColor(a.grade) }}>{a.avg_score}</span>
-              </Link>
-            ))}
+            <NavLink href="/all-chats" icon="💬" label="Chat History" onClick={close} />
           </div>
         </div>
 
-        {/* Operations */}
-        <div>
-          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">Operations</div>
+        {/* ANALYTICS section */}
+        <div className="pt-2">
+          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">──── ANALYTICS ────</div>
           <div className="space-y-0.5">
-            <NavLink href="/all-chats" icon="💬" label="All Chats" onClick={close} />
-            <NavLink href="/supervisor" icon="🖥️" label="Operations" onClick={close} />
-          </div>
-        </div>
-
-        {/* Reports */}
-        <div>
-          <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">Analytics</div>
-          <div className="space-y-0.5">
-            <NavLink href="/reports/daily" icon="📅" label="Daily Report" onClick={close} />
-            <NavLink href="/reports/weekly" icon="📈" label="Weekly Report" onClick={close} />
-            <NavLink href="/reports/autofails" icon="🚨" label="Auto-Fails" onClick={close} />
+            <NavLink href="/reports/weekly" icon="📈" label="Weekly" onClick={close} />
+            <NavLink href="/reports/daily" icon="📅" label="Daily" onClick={close} />
+            <NavLink href="/reports/autofails" icon="🚩" label="Auto-Flags" onClick={close} />
             {isAdmin && <NavLink href="/reports/export" icon="⬇️" label="Export Data" onClick={close} />}
           </div>
         </div>
 
-        {/* Settings — admin only */}
+        {/* SYSTEM section — admin only */}
         {isAdmin && (
-          <div>
-            <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">System</div>
+          <div className="pt-2">
+            <div className="px-3 mb-2 text-xs font-semibold text-slate-500 uppercase tracking-wider">──── SYSTEM ────</div>
             <div className="space-y-0.5">
-              <NavLink href="/settings" icon="⚙️" label="Settings & Info" onClick={close} />
+              <NavLink href="/settings" icon="⚙️" label="Settings" onClick={close} />
             </div>
           </div>
         )}

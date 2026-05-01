@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const PER_PAGE = 50;
 
@@ -40,6 +41,7 @@ export default function AllChatsPage() {
   const [page, setPage] = useState(0);
   const [sortField, setSortField] = useState<'date' | 'frt' | 'closed'>('date');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
+  const router = useRouter();
 
   // Fetch weeks on mount
   useEffect(() => {
@@ -277,7 +279,11 @@ export default function AllChatsPage() {
                 </thead>
                 <tbody className="divide-y divide-slate-700/30">
                   {pageTickets.map((ticket, i) => (
-                    <tr key={i} className="hover:bg-[#2D1B4E]/15 transition-colors">
+                    <tr
+                      key={i}
+                      className="hover:bg-[#2D1B4E]/15 transition-colors cursor-pointer"
+                      onClick={() => router.push(`/chat/${ticket.id}`)}
+                    >
                       <td className="py-3 px-4 text-sm text-slate-300">{formatDateTime(ticket.created_at)}</td>
                       <td className="py-3 px-4 text-sm text-[#E91E8C]">{ticket.agent_name}</td>
                       <td className="py-3 px-4 text-sm text-slate-300 truncate max-w-xs">{ticket.subject || '—'}</td>
@@ -294,7 +300,11 @@ export default function AllChatsPage() {
             {/* Mobile view */}
             <div className="block md:hidden divide-y divide-slate-700/30">
               {pageTickets.map((ticket, i) => (
-                <div key={i} className="p-4 space-y-2">
+                <div
+                  key={i}
+                  className="p-4 space-y-2 cursor-pointer hover:bg-[#2D1B4E]/15 transition-colors"
+                  onClick={() => router.push(`/chat/${ticket.id}`)}
+                >
                   <div className="flex items-center justify-between">
                     <span className="font-mono font-bold text-sm text-[#E91E8C]">{ticket.agent_name}</span>
                     <span className="text-sm">{ticket.is_closed ? '✅' : '⏳'} {ticket.has_recall ? '🔔' : ''}</span>
