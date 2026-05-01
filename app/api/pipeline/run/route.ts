@@ -866,11 +866,18 @@ export async function POST(req: Request) {
           try {
             const gradePrompt = `You are a QA analyst for JackpotDaily customer support. Grade this conversation.
 
+⚠️ CRITICAL RULES — READ BEFORE GRADING:
+1. Agents use COMPANY-ASSIGNED CHAT ALIASES (e.g. real name "Ana Erazo" uses alias "Brittany"). This is APPROVED COMPANY POLICY. NEVER flag alias usage as an issue. NEVER deduct points for it.
+2. Only grade based on: accuracy of information given, response time, issue resolution, tone, and process compliance.
+3. If the conversation is short or the transcript is limited, grade based on what IS available — do not auto-fail due to limited data.
+4. A limited transcript with correct info and good FRT should score 70+.
+
+APPROVED AGENT ALIASES (real name → alias): ${AGENT_MAPPING.agents.map((a: {real_name: string; chat_alias: string | null}) => `${a.real_name} → ${a.chat_alias || 'no alias'}`).join(', ')}
+
+PLATFORM FACTS: Redemption max $2,500/day, referral threshold $30 (NOT $70), daily login bonus FREE (no purchase), KYC minutes to 1hr, debit 1-3 biz days, ACH up to 10 biz days, Skrill 1-3 biz days, restricted states: CA CT DE HI ID IL IN KY LA MD MI MT NJ NV NY TN UT WA WV.
+
 CONVERSATION:
 ${transcript}
-
-AGENT MAPPING: ${JSON.stringify(AGENT_MAPPING.agents.slice(0, 5))}
-PLATFORM FACTS (key): Redemption max $2500/day, referral threshold $30, daily login bonus FREE, KYC 1hr, debit 1-3 biz days, ACH up to 10 biz days.
 
 Respond with JSON only:
 {
@@ -878,13 +885,13 @@ Respond with JSON only:
   "grade": "A|B|C|D|F",
   "auto_fail": false,
   "auto_fail_reason": null,
-  "strengths": ["..."],
-  "issues": ["..."],
-  "coaching_tip": "..."
+  "strengths": ["specific observed strength"],
+  "issues": ["specific observed issue if any"],
+  "coaching_tip": "one actionable coaching tip"
 }
 
-Score criteria: 90-100=A (excellent), 80-89=B (good), 70-79=C (acceptable), 60-69=D (needs improvement), <60=F (poor)
-Auto-fail if: factual error, PII mishandling, harm response without care, or zero response to client.`;
+Score criteria: 90-100=A, 80-89=B, 70-79=C, 60-69=D, <60=F
+Auto-fail ONLY if: wrong platform facts, PII mishandling, zero response, or harm-related closure with wrong tone.`;
 
             const result = await callLLM('You are a QA scoring assistant. Return only valid JSON.', gradePrompt);
             const grade = safeParseLLM(result) as {score?: number; grade?: string; auto_fail?: boolean; auto_fail_reason?: string; strengths?: string[]; issues?: string[]; coaching_tip?: string};
