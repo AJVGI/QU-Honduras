@@ -45,9 +45,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, [router]);
 
   const Sidebar = () => (
-    <aside className="flex flex-col h-full w-64 bg-gradient-to-b from-[#0D0D1A] via-[#110d20] to-[#0D0D1A] border-r border-[#E91E8C]/20">
+    <aside className="flex flex-col h-full w-64 border-r" style={{background:'var(--surface-1)', borderColor:'var(--border-subtle)'}}>
       {/* Brand */}
-      <div className="px-5 py-5 border-b border-[#E91E8C]/20 flex items-center gap-3">
+      <div className="px-5 py-5 flex items-center gap-3" style={{borderBottom:'1px solid var(--border-subtle)'}}>
         <div className="w-9 h-9 rounded-xl jd-gradient flex items-center justify-center text-white font-black text-sm font-display shadow-lg" style={{boxShadow:'0 0 16px rgba(233,30,140,0.4)'}}>JD</div>
         <div>
           <div className="font-black text-white text-sm font-display tracking-wide">JackpotDaily</div>
@@ -133,7 +133,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <title>JackpotDaily QA Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="min-h-screen text-slate-100" style={{backgroundColor:'#0D0D1A'}}>
+      <body className="min-h-screen text-slate-100" style={{backgroundColor:'var(--surface-0)'}}>
         <DevToolsGuard />
         <div className="flex min-h-screen">
           {/* Mobile overlay */}
@@ -152,7 +152,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Main */}
           <div className="flex-1 flex flex-col min-w-0 lg:ml-64">
             {/* Mobile header */}
-            <header className="lg:hidden sticky top-0 z-10 flex items-center gap-3 px-4 py-3 border-b border-[#E91E8C]/20 backdrop-blur" style={{backgroundColor:'rgba(13,13,26,0.95)'}}>
+            <header className="lg:hidden sticky top-0 z-10 flex items-center gap-3 px-4 py-3 backdrop-blur" style={{borderBottom:'1px solid var(--border-subtle)', backgroundColor:'rgba(15,17,23,0.95)'}}>
               <button onClick={() => setOpen(true)} className="p-2 rounded-lg hover:bg-slate-800 text-slate-400">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
