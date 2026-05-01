@@ -292,7 +292,7 @@ export default function DashboardPage() {
                       <tr key={agent.id} className="hover:bg-[#2D1B4E]/20 transition-colors">
                         <td className="py-3 px-4">
                           {qa ? (
-                            <Link href={`/agent/${qa.id}`} className="text-sm font-semibold text-white hover:text-[#E91E8C]">
+                            <Link href={`/all-chats?agent=${encodeURIComponent(qa.name)}`} className="text-sm font-semibold text-white hover:text-[#E91E8C]">
                               {agent.name}
                             </Link>
                           ) : (
@@ -364,7 +364,7 @@ export default function DashboardPage() {
             <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Top Performers</h2>
             <div className="space-y-2">
               {topAgents.map((agent, i) => (
-                <Link key={agent.id} href={`/agent/${agent.id}`}
+                <Link key={agent.id} href={`/all-chats?agent=${encodeURIComponent(agent.name)}`}
                   className="flex items-center justify-between p-2 rounded-lg hover:bg-[#2D1B4E]/20 transition-colors group">
                   <span className="text-xs font-bold text-slate-400 group-hover:text-white">#{i + 1} {agent.name.split(' ')[0]}</span>
                   <div className="flex items-center gap-2">
@@ -381,7 +381,7 @@ export default function DashboardPage() {
             <h2 className="text-xs font-semibold text-red-400 uppercase tracking-wider mb-3">Needing Attention</h2>
             <div className="space-y-2">
               {bottomAgents.map((agent, i) => (
-                <Link key={agent.id} href={`/agent/${agent.id}`}
+                <Link key={agent.id} href={`/all-chats?agent=${encodeURIComponent(agent.name)}`}
                   className="flex items-center justify-between p-2 rounded-lg hover:bg-red-500/20 transition-colors group">
                   <span className="text-xs font-bold text-red-300 group-hover:text-red-100">#{i + 1} {agent.name.split(' ')[0]}</span>
                   <div className="flex items-center gap-2">

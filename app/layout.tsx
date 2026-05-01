@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div>
           <div className="font-black text-white text-sm font-display tracking-wide">JackpotDaily</div>
           <div className="text-xs text-[#7B2D8B] flex items-center gap-1">
-            QA Dashboard {IS_REAL_DATA && <span className="w-1.5 h-1.5 rounded-full bg-[#00C882] inline-block" title="Live data" />}
+            QA Dashboard <span className="w-1.5 h-1.5 rounded-full bg-[#00C882] inline-block" title="Live data" />
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       {/* Footer */}
       <div className="px-4 py-3 border-t border-[#E91E8C]/20 space-y-2">
         <div className="text-xs flex items-center gap-1" style={{color:'#7B2D8B'}}>
-          {isAdmin ? '🔑 Admin' : '👤 Viewer'} · {IS_REAL_DATA ? <><span className="w-1.5 h-1.5 rounded-full bg-[#00C882] inline-block"/> Live</> : '🟡 Mock'}
+          {isAdmin ? '🔑 Admin' : '👤 Viewer'} · {<span className="text-green-400">● Live</span>}
         </div>
         <button
           onClick={handleLogout}
