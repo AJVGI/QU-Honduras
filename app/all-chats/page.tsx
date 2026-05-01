@@ -7,6 +7,7 @@ const PER_PAGE = 50;
 
 interface Ticket {
   id: string;
+  welly_conversation_id: string | null;
   agent_name: string;
   agent_alias: string;
   subject: string;
@@ -281,8 +282,12 @@ export default function AllChatsPage() {
                   {pageTickets.map((ticket, i) => (
                     <tr
                       key={i}
-                      className="hover:bg-[#2D1B4E]/15 transition-colors cursor-pointer"
-                      onClick={() => router.push(`/chat/${ticket.id}`)}
+                      className={`transition-colors ${
+                        ticket.welly_conversation_id
+                          ? 'hover:bg-[#2D1B4E]/15 cursor-pointer'
+                          : 'cursor-default opacity-60'
+                      }`}
+                      onClick={() => ticket.welly_conversation_id && router.push(`/chat/${ticket.welly_conversation_id}`)}
                     >
                       <td className="py-3 px-4 text-sm text-slate-300">{formatDateTime(ticket.created_at)}</td>
                       <td className="py-3 px-4 text-sm text-[#E91E8C]">{ticket.agent_name}</td>
@@ -290,7 +295,12 @@ export default function AllChatsPage() {
                       <td className="py-3 px-4 text-sm text-slate-400">{ticket.category}</td>
                       <td className="py-3 px-4 text-sm text-slate-300">{formatFRT(ticket.frt_seconds)}</td>
                       <td className="py-3 px-4 text-sm">{ticket.is_closed ? '✅' : '⏳'}</td>
-                      <td className="py-3 px-4 text-sm">{ticket.has_recall ? '🔔' : ''}</td>
+                      <td className="py-3 px-4 text-sm flex items-center gap-2">
+                        {ticket.has_recall ? '🔔' : ''}
+                        {!ticket.welly_conversation_id && (
+                          <span className="px-2 py-1 rounded-full bg-slate-700/50 text-slate-400 text-xs font-medium">No transcript</span>
+                        )}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -302,13 +312,20 @@ export default function AllChatsPage() {
               {pageTickets.map((ticket, i) => (
                 <div
                   key={i}
-                  className="p-4 space-y-2 cursor-pointer hover:bg-[#2D1B4E]/15 transition-colors"
-                  onClick={() => router.push(`/chat/${ticket.id}`)}
+                  className={`p-4 space-y-2 transition-colors ${
+                    ticket.welly_conversation_id
+                      ? 'cursor-pointer hover:bg-[#2D1B4E]/15'
+                      : 'cursor-default opacity-60'
+                  }`}
+                  onClick={() => ticket.welly_conversation_id && router.push(`/chat/${ticket.welly_conversation_id}`)}
                 >
                   <div className="flex items-center justify-between">
                     <span className="font-mono font-bold text-sm text-[#E91E8C]">{ticket.agent_name}</span>
                     <span className="text-sm">{ticket.is_closed ? '✅' : '⏳'} {ticket.has_recall ? '🔔' : ''}</span>
                   </div>
+                  {!ticket.welly_conversation_id && (
+                    <div className="text-xs px-2 py-1 inline-block rounded-full bg-slate-700/50 text-slate-400">No transcript</div>
+                  )}
                   <div className="text-xs text-slate-400">{formatDateTime(ticket.created_at)}</div>
                   <div className="text-sm text-slate-300">{ticket.subject || '—'}</div>
                   <div className="flex items-center gap-3 text-xs text-slate-400">

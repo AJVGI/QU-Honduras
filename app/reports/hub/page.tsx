@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
 
 interface Report {
   label: string;
@@ -84,7 +83,7 @@ export default function ReportsHub() {
   }
 
   return (
-    <div className="min-h-screen bg-[#1A1A2E] text-white p-6">
+    <div className="min-h-screen text-white">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
@@ -104,13 +103,13 @@ export default function ReportsHub() {
             <p className="text-gray-400 mb-6">No runs yet</p>
           )}
 
-          <Button
+          <button
             onClick={runPipeline}
             disabled={running}
-            className="bg-[#E91E8C] hover:bg-[#E91E8C]/80 text-white font-semibold"
+            className="px-4 py-2 rounded-lg bg-[#E91E8C] hover:bg-[#E91E8C]/80 disabled:bg-gray-600 text-white font-semibold transition-colors"
           >
             {running ? 'Running...' : 'Run Pipeline Now'}
-          </Button>
+          </button>
         </div>
 
         {/* Reports Grid */}
@@ -131,27 +130,24 @@ export default function ReportsHub() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  <Button
+                  <button
                     onClick={() => downloadReport(report.files.qa_report, `qa-report-${report.label}.docx`)}
-                    variant="outline"
-                    className="border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white"
+                    className="px-4 py-2 border border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white rounded-lg transition-colors"
                   >
                     📊 QA Report
-                  </Button>
-                  <Button
+                  </button>
+                  <button
                     onClick={() => downloadReport(report.files.inquiry_report, `inquiry-report-${report.label}.docx`)}
-                    variant="outline"
-                    className="border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white"
+                    className="px-4 py-2 border border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white rounded-lg transition-colors"
                   >
                     💬 Inquiry Report
-                  </Button>
-                  <Button
+                  </button>
+                  <button
                     onClick={() => downloadReport(report.files.agent_report, `agent-report-${report.label}.docx`)}
-                    variant="outline"
-                    className="border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white"
+                    className="px-4 py-2 border border-[#7B2D8B]/50 hover:bg-[#7B2D8B]/10 text-white rounded-lg transition-colors"
                   >
                     👤 Agent Report
-                  </Button>
+                  </button>
                 </div>
               </div>
             ))}

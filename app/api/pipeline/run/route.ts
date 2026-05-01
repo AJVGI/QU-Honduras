@@ -11,7 +11,7 @@ export const dynamic = 'force-dynamic';
 
 import { NextRequest, NextResponse } from 'next/server';
 import { put } from '@vercel/blob';
-import { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, AlignmentType, WidthType } from 'docx';
+import { Document, Packer, Paragraph, TextRun } from 'docx';
 
 import { fetchAllChatRecordsForPeriod, fetchConversationDetail } from '../wellytalk-client';
 import {
@@ -28,22 +28,6 @@ import {
 import { Ticket, PipelineReport, ReportIndex, WellyChat } from '../types';
 import { SYSTEM_PROMPT, getAgentDisplayName } from '../reference-data';
 
-function getMondayUTC(date: Date): number {
-  const day = date.getUTCDay();
-  const diff = date.getUTCDate() - day + (day === 0 ? -6 : 1); // adjust when day is Sunday
-  const monday = new Date(date.setUTCDate(diff));
-  monday.setUTCHours(0, 0, 0, 0);
-  return Math.floor(monday.getTime() / 1000);
-}
-
-function getSundayUTC(date: Date): number {
-  const day = date.getUTCDay();
-  const diff = date.getUTCDate() - day + (day === 0 ? 0 : 7);
-  const sunday = new Date(date.setUTCDate(diff));
-  sunday.setUTCHours(23, 59, 59, 999);
-  return Math.floor(sunday.getTime() / 1000);
-}
-
 function getPeriodLabel(startDate: Date, endDate: Date): string {
   const fmt = (d: Date) => {
     const month = String(d.getUTCMonth() + 1).padStart(2, '0');
@@ -54,28 +38,39 @@ function getPeriodLabel(startDate: Date, endDate: Date): string {
 }
 
 function createSimpleDocx(title: string, content: string): Promise<Buffer> {
+  const lines = content.split('\n');
+  const children: Paragraph[] = [
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: title,
+          bold: true,
+          size: 56,
+        }),
+      ],
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: `Generated: ${new Date().toISOString()}`,
+          italics: true,
+        }),
+      ],
+      spacing: { after: 400 },
+    }),
+    ...lines.map(
+      line =>
+        new Paragraph({
+          children: [new TextRun(line || ' ')],
+          spacing: { after: 100 },
+        })
+    ),
+  ];
+
   const doc = new Document({
     sections: [
       {
-        children: [
-          new Paragraph({
-            text: title,
-            heading: 'Heading1',
-            bold: true,
-            fontSize: 28,
-          }),
-          new Paragraph({
-            text: `Generated: ${new Date().toISOString()}`,
-            italics: true,
-            spacing: { after: 400 },
-          }),
-          ...content.split('\n').map(line =>
-            new Paragraph({
-              text: line || ' ',
-              spacing: { after: 100 },
-            })
-          ),
-        ],
+        children,
       },
     ],
   });

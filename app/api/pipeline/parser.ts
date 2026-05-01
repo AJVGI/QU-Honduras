@@ -6,7 +6,7 @@ import { Ticket, AgentStats, TeamAggregates, InquiryCategory } from './types';
 
 const SKIP_AGENTS = new Set(['Bot', '-2147483648', '', 'xtractadmin01']);
 
-const INQUIRY_CATEGORIES = [
+const INQUIRY_CATEGORIES: Array<[string, string[]]> = [
   ['Verification / KYC', ['verif', 'kyc', 'identity', 'not verified', 'verify my']],
   ['Redemption / Withdrawal', ['redeem', 'redemption', 'withdraw', 'cash out', 'payout', 'cant redeem']],
   ['Welcome / Sign-up Bonus', ['welcome bonus', 'sign up bonus', 'signup bonus', 'sign in bonus']],
@@ -17,7 +17,7 @@ const INQUIRY_CATEGORIES = [
   ['Referral', ['referral', 'refer', 'referral code']],
   ['Technical / Platform', ['not working', 'error', 'bug', 'glitch', 'cant load', 'frozen', 'crash']],
   ['VIP / Loyalty', ['vip', 'loyalty', 'tier', 'level up']],
-] as const;
+];
 
 export function classifyTicket(content: string): {
   is_closed_by_agent: boolean;
