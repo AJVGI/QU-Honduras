@@ -129,24 +129,55 @@ body {
 @keyframes live-pulse { 0%,100% { opacity:1; } 50% { opacity:0.45; } }
 .glow-live { animation: live-pulse 2s ease-in-out infinite; }
 
-/* ─── Fluid responsive layout helpers ──────────────────────────── */
-
-/* Fluid sidebar — collapses to 0 on mobile, fixed width on desktop */
+/* ─── Sidebar ──────────────────────────────────────────────────── */
 .jd-sidebar {
-  width: clamp(220px, 18vw, 280px);
+  width: 240px;
   flex-shrink: 0;
 }
 
-/* Main content max-width so ultra-wides don't stretch to absurdity */
-.jd-main-content {
-  max-width: clamp(900px, 95vw, 1600px);
-  margin-inline: auto;
-  width: 100%;
+/* ─── Responsive grid layouts ──────────────────────────────────── */
+
+/* KPI strip: 4 cols → 2 cols → 1 col */
+.kpi-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 900px)  { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px)  { .kpi-grid { grid-template-columns: 1fr; } }
+
+/* Body: Left | Mid | Right */
+.body-grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .body-grid {
+    grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.4fr) minmax(0, 1fr);
+    align-items: start;
+  }
+  .body-left  { grid-column: 1; }
+  .body-mid   { grid-column: 2; }
+  .body-right { grid-column: 3; }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .body-grid  { grid-template-columns: 1fr 1fr; }
+  .body-left  { grid-column: 1 / -1; }
+  .body-mid   { grid-column: 1; }
+  .body-right { grid-column: 2; }
 }
 
-/* Fluid gap that scales with viewport */
-.jd-gap { gap: clamp(12px, 1.5vw, 24px); }
-.jd-pad { padding: clamp(16px, 2vw, 32px); }
+/* Bottom: Trend | Categories */
+.bottom-grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .bottom-grid {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  }
+  .bottom-left  { grid-column: 1; }
+  .bottom-right { grid-column: 2; }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .bottom-grid  { grid-template-columns: 1fr 1fr; }
+}
 
 /* ─── Utility overrides ─────────────────────────────────────────── */
 .font-display { font-family: 'Montserrat', sans-serif; }
