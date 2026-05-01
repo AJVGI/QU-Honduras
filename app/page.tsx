@@ -10,345 +10,326 @@ import { Grade } from '@/lib/types';
 
 const REFRESH_INTERVAL = 30;
 
+/* ── Types ──────────────────────────────────────────────────────── */
 interface LiveAgentRow {
   id: string; name: string; status: 'active' | 'idle' | 'offline';
   statusLabel: string; chatsToday: number; openChats: number;
   lastSeenMs: number; lastSeenAgo: string;
 }
 interface LiveStatus {
-  ok: boolean;
-  agents: LiveAgentRow[];
-  summary: { chatsToday: number; activeAgents: number; idleAgents: number; offlineAgents: number };
+  ok: boolean; agents: LiveAgentRow[];
+  summary: { chatsToday:number; activeAgents:number; idleAgents:number; offlineAgents:number };
 }
 interface QAAgent {
-  id: string; name: string; avg_score: number; grade: Grade;
-  frt: number | null; closure_rate: number; tickets: number;
+  id:string; name:string; avg_score:number; grade:Grade;
+  frt:number|null; closure_rate:number; tickets:number;
 }
 interface TicketAlert {
-  id: string; auto_fail: boolean; has_recall: boolean;
-  frt_seconds: number | null; is_closed: boolean; category: string;
+  id:string; auto_fail:boolean; has_recall:boolean;
+  frt_seconds:number|null; is_closed:boolean; category:string;
 }
 
-/* ── Reusable stat card ─────────────────────────────── */
-function StatCard({ label, value, sub, icon, accent, glow }: {
-  label: string; value: string | number; sub?: string;
-  icon: string; accent: string; glow?: string;
-}) {
-  return (
-    <div className={`jd-card flex items-center gap-4 p-5 ${glow ?? ''}`}>
-      <div className="w-11 h-11 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
-        style={{ background: `${accent}18`, border: `1px solid ${accent}30` }}>
-        {icon}
-      </div>
-      <div className="min-w-0">
-        <div className="text-xs font-semibold uppercase tracking-wider mb-0.5"
-          style={{ color: 'var(--text-muted)' }}>{label}</div>
-        <div className="text-2xl font-black leading-none" style={{ color: accent }}>{value}</div>
-        {sub && <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{sub}</div>}
-      </div>
-    </div>
-  );
-}
-
-/* ── Section header ─────────────────────────────────── */
-function SectionHeader({ title, sub }: { title: string; sub?: string }) {
-  return (
-    <div className="px-5 py-4 border-b" style={{ borderColor: 'var(--border-subtle)' }}>
-      <div className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>{title}</div>
-      {sub && <div className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{sub}</div>}
-    </div>
-  );
-}
-
-/* ── Alert row ──────────────────────────────────────── */
-function AlertRow({ icon, label, value, accent }: {
-  icon: string; label: string; value: number; accent: string;
-}) {
-  return (
-    <div className="flex items-center justify-between px-4 py-3 rounded-lg"
-      style={{ background: `${accent}0f`, border: `1px solid ${accent}22` }}>
-      <span className="text-sm font-medium" style={{ color: `${accent}cc` }}>{icon} {label}</span>
-      <span className="text-lg font-black" style={{ color: accent }}>{value}</span>
-    </div>
-  );
-}
-
-const STATUS_PILL: Record<string, string> = {
-  active: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25',
-  idle:   'bg-amber-500/15   text-amber-400   border-amber-500/25',
-  offline:'bg-slate-500/15   text-slate-400   border-slate-500/25',
+/* ── Brand colors (match guidelines exactly) ────────────────────── */
+const C = {
+  pink:   '#E91E8C',
+  rose:   '#C2185B',
+  gold:   '#FFD600',
+  purple: '#2D1B4E',
+  promo:  '#7B2D8B',
+  green:  '#00C882',
+  red:    '#FF4444',
+  navy:   '#0D0D1A',
+  mid:    '#1A1A2E',
+  white:  '#FFFFFF',
 };
 
+const GRADE_COLOR: Record<Grade,string> = {
+  A: C.green, B: C.pink, C: C.gold, D:'#f97316', F: C.red, 'N/A':'#64748b',
+};
+
+/* ── Sub-components ─────────────────────────────────────────────── */
+
+function KpiCard({ label, value, sub, icon, accent, glow }: {
+  label:string; value:string|number; sub?:string; icon:string; accent:string; glow:string;
+}) {
+  return (
+    <div className={`jd-card ${glow} flex items-center gap-4`}
+      style={{ padding:'clamp(14px,1.8vw,24px)' }}>
+      <div className="rounded-xl flex items-center justify-center flex-shrink-0"
+        style={{
+          width:'clamp(40px,4vw,52px)', height:'clamp(40px,4vw,52px)',
+          fontSize:'clamp(18px,2vw,26px)',
+          background:`${accent}18`, border:`1px solid ${accent}30`,
+        }}>
+        {icon}
+      </div>
+      <div className="min-w-0 flex-1">
+        <div style={{ color:'var(--text-muted)', fontSize:'var(--text-xs)', fontWeight:600, textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:2 }}>
+          {label}
+        </div>
+        <div style={{ color: accent, fontSize:'var(--text-2xl)', fontWeight:900, lineHeight:1 }}>
+          {value}
+        </div>
+        {sub && <div style={{ color:'var(--text-muted)', fontSize:'var(--text-xs)', marginTop:3 }}>{sub}</div>}
+      </div>
+    </div>
+  );
+}
+
+function CardHeader({ title, sub }: { title:string; sub?:string }) {
+  return (
+    <div style={{ padding:'clamp(12px,1.4vw,20px) clamp(16px,1.8vw,24px)', borderBottom:'1px solid var(--border-default)' }}>
+      <div style={{ color:'var(--text-primary)', fontSize:'var(--text-sm)', fontWeight:600 }}>{title}</div>
+      {sub && <div style={{ color:'var(--text-muted)', fontSize:'var(--text-xs)', marginTop:2 }}>{sub}</div>}
+    </div>
+  );
+}
+
+function AlertRow({ icon, label, value, accent }: { icon:string; label:string; value:number; accent:string }) {
+  return (
+    <div className="flex items-center justify-between rounded-lg"
+      style={{ padding:'clamp(10px,1.2vw,16px) clamp(12px,1.4vw,18px)', background:`${accent}10`, border:`1px solid ${accent}22` }}>
+      <span style={{ color:`${accent}cc`, fontSize:'var(--text-sm)', fontWeight:500 }}>{icon} {label}</span>
+      <span style={{ color: accent, fontSize:'var(--text-xl)', fontWeight:900 }}>{value}</span>
+    </div>
+  );
+}
+
+const STATUS_PILL: Record<string,{bg:string;color:string;border:string}> = {
+  active:  { bg:'rgba(0,200,130,0.12)', color:'#00C882', border:'rgba(0,200,130,0.28)' },
+  idle:    { bg:'rgba(255,214,0,0.12)', color:'#FFD600', border:'rgba(255,214,0,0.28)' },
+  offline: { bg:'rgba(100,116,139,0.12)', color:'#94a3b8', border:'rgba(100,116,139,0.22)' },
+};
+
+/* ── Page ───────────────────────────────────────────────────────── */
 export default function DashboardPage() {
-  const [liveData, setLiveData]   = useState<LiveStatus | null>(null);
-  const [qaAgents, setQaAgents]   = useState<QAAgent[]>([]);
-  const [tickets, setTickets]     = useState<TicketAlert[]>([]);
-  const [countdown, setCountdown] = useState(REFRESH_INTERVAL);
-  const [loading, setLoading]     = useState(true);
+  const [liveData,   setLiveData]   = useState<LiveStatus|null>(null);
+  const [qaAgents,   setQaAgents]   = useState<QAAgent[]>([]);
+  const [tickets,    setTickets]    = useState<TicketAlert[]>([]);
+  const [countdown,  setCountdown]  = useState(REFRESH_INTERVAL);
+  const [loading,    setLoading]    = useState(true);
 
   const fetchLive = useCallback(async () => {
-    try {
-      const r = await fetch('/api/live-status');
-      const j: LiveStatus = await r.json();
-      if (j.ok) setLiveData(j);
-    } catch {}
-  }, []);
+    try { const r=await fetch('/api/live-status'); const j=await r.json(); if(j.ok) setLiveData(j); } catch {}
+  },[]);
 
-  const fetchQAAgents = useCallback(async () => {
+  const fetchQA = useCallback(async () => {
     try {
-      const r = await fetch('/api/data/agents');
-      const j = await r.json();
-      const mapped: QAAgent[] = (j.agents || []).map((a: Record<string, unknown>) => {
-        const cp = Number(a.closure_pct) || 0;
-        const grade: Grade = cp >= 90 ? 'A' : cp >= 75 ? 'B' : cp >= 60 ? 'C' : cp >= 45 ? 'D' : 'F';
-        return {
-          id: String(a.id || a.agent_name || ''),
-          name: String(a.agent_name || ''),
-          avg_score: cp, grade, frt: a.avg_frt_seconds != null ? Number(a.avg_frt_seconds) : null,
-          closure_rate: cp, tickets: Number(a.tickets) || 0,
-        };
-      });
-      setQaAgents(mapped);
+      const r=await fetch('/api/data/agents'); const j=await r.json();
+      setQaAgents((j.agents||[]).map((a:Record<string,unknown>)=>{
+        const cp=Number(a.closure_pct)||0;
+        const grade:Grade=cp>=90?'A':cp>=75?'B':cp>=60?'C':cp>=45?'D':'F';
+        return { id:String(a.id||a.agent_name||''), name:String(a.agent_name||''),
+          avg_score:cp, grade, frt:a.avg_frt_seconds!=null?Number(a.avg_frt_seconds):null,
+          closure_rate:cp, tickets:Number(a.tickets)||0 };
+      }));
     } catch {}
-  }, []);
+  },[]);
 
   const fetchTickets = useCallback(async () => {
     try {
-      const r = await fetch('/api/data/tickets?limit=2000');
-      const j = await r.json();
-      const mapped: TicketAlert[] = (j.tickets || []).map((t: Record<string, unknown>) => ({
-        id: String(t.id || ''), auto_fail: Boolean(t.auto_fail), has_recall: Boolean(t.has_recall),
-        frt_seconds: t.frt_seconds != null ? Number(t.frt_seconds) : null,
-        is_closed: Boolean(t.is_closed), category: String(t.category || 'Other'),
-      }));
-      setTickets(mapped);
+      const r=await fetch('/api/data/tickets?limit=2000'); const j=await r.json();
+      setTickets((j.tickets||[]).map((t:Record<string,unknown>)=>({
+        id:String(t.id||''), auto_fail:Boolean(t.auto_fail), has_recall:Boolean(t.has_recall),
+        frt_seconds:t.frt_seconds!=null?Number(t.frt_seconds):null,
+        is_closed:Boolean(t.is_closed), category:String(t.category||'Other'),
+      })));
     } catch {}
-  }, []);
+  },[]);
 
   useEffect(() => {
-    Promise.all([fetchLive(), fetchQAAgents(), fetchTickets()]).then(() => setLoading(false));
-  }, [fetchLive, fetchQAAgents, fetchTickets]);
+    Promise.all([fetchLive(),fetchQA(),fetchTickets()]).then(()=>setLoading(false));
+  },[fetchLive,fetchQA,fetchTickets]);
 
-  useEffect(() => {
-    const t = setInterval(fetchLive, REFRESH_INTERVAL * 1000);
-    return () => clearInterval(t);
-  }, [fetchLive]);
+  useEffect(()=>{ const t=setInterval(fetchLive,REFRESH_INTERVAL*1000); return()=>clearInterval(t); },[fetchLive]);
+  useEffect(()=>{ const t=setInterval(()=>setCountdown(c=>c<=1?REFRESH_INTERVAL:c-1),1000); return()=>clearInterval(t); },[]);
 
-  useEffect(() => {
-    const t = setInterval(() => setCountdown(c => c <= 1 ? REFRESH_INTERVAL : c - 1), 1000);
-    return () => clearInterval(t);
-  }, []);
+  const topAgents    = useMemo(()=>[...qaAgents].sort((a,b)=>b.closure_rate-a.closure_rate).slice(0,5),[qaAgents]);
+  const bottomAgents = useMemo(()=>{
+    const ord:Record<string,number>={F:0,D:1,C:2,B:3,A:4};
+    return [...qaAgents].filter(a=>a.tickets>=5)
+      .sort((a,b)=>(ord[a.grade]??4)-(ord[b.grade]??4)||a.closure_rate-b.closure_rate).slice(0,3);
+  },[qaAgents]);
 
-  const topAgents = useMemo(() =>
-    [...qaAgents].sort((a, b) => b.closure_rate - a.closure_rate).slice(0, 5), [qaAgents]);
-
-  const bottomAgents = useMemo(() => {
-    const order: Record<string, number> = { F:0, D:1, C:2, B:3, A:4 };
-    const pool = qaAgents.filter(a => a.tickets >= 5);
-    return [...pool].sort((a, b) => (order[a.grade]??4) - (order[b.grade]??4) || a.closure_rate - b.closure_rate).slice(0, 3);
-  }, [qaAgents]);
-
-  const teamKpis = useMemo(() => {
-    if (!qaAgents.length) return { avgFrt: 0, avgClosure: 0 };
+  const teamKpis = useMemo(()=>{
+    if(!qaAgents.length) return {avgFrt:0,avgClosure:0};
     return {
-      avgFrt: Math.round(qaAgents.reduce((s, a) => s + (a.frt || 0), 0) / qaAgents.length),
-      avgClosure: Math.round(qaAgents.reduce((s, a) => s + a.closure_rate, 0) / qaAgents.length),
+      avgFrt:   Math.round(qaAgents.reduce((s,a)=>s+(a.frt||0),0)/qaAgents.length),
+      avgClosure:Math.round(qaAgents.reduce((s,a)=>s+a.closure_rate,0)/qaAgents.length),
     };
-  }, [qaAgents]);
+  },[qaAgents]);
 
-  const gradeDistribution = useMemo(() => {
-    const d: Record<Grade, number> = { A:0, B:0, C:0, D:0, F:0, 'N/A':0 };
-    qaAgents.forEach(a => { if (a.grade in d) d[a.grade]++; });
+  const gradeDist = useMemo(()=>{
+    const d:Record<Grade,number>={A:0,B:0,C:0,D:0,F:0,'N/A':0};
+    qaAgents.forEach(a=>{if(a.grade in d) d[a.grade]++;});
     return d;
-  }, [qaAgents]);
+  },[qaAgents]);
 
-  const alerts = useMemo(() => ({
-    autoFails: tickets.filter(t => t.auto_fail).length,
-    recalls:   tickets.filter(t => t.has_recall).length,
-    slowFrt:   tickets.filter(t => (t.frt_seconds || 0) > 300).length,
-    unresolved:tickets.filter(t => !t.is_closed).length,
-  }), [tickets]);
+  const alerts = useMemo(()=>({
+    autoFails:  tickets.filter(t=>t.auto_fail).length,
+    recalls:    tickets.filter(t=>t.has_recall).length,
+    slowFrt:    tickets.filter(t=>(t.frt_seconds||0)>300).length,
+    unresolved: tickets.filter(t=>!t.is_closed).length,
+  }),[tickets]);
 
-  const categoryBreakdown = useMemo(() => {
-    const counts = new Map<string, number>();
-    tickets.forEach(t => counts.set(t.category, (counts.get(t.category) || 0) + 1));
-    const total = tickets.length;
-    return Array.from(counts.entries())
-      .map(([name, count]) => ({ name, count, pct: total > 0 ? Math.round(count / total * 100) : 0 }))
-      .sort((a, b) => b.count - a.count).slice(0, 7);
-  }, [tickets]);
+  const categories = useMemo(()=>{
+    const m=new Map<string,number>();
+    tickets.forEach(t=>m.set(t.category,(m.get(t.category)||0)+1));
+    const total=tickets.length;
+    return Array.from(m.entries())
+      .map(([name,count])=>({name,count,pct:total>0?Math.round(count/total*100):0}))
+      .sort((a,b)=>b.count-a.count).slice(0,7);
+  },[tickets]);
 
-  const trendData = useMemo(() =>
-    qaAgents.length ? [{ day: 'Current', avg: Math.round(teamKpis.avgClosure) }] : [], [qaAgents, teamKpis]);
+  const trendData = useMemo(()=>
+    qaAgents.length?[{day:'Current',avg:Math.round(teamKpis.avgClosure)}]:[]
+  ,[qaAgents,teamKpis]);
 
-  const matchLiveToQA = (name: string) => {
-    const n = name.toLowerCase().trim();
-    return qaAgents.find(a => a.name.toLowerCase().trim() === n) ||
-      qaAgents.find(a => a.name.toLowerCase().split(' ')[0] === n.split(' ')[0]);
+  const matchQA = (name:string)=>{
+    const n=name.toLowerCase().trim();
+    return qaAgents.find(a=>a.name.toLowerCase().trim()===n)||
+           qaAgents.find(a=>a.name.toLowerCase().split(' ')[0]===n.split(' ')[0]);
   };
 
-  const sortedAgents = [...(liveData?.agents || [])].sort((a, b) => {
-    const o = { active:0, idle:1, offline:2 };
-    return o[a.status] - o[b.status];
+  const sortedAgents=[...(liveData?.agents||[])].sort((a,b)=>{
+    const o={active:0,idle:1,offline:2}; return o[a.status]-o[b.status];
   });
 
-  const GRADE_COLORS: Record<Grade, string> = {
-    A:'#10b981', B:'#14b8a6', C:'#eab308', D:'#f97316', F:'#ef4444', 'N/A':'#64748b',
-  };
-
-  if (loading) return (
-    <div className="flex items-center justify-center min-h-[60vh]">
-      <div className="text-center space-y-2">
-        <div className="w-8 h-8 border-2 border-[#E91E8C] border-t-transparent rounded-full animate-spin mx-auto" />
-        <p className="text-sm" style={{ color:'var(--text-muted)' }}>Loading dashboard…</p>
+  if(loading) return (
+    <div className="flex items-center justify-center" style={{minHeight:'60vh'}}>
+      <div className="text-center" style={{gap:12,display:'flex',flexDirection:'column',alignItems:'center'}}>
+        <div style={{width:32,height:32,border:`2px solid ${C.pink}`,borderTopColor:'transparent',borderRadius:'50%'}} className="animate-spin"/>
+        <p style={{color:'var(--text-muted)',fontSize:'var(--text-sm)'}}>Loading dashboard…</p>
       </div>
     </div>
   );
 
   return (
-    <div className="space-y-6 max-w-[1400px] mx-auto">
+    <div className="jd-main-content" style={{padding:'clamp(16px,2vw,32px)',display:'flex',flexDirection:'column',gap:'clamp(16px,2vw,28px)'}}>
 
-      {/* ── Page header ───────────────────────────────── */}
-      <div className="flex items-center justify-between">
+      {/* ── Page header ──────────────────────────────────────────── */}
+      <div className="flex items-start justify-between flex-wrap" style={{gap:'clamp(8px,1vw,16px)'}}>
         <div>
-          <h1 className="text-2xl font-black tracking-tight" style={{ color:'var(--text-primary)' }}>
+          <h1 className="font-display" style={{color:C.white,fontSize:'var(--text-2xl)',fontWeight:900,letterSpacing:'-0.02em',lineHeight:1.1}}>
             Dashboard
           </h1>
-          <p className="text-sm mt-0.5" style={{ color:'var(--text-muted)' }}>
+          <p style={{color:'var(--text-muted)',fontSize:'var(--text-sm)',marginTop:4}}>
             Honduras Agents · JackpotDaily QA
-            <span className="ml-2 text-emerald-400 glow-live">● LIVE</span>
+            <span className="glow-live" style={{marginLeft:8,color:C.green}}>● LIVE</span>
           </p>
         </div>
-        <div className="text-right">
-          <div className="text-xs" style={{ color:'var(--text-muted)' }}>
-            Refresh in <span className="font-mono" style={{ color:'var(--text-secondary)' }}>{countdown}s</span>
+        <div style={{textAlign:'right'}}>
+          <div style={{color:'var(--text-muted)',fontSize:'var(--text-xs)'}}>
+            Refresh in <span style={{color:'var(--text-secondary)',fontFamily:'monospace'}}>{countdown}s</span>
           </div>
-          <div className="text-xs mt-0.5" style={{ color:'var(--text-muted)' }}>
-            {new Date().toLocaleString('en-US', { timeZone:'America/New_York', month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' })} ET
+          <div style={{color:'var(--text-muted)',fontSize:'var(--text-xs)',marginTop:2}}>
+            {new Date().toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})} ET
           </div>
         </div>
       </div>
 
-      {/* ── KPI strip ─────────────────────────────────── */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <StatCard label="Active Now"  value={liveData?.summary.activeAgents ?? 0} sub="handling chats"    icon="🟢" accent="#00C882" glow="glow-active" />
-        <StatCard label="Idle"        value={liveData?.summary.idleAgents   ?? 0} sub="15m–2h inactive"  icon="🟡" accent="#FFD600" glow="glow-idle"   />
-        <StatCard label="This Week"   value={qaAgents.reduce((s,a)=>s+a.tickets,0).toLocaleString()}     sub="total tickets"   icon="💬" accent="#E91E8C" glow="glow-chats" />
-        <StatCard label="QA Agents"   value={qaAgents.length}                     sub="with data this week" icon="📊" accent="#7B2D8B" glow="glow-qa"     />
+      {/* ── KPI strip ────────────────────────────────────────────── */}
+      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(clamp(160px,20vw,260px),1fr))',gap:'clamp(10px,1.4vw,20px)'}}>
+        <KpiCard label="Active Now"  value={liveData?.summary.activeAgents??0} sub="handling chats"      icon="🟢" accent={C.green} glow="glow-green"/>
+        <KpiCard label="Idle"        value={liveData?.summary.idleAgents??0}   sub="15 – 120 min"        icon="🟡" accent={C.gold}  glow="glow-gold"/>
+        <KpiCard label="This Week"   value={qaAgents.reduce((s,a)=>s+a.tickets,0).toLocaleString()} sub="total tickets" icon="💬" accent={C.pink} glow="glow-pink"/>
+        <KpiCard label="QA Agents"   value={qaAgents.length}                   sub="with data this week" icon="📊" accent={C.promo} glow="glow-promo"/>
       </div>
 
-      {/* ── Three-column body ─────────────────────────── */}
-      {/* Columns: 5 | 4 | 3  (ratio ~38% | 33% | 25%) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      {/* ── Body: Left | Mid | Right ─────────────────────────────── */}
+      {/* Fluid grid: 3 cols on desktop, stacks on mobile */}
+      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,300px),1fr))',gap:'clamp(12px,1.5vw,22px)',alignItems:'start'}}>
 
-        {/* LEFT — Live Agent Status */}
-        <div className="lg:col-span-5">
-          <div className="jd-card glow-panel h-full">
-            <SectionHeader title="Live Agent Status" sub="Real-time from WellyTalk · refreshes every 30s" />
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr style={{ background:'var(--surface-3)' }}>
-                    {['Agent','Status','Last Active','Chats','Open'].map(h => (
-                      <th key={h} className="text-left px-5 py-3 text-xs font-semibold uppercase tracking-wider"
-                        style={{ color:'var(--text-muted)' }}>{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {sortedAgents.map((agent, idx) => {
-                    const qa = matchLiveToQA(agent.name);
-                    return (
-                      <tr key={agent.id}
-                        className="transition-colors"
-                        style={{
-                          borderTop: `1px solid var(--border-subtle)`,
-                          background: idx % 2 === 0 ? 'transparent' : 'rgba(255,255,255,0.015)',
-                        }}
-                        onMouseEnter={e => (e.currentTarget.style.background = 'var(--surface-4)')}
-                        onMouseLeave={e => (e.currentTarget.style.background = idx % 2 === 0 ? 'transparent' : 'rgba(255,255,255,0.015)')}>
-                        <td className="px-5 py-3 font-semibold" style={{ color:'var(--text-primary)' }}>
-                          {qa
-                            ? <Link href={`/all-chats?agent=${encodeURIComponent(qa.name)}`}
-                                className="hover:text-[#E91E8C] transition-colors">{agent.name}</Link>
-                            : agent.name}
-                        </td>
-                        <td className="px-5 py-3">
-                          <span className={`text-xs px-2.5 py-1 rounded-full font-semibold border ${STATUS_PILL[agent.status]}`}>
-                            {agent.statusLabel}
-                          </span>
-                        </td>
-                        <td className="px-5 py-3" style={{ color:'var(--text-secondary)' }}>{agent.lastSeenAgo}</td>
-                        <td className="px-5 py-3 font-bold" style={{ color:'var(--text-primary)' }}>{agent.chatsToday}</td>
-                        <td className="px-5 py-3">
-                          {agent.openChats > 0
-                            ? <span className="font-bold text-emerald-400">{agent.openChats}</span>
-                            : <span style={{ color:'var(--text-muted)' }}>—</span>}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        {/* MIDDLE — QA This Week */}
-        <div className="lg:col-span-4 flex flex-col gap-4">
-
-          {/* Team KPIs */}
-          <div className="jd-card glow-panel">
-            <SectionHeader title="Team KPIs" />
-            <div className="p-5 grid grid-cols-2 gap-4">
-              <div>
-                <div className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color:'var(--text-muted)' }}>Avg Closure</div>
-                <div className="text-3xl font-black" style={{ color:'var(--text-primary)' }}>{teamKpis.avgClosure}<span className="text-lg">%</span></div>
-              </div>
-              <div>
-                <div className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color:'var(--text-muted)' }}>Avg FRT</div>
-                <div className="text-3xl font-black" style={{ color:'var(--text-secondary)' }}>{teamKpis.avgFrt}<span className="text-lg">s</span></div>
-              </div>
-            </div>
-
-            {/* Grade pills */}
-            <div className="px-5 pb-5">
-              <div className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color:'var(--text-muted)' }}>Grade Distribution</div>
-              <div className="flex gap-2 flex-wrap">
-                {(Object.entries(gradeDistribution) as [Grade, number][])
-                  .filter(([, v]) => v > 0)
-                  .map(([grade, count]) => (
-                    <div key={grade}
-                      className="px-3 py-1 rounded-full text-xs font-bold border"
-                      style={{
-                        background: `${GRADE_COLORS[grade]}18`,
-                        borderColor: `${GRADE_COLORS[grade]}35`,
-                        color: GRADE_COLORS[grade],
-                      }}>
-                      {grade}: {count}
-                    </div>
+        {/* ── LEFT: Live Agent Status ───── flex-grow dominates */}
+        <div className="jd-card glow-panel" style={{gridColumn:'span 2 / span 2',minWidth:0}}>
+          <CardHeader title="Live Agent Status" sub="Real-time from WellyTalk · refreshes every 30s"/>
+          <div style={{overflowX:'auto'}}>
+            <table style={{width:'100%',borderCollapse:'collapse',fontSize:'var(--text-sm)'}}>
+              <thead>
+                <tr style={{background:'rgba(45,27,78,0.45)'}}>
+                  {['Agent','Status','Last Active','Chats','Open'].map(h=>(
+                    <th key={h} style={{textAlign:'left',padding:'clamp(8px,1vw,14px) clamp(12px,1.4vw,20px)',color:'var(--text-muted)',fontSize:'var(--text-xs)',fontWeight:600,textTransform:'uppercase',letterSpacing:'0.06em',whiteSpace:'nowrap'}}>{h}</th>
                   ))}
+                </tr>
+              </thead>
+              <tbody>
+                {sortedAgents.map((agent,i)=>{
+                  const qa=matchQA(agent.name);
+                  const pill=STATUS_PILL[agent.status];
+                  return(
+                    <tr key={agent.id} style={{borderTop:'1px solid var(--border-default)',background:i%2===0?'transparent':'rgba(255,255,255,0.015)',transition:'background 0.15s'}}
+                      onMouseEnter={e=>(e.currentTarget.style.background='var(--surface-hover)')}
+                      onMouseLeave={e=>(e.currentTarget.style.background=i%2===0?'transparent':'rgba(255,255,255,0.015)')}>
+                      <td style={{padding:'clamp(8px,1vw,14px) clamp(12px,1.4vw,20px)',fontWeight:600,color:'var(--text-primary)',whiteSpace:'nowrap'}}>
+                        {qa
+                          ? <Link href={`/all-chats?agent=${encodeURIComponent(qa.name)}`} style={{color:'var(--text-primary)',textDecoration:'none',transition:'color 0.15s'}}
+                              onMouseEnter={e=>(e.currentTarget.style.color=C.pink)}
+                              onMouseLeave={e=>(e.currentTarget.style.color='var(--text-primary)')}>{agent.name}</Link>
+                          : agent.name}
+                      </td>
+                      <td style={{padding:'clamp(8px,1vw,14px) clamp(12px,1.4vw,20px)'}}>
+                        <span style={{background:pill.bg,color:pill.color,border:`1px solid ${pill.border}`,padding:'3px 10px',borderRadius:20,fontSize:'var(--text-xs)',fontWeight:600,whiteSpace:'nowrap'}}>
+                          {agent.statusLabel}
+                        </span>
+                      </td>
+                      <td style={{padding:'clamp(8px,1vw,14px) clamp(12px,1.4vw,20px)',color:'var(--text-secondary)',whiteSpace:'nowrap'}}>{agent.lastSeenAgo}</td>
+                      <td style={{padding:'clamp(8px,1vw,14px) clamp(12px,1.4vw,20px)',fontWeight:700,color:'var(--text-primary)'}}>{agent.chatsToday}</td>
+                      <td style={{padding:'clamp(8px,1vw,14px) clamp(12px,1.4vw,20px)'}}>
+                        {agent.openChats>0
+                          ? <span style={{fontWeight:700,color:C.green}}>{agent.openChats}</span>
+                          : <span style={{color:'var(--text-muted)'}}>—</span>}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* ── MIDDLE: KPIs + Grades + Performers ───── */}
+        <div style={{display:'flex',flexDirection:'column',gap:'clamp(10px,1.3vw,18px)',minWidth:0}}>
+
+          {/* Team KPIs + grade pills combined */}
+          <div className="jd-card glow-panel">
+            <CardHeader title="Team KPIs"/>
+            <div style={{padding:'clamp(12px,1.5vw,20px)',display:'grid',gridTemplateColumns:'1fr 1fr',gap:'clamp(8px,1vw,16px)'}}>
+              <div>
+                <div style={{color:'var(--text-muted)',fontSize:'var(--text-xs)',fontWeight:600,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:4}}>Avg Closure</div>
+                <div style={{color:C.white,fontSize:'var(--text-3xl)',fontWeight:900,lineHeight:1}}>{teamKpis.avgClosure}<span style={{fontSize:'var(--text-lg)'}}>%</span></div>
+              </div>
+              <div>
+                <div style={{color:'var(--text-muted)',fontSize:'var(--text-xs)',fontWeight:600,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:4}}>Avg FRT</div>
+                <div style={{color:'var(--text-secondary)',fontSize:'var(--text-3xl)',fontWeight:900,lineHeight:1}}>{teamKpis.avgFrt}<span style={{fontSize:'var(--text-lg)'}}>s</span></div>
+              </div>
+            </div>
+            <div style={{padding:'0 clamp(12px,1.5vw,20px) clamp(12px,1.5vw,20px)'}}>
+              <div style={{color:'var(--text-muted)',fontSize:'var(--text-xs)',fontWeight:600,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:8}}>Grade Distribution</div>
+              <div style={{display:'flex',flexWrap:'wrap',gap:6}}>
+                {(Object.entries(gradeDist) as [Grade,number][]).filter(([,v])=>v>0).map(([g,c])=>(
+                  <div key={g} style={{background:`${GRADE_COLOR[g]}18`,border:`1px solid ${GRADE_COLOR[g]}35`,color:GRADE_COLOR[g],padding:'3px 10px',borderRadius:20,fontSize:'var(--text-xs)',fontWeight:700}}>
+                    {g}: {c}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
 
           {/* Top Performers */}
           <div className="jd-card glow-panel">
-            <SectionHeader title="Top Performers" />
-            <div className="p-3 space-y-1">
-              {topAgents.map((agent, i) => (
-                <Link key={agent.id} href={`/all-chats?agent=${encodeURIComponent(agent.name)}`}
-                  className="flex items-center justify-between px-3 py-2.5 rounded-lg transition-colors"
-                  style={{ borderRadius:'8px' }}
-                  onMouseEnter={e => (e.currentTarget.style.background = 'var(--surface-3)')}
-                  onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}>
-                  <span className="text-sm" style={{ color:'var(--text-secondary)' }}>
-                    <span className="font-bold mr-2" style={{ color:'var(--text-muted)' }}>#{i+1}</span>
-                    {agent.name.split(' ')[0]}
+            <CardHeader title="Top Performers"/>
+            <div style={{padding:'clamp(8px,1vw,14px)'}}>
+              {topAgents.map((a,i)=>(
+                <Link key={a.id} href={`/all-chats?agent=${encodeURIComponent(a.name)}`}
+                  style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'clamp(7px,0.9vw,12px) clamp(10px,1.2vw,16px)',borderRadius:8,textDecoration:'none',transition:'background 0.15s'}}
+                  onMouseEnter={e=>(e.currentTarget.style.background='var(--surface-raised)')}
+                  onMouseLeave={e=>(e.currentTarget.style.background='transparent')}>
+                  <span style={{color:'var(--text-secondary)',fontSize:'var(--text-sm)'}}>
+                    <span style={{color:'var(--text-muted)',fontWeight:700,marginRight:8}}>#{i+1}</span>{a.name.split(' ')[0]}
                   </span>
-                  <div className="flex items-center gap-2">
-                    <GradeBadge grade={agent.grade} />
-                    <span className="text-sm font-bold w-12 text-right" style={{ color:'var(--text-primary)' }}>{agent.closure_rate}%</span>
+                  <div style={{display:'flex',alignItems:'center',gap:8}}>
+                    <GradeBadge grade={a.grade}/>
+                    <span style={{color:'var(--text-primary)',fontWeight:700,fontSize:'var(--text-sm)',minWidth:38,textAlign:'right'}}>{a.closure_rate}%</span>
                   </div>
                 </Link>
               ))}
@@ -356,23 +337,22 @@ export default function DashboardPage() {
           </div>
 
           {/* Needing Attention */}
-          <div className="jd-card" style={{ borderColor:'rgba(239,68,68,0.25)', background:'rgba(239,68,68,0.04)' }}>
-            <SectionHeader title="Needing Attention" />
-            <div className="p-3 space-y-1">
-              {bottomAgents.length === 0
-                ? <p className="px-3 py-2 text-sm" style={{ color:'var(--text-muted)' }}>All agents performing well</p>
-                : bottomAgents.map((agent, i) => (
-                  <Link key={agent.id} href={`/all-chats?agent=${encodeURIComponent(agent.name)}`}
-                    className="flex items-center justify-between px-3 py-2.5 rounded-lg transition-colors"
-                    onMouseEnter={e => (e.currentTarget.style.background = 'rgba(239,68,68,0.08)')}
-                    onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}>
-                    <span className="text-sm text-red-400">
-                      <span className="font-bold mr-2 text-red-500">#{i+1}</span>
-                      {agent.name.split(' ')[0]}
+          <div className="jd-card" style={{borderColor:'rgba(255,68,68,0.22)',background:'rgba(255,68,68,0.04)'}}>
+            <CardHeader title="Needing Attention"/>
+            <div style={{padding:'clamp(8px,1vw,14px)'}}>
+              {bottomAgents.length===0
+                ? <p style={{color:'var(--text-muted)',fontSize:'var(--text-sm)',padding:'8px 12px'}}>All agents performing well ✓</p>
+                : bottomAgents.map((a,i)=>(
+                  <Link key={a.id} href={`/all-chats?agent=${encodeURIComponent(a.name)}`}
+                    style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'clamp(7px,0.9vw,12px) clamp(10px,1.2vw,16px)',borderRadius:8,textDecoration:'none',transition:'background 0.15s'}}
+                    onMouseEnter={e=>(e.currentTarget.style.background='rgba(255,68,68,0.08)')}
+                    onMouseLeave={e=>(e.currentTarget.style.background='transparent')}>
+                    <span style={{color:'#f87171',fontSize:'var(--text-sm)'}}>
+                      <span style={{color:C.red,fontWeight:700,marginRight:8}}>#{i+1}</span>{a.name.split(' ')[0]}
                     </span>
-                    <div className="flex items-center gap-2">
-                      <GradeBadge grade={agent.grade} />
-                      <span className="text-sm font-bold w-12 text-right text-red-400">{agent.closure_rate}%</span>
+                    <div style={{display:'flex',alignItems:'center',gap:8}}>
+                      <GradeBadge grade={a.grade}/>
+                      <span style={{color:C.red,fontWeight:700,fontSize:'var(--text-sm)',minWidth:38,textAlign:'right'}}>{a.closure_rate}%</span>
                     </div>
                   </Link>
                 ))}
@@ -380,84 +360,73 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* RIGHT — Alerts & Flags */}
-        <div className="lg:col-span-3">
-          <div className="jd-card glow-panel h-full">
-            <SectionHeader title="Alerts & Flags" />
-            <div className="p-4 space-y-3">
-              <AlertRow icon="🚨" label="Auto-Fails"     value={alerts.autoFails}  accent="#ef4444" />
-              <AlertRow icon="⚠️" label="Recalls"        value={alerts.recalls}    accent="#f97316" />
-              <AlertRow icon="⏱️" label="Slow FRT (>5m)" value={alerts.slowFrt}    accent="#eab308" />
-              <AlertRow icon="❓" label="Unresolved"     value={alerts.unresolved} accent="#60a5fa" />
-            </div>
+        {/* ── RIGHT: Alerts ───── */}
+        <div className="jd-card glow-panel" style={{minWidth:0}}>
+          <CardHeader title="Alerts & Flags"/>
+          <div style={{padding:'clamp(12px,1.5vw,20px)',display:'flex',flexDirection:'column',gap:'clamp(8px,1vw,12px)'}}>
+            <AlertRow icon="🚨" label="Auto-Fails"     value={alerts.autoFails}  accent={C.red}/>
+            <AlertRow icon="⚠️" label="Recalls"        value={alerts.recalls}    accent="#f97316"/>
+            <AlertRow icon="⏱️" label="Slow FRT (>5m)" value={alerts.slowFrt}    accent={C.gold}/>
+            <AlertRow icon="❓" label="Unresolved"     value={alerts.unresolved} accent="#60a5fa"/>
           </div>
         </div>
       </div>
 
-      {/* ── Bottom row: Trend + Categories ───────────── */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+      {/* ── Bottom: Trend + Categories ───────────────────────────── */}
+      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,320px),1fr))',gap:'clamp(12px,1.5vw,22px)',alignItems:'start'}}>
 
-        {/* Trend chart (2/3) */}
-        <div className="lg:col-span-2">
-          <div className="jd-card glow-panel">
-            <SectionHeader title="Team Performance Trend" sub="Closure Rate % · Current Week" />
-            <div className="p-5">
-              <ResponsiveContainer width="100%" height={200}>
-                <AreaChart data={trendData} margin={{ top:4, right:24, left:0, bottom:0 }}>
-                  <defs>
-                    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="5%"  stopColor="#E91E8C" stopOpacity={0.25} />
-                      <stop offset="95%" stopColor="#E91E8C" stopOpacity={0}    />
-                    </linearGradient>
-                  </defs>
-                  <CartesianGrid strokeDasharray="3 3" stroke="var(--border-subtle)" />
-                  <XAxis dataKey="day" tick={{ fill:'var(--text-muted)', fontSize:11 }} axisLine={false} tickLine={false} />
-                  <YAxis domain={[0,100]} tick={{ fill:'var(--text-muted)', fontSize:11 }} axisLine={false} tickLine={false} />
-                  <Tooltip contentStyle={{ background:'var(--surface-3)', border:'1px solid var(--border-mid)', borderRadius:'8px', color:'var(--text-primary)', fontSize:'12px' }} />
-                  <ReferenceLine y={65} stroke="#7B2D8B" strokeDasharray="4 4"
-                    label={{ value:'Target 65%', position:'right', fill:'var(--text-muted)', fontSize:10 }} />
-                  <Area type="monotone" dataKey="avg" stroke="#E91E8C" strokeWidth={2}
-                    fill="url(#areaGrad)" dot={{ fill:'#E91E8C', r:4, strokeWidth:0 }} />
-                </AreaChart>
-              </ResponsiveContainer>
-            </div>
+        {/* Trend (2/3 on wide) */}
+        <div className="jd-card glow-panel" style={{gridColumn:'span 2 / span 2',minWidth:0}}>
+          <CardHeader title="Team Performance Trend" sub="Closure Rate % · Current Week"/>
+          <div style={{padding:'clamp(12px,1.5vw,20px)',paddingTop:'clamp(8px,1vw,16px)'}}>
+            <ResponsiveContainer width="100%" height={180}>
+              <AreaChart data={trendData} margin={{top:4,right:20,left:-10,bottom:0}}>
+                <defs>
+                  <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%"  stopColor={C.pink} stopOpacity={0.28}/>
+                    <stop offset="95%" stopColor={C.pink} stopOpacity={0}/>
+                  </linearGradient>
+                </defs>
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(45,27,78,0.5)"/>
+                <XAxis dataKey="day" tick={{fill:'var(--text-muted)',fontSize:11}} axisLine={false} tickLine={false}/>
+                <YAxis domain={[0,100]} tick={{fill:'var(--text-muted)',fontSize:11}} axisLine={false} tickLine={false}/>
+                <Tooltip contentStyle={{background:'var(--surface-raised)',border:'1px solid var(--border-mid)',borderRadius:8,color:'var(--text-primary)',fontSize:12}}/>
+                <ReferenceLine y={65} stroke={C.promo} strokeDasharray="4 4"
+                  label={{value:'Target 65%',position:'right',fill:'var(--text-muted)',fontSize:10}}/>
+                <Area type="monotone" dataKey="avg" stroke={C.pink} strokeWidth={2}
+                  fill="url(#areaGrad)" dot={{fill:C.pink,r:4,strokeWidth:0}}/>
+              </AreaChart>
+            </ResponsiveContainer>
           </div>
         </div>
 
-        {/* Inquiry categories (1/3) */}
-        <div className="lg:col-span-1">
-          <div className="jd-card glow-panel h-full">
-            <SectionHeader title="Inquiry Categories" />
-            <div className="p-5 space-y-3">
-              {categoryBreakdown.length === 0
-                ? <p className="text-sm" style={{ color:'var(--text-muted)' }}>No ticket data</p>
-                : categoryBreakdown.map((cat, idx) => (
-                  <div key={idx}>
-                    <div className="flex justify-between text-xs mb-1.5">
-                      <span className="font-medium" style={{ color:'var(--text-secondary)' }}>{cat.name}</span>
-                      <span style={{ color:'var(--text-muted)' }}>{cat.count} · {cat.pct}%</span>
-                    </div>
-                    <div className="h-1.5 rounded-full overflow-hidden" style={{ background:'var(--surface-4)' }}>
-                      <div className="h-full rounded-full jd-gradient-bar" style={{ width:`${cat.pct}%` }} />
-                    </div>
+        {/* Inquiry Categories */}
+        <div className="jd-card glow-panel" style={{minWidth:0}}>
+          <CardHeader title="Inquiry Categories"/>
+          <div style={{padding:'clamp(12px,1.5vw,20px)',display:'flex',flexDirection:'column',gap:'clamp(10px,1.2vw,16px)'}}>
+            {categories.length===0
+              ? <p style={{color:'var(--text-muted)',fontSize:'var(--text-sm)'}}>No ticket data</p>
+              : categories.map((cat,i)=>(
+                <div key={i}>
+                  <div style={{display:'flex',justifyContent:'space-between',marginBottom:5}}>
+                    <span style={{color:'var(--text-secondary)',fontSize:'var(--text-xs)',fontWeight:500}}>{cat.name}</span>
+                    <span style={{color:'var(--text-muted)',fontSize:'var(--text-xs)'}}>{cat.count} · {cat.pct}%</span>
                   </div>
-                ))}
-            </div>
+                  <div style={{height:5,borderRadius:3,background:'var(--surface-raised)',overflow:'hidden'}}>
+                    <div className="jd-gradient-h" style={{width:`${cat.pct}%`,height:'100%',borderRadius:3,transition:'width 0.6s ease'}}/>
+                  </div>
+                </div>
+              ))}
           </div>
         </div>
       </div>
 
-      {/* ── Footer CTA ────────────────────────────────── */}
-      <div className="flex justify-center pb-2">
+      {/* ── Footer CTA ────────────────────────────────────────────── */}
+      <div style={{display:'flex',justifyContent:'center',paddingBottom:'clamp(8px,1vw,16px)'}}>
         <Link href="/reports/hub"
-          className="px-6 py-2 rounded-lg text-sm font-semibold transition-all"
-          style={{
-            background:'rgba(233,30,140,0.10)',
-            border:'1px solid rgba(233,30,140,0.28)',
-            color:'#E91E8C',
-          }}
-          onMouseEnter={e => (e.currentTarget.style.background = 'rgba(233,30,140,0.18)')}
-          onMouseLeave={e => (e.currentTarget.style.background = 'rgba(233,30,140,0.10)')}>
+          style={{padding:'clamp(8px,1vw,12px) clamp(20px,2.5vw,36px)',borderRadius:10,fontSize:'var(--text-sm)',fontWeight:600,background:'rgba(233,30,140,0.10)',border:'1px solid rgba(233,30,140,0.28)',color:C.pink,textDecoration:'none',transition:'background 0.2s'}}
+          onMouseEnter={e=>(e.currentTarget.style.background='rgba(233,30,140,0.20)')}
+          onMouseLeave={e=>(e.currentTarget.style.background='rgba(233,30,140,0.10)')}>
           View Full Reports →
         </Link>
       </div>

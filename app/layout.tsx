@@ -45,14 +45,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, [router]);
 
   const Sidebar = () => (
-    <aside className="flex flex-col h-full w-64 border-r" style={{background:'var(--surface-1)', borderColor:'var(--border-subtle)'}}>
+    <aside className="jd-sidebar flex flex-col h-full" style={{background:'var(--surface-card)',borderRight:'1px solid var(--border-default)'}}>
       {/* Brand */}
-      <div className="px-5 py-5 flex items-center gap-3" style={{borderBottom:'1px solid var(--border-subtle)'}}>
-        <div className="w-9 h-9 rounded-xl jd-gradient flex items-center justify-center text-white font-black text-sm font-display shadow-lg" style={{boxShadow:'0 0 16px rgba(233,30,140,0.4)'}}>JD</div>
+      <div className="flex items-center gap-3" style={{padding:'clamp(14px,1.6vw,22px) clamp(16px,1.8vw,24px)',borderBottom:'1px solid var(--border-default)'}}>
+        <div className="jd-gradient font-display" style={{width:'clamp(32px,3vw,40px)',height:'clamp(32px,3vw,40px)',borderRadius:10,display:'flex',alignItems:'center',justifyContent:'center',color:'#fff',fontWeight:900,fontSize:'clamp(11px,1.1vw,14px)',boxShadow:'0 0 16px rgba(233,30,140,0.4)',flexShrink:0}}>JD</div>
         <div>
-          <div className="font-black text-white text-sm font-display tracking-wide">JackpotDaily</div>
-          <div className="text-xs text-[#7B2D8B] flex items-center gap-1">
-            QA Dashboard <span className="w-1.5 h-1.5 rounded-full bg-[#00C882] inline-block" title="Live data" />
+          <div className="font-display" style={{color:'#fff',fontWeight:900,fontSize:'clamp(12px,1.1vw,15px)',letterSpacing:'0.02em'}}>JackpotDaily</div>
+          <div style={{color:'var(--promo-purple)',fontSize:'clamp(10px,0.9vw,12px)',display:'flex',alignItems:'center',gap:4}}>
+            QA Dashboard <span style={{width:6,height:6,borderRadius:'50%',background:'var(--winner-green)',display:'inline-block'}} title="Live data"/>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <title>JackpotDaily QA Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="min-h-screen text-slate-100" style={{backgroundColor:'var(--surface-0)'}}>
+      <body className="min-h-screen" style={{backgroundColor:'var(--surface-page)',color:'var(--text-primary)'}}>
         <DevToolsGuard />
         <div className="flex min-h-screen">
           {/* Mobile overlay */}
@@ -152,7 +152,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Main */}
           <div className="flex-1 flex flex-col min-w-0 lg:ml-64">
             {/* Mobile header */}
-            <header className="lg:hidden sticky top-0 z-10 flex items-center gap-3 px-4 py-3 backdrop-blur" style={{borderBottom:'1px solid var(--border-subtle)', backgroundColor:'rgba(15,17,23,0.95)'}}>
+            <header className="lg:hidden sticky top-0 z-10 flex items-center gap-3 px-4 py-3 backdrop-blur" style={{borderBottom:'1px solid var(--border-default)',backgroundColor:'rgba(13,13,26,0.96)'}}>
               <button onClick={() => setOpen(true)} className="p-2 rounded-lg hover:bg-slate-800 text-slate-400">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
