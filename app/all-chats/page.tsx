@@ -1,75 +1,106 @@
 'use client';
-import { useState, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
-import { ALL_CHATS, AGENTS, getChatResponseMetrics } from '@/lib/dataLoader';
-import { GradeBadge } from '@/components/GradeBadge';
-import { gradeColor } from '@/lib/utils';
-import { Grade } from '@/lib/types';
 
-const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F'];
 const PER_PAGE = 50;
 
+interface Ticket {
+  id: string;
+  agent_name: string;
+  agent_alias: string;
+  subject: string;
+  category: string;
+  frt_seconds: number | null;
+  is_closed: boolean;
+  has_recall: boolean;
+  was_transferred: boolean;
+  created_at: string;
+  week_start: string;
+}
+
+interface Week {
+  week_start: string;
+  week_end: string;
+  completed_at: string;
+}
+
+function SortIcon({ field, sortField, sortOrder }: { field: string; sortField: string; sortOrder: 'asc' | 'desc' }) {
+  if (sortField !== field) return <span className="text-slate-600">↕</span>;
+  return <span className="text-[#E91E8C]">{sortOrder === 'asc' ? '↑' : '↓'}</span>;
+}
+
 export default function AllChatsPage() {
+  const [tickets, setTickets] = useState<Ticket[]>([]);
+  const [weeks, setWeeks] = useState<Week[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [selectedWeek, setSelectedWeek] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedAgent, setSelectedAgent] = useState('all');
-  const [gradeFilter, setGradeFilter] = useState<'all' | Grade>('all');
-  const [showUnscored, setShowUnscored] = useState(false);
-  const [unscoredPage, setUnscoredPage] = useState(0);
-  const [dateFrom, setDateFrom] = useState('');
-  const [dateTo, setDateTo] = useState('');
-  const [silentOnly, setSilentOnly] = useState(false);
-  const [sortField, setSortField] = useState<'date' | 'score' | 'responseRate'>('date');
-  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
+  const [selectedCategory, setSelectedCategory] = useState('all');
   const [page, setPage] = useState(0);
+  const [sortField, setSortField] = useState<'date' | 'frt' | 'closed'>('date');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
-  // Pre-compute metrics for all chats
-  const chatsWithMetrics = useMemo(() => {
-    return ALL_CHATS.map(chat => ({
-      ...chat,
-      metrics: getChatResponseMetrics(chat),
-    }));
+  // Fetch weeks on mount
+  useEffect(() => {
+    const fetchWeeks = async () => {
+      try {
+        const res = await fetch('/api/data/weeks');
+        const data = await res.json();
+        setWeeks(data.weeks || []);
+        if (data.weeks && data.weeks.length > 0) {
+          setSelectedWeek(data.weeks[0].week_start);
+        }
+      } catch (err) {
+        console.error('Error fetching weeks:', err);
+      }
+    };
+    fetchWeeks();
   }, []);
 
-  // Split scored vs unscored
-  const { scoredChats, unscoredChats } = useMemo(() => {
-    const scored = chatsWithMetrics.filter(c => !c.unscored);
-    const unscored = chatsWithMetrics.filter(c => c.unscored);
-    return { scoredChats: scored, unscoredChats: unscored };
-  }, [chatsWithMetrics]);
+  // Fetch tickets when week changes
+  useEffect(() => {
+    const fetchTickets = async () => {
+      if (!selectedWeek) return;
+      setLoading(true);
+      try {
+        const params = new URLSearchParams({
+          week_start: selectedWeek,
+          limit: '500',
+          offset: '0',
+        });
+        const res = await fetch(`/api/data/tickets?${params}`);
+        const data = await res.json();
+        setTickets(data.tickets || []);
+        setPage(0);
+      } catch (err) {
+        console.error('Error fetching tickets:', err);
+        setTickets([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchTickets();
+  }, [selectedWeek]);
 
-  // Filter and sort scored chats only
-  const filteredChats = useMemo(() => {
-    let result = scoredChats;
+  // Filter and sort tickets
+  const filteredTickets = useMemo(() => {
+    let result = tickets;
 
-    // Search by agent name
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
-      result = result.filter(c => c.agent_name.toLowerCase().includes(term));
+      result = result.filter(t =>
+        t.agent_name.toLowerCase().includes(term) ||
+        t.subject.toLowerCase().includes(term)
+      );
     }
 
-    // Agent filter
     if (selectedAgent !== 'all') {
-      result = result.filter(c => c.agent_id === selectedAgent);
+      result = result.filter(t => t.agent_name === selectedAgent);
     }
 
-    // Grade filter
-    if (gradeFilter !== 'all') {
-      result = result.filter(c => c.grade === gradeFilter);
-    }
-
-    // Date range
-    if (dateFrom) {
-      result = result.filter(c => c.timestamp >= dateFrom);
-    }
-    if (dateTo) {
-      const toDate = new Date(dateTo);
-      toDate.setHours(23, 59, 59, 999);
-      result = result.filter(c => new Date(c.timestamp) <= toDate);
-    }
-
-    // Silent only
-    if (silentOnly) {
-      result = result.filter(c => c.metrics.customerUnresponded > 0);
+    if (selectedCategory !== 'all') {
+      result = result.filter(t => t.category === selectedCategory);
     }
 
     // Sort
@@ -78,14 +109,14 @@ export default function AllChatsPage() {
       let bVal: number | string = 0;
 
       if (sortField === 'date') {
-        aVal = new Date(a.timestamp).getTime();
-        bVal = new Date(b.timestamp).getTime();
-      } else if (sortField === 'score') {
-        aVal = a.total_score ?? 0;
-        bVal = b.total_score ?? 0;
-      } else if (sortField === 'responseRate') {
-        aVal = a.metrics.responseRate ?? 0;
-        bVal = b.metrics.responseRate ?? 0;
+        aVal = new Date(a.created_at).getTime();
+        bVal = new Date(b.created_at).getTime();
+      } else if (sortField === 'frt') {
+        aVal = a.frt_seconds ?? Infinity;
+        bVal = b.frt_seconds ?? Infinity;
+      } else if (sortField === 'closed') {
+        aVal = a.is_closed ? 1 : 0;
+        bVal = b.is_closed ? 1 : 0;
       }
 
       if (sortOrder === 'asc') {
@@ -96,24 +127,22 @@ export default function AllChatsPage() {
     });
 
     return result;
-  }, [chatsWithMetrics, searchTerm, selectedAgent, gradeFilter, dateFrom, dateTo, silentOnly, sortField, sortOrder]);
+  }, [tickets, searchTerm, selectedAgent, selectedCategory, sortField, sortOrder]);
 
-  // Stats
-  const stats = useMemo(() => {
-    const total = filteredChats.length;
-    const avgResponseRate = total > 0
-      ? filteredChats.reduce((sum, c) => sum + (c.metrics.responseRate ?? 0), 0) / total
-      : 0;
-    const silentChats = filteredChats.filter(c => c.metrics.customerUnresponded > 0).length;
-    const autoFails = filteredChats.filter(c => c.auto_fail.triggered).length;
-    return { total, avgResponseRate, silentChats, autoFails, unscored: unscoredChats.length };
-  }, [filteredChats, unscoredChats]);
+  // Get unique agents and categories from current tickets
+  const agents = useMemo(
+    () => Array.from(new Set(tickets.map(t => t.agent_name))).sort(),
+    [tickets]
+  );
+  const categories = useMemo(
+    () => Array.from(new Set(tickets.map(t => t.category))).sort(),
+    [tickets]
+  );
 
   // Pagination
-  const totalPages = Math.ceil(filteredChats.length / PER_PAGE);
-  const pageChats = filteredChats.slice(page * PER_PAGE, (page + 1) * PER_PAGE);
+  const totalPages = Math.ceil(filteredTickets.length / PER_PAGE);
+  const pageTickets = filteredTickets.slice(page * PER_PAGE, (page + 1) * PER_PAGE);
 
-  // Sorting handlers
   const handleSort = (field: typeof sortField) => {
     if (sortField === field) {
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
@@ -124,52 +153,23 @@ export default function AllChatsPage() {
     setPage(0);
   };
 
-  // Export CSV
-  const handleExportCSV = () => {
-    const headers = [
-      'Date',
-      'Agent',
-      'Grade',
-      'Score',
-      'Msgs Sent',
-      'Agent Replied',
-      'Response Rate %',
-      'Silent',
-      'Auto-Fail',
-      'Chat ID',
-    ];
-    const rows = filteredChats.map(c => [
-      new Date(c.timestamp).toLocaleString(),
-      c.agent_name,
-      c.grade,
-      c.total_score,
-      c.metrics.totalMessages,
-      c.metrics.agentMessages,
-      (c.metrics.responseRate ?? 0).toFixed(1),
-      c.metrics.customerUnresponded > 0 ? 'Yes' : 'No',
-      c.auto_fail.triggered ? 'Yes' : 'No',
-      c.chat_id,
-    ]);
-    const csv = [headers, ...rows].map(row => row.join(',')).join('\n');
-    const blob = new Blob([csv], { type: 'text/csv' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `jackpot-chats-${new Date().toISOString().slice(0, 10)}.csv`;
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-
   const formatDateTime = (ts: string) => {
     const d = new Date(ts);
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) +
       ', ' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
   };
 
-  const SortIcon = ({ field }: { field: typeof sortField }) => {
-    if (sortField !== field) return <span className="text-slate-600">↕</span>;
-    return <span className="text-[#E91E8C]">{sortOrder === 'asc' ? '↑' : '↓'}</span>;
+  const formatFRT = (seconds: number | null) => {
+    if (seconds === null) return 'N/A';
+    if (seconds < 60) return `${Math.round(seconds)}s`;
+    return `${(seconds / 60).toFixed(1)}m`;
   };
+
+  const stats = useMemo(() => ({
+    total: filteredTickets.length,
+    closed: filteredTickets.filter(t => t.is_closed).length,
+    recalls: filteredTickets.filter(t => t.has_recall).length,
+  }), [filteredTickets]);
 
   return (
     <div className="space-y-6 max-w-[1600px]">
@@ -180,11 +180,25 @@ export default function AllChatsPage() {
 
       {/* Controls */}
       <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5 space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
+          {/* Week selector */}
+          <select
+            value={selectedWeek || ''}
+            onChange={(e) => setSelectedWeek(e.target.value)}
+            className="px-3 py-2 bg-[#0D0D1A] border border-[#7B2D8B]/30 rounded-lg text-white text-sm focus:outline-none focus:border-[#E91E8C]"
+            disabled={loading}
+          >
+            {weeks.map(w => (
+              <option key={w.week_start} value={w.week_start}>
+                Week of {new Date(w.week_start).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+              </option>
+            ))}
+          </select>
+
           {/* Search */}
           <input
             type="text"
-            placeholder="Search agent name..."
+            placeholder="Search agent or subject..."
             value={searchTerm}
             onChange={e => { setSearchTerm(e.target.value); setPage(0); }}
             className="px-3 py-2 bg-[#0D0D1A] border border-[#7B2D8B]/30 rounded-lg text-white text-sm focus:outline-none focus:border-[#E91E8C]"
@@ -197,75 +211,31 @@ export default function AllChatsPage() {
             className="px-3 py-2 bg-[#0D0D1A] border border-[#7B2D8B]/30 rounded-lg text-white text-sm focus:outline-none focus:border-[#E91E8C]"
           >
             <option value="all">All Agents</option>
-            {AGENTS.map(a => (
-              <option key={a.id} value={a.id}>{a.name}</option>
+            {agents.map(a => (
+              <option key={a} value={a}>{a}</option>
             ))}
           </select>
 
-          {/* Date from */}
-          <input
-            type="date"
-            value={dateFrom}
-            onChange={e => { setDateFrom(e.target.value); setPage(0); }}
+          {/* Category filter */}
+          <select
+            value={selectedCategory}
+            onChange={e => { setSelectedCategory(e.target.value); setPage(0); }}
             className="px-3 py-2 bg-[#0D0D1A] border border-[#7B2D8B]/30 rounded-lg text-white text-sm focus:outline-none focus:border-[#E91E8C]"
-          />
-
-          {/* Date to */}
-          <input
-            type="date"
-            value={dateTo}
-            onChange={e => { setDateTo(e.target.value); setPage(0); }}
-            className="px-3 py-2 bg-[#0D0D1A] border border-[#7B2D8B]/30 rounded-lg text-white text-sm focus:outline-none focus:border-[#E91E8C]"
-          />
-        </div>
-
-        {/* Grade filters + Silent toggle */}
-        <div className="flex gap-2 flex-wrap items-center">
-          <button
-            onClick={() => { setGradeFilter('all'); setPage(0); }}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-              gradeFilter === 'all' ? 'bg-[#E91E8C] text-white' : 'bg-[#0D0D1A] text-slate-400 hover:text-white border border-[#7B2D8B]/20'
-            }`}
           >
-            All Grades
-          </button>
-          {GRADES.map(g => (
-            <button
-              key={g}
-              onClick={() => { setGradeFilter(g); setPage(0); }}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-                gradeFilter === g ? 'bg-[#E91E8C] text-white' : 'bg-[#0D0D1A] text-slate-400 hover:text-white border border-[#7B2D8B]/20'
-              }`}
-            >
-              Grade {g}
-            </button>
-          ))}
-          <div className="flex-1" />
-          <button
-            onClick={() => { setSilentOnly(!silentOnly); setPage(0); }}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-              silentOnly ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-[#0D0D1A] text-slate-400 hover:text-white border border-[#7B2D8B]/20'
-            }`}
-          >
-            🔴 Silent Only
-          </button>
-          <button
-            onClick={handleExportCSV}
-            className="px-3 py-1.5 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
-          >
-            ⬇️ Export CSV
-          </button>
+            <option value="all">All Categories</option>
+            {categories.map(c => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
         </div>
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-4">
         {[
-          { label: 'Scored Chats', value: stats.total, color: '#fff' },
-          { label: 'Avg Response Rate', value: `${stats.avgResponseRate.toFixed(1)}%`, color: '#00C882' },
-          { label: 'Silent Chats', value: stats.silentChats, color: '#FF4444' },
-          { label: 'Auto-Fails', value: stats.autoFails, color: '#f97316' },
-          { label: 'Unscored', value: stats.unscored, color: '#6b7280' },
+          { label: 'Total Tickets', value: stats.total, color: '#fff' },
+          { label: 'Closed', value: stats.closed, color: '#00C882' },
+          { label: 'Has Recall', value: stats.recalls, color: '#FF6B6B' },
         ].map(stat => (
           <div key={stat.label} className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
             <div className="text-2xl font-black" style={{ color: stat.color }}>{stat.value}</div>
@@ -276,217 +246,96 @@ export default function AllChatsPage() {
 
       {/* Table */}
       <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
-        {/* Desktop table */}
-        <div className="hidden md:block overflow-x-auto">
-          <table className="w-full">
-            <thead className="bg-[#2D1B4E]/30">
-              <tr>
-                <th
-                  className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider cursor-pointer hover:text-[#E91E8C]"
-                  onClick={() => handleSort('date')}
-                >
-                  Date <SortIcon field="date" />
-                </th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Agent</th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Grade</th>
-                <th
-                  className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider cursor-pointer hover:text-[#E91E8C]"
-                  onClick={() => handleSort('score')}
-                >
-                  Score <SortIcon field="score" />
-                </th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Msgs Sent</th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Agent Replied</th>
-                <th
-                  className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider cursor-pointer hover:text-[#E91E8C]"
-                  onClick={() => handleSort('responseRate')}
-                >
-                  Response Rate <SortIcon field="responseRate" />
-                </th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Silent?</th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Auto-Fail</th>
-                <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">View</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-700/30">
-              {pageChats.map((chat, i) => {
-                const responseRateColor = (chat.metrics.responseRate ?? 0) >= 80 ? 'text-green-400' : (chat.metrics.responseRate ?? 0) >= 50 ? 'text-amber-400' : 'text-red-400';
-                return (
-                  <tr key={i} className="hover:bg-[#2D1B4E]/15 transition-colors">
-                    <td className="py-3 px-4 text-sm text-slate-300">{formatDateTime(chat.timestamp)}</td>
-                    <td className="py-3 px-4 text-sm">
-                      <Link href={`/agent/${chat.agent_id}`} className="text-[#E91E8C] hover:text-blue-300">
-                        {chat.agent_name}
-                      </Link>
-                    </td>
-                    <td className="py-3 px-4"><GradeBadge grade={chat.grade} /></td>
-                    <td className="py-3 px-4 font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>
-                      {chat.total_score}/100
-                    </td>
-                    <td className="py-3 px-4 text-sm text-slate-300">{chat.metrics.totalMessages}</td>
-                    <td className="py-3 px-4 text-sm text-slate-300">{chat.metrics.agentMessages}</td>
-                    <td className={`py-3 px-4 text-sm font-medium ${responseRateColor}`}>
-                      {(chat.metrics.responseRate ?? 0).toFixed(0)}%
-                    </td>
-                    <td className="py-3 px-4 text-lg">
-                      {chat.metrics.customerUnresponded > 0 ? '🔴' : '✅'}
-                    </td>
-                    <td className="py-3 px-4 text-lg">
-                      {chat.auto_fail.triggered ? '🚨' : ''}
-                    </td>
-                    <td className="py-3 px-4">
-                      <Link
-                        href={`/chat/${chat.chat_id}`}
-                        className="px-2 py-1 bg-blue-600 hover:bg-blue-700 text-white text-xs rounded transition-colors"
-                      >
-                        View
-                      </Link>
-                    </td>
+        {loading ? (
+          <div className="text-center py-12 text-slate-400">Loading tickets...</div>
+        ) : filteredTickets.length === 0 ? (
+          <div className="text-center py-12 text-slate-400">😔 No tickets found.</div>
+        ) : (
+          <>
+            <div className="hidden md:block overflow-x-auto">
+              <table className="w-full">
+                <thead className="bg-[#2D1B4E]/30">
+                  <tr>
+                    <th
+                      className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider cursor-pointer hover:text-[#E91E8C]"
+                      onClick={() => handleSort('date')}
+                    >
+                      Created At <SortIcon field="date" sortField={sortField} sortOrder={sortOrder} />
+                    </th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Agent</th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Subject</th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Category</th>
+                    <th
+                      className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider cursor-pointer hover:text-[#E91E8C]"
+                      onClick={() => handleSort('frt')}
+                    >
+                      FRT <SortIcon field="frt" sortField={sortField} sortOrder={sortOrder} />
+                    </th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Closed</th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Recall</th>
                   </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
+                </thead>
+                <tbody className="divide-y divide-slate-700/30">
+                  {pageTickets.map((ticket, i) => (
+                    <tr key={i} className="hover:bg-[#2D1B4E]/15 transition-colors">
+                      <td className="py-3 px-4 text-sm text-slate-300">{formatDateTime(ticket.created_at)}</td>
+                      <td className="py-3 px-4 text-sm text-[#E91E8C]">{ticket.agent_name}</td>
+                      <td className="py-3 px-4 text-sm text-slate-300 truncate max-w-xs">{ticket.subject || '—'}</td>
+                      <td className="py-3 px-4 text-sm text-slate-400">{ticket.category}</td>
+                      <td className="py-3 px-4 text-sm text-slate-300">{formatFRT(ticket.frt_seconds)}</td>
+                      <td className="py-3 px-4 text-sm">{ticket.is_closed ? '✅' : '⏳'}</td>
+                      <td className="py-3 px-4 text-sm">{ticket.has_recall ? '🔔' : ''}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
 
-        {/* Mobile cards */}
-        <div className="block md:hidden divide-y divide-slate-700/30">
-          {pageChats.map((chat, i) => {
-            const responseRateColor = (chat.metrics.responseRate ?? 0) >= 80 ? 'text-green-400' : (chat.metrics.responseRate ?? 0) >= 50 ? 'text-amber-400' : 'text-red-400';
-            return (
-              <div key={i} className="p-4 space-y-2">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <GradeBadge grade={chat.grade} />
-                    <span className="font-mono font-bold text-sm" style={{ color: gradeColor(chat.grade) }}>
-                      {chat.total_score}
-                    </span>
-                    {chat.metrics.customerUnresponded > 0 && <span>🔴</span>}
-                    {chat.auto_fail.triggered && <span>🚨</span>}
+            {/* Mobile view */}
+            <div className="block md:hidden divide-y divide-slate-700/30">
+              {pageTickets.map((ticket, i) => (
+                <div key={i} className="p-4 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono font-bold text-sm text-[#E91E8C]">{ticket.agent_name}</span>
+                    <span className="text-sm">{ticket.is_closed ? '✅' : '⏳'} {ticket.has_recall ? '🔔' : ''}</span>
                   </div>
-                  <Link
-                    href={`/chat/${chat.chat_id}`}
-                    className="px-2 py-1 bg-blue-600 text-white text-xs rounded"
-                  >
-                    View →
-                  </Link>
+                  <div className="text-xs text-slate-400">{formatDateTime(ticket.created_at)}</div>
+                  <div className="text-sm text-slate-300">{ticket.subject || '—'}</div>
+                  <div className="flex items-center gap-3 text-xs text-slate-400">
+                    <span>{ticket.category}</span>
+                    <span>FRT: {formatFRT(ticket.frt_seconds)}</span>
+                  </div>
                 </div>
-                <div className="text-xs text-slate-400">{formatDateTime(chat.timestamp)}</div>
-                <Link href={`/agent/${chat.agent_id}`} className="text-sm text-[#E91E8C] hover:text-blue-300">
-                  {chat.agent_name}
-                </Link>
-                <div className="flex items-center gap-3 text-xs text-slate-400">
-                  <span>Msgs: {chat.metrics.totalMessages}</span>
-                  <span className={responseRateColor}>Rate: {(chat.metrics.responseRate ?? 0).toFixed(0)}%</span>
+              ))}
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-between px-5 py-3 border-t border-[#7B2D8B]/20">
+                <span className="text-xs text-slate-400">
+                  Page {page + 1} of {totalPages} · {filteredTickets.length} tickets
+                </span>
+                <div className="flex gap-2">
+                  <button
+                    disabled={page === 0}
+                    onClick={() => setPage(p => p - 1)}
+                    className="px-3 py-1 rounded bg-slate-700 text-slate-300 text-sm disabled:opacity-40 hover:bg-slate-600"
+                  >
+                    ‹ Prev
+                  </button>
+                  <button
+                    disabled={page >= totalPages - 1}
+                    onClick={() => setPage(p => p + 1)}
+                    className="px-3 py-1 rounded bg-slate-700 text-slate-300 text-sm disabled:opacity-40 hover:bg-slate-600"
+                  >
+                    Next ›
+                  </button>
                 </div>
               </div>
-            );
-          })}
-        </div>
-
-        {filteredChats.length === 0 && (
-          <div className="text-center py-12 text-slate-400">😔 No chats match your filters.</div>
-        )}
-
-        {/* Unscored note in table when N/A filter active */}
-
-        {/* Pagination */}
-        {totalPages > 1 && (
-          <div className="flex items-center justify-between px-5 py-3 border-t border-[#7B2D8B]/20">
-            <span className="text-xs text-slate-400">
-              Page {page + 1} of {totalPages} · {filteredChats.length} chats
-            </span>
-            <div className="flex gap-2">
-              <button
-                disabled={page === 0}
-                onClick={() => setPage(p => p - 1)}
-                className="px-3 py-1 rounded bg-slate-700 text-slate-300 text-sm disabled:opacity-40 hover:bg-slate-600"
-              >
-                ‹ Prev
-              </button>
-              <button
-                disabled={page >= totalPages - 1}
-                onClick={() => setPage(p => p + 1)}
-                className="px-3 py-1 rounded bg-slate-700 text-slate-300 text-sm disabled:opacity-40 hover:bg-slate-600"
-              >
-                Next ›
-              </button>
-            </div>
-          </div>
+            )}
+          </>
         )}
       </div>
-
-      {/* ── Unscored Chats Section ───────────────────────────── */}
-      {unscoredChats.length > 0 && (
-        <div className="bg-[#1A1A2E] border border-slate-600/30 rounded-xl overflow-hidden">
-          <button
-            onClick={() => setShowUnscored(v => !v)}
-            className="w-full flex items-center justify-between px-5 py-4 hover:bg-[#2D1B4E]/20 transition-colors"
-          >
-            <div className="flex items-center gap-3">
-              <span className="text-slate-400 text-sm font-semibold uppercase tracking-wider">⬜ Unscored Chats</span>
-              <span className="bg-slate-600/40 text-slate-400 text-xs font-bold px-2 py-0.5 rounded-full">
-                {unscoredChats.length}
-              </span>
-              <span className="text-slate-500 text-xs">Too short to grade or pending review</span>
-            </div>
-            <span className="text-slate-400 text-lg">{showUnscored ? '▲' : '▼'}</span>
-          </button>
-
-          {showUnscored && (
-            <>
-              <div className="overflow-x-auto border-t border-slate-700/30">
-                <table className="w-full">
-                  <thead className="bg-slate-800/30">
-                    <tr>
-                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Date</th>
-                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Agent</th>
-                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Reason</th>
-                      <th className="text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wider">Chat ID</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-slate-700/20">
-                    {unscoredChats
-                      .slice(unscoredPage * PER_PAGE, (unscoredPage + 1) * PER_PAGE)
-                      .map((chat, i) => (
-                        <tr key={i} className="hover:bg-slate-800/20 transition-colors opacity-60">
-                          <td className="py-2.5 px-4 text-sm text-slate-400">{formatDateTime(chat.timestamp)}</td>
-                          <td className="py-2.5 px-4 text-sm">
-                            <Link href={`/agent/${chat.agent_id}`} className="text-slate-400 hover:text-white">
-                              {chat.agent_name}
-                            </Link>
-                          </td>
-                          <td className="py-2.5 px-4 text-xs text-slate-500 italic">{chat.summary}</td>
-                          <td className="py-2.5 px-4 text-xs text-slate-500 font-mono">{chat.chat_id.slice(-8)}</td>
-                        </tr>
-                      ))
-                    }
-                  </tbody>
-                </table>
-              </div>
-              {unscoredChats.length > PER_PAGE && (
-                <div className="flex items-center justify-between px-5 py-3 border-t border-slate-700/20">
-                  <span className="text-xs text-slate-500">
-                    Page {unscoredPage + 1} of {Math.ceil(unscoredChats.length / PER_PAGE)} · {unscoredChats.length} unscored
-                  </span>
-                  <div className="flex gap-2">
-                    <button
-                      disabled={unscoredPage === 0}
-                      onClick={() => setUnscoredPage(p => p - 1)}
-                      className="px-3 py-1 rounded bg-slate-700 text-slate-400 text-sm disabled:opacity-40 hover:bg-slate-600"
-                    >‹ Prev</button>
-                    <button
-                      disabled={unscoredPage >= Math.ceil(unscoredChats.length / PER_PAGE) - 1}
-                      onClick={() => setUnscoredPage(p => p + 1)}
-                      className="px-3 py-1 rounded bg-slate-700 text-slate-400 text-sm disabled:opacity-40 hover:bg-slate-600"
-                    >Next ›</button>
-                  </div>
-                </div>
-              )}
-            </>
-          )}
-        </div>
-      )}
     </div>
   );
 }

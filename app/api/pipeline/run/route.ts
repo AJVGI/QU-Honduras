@@ -710,6 +710,49 @@ export async function POST(req: Request) {
 
       console.log(`[Pipeline] ${aggregates.total_tickets} tickets | FRT ${aggregates.avg_frt?.toFixed(1) || 'N/A'}s | closure ${aggregates.closure_rate_pct.toFixed(1)}%`);
 
+      // Save tickets and agents to Supabase
+      const weekStartDate = weekStart.toISOString().split('T')[0];
+
+      // Batch insert tickets (max 500 at a time to avoid payload limits)
+      const ticketRows = mergedTickets.map(t => ({
+        run_id: runId,
+        agent_name: t.agentName,
+        agent_alias: t.agentAlias,
+        subject: t.subject,
+        category: t.category,
+        frt_seconds: t.frtSeconds,
+        is_closed: t.isClosed,
+        has_recall: t.hasRecall,
+        was_transferred: t.wasTransferred,
+        last_message_content: t.lastMessageContent.slice(0, 500),
+        created_at: new Date(t.createdAt * 1000).toISOString(),
+        week_start: weekStartDate,
+      }));
+
+      // Insert in batches of 500
+      for (let i = 0; i < ticketRows.length; i += 500) {
+        const batch = ticketRows.slice(i, i + 500);
+        const { error: ticketError } = await supabase.from('pipeline_tickets').insert(batch);
+        if (ticketError) console.error(`[Pipeline] Error inserting tickets batch ${i / 500}:`, ticketError);
+      }
+      console.log(`[Pipeline] Inserted ${ticketRows.length} tickets`);
+
+      // Insert agent aggregates
+      const agentRows = perAgent.map(a => ({
+        run_id: runId,
+        agent_name: a.agentName,
+        agent_alias: a.agentAlias,
+        tickets: a.tickets,
+        closed: a.closed,
+        closure_pct: a.closure_rate_pct,
+        avg_frt_seconds: a.avg_frt,
+        recalls: a.recalls,
+        week_start: weekStartDate,
+      }));
+      const { error: agentError } = await supabase.from('pipeline_agents').insert(agentRows);
+      if (agentError) console.error('[Pipeline] Error inserting agents:', agentError);
+      console.log(`[Pipeline] Inserted ${agentRows.length} agents`);
+
       // LLM calls
       console.log('[Pipeline] Running LLM analysis...');
       const samplesObj = Object.fromEntries(samples);
