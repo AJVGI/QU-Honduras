@@ -87,7 +87,22 @@ export default function DashboardPage() {
     try {
       const res = await fetch('/api/data/agents');
       const json = await res.json();
-      setQaAgents(json.agents || []);
+      const raw = json.agents || [];
+      // Map API field names to QAAgent interface
+      const mapped: QAAgent[] = raw.map((a: Record<string, unknown>) => {
+        const closurePct = Number(a.closure_pct) || 0;
+        const grade: Grade = closurePct >= 90 ? 'A' : closurePct >= 75 ? 'B' : closurePct >= 60 ? 'C' : closurePct >= 45 ? 'D' : 'F';
+        return {
+          id: String(a.id || a.agent_name || ''),
+          name: String(a.agent_name || ''),
+          avg_score: closurePct,
+          grade,
+          frt: a.avg_frt_seconds != null ? Number(a.avg_frt_seconds) : null,
+          closure_rate: closurePct,
+          tickets: Number(a.tickets) || 0,
+        };
+      });
+      setQaAgents(mapped);
     } catch (e) {
       console.error('Failed to fetch QA agents:', e);
     }
