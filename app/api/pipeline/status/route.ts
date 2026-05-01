@@ -1,10 +1,4 @@
-/**
- * GET /api/pipeline/status
- * Returns the last pipeline run
- */
-
 export const dynamic = 'force-dynamic';
-
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 
@@ -18,28 +12,16 @@ export async function GET() {
     const { data, error } = await supabase
       .from('pipeline_runs')
       .select('*')
+      .in('status', ['completed', 'failed', 'running'])
+      .not('period_label', 'ilike', 'test%')
       .order('created_at', { ascending: false })
       .limit(1)
-      .single();
+      .maybeSingle();
 
-    if (error && error.code !== 'PGRST116') throw error;
+    if (error) throw error;
 
-    if (!data) {
-      return NextResponse.json({
-        lastRun: null,
-        message: 'No runs yet',
-      });
-    }
-
-    return NextResponse.json({
-      ok: true,
-      lastRun: data,
-    });
+    return NextResponse.json({ ok: true, lastRun: data || null });
   } catch (error) {
-    console.error('Status check error:', (error as Error).message);
     return NextResponse.json({ error: (error as Error).message }, { status: 500 });
   }
 }
-// force redeploy 1777594775
-// v1777594953
-// cold-start-1777595465
