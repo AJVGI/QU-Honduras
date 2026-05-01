@@ -1,7 +1,7 @@
 'use client';
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, Suspense } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 const PER_PAGE = 50;
 
@@ -18,6 +18,9 @@ interface Ticket {
   was_transferred: boolean;
   created_at: string;
   week_start: string;
+  grade: string | null;
+  score: number | null;
+  auto_fail: boolean;
 }
 
 interface Week {
@@ -31,7 +34,7 @@ function SortIcon({ field, sortField, sortOrder }: { field: string; sortField: s
   return <span className="text-[#E91E8C]">{sortOrder === 'asc' ? '↑' : '↓'}</span>;
 }
 
-export default function AllChatsPage() {
+function AllChatsInner() {
   const [tickets, setTickets] = useState<Ticket[]>([]);
   const [weeks, setWeeks] = useState<Week[]>([]);
   const [loading, setLoading] = useState(true);
@@ -39,10 +42,23 @@ export default function AllChatsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedAgent, setSelectedAgent] = useState('all');
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedGrade, setSelectedGrade] = useState('all');
+  const [selectedStatus, setSelectedStatus] = useState('all');
   const [page, setPage] = useState(0);
   const [sortField, setSortField] = useState<'date' | 'frt' | 'closed'>('date');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Read URL params on mount
+  useEffect(() => {
+    const agent = searchParams.get('agent');
+    const grade = searchParams.get('grade');
+    const status = searchParams.get('status');
+    if (agent) setSelectedAgent(agent);
+    if (grade) setSelectedGrade(grade);
+    if (status) setSelectedStatus(status);
+  }, [searchParams]);
 
   // Fetch weeks on mount
   useEffect(() => {
@@ -101,9 +117,16 @@ export default function AllChatsPage() {
     if (selectedAgent !== 'all') {
       result = result.filter(t => t.agent_name === selectedAgent);
     }
-
     if (selectedCategory !== 'all') {
       result = result.filter(t => t.category === selectedCategory);
+    }
+    if (selectedGrade !== 'all') {
+      result = result.filter(t => t.grade === selectedGrade);
+    }
+    if (selectedStatus === 'unresolved') {
+      result = result.filter(t => !t.is_closed);
+    } else if (selectedStatus === 'autofail') {
+      result = result.filter(t => t.auto_fail);
     }
 
     // Sort
@@ -230,6 +253,16 @@ export default function AllChatsPage() {
               <option key={c} value={c}>{c}</option>
             ))}
           </select>
+
+          {/* Grade filter */}
+          <select
+            value={selectedGrade}
+            onChange={e => { setSelectedGrade(e.target.value); setPage(0); }}
+            className="px-3 py-2 bg-[#0D0D1A] border border-[#7B2D8B]/30 rounded-lg text-white text-sm focus:outline-none focus:border-[#E91E8C]"
+          >
+            <option value="all">All Grades</option>
+            {['A','B','C','D','F'].map(g => <option key={g} value={g}>Grade {g}</option>)}
+          </select>
         </div>
       </div>
 
@@ -274,8 +307,9 @@ export default function AllChatsPage() {
                     >
                       FRT <SortIcon field="frt" sortField={sortField} sortOrder={sortOrder} />
                     </th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Grade</th>
                     <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Closed</th>
-                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Recall</th>
+                    <th className="text-left py-3 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Flags</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-700/30">
@@ -289,16 +323,26 @@ export default function AllChatsPage() {
                       }`}
                       onClick={() => ticket.welly_conversation_id && router.push(`/chat/${ticket.welly_conversation_id}`)}
                     >
-                      <td className="py-3 px-4 text-sm text-slate-300">{formatDateTime(ticket.created_at)}</td>
-                      <td className="py-3 px-4 text-sm text-[#E91E8C]">{ticket.agent_name}</td>
+                      <td className="py-3 px-4 text-sm text-slate-300 whitespace-nowrap">{formatDateTime(ticket.created_at)}</td>
+                      <td className="py-3 px-4 text-sm text-[#E91E8C] font-semibold whitespace-nowrap">{ticket.agent_name}</td>
                       <td className="py-3 px-4 text-sm text-slate-300 truncate max-w-xs">{ticket.subject || '—'}</td>
-                      <td className="py-3 px-4 text-sm text-slate-400">{ticket.category}</td>
-                      <td className="py-3 px-4 text-sm text-slate-300">{formatFRT(ticket.frt_seconds)}</td>
+                      <td className="py-3 px-4 text-sm text-slate-400 whitespace-nowrap">{ticket.category}</td>
+                      <td className="py-3 px-4 text-sm text-slate-300 whitespace-nowrap">{formatFRT(ticket.frt_seconds)}</td>
+                      <td className="py-3 px-4 text-sm">
+                        {ticket.grade ? (
+                          <span style={{
+                            background: ticket.grade === 'A' ? 'rgba(0,200,130,0.15)' : ticket.grade === 'B' ? 'rgba(233,30,140,0.15)' : ticket.grade === 'C' ? 'rgba(255,214,0,0.15)' : ticket.grade === 'D' ? 'rgba(249,115,22,0.15)' : 'rgba(255,68,68,0.15)',
+                            color: ticket.grade === 'A' ? '#00C882' : ticket.grade === 'B' ? '#E91E8C' : ticket.grade === 'C' ? '#e6c200' : ticket.grade === 'D' ? '#f97316' : '#FF4444',
+                            padding: '2px 8px', borderRadius: 4, fontSize: 11, fontWeight: 700,
+                          }}>{ticket.grade} · {ticket.score ?? '—'}</span>
+                        ) : <span className="text-slate-600">—</span>}
+                      </td>
                       <td className="py-3 px-4 text-sm">{ticket.is_closed ? '✅' : '⏳'}</td>
-                      <td className="py-3 px-4 text-sm flex items-center gap-2">
-                        {ticket.has_recall ? '🔔' : ''}
+                      <td className="py-3 px-4 text-sm">
+                        {ticket.auto_fail && <span style={{ color:'#FF4444', fontWeight:700, fontSize:11, marginRight:4 }}>🚨</span>}
+                        {ticket.has_recall && <span style={{ color:'#f97316', fontSize:11, marginRight:4 }}>⚠️ Recall</span>}
                         {!ticket.welly_conversation_id && (
-                          <span className="px-2 py-1 rounded-full bg-slate-700/50 text-slate-400 text-xs font-medium">No transcript</span>
+                          <span className="px-2 py-0.5 rounded bg-slate-700/50 text-slate-400 text-xs">No transcript</span>
                         )}
                       </td>
                     </tr>
@@ -364,5 +408,13 @@ export default function AllChatsPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function AllChatsPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: 48, textAlign: 'center', color: 'var(--text-muted)' }}>Loading…</div>}>
+      <AllChatsInner />
+    </Suspense>
   );
 }

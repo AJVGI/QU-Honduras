@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, ReferenceLine,
@@ -70,21 +71,24 @@ function CardHead({ title, sub }: { title: string; sub?: string }) {
   );
 }
 
-function AlertRow({ icon, label, value, accent }: { icon: string; label: string; value: number; accent: string }) {
+function AlertRow({ icon, label, value, accent, href }: { icon: string; label: string; value: number; accent: string; href: string }) {
   return (
-    <div style={{
+    <Link href={href} style={{
       display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-      padding: '11px 14px', borderRadius: 8,
-      background: `${accent}0e`, border: `1px solid ${accent}22`,
-    }}>
+      padding: '11px 14px', borderRadius: 8, textDecoration: 'none', cursor: 'pointer',
+      background: `${accent}0e`, border: `1px solid ${accent}22`, transition: 'background 0.15s',
+    }}
+    onMouseEnter={e => (e.currentTarget.style.background = `${accent}1c`)}
+    onMouseLeave={e => (e.currentTarget.style.background = `${accent}0e`)}>
       <span style={{ color: `${accent}bb`, fontSize: 12, fontWeight: 500 }}>{icon} {label}</span>
       <span style={{ color: accent, fontSize: 20, fontWeight: 900 }}>{value}</span>
-    </div>
+    </Link>
   );
 }
 
 /* ─── Page ───────────────────────────────────────────────────────── */
 export default function DashboardPage() {
+  const router = useRouter();
   const [liveData,     setLiveData]    = useState<LiveStatus | null>(null);
   const [qaAgents,     setQaAgents]    = useState<QAAgent[]>([]);
   const [tickets,      setTickets]     = useState<TicketAlert[]>([]);
@@ -349,10 +353,13 @@ export default function DashboardPage() {
             <div style={{ padding: '0 18px 14px' }}>
               <div style={{ color: 'var(--text-muted)', fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: 7 }}>Grade Distribution</div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5 }}>
-                {(Object.entries(gradeDist) as [Grade, number][]).filter(([, v]) => v > 0).map(([g, c]) => (
-                  <div key={g} style={{ background: `${GRADE_COLOR[g]}18`, border: `1px solid ${GRADE_COLOR[g]}32`, color: GRADE_COLOR[g], padding: '2px 9px', borderRadius: 20, fontSize: 11, fontWeight: 700 }}>
+                {(Object.entries(gradeDist) as [string, number][]).filter(([, v]) => v > 0).map(([g, c]) => (
+                  <Link key={g} href={`/all-chats?grade=${g}`}
+                    style={{ background: `${GRADE_COLOR[g as Grade]}18`, border: `1px solid ${GRADE_COLOR[g as Grade]}32`, color: GRADE_COLOR[g as Grade], padding: '2px 9px', borderRadius: 20, fontSize: 11, fontWeight: 700, textDecoration: 'none', cursor: 'pointer' }}
+                    onMouseEnter={e => (e.currentTarget.style.opacity = '0.75')}
+                    onMouseLeave={e => (e.currentTarget.style.opacity = '1')}>
                     {g}: {c}
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -409,10 +416,10 @@ export default function DashboardPage() {
         <div className="jd-card glow-panel body-right">
           <CardHead title="Alerts & Flags" />
           <div style={{ padding: '14px', display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <AlertRow icon="🚨" label="Auto-Fails"     value={alerts.autoFails}  accent="#FF4444" />
-            <AlertRow icon="⚠️" label="Recalls"        value={alerts.recalls}    accent="#f97316" />
-            <AlertRow icon="⏱️" label="Slow FRT (>5m)" value={alerts.slowFrt}    accent="#FFD600" />
-            <AlertRow icon="❓" label="Unresolved"     value={alerts.unresolved} accent="#60a5fa" />
+            <AlertRow icon="🚨" label="Auto-Fails"     value={alerts.autoFails}  accent="#FF4444" href="/reports/autofails?filter=autofail" />
+            <AlertRow icon="⚠️" label="Recalls"        value={alerts.recalls}    accent="#f97316" href="/reports/autofails?filter=recall" />
+            <AlertRow icon="⏱️" label="Slow FRT (>5m)" value={alerts.slowFrt}    accent="#FFD600" href="/reports/autofails?filter=slowfrt" />
+            <AlertRow icon="❓" label="Unresolved"     value={alerts.unresolved} accent="#60a5fa" href="/all-chats?status=unresolved" />
           </div>
         </div>
       </div>

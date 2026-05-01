@@ -460,8 +460,10 @@ export async function POST(req: NextRequest) {
     const DOCX_MIME = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
 
     const uploadFile = async (path: string, buffer: Buffer) => {
-      // Convert Node Buffer → Blob so Supabase storage receives valid binary
-      const blob = new Blob([new Uint8Array(buffer)], { type: DOCX_MIME });
+      // Convert Node Buffer → Blob. Must copy the underlying ArrayBuffer correctly
+      // (Buffer may have byteOffset so we slice to get the exact bytes)
+      const ab = buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength) as ArrayBuffer;
+      const blob = new Blob([ab], { type: DOCX_MIME });
       const { error } = await supabase.storage
         .from('qa-reports')
         .upload(path, blob, {

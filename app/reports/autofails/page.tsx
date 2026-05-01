@@ -1,38 +1,43 @@
 'use client';
-import { useMemo, useEffect, useState } from 'react';
+import { useMemo, useEffect, useState, Suspense } from 'react';
+import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 
 interface Ticket {
   id: string;
+  welly_conversation_id: string | null;
   agent_name: string;
   subject: string;
   category: string;
   frt_seconds: number | null;
   is_closed: boolean;
   has_recall: boolean;
-  was_transferred: boolean;
+  auto_fail: boolean;
+  auto_fail_reason: string | null;
+  grade: string | null;
+  score: number | null;
   created_at: string;
   week_start: string;
 }
 
-export default function AutoFailsReport() {
+function AutoFailsInner() {
   const [allTickets, setAllTickets] = useState<Ticket[]>([]);
   const [loading, setLoading] = useState(true);
+  const searchParams = useSearchParams();
+  const filterParam = searchParams.get('filter') || 'autofail';
 
-  // Fetch tickets
   useEffect(() => {
     const fetchTickets = async () => {
       try {
         setLoading(true);
-        // Get the most recent week's data
         const weeksRes = await fetch('/api/data/weeks');
         const weeksData = await weeksRes.json();
         const weeks = weeksData.weeks || [];
-
         if (weeks.length > 0) {
           const weekStart = weeks[0].week_start;
-          const ticketsRes = await fetch(`/api/data/tickets?week_start=${weekStart}&limit=500&offset=0`);
-          const ticketsData = await ticketsRes.json();
-          setAllTickets(ticketsData.tickets || []);
+          const res = await fetch(`/api/data/tickets?week_start=${weekStart}&limit=2000`);
+          const data = await res.json();
+          setAllTickets(data.tickets || []);
         }
       } catch (err) {
         console.error('Error fetching tickets:', err);
@@ -43,97 +48,165 @@ export default function AutoFailsReport() {
     fetchTickets();
   }, []);
 
-  // Filter for flagged tickets
+  const FILTERS = [
+    { key: 'autofail', label: '🚨 Auto-Fails', color: '#FF4444' },
+    { key: 'recall',   label: '⚠️ Recalls',    color: '#f97316' },
+    { key: 'slowfrt',  label: '⏱️ Slow FRT',   color: '#FFD600' },
+    { key: 'all',      label: '📋 All Flags',   color: '#7B2D8B' },
+  ];
+
   const flaggedTickets = useMemo(() => {
     return allTickets
-      .filter(t => t.has_recall || (t.frt_seconds && t.frt_seconds > 300) || !t.is_closed)
-      .map(t => ({
-        ...t,
-        issueType: t.has_recall ? 'Recall' : (t.frt_seconds && t.frt_seconds > 300) ? 'Slow FRT' : 'Not Closed',
-      }))
+      .filter(t => {
+        if (filterParam === 'autofail') return t.auto_fail;
+        if (filterParam === 'recall')   return t.has_recall;
+        if (filterParam === 'slowfrt')  return (t.frt_seconds ?? 0) > 300;
+        // 'all'
+        return t.auto_fail || t.has_recall || (t.frt_seconds ?? 0) > 300;
+      })
+      .map(t => {
+        const tags: string[] = [];
+        if (t.auto_fail)                        tags.push('Auto-Fail');
+        if (t.has_recall)                        tags.push('Recall');
+        if ((t.frt_seconds ?? 0) > 300)          tags.push('Slow FRT');
+        return { ...t, tags };
+      })
       .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
-  }, [allTickets]);
+  }, [allTickets, filterParam]);
 
   // Group by agent
   const grouped = useMemo(() => {
     const byAgent = new Map<string, typeof flaggedTickets>();
     flaggedTickets.forEach(t => {
-      const current = byAgent.get(t.agent_name) || [];
-      current.push(t);
-      byAgent.set(t.agent_name, current);
+      const cur = byAgent.get(t.agent_name) || [];
+      cur.push(t);
+      byAgent.set(t.agent_name, cur);
     });
-
     return Array.from(byAgent.entries())
-      .map(([agentName, tickets]) => ({
-        agent_name: agentName,
-        count: tickets.length,
-        tickets,
-      }))
+      .map(([agent_name, tickets]) => ({ agent_name, count: tickets.length, tickets }))
       .sort((a, b) => b.count - a.count);
   }, [flaggedTickets]);
 
-  const formatDateTime = (ts: string) => {
+  const fmt = (ts: string) => {
     const d = new Date(ts);
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) +
-      ', ' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+      ' ' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
   };
 
-  const formatFRT = (seconds: number | null) => {
-    if (seconds === null) return 'N/A';
-    if (seconds < 60) return `${Math.round(seconds)}s`;
-    return `${(seconds / 60).toFixed(1)}m`;
+  const fmtFRT = (s: number | null) => {
+    if (s === null) return 'N/A';
+    if (s < 60) return `${Math.round(s)}s`;
+    return `${Math.floor(s/60)}m ${s%60}s`;
+  };
+
+  const TAG_STYLE: Record<string,{bg:string;color:string}> = {
+    'Auto-Fail': { bg:'rgba(255,68,68,0.15)',   color:'#FF4444' },
+    'Recall':    { bg:'rgba(249,115,22,0.15)',   color:'#f97316' },
+    'Slow FRT':  { bg:'rgba(255,214,0,0.15)',    color:'#e6c200' },
+  };
+
+  const GRADE_COLOR: Record<string,string> = {
+    A:'#00C882', B:'#E91E8C', C:'#FFD600', D:'#f97316', F:'#FF4444',
   };
 
   return (
-    <div className="space-y-6">
+    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px', display: 'flex', flexDirection: 'column', gap: 20 }}>
+
+      {/* Header */}
       <div>
-        <h1 className="text-2xl font-black text-white">🚨 Flag Report</h1>
-        <p className="text-slate-400 text-sm mt-1">Flagged tickets · Recalls, slow FRT (&gt;300s), or not closed</p>
+        <h1 style={{ color: '#fff', fontSize: 22, fontWeight: 900, margin: 0 }}>🚨 Auto-Flags</h1>
+        <p style={{ color: 'var(--text-muted)', fontSize: 13, marginTop: 4 }}>
+          Auto-fail violations, recalls, and slow FRT · Click any row to view transcript
+        </p>
+      </div>
+
+      {/* Filter tabs */}
+      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+        {FILTERS.map(f => (
+          <Link key={f.key} href={`/reports/autofails?filter=${f.key}`}
+            style={{
+              padding: '7px 16px', borderRadius: 8, fontSize: 13, fontWeight: 600,
+              textDecoration: 'none', transition: 'all 0.15s',
+              background: filterParam === f.key ? `${f.color}22` : 'var(--surface-card)',
+              border: `1px solid ${filterParam === f.key ? f.color : 'var(--border-default)'}`,
+              color: filterParam === f.key ? f.color : 'var(--text-muted)',
+            }}>
+            {f.label} {filterParam === f.key && <span style={{ marginLeft: 6, fontWeight: 900 }}>{flaggedTickets.length}</span>}
+          </Link>
+        ))}
       </div>
 
       {loading ? (
-        <div className="text-center py-12 text-slate-400">Loading tickets...</div>
+        <div style={{ textAlign: 'center', padding: '48px', color: 'var(--text-muted)' }}>Loading…</div>
       ) : grouped.length === 0 ? (
-        <div className="text-center py-20">
-          <div className="text-5xl mb-4">✅</div>
-          <div className="text-white font-semibold text-lg">No Flagged Tickets!</div>
-          <div className="text-slate-400 text-sm mt-2">Great job team — no auto-fail conditions triggered.</div>
+        <div style={{ textAlign: 'center', padding: '64px' }}>
+          <div style={{ fontSize: 48, marginBottom: 12 }}>✅</div>
+          <div style={{ color: '#fff', fontWeight: 700, fontSize: 16 }}>No flagged tickets</div>
+          <div style={{ color: 'var(--text-muted)', fontSize: 13, marginTop: 6 }}>Nothing to show for this filter.</div>
         </div>
       ) : (
-        <div className="space-y-6">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           {grouped.map(({ agent_name, count, tickets }) => (
-            <div key={agent_name} className="bg-[#1A1A2E] border border-red-500/30 rounded-xl overflow-hidden">
-              <div className="flex items-center justify-between gap-2 flex-wrap px-5 py-4 bg-red-900/10 border-b border-red-500/20">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center text-red-400 font-black text-sm">
-                    {count}
-                  </div>
-                  <span className="font-semibold text-white">{agent_name}</span>
+            <div key={agent_name} className="jd-card" style={{ borderColor: 'rgba(255,68,68,0.25)', overflow: 'hidden' }}>
+              {/* Agent header */}
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '12px 18px', background: 'rgba(255,68,68,0.06)', borderBottom: '1px solid rgba(255,68,68,0.15)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                  <div style={{ width: 30, height: 30, borderRadius: 8, background: 'rgba(255,68,68,0.18)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#FF4444', fontWeight: 900, fontSize: 13 }}>{count}</div>
+                  <Link href={`/all-chats?agent=${encodeURIComponent(agent_name)}`}
+                    style={{ color: '#fff', fontWeight: 700, fontSize: 14, textDecoration: 'none' }}
+                    onMouseEnter={e => (e.currentTarget.style.color = '#E91E8C')}
+                    onMouseLeave={e => (e.currentTarget.style.color = '#fff')}>
+                    {agent_name}
+                  </Link>
                 </div>
-                <span className="text-xs text-red-400 font-semibold">{count} flagged ticket{count !== 1 ? 's' : ''}</span>
+                <span style={{ color: '#FF4444', fontSize: 12, fontWeight: 600 }}>{count} flagged ticket{count !== 1 ? 's' : ''}</span>
               </div>
-              <div className="divide-y divide-slate-700/30">
+
+              {/* Ticket rows */}
+              <div>
                 {tickets.map((ticket, i) => (
-                  <div key={i} className="px-4 py-3 hover:bg-[#2D1B4E]/15 transition-colors">
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 mb-1 flex-wrap">
-                          <span className="text-xs text-slate-400 font-mono">{formatDateTime(ticket.created_at)}</span>
-                          <span className={`text-xs px-2 py-0.5 rounded font-medium ${
-                            ticket.issueType === 'Recall' ? 'bg-red-500/20 text-red-400' :
-                            ticket.issueType === 'Slow FRT' ? 'bg-yellow-500/20 text-yellow-400' :
-                            'bg-orange-500/20 text-orange-400'
-                          }`}>
-                            {ticket.issueType}
-                          </span>
+                  <div key={i}
+                    style={{ padding: '12px 18px', borderTop: i > 0 ? '1px solid var(--border-default)' : 'none', transition: 'background 0.12s', cursor: ticket.welly_conversation_id ? 'pointer' : 'default' }}
+                    onMouseEnter={e => { if (ticket.welly_conversation_id) e.currentTarget.style.background = 'rgba(233,30,140,0.06)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; }}
+                    onClick={() => ticket.welly_conversation_id && window.open(`/chat/${ticket.welly_conversation_id}`, '_blank')}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        {/* Tags */}
+                        <div style={{ display: 'flex', gap: 6, marginBottom: 6, flexWrap: 'wrap' }}>
+                          {ticket.tags.map(tag => (
+                            <span key={tag} style={{ ...TAG_STYLE[tag], padding: '2px 8px', borderRadius: 4, fontSize: 11, fontWeight: 700 }}>{tag}</span>
+                          ))}
+                          {ticket.grade && (
+                            <span style={{ background: `${GRADE_COLOR[ticket.grade]}18`, color: GRADE_COLOR[ticket.grade], padding: '2px 8px', borderRadius: 4, fontSize: 11, fontWeight: 700 }}>
+                              Grade {ticket.grade} · {ticket.score ?? '—'}
+                            </span>
+                          )}
                         </div>
-                        <div className="text-sm text-slate-300 truncate">{ticket.subject || '—'}</div>
-                        <div className="flex items-center gap-3 mt-1 text-xs text-slate-400">
+                        {/* Subject */}
+                        <div style={{ color: 'var(--text-primary)', fontSize: 13, fontWeight: 500, marginBottom: 4, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                          {ticket.subject || '(no subject)'}
+                        </div>
+                        {/* Auto-fail reason */}
+                        {ticket.auto_fail_reason && (
+                          <div style={{ color: '#FF4444', fontSize: 12, marginBottom: 4, background: 'rgba(255,68,68,0.08)', padding: '4px 8px', borderRadius: 4, border: '1px solid rgba(255,68,68,0.20)' }}>
+                            ⚡ {ticket.auto_fail_reason}
+                          </div>
+                        )}
+                        {/* Meta */}
+                        <div style={{ display: 'flex', gap: 12, fontSize: 11, color: 'var(--text-muted)', flexWrap: 'wrap' }}>
+                          <span>{fmt(ticket.created_at)}</span>
                           <span>{ticket.category}</span>
-                          <span>FRT: {formatFRT(ticket.frt_seconds)}</span>
+                          <span>FRT: {fmtFRT(ticket.frt_seconds)}</span>
                           <span>{ticket.is_closed ? '✅ Closed' : '⏳ Open'}</span>
                         </div>
                       </div>
+                      {/* Transcript link */}
+                      {ticket.welly_conversation_id && (
+                        <div style={{ flexShrink: 0, color: '#E91E8C', fontSize: 12, fontWeight: 600, whiteSpace: 'nowrap' }}>
+                          View Chat →
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}
@@ -143,5 +216,13 @@ export default function AutoFailsReport() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function AutoFailsPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: 48, textAlign: 'center', color: 'var(--text-muted)' }}>Loading…</div>}>
+      <AutoFailsInner />
+    </Suspense>
   );
 }
