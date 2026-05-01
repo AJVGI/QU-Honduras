@@ -33,32 +33,25 @@ export async function GET() {
       });
     }
 
-    // Build signed URLs for each run's files
-    const reports = await Promise.all(
-      runs.map(async (run) => {
-        const paths: Record<string, string> = run.storage_paths || {};
-        const signedUrls: Record<string, string> = {};
+    // Build proxy download URLs (never expose signed URLs directly — they expire and break Word)
+    const reports = runs.map((run) => {
+      const paths: Record<string, string> = run.storage_paths || {};
+      const proxyUrls: Record<string, string> = {};
 
-        for (const [key, storagePath] of Object.entries(paths)) {
-          const { data: signed, error: signErr } = await supabase.storage
-            .from('qa-reports')
-            .createSignedUrl(storagePath as string, 3600); // 1 hour
+      for (const [key, storagePath] of Object.entries(paths)) {
+        // Route through our download proxy — streams bytes with correct Content-Type
+        proxyUrls[key] = `/api/pipeline/download?path=${encodeURIComponent(storagePath)}`;
+      }
 
-          if (!signErr && signed?.signedUrl) {
-            signedUrls[key] = signed.signedUrl;
-          }
-        }
-
-        return {
-          id: run.id,
-          label: run.period_label,
-          generated_at: run.completed_at || run.created_at,
-          total_tickets: run.total_tickets,
-          agent_count: run.agent_count,
-          files: signedUrls,
-        };
-      })
-    );
+      return {
+        id: run.id,
+        label: run.period_label,
+        generated_at: run.completed_at || run.created_at,
+        total_tickets: run.total_tickets,
+        agent_count: run.agent_count,
+        files: proxyUrls,
+      };
+    });
 
     return NextResponse.json({
       ok: true,

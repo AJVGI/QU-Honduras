@@ -457,11 +457,15 @@ export async function POST(req: NextRequest) {
     const timestamp = Date.now();
     const periodKey = periodLabel.replace(/[\s,]/g, '_');
 
+    const DOCX_MIME = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+
     const uploadFile = async (path: string, buffer: Buffer) => {
+      // Convert Node Buffer → Blob so Supabase storage receives valid binary
+      const blob = new Blob([new Uint8Array(buffer)], { type: DOCX_MIME });
       const { error } = await supabase.storage
         .from('qa-reports')
-        .upload(path, buffer, {
-          contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        .upload(path, blob, {
+          contentType: DOCX_MIME,
           upsert: true,
         });
       if (error) throw new Error(`Upload failed for ${path}: ${error.message}`);
