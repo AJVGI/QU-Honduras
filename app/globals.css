@@ -41,3 +41,72 @@ body {
 .glow-pink { box-shadow: 0 0 20px rgba(233, 30, 140, 0.25); }
 .glow-gold  { box-shadow: 0 0 20px rgba(255, 214, 0, 0.20); }
 .glow-green { box-shadow: 0 0 20px rgba(0, 200, 130, 0.20); }
+
+/* ── Ambient Glow System ─────────────────────────────────────────── */
+
+/* Stat card glows — color matches the metric type */
+.glow-active {
+  box-shadow: 0 0 30px rgba(0, 200, 130, 0.18), 0 0 8px rgba(0, 200, 130, 0.08);
+  border-color: rgba(0, 200, 130, 0.25) !important;
+}
+.glow-idle {
+  box-shadow: 0 0 30px rgba(255, 214, 0, 0.15), 0 0 8px rgba(255, 214, 0, 0.07);
+  border-color: rgba(255, 214, 0, 0.20) !important;
+}
+.glow-chats {
+  box-shadow: 0 0 30px rgba(233, 30, 140, 0.18), 0 0 8px rgba(233, 30, 140, 0.08);
+  border-color: rgba(233, 30, 140, 0.25) !important;
+}
+.glow-qa {
+  box-shadow: 0 0 30px rgba(123, 45, 139, 0.30), 0 0 8px rgba(123, 45, 139, 0.12);
+  border-color: rgba(123, 45, 139, 0.35) !important;
+}
+
+/* Panel glow — subtle purple ambient for main panels */
+.glow-panel {
+  box-shadow: 0 0 40px rgba(123, 45, 139, 0.12), 0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* Top performers highlight */
+.glow-performer {
+  box-shadow: 0 0 20px rgba(233, 30, 140, 0.12);
+  border-color: rgba(233, 30, 140, 0.20) !important;
+}
+
+/* Grade badge glows */
+.glow-grade-a { box-shadow: 0 0 12px rgba(16, 185, 129, 0.50); }
+.glow-grade-b { box-shadow: 0 0 12px rgba(20, 184, 166, 0.45); }
+.glow-grade-c { box-shadow: 0 0 12px rgba(234, 179, 8, 0.45); }
+.glow-grade-d { box-shadow: 0 0 12px rgba(249, 115, 22, 0.45); }
+.glow-grade-f { box-shadow: 0 0 12px rgba(239, 68, 68, 0.50); }
+
+/* Nav active item glow */
+.nav-active-glow {
+  box-shadow: inset 3px 0 0 #E91E8C, 0 0 16px rgba(233, 30, 140, 0.15);
+}
+
+/* Reports Hub card glow */
+.glow-report {
+  box-shadow: 0 0 35px rgba(123, 45, 139, 0.20), 0 4px 20px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease;
+}
+.glow-report:hover {
+  box-shadow: 0 0 50px rgba(233, 30, 140, 0.25), 0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* Chat bubble glows */
+.glow-agent-msg {
+  box-shadow: 0 0 16px rgba(123, 45, 139, 0.25);
+}
+.glow-client-msg {
+  box-shadow: 0 0 10px rgba(255,255,255,0.04);
+}
+
+/* Pulsing indicator for live/active */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(0, 200, 130, 0.6); }
+  50%       { box-shadow: 0 0 18px rgba(0, 200, 130, 0.9); }
+}
+.glow-live {
+  animation: glow-pulse 2s ease-in-out infinite;
+}

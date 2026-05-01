@@ -259,7 +259,7 @@ export default function ChatDetailPage() {
                     <div
                       className={`flex-1 max-w-[70%] rounded-lg p-3 ${
                         msg.sender === 'agent'
-                          ? 'bg-[#7B2D8B]/30 text-slate-100 text-right'
+                          ? 'bg-[#7B2D8B]/30 text-slate-100 text-right glow-agent-msg'
                           : msg.sender === 'bot'
                           ? 'bg-slate-800/50 text-slate-400 text-center text-xs max-w-full'
                           : 'bg-slate-800/50 text-slate-100'

@@ -20,7 +20,7 @@ function NavLink({ href, icon, label, onClick }: { href: string; icon: string; l
     <Link href={href} onClick={onClick}
       className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all ${
         active
-          ? 'bg-[#E91E8C]/15 text-[#E91E8C] font-semibold border border-[#E91E8C]/25'
+          ? 'bg-[#E91E8C]/15 text-[#E91E8C] font-semibold border border-[#E91E8C]/25 nav-active-glow'
           : 'text-slate-400 hover:bg-[#2D1B4E]/60 hover:text-white border border-transparent'
       }`}>
       <span>{icon}</span>{label}

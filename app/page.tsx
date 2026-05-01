@@ -42,11 +42,11 @@ interface QAAgent {
   tickets: number;
 }
 
-function StatCard({ label, value, sub, icon, color }: {
-  label: string; value: string | number; sub?: string; icon: string; color?: string;
+function StatCard({ label, value, sub, icon, color, glow }: {
+  label: string; value: string | number; sub?: string; icon: string; color?: string; glow?: string;
 }) {
   return (
-    <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+    <div className={`bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5 ${glow || ''}`}>
       <div className="flex items-start gap-3">
         <span className="text-2xl">{icon}</span>
         <div className="flex-1">
@@ -199,32 +199,10 @@ export default function DashboardPage() {
 
       {/* Top Stats Row (4 tiles) */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <StatCard
-          label="Active Now"
-          value={liveData?.summary.activeAgents ?? 0}
-          sub="handling chats"
-          icon="🟢"
-          color="#4ade80"
-        />
-        <StatCard
-          label="Idle"
-          value={liveData?.summary.idleAgents ?? 0}
-          sub="last chat 15m–2h ago"
-          icon="🟡"
-          color="#fbbf24"
-        />
-        <StatCard
-          label="This Week"
-          value={qaAgents.length > 0 ? qaAgents.reduce((sum, a) => sum + a.tickets, 0).toLocaleString() : 'N/A'}
-          sub="total tickets sampled"
-          icon="💬"
-        />
-        <StatCard
-          label="QA Agents"
-          value={qaAgents.length}
-          sub="with data this week"
-          icon="📊"
-        />
+        <StatCard label="Active Now" value={liveData?.summary.activeAgents ?? 0} sub="handling chats" icon="🟢" color="#4ade80" glow="glow-active" />
+        <StatCard label="Idle" value={liveData?.summary.idleAgents ?? 0} sub="15m–2h inactive" icon="🟡" color="#fbbf24" glow="glow-idle" />
+        <StatCard label="This Week" value={qaAgents.length > 0 ? qaAgents.reduce((sum, a) => sum + a.tickets, 0).toLocaleString() : 'N/A'} sub="total tickets" icon="💬" color="#E91E8C" glow="glow-chats" />
+        <StatCard label="QA Agents" value={qaAgents.length} sub="with data this week" icon="📊" glow="glow-qa" />
       </div>
 
       {/* Two-column layout: Live Status (60%) + QA Summary (40%) */}
@@ -232,7 +210,7 @@ export default function DashboardPage() {
         
         {/* Left: Live Agent Status Table (60% = 2 cols) */}
         <div className="lg:col-span-2">
-          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl overflow-hidden glow-panel">
             <div className="p-4 border-b border-[#7B2D8B]/20">
               <h2 className="text-sm font-semibold text-slate-300">Live Agent Status</h2>
               <p className="text-xs text-slate-500 mt-1">Real-time from WellyTalk · Refreshes every 30 seconds</p>
@@ -291,7 +269,7 @@ export default function DashboardPage() {
         {/* Right: QA Summary (40% = 1 col) */}
         <div className="space-y-4">
           {/* Team KPIs */}
-          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 glow-panel">
             <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Team KPIs</h2>
             <div className="space-y-2">
               <div className="flex items-center justify-between">
@@ -306,7 +284,7 @@ export default function DashboardPage() {
           </div>
 
           {/* Top 5 Agents */}
-          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 glow-panel">
             <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Top Performers</h2>
             <div className="space-y-2">
               {topAgents.map((agent, i) => (
@@ -323,7 +301,7 @@ export default function DashboardPage() {
           </div>
 
           {/* Bottom 3 Agents */}
-          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4">
+          <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-4 glow-panel">
             <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Needing Attention</h2>
             <div className="space-y-2">
               {bottomAgents.map((agent, i) => (
@@ -348,7 +326,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Weekly Trend Chart */}
-      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5">
+      <div className="bg-[#1A1A2E] border border-[#7B2D8B]/20 rounded-xl p-5 glow-panel">
         <h2 className="text-sm font-semibold text-slate-300 mb-4">Weekly Score Trend</h2>
         <ResponsiveContainer width="100%" height={200}>
           <LineChart data={weeklyTrend}>
