@@ -199,15 +199,15 @@ export default function DashboardPage() {
           color="#fbbf24"
         />
         <StatCard
-          label="Today's Chats"
-          value={liveData?.summary.chatsToday ?? 0}
-          sub="from WellyTalk"
+          label="This Week"
+          value={qaAgents.length > 0 ? qaAgents.reduce((sum, a) => sum + a.tickets, 0).toLocaleString() : 'N/A'}
+          sub="total tickets sampled"
           icon="💬"
         />
         <StatCard
-          label="This Week's Tickets"
-          value={qaAgents.reduce((sum, a) => sum + a.tickets, 0).toLocaleString()}
-          sub="all agents"
+          label="QA Agents"
+          value={qaAgents.length}
+          sub="with data this week"
           icon="📊"
         />
       </div>

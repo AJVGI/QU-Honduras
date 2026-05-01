@@ -81,6 +81,16 @@ interface SampledTicket {
   wasTransferred: boolean;
 }
 
+interface WellyMessage {
+  message_id: string;
+  conversation_id: string;
+  sender_id: string;
+  source_type: number;
+  content: unknown;
+  recall_info: unknown;
+  created_at: number;
+}
+
 // ─── Reference Data (Embedded Constants) ───────────────────────────────────
 
 const SYSTEM_PROMPT = `# SYSTEM PROMPT — JackpotDaily QA Report Analyst
@@ -268,6 +278,58 @@ async function getToken(): Promise<string> {
 
 async function sleep(ms: number) {
   return new Promise(r => setTimeout(r, ms));
+}
+
+async function fetchTranscript(conversationId: string, token: string): Promise<string> {
+  try {
+    const url = `https://api.stacktech.org/backend/cs-agent/v1/conversation/histories?last_message_id=0&limit=100&direction=previous&conversation_ids=%5B${conversationId}%5D`;
+    const res = await fetch(url, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'x-company-id': '3046',
+        'content-type': 'application/json',
+      },
+    });
+    const data = await res.json() as { code: number; data: { items: WellyMessage[] } };
+    if (data.code !== 0) return '';
+    
+    const items = data.data?.items || [];
+    const lines: string[] = [];
+    
+    for (const msg of items) {
+      const isBot = String(msg.sender_id) === '-2147483648';
+      const isAgent = msg.source_type === 1 && !isBot;
+      const isClient = msg.source_type === 0 && !isBot;
+      
+      const content = msg.content;
+      let text = '';
+      if (typeof content === 'object' && content !== null) {
+        const c = content as Record<string, unknown>;
+        text = (c.body_content as string) || (c.text as string) || (c.message as string) || '';
+      }
+      
+      // Strip HTML tags
+      text = text.replace(/<[^>]+>/g, '').trim();
+      if (!text) continue;
+      
+      const recalled = (msg.recall_info as Record<string, unknown>)?.recall_at ? ' [RECALLED]' : '';
+      
+      if (isBot) {
+        // Only include important bot messages, skip system events
+        if (text.includes('Welcome') || text.includes('received')) {
+          lines.push(`[BOT]: ${text}`);
+        }
+      } else if (isAgent) {
+        lines.push(`[AGENT]${recalled}: ${text}`);
+      } else if (isClient) {
+        lines.push(`[CLIENT]: ${text}`);
+      }
+    }
+    
+    return lines.join('\n');
+  } catch {
+    return '';
+  }
 }
 
 async function getAllChatRecords(fromDate: number, toDate: number): Promise<any[]> {
@@ -686,71 +748,63 @@ export async function POST(req: Request) {
       const tickets: Ticket[] = chatRecords.map(chat => parseTicketFromList(chat));
       console.log(`[Pipeline] Parsed ${tickets.length} tickets`);
 
-      // Fetch detail for a sample (up to 50) to get subjects + FRT
+      // Fetch detail for a sample (up to 50) to get subjects + FRT + transcripts
       const sampleIds = tickets
         .filter(t => t.isClosed)
         .slice(0, 50)
         .map(t => t.id);
-      const detailMap = new Map<string, Ticket>();
+      
+      const token = await getToken();
+      const detailMapWithTranscripts = new Map<string, {ticket: Ticket; transcript: string}>();
+      
       for (const id of sampleIds) {
         try {
           const detail = await getConversationDetail(id);
-          detailMap.set(id, parseTicket(detail));
+          const ticket = parseTicket(detail);
+          const fullTranscript = await fetchTranscript(id, token);
           await sleep(20);
+          
+          // Build fallback transcript from detail
+          let transcript = fullTranscript;
+          if (!transcript) {
+            // Fallback to building transcript from detail
+            const lines: string[] = [];
+            const preChatInfo = detail.pre_chat_info as Array<{type: string; title: string; value: string[]}> | undefined;
+            if (preChatInfo) {
+              for (const field of preChatInfo) {
+                const val = field.value?.[0] || '';
+                const title = (field.title || '').replace(/<[^>]*>/g, '').trim();
+                if (val && title) lines.push(`${title} ${val}`);
+              }
+            }
+            const participants = detail.participants as Array<{source_type: string; name: string; nick_name: string}> | undefined;
+            const agent = participants?.find(p => p.source_type === 'INTERNAL');
+            if (agent) lines.push(`Agent: ${agent.name} (alias: ${agent.nick_name || agent.name})`);
+            const stats = detail.stats as {first_response_time?: number; average_response_time?: number} | undefined;
+            if (stats) {
+              if (stats.first_response_time) lines.push(`First Response Time: ${stats.first_response_time}s`);
+              if (stats.average_response_time) lines.push(`Avg Response Time: ${stats.average_response_time}s`);
+            }
+            const lastMsg = detail.last_message as {content?: {body_content?: string}; source_type?: number} | undefined;
+            const lastContent = lastMsg?.content?.body_content || '';
+            if (lastContent) {
+              const sender = lastMsg?.source_type === 1 ? 'Agent' : 'Client';
+              lines.push(`Last message (${sender}): ${lastContent}`);
+            }
+            lines.push(`Status: ${detail.status}`);
+            transcript = lines.join('\n');
+          }
+          
+          detailMapWithTranscripts.set(id, { ticket, transcript });
         } catch { /* skip */ }
       }
-      // Merge detail data into tickets where available
-      const mergedTickets = tickets.map(t => detailMap.get(t.id) || t);
-
-      // Build transcripts for detailed tickets
-      const buildTranscript = (detail: any): string => {
-        const lines: string[] = [];
-        
-        // Add pre-chat info (subject, email)
-        const preChatInfo = detail.pre_chat_info as Array<{type: string; title: string; value: string[]}> | undefined;
-        if (preChatInfo) {
-          for (const field of preChatInfo) {
-            const val = field.value?.[0] || '';
-            const title = (field.title || '').replace(/<[^>]*>/g, '').trim();
-            if (val && title) lines.push(`${title} ${val}`);
-          }
-        }
-        
-        // Add participants
-        const participants = detail.participants as Array<{source_type: string; name: string; nick_name: string}> | undefined;
-        const agent = participants?.find(p => p.source_type === 'INTERNAL');
-        if (agent) lines.push(`Agent: ${agent.name} (alias: ${agent.nick_name || agent.name})`);
-        
-        // Add stats
-        const stats = detail.stats as {first_response_time?: number; average_response_time?: number} | undefined;
-        if (stats) {
-          if (stats.first_response_time) lines.push(`First Response Time: ${stats.first_response_time}s`);
-          if (stats.average_response_time) lines.push(`Avg Response Time: ${stats.average_response_time}s`);
-        }
-        
-        // Add last message
-        const lastMsg = detail.last_message as {content?: {body_content?: string}; source_type?: number} | undefined;
-        const lastContent = lastMsg?.content?.body_content || '';
-        if (lastContent) {
-          const sender = lastMsg?.source_type === 1 ? 'Agent' : 'Client';
-          lines.push(`Last message (${sender}): ${lastContent}`);
-        }
-        
-        // Status
-        lines.push(`Status: ${detail.status}`);
-        
-        return lines.join('\n');
-      };
       
-      // Store transcript with detail map - we already have the tickets from detailMap
-      const detailMapWithTranscripts = new Map<string, {ticket: Ticket; transcript: string}>();
-      for (const [id, ticket] of detailMap) {
-        try {
-          const rawDetail = await getConversationDetail(id);
-          const transcript = buildTranscript(rawDetail);
-          detailMapWithTranscripts.set(id, { ticket, transcript });
-        } catch { /* skip if detail fetch fails */ }
+      // Merge detail data into tickets where available
+      const detailMap = new Map<string, Ticket>();
+      for (const [id, data] of detailMapWithTranscripts) {
+        detailMap.set(id, data.ticket);
       }
+      const mergedTickets = tickets.map(t => detailMap.get(t.id) || t);
 
       // Compute KPIs
       const aggregates = computeAggregates(mergedTickets);
@@ -778,7 +832,7 @@ export async function POST(req: Request) {
           has_recall: t.hasRecall,
           was_transferred: t.wasTransferred,
           last_message_content: t.lastMessageContent.slice(0, 500),
-          transcript: detailData?.transcript || null,
+          transcript: detailData?.transcript?.slice(0, 5000) || null,
           score: null,
           grade: null,
           auto_fail: false,
