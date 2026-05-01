@@ -12,6 +12,7 @@ export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { put } from '@vercel/blob';
 import { Document, Packer, Paragraph, TextRun } from 'docx';
+import { createClient } from '@supabase/supabase-js';
 
 import { fetchAllChatRecordsForPeriod, fetchConversationDetail } from '../wellytalk-client';
 import {
@@ -27,6 +28,10 @@ import {
 } from '../parser';
 import { Ticket, PipelineReport, ReportIndex, WellyChat } from '../types';
 import { SYSTEM_PROMPT, getAgentDisplayName } from '../reference-data';
+
+const MAX_GRADED = 150; // Increased from 30
+const BATCH_SIZE = 5; // Grade 5 at a time
+const BATCH_DELAY_MS = 300; // 300ms pause between batches
 
 function getPeriodLabel(startDate: Date, endDate: Date): string {
   const fmt = (d: Date) => {
@@ -78,6 +83,106 @@ function createSimpleDocx(title: string, content: string): Promise<Buffer> {
   return Packer.toBuffer(doc);
 }
 
+// Priority-based ticket selection for grading
+function selectTicketsToGrade(tickets: Ticket[], maxToGrade: number): Ticket[] {
+  const alreadyGraded = new Set(tickets.filter(t => t.grade).map(t => t.id));
+  const ungraded = tickets.filter(t => !alreadyGraded.has(t.id) && t.welly_conversation_id);
+  
+  const recalls = ungraded.filter(t => t.has_recall);
+  const slowFrt = ungraded.filter(t => !recalls.includes(t) && (t.frt_seconds || 0) > 300);
+  const unresolved = ungraded.filter(t => !recalls.includes(t) && !slowFrt.includes(t) && !t.is_closed);
+  const rest = ungraded.filter(t => !recalls.includes(t) && !slowFrt.includes(t) && t.is_closed);
+  
+  // Shuffle rest for random sampling (Fisher-Yates)
+  for (let i = rest.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [rest[i], rest[j]] = [rest[j], rest[i]];
+  }
+  
+  return [...recalls, ...slowFrt, ...unresolved, ...rest].slice(0, maxToGrade);
+}
+
+// Grade a single ticket using OpenRouter Haiku
+async function gradeTicket(ticket: Ticket, messages: Array<{content: string}>): Promise<{
+  score: number;
+  grade: string;
+  auto_fail: boolean;
+  auto_fail_reason: string | null;
+  coaching_tip: string;
+  strengths: string[];
+  issues: string[];
+}> {
+  const conversation = messages.map(m => m.content || '').join('\n');
+  const prompt = `You are a QA grader for customer service interactions. Grade this conversation on a scale of 0-100.
+
+Conversation:
+${conversation.slice(0, 5000)}
+
+Provide response in JSON format:
+{
+  "score": <0-100>,
+  "grade": "A"|"B"|"C"|"D"|"F",
+  "auto_fail": <boolean>,
+  "auto_fail_reason": <null or string>,
+  "coaching_tip": <string>,
+  "strengths": [<strings>],
+  "issues": [<strings>]
+}`;
+
+  try {
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: 'anthropic/claude-haiku-4-5',
+        messages: [
+          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'user', content: prompt },
+        ],
+        temperature: 0.5,
+        max_tokens: 500,
+      }),
+    });
+
+    if (!response.ok) {
+      console.error(`[Grading] OpenRouter error: ${response.status}`);
+      throw new Error(`OpenRouter returned ${response.status}`);
+    }
+
+    const data = await response.json() as { choices: Array<{ message: { content: string } }> };
+    const content = data.choices[0]?.message?.content || '{}';
+    
+    // Extract JSON from response
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    const parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+
+    return {
+      score: parsed.score || 50,
+      grade: parsed.grade || 'C',
+      auto_fail: parsed.auto_fail || false,
+      auto_fail_reason: parsed.auto_fail_reason || null,
+      coaching_tip: parsed.coaching_tip || 'See agent for feedback',
+      strengths: parsed.strengths || [],
+      issues: parsed.issues || [],
+    };
+  } catch (e) {
+    console.error(`[Grading] Error grading ticket ${ticket.id}:`, e);
+    // Return default on error
+    return {
+      score: 50,
+      grade: 'C',
+      auto_fail: false,
+      auto_fail_reason: null,
+      coaching_tip: 'Unable to grade due to processing error',
+      strengths: [],
+      issues: [],
+    };
+  }
+}
+
 async function callLLMAnalysis(data: PipelineReport): Promise<{
   qa_report: Record<string, unknown>;
   inquiry_report: Record<string, unknown>;
@@ -127,6 +232,12 @@ export async function POST(req: NextRequest) {
 
     console.log(`[Pipeline] Starting run for period: ${periodLabel} (${fromDate} - ${toDate})`);
 
+    // Initialize Supabase client
+    const supabase = createClient(
+      process.env.SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_KEY!
+    );
+
     // 1. Fetch all chats from WellyTalk
     console.log('[Pipeline] Fetching chat records...');
     const chats = await fetchAllChatRecordsForPeriod(fromDate, toDate);
@@ -167,6 +278,9 @@ export async function POST(req: NextRequest) {
           visitorName
         );
 
+        // Store messages for later grading
+        (ticket as any).welly_messages = messages;
+
         tickets.push(ticket);
       } catch (e) {
         console.warn(`Failed to parse ticket ${chat.conversation_id}:`, e);
@@ -176,18 +290,82 @@ export async function POST(req: NextRequest) {
 
     console.log(`[Pipeline] Parsed ${tickets.length} tickets, skipped ${skipped}`);
 
-    // 3. Compute aggregates
+    // 3. GRADING: Select tickets to grade using smart priority sampling
+    console.log('[Pipeline] Starting smart priority grading...');
+    const ticketsToGrade = selectTicketsToGrade(tickets, MAX_GRADED);
+    console.log(`[Pipeline] Selected ${ticketsToGrade.length} tickets for grading`);
+
+    let gradedCount = 0;
+    let gradeFailures = 0;
+
+    // Grade in batches
+    for (let i = 0; i < ticketsToGrade.length; i += BATCH_SIZE) {
+      const batch = ticketsToGrade.slice(i, i + BATCH_SIZE);
+      const batchNum = Math.floor(i / BATCH_SIZE) + 1;
+      const totalBatches = Math.ceil(ticketsToGrade.length / BATCH_SIZE);
+
+      console.log(`[Pipeline] Grading batch ${batchNum}/${totalBatches} (${batch.length} tickets)...`);
+
+      const gradePromises = batch.map(async ticket => {
+        try {
+          const messages = (ticket as any).welly_messages || [];
+          const grading = await gradeTicket(ticket, messages);
+
+          // Store grade in Supabase
+          const { error } = await supabase
+            .from('pipeline_tickets')
+            .upsert(
+              {
+                welly_conversation_id: ticket.welly_conversation_id,
+                week_start: startDate.toISOString(),
+                score: grading.score,
+                grade: grading.grade,
+                auto_fail: grading.auto_fail,
+                auto_fail_reason: grading.auto_fail_reason,
+                coaching_tip: grading.coaching_tip,
+                strengths: grading.strengths,
+                issues: grading.issues,
+                transcript: messages.map(m => m.content).join('\n').slice(0, 10000),
+                updated_at: new Date().toISOString(),
+              },
+              { onConflict: 'welly_conversation_id' }
+            );
+
+          if (error) {
+            console.error(`[Grading] Failed to store grade for ${ticket.id}:`, error);
+            gradeFailures++;
+          } else {
+            gradedCount++;
+            console.log(`[Grading] Graded ${ticket.id}: ${grading.grade} (${grading.score})`);
+          }
+        } catch (e) {
+          console.error(`[Grading] Error processing ticket ${ticket.id}:`, e);
+          gradeFailures++;
+        }
+      });
+
+      await Promise.all(gradePromises);
+
+      // Delay between batches
+      if (i + BATCH_SIZE < ticketsToGrade.length) {
+        await new Promise(resolve => setTimeout(resolve, BATCH_DELAY_MS));
+      }
+    }
+
+    console.log(`[Pipeline] Grading complete: ${gradedCount} graded, ${gradeFailures} failed`);
+
+    // 4. Compute aggregates
     const teamAggregates = computeAggregates(tickets);
     const perAgentStats = computePerAgent(tickets);
     const inquiryCategories = computeInquiryCategories(tickets);
 
-    // 4. Sample tickets per agent
+    // 5. Sample tickets per agent
     const sampledTickets: Record<string, Ticket[]> = {};
     for (const agent of perAgentStats) {
       sampledTickets[agent.agent] = sampleTicketsForAgent(tickets, agent.agent, 7);
     }
 
-    // 5. Build report data
+    // 6. Build report data
     const report: PipelineReport = {
       period_label: periodLabel,
       period_start: startDate.toISOString(),
@@ -199,11 +377,11 @@ export async function POST(req: NextRequest) {
       sampled_tickets: sampledTickets,
     };
 
-    // 6. Call LLM for analysis (stub for now)
+    // 7. Call LLM for analysis (stub for now)
     console.log('[Pipeline] Calling LLM for analysis...');
     const analysis = await callLLMAnalysis(report);
 
-    // 7. Generate docx reports
+    // 8. Generate docx reports
     console.log('[Pipeline] Generating reports...');
     const qaReportBuffer = await createSimpleDocx(
       `QA Report - ${periodLabel}`,
@@ -218,7 +396,7 @@ export async function POST(req: NextRequest) {
       JSON.stringify(analysis.agent_report, null, 2)
     );
 
-    // 8. Upload to Vercel Blob
+    // 9. Upload to Vercel Blob
     console.log('[Pipeline] Uploading reports to Vercel Blob...');
     const timestamp = Date.now();
     const periodKey = periodLabel.replace(/[\s,]/g, '_');
@@ -235,7 +413,7 @@ export async function POST(req: NextRequest) {
 
     console.log('[Pipeline] Uploaded:', qaUrl, inquiryUrl, agentUrl);
 
-    // 9. Update index
+    // 10. Update index
     let index: ReportIndex = { periods: [], last_updated: new Date().toISOString() };
     try {
       const indexBlob = await fetch('https://blob.vercelusercontent.com/reports/index.json');
@@ -271,6 +449,11 @@ export async function POST(req: NextRequest) {
       ok: true,
       period: periodLabel,
       files: [qaUrl.url, inquiryUrl.url, agentUrl.url],
+      grading: {
+        tickets_graded: gradedCount,
+        tickets_failed: gradeFailures,
+        total_selected: ticketsToGrade.length,
+      },
       metrics: {
         total_tickets: teamAggregates.total_tickets,
         avg_frt_seconds: teamAggregates.avg_frt_seconds.toFixed(1),
