@@ -43,6 +43,7 @@ export interface WellyMessage {
 
 export interface Ticket {
   id: string;
+  welly_conversation_id?: string;
   visitor: string;
   agents: string[];
   primary_agent: string | null;
@@ -59,6 +60,11 @@ export interface Ticket {
   recall_count: number;
   is_slow_frt: boolean;
   is_bot_abandoned: boolean;
+  is_closed?: boolean;
+  grade?: string;
+  score?: number;
+  auto_fail?: boolean;
+  coaching_tip?: string;
 }
 
 export interface AgentStats {

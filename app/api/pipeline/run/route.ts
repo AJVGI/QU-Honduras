@@ -103,7 +103,7 @@ function selectTicketsToGrade(tickets: Ticket[], maxToGrade: number): Ticket[] {
 }
 
 // Grade a single ticket using OpenRouter Haiku
-async function gradeTicket(ticket: Ticket, messages: Array<{content: string}>): Promise<{
+async function gradeTicket(ticket: Ticket, messages: Array<{content?: string}>): Promise<{
   score: number;
   grade: string;
   auto_fail: boolean;
@@ -325,7 +325,7 @@ export async function POST(req: NextRequest) {
                 coaching_tip: grading.coaching_tip,
                 strengths: grading.strengths,
                 issues: grading.issues,
-                transcript: messages.map(m => m.content).join('\n').slice(0, 10000),
+                transcript: messages.map((m: any) => m.content).join('\n').slice(0, 10000),
                 updated_at: new Date().toISOString(),
               },
               { onConflict: 'welly_conversation_id' }
