@@ -102,7 +102,53 @@ function selectTicketsToGrade(tickets: Ticket[], maxToGrade: number): Ticket[] {
   return [...recalls, ...slowFrt, ...unresolved, ...rest].slice(0, maxToGrade);
 }
 
-// Grade a single ticket using OpenRouter Haiku
+// ─── JackpotDaily-specific grading system prompt ─────────────────────────────
+const TICKET_GRADING_SYSTEM = `You are a QA analyst for JackpotDaily, a US sweepstakes/social casino platform.
+You grade individual customer support chat transcripts against JackpotDaily-specific standards.
+
+## PLATFORM FACTS (source of truth — any agent statement contradicting these is a factual error)
+- Redemption max: $2,500 per transaction/day (NOT $1,000 or $5,000)
+- Redemption minimum play-through: 100 SC (NOT 1,000 SC)
+- Debit card timeline: 1-3 business days (NOT 24-48 hours)
+- ACH/bank transfer: up to 10 business days (NOT 3-5 days)
+- Daily login bonus: FREE, no purchase required (agents commonly and incorrectly say it requires $10+ purchase)
+- Referral threshold: $30 cumulative qualifying purchases (NOT $70)
+- Welcome bonus: 2 SC + 100,000 GC + Golden Egg (up to 100 SC) — NOT "$25-30 cash"
+- W-9 required for $600+ lifetime redemptions
+- Weekend processing: NO (redemptions not processed Sat/Sun)
+- KYC timeline: minutes to ~1 hour (NOT 10 days)
+- GC (Gold Coins) = free play only, NOT redeemable for cash
+- SC (Sweepstakes Coins) = redeemable after 100 SC play-through
+
+## AUTO-FAIL CONDITIONS (any ONE triggers grade F, score 0-44)
+1. FACTUAL ERROR: Agent stated wrong policy value (wrong dollar amount, wrong timeline, wrong play-through)
+2. FABRICATED OUTAGE: Agent claimed "high volume of requests," "technical issues," or "system maintenance" to cover going idle — without a confirmed real outage
+3. QUESTION-THEN-CLOSE: Agent asked a diagnostic question then immediately said farewell and closed WITHOUT waiting for the client reply
+4. ZERO RESPONSE: Client sent one or more messages, agent never replied
+5. WRONG HARM FAREWELL: Client mentioned addiction/problem gambling and agent closed with "Hope you enjoy your games" instead of care-focused farewell + helpline 1-800-522-4700
+6. PII REQUEST: Agent shared or requested credit card numbers, full SSN, bank routing numbers, or passwords
+
+## SCORING RUBRIC
+- 90-100 (A): Accurate policy, resolved issue, proper greeting/farewell, fast response, proactive
+- 75-89 (B): Mostly correct, minor style issue, resolved but slightly rough
+- 60-74 (C): Partial resolution, process issue, or minor factual imprecision (not auto-fail level)
+- 45-59 (D): Did not resolve, significant process failure, or multiple minor issues
+- 0-44 (F): Auto-fail triggered OR complete failure to handle the issue
+
+## EVALUATION CHECKLIST
+1. Greeting: Did agent greet warmly? (deduct for "Dear Player" or cold opener)
+2. Policy accuracy: Cross-check every factual claim against Platform Facts above
+3. Resolution: Did agent actually solve the issue or just close it?
+4. Farewell: Appropriate tone? Harm-related closure handled correctly?
+5. Response speed: Any indication of long delays before first reply?
+6. Language: Approved scripts vs fabricated explanations?
+
+## IMPORTANT: ALIASES ARE APPROVED POLICY
+Agents operate under company-assigned chat names. Never flag an agent for using their assigned chat alias.
+
+Respond ONLY with valid JSON. No markdown, no preamble, no extra text.`;
+
+// Grade a single ticket using JackpotDaily-specific QA criteria
 async function gradeTicket(ticket: Ticket, messages: Array<{content?: string}>): Promise<{
   score: number;
   grade: string;
@@ -113,20 +159,30 @@ async function gradeTicket(ticket: Ticket, messages: Array<{content?: string}>):
   issues: string[];
 }> {
   const conversation = messages.map(m => m.content || '').join('\n');
-  const prompt = `You are a QA grader for customer service interactions. Grade this conversation on a scale of 0-100.
+  const agentName = ticket.primary_agent || 'Unknown Agent';
+  const prompt = `Grade this JackpotDaily customer support chat transcript.
 
-Conversation:
-${conversation.slice(0, 5000)}
+Agent: ${agentName}
+Category: ${ticket.category || 'Unknown'}
+Ticket ID: ${ticket.id}
+Closed by agent: ${ticket.is_closed ? 'Yes' : 'No'}
+Has recall: ${ticket.has_recall ? 'Yes' : 'No'}
+FRT seconds: ${ticket.frt_seconds ?? 'Unknown'}
 
-Provide response in JSON format:
+--- TRANSCRIPT ---
+${conversation.slice(0, 4500)}
+--- END TRANSCRIPT ---
+
+Check auto-fail conditions first. If ANY auto-fail condition applies, set score<=44, grade="F", auto_fail=true.
+Return ONLY this JSON (no markdown):
 {
-  "score": <0-100>,
-  "grade": "A"|"B"|"C"|"D"|"F",
-  "auto_fail": <boolean>,
-  "auto_fail_reason": <null or string>,
-  "coaching_tip": <string>,
-  "strengths": [<strings>],
-  "issues": [<strings>]
+  "score": <integer 0-100>,
+  "grade": <"A"|"B"|"C"|"D"|"F">,
+  "auto_fail": <true|false>,
+  "auto_fail_reason": <null or exact quote/description of the violation>,
+  "coaching_tip": <one specific actionable sentence with exact language the agent should use>,
+  "strengths": [<1-3 specific observations, or []>],
+  "issues": [<1-3 specific issues, or []>]
 }`;
 
   try {
@@ -139,7 +195,7 @@ Provide response in JSON format:
       body: JSON.stringify({
         model: 'anthropic/claude-haiku-4-5',
         messages: [
-          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'system', content: TICKET_GRADING_SYSTEM },
           { role: 'user', content: prompt },
         ],
         temperature: 0.5,
