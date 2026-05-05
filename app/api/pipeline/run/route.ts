@@ -601,6 +601,9 @@ export async function POST(req: NextRequest) {
           total_tickets: teamAggregates.total_tickets,
           agent_count: perAgentStats.length,
           storage_paths: storagePaths,
+          qa_report_path: qaPath,
+          inquiry_report_path: inquiryPath,
+          individual_report_path: agentPath,
           grading_summary: {
             tickets_graded: gradedCount,
             tickets_failed: gradeFailures,
