@@ -77,20 +77,34 @@ function AllChatsInner() {
     fetchWeeks();
   }, []);
 
-  // Fetch tickets when week changes
+  // Fetch ALL tickets when week changes — paginate through Supabase's 1000-row cap
   useEffect(() => {
     const fetchTickets = async () => {
       if (!selectedWeek) return;
       setLoading(true);
       try {
-        const params = new URLSearchParams({
-          week_start: selectedWeek,
-          limit: '2000',
-          offset: '0',
-        });
-        const res = await fetch(`/api/data/tickets?${params}`);
-        const data = await res.json();
-        setTickets(data.tickets || []);
+        const CHUNK = 500;
+        let offset = 0;
+        let all: Ticket[] = [];
+        let total = Infinity;
+
+        while (offset < total) {
+          const params = new URLSearchParams({
+            week_start: selectedWeek,
+            limit: String(CHUNK),
+            offset: String(offset),
+          });
+          const res = await fetch(`/api/data/tickets?${params}`);
+          const data = await res.json();
+          const chunk: Ticket[] = data.tickets || [];
+          all = all.concat(chunk);
+          total = data.total ?? all.length;
+          offset += CHUNK;
+          // If we got fewer than a full chunk, we're done
+          if (chunk.length < CHUNK) break;
+        }
+
+        setTickets(all);
         setPage(0);
       } catch (err) {
         console.error('Error fetching tickets:', err);

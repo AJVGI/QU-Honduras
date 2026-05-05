@@ -42,44 +42,155 @@ function getPeriodLabel(startDate: Date, endDate: Date): string {
   return `${fmt(startDate)} to ${fmt(endDate)}, ${endDate.getUTCFullYear()}`;
 }
 
-function createSimpleDocx(title: string, content: string): Promise<Buffer> {
-  const lines = content.split('\n');
-  const children: Paragraph[] = [
-    new Paragraph({
-      children: [
-        new TextRun({
-          text: title,
-          bold: true,
-          size: 56,
-        }),
-      ],
-    }),
-    new Paragraph({
-      children: [
-        new TextRun({
-          text: `Generated: ${new Date().toISOString()}`,
-          italics: true,
-        }),
-      ],
-      spacing: { after: 400 },
-    }),
-    ...lines.map(
+/** Sanitise a string so it's safe to embed in a docx TextRun */
+function safe(s: unknown): string {
+  if (s === null || s === undefined) return '';
+  return String(s)
+    // strip null-bytes and other control chars that trip Word's validator
+    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '')
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '\n');
+}
+
+/** Build a bold heading paragraph */
+function heading(text: string, size = 32): Paragraph {
+  return new Paragraph({
+    children: [new TextRun({ text: safe(text), bold: true, size })],
+    spacing: { before: 300, after: 120 },
+  });
+}
+
+/** Build a plain body paragraph — splits on \n to avoid embedded newlines */
+function body(text: string): Paragraph[] {
+  return safe(text)
+    .split('\n')
+    .map(
       line =>
         new Paragraph({
-          children: [new TextRun(line || ' ')],
-          spacing: { after: 100 },
+          children: [new TextRun({ text: line || ' ' })],
+          spacing: { after: 80 },
         })
+    );
+}
+
+/** Key-value row */
+function kv(label: string, value: unknown): Paragraph {
+  return new Paragraph({
+    children: [
+      new TextRun({ text: `${safe(label)}: `, bold: true }),
+      new TextRun({ text: safe(String(value ?? '—')) }),
+    ],
+    spacing: { after: 80 },
+  });
+}
+
+/** Build a QA Report docx from structured report data */
+function buildQAReportDocx(periodLabel: string, report: PipelineReport, gradedCount: number): Promise<Buffer> {
+  const agg = report.team_aggregates;
+  const totalClosed = Math.round((agg.closure_pct / 100) * agg.total_tickets);
+  const children: Paragraph[] = [
+    heading(`QA Report — ${periodLabel}`, 48),
+    kv('Generated', new Date().toUTCString()),
+    new Paragraph({ children: [] }),
+
+    heading('Team Summary'),
+    kv('Total Tickets', agg.total_tickets),
+    kv('Closed', totalClosed),
+    kv('Closure Rate', `${agg.closure_pct.toFixed(1)}%`),
+    kv('Avg First Response Time', `${(agg.avg_frt_seconds / 60).toFixed(1)} min`),
+    kv('Slow FRT Rate', `${agg.slow_frt_pct.toFixed(1)}%`),
+    kv('Bot Abandoned Rate', `${agg.bot_abandoned_pct.toFixed(1)}%`),
+    kv('Tickets Graded This Run', gradedCount),
+    new Paragraph({ children: [] }),
+
+    heading('Per-Agent Breakdown'),
+    ...report.per_agent_stats.flatMap(a => [
+      kv('Agent', a.agent),
+      kv('  Total Tickets', a.total),
+      kv('  Closed', a.closed),
+      kv('  Closure Rate', `${a.closure_pct.toFixed(1)}%`),
+      kv('  Recalls', a.recalls),
+      kv('  Avg FRT', a.avg_frt_seconds != null ? `${(a.avg_frt_seconds / 60).toFixed(1)} min` : 'N/A'),
+      new Paragraph({ children: [] }),
+    ]),
+
+    heading('Inquiry Category Breakdown'),
+    ...report.inquiry_categories.map(ic =>
+      kv(ic.name, `${ic.count} tickets (${ic.pct_of_total.toFixed(1)}%)`)
     ),
   ];
 
-  const doc = new Document({
-    sections: [
-      {
-        children,
-      },
-    ],
-  });
+  const doc = new Document({ sections: [{ children }] });
+  return Packer.toBuffer(doc);
+}
 
+/** Build an Inquiry Report docx */
+function buildInquiryReportDocx(periodLabel: string, report: PipelineReport): Promise<Buffer> {
+  const children: Paragraph[] = [
+    heading(`Inquiry Report — ${periodLabel}`, 48),
+    kv('Generated', new Date().toUTCString()),
+    new Paragraph({ children: [] }),
+
+    heading('Category Breakdown'),
+    ...report.inquiry_categories.map(ic =>
+      kv(ic.name, `${ic.count} tickets (${ic.pct_of_total.toFixed(1)}%)`)
+    ),
+    new Paragraph({ children: [] }),
+
+    heading('Sample Tickets by Agent'),
+    ...Object.entries(report.sampled_tickets).flatMap(([agent, tickets]) => [
+      heading(`Agent: ${agent}`, 28),
+      ...tickets.flatMap(t => [
+        kv('  Category', t.category),
+        kv('  Closed', t.is_closed ? 'Yes' : 'No'),
+        kv('  Has Recall', t.has_recall ? 'Yes' : 'No'),
+        kv('  Grade', t.grade ?? 'Ungraded'),
+        new Paragraph({ children: [] }),
+      ]),
+    ]),
+  ];
+
+  const doc = new Document({ sections: [{ children }] });
+  return Packer.toBuffer(doc);
+}
+
+/** Build an Agent Performance Report docx */
+function buildAgentReportDocx(periodLabel: string, report: PipelineReport): Promise<Buffer> {
+  const children: Paragraph[] = [
+    heading(`Agent Performance Report — ${periodLabel}`, 48),
+    kv('Generated', new Date().toUTCString()),
+    new Paragraph({ children: [] }),
+  ];
+
+  for (const a of report.per_agent_stats) {
+    children.push(
+      heading(`${a.agent}`, 32),
+      kv('Total Tickets', a.total),
+      kv('Closed', a.closed),
+      kv('Closure Rate', `${a.closure_pct.toFixed(1)}%`),
+      kv('Recalls', a.recalls),
+      kv('Avg FRT', a.avg_frt_seconds != null ? `${(a.avg_frt_seconds / 60).toFixed(1)} min` : 'N/A'),
+    );
+
+    // Include graded samples
+    const samples = report.sampled_tickets[a.agent] || [];
+    const graded = samples.filter(t => t.grade);
+    if (graded.length) {
+      children.push(heading('Graded Samples', 26));
+      for (const t of graded) {
+        children.push(
+          kv('  Grade', `${t.grade} (${t.score ?? '—'})`),
+          kv('  Category', t.category),
+          kv('  Auto-Fail', t.auto_fail ? `YES — ${(t as any).auto_fail_reason || 'see scorecard'}` : 'No'),
+          kv('  Coaching Tip', t.coaching_tip || '—'),
+          new Paragraph({ children: [] }),
+        );
+      }
+    }
+    children.push(new Paragraph({ children: [] }));
+  }
+
+  const doc = new Document({ sections: [{ children }] });
   return Packer.toBuffer(doc);
 }
 
@@ -433,24 +544,15 @@ export async function POST(req: NextRequest) {
       sampled_tickets: sampledTickets,
     };
 
-    // 7. Call LLM for analysis (stub for now)
-    console.log('[Pipeline] Calling LLM for analysis...');
-    const analysis = await callLLMAnalysis(report);
+    // 7. LLM analysis stub — reserved for future deep analysis; not used for docx generation
+    console.log('[Pipeline] Skipping stub LLM analysis...');
+    void callLLMAnalysis; // suppress unused warning
 
-    // 8. Generate docx reports
+    // 8. Generate docx reports — structured content, no raw JSON
     console.log('[Pipeline] Generating reports...');
-    const qaReportBuffer = await createSimpleDocx(
-      `QA Report - ${periodLabel}`,
-      JSON.stringify(analysis.qa_report, null, 2)
-    );
-    const inquiryReportBuffer = await createSimpleDocx(
-      `Inquiry Report - ${periodLabel}`,
-      JSON.stringify(analysis.inquiry_report, null, 2)
-    );
-    const agentReportBuffer = await createSimpleDocx(
-      `Agent Report - ${periodLabel}`,
-      JSON.stringify(analysis.agent_report, null, 2)
-    );
+    const qaReportBuffer = await buildQAReportDocx(periodLabel, report, gradedCount);
+    const inquiryReportBuffer = await buildInquiryReportDocx(periodLabel, report);
+    const agentReportBuffer = await buildAgentReportDocx(periodLabel, report);
 
     // 9. Upload to Supabase Storage
     console.log('[Pipeline] Uploading reports to Supabase Storage...');
